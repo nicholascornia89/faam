@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JyGMKbcz
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------: | :------------------------: | :--------------------------------------------------------: |
-    | JyGMKbcz  | Lucrezia Borgia | Lucrezia Borgia | Opera by Gaetano Donizetti | [Lucrezia Borgia](http://wwww.wikidata.org/entity/Q685501) |
+    | FAAM UUID | label           | aliases         | description                | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------: | :------------------------: | :---------------------------------------------------: |
+    | JyGMKbcz  | Lucrezia Borgia | Lucrezia Borgia | Opera by Gaetano Donizetti | [Lucrezia Borgia](http://wikidata.org/entity/Q685501) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./RF3fhSei.md)
+	- [Lucrèce Borgia](./RF3fhSei.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/JyGMKbcz.html" height="800" width="1200" title="JyGMKbcz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JyGMKbcz" height="800" width="1200" title="JyGMKbcz"></iframe>
 
 ## Identifiers
 

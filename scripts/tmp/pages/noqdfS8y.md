@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: noqdfS8y
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                    | aliases         | Wikidata QID                                                 |
-    | :-------: | :---------------: | :----------------------------: | :-------------: | :----------------------------------------------------------: |
-    | noqdfS8y  | Habsburg monarchy | monarchy in Europe (1282–1918) | Habsburg Empire | [Habsburg monarchy](http://wwww.wikidata.org/entity/Q153136) |
+    | FAAM UUID | label             | description                    | aliases         | Wikidata QID                                            |
+    | :-------: | :---------------: | :----------------------------: | :-------------: | :-----------------------------------------------------: |
+    | noqdfS8y  | Habsburg monarchy | monarchy in Europe (1282–1918) | Habsburg Empire | [Habsburg monarchy](http://wikidata.org/entity/Q153136) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/noqdfS8y.html" height="800" width="1200" title="noqdfS8y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/noqdfS8y" height="800" width="1200" title="noqdfS8y"></iframe>
 
 ## Identifiers
 

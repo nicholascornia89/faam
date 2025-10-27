@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: biERyymK
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases                 | description                               | Wikidata QID                                                          |
-    | :-------: | :---------------------: | :---------------------: | :---------------------------------------: | :-------------------------------------------------------------------: |
-    | biERyymK  | Fratres ego enim accepi | Fratres ego enim accepi | motet by Giovanni Pierluigi da Palestrina | [Fratres ego enim accepi](http://wwww.wikidata.org/entity/Q124310060) |
+    | FAAM UUID | label                   | aliases                 | description                               | Wikidata QID                                                     |
+    | :-------: | :---------------------: | :---------------------: | :---------------------------------------: | :--------------------------------------------------------------: |
+    | biERyymK  | Fratres ego enim accepi | Fratres ego enim accepi | motet by Giovanni Pierluigi da Palestrina | [Fratres ego enim accepi](http://wikidata.org/entity/Q124310060) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/biERyymK.html" height="800" width="1200" title="biERyymK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/biERyymK" height="800" width="1200" title="biERyymK"></iframe>
 
 ## Identifiers
 
@@ -67,19 +71,19 @@ tags: musical_work
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)](./4MMhcBUy.md)__
 
-	![Image](../assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia](./iFkRR5rr.md)__
 
-	![Image](../assets/images/thumbs/SLD-512657440.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SLD-512657440.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)](./4MMhcBUy.md)__
 
-	![Image](../assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
 
 	
 

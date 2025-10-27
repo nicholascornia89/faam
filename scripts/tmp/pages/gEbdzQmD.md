@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gEbdzQmD
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                         | aliases | Wikidata QID                                            |
-    | :-------: | :--------: | :-------------------------------------------------: | :-----: | :-----------------------------------------------------: |
-    | gEbdzQmD  | high voice | high-register voice that is not otherwise specified |         | [high voice](http://wwww.wikidata.org/entity/Q98116969) |
+    | FAAM UUID | label      | description                                         | aliases | Wikidata QID                                       |
+    | :-------: | :--------: | :-------------------------------------------------: | :-----: | :------------------------------------------------: |
+    | gEbdzQmD  | high voice | high-register voice that is not otherwise specified |         | [high voice](http://wikidata.org/entity/Q98116969) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/gEbdzQmD.html" height="800" width="1200" title="gEbdzQmD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gEbdzQmD" height="800" width="1200" title="gEbdzQmD"></iframe>
 
 ## Cross-references
 

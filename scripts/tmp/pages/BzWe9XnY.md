@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BzWe9XnY
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                    | aliases | Wikidata QID                                                     |
-    | :-------: | :------------------: | :----------------------------: | :-----: | :--------------------------------------------------------------: |
-    | BzWe9XnY  | Kungliga Hovkapellet | Swedish royal chapel orchestra |         | [Kungliga Hovkapellet](http://wwww.wikidata.org/entity/Q4993067) |
+    | FAAM UUID | label                | description                    | aliases | Wikidata QID                                                |
+    | :-------: | :------------------: | :----------------------------: | :-----: | :---------------------------------------------------------: |
+    | BzWe9XnY  | Kungliga Hovkapellet | Swedish royal chapel orchestra |         | [Kungliga Hovkapellet](http://wikidata.org/entity/Q4993067) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: music_organization
 
 !!! quote "country" 
 
-	[](./3Ho9ctKq.md)
+	[Sweden](./3Ho9ctKq.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BzWe9XnY.html" height="800" width="1200" title="BzWe9XnY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BzWe9XnY" height="800" width="1200" title="BzWe9XnY"></iframe>
 
 ## Cross-references
 

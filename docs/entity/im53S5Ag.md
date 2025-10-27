@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: im53S5Ag
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/im53S5Ag.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/im53S5Ag.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/im53S5Ag.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/im53S5Ag.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/im53S5Ag.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/im53S5Ag.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description                  | Wikidata QID                                            |
-    | :-------: | :---------: | :---------: | :--------------------------: | :-----------------------------------------------------: |
-    | im53S5Ag  | Henry Sarly | Henri Sarly | Belgian composer (1883-1954) | [Henry Sarly](http://wwww.wikidata.org/entity/Q2465979) |
+    | FAAM UUID | label       | aliases     | description                  | Wikidata QID                                       |
+    | :-------: | :---------: | :---------: | :--------------------------: | :------------------------------------------------: |
+    | im53S5Ag  | Henry Sarly | Henri Sarly | Belgian composer (1883-1954) | [Henry Sarly](http://wikidata.org/entity/Q2465979) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/im53S5Ag.html" height="800" width="1200" title="im53S5Ag"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/im53S5Ag" height="800" width="1200" title="im53S5Ag"></iframe>
 
 ## Identifiers
 
@@ -71,14 +75,24 @@ tags: agent
 
 -	__[Cours pratique et théorique d'harmonie](./CE5D3kgY.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902508966.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902508966.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Cours pratique et théorique d'harmonie](./jsocgzie.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904338792.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904338792.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[August Verbesselt](./7M5wmsyu.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Belgian composer and flute player, 1919–2012
 
 </div>

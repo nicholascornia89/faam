@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jHLdEc4N
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/jHLdEc4N.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/jHLdEc4N.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/jHLdEc4N.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/jHLdEc4N.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/jHLdEc4N.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/jHLdEc4N.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Elwart,_Antoine,_Nadar_Gallica.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                     | description                 | Wikidata QID                                              |
-    | :-------: | :------------: | :-------------------------: | :-------------------------: | :-------------------------------------------------------: |
-    | jHLdEc4N  | Antoine Elwart | Antoine Aimable Elie Elwart | French composer (1808-1877) | [Antoine Elwart](http://wwww.wikidata.org/entity/Q374582) |
+    | FAAM UUID | label          | aliases                     | description                 | Wikidata QID                                         |
+    | :-------: | :------------: | :-------------------------: | :-------------------------: | :--------------------------------------------------: |
+    | jHLdEc4N  | Antoine Elwart | Antoine Aimable Elie Elwart | French composer (1808-1877) | [Antoine Elwart](http://wikidata.org/entity/Q374582) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/jHLdEc4N.html" height="800" width="1200" title="jHLdEc4N"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jHLdEc4N" height="800" width="1200" title="jHLdEc4N"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,31 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Victorin de Joncières](./GWNPu33q.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joncières,_Victorin_de,_Nadar,_Gallica.jpg){align=left width="150" height="150"} 
+
+	French composer (1839–1903)
+
+-	__[Eugène Anthiome](./gEt6mois.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eugène_Anthiome_1900.jpg){align=left width="150" height="150"} 
+
+	French composer (1836-1916)
+
+-	__[Jean-Baptiste Weckerlin](./EwnBWtPa.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Baptiste_Weckerlin_par_Truchelut.png){align=left width="150" height="150"} 
+
+	French composer and music publisher (1821–1910)
+
+-	__[Émile Prudent](./fUJMAmfo.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Prudent_by_Tournachon_Gaspard_Felix.jpg){align=left width="150" height="150"} 
+
+	Pianist and composer
+
+</div>

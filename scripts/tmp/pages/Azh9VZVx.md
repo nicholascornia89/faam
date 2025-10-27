@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Azh9VZVx
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Azh9VZVx.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Azh9VZVx.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Azh9VZVx.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Azh9VZVx.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Azh9VZVx.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Azh9VZVx.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description            | Wikidata QID                                               |
-    | :-------: | :-----------: | :-----------: | :--------------------: | :--------------------------------------------------------: |
-    | Azh9VZVx  | Gustav Heinze | Gustav Heinze | German music publisher | [Gustav Heinze](http://wwww.wikidata.org/entity/Q95296347) |
+    | FAAM UUID | label         | aliases       | description            | Wikidata QID                                          |
+    | :-------: | :-----------: | :-----------: | :--------------------: | :---------------------------------------------------: |
+    | Azh9VZVx  | Gustav Heinze | Gustav Heinze | German music publisher | [Gustav Heinze](http://wikidata.org/entity/Q95296347) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Azh9VZVx.html" height="800" width="1200" title="Azh9VZVx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Azh9VZVx" height="800" width="1200" title="Azh9VZVx"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: agent
 
 -	__[Drittes Concert : (in G moll) für Pianoforte und Orchester : Opus 58](./2kSojYWh.md)__
 
-	![Image](../assets/images/thumbs/KCG-000740541.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000740541.gif){align=left width="150" height="150"} 
 
 	
 

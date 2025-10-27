@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YMCERezP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description    | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :------------: | :-----: | :--------------------------------------------------: |
-    | YMCERezP  | Vallerano | Italian comune |         | [Vallerano](http://wwww.wikidata.org/entity/Q180064) |
+    | FAAM UUID | label     | description    | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :------------: | :-----: | :---------------------------------------------: |
+    | YMCERezP  | Vallerano | Italian comune |         | [Vallerano](http://wikidata.org/entity/Q180064) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YMCERezP.html" height="800" width="1200" title="YMCERezP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YMCERezP" height="800" width="1200" title="YMCERezP"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: city
 
 -	__[Giovanni Bernardino Nanino](./2xoiCVu9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giovanni Bernardino Nanino](./2xoiCVu9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

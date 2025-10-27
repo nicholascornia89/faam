@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JBXSgTmB
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                                    | aliases                           | Wikidata QID                                                                  |
-    | :-------: | :--------------------------------: | :--------------------------------------------: | :-------------------------------: | :---------------------------------------------------------------------------: |
-    | JBXSgTmB  | University of California, Berkeley | public university in Berkeley, California, USA | University of California Berkeley | [University of California, Berkeley](http://wwww.wikidata.org/entity/Q168756) |
+    | FAAM UUID | label                              | description                                    | aliases                           | Wikidata QID                                                             |
+    | :-------: | :--------------------------------: | :--------------------------------------------: | :-------------------------------: | :----------------------------------------------------------------------: |
+    | JBXSgTmB  | University of California, Berkeley | public university in Berkeley, California, USA | University of California Berkeley | [University of California, Berkeley](http://wikidata.org/entity/Q168756) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/JBXSgTmB.html" height="800" width="1200" title="JBXSgTmB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JBXSgTmB" height="800" width="1200" title="JBXSgTmB"></iframe>
 
 ## Cross-references
 
@@ -47,7 +51,7 @@ tags: music_organization
 
 -	__[Charles Seeger](./F9E2vpm3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American musicologist (1886–1979)
 

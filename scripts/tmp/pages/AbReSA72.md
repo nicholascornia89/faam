@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AbReSA72
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/AbReSA72.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/AbReSA72.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/AbReSA72.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/AbReSA72.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/AbReSA72.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/AbReSA72.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                     | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-------------: | :-----------------------------: | :----------------------------------------------------------: |
-    | AbReSA72  | Gustavo Carulli | Gustavo Carulli | Italian-French musician 1801-76 | [Gustavo Carulli](http://wwww.wikidata.org/entity/Q27468365) |
+    | FAAM UUID | label           | aliases         | description                     | Wikidata QID                                            |
+    | :-------: | :-------------: | :-------------: | :-----------------------------: | :-----------------------------------------------------: |
+    | AbReSA72  | Gustavo Carulli | Gustavo Carulli | Italian-French musician 1801-76 | [Gustavo Carulli](http://wikidata.org/entity/Q27468365) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/AbReSA72.html" height="800" width="1200" title="AbReSA72"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AbReSA72" height="800" width="1200" title="AbReSA72"></iframe>
 
 ## Identifiers
 
@@ -89,7 +93,7 @@ tags: agent
 
 -	__[Trois Quatuors : pour Soprano, Contralte, Tenor & Basse](./oQXzQeSL.md)__
 
-	![Image](../assets/images/thumbs/KCG-000338557.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000338557.gif){align=left width="150" height="150"} 
 
 	
 

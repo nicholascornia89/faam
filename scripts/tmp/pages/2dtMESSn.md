@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2dtMESSn
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                                           | aliases                         | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :---------------------------------------------------: | :-----------------------------: | :-----------------------------------------------------------------: |
-    | 2dtMESSn  | Kingdom of Great Britain | constitutional monarchy in Western Europe (1707–1800) | United Kingdom of Great Britain | [Kingdom of Great Britain](http://wwww.wikidata.org/entity/Q161885) |
+    | FAAM UUID | label                    | description                                           | aliases                         | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :---------------------------------------------------: | :-----------------------------: | :------------------------------------------------------------: |
+    | 2dtMESSn  | Kingdom of Great Britain | constitutional monarchy in Western Europe (1707–1800) | United Kingdom of Great Britain | [Kingdom of Great Britain](http://wikidata.org/entity/Q161885) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/2dtMESSn.html" height="800" width="1200" title="2dtMESSn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2dtMESSn" height="800" width="1200" title="2dtMESSn"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: country
 
 -	__[Thomas Haigh](./4UFJuwWB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English musician and composer
 
@@ -79,7 +83,7 @@ tags: country
 
 -	__[James Cervetto](./mKS3bq3i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English cellist and composer
 

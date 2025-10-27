@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7JJAVcBM
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | aliases  | description        | Wikidata QID                                         |
-    | :-------: | :------: | :------: | :----------------: | :--------------------------------------------------: |
-    | 7JJAVcBM  | Anacréon | Anacreon | opera by Cherubini | [Anacréon](http://wwww.wikidata.org/entity/Q4750726) |
+    | FAAM UUID | label    | aliases  | description        | Wikidata QID                                    |
+    | :-------: | :------: | :------: | :----------------: | :---------------------------------------------: |
+    | 7JJAVcBM  | Anacréon | Anacreon | opera by Cherubini | [Anacréon](http://wikidata.org/entity/Q4750726) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/7JJAVcBM.html" height="800" width="1200" title="7JJAVcBM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7JJAVcBM" height="800" width="1200" title="7JJAVcBM"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Ouverture d'Anacréon ou l'Amour Fugitif : A Grand Orchestre](./HV6r8VMy.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339227.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339227.gif){align=left width="150" height="150"} 
 
 	
 

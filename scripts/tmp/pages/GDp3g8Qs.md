@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GDp3g8Qs
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                               | aliases             | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :---------------------------------------: | :-----------------: | :-------------------------------------------------------------: |
-    | GDp3g8Qs  | University of Liège | Belgian public university founded in 1817 | Université de Liège | [University of Liège](http://wwww.wikidata.org/entity/Q1334582) |
+    | FAAM UUID | label               | description                               | aliases             | Wikidata QID                                               |
+    | :-------: | :-----------------: | :---------------------------------------: | :-----------------: | :--------------------------------------------------------: |
+    | GDp3g8Qs  | University of Liège | Belgian public university founded in 1817 | Université de Liège | [University of Liège](http://wikidata.org/entity/Q1334582) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/GDp3g8Qs.html" height="800" width="1200" title="GDp3g8Qs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GDp3g8Qs" height="800" width="1200" title="GDp3g8Qs"></iframe>
 
 ## Cross-references
 

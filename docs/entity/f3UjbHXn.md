@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: f3UjbHXn
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases | description | Wikidata QID                         |
-    | :-------: | :-------: | :-----: | :---------: | :----------------------------------: |
-    | f3UjbHXn  | Struensée |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label     | aliases | description | Wikidata QID                    |
+    | :-------: | :-------: | :-----: | :---------: | :-----------------------------: |
+    | f3UjbHXn  | Struensée |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/f3UjbHXn.html" height="800" width="1200" title="f3UjbHXn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/f3UjbHXn" height="800" width="1200" title="f3UjbHXn"></iframe>
 
 ## Identifiers
 

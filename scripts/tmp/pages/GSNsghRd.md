@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GSNsghRd
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                       | aliases  | Wikidata QID                                               |
-    | :-------: | :------------: | :-------------------------------: | :------: | :--------------------------------------------------------: |
-    | GSNsghRd  | music arranger | musician who creates arrangements | arranger | [music arranger](http://wwww.wikidata.org/entity/Q1643514) |
+    | FAAM UUID | label          | description                       | aliases  | Wikidata QID                                          |
+    | :-------: | :------------: | :-------------------------------: | :------: | :---------------------------------------------------: |
+    | GSNsghRd  | music arranger | musician who creates arrangements | arranger | [music arranger](http://wikidata.org/entity/Q1643514) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/GSNsghRd.html" height="800" width="1200" title="GSNsghRd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GSNsghRd" height="800" width="1200" title="GSNsghRd"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Franz Görner](./DzFR58ko.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German pianist and music arranger
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Giulio Briccialdi](./KuMf3k3f.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
 
 	Italian musician (1818–1881)
 
@@ -79,13 +83,13 @@ tags: occupation
 
 -	__[Hans von Bülow](./AaF6WQEA.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Hans_von_buelow.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans_von_buelow.jpg){align=left width="150" height="150"} 
 
 	German conductor and pianist (1830–1894)
 
 -	__[Franz Kullak](./KQYeWCdx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1844-1913)
 
@@ -103,25 +107,25 @@ tags: occupation
 
 -	__[Kaspar Fürstenau](./W5tLaHDf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German flautist (1772-1819)
 
 -	__[Leopold Jansa](./aovZZUxK.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/9/9a/Leopold_Jansa.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Jansa.jpg){align=left width="150" height="150"} 
 
 	Czech violinist, music educator and composer (1795–1875)
 
 -	__[Franz Alexander Pössinger](./ZchmW76w.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 
 -	__[Angelo Consolini](./2Sh2rJhV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1859-1934)
 
@@ -133,19 +137,19 @@ tags: occupation
 
 -	__[Michel Folz](./5Ze3Bk9Z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music arranger
 
 -	__[Karl Schwencke](./EjvQ4EcD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c3/PPN663943914_Carl_Schwencke_%281853%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/PPN663943914_Carl_Schwencke_%281853%29.jpg){align=left width="150" height="150"} 
 
 	German pianist and composer
 
 -	__[Benoît-Constat Fauconier](./JmsQ8D5i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
@@ -163,25 +167,25 @@ tags: occupation
 
 -	__[Gérard Nauwelaers](./GwzqZPkq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Franz Xaver Gleichauf](./9A7T4C3U.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Vincenzo Gambaro](./RJrp7LF2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Gustav Zanger](./VVgPhAqK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -193,49 +197,49 @@ tags: occupation
 
 -	__[Henry Jacqmin](./SXsr2eC2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music arranger
 
 -	__[Jos. Bouwens](./2piRAHqK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[L. Corret](./kFuM9vEH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, horn player and music arranger
 
 -	__[Andermann](./DknDehba.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[M. Gaultier](./S63SGbw2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[P. Nacher](./DJXHHAks.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Daniel Hermann](./XLmyCS7h.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Louis Lahou](./PNsdjaKx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian arranger and music publisher
 

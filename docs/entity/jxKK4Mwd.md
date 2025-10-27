@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jxKK4Mwd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description             | aliases | Wikidata QID                                                   |
-    | :-------: | :----------------: | :---------------------: | :-----: | :------------------------------------------------------------: |
-    | jxKK4Mwd  | rue de Castiglione | street in Paris, France |         | [rue de Castiglione](http://wwww.wikidata.org/entity/Q3450635) |
+    | FAAM UUID | label              | description             | aliases | Wikidata QID                                              |
+    | :-------: | :----------------: | :---------------------: | :-----: | :-------------------------------------------------------: |
+    | jxKK4Mwd  | rue de Castiglione | street in Paris, France |         | [rue de Castiglione](http://wikidata.org/entity/Q3450635) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jxKK4Mwd.html" height="800" width="1200" title="jxKK4Mwd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jxKK4Mwd" height="800" width="1200" title="jxKK4Mwd"></iframe>
 
 ## Identifiers
 

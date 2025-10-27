@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kKwqeSnh
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                | aliases                       | description                        | Wikidata QID                                                                       |
-    | :-------: | :----------------------------------: | :---------------------------: | :--------------------------------: | :--------------------------------------------------------------------------------: |
-    | kKwqeSnh  | Charles de France ou Amour et gloire | Les Chevaliers de la Fidélité | opera by François-Adrien Boieldieu | [Charles de France ou Amour et gloire](http://wwww.wikidata.org/entity/Q126366946) |
+    | FAAM UUID | label                                | aliases                       | description                        | Wikidata QID                                                                  |
+    | :-------: | :----------------------------------: | :---------------------------: | :--------------------------------: | :---------------------------------------------------------------------------: |
+    | kKwqeSnh  | Charles de France ou Amour et gloire | Les Chevaliers de la Fidélité | opera by François-Adrien Boieldieu | [Charles de France ou Amour et gloire](http://wikidata.org/entity/Q126366946) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/kKwqeSnh.html" height="800" width="1200" title="kKwqeSnh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kKwqeSnh" height="800" width="1200" title="kKwqeSnh"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Fantaisie : pour Piano & Flûte obligée : Sur la Romance de Charles de France dite Les Chevaliers de la Fidélité : Op: 78](./gfoR5t3Y.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334248.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334248.gif){align=left width="150" height="150"} 
 
 	
 

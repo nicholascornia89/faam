@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: e48acoxH
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/e48acoxH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/e48acoxH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/e48acoxH.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/e48acoxH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/e48acoxH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/e48acoxH.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felix_Woyrsch.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description     | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :-------------: | :------------------------------------------------------: |
-    | e48acoxH  | Felix Woyrsch | Felix Woyrsch | German composer | [Felix Woyrsch](http://wwww.wikidata.org/entity/Q315824) |
+    | FAAM UUID | label         | aliases       | description     | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :-------------: | :-------------------------------------------------: |
+    | e48acoxH  | Felix Woyrsch | Felix Woyrsch | German composer | [Felix Woyrsch](http://wikidata.org/entity/Q315824) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/e48acoxH.html" height="800" width="1200" title="e48acoxH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/e48acoxH" height="800" width="1200" title="e48acoxH"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,11 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Missa in A minor](./AJRS4PAe.md)__
+
+	
+
+</div>

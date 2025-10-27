@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "WYPRWwdn", "label": "La Garenne-Colombes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WYPRWwdn.md\u0027\u003eLa Garenne-Colombes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecommune in Hauts-de-Seine, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BJqUa5Kf.md\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "4Ri8nLVL", "label": "Enrico Delle Sedie", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4Ri8nLVL.md\u0027\u003eEnrico Delle Sedie\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian opera singer (1822\u20131907)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait_de_Delle_Sedie,_(1825-1907),_(baryton),_PH49331.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "WYPRWwdn", "to": "BJqUa5Kf", "width": 10}, {"from": "WYPRWwdn", "to": "4Ri8nLVL", "width": 10}, {"from": "BJqUa5Kf", "to": "4Ri8nLVL", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "4Ri8nLVL", "label": "Enrico Delle Sedie", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4Ri8nLVL\u0027\u003eEnrico Delle Sedie\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian opera singer (1822\u20131907)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait_de_Delle_Sedie,_(1825-1907),_(baryton),_PH49331.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BJqUa5Kf\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "WYPRWwdn", "label": "La Garenne-Colombes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WYPRWwdn\u0027\u003eLa Garenne-Colombes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecommune in Hauts-de-Seine, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "4Ri8nLVL", "to": "BJqUa5Kf", "width": 1}, {"from": "4Ri8nLVL", "to": "WYPRWwdn", "width": 10}, {"from": "WYPRWwdn", "to": "BJqUa5Kf", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JzMNvvTk
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                      | aliases        | Wikidata QID                                                |
-    | :-------: | :--------------: | :----------------------------------------------: | :------------: | :---------------------------------------------------------: |
-    | JzMNvvTk  | Kingdom of Italy | kingdom in southern Europe between 1805 and 1814 | Regno d'Italia | [Kingdom of Italy](http://wwww.wikidata.org/entity/Q223936) |
+    | FAAM UUID | label            | description                                      | aliases        | Wikidata QID                                           |
+    | :-------: | :--------------: | :----------------------------------------------: | :------------: | :----------------------------------------------------: |
+    | JzMNvvTk  | Kingdom of Italy | kingdom in southern Europe between 1805 and 1814 | Regno d'Italia | [Kingdom of Italy](http://wikidata.org/entity/Q223936) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/JzMNvvTk.html" height="800" width="1200" title="JzMNvvTk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JzMNvvTk" height="800" width="1200" title="JzMNvvTk"></iframe>
 
 ## Identifiers
 

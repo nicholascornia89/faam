@@ -1,0 +1,132 @@
+{
+  "id": "bTpHpqc3",
+  "uuid_num": 65396873304751,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "City of Westminster"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "city and borough in London, England, UK"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Westminster"
+      },
+      {
+        "type": "string",
+        "value": "City of Westminster, London, England"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q179351",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "City of Westminster"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "city"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "bTpHpqc3"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {
+    "GeoNames ID": [
+      {
+        "type": "externalid",
+        "value": "3333218",
+        "base_url": "https://www.geonames.org/",
+        "label": "3333218"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "KmPGztnu",
+        "label": "United Kingdom"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "j6wtkFvY",
+        "type": "item",
+        "label": "Lord Byron",
+        "description": "English Romantic poet and lyricist (1788–1824)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Byron_1813_by_Phillips.jpg"
+        }
+      },
+      {
+        "id": "WEgPqx5q",
+        "type": "item",
+        "label": "John Blow",
+        "description": "English composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "John_Blow_1687.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "EVBcTsBB",
+        "type": "item",
+        "label": "Royal Academy of Music",
+        "description": "conservatoire in London"
+      },
+      {
+        "id": "HyZpWxUp",
+        "type": "item",
+        "label": "Westminster School",
+        "description": "public school in Westminster, London, England"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bTpHpqc3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bTpHpqc3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bTpHpqc3.csv"
+      }
+    ]
+  }
+}

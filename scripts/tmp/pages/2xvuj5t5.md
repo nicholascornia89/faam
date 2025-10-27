@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2xvuj5t5
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2xvuj5t5.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2xvuj5t5.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2xvuj5t5.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2xvuj5t5.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2xvuj5t5.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2xvuj5t5.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Beyer,_Ferdinand_1803-1863.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                 | Wikidata QID                                              |
-    | :-------: | :-------------: | :-------------: | :-------------------------: | :-------------------------------------------------------: |
-    | 2xvuj5t5  | Ferdinand Beyer | Ferdinand Beyer | German composer and pianist | [Ferdinand Beyer](http://wwww.wikidata.org/entity/Q66223) |
+    | FAAM UUID | label           | aliases         | description                 | Wikidata QID                                         |
+    | :-------: | :-------------: | :-------------: | :-------------------------: | :--------------------------------------------------: |
+    | 2xvuj5t5  | Ferdinand Beyer | Ferdinand Beyer | German composer and pianist | [Ferdinand Beyer](http://wikidata.org/entity/Q66223) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/2xvuj5t5.html" height="800" width="1200" title="2xvuj5t5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2xvuj5t5" height="800" width="1200" title="2xvuj5t5"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,7 @@ tags: agent
 
 -	__[Air national de Serbie](./VfkGYQAZ.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p29.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p29.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YdiyVjfd
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/YdiyVjfd.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/YdiyVjfd.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/YdiyVjfd.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/YdiyVjfd.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/YdiyVjfd.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/YdiyVjfd.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases      | description      | Wikidata QID                                                     |
-    | :-------: | :-----------------: | :----------: | :--------------: | :--------------------------------------------------------------: |
-    | YdiyVjfd  | Raoul Émile Blondel | Raoul Brunel | French physician | [Raoul Émile Blondel](http://wwww.wikidata.org/entity/Q15918265) |
+    | FAAM UUID | label               | aliases      | description      | Wikidata QID                                                |
+    | :-------: | :-----------------: | :----------: | :--------------: | :---------------------------------------------------------: |
+    | YdiyVjfd  | Raoul Émile Blondel | Raoul Brunel | French physician | [Raoul Émile Blondel](http://wikidata.org/entity/Q15918265) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./TBYigQyt.md)
+	- [physician](./TBYigQyt.md)
 
 	- [composer](./5aTYuVxp.md)
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/YdiyVjfd.html" height="800" width="1200" title="YdiyVjfd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YdiyVjfd" height="800" width="1200" title="YdiyVjfd"></iframe>
 
 ## Identifiers
 
@@ -77,7 +81,7 @@ tags: agent
 
 -	__[Circé. Hymne a Pallas](./ifywtvwJ.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p22.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p22.gif){align=left width="150" height="150"} 
 
 	
 

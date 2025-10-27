@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: S49pP2jV
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                                                            | aliases                      | Wikidata QID                                                             |
-    | :-------: | :--------------------------: | :--------------------------------------------------------------------: | :--------------------------: | :----------------------------------------------------------------------: |
-    | S49pP2jV  | Nikolaevskaya Cavalry School | military school and cultural heritage site in Saint Petersburg, Russia | Nikolaevskaya Cavalry School | [Nikolaevskaya Cavalry School](http://wwww.wikidata.org/entity/Q3577830) |
+    | FAAM UUID | label                        | description                                                            | aliases                      | Wikidata QID                                                        |
+    | :-------: | :--------------------------: | :--------------------------------------------------------------------: | :--------------------------: | :-----------------------------------------------------------------: |
+    | S49pP2jV  | Nikolaevskaya Cavalry School | military school and cultural heritage site in Saint Petersburg, Russia | Nikolaevskaya Cavalry School | [Nikolaevskaya Cavalry School](http://wikidata.org/entity/Q3577830) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./ZpwbPoZj.md)
+	[Saint Petersburg](./ZpwbPoZj.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/S49pP2jV.html" height="800" width="1200" title="S49pP2jV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/S49pP2jV" height="800" width="1200" title="S49pP2jV"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: music_organization
 
 -	__[Modest Petrovich Mussorgsky](./eqc4UJfy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3d/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
 
 	Russian composer (1839–1881)
 

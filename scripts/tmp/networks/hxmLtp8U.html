@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,7 +107,7 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "hxmLtp8U", "label": "Worms", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./hxmLtp8U.md\u0027\u003eWorms\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etown in Rhineland-Palatinate, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "bXZtPe5G", "label": "Holy Roman Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bXZtPe5G.md\u0027\u003eHoly Roman Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emulti-ethnic complex of territories in Western and Central Europe (800/962\u20131806)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "brm7iEdB", "label": "Friedrich Gernsheim", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./brm7iEdB.md\u0027\u003eFriedrich Gernsheim\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer, conductor, pianist and teacher (1839\u20131916)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/83/Friedrich_Gernsheim_%28BerlLeben_1906-07%29.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "hxmLtp8U", "label": "Worms", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hxmLtp8U\u0027\u003eWorms\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etown in Rhineland-Palatinate, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "bXZtPe5G", "label": "Holy Roman Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bXZtPe5G\u0027\u003eHoly Roman Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emulti-ethnic complex of territories in Western and Central Europe (800/962\u20131806)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "brm7iEdB", "label": "Friedrich Gernsheim", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/brm7iEdB\u0027\u003eFriedrich Gernsheim\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer, conductor, pianist and teacher (1839\u20131916)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/83/Friedrich_Gernsheim_%28BerlLeben_1906-07%29.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
                   edges = new vis.DataSet([{"from": "hxmLtp8U", "to": "bXZtPe5G", "width": 10}, {"from": "hxmLtp8U", "to": "brm7iEdB", "width": 10}]);
 
                   nodeColors = {};
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

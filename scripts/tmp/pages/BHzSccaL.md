@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BHzSccaL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BHzSccaL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BHzSccaL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BHzSccaL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BHzSccaL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BHzSccaL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BHzSccaL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/George_Frideric_Handel_by_Balthasar_Denner.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases | description                                 | Wikidata QID                                                    |
-    | :-------: | :--------------------: | :-----: | :-----------------------------------------: | :-------------------------------------------------------------: |
-    | BHzSccaL  | George Frideric Handel | Handel  | German-British Baroque composer (1685–1759) | [George Frideric Handel](http://wwww.wikidata.org/entity/Q7302) |
+    | FAAM UUID | label                  | aliases | description                                 | Wikidata QID                                               |
+    | :-------: | :--------------------: | :-----: | :-----------------------------------------: | :--------------------------------------------------------: |
+    | BHzSccaL  | George Frideric Handel | Handel  | German-British Baroque composer (1685–1759) | [George Frideric Handel](http://wikidata.org/entity/Q7302) |
 
 <br><br><br>
 
@@ -59,11 +63,11 @@ tags: agent
 
 	- [violinist](./9CVVGZdo.md)
 
-	- [](./Gmyihe9r.md)
+	- [opera composer](./Gmyihe9r.md)
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./7yireTj5.md)
+	- [impresario](./7yireTj5.md)
 
 	- [university teacher](./XWcaJQty.md)
 
@@ -75,7 +79,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/BHzSccaL.html" height="800" width="1200" title="BHzSccaL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BHzSccaL" height="800" width="1200" title="BHzSccaL"></iframe>
 
 ## Identifiers
 
@@ -101,38 +105,54 @@ tags: agent
 
 -	__[30 pièces classiques : pour trompette en b](./Qb6CzqJH.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902707600.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902707600.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)](./cDShRWzG.md)__
 
-	![Image](../assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Exercises for the Voice. Consisting of Various Solfeggi, Collected from Manuscripts of the Late Veneziano Rauzzini, to which Are Added Specimens of Several Favorite Modern Songs](./aYjhXpRD.md)__
 
-	![Image](../assets/images/thumbs/ORP-20140284a.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20140284a.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate en ré majeur nr 4 : pour violon et piano](./joMynDmV.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902480737.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902480737.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate en ré majeur nr 4 : pour violon et piano](./NSHSjaif.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902480745.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902480745.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Violin Sonata in D major, HWV 371](./YLZYWdtk.md)__
+
+	
+
+-	__[Messiah](./3JmWTaYG.md)__
+
+	1741 sacred oratorio by Handel
+
+-	__[Scipione, HWV 20](./ADpDT68H.md)__
+
+	opera by Georg Friedrich Händel
 
 </div>

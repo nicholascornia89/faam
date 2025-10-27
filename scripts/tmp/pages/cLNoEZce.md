@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cLNoEZce
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                          | aliases                                          | Wikidata QID                                             |
-    | :-------: | :----------: | :----------------------------------: | :----------------------------------------------: | :------------------------------------------------------: |
-    | cLNoEZce  | natural horn | unvalved ancestor of modern-day horn | end-blown labrosones with curved or folded tubes | [natural horn](http://wwww.wikidata.org/entity/Q1757829) |
+    | FAAM UUID | label        | description                          | aliases                                          | Wikidata QID                                        |
+    | :-------: | :----------: | :----------------------------------: | :----------------------------------------------: | :-------------------------------------------------: |
+    | cLNoEZce  | natural horn | unvalved ancestor of modern-day horn | end-blown labrosones with curved or folded tubes | [natural horn](http://wikidata.org/entity/Q1757829) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./eDJ8CeQC.md)
+	- [end-blown labrosones](./eDJ8CeQC.md)
 
 !!! quote "instance of" 
 
-	- [](./dSq7JTyF.md)
+	- [family of musical instruments](./dSq7JTyF.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/cLNoEZce.html" height="800" width="1200" title="cLNoEZce"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cLNoEZce" height="800" width="1200" title="cLNoEZce"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: musical_instrument
 
 -	__[Louis-François Dauprat](./9sgtLnWS.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
 
 	French composer and horn-player
 

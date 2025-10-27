@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ffw6asHK
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000370144/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ffw6asHK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ffw6asHK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ffw6asHK.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000370144/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ffw6asHK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ffw6asHK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ffw6asHK.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000370144.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000370144.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                   | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | ffw6asHK  | KCG-000370144         | Récréations musicales : collection d'airs variés et fantaisies pour la flûte sur des thêmes choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs célèbres | [external URL](j3tnVzW5) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                   | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | ffw6asHK  | KCG-000370144         | Récréations musicales : collection d'airs variés et fantaisies pour la flûte sur des thêmes choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs célèbres | [external URL](https://catalogus.hogent.be/catalog/hog01:000370144) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -92,10 +96,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/ffw6asHK.html" height="800" width="1200" title="ffw6asHK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ffw6asHK" height="800" width="1200" title="ffw6asHK"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/ffw6asHK.html" height="800" width="1200" title="ffw6asHK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/ffw6asHK" height="800" width="1200" title="ffw6asHK"></iframe>

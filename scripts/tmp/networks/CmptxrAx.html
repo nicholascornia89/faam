@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BWX2VNz4", "label": "Netherlands", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BWX2VNz4.md\u0027\u003eNetherlands\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Northwestern Europe with territories in the Caribbean\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CmptxrAx", "label": "IJsselstein", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CmptxrAx.md\u0027\u003eIJsselstein\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and municipality in the province of Utrecht, the Netherlands\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "TESe5NPc", "label": "Josina van Aerssen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TESe5NPc.md\u0027\u003eJosina van Aerssen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josina_van_Boetzelaer_door_Iza\u00e4k_Schmidt.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "BWX2VNz4", "to": "CmptxrAx", "width": 10}, {"from": "TESe5NPc", "to": "CmptxrAx", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BWX2VNz4", "label": "Netherlands", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BWX2VNz4\u0027\u003eNetherlands\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Northwestern Europe with territories in the Caribbean\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CmptxrAx", "label": "IJsselstein", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CmptxrAx\u0027\u003eIJsselstein\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and municipality in the province of Utrecht, the Netherlands\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "TESe5NPc", "label": "Josina van Aerssen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/TESe5NPc\u0027\u003eJosina van Aerssen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josina_van_Boetzelaer_door_Iza\u00e4k_Schmidt.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "BWX2VNz4", "to": "CmptxrAx", "width": 10}, {"from": "CmptxrAx", "to": "TESe5NPc", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

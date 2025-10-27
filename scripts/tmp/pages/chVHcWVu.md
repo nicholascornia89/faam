@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: chVHcWVu
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/chVHcWVu.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/chVHcWVu.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/chVHcWVu.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/chVHcWVu.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/chVHcWVu.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/chVHcWVu.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                                   | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----------: | :-------------------------------------------: | :-------------------------------------------------------: |
-    | chVHcWVu  | Andreas Moser | Andreas Moser | German violinist and musicologist (1859-1925) | [Andreas Moser](http://wwww.wikidata.org/entity/Q3616171) |
+    | FAAM UUID | label         | aliases       | description                                   | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----------: | :-------------------------------------------: | :--------------------------------------------------: |
+    | chVHcWVu  | Andreas Moser | Andreas Moser | German violinist and musicologist (1859-1925) | [Andreas Moser](http://wikidata.org/entity/Q3616171) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/chVHcWVu.html" height="800" width="1200" title="chVHcWVu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/chVHcWVu" height="800" width="1200" title="chVHcWVu"></iframe>
 
 ## Identifiers
 
@@ -89,7 +93,7 @@ tags: agent
 
 -	__[CONCERTO in d : BWV 1043 : voor 2 violen, strijkers en b.c. ; reductie voor 2 violen en piano](./NipDyksP.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331901.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331901.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Dp6ZykXE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Dp6ZykXE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Dp6ZykXE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Dp6ZykXE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Dp6ZykXE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Dp6ZykXE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Dp6ZykXE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/John_field.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases | description                          | Wikidata QID                                          |
-    | :-------: | :--------: | :-----: | :----------------------------------: | :---------------------------------------------------: |
-    | Dp6ZykXE  | John Field |         | Irish pianist, composer, and teacher | [John Field](http://wwww.wikidata.org/entity/Q209684) |
+    | FAAM UUID | label      | aliases | description                          | Wikidata QID                                     |
+    | :-------: | :--------: | :-----: | :----------------------------------: | :----------------------------------------------: |
+    | Dp6ZykXE  | John Field |         | Irish pianist, composer, and teacher | [John Field](http://wikidata.org/entity/Q209684) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Dp6ZykXE.html" height="800" width="1200" title="Dp6ZykXE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Dp6ZykXE" height="800" width="1200" title="Dp6ZykXE"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Mikhail Glinka](./jZ54gutD.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Glinka_1856.jpg){align=left width="150" height="150"} 
+
+	Russian composer
+
+-	__[Charles Meyer](./FWUq3YE9.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/CharlesMayer.jpg){align=left width="150" height="150"} 
+
+	composer (1799-1862)
+
+</div>

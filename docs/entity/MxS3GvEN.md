@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MxS3GvEN
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991040351439707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MxS3GvEN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MxS3GvEN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MxS3GvEN.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991040351439707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MxS3GvEN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MxS3GvEN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MxS3GvEN.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991040351439707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991040351439707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                    | permalink                | provenance                              |
-    | :-------: | :--------------------: | :--------------------------------------: | :----------------------: | :-------------------------------------: |
-    | MxS3GvEN  | BSB-991040351439707356 | Sonaten für Violine mit beziffertem Bass | [external URL](LQE77nqs) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                    | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :--------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | MxS3GvEN  | BSB-991040351439707356 | Sonaten für Violine mit beziffertem Bass | [external URL](https://mdz-nbn-resolving.de/details:bsb11142701) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -85,10 +89,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/MxS3GvEN.html" height="800" width="1200" title="MxS3GvEN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MxS3GvEN" height="800" width="1200" title="MxS3GvEN"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/MxS3GvEN.html" height="800" width="1200" title="MxS3GvEN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/MxS3GvEN" height="800" width="1200" title="MxS3GvEN"></iframe>

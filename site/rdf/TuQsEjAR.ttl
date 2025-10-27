@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TuQsEjAR a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1764-05-29"^^xsd:string ;
+    schema1:birthPlace faamentity:H7RVuJ8i,
+        faamentity:dtkJhYLf ;
+    schema1:deathDate "1826-00-00"^^xsd:string,
+        "1826-05-06"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French cellist and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3166112>,
+        "0"^^xsd:string,
+        "TuQsEjAR"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Jean Henry Levasseur"^^xsd:string ;
+    skos:prefLabel "Jean-Henri Levasseur"^^xsd:string ;
+    wd:P1303 faamentity:2nFJpnZ8 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:47081982 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/40002350> ;
+    wd:P737 faamentity:RMfXur2u,
+        faamentity:XGwXMqpM ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:JJEmNCK7 .
+

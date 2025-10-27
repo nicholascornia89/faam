@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Hyve2CJo
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-26137450b/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Hyve2CJo.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Hyve2CJo.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Hyve2CJo.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-26137450b/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Hyve2CJo.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Hyve2CJo.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Hyve2CJo.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-26137450b.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-26137450b.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                     | permalink                | provenance                         |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------: | :----------------------: | :--------------------------------: |
-    | Hyve2CJo  | ORP-26137450b         | Ouverture d'Iphigenie [en Aulide] : Arrangée pour clavecin ou forte-piano | [external URL](93GDD9ND) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                     | permalink                                                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | Hyve2CJo  | ORP-26137450b         | Ouverture d'Iphigenie [en Aulide] : Arrangée pour clavecin ou forte-piano | [external URL](https://koha.orpheusinstituut.be/cgi-bin/koha/catalogue/detail.pl?biblionumber=4163&searchid=scs_1698052310107) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ## Statements
 
@@ -84,10 +88,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Hyve2CJo.html" height="800" width="1200" title="Hyve2CJo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Hyve2CJo" height="800" width="1200" title="Hyve2CJo"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Hyve2CJo.html" height="800" width="1200" title="Hyve2CJo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Hyve2CJo" height="800" width="1200" title="Hyve2CJo"></iframe>

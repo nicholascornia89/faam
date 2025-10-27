@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ChXNxbcx
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                             | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :-------------------------------------: | :-----: | :-------------------------------------------------: |
-    | ChXNxbcx  | loudness | subjective perception of sound pressure | volume  | [loudness](http://wwww.wikidata.org/entity/Q622324) |
+    | FAAM UUID | label    | description                             | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :-------------------------------------: | :-----: | :--------------------------------------------: |
+    | ChXNxbcx  | loudness | subjective perception of sound pressure | volume  | [loudness](http://wikidata.org/entity/Q622324) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: annotation_type
 
 	- [aspect of sound](./QAugiyuY.md)
 
-	- [](./iFQqgedU.md)
+	- [physical quantity](./iFQqgedU.md)
 
 !!! quote "instance of" 
 
@@ -49,7 +53,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/ChXNxbcx.html" height="800" width="1200" title="ChXNxbcx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ChXNxbcx" height="800" width="1200" title="ChXNxbcx"></iframe>
 
 ## Cross-references
 

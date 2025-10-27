@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hd5HkQmN
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCA-030902819462/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hd5HkQmN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hd5HkQmN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hd5HkQmN.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCA-030902819462/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hd5HkQmN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hd5HkQmN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hd5HkQmN.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902819462.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902819462.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                 | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | hd5HkQmN  | KCA-030902819462      | Le clavecin bien tempéré de Jean-Sébastien Bach (1685-1750): guide pour les pianistes | [external URL](LtW88Gtx) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                 | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | hd5HkQmN  | KCA-030902819462      | Le clavecin bien tempéré de Jean-Sébastien Bach (1685-1750): guide pour les pianistes | [external URL](https://anet.be/record/opacdkvc/c:lvd:6807587/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -71,10 +75,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/hd5HkQmN.html" height="800" width="1200" title="hd5HkQmN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hd5HkQmN" height="800" width="1200" title="hd5HkQmN"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/hd5HkQmN.html" height="800" width="1200" title="hd5HkQmN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/hd5HkQmN" height="800" width="1200" title="hd5HkQmN"></iframe>

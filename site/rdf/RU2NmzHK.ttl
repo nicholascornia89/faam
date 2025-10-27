@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RU2NmzHK a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1766-10-09"^^xsd:string ;
+    schema1:birthPlace faamentity:L749SXuN ;
+    schema1:deathDate "1842-12-25"^^xsd:string ;
+    schema1:deathPlace faamentity:iR3nZ9nb ;
+    schema1:description "Czech music educator and composer (1766-1842)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q79023>,
+        "0"^^xsd:string,
+        "RU2NmzHK"^^xsd:string ;
+    skos:altLabel "Bedrich Divis Weber"^^xsd:string,
+        "Friedrich Dionis Weber"^^xsd:string,
+        "Friedrich Dionís Weber"^^xsd:string ;
+    skos:prefLabel "Bedřich Diviš Weber"^^xsd:string ;
+    wd:P108 faamentity:DDcZ9LJC ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:56797932 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/116689> ;
+    wd:P737 faamentity:8sYLWB2A,
+        faamentity:WmRXBH5x,
+        faamentity:eQM3SXzG ;
+    wd:P839 <https://imslp.org/wiki/Category:Weber,_Bedřich_Diviš> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:W4yL2jDA .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SGrwmsQj
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-KV7617/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/SGrwmsQj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/SGrwmsQj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/SGrwmsQj.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-KV7617/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/SGrwmsQj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/SGrwmsQj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/SGrwmsQj.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-KV7617.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7617.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                              | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | SGrwmsQj  | KCA-KV7617            | ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893 | [external URL](7WfWytMV) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                              | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | SGrwmsQj  | KCA-KV7617            | ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893 | [external URL](https://anet.be/record/opacdkvc/c:lvd:6772461/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -253,10 +257,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/SGrwmsQj.html" height="800" width="1200" title="SGrwmsQj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SGrwmsQj" height="800" width="1200" title="SGrwmsQj"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/SGrwmsQj.html" height="800" width="1200" title="SGrwmsQj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/SGrwmsQj" height="800" width="1200" title="SGrwmsQj"></iframe>

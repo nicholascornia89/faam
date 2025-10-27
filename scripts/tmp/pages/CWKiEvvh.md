@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CWKiEvvh
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/CWKiEvvh.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/CWKiEvvh.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/CWKiEvvh.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/CWKiEvvh.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/CWKiEvvh.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/CWKiEvvh.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Franz_Schubert_by_Wilhelm_August_Rieder_1875_larger_version.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases              | description                   | Wikidata QID                                            |
-    | :-------: | :------------: | :------------------: | :---------------------------: | :-----------------------------------------------------: |
-    | CWKiEvvh  | Franz Schubert | Franz Peter Schubert | Austrian composer (1797–1828) | [Franz Schubert](http://wwww.wikidata.org/entity/Q7312) |
+    | FAAM UUID | label          | aliases              | description                   | Wikidata QID                                       |
+    | :-------: | :------------: | :------------------: | :---------------------------: | :------------------------------------------------: |
+    | CWKiEvvh  | Franz Schubert | Franz Peter Schubert | Austrian composer (1797–1828) | [Franz Schubert](http://wikidata.org/entity/Q7312) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/CWKiEvvh.html" height="800" width="1200" title="CWKiEvvh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CWKiEvvh" height="800" width="1200" title="CWKiEvvh"></iframe>
 
 ## Identifiers
 
@@ -91,19 +95,19 @@ tags: agent
 
 -	__[Moment musical : pour piano](./PJbZriFJ.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904482400.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904482400.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein](./heTepEsp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
 
 	
 

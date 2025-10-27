@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: atPgPHFP
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                              | aliases | Wikidata QID                                           |
-    | :-------: | :--------: | :--------------------------------------: | :-----: | :----------------------------------------------------: |
-    | atPgPHFP  | magistrate | civilian officer who administers the law |         | [magistrate](http://wwww.wikidata.org/entity/Q4594605) |
+    | FAAM UUID | label      | description                              | aliases | Wikidata QID                                      |
+    | :-------: | :--------: | :--------------------------------------: | :-----: | :-----------------------------------------------: |
+    | atPgPHFP  | magistrate | civilian officer who administers the law |         | [magistrate](http://wikidata.org/entity/Q4594605) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/atPgPHFP.html" height="800" width="1200" title="atPgPHFP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/atPgPHFP" height="800" width="1200" title="atPgPHFP"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Charles Dufaur de Montfort](./MH3zR2wa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French magistrate
 

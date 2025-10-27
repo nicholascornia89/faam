@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eZq8Yy9r
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | aliases | description                              | Wikidata QID                                                                      |
-    | :-------: | :--------------------------------: | :-----: | :--------------------------------------: | :-------------------------------------------------------------------------------: |
-    | eZq8Yy9r  | Violin Concerto in C major, RV 179 | RV 179  | musical work composed by Antonio Vivaldi | [Violin concerto in C major (RV 179)](http://wwww.wikidata.org/entity/Q114870500) |
+    | FAAM UUID | label                              | aliases | description                              | Wikidata QID                                                                 |
+    | :-------: | :--------------------------------: | :-----: | :--------------------------------------: | :--------------------------------------------------------------------------: |
+    | eZq8Yy9r  | Violin Concerto in C major, RV 179 | RV 179  | musical work composed by Antonio Vivaldi | [Violin concerto in C major (RV 179)](http://wikidata.org/entity/Q114870500) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/eZq8Yy9r.html" height="800" width="1200" title="eZq8Yy9r"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eZq8Yy9r" height="800" width="1200" title="eZq8Yy9r"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[13. | Concerto. | del | Antonio Vivaldi. | Viol. conc., Viol +11, Viola, e Basso.](./VR377s7d.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA9.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA9.gif){align=left width="150" height="150"} 
 
 	
 

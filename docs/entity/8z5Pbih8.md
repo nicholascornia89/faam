@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8z5Pbih8
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | aliases                   | description                          | Wikidata QID                                                          |
-    | :-------: | :--------------------------------: | :-----------------------: | :----------------------------------: | :-------------------------------------------------------------------: |
-    | 8z5Pbih8  | Hungarian Rhapsody No.11, S.244/11 | Hungarian Rhapsody No. 11 | composition for piano by Franz Liszt | [Hungarian Rhapsody No. 11](http://wwww.wikidata.org/entity/Q5942800) |
+    | FAAM UUID | label                              | aliases                   | description                          | Wikidata QID                                                     |
+    | :-------: | :--------------------------------: | :-----------------------: | :----------------------------------: | :--------------------------------------------------------------: |
+    | 8z5Pbih8  | Hungarian Rhapsody No.11, S.244/11 | Hungarian Rhapsody No. 11 | composition for piano by Franz Liszt | [Hungarian Rhapsody No. 11](http://wikidata.org/entity/Q5942800) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/8z5Pbih8.html" height="800" width="1200" title="8z5Pbih8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8z5Pbih8" height="800" width="1200" title="8z5Pbih8"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Ungarische Rhapsodien Band 2](./kUKZ2wfP.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904702872.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702872.gif){align=left width="150" height="150"} 
 
 	
 

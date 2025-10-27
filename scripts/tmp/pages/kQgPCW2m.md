@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kQgPCW2m
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000735234/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kQgPCW2m.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kQgPCW2m.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kQgPCW2m.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000735234/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kQgPCW2m.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kQgPCW2m.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kQgPCW2m.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000735234.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735234.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                        | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | kQgPCW2m  | KCG-000735234         | Fantaisie : pour le Violon avec Accompagnement de grand Orchestre ou Quatuor ou Pianforte sur des motifs favoris de l'Opéra La Muette de Portici : Oeuvre 62 | [external URL](K4TocMAK) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                        | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | kQgPCW2m  | KCG-000735234         | Fantaisie : pour le Violon avec Accompagnement de grand Orchestre ou Quatuor ou Pianforte sur des motifs favoris de l'Opéra La Muette de Portici : Oeuvre 62 | [external URL](https://catalogus.hogent.be/catalog/hog01:000735234) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ===  "note" 
 
@@ -102,10 +106,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/kQgPCW2m.html" height="800" width="1200" title="kQgPCW2m"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kQgPCW2m" height="800" width="1200" title="kQgPCW2m"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/kQgPCW2m.html" height="800" width="1200" title="kQgPCW2m"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/kQgPCW2m" height="800" width="1200" title="kQgPCW2m"></iframe>

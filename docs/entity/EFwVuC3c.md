@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EFwVuC3c
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EFwVuC3c.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EFwVuC3c.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EFwVuC3c.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EFwVuC3c.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EFwVuC3c.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EFwVuC3c.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Taneev.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases        | description                                                       | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :------------: | :---------------------------------------------------------------: | :-----------------------------------------------------------------: |
-    | EFwVuC3c  | Sergei Ivanovich Taneyev | Sergei Taneyev | Russian composer, pianist, music theorist and teacher (1856–1915) | [Sergei Ivanovich Taneyev](http://wwww.wikidata.org/entity/Q335006) |
+    | FAAM UUID | label                    | aliases        | description                                                       | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :------------: | :---------------------------------------------------------------: | :------------------------------------------------------------: |
+    | EFwVuC3c  | Sergei Ivanovich Taneyev | Sergei Taneyev | Russian composer, pianist, music theorist and teacher (1856–1915) | [Sergei Ivanovich Taneyev](http://wikidata.org/entity/Q335006) |
 
 <br><br><br>
 
@@ -75,7 +79,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/EFwVuC3c.html" height="800" width="1200" title="EFwVuC3c"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EFwVuC3c" height="800" width="1200" title="EFwVuC3c"></iframe>
 
 ## Identifiers
 
@@ -96,3 +100,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Alexander Scriabin](./2J9rMsu5.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Skrjabin_Alexander.jpg){align=left width="150" height="150"} 
+
+	Russian composer and pianist (1872–1915)
+
+-	__[Leonid Nikolayev](./HX8ujrS4.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Russian musician (1878–1942)
+
+</div>

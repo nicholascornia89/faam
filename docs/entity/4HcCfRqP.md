@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4HcCfRqP
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description                     | Wikidata QID                                           |
-    | :-------: | :---------: | :---------: | :-----------------------------: | :----------------------------------------------------: |
-    | 4HcCfRqP  | La favorite | La favorite | 1840 opera by Gaetano Donizetti | [La favorite](http://wwww.wikidata.org/entity/Q467394) |
+    | FAAM UUID | label       | aliases     | description                     | Wikidata QID                                      |
+    | :-------: | :---------: | :---------: | :-----------------------------: | :-----------------------------------------------: |
+    | 4HcCfRqP  | La favorite | La favorite | 1840 opera by Gaetano Donizetti | [La favorite](http://wikidata.org/entity/Q467394) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./GZDcX2UL.md)
+	- [L'ange de Nisida](./GZDcX2UL.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4HcCfRqP.html" height="800" width="1200" title="4HcCfRqP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4HcCfRqP" height="800" width="1200" title="4HcCfRqP"></iframe>
 
 ## Identifiers
 

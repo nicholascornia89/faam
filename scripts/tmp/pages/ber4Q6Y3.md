@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ber4Q6Y3
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                        | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :--------------------------------: | :-----: | :----------------------------------------------: |
-    | ber4Q6Y3  | Zemun | Serbian city, now part of Belgrade |         | [Zemun](http://wwww.wikidata.org/entity/Q189419) |
+    | FAAM UUID | label | description                        | aliases | Wikidata QID                                |
+    | :-------: | :---: | :--------------------------------: | :-----: | :-----------------------------------------: |
+    | ber4Q6Y3  | Zemun | Serbian city, now part of Belgrade |         | [Zemun](http://wikidata.org/entity/Q189419) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Serbia](http://www.wikidata.org/entity/Q403)
+	- [Serbia](Q403)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ber4Q6Y3.html" height="800" width="1200" title="ber4Q6Y3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ber4Q6Y3" height="800" width="1200" title="ber4Q6Y3"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Andreas Moser](./chVHcWVu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German violinist and musicologist (1859-1925)
 

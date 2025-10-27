@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AWoQ5Jp7
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076933339707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/AWoQ5Jp7.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/AWoQ5Jp7.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/AWoQ5Jp7.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076933339707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/AWoQ5Jp7.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/AWoQ5Jp7.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/AWoQ5Jp7.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991076933339707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076933339707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                 | permalink                | provenance                              |
-    | :-------: | :--------------------: | :-----------------------------------: | :----------------------: | :-------------------------------------: |
-    | AWoQ5Jp7  | BSB-991076933339707356 | Andante e scherzo capriccioso, op. 16 | [external URL](48ukXYmB) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                 | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :-----------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | AWoQ5Jp7  | BSB-991076933339707356 | Andante e scherzo capriccioso, op. 16 | [external URL](https://mdz-nbn-resolving.de/details:bsb00115939) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -83,10 +87,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/AWoQ5Jp7.html" height="800" width="1200" title="AWoQ5Jp7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AWoQ5Jp7" height="800" width="1200" title="AWoQ5Jp7"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/AWoQ5Jp7.html" height="800" width="1200" title="AWoQ5Jp7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/AWoQ5Jp7" height="800" width="1200" title="AWoQ5Jp7"></iframe>

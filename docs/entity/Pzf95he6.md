@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Pzf95he6
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                                                     | aliases | Wikidata QID                                                |
-    | :-------: | :--------------: | :-----------------------------------------------------------------------------: | :-----: | :---------------------------------------------------------: |
-    | Pzf95he6  | military officer | member of an armed force or uniformed service who holds a position of authority | officer | [military officer](http://wwww.wikidata.org/entity/Q189290) |
+    | FAAM UUID | label            | description                                                                     | aliases | Wikidata QID                                           |
+    | :-------: | :--------------: | :-----------------------------------------------------------------------------: | :-----: | :----------------------------------------------------: |
+    | Pzf95he6  | military officer | member of an armed force or uniformed service who holds a position of authority | officer | [military officer](http://wikidata.org/entity/Q189290) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Pzf95he6.html" height="800" width="1200" title="Pzf95he6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Pzf95he6" height="800" width="1200" title="Pzf95he6"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gMFUgkLu
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                     | aliases            | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----------------------------: | :----------------: | :-----------------------------------------------------------: |
-    | gMFUgkLu  | Le Kremlin-Bicêtre | commune in Val-de-Marne, France | Le Kremlin-Bicetre | [Le Kremlin-Bicêtre](http://wwww.wikidata.org/entity/Q135104) |
+    | FAAM UUID | label              | description                     | aliases            | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----------------------------: | :----------------: | :------------------------------------------------------: |
+    | gMFUgkLu  | Le Kremlin-Bicêtre | commune in Val-de-Marne, France | Le Kremlin-Bicetre | [Le Kremlin-Bicêtre](http://wikidata.org/entity/Q135104) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gMFUgkLu.html" height="800" width="1200" title="gMFUgkLu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gMFUgkLu" height="800" width="1200" title="gMFUgkLu"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Giuseppe Cambini](./5yDGjqgE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician (1746-1825)
 

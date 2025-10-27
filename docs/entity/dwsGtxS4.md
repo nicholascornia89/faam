@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dwsGtxS4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                 | aliases | Wikidata QID                                             |
-    | :-------: | :---------: | :-------------------------: | :-----: | :------------------------------------------------------: |
-    | dwsGtxS4  | Bad Laasphe | human settlement in Germany |         | [Bad Laasphe](http://wwww.wikidata.org/entity/Q31897405) |
+    | FAAM UUID | label       | description                 | aliases | Wikidata QID                                        |
+    | :-------: | :---------: | :-------------------------: | :-----: | :-------------------------------------------------: |
+    | dwsGtxS4  | Bad Laasphe | human settlement in Germany |         | [Bad Laasphe](http://wikidata.org/entity/Q31897405) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dwsGtxS4.html" height="800" width="1200" title="dwsGtxS4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dwsGtxS4" height="800" width="1200" title="dwsGtxS4"></iframe>
 
 ## Identifiers
 

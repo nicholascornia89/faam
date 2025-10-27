@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: muPeVVwX
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/muPeVVwX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/muPeVVwX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/muPeVVwX.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/muPeVVwX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/muPeVVwX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/muPeVVwX.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-------------: | :------------------------: | :----------------------------------------------------------: |
-    | muPeVVwX  | Theodor de Witt | Theodor de Witt | German musician and editor | [Theodor de Witt](http://wwww.wikidata.org/entity/Q40529382) |
+    | FAAM UUID | label           | aliases         | description                | Wikidata QID                                            |
+    | :-------: | :-------------: | :-------------: | :------------------------: | :-----------------------------------------------------: |
+    | muPeVVwX  | Theodor de Witt | Theodor de Witt | German musician and editor | [Theodor de Witt](http://wikidata.org/entity/Q40529382) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/muPeVVwX.html" height="800" width="1200" title="muPeVVwX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/muPeVVwX" height="800" width="1200" title="muPeVVwX"></iframe>
 
 ## Identifiers
 
@@ -83,37 +87,57 @@ tags: agent
 
 -	__[Pierluigi da Palestrina's Werke. 2: Fünf-, sechs- und achtstimmige Motetten](./8iD5f8Gf.md)__
 
-	![Image](../assets/images/thumbs/BSB-991082707169707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991082707169707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pierluigi da Palestrina's Werke. 3: Fünf-, sechs- und achtstimmige Motetten](./YPCoB8B6.md)__
 
-	![Image](../assets/images/thumbs/BSB-991082707299707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991082707299707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pierluigi da Palestrina's Werke. 4: Fünfstimmige Motetten](./4qzukMUP.md)__
 
-	![Image](../assets/images/thumbs/BSB-991082707739707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991082707739707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pierluigi da Palestrina's Werke. 5: Vierstimmige Motetten](./oGZC3NGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991082707889707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991082707889707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pierluigi da Palestrina's Werke. 6: Fünf-, sechs- und achtstimmige Motetten aus dem Nachlaß](./nXkGRiiy.md)__
 
-	![Image](../assets/images/thumbs/BSB-991082708099707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991082708099707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pierluigi da Palestrina's Werke. 7: Vier-, sechs-, acht- und zwölfstimmige Motetten aus dem Nachlaß : nebst e. Verzeichniß der in Bd. I - VII enth. Motetten](./gHNZdPCi.md)__
 
-	![Image](../assets/images/thumbs/BSB-991082708499707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991082708499707356.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Hodie Christus natus est, IGP 24](./2zztw3vV.md)__
+
+	
+
+-	__[Canite tuba in Sion](./hbgjK3rr.md)__
+
+	
+
+-	__[Tribularer si nescirem](./XrQkh2xE.md)__
+
+	
+
+-	__[Exultate Deo, IGP 125](./RiKTSfQh.md)__
 
 	
 

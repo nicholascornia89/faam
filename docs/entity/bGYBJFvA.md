@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bGYBJFvA
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                  | aliases       | Wikidata QID                                                |
-    | :-------: | :-----------: | :--------------------------: | :-----------: | :---------------------------------------------------------: |
-    | bGYBJFvA  | sound concept | abstract entity in acoustics | audio concept | [sound concept](http://wwww.wikidata.org/entity/Q115927938) |
+    | FAAM UUID | label         | description                  | aliases       | Wikidata QID                                           |
+    | :-------: | :-----------: | :--------------------------: | :-----------: | :----------------------------------------------------: |
+    | bGYBJFvA  | sound concept | abstract entity in acoustics | audio concept | [sound concept](http://wikidata.org/entity/Q115927938) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/bGYBJFvA.html" height="800" width="1200" title="bGYBJFvA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bGYBJFvA" height="800" width="1200" title="bGYBJFvA"></iframe>
 
 ## Cross-references
 

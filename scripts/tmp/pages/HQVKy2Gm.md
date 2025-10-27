@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HQVKy2Gm
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description        | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :----------------: | :-----: | :-----------------------------------------------: |
-    | HQVKy2Gm  | cornet | musical instrument | cornet  | [cornet](http://wwww.wikidata.org/entity/Q202027) |
+    | FAAM UUID | label  | description        | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :----------------: | :-----: | :------------------------------------------: |
+    | HQVKy2Gm  | cornet | musical instrument | cornet  | [cornet](http://wikidata.org/entity/Q202027) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./E2Sb746q.md)
+	- [musical instrument](./E2Sb746q.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/HQVKy2Gm.html" height="800" width="1200" title="HQVKy2Gm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HQVKy2Gm" height="800" width="1200" title="HQVKy2Gm"></iframe>
 
 ## Cross-references
 
@@ -51,13 +55,13 @@ tags: musical_instrument
 
 -	__[30 pièces classiques : pour trompette en b](./Qb6CzqJH.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902707600.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902707600.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Giaour : mélodie Persane](./WyPjHYq7.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904381131.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904381131.gif){align=left width="150" height="150"} 
 
 	
 
@@ -73,7 +77,7 @@ tags: musical_instrument
 
 -	__[C. Sauveur](./YC8uM4xD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

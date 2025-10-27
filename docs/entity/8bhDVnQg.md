@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8bhDVnQg
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                   | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | 8bhDVnQg  | Mattsee | municipality in Salzburg-Umgebung District, Salzburg, Austria |         | [Mattsee](http://wwww.wikidata.org/entity/Q877052) |
+    | FAAM UUID | label   | description                                                   | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | 8bhDVnQg  | Mattsee | municipality in Salzburg-Umgebung District, Salzburg, Austria |         | [Mattsee](http://wikidata.org/entity/Q877052) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8bhDVnQg.html" height="800" width="1200" title="8bhDVnQg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8bhDVnQg" height="800" width="1200" title="8bhDVnQg"></iframe>
 
 ## Identifiers
 

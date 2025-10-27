@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9tUNpEZc
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                        | aliases | Wikidata QID                                      |
-    | :-------: | :------: | :--------------------------------: | :-----: | :-----------------------------------------------: |
-    | 9tUNpEZc  | Eisenach | municipality in Thuringia, Germany |         | [Eisenach](http://wwww.wikidata.org/entity/Q7070) |
+    | FAAM UUID | label    | description                        | aliases | Wikidata QID                                 |
+    | :-------: | :------: | :--------------------------------: | :-----: | :------------------------------------------: |
+    | 9tUNpEZc  | Eisenach | municipality in Thuringia, Germany |         | [Eisenach](http://wikidata.org/entity/Q7070) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9tUNpEZc.html" height="800" width="1200" title="9tUNpEZc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9tUNpEZc" height="800" width="1200" title="9tUNpEZc"></iframe>
 
 ## Identifiers
 

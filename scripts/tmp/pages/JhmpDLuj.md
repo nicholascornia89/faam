@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JhmpDLuj
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description            | aliases     | Wikidata QID                                              |
-    | :-------: | :-----------: | :--------------------: | :---------: | :-------------------------------------------------------: |
-    | JhmpDLuj  | alta cappella | kind of town wind band | alta musica | [alta cappella](http://wwww.wikidata.org/entity/Q1412422) |
+    | FAAM UUID | label         | description            | aliases     | Wikidata QID                                         |
+    | :-------: | :-----------: | :--------------------: | :---------: | :--------------------------------------------------: |
+    | JhmpDLuj  | alta cappella | kind of town wind band | alta musica | [alta cappella](http://wikidata.org/entity/Q1412422) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/JhmpDLuj.html" height="800" width="1200" title="JhmpDLuj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JhmpDLuj" height="800" width="1200" title="JhmpDLuj"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5gGAtrRR
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143702p4/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5gGAtrRR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5gGAtrRR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5gGAtrRR.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143702p4/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5gGAtrRR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5gGAtrRR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5gGAtrRR.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143702p4.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p4.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                | permalink                | provenance                         |
-    | :-------: | :-------------------: | :------------------: | :----------------------: | :--------------------------------: |
-    | 5gGAtrRR  | ORP-20143702p4        | Marlborough - Op. 42 | [external URL](ZDtcQUmJ) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :------------------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | 5gGAtrRR  | ORP-20143702p4        | Marlborough - Op. 42 | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22186) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ## Statements
 
@@ -77,10 +81,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/5gGAtrRR.html" height="800" width="1200" title="5gGAtrRR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5gGAtrRR" height="800" width="1200" title="5gGAtrRR"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/5gGAtrRR.html" height="800" width="1200" title="5gGAtrRR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/5gGAtrRR" height="800" width="1200" title="5gGAtrRR"></iframe>

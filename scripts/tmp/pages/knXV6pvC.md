@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: knXV6pvC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                     | aliases             | Wikidata QID                                        |
-    | :-------: | :--------: | :-----------------------------: | :-----------------: | :-------------------------------------------------: |
-    | knXV6pvC  | Oosterhout | municipality in the Netherlands | Gemeente Oosterhout | [Oosterhout](http://wwww.wikidata.org/entity/Q9858) |
+    | FAAM UUID | label      | description                     | aliases             | Wikidata QID                                   |
+    | :-------: | :--------: | :-----------------------------: | :-----------------: | :--------------------------------------------: |
+    | knXV6pvC  | Oosterhout | municipality in the Netherlands | Gemeente Oosterhout | [Oosterhout](http://wikidata.org/entity/Q9858) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/knXV6pvC.html" height="800" width="1200" title="knXV6pvC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/knXV6pvC" height="800" width="1200" title="knXV6pvC"></iframe>
 
 ## Identifiers
 

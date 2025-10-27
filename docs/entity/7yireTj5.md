@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7yireTj5
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                           | aliases        | Wikidata QID                                          |
-    | :-------: | :--------: | :---------------------------------------------------: | :------------: | :---------------------------------------------------: |
-    | 7yireTj5  | impresario | organizer and financier of concerts, plays, or operas | Talent Manager | [impresario](http://wwww.wikidata.org/entity/Q943995) |
+    | FAAM UUID | label      | description                                           | aliases        | Wikidata QID                                     |
+    | :-------: | :--------: | :---------------------------------------------------: | :------------: | :----------------------------------------------: |
+    | 7yireTj5  | impresario | organizer and financier of concerts, plays, or operas | Talent Manager | [impresario](http://wikidata.org/entity/Q943995) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/7yireTj5.html" height="800" width="1200" title="7yireTj5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7yireTj5" height="800" width="1200" title="7yireTj5"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Pietro Mingotti](./E6CpszMv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian impresario (1702-1759)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LUbNb3Vy
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                        | aliases           | Wikidata QID                                              |
-    | :-------: | :------------: | :------------------------------------------------: | :---------------: | :-------------------------------------------------------: |
-    | LUbNb3Vy  | time signature | specification of beats in a musical bar or measure | measure signature | [time signature](http://wwww.wikidata.org/entity/Q155234) |
+    | FAAM UUID | label          | description                                        | aliases           | Wikidata QID                                         |
+    | :-------: | :------------: | :------------------------------------------------: | :---------------: | :--------------------------------------------------: |
+    | LUbNb3Vy  | time signature | specification of beats in a musical bar or measure | measure signature | [time signature](http://wikidata.org/entity/Q155234) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/LUbNb3Vy.html" height="800" width="1200" title="LUbNb3Vy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LUbNb3Vy" height="800" width="1200" title="LUbNb3Vy"></iframe>
 
 ## Cross-references
 
@@ -55,7 +59,7 @@ tags: annotation_type
 
 -	__[La juive : opéra en cinq actes](./SRq2Zuhn.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903467311.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903467311.gif){align=left width="150" height="150"} 
 
 	
 

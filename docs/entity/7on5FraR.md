@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7on5FraR
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901706215/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7on5FraR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7on5FraR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7on5FraR.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901706215/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7on5FraR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7on5FraR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7on5FraR.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901706215.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901706215.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                               | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 7on5FraR  | KCA-030901706215      | Der Golem: Musikdrama in drei Akten | [external URL](gb6MiJbD) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                               | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :---------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 7on5FraR  | KCA-030901706215      | Der Golem: Musikdrama in drei Akten | [external URL](https://anet.be/record/opacdkvc/c:lvd:7039551/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -95,10 +99,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/7on5FraR.html" height="800" width="1200" title="7on5FraR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7on5FraR" height="800" width="1200" title="7on5FraR"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/7on5FraR.html" height="800" width="1200" title="7on5FraR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/7on5FraR" height="800" width="1200" title="7on5FraR"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4oKtB5xy
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                     | aliases        | Wikidata QID                                          |
-    | :-------: | :--------: | :-------------------------------------------------------------: | :------------: | :---------------------------------------------------: |
-    | 4oKtB5xy  | translator | person who translates written text from one language to another | has translator | [translator](http://wwww.wikidata.org/entity/Q333634) |
+    | FAAM UUID | label      | description                                                     | aliases        | Wikidata QID                                     |
+    | :-------: | :--------: | :-------------------------------------------------------------: | :------------: | :----------------------------------------------: |
+    | 4oKtB5xy  | translator | person who translates written text from one language to another | has translator | [translator](http://wikidata.org/entity/Q333634) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4oKtB5xy.html" height="800" width="1200" title="4oKtB5xy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4oKtB5xy" height="800" width="1200" title="4oKtB5xy"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Eugène Talbot](./VaLifJKc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French classicist and translator (1814–1894)
 
@@ -55,19 +59,19 @@ tags: occupation
 
 -	__[Boris de Schlözer](./fStBz5Sq.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/47/Boris_de_Schl%C3%B6zer_2.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Boris_de_Schl%C3%B6zer_2.jpg){align=left width="150" height="150"} 
 
 	Russian Translator (1881–1969)
 
 -	__[Pietro Alfieri](./CzyC8FNQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, musicologist and Roman Catholic priest (1801–1863)
 
 -	__[Édouard Fournier](./W8EkVxFo.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
 
 	French historian, writer, bibliographer and librarian (1819-1880)
 
@@ -97,7 +101,7 @@ tags: occupation
 
 -	__[Elisabeth Alberdingk Thijm](./QDMziZ5r.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	writer, translator and patron (1863-1952)
 

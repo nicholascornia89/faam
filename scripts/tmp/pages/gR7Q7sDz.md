@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gR7Q7sDz
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                                                              | aliases       | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :----------------------------------------------------------------------: | :-----------: | :------------------------------------------------------------: |
-    | gR7Q7sDz  | École polytechnique | French engineering grande école (selective higher education institution) | Polytechnique | [École polytechnique](http://wwww.wikidata.org/entity/Q273626) |
+    | FAAM UUID | label               | description                                                              | aliases       | Wikidata QID                                              |
+    | :-------: | :-----------------: | :----------------------------------------------------------------------: | :-----------: | :-------------------------------------------------------: |
+    | gR7Q7sDz  | École polytechnique | French engineering grande école (selective higher education institution) | Polytechnique | [École polytechnique](http://wikidata.org/entity/Q273626) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/gR7Q7sDz.html" height="800" width="1200" title="gR7Q7sDz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gR7Q7sDz" height="800" width="1200" title="gR7Q7sDz"></iframe>
 
 ## Cross-references
 

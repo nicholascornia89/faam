@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "UjV2U7Sh", "label": "Kingdom of the Netherlands", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UjV2U7Sh.md\u0027\u003eKingdom of the Netherlands\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etranscontinental sovereign state and constitutional monarchy\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8mQfxw3N", "label": "Wilhelm Franz Lichtenauer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8mQfxw3N.md\u0027\u003eWilhelm Franz Lichtenauer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch music publishing company\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Gx3B7DJH", "label": "early music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Gx3B7DJH.md\u0027\u003eearly music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic from the Middle Ages, Renaissance, and Baroque\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "7tdgMgre", "label": "publisher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7tdgMgre.md\u0027\u003epublisher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecompany that prints and distributes pressed goods or electronic media\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HmGw8E8i", "label": "music publishing company", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HmGw8E8i.md\u0027\u003emusic publishing company\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecompany that licenses compositions, collects royalties and distributes them to the composers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "MwhmFC4w", "label": "music publisher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MwhmFC4w.md\u0027\u003emusic publisher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprofession; publisher of music works\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "LHFuBj76", "label": "Rotterdam", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LHFuBj76.md\u0027\u003eRotterdam\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the Netherlands\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "UjV2U7Sh", "to": "8mQfxw3N", "width": 1}, {"from": "Gx3B7DJH", "to": "8mQfxw3N", "width": 10}, {"from": "7tdgMgre", "to": "8mQfxw3N", "width": 5}, {"from": "8mQfxw3N", "to": "HmGw8E8i", "width": 10}, {"from": "8mQfxw3N", "to": "MwhmFC4w", "width": 1}, {"from": "8mQfxw3N", "to": "LHFuBj76", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Gx3B7DJH", "label": "early music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Gx3B7DJH\u0027\u003eearly music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic from the Middle Ages, Renaissance, and Baroque\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8mQfxw3N", "label": "Wilhelm Franz Lichtenauer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8mQfxw3N\u0027\u003eWilhelm Franz Lichtenauer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch music publishing company\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "UjV2U7Sh", "label": "Kingdom of the Netherlands", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UjV2U7Sh\u0027\u003eKingdom of the Netherlands\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etranscontinental sovereign state and constitutional monarchy\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "LHFuBj76", "label": "Rotterdam", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LHFuBj76\u0027\u003eRotterdam\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the Netherlands\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HmGw8E8i", "label": "music publishing company", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HmGw8E8i\u0027\u003emusic publishing company\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecompany that licenses compositions, collects royalties and distributes them to the composers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "MwhmFC4w", "label": "music publisher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MwhmFC4w\u0027\u003emusic publisher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprofession; publisher of music works\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "7tdgMgre", "label": "publisher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7tdgMgre\u0027\u003epublisher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecompany that prints and distributes pressed goods or electronic media\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}]);
+                  edges = new vis.DataSet([{"from": "Gx3B7DJH", "to": "8mQfxw3N", "width": 10}, {"from": "UjV2U7Sh", "to": "8mQfxw3N", "width": 1}, {"from": "LHFuBj76", "to": "8mQfxw3N", "width": 1}, {"from": "HmGw8E8i", "to": "8mQfxw3N", "width": 10}, {"from": "MwhmFC4w", "to": "8mQfxw3N", "width": 1}, {"from": "8mQfxw3N", "to": "7tdgMgre", "width": 5}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

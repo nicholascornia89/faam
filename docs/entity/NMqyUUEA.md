@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NMqyUUEA
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NMqyUUEA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NMqyUUEA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NMqyUUEA.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NMqyUUEA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NMqyUUEA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NMqyUUEA.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Otto_Goldschmidt_(1829–1907)_1860s_by_Emilie_Bieber_(1810–1884)_OeNB_11354097.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                       | description                            | Wikidata QID                                                |
-    | :-------: | :--------------: | :---------------------------: | :------------------------------------: | :---------------------------------------------------------: |
-    | NMqyUUEA  | Otto Goldschmidt | Otto Moritz David Goldschmidt | German composer, conductor and pianist | [Otto Goldschmidt](http://wwww.wikidata.org/entity/Q320046) |
+    | FAAM UUID | label            | aliases                       | description                            | Wikidata QID                                           |
+    | :-------: | :--------------: | :---------------------------: | :------------------------------------: | :----------------------------------------------------: |
+    | NMqyUUEA  | Otto Goldschmidt | Otto Moritz David Goldschmidt | German composer, conductor and pianist | [Otto Goldschmidt](http://wikidata.org/entity/Q320046) |
 
 <br><br><br>
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NMqyUUEA.html" height="800" width="1200" title="NMqyUUEA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NMqyUUEA" height="800" width="1200" title="NMqyUUEA"></iframe>
 
 ## Identifiers
 
@@ -90,3 +94,11 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Missa Papae Marcelli, IGP 56](./P2qUeis2.md)__
+
+	mass by Giovanni Pierluigi da Palestrina
+
+</div>

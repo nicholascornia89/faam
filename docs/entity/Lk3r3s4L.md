@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Lk3r3s4L
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                                       | aliases     | Wikidata QID                                           |
-    | :-------: | :--------: | :-----------------------------------------------------------------------------------------------: | :---------: | :----------------------------------------------------: |
-    | Lk3r3s4L  | aristocrat | a person who either possesses hereditary titles granted by a monarch or is related to such people | aristocracy | [aristocrat](http://wwww.wikidata.org/entity/Q2478141) |
+    | FAAM UUID | label      | description                                                                                       | aliases     | Wikidata QID                                      |
+    | :-------: | :--------: | :-----------------------------------------------------------------------------------------------: | :---------: | :-----------------------------------------------: |
+    | Lk3r3s4L  | aristocrat | a person who either possesses hereditary titles granted by a monarch or is related to such people | aristocracy | [aristocrat](http://wikidata.org/entity/Q2478141) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Lk3r3s4L.html" height="800" width="1200" title="Lk3r3s4L"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Lk3r3s4L" height="800" width="1200" title="Lk3r3s4L"></iframe>
 
 ## Cross-references
 

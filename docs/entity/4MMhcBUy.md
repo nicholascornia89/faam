@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4MMhcBUy
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-43090486d/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/4MMhcBUy.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/4MMhcBUy.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/4MMhcBUy.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-43090486d/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/4MMhcBUy.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/4MMhcBUy.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/4MMhcBUy.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-43090486d.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                 | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | 4MMhcBUy  | BNF-43090486d         | Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7) | [external URL](GepDoTXn) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                 | permalink                                                       | provenance                                        |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------: |
+    | 4MMhcBUy  | BNF-43090486d         | Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7) | [external URL](https://catalogue.bnf.fr/ark:/12148/cb43090486d) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -127,10 +131,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/4MMhcBUy.html" height="800" width="1200" title="4MMhcBUy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4MMhcBUy" height="800" width="1200" title="4MMhcBUy"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/4MMhcBUy.html" height="800" width="1200" title="4MMhcBUy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/4MMhcBUy" height="800" width="1200" title="4MMhcBUy"></iframe>

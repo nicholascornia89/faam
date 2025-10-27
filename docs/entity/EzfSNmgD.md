@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EzfSNmgD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EzfSNmgD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EzfSNmgD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EzfSNmgD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EzfSNmgD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EzfSNmgD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EzfSNmgD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                                  | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------: | :------------------------------------------: | :--------------------------------------------------------: |
-    | EzfSNmgD  | Nicolas Lebègue | Nicolas Lebegue | French organist, harpsichordist and composer | [Nicolas Lebègue](http://wwww.wikidata.org/entity/Q944492) |
+    | FAAM UUID | label           | aliases         | description                                  | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------: | :------------------------------------------: | :---------------------------------------------------: |
+    | EzfSNmgD  | Nicolas Lebègue | Nicolas Lebegue | French organist, harpsichordist and composer | [Nicolas Lebègue](http://wikidata.org/entity/Q944492) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/EzfSNmgD.html" height="800" width="1200" title="EzfSNmgD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EzfSNmgD" height="800" width="1200" title="EzfSNmgD"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[Chacone grave](./nduQSaHV.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902707238.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902707238.gif){align=left width="150" height="150"} 
 
 	
 

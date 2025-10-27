@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QRJDh2F3
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description | aliases | Wikidata QID                                              |
-    | :-------: | :----------: | :---------: | :-----: | :-------------------------------------------------------: |
-    | QRJDh2F3  | female voice |             |         | [female voice](http://wwww.wikidata.org/entity/Q50810224) |
+    | FAAM UUID | label        | description | aliases | Wikidata QID                                         |
+    | :-------: | :----------: | :---------: | :-----: | :--------------------------------------------------: |
+    | QRJDh2F3  | female voice |             |         | [female voice](http://wikidata.org/entity/Q50810224) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/QRJDh2F3.html" height="800" width="1200" title="QRJDh2F3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QRJDh2F3" height="800" width="1200" title="QRJDh2F3"></iframe>
 
 ## Cross-references
 

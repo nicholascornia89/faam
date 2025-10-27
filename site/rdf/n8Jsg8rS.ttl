@@ -1,0 +1,33 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:n8Jsg8rS a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:RVtkmyF4 ;
+    schema1:description "Setting of Psalm 51 by Gregorio Allegri"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1576091>,
+        "16002009"^^xsd:string,
+        "n8Jsg8rS"^^xsd:string ;
+    schema1:isBasedOn faamentity:4bgRTUDN ;
+    skos:altLabel "Have mercy on me, O God"^^xsd:string,
+        "Miserere"^^xsd:string,
+        "Miserere mei"^^xsd:string,
+        "Miserere mei, Deus"^^xsd:string ;
+    skos:prefLabel "Miserere, IGA 2"^^xsd:string ;
+    wd:P2000 cpdl:Miserere_mei_\(Gregorio_Allegri\) ;
+    wd:P214 viaf:185080354 ;
+    wd:P5202 faamentity:S5MqiAs8,
+        faamentity:Y37RQzq9,
+        faamentity:gMpSya7p,
+        faamentity:jZ5Za9W2,
+        faamentity:mG8TWxjt ;
+    wd:P7937 faamentity:BdJHjaCE,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Miserere_(Allegri,_Gregorio)> .
+

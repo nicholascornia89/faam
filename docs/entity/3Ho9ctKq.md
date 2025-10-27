@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3Ho9ctKq
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                | aliases           | Wikidata QID                                  |
-    | :-------: | :----: | :------------------------: | :---------------: | :-------------------------------------------: |
-    | 3Ho9ctKq  | Sweden | country in Northern Europe | Kingdom of Sweden | [Sweden](http://wwww.wikidata.org/entity/Q34) |
+    | FAAM UUID | label  | description                | aliases           | Wikidata QID                             |
+    | :-------: | :----: | :------------------------: | :---------------: | :--------------------------------------: |
+    | 3Ho9ctKq  | Sweden | country in Northern Europe | Kingdom of Sweden | [Sweden](http://wikidata.org/entity/Q34) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/3Ho9ctKq.html" height="800" width="1200" title="3Ho9ctKq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3Ho9ctKq" height="800" width="1200" title="3Ho9ctKq"></iframe>
 
 ## Identifiers
 

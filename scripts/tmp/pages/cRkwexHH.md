@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cRkwexHH
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                          | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :----------------------------------: | :-----: | :------------------------------------------------: |
-    | cRkwexHH  | romance | musical form of brief, simple melody | romance | [romance](http://wwww.wikidata.org/entity/Q599510) |
+    | FAAM UUID | label   | description                          | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :----------------------------------: | :-----: | :-------------------------------------------: |
+    | cRkwexHH  | romance | musical form of brief, simple melody | romance | [romance](http://wikidata.org/entity/Q599510) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/cRkwexHH.html" height="800" width="1200" title="cRkwexHH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cRkwexHH" height="800" width="1200" title="cRkwexHH"></iframe>
 
 ## Cross-references
 
@@ -39,31 +43,31 @@ tags: keyword
 
 -	__[ROBERT LE DIABLE : Opéra en cinq actes : N° 3. Romance "Va! va! va, dit-elle"](./gW6tSWx3.md)__
 
-	![Image](../assets/images/thumbs/KCG-000122150.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000122150.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quatre Morceaux](./n73fdFK7.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143703p7.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143703p7.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Album Musica N. 31](./W7vQ5NdU.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143703p9.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143703p9.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Romance sans paroles - Op. 21](./nk4njhfA.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p24.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p24.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[En écoutant avec son coeur](./VRKgN2tT.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p26.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p26.gif){align=left width="150" height="150"} 
 
 	
 

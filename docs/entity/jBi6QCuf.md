@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jBi6QCuf
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                       | aliases             | Wikidata QID                                      |
-    | :-------: | :-----: | :---------------------------------------------------------------: | :-----------------: | :-----------------------------------------------: |
-    | jBi6QCuf  | Oakland | city and county seat of Alameda County, California, United States | Oakland, California | [Oakland](http://wwww.wikidata.org/entity/Q17042) |
+    | FAAM UUID | label   | description                                                       | aliases             | Wikidata QID                                 |
+    | :-------: | :-----: | :---------------------------------------------------------------: | :-----------------: | :------------------------------------------: |
+    | jBi6QCuf  | Oakland | city and county seat of Alameda County, California, United States | Oakland, California | [Oakland](http://wikidata.org/entity/Q17042) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jBi6QCuf.html" height="800" width="1200" title="jBi6QCuf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jBi6QCuf" height="800" width="1200" title="jBi6QCuf"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FmskubuS
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description              | aliases | Wikidata QID                                            |
-    | :-------: | :---------: | :----------------------: | :-----: | :-----------------------------------------------------: |
-    | FmskubuS  | poet lawyer | poet with legal training |         | [poet lawyer](http://wwww.wikidata.org/entity/Q1209498) |
+    | FAAM UUID | label       | description              | aliases | Wikidata QID                                       |
+    | :-------: | :---------: | :----------------------: | :-----: | :------------------------------------------------: |
+    | FmskubuS  | poet lawyer | poet with legal training |         | [poet lawyer](http://wikidata.org/entity/Q1209498) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FmskubuS.html" height="800" width="1200" title="FmskubuS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FmskubuS" height="800" width="1200" title="FmskubuS"></iframe>
 
 ## Cross-references
 

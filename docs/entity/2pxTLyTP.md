@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2pxTLyTP
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2pxTLyTP.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2pxTLyTP.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2pxTLyTP.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2pxTLyTP.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2pxTLyTP.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2pxTLyTP.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jérôme-Joseph_de_Momigny.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases                  | description                  | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :----------------------: | :--------------------------: | :-----------------------------------------------------------------: |
-    | 2pxTLyTP  | Jérôme-Joseph de Momigny | Jerome-Joseph de Momigny | Belgian composer (1762-1842) | [Jérôme-Joseph de Momigny](http://wwww.wikidata.org/entity/Q709131) |
+    | FAAM UUID | label                    | aliases                  | description                  | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :----------------------: | :--------------------------: | :------------------------------------------------------------: |
+    | 2pxTLyTP  | Jérôme-Joseph de Momigny | Jerome-Joseph de Momigny | Belgian composer (1762-1842) | [Jérôme-Joseph de Momigny](http://wikidata.org/entity/Q709131) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/2pxTLyTP.html" height="800" width="1200" title="2pxTLyTP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2pxTLyTP" height="800" width="1200" title="2pxTLyTP"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,7 @@ tags: agent
 
 -	__[Convoluut](./bPMh4UBw.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902808952.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902808952.gif){align=left width="150" height="150"} 
 
 	
 

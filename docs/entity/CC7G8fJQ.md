@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CC7G8fJQ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | aliases                  | description                            | Wikidata QID                                                                      |
-    | :-------: | :-----------------------------------: | :----------------------: | :------------------------------------: | :-------------------------------------------------------------------------------: |
-    | CC7G8fJQ  | Prelude and Fugue in C major, BWV 846 | Prelude No. 1 in C major | musical piece by Johann Sebastian Bach | [Prelude and Fugue in C major, BWV 846](http://wwww.wikidata.org/entity/Q4376908) |
+    | FAAM UUID | label                                 | aliases                  | description                            | Wikidata QID                                                                 |
+    | :-------: | :-----------------------------------: | :----------------------: | :------------------------------------: | :--------------------------------------------------------------------------: |
+    | CC7G8fJQ  | Prelude and Fugue in C major, BWV 846 | Prelude No. 1 in C major | musical piece by Johann Sebastian Bach | [Prelude and Fugue in C major, BWV 846](http://wikidata.org/entity/Q4376908) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: musical_work
 
 !!! quote "form of creative work" 
 
-	- [prelude and fugue](http://www.wikidata.org/entity/Q3408995)
+	- [prelude and fugue](Q3408995)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/CC7G8fJQ.html" height="800" width="1200" title="CC7G8fJQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CC7G8fJQ" height="800" width="1200" title="CC7G8fJQ"></iframe>
 
 ## Identifiers
 

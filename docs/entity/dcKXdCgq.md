@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dcKXdCgq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                                             | aliases  | Wikidata QID                                          |
-    | :-------: | :------: | :-------------------------------------------------------------------------------------: | :------: | :---------------------------------------------------: |
-    | dcKXdCgq  | Dyudkovo | Previously was a village near Zvenigorod, since 2003 is a part (district) of Zvenigorod | Dyutkovo | [Dyudkovo](http://wwww.wikidata.org/entity/Q15640388) |
+    | FAAM UUID | label    | description                                                                             | aliases  | Wikidata QID                                     |
+    | :-------: | :------: | :-------------------------------------------------------------------------------------: | :------: | :----------------------------------------------: |
+    | dcKXdCgq  | Dyudkovo | Previously was a village near Zvenigorod, since 2003 is a part (district) of Zvenigorod | Dyutkovo | [Dyudkovo](http://wikidata.org/entity/Q15640388) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dcKXdCgq.html" height="800" width="1200" title="dcKXdCgq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dcKXdCgq" height="800" width="1200" title="dcKXdCgq"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mKS3bq3i
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mKS3bq3i.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mKS3bq3i.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mKS3bq3i.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mKS3bq3i.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mKS3bq3i.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mKS3bq3i.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                                |
-    | :-------: | :------------: | :------------: | :--------------------------: | :---------------------------------------------------------: |
-    | mKS3bq3i  | James Cervetto | James Cervetto | English cellist and composer | [James Cervetto](http://wwww.wikidata.org/entity/Q18529811) |
+    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                           |
+    | :-------: | :------------: | :------------: | :--------------------------: | :----------------------------------------------------: |
+    | mKS3bq3i  | James Cervetto | James Cervetto | English cellist and composer | [James Cervetto](http://wikidata.org/entity/Q18529811) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/mKS3bq3i.html" height="800" width="1200" title="mKS3bq3i"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mKS3bq3i" height="800" width="1200" title="mKS3bq3i"></iframe>
 
 ## Identifiers
 

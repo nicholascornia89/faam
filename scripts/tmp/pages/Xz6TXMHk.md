@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Xz6TXMHk
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | aliases                      | description                              | Wikidata QID                                                               |
-    | :-------: | :--------------------------: | :--------------------------: | :--------------------------------------: | :------------------------------------------------------------------------: |
-    | Xz6TXMHk  | Missa Aeterna Christi munera | Missa Aeterna Christi munera | mass by Giovanni Pierluigi da Palestrina | [Missa Aeterna Christi munera](http://wwww.wikidata.org/entity/Q124309967) |
+    | FAAM UUID | label                        | aliases                      | description                              | Wikidata QID                                                          |
+    | :-------: | :--------------------------: | :--------------------------: | :--------------------------------------: | :-------------------------------------------------------------------: |
+    | Xz6TXMHk  | Missa Aeterna Christi munera | Missa Aeterna Christi munera | mass by Giovanni Pierluigi da Palestrina | [Missa Aeterna Christi munera](http://wikidata.org/entity/Q124309967) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Xz6TXMHk.html" height="800" width="1200" title="Xz6TXMHk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Xz6TXMHk" height="800" width="1200" title="Xz6TXMHk"></iframe>
 
 ## Identifiers
 
@@ -75,19 +79,19 @@ tags: musical_work
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)](./4MMhcBUy.md)__
 
-	![Image](../assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)](./4MMhcBUy.md)__
 
-	![Image](../assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
 
 	
 

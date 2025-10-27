@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HkbL2euD
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                     | aliases            | Wikidata QID                                                |
-    | :-------: | :------------: | :-----------------------------: | :----------------: | :---------------------------------------------------------: |
-    | HkbL2euD  | music theorist | person who studies music theory | music theoretician | [music theorist](http://wwww.wikidata.org/entity/Q16031530) |
+    | FAAM UUID | label          | description                     | aliases            | Wikidata QID                                           |
+    | :-------: | :------------: | :-----------------------------: | :----------------: | :----------------------------------------------------: |
+    | HkbL2euD  | music theorist | person who studies music theory | music theoretician | [music theorist](http://wikidata.org/entity/Q16031530) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/HkbL2euD.html" height="800" width="1200" title="HkbL2euD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HkbL2euD" height="800" width="1200" title="HkbL2euD"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
@@ -79,7 +83,7 @@ tags: occupation
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
@@ -139,13 +143,13 @@ tags: occupation
 
 -	__[Claudio Monteverdi](./J2JS4FwU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
 
 	Italian composer, string player, choirmaster, and priest (1567–1643)
 
 -	__[Vincenzo Manfredini](./NydN9SPX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician
 
@@ -223,7 +227,7 @@ tags: occupation
 
 -	__[Alexander Ossovsky](./7JHzNARd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Musicologist, Russian writer (1871-1957)
 

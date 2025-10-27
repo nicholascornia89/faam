@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HX3wVQLx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                     | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :-----------------------------: | :-----: | :-------------------------------------------------: |
-    | HX3wVQLx  | Borgloon | former city in Limburg, Belgium |         | [Borgloon](http://wwww.wikidata.org/entity/Q499609) |
+    | FAAM UUID | label    | description                     | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :-----------------------------: | :-----: | :--------------------------------------------: |
+    | HX3wVQLx  | Borgloon | former city in Limburg, Belgium |         | [Borgloon](http://wikidata.org/entity/Q499609) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HX3wVQLx.html" height="800" width="1200" title="HX3wVQLx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HX3wVQLx" height="800" width="1200" title="HX3wVQLx"></iframe>
 
 ## Identifiers
 

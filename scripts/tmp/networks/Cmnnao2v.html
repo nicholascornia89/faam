@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MWg6eofA", "label": "Leopoldine Blahetka", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MWg6eofA.md\u0027\u003eLeopoldine Blahetka\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposer (1809-1885)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopoldine_Blahetka.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Cmnnao2v", "label": "Boulogne-sur-Mer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Cmnnao2v.md\u0027\u003eBoulogne-sur-Mer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench commune in Pas-de-Calais, Hauts-de-France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "N5Hoh28Y", "label": "Alexandre Guilmant", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./N5Hoh28Y.md\u0027\u003eAlexandre Guilmant\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1837\u20131911)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexandre-Guilmant.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BJqUa5Kf.md\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "c45EE2BL", "label": "Adam Liszt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./c45EE2BL.md\u0027\u003eAdam Liszt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efather of Franz Liszt\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adam_Liszt.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AbReSA72", "label": "Gustavo Carulli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AbReSA72.md\u0027\u003eGustavo Carulli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian-French musician 1801-76\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "MWg6eofA", "to": "Cmnnao2v", "width": 10}, {"from": "N5Hoh28Y", "to": "BJqUa5Kf", "width": 1}, {"from": "N5Hoh28Y", "to": "Cmnnao2v", "width": 10}, {"from": "c45EE2BL", "to": "Cmnnao2v", "width": 10}, {"from": "BJqUa5Kf", "to": "Cmnnao2v", "width": 10}, {"from": "BJqUa5Kf", "to": "AbReSA72", "width": 10}, {"from": "AbReSA72", "to": "Cmnnao2v", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AbReSA72", "label": "Gustavo Carulli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AbReSA72\u0027\u003eGustavo Carulli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian-French musician 1801-76\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BJqUa5Kf\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Cmnnao2v", "label": "Boulogne-sur-Mer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Cmnnao2v\u0027\u003eBoulogne-sur-Mer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench commune in Pas-de-Calais, Hauts-de-France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MWg6eofA", "label": "Leopoldine Blahetka", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MWg6eofA\u0027\u003eLeopoldine Blahetka\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposer (1809-1885)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopoldine_Blahetka.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "N5Hoh28Y", "label": "Alexandre Guilmant", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/N5Hoh28Y\u0027\u003eAlexandre Guilmant\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1837\u20131911)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexandre-Guilmant.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "c45EE2BL", "label": "Adam Liszt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/c45EE2BL\u0027\u003eAdam Liszt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efather of Franz Liszt\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adam_Liszt.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "AbReSA72", "to": "BJqUa5Kf", "width": 10}, {"from": "AbReSA72", "to": "Cmnnao2v", "width": 10}, {"from": "MWg6eofA", "to": "Cmnnao2v", "width": 10}, {"from": "BJqUa5Kf", "to": "Cmnnao2v", "width": 10}, {"from": "BJqUa5Kf", "to": "N5Hoh28Y", "width": 1}, {"from": "c45EE2BL", "to": "Cmnnao2v", "width": 10}, {"from": "Cmnnao2v", "to": "N5Hoh28Y", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

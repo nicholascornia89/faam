@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7LbS5df2
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7LbS5df2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7LbS5df2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7LbS5df2.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7LbS5df2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7LbS5df2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7LbS5df2.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Leonhardt,_2008_(cropped).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                | description                                                                    | Wikidata QID                                               |
-    | :-------: | :--------------: | :--------------------: | :----------------------------------------------------------------------------: | :--------------------------------------------------------: |
-    | 7LbS5df2  | Gustav Leonhardt | Gustav Maria Leonhardt | Dutch keyboard player, conductor, musicologist, teacher and editor (1928–2012) | [Gustav Leonhardt](http://wwww.wikidata.org/entity/Q51584) |
+    | FAAM UUID | label            | aliases                | description                                                                    | Wikidata QID                                          |
+    | :-------: | :--------------: | :--------------------: | :----------------------------------------------------------------------------: | :---------------------------------------------------: |
+    | 7LbS5df2  | Gustav Leonhardt | Gustav Maria Leonhardt | Dutch keyboard player, conductor, musicologist, teacher and editor (1928–2012) | [Gustav Leonhardt](http://wikidata.org/entity/Q51584) |
 
 <br><br><br>
 
@@ -83,7 +87,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/7LbS5df2.html" height="800" width="1200" title="7LbS5df2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7LbS5df2" height="800" width="1200" title="7LbS5df2"></iframe>
 
 ## Identifiers
 
@@ -96,3 +100,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Ton Koopman](./Jy8ns9kr.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
+
+	Dutch conductor, organist and harpsichordist, born 2 October 1944
+
+</div>

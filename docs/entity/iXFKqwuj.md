@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iXFKqwuj
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | iXFKqwuj  | Keyboard Sonata in C major, K.326 | Keyboard Sonata in C major, L.201 | sonata by Domenico Scarlatti | [Sonata K. 326](http://wwww.wikidata.org/entity/Q78243593) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | iXFKqwuj  | Keyboard Sonata in C major, K.326 | Keyboard Sonata in C major, L.201 | sonata by Domenico Scarlatti | [Sonata K. 326](http://wikidata.org/entity/Q78243593) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/iXFKqwuj.html" height="800" width="1200" title="iXFKqwuj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iXFKqwuj" height="800" width="1200" title="iXFKqwuj"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

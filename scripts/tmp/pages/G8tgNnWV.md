@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: G8tgNnWV
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description             | aliases | Wikidata QID                                    |
-    | :-------: | :----: | :---------------------: | :-----: | :---------------------------------------------: |
-    | G8tgNnWV  | violin | bowed string instrument | fiddle  | [violin](http://wwww.wikidata.org/entity/Q8355) |
+    | FAAM UUID | label  | description             | aliases | Wikidata QID                               |
+    | :-------: | :----: | :---------------------: | :-----: | :----------------------------------------: |
+    | G8tgNnWV  | violin | bowed string instrument | fiddle  | [violin](http://wikidata.org/entity/Q8355) |
 
 <br><br><br>
 
@@ -31,19 +35,19 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./hBQw3Ynu.md)
+	- [necked box lutes played with a bow](./hBQw3Ynu.md)
 
-	- [](./XLChPm5L.md)
+	- [bowed string instrument](./XLChPm5L.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/G8tgNnWV.html" height="800" width="1200" title="G8tgNnWV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/G8tgNnWV" height="800" width="1200" title="G8tgNnWV"></iframe>
 
 ## Cross-references
 
@@ -53,583 +57,583 @@ tags: musical_instrument
 
 -	__[Rondo fantasque: pour violon et piano](./LAuSgnmB.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902500674.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902500674.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Rondo fantasque: pour violon et piano](./iNr6mw57.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902500666.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902500666.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Capricio](./UEwpgitR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902419677.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902419677.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Charlotte Corday: ouverture](./LSMFLPEa.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904175582.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904175582.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Kammersuite : für Streichorchester oder Streichquartett, op. 69](./2FmAPKHr.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902813853.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902813853.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sérénade andalouse: pour violon et piano, op. 28](./haTPbpUy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901351285.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901351285.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sérénade andalouse: pour violon et piano, op. 28](./E94koxmQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901292380.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901292380.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Violin concerto : G major, KV 216 = Concierto para violin: sol mayor, KV 216](./oQb73oWT.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902809604.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902809604.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Große Sonate : für Flöte (Violine) und Gitarre, op. 85](./GTT3Hefh.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902194585.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902194585.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate: pour trombone](./XD6ZiStc.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901762986.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901762986.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Andante: voor bazuin](./UG6ftJjM.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901762945.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901762945.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Fantaisie caractéristique : pour flûte : op. 16](./nuxEdyt8.md)__
 
-	![Image](../assets/images/thumbs/KCG-000329401.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000329401.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concerto N° 1 : en Ut mineur pour Deux Violons avec accompagnement de quintette et piano ou clavecin](./9csYvxWw.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331957.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331957.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[1er Sextuor : Pour Piano Forte, 2 Violons, Alto, Violoncelle et Contrebasse : Opera 79](./ZJ3kGktM.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334849.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334849.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[2e Grand Sextuor : pour Piano-Forte, 2 Violons, Alto, Violoncelle et Contre Basse : Op. 85](./QfYr3xJs.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334850.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334850.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[3e Sextuor : pour Piano, 2 Violons, Alto, Violonclle. et Contre Basse : Op. 90](./mTTA2Pu2.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334852.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334852.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[5e. Sextuor : pour Piano, Violon, 2 Altos, Violoncelle et Contrebasse : Op: 124.](./ZwB3hem7.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334854.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334854.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ouverture : pour deux Violons, Alto, Violoncelle, Basse, deux Flûtes, deux haubois, deux Clarinettes, deux Cors, deux Trompettes, deux Bassons et Timballe : OEuvre 43.](./Pxfujc36.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333241.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333241.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sextetto : pour le Piano Forte avec accompagnement de 2 violons, alto & violoncelle et contrebasse : Op: 58](./JrED8wWa.md)__
 
-	![Image](../assets/images/thumbs/KCG-000351592.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000351592.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[2me. Quintette ou Sextuor : pour deux Violons, deux Altos, Violoncelle et Contrebasse (ad libitum) : Op. 51](./jiooCs7A.md)__
 
-	![Image](../assets/images/thumbs/KCG-000356465.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000356465.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Second concerto : pour le violon avec Accompt. d'Orchestre ou de Piano : Op. 32](./kfBH8WGm.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334463.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334463.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[6me Concert : [pour violon : Opus 70]](./MkjtKGfB.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334477.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334477.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ottetto : Pour quatre Violons, deux Altos, deux Violoncelles : Oeuv. 20](./RV7gSF6E.md)__
 
-	![Image](../assets/images/thumbs/KCG-000356945.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000356945.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Septet in C "Militaire" Oeuvre 114 : voor piano, Flute, Clarinet, trompet, Violin, cello en DoubleBass](./UqeeR5k9.md)__
 
-	![Image](../assets/images/thumbs/KCG-000350286.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350286.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ouverture de Montano et Stephanie : arrangée pour piano forte prix 3e Cor](./RksoFb7n.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334887.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334887.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concertante : pour Hautbois, Cor et Basson avec Orchestre (Deux Violons, Alto, Violoncelle et Contrebasse; une Flûte et deux Clarinettes)](./gxpPQPeh.md)__
 
-	![Image](../assets/images/thumbs/KCG-000357124.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000357124.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[3e Concerto : pour le Violon avec Accompt. d'Orchestre ou de Piano : Op. 44](./mWsvgkqP.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334468.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334468.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concerto : pour le violon Avec Accompagnement de 2 Violons, Alto, Flûte, 2 Hautbois, 2 Clarinettes, 2 cors, 2 Bassons, 2 trompettes, Timballe, Violoncelle et Basse : Op. 61](./Rb5yhFaJ.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333156.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333156.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concerto : pour le Violon avec Accompagnement d'Orchestre ou de Piano : Op. 61.](./Rh2JVB5Q.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333153.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333153.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ouverture d'Anacréon ou l'Amour Fugitif : A Grand Orchestre](./HV6r8VMy.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339227.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339227.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concerto N° 1 in e : voor piano enOrchestra : Opus 11.](./FTZ58fP3.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339397.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339397.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concerto N° 1 in e : voor piano enOrchestra : Opus 11.](./Js8pCRJz.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339398.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339398.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quatrième Solo Pour le Cor : avec Accompt d'Orchestre ou de Piano : OEuvre IIe](./AQHXQNZM.md)__
 
-	![Image](../assets/images/thumbs/KCG-000345310.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345310.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ALCESTE /opera in 5 bedrijven op tekst-van, Calzabigi alleen Ie bedri.lf Air Divinités du Styx parti.i en 2.2.1.5.0./ô2.2.2./2.0.5./0. handschrift (kopie)](./XUEtAHJM.md)__
 
-	![Image](../assets/images/thumbs/KCG-000346605.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000346605.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Air de La Création](./V6dv6W8x.md)__
 
-	![Image](../assets/images/thumbs/KCG-000348660.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000348660.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Bohémiens Op. 29 N° 3 : Drei Gedichte](./dzJH3DPT.md)__
 
-	![Image](../assets/images/thumbs/KCG-000346180.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000346180.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quintette : pour Piano, 2 Violons, Alto & Violoncelle : Op. 44](./mW66jj2Y.md)__
 
-	![Image](../assets/images/thumbs/KCG-000741205.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000741205.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Grand Quintetto : pour piano et hautbois, clarinette, cor et basson : Op. 16](./JiGev8Z3.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333278.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333278.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Fantaisie : pour le Violon avec Accompagnement de grand Orchestre ou Quatuor ou Pianforte sur des motifs favoris de l'Opéra La Muette de Portici : Oeuvre 62](./kQgPCW2m.md)__
 
-	![Image](../assets/images/thumbs/KCG-000735234.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735234.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Grand Quintetto : pour Deux Violons, deux Altos et Violoncelle : Oeuvre 70](./WUWzhNxd.md)__
 
-	![Image](../assets/images/thumbs/KCG-000735262.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735262.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[CONCERTO in d : BWV 1043 : voor 2 violen, strijkers en b.c. ; reductie voor 2 violen en piano](./kX7cCN9V.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331903.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331903.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[CONCERTO in d : BWV 1043 : voor 2 violen, strijkers en b.c. ; reductie voor 2 violen en piano](./NipDyksP.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331901.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331901.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[15 dreistimmige Inventionen : für Violine, Viola (oder Violine II) und Violoncell mit Stricharten und Fingersatz versehen und als Unterrichtsmaterial für das Zusammenspiel](./9wSCPxvz.md)__
 
-	![Image](../assets/images/thumbs/KCG-000332135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000332135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[13. | Concerto. | del | Antonio Vivaldi. | Viol. conc., Viol +11, Viola, e Basso.](./VR377s7d.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA9.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA9.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[24. | Concerto | a Viol. conc., 2 Viol., Viola, Violoncello e Basso | del Sig. Vivaldi.](./Hefc4dEz.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA15.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA15.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[73 =a | Concerto | con 3 Violini di Concer:ti da quali si | devono cavare |i Violini di ripieno | del | Sig. D. Ant. Vivaldi](./8yd8X6r8.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA53.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA53.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[25. | Concerto | Violino conc., 2 Violini, Viola, e Basso | Del Sig. Vivaldi](./Wau8qFFq.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA63.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA63.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Douze nouveaux quatuors concertants pour deux Violons, Alto, et Violoncelle I](./cWBNaHX3.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA88.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA88.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Finale Allegro Vivace del V Quartetto](./HDvLLFdX.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA83.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA83.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[DUO BRILLANT: composé sur les motifs de la Sonnambule de Bellini/par J. Benedict & C. De Bériot;arrangé pour flûte et piano par Tulou. : Voor fluit en piano.](./QxFSEUST.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333995.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333995.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Six Sonatas : for the Harpsichord or Piano Forte with an Accompanyment for a German Flûte or Violin : Op. II](./nJai3Wij.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[D'Azémia : Ouverture : Arrangée Pour le Clavecin ou Forte-Piano, Avec Accompagnement de Violon ad libitum](./U4gmyGDo.md)__
 
-	![Image](../assets/images/thumbs/KCG-000340932.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000340932.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tempête d'Iphigénie en Tauride : Avec les Airs de Ballet De M. le Chevalier Gluck En Quatuor : Arrangée pour le Clavecin, ou le Forte Piano, Avec Accompagnement, de Violon Alto, et Violoncelle, Ad Libitum](./Zjww66hb.md)__
 
-	![Image](../assets/images/thumbs/KCG-000345536.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345536.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[VALSONS, VALSONS ENCORE](./N9vn4UYG.md)__
 
-	![Image](../assets/images/thumbs/KCG-000352995.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000352995.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alladin en de wonderlamp](./KwxaGLh6.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904190086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904190086.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Giaour : mélodie Persane](./WyPjHYq7.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904381131.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904381131.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[32me Potpourri : pour Piano et Flûte ou Violon : sur des motifs de l'Opéra Gustave ou le bal masqué : Oeuv: 259.](./a5FmXQHw.md)__
 
-	![Image](../assets/images/thumbs/KCG-000352632.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000352632.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[[Convoluut]](./4bA7mJfo.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902645172.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902645172.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Souvenirs Dramatiques : Arrangés en Trios pour Piano, Flûte et Violoncelle : 4e Don Jaun : Op. 86](./HNeP5iCN.md)__
 
-	![Image](../assets/images/thumbs/KCG-000359822.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000359822.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Souvenirs Dramatiques : Arrangés en Quatuors pour Piano, 2 Violons et Violoncelle : 18e La Flûte enchantée](./eEC74fNj.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750767.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750767.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[seizième Potpourri : pour Piano et Flute ou Violon](./iFYfBsMq.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750008.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750008.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Notturno Op. 37, Nr. 1 : für Violine und Orchester](./Wh7uVMCy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904862957.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904862957.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[95 esercizi : facili e preparatorî al secondo fascicolo della prima parte della 'Nuovo metodo per violino con la teoria del tetracordo' = 95 exercices : faciles et servant de préparation au deuxième cahier de la première partie de la 'Nouvelle méthode pour le violon avec la théorie du tétracorde' = 95 easy exercises : preparatory to book II of part I of the 'New method for the violin with the theory of the tetrachord'](./cqmenWpR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904919054.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904919054.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Méthode de violon divisée en 3 parties, op. 102](./7P5LYwUf.md)__
 
-	![Image](../assets/images/thumbs/BNF-428466571.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-428466571.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[3 études caractéristiques pour violon avec accpt. de piano, op. 37](./bSxwuKKy.md)__
 
-	![Image](../assets/images/thumbs/BNF-428466451.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-428466451.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Six études brillantes pour le violon avec accompagnement de piano ad libitum, op. 17](./5bi6fc4k.md)__
 
-	![Image](../assets/images/thumbs/BNF-42846644p.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42846644p.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Andante e scherzo capriccioso, op. 16](./AWoQ5Jp7.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076933339707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076933339707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Introduction et variations sur un thème Russe](./RsSE2YQa.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076960579707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076960579707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate für Violine solo](./FtE6Gc97.md)__
 
-	![Image](../assets/images/thumbs/BSB-991018906949707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991018906949707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonaten für Violine mit beziffertem Bass](./MxS3GvEN.md)__
 
-	![Image](../assets/images/thumbs/BSB-991040351439707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991040351439707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concert-Sonate für Violine mit beziffertem Bass](./as8iFPEC.md)__
 
-	![Image](../assets/images/thumbs/BSB-991061395849707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991061395849707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Suite (in D-dur)](./3pew3hMW.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076583969707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076583969707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concert in D-dur : für d. Violine ; KV 218 ; op. 121](./9o9xj5Gw.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078005629707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078005629707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano](./cq9RrJ9Y.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les chérubins : pour violon et piano](./4mcJukFM.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920177.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920177.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Grand duo brillant op.20: pour violon et violoncelle](./CyAhNHDj.md)__
 
-	![Image](../assets/images/thumbs/KCA-SD109991.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-SD109991.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Grand trio pour violon, alto et violoncelle](./nTAx3eUj.md)__
 
-	![Image](../assets/images/thumbs/KCA-KMT175228.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KMT175228.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[1er concerto en la mineur : réduction pour violon et piano](./Qsf8EayK.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902488649.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902488649.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La précieuse : für Violine und Klavier](./LsN6QAus.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920060.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920060.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ecole du violon, Méthode complète et progressive à l'usage du Conservatoire](./iBZ5XdH6.md)__
 
-	![Image](../assets/images/thumbs/BNF-42810019r.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42810019r.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Violinstudien für Technik und Vortrag : (im Anschluß an Kreutzer's Etuden) ; op. 6](./DHC2sw3P.md)__
 
-	![Image](../assets/images/thumbs/BSB-991018741429707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991018741429707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Suite (Menuett, Gavotte, Siciliano und Gigue) für Violine allein : op. 43](./GcrjFznX.md)__
 
-	![Image](../assets/images/thumbs/BSL-1677119489.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSL-1677119489.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Die hohe Schule des Violinspiels: Werke berühmter Meister d. 17. u. 18. Jh.](./FFiDyaRp.md)__
 
-	![Image](../assets/images/thumbs/BSB-991018766109707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991018766109707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates pour piano et violon / L. van Beethoven ; nouvelle édition complète par Carl Reinecke ; la partie de violon arrangée par Friedrich Hermann](./2h4QWJrH.md)__
 
-	![Image](../assets/images/thumbs/BNF-42599226w.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42599226w.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Album Musica N. 31](./W7vQ5NdU.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143703p9.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143703p9.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le Roi des montagnes](./JEcTE9PA.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p47.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p47.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Adagio (de la sonate Au Clair de Lune)](./YYbrsSBH.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143701p8.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143701p8.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tanzkranz. 16 leichte Tänze. N. 1-16 in Band 1](./SnnqZ7he.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143701p10.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143701p10.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Mélodie. pour violon et piano](./E7W7urFG.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p13.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p13.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./hUSShLaN.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902751301.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902751301.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./EFUgU9L4.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902751319.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902751319.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./mM92yEzz.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920292.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920292.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./GXFWfE7D.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920300.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920300.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate en ré majeur nr 4 : pour violon et piano](./joMynDmV.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902480737.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902480737.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate en ré majeur nr 4 : pour violon et piano](./NSHSjaif.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902480745.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902480745.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Souvenirs Dramatiques : Arrangés en Trios pour Piano, Flûte et Violoncelle : 4e Don Jaun : Op. 86](./HNeP5iCN.md)__
 
-	![Image](../assets/images/thumbs/KCG-000359822.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000359822.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Souvenirs Dramatiques : Arrangés en Quatuors pour Piano, 2 Violons et Violoncelle : 18e La Flûte enchantée](./eEC74fNj.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750767.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750767.gif){align=left width="150" height="150"} 
 
 	
 
@@ -639,13 +643,13 @@ tags: musical_instrument
 
 -	__[Felix Aerts](./Bbkf475N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian violinist
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
@@ -693,7 +697,7 @@ tags: musical_instrument
 
 -	__[Michel Pignolet de Montéclair](./S4Cg5DA6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
@@ -705,7 +709,7 @@ tags: musical_instrument
 
 -	__[André Campra](./jyGKpuHY.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Andr%C3%A9_Campra.jpg/585px-Andr%C3%A9_Campra.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/585px-Andr%C3%A9_Campra.jpg){align=left width="150" height="150"} 
 
 	French composer and conductor (1660-1744)
 
@@ -729,7 +733,7 @@ tags: musical_instrument
 
 -	__[Andreas Moser](./chVHcWVu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German violinist and musicologist (1859-1925)
 
@@ -747,7 +751,7 @@ tags: musical_instrument
 
 -	__[Jean-Baptiste-Joseph Tolbecque](./9FCtqmNH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, violinist and conductor
 
@@ -825,7 +829,7 @@ tags: musical_instrument
 
 -	__[Henri Vieuxtemps](./dQpy5hbT.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vieuxtemps.jpeg){align=left width="150" height="150"} 
 
 	Belgian violinist and composer (1820-1881)
 
@@ -855,7 +859,7 @@ tags: musical_instrument
 
 -	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
 
 	Austrian composer of the Classical period (1756–1791)
 
@@ -879,7 +883,7 @@ tags: musical_instrument
 
 -	__[Antonio Vivaldi](./GSqAPxLN.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vivaldi.jpg){align=left width="150" height="150"} 
 
 	Italian composer and violinist (1678-1741)
 
@@ -909,13 +913,13 @@ tags: musical_instrument
 
 -	__[Georges Lonque](./mUgkXxXH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian conductor and musicologist (1900-1967)
 
 -	__[Jean Rogister](./YAikRAxA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1879-1964)
 
@@ -939,37 +943,37 @@ tags: musical_instrument
 
 -	__[Giuseppe Cambini](./5yDGjqgE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician (1746-1825)
 
 -	__[Leopold Jansa](./aovZZUxK.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/9/9a/Leopold_Jansa.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Jansa.jpg){align=left width="150" height="150"} 
 
 	Czech violinist, music educator and composer (1795–1875)
 
 -	__[Flor Alpaerts](./X9GjfsUf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, conductor, pedagogue (1876–1954)
 
 -	__[Franz Alexander Pössinger](./ZchmW76w.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 
 -	__[Thomas Haigh](./4UFJuwWB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English musician and composer
 
 -	__[Joseph Küffner](./JR6gFKtX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician and composer
 
@@ -981,19 +985,19 @@ tags: musical_instrument
 
 -	__[Frank Van der Stucken](./3EGSrwCz.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/af/FrankVanderStucken.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FrankVanderStucken.png){align=left width="150" height="150"} 
 
 	Flemish-American violinist, conductor, composer and festival director
 
 -	__[Biagio Marini](./5mEwdeZH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and composer
 
 -	__[Angelo Consolini](./2Sh2rJhV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1859-1934)
 
@@ -1005,7 +1009,7 @@ tags: musical_instrument
 
 -	__[Heinrich Christoph Koch](./ctR5YVSR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist and composer
 
@@ -1035,13 +1039,13 @@ tags: musical_instrument
 
 -	__[Charles Philippe Lafont](./4EtCMgqU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/4d/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg){align=left width="150" height="150"} 
 
 	French violinist and composer (1781–1839)
 
 -	__[Ludwig van Beethoven](./TZfafBBe.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Beethoven.jpg){align=left width="150" height="150"} 
 
 	German composer (1770–1827)
 
@@ -1053,13 +1057,13 @@ tags: musical_instrument
 
 -	__[Roberto Michelucci](./nZ858ad7.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/18/Tokio_1972._Roberto_Michelucci_riceve_il_Disco_D%27oro.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tokio_1972._Roberto_Michelucci_riceve_il_Disco_D%27oro.jpg){align=left width="150" height="150"} 
 
 	Italian violinist (1922–2010)
 
 -	__[Luigi Madonis](./kk7RXapg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and violinist
 
@@ -1077,13 +1081,13 @@ tags: musical_instrument
 
 -	__[Giovanni Benedetto Platti](./dek3dK5z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Karl Joseph Toeschi](./8U229qGB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1731-1788)
 
@@ -1113,13 +1117,13 @@ tags: musical_instrument
 
 -	__[Issay Barmas](./8E5UBj64.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/50/Issay_Barmas.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Issay_Barmas.jpg){align=left width="150" height="150"} 
 
 	Russian-German violinist
 
 -	__[Pierre Leduc](./aJyV3DsH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French music publisher (1755-1826)
 
@@ -1131,13 +1135,13 @@ tags: musical_instrument
 
 -	__[Niccolo Pasquali](./2qSrGT5p.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian music theorist and composer
 
 -	__[Karel Miry](./NwoWGVoL.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3e/Gustave_Vanaise_-_Portrait_of_the_Composer_Charles_Miry_-_1913-X_-_Museum_of_Fine_Arts_Ghent_%28MSK%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustave_Vanaise_-_Portrait_of_the_Composer_Charles_Miry_-_1913-X_-_Museum_of_Fine_Arts_Ghent_%28MSK%29.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1823-1889)
 
@@ -1155,31 +1159,31 @@ tags: musical_instrument
 
 -	__[Giovanni Piantanida](./MAEUzKFY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Ignazio Raimondi](./59RnnmEC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violonist and composer
 
 -	__[Francesco Pasquale Ricci](./ZQMQYxMH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Francesco Guerini](./evCwHyYF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and composer
 
 -	__[Domenico Dall'Oglio](./8wBwdzKn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and composer
 
@@ -1267,6 +1271,12 @@ tags: musical_instrument
 
 	Czech composer (1824–1884)
 
+-	__[Ferdinand David](./2LiJbewP.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	German musician (1810-1873)
+
 -	__[Joseph-Henri Mees](./SyLfjkFQ.md)__
 
 	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://books.google.be/books/content?id=FF43AAAAMAAJ&pg=RA1-PA108-IA1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U3fR2lqHxKj7QCsFDfgmgzbt8okpw&ci=130%2C291%2C711%2C660&edge=0){align=left width="150" height="150"} 
@@ -1287,13 +1297,13 @@ tags: musical_instrument
 
 -	__[M. Ch. Houin](./V5nX7LRu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Félix Renard](./R4SyinuD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and violinist
 
@@ -1305,7 +1315,7 @@ tags: musical_instrument
 
 -	__[Émile Wambach](./AedSA8fV.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Emile_Wambach_1913.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Wambach_1913.jpg){align=left width="150" height="150"} 
 
 	Belgian conductor, composer, musicologist and music educator (1854-1924)
 
@@ -1383,7 +1393,7 @@ tags: musical_instrument
 
 -	__[Vincenzo Ugolini](./HMAGiiSN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1570–1638)
 
@@ -1413,7 +1423,7 @@ tags: musical_instrument
 
 -	__[Johann Christoph Bach II](./8mBATjSW.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
@@ -1437,7 +1447,7 @@ tags: musical_instrument
 
 -	__[Corneille](./UFbwTaUw.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian violinist and composer
 
@@ -1473,19 +1483,19 @@ tags: musical_instrument
 
 -	__[Andre Robberechts](./NtFF6WaB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1797–1860)
 
 -	__[Anton Stamitz](./N2MmbiCx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
 -	__[Giovanni Battista Vivaldi](./4cWGCPTD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist
 
@@ -1509,31 +1519,31 @@ tags: musical_instrument
 
 -	__[Leonardo Brugnoli](./FFjwjDgW.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violonist
 
 -	__[Giovanni Benvenuti](./2FgECPXa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist
 
 -	__[Giovanni Battista Bassani](./bTS8wpNY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, violinist and organist
 
 -	__[Franz Eck](./HJeQijVf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German violinist
 
 -	__[Charles Louis Maucourt](./dEs5J8i5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -1545,13 +1555,13 @@ tags: musical_instrument
 
 -	__[Isidore Bertheaume](./DRer7QtC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French violinist and composer
 
 -	__[Dionisio Bellante](./D6ZQ2XXM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and composer
 
@@ -1563,13 +1573,13 @@ tags: musical_instrument
 
 -	__[Albrecht Agthe](./kjYoQose.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German music teacher and composer (1790–1873)
 
 -	__[Nicola Fiorenza](./2i632xua.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and violinist
 
@@ -1581,7 +1591,7 @@ tags: musical_instrument
 
 -	__[Marco Uccellini](./8j3Rxjfp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician and composer
 
@@ -1611,103 +1621,103 @@ tags: musical_instrument
 
 -	__[Gustav Jensen](./FjJkCWj5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer, violinist and music pedagogue (1843-1895)
 
 -	__[Joseph Böhm](./6b3CkNVn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Hungarian musician (1795-1876)
 
 -	__[Faustino Camisani](./JhV8iJnq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1772-1830)
 
 -	__[Georg Hellmesberger](./8uBMTTxq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian violinist, conductor and composer (1800–1873)
 
 -	__[Martin Pierre Marsick](./BQAaQ6z5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1847-1924)
 
 -	__[Jakob Grün](./DJPGuSPB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Hungarian violinist and music educator (1837-1916)
 
 -	__[Antonín Bennewitz](./dGjgsiqk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech violinist, conductor and teacher (1833–1926)
 
 -	__[Eugène Godecharle](./NCFQTxSW.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian violinist and composer
 
 -	__[Jean-Englebert Pauwels](./3jJNtmUA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Flemish composer, violinist and conductor
 
 -	__[Carl Stamitz](./WKWT3cLa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer of partial Czech ancestry
 
 -	__[Christian Cannabich](./bU5SVSkN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German violinist, composer, and Kapellmeister (1731-1798)
 
 -	__[Carl Heissler](./oTgRCA3V.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian musician (1823-1878)
 
 -	__[François Charles Joseph Dupont](./i7q3NVfw.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	violinist (1821-1861)
 
 -	__[František Martin Pecháček](./JCemvL5a.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Violinist and Composer
 
 -	__[Pasquale Bini](./dFPDLKss.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and composer
 
 -	__[Giovanni Battista Buonamente](./kpwkyWgQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Pietro Rovelli](./mi8RRxdb.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

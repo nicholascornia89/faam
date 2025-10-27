@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JuAQYsFX
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000334547/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JuAQYsFX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JuAQYsFX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JuAQYsFX.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000334547/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JuAQYsFX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JuAQYsFX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JuAQYsFX.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000334547.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334547.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                             | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | JuAQYsFX  | KCG-000334547         | Douze melodies italiennes : pour la flûte, avec accompagnement de piano: divisées en trois suites | [external URL](aovZZUxK) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                             | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | JuAQYsFX  | KCG-000334547         | Douze melodies italiennes : pour la flûte, avec accompagnement de piano: divisées en trois suites | [external URL](https://catalogus.hogent.be/catalog/hog01:000334547) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -103,10 +107,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/JuAQYsFX.html" height="800" width="1200" title="JuAQYsFX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JuAQYsFX" height="800" width="1200" title="JuAQYsFX"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/JuAQYsFX.html" height="800" width="1200" title="JuAQYsFX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/JuAQYsFX" height="800" width="1200" title="JuAQYsFX"></iframe>

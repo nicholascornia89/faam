@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kiYCQnL4
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                                                                                       | aliases  | Wikidata QID                                                 |
-    | :-------: | :--------------: | :---------------------------------------------------------------------------------------------------------------: | :------: | :----------------------------------------------------------: |
-    | kiYCQnL4  | musical ensemble | group of people who perform instrumental and/or vocal music, with the ensemble typically known by a distinct name | ensemble | [musical ensemble](http://wwww.wikidata.org/entity/Q2088357) |
+    | FAAM UUID | label            | description                                                                                                       | aliases  | Wikidata QID                                            |
+    | :-------: | :--------------: | :---------------------------------------------------------------------------------------------------------------: | :------: | :-----------------------------------------------------: |
+    | kiYCQnL4  | musical ensemble | group of people who perform instrumental and/or vocal music, with the ensemble typically known by a distinct name | ensemble | [musical ensemble](http://wikidata.org/entity/Q2088357) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/kiYCQnL4.html" height="800" width="1200" title="kiYCQnL4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kiYCQnL4" height="800" width="1200" title="kiYCQnL4"></iframe>
 
 ## Cross-references
 

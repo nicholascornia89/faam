@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UtGfBPx9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                  | aliases | Wikidata QID                                            |
-    | :-------: | :-------: | :--------------------------------------------------------------------------: | :-----: | :-----------------------------------------------------: |
-    | UtGfBPx9  | Ter Hooge | 17th century buitenplaatsen near Koudekerke, Walcheren, Zeeland, Netherlands |         | [Ter Hooge](http://wwww.wikidata.org/entity/Q107356996) |
+    | FAAM UUID | label     | description                                                                  | aliases | Wikidata QID                                       |
+    | :-------: | :-------: | :--------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
+    | UtGfBPx9  | Ter Hooge | 17th century buitenplaatsen near Koudekerke, Walcheren, Zeeland, Netherlands |         | [Ter Hooge](http://wikidata.org/entity/Q107356996) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/UtGfBPx9.html" height="800" width="1200" title="UtGfBPx9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UtGfBPx9" height="800" width="1200" title="UtGfBPx9"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hMYL5Z9b
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                      | aliases        | Wikidata QID                                               |
-    | :-------: | :------------: | :------------------------------: | :------------: | :--------------------------------------------------------: |
-    | hMYL5Z9b  | harpsichordist | person who plays the harpsichord | harpsichordist | [harpsichordist](http://wwww.wikidata.org/entity/Q5371902) |
+    | FAAM UUID | label          | description                      | aliases        | Wikidata QID                                          |
+    | :-------: | :------------: | :------------------------------: | :------------: | :---------------------------------------------------: |
+    | hMYL5Z9b  | harpsichordist | person who plays the harpsichord | harpsichordist | [harpsichordist](http://wikidata.org/entity/Q5371902) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/hMYL5Z9b.html" height="800" width="1200" title="hMYL5Z9b"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hMYL5Z9b" height="800" width="1200" title="hMYL5Z9b"></iframe>
 
 ## Cross-references
 
@@ -79,7 +83,7 @@ tags: occupation
 
 -	__[Carl David Stegmann](./CQvP5Hos.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German opera singer, harpsichordist, conductor and composer
 
@@ -91,7 +95,7 @@ tags: occupation
 
 -	__[Wanda Landowska](./ANygk75M.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
 
 	(1879-1959) Polish-French harpsichordist
 
@@ -109,7 +113,7 @@ tags: occupation
 
 -	__[Ton Koopman](./Jy8ns9kr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
 
 	Dutch conductor, organist and harpsichordist, born 2 October 1944
 
@@ -139,7 +143,7 @@ tags: occupation
 
 -	__[Jean-Frédéric Edelmann](./oRcy7jj8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1749–1794)
 
@@ -157,31 +161,31 @@ tags: occupation
 
 -	__[Giovanni Battista Pescetti](./o7WPMz42.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Violet Gordon-Woodhouse](./b2nGBPKP.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/00/Violet_Gordon_Woodhouse_circa_1900.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Violet_Gordon_Woodhouse_circa_1900.jpg){align=left width="150" height="150"} 
 
 	British harpsichordist and clavichordist (1872–1948)
 
 -	__[Nicolas Lebègue](./EzfSNmgD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist, harpsichordist and composer
 
 -	__[Paul Brunold](./8tdvhwo3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Antoinette Vischer](./7vm6nMLX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss harpsichordist
 
@@ -193,13 +197,13 @@ tags: occupation
 
 -	__[Vincenzo Manfredini](./NydN9SPX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician
 
 -	__[Giovanni Battista Lampugnani](./iwTGMidi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1708-1788)
 
@@ -211,13 +215,13 @@ tags: occupation
 
 -	__[Louis Couperin](./KqBibisZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French Baroque composer
 
 -	__[Aimée Van de Wiele](./Qj6RwzVa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, musicologist and music educator (1907–1991)
 
@@ -235,13 +239,13 @@ tags: occupation
 
 -	__[Luzzasco Luzzaschi](./XudjntwM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and organist
 
 -	__[Vincenzo Lavigna](./biGnSXZs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -253,7 +257,7 @@ tags: occupation
 
 -	__[Jacques Champion de Chambonnières](./kj9NbWjb.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and harpsichordist
 

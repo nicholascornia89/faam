@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Jg3RV97U
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903238001/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Jg3RV97U.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Jg3RV97U.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Jg3RV97U.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903238001/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Jg3RV97U.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Jg3RV97U.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Jg3RV97U.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030903238001.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903238001.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                    | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | Jg3RV97U  | KCA-030903238001      | 12 petits préludes : pour piano à 2 mains = 12 kleine preluden : voor piano met 2 handen | [external URL](eSzqVmee) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                    | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | Jg3RV97U  | KCA-030903238001      | 12 petits préludes : pour piano à 2 mains = 12 kleine preluden : voor piano met 2 handen | [external URL](https://anet.be/record/opacdkvc/c:lvd:14088528/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -95,10 +99,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Jg3RV97U.html" height="800" width="1200" title="Jg3RV97U"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Jg3RV97U" height="800" width="1200" title="Jg3RV97U"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Jg3RV97U.html" height="800" width="1200" title="Jg3RV97U"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Jg3RV97U" height="800" width="1200" title="Jg3RV97U"></iframe>

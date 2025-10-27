@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CsTXBZxd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                                                                                                                           | aliases  | Wikidata QID                                             |
-    | :-------: | :------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------: | :------------------------------------------------------: |
-    | CsTXBZxd  | City of London | city, ceremonial county and local government district that contains the historic center and the primary central business district in the London Region in England, UK | the City | [City of London](http://wwww.wikidata.org/entity/Q23311) |
+    | FAAM UUID | label          | description                                                                                                                                                           | aliases  | Wikidata QID                                        |
+    | :-------: | :------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------: | :-------------------------------------------------: |
+    | CsTXBZxd  | City of London | city, ceremonial county and local government district that contains the historic center and the primary central business district in the London Region in England, UK | the City | [City of London](http://wikidata.org/entity/Q23311) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CsTXBZxd.html" height="800" width="1200" title="CsTXBZxd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CsTXBZxd" height="800" width="1200" title="CsTXBZxd"></iframe>
 
 ## Identifiers
 

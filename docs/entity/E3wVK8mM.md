@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: E3wVK8mM
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases            | description                      | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :----------------: | :------------------------------: | :---------------------------------------------------------------: |
-    | E3wVK8mM  | The Marriage of Figaro | Le nozze di Figaro | opera by Wolfgang Amadeus Mozart | [The Marriage of Figaro](http://wwww.wikidata.org/entity/Q201873) |
+    | FAAM UUID | label                  | aliases            | description                      | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :----------------: | :------------------------------: | :----------------------------------------------------------: |
+    | E3wVK8mM  | The Marriage of Figaro | Le nozze di Figaro | opera by Wolfgang Amadeus Mozart | [The Marriage of Figaro](http://wikidata.org/entity/Q201873) |
 
 <br><br><br>
 
@@ -39,13 +43,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./RNpyZec5.md)
+	- [The Marriage of Figaro](./RNpyZec5.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/E3wVK8mM.html" height="800" width="1200" title="E3wVK8mM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/E3wVK8mM" height="800" width="1200" title="E3wVK8mM"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Le Nozze di Figaro : komische opera in 4 bedrijven](./TLmRU2pg.md)__
 
-	![Image](../assets/images/thumbs/KCG-000359978.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000359978.gif){align=left width="150" height="150"} 
 
 	
 

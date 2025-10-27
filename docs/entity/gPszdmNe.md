@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gPszdmNe
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                     | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :-----------------------------------------------------------------------------: | :-----: | :--------------------------------------------------: |
-    | gPszdmNe  | professor | academic position at universities and other education and research institutions | Prof.   | [professor](http://wwww.wikidata.org/entity/Q121594) |
+    | FAAM UUID | label     | description                                                                     | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :-----------------------------------------------------------------------------: | :-----: | :---------------------------------------------: |
+    | gPszdmNe  | professor | academic position at universities and other education and research institutions | Prof.   | [professor](http://wikidata.org/entity/Q121594) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/gPszdmNe.html" height="800" width="1200" title="gPszdmNe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gPszdmNe" height="800" width="1200" title="gPszdmNe"></iframe>
 
 ## Cross-references
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Pierre Joseph D'Hollander](./3HuQsR4z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	priest, theologian, professor and honorary canon (1804 - 1866)
 

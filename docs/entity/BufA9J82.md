@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BufA9J82
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                                  | aliases          | Wikidata QID                                                  |
-    | :-------: | :----------------: | :----------------------------------------------------------: | :--------------: | :-----------------------------------------------------------: |
-    | BufA9J82  | Kingdom of Denmark | transcontinental sovereign state and constitutional monarchy | Realm of Denmark | [Kingdom of Denmark](http://wwww.wikidata.org/entity/Q756617) |
+    | FAAM UUID | label              | description                                                  | aliases          | Wikidata QID                                             |
+    | :-------: | :----------------: | :----------------------------------------------------------: | :--------------: | :------------------------------------------------------: |
+    | BufA9J82  | Kingdom of Denmark | transcontinental sovereign state and constitutional monarchy | Realm of Denmark | [Kingdom of Denmark](http://wikidata.org/entity/Q756617) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/BufA9J82.html" height="800" width="1200" title="BufA9J82"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BufA9J82" height="800" width="1200" title="BufA9J82"></iframe>
 
 ## Identifiers
 

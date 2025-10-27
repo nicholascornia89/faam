@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AdtLRLuK
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description            | aliases | Wikidata QID                                                             |
-    | :-------: | :--------------------------: | :--------------------: | :-----: | :----------------------------------------------------------------------: |
-    | AdtLRLuK  | Conservatorium van Amsterdam | Dutch academy of music | CvA     | [Conservatorium van Amsterdam](http://wwww.wikidata.org/entity/Q1127380) |
+    | FAAM UUID | label                        | description            | aliases | Wikidata QID                                                        |
+    | :-------: | :--------------------------: | :--------------------: | :-----: | :-----------------------------------------------------------------: |
+    | AdtLRLuK  | Conservatorium van Amsterdam | Dutch academy of music | CvA     | [Conservatorium van Amsterdam](http://wikidata.org/entity/Q1127380) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./8mNP23J2.md)
+	[Amsterdam](./8mNP23J2.md)
 
 !!! quote "country" 
 
-	[](./BWX2VNz4.md)
+	[Netherlands](./BWX2VNz4.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/AdtLRLuK.html" height="800" width="1200" title="AdtLRLuK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AdtLRLuK" height="800" width="1200" title="AdtLRLuK"></iframe>
 
 ## Cross-references
 
@@ -69,7 +73,7 @@ tags: music_organization
 
 -	__[Ton Koopman](./Jy8ns9kr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
 
 	Dutch conductor, organist and harpsichordist, born 2 October 1944
 

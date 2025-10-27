@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VXdETnhb
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description             | aliases | Wikidata QID                                             |
-    | :-------: | :-----------: | :---------------------: | :-----: | :------------------------------------------------------: |
-    | VXdETnhb  | queen consort | wife of a reigning king |         | [queen consort](http://wwww.wikidata.org/entity/Q719039) |
+    | FAAM UUID | label         | description             | aliases | Wikidata QID                                        |
+    | :-------: | :-----------: | :---------------------: | :-----: | :-------------------------------------------------: |
+    | VXdETnhb  | queen consort | wife of a reigning king |         | [queen consort](http://wikidata.org/entity/Q719039) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/VXdETnhb.html" height="800" width="1200" title="VXdETnhb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VXdETnhb" height="800" width="1200" title="VXdETnhb"></iframe>
 
 ## Cross-references
 

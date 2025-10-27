@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LotzbE9a
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description    | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :------------: | :-----: | :----------------------------------------------: |
-    | LotzbE9a  | Sacile | Italian comune |         | [Sacile](http://wwww.wikidata.org/entity/Q53190) |
+    | FAAM UUID | label  | description    | aliases | Wikidata QID                                |
+    | :-------: | :----: | :------------: | :-----: | :-----------------------------------------: |
+    | LotzbE9a  | Sacile | Italian comune |         | [Sacile](http://wikidata.org/entity/Q53190) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LotzbE9a.html" height="800" width="1200" title="LotzbE9a"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LotzbE9a" height="800" width="1200" title="LotzbE9a"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Vincenzo Ruffo](./eFsFUzo8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1510-1587)
 

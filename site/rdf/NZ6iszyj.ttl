@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NZ6iszyj a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "municipality of Paris, France"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q209549>,
+        "0"^^xsd:string,
+        "NZ6iszyj"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf ;
+    skos:altLabel "2e arrondissement"^^xsd:string,
+        "75002"^^xsd:string,
+        "Paris 2"^^xsd:string,
+        "second arrondissement"^^xsd:string ;
+    skos:prefLabel "2nd arrondissement of Paris"^^xsd:string ;
+    wd:P1566 gn:3030864 .
+

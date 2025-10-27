@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HDz79C6j
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                   | aliases | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
-    | HDz79C6j  | Seeheim-Jugenheim | municipality in Landkreis Darmstadt-Dieburg in Hesse, Germany |         | [Seeheim-Jugenheim](http://wwww.wikidata.org/entity/Q574429) |
+    | FAAM UUID | label             | description                                                   | aliases | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------------------------------------------------------: | :-----: | :-----------------------------------------------------: |
+    | HDz79C6j  | Seeheim-Jugenheim | municipality in Landkreis Darmstadt-Dieburg in Hesse, Germany |         | [Seeheim-Jugenheim](http://wikidata.org/entity/Q574429) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HDz79C6j.html" height="800" width="1200" title="HDz79C6j"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HDz79C6j" height="800" width="1200" title="HDz79C6j"></iframe>
 
 ## Identifiers
 

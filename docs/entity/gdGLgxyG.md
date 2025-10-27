@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gdGLgxyG
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                     | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :-----------------------------: | :-----: | :-----------------------------------------------: |
-    | gdGLgxyG  | Dessau | city, district of Dessau-Roßlau |         | [Dessau](http://wwww.wikidata.org/entity/Q487070) |
+    | FAAM UUID | label  | description                     | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :-----------------------------: | :-----: | :------------------------------------------: |
+    | gdGLgxyG  | Dessau | city, district of Dessau-Roßlau |         | [Dessau](http://wikidata.org/entity/Q487070) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gdGLgxyG.html" height="800" width="1200" title="gdGLgxyG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gdGLgxyG" height="800" width="1200" title="gdGLgxyG"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Wilhelm Rust](./AUMMWhZm.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Wilhelm_Rust_1885.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wilhelm_Rust_1885.jpg){align=left width="150" height="150"} 
 
 	German composer and musicologist (1822–1892)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Qbg9wtnb
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                                       | aliases     | Wikidata QID                                        |
-    | :-------: | :-------: | :-----------------------------------------------------------------------------------------------: | :---------: | :-------------------------------------------------: |
-    | Qbg9wtnb  | Marseille | French commune in Bouches-du-Rhône, Provence-Alpes-Côte d'Azur; the second largest city of France | Massaliotes | [Marseille](http://wwww.wikidata.org/entity/Q23482) |
+    | FAAM UUID | label     | description                                                                                       | aliases     | Wikidata QID                                   |
+    | :-------: | :-------: | :-----------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------: |
+    | Qbg9wtnb  | Marseille | French commune in Bouches-du-Rhône, Provence-Alpes-Côte d'Azur; the second largest city of France | Massaliotes | [Marseille](http://wikidata.org/entity/Q23482) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Qbg9wtnb.html" height="800" width="1200" title="Qbg9wtnb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Qbg9wtnb" height="800" width="1200" title="Qbg9wtnb"></iframe>
 
 ## Identifiers
 
@@ -67,15 +71,15 @@ tags: city
 
 -	__[Édouard Gérard](./EYyZe39q.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French music publisher
 
 -	__[Jean-Étienne-Guillaume Arnaud](./ggdjX3vE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
-	
+	French composer (1807-1863)
 
 -	__[François Bazin](./DCNt8Rng.md)__
 
@@ -85,9 +89,9 @@ tags: city
 
 -	__[Jean-Étienne-Guillaume Arnaud](./ggdjX3vE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
-	
+	French composer (1807-1863)
 
 -	__[Jean-Vital Jammes](./UgfCRphN.md)__
 

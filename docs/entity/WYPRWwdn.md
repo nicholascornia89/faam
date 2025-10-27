@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WYPRWwdn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                       | aliases | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-------------------------------: | :-----: | :------------------------------------------------------------: |
-    | WYPRWwdn  | La Garenne-Colombes | commune in Hauts-de-Seine, France |         | [La Garenne-Colombes](http://wwww.wikidata.org/entity/Q236658) |
+    | FAAM UUID | label               | description                       | aliases | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-------------------------------: | :-----: | :-------------------------------------------------------: |
+    | WYPRWwdn  | La Garenne-Colombes | commune in Hauts-de-Seine, France |         | [La Garenne-Colombes](http://wikidata.org/entity/Q236658) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/WYPRWwdn.html" height="800" width="1200" title="WYPRWwdn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WYPRWwdn" height="800" width="1200" title="WYPRWwdn"></iframe>
 
 ## Identifiers
 

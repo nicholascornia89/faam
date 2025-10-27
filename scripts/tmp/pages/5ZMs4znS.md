@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5ZMs4znS
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143988p78/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5ZMs4znS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5ZMs4znS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5ZMs4znS.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143988p78/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5ZMs4znS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5ZMs4znS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5ZMs4znS.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143988p78.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p78.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title       | permalink                | provenance                         |
-    | :-------: | :-------------------: | :---------: | :----------------------: | :--------------------------------: |
-    | 5ZMs4znS  | ORP-20143988p78       | Danse Noble | [external URL](9JZUardt) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title       | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :---------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | 5ZMs4znS  | ORP-20143988p78       | Danse Noble | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22440) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "note" 
 
@@ -63,10 +67,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/5ZMs4znS.html" height="800" width="1200" title="5ZMs4znS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5ZMs4znS" height="800" width="1200" title="5ZMs4znS"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/5ZMs4znS.html" height="800" width="1200" title="5ZMs4znS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/5ZMs4znS" height="800" width="1200" title="5ZMs4znS"></iframe>

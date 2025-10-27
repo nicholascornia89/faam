@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 77pRaPL8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                | aliases   | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :------------------------: | :-------: | :---------------------------------------------------------------: |
-    | 77pRaPL8  | Saint-Médard-en-Jalles | commune in Gironde, France | Fulminant | [Saint-Médard-en-Jalles](http://wwww.wikidata.org/entity/Q238434) |
+    | FAAM UUID | label                  | description                | aliases   | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :------------------------: | :-------: | :----------------------------------------------------------: |
+    | 77pRaPL8  | Saint-Médard-en-Jalles | commune in Gironde, France | Fulminant | [Saint-Médard-en-Jalles](http://wikidata.org/entity/Q238434) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/77pRaPL8.html" height="800" width="1200" title="77pRaPL8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/77pRaPL8" height="800" width="1200" title="77pRaPL8"></iframe>
 
 ## Identifiers
 

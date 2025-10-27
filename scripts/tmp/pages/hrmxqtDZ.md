@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hrmxqtDZ
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description | aliases    | Wikidata QID                                                    |
-    | :-------: | :----------------: | :---------: | :--------: | :-------------------------------------------------------------: |
-    | hrmxqtDZ  | male singing voice | voice type  | male voice | [male singing voice](http://wwww.wikidata.org/entity/Q54285279) |
+    | FAAM UUID | label              | description | aliases    | Wikidata QID                                               |
+    | :-------: | :----------------: | :---------: | :--------: | :--------------------------------------------------------: |
+    | hrmxqtDZ  | male singing voice | voice type  | male voice | [male singing voice](http://wikidata.org/entity/Q54285279) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/hrmxqtDZ.html" height="800" width="1200" title="hrmxqtDZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hrmxqtDZ" height="800" width="1200" title="hrmxqtDZ"></iframe>
 
 ## Cross-references
 

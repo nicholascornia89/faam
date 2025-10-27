@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UEnzixqE
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                    | aliases  | Wikidata QID                                       |
-    | :-------: | :------: | :--------------------------------------------: | :------: | :------------------------------------------------: |
-    | UEnzixqE  | Columbus | capital city of Ohio, United States of America | Columbus | [Columbus](http://wwww.wikidata.org/entity/Q16567) |
+    | FAAM UUID | label    | description                                    | aliases  | Wikidata QID                                  |
+    | :-------: | :------: | :--------------------------------------------: | :------: | :-------------------------------------------: |
+    | UEnzixqE  | Columbus | capital city of Ohio, United States of America | Columbus | [Columbus](http://wikidata.org/entity/Q16567) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/UEnzixqE.html" height="800" width="1200" title="UEnzixqE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UEnzixqE" height="800" width="1200" title="UEnzixqE"></iframe>
 
 ## Identifiers
 

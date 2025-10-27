@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XHefkbYS
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143700p21/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XHefkbYS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XHefkbYS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XHefkbYS.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143700p21/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XHefkbYS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XHefkbYS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XHefkbYS.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143700p21.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p21.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                              | permalink                | provenance                         |
-    | :-------: | :-------------------: | :--------------------------------: | :----------------------: | :--------------------------------: |
-    | XHefkbYS  | ORP-20143700p21       | Sérénade japonaise. Tanka japonais | [external URL](9JZUardt) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                              | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :--------------------------------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | XHefkbYS  | ORP-20143700p21       | Sérénade japonaise. Tanka japonais | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22188) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "note" 
 
@@ -63,10 +67,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/XHefkbYS.html" height="800" width="1200" title="XHefkbYS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XHefkbYS" height="800" width="1200" title="XHefkbYS"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/XHefkbYS.html" height="800" width="1200" title="XHefkbYS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/XHefkbYS" height="800" width="1200" title="XHefkbYS"></iframe>

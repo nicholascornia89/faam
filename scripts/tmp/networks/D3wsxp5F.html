@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Rwi2ubQF", "label": "Sextus Psalmus poenitentialis, LV 799", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Rwi2ubQF.md\u0027\u003eSextus Psalmus poenitentialis, LV 799\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "D3wsxp5F", "label": "Penitential Psalms", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./D3wsxp5F.md\u0027\u003ePenitential Psalms\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epsalm expressive of sorrow for sin\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "79nDgdM5", "label": "Secundus Psalmus poenitentialis, LV 795", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./79nDgdM5.md\u0027\u003eSecundus Psalmus poenitentialis, LV 795\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "k7N2xqP7", "label": "Tertius Psalmus poenitentialis, LV 796", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./k7N2xqP7.md\u0027\u003eTertius Psalmus poenitentialis, LV 796\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NFMsWGmw", "label": "Quintus Psalmus poenitentialis, LV 798", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NFMsWGmw.md\u0027\u003eQuintus Psalmus poenitentialis, LV 798\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "Rwi2ubQF", "to": "D3wsxp5F", "width": 1}, {"from": "D3wsxp5F", "to": "79nDgdM5", "width": 1}, {"from": "D3wsxp5F", "to": "k7N2xqP7", "width": 1}, {"from": "D3wsxp5F", "to": "NFMsWGmw", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NFMsWGmw", "label": "Quintus Psalmus poenitentialis, LV 798", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NFMsWGmw\u0027\u003eQuintus Psalmus poenitentialis, LV 798\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "D3wsxp5F", "label": "Penitential Psalms", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/D3wsxp5F\u0027\u003ePenitential Psalms\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epsalm expressive of sorrow for sin\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Rwi2ubQF", "label": "Sextus Psalmus poenitentialis, LV 799", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Rwi2ubQF\u0027\u003eSextus Psalmus poenitentialis, LV 799\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "79nDgdM5", "label": "Secundus Psalmus poenitentialis, LV 795", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/79nDgdM5\u0027\u003eSecundus Psalmus poenitentialis, LV 795\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "k7N2xqP7", "label": "Tertius Psalmus poenitentialis, LV 796", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/k7N2xqP7\u0027\u003eTertius Psalmus poenitentialis, LV 796\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "NFMsWGmw", "to": "D3wsxp5F", "width": 1}, {"from": "D3wsxp5F", "to": "Rwi2ubQF", "width": 1}, {"from": "D3wsxp5F", "to": "79nDgdM5", "width": 1}, {"from": "D3wsxp5F", "to": "k7N2xqP7", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

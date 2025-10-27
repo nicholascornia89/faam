@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QWxa5xeX
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/QWxa5xeX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/QWxa5xeX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/QWxa5xeX.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/QWxa5xeX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/QWxa5xeX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/QWxa5xeX.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | aliases  | description     | Wikidata QID                                           |
-    | :-------: | :------: | :------: | :-------------: | :----------------------------------------------------: |
-    | QWxa5xeX  | Carl Aal | Karl Aal | German composer | [Carl Aal](http://wwww.wikidata.org/entity/Q126209050) |
+    | FAAM UUID | label    | aliases  | description     | Wikidata QID                                      |
+    | :-------: | :------: | :------: | :-------------: | :-----------------------------------------------: |
+    | QWxa5xeX  | Carl Aal | Karl Aal | German composer | [Carl Aal](http://wikidata.org/entity/Q126209050) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/QWxa5xeX.html" height="800" width="1200" title="QWxa5xeX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QWxa5xeX" height="800" width="1200" title="QWxa5xeX"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: agent
 
 -	__[Tanzkranz. 16 leichte Tänze. N. 1-16 in Band 1](./SnnqZ7he.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143701p10.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143701p10.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NGTGntrf
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description   | aliases | Wikidata QID                                       |
-    | :-------: | :------: | :-----------: | :-----: | :------------------------------------------------: |
-    | NGTGntrf  | Camerino | town in Italy |         | [Camerino](http://wwww.wikidata.org/entity/Q73489) |
+    | FAAM UUID | label    | description   | aliases | Wikidata QID                                  |
+    | :-------: | :------: | :-----------: | :-----: | :-------------------------------------------: |
+    | NGTGntrf  | Camerino | town in Italy |         | [Camerino](http://wikidata.org/entity/Q73489) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/NGTGntrf.html" height="800" width="1200" title="NGTGntrf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NGTGntrf" height="800" width="1200" title="NGTGntrf"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Venanzio Rauzzini](./nWLWhZxg.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/ca/Venanzio_Rauzzini_by_Robert_Hancock.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Venanzio_Rauzzini_by_Robert_Hancock.jpg){align=left width="150" height="150"} 
 
 	Italian opera singer and teacher (1746-1810)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Um72v2xS
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                                                | aliases                 | Wikidata QID                                                   |
-    | :-------: | :---------------: | :----------------------------------------------------------------------------------------: | :---------------------: | :------------------------------------------------------------: |
-    | Um72v2xS  | artistic research | research that considers creative works both the research and the object of research itself | practice-based research | [artistic research](http://wwww.wikidata.org/entity/Q20827087) |
+    | FAAM UUID | label             | description                                                                                | aliases                 | Wikidata QID                                              |
+    | :-------: | :---------------: | :----------------------------------------------------------------------------------------: | :---------------------: | :-------------------------------------------------------: |
+    | Um72v2xS  | artistic research | research that considers creative works both the research and the object of research itself | practice-based research | [artistic research](http://wikidata.org/entity/Q20827087) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Um72v2xS.html" height="800" width="1200" title="Um72v2xS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Um72v2xS" height="800" width="1200" title="Um72v2xS"></iframe>
 
 ## Cross-references
 

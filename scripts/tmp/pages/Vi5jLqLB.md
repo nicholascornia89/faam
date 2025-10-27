@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vi5jLqLB
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                                 | aliases                   | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-----------------------------------------: | :-----------------------: | :------------------------------------------------------------------: |
-    | Vi5jLqLB  | Prince-Bishopric of Liège | ecclesiastic state of the Holy Roman Empire | Prince-Bishopric of Liege | [Prince-Bishopric of Liège](http://wwww.wikidata.org/entity/Q158835) |
+    | FAAM UUID | label                     | description                                 | aliases                   | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-----------------------------------------: | :-----------------------: | :-------------------------------------------------------------: |
+    | Vi5jLqLB  | Prince-Bishopric of Liège | ecclesiastic state of the Holy Roman Empire | Prince-Bishopric of Liege | [Prince-Bishopric of Liège](http://wikidata.org/entity/Q158835) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/Vi5jLqLB.html" height="800" width="1200" title="Vi5jLqLB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vi5jLqLB" height="800" width="1200" title="Vi5jLqLB"></iframe>
 
 ## Identifiers
 
@@ -49,7 +53,7 @@ tags: country
 
 -	__[André-Joseph Blavier](./jFbpVqP8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer
 

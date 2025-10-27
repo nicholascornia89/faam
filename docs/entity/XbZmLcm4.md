@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XbZmLcm4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                             | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :-------------------------------------: | :-----: | :--------------------------------------------: |
-    | XbZmLcm4  | Olpe  | town in North Rhine-Westphalia, Germany |         | [Olpe](http://wwww.wikidata.org/entity/Q10898) |
+    | FAAM UUID | label | description                             | aliases | Wikidata QID                              |
+    | :-------: | :---: | :-------------------------------------: | :-----: | :---------------------------------------: |
+    | XbZmLcm4  | Olpe  | town in North Rhine-Westphalia, Germany |         | [Olpe](http://wikidata.org/entity/Q10898) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/XbZmLcm4.html" height="800" width="1200" title="XbZmLcm4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XbZmLcm4" height="800" width="1200" title="XbZmLcm4"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Alfons Kranz](./9iwygnaP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German publisher
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: e2eHuan7
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description            | aliases | Wikidata QID                                                     |
-    | :-------: | :------------------: | :--------------------: | :-----: | :--------------------------------------------------------------: |
-    | e2eHuan7  | verbal communication | communication by words |         | [verbal communication](http://wwww.wikidata.org/entity/Q1875737) |
+    | FAAM UUID | label                | description            | aliases | Wikidata QID                                                |
+    | :-------: | :------------------: | :--------------------: | :-----: | :---------------------------------------------------------: |
+    | e2eHuan7  | verbal communication | communication by words |         | [verbal communication](http://wikidata.org/entity/Q1875737) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/e2eHuan7.html" height="800" width="1200" title="e2eHuan7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/e2eHuan7" height="800" width="1200" title="e2eHuan7"></iframe>
 
 ## Cross-references
 

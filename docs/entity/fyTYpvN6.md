@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fyTYpvN6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fyTYpvN6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fyTYpvN6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fyTYpvN6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fyTYpvN6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fyTYpvN6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fyTYpvN6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases     | description                   | Wikidata QID                                             |
-    | :-------: | :-----------: | :---------: | :---------------------------: | :------------------------------------------------------: |
-    | fyTYpvN6  | Joseph Czerny | Josef Černý | Austrian composer (1785–1831) | [Joseph Czerny](http://wwww.wikidata.org/entity/Q700205) |
+    | FAAM UUID | label         | aliases     | description                   | Wikidata QID                                        |
+    | :-------: | :-----------: | :---------: | :---------------------------: | :-------------------------------------------------: |
+    | fyTYpvN6  | Joseph Czerny | Josef Černý | Austrian composer (1785–1831) | [Joseph Czerny](http://wikidata.org/entity/Q700205) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 	- [pianist](./T6nAVeGM.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [publisher](./me4GX7oo.md)
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/fyTYpvN6.html" height="800" width="1200" title="fyTYpvN6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fyTYpvN6" height="800" width="1200" title="fyTYpvN6"></iframe>
 
 ## Identifiers
 
@@ -88,3 +92,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Leopoldine Blahetka](./MWg6eofA.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopoldine_Blahetka.jpg){align=left width="150" height="150"} 
+
+	composer (1809-1885)
+
+</div>

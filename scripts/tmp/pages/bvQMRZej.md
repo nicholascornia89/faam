@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bvQMRZej
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                      | aliases             | Wikidata QID                                           |
-    | :-------: | :---------: | :----------------------------------------------: | :-----------------: | :----------------------------------------------------: |
-    | bvQMRZej  | Hammersmith | district in west London, England, United Kingdom | Hammersmith, London | [Hammersmith](http://wwww.wikidata.org/entity/Q277162) |
+    | FAAM UUID | label       | description                                      | aliases             | Wikidata QID                                      |
+    | :-------: | :---------: | :----------------------------------------------: | :-----------------: | :-----------------------------------------------: |
+    | bvQMRZej  | Hammersmith | district in west London, England, United Kingdom | Hammersmith, London | [Hammersmith](http://wikidata.org/entity/Q277162) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bvQMRZej.html" height="800" width="1200" title="bvQMRZej"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bvQMRZej" height="800" width="1200" title="bvQMRZej"></iframe>
 
 ## Identifiers
 

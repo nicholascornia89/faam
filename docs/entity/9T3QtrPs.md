@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9T3QtrPs
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                | aliases         | Wikidata QID                                      |
-    | :-------: | :---: | :------------------------: | :-------------: | :-----------------------------------------------: |
-    | 9T3QtrPs  | Mšeno | town in the Czech Republic | Mšeno u Mělníka | [Mšeno](http://wwww.wikidata.org/entity/Q1010667) |
+    | FAAM UUID | label | description                | aliases         | Wikidata QID                                 |
+    | :-------: | :---: | :------------------------: | :-------------: | :------------------------------------------: |
+    | 9T3QtrPs  | Mšeno | town in the Czech Republic | Mšeno u Mělníka | [Mšeno](http://wikidata.org/entity/Q1010667) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9T3QtrPs.html" height="800" width="1200" title="9T3QtrPs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9T3QtrPs" height="800" width="1200" title="9T3QtrPs"></iframe>
 
 ## Identifiers
 

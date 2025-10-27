@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TFAYYcQp
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                     | aliases      | Wikidata QID                                           |
-    | :-------: | :---------: | :-----------------------------: | :----------: | :----------------------------------------------------: |
-    | TFAYYcQp  | clarinetist | musician who plays the clarinet | clarinettist | [clarinetist](http://wwww.wikidata.org/entity/Q118865) |
+    | FAAM UUID | label       | description                     | aliases      | Wikidata QID                                      |
+    | :-------: | :---------: | :-----------------------------: | :----------: | :-----------------------------------------------: |
+    | TFAYYcQp  | clarinetist | musician who plays the clarinet | clarinettist | [clarinetist](http://wikidata.org/entity/Q118865) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/TFAYYcQp.html" height="800" width="1200" title="TFAYYcQp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TFAYYcQp" height="800" width="1200" title="TFAYYcQp"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Jacques-Jules Bouffil](./9w96fD4i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Jacques-Jules Bouffil](./DKrwNAM8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 
@@ -85,7 +89,7 @@ tags: occupation
 
 -	__[Franz Tausch](./kypLEwJs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	clarinetist and composer (1762-1817)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: foBZk7ps
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                      | aliases                                  | Wikidata QID                                              |
-    | :-------: | :------------: | :----------------------------------------------: | :--------------------------------------: | :-------------------------------------------------------: |
-    | foBZk7ps  | Dutch Republic | predecessor state of the Netherlands (1581–1795) | Republic of the Seven United Netherlands | [Dutch Republic](http://wwww.wikidata.org/entity/Q170072) |
+    | FAAM UUID | label          | description                                      | aliases                                  | Wikidata QID                                         |
+    | :-------: | :------------: | :----------------------------------------------: | :--------------------------------------: | :--------------------------------------------------: |
+    | foBZk7ps  | Dutch Republic | predecessor state of the Netherlands (1581–1795) | Republic of the Seven United Netherlands | [Dutch Republic](http://wikidata.org/entity/Q170072) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/foBZk7ps.html" height="800" width="1200" title="foBZk7ps"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/foBZk7ps" height="800" width="1200" title="foBZk7ps"></iframe>
 
 ## Identifiers
 

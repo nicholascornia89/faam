@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZM3a6gAC
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                                                 | description           | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----------------------------------------------------: | :-------------------: | :-------------------------------------------------------: |
-    | ZM3a6gAC  | Manon Lescaut | The Story of the Chevalier des Grieux and Manon Lescaut | novel by Abbé Prévost | [Manon Lescaut](http://wwww.wikidata.org/entity/Q1141032) |
+    | FAAM UUID | label         | aliases                                                 | description           | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----------------------------------------------------: | :-------------------: | :--------------------------------------------------: |
+    | ZM3a6gAC  | Manon Lescaut | The Story of the Chevalier des Grieux and Manon Lescaut | novel by Abbé Prévost | [Manon Lescaut](http://wikidata.org/entity/Q1141032) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: musical_work
 
 !!! quote "form of creative work" 
 
-	- [novel](http://www.wikidata.org/entity/Q8261)
+	- [novel](Q8261)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ZM3a6gAC.html" height="800" width="1200" title="ZM3a6gAC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZM3a6gAC" height="800" width="1200" title="ZM3a6gAC"></iframe>
 
 ## Identifiers
 

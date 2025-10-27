@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RirQVUua
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                       | aliases     | Wikidata QID                                       |
-    | :-------: | :------: | :-----------------------------------------------: | :---------: | :------------------------------------------------: |
-    | RirQVUua  | Montreux | municipality in the canton of Vaud in Switzerland | Montreux VD | [Montreux](http://wwww.wikidata.org/entity/Q69354) |
+    | FAAM UUID | label    | description                                       | aliases     | Wikidata QID                                  |
+    | :-------: | :------: | :-----------------------------------------------: | :---------: | :-------------------------------------------: |
+    | RirQVUua  | Montreux | municipality in the canton of Vaud in Switzerland | Montreux VD | [Montreux](http://wikidata.org/entity/Q69354) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/RirQVUua.html" height="800" width="1200" title="RirQVUua"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RirQVUua" height="800" width="1200" title="RirQVUua"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Mathis Lussy](./j4DJfCC2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss musicologist and organist (1828–1910)
 

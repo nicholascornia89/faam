@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HgHE5b7Z
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                    | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :----------------------------: | :-----: | :-----------------------------------------------: |
-    | HgHE5b7Z  | Ambert | commune in Puy-de-Dôme, France | Embèrt  | [Ambert](http://wwww.wikidata.org/entity/Q213317) |
+    | FAAM UUID | label  | description                    | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :----------------------------: | :-----: | :------------------------------------------: |
+    | HgHE5b7Z  | Ambert | commune in Puy-de-Dôme, France | Embèrt  | [Ambert](http://wikidata.org/entity/Q213317) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HgHE5b7Z.html" height="800" width="1200" title="HgHE5b7Z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HgHE5b7Z" height="800" width="1200" title="HgHE5b7Z"></iframe>
 
 ## Identifiers
 

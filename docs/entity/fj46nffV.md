@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fj46nffV
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                | aliases | Wikidata QID                                 |
-    | :-------: | :---: | :------------------------: | :-----: | :------------------------------------------: |
-    | fj46nffV  | Italy | country in Southern Europe | Italia  | [Italy](http://wwww.wikidata.org/entity/Q38) |
+    | FAAM UUID | label | description                | aliases | Wikidata QID                            |
+    | :-------: | :---: | :------------------------: | :-----: | :-------------------------------------: |
+    | fj46nffV  | Italy | country in Southern Europe | Italia  | [Italy](http://wikidata.org/entity/Q38) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/fj46nffV.html" height="800" width="1200" title="fj46nffV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fj46nffV" height="800" width="1200" title="fj46nffV"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: country
 
 -	__[Orazio Benevoli](./g84jRUjK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1605-1672)
 
@@ -77,13 +81,13 @@ tags: country
 
 -	__[Oreste Ravanello](./3d7HnPZv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician (1871–1938)
 
 -	__[Giulio Briccialdi](./KuMf3k3f.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
 
 	Italian musician (1818–1881)
 
@@ -113,7 +117,7 @@ tags: country
 
 -	__[Vittorio Rieti](./6kUvgnUj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1898–1994)
 
@@ -131,7 +135,7 @@ tags: country
 
 -	__[Gaetano Donizetti](./Zh2b6vBQ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fotoreproductie_van_Gaetano_Donizetti.png){align=left width="150" height="150"} 
 
 	Italian opera composer (1797–1848)
 
@@ -149,7 +153,7 @@ tags: country
 
 -	__[Fausto Torrefranca](./n2KyzS34.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musicologist (1883–1955)
 
@@ -161,7 +165,7 @@ tags: country
 
 -	__[Maria Anfossi](./CEjchGw4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian singer and music teacher
 
@@ -179,7 +183,7 @@ tags: country
 
 -	__[Giacomo Carissimi](./AmY4DwdD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1605–1674)
 
@@ -191,49 +195,49 @@ tags: country
 
 -	__[Vincenzo Ruffo](./eFsFUzo8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1510-1587)
 
 -	__[Tobia Nicotra](./jjnBD3h3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian document forger
 
 -	__[Antonio Tirabassi](./WVr2FMMj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian organist and musicologist (1882–1947)
 
 -	__[Vincenzo Bellini](./FzuLDZCr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6f/Lucchini-Bellini.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lucchini-Bellini.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1801–1835)
 
 -	__[Roberto Michelucci](./nZ858ad7.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/18/Tokio_1972._Roberto_Michelucci_riceve_il_Disco_D%27oro.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tokio_1972._Roberto_Michelucci_riceve_il_Disco_D%27oro.jpg){align=left width="150" height="150"} 
 
 	Italian violinist (1922–2010)
 
 -	__[Sigismondo Cesi](./cZPgkFV4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Francesco Piermarini](./n9XVoQC2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Francesco Chiaramonte](./VbkbTd78.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -257,19 +261,19 @@ tags: country
 
 -	__[Lodovico Grossi da Viadana](./6Gq2W4p4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, teacher and Franciscan friar
 
 -	__[Giuseppe Corsi](./42oEhvwr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and priest
 
 -	__[Giuseppe Ottavio Pitoni](./MfQYhhrr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/f/f1/Pitoni.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pitoni.jpg){align=left width="150" height="150"} 
 
 	Italian organist and composer
 
@@ -281,7 +285,7 @@ tags: country
 
 -	__[Gustavo Carulli](./AbReSA72.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian-French musician 1801-76
 
@@ -293,13 +297,13 @@ tags: country
 
 -	__[Schola Cantorum Santa Cecilia](./D4thF9r4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Gabriele D'Annunzio](./i2w6M7XJ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/25/Gabriele_D%27Annunzio_1922.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gabriele_D%27Annunzio_1922.jpg){align=left width="150" height="150"} 
 
 	
 

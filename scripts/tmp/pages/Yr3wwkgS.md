@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Yr3wwkgS
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                                                          | aliases                               | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :------------------------------------------------------------------: | :-----------------------------------: | :--------------------------------------------------------------: |
-    | Yr3wwkgS  | Heidelberg University | public research university in Heidelberg, Baden-Württemberg, Germany | Ruprecht-Karls-Universität Heidelberg | [Heidelberg University](http://wwww.wikidata.org/entity/Q151510) |
+    | FAAM UUID | label                 | description                                                          | aliases                               | Wikidata QID                                                |
+    | :-------: | :-------------------: | :------------------------------------------------------------------: | :-----------------------------------: | :---------------------------------------------------------: |
+    | Yr3wwkgS  | Heidelberg University | public research university in Heidelberg, Baden-Württemberg, Germany | Ruprecht-Karls-Universität Heidelberg | [Heidelberg University](http://wikidata.org/entity/Q151510) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./bcTRsSar.md)
+	[Heidelberg](./bcTRsSar.md)
 
-	[](./4SoPSqjV.md)
+	[Baden-Württemberg](./4SoPSqjV.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Yr3wwkgS.html" height="800" width="1200" title="Yr3wwkgS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Yr3wwkgS" height="800" width="1200" title="Yr3wwkgS"></iframe>
 
 ## Cross-references
 
@@ -59,7 +63,7 @@ tags: music_organization
 
 -	__[Theodor Kroyer](./MTPhkSTp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist (1873-1945)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eLxUK2wE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/eLxUK2wE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/eLxUK2wE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/eLxUK2wE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/eLxUK2wE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/eLxUK2wE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/eLxUK2wE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                                | Wikidata QID                                            |
-    | :-------: | :----------: | :----------: | :----------------------------------------: | :-----------------------------------------------------: |
-    | eLxUK2wE  | Julián Arcas | Julian Arcas | Spanish guitarist and composer (1832–1882) | [Julián Arcas](http://wwww.wikidata.org/entity/Q782666) |
+    | FAAM UUID | label        | aliases      | description                                | Wikidata QID                                       |
+    | :-------: | :----------: | :----------: | :----------------------------------------: | :------------------------------------------------: |
+    | eLxUK2wE  | Julián Arcas | Julian Arcas | Spanish guitarist and composer (1832–1882) | [Julián Arcas](http://wikidata.org/entity/Q782666) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/eLxUK2wE.html" height="800" width="1200" title="eLxUK2wE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eLxUK2wE" height="800" width="1200" title="eLxUK2wE"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Francisco Tárrega](./JAaw4r23.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francisco_tarrega_retrato.jpg){align=left width="150" height="150"} 
+
+	Spanish composer and classical guitarist (1852-1909)
+
+</div>

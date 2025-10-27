@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gUYSE2M4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                           | aliases | Wikidata QID                                    |
-    | :-------: | :-----: | :-----------------------------------: | :-----: | :---------------------------------------------: |
-    | gUYSE2M4  | Vilnius | capital and largest city of Lithuania | Vilna   | [Vilnius](http://wwww.wikidata.org/entity/Q216) |
+    | FAAM UUID | label   | description                           | aliases | Wikidata QID                               |
+    | :-------: | :-----: | :-----------------------------------: | :-----: | :----------------------------------------: |
+    | gUYSE2M4  | Vilnius | capital and largest city of Lithuania | Vilna   | [Vilnius](http://wikidata.org/entity/Q216) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Lithuania](http://www.wikidata.org/entity/Q37)
+	- [Lithuania](Q37)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/gUYSE2M4.html" height="800" width="1200" title="gUYSE2M4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gUYSE2M4" height="800" width="1200" title="gUYSE2M4"></iframe>
 
 ## Identifiers
 

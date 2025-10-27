@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: D7zj8y2m
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                       | aliases          | Wikidata QID                                 |
-    | :-------: | :---: | :-------------------------------: | :--------------: | :------------------------------------------: |
-    | D7zj8y2m  | Rome  | capital and largest city of Italy | The Eternal City | [Rome](http://wwww.wikidata.org/entity/Q220) |
+    | FAAM UUID | label | description                       | aliases          | Wikidata QID                            |
+    | :-------: | :---: | :-------------------------------: | :--------------: | :-------------------------------------: |
+    | D7zj8y2m  | Rome  | capital and largest city of Italy | The Eternal City | [Rome](http://wikidata.org/entity/Q220) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/D7zj8y2m.html" height="800" width="1200" title="D7zj8y2m"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/D7zj8y2m" height="800" width="1200" title="D7zj8y2m"></iframe>
 
 ## Identifiers
 
@@ -67,49 +71,49 @@ tags: city
 
 -	__[Pasquale Pisari](./So7Y8Sow.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Orazio Benevoli](./g84jRUjK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1605-1672)
 
 -	__[Claudio Casciolini](./GxbQ9Cdj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giovanni Battista Casali](./VpDWgsTc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Pompeo Canniciari](./FEMWybwN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giuseppe Antonio Bernabei](./XG9qWxwB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giovanni Briccio](./BGgBiHmg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian painter, playwright and musician (1579-1645)
 
 -	__[Pietro Alfieri](./CzyC8FNQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, musicologist and Roman Catholic priest (1801–1863)
 
@@ -151,49 +155,49 @@ tags: city
 
 -	__[Vincenzo Fiocchi](./avAreNkS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Pietro Filippo Scarlatti](./6F8MxGwj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Pietro Filippo Scarlatti](./73he45EK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giovanni Biordi](./SXEn48X7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Giovanni Ansani](./CVXzcYTp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian opera singer (1744-1826)
 
 -	__[Bernardo Porta](./Swi2Fgwj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Antonio Boroni](./LabXUgsv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giovanni Battista Costanzi](./Ymv4KcHV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -223,43 +227,43 @@ tags: city
 
 -	__[Pasquale Pisari](./So7Y8Sow.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Orazio Benevoli](./g84jRUjK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1605-1672)
 
 -	__[Theodor de Witt](./muPeVVwX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician and editor
 
 -	__[Claudio Casciolini](./GxbQ9Cdj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giovanni Battista Casali](./VpDWgsTc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Pompeo Canniciari](./FEMWybwN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Pietro Heredia](./iB5gXbgh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -301,19 +305,19 @@ tags: city
 
 -	__[Fausto Torrefranca](./n2KyzS34.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musicologist (1883–1955)
 
 -	__[Giacomo Carissimi](./AmY4DwdD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1605–1674)
 
 -	__[Giovanni Briccio](./BGgBiHmg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian painter, playwright and musician (1579-1645)
 
@@ -325,7 +329,7 @@ tags: city
 
 -	__[Pietro Alfieri](./CzyC8FNQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, musicologist and Roman Catholic priest (1801–1863)
 
@@ -373,7 +377,7 @@ tags: city
 
 -	__[Giuseppe Ottavio Pitoni](./MfQYhhrr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/f/f1/Pitoni.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pitoni.jpg){align=left width="150" height="150"} 
 
 	Italian organist and composer
 
@@ -385,7 +389,7 @@ tags: city
 
 -	__[Tommaso Bai](./UWqEBAcB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and singer (ca. 1650-1714)
 
@@ -403,19 +407,19 @@ tags: city
 
 -	__[Giovanni Biordi](./SXEn48X7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Vincenzo Ugolini](./HMAGiiSN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1570–1638)
 
 -	__[Pomponio Nenna](./FpfYVAFn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -439,7 +443,7 @@ tags: city
 
 -	__[Antonio Boroni](./LabXUgsv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -451,7 +455,7 @@ tags: city
 
 -	__[Giovanni Battista Costanzi](./Ymv4KcHV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

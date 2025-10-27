@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YSPc9pRY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :--------------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | YSPc9pRY  | Wies  | municipality in Deutschlandsberg District, Styria, Austria |         | [Wies](http://wwww.wikidata.org/entity/Q672707) |
+    | FAAM UUID | label | description                                                | aliases | Wikidata QID                               |
+    | :-------: | :---: | :--------------------------------------------------------: | :-----: | :----------------------------------------: |
+    | YSPc9pRY  | Wies  | municipality in Deutschlandsberg District, Styria, Austria |         | [Wies](http://wikidata.org/entity/Q672707) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YSPc9pRY.html" height="800" width="1200" title="YSPc9pRY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YSPc9pRY" height="800" width="1200" title="YSPc9pRY"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Anton Halm](./Jk8XEGH5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 

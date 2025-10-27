@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iAgWDvZu
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description | aliases | Wikidata QID                                                            |
-    | :-------: | :-------------------------: | :---------: | :-----: | :---------------------------------------------------------------------: |
-    | iAgWDvZu  | Pipe Organ School in Prague |             |         | [Pipe Organ School in Prague](http://wwww.wikidata.org/entity/Q2083032) |
+    | FAAM UUID | label                       | description | aliases | Wikidata QID                                                       |
+    | :-------: | :-------------------------: | :---------: | :-----: | :----------------------------------------------------------------: |
+    | iAgWDvZu  | Pipe Organ School in Prague |             |         | [Pipe Organ School in Prague](http://wikidata.org/entity/Q2083032) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/iAgWDvZu.html" height="800" width="1200" title="iAgWDvZu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iAgWDvZu" height="800" width="1200" title="iAgWDvZu"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: music_organization
 
 -	__[Wilhelm Mayer](./AQUfsFjr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer and music teacher (1831-1898)
 

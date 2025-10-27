@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7XA3iAcG
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description             | aliases    | Wikidata QID                                           |
-    | :-------: | :---------: | :---------------------: | :--------: | :----------------------------------------------------: |
-    | 7XA3iAcG  | Hondschoote | commune in Nord, France | Hondschote | [Hondschoote](http://wwww.wikidata.org/entity/Q391344) |
+    | FAAM UUID | label       | description             | aliases    | Wikidata QID                                      |
+    | :-------: | :---------: | :---------------------: | :--------: | :-----------------------------------------------: |
+    | 7XA3iAcG  | Hondschoote | commune in Nord, France | Hondschote | [Hondschoote](http://wikidata.org/entity/Q391344) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7XA3iAcG.html" height="800" width="1200" title="7XA3iAcG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7XA3iAcG" height="800" width="1200" title="7XA3iAcG"></iframe>
 
 ## Identifiers
 

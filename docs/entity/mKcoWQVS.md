@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mKcoWQVS
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                                  | aliases | Wikidata QID                                                      |
-    | :-------: | :---------------------: | :------------------------------------------: | :-----: | :---------------------------------------------------------------: |
-    | mKcoWQVS  | Moscow State University | public research university in Moscow, Russia | MSU     | [Moscow State University](http://wwww.wikidata.org/entity/Q13164) |
+    | FAAM UUID | label                   | description                                  | aliases | Wikidata QID                                                 |
+    | :-------: | :---------------------: | :------------------------------------------: | :-----: | :----------------------------------------------------------: |
+    | mKcoWQVS  | Moscow State University | public research university in Moscow, Russia | MSU     | [Moscow State University](http://wikidata.org/entity/Q13164) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/mKcoWQVS.html" height="800" width="1200" title="mKcoWQVS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mKcoWQVS" height="800" width="1200" title="mKcoWQVS"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: music_organization
 
 -	__[Alexander Ossovsky](./7JHzNARd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Musicologist, Russian writer (1871-1957)
 

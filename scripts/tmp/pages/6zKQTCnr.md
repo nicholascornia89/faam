@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6zKQTCnr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                        | aliases                 | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :--------------------------------: | :---------------------: | :--------------------------------------------------------------: |
-    | 6zKQTCnr  | Saint-Jean-Cap-Ferrat | commune in Alpes-Maritimes, France | Sant Joan de Cap Ferrat | [Saint-Jean-Cap-Ferrat](http://wwww.wikidata.org/entity/Q243713) |
+    | FAAM UUID | label                 | description                        | aliases                 | Wikidata QID                                                |
+    | :-------: | :-------------------: | :--------------------------------: | :---------------------: | :---------------------------------------------------------: |
+    | 6zKQTCnr  | Saint-Jean-Cap-Ferrat | commune in Alpes-Maritimes, France | Sant Joan de Cap Ferrat | [Saint-Jean-Cap-Ferrat](http://wikidata.org/entity/Q243713) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/6zKQTCnr.html" height="800" width="1200" title="6zKQTCnr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6zKQTCnr" height="800" width="1200" title="6zKQTCnr"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4AqAfYnf
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description  | aliases | Wikidata QID                                        |
-    | :-------: | :-----: | :----------: | :-----: | :-------------------------------------------------: |
-    | 4AqAfYnf  | da capo | musical term | da capo | [da capo](http://wwww.wikidata.org/entity/Q1138573) |
+    | FAAM UUID | label   | description  | aliases | Wikidata QID                                   |
+    | :-------: | :-----: | :----------: | :-----: | :--------------------------------------------: |
+    | 4AqAfYnf  | da capo | musical term | da capo | [da capo](http://wikidata.org/entity/Q1138573) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/4AqAfYnf.html" height="800" width="1200" title="4AqAfYnf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4AqAfYnf" height="800" width="1200" title="4AqAfYnf"></iframe>
 
 ## Cross-references
 
@@ -57,13 +61,13 @@ tags: annotation_type
 
 -	__[Les Amazones: polka](./DotjPHwY.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901842382.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901842382.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Six Sonatas : for the Harpsichord or Piano Forte with an Accompanyment for a German Flûte or Violin : Op. II](./nJai3Wij.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GzrFBnVM
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                  | aliases       | Wikidata QID                                                 |
-    | :-------: | :--------------: | :--------------------------: | :-----------: | :----------------------------------------------------------: |
-    | GzrFBnVM  | printing company | company for printed products | print company | [printing company](http://wwww.wikidata.org/entity/Q6500733) |
+    | FAAM UUID | label            | description                  | aliases       | Wikidata QID                                            |
+    | :-------: | :--------------: | :--------------------------: | :-----------: | :-----------------------------------------------------: |
+    | GzrFBnVM  | printing company | company for printed products | print company | [printing company](http://wikidata.org/entity/Q6500733) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/GzrFBnVM.html" height="800" width="1200" title="GzrFBnVM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GzrFBnVM" height="800" width="1200" title="GzrFBnVM"></iframe>
 
 ## Cross-references
 

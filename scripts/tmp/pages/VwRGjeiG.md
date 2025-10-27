@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VwRGjeiG
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                     | aliases         | Wikidata QID                                             |
-    | :-------: | :---------: | :-----------------------------: | :-------------: | :------------------------------------------------------: |
-    | VwRGjeiG  | mandolinist | musician who plays the mandolin | mandolin player | [mandolinist](http://wwww.wikidata.org/entity/Q19723482) |
+    | FAAM UUID | label       | description                     | aliases         | Wikidata QID                                        |
+    | :-------: | :---------: | :-----------------------------: | :-------------: | :-------------------------------------------------: |
+    | VwRGjeiG  | mandolinist | musician who plays the mandolin | mandolin player | [mandolinist](http://wikidata.org/entity/Q19723482) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/VwRGjeiG.html" height="800" width="1200" title="VwRGjeiG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VwRGjeiG" height="800" width="1200" title="VwRGjeiG"></iframe>
 
 ## Cross-references
 

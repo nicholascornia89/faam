@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AeLkbfSd
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/AeLkbfSd.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/AeLkbfSd.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/AeLkbfSd.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/AeLkbfSd.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/AeLkbfSd.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/AeLkbfSd.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Willibald_Alexis.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                       | description                            | Wikidata QID                                               |
-    | :-------: | :--------------: | :---------------------------: | :------------------------------------: | :--------------------------------------------------------: |
-    | AeLkbfSd  | Willibald Alexis | Georg Wilhelm Hein... Haering | German historical novelist (1798–1871) | [Willibald Alexis](http://wwww.wikidata.org/entity/Q77312) |
+    | FAAM UUID | label            | aliases                       | description                            | Wikidata QID                                          |
+    | :-------: | :--------------: | :---------------------------: | :------------------------------------: | :---------------------------------------------------: |
+    | AeLkbfSd  | Willibald Alexis | Georg Wilhelm Hein... Haering | German historical novelist (1798–1871) | [Willibald Alexis](http://wikidata.org/entity/Q77312) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: agent
 
 	- [writer](./YrCfZ8vh.md)
 
-	- [](./FmskubuS.md)
+	- [poet lawyer](./FmskubuS.md)
 
 	- [journalist](./3Kncf32R.md)
 
@@ -61,13 +65,13 @@ tags: agent
 
 	- [Humboldt University of Berlin](./YqhiCoLK.md)
 
-	- [](./Yrqr9knc.md)
+	- [University of Wrocław](./Yrqr9knc.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/AeLkbfSd.html" height="800" width="1200" title="AeLkbfSd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AeLkbfSd" height="800" width="1200" title="AeLkbfSd"></iframe>
 
 ## Identifiers
 
@@ -95,7 +99,7 @@ tags: agent
 
 -	__[Lohengrin. (Opern-Gallerie) - Op. 20](./FLXKJN4e.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p11.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p11.gif){align=left width="150" height="150"} 
 
 	
 

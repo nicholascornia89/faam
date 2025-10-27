@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mDndmG7f
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904770226/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mDndmG7f.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mDndmG7f.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mDndmG7f.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904770226/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mDndmG7f.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mDndmG7f.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mDndmG7f.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904770226.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904770226.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                         | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | mDndmG7f  | KCA-030904770226      | Sonate F dur : für Pianoforte und Horn, op.17 | [external URL](ieqEGEHo) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                         | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | mDndmG7f  | KCA-030904770226      | Sonate F dur : für Pianoforte und Horn, op.17 | [external URL](https://anet.be/record/opacdkvc/c:lvd:6760910/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -103,10 +107,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/mDndmG7f.html" height="800" width="1200" title="mDndmG7f"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mDndmG7f" height="800" width="1200" title="mDndmG7f"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/mDndmG7f.html" height="800" width="1200" title="mDndmG7f"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/mDndmG7f" height="800" width="1200" title="mDndmG7f"></iframe>

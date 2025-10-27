@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fLYUtmf5
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                | aliases            | Wikidata QID                                                   |
-    | :-------: | :----------------: | :----------------------------------------: | :----------------: | :------------------------------------------------------------: |
-    | fLYUtmf5  | Ignatius Gymnasium | secondary school in Amsterdam, Netherlands | Ignatius Gymnasium | [Ignatius Gymnasium](http://wwww.wikidata.org/entity/Q2042382) |
+    | FAAM UUID | label              | description                                | aliases            | Wikidata QID                                              |
+    | :-------: | :----------------: | :----------------------------------------: | :----------------: | :-------------------------------------------------------: |
+    | fLYUtmf5  | Ignatius Gymnasium | secondary school in Amsterdam, Netherlands | Ignatius Gymnasium | [Ignatius Gymnasium](http://wikidata.org/entity/Q2042382) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./8mNP23J2.md)
+	[Amsterdam](./8mNP23J2.md)
 
 !!! quote "country" 
 
-	[](./BWX2VNz4.md)
+	[Netherlands](./BWX2VNz4.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/fLYUtmf5.html" height="800" width="1200" title="fLYUtmf5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fLYUtmf5" height="800" width="1200" title="fLYUtmf5"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LHqymGse
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                        | aliases             | Wikidata QID                                                  |
-    | :-------: | :----------------: | :--------------------------------: | :-----------------: | :-----------------------------------------------------------: |
-    | LHqymGse  | Kingdom of Hanover | German kingdom established in 1814 | Königreich Hannover | [Kingdom of Hanover](http://wwww.wikidata.org/entity/Q164079) |
+    | FAAM UUID | label              | description                        | aliases             | Wikidata QID                                             |
+    | :-------: | :----------------: | :--------------------------------: | :-----------------: | :------------------------------------------------------: |
+    | LHqymGse  | Kingdom of Hanover | German kingdom established in 1814 | Königreich Hannover | [Kingdom of Hanover](http://wikidata.org/entity/Q164079) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/LHqymGse.html" height="800" width="1200" title="LHqymGse"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LHqymGse" height="800" width="1200" title="LHqymGse"></iframe>
 
 ## Identifiers
 

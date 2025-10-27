@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ay7kvGC8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                               | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :-------------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | ay7kvGC8  | Nancy | city and commune in Meurthe-et-Moselle, Grand Est, France | Nanzig  | [Nancy](http://wwww.wikidata.org/entity/Q40898) |
+    | FAAM UUID | label | description                                               | aliases | Wikidata QID                               |
+    | :-------: | :---: | :-------------------------------------------------------: | :-----: | :----------------------------------------: |
+    | ay7kvGC8  | Nancy | city and commune in Meurthe-et-Moselle, Grand Est, France | Nanzig  | [Nancy](http://wikidata.org/entity/Q40898) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Duchy of Lorraine](http://www.wikidata.org/entity/Q155019)
+	- [Duchy of Lorraine](Q155019)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ay7kvGC8.html" height="800" width="1200" title="ay7kvGC8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ay7kvGC8" height="800" width="1200" title="ay7kvGC8"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Désiré-Moyse-Joseph Ikelmer](./QSHdM58g.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Charles Baudiot](./NnHKaK9g.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French cellist, composer and music educator
 

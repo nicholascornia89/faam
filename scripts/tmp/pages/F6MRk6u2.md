@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: F6MRk6u2
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902126744/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/F6MRk6u2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/F6MRk6u2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/F6MRk6u2.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902126744/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/F6MRk6u2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/F6MRk6u2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/F6MRk6u2.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902126744.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902126744.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                  | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :----------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | F6MRk6u2  | KCA-030902126744      | Charlotte Corday: entre acte, valse de la scène de bal | [external URL](93GDD9ND) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                  | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :----------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | F6MRk6u2  | KCA-030902126744      | Charlotte Corday: entre acte, valse de la scène de bal | [external URL](https://anet.be/record/opacdkvc/c:lvd:7093110/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -95,10 +99,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/F6MRk6u2.html" height="800" width="1200" title="F6MRk6u2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/F6MRk6u2" height="800" width="1200" title="F6MRk6u2"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/F6MRk6u2.html" height="800" width="1200" title="F6MRk6u2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/F6MRk6u2" height="800" width="1200" title="F6MRk6u2"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: e4bM5vcc
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                  | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :----------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | e4bM5vcc  | Karevo | human settlement in Kunyinsky District, Pskov Oblast, Russia |         | [Karevo](http://wwww.wikidata.org/entity/Q4214859) |
+    | FAAM UUID | label  | description                                                  | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :----------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | e4bM5vcc  | Karevo | human settlement in Kunyinsky District, Pskov Oblast, Russia |         | [Karevo](http://wikidata.org/entity/Q4214859) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/e4bM5vcc.html" height="800" width="1200" title="e4bM5vcc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/e4bM5vcc" height="800" width="1200" title="e4bM5vcc"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Modest Petrovich Mussorgsky](./eqc4UJfy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3d/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
 
 	Russian composer (1839–1881)
 

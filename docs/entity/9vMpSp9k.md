@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9vMpSp9k
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description | Wikidata QID                         |
-    | :-------: | :---------------: | :-----: | :---------: | :----------------------------------: |
-    | 9vMpSp9k  | Vanne al mio bene |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label             | aliases | description | Wikidata QID                    |
+    | :-------: | :---------------: | :-----: | :---------: | :-----------------------------: |
+    | 9vMpSp9k  | Vanne al mio bene |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/9vMpSp9k.html" height="800" width="1200" title="9vMpSp9k"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9vMpSp9k" height="800" width="1200" title="9vMpSp9k"></iframe>
 
 ## Identifiers
 

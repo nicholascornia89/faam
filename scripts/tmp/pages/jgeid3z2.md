@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jgeid3z2
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                              | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | jgeid3z2  | Concerto for Violin and Oboe in C minor, BWV 1060R |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                              | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | jgeid3z2  | Concerto for Violin and Oboe in C minor, BWV 1060R |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/jgeid3z2.html" height="800" width="1200" title="jgeid3z2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jgeid3z2" height="800" width="1200" title="jgeid3z2"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Concerto N° 1 : en Ut mineur pour Deux Violons avec accompagnement de quintette et piano ou clavecin](./9csYvxWw.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331957.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331957.gif){align=left width="150" height="150"} 
 
 	
 

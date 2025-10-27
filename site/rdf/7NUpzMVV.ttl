@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7NUpzMVV a rdfs:Resource ;
+    faamprop:related_to faamentity:ZS9h3s2q ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1812-01-01"^^xsd:string ;
+    schema1:deathDate "1870-01-01"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q109855056>,
+        "16004171"^^xsd:string,
+        "7NUpzMVV"^^xsd:string ;
+    skos:prefLabel "Carlo Bassini"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:53908783 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Bassini,_Carlo> ;
+    schema:hasOccupation faamentity:L7DPWnnr,
+        faamentity:oJ9qmRVq .
+

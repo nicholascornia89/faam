@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cZPgkFV4
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/cZPgkFV4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/cZPgkFV4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/cZPgkFV4.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/cZPgkFV4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/cZPgkFV4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/cZPgkFV4.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-----: | :---------: | :----------------------------------------------------------: |
-    | cZPgkFV4  | Sigismondo Cesi |         |             | [Sigismondo Cesi](http://wwww.wikidata.org/entity/Q98643653) |
+    | FAAM UUID | label           | aliases | description | Wikidata QID                                            |
+    | :-------: | :-------------: | :-----: | :---------: | :-----------------------------------------------------: |
+    | cZPgkFV4  | Sigismondo Cesi |         |             | [Sigismondo Cesi](http://wikidata.org/entity/Q98643653) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/cZPgkFV4.html" height="800" width="1200" title="cZPgkFV4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cZPgkFV4" height="800" width="1200" title="cZPgkFV4"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,19 @@ tags: agent
 
 -	__[Sonatinen : für Pianoforte Solo](./gJXhyA3T.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902713814.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902713814.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Piano Sonata, Op.36](./iq3yCMCe.md)__
+
+	
+
+-	__[Piano Sonata, Op.26](./KrT6r94F.md)__
 
 	
 

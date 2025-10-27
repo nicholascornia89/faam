@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Rs6o2vnP
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                | aliases | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :------------------------: | :-----: | :------------------------------------------------------------------: |
-    | Rs6o2vnP  | Church of Saint Adalbert | church in New Town, Prague |         | [Church of Saint Adalbert](http://wwww.wikidata.org/entity/Q1319567) |
+    | FAAM UUID | label                    | description                | aliases | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :------------------------: | :-----: | :-------------------------------------------------------------: |
+    | Rs6o2vnP  | Church of Saint Adalbert | church in New Town, Prague |         | [Church of Saint Adalbert](http://wikidata.org/entity/Q1319567) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./jtSKEEJD.md)
+	[Prague 1](./jtSKEEJD.md)
 
-	[](./aZfe8VLF.md)
+	[New Town](./aZfe8VLF.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Rs6o2vnP.html" height="800" width="1200" title="Rs6o2vnP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Rs6o2vnP" height="800" width="1200" title="Rs6o2vnP"></iframe>
 
 ## Cross-references
 

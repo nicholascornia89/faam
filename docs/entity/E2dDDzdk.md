@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: E2dDDzdk
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                    | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | E2dDDzdk  | piccolo | small flute sounding an octave higher than the C concert flute | piccolo | [piccolo](http://wwww.wikidata.org/entity/Q83509) |
+    | FAAM UUID | label   | description                                                    | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | E2dDDzdk  | piccolo | small flute sounding an octave higher than the C concert flute | piccolo | [piccolo](http://wikidata.org/entity/Q83509) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_instrument
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/E2dDDzdk.html" height="800" width="1200" title="E2dDDzdk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/E2dDDzdk" height="800" width="1200" title="E2dDDzdk"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: musical_instrument
 
 -	__[Capricio](./UEwpgitR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902419677.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902419677.gif){align=left width="150" height="150"} 
 
 	
 
@@ -61,7 +65,7 @@ tags: musical_instrument
 
 -	__[August Verbesselt](./7M5wmsyu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and flute player, 1919–2012
 

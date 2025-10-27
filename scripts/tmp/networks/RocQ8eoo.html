@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "karjSL3s", "label": "K\u00f6nigsberg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./karjSL3s.md\u0027\u003eK\u00f6nigsberg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehistoric capital of East Prussia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "RocQ8eoo", "label": "Prussia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RocQ8eoo.md\u0027\u003ePrussia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecommon term for the Duchy, the Kingdom and the Free State of Prussia (1525\u20131947)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "auG86feK", "label": "Frederick William University Berlin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./auG86feK.md\u0027\u003eFrederick William University Berlin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer university in Berlin, Germany; predecessor of Humboldt University\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "irJHKwbj", "label": "Alma Mater Viadrina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./irJHKwbj.md\u0027\u003eAlma Mater Viadrina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WqiSzZBk", "label": "Arnold Mendelssohn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WqiSzZBk.md\u0027\u003eArnold Mendelssohn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and music teacher (1855-1933)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold.Mendelssohn.Dauerausstellung.Dreifaltigkeitskirchhof.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "karjSL3s", "to": "RocQ8eoo", "width": 1}, {"from": "RocQ8eoo", "to": "auG86feK", "width": 1}, {"from": "RocQ8eoo", "to": "irJHKwbj", "width": 1}, {"from": "RocQ8eoo", "to": "WqiSzZBk", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WqiSzZBk", "label": "Arnold Mendelssohn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WqiSzZBk\u0027\u003eArnold Mendelssohn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and music teacher (1855-1933)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold.Mendelssohn.Dauerausstellung.Dreifaltigkeitskirchhof.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "RocQ8eoo", "label": "Prussia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/RocQ8eoo\u0027\u003ePrussia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecommon term for the Duchy, the Kingdom and the Free State of Prussia (1525\u20131947)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "karjSL3s", "label": "K\u00f6nigsberg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/karjSL3s\u0027\u003eK\u00f6nigsberg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehistoric capital of East Prussia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "auG86feK", "label": "Frederick William University Berlin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/auG86feK\u0027\u003eFrederick William University Berlin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer university in Berlin, Germany; predecessor of Humboldt University\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "irJHKwbj", "label": "Alma Mater Viadrina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/irJHKwbj\u0027\u003eAlma Mater Viadrina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "WqiSzZBk", "to": "RocQ8eoo", "width": 10}, {"from": "RocQ8eoo", "to": "karjSL3s", "width": 1}, {"from": "RocQ8eoo", "to": "auG86feK", "width": 1}, {"from": "RocQ8eoo", "to": "irJHKwbj", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BKmKvWTD
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                                    | aliases                             | Wikidata QID                                                                  |
-    | :-------: | :--------------------------------: | :--------------------------------------------: | :---------------------------------: | :---------------------------------------------------------------------------: |
-    | BKmKvWTD  | Friedrich Schiller University Jena | university located in Jena, Thuringia, Germany | Friedrich-Schiller-Universität Jena | [Friedrich Schiller University Jena](http://wwww.wikidata.org/entity/Q154561) |
+    | FAAM UUID | label                              | description                                    | aliases                             | Wikidata QID                                                             |
+    | :-------: | :--------------------------------: | :--------------------------------------------: | :---------------------------------: | :----------------------------------------------------------------------: |
+    | BKmKvWTD  | Friedrich Schiller University Jena | university located in Jena, Thuringia, Germany | Friedrich-Schiller-Universität Jena | [Friedrich Schiller University Jena](http://wikidata.org/entity/Q154561) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/BKmKvWTD.html" height="800" width="1200" title="BKmKvWTD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BKmKvWTD" height="800" width="1200" title="BKmKvWTD"></iframe>
 
 ## Cross-references
 

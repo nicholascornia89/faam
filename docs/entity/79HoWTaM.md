@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 79HoWTaM
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                         | aliases               | Wikidata QID                                              |
-    | :-------: | :----------: | :---------------------------------------------------------------------------------: | :-------------------: | :-------------------------------------------------------: |
-    | 79HoWTaM  | written work | any work expressed in writing, such as inscriptions, manuscripts, documents or maps | creative written work | [written work](http://wwww.wikidata.org/entity/Q47461344) |
+    | FAAM UUID | label        | description                                                                         | aliases               | Wikidata QID                                         |
+    | :-------: | :----------: | :---------------------------------------------------------------------------------: | :-------------------: | :--------------------------------------------------: |
+    | 79HoWTaM  | written work | any work expressed in writing, such as inscriptions, manuscripts, documents or maps | creative written work | [written work](http://wikidata.org/entity/Q47461344) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/79HoWTaM.html" height="800" width="1200" title="79HoWTaM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/79HoWTaM" height="800" width="1200" title="79HoWTaM"></iframe>
 
 ## Cross-references
 

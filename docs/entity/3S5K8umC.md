@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3S5K8umC
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/OSU-b5903614/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3S5K8umC.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3S5K8umC.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3S5K8umC.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/OSU-b5903614/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3S5K8umC.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3S5K8umC.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3S5K8umC.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/OSU-b5903614.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/OSU-b5903614.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                              | permalink                | provenance                                       |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------: | :----------------------------------------------: |
-    | 3S5K8umC  | OSU-b5903614          | The Principles of singing : a practical guide for vocalists and teachers, with vocal exercises / by Albert B. Bach | [external URL](mkCY9LDD) | [Ohio State University Libraries](./gN2uDguf.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                              | permalink                                                      | provenance                                       |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :----------------------------------------------: |
+    | 3S5K8umC  | OSU-b5903614          | The Principles of singing : a practical guide for vocalists and teachers, with vocal exercises / by Albert B. Bach | [external URL](https://library.ohio-state.edu/record=b5903614) | [Ohio State University Libraries](./gN2uDguf.md) |
 
 ## Statements
 
@@ -58,10 +62,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/3S5K8umC.html" height="800" width="1200" title="3S5K8umC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3S5K8umC" height="800" width="1200" title="3S5K8umC"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/3S5K8umC.html" height="800" width="1200" title="3S5K8umC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/3S5K8umC" height="800" width="1200" title="3S5K8umC"></iframe>

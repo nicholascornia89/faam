@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HepeVksP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                    | aliases | Wikidata QID                                                        |
-    | :-------: | :------------------------: | :----------------------------: | :-----: | :-----------------------------------------------------------------: |
-    | HepeVksP  | 2nd arrondissement of Lyon | arrondissement of Lyon, France |         | [2nd arrondissement of Lyon](http://wwww.wikidata.org/entity/Q3344) |
+    | FAAM UUID | label                      | description                    | aliases | Wikidata QID                                                   |
+    | :-------: | :------------------------: | :----------------------------: | :-----: | :------------------------------------------------------------: |
+    | HepeVksP  | 2nd arrondissement of Lyon | arrondissement of Lyon, France |         | [2nd arrondissement of Lyon](http://wikidata.org/entity/Q3344) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HepeVksP.html" height="800" width="1200" title="HepeVksP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HepeVksP" height="800" width="1200" title="HepeVksP"></iframe>
 
 ## Identifiers
 

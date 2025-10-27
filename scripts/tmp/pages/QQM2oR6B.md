@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QQM2oR6B
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description | aliases | Wikidata QID                                        |
-    | :-------: | :-----: | :---------: | :-----: | :-------------------------------------------------: |
-    | QQM2oR6B  | Solduno |             | Solduno | [Solduno](http://wwww.wikidata.org/entity/Q3964258) |
+    | FAAM UUID | label   | description | aliases | Wikidata QID                                   |
+    | :-------: | :-----: | :---------: | :-----: | :--------------------------------------------: |
+    | QQM2oR6B  | Solduno |             | Solduno | [Solduno](http://wikidata.org/entity/Q3964258) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/QQM2oR6B.html" height="800" width="1200" title="QQM2oR6B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QQM2oR6B" height="800" width="1200" title="QQM2oR6B"></iframe>
 
 ## Identifiers
 

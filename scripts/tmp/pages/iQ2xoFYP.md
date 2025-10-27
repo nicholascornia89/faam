@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iQ2xoFYP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                 | aliases     | Wikidata QID                                       |
-    | :-------: | :------: | :-------------------------: | :---------: | :------------------------------------------------: |
-    | iQ2xoFYP  | Wetzikon | Swiss municipality and city | Wetzikon ZH | [Wetzikon](http://wwww.wikidata.org/entity/Q68305) |
+    | FAAM UUID | label    | description                 | aliases     | Wikidata QID                                  |
+    | :-------: | :------: | :-------------------------: | :---------: | :-------------------------------------------: |
+    | iQ2xoFYP  | Wetzikon | Swiss municipality and city | Wetzikon ZH | [Wetzikon](http://wikidata.org/entity/Q68305) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/iQ2xoFYP.html" height="800" width="1200" title="iQ2xoFYP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iQ2xoFYP" height="800" width="1200" title="iQ2xoFYP"></iframe>
 
 ## Identifiers
 

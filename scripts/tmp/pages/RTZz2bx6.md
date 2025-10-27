@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RTZz2bx6
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases                   | description                        | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-----------------------: | :--------------------------------: | :------------------------------------------------------------: |
-    | RTZz2bx6  | Iphigenia in Tauris | Iphigenia among the Tauri | Ancient Greek tragedy by Euripides | [Iphigenia in Tauris](http://wwww.wikidata.org/entity/Q523227) |
+    | FAAM UUID | label               | aliases                   | description                        | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-----------------------: | :--------------------------------: | :-------------------------------------------------------: |
+    | RTZz2bx6  | Iphigenia in Tauris | Iphigenia among the Tauri | Ancient Greek tragedy by Euripides | [Iphigenia in Tauris](http://wikidata.org/entity/Q523227) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/RTZz2bx6.html" height="800" width="1200" title="RTZz2bx6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RTZz2bx6" height="800" width="1200" title="RTZz2bx6"></iframe>
 
 ## Identifiers
 

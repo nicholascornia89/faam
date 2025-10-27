@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fgSBHH5P
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-13908155m/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fgSBHH5P.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fgSBHH5P.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fgSBHH5P.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-13908155m/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fgSBHH5P.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fgSBHH5P.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fgSBHH5P.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-13908155m.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-13908155m.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                            | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | fgSBHH5P  | BNF-13908155m         | La Sonate pathétique de L. van Beethoven, op. 13. Edition rythmée et annotée par Mathis Lussy, (oeuvre posthume) | [external URL](cy2NFhfp) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                            | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | fgSBHH5P  | BNF-13908155m         | La Sonate pathétique de L. van Beethoven, op. 13. Edition rythmée et annotée par Mathis Lussy, (oeuvre posthume) | [external URL](http://catalogue.bnf.fr/ark:/12148/cb13908155m) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -60,10 +64,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/fgSBHH5P.html" height="800" width="1200" title="fgSBHH5P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fgSBHH5P" height="800" width="1200" title="fgSBHH5P"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/fgSBHH5P.html" height="800" width="1200" title="fgSBHH5P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/fgSBHH5P" height="800" width="1200" title="fgSBHH5P"></iframe>

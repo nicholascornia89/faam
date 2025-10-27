@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cpU3CLq9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                        | aliases | Wikidata QID                                           |
-    | :-------: | :---------: | :--------------------------------: | :-----: | :----------------------------------------------------: |
-    | cpU3CLq9  | Tierceville | former commune in Calvados, France |         | [Tierceville](http://wwww.wikidata.org/entity/Q685895) |
+    | FAAM UUID | label       | description                        | aliases | Wikidata QID                                      |
+    | :-------: | :---------: | :--------------------------------: | :-----: | :-----------------------------------------------: |
+    | cpU3CLq9  | Tierceville | former commune in Calvados, France |         | [Tierceville](http://wikidata.org/entity/Q685895) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cpU3CLq9.html" height="800" width="1200" title="cpU3CLq9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cpU3CLq9" height="800" width="1200" title="cpU3CLq9"></iframe>
 
 ## Identifiers
 

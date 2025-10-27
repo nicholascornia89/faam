@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Y38WFUP4
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Y38WFUP4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Y38WFUP4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Y38WFUP4.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Y38WFUP4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Y38WFUP4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Y38WFUP4.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description  | Wikidata QID                                                  |
-    | :-------: | :--------------: | :--------------: | :----------: | :-----------------------------------------------------------: |
-    | Y38WFUP4  | Otto Vrieslander | Otto Vrieslander | musicologist | [Otto Vrieslander](http://wwww.wikidata.org/entity/Q40011653) |
+    | FAAM UUID | label            | aliases          | description  | Wikidata QID                                             |
+    | :-------: | :--------------: | :--------------: | :----------: | :------------------------------------------------------: |
+    | Y38WFUP4  | Otto Vrieslander | Otto Vrieslander | musicologist | [Otto Vrieslander](http://wikidata.org/entity/Q40011653) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Y38WFUP4.html" height="800" width="1200" title="Y38WFUP4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Y38WFUP4" height="800" width="1200" title="Y38WFUP4"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,7 @@ tags: agent
 
 -	__[François Couperin: Musik für cembalo](./eTHnUDJZ.md)__
 
-	![Image](../assets/images/thumbs/KCA-VU15216.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-VU15216.gif){align=left width="150" height="150"} 
 
 	
 

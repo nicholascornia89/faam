@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 96Uobb4a
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description           | aliases       | Wikidata QID                                             |
-    | :-------: | :-----------: | :-------------------: | :-----------: | :------------------------------------------------------: |
-    | 96Uobb4a  | opéra comique | genre of French opera | opera comique | [opéra comique](http://wwww.wikidata.org/entity/Q785479) |
+    | FAAM UUID | label         | description           | aliases       | Wikidata QID                                        |
+    | :-------: | :-----------: | :-------------------: | :-----------: | :-------------------------------------------------: |
+    | 96Uobb4a  | opéra comique | genre of French opera | opera comique | [opéra comique](http://wikidata.org/entity/Q785479) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/96Uobb4a.html" height="800" width="1200" title="96Uobb4a"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/96Uobb4a" height="800" width="1200" title="96Uobb4a"></iframe>
 
 ## Cross-references
 
@@ -39,13 +43,13 @@ tags: keyword
 
 -	__[La Mascotte : opéra-comique en 3 actes](./743qkqfG.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901706736.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901706736.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le Chalet : Opéra-comique en un acte](./JWM648AD.md)__
 
-	![Image](../assets/images/thumbs/KCG-000742404.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000742404.gif){align=left width="150" height="150"} 
 
 	
 

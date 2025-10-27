@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FfVbS6CB
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases             | description                                   | Wikidata QID                                                     |
-    | :-------: | :------------------: | :-----------------: | :-------------------------------------------: | :--------------------------------------------------------------: |
-    | FfVbS6CB  | Messe de Nostre Dame | Misa de Nostre Dame | mass setting composed by Guillaume de Machaut | [Messe de Nostre Dame](http://wwww.wikidata.org/entity/Q1510075) |
+    | FAAM UUID | label                | aliases             | description                                   | Wikidata QID                                                |
+    | :-------: | :------------------: | :-----------------: | :-------------------------------------------: | :---------------------------------------------------------: |
+    | FfVbS6CB  | Messe de Nostre Dame | Misa de Nostre Dame | mass setting composed by Guillaume de Machaut | [Messe de Nostre Dame](http://wikidata.org/entity/Q1510075) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/FfVbS6CB.html" height="800" width="1200" title="FfVbS6CB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FfVbS6CB" height="800" width="1200" title="FfVbS6CB"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Messe Notre-Dame a quatre voix de Giullaume de Machault](./KvqygJch.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901356052.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901356052.gif){align=left width="150" height="150"} 
 
 	
 

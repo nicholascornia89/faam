@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Rf5Yq9mQ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------: | :-----: | :---------: | :----------------------------------: |
-    | Rf5Yq9mQ  | Factum est silentium |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------: | :-----: | :---------: | :-----------------------------: |
+    | Rf5Yq9mQ  | Factum est silentium |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Rf5Yq9mQ.html" height="800" width="1200" title="Rf5Yq9mQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Rf5Yq9mQ" height="800" width="1200" title="Rf5Yq9mQ"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
 
 	
 

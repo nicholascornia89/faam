@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hMpQR39F
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                       | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :---------------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | hMpQR39F  | street | public thoroughfare in a built environment like a village or city | st.     | [street](http://wwww.wikidata.org/entity/Q79007) |
+    | FAAM UUID | label  | description                                                       | aliases | Wikidata QID                                |
+    | :-------: | :----: | :---------------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | hMpQR39F  | street | public thoroughfare in a built environment like a village or city | st.     | [street](http://wikidata.org/entity/Q79007) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/hMpQR39F.html" height="800" width="1200" title="hMpQR39F"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hMpQR39F" height="800" width="1200" title="hMpQR39F"></iframe>
 
 ## Cross-references
 

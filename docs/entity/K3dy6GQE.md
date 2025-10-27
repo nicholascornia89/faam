@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: K3dy6GQE
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description         | aliases | Wikidata QID                                                         |
-    | :-------: | :---------------------: | :-----------------: | :-----: | :------------------------------------------------------------------: |
-    | K3dy6GQE  | Exeter Cathedral School | school in Devon, UK |         | [Exeter Cathedral School](http://wwww.wikidata.org/entity/Q66162110) |
+    | FAAM UUID | label                   | description         | aliases | Wikidata QID                                                    |
+    | :-------: | :---------------------: | :-----------------: | :-----: | :-------------------------------------------------------------: |
+    | K3dy6GQE  | Exeter Cathedral School | school in Devon, UK |         | [Exeter Cathedral School](http://wikidata.org/entity/Q66162110) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/K3dy6GQE.html" height="800" width="1200" title="K3dy6GQE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/K3dy6GQE" height="800" width="1200" title="K3dy6GQE"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bJmRDwy3
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                   | aliases                     | description                          | Wikidata QID                                                             |
-    | :-------: | :-------------------------------------: | :-------------------------: | :----------------------------------: | :----------------------------------------------------------------------: |
-    | bJmRDwy3  | Études d'exécution transcendante, S.139 | Transcendental Étude No. 12 | composition for piano by Franz Liszt | [Transcendental Étude No. 12](http://wwww.wikidata.org/entity/Q15091013) |
+    | FAAM UUID | label                                   | aliases                     | description                          | Wikidata QID                                                        |
+    | :-------: | :-------------------------------------: | :-------------------------: | :----------------------------------: | :-----------------------------------------------------------------: |
+    | bJmRDwy3  | Études d'exécution transcendante, S.139 | Transcendental Étude No. 12 | composition for piano by Franz Liszt | [Transcendental Étude No. 12](http://wikidata.org/entity/Q15091013) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/bJmRDwy3.html" height="800" width="1200" title="bJmRDwy3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bJmRDwy3" height="800" width="1200" title="bJmRDwy3"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: musical_work
 
 -	__[Zwölf Etüden](./TzHesCxL.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904702880.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702880.gif){align=left width="150" height="150"} 
 
 	
 

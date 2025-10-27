@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6fNCgBTJ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6fNCgBTJ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6fNCgBTJ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6fNCgBTJ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6fNCgBTJ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6fNCgBTJ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6fNCgBTJ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Émile_Pessard_by_Nadar.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                     | description     | Wikidata QID                                             |
-    | :-------: | :-----------: | :-------------------------: | :-------------: | :------------------------------------------------------: |
-    | 6fNCgBTJ  | Emile Pessard | Émile Louis Fortuné Pessard | French composer | [Emile Pessard](http://wwww.wikidata.org/entity/Q286316) |
+    | FAAM UUID | label         | aliases                     | description     | Wikidata QID                                        |
+    | :-------: | :-----------: | :-------------------------: | :-------------: | :-------------------------------------------------: |
+    | 6fNCgBTJ  | Emile Pessard | Émile Louis Fortuné Pessard | French composer | [Emile Pessard](http://wikidata.org/entity/Q286316) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/6fNCgBTJ.html" height="800" width="1200" title="6fNCgBTJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6fNCgBTJ" height="800" width="1200" title="6fNCgBTJ"></iframe>
 
 ## Identifiers
 
@@ -91,14 +95,42 @@ tags: agent
 
 -	__[Prélude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Flûte, Hautbois, Clarinette, Cor et Basson](./2BArFkGf.md)__
 
-	![Image](../assets/images/thumbs/KCG-000735722.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735722.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La Pleureuse](./ETP3TtRr.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p8.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p8.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Maurice Ravel](./Gj3w6SyS.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Maurice_Ravel_1925.jpg){align=left width="150" height="150"} 
+
+	French composer (1875-1937)
+
+-	__[Jacques Ibert](./UtCQwJAp.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ibert_Jacques_Photo1938.jpg){align=left width="150" height="150"} 
+
+	French composer
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Le Capitaine Fracasse](./j7QvGcV9.md)__
+
+	comic opera
+
+-	__[Le Capitaine Fracasse](./j7QvGcV9.md)__
+
+	comic opera
 
 </div>

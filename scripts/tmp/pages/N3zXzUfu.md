@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: N3zXzUfu
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                      | aliases              | Wikidata QID                                            |
-    | :-------: | :----------: | :------------------------------------------------------------------------------: | :------------------: | :-----------------------------------------------------: |
-    | N3zXzUfu  | articulation | musical performance technique that affects the transition or continuity on notes | musical articulation | [articulation](http://wwww.wikidata.org/entity/Q372923) |
+    | FAAM UUID | label        | description                                                                      | aliases              | Wikidata QID                                       |
+    | :-------: | :----------: | :------------------------------------------------------------------------------: | :------------------: | :------------------------------------------------: |
+    | N3zXzUfu  | articulation | musical performance technique that affects the transition or continuity on notes | musical articulation | [articulation](http://wikidata.org/entity/Q372923) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/N3zXzUfu.html" height="800" width="1200" title="N3zXzUfu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/N3zXzUfu" height="800" width="1200" title="N3zXzUfu"></iframe>
 
 ## Cross-references
 

@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DFpiwJBu a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1804-03-14"^^xsd:string ;
+    schema1:birthPlace faamentity:LPeogYSR,
+        faamentity:UvT8FR5N ;
+    schema1:deathDate "1849-09-25"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "Austrian Romantic composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q184178>,
+        "15996173"^^xsd:string,
+        "DFpiwJBu"^^xsd:string ;
+    schema1:nationality faamentity:PYaeFADo ;
+    skos:altLabel "Johann Baptist Strauss"^^xsd:string,
+        "Johann Baptist Strauss I"^^xsd:string,
+        "Johann Baptist Strauß"^^xsd:string,
+        "Johann Strauss"^^xsd:string,
+        "Johann Strauss I"^^xsd:string,
+        "Johann Strauss Sr."^^xsd:string,
+        "Johann Strauss, Sr."^^xsd:string,
+        "Johann Strauss, the Elder"^^xsd:string,
+        "Johann Strauss, the Father"^^xsd:string ;
+    skos:prefLabel "Johann Strauss I"^^xsd:string ;
+    wd:P1303 faamentity:K9mQeF4d ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:46947765 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/132081> ;
+    wd:P737 faamentity:hvVZbhaY,
+        faamentity:oX8hC5bT ;
+    wd:P839 <https://imslp.org/wiki/Category:Strauss_Sr.,_Johann> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi .
+

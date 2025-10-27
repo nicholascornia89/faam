@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nE25pYEt
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                              | aliases  | Wikidata QID                                        |
-    | :-------: | :------: | :--------------------------------------: | :------: | :-------------------------------------------------: |
-    | nE25pYEt  | Mechelen | city in the province of Antwerp, Belgium | Mechelen | [Mechelen](http://wwww.wikidata.org/entity/Q162022) |
+    | FAAM UUID | label    | description                              | aliases  | Wikidata QID                                   |
+    | :-------: | :------: | :--------------------------------------: | :------: | :--------------------------------------------: |
+    | nE25pYEt  | Mechelen | city in the province of Antwerp, Belgium | Mechelen | [Mechelen](http://wikidata.org/entity/Q162022) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nE25pYEt.html" height="800" width="1200" title="nE25pYEt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nE25pYEt" height="800" width="1200" title="nE25pYEt"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Oscar Depuydt](./JvEdXjs7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian organist (1858–1925)
 

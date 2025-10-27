@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: J3SiYkmQ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                   | description               | Wikidata QID                                              |
-    | :-------: | :------------: | :-----------------------: | :-----------------------: | :-------------------------------------------------------: |
-    | J3SiYkmQ  | Symphony No. 7 | Symphony No. 7 in E Minor | symphony by Gustav Mahler | [Symphony No. 7](http://wwww.wikidata.org/entity/Q261074) |
+    | FAAM UUID | label          | aliases                   | description               | Wikidata QID                                         |
+    | :-------: | :------------: | :-----------------------: | :-----------------------: | :--------------------------------------------------: |
+    | J3SiYkmQ  | Symphony No. 7 | Symphony No. 7 in E Minor | symphony by Gustav Mahler | [Symphony No. 7](http://wikidata.org/entity/Q261074) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/J3SiYkmQ.html" height="800" width="1200" title="J3SiYkmQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/J3SiYkmQ" height="800" width="1200" title="J3SiYkmQ"></iframe>
 
 ## Identifiers
 
@@ -63,25 +67,25 @@ tags: musical_work
 
 -	__[Symphony No. 7, Movement I](./YN9YE9DH.md)__
 
-	![Image](../assets/images/thumbs/WML-1293986.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-1293986.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphony No. 7, Movement II](./HWYWboad.md)__
 
-	![Image](../assets/images/thumbs/WML-1294030.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-1294030.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphony No. 7, Movement III](./ipv7JPaz.md)__
 
-	![Image](../assets/images/thumbs/WML-1294031.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-1294031.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphony No. 7, Movement IV](./aYxMbY5P.md)__
 
-	![Image](../assets/images/thumbs/WML-1294032.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-1294032.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: g6oGtxBi
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/g6oGtxBi.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/g6oGtxBi.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/g6oGtxBi.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/g6oGtxBi.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/g6oGtxBi.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/g6oGtxBi.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Luciano_Berio.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                  | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :--------------------------: | :------------------------------------------------------: |
-    | g6oGtxBi  | Luciano Berio | Luciano Berio | Italian composer (1925–2003) | [Luciano Berio](http://wwww.wikidata.org/entity/Q221450) |
+    | FAAM UUID | label         | aliases       | description                  | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :--------------------------: | :-------------------------------------------------: |
+    | g6oGtxBi  | Luciano Berio | Luciano Berio | Italian composer (1925–2003) | [Luciano Berio](http://wikidata.org/entity/Q221450) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 	- [conductor](./TDF2knmi.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [music teacher](./L7DPWnnr.md)
 
@@ -79,7 +83,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/g6oGtxBi.html" height="800" width="1200" title="g6oGtxBi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/g6oGtxBi" height="800" width="1200" title="g6oGtxBi"></iframe>
 
 ## Identifiers
 

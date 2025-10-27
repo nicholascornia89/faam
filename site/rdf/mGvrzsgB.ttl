@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mGvrzsgB a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "popular music genre in Europe during the 19th century"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2369761>,
+        "16002523"^^xsd:string,
+        "mGvrzsgB"^^xsd:string ;
+    skos:altLabel "salon music"^^xsd:string ;
+    skos:prefLabel "salon music"^^xsd:string .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KLwzvJCC
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases                   | description                              | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-----------------------: | :--------------------------------------: | :------------------------------------------------------------------: |
-    | KLwzvJCC  | Songs and Dances of Death | Songs and Dances of Death | song cycle composed by Modest Mussorgsky | [Songs and Dances of Death](http://wwww.wikidata.org/entity/Q466218) |
+    | FAAM UUID | label                     | aliases                   | description                              | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-----------------------: | :--------------------------------------: | :-------------------------------------------------------------: |
+    | KLwzvJCC  | Songs and Dances of Death | Songs and Dances of Death | song cycle composed by Modest Mussorgsky | [Songs and Dances of Death](http://wikidata.org/entity/Q466218) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/KLwzvJCC.html" height="800" width="1200" title="KLwzvJCC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KLwzvJCC" height="800" width="1200" title="KLwzvJCC"></iframe>
 
 ## Identifiers
 
@@ -67,13 +71,13 @@ tags: musical_work
 
 -	__[Le chef d'armée = Il condotierro](./aGSrytRN.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902499422.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902499422.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le chef d'armée = Il condotierro](./LerwzdwB.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902642195.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902642195.gif){align=left width="150" height="150"} 
 
 	
 

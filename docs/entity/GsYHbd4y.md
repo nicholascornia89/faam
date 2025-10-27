@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GsYHbd4y
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                       |
-    | :-------: | :-------: | :-----------------------------: | :-----: | :------------------------------------------------: |
-    | GsYHbd4y  | saxophone | single-reed woodwind instrument | sax     | [saxophone](http://wwww.wikidata.org/entity/Q9798) |
+    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                  |
+    | :-------: | :-------: | :-----------------------------: | :-----: | :-------------------------------------------: |
+    | GsYHbd4y  | saxophone | single-reed woodwind instrument | sax     | [saxophone](http://wikidata.org/entity/Q9798) |
 
 <br><br><br>
 
@@ -31,21 +35,21 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./hBUT5Cbq.md)
+	- [woodwind instrument](./hBUT5Cbq.md)
 
-	- [](./ifZHJBYo.md)
+	- [single clarinets with conical bore](./ifZHJBYo.md)
 
-	- [](./95zzQnr6.md)
+	- [single-reed instrument](./95zzQnr6.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/GsYHbd4y.html" height="800" width="1200" title="GsYHbd4y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GsYHbd4y" height="800" width="1200" title="GsYHbd4y"></iframe>
 
 ## Cross-references
 
@@ -55,7 +59,7 @@ tags: musical_instrument
 
 -	__[Concertstuk: harmonie-fanfare](./E9MUDjwc.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901410586.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901410586.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8h2wQ4YR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                         | aliases     | Wikidata QID                                          |
-    | :-------: | :---------: | :-----------------------------------------------------------------: | :---------: | :---------------------------------------------------: |
-    | 8h2wQ4YR  | Helsingborg | town and seat of Helsingborg Municipality, in Scania County, Sweden | Hälsingborg | [Helsingborg](http://wwww.wikidata.org/entity/Q25411) |
+    | FAAM UUID | label       | description                                                         | aliases     | Wikidata QID                                     |
+    | :-------: | :---------: | :-----------------------------------------------------------------: | :---------: | :----------------------------------------------: |
+    | 8h2wQ4YR  | Helsingborg | town and seat of Helsingborg Municipality, in Scania County, Sweden | Hälsingborg | [Helsingborg](http://wikidata.org/entity/Q25411) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8h2wQ4YR.html" height="800" width="1200" title="8h2wQ4YR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8h2wQ4YR" height="800" width="1200" title="8h2wQ4YR"></iframe>
 
 ## Identifiers
 

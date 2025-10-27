@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Wd786FRW
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                                                                                                                   | Wikidata QID                                                  |
-    | :-------: | :-------------: | :-------------: | :---------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------: |
-    | Wd786FRW  | Joseph en Egypt | Joseph en Egypt | biblical opera in 3 acts composed by Etienne Nicolas Mehul. First representation in 1807 at Opéra-Comique, rue Feydeau, Paris | [Joseph en Egypt](http://wwww.wikidata.org/entity/Q109241572) |
+    | FAAM UUID | label           | aliases         | description                                                                                                                   | Wikidata QID                                             |
+    | :-------: | :-------------: | :-------------: | :---------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------: |
+    | Wd786FRW  | Joseph en Egypt | Joseph en Egypt | biblical opera in 3 acts composed by Etienne Nicolas Mehul. First representation in 1807 at Opéra-Comique, rue Feydeau, Paris | [Joseph en Egypt](http://wikidata.org/entity/Q109241572) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Wd786FRW.html" height="800" width="1200" title="Wd786FRW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Wd786FRW" height="800" width="1200" title="Wd786FRW"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Air pour la Voix de Tenore (ou haute-Contre) : Tiré de l'opéra de Joseph en Egypte (Vainement Pharaon)](./KXKKn8zV.md)__
 
-	![Image](../assets/images/thumbs/KCG-000356691.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000356691.gif){align=left width="150" height="150"} 
 
 	
 

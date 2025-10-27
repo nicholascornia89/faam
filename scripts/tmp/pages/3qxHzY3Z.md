@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3qxHzY3Z
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3qxHzY3Z.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3qxHzY3Z.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3qxHzY3Z.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3qxHzY3Z.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3qxHzY3Z.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3qxHzY3Z.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                   | description                                | Wikidata QID                                                |
-    | :-------: | :--------------: | :-----------------------: | :----------------------------------------: | :---------------------------------------------------------: |
-    | 3qxHzY3Z  | Wassili Kalafati | Vasily Pavlovich Kalafati | Russian composer and pedagogue (1869–1942) | [Wassili Kalafati](http://wwww.wikidata.org/entity/Q708738) |
+    | FAAM UUID | label            | aliases                   | description                                | Wikidata QID                                           |
+    | :-------: | :--------------: | :-----------------------: | :----------------------------------------: | :----------------------------------------------------: |
+    | 3qxHzY3Z  | Wassili Kalafati | Vasily Pavlovich Kalafati | Russian composer and pedagogue (1869–1942) | [Wassili Kalafati](http://wikidata.org/entity/Q708738) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/3qxHzY3Z.html" height="800" width="1200" title="3qxHzY3Z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3qxHzY3Z" height="800" width="1200" title="3qxHzY3Z"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Igor Stravinsky](./FTmkdBnA.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Igor_Stravinsky_LOC_32392u.jpg){align=left width="150" height="150"} 
+
+	Russian composer (1882–1971)
+
+</div>

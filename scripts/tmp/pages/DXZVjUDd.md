@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DXZVjUDd
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                      | Wikidata QID                                            |
-    | :-------: | :----------: | :----------: | :------------------------------: | :-----------------------------------------------------: |
-    | DXZVjUDd  | Stabat Mater | Stabat Mater | composition by Gioachino Rossini | [Stabat Mater](http://wwww.wikidata.org/entity/Q778788) |
+    | FAAM UUID | label        | aliases      | description                      | Wikidata QID                                       |
+    | :-------: | :----------: | :----------: | :------------------------------: | :------------------------------------------------: |
+    | DXZVjUDd  | Stabat Mater | Stabat Mater | composition by Gioachino Rossini | [Stabat Mater](http://wikidata.org/entity/Q778788) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/DXZVjUDd.html" height="800" width="1200" title="DXZVjUDd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DXZVjUDd" height="800" width="1200" title="DXZVjUDd"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Convoluut : Valentine Degive-Ledelier](./diiKf2Tw.md)__
 
-	![Image](../assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
 
 	
 

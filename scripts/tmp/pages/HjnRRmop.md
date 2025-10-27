@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HjnRRmop
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description              | aliases                                                                  | Wikidata QID                                                  |
-    | :-------: | :---------------: | :----------------------: | :----------------------------------------------------------------------: | :-----------------------------------------------------------: |
-    | HjnRRmop  | Shrewsbury School | school in Shropshire, UK | Shrewsbury Free Grammar School Material relating to (1619), NLW MS 1595E | [Shrewsbury School](http://wwww.wikidata.org/entity/Q2280221) |
+    | FAAM UUID | label             | description              | aliases                                                                  | Wikidata QID                                             |
+    | :-------: | :---------------: | :----------------------: | :----------------------------------------------------------------------: | :------------------------------------------------------: |
+    | HjnRRmop  | Shrewsbury School | school in Shropshire, UK | Shrewsbury Free Grammar School Material relating to (1619), NLW MS 1595E | [Shrewsbury School](http://wikidata.org/entity/Q2280221) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./TiHP2Aim.md)
+	[Shrewsbury](./TiHP2Aim.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/HjnRRmop.html" height="800" width="1200" title="HjnRRmop"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HjnRRmop" height="800" width="1200" title="HjnRRmop"></iframe>
 
 ## Cross-references
 

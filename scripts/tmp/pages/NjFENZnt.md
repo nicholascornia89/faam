@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NjFENZnt
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NjFENZnt.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NjFENZnt.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NjFENZnt.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NjFENZnt.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NjFENZnt.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NjFENZnt.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jules_Duprato.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                          | description                 | Wikidata QID                                             |
-    | :-------: | :-----------: | :------------------------------: | :-------------------------: | :------------------------------------------------------: |
-    | NjFENZnt  | Jules Duprato | Jules Laurent Anacharsis Duprato | French composer (1827–1892) | [Jules Duprato](http://wwww.wikidata.org/entity/Q376547) |
+    | FAAM UUID | label         | aliases                          | description                 | Wikidata QID                                        |
+    | :-------: | :-----------: | :------------------------------: | :-------------------------: | :-------------------------------------------------: |
+    | NjFENZnt  | Jules Duprato | Jules Laurent Anacharsis Duprato | French composer (1827–1892) | [Jules Duprato](http://wikidata.org/entity/Q376547) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./hnyh7RvW.md)
+	- [music professor](./hnyh7RvW.md)
 
 ??? quote "educated at" 
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NjFENZnt.html" height="800" width="1200" title="NjFENZnt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NjFENZnt" height="800" width="1200" title="NjFENZnt"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Edmond Audran](./XC8Yynik.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edmond_Audran.jpg){align=left width="150" height="150"} 
+
+	French composer (1840–1901)
+
+</div>

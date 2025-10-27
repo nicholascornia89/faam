@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WQgAxW85
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                                           | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :-----------------------------------------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | WQgAxW85  | Nîmes | city and prefecture of the Gard department in the Occitanie region of Southern France | Nismes  | [Nîmes](http://wwww.wikidata.org/entity/Q42807) |
+    | FAAM UUID | label | description                                                                           | aliases | Wikidata QID                               |
+    | :-------: | :---: | :-----------------------------------------------------------------------------------: | :-----: | :----------------------------------------: |
+    | WQgAxW85  | Nîmes | city and prefecture of the Gard department in the Occitanie region of Southern France | Nismes  | [Nîmes](http://wikidata.org/entity/Q42807) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/WQgAxW85.html" height="800" width="1200" title="WQgAxW85"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WQgAxW85" height="800" width="1200" title="WQgAxW85"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5ePgm7TT
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                      | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :------------------------------: | :-----: | :----------------------------------------------: |
-    | 5ePgm7TT  | Andria | city and comune in Apulia, Italy |         | [Andria](http://wwww.wikidata.org/entity/Q13486) |
+    | FAAM UUID | label  | description                      | aliases | Wikidata QID                                |
+    | :-------: | :----: | :------------------------------: | :-----: | :-----------------------------------------: |
+    | 5ePgm7TT  | Andria | city and comune in Apulia, Italy |         | [Andria](http://wikidata.org/entity/Q13486) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/5ePgm7TT.html" height="800" width="1200" title="5ePgm7TT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5ePgm7TT" height="800" width="1200" title="5ePgm7TT"></iframe>
 
 ## Identifiers
 

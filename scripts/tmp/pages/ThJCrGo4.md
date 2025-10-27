@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ThJCrGo4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                        | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :--------------------------------: | :-----: | :--------------------------------------------------: |
-    | ThJCrGo4  | Nová Říše | municipality of the Czech Republic |         | [Nová Říše](http://wwww.wikidata.org/entity/Q158418) |
+    | FAAM UUID | label     | description                        | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :--------------------------------: | :-----: | :---------------------------------------------: |
+    | ThJCrGo4  | Nová Říše | municipality of the Czech Republic |         | [Nová Říše](http://wikidata.org/entity/Q158418) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ThJCrGo4.html" height="800" width="1200" title="ThJCrGo4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ThJCrGo4" height="800" width="1200" title="ThJCrGo4"></iframe>
 
 ## Identifiers
 

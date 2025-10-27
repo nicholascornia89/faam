@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:53YC4RFc a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:K79S8mEL ;
+    schema1:identifier "16002108"^^xsd:string,
+        "53YC4RFc"^^xsd:string ;
+    skos:prefLabel "Non ti sdegnar"^^xsd:string ;
+    wd:P5202 faamentity:WWHbpWws ;
+    wd:P7937 faamentity:EHXeMNgG .
+

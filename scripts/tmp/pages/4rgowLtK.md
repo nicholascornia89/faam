@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4rgowLtK
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                                                       | aliases             | Wikidata QID                                                     |
-    | :-------: | :-----------------: | :---------------------------------------------------------------: | :-----------------: | :--------------------------------------------------------------: |
-    | 4rgowLtK  | classical guitarist | guitarist who is formally trained in and/or plays classical music | classical guitarist | [classical guitarist](http://wwww.wikidata.org/entity/Q24067349) |
+    | FAAM UUID | label               | description                                                       | aliases             | Wikidata QID                                                |
+    | :-------: | :-----------------: | :---------------------------------------------------------------: | :-----------------: | :---------------------------------------------------------: |
+    | 4rgowLtK  | classical guitarist | guitarist who is formally trained in and/or plays classical music | classical guitarist | [classical guitarist](http://wikidata.org/entity/Q24067349) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4rgowLtK.html" height="800" width="1200" title="4rgowLtK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4rgowLtK" height="800" width="1200" title="4rgowLtK"></iframe>
 
 ## Cross-references
 
@@ -61,7 +65,7 @@ tags: occupation
 
 -	__[Betho Davezac](./QYsgspze.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

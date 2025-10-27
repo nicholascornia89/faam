@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LqkpKZa7", "label": "baritone", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LqkpKZa7.md\u0027\u003ebaritone\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evocal and pitch range above bass and below tenor\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Cv5BUeW7", "label": "medium voice", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Cv5BUeW7.md\u0027\u003emedium voice\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evoice type between low-register voice and high-register voice\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WAgLcNUe", "label": "mezzo-soprano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WAgLcNUe.md\u0027\u003emezzo-soprano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of classical female singing voice whose vocal range lies between the soprano and the contralto voice\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "LqkpKZa7", "to": "Cv5BUeW7", "width": 1}, {"from": "Cv5BUeW7", "to": "WAgLcNUe", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WAgLcNUe", "label": "mezzo-soprano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WAgLcNUe\u0027\u003emezzo-soprano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of classical female singing voice whose vocal range lies between the soprano and the contralto voice\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Cv5BUeW7", "label": "medium voice", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Cv5BUeW7\u0027\u003emedium voice\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evoice type between low-register voice and high-register voice\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LqkpKZa7", "label": "baritone", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LqkpKZa7\u0027\u003ebaritone\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evocal and pitch range above bass and below tenor\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "WAgLcNUe", "to": "Cv5BUeW7", "width": 1}, {"from": "Cv5BUeW7", "to": "LqkpKZa7", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

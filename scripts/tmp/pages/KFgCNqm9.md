@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KFgCNqm9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                    | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :----------------------------: | :-----: | :--------------------------------------------: |
-    | KFgCNqm9  | Pisa  | city in Tuscany, Central Italy |         | [Pisa](http://wwww.wikidata.org/entity/Q13375) |
+    | FAAM UUID | label | description                    | aliases | Wikidata QID                              |
+    | :-------: | :---: | :----------------------------: | :-----: | :---------------------------------------: |
+    | KFgCNqm9  | Pisa  | city in Tuscany, Central Italy |         | [Pisa](http://wikidata.org/entity/Q13375) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/KFgCNqm9.html" height="800" width="1200" title="KFgCNqm9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KFgCNqm9" height="800" width="1200" title="KFgCNqm9"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Giovanni Carlo Maria Clari](./WWHbpWws.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giovanni Carlo Maria Clari](./WWHbpWws.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

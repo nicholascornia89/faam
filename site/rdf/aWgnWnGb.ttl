@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aWgnWnGb a rdfs:Resource ;
+    faamprop:related_to faamentity:ZS9h3s2q ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:8fRMPni7,
+        faamentity:dF66dPL3 ;
+    schema1:birthDate "1861-05-19"^^xsd:string ;
+    schema1:birthPlace faamentity:NashhWHM,
+        faamentity:eEBUzcNC ;
+    schema1:deathDate "1931-02-23"^^xsd:string ;
+    schema1:deathPlace faamentity:Tex3XPhr ;
+    schema1:description "Australian opera singer (1861–1931)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q237607>,
+        "16004194"^^xsd:string,
+        "aWgnWnGb"^^xsd:string ;
+    schema1:nationality faamentity:hApfbUfq ;
+    skos:altLabel "Dame Nellie Melba"^^xsd:string,
+        "Helen Porter Armstrong"^^xsd:string,
+        "Nellie Melba"^^xsd:string ;
+    skos:prefLabel "Nellie Melba"^^xsd:string ;
+    wd:P1303 faamentity:NFAxdnVA ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:29552506 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/87932> ;
+    wd:P737 faamentity:eykexxTZ ;
+    wd:P839 <https://imslp.org/wiki/Category:Melba,_Nellie> ;
+    schema:hasOccupation faamentity:9giCtFiy,
+        faamentity:L7DPWnnr .
+

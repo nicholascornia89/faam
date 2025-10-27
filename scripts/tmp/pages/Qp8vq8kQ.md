@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Qp8vq8kQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                       | aliases    | Wikidata QID                                       |
-    | :-------: | :------: | :-------------------------------: | :--------: | :------------------------------------------------: |
-    | Qp8vq8kQ  | Le Havre | commune in Seine-Maritime, France | Havre (Le) | [Le Havre](http://wwww.wikidata.org/entity/Q42810) |
+    | FAAM UUID | label    | description                       | aliases    | Wikidata QID                                  |
+    | :-------: | :------: | :-------------------------------: | :--------: | :-------------------------------------------: |
+    | Qp8vq8kQ  | Le Havre | commune in Seine-Maritime, France | Havre (Le) | [Le Havre](http://wikidata.org/entity/Q42810) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Qp8vq8kQ.html" height="800" width="1200" title="Qp8vq8kQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Qp8vq8kQ" height="800" width="1200" title="Qp8vq8kQ"></iframe>
 
 ## Identifiers
 

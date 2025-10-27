@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Eaco4g5s
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description        | aliases   | Wikidata QID                                      |
-    | :-------: | :----: | :----------------: | :-------: | :-----------------------------------------------: |
-    | Eaco4g5s  | Shusha | city in Azerbaijan | Panahabad | [Shusha](http://wwww.wikidata.org/entity/Q158903) |
+    | FAAM UUID | label  | description        | aliases   | Wikidata QID                                 |
+    | :-------: | :----: | :----------------: | :-------: | :------------------------------------------: |
+    | Eaco4g5s  | Shusha | city in Azerbaijan | Panahabad | [Shusha](http://wikidata.org/entity/Q158903) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Azerbaijan](http://www.wikidata.org/entity/Q227)
+	- [Azerbaijan](Q227)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Eaco4g5s.html" height="800" width="1200" title="Eaco4g5s"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Eaco4g5s" height="800" width="1200" title="Eaco4g5s"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Quc8drWz
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | Quc8drWz  | Keyboard Sonata in D major, K.400 | Keyboard Sonata in D major, L.213 | sonata by Domenico Scarlatti | [Sonata K. 400](http://wwww.wikidata.org/entity/Q78243773) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | Quc8drWz  | Keyboard Sonata in D major, K.400 | Keyboard Sonata in D major, L.213 | sonata by Domenico Scarlatti | [Sonata K. 400](http://wikidata.org/entity/Q78243773) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Quc8drWz.html" height="800" width="1200" title="Quc8drWz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Quc8drWz" height="800" width="1200" title="Quc8drWz"></iframe>
 
 ## Identifiers
 
@@ -73,19 +77,19 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[12 Sonates pour clavecin ou forte-piano composées dans le style du célèbre Scarlatti... Op. 27](./LHqqQNHE.md)__
 
-	![Image](../assets/images/thumbs/BNF-39782625z.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-39782625z.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pièces pour le Clavecin par Domenico Scarlatti](./9t8aicUA.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903514815.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903514815.gif){align=left width="150" height="150"} 
 
 	
 

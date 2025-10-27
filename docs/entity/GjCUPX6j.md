@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GjCUPX6j
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                                    | aliases         | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :--------------------------------------------: | :-------------: | :--------------------------------------------------------------------: |
-    | GjCUPX6j  | association football player | person who plays association football (soccer) | football player | [association football player](http://wwww.wikidata.org/entity/Q937857) |
+    | FAAM UUID | label                       | description                                    | aliases         | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :--------------------------------------------: | :-------------: | :---------------------------------------------------------------: |
+    | GjCUPX6j  | association football player | person who plays association football (soccer) | football player | [association football player](http://wikidata.org/entity/Q937857) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/GjCUPX6j.html" height="800" width="1200" title="GjCUPX6j"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GjCUPX6j" height="800" width="1200" title="GjCUPX6j"></iframe>
 
 ## Cross-references
 

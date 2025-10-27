@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PHbbmGmn
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PHbbmGmn.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PHbbmGmn.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PHbbmGmn.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PHbbmGmn.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PHbbmGmn.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PHbbmGmn.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giaccobe_Cervetto_(1680-1783).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                         | description                        | Wikidata QID                                                  |
-    | :-------: | :---------------: | :-----------------------------: | :--------------------------------: | :-----------------------------------------------------------: |
-    | PHbbmGmn  | Giacobbe Cervetto | Giacobbe, detto Cervetto Basevi | Italian composer active in England | [Giacobbe Cervetto](http://wwww.wikidata.org/entity/Q1364637) |
+    | FAAM UUID | label             | aliases                         | description                        | Wikidata QID                                             |
+    | :-------: | :---------------: | :-----------------------------: | :--------------------------------: | :------------------------------------------------------: |
+    | PHbbmGmn  | Giacobbe Cervetto | Giacobbe, detto Cervetto Basevi | Italian composer active in England | [Giacobbe Cervetto](http://wikidata.org/entity/Q1364637) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/PHbbmGmn.html" height="800" width="1200" title="PHbbmGmn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PHbbmGmn" height="800" width="1200" title="PHbbmGmn"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ENoVhPcd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                             | aliases   | Wikidata QID                                        |
-    | :-------: | :------: | :-------------------------------------: | :-------: | :-------------------------------------------------: |
-    | ENoVhPcd  | Biarritz | commune in Pyrénées-Atlantiques, France | Miarritze | [Biarritz](http://wwww.wikidata.org/entity/Q132790) |
+    | FAAM UUID | label    | description                             | aliases   | Wikidata QID                                   |
+    | :-------: | :------: | :-------------------------------------: | :-------: | :--------------------------------------------: |
+    | ENoVhPcd  | Biarritz | commune in Pyrénées-Atlantiques, France | Miarritze | [Biarritz](http://wikidata.org/entity/Q132790) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ENoVhPcd.html" height="800" width="1200" title="ENoVhPcd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ENoVhPcd" height="800" width="1200" title="ENoVhPcd"></iframe>
 
 ## Identifiers
 

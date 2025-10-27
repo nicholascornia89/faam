@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3Gyxa6gM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3Gyxa6gM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3Gyxa6gM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3Gyxa6gM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3Gyxa6gM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3Gyxa6gM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3Gyxa6gM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Benjamin_de_La_Borde.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases                            | description                                         | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :--------------------------------: | :-------------------------------------------------: | :------------------------------------------------------------------: |
-    | 3Gyxa6gM  | Jean-Benjamin de La Borde | Jean-Benjamin François de la Borde | French composer, patron, writer and fermier général | [Jean-Benjamin de La Borde](http://wwww.wikidata.org/entity/Q932694) |
+    | FAAM UUID | label                     | aliases                            | description                                         | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :--------------------------------: | :-------------------------------------------------: | :-------------------------------------------------------------: |
+    | 3Gyxa6gM  | Jean-Benjamin de La Borde | Jean-Benjamin François de la Borde | French composer, patron, writer and fermier général | [Jean-Benjamin de La Borde](http://wikidata.org/entity/Q932694) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 	- [librettist](./BPsUV5WT.md)
 
-	- [](./mj3GuaPr.md)
+	- [fermier général](./mj3GuaPr.md)
 
 ??? quote "employer" 
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/3Gyxa6gM.html" height="800" width="1200" title="3Gyxa6gM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3Gyxa6gM" height="800" width="1200" title="3Gyxa6gM"></iframe>
 
 ## Identifiers
 

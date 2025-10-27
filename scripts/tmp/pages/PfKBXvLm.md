@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PfKBXvLm
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PfKBXvLm.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PfKBXvLm.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PfKBXvLm.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PfKBXvLm.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PfKBXvLm.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PfKBXvLm.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ernest_Reyer_par_Carjat.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases    | description                                        | Wikidata QID                                            |
-    | :-------: | :----------: | :--------: | :------------------------------------------------: | :-----------------------------------------------------: |
-    | PfKBXvLm  | Ernest Reyer | Ernest Rey | French opera composer and music critic (1823–1909) | [Ernest Reyer](http://wwww.wikidata.org/entity/Q516937) |
+    | FAAM UUID | label        | aliases    | description                                        | Wikidata QID                                       |
+    | :-------: | :----------: | :--------: | :------------------------------------------------: | :------------------------------------------------: |
+    | PfKBXvLm  | Ernest Reyer | Ernest Rey | French opera composer and music critic (1823–1909) | [Ernest Reyer](http://wikidata.org/entity/Q516937) |
 
 <br><br><br>
 
@@ -45,19 +49,19 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 ??? quote "educated at" 
 
-	- [](./iUUXAduQ.md)
+	- [Lycée Thiers](./iUUXAduQ.md)
 
-	- [](./dhfYLHUk.md)
+	- [Conservatoire à rayonnement régional de Marseille](./dhfYLHUk.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/PfKBXvLm.html" height="800" width="1200" title="PfKBXvLm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PfKBXvLm" height="800" width="1200" title="PfKBXvLm"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[La Statue](./TkqpbYwA.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p16.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p16.gif){align=left width="150" height="150"} 
 
 	
 

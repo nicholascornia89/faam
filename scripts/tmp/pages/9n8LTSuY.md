@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9n8LTSuY
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                    | aliases             | Wikidata QID                                    |
-    | :-------: | :------: | :----------------------------: | :-----------------: | :---------------------------------------------: |
-    | 9n8LTSuY  | Portugal | country in Southwestern Europe | Portuguese Republic | [Portugal](http://wwww.wikidata.org/entity/Q45) |
+    | FAAM UUID | label    | description                    | aliases             | Wikidata QID                               |
+    | :-------: | :------: | :----------------------------: | :-----------------: | :----------------------------------------: |
+    | 9n8LTSuY  | Portugal | country in Southwestern Europe | Portuguese Republic | [Portugal](http://wikidata.org/entity/Q45) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/9n8LTSuY.html" height="800" width="1200" title="9n8LTSuY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9n8LTSuY" height="800" width="1200" title="9n8LTSuY"></iframe>
 
 ## Identifiers
 

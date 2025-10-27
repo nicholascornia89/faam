@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fr2hnQEu
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | aliases                           | description                  | Wikidata QID                                              |
-    | :-------: | :------------------------------: | :-------------------------------: | :--------------------------: | :-------------------------------------------------------: |
-    | fr2hnQEu  | Keyboard Sonata in D major, K.96 | Keyboard Sonata in D major, L.465 | sonata by Domenico Scarlatti | [Sonata K. 96](http://wwww.wikidata.org/entity/Q67199923) |
+    | FAAM UUID | label                            | aliases                           | description                  | Wikidata QID                                         |
+    | :-------: | :------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------: |
+    | fr2hnQEu  | Keyboard Sonata in D major, K.96 | Keyboard Sonata in D major, L.465 | sonata by Domenico Scarlatti | [Sonata K. 96](http://wikidata.org/entity/Q67199923) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/fr2hnQEu.html" height="800" width="1200" title="fr2hnQEu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fr2hnQEu" height="800" width="1200" title="fr2hnQEu"></iframe>
 
 ## Identifiers
 
@@ -75,43 +79,43 @@ tags: musical_work
 
 -	__[18 ausgewählte Klavierstücke](./J4gd8QWV.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate N. 38 (Gigue)](./kXtogUTm.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP69444.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP69444.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 38 [i.e. 96] : gigue / Domenico Scarlatti...](./Ni7UNMie.md)__
 
-	![Image](../assets/images/thumbs/BNF-43257934r.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257934r.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[29 sonatas](./B7PgUtbR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[18 ausgewählte Klavierstücke](./J4gd8QWV.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

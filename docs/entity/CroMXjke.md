@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CroMXjke
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                       | aliases | Wikidata QID                                  |
-    | :-------: | :---: | :-------------------------------: | :-----: | :-------------------------------------------: |
-    | CroMXjke  | Agen  | commune in Lot-et-Garonne, France |         | [Agen](http://wwww.wikidata.org/entity/Q6625) |
+    | FAAM UUID | label | description                       | aliases | Wikidata QID                             |
+    | :-------: | :---: | :-------------------------------: | :-----: | :--------------------------------------: |
+    | CroMXjke  | Agen  | commune in Lot-et-Garonne, France |         | [Agen](http://wikidata.org/entity/Q6625) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CroMXjke.html" height="800" width="1200" title="CroMXjke"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CroMXjke" height="800" width="1200" title="CroMXjke"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Clara Pilet-Comettant](./23QfwpjL.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

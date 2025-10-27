@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: asaGcMEt
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                    | aliases           | Wikidata QID                                                 |
-    | :-------: | :---------------: | :----------------------------: | :---------------: | :----------------------------------------------------------: |
-    | asaGcMEt  | Lycée Saint-Louis | post-secondary school in Paris | Lycée Saint-Louis | [Lycée Saint-Louis](http://wwww.wikidata.org/entity/Q471980) |
+    | FAAM UUID | label             | description                    | aliases           | Wikidata QID                                            |
+    | :-------: | :---------------: | :----------------------------: | :---------------: | :-----------------------------------------------------: |
+    | asaGcMEt  | Lycée Saint-Louis | post-secondary school in Paris | Lycée Saint-Louis | [Lycée Saint-Louis](http://wikidata.org/entity/Q471980) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./U8VE48Nt.md)
+	[6th arrondissement of Paris](./U8VE48Nt.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/asaGcMEt.html" height="800" width="1200" title="asaGcMEt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/asaGcMEt" height="800" width="1200" title="asaGcMEt"></iframe>
 
 ## Cross-references
 

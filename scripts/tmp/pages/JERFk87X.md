@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JERFk87X
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                    | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------------------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | JERFk87X  | La gelosia. Canzonetta veneziana (Non giova il sospirar) |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                                    | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------------------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | JERFk87X  | La gelosia. Canzonetta veneziana (Non giova il sospirar) |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/JERFk87X.html" height="800" width="1200" title="JERFk87X"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JERFk87X" height="800" width="1200" title="JERFk87X"></iframe>
 
 ## Identifiers
 

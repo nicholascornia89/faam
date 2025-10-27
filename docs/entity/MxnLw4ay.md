@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MxnLw4ay
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                               | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :---------------------------------------: | :-----: | :----------------------------------------------: |
-    | MxnLw4ay  | Bologna | city and commune in Emilia-Romagna, Italy | Bologna | [Bologna](http://wwww.wikidata.org/entity/Q1891) |
+    | FAAM UUID | label   | description                               | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :---------------------------------------: | :-----: | :-----------------------------------------: |
+    | MxnLw4ay  | Bologna | city and commune in Emilia-Romagna, Italy | Bologna | [Bologna](http://wikidata.org/entity/Q1891) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/MxnLw4ay.html" height="800" width="1200" title="MxnLw4ay"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MxnLw4ay" height="800" width="1200" title="MxnLw4ay"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Giovanni Tadolini](./c4bta3mz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -79,13 +83,13 @@ tags: city
 
 -	__[Angelo Consolini](./2Sh2rJhV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1859-1934)
 
 -	__[Francesco Piermarini](./n9XVoQC2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -97,13 +101,13 @@ tags: city
 
 -	__[Margherita Salicola](./SR94UjDN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian singer and opera singer
 
 -	__[Santo Lapis](./NsWtpMWC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and impresario
 
@@ -133,7 +137,7 @@ tags: city
 
 -	__[Petronio Franceschini](./iSNyEoZS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1651-1680)
 
@@ -145,13 +149,13 @@ tags: city
 
 -	__[Giovanni Benvenuti](./2FgECPXa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist
 
 -	__[Tommaso Predieri](./6PsM6xGh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer of the baroque era
 
@@ -169,13 +173,13 @@ tags: city
 
 -	__[Giovanni Tadolini](./c4bta3mz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Angelo Consolini](./2Sh2rJhV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1859-1934)
 
@@ -205,7 +209,7 @@ tags: city
 
 -	__[Giovanni Piantanida](./MAEUzKFY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -235,7 +239,7 @@ tags: city
 
 -	__[Gaetano Boni](./oLvSN7VZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -271,19 +275,19 @@ tags: city
 
 -	__[Giovanni Benvenuti](./2FgECPXa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist
 
 -	__[Giovanni Antonio Riccieri](./PuGAQNHr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Tommaso Predieri](./6PsM6xGh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer of the baroque era
 

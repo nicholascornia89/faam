@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M6KEUnk9
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/M6KEUnk9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/M6KEUnk9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/M6KEUnk9.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/M6KEUnk9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/M6KEUnk9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/M6KEUnk9.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Baptist_Cramer_by_William_Sharp.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases               | description                  | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :-------------------: | :--------------------------: | :--------------------------------------------------------------: |
-    | M6KEUnk9  | Johann Baptist Cramer | Johann Baptist Cramer | British musician (1771-1858) | [Johann Baptist Cramer](http://wwww.wikidata.org/entity/Q455212) |
+    | FAAM UUID | label                 | aliases               | description                  | Wikidata QID                                                |
+    | :-------: | :-------------------: | :-------------------: | :--------------------------: | :---------------------------------------------------------: |
+    | M6KEUnk9  | Johann Baptist Cramer | Johann Baptist Cramer | British musician (1771-1858) | [Johann Baptist Cramer](http://wikidata.org/entity/Q455212) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 	- [pianist](./T6nAVeGM.md)
 
-	- [](./X9WM3du9.md)
+	- [businessperson](./X9WM3du9.md)
 
 	- [publisher](./me4GX7oo.md)
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/M6KEUnk9.html" height="800" width="1200" title="M6KEUnk9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M6KEUnk9" height="800" width="1200" title="M6KEUnk9"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Etudes. Cah. II.](./BXMiEDy6.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143701p13.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143701p13.gif){align=left width="150" height="150"} 
 
 	
 

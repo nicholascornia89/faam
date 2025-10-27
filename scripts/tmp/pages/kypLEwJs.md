@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kypLEwJs
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kypLEwJs.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kypLEwJs.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kypLEwJs.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kypLEwJs.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kypLEwJs.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kypLEwJs.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description                          | Wikidata QID                                            |
-    | :-------: | :----------: | :-----: | :----------------------------------: | :-----------------------------------------------------: |
-    | kypLEwJs  | Franz Tausch |         | clarinetist and composer (1762-1817) | [Franz Tausch](http://wwww.wikidata.org/entity/Q216220) |
+    | FAAM UUID | label        | aliases | description                          | Wikidata QID                                       |
+    | :-------: | :----------: | :-----: | :----------------------------------: | :------------------------------------------------: |
+    | kypLEwJs  | Franz Tausch |         | clarinetist and composer (1762-1817) | [Franz Tausch](http://wikidata.org/entity/Q216220) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/kypLEwJs.html" height="800" width="1200" title="kypLEwJs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kypLEwJs" height="800" width="1200" title="kypLEwJs"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Bernhard Crusell](./FeRTAUvm.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Henrik_Crusell_1826.jpg){align=left width="150" height="150"} 
+
+	Swedish-Finnish clarinetist, composer and translator (1775–1838)
+
+-	__[Bernhard Crusell](./kjc6KBeH.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Henrik_Crusell_1826.jpg){align=left width="150" height="150"} 
+
+	Swedish-Finnish clarinetist, composer and translator (1775–1838)
+
+</div>

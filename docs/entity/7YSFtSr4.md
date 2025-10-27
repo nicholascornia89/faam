@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7YSFtSr4
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000337150/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7YSFtSr4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7YSFtSr4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7YSFtSr4.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000337150/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7YSFtSr4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7YSFtSr4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7YSFtSr4.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000337150.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000337150.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                            | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | 7YSFtSr4  | KCG-000337150         | Fantaisie en Trio : Sur un Air Espagnol : Composée pour Piano haut-bois & Basson | [external URL](mMrUGL4h) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                            | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | 7YSFtSr4  | KCG-000337150         | Fantaisie en Trio : Sur un Air Espagnol : Composée pour Piano haut-bois & Basson | [external URL](https://catalogus.hogent.be/catalog/hog01:000337150) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -72,10 +76,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/7YSFtSr4.html" height="800" width="1200" title="7YSFtSr4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7YSFtSr4" height="800" width="1200" title="7YSFtSr4"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/7YSFtSr4.html" height="800" width="1200" title="7YSFtSr4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/7YSFtSr4" height="800" width="1200" title="7YSFtSr4"></iframe>

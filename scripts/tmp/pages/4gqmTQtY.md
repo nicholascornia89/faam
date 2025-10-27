@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4gqmTQtY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                              | aliases | Wikidata QID                                         |
-    | :-------: | :--------: | :--------------------------------------: | :-----: | :--------------------------------------------------: |
-    | 4gqmTQtY  | Middelburg | capital city of Zeeland, the Netherlands |         | [Middelburg](http://wwww.wikidata.org/entity/Q52101) |
+    | FAAM UUID | label      | description                              | aliases | Wikidata QID                                    |
+    | :-------: | :--------: | :--------------------------------------: | :-----: | :---------------------------------------------: |
+    | 4gqmTQtY  | Middelburg | capital city of Zeeland, the Netherlands |         | [Middelburg](http://wikidata.org/entity/Q52101) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4gqmTQtY.html" height="800" width="1200" title="4gqmTQtY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4gqmTQtY" height="800" width="1200" title="4gqmTQtY"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Jacob Clemens non Papa](./YtAudC9S.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	16th-century Flemish composer
 

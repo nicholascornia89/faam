@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9zXKNESX
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                    | aliases | Wikidata QID                                   |
-    | :-------: | :-----: | :----------------------------: | :-----: | :--------------------------------------------: |
-    | 9zXKNESX  | Ireland | country in Northwestern Europe | Éire    | [Ireland](http://wwww.wikidata.org/entity/Q27) |
+    | FAAM UUID | label   | description                    | aliases | Wikidata QID                              |
+    | :-------: | :-----: | :----------------------------: | :-----: | :---------------------------------------: |
+    | 9zXKNESX  | Ireland | country in Northwestern Europe | Éire    | [Ireland](http://wikidata.org/entity/Q27) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/9zXKNESX.html" height="800" width="1200" title="9zXKNESX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9zXKNESX" height="800" width="1200" title="9zXKNESX"></iframe>
 
 ## Identifiers
 

@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:M55uT5Cp a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Austrian field marshal (1671-1736)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q669773>,
+        "15991074"^^xsd:string,
+        "M55uT5Cp"^^xsd:string ;
+    skos:altLabel "Philip of Hesse-Darmstadt"^^xsd:string ;
+    skos:prefLabel "Philip of Hesse-Darmstadt"^^xsd:string .
+

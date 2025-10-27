@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QTPT2oXp
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143700p33/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/QTPT2oXp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/QTPT2oXp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/QTPT2oXp.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143700p33/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/QTPT2oXp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/QTPT2oXp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/QTPT2oXp.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143700p33.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p33.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title         | permalink                | provenance                         |
-    | :-------: | :-------------------: | :-----------: | :----------------------: | :--------------------------------: |
-    | QTPT2oXp  | ORP-20143700p33       | Après l'orage | [external URL](9JZUardt) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title         | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :-----------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | QTPT2oXp  | ORP-20143700p33       | Après l'orage | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22188) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "note" 
 
@@ -60,10 +64,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/QTPT2oXp.html" height="800" width="1200" title="QTPT2oXp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QTPT2oXp" height="800" width="1200" title="QTPT2oXp"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/QTPT2oXp.html" height="800" width="1200" title="QTPT2oXp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/QTPT2oXp" height="800" width="1200" title="QTPT2oXp"></iframe>

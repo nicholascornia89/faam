@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2cjzvsX6
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                        | aliases  | Wikidata QID                                     |
-    | :-------: | :----: | :--------------------------------: | :------: | :----------------------------------------------: |
-    | 2cjzvsX6  | Bergen | Norwegian city in Vestland, Norway | Bjørgvin | [Bergen](http://wwww.wikidata.org/entity/Q26793) |
+    | FAAM UUID | label  | description                        | aliases  | Wikidata QID                                |
+    | :-------: | :----: | :--------------------------------: | :------: | :-----------------------------------------: |
+    | 2cjzvsX6  | Bergen | Norwegian city in Vestland, Norway | Bjørgvin | [Bergen](http://wikidata.org/entity/Q26793) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2cjzvsX6.html" height="800" width="1200" title="2cjzvsX6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2cjzvsX6" height="800" width="1200" title="2cjzvsX6"></iframe>
 
 ## Identifiers
 

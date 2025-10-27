@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NxMpArQ7
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description     | aliases | Wikidata QID                                              |
-    | :-------: | :------------: | :-------------: | :-----: | :-------------------------------------------------------: |
-    | NxMpArQ7  | Havlíčkův Brod | town in Czechia |         | [Havlíčkův Brod](http://wwww.wikidata.org/entity/Q954596) |
+    | FAAM UUID | label          | description     | aliases | Wikidata QID                                         |
+    | :-------: | :------------: | :-------------: | :-----: | :--------------------------------------------------: |
+    | NxMpArQ7  | Havlíčkův Brod | town in Czechia |         | [Havlíčkův Brod](http://wikidata.org/entity/Q954596) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/NxMpArQ7.html" height="800" width="1200" title="NxMpArQ7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NxMpArQ7" height="800" width="1200" title="NxMpArQ7"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Anton Stamitz](./N2MmbiCx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 

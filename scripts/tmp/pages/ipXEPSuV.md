@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ipXEPSuV
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ipXEPSuV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ipXEPSuV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ipXEPSuV.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ipXEPSuV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ipXEPSuV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ipXEPSuV.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sekles1913.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description     | Wikidata QID                                               |
-    | :-------: | :-------------: | :-----: | :-------------: | :--------------------------------------------------------: |
-    | ipXEPSuV  | Bernhard Sekles |         | German composer | [Bernhard Sekles](http://wwww.wikidata.org/entity/Q317523) |
+    | FAAM UUID | label           | aliases | description     | Wikidata QID                                          |
+    | :-------: | :-------------: | :-----: | :-------------: | :---------------------------------------------------: |
+    | ipXEPSuV  | Bernhard Sekles |         | German composer | [Bernhard Sekles](http://wikidata.org/entity/Q317523) |
 
 <br><br><br>
 
@@ -57,13 +61,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./oUawCngd.md)
+	- [Hoch Conservatory](./oUawCngd.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ipXEPSuV.html" height="800" width="1200" title="ipXEPSuV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ipXEPSuV" height="800" width="1200" title="ipXEPSuV"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Paul Hindemith](./48yUL6Ge.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Paul_Hindemith_1923.jpg){align=left width="150" height="150"} 
+
+	German composer (1895–1963)
+
+</div>

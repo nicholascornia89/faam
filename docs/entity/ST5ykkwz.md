@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ST5ykkwz
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases             | description                                              | Wikidata QID                                                    |
-    | :-------: | :-----------------------: | :-----------------: | :------------------------------------------------------: | :-------------------------------------------------------------: |
-    | ST5ykkwz  | Violin Sonata No.4, Op.23 | Violin Sonata No. 4 | Composition for violin and piano by Ludwig van Beethoven | [Violin Sonata No. 4](http://wwww.wikidata.org/entity/Q1635740) |
+    | FAAM UUID | label                     | aliases             | description                                              | Wikidata QID                                               |
+    | :-------: | :-----------------------: | :-----------------: | :------------------------------------------------------: | :--------------------------------------------------------: |
+    | ST5ykkwz  | Violin Sonata No.4, Op.23 | Violin Sonata No. 4 | Composition for violin and piano by Ludwig van Beethoven | [Violin Sonata No. 4](http://wikidata.org/entity/Q1635740) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/ST5ykkwz.html" height="800" width="1200" title="ST5ykkwz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ST5ykkwz" height="800" width="1200" title="ST5ykkwz"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Sonates pour piano et violon / L. van Beethoven ; nouvelle édition complète par Carl Reinecke ; la partie de violon arrangée par Friedrich Hermann](./2h4QWJrH.md)__
 
-	![Image](../assets/images/thumbs/BNF-42599226w.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42599226w.gif){align=left width="150" height="150"} 
 
 	
 

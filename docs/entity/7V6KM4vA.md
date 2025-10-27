@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7V6KM4vA
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                   | aliases | Wikidata QID                                        |
-    | :-------: | :-----: | :---------------------------: | :-----: | :-------------------------------------------------: |
-    | 7V6KM4vA  | Rumbeke | section of Roeselare, Belgium |         | [Rumbeke](http://wwww.wikidata.org/entity/Q1704244) |
+    | FAAM UUID | label   | description                   | aliases | Wikidata QID                                   |
+    | :-------: | :-----: | :---------------------------: | :-----: | :--------------------------------------------: |
+    | 7V6KM4vA  | Rumbeke | section of Roeselare, Belgium |         | [Rumbeke](http://wikidata.org/entity/Q1704244) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7V6KM4vA.html" height="800" width="1200" title="7V6KM4vA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7V6KM4vA" height="800" width="1200" title="7V6KM4vA"></iframe>
 
 ## Identifiers
 

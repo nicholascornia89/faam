@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oJ9qmRVq
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                             | aliases  | Wikidata QID                                      |
-    | :-------: | :----: | :-------------------------------------: | :------: | :-----------------------------------------------: |
-    | oJ9qmRVq  | singer | person singing for a listening audience | vocalist | [singer](http://wwww.wikidata.org/entity/Q177220) |
+    | FAAM UUID | label  | description                             | aliases  | Wikidata QID                                 |
+    | :-------: | :----: | :-------------------------------------: | :------: | :------------------------------------------: |
+    | oJ9qmRVq  | singer | person singing for a listening audience | vocalist | [singer](http://wikidata.org/entity/Q177220) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/oJ9qmRVq.html" height="800" width="1200" title="oJ9qmRVq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oJ9qmRVq" height="800" width="1200" title="oJ9qmRVq"></iframe>
 
 ## Cross-references
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Orlande de Lassus](./kkHrN3TP.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/37/Orlande_de_Lassus.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Orlande_de_Lassus.jpg){align=left width="150" height="150"} 
 
 	Franco-Flemish composer (1532–1594)
 
@@ -85,7 +89,7 @@ tags: occupation
 
 -	__[Anna Lankow](./X9dMHKAY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -109,19 +113,19 @@ tags: occupation
 
 -	__[Albert Bernhard Bach](./4aFMAhXz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German singing teacher
 
 -	__[Maria Anfossi](./CEjchGw4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian singer and music teacher
 
 -	__[Francine Lepage](./hBcFSi6N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian mezzo soprano
 
@@ -145,7 +149,7 @@ tags: occupation
 
 -	__[Claudio Monteverdi](./J2JS4FwU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
 
 	Italian composer, string player, choirmaster, and priest (1567–1643)
 
@@ -157,55 +161,55 @@ tags: occupation
 
 -	__[Charles Philippe Lafont](./4EtCMgqU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/4d/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg){align=left width="150" height="150"} 
 
 	French violinist and composer (1781–1839)
 
 -	__[Antonio Lotti](./kGtx9MnB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian Baroque composer
 
 -	__[Carlo Bassini](./7NUpzMVV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Francesco Chiaramonte](./VbkbTd78.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Melchior Vulpis](./JaEP5Aa7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German singer and composer (1570–1615)
 
 -	__[Rosalie Huyghe-Bosman](./3fWwPrfr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian operatic singer
 
 -	__[Heinrich Ferdinand Steinmann](./kHoYwJ3n.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German writer (1806-1872)
 
 -	__[Valentine Degive-Ledelier](./9bug7VfA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian singer and music teacher
 
 -	__[Irma Van Dijck](./MvfpvWJh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian singer and music teacher
 
@@ -217,13 +221,13 @@ tags: occupation
 
 -	__[Bernardo Mengozzi](./gYwDuaqe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Giovanni Battista Zingoni](./o32Wi6CF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian tenor and composer
 
@@ -241,7 +245,7 @@ tags: occupation
 
 -	__[Antonio Cesti](./ecu6SJkK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, singer and organist (1623-1669)
 
@@ -253,13 +257,13 @@ tags: occupation
 
 -	__[Stéphen de La Madelaine](./FKvvzr9a.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French singer and writer
 
 -	__[Mlle Clément](./Gfxp4t7o.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -277,7 +281,7 @@ tags: occupation
 
 -	__[Robin Mallapert](./SGtJYpLe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 

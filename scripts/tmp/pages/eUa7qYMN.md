@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eUa7qYMN
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                   | aliases            | Wikidata QID                                               |
-    | :-------: | :-------------: | :---------------------------: | :----------------: | :--------------------------------------------------------: |
-    | eUa7qYMN  | Catholic priest | priest of the Catholic Church | Catholic presbyter | [Catholic priest](http://wwww.wikidata.org/entity/Q250867) |
+    | FAAM UUID | label           | description                   | aliases            | Wikidata QID                                          |
+    | :-------: | :-------------: | :---------------------------: | :----------------: | :---------------------------------------------------: |
+    | eUa7qYMN  | Catholic priest | priest of the Catholic Church | Catholic presbyter | [Catholic priest](http://wikidata.org/entity/Q250867) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/eUa7qYMN.html" height="800" width="1200" title="eUa7qYMN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eUa7qYMN" height="800" width="1200" title="eUa7qYMN"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Jean-Marie Plum](./JwNgGW3X.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and organist
 
@@ -79,13 +83,13 @@ tags: occupation
 
 -	__[Claudio Monteverdi](./J2JS4FwU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
 
 	Italian composer, string player, choirmaster, and priest (1567–1643)
 
 -	__[François de Châteauneuf](./5zPZc79M.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -97,7 +101,7 @@ tags: occupation
 
 -	__[Pieter Benoit](./i6yQPw7F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian priest and teacher (1820-1892)
 
@@ -109,7 +113,7 @@ tags: occupation
 
 -	__[Pierre Joseph D'Hollander](./3HuQsR4z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	priest, theologian, professor and honorary canon (1804 - 1866)
 

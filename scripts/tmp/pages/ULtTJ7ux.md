@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ULtTJ7ux
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description    | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :------------: | :-----: | :-------------------------------------------------: |
-    | ULtTJ7ux  | Velletri | Italian comune |         | [Velletri](http://wwww.wikidata.org/entity/Q189236) |
+    | FAAM UUID | label    | description    | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :------------: | :-----: | :--------------------------------------------: |
+    | ULtTJ7ux  | Velletri | Italian comune |         | [Velletri](http://wikidata.org/entity/Q189236) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ULtTJ7ux.html" height="800" width="1200" title="ULtTJ7ux"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ULtTJ7ux" height="800" width="1200" title="ULtTJ7ux"></iframe>
 
 ## Identifiers
 

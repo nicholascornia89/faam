@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cgtepzqb
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                  | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :----------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | cgtepzqb  | poem  | form of literature, work of poetry, often composed of verses | poems   | [poem](http://wwww.wikidata.org/entity/Q5185279) |
+    | FAAM UUID | label | description                                                  | aliases | Wikidata QID                                |
+    | :-------: | :---: | :----------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | cgtepzqb  | poem  | form of literature, work of poetry, often composed of verses | poems   | [poem](http://wikidata.org/entity/Q5185279) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/cgtepzqb.html" height="800" width="1200" title="cgtepzqb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cgtepzqb" height="800" width="1200" title="cgtepzqb"></iframe>
 
 ## Cross-references
 

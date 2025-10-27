@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SogEdPnX
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | aliases | description | Wikidata QID                         |
-    | :-------: | :-----: | :-----: | :---------: | :----------------------------------: |
-    | SogEdPnX  | Milenka |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label   | aliases | description | Wikidata QID                    |
+    | :-------: | :-----: | :-----: | :---------: | :-----------------------------: |
+    | SogEdPnX  | Milenka |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/SogEdPnX.html" height="800" width="1200" title="SogEdPnX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SogEdPnX" height="800" width="1200" title="SogEdPnX"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: musical_work
 
 -	__[Sérénade de Milenka: pour ténor: (ton original)](./MBjKg4X7.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902357919.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902357919.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sérénade de Milenka: pour ténor: (ton original)](./XtjRJ6FC.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902357885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902357885.gif){align=left width="150" height="150"} 
 
 	
 

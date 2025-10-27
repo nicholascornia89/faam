@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8tWWt3by
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | aliases                                | description                  | Wikidata QID                                               |
-    | :-------: | :------------------------------------: | :------------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | 8tWWt3by  | Keyboard Sonata in B-flat major, K.112 | Keyboard Sonata in B-flat major, L.345 | sonata by Domenico Scarlatti | [Sonata K. 112](http://wwww.wikidata.org/entity/Q78239927) |
+    | FAAM UUID | label                                  | aliases                                | description                  | Wikidata QID                                          |
+    | :-------: | :------------------------------------: | :------------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | 8tWWt3by  | Keyboard Sonata in B-flat major, K.112 | Keyboard Sonata in B-flat major, L.345 | sonata by Domenico Scarlatti | [Sonata K. 112](http://wikidata.org/entity/Q78239927) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/8tWWt3by.html" height="800" width="1200" title="8tWWt3by"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8tWWt3by" height="800" width="1200" title="8tWWt3by"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

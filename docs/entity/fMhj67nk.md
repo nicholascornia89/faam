@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fMhj67nk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description             | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :---------------------: | :-----: | :--------------------------------------------------: |
-    | fMhj67nk  | Helmstedt | municipality of Germany |         | [Helmstedt](http://wwww.wikidata.org/entity/Q486562) |
+    | FAAM UUID | label     | description             | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :---------------------: | :-----: | :---------------------------------------------: |
+    | fMhj67nk  | Helmstedt | municipality of Germany |         | [Helmstedt](http://wikidata.org/entity/Q486562) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fMhj67nk.html" height="800" width="1200" title="fMhj67nk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fMhj67nk" height="800" width="1200" title="fMhj67nk"></iframe>
 
 ## Identifiers
 

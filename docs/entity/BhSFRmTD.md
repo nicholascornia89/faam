@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BhSFRmTD
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                 | aliases         | Wikidata QID                                             |
-    | :-------: | :----------: | :-----------------------------------------: | :-------------: | :------------------------------------------------------: |
-    | BhSFRmTD  | music school | institution specializing in music education | school of music | [music school](http://wwww.wikidata.org/entity/Q1021290) |
+    | FAAM UUID | label        | description                                 | aliases         | Wikidata QID                                        |
+    | :-------: | :----------: | :-----------------------------------------: | :-------------: | :-------------------------------------------------: |
+    | BhSFRmTD  | music school | institution specializing in music education | school of music | [music school](http://wikidata.org/entity/Q1021290) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/BhSFRmTD.html" height="800" width="1200" title="BhSFRmTD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BhSFRmTD" height="800" width="1200" title="BhSFRmTD"></iframe>
 
 ## Cross-references
 

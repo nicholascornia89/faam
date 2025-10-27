@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LUkcy3mi
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                        | aliases | Wikidata QID                                                           |
-    | :-------: | :-----------------------: | :--------------------------------: | :-----: | :--------------------------------------------------------------------: |
-    | LUkcy3mi  | Jakob and Johannes parish | former parish in Stockholm, Sweden |         | [Jakob and Johannes parish](http://wwww.wikidata.org/entity/Q54006791) |
+    | FAAM UUID | label                     | description                        | aliases | Wikidata QID                                                      |
+    | :-------: | :-----------------------: | :--------------------------------: | :-----: | :---------------------------------------------------------------: |
+    | LUkcy3mi  | Jakob and Johannes parish | former parish in Stockholm, Sweden |         | [Jakob and Johannes parish](http://wikidata.org/entity/Q54006791) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LUkcy3mi.html" height="800" width="1200" title="LUkcy3mi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LUkcy3mi" height="800" width="1200" title="LUkcy3mi"></iframe>
 
 ## Identifiers
 

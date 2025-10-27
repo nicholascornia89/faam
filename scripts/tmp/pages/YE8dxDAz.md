@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YE8dxDAz
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                       | aliases           | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------------------------------------------: | :---------------: | :----------------------------------------------------------: |
-    | YE8dxDAz  | singer-songwriter | musician who writes, composes and sings own songs | singer songwriter | [singer-songwriter](http://wwww.wikidata.org/entity/Q488205) |
+    | FAAM UUID | label             | description                                       | aliases           | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------------------------------------------: | :---------------: | :-----------------------------------------------------: |
+    | YE8dxDAz  | singer-songwriter | musician who writes, composes and sings own songs | singer songwriter | [singer-songwriter](http://wikidata.org/entity/Q488205) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/YE8dxDAz.html" height="800" width="1200" title="YE8dxDAz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YE8dxDAz" height="800" width="1200" title="YE8dxDAz"></iframe>
 
 ## Cross-references
 

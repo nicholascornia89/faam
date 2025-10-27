@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gieRSCuN
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                            | aliases | Wikidata QID                                               |
-    | :-------: | :------------: | :----------------------------------------------------: | :-----: | :--------------------------------------------------------: |
-    | gieRSCuN  | Woodford Green | part of the suburb of Woodford in East London, England |         | [Woodford Green](http://wwww.wikidata.org/entity/Q2679243) |
+    | FAAM UUID | label          | description                                            | aliases | Wikidata QID                                          |
+    | :-------: | :------------: | :----------------------------------------------------: | :-----: | :---------------------------------------------------: |
+    | gieRSCuN  | Woodford Green | part of the suburb of Woodford in East London, England |         | [Woodford Green](http://wikidata.org/entity/Q2679243) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gieRSCuN.html" height="800" width="1200" title="gieRSCuN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gieRSCuN" height="800" width="1200" title="gieRSCuN"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Robert Allen Spencer](./nTmL95bR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	UK lutenist (1932-1997)
 

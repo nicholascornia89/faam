@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hxSVng2V a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "historical multinational monarchist state in Eastern Europe (Crown of the Kingdom of Poland and the Grand Duchy of Lithuania)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q172107>,
+        "0"^^xsd:string,
+        "hxSVng2V"^^xsd:string ;
+    skos:altLabel "Commonwealth of Poland"^^xsd:string,
+        "First Republic of Poland"^^xsd:string,
+        "Poland"^^xsd:string,
+        "Poland-Lithuania"^^xsd:string,
+        "Poland–Lithuania"^^xsd:string,
+        "Polish-Lithuanian Commonwealth"^^xsd:string,
+        "Republic of Both Nations"^^xsd:string ;
+    skos:prefLabel "Polish–Lithuanian Commonwealth"^^xsd:string .
+

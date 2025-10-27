@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DMkpWhfF
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                            | description | aliases | Wikidata QID                                                                                 |
-    | :-------: | :----------------------------------------------: | :---------: | :-----: | :------------------------------------------------------------------------------------------: |
-    | DMkpWhfF  | Medical and Surgical Academies in Russian Empire |             |         | [Medical and Surgical Academies in Russian Empire](http://wwww.wikidata.org/entity/Q4287701) |
+    | FAAM UUID | label                                            | description | aliases | Wikidata QID                                                                            |
+    | :-------: | :----------------------------------------------: | :---------: | :-----: | :-------------------------------------------------------------------------------------: |
+    | DMkpWhfF  | Medical and Surgical Academies in Russian Empire |             |         | [Medical and Surgical Academies in Russian Empire](http://wikidata.org/entity/Q4287701) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/DMkpWhfF.html" height="800" width="1200" title="DMkpWhfF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DMkpWhfF" height="800" width="1200" title="DMkpWhfF"></iframe>
 
 ## Cross-references
 

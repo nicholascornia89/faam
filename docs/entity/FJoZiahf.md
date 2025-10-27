@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FJoZiahf
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description              | aliases       | Wikidata QID                                                    |
-    | :-------: | :------------------: | :----------------------: | :-----------: | :-------------------------------------------------------------: |
-    | FJoZiahf  | Neuburg an der Donau | city in Bavaria, Germany | Neuburg/Donau | [Neuburg an der Donau](http://wwww.wikidata.org/entity/Q125652) |
+    | FAAM UUID | label                | description              | aliases       | Wikidata QID                                               |
+    | :-------: | :------------------: | :----------------------: | :-----------: | :--------------------------------------------------------: |
+    | FJoZiahf  | Neuburg an der Donau | city in Bavaria, Germany | Neuburg/Donau | [Neuburg an der Donau](http://wikidata.org/entity/Q125652) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/FJoZiahf.html" height="800" width="1200" title="FJoZiahf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FJoZiahf" height="800" width="1200" title="FJoZiahf"></iframe>
 
 ## Identifiers
 

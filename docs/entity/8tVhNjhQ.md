@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8tVhNjhQ
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                      | description                | aliases                                    | Wikidata QID                                                                           |
-    | :-------: | :----------------------------------------: | :------------------------: | :----------------------------------------: | :------------------------------------------------------------------------------------: |
-    | 8tVhNjhQ  | King Edward VI School, Stratford-upon-Avon | school in Warwickshire, UK | King Edward VI School, Stratford-upon-Avon | [King Edward VI School, Stratford-upon-Avon](http://wwww.wikidata.org/entity/Q6411533) |
+    | FAAM UUID | label                                      | description                | aliases                                    | Wikidata QID                                                                      |
+    | :-------: | :----------------------------------------: | :------------------------: | :----------------------------------------: | :-------------------------------------------------------------------------------: |
+    | 8tVhNjhQ  | King Edward VI School, Stratford-upon-Avon | school in Warwickshire, UK | King Edward VI School, Stratford-upon-Avon | [King Edward VI School, Stratford-upon-Avon](http://wikidata.org/entity/Q6411533) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./PVSh8RRs.md)
+	[Stratford-upon-Avon](./PVSh8RRs.md)
 
-	[](./iUqWRTFE.md)
+	[Warwickshire](./iUqWRTFE.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/8tVhNjhQ.html" height="800" width="1200" title="8tVhNjhQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8tVhNjhQ" height="800" width="1200" title="8tVhNjhQ"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fTrQa83t
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                 | aliases | Wikidata QID                                          |
-    | :-------: | :----------: | :-----------------------------------------: | :-----: | :---------------------------------------------------: |
-    | fTrQa83t  | Philadelphia | largest city in Pennsylvania, United States | Philly  | [Philadelphia](http://wwww.wikidata.org/entity/Q1345) |
+    | FAAM UUID | label        | description                                 | aliases | Wikidata QID                                     |
+    | :-------: | :----------: | :-----------------------------------------: | :-----: | :----------------------------------------------: |
+    | fTrQa83t  | Philadelphia | largest city in Pennsylvania, United States | Philly  | [Philadelphia](http://wikidata.org/entity/Q1345) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fTrQa83t.html" height="800" width="1200" title="fTrQa83t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fTrQa83t" height="800" width="1200" title="fTrQa83t"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Kerry Mills](./8a6hfSXp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American ragtime composer and music publishing executive (1869–1948)
 

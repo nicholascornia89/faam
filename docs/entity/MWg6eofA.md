@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MWg6eofA
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MWg6eofA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MWg6eofA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MWg6eofA.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MWg6eofA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MWg6eofA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MWg6eofA.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopoldine_Blahetka.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases                   | description          | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-----------------------: | :------------------: | :------------------------------------------------------------: |
-    | MWg6eofA  | Leopoldine Blahetka | Marie Leopoldine Blahetka | composer (1809-1885) | [Leopoldine Blahetka](http://wwww.wikidata.org/entity/Q451836) |
+    | FAAM UUID | label               | aliases                   | description          | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-----------------------: | :------------------: | :-------------------------------------------------------: |
+    | MWg6eofA  | Leopoldine Blahetka | Marie Leopoldine Blahetka | composer (1809-1885) | [Leopoldine Blahetka](http://wikidata.org/entity/Q451836) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/MWg6eofA.html" height="800" width="1200" title="MWg6eofA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MWg6eofA" height="800" width="1200" title="MWg6eofA"></iframe>
 
 ## Identifiers
 

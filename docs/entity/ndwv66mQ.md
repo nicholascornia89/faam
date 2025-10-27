@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ndwv66mQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                        | aliases | Wikidata QID                                    |
-    | :-------: | :-----: | :------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | ndwv66mQ  | München | capital and most populous city of Bavaria, Germany | Munich  | [Munich](http://wwww.wikidata.org/entity/Q1726) |
+    | FAAM UUID | label   | description                                        | aliases | Wikidata QID                               |
+    | :-------: | :-----: | :------------------------------------------------: | :-----: | :----------------------------------------: |
+    | ndwv66mQ  | München | capital and most populous city of Bavaria, Germany | Munich  | [Munich](http://wikidata.org/entity/Q1726) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ndwv66mQ.html" height="800" width="1200" title="ndwv66mQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ndwv66mQ" height="800" width="1200" title="ndwv66mQ"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Theodor Kroyer](./MTPhkSTp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist (1873-1945)
 
@@ -73,13 +77,13 @@ tags: city
 
 -	__[Orlande de Lassus](./kkHrN3TP.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/37/Orlande_de_Lassus.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Orlande_de_Lassus.jpg){align=left width="150" height="150"} 
 
 	Franco-Flemish composer (1532–1594)
 
 -	__[Giuseppe Antonio Bernabei](./XG9qWxwB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -109,13 +113,13 @@ tags: city
 
 -	__[Peter Winter](./Rnb5nj5c.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/eb/Peter_Winter_1815.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Peter_Winter_1815.jpg){align=left width="150" height="150"} 
 
 	German opera composer
 
 -	__[Michael Vetter](./GU5zzTXD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1943-2013)
 
@@ -127,7 +131,7 @@ tags: city
 
 -	__[Karl Joseph Toeschi](./8U229qGB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1731-1788)
 

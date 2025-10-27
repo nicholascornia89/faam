@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dzxKag6A a rdfs:Resource ;
+    faamprop:related_to faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1850-01-01"^^xsd:string,
+        "1850-04-22"^^xsd:string ;
+    schema1:deathDate "1911-00-00"^^xsd:string,
+        "1911-08-10"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q110222845>,
+        "16005774"^^xsd:string,
+        "dzxKag6A"^^xsd:string ;
+    skos:prefLabel "Edmond Waucampt"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:18159154320611992878 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Waucampt,_Edmond> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

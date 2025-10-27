@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: d3J9stPx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                     | aliases                          | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------------------------: | :------------------------------: | :----------------------------------------------------------: |
-    | d3J9stPx  | Joinville-le-Pont | commune in Val-de-Marne, France | La Branche-du-Pont-de-Saint-Maur | [Joinville-le-Pont](http://wwww.wikidata.org/entity/Q609134) |
+    | FAAM UUID | label             | description                     | aliases                          | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------------------------: | :------------------------------: | :-----------------------------------------------------: |
+    | d3J9stPx  | Joinville-le-Pont | commune in Val-de-Marne, France | La Branche-du-Pont-de-Saint-Maur | [Joinville-le-Pont](http://wikidata.org/entity/Q609134) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/d3J9stPx.html" height="800" width="1200" title="d3J9stPx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/d3J9stPx" height="800" width="1200" title="d3J9stPx"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Alix Fournier](./k86xhxkG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1864-1897)
 

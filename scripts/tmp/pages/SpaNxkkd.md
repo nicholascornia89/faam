@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SpaNxkkd
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description          | aliases   | Wikidata QID                                                       |
-    | :-------: | :------------------------: | :------------------: | :-------: | :----------------------------------------------------------------: |
-    | SpaNxkkd  | People's Republic of China | country in East Asia | Red China | [People's Republic of China](http://wwww.wikidata.org/entity/Q148) |
+    | FAAM UUID | label                      | description          | aliases   | Wikidata QID                                                  |
+    | :-------: | :------------------------: | :------------------: | :-------: | :-----------------------------------------------------------: |
+    | SpaNxkkd  | People's Republic of China | country in East Asia | Red China | [People's Republic of China](http://wikidata.org/entity/Q148) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/SpaNxkkd.html" height="800" width="1200" title="SpaNxkkd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SpaNxkkd" height="800" width="1200" title="SpaNxkkd"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GEHEKxzR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                            | aliases   | Wikidata QID                                        |
-    | :-------: | :------: | :--------------------------------------------------------------------: | :-------: | :-------------------------------------------------: |
-    | GEHEKxzR  | Den Haag | city and municipality in the Netherlands, seat of the Dutch government | The Hague | [The Hague](http://wwww.wikidata.org/entity/Q36600) |
+    | FAAM UUID | label    | description                                                            | aliases   | Wikidata QID                                   |
+    | :-------: | :------: | :--------------------------------------------------------------------: | :-------: | :--------------------------------------------: |
+    | GEHEKxzR  | Den Haag | city and municipality in the Netherlands, seat of the Dutch government | The Hague | [The Hague](http://wikidata.org/entity/Q36600) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/GEHEKxzR.html" height="800" width="1200" title="GEHEKxzR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GEHEKxzR" height="800" width="1200" title="GEHEKxzR"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Wilbert Hazelzet](./Y8sPETaX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician
 
@@ -79,7 +83,7 @@ tags: city
 
 -	__[Johannes Verhulst](./bsgJz3jr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch composer and conductor (1816–1891)
 
@@ -103,7 +107,7 @@ tags: city
 
 -	__[Johannes Verhulst](./bsgJz3jr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch composer and conductor (1816–1891)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2dsSyB68
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                 | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :-------------------------: | :-----: | :--------------------------------------------------: |
-    | 2dsSyB68  | Friedenau | locality of Berlin, Germany |         | [Friedenau](http://wwww.wikidata.org/entity/Q692390) |
+    | FAAM UUID | label     | description                 | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :-------------------------: | :-----: | :---------------------------------------------: |
+    | 2dsSyB68  | Friedenau | locality of Berlin, Germany |         | [Friedenau](http://wikidata.org/entity/Q692390) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2dsSyB68.html" height="800" width="1200" title="2dsSyB68"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2dsSyB68" height="800" width="1200" title="2dsSyB68"></iframe>
 
 ## Identifiers
 

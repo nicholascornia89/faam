@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "743qkqfG", "label": "La Mascotte : op\u00e9ra-comique en 3 actes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./743qkqfG.md\u0027\u003eLa Mascotte : op\u00e9ra-comique en 3 actes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030901706736.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "9TFwhCHq", "label": "La Mascotte : op\u00e9ra-comique en 3 actes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9TFwhCHq.md\u0027\u003eLa Mascotte : op\u00e9ra-comique en 3 actes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902614491.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "HoH6TbZs", "label": "La Mascotte : op\u00e9ra-comique en 3 actes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HoH6TbZs.md\u0027\u003eLa Mascotte : op\u00e9ra-comique en 3 actes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030903711494.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "cvNtPTvq", "label": "La mascotte", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./cvNtPTvq.md\u0027\u003eLa mascotte\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ethree-act comic opera by Edmond Audran\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "3SXZtwXb", "label": "comic opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3SXZtwXb.md\u0027\u003ecomic opera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera genre\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "XC8Yynik", "label": "Edmond Audran", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./XC8Yynik.md\u0027\u003eEdmond Audran\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1840\u20131901)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edmond_Audran.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "743qkqfG", "to": "9TFwhCHq", "width": 1}, {"from": "743qkqfG", "to": "HoH6TbZs", "width": 1}, {"from": "743qkqfG", "to": "cvNtPTvq", "width": 10}, {"from": "cvNtPTvq", "to": "3SXZtwXb", "width": 10}, {"from": "cvNtPTvq", "to": "XC8Yynik", "width": 10}, {"from": "cvNtPTvq", "to": "9TFwhCHq", "width": 10}, {"from": "cvNtPTvq", "to": "HoH6TbZs", "width": 10}, {"from": "9TFwhCHq", "to": "HoH6TbZs", "width": 1}, {"from": "HoH6TbZs", "to": "3SXZtwXb", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "XC8Yynik", "label": "Edmond Audran", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XC8Yynik\u0027\u003eEdmond Audran\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1840\u20131901)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edmond_Audran.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "cvNtPTvq", "label": "La mascotte", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cvNtPTvq\u0027\u003eLa mascotte\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ethree-act comic opera by Edmond Audran\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "743qkqfG", "label": "La Mascotte : op\u00e9ra-comique en 3 actes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/743qkqfG\u0027\u003eLa Mascotte : op\u00e9ra-comique en 3 actes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901706736.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "9TFwhCHq", "label": "La Mascotte : op\u00e9ra-comique en 3 actes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9TFwhCHq\u0027\u003eLa Mascotte : op\u00e9ra-comique en 3 actes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902614491.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "HoH6TbZs", "label": "La Mascotte : op\u00e9ra-comique en 3 actes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HoH6TbZs\u0027\u003eLa Mascotte : op\u00e9ra-comique en 3 actes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030903711494.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "3SXZtwXb", "label": "comic opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3SXZtwXb\u0027\u003ecomic opera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera genre\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "XC8Yynik", "to": "cvNtPTvq", "width": 10}, {"from": "743qkqfG", "to": "9TFwhCHq", "width": 1}, {"from": "743qkqfG", "to": "HoH6TbZs", "width": 1}, {"from": "743qkqfG", "to": "cvNtPTvq", "width": 10}, {"from": "3SXZtwXb", "to": "cvNtPTvq", "width": 10}, {"from": "3SXZtwXb", "to": "HoH6TbZs", "width": 10}, {"from": "HoH6TbZs", "to": "9TFwhCHq", "width": 1}, {"from": "HoH6TbZs", "to": "cvNtPTvq", "width": 10}, {"from": "cvNtPTvq", "to": "9TFwhCHq", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

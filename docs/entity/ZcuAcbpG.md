@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZcuAcbpG
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                               | aliases             | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :---------------------------------------: | :-----------------: | :---------------------------------------------------------------: |
-    | ZcuAcbpG  | musical improvisation | spontaneous musical composition technique | music improvisation | [musical improvisation](http://wwww.wikidata.org/entity/Q1049625) |
+    | FAAM UUID | label                 | description                               | aliases             | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :---------------------------------------: | :-----------------: | :----------------------------------------------------------: |
+    | ZcuAcbpG  | musical improvisation | spontaneous musical composition technique | music improvisation | [musical improvisation](http://wikidata.org/entity/Q1049625) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/ZcuAcbpG.html" height="800" width="1200" title="ZcuAcbpG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZcuAcbpG" height="800" width="1200" title="ZcuAcbpG"></iframe>
 
 ## Cross-references
 

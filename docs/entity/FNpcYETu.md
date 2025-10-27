@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FNpcYETu
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                           | aliases | Wikidata QID                                                             |
-    | :-------: | :--------------------------: | :-----------------------------------: | :-----: | :----------------------------------------------------------------------: |
-    | FNpcYETu  | Royal Irish Academy of Music | music conservatory in Dublin, Ireland |         | [Royal Irish Academy of Music](http://wwww.wikidata.org/entity/Q3777663) |
+    | FAAM UUID | label                        | description                           | aliases | Wikidata QID                                                        |
+    | :-------: | :--------------------------: | :-----------------------------------: | :-----: | :-----------------------------------------------------------------: |
+    | FNpcYETu  | Royal Irish Academy of Music | music conservatory in Dublin, Ireland |         | [Royal Irish Academy of Music](http://wikidata.org/entity/Q3777663) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./Wp8uNnxw.md)
+	[Dublin](./Wp8uNnxw.md)
 
 !!! quote "country" 
 
-	[](./9zXKNESX.md)
+	[Ireland](./9zXKNESX.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FNpcYETu.html" height="800" width="1200" title="FNpcYETu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FNpcYETu" height="800" width="1200" title="FNpcYETu"></iframe>
 
 ## Cross-references
 

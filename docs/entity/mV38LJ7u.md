@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mV38LJ7u
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                                                  | aliases     | Wikidata QID                                                         |
-    | :-------: | :------------------------: | :----------------------------------------------------------: | :---------: | :------------------------------------------------------------------: |
-    | mV38LJ7u  | Kingdom of the Netherlands | transcontinental sovereign state and constitutional monarchy | Netherlands | [Kingdom of the Netherlands](http://wwww.wikidata.org/entity/Q29999) |
+    | FAAM UUID | label                      | description                                                  | aliases     | Wikidata QID                                                    |
+    | :-------: | :------------------------: | :----------------------------------------------------------: | :---------: | :-------------------------------------------------------------: |
+    | mV38LJ7u  | Kingdom of the Netherlands | transcontinental sovereign state and constitutional monarchy | Netherlands | [Kingdom of the Netherlands](http://wikidata.org/entity/Q29999) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/mV38LJ7u.html" height="800" width="1200" title="mV38LJ7u"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mV38LJ7u" height="800" width="1200" title="mV38LJ7u"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Jan Hendrik Paling](./Z4Mej9De.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician and piano builder (1796-1879)
 
@@ -79,7 +83,7 @@ tags: country
 
 -	__[Wilbert Hazelzet](./Y8sPETaX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician
 
@@ -91,7 +95,7 @@ tags: country
 
 -	__[Ton Koopman](./Jy8ns9kr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
 
 	Dutch conductor, organist and harpsichordist, born 2 October 1944
 
@@ -103,7 +107,7 @@ tags: country
 
 -	__[Francine Lepage](./hBcFSi6N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian mezzo soprano
 
@@ -115,7 +119,7 @@ tags: country
 
 -	__[Frédéric Bonzon](./7GsKtem6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch composer and oboist
 

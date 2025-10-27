@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: V9BqWe9x
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                | aliases      | Wikidata QID                                              |
-    | :-------: | :-----------: | :----------------------------------------: | :----------: | :-------------------------------------------------------: |
-    | V9BqWe9x  | archaeologist | person studying human activity in the past | archeologist | [archaeologist](http://wwww.wikidata.org/entity/Q3621491) |
+    | FAAM UUID | label         | description                                | aliases      | Wikidata QID                                         |
+    | :-------: | :-----------: | :----------------------------------------: | :----------: | :--------------------------------------------------: |
+    | V9BqWe9x  | archaeologist | person studying human activity in the past | archeologist | [archaeologist](http://wikidata.org/entity/Q3621491) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/V9BqWe9x.html" height="800" width="1200" title="V9BqWe9x"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/V9BqWe9x" height="800" width="1200" title="V9BqWe9x"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Émile Travers](./D6WGKygv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French historian
 

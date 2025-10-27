@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: K8vRTnmT
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                | aliases                   | Wikidata QID                                      |
-    | :-------: | :------: | :--------------------------------------------------------: | :-----------------------: | :-----------------------------------------------: |
-    | K8vRTnmT  | Würzburg | city in the region of Franconia, Northern Bavaria, Germany | Kreisfreie Stadt Würzburg | [Würzburg](http://wwww.wikidata.org/entity/Q2999) |
+    | FAAM UUID | label    | description                                                | aliases                   | Wikidata QID                                 |
+    | :-------: | :------: | :--------------------------------------------------------: | :-----------------------: | :------------------------------------------: |
+    | K8vRTnmT  | Würzburg | city in the region of Franconia, Northern Bavaria, Germany | Kreisfreie Stadt Würzburg | [Würzburg](http://wikidata.org/entity/Q2999) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/K8vRTnmT.html" height="800" width="1200" title="K8vRTnmT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/K8vRTnmT" height="800" width="1200" title="K8vRTnmT"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: city
 
 -	__[Joseph Küffner](./JR6gFKtX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician and composer
 
@@ -71,7 +75,7 @@ tags: city
 
 -	__[Georg Josef Manz](./cSSAWxvC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German publisher (1808–1894)
 
@@ -83,13 +87,13 @@ tags: city
 
 -	__[Joseph Küffner](./JR6gFKtX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician and composer
 
 -	__[Giovanni Benedetto Platti](./dek3dK5z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

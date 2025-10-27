@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DAx3f6d2
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                  | aliases | Wikidata QID                                                              |
-    | :-------: | :-------------------------: | :--------------------------: | :-----: | :-----------------------------------------------------------------------: |
-    | DAx3f6d2  | École de médecine de Nantes | former French medical school |         | [École de médecine de Nantes](http://wwww.wikidata.org/entity/Q106559589) |
+    | FAAM UUID | label                       | description                  | aliases | Wikidata QID                                                         |
+    | :-------: | :-------------------------: | :--------------------------: | :-----: | :------------------------------------------------------------------: |
+    | DAx3f6d2  | École de médecine de Nantes | former French medical school |         | [École de médecine de Nantes](http://wikidata.org/entity/Q106559589) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/DAx3f6d2.html" height="800" width="1200" title="DAx3f6d2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DAx3f6d2" height="800" width="1200" title="DAx3f6d2"></iframe>
 
 ## Cross-references
 

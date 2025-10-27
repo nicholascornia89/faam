@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eSyyXNok
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description             | aliases | Wikidata QID                                         |
-    | :-------: | :--------: | :---------------------: | :-----: | :--------------------------------------------------: |
-    | eSyyXNok  | Waldenburg | town in Saxony, Germany |         | [Waldenburg](http://wwww.wikidata.org/entity/Q20085) |
+    | FAAM UUID | label      | description             | aliases | Wikidata QID                                    |
+    | :-------: | :--------: | :---------------------: | :-----: | :---------------------------------------------: |
+    | eSyyXNok  | Waldenburg | town in Saxony, Germany |         | [Waldenburg](http://wikidata.org/entity/Q20085) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/eSyyXNok.html" height="800" width="1200" title="eSyyXNok"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eSyyXNok" height="800" width="1200" title="eSyyXNok"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Alfred Dörffel](./8DHf9Yua.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German librarian, publisher and musicologist (1821–1905)
 

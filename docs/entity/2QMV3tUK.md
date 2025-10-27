@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2QMV3tUK
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description         | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :-----------------: | :-----: | :--------------------------------------------------: |
-    | 2QMV3tUK  | aphorist | writer of aphorisms |         | [aphorist](http://wwww.wikidata.org/entity/Q3606216) |
+    | FAAM UUID | label    | description         | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :-----------------: | :-----: | :---------------------------------------------: |
+    | 2QMV3tUK  | aphorist | writer of aphorisms |         | [aphorist](http://wikidata.org/entity/Q3606216) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/2QMV3tUK.html" height="800" width="1200" title="2QMV3tUK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2QMV3tUK" height="800" width="1200" title="2QMV3tUK"></iframe>
 
 ## Cross-references
 

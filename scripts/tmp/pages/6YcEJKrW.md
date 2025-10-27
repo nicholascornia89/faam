@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6YcEJKrW
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                        | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :--------------------------------: | :-----: | :---------------------------------------------------: |
-    | 6YcEJKrW  | Bad Belzig | town in Brandenburg state, Germany | Belzig  | [Bad Belzig](http://wwww.wikidata.org/entity/Q523642) |
+    | FAAM UUID | label      | description                        | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :--------------------------------: | :-----: | :----------------------------------------------: |
+    | 6YcEJKrW  | Bad Belzig | town in Brandenburg state, Germany | Belzig  | [Bad Belzig](http://wikidata.org/entity/Q523642) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/6YcEJKrW.html" height="800" width="1200" title="6YcEJKrW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6YcEJKrW" height="800" width="1200" title="6YcEJKrW"></iframe>
 
 ## Identifiers
 

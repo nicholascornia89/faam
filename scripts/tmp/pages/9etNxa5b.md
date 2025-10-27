@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9etNxa5b
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description           | aliases            | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :-------------------: | :----------------: | :--------------------------------------------------------------: |
-    | 9etNxa5b  | University of Rostock | university in Germany | Rostock University | [University of Rostock](http://wwww.wikidata.org/entity/Q159895) |
+    | FAAM UUID | label                 | description           | aliases            | Wikidata QID                                                |
+    | :-------: | :-------------------: | :-------------------: | :----------------: | :---------------------------------------------------------: |
+    | 9etNxa5b  | University of Rostock | university in Germany | Rostock University | [University of Rostock](http://wikidata.org/entity/Q159895) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./BH9Z7Per.md)
+	[Rostock](./BH9Z7Per.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/9etNxa5b.html" height="800" width="1200" title="9etNxa5b"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9etNxa5b" height="800" width="1200" title="9etNxa5b"></iframe>
 
 ## Cross-references
 

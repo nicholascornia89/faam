@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MXdLpRKd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description            | aliases     | Wikidata QID                                           |
-    | :-------: | :---------: | :--------------------: | :---------: | :----------------------------------------------------: |
-    | MXdLpRKd  | Le Lavandou | commune in Var, France | Lo Lavandor | [Le Lavandou](http://wwww.wikidata.org/entity/Q736462) |
+    | FAAM UUID | label       | description            | aliases     | Wikidata QID                                      |
+    | :-------: | :---------: | :--------------------: | :---------: | :-----------------------------------------------: |
+    | MXdLpRKd  | Le Lavandou | commune in Var, France | Lo Lavandor | [Le Lavandou](http://wikidata.org/entity/Q736462) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/MXdLpRKd.html" height="800" width="1200" title="MXdLpRKd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MXdLpRKd" height="800" width="1200" title="MXdLpRKd"></iframe>
 
 ## Identifiers
 

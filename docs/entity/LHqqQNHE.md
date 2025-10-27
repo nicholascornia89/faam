@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LHqqQNHE
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-39782625z/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LHqqQNHE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LHqqQNHE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LHqqQNHE.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-39782625z/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LHqqQNHE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LHqqQNHE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LHqqQNHE.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-39782625z.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-39782625z.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                          | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | LHqqQNHE  | BNF-39782625z         | 12 Sonates pour clavecin ou forte-piano composées dans le style du célèbre Scarlatti... Op. 27 | [external URL](NmUZYjP7) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                          | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | LHqqQNHE  | BNF-39782625z         | 12 Sonates pour clavecin ou forte-piano composées dans le style du célèbre Scarlatti... Op. 27 | [external URL](http://catalogue.bnf.fr/ark:/12148/cb39782625z) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -112,10 +116,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/LHqqQNHE.html" height="800" width="1200" title="LHqqQNHE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LHqqQNHE" height="800" width="1200" title="LHqqQNHE"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/LHqqQNHE.html" height="800" width="1200" title="LHqqQNHE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/LHqqQNHE" height="800" width="1200" title="LHqqQNHE"></iframe>

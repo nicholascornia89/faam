@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BANfSXhe
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | aliases                        | description                   | Wikidata QID                                      |
-    | :-------: | :----: | :----------------------------: | :---------------------------: | :-----------------------------------------------: |
-    | BANfSXhe  | Oberon | Oberon, or The Elf King's Oath | opera by Carl Maria von Weber | [Oberon](http://wwww.wikidata.org/entity/Q690835) |
+    | FAAM UUID | label  | aliases                        | description                   | Wikidata QID                                 |
+    | :-------: | :----: | :----------------------------: | :---------------------------: | :------------------------------------------: |
+    | BANfSXhe  | Oberon | Oberon, or The Elf King's Oath | opera by Carl Maria von Weber | [Oberon](http://wikidata.org/entity/Q690835) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./KPMy22sa.md)
+	- [Oberon](./KPMy22sa.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BANfSXhe.html" height="800" width="1200" title="BANfSXhe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BANfSXhe" height="800" width="1200" title="BANfSXhe"></iframe>
 
 ## Identifiers
 

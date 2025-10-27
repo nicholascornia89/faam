@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PgQTfMQd
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                     | aliases                       | Wikidata QID                                                |
-    | :-------: | :------------: | :-------------------------------------------------------------: | :---------------------------: | :---------------------------------------------------------: |
-    | PgQTfMQd  | string quartet | musical composition written to be performed by a string quartet | string quartet (musical work) | [string quartet](http://wwww.wikidata.org/entity/Q11487510) |
+    | FAAM UUID | label          | description                                                     | aliases                       | Wikidata QID                                           |
+    | :-------: | :------------: | :-------------------------------------------------------------: | :---------------------------: | :----------------------------------------------------: |
+    | PgQTfMQd  | string quartet | musical composition written to be performed by a string quartet | string quartet (musical work) | [string quartet](http://wikidata.org/entity/Q11487510) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/PgQTfMQd.html" height="800" width="1200" title="PgQTfMQd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PgQTfMQd" height="800" width="1200" title="PgQTfMQd"></iframe>
 
 ## Cross-references
 

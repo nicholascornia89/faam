@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: S7MRRD7P
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904465058/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/S7MRRD7P.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/S7MRRD7P.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/S7MRRD7P.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904465058/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/S7MRRD7P.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/S7MRRD7P.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/S7MRRD7P.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904465058.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904465058.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                              | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | S7MRRD7P  | KCA-030904465058      | Capriccio : sopra la lontananza del fratello dilettissimo = Capriccio : über die Abreise des vielgeliebten bruders | [external URL](2qoBxv5j) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                              | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | S7MRRD7P  | KCA-030904465058      | Capriccio : sopra la lontananza del fratello dilettissimo = Capriccio : über die Abreise des vielgeliebten bruders | [external URL](https://anet.be/record/opacdkvc/c:lvd:6787552/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -108,10 +112,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/S7MRRD7P.html" height="800" width="1200" title="S7MRRD7P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/S7MRRD7P" height="800" width="1200" title="S7MRRD7P"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/S7MRRD7P.html" height="800" width="1200" title="S7MRRD7P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/S7MRRD7P" height="800" width="1200" title="S7MRRD7P"></iframe>

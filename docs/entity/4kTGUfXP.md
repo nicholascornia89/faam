@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4kTGUfXP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                        | aliases | Wikidata QID                                  |
-    | :-------: | :---: | :--------------------------------: | :-----: | :-------------------------------------------: |
-    | 4kTGUfXP  | Riga  | capital and largest city of Latvia | Rīga    | [Riga](http://wwww.wikidata.org/entity/Q1773) |
+    | FAAM UUID | label | description                        | aliases | Wikidata QID                             |
+    | :-------: | :---: | :--------------------------------: | :-----: | :--------------------------------------: |
+    | 4kTGUfXP  | Riga  | capital and largest city of Latvia | Rīga    | [Riga](http://wikidata.org/entity/Q1773) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Latvia](http://www.wikidata.org/entity/Q211)
+	- [Latvia](Q211)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4kTGUfXP.html" height="800" width="1200" title="4kTGUfXP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4kTGUfXP" height="800" width="1200" title="4kTGUfXP"></iframe>
 
 ## Identifiers
 

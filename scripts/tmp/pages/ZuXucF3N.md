@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZuXucF3N
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                  | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :--------------------------: | :-----: | :----------------------------------------------: |
-    | ZuXucF3N  | Beaune | commune in Côte-d'Or, France |         | [Beaune](http://wwww.wikidata.org/entity/Q16121) |
+    | FAAM UUID | label  | description                  | aliases | Wikidata QID                                |
+    | :-------: | :----: | :--------------------------: | :-----: | :-----------------------------------------: |
+    | ZuXucF3N  | Beaune | commune in Côte-d'Or, France |         | [Beaune](http://wikidata.org/entity/Q16121) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ZuXucF3N.html" height="800" width="1200" title="ZuXucF3N"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZuXucF3N" height="800" width="1200" title="ZuXucF3N"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Gaston Paulin](./TAsu3Dk9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1861-1921)
 

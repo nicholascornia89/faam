@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8kyke5SK
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                          | aliases           | Wikidata QID                                                  |
-    | :-------: | :---------------: | :----------------------------------: | :---------------: | :-----------------------------------------------------------: |
-    | 8kyke5SK  | College of Juilly | Catholic teaching seminary in France | College of Juilly | [College of Juilly](http://wwww.wikidata.org/entity/Q2983769) |
+    | FAAM UUID | label             | description                          | aliases           | Wikidata QID                                             |
+    | :-------: | :---------------: | :----------------------------------: | :---------------: | :------------------------------------------------------: |
+    | 8kyke5SK  | College of Juilly | Catholic teaching seminary in France | College of Juilly | [College of Juilly](http://wikidata.org/entity/Q2983769) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./nDrViv4W.md)
+	[Juilly](./nDrViv4W.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/8kyke5SK.html" height="800" width="1200" title="8kyke5SK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8kyke5SK" height="800" width="1200" title="8kyke5SK"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UKouFUpF
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000549373/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UKouFUpF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UKouFUpF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UKouFUpF.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000549373/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UKouFUpF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UKouFUpF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UKouFUpF.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000549373.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000549373.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                          | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :--------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | UKouFUpF  | KCG-000549373         | Le clavecin bien tempéré : pour piano, Livre I | [external URL](6fQyHcwz) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                          | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :--------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | UKouFUpF  | KCG-000549373         | Le clavecin bien tempéré : pour piano, Livre I | [external URL](https://catalogus.hogent.be/catalog/hog01:000549373) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -62,10 +66,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/UKouFUpF.html" height="800" width="1200" title="UKouFUpF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UKouFUpF" height="800" width="1200" title="UKouFUpF"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/UKouFUpF.html" height="800" width="1200" title="UKouFUpF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/UKouFUpF" height="800" width="1200" title="UKouFUpF"></iframe>

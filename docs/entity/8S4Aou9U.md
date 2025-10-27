@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8S4Aou9U
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                        | aliases | Wikidata QID                                              |
-    | :-------: | :-----------: | :--------------------------------: | :-----: | :-------------------------------------------------------: |
-    | 8S4Aou9U  | Novospasskoye | village in Smolensk Oblast, Russia |         | [Novospasskoye](http://wwww.wikidata.org/entity/Q4325584) |
+    | FAAM UUID | label         | description                        | aliases | Wikidata QID                                         |
+    | :-------: | :-----------: | :--------------------------------: | :-----: | :--------------------------------------------------: |
+    | 8S4Aou9U  | Novospasskoye | village in Smolensk Oblast, Russia |         | [Novospasskoye](http://wikidata.org/entity/Q4325584) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8S4Aou9U.html" height="800" width="1200" title="8S4Aou9U"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8S4Aou9U" height="800" width="1200" title="8S4Aou9U"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Mikhail Glinka](./jZ54gutD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e8/Glinka_1856.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Glinka_1856.jpg){align=left width="150" height="150"} 
 
 	Russian composer
 

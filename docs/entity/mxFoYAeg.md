@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mxFoYAeg
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                      | aliases        | Wikidata QID                                            |
-    | :-------: | :---------: | :----------------------------------------------: | :------------: | :-----------------------------------------------------: |
-    | mxFoYAeg  | numismatist | person studying currencies, coins or paper money | coin collector | [numismatist](http://wwww.wikidata.org/entity/Q2004963) |
+    | FAAM UUID | label       | description                                      | aliases        | Wikidata QID                                       |
+    | :-------: | :---------: | :----------------------------------------------: | :------------: | :------------------------------------------------: |
+    | mxFoYAeg  | numismatist | person studying currencies, coins or paper money | coin collector | [numismatist](http://wikidata.org/entity/Q2004963) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/mxFoYAeg.html" height="800" width="1200" title="mxFoYAeg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mxFoYAeg" height="800" width="1200" title="mxFoYAeg"></iframe>
 
 ## Cross-references
 

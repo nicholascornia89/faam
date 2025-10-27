@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FSQxW8Ft
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                                                             | aliases                | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------: | :--------------------: | :--------------------------------------------------------------: |
-    | FSQxW8Ft  | percussion instrument | type of musical instrument that produces a sound by directly hitting it | percussion instruments | [percussion instrument](http://wwww.wikidata.org/entity/Q133163) |
+    | FAAM UUID | label                 | description                                                             | aliases                | Wikidata QID                                                |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------: | :--------------------: | :---------------------------------------------------------: |
+    | FSQxW8Ft  | percussion instrument | type of musical instrument that produces a sound by directly hitting it | percussion instruments | [percussion instrument](http://wikidata.org/entity/Q133163) |
 
 <br><br><br>
 
@@ -31,19 +35,19 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./E2Sb746q.md)
+	- [musical instrument](./E2Sb746q.md)
 
-	- [](./nwfQdMXJ.md)
+	- [percussion instrument](./nwfQdMXJ.md)
 
 !!! quote "instance of" 
 
-	- [](./dSq7JTyF.md)
+	- [family of musical instruments](./dSq7JTyF.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FSQxW8Ft.html" height="800" width="1200" title="FSQxW8Ft"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FSQxW8Ft" height="800" width="1200" title="FSQxW8Ft"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: musical_instrument
 
 -	__[Il Pirato : Ouverture à Grand Orchestre de l' Opéra](./QtWStRSk.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333898.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333898.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ihNqhhuv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ihNqhhuv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ihNqhhuv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ihNqhhuv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ihNqhhuv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ihNqhhuv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ihNqhhuv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases                   | description     | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-----------------------: | :-------------: | :------------------------------------------------------------------: |
-    | ihNqhhuv  | Nicolas-Joseph Hüllmandel | Nicolas Joseph Hüllmandel | French composer | [Nicolas-Joseph Hüllmandel](http://wwww.wikidata.org/entity/Q588375) |
+    | FAAM UUID | label                     | aliases                   | description     | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-----------------------: | :-------------: | :-------------------------------------------------------------: |
+    | ihNqhhuv  | Nicolas-Joseph Hüllmandel | Nicolas Joseph Hüllmandel | French composer | [Nicolas-Joseph Hüllmandel](http://wikidata.org/entity/Q588375) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ihNqhhuv.html" height="800" width="1200" title="ihNqhhuv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ihNqhhuv" height="800" width="1200" title="ihNqhhuv"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Hélène de Montgeroult](./2nYB3eUt.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait_de_la_mère_de_His_de_la_Salle,_Madame_Hélène_de_Montgeroult_-_par_COSWAY_Richard.jpg){align=left width="150" height="150"} 
+
+	French pianist and composer
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: k43s3aUM
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description             | Wikidata QID                                          |
-    | :-------: | :-------: | :-------: | :---------------------: | :---------------------------------------------------: |
-    | k43s3aUM  | Der Golem | Der Golem | opera by Eugen d'Albert | [Der Golem](http://wwww.wikidata.org/entity/Q5261151) |
+    | FAAM UUID | label     | aliases   | description             | Wikidata QID                                     |
+    | :-------: | :-------: | :-------: | :---------------------: | :----------------------------------------------: |
+    | k43s3aUM  | Der Golem | Der Golem | opera by Eugen d'Albert | [Der Golem](http://wikidata.org/entity/Q5261151) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/k43s3aUM.html" height="800" width="1200" title="k43s3aUM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/k43s3aUM" height="800" width="1200" title="k43s3aUM"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Der Golem: Musikdrama in drei Akten](./7on5FraR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901706215.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901706215.gif){align=left width="150" height="150"} 
 
 	
 

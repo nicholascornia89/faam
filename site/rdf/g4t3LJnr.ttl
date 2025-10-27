@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:g4t3LJnr a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:RVtkmyF4 ;
+    schema1:identifier "16002789"^^xsd:string,
+        "g4t3LJnr"^^xsd:string ;
+    skos:prefLabel "Incipit lamentatio, IGA 1"^^xsd:string ;
+    wd:P5202 faamentity:HtKwZwuW,
+        faamentity:gMpSya7p ;
+    wd:P7937 faamentity:5czHLApS,
+        faamentity:VWJ9Unjd ;
+    wd:P839 <https://imslp.org/wiki/Incipit_lamentatio_(Allegri,_Gregorio)> .
+

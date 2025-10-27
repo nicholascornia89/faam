@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2cANUtMR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                 | aliases   | Wikidata QID                                         |
-    | :-------: | :-------: | :-------------------------: | :-------: | :--------------------------------------------------: |
-    | 2cANUtMR  | Angoulême | commune in Charente, France | Angouleme | [Angoulême](http://wwww.wikidata.org/entity/Q134346) |
+    | FAAM UUID | label     | description                 | aliases   | Wikidata QID                                    |
+    | :-------: | :-------: | :-------------------------: | :-------: | :---------------------------------------------: |
+    | 2cANUtMR  | Angoulême | commune in Charente, France | Angouleme | [Angoulême](http://wikidata.org/entity/Q134346) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2cANUtMR.html" height="800" width="1200" title="2cANUtMR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2cANUtMR" height="800" width="1200" title="2cANUtMR"></iframe>
 
 ## Identifiers
 

@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8Au3ocED a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:4AMPVsN8,
+        faamentity:R9hADWGS ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "form of musical articulation"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q466944>,
+        "15992142"^^xsd:string,
+        "8Au3ocED"^^xsd:string ;
+    skos:altLabel "staccato"^^xsd:string ;
+    skos:prefLabel "staccato"^^xsd:string ;
+    wd:P1535 faamentity:AcFWzeQH,
+        faamentity:YvQmwaaW,
+        faamentity:oMERLdSN ;
+    wd:P279 faamentity:N3zXzUfu ;
+    wd:P31 faamentity:fxtj72S3 .
+

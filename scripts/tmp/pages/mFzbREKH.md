@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mFzbREKH
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | aliases         | description              | Wikidata QID                                               |
-    | :-------: | :---------------------------------: | :-------------: | :----------------------: | :--------------------------------------------------------: |
-    | mFzbREKH  | Symphony No.86 in D major, Hob.I:86 | Symphony No. 86 | symphony by Joseph Haydn | [Symphony No. 86](http://wwww.wikidata.org/entity/Q273132) |
+    | FAAM UUID | label                               | aliases         | description              | Wikidata QID                                          |
+    | :-------: | :---------------------------------: | :-------------: | :----------------------: | :---------------------------------------------------: |
+    | mFzbREKH  | Symphony No.86 in D major, Hob.I:86 | Symphony No. 86 | symphony by Joseph Haydn | [Symphony No. 86](http://wikidata.org/entity/Q273132) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/mFzbREKH.html" height="800" width="1200" title="mFzbREKH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mFzbREKH" height="800" width="1200" title="mFzbREKH"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Symphonie : à grand Orchestre](./ciYNKvcf.md)__
 
-	![Image](../assets/images/thumbs/KCG-000743756.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000743756.gif){align=left width="150" height="150"} 
 
 	
 

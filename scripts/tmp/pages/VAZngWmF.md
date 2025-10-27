@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VAZngWmF
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902610788/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/VAZngWmF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/VAZngWmF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/VAZngWmF.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902610788/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/VAZngWmF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/VAZngWmF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/VAZngWmF.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902610788.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902610788.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                            | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | VAZngWmF  | KCA-030902610788      | Het hemelbed : ballet . Halewijn : pianouitreksel . Blaaskwintet | [external URL](2qoBxv5j) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                            | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | VAZngWmF  | KCA-030902610788      | Het hemelbed : ballet . Halewijn : pianouitreksel . Blaaskwintet | [external URL](https://anet.be/record/opacdkvc/c:lvd:13207450/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -77,10 +81,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/VAZngWmF.html" height="800" width="1200" title="VAZngWmF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VAZngWmF" height="800" width="1200" title="VAZngWmF"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/VAZngWmF.html" height="800" width="1200" title="VAZngWmF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/VAZngWmF" height="800" width="1200" title="VAZngWmF"></iframe>

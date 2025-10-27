@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MYtfBLe2
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MYtfBLe2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MYtfBLe2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MYtfBLe2.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MYtfBLe2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MYtfBLe2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MYtfBLe2.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Attilius_Ariosti.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases          | description      | Wikidata QID                                               |
-    | :-------: | :-------------: | :--------------: | :--------------: | :--------------------------------------------------------: |
-    | MYtfBLe2  | Attilio Ariosti | Attilius Ariosti | Italian composer | [Attilio Ariosti](http://wwww.wikidata.org/entity/Q758130) |
+    | FAAM UUID | label           | aliases          | description      | Wikidata QID                                          |
+    | :-------: | :-------------: | :--------------: | :--------------: | :---------------------------------------------------: |
+    | MYtfBLe2  | Attilio Ariosti | Attilius Ariosti | Italian composer | [Attilio Ariosti](http://wikidata.org/entity/Q758130) |
 
 <br><br><br>
 
@@ -49,9 +53,9 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./d2E4PSjN.md)
+	- [monk](./d2E4PSjN.md)
 
-	- [](./Z3zCJvmg.md)
+	- [viola d'amore player](./Z3zCJvmg.md)
 
 	- [writer](./YrCfZ8vh.md)
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/MYtfBLe2.html" height="800" width="1200" title="MYtfBLe2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MYtfBLe2" height="800" width="1200" title="MYtfBLe2"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 98sqJAwy
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                     | aliases | Wikidata QID                                           |
-    | :-------: | :-----------: | :-----------------------------: | :-----: | :----------------------------------------------------: |
-    | 98sqJAwy  | Altstadt-Nord | city quarter of Cologne No. 103 |         | [Altstadt-Nord](http://wwww.wikidata.org/entity/Q3005) |
+    | FAAM UUID | label         | description                     | aliases | Wikidata QID                                      |
+    | :-------: | :-----------: | :-----------------------------: | :-----: | :-----------------------------------------------: |
+    | 98sqJAwy  | Altstadt-Nord | city quarter of Cologne No. 103 |         | [Altstadt-Nord](http://wikidata.org/entity/Q3005) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/98sqJAwy.html" height="800" width="1200" title="98sqJAwy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/98sqJAwy" height="800" width="1200" title="98sqJAwy"></iframe>
 
 ## Identifiers
 

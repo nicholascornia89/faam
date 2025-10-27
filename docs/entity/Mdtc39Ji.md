@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Mdtc39Ji
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KMN-100549/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Mdtc39Ji.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Mdtc39Ji.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Mdtc39Ji.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KMN-100549/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Mdtc39Ji.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Mdtc39Ji.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Mdtc39Ji.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KMN-100549.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KMN-100549.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                              | permalink                | provenance                                 |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :----------------------------------------: |
-    | Mdtc39Ji  | KMN-100549            | Recueil des morceaux de musique ancienne : executés aux concerts de la Sociéte de musique vocale religieuse et classique fondée a Paris en 1843 [...] sous la direction de Mr. le Prince de la Moskowa. [Deuxième volume, Nr 8-20] | [external URL](LBfWd2va) | [National Museum in Kraków](./6a9xVJQB.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                              | permalink                                                             | provenance                                 |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------: | :----------------------------------------: |
+    | Mdtc39Ji  | KMN-100549            | Recueil des morceaux de musique ancienne : executés aux concerts de la Sociéte de musique vocale religieuse et classique fondée a Paris en 1843 [...] sous la direction de Mr. le Prince de la Moskowa. [Deuxième volume, Nr 8-20] | [external URL](http://fbc.pionier.net.pl/id/oai:cyfrowe.mnk.pl:25791) | [National Museum in Kraków](./6a9xVJQB.md) |
 
 ## Statements
 
@@ -131,10 +135,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Mdtc39Ji.html" height="800" width="1200" title="Mdtc39Ji"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Mdtc39Ji" height="800" width="1200" title="Mdtc39Ji"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Mdtc39Ji.html" height="800" width="1200" title="Mdtc39Ji"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Mdtc39Ji" height="800" width="1200" title="Mdtc39Ji"></iframe>

@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WvqsGBqo", "label": "Universal Music Publishing Group", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WvqsGBqo.md\u0027\u003eUniversal Music Publishing Group\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAmerican music publishing company\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Universalmusicpublishinggroup.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HmGw8E8i", "label": "music publishing company", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HmGw8E8i.md\u0027\u003emusic publishing company\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecompany that licenses compositions, collects royalties and distributes them to the composers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "7tdgMgre", "label": "publisher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7tdgMgre.md\u0027\u003epublisher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecompany that prints and distributes pressed goods or electronic media\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "4V2kvX5b", "label": "New York", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4V2kvX5b.md\u0027\u003eNew York\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estate of the United States of America\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#97c2fc", "font": {"color": "#f8f7f4"}, "id": "", "label": "", "shape": "dot", "size": 10}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "MxnLw4ay", "label": "Bologna", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MxnLw4ay.md\u0027\u003eBologna\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and commune in Emilia-Romagna, Italy\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "WvqsGBqo", "to": "HmGw8E8i", "width": 10}, {"from": "WvqsGBqo", "to": "7tdgMgre", "width": 5}, {"from": "WvqsGBqo", "to": "4V2kvX5b", "width": 1}, {"from": "WvqsGBqo", "to": "", "width": 5}, {"from": "WvqsGBqo", "to": "MxnLw4ay", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "4V2kvX5b", "label": "New York", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4V2kvX5b\u0027\u003eNew York\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estate of the United States of America\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WvqsGBqo", "label": "Universal Music Publishing Group", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WvqsGBqo\u0027\u003eUniversal Music Publishing Group\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAmerican music publishing company\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Universalmusicpublishinggroup.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#97c2fc", "font": {"color": "#f8f7f4"}, "id": "", "label": "", "shape": "dot", "size": 10}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HmGw8E8i", "label": "music publishing company", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HmGw8E8i\u0027\u003emusic publishing company\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecompany that licenses compositions, collects royalties and distributes them to the composers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "MxnLw4ay", "label": "Bologna", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MxnLw4ay\u0027\u003eBologna\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and commune in Emilia-Romagna, Italy\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "7tdgMgre", "label": "publisher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7tdgMgre\u0027\u003epublisher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecompany that prints and distributes pressed goods or electronic media\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}]);
+                  edges = new vis.DataSet([{"from": "4V2kvX5b", "to": "WvqsGBqo", "width": 1}, {"from": "", "to": "WvqsGBqo", "width": 5}, {"from": "HmGw8E8i", "to": "WvqsGBqo", "width": 10}, {"from": "MxnLw4ay", "to": "WvqsGBqo", "width": 1}, {"from": "WvqsGBqo", "to": "7tdgMgre", "width": 5}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ABW4QFuw
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                   | aliases          | Wikidata QID                                       |
-    | :-------: | :-------: | :---------------------------: | :--------------: | :------------------------------------------------: |
-    | ABW4QFuw  | Oldenburg | town in Lower Saxony, Germany | Oldenburg (Oldb) | [Oldenburg](http://wwww.wikidata.org/entity/Q2936) |
+    | FAAM UUID | label     | description                   | aliases          | Wikidata QID                                  |
+    | :-------: | :-------: | :---------------------------: | :--------------: | :-------------------------------------------: |
+    | ABW4QFuw  | Oldenburg | town in Lower Saxony, Germany | Oldenburg (Oldb) | [Oldenburg](http://wikidata.org/entity/Q2936) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ABW4QFuw.html" height="800" width="1200" title="ABW4QFuw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ABW4QFuw" height="800" width="1200" title="ABW4QFuw"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Kaspar Fürstenau](./W5tLaHDf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German flautist (1772-1819)
 

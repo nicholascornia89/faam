@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2pCqJqh6 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Austrian musicologist (1886–1954)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2174235>,
+        "0"^^xsd:string,
+        "2pCqJqh6"^^xsd:string ;
+    skos:altLabel "Rudolf Ritter Ficker von Feldhaus"^^xsd:string ;
+    skos:prefLabel "Rudolf von Ficker"^^xsd:string ;
+    wd:P108 <Q875788>,
+        faamentity:o3myxgaX ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:59351822 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30108391> ;
+    wd:P839 <https://imslp.org/wiki/Category:Ficker,_Rudolf_von> .
+

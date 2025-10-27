@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 73iqmpdK
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | 73iqmpdK  | Keyboard Sonata in C minor, K.115 | Keyboard Sonata in C minor, L.407 | sonata by Domenico Scarlatti | [Sonata K. 115](http://wwww.wikidata.org/entity/Q67199931) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | 73iqmpdK  | Keyboard Sonata in C minor, K.115 | Keyboard Sonata in C minor, L.407 | sonata by Domenico Scarlatti | [Sonata K. 115](http://wikidata.org/entity/Q67199931) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/73iqmpdK.html" height="800" width="1200" title="73iqmpdK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/73iqmpdK" height="800" width="1200" title="73iqmpdK"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

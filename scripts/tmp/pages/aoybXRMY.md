@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aoybXRMY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/aoybXRMY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/aoybXRMY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/aoybXRMY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/aoybXRMY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/aoybXRMY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/aoybXRMY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josef_Hellmesberger_senior.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases                  | description                                            | Wikidata QID                                                    |
-    | :-------: | :------------------: | :----------------------: | :----------------------------------------------------: | :-------------------------------------------------------------: |
-    | aoybXRMY  | Joseph Hellmesberger | Josef Hellmesberger, Sr. | Austrian violinist, conductor and composer (1828–1893) | [Joseph Hellmesberger](http://wwww.wikidata.org/entity/Q698074) |
+    | FAAM UUID | label                | aliases                  | description                                            | Wikidata QID                                               |
+    | :-------: | :------------------: | :----------------------: | :----------------------------------------------------: | :--------------------------------------------------------: |
+    | aoybXRMY  | Joseph Hellmesberger | Josef Hellmesberger, Sr. | Austrian violinist, conductor and composer (1828–1893) | [Joseph Hellmesberger](http://wikidata.org/entity/Q698074) |
 
 <br><br><br>
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/aoybXRMY.html" height="800" width="1200" title="aoybXRMY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aoybXRMY" height="800" width="1200" title="aoybXRMY"></iframe>
 
 ## Identifiers
 
@@ -88,3 +92,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Felix Mottl](./ftRRiWWs.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felix_Mottl.jpg){align=left width="150" height="150"} 
+
+	Austrian conductor and composer (1856-1911)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8AgGMFN4
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                                    | aliases                    | Wikidata QID                                                             |
-    | :-------: | :------------------------: | :--------------------------------------------: | :------------------------: | :----------------------------------------------------------------------: |
-    | 8AgGMFN4  | Koninklijk Atheneum Brugge | secondary school in the Belgian city of Bruges | Koninklijk Atheneum Brugge | [Koninklijk Atheneum Brugge](http://wwww.wikidata.org/entity/Q118541114) |
+    | FAAM UUID | label                      | description                                    | aliases                    | Wikidata QID                                                        |
+    | :-------: | :------------------------: | :--------------------------------------------: | :------------------------: | :-----------------------------------------------------------------: |
+    | 8AgGMFN4  | Koninklijk Atheneum Brugge | secondary school in the Belgian city of Bruges | Koninklijk Atheneum Brugge | [Koninklijk Atheneum Brugge](http://wikidata.org/entity/Q118541114) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/8AgGMFN4.html" height="800" width="1200" title="8AgGMFN4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8AgGMFN4" height="800" width="1200" title="8AgGMFN4"></iframe>
 
 ## Cross-references
 

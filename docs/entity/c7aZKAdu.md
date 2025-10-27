@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c7aZKAdu
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description              | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :----------------------: | :-----: | :----------------------------------------------: |
-    | c7aZKAdu  | Drucat | commune in Somme, France |         | [Drucat](http://wwww.wikidata.org/entity/Q69004) |
+    | FAAM UUID | label  | description              | aliases | Wikidata QID                                |
+    | :-------: | :----: | :----------------------: | :-----: | :-----------------------------------------: |
+    | c7aZKAdu  | Drucat | commune in Somme, France |         | [Drucat](http://wikidata.org/entity/Q69004) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/c7aZKAdu.html" height="800" width="1200" title="c7aZKAdu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c7aZKAdu" height="800" width="1200" title="c7aZKAdu"></iframe>
 
 ## Identifiers
 

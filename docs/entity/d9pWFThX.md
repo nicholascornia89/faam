@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: d9pWFThX
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | d9pWFThX  | Air varié 'Vive Henri 4!', Op.27 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                            | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | d9pWFThX  | Air varié 'Vive Henri 4!', Op.27 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/d9pWFThX.html" height="800" width="1200" title="d9pWFThX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/d9pWFThX" height="800" width="1200" title="d9pWFThX"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Vive Henri 4! : Air varié pour le Violon avec Accompagnement de Premier et Second Violons, Alto, Basse, Flûte, Hautbois, Clarinettes, Cors, Bassons, Trombone et Timballes : Oeuv. 27](./afK7awRY.md)__
 
-	![Image](../assets/images/thumbs/KCG-000332412.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000332412.gif){align=left width="150" height="150"} 
 
 	
 

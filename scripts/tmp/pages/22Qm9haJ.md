@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 22Qm9haJ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description               | aliases | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----------------------: | :-----: | :-------------------------------------------------------: |
-    | 22Qm9haJ  | La Granadella | municipality in Catalonia |         | [La Granadella](http://wwww.wikidata.org/entity/Q1902138) |
+    | FAAM UUID | label         | description               | aliases | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----------------------: | :-----: | :--------------------------------------------------: |
+    | 22Qm9haJ  | La Granadella | municipality in Catalonia |         | [La Granadella](http://wikidata.org/entity/Q1902138) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/22Qm9haJ.html" height="800" width="1200" title="22Qm9haJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/22Qm9haJ" height="800" width="1200" title="22Qm9haJ"></iframe>
 
 ## Identifiers
 

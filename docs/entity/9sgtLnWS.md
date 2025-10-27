@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9sgtLnWS
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/9sgtLnWS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/9sgtLnWS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/9sgtLnWS.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/9sgtLnWS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/9sgtLnWS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/9sgtLnWS.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Fran%C3%A7ois_Dauprat.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases                | description                     | Wikidata QID                                                     |
-    | :-------: | :--------------------: | :--------------------: | :-----------------------------: | :--------------------------------------------------------------: |
-    | 9sgtLnWS  | Louis-François Dauprat | Louis-François Dauprat | French composer and horn-player | [Louis François Dauprat](http://wwww.wikidata.org/entity/Q56649) |
+    | FAAM UUID | label                  | aliases                | description                     | Wikidata QID                                                |
+    | :-------: | :--------------------: | :--------------------: | :-----------------------------: | :---------------------------------------------------------: |
+    | 9sgtLnWS  | Louis-François Dauprat | Louis-François Dauprat | French composer and horn-player | [Louis François Dauprat](http://wikidata.org/entity/Q56649) |
 
 <br><br><br>
 
@@ -71,7 +75,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/9sgtLnWS.html" height="800" width="1200" title="9sgtLnWS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9sgtLnWS" height="800" width="1200" title="9sgtLnWS"></iframe>
 
 ## Identifiers
 
@@ -92,3 +96,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Jacques François Gallay](./AsPJ6dfX.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jacques_François_Gallay_Hornist.jpg){align=left width="150" height="150"} 
+
+	French composer, professor, hornist and music educator (1795-1864)
+
+</div>

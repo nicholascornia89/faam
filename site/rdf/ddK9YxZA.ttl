@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ddK9YxZA a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Italian university founded in Rome in 1303"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q209344>,
+        "15991061"^^xsd:string,
+        "ddK9YxZA"^^xsd:string ;
+    schema1:location faamentity:D7zj8y2m,
+        faamentity:fj46nffV ;
+    skos:altLabel "La Sapienza"^^xsd:string,
+        "Sapienza"^^xsd:string,
+        "Sapienza University of Rome"^^xsd:string,
+        "UNIROMA1"^^xsd:string,
+        "Universita La Sapienza di Roma"^^xsd:string,
+        "University La Sapienza Rome"^^xsd:string,
+        "University La Sapienza of Rome"^^xsd:string,
+        "University of Roma La Sapienza"^^xsd:string,
+        "University of Rome"^^xsd:string,
+        "University of Rome \"La Sapienza\""^^xsd:string,
+        "Università La Sapienza di Roma"^^xsd:string,
+        "Università degli Studi di Roma \"Sapienza\""^^xsd:string,
+        "Università degli studi di Roma \"La Sapienza\""^^xsd:string ;
+    skos:prefLabel "Sapienza University of Rome"^^xsd:string .
+

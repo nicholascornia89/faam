@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JHJZeU8t
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000344649/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JHJZeU8t.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JHJZeU8t.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JHJZeU8t.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000344649/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JHJZeU8t.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JHJZeU8t.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JHJZeU8t.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000344649.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000344649.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                    | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | JHJZeU8t  | KCG-000344649         | Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil: | [external URL](HKyA3Qzz) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                    | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | JHJZeU8t  | KCG-000344649         | Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil: | [external URL](https://catalogus.hogent.be/catalog/hog01:000344649) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -99,10 +103,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/JHJZeU8t.html" height="800" width="1200" title="JHJZeU8t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JHJZeU8t" height="800" width="1200" title="JHJZeU8t"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/JHJZeU8t.html" height="800" width="1200" title="JHJZeU8t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/JHJZeU8t" height="800" width="1200" title="JHJZeU8t"></iframe>

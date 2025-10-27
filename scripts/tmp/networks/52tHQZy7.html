@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CTNhzr7a", "label": "Germany", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CTNhzr7a.md\u0027\u003eGermany\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "52tHQZy7", "label": "Hannover", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./52tHQZy7.md\u0027\u003eHannover\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city of the German federated state of Lower Saxony\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bRsuqnrj", "label": "Egon Petri", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bRsuqnrj.md\u0027\u003eEgon Petri\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch musician (1881-1962)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Petri_Egon.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YrXoha7y", "label": "Ignaz Lachner", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YrXoha7y.md\u0027\u003eIgnaz Lachner\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and conductor (1807-1895)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ignaz_Lachner_1882.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aQfbT97p", "label": "Georg Goltermann", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aQfbT97p.md\u0027\u003eGeorg Goltermann\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman cellist, conductor, and composer (1824\u20131898)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UTpwEa6N", "label": "Karl Klindworth", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UTpwEa6N.md\u0027\u003eKarl Klindworth\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman musician (1830\u20131916)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Karl_Klindworth.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "435bQM6q", "label": "Nagels Verlag", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./435bQM6q.md\u0027\u003eNagels Verlag\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman publisher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "CTNhzr7a", "to": "52tHQZy7", "width": 10}, {"from": "bRsuqnrj", "to": "52tHQZy7", "width": 10}, {"from": "YrXoha7y", "to": "aQfbT97p", "width": 1}, {"from": "YrXoha7y", "to": "52tHQZy7", "width": 10}, {"from": "UTpwEa6N", "to": "52tHQZy7", "width": 10}, {"from": "52tHQZy7", "to": "aQfbT97p", "width": 10}, {"from": "52tHQZy7", "to": "435bQM6q", "width": 5}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "435bQM6q", "label": "Nagels Verlag", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/435bQM6q\u0027\u003eNagels Verlag\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman publisher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "52tHQZy7", "label": "Hannover", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/52tHQZy7\u0027\u003eHannover\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city of the German federated state of Lower Saxony\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UTpwEa6N", "label": "Karl Klindworth", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UTpwEa6N\u0027\u003eKarl Klindworth\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman musician (1830\u20131916)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Karl_Klindworth.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aQfbT97p", "label": "Georg Goltermann", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aQfbT97p\u0027\u003eGeorg Goltermann\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman cellist, conductor, and composer (1824\u20131898)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YrXoha7y", "label": "Ignaz Lachner", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YrXoha7y\u0027\u003eIgnaz Lachner\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and conductor (1807-1895)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ignaz_Lachner_1882.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bRsuqnrj", "label": "Egon Petri", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bRsuqnrj\u0027\u003eEgon Petri\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch musician (1881-1962)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Petri_Egon.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CTNhzr7a", "label": "Germany", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CTNhzr7a\u0027\u003eGermany\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "435bQM6q", "to": "52tHQZy7", "width": 5}, {"from": "UTpwEa6N", "to": "52tHQZy7", "width": 10}, {"from": "aQfbT97p", "to": "52tHQZy7", "width": 10}, {"from": "aQfbT97p", "to": "YrXoha7y", "width": 1}, {"from": "bRsuqnrj", "to": "52tHQZy7", "width": 10}, {"from": "CTNhzr7a", "to": "52tHQZy7", "width": 10}, {"from": "52tHQZy7", "to": "YrXoha7y", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

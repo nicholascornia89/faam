@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YM2vjsKN
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | YM2vjsKN  | Keyboard Sonata in G major, K.372 | Keyboard Sonata in G major, L.302 | sonata by Domenico Scarlatti | [Sonata K. 372](http://wwww.wikidata.org/entity/Q78243715) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | YM2vjsKN  | Keyboard Sonata in G major, K.372 | Keyboard Sonata in G major, L.302 | sonata by Domenico Scarlatti | [Sonata K. 372](http://wikidata.org/entity/Q78243715) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/YM2vjsKN.html" height="800" width="1200" title="YM2vjsKN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YM2vjsKN" height="800" width="1200" title="YM2vjsKN"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

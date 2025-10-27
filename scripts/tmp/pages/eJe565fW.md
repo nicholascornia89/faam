@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eJe565fW
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                   | aliases | Wikidata QID                                  |
-    | :-------: | :----: | :-------------------------------------------: | :-----: | :-------------------------------------------: |
-    | eJe565fW  | Geneva | city in Switzerland and capital of its canton | Genève  | [Geneva](http://wwww.wikidata.org/entity/Q71) |
+    | FAAM UUID | label  | description                                   | aliases | Wikidata QID                             |
+    | :-------: | :----: | :-------------------------------------------: | :-----: | :--------------------------------------: |
+    | eJe565fW  | Geneva | city in Switzerland and capital of its canton | Genève  | [Geneva](http://wikidata.org/entity/Q71) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/eJe565fW.html" height="800" width="1200" title="eJe565fW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eJe565fW" height="800" width="1200" title="eJe565fW"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: city
 
 -	__[Antoine Dechevrens](./TMx9XERs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss musicologist
 

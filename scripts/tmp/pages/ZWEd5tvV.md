@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZWEd5tvV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                                          | aliases             | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :--------------------------------------------------: | :-----------------: | :------------------------------------------------------------: |
-    | ZWEd5tvV  | Woluwe-Saint-Pierre | municipality in the Brussels-Capital Region, Belgium | Sint-Pieters-Woluwe | [Woluwe-Saint-Pierre](http://wwww.wikidata.org/entity/Q242393) |
+    | FAAM UUID | label               | description                                          | aliases             | Wikidata QID                                              |
+    | :-------: | :-----------------: | :--------------------------------------------------: | :-----------------: | :-------------------------------------------------------: |
+    | ZWEd5tvV  | Woluwe-Saint-Pierre | municipality in the Brussels-Capital Region, Belgium | Sint-Pieters-Woluwe | [Woluwe-Saint-Pierre](http://wikidata.org/entity/Q242393) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ZWEd5tvV.html" height="800" width="1200" title="ZWEd5tvV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZWEd5tvV" height="800" width="1200" title="ZWEd5tvV"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oQb73oWT
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902809604/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/oQb73oWT.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/oQb73oWT.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/oQb73oWT.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902809604/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/oQb73oWT.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/oQb73oWT.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/oQb73oWT.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902809604.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902809604.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                        | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | oQb73oWT  | KCA-030902809604      | Violin concerto : G major, KV 216 = Concierto para violin: sol mayor, KV 216 | [external URL](gb6MiJbD) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                        | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | oQb73oWT  | KCA-030902809604      | Violin concerto : G major, KV 216 = Concierto para violin: sol mayor, KV 216 | [external URL](https://anet.be/record/opacdkvc/c:lvd:14001255/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -75,10 +79,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/oQb73oWT.html" height="800" width="1200" title="oQb73oWT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oQb73oWT" height="800" width="1200" title="oQb73oWT"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/oQb73oWT.html" height="800" width="1200" title="oQb73oWT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/oQb73oWT" height="800" width="1200" title="oQb73oWT"></iframe>

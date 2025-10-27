@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JLEkd6F7
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                       | aliases     | Wikidata QID                                        |
-    | :-------: | :-------: | :-------------------------------: | :---------: | :-------------------------------------------------: |
-    | JLEkd6F7  | harmonica | free reed wind musical instrument | French harp | [harmonica](http://wwww.wikidata.org/entity/Q51290) |
+    | FAAM UUID | label     | description                       | aliases     | Wikidata QID                                   |
+    | :-------: | :-------: | :-------------------------------: | :---------: | :--------------------------------------------: |
+    | JLEkd6F7  | harmonica | free reed wind musical instrument | French harp | [harmonica](http://wikidata.org/entity/Q51290) |
 
 <br><br><br>
 
@@ -31,19 +35,19 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./FChBtgiq.md)
+	- [sets of free reeds](./FChBtgiq.md)
 
-	- [](./E2Sb746q.md)
+	- [musical instrument](./E2Sb746q.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/JLEkd6F7.html" height="800" width="1200" title="JLEkd6F7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JLEkd6F7" height="800" width="1200" title="JLEkd6F7"></iframe>
 
 ## Cross-references
 

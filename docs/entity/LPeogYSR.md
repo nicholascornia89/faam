@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LPeogYSR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                               | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :---------------------------------------: | :-----: | :-----------------------------------------------------: |
-    | LPeogYSR  | Leopoldstadt | 2nd municipal District of Vienna, Austria |         | [Leopoldstadt](http://wwww.wikidata.org/entity/Q259120) |
+    | FAAM UUID | label        | description                               | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :---------------------------------------: | :-----: | :------------------------------------------------: |
+    | LPeogYSR  | Leopoldstadt | 2nd municipal District of Vienna, Austria |         | [Leopoldstadt](http://wikidata.org/entity/Q259120) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LPeogYSR.html" height="800" width="1200" title="LPeogYSR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LPeogYSR" height="800" width="1200" title="LPeogYSR"></iframe>
 
 ## Identifiers
 

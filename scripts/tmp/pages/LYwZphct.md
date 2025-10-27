@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LYwZphct
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description            | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :--------------------: | :-----: | :---------------------------------------------------: |
-    | LYwZphct  | Palestrina | comune in Lazio, Italy |         | [Palestrina](http://wwww.wikidata.org/entity/Q243133) |
+    | FAAM UUID | label      | description            | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :--------------------: | :-----: | :----------------------------------------------: |
+    | LYwZphct  | Palestrina | comune in Lazio, Italy |         | [Palestrina](http://wikidata.org/entity/Q243133) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LYwZphct.html" height="800" width="1200" title="LYwZphct"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LYwZphct" height="800" width="1200" title="LYwZphct"></iframe>
 
 ## Identifiers
 

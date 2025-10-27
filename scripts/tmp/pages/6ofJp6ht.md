@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6ofJp6ht
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description | aliases                 | Wikidata QID                                                       |
-    | :-------: | :---------------------: | :---------: | :---------------------: | :----------------------------------------------------------------: |
-    | 6ofJp6ht  | University of Helmstedt | university  | University of Helmstedt | [University of Helmstedt](http://wwww.wikidata.org/entity/Q314466) |
+    | FAAM UUID | label                   | description | aliases                 | Wikidata QID                                                  |
+    | :-------: | :---------------------: | :---------: | :---------------------: | :-----------------------------------------------------------: |
+    | 6ofJp6ht  | University of Helmstedt | university  | University of Helmstedt | [University of Helmstedt](http://wikidata.org/entity/Q314466) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./fMhj67nk.md)
+	[Helmstedt](./fMhj67nk.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/6ofJp6ht.html" height="800" width="1200" title="6ofJp6ht"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6ofJp6ht" height="800" width="1200" title="6ofJp6ht"></iframe>
 
 ## Cross-references
 

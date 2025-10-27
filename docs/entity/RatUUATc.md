@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RatUUATc
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RatUUATc.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RatUUATc.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RatUUATc.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RatUUATc.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RatUUATc.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RatUUATc.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e2/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases      | description                      | Wikidata QID                                               |
-    | :-------: | :--------------: | :----------: | :------------------------------: | :--------------------------------------------------------: |
-    | RatUUATc  | Heinrich Ehrlich | Eric Ehrlich | pianist and composer (1822-1899) | [Heinrich Ehrlich](http://wwww.wikidata.org/entity/Q96452) |
+    | FAAM UUID | label            | aliases      | description                      | Wikidata QID                                          |
+    | :-------: | :--------------: | :----------: | :------------------------------: | :---------------------------------------------------: |
+    | RatUUATc  | Heinrich Ehrlich | Eric Ehrlich | pianist and composer (1822-1899) | [Heinrich Ehrlich](http://wikidata.org/entity/Q96452) |
 
 <br><br><br>
 
@@ -59,13 +63,13 @@ tags: agent
 
 	- [writer](./YrCfZ8vh.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/RatUUATc.html" height="800" width="1200" title="RatUUATc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RatUUATc" height="800" width="1200" title="RatUUATc"></iframe>
 
 ## Identifiers
 
@@ -91,7 +95,7 @@ tags: agent
 
 -	__[The ornamentations in Joh. Seb. Bach's pianoforte-works : studies and elucidations](./NSvvf3ok.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902664280.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902664280.gif){align=left width="150" height="150"} 
 
 	
 

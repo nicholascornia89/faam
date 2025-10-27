@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: G4nW25gS
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                                          | aliases | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :--------------------------------------------------: | :-----: | :-----------------------------------------------------------------: |
-    | G4nW25gS  | University of Ingolstadt | former university in Ingolstadt, Bavaria (1472–1800) |         | [University of Ingolstadt](http://wwww.wikidata.org/entity/Q462039) |
+    | FAAM UUID | label                    | description                                          | aliases | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :--------------------------------------------------: | :-----: | :------------------------------------------------------------: |
+    | G4nW25gS  | University of Ingolstadt | former university in Ingolstadt, Bavaria (1472–1800) |         | [University of Ingolstadt](http://wikidata.org/entity/Q462039) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/G4nW25gS.html" height="800" width="1200" title="G4nW25gS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/G4nW25gS" height="800" width="1200" title="G4nW25gS"></iframe>
 
 ## Cross-references
 

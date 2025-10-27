@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JqhpETqh
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                          | aliases     | Wikidata QID                                                  |
-    | :-------: | :---------------: | :------------------------------------------------------------------: | :---------: | :-----------------------------------------------------------: |
-    | JqhpETqh  | music interpreter | a performing artist who interpret a musical work or improvises music | interpreter | [music interpreter](http://wwww.wikidata.org/entity/Q3153559) |
+    | FAAM UUID | label             | description                                                          | aliases     | Wikidata QID                                             |
+    | :-------: | :---------------: | :------------------------------------------------------------------: | :---------: | :------------------------------------------------------: |
+    | JqhpETqh  | music interpreter | a performing artist who interpret a musical work or improvises music | interpreter | [music interpreter](http://wikidata.org/entity/Q3153559) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/JqhpETqh.html" height="800" width="1200" title="JqhpETqh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JqhpETqh" height="800" width="1200" title="JqhpETqh"></iframe>
 
 ## Cross-references
 

@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:J9qyNZCR a rdfs:Resource ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q41885446>,
+        "16002454"^^xsd:string,
+        "J9qyNZCR"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:prefLabel "Yvonne Van den Berghe"^^xsd:string ;
+    wd:P108 faamentity:SGA8i9nK ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM .
+

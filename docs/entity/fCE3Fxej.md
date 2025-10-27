@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fCE3Fxej
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | description                          | aliases                        | Wikidata QID                                                             |
-    | :-------: | :---------------------------: | :----------------------------------: | :----------------------------: | :----------------------------------------------------------------------: |
-    | fCE3Fxej  | NewYork–Presbyterian Hospital | hospital in Manhattan, New York City | New York-Presbyterian Hospital | [NewYork–Presbyterian Hospital](http://wwww.wikidata.org/entity/Q975653) |
+    | FAAM UUID | label                         | description                          | aliases                        | Wikidata QID                                                        |
+    | :-------: | :---------------------------: | :----------------------------------: | :----------------------------: | :-----------------------------------------------------------------: |
+    | fCE3Fxej  | NewYork–Presbyterian Hospital | hospital in Manhattan, New York City | New York-Presbyterian Hospital | [NewYork–Presbyterian Hospital](http://wikidata.org/entity/Q975653) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fCE3Fxej.html" height="800" width="1200" title="fCE3Fxej"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fCE3Fxej" height="800" width="1200" title="fCE3Fxej"></iframe>
 
 ## Identifiers
 

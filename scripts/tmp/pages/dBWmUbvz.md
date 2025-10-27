@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dBWmUbvz
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/dBWmUbvz.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/dBWmUbvz.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/dBWmUbvz.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/dBWmUbvz.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/dBWmUbvz.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/dBWmUbvz.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Otto_Nicolai.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases                      | description                        | Wikidata QID                                            |
-    | :-------: | :----------: | :--------------------------: | :--------------------------------: | :-----------------------------------------------------: |
-    | dBWmUbvz  | Otto Nicolai | Carl Otto Ehrenfried Nicolai | (1810-1849) composer and conductor | [Otto Nicolai](http://wwww.wikidata.org/entity/Q154602) |
+    | FAAM UUID | label        | aliases                      | description                        | Wikidata QID                                       |
+    | :-------: | :----------: | :--------------------------: | :--------------------------------: | :------------------------------------------------: |
+    | dBWmUbvz  | Otto Nicolai | Carl Otto Ehrenfried Nicolai | (1810-1849) composer and conductor | [Otto Nicolai](http://wikidata.org/entity/Q154602) |
 
 <br><br><br>
 
@@ -63,13 +67,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./i4AVcH4i.md)
+	- [Frederick William IV of Prussia](./i4AVcH4i.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/dBWmUbvz.html" height="800" width="1200" title="dBWmUbvz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dBWmUbvz" height="800" width="1200" title="dBWmUbvz"></iframe>
 
 ## Identifiers
 
@@ -90,3 +94,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Theodor Kullak](./oKcAt7ev.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Theodor_Kullak.jpg){align=left width="150" height="150"} 
+
+	German musician (1818-1882)
+
+</div>

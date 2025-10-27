@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Lvp6G9Z3
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Lvp6G9Z3.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Lvp6G9Z3.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Lvp6G9Z3.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Lvp6G9Z3.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Lvp6G9Z3.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Lvp6G9Z3.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Hollman_2_December_1897.JPG" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                         | description                                   | Wikidata QID                                               |
-    | :-------: | :------------: | :-----------------------------: | :-------------------------------------------: | :--------------------------------------------------------: |
-    | Lvp6G9Z3  | Joseph Hollman | Joseph Corneille Hubert Hollman | French-Dutch composer and cellist (1852–1926) | [Joseph Hollman](http://wwww.wikidata.org/entity/Q1406368) |
+    | FAAM UUID | label          | aliases                         | description                                   | Wikidata QID                                          |
+    | :-------: | :------------: | :-----------------------------: | :-------------------------------------------: | :---------------------------------------------------: |
+    | Lvp6G9Z3  | Joseph Hollman | Joseph Corneille Hubert Hollman | French-Dutch composer and cellist (1852–1926) | [Joseph Hollman](http://wikidata.org/entity/Q1406368) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Lvp6G9Z3.html" height="800" width="1200" title="Lvp6G9Z3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Lvp6G9Z3" height="800" width="1200" title="Lvp6G9Z3"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,15 @@ tags: agent
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Chanson d'amour](./bT2cMQaT.md)__
 
 	
 

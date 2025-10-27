@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XWcaJQty
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                | aliases          | Wikidata QID                                                   |
-    | :-------: | :----------------: | :----------------------------------------: | :--------------: | :------------------------------------------------------------: |
-    | XWcaJQty  | university teacher | person teaching at a university or college | college lecturer | [university teacher](http://wwww.wikidata.org/entity/Q1622272) |
+    | FAAM UUID | label              | description                                | aliases          | Wikidata QID                                              |
+    | :-------: | :----------------: | :----------------------------------------: | :--------------: | :-------------------------------------------------------: |
+    | XWcaJQty  | university teacher | person teaching at a university or college | college lecturer | [university teacher](http://wikidata.org/entity/Q1622272) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/XWcaJQty.html" height="800" width="1200" title="XWcaJQty"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XWcaJQty" height="800" width="1200" title="XWcaJQty"></iframe>
 
 ## Cross-references
 
@@ -37,13 +41,13 @@ tags: occupation
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
 -	__[Louis-François Dauprat](./9sgtLnWS.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
 
 	French composer and horn-player
 
@@ -61,7 +65,7 @@ tags: occupation
 
 -	__[Paul de Maleingreau](./7qDtgfx5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French/Belgian organist (1887-1956)
 
@@ -127,7 +131,7 @@ tags: occupation
 
 -	__[Antoine Dechevrens](./TMx9XERs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss musicologist
 
@@ -193,7 +197,7 @@ tags: occupation
 
 -	__[Ernst Pepping](./ZJkKECSt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1901–1981)
 
@@ -223,7 +227,7 @@ tags: occupation
 
 -	__[Wolfgang Fortner](./3vF4a5M7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and conductor (1907–1987)
 
@@ -235,7 +239,7 @@ tags: occupation
 
 -	__[François-René Gebauer](./fMmiNPr6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French bassoonist and composer
 
@@ -247,7 +251,7 @@ tags: occupation
 
 -	__[Flor Peeters](./nPY6863Z.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://imslp.org/images/a/a8/Picture-Peeters%2C_Flor.png){align=left width="150" height="150"} 
+	![Image](https://imslp.org/images/a/a8/Picture-Peeters%2C_Flor.png){align=left width="150" height="150"} 
 
 	Flemish organist, composer and music pedagogue (1903–1986)
 
@@ -277,7 +281,7 @@ tags: occupation
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
@@ -313,7 +317,7 @@ tags: occupation
 
 -	__[Jacques-Nicolas Lemmens](./6gSjvNTk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1823–1881)
 
@@ -325,7 +329,7 @@ tags: occupation
 
 -	__[Henri Vieuxtemps](./dQpy5hbT.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vieuxtemps.jpeg){align=left width="150" height="150"} 
 
 	Belgian violinist and composer (1820-1881)
 
@@ -391,7 +395,7 @@ tags: occupation
 
 -	__[Wilbert Hazelzet](./Y8sPETaX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician
 
@@ -415,7 +419,7 @@ tags: occupation
 
 -	__[Ton Koopman](./Jy8ns9kr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
 
 	Dutch conductor, organist and harpsichordist, born 2 October 1944
 
@@ -571,7 +575,7 @@ tags: occupation
 
 -	__[Alexander Villoing](./LGDvCCZt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian music educator and composer
 
@@ -589,7 +593,7 @@ tags: occupation
 
 -	__[Henri-Jean Rigel](./nqNsEqzn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist
 
@@ -667,7 +671,7 @@ tags: occupation
 
 -	__[Theodor Kroyer](./MTPhkSTp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist (1873-1945)
 
@@ -691,13 +695,13 @@ tags: occupation
 
 -	__[Johann Georg Wunderlich](./idqENLhq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and musician
 
 -	__[Andre Robberechts](./NtFF6WaB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1797–1860)
 
@@ -709,13 +713,13 @@ tags: occupation
 
 -	__[Eduard Müller](./DpFDFGMR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss organist (1912-1983)
 
 -	__[Friedrich Wilhelm Zachow](./9SNg4hjN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
@@ -727,7 +731,7 @@ tags: occupation
 
 -	__[Wassili Kalafati](./3qxHzY3Z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian composer and pedagogue (1869–1942)
 

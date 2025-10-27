@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NmYTHh3u
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                               | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :-------------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | NmYTHh3u  | fairy | mythical being or legendary creature in European folklore | faery   | [fairy](http://wwww.wikidata.org/entity/Q8028) |
+    | FAAM UUID | label | description                                               | aliases | Wikidata QID                              |
+    | :-------: | :---: | :-------------------------------------------------------: | :-----: | :---------------------------------------: |
+    | NmYTHh3u  | fairy | mythical being or legendary creature in European folklore | faery   | [fairy](http://wikidata.org/entity/Q8028) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/NmYTHh3u.html" height="800" width="1200" title="NmYTHh3u"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NmYTHh3u" height="800" width="1200" title="NmYTHh3u"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Le Lac des Fées : Fantaisie : pour La Flute Avec Accompagnement de piano ou de deux Violons, Alto, Basse, Hautbois, Clarinettes, Cors, Bassons, Trompettes, Trombones et Timbales : Opera : 80.](./MJR7wXx7.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331423.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331423.gif){align=left width="150" height="150"} 
 
 	
 

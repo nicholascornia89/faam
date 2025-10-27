@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Y9bpQE3M
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901733573/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Y9bpQE3M.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Y9bpQE3M.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Y9bpQE3M.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901733573/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Y9bpQE3M.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Y9bpQE3M.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Y9bpQE3M.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901733573.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901733573.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                             | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | Y9bpQE3M  | KCA-030901733573      | The well-tempered clavier: 48 preludes and fugues | [external URL](atGzytDR) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                             | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | Y9bpQE3M  | KCA-030901733573      | The well-tempered clavier: 48 preludes and fugues | [external URL](https://anet.be/record/opacdkvc/c:lvd:6748379/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -104,10 +108,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Y9bpQE3M.html" height="800" width="1200" title="Y9bpQE3M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Y9bpQE3M" height="800" width="1200" title="Y9bpQE3M"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Y9bpQE3M.html" height="800" width="1200" title="Y9bpQE3M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Y9bpQE3M" height="800" width="1200" title="Y9bpQE3M"></iframe>

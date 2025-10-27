@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LVF7D5h9
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                                                                                                                                | aliases  | Wikidata QID                                     |
-    | :-------: | :----: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------: | :----------------------------------------------: |
-    | LVF7D5h9  | priest | person who consecrates his life to some divinity and whose main functions are to direct religious rites and offer sacrifices to the divinity (for a minister use Q1423891) | reverend | [priest](http://wwww.wikidata.org/entity/Q42603) |
+    | FAAM UUID | label  | description                                                                                                                                                                | aliases  | Wikidata QID                                |
+    | :-------: | :----: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------: | :-----------------------------------------: |
+    | LVF7D5h9  | priest | person who consecrates his life to some divinity and whose main functions are to direct religious rites and offer sacrifices to the divinity (for a minister use Q1423891) | reverend | [priest](http://wikidata.org/entity/Q42603) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/LVF7D5h9.html" height="800" width="1200" title="LVF7D5h9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LVF7D5h9" height="800" width="1200" title="LVF7D5h9"></iframe>
 
 ## Cross-references
 

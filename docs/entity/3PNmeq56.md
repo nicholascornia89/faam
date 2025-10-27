@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3PNmeq56
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description    | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :------------: | :-----: | :---------------------------------------------------: |
-    | 3PNmeq56  | Filottrano | Italian comune |         | [Filottrano](http://wwww.wikidata.org/entity/Q124029) |
+    | FAAM UUID | label      | description    | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :------------: | :-----: | :----------------------------------------------: |
+    | 3PNmeq56  | Filottrano | Italian comune |         | [Filottrano](http://wikidata.org/entity/Q124029) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3PNmeq56.html" height="800" width="1200" title="3PNmeq56"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3PNmeq56" height="800" width="1200" title="3PNmeq56"></iframe>
 
 ## Identifiers
 

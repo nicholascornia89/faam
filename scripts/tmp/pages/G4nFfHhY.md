@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: G4nFfHhY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/G4nFfHhY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/G4nFfHhY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/G4nFfHhY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/G4nFfHhY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/G4nFfHhY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/G4nFfHhY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Милий_Балакирев.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                    | description                                          | Wikidata QID                                              |
-    | :-------: | :------------: | :------------------------: | :--------------------------------------------------: | :-------------------------------------------------------: |
-    | G4nFfHhY  | Mily Balakirev | Mily Alexeyevich Balakirev | Russian composer, pianist, and conductor (1837-1910) | [Mily Balakirev](http://wwww.wikidata.org/entity/Q185040) |
+    | FAAM UUID | label          | aliases                    | description                                          | Wikidata QID                                         |
+    | :-------: | :------------: | :------------------------: | :--------------------------------------------------: | :--------------------------------------------------: |
+    | G4nFfHhY  | Mily Balakirev | Mily Alexeyevich Balakirev | Russian composer, pianist, and conductor (1837-1910) | [Mily Balakirev](http://wikidata.org/entity/Q185040) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 	- [conductor](./TDF2knmi.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [musicologist](./49CMncTw.md)
 
@@ -61,23 +65,23 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./nt6iNeSy.md)
+	- [Kazan Imperial University](./nt6iNeSy.md)
 
-	- [](./4xi2DgAF.md)
+	- [Nizhny Novgorod Institute of nobility](./4xi2DgAF.md)
 
 ??? quote "employer" 
 
-	- [](./BcyAC8yC.md)
+	- [Saint Petersburg – Warsaw Railway](./BcyAC8yC.md)
 
-	- [](./k4AcFQqP.md)
+	- [Saint Petersburg Court Capella](./k4AcFQqP.md)
 
-	- [](./2p22sJio.md)
+	- [Free Music School](./2p22sJio.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/G4nFfHhY.html" height="800" width="1200" title="G4nFfHhY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/G4nFfHhY" height="800" width="1200" title="G4nFfHhY"></iframe>
 
 ## Identifiers
 
@@ -98,3 +102,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Nikolai Rimsky-Korsakov](./DyTsrwPC.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai_A._Rimsky-Korsakov.jpg){align=left width="150" height="150"} 
+
+	Russian composer (1844–1908)
+
+-	__[Alexandra Rozanova](./n67X6P2Q.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	
+
+</div>

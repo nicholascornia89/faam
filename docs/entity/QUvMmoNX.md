@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QUvMmoNX
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                      | aliases              | Wikidata QID                                                    |
-    | :-------: | :------------------: | :------------------------------: | :------------------: | :-------------------------------------------------------------: |
-    | QUvMmoNX  | Bavarian State Opera | opera company in Munich, Germany | Bavarian State Opera | [Bavarian State Opera](http://wwww.wikidata.org/entity/Q681931) |
+    | FAAM UUID | label                | description                      | aliases              | Wikidata QID                                               |
+    | :-------: | :------------------: | :------------------------------: | :------------------: | :--------------------------------------------------------: |
+    | QUvMmoNX  | Bavarian State Opera | opera company in Munich, Germany | Bavarian State Opera | [Bavarian State Opera](http://wikidata.org/entity/Q681931) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/QUvMmoNX.html" height="800" width="1200" title="QUvMmoNX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QUvMmoNX" height="800" width="1200" title="QUvMmoNX"></iframe>
 
 ## Cross-references
 

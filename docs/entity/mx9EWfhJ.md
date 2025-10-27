@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mx9EWfhJ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mx9EWfhJ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mx9EWfhJ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mx9EWfhJ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mx9EWfhJ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mx9EWfhJ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mx9EWfhJ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Franz_Krommer_passport.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                  | description                              | Wikidata QID                                             |
-    | :-------: | :-----------: | :----------------------: | :--------------------------------------: | :------------------------------------------------------: |
-    | mx9EWfhJ  | Franz Krommer | František Vincenc Kramář | Czech conductor and composer (1759–1831) | [Franz Krommer](http://wwww.wikidata.org/entity/Q698047) |
+    | FAAM UUID | label         | aliases                  | description                              | Wikidata QID                                        |
+    | :-------: | :-----------: | :----------------------: | :--------------------------------------: | :-------------------------------------------------: |
+    | mx9EWfhJ  | Franz Krommer | František Vincenc Kramář | Czech conductor and composer (1759–1831) | [Franz Krommer](http://wikidata.org/entity/Q698047) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/mx9EWfhJ.html" height="800" width="1200" title="mx9EWfhJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mx9EWfhJ" height="800" width="1200" title="mx9EWfhJ"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3QzNPUNY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description             | aliases | Wikidata QID                                             |
-    | :-------: | :----------: | :---------------------: | :-----: | :------------------------------------------------------: |
-    | 3QzNPUNY  | rue Taitbout | street in Paris, France |         | [rue Taitbout](http://wwww.wikidata.org/entity/Q3450116) |
+    | FAAM UUID | label        | description             | aliases | Wikidata QID                                        |
+    | :-------: | :----------: | :---------------------: | :-----: | :-------------------------------------------------: |
+    | 3QzNPUNY  | rue Taitbout | street in Paris, France |         | [rue Taitbout](http://wikidata.org/entity/Q3450116) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3QzNPUNY.html" height="800" width="1200" title="3QzNPUNY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3QzNPUNY" height="800" width="1200" title="3QzNPUNY"></iframe>
 
 ## Identifiers
 

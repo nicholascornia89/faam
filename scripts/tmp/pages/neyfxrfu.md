@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: neyfxrfu
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                  | aliases   | Wikidata QID                                        |
-    | :-------: | :-------: | :--------------------------: | :-------: | :-------------------------------------------------: |
-    | neyfxrfu  | Edinburgh | capital city of Scotland, UK | Edinburgh | [Edinburgh](http://wwww.wikidata.org/entity/Q23436) |
+    | FAAM UUID | label     | description                  | aliases   | Wikidata QID                                   |
+    | :-------: | :-------: | :--------------------------: | :-------: | :--------------------------------------------: |
+    | neyfxrfu  | Edinburgh | capital city of Scotland, UK | Edinburgh | [Edinburgh](http://wikidata.org/entity/Q23436) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/neyfxrfu.html" height="800" width="1200" title="neyfxrfu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/neyfxrfu" height="800" width="1200" title="neyfxrfu"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Alfred Moffat](./gGDDnuWi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Scottish musician and composer
 
 -	__[Niccolo Pasquali](./2qSrGT5p.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian music theorist and composer
 

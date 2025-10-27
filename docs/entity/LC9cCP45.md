@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LC9cCP45
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                              | aliases                                                                             | Wikidata QID                                                         |
-    | :-------: | :------------------------: | :--------------------------------------: | :---------------------------------------------------------------------------------: | :------------------------------------------------------------------: |
-    | LC9cCP45  | University College, Oxford | Constituent College of Oxford University | The Master and Fellows of the College of the Great Hall of the University of Oxford | [University College, Oxford](http://wwww.wikidata.org/entity/Q81087) |
+    | FAAM UUID | label                      | description                              | aliases                                                                             | Wikidata QID                                                    |
+    | :-------: | :------------------------: | :--------------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------------------------------: |
+    | LC9cCP45  | University College, Oxford | Constituent College of Oxford University | The Master and Fellows of the College of the Great Hall of the University of Oxford | [University College, Oxford](http://wikidata.org/entity/Q81087) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./G55Yyhx6.md)
+	[Oxford](./G55Yyhx6.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/LC9cCP45.html" height="800" width="1200" title="LC9cCP45"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LC9cCP45" height="800" width="1200" title="LC9cCP45"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fNrP42Wr
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------------------: | :-----: | :---------: | :----------------------------------: |
-    | fNrP42Wr  | Quem vidistis pastores, LV 359 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                          | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------------------: | :-----: | :---------: | :-----------------------------: |
+    | fNrP42Wr  | Quem vidistis pastores, LV 359 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/fNrP42Wr.html" height="800" width="1200" title="fNrP42Wr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fNrP42Wr" height="800" width="1200" title="fNrP42Wr"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
 
 	
 

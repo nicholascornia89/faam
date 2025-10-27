@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9H8zbxcd
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases         | description                                                     | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
-    | 9H8zbxcd  | The Bartered Bride | Prodaná nevěsta | comic opera in three acts by the Czech composer Bedřich Smetana | [The Bartered Bride](http://wwww.wikidata.org/entity/Q907745) |
+    | FAAM UUID | label              | aliases         | description                                                     | Wikidata QID                                             |
+    | :-------: | :----------------: | :-------------: | :-------------------------------------------------------------: | :------------------------------------------------------: |
+    | 9H8zbxcd  | The Bartered Bride | Prodaná nevěsta | comic opera in three acts by the Czech composer Bedřich Smetana | [The Bartered Bride](http://wikidata.org/entity/Q907745) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/9H8zbxcd.html" height="800" width="1200" title="9H8zbxcd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9H8zbxcd" height="800" width="1200" title="9H8zbxcd"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Die verkaufte Braut : komische Oper in drei Akten](./JHKHS92V.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901708260.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901708260.gif){align=left width="150" height="150"} 
 
 	
 

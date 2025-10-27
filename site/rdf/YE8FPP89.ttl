@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YE8FPP89 a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "physical object that in Japanese is counted with the 本 counter"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q113519195>,
+        "0"^^xsd:string,
+        "YE8FPP89"^^xsd:string ;
+    skos:altLabel "thin, long object"^^xsd:string ;
+    skos:prefLabel "long, thin object"^^xsd:string .
+

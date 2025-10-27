@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7chXDzuR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                             | aliases | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :-------------------------------------: | :-----: | :-------------------------------------------------------------: |
-    | 7chXDzuR  | Quartier de l'Odéon | administrative quarter in Paris, France | Odeon   | [Quartier de l'Odéon](http://wwww.wikidata.org/entity/Q3413185) |
+    | FAAM UUID | label               | description                             | aliases | Wikidata QID                                               |
+    | :-------: | :-----------------: | :-------------------------------------: | :-----: | :--------------------------------------------------------: |
+    | 7chXDzuR  | Quartier de l'Odéon | administrative quarter in Paris, France | Odeon   | [Quartier de l'Odéon](http://wikidata.org/entity/Q3413185) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7chXDzuR.html" height="800" width="1200" title="7chXDzuR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7chXDzuR" height="800" width="1200" title="7chXDzuR"></iframe>
 
 ## Identifiers
 

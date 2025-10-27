@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aMHPuLSn
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                    | aliases    | Wikidata QID                                          |
-    | :-------: | :--------: | :----------------------------------------------------------------------------: | :--------: | :---------------------------------------------------: |
-    | aMHPuLSn  | pianissimo | term used in musical notation to indicate a very low degree of sound intensity | pianissimo | [pianissimo](http://wwww.wikidata.org/entity/Q953127) |
+    | FAAM UUID | label      | description                                                                    | aliases    | Wikidata QID                                     |
+    | :-------: | :--------: | :----------------------------------------------------------------------------: | :--------: | :----------------------------------------------: |
+    | aMHPuLSn  | pianissimo | term used in musical notation to indicate a very low degree of sound intensity | pianissimo | [pianissimo](http://wikidata.org/entity/Q953127) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/aMHPuLSn.html" height="800" width="1200" title="aMHPuLSn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aMHPuLSn" height="800" width="1200" title="aMHPuLSn"></iframe>
 
 ## Cross-references
 

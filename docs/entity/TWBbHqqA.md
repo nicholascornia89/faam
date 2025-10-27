@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TWBbHqqA
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                            | aliases | Wikidata QID                                                  |
-    | :-------: | :----------------: | :----------------------------------------------------: | :-----: | :-----------------------------------------------------------: |
-    | TWBbHqqA  | Kingdom of Ireland | kingdom on the island of Ireland between 1542 and 1801 | Ireland | [Kingdom of Ireland](http://wwww.wikidata.org/entity/Q215530) |
+    | FAAM UUID | label              | description                                            | aliases | Wikidata QID                                             |
+    | :-------: | :----------------: | :----------------------------------------------------: | :-----: | :------------------------------------------------------: |
+    | TWBbHqqA  | Kingdom of Ireland | kingdom on the island of Ireland between 1542 and 1801 | Ireland | [Kingdom of Ireland](http://wikidata.org/entity/Q215530) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/TWBbHqqA.html" height="800" width="1200" title="TWBbHqqA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TWBbHqqA" height="800" width="1200" title="TWBbHqqA"></iframe>
 
 ## Identifiers
 

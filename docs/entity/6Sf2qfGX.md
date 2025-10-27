@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6Sf2qfGX
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description              | aliases     | Wikidata QID                                               |
-    | :-------: | :-------------: | :----------------------: | :---------: | :--------------------------------------------------------: |
-    | 6Sf2qfGX  | Saint-Hippolyte | commune in Doubs, France | Doubs-Marat | [Saint-Hippolyte](http://wwww.wikidata.org/entity/Q841403) |
+    | FAAM UUID | label           | description              | aliases     | Wikidata QID                                          |
+    | :-------: | :-------------: | :----------------------: | :---------: | :---------------------------------------------------: |
+    | 6Sf2qfGX  | Saint-Hippolyte | commune in Doubs, France | Doubs-Marat | [Saint-Hippolyte](http://wikidata.org/entity/Q841403) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/6Sf2qfGX.html" height="800" width="1200" title="6Sf2qfGX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6Sf2qfGX" height="800" width="1200" title="6Sf2qfGX"></iframe>
 
 ## Identifiers
 

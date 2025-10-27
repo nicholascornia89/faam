@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NeLYGWBM
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases    | description                                  | Wikidata QID                                           |
-    | :-------: | :--------: | :--------: | :------------------------------------------: | :----------------------------------------------------: |
-    | NeLYGWBM  | Le philtre | Le philtre | French opera by Daniel-François-Esprit Auber | [Le philtre](http://wwww.wikidata.org/entity/Q5972139) |
+    | FAAM UUID | label      | aliases    | description                                  | Wikidata QID                                      |
+    | :-------: | :--------: | :--------: | :------------------------------------------: | :-----------------------------------------------: |
+    | NeLYGWBM  | Le philtre | Le philtre | French opera by Daniel-François-Esprit Auber | [Le philtre](http://wikidata.org/entity/Q5972139) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./ZiSme3ZG.md)
+	- [Il filtro](./ZiSme3ZG.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/NeLYGWBM.html" height="800" width="1200" title="NeLYGWBM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NeLYGWBM" height="800" width="1200" title="NeLYGWBM"></iframe>
 
 ## Identifiers
 

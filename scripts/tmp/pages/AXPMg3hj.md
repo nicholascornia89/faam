@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AXPMg3hj
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                               | aliases       | Wikidata QID                                               |
-    | :-------: | :------------: | :-----------------------------------------------------------------------: | :-----------: | :--------------------------------------------------------: |
-    | AXPMg3hj  | pedal keyboard | musical keyboard played with the feet, usually used for low-pitched notes | pedal clavier | [pedal keyboard](http://wwww.wikidata.org/entity/Q1758965) |
+    | FAAM UUID | label          | description                                                               | aliases       | Wikidata QID                                          |
+    | :-------: | :------------: | :-----------------------------------------------------------------------: | :-----------: | :---------------------------------------------------: |
+    | AXPMg3hj  | pedal keyboard | musical keyboard played with the feet, usually used for low-pitched notes | pedal clavier | [pedal keyboard](http://wikidata.org/entity/Q1758965) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/AXPMg3hj.html" height="800" width="1200" title="AXPMg3hj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AXPMg3hj" height="800" width="1200" title="AXPMg3hj"></iframe>
 
 ## Cross-references
 
@@ -59,19 +63,19 @@ tags: annotation_type
 
 -	__[Huit petits préludes et fugues, trois préludes, neuf fugues, cinq fantaisies](./C7MaY9BP.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902707634.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902707634.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphonic fantasy : (based on an Easter Plainsong), op. 13](./HukqvpyP.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903081898.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903081898.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate : n° IV a moll: für Orgel, op. 98](./BGXtCZJb.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127948.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127948.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jbiyognV
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                              | aliases         | Wikidata QID                                               |
-    | :-------: | :-------------: | :--------------------------------------: | :-------------: | :--------------------------------------------------------: |
-    | jbiyognV  | music of France | overview of musical traditions in France | music in France | [music of France](http://wwww.wikidata.org/entity/Q672134) |
+    | FAAM UUID | label           | description                              | aliases         | Wikidata QID                                          |
+    | :-------: | :-------------: | :--------------------------------------: | :-------------: | :---------------------------------------------------: |
+    | jbiyognV  | music of France | overview of musical traditions in France | music in France | [music of France](http://wikidata.org/entity/Q672134) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/jbiyognV.html" height="800" width="1200" title="jbiyognV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jbiyognV" height="800" width="1200" title="jbiyognV"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Échos du temps passé.](./eiDYWXvf.md)__
 
-	![Image](../assets/images/thumbs/UTL-978130914.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/UTL-978130914.gif){align=left width="150" height="150"} 
 
 	
 

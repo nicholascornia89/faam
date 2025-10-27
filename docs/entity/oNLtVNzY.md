@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oNLtVNzY
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                        | aliases | Wikidata QID                                               |
-    | :-------: | :------------: | :------------------------------------------------: | :-----: | :--------------------------------------------------------: |
-    | oNLtVNzY  | anthropologist | person with an extensive knowledge of anthropology |         | [anthropologist](http://wwww.wikidata.org/entity/Q4773904) |
+    | FAAM UUID | label          | description                                        | aliases | Wikidata QID                                          |
+    | :-------: | :------------: | :------------------------------------------------: | :-----: | :---------------------------------------------------: |
+    | oNLtVNzY  | anthropologist | person with an extensive knowledge of anthropology |         | [anthropologist](http://wikidata.org/entity/Q4773904) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/oNLtVNzY.html" height="800" width="1200" title="oNLtVNzY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oNLtVNzY" height="800" width="1200" title="oNLtVNzY"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[François Bernier](./KKvERxRE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French physician and traveller
 

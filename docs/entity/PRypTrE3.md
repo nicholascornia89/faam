@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PRypTrE3
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                               | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :-------------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | PRypTrE3  | Waco  | city in and seat of McLennan County, Texas, United States | Waco    | [Waco](http://wwww.wikidata.org/entity/Q128244) |
+    | FAAM UUID | label | description                                               | aliases | Wikidata QID                               |
+    | :-------: | :---: | :-------------------------------------------------------: | :-----: | :----------------------------------------: |
+    | PRypTrE3  | Waco  | city in and seat of McLennan County, Texas, United States | Waco    | [Waco](http://wikidata.org/entity/Q128244) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/PRypTrE3.html" height="800" width="1200" title="PRypTrE3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PRypTrE3" height="800" width="1200" title="PRypTrE3"></iframe>
 
 ## Identifiers
 

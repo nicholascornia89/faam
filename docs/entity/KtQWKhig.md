@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KtQWKhig
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description              | aliases       | Wikidata QID                                        |
-    | :-------: | :------: | :----------------------: | :-----------: | :-------------------------------------------------: |
-    | KtQWKhig  | Endenich | quarter of Bonn, Germany | Bonn-Endenich | [Endenich](http://wwww.wikidata.org/entity/Q153759) |
+    | FAAM UUID | label    | description              | aliases       | Wikidata QID                                   |
+    | :-------: | :------: | :----------------------: | :-----------: | :--------------------------------------------: |
+    | KtQWKhig  | Endenich | quarter of Bonn, Germany | Bonn-Endenich | [Endenich](http://wikidata.org/entity/Q153759) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/KtQWKhig.html" height="800" width="1200" title="KtQWKhig"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KtQWKhig" height="800" width="1200" title="KtQWKhig"></iframe>
 
 ## Identifiers
 

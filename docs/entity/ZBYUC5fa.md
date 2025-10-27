@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZBYUC5fa
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ZBYUC5fa.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ZBYUC5fa.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ZBYUC5fa.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ZBYUC5fa.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ZBYUC5fa.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ZBYUC5fa.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August_Wilhelmj.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                  | Wikidata QID                                              |
-    | :-------: | :-------------: | :-------------: | :--------------------------: | :-------------------------------------------------------: |
-    | ZBYUC5fa  | August Wilhelmj | August Wilhelmy | German violinist (1845–1908) | [August Wilhelmj](http://wwww.wikidata.org/entity/Q69376) |
+    | FAAM UUID | label           | aliases         | description                  | Wikidata QID                                         |
+    | :-------: | :-------------: | :-------------: | :--------------------------: | :--------------------------------------------------: |
+    | ZBYUC5fa  | August Wilhelmj | August Wilhelmy | German violinist (1845–1908) | [August Wilhelmj](http://wikidata.org/entity/Q69376) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ZBYUC5fa.html" height="800" width="1200" title="ZBYUC5fa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZBYUC5fa" height="800" width="1200" title="ZBYUC5fa"></iframe>
 
 ## Identifiers
 
@@ -85,14 +89,26 @@ tags: agent
 
 -	__[Notturno Op. 37, Nr. 1 : für Violine und Orchester](./Wh7uVMCy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904862957.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904862957.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Andante e scherzo capriccioso, op. 16](./AWoQ5Jp7.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076933339707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076933339707356.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Andante and Scherzo capriccioso, Op.16](./CCKvSYB5.md)__
+
+	
+
+-	__[Nocturne No. 11 in G minor, Op. 37, No. 1](./VPpfnfBz.md)__
+
+	composition by Chopin
 
 </div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eME3yXnk
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases | description | Wikidata QID                         |
-    | :-------: | :--------------------: | :-----: | :---------: | :----------------------------------: |
-    | eME3yXnk  | Festpraëludium, Op. 38 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                  | aliases | description | Wikidata QID                    |
+    | :-------: | :--------------------: | :-----: | :---------: | :-----------------------------: |
+    | eME3yXnk  | Festpraëludium, Op. 38 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/eME3yXnk.html" height="800" width="1200" title="eME3yXnk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eME3yXnk" height="800" width="1200" title="eME3yXnk"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Festpräludium : zu dem Choral "Ein' feste Burg ist unser Gott": für die Orgel, op. 38](./JrXChdhy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127666.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127666.gif){align=left width="150" height="150"} 
 
 	
 

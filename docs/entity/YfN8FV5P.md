@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YfN8FV5P
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description     | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :-------------: | :-----: | :--------------------------------------------: |
-    | YfN8FV5P  | Wesel | city in Germany |         | [Wesel](http://wwww.wikidata.org/entity/Q4011) |
+    | FAAM UUID | label | description     | aliases | Wikidata QID                              |
+    | :-------: | :---: | :-------------: | :-----: | :---------------------------------------: |
+    | YfN8FV5P  | Wesel | city in Germany |         | [Wesel](http://wikidata.org/entity/Q4011) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YfN8FV5P.html" height="800" width="1200" title="YfN8FV5P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YfN8FV5P" height="800" width="1200" title="YfN8FV5P"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Theodor de Witt](./muPeVVwX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician and editor
 

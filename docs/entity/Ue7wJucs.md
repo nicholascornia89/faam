@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ue7wJucs
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                               | aliases | Wikidata QID                                  |
-    | :-------: | :---: | :---------------------------------------: | :-----: | :-------------------------------------------: |
-    | Ue7wJucs  | Zug   | capital of the canton of Zug, Switzerland | Zug, ZG | [Zug](http://wwww.wikidata.org/entity/Q68144) |
+    | FAAM UUID | label | description                               | aliases | Wikidata QID                             |
+    | :-------: | :---: | :---------------------------------------: | :-----: | :--------------------------------------: |
+    | Ue7wJucs  | Zug   | capital of the canton of Zug, Switzerland | Zug, ZG | [Zug](http://wikidata.org/entity/Q68144) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Ue7wJucs.html" height="800" width="1200" title="Ue7wJucs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ue7wJucs" height="800" width="1200" title="Ue7wJucs"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gjVYGcEQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description               | aliases         | Wikidata QID                                    |
-    | :-------: | :-----: | :-----------------------: | :-------------: | :---------------------------------------------: |
-    | gjVYGcEQ  | Bergamo | comune in Lombardy, Italy | City of Bergamo | [Bergamo](http://wwww.wikidata.org/entity/Q628) |
+    | FAAM UUID | label   | description               | aliases         | Wikidata QID                               |
+    | :-------: | :-----: | :-----------------------: | :-------------: | :----------------------------------------: |
+    | gjVYGcEQ  | Bergamo | comune in Lombardy, Italy | City of Bergamo | [Bergamo](http://wikidata.org/entity/Q628) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gjVYGcEQ.html" height="800" width="1200" title="gjVYGcEQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gjVYGcEQ" height="800" width="1200" title="gjVYGcEQ"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Gaetano Donizetti](./Zh2b6vBQ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fotoreproductie_van_Gaetano_Donizetti.png){align=left width="150" height="150"} 
 
 	Italian opera composer (1797–1848)
 
@@ -85,13 +89,13 @@ tags: city
 
 -	__[Gaetano Donizetti](./Zh2b6vBQ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fotoreproductie_van_Gaetano_Donizetti.png){align=left width="150" height="150"} 
 
 	Italian opera composer (1797–1848)
 
 -	__[Hoste da Reggio](./ccZ9WqmM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -103,7 +107,7 @@ tags: city
 
 -	__[Giovanni Battista Bassani](./bTS8wpNY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, violinist and organist
 

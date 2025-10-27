@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kY3cFr77
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                            | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :------------------------------------: | :-----: | :-----------------------------------------------: |
-    | kY3cFr77  | Lützen | municipality of Saxony-Anhalt, Germany | Lytzen  | [Lützen](http://wwww.wikidata.org/entity/Q517174) |
+    | FAAM UUID | label  | description                            | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :------------------------------------: | :-----: | :------------------------------------------: |
+    | kY3cFr77  | Lützen | municipality of Saxony-Anhalt, Germany | Lytzen  | [Lützen](http://wikidata.org/entity/Q517174) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/kY3cFr77.html" height="800" width="1200" title="kY3cFr77"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kY3cFr77" height="800" width="1200" title="kY3cFr77"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Ernst Wilhelm Fritsch](./UeTdWiXH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1840-1902)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 72jp5dwD
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                            | description                            | Wikidata QID                                                                  |
-    | :-------: | :-------------------------------: | :--------------------------------: | :------------------------------------: | :---------------------------------------------------------------------------: |
-    | 72jp5dwD  | Violin Concerto in D major, Op.61 | Violin Concerto in D major, Op. 61 | concerto composed by Beethoven in 1806 | [Violin Concerto in D major, Op. 61](http://wwww.wikidata.org/entity/Q787378) |
+    | FAAM UUID | label                             | aliases                            | description                            | Wikidata QID                                                             |
+    | :-------: | :-------------------------------: | :--------------------------------: | :------------------------------------: | :----------------------------------------------------------------------: |
+    | 72jp5dwD  | Violin Concerto in D major, Op.61 | Violin Concerto in D major, Op. 61 | concerto composed by Beethoven in 1806 | [Violin Concerto in D major, Op. 61](http://wikidata.org/entity/Q787378) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/72jp5dwD.html" height="800" width="1200" title="72jp5dwD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/72jp5dwD" height="800" width="1200" title="72jp5dwD"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Concerto : pour le Violon avec Accompagnement d'Orchestre ou de Piano : Op. 61.](./Rh2JVB5Q.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333153.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333153.gif){align=left width="150" height="150"} 
 
 	
 

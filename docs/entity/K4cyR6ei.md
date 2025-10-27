@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: K4cyR6ei
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description                              | aliases                          | Wikidata QID                                                              |
-    | :-------: | :----------------------------: | :--------------------------------------: | :------------------------------: | :-----------------------------------------------------------------------: |
-    | K4cyR6ei  | Royal Conservatory of Brussels | former conservatory in Brussels, Belgium | Conservatoire royal de Bruxelles | [Royal Conservatory of Brussels](http://wwww.wikidata.org/entity/Q336968) |
+    | FAAM UUID | label                          | description                              | aliases                          | Wikidata QID                                                         |
+    | :-------: | :----------------------------: | :--------------------------------------: | :------------------------------: | :------------------------------------------------------------------: |
+    | K4cyR6ei  | Royal Conservatory of Brussels | former conservatory in Brussels, Belgium | Conservatoire royal de Bruxelles | [Royal Conservatory of Brussels](http://wikidata.org/entity/Q336968) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/K4cyR6ei.html" height="800" width="1200" title="K4cyR6ei"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/K4cyR6ei" height="800" width="1200" title="K4cyR6ei"></iframe>
 
 ## Cross-references
 
@@ -55,25 +59,25 @@ tags: music_organization
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
 -	__[Paul de Maleingreau](./7qDtgfx5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French/Belgian organist (1887-1956)
 
 -	__[Mario van Overeem](./GzWH52Di.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch composer and music educator
 
 -	__[Raymond Moulaert](./brhsLAa9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and musicologist (1875–1962)
 
@@ -97,7 +101,7 @@ tags: music_organization
 
 -	__[Hélène Dinsart](./GgyGnGfG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and music educator
 
@@ -145,13 +149,13 @@ tags: music_organization
 
 -	__[Jacques-Nicolas Lemmens](./6gSjvNTk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1823–1881)
 
 -	__[Henri Vieuxtemps](./dQpy5hbT.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vieuxtemps.jpeg){align=left width="150" height="150"} 
 
 	Belgian violinist and composer (1820-1881)
 
@@ -175,7 +179,7 @@ tags: music_organization
 
 -	__[Henri Warnots](./GcetycJn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian operatic tenor and academic
 
@@ -205,25 +209,25 @@ tags: music_organization
 
 -	__[Andre Robberechts](./NtFF6WaB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1797–1860)
 
 -	__[Auguste Dupont](./DaYLi8Qk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and composer (1827-1890)
 
 -	__[Pierre François Riga](./gnZXWv4y.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1831-1892)
 
 -	__[Paul de Maleingreau](./7qDtgfx5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French/Belgian organist (1887-1956)
 
@@ -235,7 +239,7 @@ tags: music_organization
 
 -	__[Raymond Moulaert](./brhsLAa9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and musicologist (1875–1962)
 
@@ -253,7 +257,7 @@ tags: music_organization
 
 -	__[Joseph Callaerts](./j6DV8zaS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian organist and composer (1830–1901)
 
@@ -301,7 +305,7 @@ tags: music_organization
 
 -	__[Jacques-Nicolas Lemmens](./6gSjvNTk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1823–1881)
 
@@ -319,7 +323,7 @@ tags: music_organization
 
 -	__[Alfred Wotquenne](./XwGbhihp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian music librarian (1867–1939)
 
@@ -331,7 +335,7 @@ tags: music_organization
 
 -	__[Rosalie Huyghe-Bosman](./3fWwPrfr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian operatic singer
 
@@ -343,7 +347,7 @@ tags: music_organization
 
 -	__[Émile Wambach](./AedSA8fV.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Emile_Wambach_1913.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Wambach_1913.jpg){align=left width="150" height="150"} 
 
 	Belgian conductor, composer, musicologist and music educator (1854-1924)
 
@@ -367,7 +371,7 @@ tags: music_organization
 
 -	__[Aimée Van de Wiele](./Qj6RwzVa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, musicologist and music educator (1907–1991)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: A43szu5o
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/A43szu5o.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/A43szu5o.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/A43szu5o.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/A43szu5o.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/A43szu5o.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/A43szu5o.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henri_Bertini.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases              | description                 | Wikidata QID                                              |
-    | :-------: | :-----------: | :------------------: | :-------------------------: | :-------------------------------------------------------: |
-    | A43szu5o  | Henri Bertini | Henri Jérôme Bertini | French composer (1798-1876) | [Henri Bertini](http://wwww.wikidata.org/entity/Q1337541) |
+    | FAAM UUID | label         | aliases              | description                 | Wikidata QID                                         |
+    | :-------: | :-----------: | :------------------: | :-------------------------: | :--------------------------------------------------: |
+    | A43szu5o  | Henri Bertini | Henri Jérôme Bertini | French composer (1798-1876) | [Henri Bertini](http://wikidata.org/entity/Q1337541) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/A43szu5o.html" height="800" width="1200" title="A43szu5o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/A43szu5o" height="800" width="1200" title="A43szu5o"></iframe>
 
 ## Identifiers
 
@@ -81,25 +85,45 @@ tags: agent
 
 -	__[1er Sextuor : Pour Piano Forte, 2 Violons, Alto, Violoncelle et Contrebasse : Opera 79](./ZJ3kGktM.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334849.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334849.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[2e Grand Sextuor : pour Piano-Forte, 2 Violons, Alto, Violoncelle et Contre Basse : Op. 85](./QfYr3xJs.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334850.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334850.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[3e Sextuor : pour Piano, 2 Violons, Alto, Violonclle. et Contre Basse : Op. 90](./mTTA2Pu2.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334852.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334852.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[5e. Sextuor : pour Piano, Violon, 2 Altos, Violoncelle et Contrebasse : Op: 124.](./ZwB3hem7.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334854.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334854.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Piano Sextet No.5, Op.124](./2vVsPaes.md)__
+
+	
+
+-	__[Piano Sextet No.3, Op.90](./bdEc7Ucq.md)__
+
+	
+
+-	__[Piano Sextet No.2, Op.85](./R8qudHL4.md)__
+
+	
+
+-	__[Piano Sextet No.1, Op.79](./XnoHQntY.md)__
 
 	
 

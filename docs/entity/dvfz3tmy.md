@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dvfz3tmy
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                             | aliases               | Wikidata QID                                      |
-    | :-------: | :----: | :-----------------------------------------------------: | :-------------------: | :-----------------------------------------------: |
-    | dvfz3tmy  | Exeter | town in Rockingham County, New Hampshire, United States | Exeter, New Hampshire | [Exeter](http://wwww.wikidata.org/entity/Q990504) |
+    | FAAM UUID | label  | description                                             | aliases               | Wikidata QID                                 |
+    | :-------: | :----: | :-----------------------------------------------------: | :-------------------: | :------------------------------------------: |
+    | dvfz3tmy  | Exeter | town in Rockingham County, New Hampshire, United States | Exeter, New Hampshire | [Exeter](http://wikidata.org/entity/Q990504) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dvfz3tmy.html" height="800" width="1200" title="dvfz3tmy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dvfz3tmy" height="800" width="1200" title="dvfz3tmy"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: g3FMFoiZ
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                               | aliases       | Wikidata QID                                           |
-    | :-------: | :--------: | :---------------------------------------: | :-----------: | :----------------------------------------------------: |
-    | g3FMFoiZ  | voice type | group of voices with similar vocal ranges | type of voice | [voice type](http://wwww.wikidata.org/entity/Q1063547) |
+    | FAAM UUID | label      | description                               | aliases       | Wikidata QID                                      |
+    | :-------: | :--------: | :---------------------------------------: | :-----------: | :-----------------------------------------------: |
+    | g3FMFoiZ  | voice type | group of voices with similar vocal ranges | type of voice | [voice type](http://wikidata.org/entity/Q1063547) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/g3FMFoiZ.html" height="800" width="1200" title="g3FMFoiZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/g3FMFoiZ" height="800" width="1200" title="g3FMFoiZ"></iframe>
 
 ## Cross-references
 

@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "fiWxEeqn", "label": "United States of America", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fiWxEeqn.md\u0027\u003eUnited States of America\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry located primarily in North America\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CUN9XcXb", "label": "Chicago", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CUN9XcXb.md\u0027\u003eChicago\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and county seat of Cook County, and largest city in State of Illinois, United States of America\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LgSx2Az3", "label": "Felix Borowski", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LgSx2Az3.md\u0027\u003eFelix Borowski\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAmerican composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Prince_of_Wales_(on_front)_Felix_Borowski_(on_back),_Treasury_Dept._(.)_Committee_LCCN2016824636.tif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "fiWxEeqn", "to": "CUN9XcXb", "width": 10}, {"from": "fiWxEeqn", "to": "LgSx2Az3", "width": 10}, {"from": "LgSx2Az3", "to": "CUN9XcXb", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CUN9XcXb", "label": "Chicago", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CUN9XcXb\u0027\u003eChicago\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and county seat of Cook County, and largest city in State of Illinois, United States of America\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "fiWxEeqn", "label": "United States of America", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fiWxEeqn\u0027\u003eUnited States of America\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry located primarily in North America\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LgSx2Az3", "label": "Felix Borowski", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LgSx2Az3\u0027\u003eFelix Borowski\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAmerican composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Prince_of_Wales_(on_front)_Felix_Borowski_(on_back),_Treasury_Dept._(.)_Committee_LCCN2016824636.tif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "CUN9XcXb", "to": "fiWxEeqn", "width": 10}, {"from": "CUN9XcXb", "to": "LgSx2Az3", "width": 10}, {"from": "fiWxEeqn", "to": "LgSx2Az3", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

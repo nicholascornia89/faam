@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LcQfY4Tm
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                 | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------------------: | :-----: | :------------------------------------------------: |
-    | LcQfY4Tm  | Cabourg | commune in Calvados, France |         | [Cabourg](http://wwww.wikidata.org/entity/Q202445) |
+    | FAAM UUID | label   | description                 | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------------------: | :-----: | :-------------------------------------------: |
+    | LcQfY4Tm  | Cabourg | commune in Calvados, France |         | [Cabourg](http://wikidata.org/entity/Q202445) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LcQfY4Tm.html" height="800" width="1200" title="LcQfY4Tm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LcQfY4Tm" height="800" width="1200" title="LcQfY4Tm"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Charles Levadé](./V6W5MAQr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1869-1948)
 

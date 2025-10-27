@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VUaK3uKe
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description    | aliases | Wikidata QID                                       |
-    | :-------: | :------: | :------------: | :-----: | :------------------------------------------------: |
-    | VUaK3uKe  | Altamura | Italian comune |         | [Altamura](http://wwww.wikidata.org/entity/Q19306) |
+    | FAAM UUID | label    | description    | aliases | Wikidata QID                                  |
+    | :-------: | :------: | :------------: | :-----: | :-------------------------------------------: |
+    | VUaK3uKe  | Altamura | Italian comune |         | [Altamura](http://wikidata.org/entity/Q19306) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/VUaK3uKe.html" height="800" width="1200" title="VUaK3uKe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VUaK3uKe" height="800" width="1200" title="VUaK3uKe"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Saverio Mercadante](./kv4NyzvW.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6c/Saverio_Mercadante_by_Andrea_Cefaly.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Saverio_Mercadante_by_Andrea_Cefaly.jpg){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Vincenzo Lavigna](./biGnSXZs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

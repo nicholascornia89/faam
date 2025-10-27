@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HoB4yjmg
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description     | aliases | Wikidata QID                                        |
-    | :-------: | :-----: | :-------------: | :-----: | :-------------------------------------------------: |
-    | HoB4yjmg  | Polička | town in Czechia |         | [Polička](http://wwww.wikidata.org/entity/Q1013914) |
+    | FAAM UUID | label   | description     | aliases | Wikidata QID                                   |
+    | :-------: | :-----: | :-------------: | :-----: | :--------------------------------------------: |
+    | HoB4yjmg  | Polička | town in Czechia |         | [Polička](http://wikidata.org/entity/Q1013914) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HoB4yjmg.html" height="800" width="1200" title="HoB4yjmg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HoB4yjmg" height="800" width="1200" title="HoB4yjmg"></iframe>
 
 ## Identifiers
 

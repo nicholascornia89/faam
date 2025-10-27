@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fjsWup6W a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GecAsFfL ;
+    schema1:description "Sonatas for bass viol composed by J.S. Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1492892>,
+        "16002438"^^xsd:string,
+        "fjsWup6W"^^xsd:string ;
+    skos:altLabel "3 Sonatas for Viola da Gamba and Harpsichord"^^xsd:string,
+        "BWV 1027-1029"^^xsd:string,
+        "Viola da Gamba Sonatas (BWV 1027-1029)"^^xsd:string ;
+    skos:prefLabel "Viola da Gamba Sonatas, BWV 1027-1029"^^xsd:string ;
+    wd:P5202 faamentity:2Sh2rJhV ;
+    wd:P7937 faamentity:RtkoMT89 ;
+    wd:P839 <https://imslp.org/wiki/3_Sonatas_for_Viola_da_Gamba_and_Harpsichord,_BWV_1027-1029_(Bach,_Johann_Sebastian)> .
+

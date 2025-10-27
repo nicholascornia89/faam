@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PXATkgoR
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description                                                       | Wikidata QID                                                       |
-    | :-------: | :------------------: | :------------------: | :---------------------------------------------------------------: | :----------------------------------------------------------------: |
-    | PXATkgoR  | Missa la dolce vista | Missa la dolce vista | parody mass by Philippe de Monte based on the homonymous madrigal | [Missa la dolce vista](http://wwww.wikidata.org/entity/Q125397974) |
+    | FAAM UUID | label                | aliases              | description                                                       | Wikidata QID                                                  |
+    | :-------: | :------------------: | :------------------: | :---------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | PXATkgoR  | Missa la dolce vista | Missa la dolce vista | parody mass by Philippe de Monte based on the homonymous madrigal | [Missa la dolce vista](http://wikidata.org/entity/Q125397974) |
 
 <br><br><br>
 
@@ -41,13 +45,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./E8BR3L5R.md)
+	- [La dolce vista, che da gli occhi move](./E8BR3L5R.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/PXATkgoR.html" height="800" width="1200" title="PXATkgoR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PXATkgoR" height="800" width="1200" title="PXATkgoR"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Missa La dolce Vista. Quam octo vocibus conscriptam / Monte, de, Philippus. - Brugge , 1930](./JqH5WZiK.md)__
 
-	![Image](../assets/images/thumbs/KCA-KM165637.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KM165637.gif){align=left width="150" height="150"} 
 
 	
 

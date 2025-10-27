@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QUvMmoNX a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "opera company in Munich, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q681931>,
+        "15991024"^^xsd:string,
+        "QUvMmoNX"^^xsd:string ;
+    schema1:location faamentity:CTNhzr7a ;
+    skos:altLabel "Bavarian State Opera"^^xsd:string ;
+    skos:prefLabel "Bavarian State Opera"^^xsd:string .
+

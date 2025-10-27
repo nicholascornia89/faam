@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9GgagTV8
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/9GgagTV8.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/9GgagTV8.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/9GgagTV8.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/9GgagTV8.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/9GgagTV8.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/9GgagTV8.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Battaille_Charles-Amable.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases          | description         | Wikidata QID                                                          |
-    | :-------: | :----------------------: | :--------------: | :-----------------: | :-------------------------------------------------------------------: |
-    | 9GgagTV8  | Charles-Amable Battaille | Charles Bataille | French opera singer | [Charles-Amable Battaille](http://wwww.wikidata.org/entity/Q19973555) |
+    | FAAM UUID | label                    | aliases          | description         | Wikidata QID                                                     |
+    | :-------: | :----------------------: | :--------------: | :-----------------: | :--------------------------------------------------------------: |
+    | 9GgagTV8  | Charles-Amable Battaille | Charles Bataille | French opera singer | [Charles-Amable Battaille](http://wikidata.org/entity/Q19973555) |
 
 <br><br><br>
 
@@ -53,9 +57,9 @@ tags: agent
 
 	- [Conservatoire National Supérieur de Musique et de Danse](./XED8Jehz.md)
 
-	- [](./DAx3f6d2.md)
+	- [École de médecine de Nantes](./DAx3f6d2.md)
 
-	- [](./c37RpzUM.md)
+	- [Paris Medical Faculty](./c37RpzUM.md)
 
 ??? quote "employer" 
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/9GgagTV8.html" height="800" width="1200" title="9GgagTV8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9GgagTV8" height="800" width="1200" title="9GgagTV8"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Julia Sureau-Bellet](./VAotUxhx.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French composer
+
+</div>

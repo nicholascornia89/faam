@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FtVbBQmi
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FtVbBQmi.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FtVbBQmi.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FtVbBQmi.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FtVbBQmi.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FtVbBQmi.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FtVbBQmi.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Theodor_W._Adorno.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                    | description                                              | Wikidata QID                                                 |
-    | :-------: | :---------------: | :------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
-    | FtVbBQmi  | Theodor W. Adorno | Theodor Wiesengrund Adorno | German philosopher, sociologist and theorist (1903–1969) | [Theodor W. Adorno](http://wwww.wikidata.org/entity/Q152388) |
+    | FAAM UUID | label             | aliases                    | description                                              | Wikidata QID                                            |
+    | :-------: | :---------------: | :------------------------: | :------------------------------------------------------: | :-----------------------------------------------------: |
+    | FtVbBQmi  | Theodor W. Adorno | Theodor Wiesengrund Adorno | German philosopher, sociologist and theorist (1903–1969) | [Theodor W. Adorno](http://wikidata.org/entity/Q152388) |
 
 <br><br><br>
 
@@ -47,29 +51,29 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./6pfzESag.md)
+	- [philosopher](./6pfzESag.md)
 
 	- [composer](./5aTYuVxp.md)
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./ndVT7GD6.md)
+	- [sociologist](./ndVT7GD6.md)
 
 	- [university teacher](./XWcaJQty.md)
 
 	- [literary critic](./ZRPRu8Sj.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
-	- [](./2QMV3tUK.md)
+	- [aphorist](./2QMV3tUK.md)
 
 	- [pianist](./T6nAVeGM.md)
 
 	- [writer](./YrCfZ8vh.md)
 
-	- [](./7gB5KWyy.md)
+	- [academic](./7gB5KWyy.md)
 
-	- [](./XyUL654N.md)
+	- [aesthetician](./XyUL654N.md)
 
 ??? quote "educated at" 
 
@@ -85,7 +89,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/FtVbBQmi.html" height="800" width="1200" title="FtVbBQmi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FtVbBQmi" height="800" width="1200" title="FtVbBQmi"></iframe>
 
 ## Identifiers
 

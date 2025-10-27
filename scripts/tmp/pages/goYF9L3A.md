@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: goYF9L3A
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                        | aliases | Wikidata QID                                        |
-    | :-------: | :---------: | :--------------------------------: | :-----: | :-------------------------------------------------: |
-    | goYF9L3A  | Ludwigsburg | city in Baden-Württemberg, Germany |         | [Ludwigsburg](http://wwww.wikidata.org/entity/Q622) |
+    | FAAM UUID | label       | description                        | aliases | Wikidata QID                                   |
+    | :-------: | :---------: | :--------------------------------: | :-----: | :--------------------------------------------: |
+    | goYF9L3A  | Ludwigsburg | city in Baden-Württemberg, Germany |         | [Ludwigsburg](http://wikidata.org/entity/Q622) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/goYF9L3A.html" height="800" width="1200" title="goYF9L3A"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/goYF9L3A" height="800" width="1200" title="goYF9L3A"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Karl Joseph Toeschi](./8U229qGB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1731-1788)
 

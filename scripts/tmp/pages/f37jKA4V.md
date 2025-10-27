@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: f37jKA4V
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-43257951b/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/f37jKA4V.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/f37jKA4V.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/f37jKA4V.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-43257951b/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/f37jKA4V.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/f37jKA4V.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/f37jKA4V.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-43257951b.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257951b.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                    | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | f37jKA4V  | BNF-43257951b         | Sonate n° 48 [i.e. 434] : courante / Domenico Scarlatti... ; révision par Vincent d'Indy | [external URL](LQE77nqs) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                    | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | f37jKA4V  | BNF-43257951b         | Sonate n° 48 [i.e. 434] : courante / Domenico Scarlatti... ; révision par Vincent d'Indy | [external URL](http://catalogue.bnf.fr/ark:/12148/cb43257951b) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -83,10 +87,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/f37jKA4V.html" height="800" width="1200" title="f37jKA4V"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/f37jKA4V" height="800" width="1200" title="f37jKA4V"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/f37jKA4V.html" height="800" width="1200" title="f37jKA4V"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/f37jKA4V" height="800" width="1200" title="f37jKA4V"></iframe>

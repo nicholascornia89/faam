@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BtCAkKfM
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                            | aliases  | Wikidata QID                                       |
-    | :-------: | :-------: | :------------------------------------: | :------: | :------------------------------------------------: |
-    | BtCAkKfM  | Cape Town | city in the Western Cape, South Africa | Kaapstad | [Cape Town](http://wwww.wikidata.org/entity/Q5465) |
+    | FAAM UUID | label     | description                            | aliases  | Wikidata QID                                  |
+    | :-------: | :-------: | :------------------------------------: | :------: | :-------------------------------------------: |
+    | BtCAkKfM  | Cape Town | city in the Western Cape, South Africa | Kaapstad | [Cape Town](http://wikidata.org/entity/Q5465) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [South Africa](http://www.wikidata.org/entity/Q258)
+	- [South Africa](Q258)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BtCAkKfM.html" height="800" width="1200" title="BtCAkKfM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BtCAkKfM" height="800" width="1200" title="BtCAkKfM"></iframe>
 
 ## Identifiers
 

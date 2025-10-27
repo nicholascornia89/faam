@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WJtgze3w
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                                                               | aliases | Wikidata QID                                                 |
-    | :-------: | :-------------: | :---------------------------------------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
-    | WJtgze3w  | Gloucestershire | non-metropolitan county in South West England, UK (doesn't include South Gloucestershire) |         | [Gloucestershire](http://wwww.wikidata.org/entity/Q21694733) |
+    | FAAM UUID | label           | description                                                                               | aliases | Wikidata QID                                            |
+    | :-------: | :-------------: | :---------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------------: |
+    | WJtgze3w  | Gloucestershire | non-metropolitan county in South West England, UK (doesn't include South Gloucestershire) |         | [Gloucestershire](http://wikidata.org/entity/Q21694733) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/WJtgze3w.html" height="800" width="1200" title="WJtgze3w"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WJtgze3w" height="800" width="1200" title="WJtgze3w"></iframe>
 
 ## Identifiers
 

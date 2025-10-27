@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TPsiqBM5", "label": "Missa Hodie Christus natus est", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TPsiqBM5.md\u0027\u003eMissa Hodie Christus natus est\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emass by Giovanni Pierluigi da Palestrina\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "kNneakGU", "label": "mass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kNneakGU.md\u0027\u003emass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of sacred musical composition that sets the Mass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WWYhpBVq", "label": "parody mass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WWYhpBVq.md\u0027\u003eparody mass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical setting of the mass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nHfR4BAi", "label": "Giovanni Pierluigi da Palestrina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nHfR4BAi.md\u0027\u003eGiovanni Pierluigi da Palestrina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Renaissance composer (c. 1525\u20131594)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Pierluigi_da_Palestrina.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UJq8vYVd", "label": "Franz Xaver Witt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UJq8vYVd.md\u0027\u003eFranz Xaver Witt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman Catholic priest, church musician and composer (1834\u20131888)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FXWitt.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "j8t5rSPg", "label": "Hodie Christus natus est", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./j8t5rSPg.md\u0027\u003eHodie Christus natus est\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "6mZbsYMZ", "label": "Missa Hodie Christus natus est : octo vocibus concinenda", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6mZbsYMZ.md\u0027\u003eMissa Hodie Christus natus est : octo vocibus concinenda\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BSB-991078130809707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "TPsiqBM5", "to": "kNneakGU", "width": 10}, {"from": "TPsiqBM5", "to": "WWYhpBVq", "width": 10}, {"from": "TPsiqBM5", "to": "nHfR4BAi", "width": 10}, {"from": "TPsiqBM5", "to": "UJq8vYVd", "width": 10}, {"from": "TPsiqBM5", "to": "j8t5rSPg", "width": 10}, {"from": "TPsiqBM5", "to": "6mZbsYMZ", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UJq8vYVd", "label": "Franz Xaver Witt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UJq8vYVd\u0027\u003eFranz Xaver Witt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman Catholic priest, church musician and composer (1834\u20131888)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FXWitt.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TPsiqBM5", "label": "Missa Hodie Christus natus est", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/TPsiqBM5\u0027\u003eMissa Hodie Christus natus est\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emass by Giovanni Pierluigi da Palestrina\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nHfR4BAi", "label": "Giovanni Pierluigi da Palestrina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/nHfR4BAi\u0027\u003eGiovanni Pierluigi da Palestrina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Renaissance composer (c. 1525\u20131594)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Pierluigi_da_Palestrina.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "kNneakGU", "label": "mass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kNneakGU\u0027\u003emass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of sacred musical composition that sets the Mass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "j8t5rSPg", "label": "Hodie Christus natus est", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/j8t5rSPg\u0027\u003eHodie Christus natus est\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "6mZbsYMZ", "label": "Missa Hodie Christus natus est : octo vocibus concinenda", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6mZbsYMZ\u0027\u003eMissa Hodie Christus natus est : octo vocibus concinenda\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991078130809707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WWYhpBVq", "label": "parody mass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WWYhpBVq\u0027\u003eparody mass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical setting of the mass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "UJq8vYVd", "to": "TPsiqBM5", "width": 10}, {"from": "nHfR4BAi", "to": "TPsiqBM5", "width": 10}, {"from": "kNneakGU", "to": "TPsiqBM5", "width": 10}, {"from": "j8t5rSPg", "to": "TPsiqBM5", "width": 10}, {"from": "6mZbsYMZ", "to": "TPsiqBM5", "width": 10}, {"from": "TPsiqBM5", "to": "WWYhpBVq", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

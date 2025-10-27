@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hyoESW3C
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hyoESW3C.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hyoESW3C.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hyoESW3C.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hyoESW3C.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hyoESW3C.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hyoESW3C.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edward_Elgar_1857_-_1934.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases              | description                  | Wikidata QID                                            |
-    | :-------: | :----------: | :------------------: | :--------------------------: | :-----------------------------------------------------: |
-    | hyoESW3C  | Edward Elgar | Edward William Elgar | English composer (1857-1934) | [Edward Elgar](http://wwww.wikidata.org/entity/Q179631) |
+    | FAAM UUID | label        | aliases              | description                  | Wikidata QID                                       |
+    | :-------: | :----------: | :------------------: | :--------------------------: | :------------------------------------------------: |
+    | hyoESW3C  | Edward Elgar | Edward William Elgar | English composer (1857-1934) | [Edward Elgar](http://wikidata.org/entity/Q179631) |
 
 <br><br><br>
 
@@ -53,17 +57,17 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./A74eQRYv.md)
+	- [New College Worcester](./A74eQRYv.md)
 
 ??? quote "employer" 
 
-	- [](./fE7qWrBj.md)
+	- [University of Birmingham](./fE7qWrBj.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/hyoESW3C.html" height="800" width="1200" title="hyoESW3C"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hyoESW3C" height="800" width="1200" title="hyoESW3C"></iframe>
 
 ## Identifiers
 
@@ -89,7 +93,7 @@ tags: agent
 
 -	__[In Moonlight](./ACX2KtR8.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p36.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p36.gif){align=left width="150" height="150"} 
 
 	
 

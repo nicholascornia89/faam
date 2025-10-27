@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YLuLv5SF
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                           | aliases                           | description                  | Wikidata QID                                             |
-    | :-------: | :-----------------------------: | :-------------------------------: | :--------------------------: | :------------------------------------------------------: |
-    | YLuLv5SF  | Keyboard Sonata in G minor, K.4 | Keyboard Sonata in G minor, L.390 | sonata by Domenico Scarlatti | [Sonata K. 4](http://wwww.wikidata.org/entity/Q67199889) |
+    | FAAM UUID | label                           | aliases                           | description                  | Wikidata QID                                        |
+    | :-------: | :-----------------------------: | :-------------------------------: | :--------------------------: | :-------------------------------------------------: |
+    | YLuLv5SF  | Keyboard Sonata in G minor, K.4 | Keyboard Sonata in G minor, L.390 | sonata by Domenico Scarlatti | [Sonata K. 4](http://wikidata.org/entity/Q67199889) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/YLuLv5SF.html" height="800" width="1200" title="YLuLv5SF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YLuLv5SF" height="800" width="1200" title="YLuLv5SF"></iframe>
 
 ## Identifiers
 
@@ -73,19 +77,19 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Compositions pour piano / de Dom. Scarlatti ; revues et doigtées par Louis Köhler.](./EfhvbVmR.md)__
 
-	![Image](../assets/images/thumbs/SML-29805.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-29805.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[29 sonatas](./B7PgUtbR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
 
 	
 

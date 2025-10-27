@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GbJxRv9X
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :------------------------: | :-------------------------------------------------------: |
-    | GbJxRv9X  | La Cenerentola | La Cenerentola | opera by Gioachino Rossini | [La Cenerentola](http://wwww.wikidata.org/entity/Q176700) |
+    | FAAM UUID | label          | aliases        | description                | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :------------------------: | :--------------------------------------------------: |
+    | GbJxRv9X  | La Cenerentola | La Cenerentola | opera by Gioachino Rossini | [La Cenerentola](http://wikidata.org/entity/Q176700) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./PztogCkE.md)
+	- [Cinderella](./PztogCkE.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/GbJxRv9X.html" height="800" width="1200" title="GbJxRv9X"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GbJxRv9X" height="800" width="1200" title="GbJxRv9X"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: musical_work
 
 -	__[1er trio : pour Harpe Flute et COr: op. 14](./dwnCQdXb.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750013.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750013.gif){align=left width="150" height="150"} 
 
 	
 

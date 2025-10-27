@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RcS5aAEc
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description    | aliases   | Wikidata QID                                         |
-    | :-------: | :-------: | :------------: | :-------: | :--------------------------------------------------: |
-    | RcS5aAEc  | Bogatynia | city of Poland | Reichenau | [Bogatynia](http://wwww.wikidata.org/entity/Q123438) |
+    | FAAM UUID | label     | description    | aliases   | Wikidata QID                                    |
+    | :-------: | :-------: | :------------: | :-------: | :---------------------------------------------: |
+    | RcS5aAEc  | Bogatynia | city of Poland | Reichenau | [Bogatynia](http://wikidata.org/entity/Q123438) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/RcS5aAEc.html" height="800" width="1200" title="RcS5aAEc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RcS5aAEc" height="800" width="1200" title="RcS5aAEc"></iframe>
 
 ## Identifiers
 

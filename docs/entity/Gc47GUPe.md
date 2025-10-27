@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Gc47GUPe
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                 | aliases              | Wikidata QID                                         |
-    | :-------: | :------: | :-------------------------: | :------------------: | :--------------------------------------------------: |
-    | Gc47GUPe  | Oswestry | town in Shropshire, England | Oswestry, Shropshire | [Oswestry](http://wwww.wikidata.org/entity/Q1009221) |
+    | FAAM UUID | label    | description                 | aliases              | Wikidata QID                                    |
+    | :-------: | :------: | :-------------------------: | :------------------: | :---------------------------------------------: |
+    | Gc47GUPe  | Oswestry | town in Shropshire, England | Oswestry, Shropshire | [Oswestry](http://wikidata.org/entity/Q1009221) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Gc47GUPe.html" height="800" width="1200" title="Gc47GUPe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Gc47GUPe" height="800" width="1200" title="Gc47GUPe"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bkF58EUQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bkF58EUQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bkF58EUQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bkF58EUQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bkF58EUQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bkF58EUQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bkF58EUQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Galuppi.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases                                 | description                  | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-------------------------------------: | :--------------------------: | :-----------------------------------------------------------: |
-    | bkF58EUQ  | Baldassare Galuppi | Baldassarre, detto il Buranello Galuppi | Italian composer (1706-1785) | [Baldassare Galuppi](http://wwww.wikidata.org/entity/Q208338) |
+    | FAAM UUID | label              | aliases                                 | description                  | Wikidata QID                                             |
+    | :-------: | :----------------: | :-------------------------------------: | :--------------------------: | :------------------------------------------------------: |
+    | bkF58EUQ  | Baldassare Galuppi | Baldassarre, detto il Buranello Galuppi | Italian composer (1706-1785) | [Baldassare Galuppi](http://wikidata.org/entity/Q208338) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/bkF58EUQ.html" height="800" width="1200" title="bkF58EUQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bkF58EUQ" height="800" width="1200" title="bkF58EUQ"></iframe>
 
 ## Identifiers
 
@@ -83,19 +87,27 @@ tags: agent
 
 -	__[Galuppi-Tempo di Minuetto | N.o 26 (N.o19 del ms Catalogo)](./M7uHYazb.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA100.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA100.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[(Preludio) circa 1740](./GQu52k9o.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA106.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA106.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Missa in C major, B.Anh.1](./VN5LZmrJ.md)__
 
 	
 

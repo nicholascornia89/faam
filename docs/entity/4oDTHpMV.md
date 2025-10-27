@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4oDTHpMV
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                          | aliases | Wikidata QID                                             |
-    | :-------: | :---------: | :--------------------------------------------------: | :-----: | :------------------------------------------------------: |
-    | 4oDTHpMV  | horn player | musician playing any of a number of horn instruments | hornist | [horn player](http://wwww.wikidata.org/entity/Q19729565) |
+    | FAAM UUID | label       | description                                          | aliases | Wikidata QID                                        |
+    | :-------: | :---------: | :--------------------------------------------------: | :-----: | :-------------------------------------------------: |
+    | 4oDTHpMV  | horn player | musician playing any of a number of horn instruments | hornist | [horn player](http://wikidata.org/entity/Q19729565) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4oDTHpMV.html" height="800" width="1200" title="4oDTHpMV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4oDTHpMV" height="800" width="1200" title="4oDTHpMV"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Louis-François Dauprat](./9sgtLnWS.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
 
 	French composer and horn-player
 
@@ -55,19 +59,19 @@ tags: occupation
 
 -	__[Jean Rogister](./YAikRAxA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1879-1964)
 
 -	__[Leo De Barse](./EBrPia5v.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian horn player and music teacher
 
 -	__[L. Corret](./kFuM9vEH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, horn player and music arranger
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: N9nKvtEB
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000332191/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/N9nKvtEB.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/N9nKvtEB.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/N9nKvtEB.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000332191/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/N9nKvtEB.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/N9nKvtEB.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/N9nKvtEB.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000332191.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000332191.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                        | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | N9nKvtEB  | KCG-000332191         | 6 Suites : voor cello alleen : BWV 1007-1012 | [external URL](93GDD9ND) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                        | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | N9nKvtEB  | KCG-000332191         | 6 Suites : voor cello alleen : BWV 1007-1012 | [external URL](https://catalogus.hogent.be/catalog/hog01:000332191) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/N9nKvtEB.html" height="800" width="1200" title="N9nKvtEB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/N9nKvtEB" height="800" width="1200" title="N9nKvtEB"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/N9nKvtEB.html" height="800" width="1200" title="N9nKvtEB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/N9nKvtEB" height="800" width="1200" title="N9nKvtEB"></iframe>

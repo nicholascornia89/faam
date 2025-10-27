@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eRfp9gon
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                                  | aliases                          | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :------------------------------------------: | :------------------------------: | :--------------------------------------------------------------: |
-    | eRfp9gon  | University of Giessen | public university in Giessen, Hesse, Germany | Justus Liebig University Giessen | [University of Giessen](http://wwww.wikidata.org/entity/Q317053) |
+    | FAAM UUID | label                 | description                                  | aliases                          | Wikidata QID                                                |
+    | :-------: | :-------------------: | :------------------------------------------: | :------------------------------: | :---------------------------------------------------------: |
+    | eRfp9gon  | University of Giessen | public university in Giessen, Hesse, Germany | Justus Liebig University Giessen | [University of Giessen](http://wikidata.org/entity/Q317053) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/eRfp9gon.html" height="800" width="1200" title="eRfp9gon"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eRfp9gon" height="800" width="1200" title="eRfp9gon"></iframe>
 
 ## Cross-references
 

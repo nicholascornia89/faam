@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kFuM9vEH a rdfs:Resource ;
+    faamprop:related_to faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "French composer, horn player and music arranger"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q126367402>,
+        "16002609"^^xsd:string,
+        "kFuM9vEH"^^xsd:string ;
+    skos:altLabel "L. Corret"^^xsd:string,
+        "L. Corret aîné, L. Corret the Elder"^^xsd:string ;
+    skos:prefLabel "L. Corret"^^xsd:string ;
+    wd:P1303 faamentity:SRXTUjuW ;
+    wd:P214 viaf:3147602326357640657 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:4oDTHpMV,
+        faamentity:5aTYuVxp,
+        faamentity:GSNsghRd .
+

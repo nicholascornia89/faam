@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GSGDAzGy
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | aliases   | description                               | Wikidata QID                                                                 |
-    | :-------: | :------------------------------: | :-------: | :---------------------------------------: | :--------------------------------------------------------------------------: |
-    | GSGDAzGy  | Piano Concerto No.3, Op.58/Op.60 | Q21045477 | Piano concerto composed by Ignaz Mocheles | [Piano Concerto No. 3, Op. 58/60](http://wwww.wikidata.org/entity/Q21045477) |
+    | FAAM UUID | label                            | aliases   | description                               | Wikidata QID                                                            |
+    | :-------: | :------------------------------: | :-------: | :---------------------------------------: | :---------------------------------------------------------------------: |
+    | GSGDAzGy  | Piano Concerto No.3, Op.58/Op.60 | Q21045477 | Piano concerto composed by Ignaz Mocheles | [Piano Concerto No. 3, Op. 58/60](http://wikidata.org/entity/Q21045477) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/GSGDAzGy.html" height="800" width="1200" title="GSGDAzGy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GSGDAzGy" height="800" width="1200" title="GSGDAzGy"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: musical_work
 
 -	__[5 Concertos : pour Le Piano. avec Acct. d'Orchestre ad libitum : N° 3 : Piano seul](./CvefvpXm.md)__
 
-	![Image](../assets/images/thumbs/KCG-000359470.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000359470.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Drittes Concert : (in G moll) für Pianoforte und Orchester : Opus 58](./2kSojYWh.md)__
 
-	![Image](../assets/images/thumbs/KCG-000740541.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000740541.gif){align=left width="150" height="150"} 
 
 	
 

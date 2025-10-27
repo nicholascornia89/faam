@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "KdGKqPWR", "label": "piano cycle", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KdGKqPWR.md\u0027\u003epiano cycle\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eseries of compositions for piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9FJ7fneq", "label": "Dix Enfantines", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9FJ7fneq.md\u0027\u003eDix Enfantines\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "AWGsJgWw", "label": "Dix enfantines", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AWGsJgWw.md\u0027\u003eDix enfantines\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030901805918.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "LMcShHfY", "label": "Dix enfantines", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LMcShHfY.md\u0027\u003eDix enfantines\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030901815347.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "6A3RvFCV", "label": "children\u0027s music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6A3RvFCV.md\u0027\u003echildren\u0027s music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic mainly intended for children\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NkfcVjHM", "label": "music education", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NkfcVjHM.md\u0027\u003emusic education\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efield of study associated with the teaching and learning of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UnrnLejN", "label": "August De Boeck", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UnrnLejN.md\u0027\u003eAugust De Boeck\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish composer, organist and music pedagogue (1865-1937)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August_De_Boeck_(1865-1937).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "KdGKqPWR", "to": "9FJ7fneq", "width": 10}, {"from": "KdGKqPWR", "to": "AWGsJgWw", "width": 10}, {"from": "KdGKqPWR", "to": "LMcShHfY", "width": 10}, {"from": "LMcShHfY", "to": "6A3RvFCV", "width": 10}, {"from": "LMcShHfY", "to": "NkfcVjHM", "width": 10}, {"from": "LMcShHfY", "to": "9FJ7fneq", "width": 10}, {"from": "UnrnLejN", "to": "9FJ7fneq", "width": 10}, {"from": "NkfcVjHM", "to": "9FJ7fneq", "width": 10}, {"from": "NkfcVjHM", "to": "AWGsJgWw", "width": 10}, {"from": "9FJ7fneq", "to": "6A3RvFCV", "width": 10}, {"from": "9FJ7fneq", "to": "AWGsJgWw", "width": 10}, {"from": "6A3RvFCV", "to": "AWGsJgWw", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "LMcShHfY", "label": "Dix enfantines", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LMcShHfY\u0027\u003eDix enfantines\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901815347.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "KdGKqPWR", "label": "piano cycle", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KdGKqPWR\u0027\u003epiano cycle\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eseries of compositions for piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "6A3RvFCV", "label": "children\u0027s music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6A3RvFCV\u0027\u003echildren\u0027s music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic mainly intended for children\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NkfcVjHM", "label": "music education", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NkfcVjHM\u0027\u003emusic education\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efield of study associated with the teaching and learning of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9FJ7fneq", "label": "Dix Enfantines", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9FJ7fneq\u0027\u003eDix Enfantines\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "AWGsJgWw", "label": "Dix enfantines", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AWGsJgWw\u0027\u003eDix enfantines\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901805918.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UnrnLejN", "label": "August De Boeck", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UnrnLejN\u0027\u003eAugust De Boeck\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish composer, organist and music pedagogue (1865-1937)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August_De_Boeck_(1865-1937).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "LMcShHfY", "to": "KdGKqPWR", "width": 10}, {"from": "LMcShHfY", "to": "6A3RvFCV", "width": 10}, {"from": "LMcShHfY", "to": "NkfcVjHM", "width": 10}, {"from": "LMcShHfY", "to": "9FJ7fneq", "width": 10}, {"from": "6A3RvFCV", "to": "9FJ7fneq", "width": 10}, {"from": "6A3RvFCV", "to": "AWGsJgWw", "width": 10}, {"from": "AWGsJgWw", "to": "KdGKqPWR", "width": 10}, {"from": "AWGsJgWw", "to": "NkfcVjHM", "width": 10}, {"from": "AWGsJgWw", "to": "9FJ7fneq", "width": 10}, {"from": "NkfcVjHM", "to": "9FJ7fneq", "width": 10}, {"from": "UnrnLejN", "to": "9FJ7fneq", "width": 10}, {"from": "KdGKqPWR", "to": "9FJ7fneq", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

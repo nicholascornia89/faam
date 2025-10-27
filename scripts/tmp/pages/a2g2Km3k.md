@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: a2g2Km3k
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------: | :-----: | :---------: | :----------------------------------: |
-    | a2g2Km3k  | Drie Liederen |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label         | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------: | :-----: | :---------: | :-----------------------------: |
+    | a2g2Km3k  | Drie Liederen |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/a2g2Km3k.html" height="800" width="1200" title="a2g2Km3k"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/a2g2Km3k" height="800" width="1200" title="a2g2Km3k"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: musical_work
 
 -	__[Drie Songs](./NbnM2CvN.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902700811.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902700811.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Drie Songs](./kagA9fDb.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902700829.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902700829.gif){align=left width="150" height="150"} 
 
 	
 

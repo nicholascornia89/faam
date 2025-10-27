@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Zh2b6vBQ", "label": "Gaetano Donizetti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Zh2b6vBQ.md\u0027\u003eGaetano Donizetti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian opera composer (1797\u20131848)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "F6hZzuTT", "label": "Kingdom of Lombardy\u2013Venetia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./F6hZzuTT.md\u0027\u003eKingdom of Lombardy\u2013Venetia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003econstituent land of the Austrian Empire (1815\u20131866)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "biGnSXZs", "label": "Vincenzo Lavigna", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./biGnSXZs.md\u0027\u003eVincenzo Lavigna\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "BXMYmonQ", "label": "Amilcare Ponchielli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BXMYmonQ.md\u0027\u003eAmilcare Ponchielli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer (1834-1886)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Amilcare_Ponchielli_(before_1886)_-_Archivio_Storico_Ricordi_FOTO000794_-_Restoration.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "Zh2b6vBQ", "to": "F6hZzuTT", "width": 10}, {"from": "biGnSXZs", "to": "F6hZzuTT", "width": 10}, {"from": "BXMYmonQ", "to": "F6hZzuTT", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "biGnSXZs", "label": "Vincenzo Lavigna", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/biGnSXZs\u0027\u003eVincenzo Lavigna\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "F6hZzuTT", "label": "Kingdom of Lombardy\u2013Venetia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/F6hZzuTT\u0027\u003eKingdom of Lombardy\u2013Venetia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003econstituent land of the Austrian Empire (1815\u20131866)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Zh2b6vBQ", "label": "Gaetano Donizetti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Zh2b6vBQ\u0027\u003eGaetano Donizetti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian opera composer (1797\u20131848)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "BXMYmonQ", "label": "Amilcare Ponchielli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BXMYmonQ\u0027\u003eAmilcare Ponchielli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer (1834-1886)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Amilcare_Ponchielli_(before_1886)_-_Archivio_Storico_Ricordi_FOTO000794_-_Restoration.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "biGnSXZs", "to": "F6hZzuTT", "width": 10}, {"from": "Zh2b6vBQ", "to": "F6hZzuTT", "width": 10}, {"from": "BXMYmonQ", "to": "F6hZzuTT", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

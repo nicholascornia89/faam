@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZnCCVfkb
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                                       | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :-------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | ZnCCVfkb  | mordent | musical ornament, consisting of a single alternation with the note above or below | mordent | [mordent](http://wwww.wikidata.org/entity/Q48811) |
+    | FAAM UUID | label   | description                                                                       | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :-------------------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | ZnCCVfkb  | mordent | musical ornament, consisting of a single alternation with the note above or below | mordent | [mordent](http://wikidata.org/entity/Q48811) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/ZnCCVfkb.html" height="800" width="1200" title="ZnCCVfkb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZnCCVfkb" height="800" width="1200" title="ZnCCVfkb"></iframe>
 
 ## Cross-references
 
@@ -61,19 +65,19 @@ tags: annotation_type
 
 -	__[18 ausgewählte Klavierstücke](./J4gd8QWV.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[15 dreistimmige Inventionen : für Violine, Viola (oder Violine II) und Violoncell mit Stricharten und Fingersatz versehen und als Unterrichtsmaterial für das Zusammenspiel](./9wSCPxvz.md)__
 
-	![Image](../assets/images/thumbs/KCG-000332135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000332135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 51 : menuet en si ♭ [pour piano] / Domenico Scarlatti](./jJED4shs.md)__
 
-	![Image](../assets/images/thumbs/BNF-43257971z.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257971z.gif){align=left width="150" height="150"} 
 
 	
 

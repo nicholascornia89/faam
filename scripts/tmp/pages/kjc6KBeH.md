@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kjc6KBeH
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kjc6KBeH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kjc6KBeH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kjc6KBeH.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kjc6KBeH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kjc6KBeH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kjc6KBeH.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Henrik_Crusell_1826.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                 | description                                                      | Wikidata QID                                                |
-    | :-------: | :--------------: | :---------------------: | :--------------------------------------------------------------: | :---------------------------------------------------------: |
-    | kjc6KBeH  | Bernhard Crusell | Bernhard Henrik Crusell | Swedish-Finnish clarinetist, composer and translator (1775–1838) | [Bernhard Crusell](http://wwww.wikidata.org/entity/Q708911) |
+    | FAAM UUID | label            | aliases                 | description                                                      | Wikidata QID                                           |
+    | :-------: | :--------------: | :---------------------: | :--------------------------------------------------------------: | :----------------------------------------------------: |
+    | kjc6KBeH  | Bernhard Crusell | Bernhard Henrik Crusell | Swedish-Finnish clarinetist, composer and translator (1775–1838) | [Bernhard Crusell](http://wikidata.org/entity/Q708911) |
 
 <br><br><br>
 
@@ -53,13 +57,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./BzWe9XnY.md)
+	- [Kungliga Hovkapellet](./BzWe9XnY.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/kjc6KBeH.html" height="800" width="1200" title="kjc6KBeH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kjc6KBeH" height="800" width="1200" title="kjc6KBeH"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Duo I in d-moll : für 2 Clarinetten](./jjXWeZ6d.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901353307.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901353307.gif){align=left width="150" height="150"} 
 
 	
 

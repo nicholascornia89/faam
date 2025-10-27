@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: R6rRbuRs
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502039/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/R6rRbuRs.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/R6rRbuRs.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/R6rRbuRs.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502039/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/R6rRbuRs.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/R6rRbuRs.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/R6rRbuRs.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502039.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502039.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                          | permalink                | provenance                              |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | R6rRbuRs  | DPF-202502039         | Offerandezang der votieve huwelijksmis voor 3 gemengde stemmen en orgel. Offertoire de la messe votive de mariage pour 3 voix mixtes et orgue. | [external URL](H9peVKU2) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                          | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | R6rRbuRs  | DPF-202502039         | Offerandezang der votieve huwelijksmis voor 3 gemengde stemmen en orgel. Offertoire de la messe votive de mariage pour 3 voix mixtes et orgue. | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/R6rRbuRs.html" height="800" width="1200" title="R6rRbuRs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/R6rRbuRs" height="800" width="1200" title="R6rRbuRs"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/R6rRbuRs.html" height="800" width="1200" title="R6rRbuRs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/R6rRbuRs" height="800" width="1200" title="R6rRbuRs"></iframe>

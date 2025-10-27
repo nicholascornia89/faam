@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: C5fbftKX
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description       | aliases         | Wikidata QID                                                 |
-    | :-------: | :----------------: | :---------------: | :-------------: | :----------------------------------------------------------: |
-    | C5fbftKX  | Province of Latina | province of Italy | Latina province | [Province of Latina](http://wwww.wikidata.org/entity/Q16196) |
+    | FAAM UUID | label              | description       | aliases         | Wikidata QID                                            |
+    | :-------: | :----------------: | :---------------: | :-------------: | :-----------------------------------------------------: |
+    | C5fbftKX  | Province of Latina | province of Italy | Latina province | [Province of Latina](http://wikidata.org/entity/Q16196) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/C5fbftKX.html" height="800" width="1200" title="C5fbftKX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/C5fbftKX" height="800" width="1200" title="C5fbftKX"></iframe>
 
 ## Identifiers
 

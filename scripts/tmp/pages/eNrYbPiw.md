@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eNrYbPiw
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/eNrYbPiw.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/eNrYbPiw.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/eNrYbPiw.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/eNrYbPiw.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/eNrYbPiw.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/eNrYbPiw.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Umberto_Giordano_by_Gaetano_Esposito_(color).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                        | description            | Wikidata QID                                                |
-    | :-------: | :--------------: | :----------------------------: | :--------------------: | :---------------------------------------------------------: |
-    | eNrYbPiw  | Umberto Giordano | Umberto Menotti Maria Giordano | Italian opera composer | [Umberto Giordano](http://wwww.wikidata.org/entity/Q294826) |
+    | FAAM UUID | label            | aliases                        | description            | Wikidata QID                                           |
+    | :-------: | :--------------: | :----------------------------: | :--------------------: | :----------------------------------------------------: |
+    | eNrYbPiw  | Umberto Giordano | Umberto Menotti Maria Giordano | Italian opera composer | [Umberto Giordano](http://wikidata.org/entity/Q294826) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/eNrYbPiw.html" height="800" width="1200" title="eNrYbPiw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eNrYbPiw" height="800" width="1200" title="eNrYbPiw"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: agent
 
 -	__[Siberia](./WzxnY7Db.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p46.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p46.gif){align=left width="150" height="150"} 
 
 	
 

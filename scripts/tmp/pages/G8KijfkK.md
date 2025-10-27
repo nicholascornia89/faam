@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: G8KijfkK
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                        | aliases | Wikidata QID                                 |
-    | :-------: | :---: | :------------------------------------------------: | :-----: | :------------------------------------------: |
-    | G8KijfkK  | Bonn  | city in Germany and capital of former West Germany | Bonn    | [Bonn](http://wwww.wikidata.org/entity/Q586) |
+    | FAAM UUID | label | description                                        | aliases | Wikidata QID                            |
+    | :-------: | :---: | :------------------------------------------------: | :-----: | :-------------------------------------: |
+    | G8KijfkK  | Bonn  | city in Germany and capital of former West Germany | Bonn    | [Bonn](http://wikidata.org/entity/Q586) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/G8KijfkK.html" height="800" width="1200" title="G8KijfkK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/G8KijfkK" height="800" width="1200" title="G8KijfkK"></iframe>
 
 ## Identifiers
 
@@ -55,19 +59,19 @@ tags: city
 
 -	__[Anna Lankow](./X9dMHKAY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Ludwig van Beethoven](./TZfafBBe.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Beethoven.jpg){align=left width="150" height="150"} 
 
 	German composer (1770–1827)
 
 -	__[Anna Lankow](./X9dMHKAY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -79,19 +83,19 @@ tags: city
 
 -	__[Friedrich Filitz](./e4CjhnYh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	19th century German composer and musicologist
 
 -	__[Josef Reicha](./KeExYuiF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech composer and violoncellist
 
 -	__[Gilles van der Eeden](./KrRRRsTZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist, musician and composer
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3FiGxCBk
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description           | aliases                     | Wikidata QID                                                            |
-    | :-------: | :-------------------------: | :-------------------: | :-------------------------: | :---------------------------------------------------------------------: |
-    | 3FiGxCBk  | Royal Conservatory of Liège | art school in Belgium | Royal Conservatory of Liege | [Royal Conservatory of Liège](http://wwww.wikidata.org/entity/Q2009714) |
+    | FAAM UUID | label                       | description           | aliases                     | Wikidata QID                                                       |
+    | :-------: | :-------------------------: | :-------------------: | :-------------------------: | :----------------------------------------------------------------: |
+    | 3FiGxCBk  | Royal Conservatory of Liège | art school in Belgium | Royal Conservatory of Liege | [Royal Conservatory of Liège](http://wikidata.org/entity/Q2009714) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/3FiGxCBk.html" height="800" width="1200" title="3FiGxCBk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3FiGxCBk" height="800" width="1200" title="3FiGxCBk"></iframe>
 
 ## Cross-references
 
@@ -63,13 +67,13 @@ tags: music_organization
 
 -	__[Georges Antoine](./F5XuWprz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1892-1918)
 
 -	__[Jean Rogister](./YAikRAxA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1879-1964)
 

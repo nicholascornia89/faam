@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SucjbMJQ
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description       | aliases       | Wikidata QID                                              |
-    | :-------: | :-----------: | :---------------: | :-----------: | :-------------------------------------------------------: |
-    | SucjbMJQ  | correspondent | author of letters | letter writer | [correspondent](http://wwww.wikidata.org/entity/Q3589290) |
+    | FAAM UUID | label         | description       | aliases       | Wikidata QID                                         |
+    | :-------: | :-----------: | :---------------: | :-----------: | :--------------------------------------------------: |
+    | SucjbMJQ  | correspondent | author of letters | letter writer | [correspondent](http://wikidata.org/entity/Q3589290) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/SucjbMJQ.html" height="800" width="1200" title="SucjbMJQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SucjbMJQ" height="800" width="1200" title="SucjbMJQ"></iframe>
 
 ## Cross-references
 

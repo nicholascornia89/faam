@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fn2MuUnv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fn2MuUnv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fn2MuUnv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fn2MuUnv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fn2MuUnv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fn2MuUnv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fn2MuUnv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/George_Gershwin_1937.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases        | description                               | Wikidata QID                                               |
-    | :-------: | :-------------: | :------------: | :---------------------------------------: | :--------------------------------------------------------: |
-    | fn2MuUnv  | George Gershwin | Jacob Gershvin | American composer and pianist (1898–1937) | [George Gershwin](http://wwww.wikidata.org/entity/Q123829) |
+    | FAAM UUID | label           | aliases        | description                               | Wikidata QID                                          |
+    | :-------: | :-------------: | :------------: | :---------------------------------------: | :---------------------------------------------------: |
+    | fn2MuUnv  | George Gershwin | Jacob Gershvin | American composer and pianist (1898–1937) | [George Gershwin](http://wikidata.org/entity/Q123829) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/fn2MuUnv.html" height="800" width="1200" title="fn2MuUnv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fn2MuUnv" height="800" width="1200" title="fn2MuUnv"></iframe>
 
 ## Identifiers
 
@@ -81,26 +85,38 @@ tags: agent
 
 -	__[Préludes : pour piano](./mGQ2MEug.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901836749.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901836749.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Préludes : pour piano](./N49yd7LF.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902163374.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902163374.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Préludes : pour piano](./jHJnTqYF.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903755269.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903755269.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Rhapsody in blue](./cKUudgGd.md)__
 
-	![Image](../assets/images/thumbs/KCA-0309044064458.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-0309044064458.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Rhapsody in Blue](./QaFJztyY.md)__
+
+	1924 composition by George Gershwin
+
+-	__[3 Preludes](./EKeibArU.md)__
+
+	set of piano compositions by George Gershwin
 
 </div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: V7chkbvP
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | aliases  | description                     | Wikidata QID                                         |
-    | :-------: | :------: | :------: | :-----------------------------: | :--------------------------------------------------: |
-    | V7chkbvP  | L'éclair | L'éclair | Comic opera by Fromental Halévy | [L'éclair](http://wwww.wikidata.org/entity/Q1478200) |
+    | FAAM UUID | label    | aliases  | description                     | Wikidata QID                                    |
+    | :-------: | :------: | :------: | :-----------------------------: | :---------------------------------------------: |
+    | V7chkbvP  | L'éclair | L'éclair | Comic opera by Fromental Halévy | [L'éclair](http://wikidata.org/entity/Q1478200) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/V7chkbvP.html" height="800" width="1200" title="V7chkbvP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/V7chkbvP" height="800" width="1200" title="V7chkbvP"></iframe>
 
 ## Identifiers
 

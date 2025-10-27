@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ds7atesc
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                | aliases | Wikidata QID                                           |
-    | :-------: | :---------: | :----------------------------------------: | :-----: | :----------------------------------------------------: |
-    | ds7atesc  | Paris Opera | primary opera and ballet company of France | Opéra   | [Paris Opera](http://wwww.wikidata.org/entity/Q283339) |
+    | FAAM UUID | label       | description                                | aliases | Wikidata QID                                      |
+    | :-------: | :---------: | :----------------------------------------: | :-----: | :-----------------------------------------------: |
+    | ds7atesc  | Paris Opera | primary opera and ballet company of France | Opéra   | [Paris Opera](http://wikidata.org/entity/Q283339) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/ds7atesc.html" height="800" width="1200" title="ds7atesc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ds7atesc" height="800" width="1200" title="ds7atesc"></iframe>
 
 ## Cross-references
 
@@ -77,7 +81,7 @@ tags: music_organization
 
 -	__[Johann Georg Wunderlich](./idqENLhq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and musician
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dMHW3waJ
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | description                                                                                                                                                                      | aliases                           | Wikidata QID                                                                     |
-    | :-------: | :---------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------: | :------------------------------------------------------------------------------: |
-    | dMHW3waJ  | Imperial Academy of Medical Surgery | higher educational institution of the Russian Empire for training doctors, mainly for the military and naval departments, corresponding to the medical faculties of universities | Imperial Medical-Surgical Academy | [Imperial Academy of Medical Surgery](http://wwww.wikidata.org/entity/Q38178366) |
+    | FAAM UUID | label                               | description                                                                                                                                                                      | aliases                           | Wikidata QID                                                                |
+    | :-------: | :---------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------: | :-------------------------------------------------------------------------: |
+    | dMHW3waJ  | Imperial Academy of Medical Surgery | higher educational institution of the Russian Empire for training doctors, mainly for the military and naval departments, corresponding to the medical faculties of universities | Imperial Medical-Surgical Academy | [Imperial Academy of Medical Surgery](http://wikidata.org/entity/Q38178366) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/dMHW3waJ.html" height="800" width="1200" title="dMHW3waJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dMHW3waJ" height="800" width="1200" title="dMHW3waJ"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DXFJNZTa
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901779030/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DXFJNZTa.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DXFJNZTa.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DXFJNZTa.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901779030/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DXFJNZTa.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DXFJNZTa.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DXFJNZTa.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901779030.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901779030.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                             | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | DXFJNZTa  | KCA-030901779030      | Parisina: inleiding van het drama | [external URL](MR3kLpuM) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                             | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | DXFJNZTa  | KCA-030901779030      | Parisina: inleiding van het drama | [external URL](https://anet.be/record/opacdkvc/c:lvd:7056339/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -84,10 +88,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/DXFJNZTa.html" height="800" width="1200" title="DXFJNZTa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DXFJNZTa" height="800" width="1200" title="DXFJNZTa"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/DXFJNZTa.html" height="800" width="1200" title="DXFJNZTa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/DXFJNZTa" height="800" width="1200" title="DXFJNZTa"></iframe>

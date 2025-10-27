@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: X3Teknqk
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                              | aliases | Wikidata QID                                   |
-    | :-------: | :-----: | :------------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | X3Teknqk  | England | country in north-west Europe, part of the United Kingdom | ENG     | [England](http://wwww.wikidata.org/entity/Q21) |
+    | FAAM UUID | label   | description                                              | aliases | Wikidata QID                              |
+    | :-------: | :-----: | :------------------------------------------------------: | :-----: | :---------------------------------------: |
+    | X3Teknqk  | England | country in north-west Europe, part of the United Kingdom | ENG     | [England](http://wikidata.org/entity/Q21) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/X3Teknqk.html" height="800" width="1200" title="X3Teknqk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/X3Teknqk" height="800" width="1200" title="X3Teknqk"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: isEdM7zC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description               | aliases  | Wikidata QID                                        |
-    | :-------: | :------: | :-----------------------: | :------: | :-------------------------------------------------: |
-    | isEdM7zC  | Verviers | city in Wallonia, Belgium | Verviers | [Verviers](http://wwww.wikidata.org/entity/Q202954) |
+    | FAAM UUID | label    | description               | aliases  | Wikidata QID                                   |
+    | :-------: | :------: | :-----------------------: | :------: | :--------------------------------------------: |
+    | isEdM7zC  | Verviers | city in Wallonia, Belgium | Verviers | [Verviers](http://wikidata.org/entity/Q202954) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/isEdM7zC.html" height="800" width="1200" title="isEdM7zC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/isEdM7zC" height="800" width="1200" title="isEdM7zC"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Henri Vieuxtemps](./dQpy5hbT.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vieuxtemps.jpeg){align=left width="150" height="150"} 
 
 	Belgian violinist and composer (1820-1881)
 

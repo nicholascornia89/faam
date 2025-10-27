@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3pBT6TcQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3pBT6TcQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3pBT6TcQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3pBT6TcQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3pBT6TcQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3pBT6TcQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3pBT6TcQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/XavierLerouxNadar.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description     | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :-------------: | :------------------------------------------------------: |
-    | 3pBT6TcQ  | Xavier Leroux | Xavier Leroux | French composer | [Xavier Leroux](http://wwww.wikidata.org/entity/Q323589) |
+    | FAAM UUID | label         | aliases       | description     | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :-------------: | :-------------------------------------------------: |
+    | 3pBT6TcQ  | Xavier Leroux | Xavier Leroux | French composer | [Xavier Leroux](http://wikidata.org/entity/Q323589) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./gPszdmNe.md)
+	- [professor](./gPszdmNe.md)
 
 ??? quote "educated at" 
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/3pBT6TcQ.html" height="800" width="1200" title="3pBT6TcQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3pBT6TcQ" height="800" width="1200" title="3pBT6TcQ"></iframe>
 
 ## Identifiers
 
@@ -87,14 +91,24 @@ tags: agent
 
 -	__[La Reine Fiammette](./bMsNpRci.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p1.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p1.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le Chemineau](./aDkcYAFG.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p83.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p83.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Édouard Trémisot](./PfjcaAFY.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French composer (1874-1956)
 
 </div>

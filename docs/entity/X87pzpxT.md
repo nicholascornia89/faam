@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: X87pzpxT
 
 tags: holding_institution
@@ -19,9 +23,9 @@ tags: holding_institution
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                                      | aliases                      | Wikidata QID                                                           | abbreviation |
-    | :-------: | :------------------------: | :----------------------------------------------: | :--------------------------: | :--------------------------------------------------------------------: | :----------: |
-    | X87pzpxT  | Cornell University Library | academic library of Cornell University, New York | Cornell University Libraries | [Cornell University Library](http://wwww.wikidata.org/entity/Q5171572) | CUL          |
+    | FAAM UUID | label                      | description                                      | aliases                      | Wikidata QID                                                      | abbreviation |
+    | :-------: | :------------------------: | :----------------------------------------------: | :--------------------------: | :---------------------------------------------------------------: | :----------: |
+    | X87pzpxT  | Cornell University Library | academic library of Cornell University, New York | Cornell University Libraries | [Cornell University Library](http://wikidata.org/entity/Q5171572) | CUL          |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: holding_institution
 
 ---
 
-<iframe src="../network/X87pzpxT.html" height="800" width="1200" title="X87pzpxT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/X87pzpxT" height="800" width="1200" title="X87pzpxT"></iframe>
 
 ## Cross-references
 

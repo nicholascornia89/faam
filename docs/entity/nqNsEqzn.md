@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nqNsEqzn
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nqNsEqzn.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nqNsEqzn.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nqNsEqzn.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nqNsEqzn.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nqNsEqzn.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nqNsEqzn.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases | description                      | Wikidata QID                                                 |
-    | :-------: | :--------------: | :-----: | :------------------------------: | :----------------------------------------------------------: |
-    | nqNsEqzn  | Henri-Jean Rigel |         | French composer and musicologist | [Henri-Jean Rigel](http://wwww.wikidata.org/entity/Q3076116) |
+    | FAAM UUID | label            | aliases | description                      | Wikidata QID                                            |
+    | :-------: | :--------------: | :-----: | :------------------------------: | :-----------------------------------------------------: |
+    | nqNsEqzn  | Henri-Jean Rigel |         | French composer and musicologist | [Henri-Jean Rigel](http://wikidata.org/entity/Q3076116) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/nqNsEqzn.html" height="800" width="1200" title="nqNsEqzn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nqNsEqzn" height="800" width="1200" title="nqNsEqzn"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[César Franck](./iY78UHRF.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/César_Franck_by_Pierre_Petit.jpg){align=left width="150" height="150"} 
+
+	Belgian-French composer and organist (1822–1890)
+
+</div>

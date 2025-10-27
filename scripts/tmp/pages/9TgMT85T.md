@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9TgMT85T
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases                | description             | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :--------------------: | :---------------------: | :--------------------------------------------------------------: |
-    | 9TgMT85T  | 8 Humoresques, Op.101 | 8 Humoresques, Op. 101 | Suite by Antonín Dvořák | [Humoresques, Op. 101](http://wwww.wikidata.org/entity/Q2622524) |
+    | FAAM UUID | label                 | aliases                | description             | Wikidata QID                                                |
+    | :-------: | :-------------------: | :--------------------: | :---------------------: | :---------------------------------------------------------: |
+    | 9TgMT85T  | 8 Humoresques, Op.101 | 8 Humoresques, Op. 101 | Suite by Antonín Dvořák | [Humoresques, Op. 101](http://wikidata.org/entity/Q2622524) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/9TgMT85T.html" height="800" width="1200" title="9TgMT85T"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9TgMT85T" height="800" width="1200" title="9TgMT85T"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Humoreska, op. 101 no. 7 = Célèbre humoresque](./Pq8rPMzF.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902758835.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902758835.gif){align=left width="150" height="150"} 
 
 	
 

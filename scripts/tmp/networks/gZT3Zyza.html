@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "FBtGk4Pp", "label": "Le capitaine Henriot Duetto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FBtGk4Pp.md\u0027\u003eLe capitaine Henriot Duetto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030901603966.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "FVNwobgh", "label": "Le capitaine Henriot", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FVNwobgh.md\u0027\u003eLe capitaine Henriot\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030901603982.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7AXGCpck.md\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gZT3Zyza", "label": "Le Capitaine Henriot", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gZT3Zyza.md\u0027\u003eLe Capitaine Henriot\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eop\u00e9ra comique composed by Fran\u00e7ois-Auguste Gevaert\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bDTxxMMK", "label": "Fran\u00e7ois-Auguste Gevaert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bDTxxMMK.md\u0027\u003eFran\u00e7ois-Auguste Gevaert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1828\u20131908)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fran\u00e7ois-Auguste_Gevaert_photo_c1896_-_IMSLP.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "FBtGk4Pp", "to": "FVNwobgh", "width": 1}, {"from": "FBtGk4Pp", "to": "7AXGCpck", "width": 10}, {"from": "FBtGk4Pp", "to": "gZT3Zyza", "width": 10}, {"from": "7AXGCpck", "to": "gZT3Zyza", "width": 10}, {"from": "7AXGCpck", "to": "FVNwobgh", "width": 10}, {"from": "FVNwobgh", "to": "gZT3Zyza", "width": 10}, {"from": "bDTxxMMK", "to": "gZT3Zyza", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7AXGCpck\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gZT3Zyza", "label": "Le Capitaine Henriot", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gZT3Zyza\u0027\u003eLe Capitaine Henriot\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eop\u00e9ra comique composed by Fran\u00e7ois-Auguste Gevaert\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "FVNwobgh", "label": "Le capitaine Henriot", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FVNwobgh\u0027\u003eLe capitaine Henriot\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901603982.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "FBtGk4Pp", "label": "Le capitaine Henriot Duetto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FBtGk4Pp\u0027\u003eLe capitaine Henriot Duetto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901603966.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bDTxxMMK", "label": "Fran\u00e7ois-Auguste Gevaert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bDTxxMMK\u0027\u003eFran\u00e7ois-Auguste Gevaert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1828\u20131908)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fran\u00e7ois-Auguste_Gevaert_photo_c1896_-_IMSLP.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "7AXGCpck", "to": "gZT3Zyza", "width": 10}, {"from": "7AXGCpck", "to": "FVNwobgh", "width": 10}, {"from": "7AXGCpck", "to": "FBtGk4Pp", "width": 10}, {"from": "gZT3Zyza", "to": "bDTxxMMK", "width": 10}, {"from": "gZT3Zyza", "to": "FVNwobgh", "width": 10}, {"from": "gZT3Zyza", "to": "FBtGk4Pp", "width": 10}, {"from": "FVNwobgh", "to": "FBtGk4Pp", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

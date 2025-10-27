@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hBUT5Cbq
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                        | aliases  | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :--------------------------------: | :------: | :------------------------------------------------------------: |
-    | hBUT5Cbq  | woodwind instrument | family of musical wind instruments | woodwind | [woodwind instrument](http://wwww.wikidata.org/entity/Q181247) |
+    | FAAM UUID | label               | description                        | aliases  | Wikidata QID                                              |
+    | :-------: | :-----------------: | :--------------------------------: | :------: | :-------------------------------------------------------: |
+    | hBUT5Cbq  | woodwind instrument | family of musical wind instruments | woodwind | [woodwind instrument](http://wikidata.org/entity/Q181247) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/hBUT5Cbq.html" height="800" width="1200" title="hBUT5Cbq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hBUT5Cbq" height="800" width="1200" title="hBUT5Cbq"></iframe>
 
 ## Cross-references
 

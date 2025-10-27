@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kkHrN3TP a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1532"^^xsd:string ;
+    schema1:birthPlace faamentity:8cDaepGu ;
+    schema1:deathDate "1594-06-14"^^xsd:string ;
+    schema1:deathPlace faamentity:ndwv66mQ ;
+    schema1:description "Franco-Flemish composer (1532–1594)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q154792>,
+        "15996201"^^xsd:string,
+        "kkHrN3TP"^^xsd:string ;
+    schema1:nationality faamentity:AjMZtbmy ;
+    skos:altLabel "Orlande de Lassus"^^xsd:string,
+        "Orlande de Lattre"^^xsd:string,
+        "Orlando di Lasso"^^xsd:string,
+        "Orlandus Lassus"^^xsd:string,
+        "Roland de Lassus"^^xsd:string,
+        "Roland de Lattre"^^xsd:string ;
+    skos:prefLabel "Orlande de Lassus"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:23356192 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/506> ;
+    wd:P737 faamentity:ccZ9WqmM ;
+    wd:P839 <https://imslp.org/wiki/Category:Lassus,_Orlande_de> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:oJ9qmRVq .
+

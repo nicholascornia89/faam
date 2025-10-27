@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XAGe7nBv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XAGe7nBv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XAGe7nBv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XAGe7nBv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XAGe7nBv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XAGe7nBv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XAGe7nBv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description            | Wikidata QID                                               |
-    | :-------: | :-----------: | :-----------: | :--------------------: | :--------------------------------------------------------: |
-    | XAGe7nBv  | Hans Sikorski | Hans Sikorski | German music publisher | [Hans Sikorski](http://wwww.wikidata.org/entity/Q55846674) |
+    | FAAM UUID | label         | aliases       | description            | Wikidata QID                                          |
+    | :-------: | :-----------: | :-----------: | :--------------------: | :---------------------------------------------------: |
+    | XAGe7nBv  | Hans Sikorski | Hans Sikorski | German music publisher | [Hans Sikorski](http://wikidata.org/entity/Q55846674) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/XAGe7nBv.html" height="800" width="1200" title="XAGe7nBv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XAGe7nBv" height="800" width="1200" title="XAGe7nBv"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: agent
 
 -	__[Duo I in d-moll : für 2 Clarinetten](./jjXWeZ6d.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901353307.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901353307.gif){align=left width="150" height="150"} 
 
 	
 

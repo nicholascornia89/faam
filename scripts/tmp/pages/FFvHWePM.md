@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FFvHWePM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FFvHWePM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FFvHWePM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FFvHWePM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FFvHWePM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FFvHWePM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FFvHWePM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description          | Wikidata QID                                                   |
-    | :-------: | :--------------: | :--------------: | :------------------: | :------------------------------------------------------------: |
-    | FFvHWePM  | Balthazar Lutgen | Balthazar Lutgen | French music teacher | [Balthazar Lutgen](http://wwww.wikidata.org/entity/Q130320166) |
+    | FAAM UUID | label            | aliases          | description          | Wikidata QID                                              |
+    | :-------: | :--------------: | :--------------: | :------------------: | :-------------------------------------------------------: |
+    | FFvHWePM  | Balthazar Lutgen | Balthazar Lutgen | French music teacher | [Balthazar Lutgen](http://wikidata.org/entity/Q130320166) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/FFvHWePM.html" height="800" width="1200" title="FFvHWePM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FFvHWePM" height="800" width="1200" title="FFvHWePM"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: agent
 
 -	__[Ecole chantante, 25 vocalises mélodiques élémentaires pour la medium de la voix d'après des fragments célèbres de Beethoven, Bellini, Dalayrac, Donizetti, Grétry, Haas, Haydn, Hummel, Méhul, Mozart, Reissiger, Rossini, Spohr, Weber, Zumsteg](./U7Xvn7RZ.md)__
 
-	![Image](../assets/images/thumbs/BNF-43123936p.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43123936p.gif){align=left width="150" height="150"} 
 
 	
 

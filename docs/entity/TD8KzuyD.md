@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TD8KzuyD
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                                 | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :-------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | TD8KzuyD  | dancer | person who uses their body to express themselves through movement and dance |         | [dancer](http://wwww.wikidata.org/entity/Q5716684) |
+    | FAAM UUID | label  | description                                                                 | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :-------------------------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | TD8KzuyD  | dancer | person who uses their body to express themselves through movement and dance |         | [dancer](http://wikidata.org/entity/Q5716684) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/TD8KzuyD.html" height="800" width="1200" title="TD8KzuyD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TD8KzuyD" height="800" width="1200" title="TD8KzuyD"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7FTvdvo6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7FTvdvo6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7FTvdvo6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7FTvdvo6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7FTvdvo6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7FTvdvo6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7FTvdvo6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Davidov-Karl.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases                | description                  | Wikidata QID                                            |
-    | :-------: | :----------: | :--------------------: | :--------------------------: | :-----------------------------------------------------: |
-    | 7FTvdvo6  | Karl Davydov | Karl Yulievich Davydov | Russian composer (1838–1889) | [Karl Davydov](http://wwww.wikidata.org/entity/Q708593) |
+    | FAAM UUID | label        | aliases                | description                  | Wikidata QID                                       |
+    | :-------: | :----------: | :--------------------: | :--------------------------: | :------------------------------------------------: |
+    | 7FTvdvo6  | Karl Davydov | Karl Yulievich Davydov | Russian composer (1838–1889) | [Karl Davydov](http://wikidata.org/entity/Q708593) |
 
 <br><br><br>
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/7FTvdvo6.html" height="800" width="1200" title="7FTvdvo6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7FTvdvo6" height="800" width="1200" title="7FTvdvo6"></iframe>
 
 ## Identifiers
 
@@ -93,7 +97,25 @@ tags: agent
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Emil Hegar](./dFEMxp4r.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emil_Hegar.jpg){align=left width="150" height="150"} 
+
+	(1843-1921)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Romance sans paroles, Op.23](./Ai5WMYpD.md)__
 
 	
 

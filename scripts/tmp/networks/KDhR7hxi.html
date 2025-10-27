@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "KDhR7hxi", "label": "Laudate coeli (Palestrina attr.)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KDhR7hxi.md\u0027\u003eLaudate coeli (Palestrina attr.)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GzEqiSpE", "label": "Laudate coeli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GzEqiSpE.md\u0027\u003eLaudate coeli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DrGjSfwU", "label": "forgery", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DrGjSfwU.md\u0027\u003eforgery\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprocess of making, adapting, or imitating objects, statistics, or documents with the intent to deceive\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "YJViDXyp", "label": "musical hoax", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YJViDXyp.md\u0027\u003emusical hoax\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epiece of music composed by an individual that is intentionally misattributed to someone else\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ik3NwdWW", "label": "motet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ik3NwdWW.md\u0027\u003emotet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the most important forms of polyphonic music from about 1220 to 1750\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nHfR4BAi", "label": "Giovanni Pierluigi da Palestrina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nHfR4BAi.md\u0027\u003eGiovanni Pierluigi da Palestrina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Renaissance composer (c. 1525\u20131594)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Pierluigi_da_Palestrina.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HznvzWQP", "label": "Franz Xaver Haberl", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HznvzWQP.md\u0027\u003eFranz Xaver Haberl\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman priest and musicologist (1840\u20131910)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FXHaberl.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "KDhR7hxi", "to": "GzEqiSpE", "width": 1}, {"from": "KDhR7hxi", "to": "DrGjSfwU", "width": 1}, {"from": "KDhR7hxi", "to": "YJViDXyp", "width": 1}, {"from": "KDhR7hxi", "to": "ik3NwdWW", "width": 1}, {"from": "KDhR7hxi", "to": "nHfR4BAi", "width": 10}, {"from": "KDhR7hxi", "to": "HznvzWQP", "width": 10}, {"from": "ik3NwdWW", "to": "GzEqiSpE", "width": 1}, {"from": "YJViDXyp", "to": "GzEqiSpE", "width": 1}, {"from": "DrGjSfwU", "to": "GzEqiSpE", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nHfR4BAi", "label": "Giovanni Pierluigi da Palestrina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/nHfR4BAi\u0027\u003eGiovanni Pierluigi da Palestrina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Renaissance composer (c. 1525\u20131594)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Pierluigi_da_Palestrina.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "KDhR7hxi", "label": "Laudate coeli (Palestrina attr.)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KDhR7hxi\u0027\u003eLaudate coeli (Palestrina attr.)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ik3NwdWW", "label": "motet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ik3NwdWW\u0027\u003emotet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the most important forms of polyphonic music from about 1220 to 1750\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GzEqiSpE", "label": "Laudate coeli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GzEqiSpE\u0027\u003eLaudate coeli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DrGjSfwU", "label": "forgery", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DrGjSfwU\u0027\u003eforgery\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprocess of making, adapting, or imitating objects, statistics, or documents with the intent to deceive\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "YJViDXyp", "label": "musical hoax", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YJViDXyp\u0027\u003emusical hoax\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epiece of music composed by an individual that is intentionally misattributed to someone else\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HznvzWQP", "label": "Franz Xaver Haberl", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HznvzWQP\u0027\u003eFranz Xaver Haberl\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman priest and musicologist (1840\u20131910)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FXHaberl.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "nHfR4BAi", "to": "KDhR7hxi", "width": 10}, {"from": "ik3NwdWW", "to": "GzEqiSpE", "width": 1}, {"from": "ik3NwdWW", "to": "KDhR7hxi", "width": 1}, {"from": "DrGjSfwU", "to": "GzEqiSpE", "width": 1}, {"from": "DrGjSfwU", "to": "KDhR7hxi", "width": 1}, {"from": "KDhR7hxi", "to": "GzEqiSpE", "width": 1}, {"from": "KDhR7hxi", "to": "YJViDXyp", "width": 1}, {"from": "KDhR7hxi", "to": "HznvzWQP", "width": 10}, {"from": "GzEqiSpE", "to": "YJViDXyp", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

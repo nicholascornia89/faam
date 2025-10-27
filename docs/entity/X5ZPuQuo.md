@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: X5ZPuQuo
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/X5ZPuQuo.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/X5ZPuQuo.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/X5ZPuQuo.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/X5ZPuQuo.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/X5ZPuQuo.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/X5ZPuQuo.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Animuccia.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases | description                         | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----: | :---------------------------------: | :-----------------------------------------------------------: |
-    | X5ZPuQuo  | Giovanni Animuccia |         | Italian composer of the Renaissance | [Giovanni Animuccia](http://wwww.wikidata.org/entity/Q500507) |
+    | FAAM UUID | label              | aliases | description                         | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----: | :---------------------------------: | :------------------------------------------------------: |
+    | X5ZPuQuo  | Giovanni Animuccia |         | Italian composer of the Renaissance | [Giovanni Animuccia](http://wikidata.org/entity/Q500507) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/X5ZPuQuo.html" height="800" width="1200" title="X5ZPuQuo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/X5ZPuQuo" height="800" width="1200" title="X5ZPuQuo"></iframe>
 
 ## Identifiers
 
@@ -68,3 +72,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Pierluigi da Palestrina](./nHfR4BAi.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Pierluigi_da_Palestrina.jpg){align=left width="150" height="150"} 
+
+	Italian Renaissance composer (c. 1525–1594)
+
+</div>

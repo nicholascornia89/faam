@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JDmGtCKG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q126722513>,
+        "16005242"^^xsd:string,
+        "JDmGtCKG"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Marie Lassaveur"^^xsd:string ;
+    skos:prefLabel "Marie Lassaveur"^^xsd:string ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:NSkqAh3R ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

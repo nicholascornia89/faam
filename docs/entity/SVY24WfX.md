@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SVY24WfX
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000350242/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/SVY24WfX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/SVY24WfX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/SVY24WfX.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000350242/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/SVY24WfX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/SVY24WfX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/SVY24WfX.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000350242.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350242.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                            | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :----------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | SVY24WfX  | KCG-000350242         | Concerto in a : voor piano enOrchestra : Opus 85 | [external URL](LQE77nqs) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                            | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :----------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | SVY24WfX  | KCG-000350242         | Concerto in a : voor piano enOrchestra : Opus 85 | [external URL](https://catalogus.hogent.be/catalog/hog01:000350242) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -76,10 +80,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/SVY24WfX.html" height="800" width="1200" title="SVY24WfX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SVY24WfX" height="800" width="1200" title="SVY24WfX"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/SVY24WfX.html" height="800" width="1200" title="SVY24WfX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/SVY24WfX" height="800" width="1200" title="SVY24WfX"></iframe>

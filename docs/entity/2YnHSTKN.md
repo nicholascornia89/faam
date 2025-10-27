@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2YnHSTKN
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                     | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :---------------------------------------------: | :-----: | :-------------------------------------------------: |
-    | 2YnHSTKN  | Suresnes | French commune in Hauts-de-Seine, Île-de-France |         | [Suresnes](http://wwww.wikidata.org/entity/Q193929) |
+    | FAAM UUID | label    | description                                     | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :---------------------------------------------: | :-----: | :--------------------------------------------: |
+    | 2YnHSTKN  | Suresnes | French commune in Hauts-de-Seine, Île-de-France |         | [Suresnes](http://wikidata.org/entity/Q193929) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2YnHSTKN.html" height="800" width="1200" title="2YnHSTKN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2YnHSTKN" height="800" width="1200" title="2YnHSTKN"></iframe>
 
 ## Identifiers
 

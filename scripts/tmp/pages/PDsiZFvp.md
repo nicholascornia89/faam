@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PDsiZFvp
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                         | aliases      | Wikidata QID                                                           |
-    | :-------: | :------------------------: | :---------------------------------: | :----------: | :--------------------------------------------------------------------: |
-    | PDsiZFvp  | music for the Requiem Mass | musical setting of the Requiem Mass | funeral mass | [music for the Requiem Mass](http://wwww.wikidata.org/entity/Q6941842) |
+    | FAAM UUID | label                      | description                         | aliases      | Wikidata QID                                                      |
+    | :-------: | :------------------------: | :---------------------------------: | :----------: | :---------------------------------------------------------------: |
+    | PDsiZFvp  | music for the Requiem Mass | musical setting of the Requiem Mass | funeral mass | [music for the Requiem Mass](http://wikidata.org/entity/Q6941842) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/PDsiZFvp.html" height="800" width="1200" title="PDsiZFvp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PDsiZFvp" height="800" width="1200" title="PDsiZFvp"></iframe>
 
 ## Cross-references
 

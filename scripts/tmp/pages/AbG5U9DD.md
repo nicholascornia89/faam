@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AbG5U9DD
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description                        | aliases   | Wikidata QID                                                              |
-    | :-------: | :----------------------------: | :--------------------------------: | :-------: | :-----------------------------------------------------------------------: |
-    | AbG5U9DD  | Gelehrtenschule des Johanneums | grammar school in Hamburg, Germany | Johanneum | [Gelehrtenschule des Johanneums](http://wwww.wikidata.org/entity/Q882742) |
+    | FAAM UUID | label                          | description                        | aliases   | Wikidata QID                                                         |
+    | :-------: | :----------------------------: | :--------------------------------: | :-------: | :------------------------------------------------------------------: |
+    | AbG5U9DD  | Gelehrtenschule des Johanneums | grammar school in Hamburg, Germany | Johanneum | [Gelehrtenschule des Johanneums](http://wikidata.org/entity/Q882742) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/AbG5U9DD.html" height="800" width="1200" title="AbG5U9DD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AbG5U9DD" height="800" width="1200" title="AbG5U9DD"></iframe>
 
 ## Cross-references
 

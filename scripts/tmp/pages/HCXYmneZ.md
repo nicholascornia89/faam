@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HCXYmneZ
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | description                                          | aliases                      | Wikidata QID                                                             |
-    | :-------: | :---------------------------: | :--------------------------------------------------: | :--------------------------: | :----------------------------------------------------------------------: |
-    | HCXYmneZ  | Hochschule für Musik Freiburg | institution of higher education in Freiburg, Germany | University of Music Freiburg | [Hochschule für Musik Freiburg](http://wwww.wikidata.org/entity/Q650345) |
+    | FAAM UUID | label                         | description                                          | aliases                      | Wikidata QID                                                        |
+    | :-------: | :---------------------------: | :--------------------------------------------------: | :--------------------------: | :-----------------------------------------------------------------: |
+    | HCXYmneZ  | Hochschule für Musik Freiburg | institution of higher education in Freiburg, Germany | University of Music Freiburg | [Hochschule für Musik Freiburg](http://wikidata.org/entity/Q650345) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./4FTHYaGf.md)
+	[Freiburg im Breisgau](./4FTHYaGf.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/HCXYmneZ.html" height="800" width="1200" title="HCXYmneZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HCXYmneZ" height="800" width="1200" title="HCXYmneZ"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Wolfgang Fortner](./3vF4a5M7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and conductor (1907–1987)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FVjZrbAX
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                   | aliases                 | Wikidata QID                                                        |
-    | :-------: | :---------------------: | :---------------------------: | :---------------------: | :-----------------------------------------------------------------: |
-    | FVjZrbAX  | Meyerhold State Theatre | theatre in Moscow (1920–1938) | Meyerhold State Theatre | [Meyerhold State Theatre](http://wwww.wikidata.org/entity/Q4146968) |
+    | FAAM UUID | label                   | description                   | aliases                 | Wikidata QID                                                   |
+    | :-------: | :---------------------: | :---------------------------: | :---------------------: | :------------------------------------------------------------: |
+    | FVjZrbAX  | Meyerhold State Theatre | theatre in Moscow (1920–1938) | Meyerhold State Theatre | [Meyerhold State Theatre](http://wikidata.org/entity/Q4146968) |
 
 <br><br><br>
 
@@ -31,11 +35,11 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./diUttN86.md)
+	[Moscow](./diUttN86.md)
 
 !!! quote "country" 
 
-	[](./eeLsSgs5.md)
+	[Russian Socialist Federative Soviet Republic](./eeLsSgs5.md)
 
 	[Soviet Union](./c4DdDGWx.md)
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/FVjZrbAX.html" height="800" width="1200" title="FVjZrbAX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FVjZrbAX" height="800" width="1200" title="FVjZrbAX"></iframe>
 
 ## Cross-references
 

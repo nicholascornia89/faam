@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jxLfmdS3
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502050/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/jxLfmdS3.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/jxLfmdS3.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/jxLfmdS3.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502050/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/jxLfmdS3.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/jxLfmdS3.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/jxLfmdS3.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502050.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502050.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                           | permalink                | provenance                              |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | jxLfmdS3  | DPF-202502050         | Acht responsoria van de Getijden ter eere van het Heilig Sacrament. Huit répons de l'office due T.S. Sacrement. | [external URL](7WfWytMV) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                           | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | jxLfmdS3  | DPF-202502050         | Acht responsoria van de Getijden ter eere van het Heilig Sacrament. Huit répons de l'office due T.S. Sacrement. | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/jxLfmdS3.html" height="800" width="1200" title="jxLfmdS3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jxLfmdS3" height="800" width="1200" title="jxLfmdS3"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/jxLfmdS3.html" height="800" width="1200" title="jxLfmdS3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/jxLfmdS3" height="800" width="1200" title="jxLfmdS3"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: efo9JT9K
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                            | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :------------------------------------: | :-----: | :--------------------------------------------------: |
-    | efo9JT9K  | physicist | scientist who does research in physics |         | [physicist](http://wwww.wikidata.org/entity/Q169470) |
+    | FAAM UUID | label     | description                            | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :------------------------------------: | :-----: | :---------------------------------------------: |
+    | efo9JT9K  | physicist | scientist who does research in physics |         | [physicist](http://wikidata.org/entity/Q169470) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/efo9JT9K.html" height="800" width="1200" title="efo9JT9K"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/efo9JT9K" height="800" width="1200" title="efo9JT9K"></iframe>
 
 ## Cross-references
 

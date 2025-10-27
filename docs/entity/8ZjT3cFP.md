@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8ZjT3cFP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                        | aliases | Wikidata QID                                          |
-    | :-------: | :---------: | :--------------------------------: | :-----: | :---------------------------------------------------: |
-    | 8ZjT3cFP  | Monte Carlo | ward in the Principality of Monaco |         | [Monte Carlo](http://wwww.wikidata.org/entity/Q45240) |
+    | FAAM UUID | label       | description                        | aliases | Wikidata QID                                     |
+    | :-------: | :---------: | :--------------------------------: | :-----: | :----------------------------------------------: |
+    | 8ZjT3cFP  | Monte Carlo | ward in the Principality of Monaco |         | [Monte Carlo](http://wikidata.org/entity/Q45240) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8ZjT3cFP.html" height="800" width="1200" title="8ZjT3cFP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8ZjT3cFP" height="800" width="1200" title="8ZjT3cFP"></iframe>
 
 ## Identifiers
 

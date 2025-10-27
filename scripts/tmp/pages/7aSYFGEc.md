@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7aSYFGEc
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                   | description                          | aliases                                | Wikidata QID                                                                        |
-    | :-------: | :-------------------------------------: | :----------------------------------: | :------------------------------------: | :---------------------------------------------------------------------------------: |
-    | 7aSYFGEc  | Conservatorio Giovanni Battista Martini | music conservatory in Bologna, Italy | Conservatorio di Musica "G.B. Martini" | [Conservatorio Giovanni Battista Martini](http://wwww.wikidata.org/entity/Q3687222) |
+    | FAAM UUID | label                                   | description                          | aliases                                | Wikidata QID                                                                   |
+    | :-------: | :-------------------------------------: | :----------------------------------: | :------------------------------------: | :----------------------------------------------------------------------------: |
+    | 7aSYFGEc  | Conservatorio Giovanni Battista Martini | music conservatory in Bologna, Italy | Conservatorio di Musica "G.B. Martini" | [Conservatorio Giovanni Battista Martini](http://wikidata.org/entity/Q3687222) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/7aSYFGEc.html" height="800" width="1200" title="7aSYFGEc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7aSYFGEc" height="800" width="1200" title="7aSYFGEc"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: music_organization
 
 -	__[Giovanni Tadolini](./c4bta3mz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -69,13 +73,13 @@ tags: music_organization
 
 -	__[Gaetano Donizetti](./Zh2b6vBQ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fotoreproductie_van_Gaetano_Donizetti.png){align=left width="150" height="150"} 
 
 	Italian opera composer (1797–1848)
 
 -	__[Gioachino Rossini](./YWvFQ75E.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Composer_Rossini_G_1865_by_Carjat.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1792–1868)
 

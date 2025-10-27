@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2VfgbeWV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                   | description                                   | aliases | Wikidata QID                                                                       |
-    | :-------: | :-------------------------------------: | :-------------------------------------------: | :-----: | :--------------------------------------------------------------------------------: |
-    | 2VfgbeWV  | Royal Borough of Kensington and Chelsea | royal borough in the London Region in England | RBKC    | [Royal Borough of Kensington and Chelsea](http://wwww.wikidata.org/entity/Q188801) |
+    | FAAM UUID | label                                   | description                                   | aliases | Wikidata QID                                                                  |
+    | :-------: | :-------------------------------------: | :-------------------------------------------: | :-----: | :---------------------------------------------------------------------------: |
+    | 2VfgbeWV  | Royal Borough of Kensington and Chelsea | royal borough in the London Region in England | RBKC    | [Royal Borough of Kensington and Chelsea](http://wikidata.org/entity/Q188801) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2VfgbeWV.html" height="800" width="1200" title="2VfgbeWV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2VfgbeWV" height="800" width="1200" title="2VfgbeWV"></iframe>
 
 ## Identifiers
 

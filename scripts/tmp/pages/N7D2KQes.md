@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: N7D2KQes
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                 | aliases  | Wikidata QID                                      |
-    | :-------: | :-----: | :-------------------------: | :------: | :-----------------------------------------------: |
-    | N7D2KQes  | Lorient | commune in Morbihan, France | L'Orient | [Lorient](http://wwww.wikidata.org/entity/Q71724) |
+    | FAAM UUID | label   | description                 | aliases  | Wikidata QID                                 |
+    | :-------: | :-----: | :-------------------------: | :------: | :------------------------------------------: |
+    | N7D2KQes  | Lorient | commune in Morbihan, France | L'Orient | [Lorient](http://wikidata.org/entity/Q71724) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/N7D2KQes.html" height="800" width="1200" title="N7D2KQes"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/N7D2KQes" height="800" width="1200" title="N7D2KQes"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: city
 
 -	__[Xavier de Courville](./JuC9KczB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French writer and historian (1894-1984)
 

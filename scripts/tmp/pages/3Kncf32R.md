@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3Kncf32R
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                             | aliases | Wikidata QID                                           |
-    | :-------: | :--------: | :---------------------------------------------------------------------: | :-----: | :----------------------------------------------------: |
-    | 3Kncf32R  | journalist | person who collects, writes, and distributes news and other information | journo  | [journalist](http://wwww.wikidata.org/entity/Q1930187) |
+    | FAAM UUID | label      | description                                                             | aliases | Wikidata QID                                      |
+    | :-------: | :--------: | :---------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
+    | 3Kncf32R  | journalist | person who collects, writes, and distributes news and other information | journo  | [journalist](http://wikidata.org/entity/Q1930187) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/3Kncf32R.html" height="800" width="1200" title="3Kncf32R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3Kncf32R" height="800" width="1200" title="3Kncf32R"></iframe>
 
 ## Cross-references
 
@@ -61,7 +65,7 @@ tags: occupation
 
 -	__[Heinrich Ehrlich](./RatUUATc.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e2/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg){align=left width="150" height="150"} 
 
 	pianist and composer (1822-1899)
 
@@ -73,7 +77,7 @@ tags: occupation
 
 -	__[Raymond Herreman](./DYkLZpTt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian poet and journalist (1896–1971)
 

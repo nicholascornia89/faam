@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 52tHQZy7
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                | aliases | Wikidata QID                                     |
-    | :-------: | :------: | :--------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | 52tHQZy7  | Hannover | capital city of the German federated state of Lower Saxony | Hanover | [Hanover](http://wwww.wikidata.org/entity/Q1715) |
+    | FAAM UUID | label    | description                                                | aliases | Wikidata QID                                |
+    | :-------: | :------: | :--------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | 52tHQZy7  | Hannover | capital city of the German federated state of Lower Saxony | Hanover | [Hanover](http://wikidata.org/entity/Q1715) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/52tHQZy7.html" height="800" width="1200" title="52tHQZy7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/52tHQZy7" height="800" width="1200" title="52tHQZy7"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Georg Goltermann](./aQfbT97p.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German cellist, conductor, and composer (1824–1898)
 

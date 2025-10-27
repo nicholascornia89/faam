@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DXzCoxZU
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DXzCoxZU.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DXzCoxZU.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DXzCoxZU.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DXzCoxZU.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DXzCoxZU.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DXzCoxZU.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giordano_Bruno.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases       | description                                                        | Wikidata QID                                             |
-    | :-------: | :------------: | :-----------: | :----------------------------------------------------------------: | :------------------------------------------------------: |
-    | DXzCoxZU  | Giordano Bruno | Filippo Bruno | Italian Dominican friar, philosopher and mathematician (1548–1600) | [Giordano Bruno](http://wwww.wikidata.org/entity/Q36330) |
+    | FAAM UUID | label          | aliases       | description                                                        | Wikidata QID                                        |
+    | :-------: | :------------: | :-----------: | :----------------------------------------------------------------: | :-------------------------------------------------: |
+    | DXzCoxZU  | Giordano Bruno | Filippo Bruno | Italian Dominican friar, philosopher and mathematician (1548–1600) | [Giordano Bruno](http://wikidata.org/entity/Q36330) |
 
 <br><br><br>
 
@@ -43,9 +47,9 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./ZMWtK7uE.md)
+	- [astronomer](./ZMWtK7uE.md)
 
-	- [](./6pfzESag.md)
+	- [philosopher](./6pfzESag.md)
 
 	- [poet](./fKBqCJio.md)
 
@@ -53,11 +57,11 @@ tags: agent
 
 	- [university teacher](./XWcaJQty.md)
 
-	- [](./7KWSTbms.md)
+	- [astrologer](./7KWSTbms.md)
 
-	- [](./8dXsYNvZ.md)
+	- [mathematician](./8dXsYNvZ.md)
 
-	- [](./HpeKzcJG.md)
+	- [Latin Catholic priest](./HpeKzcJG.md)
 
 ??? quote "educated at" 
 
@@ -81,7 +85,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DXzCoxZU.html" height="800" width="1200" title="DXzCoxZU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DXzCoxZU" height="800" width="1200" title="DXzCoxZU"></iframe>
 
 ## Identifiers
 

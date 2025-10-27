@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gZT3Zyza
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description                                        | Wikidata QID                                                       |
-    | :-------: | :------------------: | :------------------: | :------------------------------------------------: | :----------------------------------------------------------------: |
-    | gZT3Zyza  | Le Capitaine Henriot | Le Capitaine Henriot | opéra comique composed by François-Auguste Gevaert | [Le Capitaine Henriot](http://wwww.wikidata.org/entity/Q107277627) |
+    | FAAM UUID | label                | aliases              | description                                        | Wikidata QID                                                  |
+    | :-------: | :------------------: | :------------------: | :------------------------------------------------: | :-----------------------------------------------------------: |
+    | gZT3Zyza  | Le Capitaine Henriot | Le Capitaine Henriot | opéra comique composed by François-Auguste Gevaert | [Le Capitaine Henriot](http://wikidata.org/entity/Q107277627) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/gZT3Zyza.html" height="800" width="1200" title="gZT3Zyza"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gZT3Zyza" height="800" width="1200" title="gZT3Zyza"></iframe>
 
 ## Identifiers
 
@@ -59,13 +63,13 @@ tags: musical_work
 
 -	__[Le capitaine Henriot](./FVNwobgh.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901603982.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901603982.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le capitaine Henriot Duetto](./FBtGk4Pp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901603966.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901603966.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QoDt7U6Y
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                           | aliases                  | Wikidata QID                                          |
-    | :-------: | :-------: | :-----------------------------------: | :----------------------: | :---------------------------------------------------: |
-    | QoDt7U6Y  | Wollaston | neighborhood in Quincy, Massachusetts | Wollaston, Massachusetts | [Wollaston](http://wwww.wikidata.org/entity/Q8030311) |
+    | FAAM UUID | label     | description                           | aliases                  | Wikidata QID                                     |
+    | :-------: | :-------: | :-----------------------------------: | :----------------------: | :----------------------------------------------: |
+    | QoDt7U6Y  | Wollaston | neighborhood in Quincy, Massachusetts | Wollaston, Massachusetts | [Wollaston](http://wikidata.org/entity/Q8030311) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/QoDt7U6Y.html" height="800" width="1200" title="QoDt7U6Y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QoDt7U6Y" height="800" width="1200" title="QoDt7U6Y"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Henry Clough-Leighter](./Noe7Aw8w.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer and editor (1874-1956)
 

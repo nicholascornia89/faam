@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: j9dwab3g
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                          | aliases | Wikidata QID                                              |
-    | :-------: | :-----------: | :----------------------------------: | :-----: | :-------------------------------------------------------: |
-    | j9dwab3g  | visual artist | artist involved with the visual arts | artist  | [visual artist](http://wwww.wikidata.org/entity/Q3391743) |
+    | FAAM UUID | label         | description                          | aliases | Wikidata QID                                         |
+    | :-------: | :-----------: | :----------------------------------: | :-----: | :--------------------------------------------------: |
+    | j9dwab3g  | visual artist | artist involved with the visual arts | artist  | [visual artist](http://wikidata.org/entity/Q3391743) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/j9dwab3g.html" height="800" width="1200" title="j9dwab3g"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/j9dwab3g" height="800" width="1200" title="j9dwab3g"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QasJKrSg
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                 | aliases | Wikidata QID                                          |
-    | :-------: | :-----: | :-----------------------------------------: | :-----: | :---------------------------------------------------: |
-    | QasJKrSg  | tremolo | musical term for rapid repetition of a note | tremolo | [tremolo](http://wwww.wikidata.org/entity/Q123171932) |
+    | FAAM UUID | label   | description                                 | aliases | Wikidata QID                                     |
+    | :-------: | :-----: | :-----------------------------------------: | :-----: | :----------------------------------------------: |
+    | QasJKrSg  | tremolo | musical term for rapid repetition of a note | tremolo | [tremolo](http://wikidata.org/entity/Q123171932) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/QasJKrSg.html" height="800" width="1200" title="QasJKrSg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QasJKrSg" height="800" width="1200" title="QasJKrSg"></iframe>
 
 ## Cross-references
 
@@ -59,19 +63,19 @@ tags: annotation_type
 
 -	__[Convoluut : Valentine Degive-Ledelier](./diiKf2Tw.md)__
 
-	![Image](../assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ouverture d'Iphigenie [en Aulide] : Arrangée pour clavecin ou forte-piano](./Hyve2CJo.md)__
 
-	![Image](../assets/images/thumbs/ORP-26137450b.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-26137450b.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Convoluut : Valentine Degive-Ledelier](./diiKf2Tw.md)__
 
-	![Image](../assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
 
 	
 

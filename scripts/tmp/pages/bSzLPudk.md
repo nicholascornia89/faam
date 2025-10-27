@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bSzLPudk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                      | aliases | Wikidata QID                                      |
-    | :-------: | :-------: | :----------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | bSzLPudk  | Antwerpen | municipality in the province of Antwerp, Belgium | Antwerp | [Antwerp](http://wwww.wikidata.org/entity/Q12892) |
+    | FAAM UUID | label     | description                                      | aliases | Wikidata QID                                 |
+    | :-------: | :-------: | :----------------------------------------------: | :-----: | :------------------------------------------: |
+    | bSzLPudk  | Antwerpen | municipality in the province of Antwerp, Belgium | Antwerp | [Antwerp](http://wikidata.org/entity/Q12892) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bSzLPudk.html" height="800" width="1200" title="bSzLPudk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bSzLPudk" height="800" width="1200" title="bSzLPudk"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Ivo de Vento](./BbgfX7DK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Franco-Flemish composer, organist and Kapellmeister of the High Renaissance
 
 -	__[Joseph Callaerts](./j6DV8zaS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian organist and composer (1830–1901)
 
@@ -79,19 +83,19 @@ tags: city
 
 -	__[Flor Peeters](./nPY6863Z.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://imslp.org/images/a/a8/Picture-Peeters%2C_Flor.png){align=left width="150" height="150"} 
+	![Image](https://imslp.org/images/a/a8/Picture-Peeters%2C_Flor.png){align=left width="150" height="150"} 
 
 	Flemish organist, composer and music pedagogue (1903–1986)
 
 -	__[Daniel Sternefeld](./NNF4zeEn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1905-1986)
 
 -	__[Emmanuel Durlet](./ThMz2zA8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, pianist and music educator (1893–1977)
 
@@ -109,49 +113,49 @@ tags: city
 
 -	__[Flor Alpaerts](./X9GjfsUf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, conductor, pedagogue (1876–1954)
 
 -	__[Pierre Aelberts](./ehQeovHi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian editor
 
 -	__[Louis Gobbaerts](./XqwGf95J.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian concert pianist, piano teacher and composer (1835-1886)
 
 -	__[Frans Gittens](./jcu4u5sd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian writer (1842-1911)
 
 -	__[Anton van de Velde](./3VXUQ7ER.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/aa/Anton_van_de_Velde.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_van_de_Velde.jpg){align=left width="150" height="150"} 
 
 	Belgian playwright, writer and theatre director (1895–1983)
 
 -	__[Valentine Degive-Ledelier](./9bug7VfA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian singer and music teacher
 
 -	__[Irma Van Dijck](./MvfpvWJh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian singer and music teacher
 
 -	__[Jan Blockx](./6UrJ5gwo.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/23/Karikatuur_getekend_door_Enrico_Caruso%2C_Enrico_Caruso%2C_1906_%26_1909%2C_Universiteitsbibliotheek_Gent%2C910000094265_2018_0019_AC_%28cropped%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Karikatuur_getekend_door_Enrico_Caruso%2C_Enrico_Caruso%2C_1906_%26_1909%2C_Universiteitsbibliotheek_Gent%2C910000094265_2018_0019_AC_%28cropped%29.jpg){align=left width="150" height="150"} 
 
 	Belgian composer, pianist and teacher (1851–1912)
 
@@ -163,7 +167,7 @@ tags: city
 
 -	__[Karel Candael](./9dCiGXXo.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, music teacher, and conductor (1883-1948)
 
@@ -175,7 +179,7 @@ tags: city
 
 -	__[Karel Candael](./Ei655ntR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, music teacher, and conductor (1883-1948)
 
@@ -187,7 +191,7 @@ tags: city
 
 -	__[Joseph Callaerts](./j6DV8zaS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian organist and composer (1830–1901)
 
@@ -205,7 +209,7 @@ tags: city
 
 -	__[Flor Peeters](./nPY6863Z.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://imslp.org/images/a/a8/Picture-Peeters%2C_Flor.png){align=left width="150" height="150"} 
+	![Image](https://imslp.org/images/a/a8/Picture-Peeters%2C_Flor.png){align=left width="150" height="150"} 
 
 	Flemish organist, composer and music pedagogue (1903–1986)
 
@@ -217,43 +221,43 @@ tags: city
 
 -	__[Emmanuel Durlet](./ThMz2zA8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, pianist and music educator (1893–1977)
 
 -	__[Flor Alpaerts](./X9GjfsUf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, conductor, pedagogue (1876–1954)
 
 -	__[Noel Bauldeweyn](./4Mi2LPbK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Franco-Flemish composer
 
 -	__[Frans Gittens](./jcu4u5sd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian writer (1842-1911)
 
 -	__[Jan Blockx](./6UrJ5gwo.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/23/Karikatuur_getekend_door_Enrico_Caruso%2C_Enrico_Caruso%2C_1906_%26_1909%2C_Universiteitsbibliotheek_Gent%2C910000094265_2018_0019_AC_%28cropped%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Karikatuur_getekend_door_Enrico_Caruso%2C_Enrico_Caruso%2C_1906_%26_1909%2C_Universiteitsbibliotheek_Gent%2C910000094265_2018_0019_AC_%28cropped%29.jpg){align=left width="150" height="150"} 
 
 	Belgian composer, pianist and teacher (1851–1912)
 
 -	__[Émile Wambach](./AedSA8fV.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Emile_Wambach_1913.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Wambach_1913.jpg){align=left width="150" height="150"} 
 
 	Belgian conductor, composer, musicologist and music educator (1854-1924)
 
 -	__[André-Joseph Blavier](./jFbpVqP8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer
 

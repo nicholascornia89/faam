@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SucFma9H
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                     | aliases                                   | description                             | Wikidata QID                                                                           |
-    | :-------: | :---------------------------------------: | :---------------------------------------: | :-------------------------------------: | :------------------------------------------------------------------------------------: |
-    | SucFma9H  | Wie schön leuchtet der Morgenstern, BWV 1 | Wie schön leuchtet der Morgenstern, BWV 1 | church cantata by Johann Sebastian Bach | [Wie schön leuchtet der Morgenstern, BWV 1](http://wwww.wikidata.org/entity/Q13853971) |
+    | FAAM UUID | label                                     | aliases                                   | description                             | Wikidata QID                                                                      |
+    | :-------: | :---------------------------------------: | :---------------------------------------: | :-------------------------------------: | :-------------------------------------------------------------------------------: |
+    | SucFma9H  | Wie schön leuchtet der Morgenstern, BWV 1 | Wie schön leuchtet der Morgenstern, BWV 1 | church cantata by Johann Sebastian Bach | [Wie schön leuchtet der Morgenstern, BWV 1](http://wikidata.org/entity/Q13853971) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./SBQkym6x.md)
+	- [Wie schön leuchtet der Morgenstern](./SBQkym6x.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/SucFma9H.html" height="800" width="1200" title="SucFma9H"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SucFma9H" height="800" width="1200" title="SucFma9H"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: musical_work
 
 -	__[9 Tenor-Arien : aus versch. Cantaten ; mit Begl. d. Pianoforte](./gex3sqyu.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
 
 	
 

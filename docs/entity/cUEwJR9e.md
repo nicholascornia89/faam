@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cUEwJR9e
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                      | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :------------------------------: | :-----: | :---------------------------------------------------: |
-    | cUEwJR9e  | Cheltenham | town in Gloucestershire, England |         | [Cheltenham](http://wwww.wikidata.org/entity/Q206988) |
+    | FAAM UUID | label      | description                      | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :------------------------------: | :-----: | :----------------------------------------------: |
+    | cUEwJR9e  | Cheltenham | town in Gloucestershire, England |         | [Cheltenham](http://wikidata.org/entity/Q206988) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cUEwJR9e.html" height="800" width="1200" title="cUEwJR9e"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cUEwJR9e" height="800" width="1200" title="cUEwJR9e"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Gustav Holst](./KpakAMdR.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/01/Gustav_Holst.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Holst.jpg){align=left width="150" height="150"} 
 
 	British composer
 

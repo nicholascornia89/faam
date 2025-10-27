@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LB2kuRZu
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description        | aliases              | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :----------------: | :------------------: | :-------------------------------------------------------------: |
-    | LB2kuRZu  | film score composer | musical profession | movie music composer | [film score composer](http://wwww.wikidata.org/entity/Q1415090) |
+    | FAAM UUID | label               | description        | aliases              | Wikidata QID                                               |
+    | :-------: | :-----------------: | :----------------: | :------------------: | :--------------------------------------------------------: |
+    | LB2kuRZu  | film score composer | musical profession | movie music composer | [film score composer](http://wikidata.org/entity/Q1415090) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/LB2kuRZu.html" height="800" width="1200" title="LB2kuRZu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LB2kuRZu" height="800" width="1200" title="LB2kuRZu"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LopakCZz
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                               | aliases            | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------------------------------------------------------------------: | :----------------: | :------------------------------------------------: |
-    | LopakCZz  | Windsor | town in the Royal Borough of Windsor and Maidenhead in Berkshire, England | Windsor, Berkshire | [Windsor](http://wwww.wikidata.org/entity/Q464955) |
+    | FAAM UUID | label   | description                                                               | aliases            | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------------------------------------------------------------------: | :----------------: | :-------------------------------------------: |
+    | LopakCZz  | Windsor | town in the Royal Borough of Windsor and Maidenhead in Berkshire, England | Windsor, Berkshire | [Windsor](http://wikidata.org/entity/Q464955) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LopakCZz.html" height="800" width="1200" title="LopakCZz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LopakCZz" height="800" width="1200" title="LopakCZz"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Edmund Fellowes](./Sfrz2XcR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British musician (1870–1951)
 
 -	__[Pelham Humfrey](./X3xyZezw.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English composer
 

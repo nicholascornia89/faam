@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5bmWHkNF
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description     | aliases  | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------: | :------: | :------------------------------------------------: |
-    | 5bmWHkNF  | Vitebsk | city in Belarus | Vitsebsk | [Vitebsk](http://wwww.wikidata.org/entity/Q102217) |
+    | FAAM UUID | label   | description     | aliases  | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------: | :------: | :-------------------------------------------: |
+    | 5bmWHkNF  | Vitebsk | city in Belarus | Vitsebsk | [Vitebsk](http://wikidata.org/entity/Q102217) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Belarus](http://www.wikidata.org/entity/Q184)
+	- [Belarus](Q184)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/5bmWHkNF.html" height="800" width="1200" title="5bmWHkNF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5bmWHkNF" height="800" width="1200" title="5bmWHkNF"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Boris de Schlözer](./fStBz5Sq.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/47/Boris_de_Schl%C3%B6zer_2.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Boris_de_Schl%C3%B6zer_2.jpg){align=left width="150" height="150"} 
 
 	Russian Translator (1881–1969)
 

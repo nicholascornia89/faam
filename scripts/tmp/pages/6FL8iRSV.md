@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6FL8iRSV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description             | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :---------------------: | :-----: | :------------------------------------------------: |
-    | 6FL8iRSV  | Ohrdruf | municipality of Germany |         | [Ohrdruf](http://wwww.wikidata.org/entity/Q502714) |
+    | FAAM UUID | label   | description             | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :---------------------: | :-----: | :-------------------------------------------: |
+    | 6FL8iRSV  | Ohrdruf | municipality of Germany |         | [Ohrdruf](http://wikidata.org/entity/Q502714) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/6FL8iRSV.html" height="800" width="1200" title="6FL8iRSV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6FL8iRSV" height="800" width="1200" title="6FL8iRSV"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Johann Christoph Bach III](./NcsUmtLU.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Organist in Ohrdruf
 

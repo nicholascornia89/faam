@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CmptxrAx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                       | aliases | Wikidata QID                                          |
-    | :-------: | :---------: | :---------------------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | CmptxrAx  | IJsselstein | city and municipality in the province of Utrecht, the Netherlands |         | [IJsselstein](http://wwww.wikidata.org/entity/Q10045) |
+    | FAAM UUID | label       | description                                                       | aliases | Wikidata QID                                     |
+    | :-------: | :---------: | :---------------------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | CmptxrAx  | IJsselstein | city and municipality in the province of Utrecht, the Netherlands |         | [IJsselstein](http://wikidata.org/entity/Q10045) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CmptxrAx.html" height="800" width="1200" title="CmptxrAx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CmptxrAx" height="800" width="1200" title="CmptxrAx"></iframe>
 
 ## Identifiers
 

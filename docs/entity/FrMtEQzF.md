@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FrMtEQzF
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases                                             | description                          | Wikidata QID                                              |
-    | :-------: | :--------------------: | :-------------------------------------------------: | :----------------------------------: | :-------------------------------------------------------: |
-    | FrMtEQzF  | Symphony No. 2, Op. 17 | Symphony No. 2 in C Minor, Op. 17, "Little Russian" | symphony by Pyotr Ilyich Tchaikovsky | [Symphony No. 2](http://wwww.wikidata.org/entity/Q210585) |
+    | FAAM UUID | label                  | aliases                                             | description                          | Wikidata QID                                         |
+    | :-------: | :--------------------: | :-------------------------------------------------: | :----------------------------------: | :--------------------------------------------------: |
+    | FrMtEQzF  | Symphony No. 2, Op. 17 | Symphony No. 2 in C Minor, Op. 17, "Little Russian" | symphony by Pyotr Ilyich Tchaikovsky | [Symphony No. 2](http://wikidata.org/entity/Q210585) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/FrMtEQzF.html" height="800" width="1200" title="FrMtEQzF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FrMtEQzF" height="800" width="1200" title="FrMtEQzF"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[2e symphonie : en do min, op. 17](./Fqge5yGo.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904478887.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904478887.gif){align=left width="150" height="150"} 
 
 	
 

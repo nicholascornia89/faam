@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9RaqjwnY
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                           | aliases                 | description                     | Wikidata QID                                                     |
-    | :-------: | :---------------------------------------------: | :---------------------: | :-----------------------------: | :--------------------------------------------------------------: |
-    | 9RaqjwnY  | The Barber of Seville (Il barbiere di Siviglia) | Il barbiere di Siviglia | 1816 opera by Gioachino Rossini | [The Barber of Seville](http://wwww.wikidata.org/entity/Q208659) |
+    | FAAM UUID | label                                           | aliases                 | description                     | Wikidata QID                                                |
+    | :-------: | :---------------------------------------------: | :---------------------: | :-----------------------------: | :---------------------------------------------------------: |
+    | 9RaqjwnY  | The Barber of Seville (Il barbiere di Siviglia) | Il barbiere di Siviglia | 1816 opera by Gioachino Rossini | [The Barber of Seville](http://wikidata.org/entity/Q208659) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./n7ez74JN.md)
+	- [The Barber of Seville](./n7ez74JN.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/9RaqjwnY.html" height="800" width="1200" title="9RaqjwnY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9RaqjwnY" height="800" width="1200" title="9RaqjwnY"></iframe>
 
 ## Identifiers
 

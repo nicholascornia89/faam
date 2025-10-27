@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: h64cbr2z
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/h64cbr2z.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/h64cbr2z.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/h64cbr2z.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/h64cbr2z.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/h64cbr2z.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/h64cbr2z.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description      | Wikidata QID                                                   |
-    | :-------: | :----------------: | :----------------: | :--------------: | :------------------------------------------------------------: |
-    | h64cbr2z  | Alessandro Besozzi | Alessandro Besozzi | Italian composer | [Alessandro Besozzi](http://wwww.wikidata.org/entity/Q2483827) |
+    | FAAM UUID | label              | aliases            | description      | Wikidata QID                                              |
+    | :-------: | :----------------: | :----------------: | :--------------: | :-------------------------------------------------------: |
+    | h64cbr2z  | Alessandro Besozzi | Alessandro Besozzi | Italian composer | [Alessandro Besozzi](http://wikidata.org/entity/Q2483827) |
 
 <br><br><br>
 
@@ -49,13 +53,13 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./FPRyBmX6.md)
+	- [oboist](./FPRyBmX6.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/h64cbr2z.html" height="800" width="1200" title="h64cbr2z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/h64cbr2z" height="800" width="1200" title="h64cbr2z"></iframe>
 
 ## Identifiers
 

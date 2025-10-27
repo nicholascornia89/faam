@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NhSRnx7u
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NhSRnx7u.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NhSRnx7u.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NhSRnx7u.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NhSRnx7u.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NhSRnx7u.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NhSRnx7u.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Issac_nathan.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                                                            | Wikidata QID                                             |
-    | :-------: | :----------: | :----------: | :--------------------------------------------------------------------: | :------------------------------------------------------: |
-    | NhSRnx7u  | Isaac Nathan | Isaac Nathan | Anglo-Australian composer, musicologist, journalist and self-publicist | [Isaac Nathan](http://wwww.wikidata.org/entity/Q6076851) |
+    | FAAM UUID | label        | aliases      | description                                                            | Wikidata QID                                        |
+    | :-------: | :----------: | :----------: | :--------------------------------------------------------------------: | :-------------------------------------------------: |
+    | NhSRnx7u  | Isaac Nathan | Isaac Nathan | Anglo-Australian composer, musicologist, journalist and self-publicist | [Isaac Nathan](http://wikidata.org/entity/Q6076851) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NhSRnx7u.html" height="800" width="1200" title="NhSRnx7u"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NhSRnx7u" height="800" width="1200" title="NhSRnx7u"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,7 @@ tags: agent
 
 -	__[Musurgia vocalis: an essay on the history and theory of music, and on the qualities, capabilities, and management of the human voice.](./EomjUFQk.md)__
 
-	![Image](../assets/images/thumbs/UTL-976896233.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/UTL-976896233.gif){align=left width="150" height="150"} 
 
 	
 

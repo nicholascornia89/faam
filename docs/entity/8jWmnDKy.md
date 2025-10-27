@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8jWmnDKy
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | aliases  | description                | Wikidata QID                                        |
-    | :-------: | :------: | :------: | :------------------------: | :-------------------------------------------------: |
-    | 8jWmnDKy  | Tancredi | Tancredi | opera by Gioachino Rossini | [Tancredi](http://wwww.wikidata.org/entity/Q911443) |
+    | FAAM UUID | label    | aliases  | description                | Wikidata QID                                   |
+    | :-------: | :------: | :------: | :------------------------: | :--------------------------------------------: |
+    | 8jWmnDKy  | Tancredi | Tancredi | opera by Gioachino Rossini | [Tancredi](http://wikidata.org/entity/Q911443) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./CYq4STSm.md)
+	- [Tancrède](./CYq4STSm.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/8jWmnDKy.html" height="800" width="1200" title="8jWmnDKy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8jWmnDKy" height="800" width="1200" title="8jWmnDKy"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: musical_work
 
 -	__[1er trio : pour Harpe Flute et COr: op. 14](./dwnCQdXb.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750013.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750013.gif){align=left width="150" height="150"} 
 
 	
 

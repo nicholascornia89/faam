@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8hu8F7Zd
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                    | aliases               | Wikidata QID                                                  |
-    | :-------: | :----------------: | :--------------------------------------------: | :-------------------: | :-----------------------------------------------------------: |
-    | 8hu8F7Zd  | Leipzig University | university in Leipzig, Saxony, Germany (1409-) | University of Leipzig | [Leipzig University](http://wwww.wikidata.org/entity/Q154804) |
+    | FAAM UUID | label              | description                                    | aliases               | Wikidata QID                                             |
+    | :-------: | :----------------: | :--------------------------------------------: | :-------------------: | :------------------------------------------------------: |
+    | 8hu8F7Zd  | Leipzig University | university in Leipzig, Saxony, Germany (1409-) | University of Leipzig | [Leipzig University](http://wikidata.org/entity/Q154804) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/8hu8F7Zd.html" height="800" width="1200" title="8hu8F7Zd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8hu8F7Zd" height="800" width="1200" title="8hu8F7Zd"></iframe>
 
 ## Cross-references
 
@@ -63,7 +67,7 @@ tags: music_organization
 
 -	__[Theodor Kroyer](./MTPhkSTp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist (1873-1945)
 
@@ -75,7 +79,7 @@ tags: music_organization
 
 -	__[Wolfgang Fortner](./3vF4a5M7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and conductor (1907–1987)
 
@@ -87,7 +91,7 @@ tags: music_organization
 
 -	__[Hans von Bülow](./AaF6WQEA.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Hans_von_buelow.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans_von_buelow.jpg){align=left width="150" height="150"} 
 
 	German conductor and pianist (1830–1894)
 

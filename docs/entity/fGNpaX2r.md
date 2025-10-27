@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fGNpaX2r
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fGNpaX2r.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fGNpaX2r.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fGNpaX2r.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fGNpaX2r.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fGNpaX2r.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fGNpaX2r.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                      | Wikidata QID                                              |
-    | :-------: | :----------: | :----------: | :------------------------------: | :-------------------------------------------------------: |
-    | fGNpaX2r  | Carlo Pedron | Carlo Pedron | Italian music teacher and editor | [Carlo Pedron](http://wwww.wikidata.org/entity/Q60829514) |
+    | FAAM UUID | label        | aliases      | description                      | Wikidata QID                                         |
+    | :-------: | :----------: | :----------: | :------------------------------: | :--------------------------------------------------: |
+    | fGNpaX2r  | Carlo Pedron | Carlo Pedron | Italian music teacher and editor | [Carlo Pedron](http://wikidata.org/entity/Q60829514) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/fGNpaX2r.html" height="800" width="1200" title="fGNpaX2r"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fGNpaX2r" height="800" width="1200" title="fGNpaX2r"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: agent
 
 -	__[7 Toccate per Pianoforte di Pietro Scarlatti](./VbD2jN2A.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP9125.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP9125.gif){align=left width="150" height="150"} 
 
 	
 

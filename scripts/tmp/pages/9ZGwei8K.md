@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9ZGwei8K
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/9ZGwei8K.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/9ZGwei8K.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/9ZGwei8K.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/9ZGwei8K.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/9ZGwei8K.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/9ZGwei8K.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francesco_morlacchi.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases                                 | description                  | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-------------------------------------: | :--------------------------: | :------------------------------------------------------------: |
-    | 9ZGwei8K  | Francesco Morlacchi | Francesco Giuseppe Baldassare Morlacchi | Italian composer (1784-1841) | [Francesco Morlacchi](http://wwww.wikidata.org/entity/Q571408) |
+    | FAAM UUID | label               | aliases                                 | description                  | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-------------------------------------: | :--------------------------: | :-------------------------------------------------------: |
+    | 9ZGwei8K  | Francesco Morlacchi | Francesco Giuseppe Baldassare Morlacchi | Italian composer (1784-1841) | [Francesco Morlacchi](http://wikidata.org/entity/Q571408) |
 
 <br><br><br>
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/9ZGwei8K.html" height="800" width="1200" title="9ZGwei8K"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9ZGwei8K" height="800" width="1200" title="9ZGwei8K"></iframe>
 
 ## Identifiers
 
@@ -88,3 +92,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Moritz Hauptmann](./FRvAKw75.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Moritz_Hauptmann.jpg){align=left width="150" height="150"} 
+
+	German music theorist, teacher and composer (1792–1868)
+
+</div>

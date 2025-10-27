@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 62ZrHPyu
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-432579086/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/62ZrHPyu.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/62ZrHPyu.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/62ZrHPyu.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-432579086/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/62ZrHPyu.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/62ZrHPyu.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/62ZrHPyu.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-432579086.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-432579086.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                       | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | 62ZrHPyu  | BNF-432579086         | Sonate n° 60 [i.e. 377] : bourrée (dite d'Aranjuez) / Domenico Scarlatti... | [external URL](7WfWytMV) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                       | permalink                                                       | provenance                                        |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------: |
+    | 62ZrHPyu  | BNF-432579086         | Sonate n° 60 [i.e. 377] : bourrée (dite d'Aranjuez) / Domenico Scarlatti... | [external URL](https://catalogue.bnf.fr/ark:/12148/cb432579086) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -79,10 +83,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/62ZrHPyu.html" height="800" width="1200" title="62ZrHPyu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/62ZrHPyu" height="800" width="1200" title="62ZrHPyu"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/62ZrHPyu.html" height="800" width="1200" title="62ZrHPyu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/62ZrHPyu" height="800" width="1200" title="62ZrHPyu"></iframe>

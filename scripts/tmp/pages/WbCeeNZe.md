@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WbCeeNZe
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WbCeeNZe.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WbCeeNZe.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WbCeeNZe.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WbCeeNZe.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WbCeeNZe.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WbCeeNZe.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description | Wikidata QID                                                |
-    | :-------: | :------------: | :-----: | :---------: | :---------------------------------------------------------: |
-    | WbCeeNZe  | Gaetano Agazzi |         |             | [Gaetano Agazzi](http://wwww.wikidata.org/entity/Q60866514) |
+    | FAAM UUID | label          | aliases | description | Wikidata QID                                           |
+    | :-------: | :------------: | :-----: | :---------: | :----------------------------------------------------: |
+    | WbCeeNZe  | Gaetano Agazzi |         |             | [Gaetano Agazzi](http://wikidata.org/entity/Q60866514) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/WbCeeNZe.html" height="800" width="1200" title="WbCeeNZe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WbCeeNZe" height="800" width="1200" title="WbCeeNZe"></iframe>
 
 ## Identifiers
 

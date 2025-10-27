@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oYhf9DwP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                               | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :---------------------------------------: | :-----: | :------------------------------------------------: |
-    | oYhf9DwP  | Usingen | town in Hochtaunuskreis in Hesse, Germany |         | [Usingen](http://wwww.wikidata.org/entity/Q622565) |
+    | FAAM UUID | label   | description                               | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :---------------------------------------: | :-----: | :-------------------------------------------: |
+    | oYhf9DwP  | Usingen | town in Hochtaunuskreis in Hesse, Germany |         | [Usingen](http://wikidata.org/entity/Q622565) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/oYhf9DwP.html" height="800" width="1200" title="oYhf9DwP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oYhf9DwP" height="800" width="1200" title="oYhf9DwP"></iframe>
 
 ## Identifiers
 

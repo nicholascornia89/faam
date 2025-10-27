@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: W7vQ5NdU
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20143703p9/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/W7vQ5NdU.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/W7vQ5NdU.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/W7vQ5NdU.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20143703p9/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/W7vQ5NdU.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/W7vQ5NdU.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/W7vQ5NdU.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143703p9.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143703p9.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title              | permalink                | provenance                         |
-    | :-------: | :-------------------: | :----------------: | :----------------------: | :--------------------------------: |
-    | W7vQ5NdU  | ORP-20143703p9        | Album Musica N. 31 | [external URL](myeBxemb) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title              | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :----------------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | W7vQ5NdU  | ORP-20143703p9        | Album Musica N. 31 | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "note" 
 
@@ -128,10 +132,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/W7vQ5NdU.html" height="800" width="1200" title="W7vQ5NdU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/W7vQ5NdU" height="800" width="1200" title="W7vQ5NdU"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/W7vQ5NdU.html" height="800" width="1200" title="W7vQ5NdU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/W7vQ5NdU" height="800" width="1200" title="W7vQ5NdU"></iframe>

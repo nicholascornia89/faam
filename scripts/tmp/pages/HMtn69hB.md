@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HMtn69hB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                     | aliases       | Wikidata QID                                  |
-    | :-------: | :---: | :-------------------------------------------------------------: | :-----------: | :-------------------------------------------: |
-    | HMtn69hB  | Tours | city and commune in Indre-et-Loire, Centre-Val de Loire, France | Tours, Centre | [Tours](http://wwww.wikidata.org/entity/Q288) |
+    | FAAM UUID | label | description                                                     | aliases       | Wikidata QID                             |
+    | :-------: | :---: | :-------------------------------------------------------------: | :-----------: | :--------------------------------------: |
+    | HMtn69hB  | Tours | city and commune in Indre-et-Loire, Centre-Val de Loire, France | Tours, Centre | [Tours](http://wikidata.org/entity/Q288) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HMtn69hB.html" height="800" width="1200" title="HMtn69hB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HMtn69hB" height="800" width="1200" title="HMtn69hB"></iframe>
 
 ## Identifiers
 

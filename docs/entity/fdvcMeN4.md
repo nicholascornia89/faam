@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fdvcMeN4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                               | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :---------------------------------------: | :-----: | :----------------------------------------------: |
-    | fdvcMeN4  | Tallinn | capital and most populous city of Estonia | Reval   | [Tallinn](http://wwww.wikidata.org/entity/Q1770) |
+    | FAAM UUID | label   | description                               | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :---------------------------------------: | :-----: | :-----------------------------------------: |
+    | fdvcMeN4  | Tallinn | capital and most populous city of Estonia | Reval   | [Tallinn](http://wikidata.org/entity/Q1770) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Estonia](http://www.wikidata.org/entity/Q191)
+	- [Estonia](Q191)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/fdvcMeN4.html" height="800" width="1200" title="fdvcMeN4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fdvcMeN4" height="800" width="1200" title="fdvcMeN4"></iframe>
 
 ## Identifiers
 

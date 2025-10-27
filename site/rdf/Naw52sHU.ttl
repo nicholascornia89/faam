@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Naw52sHU a rdfs:Resource ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Belgian music publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q130391420>,
+        "16004136"^^xsd:string,
+        "Naw52sHU"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Georges Oertel"^^xsd:string ;
+    skos:prefLabel "Georges Oertel"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:HmGw8E8i,
+        faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:MwhmFC4w .
+

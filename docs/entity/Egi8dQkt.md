@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Egi8dQkt
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description           | aliases   | Wikidata QID                                      |
-    | :-------: | :------: | :-------------------: | :-------: | :-----------------------------------------------: |
-    | Egi8dQkt  | citation | reference to a source | reference | [citation](http://wwww.wikidata.org/entity/Q1713) |
+    | FAAM UUID | label    | description           | aliases   | Wikidata QID                                 |
+    | :-------: | :------: | :-------------------: | :-------: | :------------------------------------------: |
+    | Egi8dQkt  | citation | reference to a source | reference | [citation](http://wikidata.org/entity/Q1713) |
 
 <br><br><br>
 
@@ -33,13 +37,13 @@ tags: annotation_type
 
 	- [reference](./LycxUSRH.md)
 
-	- [](./79HoWTaM.md)
+	- [written work](./79HoWTaM.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Egi8dQkt.html" height="800" width="1200" title="Egi8dQkt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Egi8dQkt" height="800" width="1200" title="Egi8dQkt"></iframe>
 
 ## Cross-references
 
@@ -49,19 +53,19 @@ tags: annotation_type
 
 -	__[Symphony No. 1, Movement I](./dQdznAa8.md)__
 
-	![Image](../assets/images/thumbs/WML-768157.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768157.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ancienne musique de luth (XVIe et XVIIe siècles) : adaptée pour l'exécution sur la harpe chromatique](./Y7Uwiric.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901267440.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901267440.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Philippi de Monte. VIII Magnificat](./jaKyd57t.md)__
 
-	![Image](../assets/images/thumbs/KCG-39.OP.OMdeMonte23.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-39.OP.OMdeMonte23.gif){align=left width="150" height="150"} 
 
 	
 

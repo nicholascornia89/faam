@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kW5V4cox
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                  | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :--------------------------: | :-----: | :----------------------------------------------: |
-    | kW5V4cox  | Livorno | city in Italy, Central Italy | Leghorn | [Livorno](http://wwww.wikidata.org/entity/Q6761) |
+    | FAAM UUID | label   | description                  | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :--------------------------: | :-----: | :-----------------------------------------: |
+    | kW5V4cox  | Livorno | city in Italy, Central Italy | Leghorn | [Livorno](http://wikidata.org/entity/Q6761) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/kW5V4cox.html" height="800" width="1200" title="kW5V4cox"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kW5V4cox" height="800" width="1200" title="kW5V4cox"></iframe>
 
 ## Identifiers
 
@@ -67,25 +71,25 @@ tags: city
 
 -	__[Giuseppe Cambini](./5yDGjqgE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician (1746-1825)
 
 -	__[Roberto Michelucci](./nZ858ad7.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/18/Tokio_1972._Roberto_Michelucci_riceve_il_Disco_D%27oro.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tokio_1972._Roberto_Michelucci_riceve_il_Disco_D%27oro.jpg){align=left width="150" height="150"} 
 
 	Italian violinist (1922–2010)
 
 -	__[Gustavo Carulli](./AbReSA72.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian-French musician 1801-76
 
 -	__[Alfredo Soffredini](./QChw63qm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

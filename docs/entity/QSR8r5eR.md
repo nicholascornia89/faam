@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QSR8r5eR
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/QSR8r5eR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/QSR8r5eR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/QSR8r5eR.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/QSR8r5eR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/QSR8r5eR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/QSR8r5eR.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Delibes_Leo_Luckhard.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases                       | description                 | Wikidata QID                                           |
-    | :-------: | :---------: | :---------------------------: | :-------------------------: | :----------------------------------------------------: |
-    | QSR8r5eR  | Léo Delibes | Clément Philibert Léo Delibes | French composer (1836–1891) | [Léo Delibes](http://wwww.wikidata.org/entity/Q207951) |
+    | FAAM UUID | label       | aliases                       | description                 | Wikidata QID                                      |
+    | :-------: | :---------: | :---------------------------: | :-------------------------: | :-----------------------------------------------: |
+    | QSR8r5eR  | Léo Delibes | Clément Philibert Léo Delibes | French composer (1836–1891) | [Léo Delibes](http://wikidata.org/entity/Q207951) |
 
 <br><br><br>
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/QSR8r5eR.html" height="800" width="1200" title="QSR8r5eR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QSR8r5eR" height="800" width="1200" title="QSR8r5eR"></iframe>
 
 ## Identifiers
 
@@ -95,8 +99,24 @@ tags: agent
 
 -	__[Intermezzo (Pas des fleures)](./XVwHoYbb.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p13.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p13.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Émile Jaques-Dalcroze](./TvDT5iVC.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Jaques_Dalcroze.jpg){align=left width="150" height="150"} 
+
+	Swiss composer, musician and music educator (1865-1950)
+
+-	__[Alix Fournier](./k86xhxkG.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French composer (1864-1897)
 
 </div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MSqmiCXh
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                                      | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | MSqmiCXh  | jurist | legal scholar or academic, a professional who studies, teaches, and develops law | lawyer  | [jurist](http://wwww.wikidata.org/entity/Q185351) |
+    | FAAM UUID | label  | description                                                                      | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :------------------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | MSqmiCXh  | jurist | legal scholar or academic, a professional who studies, teaches, and develops law | lawyer  | [jurist](http://wikidata.org/entity/Q185351) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/MSqmiCXh.html" height="800" width="1200" title="MSqmiCXh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MSqmiCXh" height="800" width="1200" title="MSqmiCXh"></iframe>
 
 ## Cross-references
 

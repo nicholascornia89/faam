@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5hXiBtGn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description  | aliases | Wikidata QID                                  |
-    | :-------: | :---: | :----------: | :-----: | :-------------------------------------------: |
-    | 5hXiBtGn  | Como  | Italian city |         | [Como](http://wwww.wikidata.org/entity/Q1308) |
+    | FAAM UUID | label | description  | aliases | Wikidata QID                             |
+    | :-------: | :---: | :----------: | :-----: | :--------------------------------------: |
+    | 5hXiBtGn  | Como  | Italian city |         | [Como](http://wikidata.org/entity/Q1308) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/5hXiBtGn.html" height="800" width="1200" title="5hXiBtGn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5hXiBtGn" height="800" width="1200" title="5hXiBtGn"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Francesco Pasquale Ricci](./ZQMQYxMH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Francesco Pasquale Ricci](./ZQMQYxMH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dtkJhYLf
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                             | aliases | Wikidata QID                                 |
-    | :-------: | :---: | :-------------------------------------: | :-----: | :------------------------------------------: |
-    | dtkJhYLf  | Paris | capital city and largest city of France | Paris   | [Paris](http://wwww.wikidata.org/entity/Q90) |
+    | FAAM UUID | label | description                             | aliases | Wikidata QID                            |
+    | :-------: | :---: | :-------------------------------------: | :-----: | :-------------------------------------: |
+    | dtkJhYLf  | Paris | capital city and largest city of France | Paris   | [Paris](http://wikidata.org/entity/Q90) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dtkJhYLf.html" height="800" width="1200" title="dtkJhYLf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dtkJhYLf" height="800" width="1200" title="dtkJhYLf"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Léon Husson](./iTcKvvWZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1851-1905)
 
 -	__[Amédée Gastoué](./5rZmZPuR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist (1873–1943)
 
@@ -73,19 +77,19 @@ tags: city
 
 -	__[Georges-Julien Sieber](./RR6b2Mpn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music printer (1775-1847)
 
 -	__[Louis-François Dauprat](./9sgtLnWS.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
 
 	French composer and horn-player
 
 -	__[Jean Auguste Blangy](./bGMtDGZC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -115,7 +119,7 @@ tags: city
 
 -	__[Louis Dumas](./Cnqz9txA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1877-1952)
 
@@ -139,7 +143,7 @@ tags: city
 
 -	__[Charles Levadé](./V6W5MAQr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1869-1948)
 
@@ -175,7 +179,7 @@ tags: city
 
 -	__[Bernard Crocé-Spinelli](./KES8pkUZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music educator (1871–1932)
 
@@ -187,7 +191,7 @@ tags: city
 
 -	__[Paul Wachs](./DZekGw3j.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1851–1915)
 
@@ -199,7 +203,7 @@ tags: city
 
 -	__[Frédéric Wachs](./6UtitQwc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
@@ -229,7 +233,7 @@ tags: city
 
 -	__[Ferdinand-Fleurus Amyot](./5q9U4tL9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French publisher and bookseller (1818-1875)
 
@@ -241,7 +245,7 @@ tags: city
 
 -	__[Henri Desmarets](./Co2QwDri.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1661-1741)
 
@@ -271,7 +275,7 @@ tags: city
 
 -	__[Jean Gabriel Marie](./KChV7zcZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and conductor (1852-1928)
 
@@ -307,7 +311,7 @@ tags: city
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
@@ -331,7 +335,7 @@ tags: city
 
 -	__[Fromental Halévy](./NPPV2XtG.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
 
 	French composer
 
@@ -349,13 +353,13 @@ tags: city
 
 -	__[Léon Grus](./h44Fwcxx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Eugène Troupenas](./Qpi4vWw7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French mathematician and music publisher (1798-1850)
 
@@ -367,7 +371,7 @@ tags: city
 
 -	__[Jacques Georges Cousineau](./86S8QHRK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French harpmaker
 
@@ -379,7 +383,7 @@ tags: city
 
 -	__[Henri Brod](./SLJQN3cG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician (1799–1839)
 
@@ -391,7 +395,7 @@ tags: city
 
 -	__[Charles Philippe Lafont](./4EtCMgqU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/4d/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg){align=left width="150" height="150"} 
 
 	French violinist and composer (1781–1839)
 
@@ -403,7 +407,7 @@ tags: city
 
 -	__[Eugène Demets](./fp9MQVQ5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French music publisher
 
@@ -415,37 +419,37 @@ tags: city
 
 -	__[Paul Brunold](./8tdvhwo3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Henry Lemoine](./25bLvjC3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French piano teacher, music publisher, and composer (1786-1854)
 
 -	__[Charles-Georges Boyer](./WDGAMwvd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French music publisher
 
 -	__[Maurice Senart](./MpcFo7ct.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French music publisher
 
 -	__[Gustave Legouix](./a3XFSh3H.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Rouart Lerolle](./Lf7agAjT.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	past French music publisher
 
@@ -481,7 +485,7 @@ tags: city
 
 -	__[Antonin Marmontel](./Rj4bGWry.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, pianist and music educator (1850–1907)
 
@@ -499,13 +503,13 @@ tags: city
 
 -	__[Marie-Pierre Chénié](./RRZ5NMaw.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1773-1832)
 
 -	__[Henri-Jean Rigel](./nqNsEqzn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist
 
@@ -547,25 +551,25 @@ tags: city
 
 -	__[Jean-Henri Levasseur](./TuQsEjAR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French cellist and composer
 
 -	__[Nicolas Gigault](./Lyor6fZo.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer
 
 -	__[François Roberday](./mPRFJRqS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1624-1680)
 
 -	__[Jacques Thomelin](./n62o7ZkK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and organist
 
@@ -577,13 +581,13 @@ tags: city
 
 -	__[Isidore Bertheaume](./DRer7QtC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French violinist and composer
 
 -	__[Jacques Champion de Chambonnières](./kj9NbWjb.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and harpsichordist
 
@@ -607,37 +611,37 @@ tags: city
 
 -	__[Charles Laffillé](./V4Z9quf2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, poet and theatre director
 
 -	__[Georges-Julien Sieber](./RR6b2Mpn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music printer (1775-1847)
 
 -	__[Benoît Pollet](./fNsjhW8Z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Louis-François Dauprat](./9sgtLnWS.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
 
 	French composer and horn-player
 
 -	__[Jean Auguste Blangy](./bGMtDGZC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Julie Dorus-Gras](./cFRPbHXZ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/f/fa/JulieDorus-Gras.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/JulieDorus-Gras.jpg){align=left width="150" height="150"} 
 
 	singer (1805–1896)
 
@@ -649,7 +653,7 @@ tags: city
 
 -	__[Alexis de Garaudé](./5zYxp5vL.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1821-1854)
 
@@ -679,7 +683,7 @@ tags: city
 
 -	__[Paul Pierné](./3kR3ygqu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1874-1952)
 
@@ -709,7 +713,7 @@ tags: city
 
 -	__[Raymond Pech](./27knDtjx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1876–1952)
 
@@ -751,13 +755,13 @@ tags: city
 
 -	__[Edmond Laurens](./aNSXX54T.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1852-1925)
 
 -	__[Gaston Paulin](./TAsu3Dk9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1861-1921)
 
@@ -799,7 +803,7 @@ tags: city
 
 -	__[Frédéric Wachs](./6UtitQwc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
@@ -829,7 +833,7 @@ tags: city
 
 -	__[Louis Bordèse](./Avg44bUG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer who resided in France
 
@@ -841,7 +845,7 @@ tags: city
 
 -	__[Louis-César Desormes](./bZGZXYMA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and conductor
 
@@ -883,7 +887,7 @@ tags: city
 
 -	__[Armand Machabey](./fcb7732q.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musicologist (1886-1966)
 
@@ -919,7 +923,7 @@ tags: city
 
 -	__[Jean-Baptiste-Joseph Tolbecque](./9FCtqmNH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, violinist and conductor
 
@@ -955,13 +959,13 @@ tags: city
 
 -	__[Charles Baudiot](./NnHKaK9g.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French cellist, composer and music educator
 
 -	__[François-René Gebauer](./fMmiNPr6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French bassoonist and composer
 
@@ -991,7 +995,7 @@ tags: city
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
@@ -1003,7 +1007,7 @@ tags: city
 
 -	__[François Bernier](./KKvERxRE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French physician and traveller
 
@@ -1033,7 +1037,7 @@ tags: city
 
 -	__[Xavier Boisselot](./GziVRsjy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/56/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
 
 	Composer and piano maker (1811-1893)
 
@@ -1093,7 +1097,7 @@ tags: city
 
 -	__[Gioachino Rossini](./YWvFQ75E.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Composer_Rossini_G_1865_by_Carjat.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1792–1868)
 
@@ -1135,7 +1139,7 @@ tags: city
 
 -	__[Clément Janequin](./egm3S8BS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
@@ -1153,7 +1157,7 @@ tags: city
 
 -	__[Boris de Schlözer](./fStBz5Sq.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/47/Boris_de_Schl%C3%B6zer_2.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Boris_de_Schl%C3%B6zer_2.jpg){align=left width="150" height="150"} 
 
 	Russian Translator (1881–1969)
 
@@ -1165,7 +1169,7 @@ tags: city
 
 -	__[Eugène Troupenas](./Qpi4vWw7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French mathematician and music publisher (1798-1850)
 
@@ -1183,7 +1187,7 @@ tags: city
 
 -	__[Jacques Georges Cousineau](./86S8QHRK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French harpmaker
 
@@ -1201,13 +1205,13 @@ tags: city
 
 -	__[Bernard Viguerie](./6fhzm3t7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Giuseppe Cambini](./5yDGjqgE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician (1746-1825)
 
@@ -1225,7 +1229,7 @@ tags: city
 
 -	__[Jean-Frédéric Edelmann](./oRcy7jj8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1749–1794)
 
@@ -1243,7 +1247,7 @@ tags: city
 
 -	__[Henri Brod](./SLJQN3cG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician (1799–1839)
 
@@ -1291,25 +1295,25 @@ tags: city
 
 -	__[Eugène Demets](./fp9MQVQ5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French music publisher
 
 -	__[Francesco Piermarini](./n9XVoQC2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Bernard Latte](./biAt5GhS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Gustave Flaxland](./CieeeqL8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and editor
 
@@ -1321,49 +1325,49 @@ tags: city
 
 -	__[Nicolas Lebègue](./EzfSNmgD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist, harpsichordist and composer
 
 -	__[Paul Brunold](./8tdvhwo3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Henry Lemoine](./25bLvjC3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French piano teacher, music publisher, and composer (1786-1854)
 
 -	__[Charles-Georges Boyer](./WDGAMwvd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French music publisher
 
 -	__[Émile Barateau](./EorjjYHP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	penman, poet, lyricist (1792-1870)
 
 -	__[Édouard Fournier](./W8EkVxFo.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
 
 	French historian, writer, bibliographer and librarian (1819-1880)
 
 -	__[Maximilian Eschig](./6zMfY2ZT.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech-born French music publisher (1872-1927)
 
 -	__[Vincenzo Gambaro](./RJrp7LF2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -1375,7 +1379,7 @@ tags: city
 
 -	__[Vincenzo Fiocchi](./avAreNkS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -1387,7 +1391,7 @@ tags: city
 
 -	__[Henri Quittard](./PguNCpQU.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, musicologist and music critic
 
@@ -1399,7 +1403,7 @@ tags: city
 
 -	__[Louis Couperin](./KqBibisZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French Baroque composer
 
@@ -1465,7 +1469,7 @@ tags: city
 
 -	__[Antonin Marmontel](./Rj4bGWry.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, pianist and music educator (1850–1907)
 
@@ -1501,7 +1505,7 @@ tags: city
 
 -	__[Aimé Leborne](./AWxaRSam.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music educator
 
@@ -1525,19 +1529,19 @@ tags: city
 
 -	__[Jean-Baptiste Moreau](./GVcaEztC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Nicolas Goupillet](./78NbgeDt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Pierre Robert](./9JBj5YHs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
@@ -1549,7 +1553,7 @@ tags: city
 
 -	__[Charles-Laurent Rhein](./jjZYuf95.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French pianist and composer
 
@@ -1561,7 +1565,7 @@ tags: city
 
 -	__[Marie-Pierre Chénié](./RRZ5NMaw.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1773-1832)
 
@@ -1585,7 +1589,7 @@ tags: city
 
 -	__[Jean-Baptiste-Aimé Joseph Janson](./HqrR2CSY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, cellist and music educator (1742-1803)
 
@@ -1603,7 +1607,7 @@ tags: city
 
 -	__[Félix Cazot](./EUMKhzpe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and pianist (1790–1857)
 
@@ -1615,13 +1619,13 @@ tags: city
 
 -	__[Jean-Henri Levasseur](./TuQsEjAR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French cellist and composer
 
 -	__[Johann Georg Wunderlich](./idqENLhq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and musician
 
@@ -1633,13 +1637,13 @@ tags: city
 
 -	__[Andre Robberechts](./NtFF6WaB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1797–1860)
 
 -	__[Anton Stamitz](./N2MmbiCx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
@@ -1651,13 +1655,13 @@ tags: city
 
 -	__[Nicolas Métru](./Jy9mndDY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Nicolas Gigault](./Lyor6fZo.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer
 
@@ -1669,7 +1673,7 @@ tags: city
 
 -	__[Jacques Thomelin](./n62o7ZkK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and organist
 
@@ -1693,13 +1697,13 @@ tags: city
 
 -	__[Bernardo Porta](./Swi2Fgwj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Jacques Champion de Chambonnières](./kj9NbWjb.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and harpsichordist
 

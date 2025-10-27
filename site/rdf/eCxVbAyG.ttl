@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eCxVbAyG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1594-09-13"^^xsd:string,
+        "1595-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:CgnX9ayQ ;
+    schema1:deathDate "1667-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:9TePw2GP ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q326934>,
+        "0"^^xsd:string,
+        "eCxVbAyG"^^xsd:string ;
+    skos:altLabel "Francesco Manelli o Mannelli"^^xsd:string,
+        "Francesco Mannelli"^^xsd:string ;
+    skos:prefLabel "Francesco Manelli"^^xsd:string ;
+    wd:P1303 faamentity:NFAxdnVA ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12501970 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30010882> ;
+    wd:P737 faamentity:2ih7dd2i ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9giCtFiy .
+

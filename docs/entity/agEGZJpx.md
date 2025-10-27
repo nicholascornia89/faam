@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: agEGZJpx
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502051/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/agEGZJpx.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/agEGZJpx.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/agEGZJpx.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502051/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/agEGZJpx.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/agEGZJpx.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/agEGZJpx.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502051.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502051.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                            | permalink                | provenance                              |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | agEGZJpx  | DPF-202502051         | Tota Pulchra Es. Motet en l'honneur de la T.S. Vierge. à 3 voix égales et orgue. | [external URL](6fQyHcwz) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                            | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | agEGZJpx  | DPF-202502051         | Tota Pulchra Es. Motet en l'honneur de la T.S. Vierge. à 3 voix égales et orgue. | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/agEGZJpx.html" height="800" width="1200" title="agEGZJpx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/agEGZJpx" height="800" width="1200" title="agEGZJpx"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/agEGZJpx.html" height="800" width="1200" title="agEGZJpx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/agEGZJpx" height="800" width="1200" title="agEGZJpx"></iframe>

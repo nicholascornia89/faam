@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6RuEaDAJ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6RuEaDAJ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6RuEaDAJ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6RuEaDAJ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6RuEaDAJ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6RuEaDAJ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6RuEaDAJ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis_Dorus_1864.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description                                       | Wikidata QID                                           |
-    | :-------: | :---------: | :---------: | :-----------------------------------------------: | :----------------------------------------------------: |
-    | 6RuEaDAJ  | Louis Dorus | Louis Dorus | French university teacher and flutist (1812-1896) | [Louis Dorus](http://wwww.wikidata.org/entity/Q743998) |
+    | FAAM UUID | label       | aliases     | description                                       | Wikidata QID                                      |
+    | :-------: | :---------: | :---------: | :-----------------------------------------------: | :-----------------------------------------------: |
+    | 6RuEaDAJ  | Louis Dorus | Louis Dorus | French university teacher and flutist (1812-1896) | [Louis Dorus](http://wikidata.org/entity/Q743998) |
 
 <br><br><br>
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/6RuEaDAJ.html" height="800" width="1200" title="6RuEaDAJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6RuEaDAJ" height="800" width="1200" title="6RuEaDAJ"></iframe>
 
 ## Identifiers
 
@@ -91,7 +95,7 @@ tags: agent
 
 -	__[Souvenirs Dramatiques : Arrangés en Trios pour Piano, Flûte et Violoncelle : 4e Don Jaun : Op. 86](./HNeP5iCN.md)__
 
-	![Image](../assets/images/thumbs/KCG-000359822.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000359822.gif){align=left width="150" height="150"} 
 
 	
 

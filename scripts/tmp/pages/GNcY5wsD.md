@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GNcY5wsD
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                      | description       | aliases | Wikidata QID                                 |
-    | :-------: | :----------------------------------------: | :---------------: | :-----: | :------------------------------------------: |
-    | GNcY5wsD  | San Pietro a Majella Conservatory of Music | music high school |         | [S](http://wwww.wikidata.org/entity/Q368820) |
+    | FAAM UUID | label                                      | description       | aliases | Wikidata QID                            |
+    | :-------: | :----------------------------------------: | :---------------: | :-----: | :-------------------------------------: |
+    | GNcY5wsD  | San Pietro a Majella Conservatory of Music | music high school |         | [S](http://wikidata.org/entity/Q368820) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/GNcY5wsD.html" height="800" width="1200" title="GNcY5wsD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GNcY5wsD" height="800" width="1200" title="GNcY5wsD"></iframe>
 
 ## Cross-references
 

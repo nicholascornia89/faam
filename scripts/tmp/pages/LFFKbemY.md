@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LFFKbemY
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                        | aliases   | Wikidata QID                                            |
-    | :-------: | :--------: | :--------------------------------: | :-------: | :-----------------------------------------------------: |
-    | LFFKbemY  | pump organ | free-reed organ musical instrument | harmonium | [reed organ](http://wwww.wikidata.org/entity/Q12460259) |
+    | FAAM UUID | label      | description                        | aliases   | Wikidata QID                                       |
+    | :-------: | :--------: | :--------------------------------: | :-------: | :------------------------------------------------: |
+    | LFFKbemY  | pump organ | free-reed organ musical instrument | harmonium | [reed organ](http://wikidata.org/entity/Q12460259) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./Ydn7Zvxn.md)
+	- [wind instrument with keyboard](./Ydn7Zvxn.md)
 
-	- [](./FChBtgiq.md)
+	- [sets of free reeds](./FChBtgiq.md)
 
-	- [](./JWvibPuq.md)
+	- [non-piped organ](./JWvibPuq.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/LFFKbemY.html" height="800" width="1200" title="LFFKbemY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LFFKbemY" height="800" width="1200" title="LFFKbemY"></iframe>
 
 ## Cross-references
 
@@ -51,13 +55,13 @@ tags: musical_instrument
 
 -	__[Marsch, op. 17](./3xiD67KR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904386114.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904386114.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Six morceaux caractéristiques](./PH9gqqYW.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143703p5.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143703p5.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4cWGCPTD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/4cWGCPTD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/4cWGCPTD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/4cWGCPTD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/4cWGCPTD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/4cWGCPTD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/4cWGCPTD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases | description       | Wikidata QID                                                          |
-    | :-------: | :-----------------------: | :-----: | :---------------: | :-------------------------------------------------------------------: |
-    | 4cWGCPTD  | Giovanni Battista Vivaldi |         | Italian violinist | [Giovanni Battista Vivaldi](http://wwww.wikidata.org/entity/Q1525940) |
+    | FAAM UUID | label                     | aliases | description       | Wikidata QID                                                     |
+    | :-------: | :-----------------------: | :-----: | :---------------: | :--------------------------------------------------------------: |
+    | 4cWGCPTD  | Giovanni Battista Vivaldi |         | Italian violinist | [Giovanni Battista Vivaldi](http://wikidata.org/entity/Q1525940) |
 
 <br><br><br>
 
@@ -49,21 +53,21 @@ tags: agent
 
 	- [violinist](./9CVVGZdo.md)
 
-	- [](./jMe4BaLJ.md)
+	- [copyist](./jMe4BaLJ.md)
 
-	- [](./hp8XQe9g.md)
+	- [barber surgeon](./hp8XQe9g.md)
 
 	- [composer](./5aTYuVxp.md)
 
 ??? quote "employer" 
 
-	- [](./arQhyDEL.md)
+	- [St Mark's Basilica](./arQhyDEL.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4cWGCPTD.html" height="800" width="1200" title="4cWGCPTD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4cWGCPTD" height="800" width="1200" title="4cWGCPTD"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Antonio Vivaldi](./GSqAPxLN.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vivaldi.jpg){align=left width="150" height="150"} 
+
+	Italian composer and violinist (1678-1741)
+
+</div>

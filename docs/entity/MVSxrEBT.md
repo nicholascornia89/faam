@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MVSxrEBT
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MVSxrEBT.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MVSxrEBT.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MVSxrEBT.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MVSxrEBT.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MVSxrEBT.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MVSxrEBT.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FriedrichSmetana.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                | Wikidata QID                                              |
-    | :-------: | :-------------: | :-------------: | :------------------------: | :-------------------------------------------------------: |
-    | MVSxrEBT  | Bedřich Smetana | Bedrich Smetana | Czech composer (1824–1884) | [Bedřich Smetana](http://wwww.wikidata.org/entity/Q48173) |
+    | FAAM UUID | label           | aliases         | description                | Wikidata QID                                         |
+    | :-------: | :-------------: | :-------------: | :------------------------: | :--------------------------------------------------: |
+    | MVSxrEBT  | Bedřich Smetana | Bedrich Smetana | Czech composer (1824–1884) | [Bedřich Smetana](http://wikidata.org/entity/Q48173) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 	- [teacher](./QBx3kSJW.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [pianist](./T6nAVeGM.md)
 
@@ -65,21 +69,21 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./koAEAXqV.md)
+	- [Akademické gymnázium Štěpánská](./koAEAXqV.md)
 
 ??? quote "employer" 
 
-	- [](./UYUzWnMs.md)
+	- [Harmonious Society](./UYUzWnMs.md)
 
-	- [](./TtcwU9bJ.md)
+	- [Hlahol Prague](./TtcwU9bJ.md)
 
-	- [](./WjfrtPxg.md)
+	- [Provisional Theatre](./WjfrtPxg.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/MVSxrEBT.html" height="800" width="1200" title="MVSxrEBT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MVSxrEBT" height="800" width="1200" title="MVSxrEBT"></iframe>
 
 ## Identifiers
 
@@ -105,8 +109,16 @@ tags: agent
 
 -	__[Die verkaufte Braut : komische Oper in drei Akten](./JHKHS92V.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901708260.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901708260.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[The Bartered Bride](./9H8zbxcd.md)__
+
+	comic opera in three acts by the Czech composer Bedřich Smetana
 
 </div>

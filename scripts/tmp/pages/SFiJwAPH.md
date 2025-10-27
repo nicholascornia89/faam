@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SFiJwAPH
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                                 | aliases | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :-----------------------------------------: | :-----: | :---------------------------------------------------------------------: |
-    | SFiJwAPH  | 18th arrondissement of Paris | one of the arrondissements of Paris, France |         | [18th arrondissement of Paris](http://wwww.wikidata.org/entity/Q200126) |
+    | FAAM UUID | label                        | description                                 | aliases | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :-----------------------------------------: | :-----: | :----------------------------------------------------------------: |
+    | SFiJwAPH  | 18th arrondissement of Paris | one of the arrondissements of Paris, France |         | [18th arrondissement of Paris](http://wikidata.org/entity/Q200126) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/SFiJwAPH.html" height="800" width="1200" title="SFiJwAPH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SFiJwAPH" height="800" width="1200" title="SFiJwAPH"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: myGD95dL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                | aliases | Wikidata QID                                                          |
-    | :-------: | :-----------------------: | :------------------------: | :-----: | :-------------------------------------------------------------------: |
-    | myGD95dL  | boulevard des Batignolles | boulevard in Paris, France |         | [boulevard des Batignolles](http://wwww.wikidata.org/entity/Q2922038) |
+    | FAAM UUID | label                     | description                | aliases | Wikidata QID                                                     |
+    | :-------: | :-----------------------: | :------------------------: | :-----: | :--------------------------------------------------------------: |
+    | myGD95dL  | boulevard des Batignolles | boulevard in Paris, France |         | [boulevard des Batignolles](http://wikidata.org/entity/Q2922038) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/myGD95dL.html" height="800" width="1200" title="myGD95dL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/myGD95dL" height="800" width="1200" title="myGD95dL"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Julia Sureau-Bellet](./VAotUxhx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

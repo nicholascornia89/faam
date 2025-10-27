@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: F7Pfqgx7
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                                                          | aliases    | Wikidata QID                                      |
-    | :-------: | :-----: | :--------------------------------------------------------------------------------------------------: | :--------: | :-----------------------------------------------: |
-    | F7Pfqgx7  | Sissach | municipality and capital of the district of Sissach in the canton of Basel-Landschaft in Switzerland | Sissach BL | [Sissach](http://wwww.wikidata.org/entity/Q66554) |
+    | FAAM UUID | label   | description                                                                                          | aliases    | Wikidata QID                                 |
+    | :-------: | :-----: | :--------------------------------------------------------------------------------------------------: | :--------: | :------------------------------------------: |
+    | F7Pfqgx7  | Sissach | municipality and capital of the district of Sissach in the canton of Basel-Landschaft in Switzerland | Sissach BL | [Sissach](http://wikidata.org/entity/Q66554) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/F7Pfqgx7.html" height="800" width="1200" title="F7Pfqgx7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/F7Pfqgx7" height="800" width="1200" title="F7Pfqgx7"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Eduard Müller](./DpFDFGMR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss organist (1912-1983)
 

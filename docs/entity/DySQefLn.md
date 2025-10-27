@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DySQefLn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                         | aliases | Wikidata QID                                          |
-    | :-------: | :-------: | :-------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | DySQefLn  | Worcester | city and the county town of Worcestershire, England |         | [Worcester](http://wwww.wikidata.org/entity/Q1646181) |
+    | FAAM UUID | label     | description                                         | aliases | Wikidata QID                                     |
+    | :-------: | :-------: | :-------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | DySQefLn  | Worcester | city and the county town of Worcestershire, England |         | [Worcester](http://wikidata.org/entity/Q1646181) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/DySQefLn.html" height="800" width="1200" title="DySQefLn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DySQefLn" height="800" width="1200" title="DySQefLn"></iframe>
 
 ## Identifiers
 

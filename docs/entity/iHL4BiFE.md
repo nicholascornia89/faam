@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iHL4BiFE
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                | aliases | Wikidata QID                                                |
-    | :-------: | :-------------: | :----------------------------------------: | :-----: | :---------------------------------------------------------: |
-    | iHL4BiFE  | L'Écho de Paris | daily newspaper in Paris from 1884 to 1944 |         | [L'Écho de Paris](http://wwww.wikidata.org/entity/Q3205139) |
+    | FAAM UUID | label           | description                                | aliases | Wikidata QID                                           |
+    | :-------: | :-------------: | :----------------------------------------: | :-----: | :----------------------------------------------------: |
+    | iHL4BiFE  | L'Écho de Paris | daily newspaper in Paris from 1884 to 1944 |         | [L'Écho de Paris](http://wikidata.org/entity/Q3205139) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/iHL4BiFE.html" height="800" width="1200" title="iHL4BiFE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iHL4BiFE" height="800" width="1200" title="iHL4BiFE"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aiHspLU2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description            | aliases          | Wikidata QID                                       |
-    | :-------: | :-------: | :--------------------: | :--------------: | :------------------------------------------------: |
-    | aiHspLU2  | Darmstadt | city in Hesse, Germany | Darmstadt, Hesse | [Darmstadt](http://wwww.wikidata.org/entity/Q2973) |
+    | FAAM UUID | label     | description            | aliases          | Wikidata QID                                  |
+    | :-------: | :-------: | :--------------------: | :--------------: | :-------------------------------------------: |
+    | aiHspLU2  | Darmstadt | city in Hesse, Germany | Darmstadt, Hesse | [Darmstadt](http://wikidata.org/entity/Q2973) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/aiHspLU2.html" height="800" width="1200" title="aiHspLU2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aiHspLU2" height="800" width="1200" title="aiHspLU2"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Emile Ettling](./JzQHcS6t.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RwoG5ATE
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :------------------------: | :-----: | :---------------------------------------------------: |
-    | RwoG5ATE  | Rudolstadt | town in Thuringia, Germany |         | [Rudolstadt](http://wwww.wikidata.org/entity/Q517107) |
+    | FAAM UUID | label      | description                | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :------------------------: | :-----: | :----------------------------------------------: |
+    | RwoG5ATE  | Rudolstadt | town in Thuringia, Germany |         | [Rudolstadt](http://wikidata.org/entity/Q517107) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/RwoG5ATE.html" height="800" width="1200" title="RwoG5ATE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RwoG5ATE" height="800" width="1200" title="RwoG5ATE"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Heinrich Christoph Koch](./ctR5YVSR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist and composer
 
 -	__[Heinrich Christoph Koch](./ctR5YVSR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist and composer
 

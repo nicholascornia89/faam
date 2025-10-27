@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HYYo8J7J
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                       | aliases              | Wikidata QID                                        |
-    | :-------: | :------: | :-----------------------------------------------: | :------------------: | :-------------------------------------------------: |
-    | HYYo8J7J  | Berkeley | city in Alameda County, California, United States | Berkeley, California | [Berkeley](http://wwww.wikidata.org/entity/Q484678) |
+    | FAAM UUID | label    | description                                       | aliases              | Wikidata QID                                   |
+    | :-------: | :------: | :-----------------------------------------------: | :------------------: | :--------------------------------------------: |
+    | HYYo8J7J  | Berkeley | city in Alameda County, California, United States | Berkeley, California | [Berkeley](http://wikidata.org/entity/Q484678) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HYYo8J7J.html" height="800" width="1200" title="HYYo8J7J"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HYYo8J7J" height="800" width="1200" title="HYYo8J7J"></iframe>
 
 ## Identifiers
 

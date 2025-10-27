@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DAgKhr78
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DAgKhr78.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DAgKhr78.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DAgKhr78.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DAgKhr78.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DAgKhr78.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DAgKhr78.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edmond_Missa_-_französischer_Komponist.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases        | description                 | Wikidata QID                                             |
-    | :-------: | :----------: | :------------: | :-------------------------: | :------------------------------------------------------: |
-    | DAgKhr78  | Edmond Missa | Paul Aliprandi | French composer (1861-1910) | [Edmond Missa](http://wwww.wikidata.org/entity/Q1285703) |
+    | FAAM UUID | label        | aliases        | description                 | Wikidata QID                                        |
+    | :-------: | :----------: | :------------: | :-------------------------: | :-------------------------------------------------: |
+    | DAgKhr78  | Edmond Missa | Paul Aliprandi | French composer (1861-1910) | [Edmond Missa](http://wikidata.org/entity/Q1285703) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DAgKhr78.html" height="800" width="1200" title="DAgKhr78"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DAgKhr78" height="800" width="1200" title="DAgKhr78"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,7 @@ tags: agent
 
 -	__[Muguette](./bKfXT9Za.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p15.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p15.gif){align=left width="150" height="150"} 
 
 	
 

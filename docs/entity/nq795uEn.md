@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nq795uEn
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BSB-991125040489707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nq795uEn.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nq795uEn.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nq795uEn.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BSB-991125040489707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nq795uEn.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nq795uEn.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nq795uEn.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991125040489707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991125040489707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                          | permalink                | provenance                              |
-    | :-------: | :--------------------: | :--------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | nq795uEn  | BSB-991125040489707356 | Die alte Musiklehre im Streit mit unserer Zeit | [external URL](2qoBxv5j) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                          | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :--------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | nq795uEn  | BSB-991125040489707356 | Die alte Musiklehre im Streit mit unserer Zeit | [external URL](https://mdz-nbn-resolving.de/details:bsb10599024) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -60,10 +64,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/nq795uEn.html" height="800" width="1200" title="nq795uEn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nq795uEn" height="800" width="1200" title="nq795uEn"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/nq795uEn.html" height="800" width="1200" title="nq795uEn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/nq795uEn" height="800" width="1200" title="nq795uEn"></iframe>

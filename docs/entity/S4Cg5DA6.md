@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: S4Cg5DA6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/S4Cg5DA6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/S4Cg5DA6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/S4Cg5DA6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/S4Cg5DA6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/S4Cg5DA6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/S4Cg5DA6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | aliases                       | description     | Wikidata QID                                                             |
-    | :-------: | :---------------------------: | :---------------------------: | :-------------: | :----------------------------------------------------------------------: |
-    | S4Cg5DA6  | Michel Pignolet de Montéclair | Michel Pignolet de Monteclair | French composer | [Michel Pignolet de Montéclair](http://wwww.wikidata.org/entity/Q487175) |
+    | FAAM UUID | label                         | aliases                       | description     | Wikidata QID                                                        |
+    | :-------: | :---------------------------: | :---------------------------: | :-------------: | :-----------------------------------------------------------------: |
+    | S4Cg5DA6  | Michel Pignolet de Montéclair | Michel Pignolet de Monteclair | French composer | [Michel Pignolet de Montéclair](http://wikidata.org/entity/Q487175) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/S4Cg5DA6.html" height="800" width="1200" title="S4Cg5DA6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/S4Cg5DA6" height="800" width="1200" title="S4Cg5DA6"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.](./HrioxeJc.md)__
 
-	![Image](../assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
 
 	
 

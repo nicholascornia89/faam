@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KoszR7PU
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases  | description                                    | Wikidata QID                                                                         |
-    | :-------: | :-------------------------: | :------: | :--------------------------------------------: | :----------------------------------------------------------------------------------: |
-    | KoszR7PU  | Madrigals, Book 4, SV 75–93 | Q3413638 | Fourth book of madrigals by Claudio Monteverdi | [Madrigals for five voices, Book 4, SV. 7](http://wwww.wikidata.org/entity/Q3413638) |
+    | FAAM UUID | label                       | aliases  | description                                    | Wikidata QID                                                                    |
+    | :-------: | :-------------------------: | :------: | :--------------------------------------------: | :-----------------------------------------------------------------------------: |
+    | KoszR7PU  | Madrigals, Book 4, SV 75–93 | Q3413638 | Fourth book of madrigals by Claudio Monteverdi | [Madrigals for five voices, Book 4, SV. 7](http://wikidata.org/entity/Q3413638) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/KoszR7PU.html" height="800" width="1200" title="KoszR7PU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KoszR7PU" height="800" width="1200" title="KoszR7PU"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Il quarto libro dei madrigali](./nrkdoJ5j.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902628988.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902628988.gif){align=left width="150" height="150"} 
 
 	
 

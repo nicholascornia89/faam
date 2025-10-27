@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QfYr3xJs
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000334850/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/QfYr3xJs.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/QfYr3xJs.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/QfYr3xJs.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000334850/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/QfYr3xJs.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/QfYr3xJs.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/QfYr3xJs.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000334850.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334850.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                      | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | QfYr3xJs  | KCG-000334850         | 2e Grand Sextuor : pour Piano-Forte, 2 Violons, Alto, Violoncelle et Contre Basse : Op. 85 | [external URL](GepDoTXn) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                      | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | QfYr3xJs  | KCG-000334850         | 2e Grand Sextuor : pour Piano-Forte, 2 Violons, Alto, Violoncelle et Contre Basse : Op. 85 | [external URL](https://catalogus.hogent.be/catalog/hog01:000334850) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -76,10 +80,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/QfYr3xJs.html" height="800" width="1200" title="QfYr3xJs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QfYr3xJs" height="800" width="1200" title="QfYr3xJs"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/QfYr3xJs.html" height="800" width="1200" title="QfYr3xJs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/QfYr3xJs" height="800" width="1200" title="QfYr3xJs"></iframe>

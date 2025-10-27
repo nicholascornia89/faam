@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oRpDwkXz
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                  | aliases   | Wikidata QID                                       |
-    | :-------: | :------: | :--------------------------: | :-------: | :------------------------------------------------: |
-    | oRpDwkXz  | Mulhouse | commune in Haut-Rhin, France | Mülhausen | [Mulhouse](http://wwww.wikidata.org/entity/Q79815) |
+    | FAAM UUID | label    | description                  | aliases   | Wikidata QID                                  |
+    | :-------: | :------: | :--------------------------: | :-------: | :-------------------------------------------: |
+    | oRpDwkXz  | Mulhouse | commune in Haut-Rhin, France | Mülhausen | [Mulhouse](http://wikidata.org/entity/Q79815) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/oRpDwkXz.html" height="800" width="1200" title="oRpDwkXz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oRpDwkXz" height="800" width="1200" title="oRpDwkXz"></iframe>
 
 ## Identifiers
 

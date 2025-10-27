@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nSBiXUi9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description             | aliases     | Wikidata QID                                         |
-    | :-------: | :---------: | :---------------------: | :---------: | :--------------------------------------------------: |
-    | nSBiXUi9  | Montpellier | city in Hérault, France | Montpelhièr | [Montpellier](http://wwww.wikidata.org/entity/Q6441) |
+    | FAAM UUID | label       | description             | aliases     | Wikidata QID                                    |
+    | :-------: | :---------: | :---------------------: | :---------: | :---------------------------------------------: |
+    | nSBiXUi9  | Montpellier | city in Hérault, France | Montpelhièr | [Montpellier](http://wikidata.org/entity/Q6441) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nSBiXUi9.html" height="800" width="1200" title="nSBiXUi9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nSBiXUi9" height="800" width="1200" title="nSBiXUi9"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: city
 
 -	__[Charles Renaud de Vilbac](./gC6LReJJ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and organist (1829–1884)
 
 -	__[Xavier Boisselot](./GziVRsjy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/56/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
 
 	Composer and piano maker (1811-1893)
 

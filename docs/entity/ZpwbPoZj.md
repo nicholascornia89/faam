@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZpwbPoZj
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                               | aliases        | Wikidata QID                                             |
-    | :-------: | :--------------: | :---------------------------------------: | :------------: | :------------------------------------------------------: |
-    | ZpwbPoZj  | Saint Petersburg | federal city and former capital of Russia | St. Petersburg | [Saint Petersburg](http://wwww.wikidata.org/entity/Q656) |
+    | FAAM UUID | label            | description                               | aliases        | Wikidata QID                                        |
+    | :-------: | :--------------: | :---------------------------------------: | :------------: | :-------------------------------------------------: |
+    | ZpwbPoZj  | Saint Petersburg | federal city and former capital of Russia | St. Petersburg | [Saint Petersburg](http://wikidata.org/entity/Q656) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ZpwbPoZj.html" height="800" width="1200" title="ZpwbPoZj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZpwbPoZj" height="800" width="1200" title="ZpwbPoZj"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: city
 
 -	__[Vasily Bessel](./KLcqFTj4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian publisher (1843–1907)
 
@@ -87,13 +91,13 @@ tags: city
 
 -	__[Alexander Villoing](./LGDvCCZt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian music educator and composer
 
 -	__[François Servais](./2yWyDYJy.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and conductor (1846-1901)
 
@@ -123,7 +127,7 @@ tags: city
 
 -	__[Modest Petrovich Mussorgsky](./eqc4UJfy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3d/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
 
 	Russian composer (1839–1881)
 
@@ -141,7 +145,7 @@ tags: city
 
 -	__[Mikhail Glinka](./jZ54gutD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e8/Glinka_1856.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Glinka_1856.jpg){align=left width="150" height="150"} 
 
 	Russian composer
 
@@ -153,7 +157,7 @@ tags: city
 
 -	__[Luigi Madonis](./kk7RXapg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and violinist
 
@@ -171,7 +175,7 @@ tags: city
 
 -	__[Vincenzo Manfredini](./NydN9SPX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician
 
@@ -189,7 +193,7 @@ tags: city
 
 -	__[Alexander Villoing](./LGDvCCZt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian music educator and composer
 
@@ -219,19 +223,19 @@ tags: city
 
 -	__[Alexander Ossovsky](./7JHzNARd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Musicologist, Russian writer (1871-1957)
 
 -	__[Wassili Kalafati](./3qxHzY3Z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian composer and pedagogue (1869–1942)
 
 -	__[Isidore Bertheaume](./DRer7QtC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French violinist and composer
 

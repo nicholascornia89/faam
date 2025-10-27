@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GziVRsjy
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GziVRsjy.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GziVRsjy.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GziVRsjy.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GziVRsjy.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GziVRsjy.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GziVRsjy.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/56/Xavier_Boisselot_1861.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Xavier_Boisselot_1861.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                          | Wikidata QID                                                |
-    | :-------: | :--------------: | :--------------: | :----------------------------------: | :---------------------------------------------------------: |
-    | GziVRsjy  | Xavier Boisselot | Xavier Boisselot | Composer and piano maker (1811-1893) | [Xavier Boisselot](http://wwww.wikidata.org/entity/Q281231) |
+    | FAAM UUID | label            | aliases          | description                          | Wikidata QID                                           |
+    | :-------: | :--------------: | :--------------: | :----------------------------------: | :----------------------------------------------------: |
+    | GziVRsjy  | Xavier Boisselot | Xavier Boisselot | Composer and piano maker (1811-1893) | [Xavier Boisselot](http://wikidata.org/entity/Q281231) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/GziVRsjy.html" height="800" width="1200" title="GziVRsjy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GziVRsjy" height="800" width="1200" title="GziVRsjy"></iframe>
 
 ## Identifiers
 

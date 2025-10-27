@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jvy73i8J
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                        | aliases | Wikidata QID                                              |
-    | :-------: | :------------: | :--------------------------------: | :-----: | :-------------------------------------------------------: |
-    | jvy73i8J  | Theater Aachen | theatre company in Aachen, Germany |         | [Theater Aachen](http://wwww.wikidata.org/entity/Q870764) |
+    | FAAM UUID | label          | description                        | aliases | Wikidata QID                                         |
+    | :-------: | :------------: | :--------------------------------: | :-----: | :--------------------------------------------------: |
+    | jvy73i8J  | Theater Aachen | theatre company in Aachen, Germany |         | [Theater Aachen](http://wikidata.org/entity/Q870764) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/jvy73i8J.html" height="800" width="1200" title="jvy73i8J"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jvy73i8J" height="800" width="1200" title="jvy73i8J"></iframe>
 
 ## Cross-references
 

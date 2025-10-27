@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: S5RFKHbT
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-13885/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/S5RFKHbT.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/S5RFKHbT.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/S5RFKHbT.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-13885/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/S5RFKHbT.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/S5RFKHbT.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/S5RFKHbT.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-13885.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                 | permalink                | provenance                            |
-    | :-------: | :-------------------: | :---------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | S5RFKHbT  | SML-13885             | Sammlung ausgezeichneter Kompositionen für die Kirche | [external URL](2qoBxv5j) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                 | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :---------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | S5RFKHbT  | SML-13885             | Sammlung ausgezeichneter Kompositionen für die Kirche | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910130143405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ===  "sections" 
 
@@ -400,10 +404,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/S5RFKHbT.html" height="800" width="1200" title="S5RFKHbT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/S5RFKHbT" height="800" width="1200" title="S5RFKHbT"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/S5RFKHbT.html" height="800" width="1200" title="S5RFKHbT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/S5RFKHbT" height="800" width="1200" title="S5RFKHbT"></iframe>

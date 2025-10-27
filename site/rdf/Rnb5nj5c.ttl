@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Rnb5nj5c a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1754-08-28"^^xsd:string ;
+    schema1:birthPlace faamentity:nVd92sv3 ;
+    schema1:deathDate "1825-10-17"^^xsd:string ;
+    schema1:deathPlace faamentity:ndwv66mQ ;
+    schema1:description "German opera composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q561047>,
+        "15996196"^^xsd:string,
+        "Rnb5nj5c"^^xsd:string ;
+    schema1:nationality faamentity:ksU5GpVW ;
+    skos:altLabel "Peter Von Winter"^^xsd:string,
+        "Peter Winter"^^xsd:string,
+        "Peter von Winter"^^xsd:string ;
+    skos:prefLabel "Peter Winter"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:89072210 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/141907> ;
+    wd:P737 faamentity:VQ9LnFAH ;
+    wd:P839 <https://imslp.org/wiki/Category:Winter,_Peter_von> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YN5n3jMT
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                      | aliases  | Wikidata QID                                        |
-    | :-------: | :------: | :------------------------------: | :------: | :-------------------------------------------------: |
-    | YN5n3jMT  | Aarschot | city in Flemish Brabant, Belgium | Aerschot | [Aarschot](http://wwww.wikidata.org/entity/Q273442) |
+    | FAAM UUID | label    | description                      | aliases  | Wikidata QID                                   |
+    | :-------: | :------: | :------------------------------: | :------: | :--------------------------------------------: |
+    | YN5n3jMT  | Aarschot | city in Flemish Brabant, Belgium | Aerschot | [Aarschot](http://wikidata.org/entity/Q273442) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YN5n3jMT.html" height="800" width="1200" title="YN5n3jMT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YN5n3jMT" height="800" width="1200" title="YN5n3jMT"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Arthur Meulemans](./7P9nLMH8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://www.svm.be/files/Componisten/MEULEMANS-Arthur-FOTO1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arthur_Meulemans%2C_PA02672.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1884–1966)
 

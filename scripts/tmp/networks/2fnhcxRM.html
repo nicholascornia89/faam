@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "f6SUUPFd", "label": "Francesco Feo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./f6SUUPFd.md\u0027\u003eFrancesco Feo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/WP_Francesco_Feo.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "mSVELu4H", "label": "Napoli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mSVELu4H.md\u0027\u003eNapoli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and commune in Campania, Italy\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2fnhcxRM", "label": "Conservatorio della Piet\u00e0 dei Turchini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2fnhcxRM.md\u0027\u003eConservatorio della Piet\u00e0 dei Turchini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "fj46nffV", "label": "Italy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fj46nffV.md\u0027\u003eItaly\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Southern Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kMPwaVZk", "label": "Leonardo Leo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kMPwaVZk.md\u0027\u003eLeonardo Leo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leonardo_Leo.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9C5ZHtsW", "label": "Girolamo Abos", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9C5ZHtsW.md\u0027\u003eGirolamo Abos\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMaltese-Italian composer (1715\u20131760)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "f6SUUPFd", "to": "mSVELu4H", "width": 1}, {"from": "f6SUUPFd", "to": "2fnhcxRM", "width": 1}, {"from": "fj46nffV", "to": "mSVELu4H", "width": 1}, {"from": "fj46nffV", "to": "2fnhcxRM", "width": 1}, {"from": "fj46nffV", "to": "kMPwaVZk", "width": 1}, {"from": "2fnhcxRM", "to": "mSVELu4H", "width": 1}, {"from": "2fnhcxRM", "to": "kMPwaVZk", "width": 1}, {"from": "2fnhcxRM", "to": "9C5ZHtsW", "width": 1}, {"from": "9C5ZHtsW", "to": "mSVELu4H", "width": 1}, {"from": "9C5ZHtsW", "to": "kMPwaVZk", "width": 1}, {"from": "kMPwaVZk", "to": "mSVELu4H", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kMPwaVZk", "label": "Leonardo Leo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kMPwaVZk\u0027\u003eLeonardo Leo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leonardo_Leo.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "fj46nffV", "label": "Italy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fj46nffV\u0027\u003eItaly\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Southern Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "mSVELu4H", "label": "Napoli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mSVELu4H\u0027\u003eNapoli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and commune in Campania, Italy\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2fnhcxRM", "label": "Conservatorio della Piet\u00e0 dei Turchini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2fnhcxRM\u0027\u003eConservatorio della Piet\u00e0 dei Turchini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9C5ZHtsW", "label": "Girolamo Abos", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9C5ZHtsW\u0027\u003eGirolamo Abos\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMaltese-Italian composer (1715\u20131760)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "f6SUUPFd", "label": "Francesco Feo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/f6SUUPFd\u0027\u003eFrancesco Feo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/WP_Francesco_Feo.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "kMPwaVZk", "to": "fj46nffV", "width": 1}, {"from": "kMPwaVZk", "to": "mSVELu4H", "width": 1}, {"from": "kMPwaVZk", "to": "2fnhcxRM", "width": 1}, {"from": "kMPwaVZk", "to": "9C5ZHtsW", "width": 1}, {"from": "2fnhcxRM", "to": "mSVELu4H", "width": 1}, {"from": "2fnhcxRM", "to": "fj46nffV", "width": 1}, {"from": "2fnhcxRM", "to": "9C5ZHtsW", "width": 1}, {"from": "2fnhcxRM", "to": "f6SUUPFd", "width": 1}, {"from": "f6SUUPFd", "to": "mSVELu4H", "width": 1}, {"from": "fj46nffV", "to": "mSVELu4H", "width": 1}, {"from": "mSVELu4H", "to": "9C5ZHtsW", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

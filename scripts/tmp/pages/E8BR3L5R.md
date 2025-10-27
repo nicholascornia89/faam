@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: E8BR3L5R
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | aliases                               | description                                        | Wikidata QID                                                                        |
-    | :-------: | :-----------------------------------: | :-----------------------------------: | :------------------------------------------------: | :---------------------------------------------------------------------------------: |
-    | E8BR3L5R  | La dolce vista, che da gli occhi move | La dolce vista, che da gli occhi move | musical work by Italian composer Francesco Landini | [La dolce vista, che da gli occhi move](http://wwww.wikidata.org/entity/Q111135487) |
+    | FAAM UUID | label                                 | aliases                               | description                                        | Wikidata QID                                                                   |
+    | :-------: | :-----------------------------------: | :-----------------------------------: | :------------------------------------------------: | :----------------------------------------------------------------------------: |
+    | E8BR3L5R  | La dolce vista, che da gli occhi move | La dolce vista, che da gli occhi move | musical work by Italian composer Francesco Landini | [La dolce vista, che da gli occhi move](http://wikidata.org/entity/Q111135487) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/E8BR3L5R.html" height="800" width="1200" title="E8BR3L5R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/E8BR3L5R" height="800" width="1200" title="E8BR3L5R"></iframe>
 
 ## Identifiers
 

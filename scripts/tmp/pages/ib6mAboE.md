@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ib6mAboE
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                     | aliases             | Wikidata QID                                                      |
-    | :-------: | :-----------------: | :-----------------------------: | :-----------------: | :---------------------------------------------------------------: |
-    | ib6mAboE  | Collège des Godrans | former college in Dijon, France | Collège des Godrans | [Collège des Godrans](http://wwww.wikidata.org/entity/Q123281721) |
+    | FAAM UUID | label               | description                     | aliases             | Wikidata QID                                                 |
+    | :-------: | :-----------------: | :-----------------------------: | :-----------------: | :----------------------------------------------------------: |
+    | ib6mAboE  | Collège des Godrans | former college in Dijon, France | Collège des Godrans | [Collège des Godrans](http://wikidata.org/entity/Q123281721) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./7xsg3NGS.md)
+	[Dijon](./7xsg3NGS.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/ib6mAboE.html" height="800" width="1200" title="ib6mAboE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ib6mAboE" height="800" width="1200" title="ib6mAboE"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 285bADZE
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                     | aliases                                   | description                             | Wikidata QID                                                                          |
-    | :-------: | :---------------------------------------: | :---------------------------------------: | :-------------------------------------: | :-----------------------------------------------------------------------------------: |
-    | 285bADZE  | Ach wie flüchtig, ach wie nichtig, BWV 26 | Ach wie flüchtig, ach wie nichtig, BWV 26 | church cantata by Johann Sebastian Bach | [Ach wie flüchtig, ach wie nichtig, BWV 26](http://wwww.wikidata.org/entity/Q1429182) |
+    | FAAM UUID | label                                     | aliases                                   | description                             | Wikidata QID                                                                     |
+    | :-------: | :---------------------------------------: | :---------------------------------------: | :-------------------------------------: | :------------------------------------------------------------------------------: |
+    | 285bADZE  | Ach wie flüchtig, ach wie nichtig, BWV 26 | Ach wie flüchtig, ach wie nichtig, BWV 26 | church cantata by Johann Sebastian Bach | [Ach wie flüchtig, ach wie nichtig, BWV 26](http://wikidata.org/entity/Q1429182) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./8wPYJeD9.md)
+	- [Ach wie flüchtig, ach wie nichtig](./8wPYJeD9.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/285bADZE.html" height="800" width="1200" title="285bADZE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/285bADZE" height="800" width="1200" title="285bADZE"></iframe>
 
 ## Identifiers
 
@@ -71,13 +75,13 @@ tags: musical_work
 
 -	__[9 Tenor-Arien : aus versch. Cantaten ; mit Begl. d. Pianoforte](./gex3sqyu.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ach wie flüchtig, ach wie nichtig](./Z7tWxQzj.md)__
 
-	![Image](../assets/images/thumbs/BSB-991106268029707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991106268029707356.gif){align=left width="150" height="150"} 
 
 	
 

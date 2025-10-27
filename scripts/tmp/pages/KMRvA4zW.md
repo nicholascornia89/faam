@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KMRvA4zW
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description | aliases       | Wikidata QID                                           |
-    | :-------: | :---------: | :---------: | :-----------: | :----------------------------------------------------: |
-    | KMRvA4zW  | piano maker | profession  | piano builder | [piano maker](http://wwww.wikidata.org/entity/Q885122) |
+    | FAAM UUID | label       | description | aliases       | Wikidata QID                                      |
+    | :-------: | :---------: | :---------: | :-----------: | :-----------------------------------------------: |
+    | KMRvA4zW  | piano maker | profession  | piano builder | [piano maker](http://wikidata.org/entity/Q885122) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/KMRvA4zW.html" height="800" width="1200" title="KMRvA4zW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KMRvA4zW" height="800" width="1200" title="KMRvA4zW"></iframe>
 
 ## Cross-references
 
@@ -37,13 +41,13 @@ tags: occupation
 
 -	__[Jan Hendrik Paling](./Z4Mej9De.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician and piano builder (1796-1879)
 
 -	__[Xavier Boisselot](./GziVRsjy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/56/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
 
 	Composer and piano maker (1811-1893)
 
@@ -55,7 +59,7 @@ tags: occupation
 
 -	__[Gustave Faes](./SuXFo92N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian piano maker and music publisher
 

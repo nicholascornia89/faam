@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HhxfMz5i
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-43130126n/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HhxfMz5i.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HhxfMz5i.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HhxfMz5i.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-43130126n/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HhxfMz5i.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HhxfMz5i.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HhxfMz5i.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-43130126n.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43130126n.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                       | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :-----------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | HhxfMz5i  | BNF-43130126n         | 10 études d'expression pour le piano op. 20 | [external URL](PyGNLcfw) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                       | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :-----------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | HhxfMz5i  | BNF-43130126n         | 10 études d'expression pour le piano op. 20 | [external URL](http://catalogue.bnf.fr/ark:/12148/cb43130126n) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -57,10 +61,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/HhxfMz5i.html" height="800" width="1200" title="HhxfMz5i"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HhxfMz5i" height="800" width="1200" title="HhxfMz5i"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/HhxfMz5i.html" height="800" width="1200" title="HhxfMz5i"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/HhxfMz5i" height="800" width="1200" title="HhxfMz5i"></iframe>

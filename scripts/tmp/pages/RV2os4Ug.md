@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RV2os4Ug
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description           | aliases | Wikidata QID                                       |
-    | :-------: | :---: | :-------------------: | :-----: | :------------------------------------------------: |
-    | RV2os4Ug  | psalm | religious poem/lyrics | psalm   | [psalm](http://wwww.wikidata.org/entity/Q12497663) |
+    | FAAM UUID | label | description           | aliases | Wikidata QID                                  |
+    | :-------: | :---: | :-------------------: | :-----: | :-------------------------------------------: |
+    | RV2os4Ug  | psalm | religious poem/lyrics | psalm   | [psalm](http://wikidata.org/entity/Q12497663) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/RV2os4Ug.html" height="800" width="1200" title="RV2os4Ug"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RV2os4Ug" height="800" width="1200" title="RV2os4Ug"></iframe>
 
 ## Cross-references
 
@@ -39,37 +43,37 @@ tags: keyword
 
 -	__[Psaume 18](./R3y53rZM.md)__
 
-	![Image](../assets/images/thumbs/KCG-000355794.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000355794.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Psaume 18](./HzemsPg5.md)__
 
-	![Image](../assets/images/thumbs/KCG-000355797.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000355797.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Psaume 18 : Partition](./PKcvUF5M.md)__
 
-	![Image](../assets/images/thumbs/KCG-000740758.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000740758.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Souterliedekens uit de XVIe eeuw](./heze5DXq.md)__
 
-	![Image](../assets/images/thumbs/KCA-KM59827.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KM59827.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[3 Psalmen : für Doppelchor](./FK7nUCLe.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078508549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078508549707356.gif){align=left width="150" height="150"} 
 
 	
 

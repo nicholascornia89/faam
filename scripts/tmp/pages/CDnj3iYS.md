@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CDnj3iYS
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description    | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :------------: | :-----: | :----------------------------------------------: |
-    | CDnj3iYS  | Perugia | Italian comune |         | [Perugia](http://wwww.wikidata.org/entity/Q3437) |
+    | FAAM UUID | label   | description    | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :------------: | :-----: | :-----------------------------------------: |
+    | CDnj3iYS  | Perugia | Italian comune |         | [Perugia](http://wikidata.org/entity/Q3437) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CDnj3iYS.html" height="800" width="1200" title="CDnj3iYS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CDnj3iYS" height="800" width="1200" title="CDnj3iYS"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Vincenzo Ugolini](./HMAGiiSN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1570–1638)
 

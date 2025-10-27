@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: acPRW9Vf
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903900642/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/acPRW9Vf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/acPRW9Vf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/acPRW9Vf.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903900642/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/acPRW9Vf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/acPRW9Vf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/acPRW9Vf.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030903900642.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903900642.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                       | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | acPRW9Vf  | KCA-030903900642      | Beatrijs : sinfonisch poema | [external URL](TUdHPWU8) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                       | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | acPRW9Vf  | KCA-030903900642      | Beatrijs : sinfonisch poema | [external URL](https://anet.be/record/opacdkvc/c:lvd:14539687/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -61,10 +65,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/acPRW9Vf.html" height="800" width="1200" title="acPRW9Vf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/acPRW9Vf" height="800" width="1200" title="acPRW9Vf"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/acPRW9Vf.html" height="800" width="1200" title="acPRW9Vf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/acPRW9Vf" height="800" width="1200" title="acPRW9Vf"></iframe>

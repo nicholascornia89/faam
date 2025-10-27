@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bCvwLLdh a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1825-02-28"^^xsd:string ;
+    schema1:birthPlace faamentity:bbhvKkZo ;
+    schema1:deathDate "1889-04-08"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French cornetist, conductor, composer and pedagogue (1825–1889)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q542616>,
+        "15995995"^^xsd:string,
+        "bCvwLLdh"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Arban"^^xsd:string,
+        "J-B Arban"^^xsd:string,
+        "J. B. Arban"^^xsd:string,
+        "J.-B. Arban"^^xsd:string,
+        "Jean-Baptiste Arban"^^xsd:string,
+        "Joseph Jean-Baptiste Laurent Arban"^^xsd:string ;
+    skos:prefLabel "Jean-Baptiste Arban"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P1303 faamentity:HQVKy2Gm ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:24865741 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/31980> ;
+    wd:P737 faamentity:SL7zNX3f ;
+    wd:P839 <https://imslp.org/wiki/Category:Arban,_Jean-Baptiste> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:SdTsrosX,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty .
+

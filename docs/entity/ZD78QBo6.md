@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZD78QBo6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ZD78QBo6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ZD78QBo6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ZD78QBo6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ZD78QBo6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ZD78QBo6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ZD78QBo6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                                | description                    | Wikidata QID                                                |
-    | :-------: | :-----------: | :------------------------------------: | :----------------------------: | :---------------------------------------------------------: |
-    | ZD78QBo6  | Denis Granado | Dionisio Granados Vega, Dennis Granado | Spanish composer and guitarist | [Denis Granado](http://wwww.wikidata.org/entity/Q126722170) |
+    | FAAM UUID | label         | aliases                                | description                    | Wikidata QID                                           |
+    | :-------: | :-----------: | :------------------------------------: | :----------------------------: | :----------------------------------------------------: |
+    | ZD78QBo6  | Denis Granado | Dionisio Granados Vega, Dennis Granado | Spanish composer and guitarist | [Denis Granado](http://wikidata.org/entity/Q126722170) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./LdnPvsKv.md)
+	- [guitarist](./LdnPvsKv.md)
 
 ??? quote "educated at" 
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ZD78QBo6.html" height="800" width="1200" title="ZD78QBo6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZD78QBo6" height="800" width="1200" title="ZD78QBo6"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: agent
 
 -	__[El Turia. (Valse espagnole)](./92hF9Bp3.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p5.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p5.gif){align=left width="150" height="150"} 
 
 	
 

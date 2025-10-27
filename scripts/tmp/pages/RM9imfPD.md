@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RM9imfPD
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                                      | aliases           | Wikidata QID                                                 |
-    | :-------: | :----------------: | :--------------------------------------------------------------: | :---------------: | :----------------------------------------------------------: |
-    | RM9imfPD  | Kingdom of Bohemia | monarchy in Central Europe, predecessor of modern Czech Republic | Königreich Böhmen | [Kingdom of Bohemia](http://wwww.wikidata.org/entity/Q42585) |
+    | FAAM UUID | label              | description                                                      | aliases           | Wikidata QID                                            |
+    | :-------: | :----------------: | :--------------------------------------------------------------: | :---------------: | :-----------------------------------------------------: |
+    | RM9imfPD  | Kingdom of Bohemia | monarchy in Central Europe, predecessor of modern Czech Republic | Königreich Böhmen | [Kingdom of Bohemia](http://wikidata.org/entity/Q42585) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/RM9imfPD.html" height="800" width="1200" title="RM9imfPD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RM9imfPD" height="800" width="1200" title="RM9imfPD"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: country
 
 -	__[Leopold Jansa](./aovZZUxK.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/9/9a/Leopold_Jansa.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Jansa.jpg){align=left width="150" height="150"} 
 
 	Czech violinist, music educator and composer (1795–1875)
 

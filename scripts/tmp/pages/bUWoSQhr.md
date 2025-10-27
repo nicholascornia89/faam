@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bUWoSQhr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------------------------------: | :-----: | :------------------------------------------------: |
-    | bUWoSQhr  | Hoeselt | former municipality in Limburg, Belgium |         | [Hoeselt](http://wwww.wikidata.org/entity/Q819152) |
+    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------------------------------: | :-----: | :-------------------------------------------: |
+    | bUWoSQhr  | Hoeselt | former municipality in Limburg, Belgium |         | [Hoeselt](http://wikidata.org/entity/Q819152) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bUWoSQhr.html" height="800" width="1200" title="bUWoSQhr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bUWoSQhr" height="800" width="1200" title="bUWoSQhr"></iframe>
 
 ## Identifiers
 

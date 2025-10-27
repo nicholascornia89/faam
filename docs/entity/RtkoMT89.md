@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RtkoMT89
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                                                 | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :-----------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | RtkoMT89  | sonata | type of musical composition, usually for a solo instrument or a small instrumental ensemble | sonata  | [sonata](http://wwww.wikidata.org/entity/Q131269) |
+    | FAAM UUID | label  | description                                                                                 | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :-----------------------------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | RtkoMT89  | sonata | type of musical composition, usually for a solo instrument or a small instrumental ensemble | sonata  | [sonata](http://wikidata.org/entity/Q131269) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/RtkoMT89.html" height="800" width="1200" title="RtkoMT89"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RtkoMT89" height="800" width="1200" title="RtkoMT89"></iframe>
 
 ## Cross-references
 
@@ -39,331 +43,331 @@ tags: keyword
 
 -	__[Grande Sonate brillante : für Gitarre und Klavier, op. 102](./B3B8jgZK.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901582434.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901582434.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Große Sonate : für Flöte (Violine) und Gitarre, op. 85](./GTT3Hefh.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902194585.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902194585.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate: pour trombone](./XD6ZiStc.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901762986.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901762986.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[18 ausgewählte Klavierstücke](./J4gd8QWV.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pastorale et Capriccio](./BwkfLDr4.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP41032.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP41032.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pastorale und Capriccio](./K67cgy7i.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP44158.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP44158.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate N. 32 (Gigue)](./TvTJ9233.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP69446.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP69446.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate N. 38 (Gigue)](./kXtogUTm.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP69444.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP69444.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate N. 34 (Burlesca)](./LydbuX6b.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP69516.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP69516.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tre Sonate per pianoforte e viola da gamba : Trascritte per pianoforte e viola](./Y4n8cg5A.md)__
 
-	![Image](../assets/images/thumbs/KCG-000119533.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000119533.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonatine : pour le piano](./3K9Z8zbC.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902737540.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902737540.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate : für Klavier und Horn, op. 17](./Lka5vuy4.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901428612.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901428612.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[A | Collection of Lessons | for the Harpsicord | or Piano et Forte | Composed by | Ferdinando Tenducci | Dedicated to the Right Hon.ble | Lady Hope](./KuGVAhXq.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA76.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA76.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Six Sonates | pour le Clavecin | Op. V | Pellegrino](./aXx5FB6o.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA77.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA77.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sei Sonate da Cimbalo | Del Sig:re Alessandro Felici | di Firenze](./VGMUVoRw.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsB27.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsB27.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate : fur pianoforte und horn, op. 17](./7xUkgvMm.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904766810.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904766810.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate F dur : für Pianoforte und Horn, op.17](./mDndmG7f.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904770226.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904770226.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate : für Pianoforte und Horn, oder Violine oder Violoncell, op. 17](./YPkkArSq.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904770184.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904770184.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Six Sonatas : for the Harpsichord or Piano Forte with an Accompanyment for a German Flûte or Violin : Op. II](./nJai3Wij.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Convoluut](./bPMh4UBw.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902808952.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902808952.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate N° 29 Allemande. Révision par Vincent d' Indy. 1er Livre des sonates pour clavecin 1721](./Ztx3sCEe.md)__
 
-	![Image](../assets/images/thumbs/BNF-432579682.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-432579682.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 13 (allemande) / Domenico Scarlatti...](./3JesYteJ.md)__
 
-	![Image](../assets/images/thumbs/BNF-43257906h.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257906h.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 47 [i.e. 533] : allemande / Domenico Scarlatti...](./Qet9bpVH.md)__
 
-	![Image](../assets/images/thumbs/BNF-43257907v.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257907v.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 30 : fugue dite "du chat" / Domenico Scarlatti... , révision par Vincent d'Indy](./7Exg2WrQ.md)__
 
-	![Image](../assets/images/thumbs/BNF-432579295.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-432579295.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 51 : menuet en si ♭ [pour piano] / Domenico Scarlatti](./jJED4shs.md)__
 
-	![Image](../assets/images/thumbs/BNF-43257971z.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257971z.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 60 [i.e. 377] : bourrée (dite d'Aranjuez) / Domenico Scarlatti...](./62ZrHPyu.md)__
 
-	![Image](../assets/images/thumbs/BNF-432579086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-432579086.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 38 [i.e. 96] : gigue / Domenico Scarlatti...](./Ni7UNMie.md)__
 
-	![Image](../assets/images/thumbs/BNF-43257934r.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257934r.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 32 [i.e. 159] / gigueDomenico Scarlatti...](./3eXGYxJT.md)__
 
-	![Image](../assets/images/thumbs/BNF-432579384.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-432579384.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 8 (sarabande) / Domenico Scarlatti... ; révision par Vincent d'Indy](./AwC94Gkb.md)__
 
-	![Image](../assets/images/thumbs/BNF-43257952p.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257952p.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonata n° 40 (gigue en sol). Revision par Vincent d' Indy](./k6bieVh7.md)__
 
-	![Image](../assets/images/thumbs/BNF-43257976p.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257976p.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 48 [i.e. 434] : courante / Domenico Scarlatti... ; révision par Vincent d'Indy](./f37jKA4V.md)__
 
-	![Image](../assets/images/thumbs/BNF-43257951b.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257951b.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate : n° 7 f moll: für Orgel, op. 127](./FhCDQaaU.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127930.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127930.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate : n° IV a moll: für Orgel, op. 98](./BGXtCZJb.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127948.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127948.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate für Violine solo](./FtE6Gc97.md)__
 
-	![Image](../assets/images/thumbs/BSB-991018906949707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991018906949707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonaten für Violine mit beziffertem Bass](./MxS3GvEN.md)__
 
-	![Image](../assets/images/thumbs/BSB-991040351439707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991040351439707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Die hohe Schule des Violinspiels: Werke berühmter Meister d. 17. u. 18. Jh.](./FFiDyaRp.md)__
 
-	![Image](../assets/images/thumbs/BSB-991018766109707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991018766109707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates pour piano et violon / L. van Beethoven ; nouvelle édition complète par Carl Reinecke ; la partie de violon arrangée par Friedrich Hermann](./2h4QWJrH.md)__
 
-	![Image](../assets/images/thumbs/BNF-42599226w.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42599226w.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[6 Sonaten für Violoncell und unbezifferten Baß. 4: 4, No. 4 in Es-Dur](./RWEaxEGq.md)__
 
-	![Image](../assets/images/thumbs/BSB-991048047199707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991048047199707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[6 Sonaten für Violoncell und unbezifferten Baß. 1, No. 1 in A-Dur](./PhikfdWp.md)__
 
-	![Image](../assets/images/thumbs/BSB-991048046999707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991048046999707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Compositions pour piano / de Dom. Scarlatti ; revues et doigtées par Louis Köhler.](./EfhvbVmR.md)__
 
-	![Image](../assets/images/thumbs/SML-29805.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-29805.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[24 Stücke : für Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo.](./WWCbaaWA.md)__
 
-	![Image](../assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pastorale / Domenico Scarlatti ; arranged for concert-use by Carl Tausig ; edited and fingered by G. Buonamici.](./UYXfGxhi.md)__
 
-	![Image](../assets/images/thumbs/SML-19147.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-19147.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Early Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito.](./icedGMzA.md)__
 
-	![Image](../assets/images/thumbs/SML-22563.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22563.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Clavecinistes de 1637 à 1790 : en trois volumes musique / [édité par] Amédée Méreaux.](./c3pcMa2E.md)__
 
-	![Image](../assets/images/thumbs/SML-18890.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18890.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Classic keyboard music : an album of piano solos by great masters / edited by Emil von Sauer.](./Bw8MwZXp.md)__
 
-	![Image](../assets/images/thumbs/SML-17794.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-17794.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Musica antica italiana; sei celebri pezzi per cembalo, trascritti per pianoforte.](./LKW4UtTu.md)__
 
-	![Image](../assets/images/thumbs/SML-12107.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-12107.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Klassische Klavierwerke aus Hans von Bülow's Concertprogrammen = Classical pianoforte pieces from the concertprogrammes of Hans von Bülow / revidirt und mit genauen Fingersatz- und Vortragsbezeichnungen herausgegeben von Hans von Bülow.](./JHZDg7uM.md)__
 
-	![Image](../assets/images/thumbs/SML-11727.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-11727.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Repertoire, 14 ausgewählte Stücke ... für Pianoforte.](./9vzkjaAp.md)__
 
-	![Image](../assets/images/thumbs/SML-2379.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-2379.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Early keyboard music; a collection of pieces written for the virginal, spinet, harpsichord, and clavichord. / Edited by Louis Oesterle.](./7j5F7bbp.md)__
 
-	![Image](../assets/images/thumbs/SML-22768.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22768.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[12 Sonates pour clavecin ou forte-piano composées dans le style du célèbre Scarlatti... Op. 27](./LHqqQNHE.md)__
 
-	![Image](../assets/images/thumbs/BNF-39782625z.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-39782625z.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonata n. 23 in Mi : per pianoforte](./Ctg6WJxF.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904673867.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904673867.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pièces pour le Clavecin par Domenico Scarlatti](./9t8aicUA.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903514815.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903514815.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pièces pour le Clavecin par Domenico Scarlatti](./mb2dSRKt.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903514823.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903514823.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[29 sonatas](./B7PgUtbR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
 
 	
 

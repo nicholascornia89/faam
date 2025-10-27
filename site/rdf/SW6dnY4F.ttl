@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SW6dnY4F a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:LLpPqfa8 ;
+    schema1:description "opera by Wolfgang Amadeus Mozart"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q192039>,
+        "15999647"^^xsd:string,
+        "SW6dnY4F"^^xsd:string ;
+    schema1:isBasedOn faamentity:eu3HHszA ;
+    skos:altLabel "Don Giovanni"^^xsd:string,
+        "Don Juan"^^xsd:string,
+        "Il dissoluto punito, ossia il Don Giovanni"^^xsd:string,
+        "K. 527"^^xsd:string ;
+    skos:prefLabel "Don Giovanni"^^xsd:string ;
+    wd:P214 viaf:301866059 ;
+    wd:P5202 faamentity:SfdhwsSz ;
+    wd:P7937 faamentity:7AXGCpck ;
+    wd:P839 <https://imslp.org/wiki/Don_Giovanni,_K.527_(Mozart,_Wolfgang_Amadeus)> .
+

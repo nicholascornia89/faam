@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Lanb7pQB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                 | aliases | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :-------------------------: | :-----: | :-----------------------------------------------------------------: |
-    | Lanb7pQB  | Barbezieux-Saint-Hilaire | commune in Charente, France |         | [Barbezieux-Saint-Hilaire](http://wwww.wikidata.org/entity/Q376476) |
+    | FAAM UUID | label                    | description                 | aliases | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :-------------------------: | :-----: | :------------------------------------------------------------: |
+    | Lanb7pQB  | Barbezieux-Saint-Hilaire | commune in Charente, France |         | [Barbezieux-Saint-Hilaire](http://wikidata.org/entity/Q376476) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Lanb7pQB.html" height="800" width="1200" title="Lanb7pQB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Lanb7pQB" height="800" width="1200" title="Lanb7pQB"></iframe>
 
 ## Identifiers
 

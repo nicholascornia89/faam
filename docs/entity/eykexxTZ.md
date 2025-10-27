@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eykexxTZ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/eykexxTZ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/eykexxTZ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/eykexxTZ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/eykexxTZ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/eykexxTZ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/eykexxTZ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Matilde_Marchesi.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description                                          | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----: | :--------------------------------------------------: | :----------------------------------------------------------: |
-    | eykexxTZ  | Mathilde Marchesi |         | German mezzo-soprano and singing teacher (1821-1913) | [Mathilde Marchesi](http://wwww.wikidata.org/entity/Q437075) |
+    | FAAM UUID | label             | aliases | description                                          | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----: | :--------------------------------------------------: | :-----------------------------------------------------: |
+    | eykexxTZ  | Mathilde Marchesi |         | German mezzo-soprano and singing teacher (1821-1913) | [Mathilde Marchesi](http://wikidata.org/entity/Q437075) |
 
 <br><br><br>
 
@@ -53,13 +57,13 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./G3vxttWs.md)
+	- [opera vocal coach](./G3vxttWs.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/eykexxTZ.html" height="800" width="1200" title="eykexxTZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eykexxTZ" height="800" width="1200" title="eykexxTZ"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Nellie Melba](./aWgnWnGb.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nellie_Melba_1892.jpg){align=left width="150" height="150"} 
+
+	Australian opera singer (1861–1931)
+
+</div>

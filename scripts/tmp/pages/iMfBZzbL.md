@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iMfBZzbL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                  | aliases                | Wikidata QID                                       |
-    | :-------: | :-----: | :------------------------------------------: | :--------------------: | :------------------------------------------------: |
-    | iMfBZzbL  | Belmont | town in eastern Massachusetts, United States | Belmont, Massachusetts | [Belmont](http://wwww.wikidata.org/entity/Q816096) |
+    | FAAM UUID | label   | description                                  | aliases                | Wikidata QID                                  |
+    | :-------: | :-----: | :------------------------------------------: | :--------------------: | :-------------------------------------------: |
+    | iMfBZzbL  | Belmont | town in eastern Massachusetts, United States | Belmont, Massachusetts | [Belmont](http://wikidata.org/entity/Q816096) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/iMfBZzbL.html" height="800" width="1200" title="iMfBZzbL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iMfBZzbL" height="800" width="1200" title="iMfBZzbL"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Walter Piston](./hgkK9LyH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer (1894–1976)
 

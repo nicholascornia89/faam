@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vs8biJF2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description    | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :------------: | :-----: | :--------------------------------------------: |
-    | Vs8biJF2  | Terni | Italian comune |         | [Terni](http://wwww.wikidata.org/entity/Q8621) |
+    | FAAM UUID | label | description    | aliases | Wikidata QID                              |
+    | :-------: | :---: | :------------: | :-----: | :---------------------------------------: |
+    | Vs8biJF2  | Terni | Italian comune |         | [Terni](http://wikidata.org/entity/Q8621) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Vs8biJF2.html" height="800" width="1200" title="Vs8biJF2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vs8biJF2" height="800" width="1200" title="Vs8biJF2"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Giulio Briccialdi](./KuMf3k3f.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
 
 	Italian musician (1818–1881)
 

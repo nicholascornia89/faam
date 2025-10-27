@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4FTHYaGf
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                              | aliases           | Wikidata QID                                                  |
-    | :-------: | :------------------: | :--------------------------------------: | :---------------: | :-----------------------------------------------------------: |
-    | 4FTHYaGf  | Freiburg im Breisgau | large city in Baden-Württemberg, Germany | Freiburg/Breisgau | [Freiburg im Breisgau](http://wwww.wikidata.org/entity/Q2833) |
+    | FAAM UUID | label                | description                              | aliases           | Wikidata QID                                             |
+    | :-------: | :------------------: | :--------------------------------------: | :---------------: | :------------------------------------------------------: |
+    | 4FTHYaGf  | Freiburg im Breisgau | large city in Baden-Württemberg, Germany | Freiburg/Breisgau | [Freiburg im Breisgau](http://wikidata.org/entity/Q2833) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4FTHYaGf.html" height="800" width="1200" title="4FTHYaGf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4FTHYaGf" height="800" width="1200" title="4FTHYaGf"></iframe>
 
 ## Identifiers
 

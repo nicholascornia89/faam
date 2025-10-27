@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HXSqT8WK
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/LHA-200037/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HXSqT8WK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HXSqT8WK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HXSqT8WK.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/LHA-200037/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HXSqT8WK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HXSqT8WK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HXSqT8WK.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/LHA-200037.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/LHA-200037.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                           | permalink                | provenance                         |
-    | :-------: | :-------------------: | :-----------------------------: | :----------------------: | :--------------------------------: |
-    | HXSqT8WK  | LHA-200037            | Reinaert de Vos Reinaert de Vos | [external URL](7qCCArxX) | [AMVC-Letterenhuis](./daiXuwkJ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                           | permalink                                                       | provenance                         |
+    | :-------: | :-------------------: | :-----------------------------: | :-------------------------------------------------------------: | :--------------------------------: |
+    | HXSqT8WK  | LHA-200037            | Reinaert de Vos Reinaert de Vos | [external URL](https://anet.be/record/opacdkvc/c:lvd:7099104/N) | [AMVC-Letterenhuis](./daiXuwkJ.md) |
 
 ## Statements
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/HXSqT8WK.html" height="800" width="1200" title="HXSqT8WK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HXSqT8WK" height="800" width="1200" title="HXSqT8WK"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/HXSqT8WK.html" height="800" width="1200" title="HXSqT8WK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/HXSqT8WK" height="800" width="1200" title="HXSqT8WK"></iframe>

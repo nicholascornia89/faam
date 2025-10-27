@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KkjWWRKk
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KkjWWRKk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KkjWWRKk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KkjWWRKk.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KkjWWRKk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KkjWWRKk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KkjWWRKk.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                   | Wikidata QID                                                   |
-    | :-------: | :--------------: | :--------------: | :---------------------------: | :------------------------------------------------------------: |
-    | KkjWWRKk  | Edouard Bélanger | Edouard Bélanger | French librettist (1804-1878) | [Edouard Bélanger](http://wwww.wikidata.org/entity/Q135432610) |
+    | FAAM UUID | label            | aliases          | description                   | Wikidata QID                                              |
+    | :-------: | :--------------: | :--------------: | :---------------------------: | :-------------------------------------------------------: |
+    | KkjWWRKk  | Edouard Bélanger | Edouard Bélanger | French librettist (1804-1878) | [Edouard Bélanger](http://wikidata.org/entity/Q135432610) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KkjWWRKk.html" height="800" width="1200" title="KkjWWRKk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KkjWWRKk" height="800" width="1200" title="KkjWWRKk"></iframe>
 
 ## Identifiers
 
@@ -75,13 +79,13 @@ tags: agent
 
 -	__[Ivanhoe: N.7 Romance de Rebecca: Pour Mezzo Soprano: (Longtempts brisé)](./XG63Jdar.md)__
 
-	![Image](../assets/images/thumbs/KCG-000322330.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000322330.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Il cavaliere e l'eremita : (No. 5 d'Ivanhoe, paroles françaises de Belanger) : duetto per baritono e basso = (Le chevalier et l'heremit)](./Ko8hPPyn.md)__
 
-	![Image](../assets/images/thumbs/BSB-991144119456307356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991144119456307356.gif){align=left width="150" height="150"} 
 
 	
 

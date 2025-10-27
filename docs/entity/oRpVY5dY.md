@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oRpVY5dY
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                           | aliases | description | Wikidata QID                         |
-    | :-------: | :---------------------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | oRpVY5dY  | Violin Sonata in D minor 'La Folia', Op.5 No.12 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                           | aliases | description | Wikidata QID                    |
+    | :-------: | :---------------------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | oRpVY5dY  | Violin Sonata in D minor 'La Folia', Op.5 No.12 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/oRpVY5dY.html" height="800" width="1200" title="oRpVY5dY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oRpVY5dY" height="800" width="1200" title="oRpVY5dY"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Die hohe Schule des Violinspiels: Werke berühmter Meister d. 17. u. 18. Jh.](./FFiDyaRp.md)__
 
-	![Image](../assets/images/thumbs/BSB-991018766109707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991018766109707356.gif){align=left width="150" height="150"} 
 
 	
 

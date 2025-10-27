@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WqiSzZBk
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WqiSzZBk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WqiSzZBk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WqiSzZBk.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WqiSzZBk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WqiSzZBk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WqiSzZBk.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold.Mendelssohn.Dauerausstellung.Dreifaltigkeitskirchhof.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases                   | description                                   | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----------------------: | :-------------------------------------------: | :-----------------------------------------------------------: |
-    | WqiSzZBk  | Arnold Mendelssohn | Arnold Ludwig Mendelssohn | German composer and music teacher (1855-1933) | [Arnold Mendelssohn](http://wwww.wikidata.org/entity/Q537538) |
+    | FAAM UUID | label              | aliases                   | description                                   | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----------------------: | :-------------------------------------------: | :------------------------------------------------------: |
+    | WqiSzZBk  | Arnold Mendelssohn | Arnold Ludwig Mendelssohn | German composer and music teacher (1855-1933) | [Arnold Mendelssohn](http://wikidata.org/entity/Q537538) |
 
 <br><br><br>
 
@@ -53,9 +57,9 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./jBK2qrzB.md)
+	- [Friedrich-Wilhelms-Gymnasium](./jBK2qrzB.md)
 
-	- [](./Z9NCRAN7.md)
+	- [Royal Music Institute of Berlin](./Z9NCRAN7.md)
 
 	- [Berlin University of the Arts](./KCuuJYaL.md)
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/WqiSzZBk.html" height="800" width="1200" title="WqiSzZBk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WqiSzZBk" height="800" width="1200" title="WqiSzZBk"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Paul Hindemith](./48yUL6Ge.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Paul_Hindemith_1923.jpg){align=left width="150" height="150"} 
+
+	German composer (1895–1963)
+
+</div>

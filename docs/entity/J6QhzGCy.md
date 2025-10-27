@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: J6QhzGCy
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                           | aliases | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----------------------------------: | :-----: | :-----------------------------------------------------------: |
-    | J6QhzGCy  | Kingdom of Hungary | Central European monarchy (1000–1946) | Hungary | [Kingdom of Hungary](http://wwww.wikidata.org/entity/Q171150) |
+    | FAAM UUID | label              | description                           | aliases | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----------------------------------: | :-----: | :------------------------------------------------------: |
+    | J6QhzGCy  | Kingdom of Hungary | Central European monarchy (1000–1946) | Hungary | [Kingdom of Hungary](http://wikidata.org/entity/Q171150) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/J6QhzGCy.html" height="800" width="1200" title="J6QhzGCy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/J6QhzGCy" height="800" width="1200" title="J6QhzGCy"></iframe>
 
 ## Identifiers
 

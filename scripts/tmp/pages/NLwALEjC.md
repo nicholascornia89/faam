@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NLwALEjC
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | description                                                              | aliases                     | Wikidata QID                                                              |
-    | :-------: | :---------------------------: | :----------------------------------------------------------------------: | :-------------------------: | :-----------------------------------------------------------------------: |
-    | NLwALEjC  | melodic percussion instrument | percussion musical instrument that produces sounds with a definite pitch | tuned percussion instrument | [melodic percussion instrument](http://wwww.wikidata.org/entity/Q7198871) |
+    | FAAM UUID | label                         | description                                                              | aliases                     | Wikidata QID                                                         |
+    | :-------: | :---------------------------: | :----------------------------------------------------------------------: | :-------------------------: | :------------------------------------------------------------------: |
+    | NLwALEjC  | melodic percussion instrument | percussion musical instrument that produces sounds with a definite pitch | tuned percussion instrument | [melodic percussion instrument](http://wikidata.org/entity/Q7198871) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/NLwALEjC.html" height="800" width="1200" title="NLwALEjC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NLwALEjC" height="800" width="1200" title="NLwALEjC"></iframe>
 
 ## Cross-references
 

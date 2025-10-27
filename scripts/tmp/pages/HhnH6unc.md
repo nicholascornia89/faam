@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HhnH6unc
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HhnH6unc.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HhnH6unc.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HhnH6unc.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HhnH6unc.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HhnH6unc.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HhnH6unc.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August_Eberhard_Müller.JPEG" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases | description     | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :-----: | :-------------: | :---------------------------------------------------------------: |
-    | HhnH6unc  | August Eberhard Müller |         | German composer | [August Eberhard Müller](http://wwww.wikidata.org/entity/Q523528) |
+    | FAAM UUID | label                  | aliases | description     | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :-----: | :-------------: | :----------------------------------------------------------: |
+    | HhnH6unc  | August Eberhard Müller |         | German composer | [August Eberhard Müller](http://wikidata.org/entity/Q523528) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/HhnH6unc.html" height="800" width="1200" title="HhnH6unc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HhnH6unc" height="800" width="1200" title="HhnH6unc"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Friedrich Schneider](./HZJgycwa.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Schneider.jpg){align=left width="150" height="150"} 
+
+	German composer and conductor
+
+</div>

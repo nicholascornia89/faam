@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UFZTaLmy
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                     | aliases | Wikidata QID                                                   |
-    | :-------: | :---------------: | :-----------------------------: | :-----: | :------------------------------------------------------------: |
-    | UFZTaLmy  | ethnomusicologist | person studying ethnomusicology |         | [ethnomusicologist](http://wwww.wikidata.org/entity/Q17484288) |
+    | FAAM UUID | label             | description                     | aliases | Wikidata QID                                              |
+    | :-------: | :---------------: | :-----------------------------: | :-----: | :-------------------------------------------------------: |
+    | UFZTaLmy  | ethnomusicologist | person studying ethnomusicology |         | [ethnomusicologist](http://wikidata.org/entity/Q17484288) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/UFZTaLmy.html" height="800" width="1200" title="UFZTaLmy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UFZTaLmy" height="800" width="1200" title="UFZTaLmy"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TJf4MVzx
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991062854279707356/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/TJf4MVzx.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/TJf4MVzx.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/TJf4MVzx.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991062854279707356/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/TJf4MVzx.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/TJf4MVzx.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/TJf4MVzx.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991062854279707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991062854279707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                          | permalink                | provenance                              |
-    | :-------: | :--------------------: | :--------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | TJf4MVzx  | BSB-991062854279707356 | Missa Tu es Petrus : für 6stg. gemischten Chor | [external URL](kxUWNwiu) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                          | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :--------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | TJf4MVzx  | BSB-991062854279707356 | Missa Tu es Petrus : für 6stg. gemischten Chor | [external URL](https://mdz-nbn-resolving.de/details:bsb11510370) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -114,10 +118,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/TJf4MVzx.html" height="800" width="1200" title="TJf4MVzx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TJf4MVzx" height="800" width="1200" title="TJf4MVzx"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/TJf4MVzx.html" height="800" width="1200" title="TJf4MVzx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/TJf4MVzx" height="800" width="1200" title="TJf4MVzx"></iframe>

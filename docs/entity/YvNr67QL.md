@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YvNr67QL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                           | aliases | Wikidata QID                                          |
-    | :-------: | :-------: | :---------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | YvNr67QL  | Battersea | area of the London Borough of Wandsworth, England, UK |         | [Battersea](http://wwww.wikidata.org/entity/Q1138912) |
+    | FAAM UUID | label     | description                                           | aliases | Wikidata QID                                     |
+    | :-------: | :-------: | :---------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | YvNr67QL  | Battersea | area of the London Borough of Wandsworth, England, UK |         | [Battersea](http://wikidata.org/entity/Q1138912) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YvNr67QL.html" height="800" width="1200" title="YvNr67QL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YvNr67QL" height="800" width="1200" title="YvNr67QL"></iframe>
 
 ## Identifiers
 

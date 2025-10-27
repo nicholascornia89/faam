@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4SoPSqjV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                               | aliases | Wikidata QID                                              |
-    | :-------: | :---------------: | :-------------------------------------------------------: | :-----: | :-------------------------------------------------------: |
-    | 4SoPSqjV  | Baden-Württemberg | state in the southwest of the Federal Republic of Germany | BW      | [Baden-Württemberg](http://wwww.wikidata.org/entity/Q985) |
+    | FAAM UUID | label             | description                                               | aliases | Wikidata QID                                         |
+    | :-------: | :---------------: | :-------------------------------------------------------: | :-----: | :--------------------------------------------------: |
+    | 4SoPSqjV  | Baden-Württemberg | state in the southwest of the Federal Republic of Germany | BW      | [Baden-Württemberg](http://wikidata.org/entity/Q985) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4SoPSqjV.html" height="800" width="1200" title="4SoPSqjV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4SoPSqjV" height="800" width="1200" title="4SoPSqjV"></iframe>
 
 ## Identifiers
 

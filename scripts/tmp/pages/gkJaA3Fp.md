@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gkJaA3Fp
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                    | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :--------------------------------------------: | :-----: | :--------------------------------------------: |
-    | gkJaA3Fp  | Breda | municipality in North Brabant, the Netherlands |         | [Breda](http://wwww.wikidata.org/entity/Q9822) |
+    | FAAM UUID | label | description                                    | aliases | Wikidata QID                              |
+    | :-------: | :---: | :--------------------------------------------: | :-----: | :---------------------------------------: |
+    | gkJaA3Fp  | Breda | municipality in North Brabant, the Netherlands |         | [Breda](http://wikidata.org/entity/Q9822) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gkJaA3Fp.html" height="800" width="1200" title="gkJaA3Fp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gkJaA3Fp" height="800" width="1200" title="gkJaA3Fp"></iframe>
 
 ## Identifiers
 

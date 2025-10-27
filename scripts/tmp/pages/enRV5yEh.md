@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: enRV5yEh
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                        | aliases     | Wikidata QID                                            |
-    | :-------: | :--------: | :----------------------------------------------------------------: | :---------: | :-----------------------------------------------------: |
-    | enRV5yEh  | occupation | label applied to a person based on an activity they participate in | occupations | [occupation](http://wwww.wikidata.org/entity/Q12737077) |
+    | FAAM UUID | label      | description                                                        | aliases     | Wikidata QID                                       |
+    | :-------: | :--------: | :----------------------------------------------------------------: | :---------: | :------------------------------------------------: |
+    | enRV5yEh  | occupation | label applied to a person based on an activity they participate in | occupations | [occupation](http://wikidata.org/entity/Q12737077) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/enRV5yEh.html" height="800" width="1200" title="enRV5yEh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/enRV5yEh" height="800" width="1200" title="enRV5yEh"></iframe>
 
 ## Cross-references
 

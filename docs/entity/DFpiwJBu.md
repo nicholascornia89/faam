@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DFpiwJBu
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DFpiwJBu.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DFpiwJBu.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DFpiwJBu.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DFpiwJBu.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DFpiwJBu.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DFpiwJBu.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johan_Strauss_padre.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases               | description                | Wikidata QID                                                |
-    | :-------: | :--------------: | :-------------------: | :------------------------: | :---------------------------------------------------------: |
-    | DFpiwJBu  | Johann Strauss I | Johann Baptist Strauß | Austrian Romantic composer | [Johann Strauss I](http://wwww.wikidata.org/entity/Q184178) |
+    | FAAM UUID | label            | aliases               | description                | Wikidata QID                                           |
+    | :-------: | :--------------: | :-------------------: | :------------------------: | :----------------------------------------------------: |
+    | DFpiwJBu  | Johann Strauss I | Johann Baptist Strauß | Austrian Romantic composer | [Johann Strauss I](http://wikidata.org/entity/Q184178) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DFpiwJBu.html" height="800" width="1200" title="DFpiwJBu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DFpiwJBu" height="800" width="1200" title="DFpiwJBu"></iframe>
 
 ## Identifiers
 

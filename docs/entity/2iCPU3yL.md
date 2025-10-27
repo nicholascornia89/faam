@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2iCPU3yL
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                                       | aliases | Wikidata QID                                           |
-    | :-------: | :--------: | :-----------------------------------------------------------------------------------------------: | :-----: | :----------------------------------------------------: |
-    | 2iCPU3yL  | sharp sign | musical sign (accidental) raising the pitch of a note by one chromatic semitone (factor 2^(1/12)) | dièse   | [sharp sign](http://wwww.wikidata.org/entity/Q2542618) |
+    | FAAM UUID | label      | description                                                                                       | aliases | Wikidata QID                                      |
+    | :-------: | :--------: | :-----------------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
+    | 2iCPU3yL  | sharp sign | musical sign (accidental) raising the pitch of a note by one chromatic semitone (factor 2^(1/12)) | dièse   | [sharp sign](http://wikidata.org/entity/Q2542618) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/2iCPU3yL.html" height="800" width="1200" title="2iCPU3yL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2iCPU3yL" height="800" width="1200" title="2iCPU3yL"></iframe>
 
 ## Cross-references
 

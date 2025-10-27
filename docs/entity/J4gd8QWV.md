@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: J4gd8QWV
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-TP74135/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/J4gd8QWV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/J4gd8QWV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/J4gd8QWV.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-TP74135/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/J4gd8QWV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/J4gd8QWV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/J4gd8QWV.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-TP74135.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                        | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | J4gd8QWV  | KCA-TP74135           | 18 ausgewählte Klavierstücke | [external URL](m9rNaSAR) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                        | permalink                     | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------: | :---------------------------: | :-----------------------------------------------------------: |
+    | J4gd8QWV  | KCA-TP74135           | 18 ausgewählte Klavierstücke | [external URL](not available) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "note" 
 
@@ -164,10 +168,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/J4gd8QWV.html" height="800" width="1200" title="J4gd8QWV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/J4gd8QWV" height="800" width="1200" title="J4gd8QWV"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/J4gd8QWV.html" height="800" width="1200" title="J4gd8QWV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/J4gd8QWV" height="800" width="1200" title="J4gd8QWV"></iframe>

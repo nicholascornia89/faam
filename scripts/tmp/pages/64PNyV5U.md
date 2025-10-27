@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 64PNyV5U
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description             | aliases           | Wikidata QID                                                  |
-    | :-------: | :----------------: | :---------------------: | :---------------: | :-----------------------------------------------------------: |
-    | 64PNyV5U  | Condé-sur-l'Escaut | commune in Nord, France | Konde a/d Schelde | [Condé-sur-l'Escaut](http://wwww.wikidata.org/entity/Q494533) |
+    | FAAM UUID | label              | description             | aliases           | Wikidata QID                                             |
+    | :-------: | :----------------: | :---------------------: | :---------------: | :------------------------------------------------------: |
+    | 64PNyV5U  | Condé-sur-l'Escaut | commune in Nord, France | Konde a/d Schelde | [Condé-sur-l'Escaut](http://wikidata.org/entity/Q494533) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/64PNyV5U.html" height="800" width="1200" title="64PNyV5U"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/64PNyV5U" height="800" width="1200" title="64PNyV5U"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Josquin des Prez](./7ahVeGBq.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8e/Josquin_des_Prez.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josquin_des_Prez.jpg){align=left width="150" height="150"} 
 
 	composer of the Renaissance (c. 1450–1521)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ehrsLmbA
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                     | Wikidata QID                                                 |
-    | :-------: | :--------------: | :--------------: | :-----------------------------: | :----------------------------------------------------------: |
-    | ehrsLmbA  | Robert le diable | Robert the Devil | 1831 opera by Giacomo Meyerbeer | [Robert le diable](http://wwww.wikidata.org/entity/Q1071310) |
+    | FAAM UUID | label            | aliases          | description                     | Wikidata QID                                            |
+    | :-------: | :--------------: | :--------------: | :-----------------------------: | :-----------------------------------------------------: |
+    | ehrsLmbA  | Robert le diable | Robert the Devil | 1831 opera by Giacomo Meyerbeer | [Robert le diable](http://wikidata.org/entity/Q1071310) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/ehrsLmbA.html" height="800" width="1200" title="ehrsLmbA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ehrsLmbA" height="800" width="1200" title="ehrsLmbA"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[ROBERT LE DIABLE : Opéra en cinq actes : N° 3. Romance "Va! va! va, dit-elle"](./gW6tSWx3.md)__
 
-	![Image](../assets/images/thumbs/KCG-000122150.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000122150.gif){align=left width="150" height="150"} 
 
 	
 

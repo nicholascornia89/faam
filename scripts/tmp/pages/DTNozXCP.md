@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DTNozXCP
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DTNozXCP.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DTNozXCP.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DTNozXCP.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DTNozXCP.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DTNozXCP.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DTNozXCP.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hugo_Distler.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases             | description                                                         | Wikidata QID                                            |
-    | :-------: | :----------: | :-----------------: | :-----------------------------------------------------------------: | :-----------------------------------------------------: |
-    | DTNozXCP  | Hugo Distler | August Hugo Distler | German organist, choral conductor, teacher and composer (1908–1942) | [Hugo Distler](http://wwww.wikidata.org/entity/Q702366) |
+    | FAAM UUID | label        | aliases             | description                                                         | Wikidata QID                                       |
+    | :-------: | :----------: | :-----------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | DTNozXCP  | Hugo Distler | August Hugo Distler | German organist, choral conductor, teacher and composer (1908–1942) | [Hugo Distler](http://wikidata.org/entity/Q702366) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 	- [organist](./ZhptKYF3.md)
 
-	- [](./kdzVcbUL.md)
+	- [church musician](./kdzVcbUL.md)
 
 ??? quote "educated at" 
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DTNozXCP.html" height="800" width="1200" title="DTNozXCP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DTNozXCP" height="800" width="1200" title="DTNozXCP"></iframe>
 
 ## Identifiers
 

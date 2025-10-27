@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RvAc2jXn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description              | aliases              | Wikidata QID                                                      |
-    | :-------: | :---------------------: | :----------------------: | :------------------: | :---------------------------------------------------------------: |
-    | RvAc2jXn  | Municipality of Ribnica | municipality of Slovenia | Ribnica municipality | [Municipality of Ribnica](http://wwww.wikidata.org/entity/Q15912) |
+    | FAAM UUID | label                   | description              | aliases              | Wikidata QID                                                 |
+    | :-------: | :---------------------: | :----------------------: | :------------------: | :----------------------------------------------------------: |
+    | RvAc2jXn  | Municipality of Ribnica | municipality of Slovenia | Ribnica municipality | [Municipality of Ribnica](http://wikidata.org/entity/Q15912) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Slovenia](http://www.wikidata.org/entity/Q215)
+	- [Slovenia](Q215)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/RvAc2jXn.html" height="800" width="1200" title="RvAc2jXn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RvAc2jXn" height="800" width="1200" title="RvAc2jXn"></iframe>
 
 ## Identifiers
 

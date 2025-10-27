@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 94sGaDSU
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------: | :-----: | :---------: | :----------------------------------: |
-    | 94sGaDSU  | Salve Regina, Op.11 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label               | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------: | :-----: | :---------: | :-----------------------------: |
+    | 94sGaDSU  | Salve Regina, Op.11 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/94sGaDSU.html" height="800" width="1200" title="94sGaDSU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/94sGaDSU" height="800" width="1200" title="94sGaDSU"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Salve Regina für Sopran-solo, Frauenchor, Orchester und Orgel (ad libitum) Op. 11](./bfMfV7kH.md)__
 
-	![Image](../assets/images/thumbs/ORP-20140284f.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20140284f.gif){align=left width="150" height="150"} 
 
 	
 

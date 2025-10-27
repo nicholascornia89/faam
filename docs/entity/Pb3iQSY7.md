@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Pb3iQSY7
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                    | description                  | aliases           | Wikidata QID                                                                                          |
-    | :-------: | :------------------------------------------------------: | :--------------------------: | :---------------: | :---------------------------------------------------------------------------------------------------: |
-    | Pb3iQSY7  | single clarinets with cylindrical bore, with fingerholes | class of musical instruments | European clarinet | [single clarinets with cylindrical bore, with fingerholes](http://wwww.wikidata.org/entity/Q55738872) |
+    | FAAM UUID | label                                                    | description                  | aliases           | Wikidata QID                                                                                     |
+    | :-------: | :------------------------------------------------------: | :--------------------------: | :---------------: | :----------------------------------------------------------------------------------------------: |
+    | Pb3iQSY7  | single clarinets with cylindrical bore, with fingerholes | class of musical instruments | European clarinet | [single clarinets with cylindrical bore, with fingerholes](http://wikidata.org/entity/Q55738872) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Pb3iQSY7.html" height="800" width="1200" title="Pb3iQSY7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Pb3iQSY7" height="800" width="1200" title="Pb3iQSY7"></iframe>
 
 ## Cross-references
 

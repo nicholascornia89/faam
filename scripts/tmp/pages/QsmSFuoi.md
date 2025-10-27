@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QsmSFuoi
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                              | aliases | Wikidata QID                                          |
-    | :-------: | :-------: | :----------------------------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | QsmSFuoi  | Křečovice | village in Benešov District, Central Bohemian region, the Czech Republic |         | [Křečovice](http://wwww.wikidata.org/entity/Q2346532) |
+    | FAAM UUID | label     | description                                                              | aliases | Wikidata QID                                     |
+    | :-------: | :-------: | :----------------------------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | QsmSFuoi  | Křečovice | village in Benešov District, Central Bohemian region, the Czech Republic |         | [Křečovice](http://wikidata.org/entity/Q2346532) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/QsmSFuoi.html" height="800" width="1200" title="QsmSFuoi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QsmSFuoi" height="800" width="1200" title="QsmSFuoi"></iframe>
 
 ## Identifiers
 

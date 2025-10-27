@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MHUvQ8mn
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MHUvQ8mn.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MHUvQ8mn.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MHUvQ8mn.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MHUvQ8mn.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MHUvQ8mn.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MHUvQ8mn.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Osborne,GeorgeAlexander_A.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases        | description                | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :------------: | :------------------------: | :------------------------------------------------------------------: |
-    | MHUvQ8mn  | George Alexander Osborne | George Osborne | Irish pianist and composer | [George Alexander Osborne](http://wwww.wikidata.org/entity/Q5543056) |
+    | FAAM UUID | label                    | aliases        | description                | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :------------: | :------------------------: | :-------------------------------------------------------------: |
+    | MHUvQ8mn  | George Alexander Osborne | George Osborne | Irish pianist and composer | [George Alexander Osborne](http://wikidata.org/entity/Q5543056) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/MHUvQ8mn.html" height="800" width="1200" title="MHUvQ8mn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MHUvQ8mn" height="800" width="1200" title="MHUvQ8mn"></iframe>
 
 ## Identifiers
 

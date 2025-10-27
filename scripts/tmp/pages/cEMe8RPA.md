@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cEMe8RPA
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                                                          | aliases | Wikidata QID                                       |
-    | :-------: | :------: | :--------------------------------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | cEMe8RPA  | Pamplona | municipality in Spain, capital of Navarre and main municipality of the historical Kingdom of Navarre | Iruña   | [Pamplona](http://wwww.wikidata.org/entity/Q10282) |
+    | FAAM UUID | label    | description                                                                                          | aliases | Wikidata QID                                  |
+    | :-------: | :------: | :--------------------------------------------------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | cEMe8RPA  | Pamplona | municipality in Spain, capital of Navarre and main municipality of the historical Kingdom of Navarre | Iruña   | [Pamplona](http://wikidata.org/entity/Q10282) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cEMe8RPA.html" height="800" width="1200" title="cEMe8RPA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cEMe8RPA" height="800" width="1200" title="cEMe8RPA"></iframe>
 
 ## Identifiers
 

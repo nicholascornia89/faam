@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9VZfV9hd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                       | aliases | Wikidata QID                                           |
-    | :-------: | :--------: | :-------------------------------: | :-----: | :----------------------------------------------------: |
-    | 9VZfV9hd  | Le Passage | commune in Lot-et-Garonne, France |         | [Le Passage](http://wwww.wikidata.org/entity/Q1063389) |
+    | FAAM UUID | label      | description                       | aliases | Wikidata QID                                      |
+    | :-------: | :--------: | :-------------------------------: | :-----: | :-----------------------------------------------: |
+    | 9VZfV9hd  | Le Passage | commune in Lot-et-Garonne, France |         | [Le Passage](http://wikidata.org/entity/Q1063389) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9VZfV9hd.html" height="800" width="1200" title="9VZfV9hd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9VZfV9hd" height="800" width="1200" title="9VZfV9hd"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: j2o7VZsd
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/j2o7VZsd.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/j2o7VZsd.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/j2o7VZsd.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/j2o7VZsd.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/j2o7VZsd.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/j2o7VZsd.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Daniel_Steibelt_by_Quenedey.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                  | description                 | Wikidata QID                                               |
-    | :-------: | :-------------: | :----------------------: | :-------------------------: | :--------------------------------------------------------: |
-    | j2o7VZsd  | Daniel Steibelt | Daniel Gottlieb Steibelt | German pianist and composer | [Daniel Steibelt](http://wwww.wikidata.org/entity/Q657464) |
+    | FAAM UUID | label           | aliases                  | description                 | Wikidata QID                                          |
+    | :-------: | :-------------: | :----------------------: | :-------------------------: | :---------------------------------------------------: |
+    | j2o7VZsd  | Daniel Steibelt | Daniel Gottlieb Steibelt | German pianist and composer | [Daniel Steibelt](http://wikidata.org/entity/Q657464) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/j2o7VZsd.html" height="800" width="1200" title="j2o7VZsd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/j2o7VZsd" height="800" width="1200" title="j2o7VZsd"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,7 @@ tags: agent
 
 -	__[Convoluut](./bPMh4UBw.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902808952.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902808952.gif){align=left width="150" height="150"} 
 
 	
 

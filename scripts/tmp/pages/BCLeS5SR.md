@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BCLeS5SR
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                       | aliases | Wikidata QID                                    |
-    | :-------: | :---------: | :---------------------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | BCLeS5SR  | con sordina | device fitted to a musical instrument to alter the sound produced | mute    | [mute](http://wwww.wikidata.org/entity/Q941882) |
+    | FAAM UUID | label       | description                                                       | aliases | Wikidata QID                               |
+    | :-------: | :---------: | :---------------------------------------------------------------: | :-----: | :----------------------------------------: |
+    | BCLeS5SR  | con sordina | device fitted to a musical instrument to alter the sound produced | mute    | [mute](http://wikidata.org/entity/Q941882) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/BCLeS5SR.html" height="800" width="1200" title="BCLeS5SR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BCLeS5SR" height="800" width="1200" title="BCLeS5SR"></iframe>
 
 ## Cross-references
 
@@ -57,25 +61,25 @@ tags: annotation_type
 
 -	__[Symphony No. 3, Movement V](./FpRjiwvN.md)__
 
-	![Image](../assets/images/thumbs/WML-768406.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768406.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Toccate: pour piano](./MbSUHSvk.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901805850.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901805850.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Berceuse](./FREYUbCn.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904192645.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904192645.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le Nozze di Figaro : komische opera in 4 bedrijven](./TLmRU2pg.md)__
 
-	![Image](../assets/images/thumbs/KCG-000359978.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000359978.gif){align=left width="150" height="150"} 
 
 	
 

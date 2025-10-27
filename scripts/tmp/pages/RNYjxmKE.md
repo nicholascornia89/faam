@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RNYjxmKE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RNYjxmKE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RNYjxmKE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RNYjxmKE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RNYjxmKE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RNYjxmKE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RNYjxmKE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description | Wikidata QID                                                    |
-    | :-------: | :----------------: | :----------------: | :---------: | :-------------------------------------------------------------: |
-    | RNYjxmKE  | Wenzel Neukirchner | Václav Neukirchner | (1805-1889) | [Wenzel Neukirchner](http://wwww.wikidata.org/entity/Q94692815) |
+    | FAAM UUID | label              | aliases            | description | Wikidata QID                                               |
+    | :-------: | :----------------: | :----------------: | :---------: | :--------------------------------------------------------: |
+    | RNYjxmKE  | Wenzel Neukirchner | Václav Neukirchner | (1805-1889) | [Wenzel Neukirchner](http://wikidata.org/entity/Q94692815) |
 
 <br><br><br>
 
@@ -45,13 +49,13 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./VbnzDANi.md)
+	- [bassoonist](./VbnzDANi.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/RNYjxmKE.html" height="800" width="1200" title="RNYjxmKE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RNYjxmKE" height="800" width="1200" title="RNYjxmKE"></iframe>
 
 ## Identifiers
 

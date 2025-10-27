@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FruzaB3V
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902125688/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FruzaB3V.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FruzaB3V.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FruzaB3V.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902125688/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FruzaB3V.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FruzaB3V.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FruzaB3V.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902125688.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902125688.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title             | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------------: | :----------------------: | :-----------------------------------------------------------: |
-    | FruzaB3V  | KCA-030902125688      | Allegro con fuoco | [external URL](eSzqVmee) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title             | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :---------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | FruzaB3V  | KCA-030902125688      | Allegro con fuoco | [external URL](https://anet.be/record/opacdkvc/c:lvd:7088413/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -73,10 +77,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/FruzaB3V.html" height="800" width="1200" title="FruzaB3V"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FruzaB3V" height="800" width="1200" title="FruzaB3V"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/FruzaB3V.html" height="800" width="1200" title="FruzaB3V"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/FruzaB3V" height="800" width="1200" title="FruzaB3V"></iframe>

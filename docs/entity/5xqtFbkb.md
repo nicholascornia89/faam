@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5xqtFbkb
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                           | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------------------: | :-----: | :---------: | :----------------------------------: |
-    | 5xqtFbkb  | I cieli immensi narrano, S. 618 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                           | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------------------: | :-----: | :---------: | :-----------------------------: |
+    | 5xqtFbkb  | I cieli immensi narrano, S. 618 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/5xqtFbkb.html" height="800" width="1200" title="5xqtFbkb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5xqtFbkb" height="800" width="1200" title="5xqtFbkb"></iframe>
 
 ## Identifiers
 
@@ -59,31 +63,31 @@ tags: musical_work
 
 -	__[Psaume 18](./R3y53rZM.md)__
 
-	![Image](../assets/images/thumbs/KCG-000355794.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000355794.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Psaume 18](./HzemsPg5.md)__
 
-	![Image](../assets/images/thumbs/KCG-000355797.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000355797.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Psaume 18 : Partition](./PKcvUF5M.md)__
 
-	![Image](../assets/images/thumbs/KCG-000740758.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000740758.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)](./cDShRWzG.md)__
 
-	![Image](../assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)](./cDShRWzG.md)__
 
-	![Image](../assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
 
 	
 

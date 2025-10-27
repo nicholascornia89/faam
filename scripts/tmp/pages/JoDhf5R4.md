@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JoDhf5R4
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991094740449707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JoDhf5R4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JoDhf5R4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JoDhf5R4.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991094740449707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JoDhf5R4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JoDhf5R4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JoDhf5R4.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991094740449707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991094740449707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                                                               | permalink                | provenance                              |
-    | :-------: | :--------------------: | :---------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | JoDhf5R4  | BSB-991094740449707356 | Grande fantaisie sur des motifs de l'opéra Le Barbier de Seville de Rossini : op. 6 | [external URL](UJ57Ew5y) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                                                               | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :---------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | JoDhf5R4  | BSB-991094740449707356 | Grande fantaisie sur des motifs de l'opéra Le Barbier de Seville de Rossini : op. 6 | [external URL](https://mdz-nbn-resolving.de/details:bsb00147951) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/JoDhf5R4.html" height="800" width="1200" title="JoDhf5R4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JoDhf5R4" height="800" width="1200" title="JoDhf5R4"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/JoDhf5R4.html" height="800" width="1200" title="JoDhf5R4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/JoDhf5R4" height="800" width="1200" title="JoDhf5R4"></iframe>

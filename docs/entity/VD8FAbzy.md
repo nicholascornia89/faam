@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VD8FAbzy
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                         | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :---------------------------------: | :-----: | :--------------------------------------------------: |
-    | VD8FAbzy  | biologist | scientist studying living organisms |         | [biologist](http://wwww.wikidata.org/entity/Q864503) |
+    | FAAM UUID | label     | description                         | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :---------------------------------: | :-----: | :---------------------------------------------: |
+    | VD8FAbzy  | biologist | scientist studying living organisms |         | [biologist](http://wikidata.org/entity/Q864503) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/VD8FAbzy.html" height="800" width="1200" title="VD8FAbzy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VD8FAbzy" height="800" width="1200" title="VD8FAbzy"></iframe>
 
 ## Cross-references
 

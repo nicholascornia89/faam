@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6hfQXjrV
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                   | aliases   | Wikidata QID                                         |
-    | :-------: | :-------: | :-------------------------------------------: | :-------: | :--------------------------------------------------: |
-    | 6hfQXjrV  | bookplate | label affixed to a book to indicate ownership | ex libris | [bookplate](http://wwww.wikidata.org/entity/Q188456) |
+    | FAAM UUID | label     | description                                   | aliases   | Wikidata QID                                    |
+    | :-------: | :-------: | :-------------------------------------------: | :-------: | :---------------------------------------------: |
+    | 6hfQXjrV  | bookplate | label affixed to a book to indicate ownership | ex libris | [bookplate](http://wikidata.org/entity/Q188456) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/6hfQXjrV.html" height="800" width="1200" title="6hfQXjrV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6hfQXjrV" height="800" width="1200" title="6hfQXjrV"></iframe>
 
 ## Cross-references
 
@@ -51,25 +55,25 @@ tags: annotation_type
 
 -	__[Couperin's Werke / Teil 2 / hrsg. von Johannes Brahms](./3DRpRYCp.md)__
 
-	![Image](../assets/images/thumbs/SUH-819290521.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SUH-819290521.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Couperin's Werke / Teil 1 / hrsg. von Johannes Brahms](./4mkChNN8.md)__
 
-	![Image](../assets/images/thumbs/SUH-819290386.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SUH-819290386.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Thorough-Bass Made Easy](./jn82yUTV.md)__
 
-	![Image](../assets/images/thumbs/ORP-20145655.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20145655.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Exercises for the Voice. Consisting of Various Solfeggi, Collected from Manuscripts of the Late Veneziano Rauzzini, to which Are Added Specimens of Several Favorite Modern Songs](./aYjhXpRD.md)__
 
-	![Image](../assets/images/thumbs/ORP-20140284a.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20140284a.gif){align=left width="150" height="150"} 
 
 	
 

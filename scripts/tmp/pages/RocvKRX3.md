@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RocvKRX3
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                   | aliases | Wikidata QID                                                        |
-    | :-------: | :--------------------: | :---------------------------: | :-----: | :-----------------------------------------------------------------: |
-    | RocvKRX3  | oboe family instrument | instrument in the oboe family | oboe    | [oboe family instrument](http://wwww.wikidata.org/entity/Q42889517) |
+    | FAAM UUID | label                  | description                   | aliases | Wikidata QID                                                   |
+    | :-------: | :--------------------: | :---------------------------: | :-----: | :------------------------------------------------------------: |
+    | RocvKRX3  | oboe family instrument | instrument in the oboe family | oboe    | [oboe family instrument](http://wikidata.org/entity/Q42889517) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/RocvKRX3.html" height="800" width="1200" title="RocvKRX3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RocvKRX3" height="800" width="1200" title="RocvKRX3"></iframe>
 
 ## Cross-references
 

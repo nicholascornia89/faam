@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MzXwocsM
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | aliases                        | description                                  | Wikidata QID                                           |
-    | :-------: | :----------------------------: | :----------------------------: | :------------------------------------------: | :----------------------------------------------------: |
-    | MzXwocsM  | Magnificat in D major, BWV 243 | Magnificat in D major, BWV 243 | musical composition by Johann Sebastian Bach | [Magnificat](http://wwww.wikidata.org/entity/Q1475933) |
+    | FAAM UUID | label                          | aliases                        | description                                  | Wikidata QID                                      |
+    | :-------: | :----------------------------: | :----------------------------: | :------------------------------------------: | :-----------------------------------------------: |
+    | MzXwocsM  | Magnificat in D major, BWV 243 | Magnificat in D major, BWV 243 | musical composition by Johann Sebastian Bach | [Magnificat](http://wikidata.org/entity/Q1475933) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/MzXwocsM.html" height="800" width="1200" title="MzXwocsM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MzXwocsM" height="800" width="1200" title="MzXwocsM"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: musical_work
 
 -	__[Magnificat (in D-dur)](./JadywWNZ.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076581699707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076581699707356.gif){align=left width="150" height="150"} 
 
 	
 

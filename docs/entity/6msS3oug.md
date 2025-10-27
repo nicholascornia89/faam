@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6msS3oug
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description             | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :---------------------: | :-----: | :----------------------------------------------: |
-    | 6msS3oug  | Eutin | municipality of Germany |         | [Eutin](http://wwww.wikidata.org/entity/Q490445) |
+    | FAAM UUID | label | description             | aliases | Wikidata QID                                |
+    | :-------: | :---: | :---------------------: | :-----: | :-----------------------------------------: |
+    | 6msS3oug  | Eutin | municipality of Germany |         | [Eutin](http://wikidata.org/entity/Q490445) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/6msS3oug.html" height="800" width="1200" title="6msS3oug"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6msS3oug" height="800" width="1200" title="6msS3oug"></iframe>
 
 ## Identifiers
 

@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JHg9MPVu a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:PXYCpRXf ;
+    schema1:description "sonata by Domenico Scarlatti"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q67199893>,
+        "16003401"^^xsd:string,
+        "JHg9MPVu"^^xsd:string ;
+    skos:altLabel "Keyboard Sonata in D minor, L.413"^^xsd:string,
+        "Sonata K. 9"^^xsd:string ;
+    skos:prefLabel "Keyboard Sonata in D minor, K.9"^^xsd:string ;
+    wd:P214 viaf:177407850 ;
+    wd:P5202 faamentity:5VzqwoVR,
+        faamentity:5gAsc3pE,
+        faamentity:LoNNNoeu,
+        faamentity:NETLpz9B,
+        faamentity:Se7MShv3,
+        faamentity:Vp4ucERe,
+        faamentity:YKyGGFZd,
+        faamentity:jieDZf2J,
+        faamentity:jm4QpjVW ;
+    wd:P7937 faamentity:RtkoMT89 ;
+    wd:P839 <https://imslp.org/wiki/Keyboard_Sonata_in_D_minor,_K.9_(Scarlatti,_Domenico)> .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: af9tXzuo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                                             | aliases | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-----: | :---------------------------------------------------------------------: |
-    | af9tXzuo  | 19th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [19th arrondissement of Paris](http://wwww.wikidata.org/entity/Q204622) |
+    | FAAM UUID | label                        | description                                             | aliases | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-----: | :----------------------------------------------------------------: |
+    | af9tXzuo  | 19th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [19th arrondissement of Paris](http://wikidata.org/entity/Q204622) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/af9tXzuo.html" height="800" width="1200" title="af9tXzuo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/af9tXzuo" height="800" width="1200" title="af9tXzuo"></iframe>
 
 ## Identifiers
 

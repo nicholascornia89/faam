@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZsURQGSW a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital and largest city of Massachusetts, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q100>,
+        "112742"^^xsd:string,
+        "ZsURQGSW"^^xsd:string ;
+    schema1:location faamentity:fiWxEeqn ;
+    skos:altLabel "Bean Town"^^xsd:string,
+        "Beantown"^^xsd:string,
+        "Boston"^^xsd:string,
+        "Boston (MA)"^^xsd:string,
+        "Boston MA, United States"^^xsd:string,
+        "Boston, MA"^^xsd:string,
+        "Boston, Mass"^^xsd:string,
+        "Boston, Mass."^^xsd:string,
+        "Boston, Massachusetts"^^xsd:string,
+        "Boston, Massachusetts, US"^^xsd:string,
+        "Boston, Massachusetts, United States"^^xsd:string,
+        "Boston, Massachusetts, United States of America"^^xsd:string,
+        "Boston, USA"^^xsd:string,
+        "Boston, United States"^^xsd:string,
+        "Bostonia"^^xsd:string,
+        "Capital of Massachusetts"^^xsd:string,
+        "City of Boston"^^xsd:string,
+        "Puritan City"^^xsd:string,
+        "The Athens of America"^^xsd:string,
+        "The Cradle of Liberty"^^xsd:string,
+        "The Cradle of Modern America"^^xsd:string,
+        "The Hub"^^xsd:string,
+        "The Hub of the Universe"^^xsd:string,
+        "The Walking City"^^xsd:string,
+        "The hub of the universe"^^xsd:string ;
+    skos:prefLabel "Boston"^^xsd:string ;
+    wd:P1566 gn:4930956 .
+

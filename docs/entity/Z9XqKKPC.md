@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Z9XqKKPC
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | aliases | description | Wikidata QID                         |
-    | :-------: | :--------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | Z9XqKKPC  | The Faun and the Shepherdess, K002 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                              | aliases | description | Wikidata QID                    |
+    | :-------: | :--------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | Z9XqKKPC  | The Faun and the Shepherdess, K002 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Z9XqKKPC.html" height="800" width="1200" title="Z9XqKKPC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Z9XqKKPC" height="800" width="1200" title="Z9XqKKPC"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Faun und Schäferin: liedercyklus für Gesang und Klavier, op. 2 = Le faune et la bergère: suite pour chant et piano, opus 2](./XRgokHR3.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902642138.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902642138.gif){align=left width="150" height="150"} 
 
 	
 

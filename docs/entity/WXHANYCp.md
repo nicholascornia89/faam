@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WXHANYCp
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                      | aliases                                                    | Wikidata QID                                            |
-    | :-------: | :----------: | :------------------------------------------------------------------------------: | :--------------------------------------------------------: | :-----------------------------------------------------: |
-    | WXHANYCp  | Cisleithania | northern and western part of Austro-Hungary with Dalmatia and Istria (1867–1918) | The Kingdoms and Lands Represented in the Imperial Council | [Cisleithania](http://wwww.wikidata.org/entity/Q533534) |
+    | FAAM UUID | label        | description                                                                      | aliases                                                    | Wikidata QID                                       |
+    | :-------: | :----------: | :------------------------------------------------------------------------------: | :--------------------------------------------------------: | :------------------------------------------------: |
+    | WXHANYCp  | Cisleithania | northern and western part of Austro-Hungary with Dalmatia and Istria (1867–1918) | The Kingdoms and Lands Represented in the Imperial Council | [Cisleithania](http://wikidata.org/entity/Q533534) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/WXHANYCp.html" height="800" width="1200" title="WXHANYCp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WXHANYCp" height="800" width="1200" title="WXHANYCp"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,7 @@ tags: country
 
 -	__[Wilhelm Mayer](./AQUfsFjr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer and music teacher (1831-1898)
 

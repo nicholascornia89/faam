@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: L5BeZMkD
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                           | aliases | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :-----------------------------------: | :-----: | :---------------------------------------------------------------: |
-    | L5BeZMkD  | Royal College of Music | college in Kensington and Chelsea, UK | RCM     | [Royal College of Music](http://wwww.wikidata.org/entity/Q304985) |
+    | FAAM UUID | label                  | description                           | aliases | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :-----------------------------------: | :-----: | :----------------------------------------------------------: |
+    | L5BeZMkD  | Royal College of Music | college in Kensington and Chelsea, UK | RCM     | [Royal College of Music](http://wikidata.org/entity/Q304985) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./2VfgbeWV.md)
+	[Royal Borough of Kensington and Chelsea](./2VfgbeWV.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/L5BeZMkD.html" height="800" width="1200" title="L5BeZMkD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/L5BeZMkD" height="800" width="1200" title="L5BeZMkD"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Thomas Dunhill](./Vp4ucERe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British composer
 
@@ -69,7 +73,7 @@ tags: music_organization
 
 -	__[Gustav Holst](./KpakAMdR.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/01/Gustav_Holst.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Holst.jpg){align=left width="150" height="150"} 
 
 	British composer
 

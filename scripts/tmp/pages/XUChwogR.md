@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XUChwogR
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XUChwogR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XUChwogR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XUChwogR.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XUChwogR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XUChwogR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XUChwogR.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis_Niedermeyer.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                   | description          | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------------------: | :------------------: | :----------------------------------------------------------: |
-    | XUChwogR  | Louis Niedermeyer | Abraham Louis Niedermeyer | composer (1802-1861) | [Louis Niedermeyer](http://wwww.wikidata.org/entity/Q304620) |
+    | FAAM UUID | label             | aliases                   | description          | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------------------: | :------------------: | :-----------------------------------------------------: |
+    | XUChwogR  | Louis Niedermeyer | Abraham Louis Niedermeyer | composer (1802-1861) | [Louis Niedermeyer](http://wikidata.org/entity/Q304620) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/XUChwogR.html" height="800" width="1200" title="XUChwogR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XUChwogR" height="800" width="1200" title="XUChwogR"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Ernest Gillet](./Sjw2pJu9.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French musician and composer (1856-1940)
+
+</div>

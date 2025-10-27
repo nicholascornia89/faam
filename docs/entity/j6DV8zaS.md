@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: j6DV8zaS
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/j6DV8zaS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/j6DV8zaS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/j6DV8zaS.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/j6DV8zaS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/j6DV8zaS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/j6DV8zaS.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                               | Wikidata QID                                                 |
-    | :-------: | :--------------: | :--------------: | :---------------------------------------: | :----------------------------------------------------------: |
-    | j6DV8zaS  | Joseph Callaerts | Joseph Callaerts | Belgian organist and composer (1830–1901) | [Joseph Callaerts](http://wwww.wikidata.org/entity/Q2327733) |
+    | FAAM UUID | label            | aliases          | description                               | Wikidata QID                                            |
+    | :-------: | :--------------: | :--------------: | :---------------------------------------: | :-----------------------------------------------------: |
+    | j6DV8zaS  | Joseph Callaerts | Joseph Callaerts | Belgian organist and composer (1830–1901) | [Joseph Callaerts](http://wikidata.org/entity/Q2327733) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/j6DV8zaS.html" height="800" width="1200" title="j6DV8zaS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/j6DV8zaS" height="800" width="1200" title="j6DV8zaS"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,15 @@ tags: agent
 
 -	__[Adoration Opus 21](./RwhdvVuG.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902687190.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902687190.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Pièces pour orgue, Op.21](./2oLQ4BVH.md)__
 
 	
 

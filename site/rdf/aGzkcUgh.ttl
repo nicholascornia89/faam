@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aGzkcUgh a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "private Catholic school in Paris"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2983698>,
+        "15991106"^^xsd:string,
+        "aGzkcUgh"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf,
+        faamentity:U8VE48Nt ;
+    skos:altLabel "College Stanislas de Paris"^^xsd:string,
+        "Collège Stanislas de Paris"^^xsd:string,
+        "Stan"^^xsd:string,
+        "collège Stanislas"^^xsd:string ;
+    skos:prefLabel "Collège Stanislas de Paris"^^xsd:string .
+

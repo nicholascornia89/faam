@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8wPYJeD9
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                                                               | Wikidata QID                                                                   |
-    | :-------: | :-------------------------------: | :-------------------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
-    | 8wPYJeD9  | Ach wie flüchtig, ach wie nichtig | Ach wie flüchtig, ach wie nichtig | 1650 sacred Song composed by Michael Franck with lyrics by Michael Franck | [Ach wie flüchtig, ach wie nichtig](http://wwww.wikidata.org/entity/Q30303950) |
+    | FAAM UUID | label                             | aliases                           | description                                                               | Wikidata QID                                                              |
+    | :-------: | :-------------------------------: | :-------------------------------: | :-----------------------------------------------------------------------: | :-----------------------------------------------------------------------: |
+    | 8wPYJeD9  | Ach wie flüchtig, ach wie nichtig | Ach wie flüchtig, ach wie nichtig | 1650 sacred Song composed by Michael Franck with lyrics by Michael Franck | [Ach wie flüchtig, ach wie nichtig](http://wikidata.org/entity/Q30303950) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/8wPYJeD9.html" height="800" width="1200" title="8wPYJeD9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8wPYJeD9" height="800" width="1200" title="8wPYJeD9"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CCZUVnPJ
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                                                               | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :-----------------------------------------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------------: |
-    | CCZUVnPJ  | West Germany | Federal Republic of Germany in the period between its formation on 23 May 1949 and German reunification on 3 October 1990 | FRG     | [West Germany](http://wwww.wikidata.org/entity/Q713750) |
+    | FAAM UUID | label        | description                                                                                                               | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :-----------------------------------------------------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
+    | CCZUVnPJ  | West Germany | Federal Republic of Germany in the period between its formation on 23 May 1949 and German reunification on 3 October 1990 | FRG     | [West Germany](http://wikidata.org/entity/Q713750) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/CCZUVnPJ.html" height="800" width="1200" title="CCZUVnPJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CCZUVnPJ" height="800" width="1200" title="CCZUVnPJ"></iframe>
 
 ## Identifiers
 

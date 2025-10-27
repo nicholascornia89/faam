@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FSSEVqmR
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                   | description                  | aliases                                        | Wikidata QID                                                                         |
-    | :-------: | :-------------------------------------: | :--------------------------: | :--------------------------------------------: | :----------------------------------------------------------------------------------: |
-    | FSSEVqmR  | open side-blown flutes with fingerholes | class of musical instruments | single open transverse flutes with fingerholes | [open side-blown flutes with fingerholes](http://wwww.wikidata.org/entity/Q55738599) |
+    | FAAM UUID | label                                   | description                  | aliases                                        | Wikidata QID                                                                    |
+    | :-------: | :-------------------------------------: | :--------------------------: | :--------------------------------------------: | :-----------------------------------------------------------------------------: |
+    | FSSEVqmR  | open side-blown flutes with fingerholes | class of musical instruments | single open transverse flutes with fingerholes | [open side-blown flutes with fingerholes](http://wikidata.org/entity/Q55738599) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/FSSEVqmR.html" height="800" width="1200" title="FSSEVqmR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FSSEVqmR" height="800" width="1200" title="FSSEVqmR"></iframe>
 
 ## Cross-references
 

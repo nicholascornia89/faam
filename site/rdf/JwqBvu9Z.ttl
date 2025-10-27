@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JwqBvu9Z a rdfs:Resource ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "symbol of musical notation indicating that the note should be prolonged beyond its normal duration or note value would indicate"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q830328>,
+        "15992154"^^xsd:string,
+        "JwqBvu9Z"^^xsd:string ;
+    skos:altLabel "fermata"^^xsd:string,
+        "hold"^^xsd:string,
+        "pause"^^xsd:string,
+        "𝄐"^^xsd:string ;
+    skos:prefLabel "fermata"^^xsd:string ;
+    wd:P1535 faamentity:AcFWzeQH,
+        faamentity:YvQmwaaW ;
+    wd:P31 faamentity:DidEqfmX,
+        faamentity:fxtj72S3 .
+

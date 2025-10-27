@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4cQKphDr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                   | aliases   | Wikidata QID                                        |
-    | :-------: | :-------: | :-------------------------------------------: | :-------: | :-------------------------------------------------: |
-    | 4cQKphDr  | Timișoara | city and county seat in Timiș County, Romania | Timişoara | [Timișoara](http://wwww.wikidata.org/entity/Q83404) |
+    | FAAM UUID | label     | description                                   | aliases   | Wikidata QID                                   |
+    | :-------: | :-------: | :-------------------------------------------: | :-------: | :--------------------------------------------: |
+    | 4cQKphDr  | Timișoara | city and county seat in Timiș County, Romania | Timişoara | [Timișoara](http://wikidata.org/entity/Q83404) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4cQKphDr.html" height="800" width="1200" title="4cQKphDr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4cQKphDr" height="800" width="1200" title="4cQKphDr"></iframe>
 
 ## Identifiers
 

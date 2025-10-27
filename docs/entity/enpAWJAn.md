@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: enpAWJAn
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | enpAWJAn  | Keyboard Sonata in D major, K.313 | Keyboard Sonata in D major, L.192 | sonata by Domenico Scarlatti | [Sonata K. 313](http://wwww.wikidata.org/entity/Q78239940) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | enpAWJAn  | Keyboard Sonata in D major, K.313 | Keyboard Sonata in D major, L.192 | sonata by Domenico Scarlatti | [Sonata K. 313](http://wikidata.org/entity/Q78239940) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/enpAWJAn.html" height="800" width="1200" title="enpAWJAn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/enpAWJAn" height="800" width="1200" title="enpAWJAn"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

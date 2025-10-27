@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XvS7XX6c
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                                                   | aliases | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-----------------------------------------------------------: | :-----: | :------------------------------------------------------------------: |
-    | XvS7XX6c  | University College London | public research university in London, England, United Kingdom | UCL     | [University College London](http://wwww.wikidata.org/entity/Q193196) |
+    | FAAM UUID | label                     | description                                                   | aliases | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-----------------------------------------------------------: | :-----: | :-------------------------------------------------------------: |
+    | XvS7XX6c  | University College London | public research university in London, England, United Kingdom | UCL     | [University College London](http://wikidata.org/entity/Q193196) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./8eLjuyxP.md)
+	[Bloomsbury](./8eLjuyxP.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/XvS7XX6c.html" height="800" width="1200" title="XvS7XX6c"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XvS7XX6c" height="800" width="1200" title="XvS7XX6c"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Gustav Holst](./KpakAMdR.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/01/Gustav_Holst.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Holst.jpg){align=left width="150" height="150"} 
 
 	British composer
 

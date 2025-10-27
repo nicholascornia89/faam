@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Tn4rA5LC a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:R9hADWGS ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "time unit in rhythmic musical notation"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3240892>,
+        "15992122"^^xsd:string,
+        "Tn4rA5LC"^^xsd:string ;
+    skos:altLabel "bar"^^xsd:string,
+        "bar line"^^xsd:string,
+        "double bar"^^xsd:string,
+        "measure"^^xsd:string ;
+    skos:prefLabel "bar"^^xsd:string ;
+    wd:P1535 faamentity:6UPEJgTQ ;
+    wd:P279 faamentity:M2g4cXkE ;
+    wd:P31 faamentity:XQ7Dcasr,
+        faamentity:fxtj72S3 .
+

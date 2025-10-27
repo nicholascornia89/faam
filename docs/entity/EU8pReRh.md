@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EU8pReRh
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                                     | aliases           | Wikidata QID                                         |
-    | :-------: | :--------: | :---------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------: |
-    | EU8pReRh  | naturalist | person who studies and knows a lot about plants, animals and natural history (esp in the field) | natural historian | [naturalist](http://wwww.wikidata.org/entity/Q18805) |
+    | FAAM UUID | label      | description                                                                                     | aliases           | Wikidata QID                                    |
+    | :-------: | :--------: | :---------------------------------------------------------------------------------------------: | :---------------: | :---------------------------------------------: |
+    | EU8pReRh  | naturalist | person who studies and knows a lot about plants, animals and natural history (esp in the field) | natural historian | [naturalist](http://wikidata.org/entity/Q18805) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/EU8pReRh.html" height="800" width="1200" title="EU8pReRh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EU8pReRh" height="800" width="1200" title="EU8pReRh"></iframe>
 
 ## Cross-references
 

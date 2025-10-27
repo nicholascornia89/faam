@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: m8HbBvBb
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                        | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | m8HbBvBb  | Nantes | city in Loire-Atlantique, Pays de la Loire, France | Naoned  | [Nantes](http://wwww.wikidata.org/entity/Q12191) |
+    | FAAM UUID | label  | description                                        | aliases | Wikidata QID                                |
+    | :-------: | :----: | :------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | m8HbBvBb  | Nantes | city in Loire-Atlantique, Pays de la Loire, France | Naoned  | [Nantes](http://wikidata.org/entity/Q12191) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/m8HbBvBb.html" height="800" width="1200" title="m8HbBvBb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/m8HbBvBb" height="800" width="1200" title="m8HbBvBb"></iframe>
 
 ## Identifiers
 
@@ -91,7 +95,7 @@ tags: city
 
 -	__[Georges Scheyermann](./NAViPikx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

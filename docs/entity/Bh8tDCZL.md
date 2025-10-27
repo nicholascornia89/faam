@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Bh8tDCZL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Bh8tDCZL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Bh8tDCZL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Bh8tDCZL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Bh8tDCZL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Bh8tDCZL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Bh8tDCZL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description                                                   | Wikidata QID                                            |
-    | :-------: | :----------: | :-----: | :-----------------------------------------------------------: | :-----------------------------------------------------: |
-    | Bh8tDCZL  | Eduard Grell |         | German composer, conductor, choir director and music educator | [Eduard Grell](http://wwww.wikidata.org/entity/Q216224) |
+    | FAAM UUID | label        | aliases | description                                                   | Wikidata QID                                       |
+    | :-------: | :----------: | :-----: | :-----------------------------------------------------------: | :------------------------------------------------: |
+    | Bh8tDCZL  | Eduard Grell |         | German composer, conductor, choir director and music educator | [Eduard Grell](http://wikidata.org/entity/Q216224) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Bh8tDCZL.html" height="800" width="1200" title="Bh8tDCZL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Bh8tDCZL" height="800" width="1200" title="Bh8tDCZL"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Arnold Mendelssohn](./WqiSzZBk.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold.Mendelssohn.Dauerausstellung.Dreifaltigkeitskirchhof.jpg){align=left width="150" height="150"} 
+
+	German composer and music teacher (1855-1933)
+
+</div>

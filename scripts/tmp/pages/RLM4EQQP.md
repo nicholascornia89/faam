@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RLM4EQQP
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                             | aliases               | Wikidata QID                                            |
-    | :-------: | :-----------: | :-----------------------------------------------------: | :-------------------: | :-----------------------------------------------------: |
-    | RLM4EQQP  | German Empire | German nation-state in Central Europe from 1871 to 1918 | Deutsches Kaiserreich | [German Empire](http://wwww.wikidata.org/entity/Q43287) |
+    | FAAM UUID | label         | description                                             | aliases               | Wikidata QID                                       |
+    | :-------: | :-----------: | :-----------------------------------------------------: | :-------------------: | :------------------------------------------------: |
+    | RLM4EQQP  | German Empire | German nation-state in Central Europe from 1871 to 1918 | Deutsches Kaiserreich | [German Empire](http://wikidata.org/entity/Q43287) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/RLM4EQQP.html" height="800" width="1200" title="RLM4EQQP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RLM4EQQP" height="800" width="1200" title="RLM4EQQP"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: country
 
 -	__[Gustav Jensen](./FjJkCWj5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer, violinist and music pedagogue (1843-1895)
 

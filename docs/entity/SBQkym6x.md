@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SBQkym6x
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | aliases            | description                | Wikidata QID                                                                  |
-    | :-------: | :--------------------------------: | :----------------: | :------------------------: | :---------------------------------------------------------------------------: |
-    | SBQkym6x  | Wie schön leuchtet der Morgenstern | Spiritual Marriage | chorale by Philipp Nicolai | [Wie schön leuchtet der Morgenstern](http://wwww.wikidata.org/entity/Q287208) |
+    | FAAM UUID | label                              | aliases            | description                | Wikidata QID                                                             |
+    | :-------: | :--------------------------------: | :----------------: | :------------------------: | :----------------------------------------------------------------------: |
+    | SBQkym6x  | Wie schön leuchtet der Morgenstern | Spiritual Marriage | chorale by Philipp Nicolai | [Wie schön leuchtet der Morgenstern](http://wikidata.org/entity/Q287208) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/SBQkym6x.html" height="800" width="1200" title="SBQkym6x"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SBQkym6x" height="800" width="1200" title="SBQkym6x"></iframe>
 
 ## Identifiers
 

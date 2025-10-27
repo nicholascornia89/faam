@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LLig8HvV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                              | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :--------------------------------------: | :-----: | :------------------------------------------------: |
-    | LLig8HvV  | Dilbeek | municipality in Flemish Brabant, Belgium |         | [Dilbeek](http://wwww.wikidata.org/entity/Q641134) |
+    | FAAM UUID | label   | description                              | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :--------------------------------------: | :-----: | :-------------------------------------------: |
+    | LLig8HvV  | Dilbeek | municipality in Flemish Brabant, Belgium |         | [Dilbeek](http://wikidata.org/entity/Q641134) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LLig8HvV.html" height="800" width="1200" title="LLig8HvV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LLig8HvV" height="800" width="1200" title="LLig8HvV"></iframe>
 
 ## Identifiers
 

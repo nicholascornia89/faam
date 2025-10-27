@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LKW4UtTu
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-12107/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LKW4UtTu.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LKW4UtTu.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LKW4UtTu.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-12107/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LKW4UtTu.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LKW4UtTu.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LKW4UtTu.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-12107.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-12107.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                             | permalink                | provenance                            |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | LKW4UtTu  | SML-12107             | Musica antica italiana; sei celebri pezzi per cembalo, trascritti per pianoforte. | [external URL](2mb4qe86) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                             | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | LKW4UtTu  | SML-12107             | Musica antica italiana; sei celebri pezzi per cembalo, trascritti per pianoforte. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910649983405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -61,10 +65,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/LKW4UtTu.html" height="800" width="1200" title="LKW4UtTu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LKW4UtTu" height="800" width="1200" title="LKW4UtTu"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/LKW4UtTu.html" height="800" width="1200" title="LKW4UtTu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/LKW4UtTu" height="800" width="1200" title="LKW4UtTu"></iframe>

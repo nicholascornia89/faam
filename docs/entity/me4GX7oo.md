@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: me4GX7oo
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                | aliases             | Wikidata QID                                          |
-    | :-------: | :-------: | :--------------------------------------------------------: | :-----------------: | :---------------------------------------------------: |
-    | me4GX7oo  | publisher | person heading a publishing company or who publishes media | publishing director | [publisher](http://wwww.wikidata.org/entity/Q2516866) |
+    | FAAM UUID | label     | description                                                | aliases             | Wikidata QID                                     |
+    | :-------: | :-------: | :--------------------------------------------------------: | :-----------------: | :----------------------------------------------: |
+    | me4GX7oo  | publisher | person heading a publishing company or who publishes media | publishing director | [publisher](http://wikidata.org/entity/Q2516866) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/me4GX7oo.html" height="800" width="1200" title="me4GX7oo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/me4GX7oo" height="800" width="1200" title="me4GX7oo"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Romualdo Fantuzzi](./bJbJz9Uk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	publisher (1862-1939)
 
@@ -49,7 +53,7 @@ tags: occupation
 
 -	__[Ernst Wilhelm Fritsch](./UeTdWiXH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1840-1902)
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Antonin Aulagnier](./PtG6ZcsQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
@@ -79,7 +83,7 @@ tags: occupation
 
 -	__[Ferdinand-Fleurus Amyot](./5q9U4tL9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French publisher and bookseller (1818-1875)
 
@@ -91,37 +95,37 @@ tags: occupation
 
 -	__[Eugène Troupenas](./Qpi4vWw7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French mathematician and music publisher (1798-1850)
 
 -	__[Jacques Georges Cousineau](./86S8QHRK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French harpmaker
 
 -	__[Lodovico Grossi da Viadana](./6Gq2W4p4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, teacher and Franciscan friar
 
 -	__[Giuseppe Corsi](./42oEhvwr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and priest
 
 -	__[Robert Bremner](./ZQSVUDec.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British music publisher
 
 -	__[Georg Josef Manz](./cSSAWxvC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German publisher (1808–1894)
 
@@ -133,25 +137,25 @@ tags: occupation
 
 -	__[Éditions Choudens](./dPpjet3b.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French music publisher
 
 -	__[Musikverlag Wilhelm Zimmermann](./o5KLyHE3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Maison Brahy](./ngDuDyvn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian music publishing company
 
 -	__[Joseph Czerny](./fyTYpvN6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer (1785–1831)
 

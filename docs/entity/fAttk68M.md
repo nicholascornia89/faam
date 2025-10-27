@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fAttk68M
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000345408/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fAttk68M.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fAttk68M.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fAttk68M.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000345408/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fAttk68M.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fAttk68M.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fAttk68M.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000345408.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345408.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                 | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | fAttk68M  | KCG-000345408         | Air d'église : du célèbre chanteur Stradella : avec accompt. de piano | [external URL](D6RjeTWv) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                 | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | fAttk68M  | KCG-000345408         | Air d'église : du célèbre chanteur Stradella : avec accompt. de piano | [external URL](https://catalogus.hogent.be/catalog/hog01:000345408) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -105,10 +109,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/fAttk68M.html" height="800" width="1200" title="fAttk68M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fAttk68M" height="800" width="1200" title="fAttk68M"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/fAttk68M.html" height="800" width="1200" title="fAttk68M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/fAttk68M" height="800" width="1200" title="fAttk68M"></iframe>

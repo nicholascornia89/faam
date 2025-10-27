@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bzejmdkK
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                   | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :---------------------------: | :-----: | :------------------------------------------------: |
-    | bzejmdkK  | Vespers | sunset evening prayer service | Vespers | [Vespers](http://wwww.wikidata.org/entity/Q827135) |
+    | FAAM UUID | label   | description                   | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :---------------------------: | :-----: | :-------------------------------------------: |
+    | bzejmdkK  | Vespers | sunset evening prayer service | Vespers | [Vespers](http://wikidata.org/entity/Q827135) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/bzejmdkK.html" height="800" width="1200" title="bzejmdkK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bzejmdkK" height="800" width="1200" title="bzejmdkK"></iframe>
 
 ## Cross-references
 

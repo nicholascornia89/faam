@@ -111,3 +111,37 @@ def annotations_statistics(faam_kb):
     print(f"Number of handwritten annotations: {number_of_handwritten_annotations}")
 
     print(f"Number of editorial annotations: {number_of_editorial_annotations}")
+
+
+def cross_references_statistics(faam_kb):
+    cross_references_statistics = []
+
+    for item in faam_kb["items"]:
+        # print(f"Current item: {item["id"]}")
+        cross_references_statistics.append(
+            {
+                "id": item["id"],
+                "label": item["metadata"]["label"][0]["value"],
+                "object_type": item["metadata"]["object_type"][0]["value"],
+                "number_cross_references": 0,
+            }
+        )
+        for data_type in item["cross-references"]:
+            # print(data_type)
+            # print(len(item["cross-references"][data_type]))
+            cross_references_statistics[-1]["number_cross_references"] += len(
+                item["cross-references"][data_type]
+            )
+            # input()
+
+        # print(cross_references_statistics[-1])
+
+    cross_references_statistics = sorted(
+        cross_references_statistics, key=lambda x: x["number_cross_references"]
+    )
+
+    print("Exporting cross-references statistics to JSON...")
+    dict2json(
+        cross_references_statistics,
+        os.path.join("tmp", "cross_references_statistics.json"),
+    )

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 78QPURGS
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                              | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :--------------------------------------: | :-----: | :----------------------------------------------: |
-    | 78QPURGS  | Zemst | municipality in Flemish Brabant, Belgium |         | [Zemst](http://wwww.wikidata.org/entity/Q179249) |
+    | FAAM UUID | label | description                              | aliases | Wikidata QID                                |
+    | :-------: | :---: | :--------------------------------------: | :-----: | :-----------------------------------------: |
+    | 78QPURGS  | Zemst | municipality in Flemish Brabant, Belgium |         | [Zemst](http://wikidata.org/entity/Q179249) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/78QPURGS.html" height="800" width="1200" title="78QPURGS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/78QPURGS" height="800" width="1200" title="78QPURGS"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Jacques-Nicolas Lemmens](./6gSjvNTk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1823–1881)
 

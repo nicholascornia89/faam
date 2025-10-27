@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mPRFJRqS
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mPRFJRqS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mPRFJRqS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mPRFJRqS.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mPRFJRqS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mPRFJRqS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mPRFJRqS.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description                              | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----: | :--------------------------------------: | :----------------------------------------------------------: |
-    | mPRFJRqS  | François Roberday |         | French organist and composer (1624-1680) | [François Roberday](http://wwww.wikidata.org/entity/Q176390) |
+    | FAAM UUID | label             | aliases | description                              | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----: | :--------------------------------------: | :-----------------------------------------------------: |
+    | mPRFJRqS  | François Roberday |         | French organist and composer (1624-1680) | [François Roberday](http://wikidata.org/entity/Q176390) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/mPRFJRqS.html" height="800" width="1200" title="mPRFJRqS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mPRFJRqS" height="800" width="1200" title="mPRFJRqS"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Jean-Baptiste Lully](./GQdzFiB9.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Baptiste_Lully.jpeg){align=left width="150" height="150"} 
+
+	Italian-born French composer (1632–1687)
+
+</div>

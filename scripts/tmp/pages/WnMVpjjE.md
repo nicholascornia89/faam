@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WnMVpjjE
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/UTL-31761111345377/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WnMVpjjE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WnMVpjjE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WnMVpjjE.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/UTL-31761111345377/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WnMVpjjE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WnMVpjjE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WnMVpjjE.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/UTL-31761111345377.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/UTL-31761111345377.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                  | permalink                | provenance                                       |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------------: | :----------------------: | :----------------------------------------------: |
-    | WnMVpjjE  | UTL-31761111345377    | Weihnachts-Kantate, für Sopran- und Alt-Solo, weiblichen Chor und Pianoforte. Op. 170 | [external URL](6fQyHcwz) | [University of Toronto Libraries](./DwfPL64F.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                  | permalink                                                                                                          | provenance                                       |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------------: |
+    | WnMVpjjE  | UTL-31761111345377    | Weihnachts-Kantate, für Sopran- und Alt-Solo, weiblichen Chor und Pianoforte. Op. 170 | [external URL](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991107227217206196) | [University of Toronto Libraries](./DwfPL64F.md) |
 
 ## Statements
 
@@ -91,10 +95,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/WnMVpjjE.html" height="800" width="1200" title="WnMVpjjE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WnMVpjjE" height="800" width="1200" title="WnMVpjjE"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/WnMVpjjE.html" height="800" width="1200" title="WnMVpjjE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/WnMVpjjE" height="800" width="1200" title="WnMVpjjE"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 95zzQnr6
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                  | aliases                     | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :--------------------------: | :-------------------------: | :---------------------------------------------------------------: |
-    | 95zzQnr6  | single-reed instrument | class of musical instruments | reedpipes with single reeds | [single-reed instrument](http://wwww.wikidata.org/entity/Q185626) |
+    | FAAM UUID | label                  | description                  | aliases                     | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :--------------------------: | :-------------------------: | :----------------------------------------------------------: |
+    | 95zzQnr6  | single-reed instrument | class of musical instruments | reedpipes with single reeds | [single-reed instrument](http://wikidata.org/entity/Q185626) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/95zzQnr6.html" height="800" width="1200" title="95zzQnr6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/95zzQnr6" height="800" width="1200" title="95zzQnr6"></iframe>
 
 ## Cross-references
 

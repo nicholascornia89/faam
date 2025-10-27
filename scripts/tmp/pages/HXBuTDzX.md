@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HXBuTDzX
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                      | aliases     | Wikidata QID                                    |
-    | :-------: | :---: | :------------------------------: | :---------: | :---------------------------------------------: |
-    | HXBuTDzX  | Rain  | municipality in Bavaria, Germany | Rain (Lech) | [Rain](http://wwww.wikidata.org/entity/Q503737) |
+    | FAAM UUID | label | description                      | aliases     | Wikidata QID                               |
+    | :-------: | :---: | :------------------------------: | :---------: | :----------------------------------------: |
+    | HXBuTDzX  | Rain  | municipality in Bavaria, Germany | Rain (Lech) | [Rain](http://wikidata.org/entity/Q503737) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HXBuTDzX.html" height="800" width="1200" title="HXBuTDzX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HXBuTDzX" height="800" width="1200" title="HXBuTDzX"></iframe>
 
 ## Identifiers
 

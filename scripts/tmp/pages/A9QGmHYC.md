@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: A9QGmHYC
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | aliases | description                                  | Wikidata QID                                        |
-    | :-------: | :-----: | :-----: | :------------------------------------------: | :-------------------------------------------------: |
-    | A9QGmHYC  | Alceste | Alceste | opera by Christoph Willibald Gluck from 1767 | [Alceste](http://wwww.wikidata.org/entity/Q1046495) |
+    | FAAM UUID | label   | aliases | description                                  | Wikidata QID                                   |
+    | :-------: | :-----: | :-----: | :------------------------------------------: | :--------------------------------------------: |
+    | A9QGmHYC  | Alceste | Alceste | opera by Christoph Willibald Gluck from 1767 | [Alceste](http://wikidata.org/entity/Q1046495) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./dMjCmjHJ.md)
+	- [Alcestis](./dMjCmjHJ.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/A9QGmHYC.html" height="800" width="1200" title="A9QGmHYC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/A9QGmHYC" height="800" width="1200" title="A9QGmHYC"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[ALCESTE /opera in 5 bedrijven op tekst-van, Calzabigi alleen Ie bedri.lf Air Divinités du Styx parti.i en 2.2.1.5.0./ô2.2.2./2.0.5./0. handschrift (kopie)](./XUEtAHJM.md)__
 
-	![Image](../assets/images/thumbs/KCG-000346605.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000346605.gif){align=left width="150" height="150"} 
 
 	
 

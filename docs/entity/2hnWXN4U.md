@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2hnWXN4U
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description | aliases | Wikidata QID                                                          |
-    | :-------: | :-----------------------: | :---------: | :-----: | :-------------------------------------------------------------------: |
-    | 2hnWXN4U  | Imperial Alexander Lyceum |             |         | [Imperial Alexander Lyceum](http://wwww.wikidata.org/entity/Q4061451) |
+    | FAAM UUID | label                     | description | aliases | Wikidata QID                                                     |
+    | :-------: | :-----------------------: | :---------: | :-----: | :--------------------------------------------------------------: |
+    | 2hnWXN4U  | Imperial Alexander Lyceum |             |         | [Imperial Alexander Lyceum](http://wikidata.org/entity/Q4061451) |
 
 <br><br><br>
 
@@ -39,7 +43,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/2hnWXN4U.html" height="800" width="1200" title="2hnWXN4U"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2hnWXN4U" height="800" width="1200" title="2hnWXN4U"></iframe>
 
 ## Cross-references
 

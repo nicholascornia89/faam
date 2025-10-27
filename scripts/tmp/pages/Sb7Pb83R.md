@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Sb7Pb83R
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143700p32/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Sb7Pb83R.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Sb7Pb83R.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Sb7Pb83R.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143700p32/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Sb7Pb83R.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Sb7Pb83R.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Sb7Pb83R.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143700p32.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p32.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title      | permalink                | provenance                         |
-    | :-------: | :-------------------: | :--------: | :----------------------: | :--------------------------------: |
-    | Sb7Pb83R  | ORP-20143700p32       | Les Nuages | [external URL](9JZUardt) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title      | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :--------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | Sb7Pb83R  | ORP-20143700p32       | Les Nuages | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22188) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "note" 
 
@@ -63,10 +67,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Sb7Pb83R.html" height="800" width="1200" title="Sb7Pb83R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Sb7Pb83R" height="800" width="1200" title="Sb7Pb83R"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Sb7Pb83R.html" height="800" width="1200" title="Sb7Pb83R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Sb7Pb83R" height="800" width="1200" title="Sb7Pb83R"></iframe>

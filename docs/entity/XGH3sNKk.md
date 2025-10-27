@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XGH3sNKk
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                                   | aliases                    | Wikidata QID                                               |
-    | :-------: | :-------------: | :-----------------------------------------------------------: | :------------------------: | :--------------------------------------------------------: |
-    | XGH3sNKk  | Trinity College | constituent college of the University of Cambridge in England | Trinity College, Cambridge | [Trinity College](http://wwww.wikidata.org/entity/Q332342) |
+    | FAAM UUID | label           | description                                                   | aliases                    | Wikidata QID                                          |
+    | :-------: | :-------------: | :-----------------------------------------------------------: | :------------------------: | :---------------------------------------------------: |
+    | XGH3sNKk  | Trinity College | constituent college of the University of Cambridge in England | Trinity College, Cambridge | [Trinity College](http://wikidata.org/entity/Q332342) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./oR6bNy22.md)
+	[Cambridge](./oR6bNy22.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/XGH3sNKk.html" height="800" width="1200" title="XGH3sNKk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XGH3sNKk" height="800" width="1200" title="XGH3sNKk"></iframe>
 
 ## Cross-references
 

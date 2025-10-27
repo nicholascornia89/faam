@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gJXhyA3T
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902713814/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/gJXhyA3T.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/gJXhyA3T.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/gJXhyA3T.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902713814/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/gJXhyA3T.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/gJXhyA3T.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/gJXhyA3T.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902713814.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902713814.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                           | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | gJXhyA3T  | KCA-030902713814      | Sonatinen : für Pianoforte Solo | [external URL](iZiYk6VC) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                           | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | gJXhyA3T  | KCA-030902713814      | Sonatinen : für Pianoforte Solo | [external URL](https://anet.be/record/opacdkvc/c:lvd:6709707/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "note" 
 
@@ -120,10 +124,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/gJXhyA3T.html" height="800" width="1200" title="gJXhyA3T"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gJXhyA3T" height="800" width="1200" title="gJXhyA3T"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/gJXhyA3T.html" height="800" width="1200" title="gJXhyA3T"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/gJXhyA3T" height="800" width="1200" title="gJXhyA3T"></iframe>

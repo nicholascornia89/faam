@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UxbzQS7F
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description     | aliases      | Wikidata QID                                             |
-    | :-------: | :----------: | :-------------: | :----------: | :------------------------------------------------------: |
-    | UxbzQS7F  | Lycée Carnot | school in Paris | Lycee Carnot | [Lycée Carnot](http://wwww.wikidata.org/entity/Q3268614) |
+    | FAAM UUID | label        | description     | aliases      | Wikidata QID                                        |
+    | :-------: | :----------: | :-------------: | :----------: | :-------------------------------------------------: |
+    | UxbzQS7F  | Lycée Carnot | school in Paris | Lycee Carnot | [Lycée Carnot](http://wikidata.org/entity/Q3268614) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/UxbzQS7F.html" height="800" width="1200" title="UxbzQS7F"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UxbzQS7F" height="800" width="1200" title="UxbzQS7F"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Henri Quittard](./PguNCpQU.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, musicologist and music critic
 

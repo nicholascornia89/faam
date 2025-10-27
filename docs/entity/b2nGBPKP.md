@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: b2nGBPKP
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/b2nGBPKP.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/b2nGBPKP.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/b2nGBPKP.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/b2nGBPKP.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/b2nGBPKP.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/b2nGBPKP.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/00/Violet_Gordon_Woodhouse_circa_1900.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Violet_Gordon_Woodhouse_circa_1900.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases                 | description                                          | Wikidata QID                                                        |
-    | :-------: | :---------------------: | :---------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------: |
-    | b2nGBPKP  | Violet Gordon-Woodhouse | Violet Gordon Woodhouse | British harpsichordist and clavichordist (1872–1948) | [Violet Gordon-Woodhouse](http://wwww.wikidata.org/entity/Q3560424) |
+    | FAAM UUID | label                   | aliases                 | description                                          | Wikidata QID                                                   |
+    | :-------: | :---------------------: | :---------------------: | :--------------------------------------------------: | :------------------------------------------------------------: |
+    | b2nGBPKP  | Violet Gordon-Woodhouse | Violet Gordon Woodhouse | British harpsichordist and clavichordist (1872–1948) | [Violet Gordon-Woodhouse](http://wikidata.org/entity/Q3560424) |
 
 <br><br><br>
 
@@ -51,13 +55,13 @@ tags: agent
 
 	- [harpsichordist](./hMYL5Z9b.md)
 
-	- [](./bPTKRkdm.md)
+	- [clavichordist](./bPTKRkdm.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/b2nGBPKP.html" height="800" width="1200" title="b2nGBPKP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/b2nGBPKP" height="800" width="1200" title="b2nGBPKP"></iframe>
 
 ## Identifiers
 

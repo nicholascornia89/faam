@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DE4nnG5T", "label": "Fran\u00e7ois Adrien Boieldieu", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DE4nnG5T.md\u0027\u003eFran\u00e7ois Adrien Boieldieu\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/L\u00e9on_Riesener_-_Portrait_de_Fran\u00e7ois-Adrien_Boieldieu.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BJqUa5Kf.md\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "AEoz6eRL", "label": "Rue aux Ours, Rouen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AEoz6eRL.md\u0027\u003eRue aux Ours, Rouen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estreet in Rouen, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "DE4nnG5T", "to": "BJqUa5Kf", "width": 1}, {"from": "DE4nnG5T", "to": "AEoz6eRL", "width": 10}, {"from": "BJqUa5Kf", "to": "AEoz6eRL", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "AEoz6eRL", "label": "Rue aux Ours, Rouen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AEoz6eRL\u0027\u003eRue aux Ours, Rouen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estreet in Rouen, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BJqUa5Kf\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DE4nnG5T", "label": "Fran\u00e7ois Adrien Boieldieu", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DE4nnG5T\u0027\u003eFran\u00e7ois Adrien Boieldieu\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/L\u00e9on_Riesener_-_Portrait_de_Fran\u00e7ois-Adrien_Boieldieu.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "AEoz6eRL", "to": "BJqUa5Kf", "width": 10}, {"from": "AEoz6eRL", "to": "DE4nnG5T", "width": 10}, {"from": "BJqUa5Kf", "to": "DE4nnG5T", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

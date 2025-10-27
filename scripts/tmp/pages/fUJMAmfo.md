@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fUJMAmfo
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fUJMAmfo.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fUJMAmfo.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fUJMAmfo.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fUJMAmfo.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fUJMAmfo.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fUJMAmfo.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Prudent_by_Tournachon_Gaspard_Felix.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description          | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :------------------: | :------------------------------------------------------: |
-    | fUJMAmfo  | Émile Prudent | Emile Prudent | Pianist and composer | [Émile Prudent](http://wwww.wikidata.org/entity/Q286377) |
+    | FAAM UUID | label         | aliases       | description          | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :------------------: | :-------------------------------------------------: |
+    | fUJMAmfo  | Émile Prudent | Emile Prudent | Pianist and composer | [Émile Prudent](http://wikidata.org/entity/Q286377) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/fUJMAmfo.html" height="800" width="1200" title="fUJMAmfo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fUJMAmfo" height="800" width="1200" title="fUJMAmfo"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cSSAWxvC
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/cSSAWxvC.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/cSSAWxvC.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/cSSAWxvC.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/cSSAWxvC.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/cSSAWxvC.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/cSSAWxvC.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                  | Wikidata QID                                                 |
-    | :-------: | :--------------: | :--------------: | :--------------------------: | :----------------------------------------------------------: |
-    | cSSAWxvC  | Georg Josef Manz | Georg Josef Manz | German publisher (1808–1894) | [Georg Josef Manz](http://wwww.wikidata.org/entity/Q1336854) |
+    | FAAM UUID | label            | aliases          | description                  | Wikidata QID                                            |
+    | :-------: | :--------------: | :--------------: | :--------------------------: | :-----------------------------------------------------: |
+    | cSSAWxvC  | Georg Josef Manz | Georg Josef Manz | German publisher (1808–1894) | [Georg Josef Manz](http://wikidata.org/entity/Q1336854) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/cSSAWxvC.html" height="800" width="1200" title="cSSAWxvC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cSSAWxvC" height="800" width="1200" title="cSSAWxvC"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: agent
 
 -	__[3 missae et quatuordecim motetta : ad 4, 5 et 8 voces composita ; op. 1-4. [2]. Missa Non est inventus : 4 v. ; mit Responsorium Ecce sacerdos magnus ; 4 v. ; op. 2. - 32 S.](./joN6ABQg.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078961849707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078961849707356.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7StSgcq9
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991143788186707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7StSgcq9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7StSgcq9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7StSgcq9.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991143788186707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7StSgcq9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7StSgcq9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7StSgcq9.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991143788186707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991143788186707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                                   | permalink                | provenance                              |
-    | :-------: | :--------------------: | :-----------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | 7StSgcq9  | BSB-991143788186707356 | Bergamasca: per violoncello con accomp.to di pianoforte | [external URL](eNyFmkHC) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                                   | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :-----------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | 7StSgcq9  | BSB-991143788186707356 | Bergamasca: per violoncello con accomp.to di pianoforte | [external URL](https://mdz-nbn-resolving.de/details:bsb00149516) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -77,10 +81,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/7StSgcq9.html" height="800" width="1200" title="7StSgcq9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7StSgcq9" height="800" width="1200" title="7StSgcq9"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/7StSgcq9.html" height="800" width="1200" title="7StSgcq9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/7StSgcq9" height="800" width="1200" title="7StSgcq9"></iframe>

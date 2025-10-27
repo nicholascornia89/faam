@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2ERDU4FM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2ERDU4FM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2ERDU4FM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2ERDU4FM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2ERDU4FM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2ERDU4FM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2ERDU4FM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bartolomeo_Nazari_-_Portrait_of_Farinelli_1734_-_Royal_College_of_Music_London.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases                 | description                | Wikidata QID                                         |
-    | :-------: | :-------: | :---------------------: | :------------------------: | :--------------------------------------------------: |
-    | 2ERDU4FM  | Farinelli | Carlo Broschi Farinelli | Italian singer (1705-1782) | [Farinelli](http://wwww.wikidata.org/entity/Q223744) |
+    | FAAM UUID | label     | aliases                 | description                | Wikidata QID                                    |
+    | :-------: | :-------: | :---------------------: | :------------------------: | :---------------------------------------------: |
+    | 2ERDU4FM  | Farinelli | Carlo Broschi Farinelli | Italian singer (1705-1782) | [Farinelli](http://wikidata.org/entity/Q223744) |
 
 <br><br><br>
 
@@ -51,11 +55,11 @@ tags: agent
 
 	- [opera singer](./9giCtFiy.md)
 
-	- [](./Z3zCJvmg.md)
+	- [viola d'amore player](./Z3zCJvmg.md)
 
-	- [](./F6jyWvcL.md)
+	- [actor](./F6jyWvcL.md)
 
-	- [](./E57MkHSb.md)
+	- [stage actor](./E57MkHSb.md)
 
 	- [theatrical director](./fJEZmAGU.md)
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/2ERDU4FM.html" height="800" width="1200" title="2ERDU4FM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2ERDU4FM" height="800" width="1200" title="2ERDU4FM"></iframe>
 
 ## Identifiers
 

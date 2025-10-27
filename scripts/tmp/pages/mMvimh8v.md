@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mMvimh8v
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                               | aliases     | Wikidata QID                                       |
-    | :-------: | :---------: | :---------------------------------------: | :---------: | :------------------------------------------------: |
-    | mMvimh8v  | Los Angeles | largest city in California, United States | Los Angeles | [Los Angeles](http://wwww.wikidata.org/entity/Q65) |
+    | FAAM UUID | label       | description                               | aliases     | Wikidata QID                                  |
+    | :-------: | :---------: | :---------------------------------------: | :---------: | :-------------------------------------------: |
+    | mMvimh8v  | Los Angeles | largest city in California, United States | Los Angeles | [Los Angeles](http://wikidata.org/entity/Q65) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/mMvimh8v.html" height="800" width="1200" title="mMvimh8v"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mMvimh8v" height="800" width="1200" title="mMvimh8v"></iframe>
 
 ## Identifiers
 

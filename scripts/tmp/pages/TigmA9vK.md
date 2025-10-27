@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TigmA9vK
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                                        | aliases      | Wikidata QID                                             |
-    | :-------: | :---------------------: | :------------------------------------------------: | :----------: | :------------------------------------------------------: |
-    | TigmA9vK  | Divi Blasii, Mühlhausen | church building in Muehlhausen, Thuringia, Germany | Saint Blaise | [Saint Blaise](http://wwww.wikidata.org/entity/Q1230608) |
+    | FAAM UUID | label                   | description                                        | aliases      | Wikidata QID                                        |
+    | :-------: | :---------------------: | :------------------------------------------------: | :----------: | :-------------------------------------------------: |
+    | TigmA9vK  | Divi Blasii, Mühlhausen | church building in Muehlhausen, Thuringia, Germany | Saint Blaise | [Saint Blaise](http://wikidata.org/entity/Q1230608) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./h6XMiTJr.md)
+	[Mühlhausen/Thuringia](./h6XMiTJr.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/TigmA9vK.html" height="800" width="1200" title="TigmA9vK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TigmA9vK" height="800" width="1200" title="TigmA9vK"></iframe>
 
 ## Cross-references
 

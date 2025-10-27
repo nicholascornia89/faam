@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dF66dPL3
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                   | aliases           | Wikidata QID                                                  |
-    | :-------: | :---------------: | :---------------------------: | :---------------: | :-----------------------------------------------------------: |
-    | dF66dPL3  | Westonbirt School | school in Gloucestershire, UK | Westonbirt School | [Westonbirt School](http://wwww.wikidata.org/entity/Q7989500) |
+    | FAAM UUID | label             | description                   | aliases           | Wikidata QID                                             |
+    | :-------: | :---------------: | :---------------------------: | :---------------: | :------------------------------------------------------: |
+    | dF66dPL3  | Westonbirt School | school in Gloucestershire, UK | Westonbirt School | [Westonbirt School](http://wikidata.org/entity/Q7989500) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./MQDdAiDb.md)
+	[Tetbury](./MQDdAiDb.md)
 
-	[](./WJtgze3w.md)
+	[Gloucestershire](./WJtgze3w.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/dF66dPL3.html" height="800" width="1200" title="dF66dPL3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dF66dPL3" height="800" width="1200" title="dF66dPL3"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XC8Yynik
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XC8Yynik.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XC8Yynik.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XC8Yynik.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XC8Yynik.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XC8Yynik.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XC8Yynik.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edmond_Audran.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases               | description                 | Wikidata QID                                             |
-    | :-------: | :-----------: | :-------------------: | :-------------------------: | :------------------------------------------------------: |
-    | XC8Yynik  | Edmond Audran | Achille Edmond Audran | French composer (1840–1901) | [Edmond Audran](http://wwww.wikidata.org/entity/Q952983) |
+    | FAAM UUID | label         | aliases               | description                 | Wikidata QID                                        |
+    | :-------: | :-----------: | :-------------------: | :-------------------------: | :-------------------------------------------------: |
+    | XC8Yynik  | Edmond Audran | Achille Edmond Audran | French composer (1840–1901) | [Edmond Audran](http://wikidata.org/entity/Q952983) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/XC8Yynik.html" height="800" width="1200" title="XC8Yynik"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XC8Yynik" height="800" width="1200" title="XC8Yynik"></iframe>
 
 ## Identifiers
 
@@ -83,20 +87,28 @@ tags: agent
 
 -	__[La Mascotte : opéra-comique en 3 actes](./9TFwhCHq.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902614491.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902614491.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La Mascotte : opéra-comique en 3 actes](./743qkqfG.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901706736.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901706736.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La Mascotte : opéra-comique en 3 actes](./HoH6TbZs.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903711494.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903711494.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[La mascotte](./cvNtPTvq.md)__
+
+	three-act comic opera by Edmond Audran
 
 </div>

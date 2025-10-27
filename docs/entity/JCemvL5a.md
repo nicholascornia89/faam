@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JCemvL5a
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JCemvL5a.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JCemvL5a.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JCemvL5a.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JCemvL5a.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JCemvL5a.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JCemvL5a.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases | description            | Wikidata QID                                                          |
-    | :-------: | :-----------------------: | :-----: | :--------------------: | :-------------------------------------------------------------------: |
-    | JCemvL5a  | František Martin Pecháček |         | Violinist and Composer | [František Martin Pecháček](http://wwww.wikidata.org/entity/Q1445626) |
+    | FAAM UUID | label                     | aliases | description            | Wikidata QID                                                     |
+    | :-------: | :-----------------------: | :-----: | :--------------------: | :--------------------------------------------------------------: |
+    | JCemvL5a  | František Martin Pecháček |         | Violinist and Composer | [František Martin Pecháček](http://wikidata.org/entity/Q1445626) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/JCemvL5a.html" height="800" width="1200" title="JCemvL5a"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JCemvL5a" height="800" width="1200" title="JCemvL5a"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Michael Pamer](./hvVZbhaY.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Michael-pamer.jpg){align=left width="150" height="150"} 
+
+	Austrian composer and conductor (1782-1827)
+
+</div>

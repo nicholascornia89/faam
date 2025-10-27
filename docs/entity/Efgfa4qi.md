@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Efgfa4qi
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description | aliases | Wikidata QID                                                   |
-    | :-------: | :---------------: | :---------: | :-----: | :------------------------------------------------------------: |
-    | Efgfa4qi  | academic musician | profession  |         | [academic musician](http://wwww.wikidata.org/entity/Q19747285) |
+    | FAAM UUID | label             | description | aliases | Wikidata QID                                              |
+    | :-------: | :---------------: | :---------: | :-----: | :-------------------------------------------------------: |
+    | Efgfa4qi  | academic musician | profession  |         | [academic musician](http://wikidata.org/entity/Q19747285) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Efgfa4qi.html" height="800" width="1200" title="Efgfa4qi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Efgfa4qi" height="800" width="1200" title="Efgfa4qi"></iframe>
 
 ## Cross-references
 

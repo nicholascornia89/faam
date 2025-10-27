@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UBaeAoS6
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                                                                                                     | aliases                             | Wikidata QID                                                             |
-    | :-------: | :-------------------------: | :-------------------------------------------------------------------------------------------------------------: | :---------------------------------: | :----------------------------------------------------------------------: |
-    | UBaeAoS6  | continuous-pitch instrument | musical instrument capable of producing a continuum of pitches (as opposed to only discrete, pre-tuned pitches) | continuous-pitch musical instrument | [continuous-pitch instrument](http://wwww.wikidata.org/entity/Q98329515) |
+    | FAAM UUID | label                       | description                                                                                                     | aliases                             | Wikidata QID                                                        |
+    | :-------: | :-------------------------: | :-------------------------------------------------------------------------------------------------------------: | :---------------------------------: | :-----------------------------------------------------------------: |
+    | UBaeAoS6  | continuous-pitch instrument | musical instrument capable of producing a continuum of pitches (as opposed to only discrete, pre-tuned pitches) | continuous-pitch musical instrument | [continuous-pitch instrument](http://wikidata.org/entity/Q98329515) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/UBaeAoS6.html" height="800" width="1200" title="UBaeAoS6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UBaeAoS6" height="800" width="1200" title="UBaeAoS6"></iframe>
 
 ## Cross-references
 

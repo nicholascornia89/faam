@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8gSz5Fip
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902505335/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8gSz5Fip.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8gSz5Fip.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8gSz5Fip.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902505335/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8gSz5Fip.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8gSz5Fip.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8gSz5Fip.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902505335.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902505335.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :----------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 8gSz5Fip  | KCA-030902505335      | Gracioso: caprice de concert, op. 21 | [external URL](eNyFmkHC) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :----------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 8gSz5Fip  | KCA-030902505335      | Gracioso: caprice de concert, op. 21 | [external URL](https://anet.be/record/opacdkvc/c:lvd:12959368/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -79,10 +83,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/8gSz5Fip.html" height="800" width="1200" title="8gSz5Fip"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8gSz5Fip" height="800" width="1200" title="8gSz5Fip"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/8gSz5Fip.html" height="800" width="1200" title="8gSz5Fip"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/8gSz5Fip" height="800" width="1200" title="8gSz5Fip"></iframe>

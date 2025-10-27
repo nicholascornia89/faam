@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JAaw4r23
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JAaw4r23.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JAaw4r23.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JAaw4r23.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JAaw4r23.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JAaw4r23.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JAaw4r23.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francisco_tarrega_retrato.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                           | description                                          | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-------------------------------: | :--------------------------------------------------: | :----------------------------------------------------------: |
-    | JAaw4r23  | Francisco Tárrega | Francisco de Asís Tárrega y Eixea | Spanish composer and classical guitarist (1852-1909) | [Francisco Tárrega](http://wwww.wikidata.org/entity/Q313372) |
+    | FAAM UUID | label             | aliases                           | description                                          | Wikidata QID                                            |
+    | :-------: | :---------------: | :-------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------: |
+    | JAaw4r23  | Francisco Tárrega | Francisco de Asís Tárrega y Eixea | Spanish composer and classical guitarist (1852-1909) | [Francisco Tárrega](http://wikidata.org/entity/Q313372) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./LdnPvsKv.md)
+	- [guitarist](./LdnPvsKv.md)
 
 	- [composer](./5aTYuVxp.md)
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/JAaw4r23.html" height="800" width="1200" title="JAaw4r23"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JAaw4r23" height="800" width="1200" title="JAaw4r23"></iframe>
 
 ## Identifiers
 
@@ -86,3 +90,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Emilio Pujol](./eL6rC9yE.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emili_Pujol.jpg){align=left width="150" height="150"} 
+
+	Catalan classical guitarist
+
+</div>

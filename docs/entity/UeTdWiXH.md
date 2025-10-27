@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UeTdWiXH
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UeTdWiXH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UeTdWiXH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UeTdWiXH.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UeTdWiXH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UeTdWiXH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UeTdWiXH.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases       | description                 | Wikidata QID                                                       |
-    | :-------: | :-------------------: | :-----------: | :-------------------------: | :----------------------------------------------------------------: |
-    | UeTdWiXH  | Ernst Wilhelm Fritsch | E.W. Fritzsch | German musician (1840-1902) | [Ernst Wilhelm Fritsch](http://wwww.wikidata.org/entity/Q19999318) |
+    | FAAM UUID | label                 | aliases       | description                 | Wikidata QID                                                  |
+    | :-------: | :-------------------: | :-----------: | :-------------------------: | :-----------------------------------------------------------: |
+    | UeTdWiXH  | Ernst Wilhelm Fritsch | E.W. Fritzsch | German musician (1840-1902) | [Ernst Wilhelm Fritsch](http://wikidata.org/entity/Q19999318) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/UeTdWiXH.html" height="800" width="1200" title="UeTdWiXH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UeTdWiXH" height="800" width="1200" title="UeTdWiXH"></iframe>
 
 ## Identifiers
 
@@ -89,7 +93,7 @@ tags: agent
 
 -	__[Drei Psalmlieder: für gem. 4stg. Chor zu Tonstücken von Johann Sebastian Bach gedichtet u. d. Chorgesang dargeboten](./4uwwdzVR.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076922529707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076922529707356.gif){align=left width="150" height="150"} 
 
 	
 

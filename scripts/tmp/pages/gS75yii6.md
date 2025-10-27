@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gS75yii6
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | aliases  | description        | Wikidata QID                                         |
-    | :-------: | :------: | :------: | :----------------: | :--------------------------------------------------: |
-    | gS75yii6  | Parisina | Parisina | poem of Lord Byron | [Parisina](http://wwww.wikidata.org/entity/Q3365377) |
+    | FAAM UUID | label    | aliases  | description        | Wikidata QID                                    |
+    | :-------: | :------: | :------: | :----------------: | :---------------------------------------------: |
+    | gS75yii6  | Parisina | Parisina | poem of Lord Byron | [Parisina](http://wikidata.org/entity/Q3365377) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/gS75yii6.html" height="800" width="1200" title="gS75yii6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gS75yii6" height="800" width="1200" title="gS75yii6"></iframe>
 
 ## Identifiers
 

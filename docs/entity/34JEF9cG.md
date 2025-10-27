@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 34JEF9cG
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/34JEF9cG.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/34JEF9cG.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/34JEF9cG.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/34JEF9cG.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/34JEF9cG.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/34JEF9cG.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Constant_Pierre.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description         | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-------------: | :-----------------: | :----------------------------------------------------------: |
-    | 34JEF9cG  | Constant Pierre | Constant Pierre | French musicologist | [Constant Pierre](http://wwww.wikidata.org/entity/Q15429588) |
+    | FAAM UUID | label           | aliases         | description         | Wikidata QID                                            |
+    | :-------: | :-------------: | :-------------: | :-----------------: | :-----------------------------------------------------: |
+    | 34JEF9cG  | Constant Pierre | Constant Pierre | French musicologist | [Constant Pierre](http://wikidata.org/entity/Q15429588) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/34JEF9cG.html" height="800" width="1200" title="34JEF9cG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/34JEF9cG" height="800" width="1200" title="34JEF9cG"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Basses et chants donnés aux examens et concours des classes d'harmonie et d'accompagnement (années 1827-1900) / recueillis par Constant Pierre](./EXFpFukw.md)__
 
-	![Image](../assets/images/thumbs/BNF-43204301c.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43204301c.gif){align=left width="150" height="150"} 
 
 	
 

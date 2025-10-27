@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FtcQuVXN
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                | aliases                 | Wikidata QID                                   |
-    | :-------: | :---: | :--------------------------------------------------------: | :---------------------: | :--------------------------------------------: |
-    | FtcQuVXN  | viol  | one of a family of bowed, fretted and stringed instruments | gamba (family of viols) | [viol](http://wwww.wikidata.org/entity/Q40125) |
+    | FAAM UUID | label | description                                                | aliases                 | Wikidata QID                              |
+    | :-------: | :---: | :--------------------------------------------------------: | :---------------------: | :---------------------------------------: |
+    | FtcQuVXN  | viol  | one of a family of bowed, fretted and stringed instruments | gamba (family of viols) | [viol](http://wikidata.org/entity/Q40125) |
 
 <br><br><br>
 
@@ -31,13 +35,17 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./nY5G3yfD.md)
+	- [viol family](./nY5G3yfD.md)
+
+!!! quote "instance of" 
+
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FtcQuVXN.html" height="800" width="1200" title="FtcQuVXN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FtcQuVXN" height="800" width="1200" title="FtcQuVXN"></iframe>
 
 ## Cross-references
 
@@ -59,7 +67,7 @@ tags: musical_instrument
 
 -	__[Claudio Monteverdi](./J2JS4FwU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
 
 	Italian composer, string player, choirmaster, and priest (1567–1643)
 

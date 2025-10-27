@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XS6dXWU5
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XS6dXWU5.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XS6dXWU5.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XS6dXWU5.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XS6dXWU5.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XS6dXWU5.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XS6dXWU5.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Enraged_musician.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description      | Wikidata QID                                                |
-    | :-------: | :--------------: | :--------------: | :--------------: | :---------------------------------------------------------: |
-    | XS6dXWU5  | Pietro Castrucci | Pietro Castrucci | Italian musician | [Pietro Castrucci](http://wwww.wikidata.org/entity/Q323450) |
+    | FAAM UUID | label            | aliases          | description      | Wikidata QID                                           |
+    | :-------: | :--------------: | :--------------: | :--------------: | :----------------------------------------------------: |
+    | XS6dXWU5  | Pietro Castrucci | Pietro Castrucci | Italian musician | [Pietro Castrucci](http://wikidata.org/entity/Q323450) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/XS6dXWU5.html" height="800" width="1200" title="XS6dXWU5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XS6dXWU5" height="800" width="1200" title="XS6dXWU5"></iframe>
 
 ## Identifiers
 

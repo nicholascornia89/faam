@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VNe4Xzes
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/VNe4Xzes.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/VNe4Xzes.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/VNe4Xzes.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/VNe4Xzes.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/VNe4Xzes.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/VNe4Xzes.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases                         | description                  | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----------------------------: | :--------------------------: | :-----------------------------------------------------------: |
-    | VNe4Xzes  | Nikolai Tcherepnin | Nikolai Nikolayevich Tcherepnin | Russian composer (1873–1945) | [Nikolai Tcherepnin](http://wwww.wikidata.org/entity/Q918647) |
+    | FAAM UUID | label              | aliases                         | description                  | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----------------------------: | :--------------------------: | :------------------------------------------------------: |
+    | VNe4Xzes  | Nikolai Tcherepnin | Nikolai Nikolayevich Tcherepnin | Russian composer (1873–1945) | [Nikolai Tcherepnin](http://wikidata.org/entity/Q918647) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/VNe4Xzes.html" height="800" width="1200" title="VNe4Xzes"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VNe4Xzes" height="800" width="1200" title="VNe4Xzes"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Maria Yudina](./96zMohM3.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Maria_Yudina.jpg){align=left width="150" height="150"} 
+
+	Soviet pianist
+
+</div>

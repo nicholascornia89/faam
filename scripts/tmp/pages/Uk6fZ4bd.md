@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Uk6fZ4bd
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/WML-768272/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Uk6fZ4bd.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Uk6fZ4bd.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Uk6fZ4bd.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/WML-768272/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Uk6fZ4bd.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Uk6fZ4bd.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Uk6fZ4bd.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/WML-768272.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768272.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                      | permalink                | provenance                                           |
-    | :-------: | :-------------------: | :------------------------: | :----------------------: | :--------------------------------------------------: |
-    | Uk6fZ4bd  | WML-768272            | Symphony No. 2, Movement I | [external URL](2qoBxv5j) | [J. William Marriott Digital Library](./Wdj3hQU8.md) |
+    | FAAM UUID | FAAM manifestation ID | title                      | permalink                                                            | provenance                                           |
+    | :-------: | :-------------------: | :------------------------: | :------------------------------------------------------------------: | :--------------------------------------------------: |
+    | Uk6fZ4bd  | WML-768272            | Symphony No. 2, Movement I | [external URL](https://collections.lib.utah.edu/ark:/87278/s6xd3z4j) | [J. William Marriott Digital Library](./Wdj3hQU8.md) |
 
 ## Statements
 
@@ -85,10 +89,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Uk6fZ4bd.html" height="800" width="1200" title="Uk6fZ4bd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Uk6fZ4bd" height="800" width="1200" title="Uk6fZ4bd"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Uk6fZ4bd.html" height="800" width="1200" title="Uk6fZ4bd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Uk6fZ4bd" height="800" width="1200" title="Uk6fZ4bd"></iframe>

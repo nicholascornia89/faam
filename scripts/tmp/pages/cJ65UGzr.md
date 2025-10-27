@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cJ65UGzr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description     | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :-------------: | :-----: | :------------------------------------------------: |
-    | cJ65UGzr  | Skuteč | town in Czechia |         | [Skuteč](http://wwww.wikidata.org/entity/Q1332942) |
+    | FAAM UUID | label  | description     | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :-------------: | :-----: | :-------------------------------------------: |
+    | cJ65UGzr  | Skuteč | town in Czechia |         | [Skuteč](http://wikidata.org/entity/Q1332942) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cJ65UGzr.html" height="800" width="1200" title="cJ65UGzr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cJ65UGzr" height="800" width="1200" title="cJ65UGzr"></iframe>
 
 ## Identifiers
 

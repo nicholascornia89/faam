@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bCbsaKsW
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description           | Wikidata QID                                          |
-    | :-------: | :-------: | :-------: | :-------------------: | :---------------------------------------------------: |
-    | bCbsaKsW  | Le chalet | Le chalet | opera by Adolphe Adam | [Le chalet](http://wwww.wikidata.org/entity/Q2063125) |
+    | FAAM UUID | label     | aliases   | description           | Wikidata QID                                     |
+    | :-------: | :-------: | :-------: | :-------------------: | :----------------------------------------------: |
+    | bCbsaKsW  | Le chalet | Le chalet | opera by Adolphe Adam | [Le chalet](http://wikidata.org/entity/Q2063125) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/bCbsaKsW.html" height="800" width="1200" title="bCbsaKsW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bCbsaKsW" height="800" width="1200" title="bCbsaKsW"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Le châlet : opéra-comique en un acte](./7ScD2E2g.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901706033.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901706033.gif){align=left width="150" height="150"} 
 
 	
 

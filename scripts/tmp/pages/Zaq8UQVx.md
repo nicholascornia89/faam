@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Zaq8UQVx
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-03090507942/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Zaq8UQVx.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Zaq8UQVx.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Zaq8UQVx.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-03090507942/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Zaq8UQVx.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Zaq8UQVx.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Zaq8UQVx.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-03090507942.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090507942.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                               | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | Zaq8UQVx  | KCA-03090507942       | Le clavecin bien tempéré = Das wohltemperirte Clavier = The welltempered clavichord | [external URL](2qoBxv5j) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                               | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | Zaq8UQVx  | KCA-03090507942       | Le clavecin bien tempéré = Das wohltemperirte Clavier = The welltempered clavichord | [external URL](https://anet.be/record/opacdkvc/c:lvd:7084782/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "sections" 
 
@@ -99,10 +103,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Zaq8UQVx.html" height="800" width="1200" title="Zaq8UQVx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Zaq8UQVx" height="800" width="1200" title="Zaq8UQVx"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Zaq8UQVx.html" height="800" width="1200" title="Zaq8UQVx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Zaq8UQVx" height="800" width="1200" title="Zaq8UQVx"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LypeaBqE
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                                  | aliases                           | Wikidata QID                                                             |
-    | :-------: | :--------------------------: | :------------------------------------------: | :-------------------------------: | :----------------------------------------------------------------------: |
-    | LypeaBqE  | Catholic University of Paris | private Catholic university in Paris, France | Universitas catholica Parisiensis | [Catholic University of Paris](http://wwww.wikidata.org/entity/Q1470431) |
+    | FAAM UUID | label                        | description                                  | aliases                           | Wikidata QID                                                        |
+    | :-------: | :--------------------------: | :------------------------------------------: | :-------------------------------: | :-----------------------------------------------------------------: |
+    | LypeaBqE  | Catholic University of Paris | private Catholic university in Paris, France | Universitas catholica Parisiensis | [Catholic University of Paris](http://wikidata.org/entity/Q1470431) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/LypeaBqE.html" height="800" width="1200" title="LypeaBqE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LypeaBqE" height="800" width="1200" title="LypeaBqE"></iframe>
 
 ## Cross-references
 
@@ -47,7 +51,7 @@ tags: music_organization
 
 -	__[Amédée Gastoué](./5rZmZPuR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist (1873–1943)
 

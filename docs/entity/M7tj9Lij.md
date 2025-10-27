@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M7tj9Lij
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                 | aliases | Wikidata QID                                             |
-    | :-------: | :--------: | :-------------------------: | :-----: | :------------------------------------------------------: |
-    | M7tj9Lij  | harp maker | creator of harp instruments |         | [harp maker](http://wwww.wikidata.org/entity/Q104816670) |
+    | FAAM UUID | label      | description                 | aliases | Wikidata QID                                        |
+    | :-------: | :--------: | :-------------------------: | :-----: | :-------------------------------------------------: |
+    | M7tj9Lij  | harp maker | creator of harp instruments |         | [harp maker](http://wikidata.org/entity/Q104816670) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/M7tj9Lij.html" height="800" width="1200" title="M7tj9Lij"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M7tj9Lij" height="800" width="1200" title="M7tj9Lij"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Jacques Georges Cousineau](./86S8QHRK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French harpmaker
 

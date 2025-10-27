@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RVTQxuie
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                  | aliases      | Wikidata QID                                          |
-    | :-------: | :------: | :--------------------------: | :----------: | :---------------------------------------------------: |
-    | RVTQxuie  | flautist | musician who plays the flute | flute player | [flautist](http://wwww.wikidata.org/entity/Q12902372) |
+    | FAAM UUID | label    | description                  | aliases      | Wikidata QID                                     |
+    | :-------: | :------: | :--------------------------: | :----------: | :----------------------------------------------: |
+    | RVTQxuie  | flautist | musician who plays the flute | flute player | [flautist](http://wikidata.org/entity/Q12902372) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/RVTQxuie.html" height="800" width="1200" title="RVTQxuie"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RVTQxuie" height="800" width="1200" title="RVTQxuie"></iframe>
 
 ## Cross-references
 
@@ -61,19 +65,19 @@ tags: occupation
 
 -	__[Giulio Briccialdi](./KuMf3k3f.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
 
 	Italian musician (1818–1881)
 
 -	__[August Verbesselt](./7M5wmsyu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and flute player, 1919–2012
 
 -	__[Jean Rémusat](./fuX5W9ho.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French flautist, composer and conductor
 
@@ -91,19 +95,19 @@ tags: occupation
 
 -	__[Wilbert Hazelzet](./Y8sPETaX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician
 
 -	__[Paul Hippolyte Camus](./AhTw65oM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Pietro Grassi Florio](./HAZe8aaT.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Pietro Grassi Florio; b. before 1740; d. June 20, 1795 in London; Italian
 
@@ -121,7 +125,7 @@ tags: occupation
 
 -	__[Johann Georg Wunderlich](./idqENLhq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and musician
 

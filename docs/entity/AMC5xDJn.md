@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AMC5xDJn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description        | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :----------------: | :-----: | :--------------------------------------------------: |
-    | AMC5xDJn  | Reudnitz | quarter of Leipzig |         | [Reudnitz](http://wwww.wikidata.org/entity/Q2146570) |
+    | FAAM UUID | label    | description        | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :----------------: | :-----: | :---------------------------------------------: |
+    | AMC5xDJn  | Reudnitz | quarter of Leipzig |         | [Reudnitz](http://wikidata.org/entity/Q2146570) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/AMC5xDJn.html" height="800" width="1200" title="AMC5xDJn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AMC5xDJn" height="800" width="1200" title="AMC5xDJn"></iframe>
 
 ## Identifiers
 

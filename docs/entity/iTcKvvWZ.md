@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iTcKvvWZ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/iTcKvvWZ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/iTcKvvWZ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/iTcKvvWZ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/iTcKvvWZ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/iTcKvvWZ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/iTcKvvWZ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases   | description                 | Wikidata QID                                              |
-    | :-------: | :---------: | :-------: | :-------------------------: | :-------------------------------------------------------: |
-    | iTcKvvWZ  | Léon Husson | L. Husson | French composer (1851-1905) | [Léon Husson](http://wwww.wikidata.org/entity/Q135898943) |
+    | FAAM UUID | label       | aliases   | description                 | Wikidata QID                                         |
+    | :-------: | :---------: | :-------: | :-------------------------: | :--------------------------------------------------: |
+    | iTcKvvWZ  | Léon Husson | L. Husson | French composer (1851-1905) | [Léon Husson](http://wikidata.org/entity/Q135898943) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/iTcKvvWZ.html" height="800" width="1200" title="iTcKvvWZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iTcKvvWZ" height="800" width="1200" title="iTcKvvWZ"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: agent
 
 -	__[[Convoluut]](./b7q9UADS.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
 
 	
 

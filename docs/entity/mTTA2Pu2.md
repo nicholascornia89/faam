@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mTTA2Pu2
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000334852/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mTTA2Pu2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mTTA2Pu2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mTTA2Pu2.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000334852/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mTTA2Pu2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mTTA2Pu2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mTTA2Pu2.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000334852.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334852.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                          | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | mTTA2Pu2  | KCG-000334852         | 3e Sextuor : pour Piano, 2 Violons, Alto, Violonclle. et Contre Basse : Op. 90 | [external URL](LQE77nqs) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                          | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | mTTA2Pu2  | KCG-000334852         | 3e Sextuor : pour Piano, 2 Violons, Alto, Violonclle. et Contre Basse : Op. 90 | [external URL](https://catalogus.hogent.be/catalog/hog01:000334852) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -72,10 +76,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/mTTA2Pu2.html" height="800" width="1200" title="mTTA2Pu2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mTTA2Pu2" height="800" width="1200" title="mTTA2Pu2"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/mTTA2Pu2.html" height="800" width="1200" title="mTTA2Pu2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/mTTA2Pu2" height="800" width="1200" title="mTTA2Pu2"></iframe>

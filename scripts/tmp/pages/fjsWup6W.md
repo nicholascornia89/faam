@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fjsWup6W
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | aliases       | description                                 | Wikidata QID                                                                       |
-    | :-------: | :-----------------------------------: | :-----------: | :-----------------------------------------: | :--------------------------------------------------------------------------------: |
-    | fjsWup6W  | Viola da Gamba Sonatas, BWV 1027-1029 | BWV 1027-1029 | Sonatas for bass viol composed by J.S. Bach | [Viola da Gamba Sonatas (BWV 1027-1029)](http://wwww.wikidata.org/entity/Q1492892) |
+    | FAAM UUID | label                                 | aliases       | description                                 | Wikidata QID                                                                  |
+    | :-------: | :-----------------------------------: | :-----------: | :-----------------------------------------: | :---------------------------------------------------------------------------: |
+    | fjsWup6W  | Viola da Gamba Sonatas, BWV 1027-1029 | BWV 1027-1029 | Sonatas for bass viol composed by J.S. Bach | [Viola da Gamba Sonatas (BWV 1027-1029)](http://wikidata.org/entity/Q1492892) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/fjsWup6W.html" height="800" width="1200" title="fjsWup6W"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fjsWup6W" height="800" width="1200" title="fjsWup6W"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Tre Sonate per pianoforte e viola da gamba : Trascritte per pianoforte e viola](./Y4n8cg5A.md)__
 
-	![Image](../assets/images/thumbs/KCG-000119533.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000119533.gif){align=left width="150" height="150"} 
 
 	
 

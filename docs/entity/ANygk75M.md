@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ANygk75M
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ANygk75M.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ANygk75M.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ANygk75M.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ANygk75M.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ANygk75M.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ANygk75M.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wanda_Landowska_%281879-1959%29_portrait.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                    | description                              | Wikidata QID                                               |
-    | :-------: | :-------------: | :------------------------: | :--------------------------------------: | :--------------------------------------------------------: |
-    | ANygk75M  | Wanda Landowska | Wanda Aleksandra Landowska | (1879-1959) Polish-French harpsichordist | [Wanda Landowska](http://wwww.wikidata.org/entity/Q160257) |
+    | FAAM UUID | label           | aliases                    | description                              | Wikidata QID                                          |
+    | :-------: | :-------------: | :------------------------: | :--------------------------------------: | :---------------------------------------------------: |
+    | ANygk75M  | Wanda Landowska | Wanda Aleksandra Landowska | (1879-1959) Polish-French harpsichordist | [Wanda Landowska](http://wikidata.org/entity/Q160257) |
 
 <br><br><br>
 
@@ -73,7 +77,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ANygk75M.html" height="800" width="1200" title="ANygk75M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ANygk75M" height="800" width="1200" title="ANygk75M"></iframe>
 
 ## Identifiers
 
@@ -94,3 +98,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Antoinette Vischer](./7vm6nMLX.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Swiss harpsichordist
+
+-	__[Aimée Van de Wiele](./Qj6RwzVa.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Belgian composer, musicologist and music educator (1907–1991)
+
+</div>

@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:V6W5MAQr a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1869-01-03"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1948-10-27"^^xsd:string ;
+    schema1:deathPlace faamentity:LcQfY4Tm ;
+    schema1:description "French composer (1869-1948)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1065331>,
+        "16005336"^^xsd:string,
+        "V6W5MAQr"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Charles Levade"^^xsd:string,
+        "Charles Levadé"^^xsd:string ;
+    skos:prefLabel "Charles Levadé"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:66652354 ;
+    wd:P31 faamentity:9yzt9yRS,
+        faamentity:aJeJBesD ;
+    wd:P737 faamentity:S8cQ5LB8 ;
+    wd:P839 <https://imslp.org/wiki/Category:Levadé,_Charles> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

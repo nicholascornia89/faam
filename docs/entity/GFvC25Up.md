@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GFvC25Up
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GFvC25Up.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GFvC25Up.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GFvC25Up.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GFvC25Up.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GFvC25Up.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GFvC25Up.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Neukomm.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases                      | description                               | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :--------------------------: | :---------------------------------------: | :--------------------------------------------------------------: |
-    | GFvC25Up  | Sigismund von Neukomm | Sigismund Ritter von Neukomm | Austrian composer and pianist (1778–1858) | [Sigismund von Neukomm](http://wwww.wikidata.org/entity/Q698066) |
+    | FAAM UUID | label                 | aliases                      | description                               | Wikidata QID                                                |
+    | :-------: | :-------------------: | :--------------------------: | :---------------------------------------: | :---------------------------------------------------------: |
+    | GFvC25Up  | Sigismund von Neukomm | Sigismund Ritter von Neukomm | Austrian composer and pianist (1778–1858) | [Sigismund von Neukomm](http://wikidata.org/entity/Q698066) |
 
 <br><br><br>
 
@@ -55,13 +59,13 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./H44dVBEk.md)
+	- [University of Salzburg](./H44dVBEk.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/GFvC25Up.html" height="800" width="1200" title="GFvC25Up"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GFvC25Up" height="800" width="1200" title="GFvC25Up"></iframe>
 
 ## Identifiers
 

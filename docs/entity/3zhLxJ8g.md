@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3zhLxJ8g
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description               | aliases | Wikidata QID                                           |
-    | :-------: | :------------: | :-----------------------: | :-----: | :----------------------------------------------------: |
-    | 3zhLxJ8g  | Czech Republic | country in Central Europe | CZE     | [Czech Republic](http://wwww.wikidata.org/entity/Q213) |
+    | FAAM UUID | label          | description               | aliases | Wikidata QID                                      |
+    | :-------: | :------------: | :-----------------------: | :-----: | :-----------------------------------------------: |
+    | 3zhLxJ8g  | Czech Republic | country in Central Europe | CZE     | [Czech Republic](http://wikidata.org/entity/Q213) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/3zhLxJ8g.html" height="800" width="1200" title="3zhLxJ8g"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3zhLxJ8g" height="800" width="1200" title="3zhLxJ8g"></iframe>
 
 ## Identifiers
 
@@ -47,7 +51,7 @@ tags: country
 
 -	__[Leopold Jansa](./aovZZUxK.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/9/9a/Leopold_Jansa.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Jansa.jpg){align=left width="150" height="150"} 
 
 	Czech violinist, music educator and composer (1795–1875)
 

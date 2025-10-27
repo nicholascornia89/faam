@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5Vf3B6KY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                      |
-    | :-------: | :-------: | :-----------------------------: | :-----: | :-----------------------------------------------: |
-    | 5Vf3B6KY  | Cambridge | city in Cambridgeshire, England |         | [Cambridge](http://wwww.wikidata.org/entity/Q350) |
+    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                 |
+    | :-------: | :-------: | :-----------------------------: | :-----: | :------------------------------------------: |
+    | 5Vf3B6KY  | Cambridge | city in Cambridgeshire, England |         | [Cambridge](http://wikidata.org/entity/Q350) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/5Vf3B6KY.html" height="800" width="1200" title="5Vf3B6KY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5Vf3B6KY" height="800" width="1200" title="5Vf3B6KY"></iframe>
 
 ## Identifiers
 

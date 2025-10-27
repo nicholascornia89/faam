@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HcTKrVvo
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description | aliases                          | Wikidata QID                                                               |
-    | :-------: | :----------------------------: | :---------: | :------------------------------: | :------------------------------------------------------------------------: |
-    | HcTKrVvo  | Lisbon Theatre and Film School | film school | Conservatório Nacional de Cinema | [Lisbon Theatre and Film School](http://wwww.wikidata.org/entity/Q1367284) |
+    | FAAM UUID | label                          | description | aliases                          | Wikidata QID                                                          |
+    | :-------: | :----------------------------: | :---------: | :------------------------------: | :-------------------------------------------------------------------: |
+    | HcTKrVvo  | Lisbon Theatre and Film School | film school | Conservatório Nacional de Cinema | [Lisbon Theatre and Film School](http://wikidata.org/entity/Q1367284) |
 
 <br><br><br>
 
@@ -31,19 +35,19 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./YKgWfkbb.md)
+	[Lisbon](./YKgWfkbb.md)
 
-	[](./She6hnVt.md)
+	[Amadora](./She6hnVt.md)
 
 !!! quote "country" 
 
-	[](./9n8LTSuY.md)
+	[Portugal](./9n8LTSuY.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/HcTKrVvo.html" height="800" width="1200" title="HcTKrVvo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HcTKrVvo" height="800" width="1200" title="HcTKrVvo"></iframe>
 
 ## Cross-references
 

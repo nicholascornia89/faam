@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HAYcLchV
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HAYcLchV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HAYcLchV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HAYcLchV.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HAYcLchV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HAYcLchV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HAYcLchV.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Benjamin_Godard_01.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                    | description                               | Wikidata QID                                               |
-    | :-------: | :-------------: | :------------------------: | :---------------------------------------: | :--------------------------------------------------------: |
-    | HAYcLchV  | Benjamin Godard | Benjamin Louis Paul Godard | French violinist and composer (1849–1895) | [Benjamin Godard](http://wwww.wikidata.org/entity/Q817524) |
+    | FAAM UUID | label           | aliases                    | description                               | Wikidata QID                                          |
+    | :-------: | :-------------: | :------------------------: | :---------------------------------------: | :---------------------------------------------------: |
+    | HAYcLchV  | Benjamin Godard | Benjamin Louis Paul Godard | French violinist and composer (1849–1895) | [Benjamin Godard](http://wikidata.org/entity/Q817524) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/HAYcLchV.html" height="800" width="1200" title="HAYcLchV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HAYcLchV" height="800" width="1200" title="HAYcLchV"></iframe>
 
 ## Identifiers
 
@@ -89,8 +93,18 @@ tags: agent
 
 -	__[Menuet de la Reine](./jPsbDCUc.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p38.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p38.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Cécile Chaminade](./TNHJFvC9.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cecile_chaminade.jpg){align=left width="150" height="150"} 
+
+	French composer and pianist (1857-1944)
 
 </div>

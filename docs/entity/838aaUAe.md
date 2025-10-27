@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 838aaUAe
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                          | aliases        | Wikidata QID                                             |
-    | :-------: | :-----------: | :--------------------------------------------------: | :------------: | :------------------------------------------------------: |
-    | 838aaUAe  | civil servant | person employed by a government department or agency | public servant | [civil servant](http://wwww.wikidata.org/entity/Q212238) |
+    | FAAM UUID | label         | description                                          | aliases        | Wikidata QID                                        |
+    | :-------: | :-----------: | :--------------------------------------------------: | :------------: | :-------------------------------------------------: |
+    | 838aaUAe  | civil servant | person employed by a government department or agency | public servant | [civil servant](http://wikidata.org/entity/Q212238) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/838aaUAe.html" height="800" width="1200" title="838aaUAe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/838aaUAe" height="800" width="1200" title="838aaUAe"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Wilhelm Mayer](./AQUfsFjr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer and music teacher (1831-1898)
 

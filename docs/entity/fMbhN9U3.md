@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fMbhN9U3
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                             | aliases      | Wikidata QID                                           |
-    | :-------: | :----------: | :-----------------------------------------------------: | :----------: | :----------------------------------------------------: |
-    | fMbhN9U3  | organization | social entity established to meet needs or pursue goals | organisation | [organization](http://wwww.wikidata.org/entity/Q43229) |
+    | FAAM UUID | label        | description                                             | aliases      | Wikidata QID                                      |
+    | :-------: | :----------: | :-----------------------------------------------------: | :----------: | :-----------------------------------------------: |
+    | fMbhN9U3  | organization | social entity established to meet needs or pursue goals | organisation | [organization](http://wikidata.org/entity/Q43229) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/fMbhN9U3.html" height="800" width="1200" title="fMbhN9U3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fMbhN9U3" height="800" width="1200" title="fMbhN9U3"></iframe>
 
 ## Cross-references
 

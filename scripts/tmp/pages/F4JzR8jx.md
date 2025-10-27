@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: F4JzR8jx
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | description              | aliases                                 | Wikidata QID                                                              |
-    | :-------: | :---------------------------: | :----------------------: | :-------------------------------------: | :-----------------------------------------------------------------------: |
-    | F4JzR8jx  | Conservatorio Luigi Cherubini | Conservatory in Florence | Conservatorio di musica Luigi Cherubini | [Conservatorio Luigi Cherubini](http://wwww.wikidata.org/entity/Q1782545) |
+    | FAAM UUID | label                         | description              | aliases                                 | Wikidata QID                                                         |
+    | :-------: | :---------------------------: | :----------------------: | :-------------------------------------: | :------------------------------------------------------------------: |
+    | F4JzR8jx  | Conservatorio Luigi Cherubini | Conservatory in Florence | Conservatorio di musica Luigi Cherubini | [Conservatorio Luigi Cherubini](http://wikidata.org/entity/Q1782545) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/F4JzR8jx.html" height="800" width="1200" title="F4JzR8jx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/F4JzR8jx" height="800" width="1200" title="F4JzR8jx"></iframe>
 
 ## Cross-references
 

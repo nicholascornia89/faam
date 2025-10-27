@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CnWq3wne
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                      | aliases | Wikidata QID                                              |
-    | :-------: | :------------: | :------------------------------: | :-----: | :-------------------------------------------------------: |
-    | CnWq3wne  | Fauquembergues | commune in Pas-de-Calais, France |         | [Fauquembergues](http://wwww.wikidata.org/entity/Q323633) |
+    | FAAM UUID | label          | description                      | aliases | Wikidata QID                                         |
+    | :-------: | :------------: | :------------------------------: | :-----: | :--------------------------------------------------: |
+    | CnWq3wne  | Fauquembergues | commune in Pas-de-Calais, France |         | [Fauquembergues](http://wikidata.org/entity/Q323633) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CnWq3wne.html" height="800" width="1200" title="CnWq3wne"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CnWq3wne" height="800" width="1200" title="CnWq3wne"></iframe>
 
 ## Identifiers
 

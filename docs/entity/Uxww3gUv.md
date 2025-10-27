@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Uxww3gUv
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                     | description                                                                                             | aliases       | Wikidata QID                                              |
-    | :-------: | :---------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------: | :-------------------------------------------------------: |
-    | Uxww3gUv  | Salle Favart (Théâtre de l'Opéra-Comique) | opera house in Paris, home to the Opéra-Comique company, 3rd theatre building of that name, opened 1898 | Opéra-Comique | [Salle Favart](http://wwww.wikidata.org/entity/Q47419907) |
+    | FAAM UUID | label                                     | description                                                                                             | aliases       | Wikidata QID                                         |
+    | :-------: | :---------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------: | :--------------------------------------------------: |
+    | Uxww3gUv  | Salle Favart (Théâtre de l'Opéra-Comique) | opera house in Paris, home to the Opéra-Comique company, 3rd theatre building of that name, opened 1898 | Opéra-Comique | [Salle Favart](http://wikidata.org/entity/Q47419907) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Uxww3gUv.html" height="800" width="1200" title="Uxww3gUv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Uxww3gUv" height="800" width="1200" title="Uxww3gUv"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Trois Grands Trios Concertants : Pour Trois Clarinettes le Dernier pour Clarinettes en Ut, Si b et La : 1 [-3] Livre Op. 12](./aEThfZXq.md)__
 
-	![Image](../assets/images/thumbs/KCG-000336431.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000336431.gif){align=left width="150" height="150"} 
 
 	
 

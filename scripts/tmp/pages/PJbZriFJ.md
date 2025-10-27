@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PJbZriFJ
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904482400/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PJbZriFJ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PJbZriFJ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PJbZriFJ.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904482400/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PJbZriFJ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PJbZriFJ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PJbZriFJ.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904482400.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904482400.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                       | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | PJbZriFJ  | KCA-030904482400      | Moment musical : pour piano | [external URL](LQE77nqs) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                       | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | PJbZriFJ  | KCA-030904482400      | Moment musical : pour piano | [external URL](https://anet.be/record/opacdkvc/c:lvd:15224690/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -71,10 +75,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/PJbZriFJ.html" height="800" width="1200" title="PJbZriFJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PJbZriFJ" height="800" width="1200" title="PJbZriFJ"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/PJbZriFJ.html" height="800" width="1200" title="PJbZriFJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/PJbZriFJ" height="800" width="1200" title="PJbZriFJ"></iframe>

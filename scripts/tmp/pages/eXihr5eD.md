@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eXihr5eD
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | description                     | aliases                               | Wikidata QID                                                             |
-    | :-------: | :---------------------------: | :-----------------------------: | :-----------------------------------: | :----------------------------------------------------------------------: |
-    | eXihr5eD  | Gesellschaft der Musikfreunde | society founded in 1812, Vienna | Society of Friends of Music in Vienna | [Gesellschaft der Musikfreunde](http://wwww.wikidata.org/entity/Q694323) |
+    | FAAM UUID | label                         | description                     | aliases                               | Wikidata QID                                                        |
+    | :-------: | :---------------------------: | :-----------------------------: | :-----------------------------------: | :-----------------------------------------------------------------: |
+    | eXihr5eD  | Gesellschaft der Musikfreunde | society founded in 1812, Vienna | Society of Friends of Music in Vienna | [Gesellschaft der Musikfreunde](http://wikidata.org/entity/Q694323) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/eXihr5eD.html" height="800" width="1200" title="eXihr5eD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eXihr5eD" height="800" width="1200" title="eXihr5eD"></iframe>
 
 ## Cross-references
 

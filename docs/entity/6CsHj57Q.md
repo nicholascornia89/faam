@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6CsHj57Q
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description         | aliases              | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-----------------: | :------------------: | :------------------------------------------------------------: |
-    | 6CsHj57Q  | University of Padua | university in Italy | University of Padova | [University of Padua](http://wwww.wikidata.org/entity/Q193510) |
+    | FAAM UUID | label               | description         | aliases              | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-----------------: | :------------------: | :-------------------------------------------------------: |
+    | 6CsHj57Q  | University of Padua | university in Italy | University of Padova | [University of Padua](http://wikidata.org/entity/Q193510) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./fdBRs3SB.md)
+	[Padua](./fdBRs3SB.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/6CsHj57Q.html" height="800" width="1200" title="6CsHj57Q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6CsHj57Q" height="800" width="1200" title="6CsHj57Q"></iframe>
 
 ## Cross-references
 

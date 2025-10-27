@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: brP3Q5as
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904711642/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/brP3Q5as.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/brP3Q5as.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/brP3Q5as.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904711642/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/brP3Q5as.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/brP3Q5as.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/brP3Q5as.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904711642.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904711642.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                 | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | brP3Q5as  | KCA-030904711642      | Nocturne : pour piano | [external URL](QyAptNqX) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                 | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | brP3Q5as  | KCA-030904711642      | Nocturne : pour piano | [external URL](https://anet.be/record/opacdkvc/c:lvd:6783592/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "note" 
 
@@ -81,10 +85,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/brP3Q5as.html" height="800" width="1200" title="brP3Q5as"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/brP3Q5as" height="800" width="1200" title="brP3Q5as"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/brP3Q5as.html" height="800" width="1200" title="brP3Q5as"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/brP3Q5as" height="800" width="1200" title="brP3Q5as"></iframe>

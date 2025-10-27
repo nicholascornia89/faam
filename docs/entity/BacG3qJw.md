@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BacG3qJw
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BacG3qJw.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BacG3qJw.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BacG3qJw.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BacG3qJw.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BacG3qJw.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BacG3qJw.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Werner_Janssen_(1937).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases             | description                    | Wikidata QID                                               |
-    | :-------: | :------------: | :-----------------: | :----------------------------: | :--------------------------------------------------------: |
-    | BacG3qJw  | Werner Janssen | Hans-Werner Janssen | American conductor (1899-1990) | [Werner Janssen](http://wwww.wikidata.org/entity/Q3567322) |
+    | FAAM UUID | label          | aliases             | description                    | Wikidata QID                                          |
+    | :-------: | :------------: | :-----------------: | :----------------------------: | :---------------------------------------------------: |
+    | BacG3qJw  | Werner Janssen | Hans-Werner Janssen | American conductor (1899-1990) | [Werner Janssen](http://wikidata.org/entity/Q3567322) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/BacG3qJw.html" height="800" width="1200" title="BacG3qJw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BacG3qJw" height="800" width="1200" title="BacG3qJw"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Danses concertantes : for chamber orchestra = Danses concertantes : für Kammerorchester](./CY69q29C.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904721377.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904721377.gif){align=left width="150" height="150"} 
 
 	
 

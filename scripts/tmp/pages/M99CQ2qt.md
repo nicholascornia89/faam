@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M99CQ2qt
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/M99CQ2qt.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/M99CQ2qt.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/M99CQ2qt.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/M99CQ2qt.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/M99CQ2qt.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/M99CQ2qt.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Heinrich-Dorn.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                     | description                               | Wikidata QID                                             |
-    | :-------: | :-----------: | :-------------------------: | :---------------------------------------: | :------------------------------------------------------: |
-    | M99CQ2qt  | Heinrich Dorn | Heinrich Ludwig Egmont Dorn | German composer and conductor (1804–1892) | [Heinrich Dorn](http://wwww.wikidata.org/entity/Q564953) |
+    | FAAM UUID | label         | aliases                     | description                               | Wikidata QID                                        |
+    | :-------: | :-----------: | :-------------------------: | :---------------------------------------: | :-------------------------------------------------: |
+    | M99CQ2qt  | Heinrich Dorn | Heinrich Ludwig Egmont Dorn | German composer and conductor (1804–1892) | [Heinrich Dorn](http://wikidata.org/entity/Q564953) |
 
 <br><br><br>
 
@@ -49,13 +53,13 @@ tags: agent
 
 	- [journalist](./3Kncf32R.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/M99CQ2qt.html" height="800" width="1200" title="M99CQ2qt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M99CQ2qt" height="800" width="1200" title="M99CQ2qt"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Robert Schumann](./2TucE7F9.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Robert-schumann.jpg){align=left width="150" height="150"} 
+
+	German composer, pianist and critic (1810–1856)
+
+</div>

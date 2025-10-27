@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XGwXMqpM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XGwXMqpM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XGwXMqpM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XGwXMqpM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XGwXMqpM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XGwXMqpM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XGwXMqpM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases      | description          | Wikidata QID                                                 |
-    | :-------: | :---------------: | :----------: | :------------------: | :----------------------------------------------------------: |
-    | XGwXMqpM  | Jean-Louis Duport | J. L. Duport | cellist and composer | [Jean-Louis Duport](http://wwww.wikidata.org/entity/Q969547) |
+    | FAAM UUID | label             | aliases      | description          | Wikidata QID                                            |
+    | :-------: | :---------------: | :----------: | :------------------: | :-----------------------------------------------------: |
+    | XGwXMqpM  | Jean-Louis Duport | J. L. Duport | cellist and composer | [Jean-Louis Duport](http://wikidata.org/entity/Q969547) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/XGwXMqpM.html" height="800" width="1200" title="XGwXMqpM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XGwXMqpM" height="800" width="1200" title="XGwXMqpM"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Jean-Henri Levasseur](./TuQsEjAR.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French cellist and composer
+
+</div>

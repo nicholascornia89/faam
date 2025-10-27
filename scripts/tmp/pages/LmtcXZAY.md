@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LmtcXZAY
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | aliases | description | Wikidata QID                         |
-    | :-------: | :------: | :-----: | :---------: | :----------------------------------: |
-    | LmtcXZAY  | Beatrijs |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label    | aliases | description | Wikidata QID                    |
+    | :-------: | :------: | :-----: | :---------: | :-----------------------------: |
+    | LmtcXZAY  | Beatrijs |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/LmtcXZAY.html" height="800" width="1200" title="LmtcXZAY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LmtcXZAY" height="800" width="1200" title="LmtcXZAY"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: musical_work
 
 -	__[Beatrijs : sinfonisch poema](./9sKrgbPK.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903772819.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903772819.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Beatrijs : sinfonisch poema](./acPRW9Vf.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903900642.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903900642.gif){align=left width="150" height="150"} 
 
 	
 

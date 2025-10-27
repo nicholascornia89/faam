@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AaF6WQEA", "label": "Hans von B\u00fclow", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AaF6WQEA.md\u0027\u003eHans von B\u00fclow\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman conductor and pianist (1830\u20131894)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Hans_von_buelow.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CTNhzr7a", "label": "Germany", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CTNhzr7a.md\u0027\u003eGermany\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Qi9t5Cvz", "label": "Klindworth-Scharwenka Conservatory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Qi9t5Cvz.md\u0027\u003eKlindworth-Scharwenka Conservatory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eschool\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "cx7ihbM4", "label": "Hugo Kaun", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./cx7ihbM4.md\u0027\u003eHugo Kaun\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and conductor (1863-1932)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "AaF6WQEA", "to": "CTNhzr7a", "width": 1}, {"from": "AaF6WQEA", "to": "Qi9t5Cvz", "width": 10}, {"from": "cx7ihbM4", "to": "Qi9t5Cvz", "width": 10}, {"from": "Qi9t5Cvz", "to": "CTNhzr7a", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CTNhzr7a", "label": "Germany", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CTNhzr7a\u0027\u003eGermany\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Qi9t5Cvz", "label": "Klindworth-Scharwenka Conservatory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Qi9t5Cvz\u0027\u003eKlindworth-Scharwenka Conservatory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eschool\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AaF6WQEA", "label": "Hans von B\u00fclow", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AaF6WQEA\u0027\u003eHans von B\u00fclow\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman conductor and pianist (1830\u20131894)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Hans_von_buelow.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "cx7ihbM4", "label": "Hugo Kaun", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cx7ihbM4\u0027\u003eHugo Kaun\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and conductor (1863-1932)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "CTNhzr7a", "to": "Qi9t5Cvz", "width": 10}, {"from": "CTNhzr7a", "to": "AaF6WQEA", "width": 1}, {"from": "Qi9t5Cvz", "to": "AaF6WQEA", "width": 10}, {"from": "Qi9t5Cvz", "to": "cx7ihbM4", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

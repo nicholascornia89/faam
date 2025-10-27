@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8ALmZPzx
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8ALmZPzx.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8ALmZPzx.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8ALmZPzx.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8ALmZPzx.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8ALmZPzx.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8ALmZPzx.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bartók_Béla_1927.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases                  | description                                | Wikidata QID                                          |
-    | :-------: | :---------: | :----------------------: | :----------------------------------------: | :---------------------------------------------------: |
-    | 8ALmZPzx  | Béla Bartók | Béla Viktor János Bartók | Hungarian composer and pianist (1881–1945) | [Béla Bartók](http://wwww.wikidata.org/entity/Q83326) |
+    | FAAM UUID | label       | aliases                  | description                                | Wikidata QID                                     |
+    | :-------: | :---------: | :----------------------: | :----------------------------------------: | :----------------------------------------------: |
+    | 8ALmZPzx  | Béla Bartók | Béla Viktor János Bartók | Hungarian composer and pianist (1881–1945) | [Béla Bartók](http://wikidata.org/entity/Q83326) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./AKfEoRof.md)
+	- [classical pianist](./AKfEoRof.md)
 
 	- [choreographer](./kTo2uTWZ.md)
 
@@ -57,11 +61,11 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./UFZTaLmy.md)
+	- [ethnomusicologist](./UFZTaLmy.md)
 
 	- [university teacher](./XWcaJQty.md)
 
-	- [](./FhqPpUk3.md)
+	- [collector of folk music](./FhqPpUk3.md)
 
 	- [musician](./bX2aWAhB.md)
 
@@ -83,7 +87,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8ALmZPzx.html" height="800" width="1200" title="8ALmZPzx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8ALmZPzx" height="800" width="1200" title="8ALmZPzx"></iframe>
 
 ## Identifiers
 
@@ -109,8 +113,16 @@ tags: agent
 
 -	__[The well-tempered clavier: 48 preludes and fugues](./Y9bpQE3M.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901733573.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901733573.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[The Well-Tempered Clavier](./dwdaRArz.md)__
+
+	collection of solo keyboard music by J.S. Bach
 
 </div>

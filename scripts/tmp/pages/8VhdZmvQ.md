@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8VhdZmvQ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | aliases                           | description                  | Wikidata QID                                              |
-    | :-------: | :------------------------------: | :-------------------------------: | :--------------------------: | :-------------------------------------------------------: |
-    | 8VhdZmvQ  | Keyboard Sonata in G minor, K.31 | Keyboard Sonata in G minor, L.231 | sonata by Domenico Scarlatti | [Sonata K. 31](http://wwww.wikidata.org/entity/Q74594922) |
+    | FAAM UUID | label                            | aliases                           | description                  | Wikidata QID                                         |
+    | :-------: | :------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------: |
+    | 8VhdZmvQ  | Keyboard Sonata in G minor, K.31 | Keyboard Sonata in G minor, L.231 | sonata by Domenico Scarlatti | [Sonata K. 31](http://wikidata.org/entity/Q74594922) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/8VhdZmvQ.html" height="800" width="1200" title="8VhdZmvQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8VhdZmvQ" height="800" width="1200" title="8VhdZmvQ"></iframe>
 
 ## Identifiers
 
@@ -73,25 +77,25 @@ tags: musical_work
 
 -	__[18 ausgewählte Klavierstücke](./J4gd8QWV.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Early Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito.](./icedGMzA.md)__
 
-	![Image](../assets/images/thumbs/SML-22563.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22563.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[18 ausgewählte Klavierstücke](./J4gd8QWV.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
 
 	
 

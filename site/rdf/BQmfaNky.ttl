@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BQmfaNky a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Austrian composer (1729–1774)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q700816>,
+        "0"^^xsd:string,
+        "BQmfaNky"^^xsd:string ;
+    skos:altLabel "Florian Gassmann"^^xsd:string,
+        "Florian Gaßmann"^^xsd:string,
+        "Floriano Gassmann"^^xsd:string,
+        "Leopold Gassman"^^xsd:string,
+        "Leopold Gassmann"^^xsd:string,
+        "Leopold Gaßmann"^^xsd:string ;
+    skos:prefLabel "Florian Leopold Gassmann"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:22409342 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30001241> ;
+    wd:P839 <https://imslp.org/wiki/Category:Gassmann,_Florian_Leopold> .
+

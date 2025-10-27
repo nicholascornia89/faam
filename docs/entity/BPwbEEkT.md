@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BPwbEEkT
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                                                         | aliases | Wikidata QID                                       |
-    | :-------: | :------: | :-------------------------------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | BPwbEEkT  | velocity | rate of change of the position of an object as a function of time, and the direction of that change | speed   | [velocity](http://wwww.wikidata.org/entity/Q11465) |
+    | FAAM UUID | label    | description                                                                                         | aliases | Wikidata QID                                  |
+    | :-------: | :------: | :-------------------------------------------------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | BPwbEEkT  | velocity | rate of change of the position of an object as a function of time, and the direction of that change | speed   | [velocity](http://wikidata.org/entity/Q11465) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/BPwbEEkT.html" height="800" width="1200" title="BPwbEEkT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BPwbEEkT" height="800" width="1200" title="BPwbEEkT"></iframe>
 
 ## Cross-references
 

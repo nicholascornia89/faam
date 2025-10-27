@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XN7dF8D5
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | XN7dF8D5  | Keyboard Sonata in F major, K.482 | Keyboard Sonata in F major, L.435 | sonata by Domenico Scarlatti | [Sonata K. 482](http://wwww.wikidata.org/entity/Q78243891) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | XN7dF8D5  | Keyboard Sonata in F major, K.482 | Keyboard Sonata in F major, L.435 | sonata by Domenico Scarlatti | [Sonata K. 482](http://wikidata.org/entity/Q78243891) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/XN7dF8D5.html" height="800" width="1200" title="XN7dF8D5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XN7dF8D5" height="800" width="1200" title="XN7dF8D5"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

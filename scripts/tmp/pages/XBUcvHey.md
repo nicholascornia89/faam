@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XBUcvHey
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description         | aliases | Wikidata QID                                                                 |
-    | :-------: | :----------------------------: | :-----------------: | :-----: | :--------------------------------------------------------------------------: |
-    | XBUcvHey  | Johann-Walter-Gymnasium Torgau | gymnasium in Torgau |         | [Johann-Walter-Gymnasium Torgau](http://wwww.wikidata.org/entity/Q100732664) |
+    | FAAM UUID | label                          | description         | aliases | Wikidata QID                                                            |
+    | :-------: | :----------------------------: | :-----------------: | :-----: | :---------------------------------------------------------------------: |
+    | XBUcvHey  | Johann-Walter-Gymnasium Torgau | gymnasium in Torgau |         | [Johann-Walter-Gymnasium Torgau](http://wikidata.org/entity/Q100732664) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/XBUcvHey.html" height="800" width="1200" title="XBUcvHey"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XBUcvHey" height="800" width="1200" title="XBUcvHey"></iframe>
 
 ## Cross-references
 

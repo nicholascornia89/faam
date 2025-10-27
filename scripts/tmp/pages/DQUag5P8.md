@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DQUag5P8
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases | description | Wikidata QID                         |
-    | :-------: | :--------------: | :-----: | :---------: | :----------------------------------: |
-    | DQUag5P8  | 12 Canons, Op.50 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label            | aliases | description | Wikidata QID                    |
+    | :-------: | :--------------: | :-----: | :---------: | :-----------------------------: |
+    | DQUag5P8  | 12 Canons, Op.50 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/DQUag5P8.html" height="800" width="1200" title="DQUag5P8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DQUag5P8" height="800" width="1200" title="DQUag5P8"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[12 canons : für 3 Sopranstimmen mit Begleitung des Pianoforte, op. 50](./cA8NtYcD.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902704540.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902704540.gif){align=left width="150" height="150"} 
 
 	
 

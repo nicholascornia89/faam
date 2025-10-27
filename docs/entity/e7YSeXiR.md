@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: e7YSeXiR
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description               | aliases          | Wikidata QID                                                 |
-    | :-------: | :--------------: | :-----------------------: | :--------------: | :----------------------------------------------------------: |
-    | e7YSeXiR  | Concerts Colonne | French symphony orchestra | Concerts Colonne | [Concerts Colonne](http://wwww.wikidata.org/entity/Q2914709) |
+    | FAAM UUID | label            | description               | aliases          | Wikidata QID                                            |
+    | :-------: | :--------------: | :-----------------------: | :--------------: | :-----------------------------------------------------: |
+    | e7YSeXiR  | Concerts Colonne | French symphony orchestra | Concerts Colonne | [Concerts Colonne](http://wikidata.org/entity/Q2914709) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/e7YSeXiR.html" height="800" width="1200" title="e7YSeXiR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/e7YSeXiR" height="800" width="1200" title="e7YSeXiR"></iframe>
 
 ## Cross-references
 

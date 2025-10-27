@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jebdGEJX
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                 | aliases           | Wikidata QID                                               |
-    | :-------: | :-----------: | :-------------------------: | :---------------: | :--------------------------------------------------------: |
-    | jebdGEJX  | shoe designer | person who designs footwear | footwear designer | [shoe designer](http://wwww.wikidata.org/entity/Q67175841) |
+    | FAAM UUID | label         | description                 | aliases           | Wikidata QID                                          |
+    | :-------: | :-----------: | :-------------------------: | :---------------: | :---------------------------------------------------: |
+    | jebdGEJX  | shoe designer | person who designs footwear | footwear designer | [shoe designer](http://wikidata.org/entity/Q67175841) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/jebdGEJX.html" height="800" width="1200" title="jebdGEJX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jebdGEJX" height="800" width="1200" title="jebdGEJX"></iframe>
 
 ## Cross-references
 

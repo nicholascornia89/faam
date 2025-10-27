@@ -24,7 +24,7 @@ def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
 		item["resources"]["JSON"] = [
 			{
 				"type": "url",
-				"base_url": "http://nicholascornia89.github.io/faam/json/",
+				"base_url": "https://nicholascornia89.github.io/faam/json/",
 				"value": item["id"]+".json"
 
 			}
@@ -34,7 +34,7 @@ def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
 		item["resources"]["RDF"] = [
 			{
 				"type": "url",
-				"base_url": "http://nicholascornia89.github.io/faam/rdf/",
+				"base_url": "https://nicholascornia89.github.io/faam/rdf/",
 				"value": item["id"]+".ttl"
 			}
 
@@ -44,7 +44,7 @@ def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
 		item["resources"]["CSV"] = [
 			{
 				"type": "url",
-				"base_url": "http://nicholascornia89.github.io/faam/csv/",
+				"base_url": "https://nicholascornia89.github.io/faam/csv/",
 				"value": item["id"]+".csv"
 			}
 
@@ -166,6 +166,8 @@ def generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir):
 hide:\n 
 - title\n
 - toc\n
+search:\n
+ boost: 2\n
 title: {item["id"]}\n
 tags: {item["metadata"]["object_type"][0]["value"]}\n 
 ---
@@ -224,7 +226,7 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 						prop = embed["property"]
 						width = block["attributes"]["width"]
 						height = block["attributes"]["height"]
-						doc.add_raw(f"""<iframe src="{embed["base_url"]}{item[cat][prop][0]["value"]}{embed["extension"]}" height="{height}" width="{width}" title="{item[cat][prop][0]["value"]}"></iframe>""")
+						doc.add_raw(f"""<iframe src="{embed["base_url"]}{item[cat][prop][0]["value"]}" height="{height}" width="{width}" title="{item[cat][prop][0]["value"]}"></iframe>""")
 
 				# statements
 				elif block["format"] == "quote":
@@ -312,7 +314,7 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 														if qual["type"] == "item":
 															raw.append(snakemd.Inline(qual["label"]).link(f"./{qual["value"]}.md"))
 														elif qual["type"] == "url":
-															raw.append(snakemd.Inline("external URL").link(f"{statement["value"]}"))
+															raw.append(snakemd.Inline("external URL").link(f"{qual["value"]}"))
 														else:
 															raw.append(snakemd.Inline(qual["value"]))
 													else:
@@ -357,7 +359,7 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 												raw.append(snakemd.Inline(current_item["value"]).link(f"""{current_item["base_url"]}/{current_item["value"]}"""))
 										
 										elif current_item["type"] == "url":
-											raw.append(snakemd.Inline("external URL").link(f"{statement["value"]}"))
+											raw.append(snakemd.Inline("external URL").link(f"{current_item["value"]}"))
 
 										else: # string and date cases
 											raw.append(snakemd.Inline(current_item["value"]))

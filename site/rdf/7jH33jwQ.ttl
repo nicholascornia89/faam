@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7jH33jwQ a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "© HOGENT University College"^^xsd:string ;
+    schema1:description "Belgian school of music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2061988>,
+        "15992241"^^xsd:string,
+        "7jH33jwQ"^^xsd:string ;
+    schema1:location faamentity:AYShtw7v,
+        faamentity:KgyiaBt3 ;
+    schema1:url "https://www.cageweb.be/pages/nl/BGC"^^schema1:url,
+        "https://www.hogent.be/student/bibliotheken/"^^schema1:url ;
+    skos:altLabel "Ghent Conservatory"^^xsd:string,
+        "Royal Conservatory of Ghent"^^xsd:string,
+        "University College Ghent, Faculty of Music"^^xsd:string ;
+    skos:prefLabel "Library Royal Conservatoire Ghent"^^xsd:string ;
+    wd:P1813 "KCG"^^xsd:string .
+

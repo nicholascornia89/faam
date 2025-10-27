@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fbNjgZH4
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                            | aliases                                  | Wikidata QID                                                |
-    | :-------: | :--------------: | :----------------------------------------------------: | :--------------------------------------: | :---------------------------------------------------------: |
-    | fbNjgZH4  | Juilliard School | American performing arts conservatory in New York City | The Music Technology Center at Juilliard | [Juilliard School](http://wwww.wikidata.org/entity/Q503246) |
+    | FAAM UUID | label            | description                                            | aliases                                  | Wikidata QID                                           |
+    | :-------: | :--------------: | :----------------------------------------------------: | :--------------------------------------: | :----------------------------------------------------: |
+    | fbNjgZH4  | Juilliard School | American performing arts conservatory in New York City | The Music Technology Center at Juilliard | [Juilliard School](http://wikidata.org/entity/Q503246) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/fbNjgZH4.html" height="800" width="1200" title="fbNjgZH4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fbNjgZH4" height="800" width="1200" title="fbNjgZH4"></iframe>
 
 ## Cross-references
 
@@ -69,7 +73,7 @@ tags: music_organization
 
 -	__[Charles Seeger](./F9E2vpm3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American musicologist (1886–1979)
 

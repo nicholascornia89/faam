@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jBmWv3jC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                     | aliases | Wikidata QID                                          |
-    | :-------: | :---------: | :-----------------------------: | :-----: | :---------------------------------------------------: |
-    | jBmWv3jC  | Saint-Mandé | commune in Val-de-Marne, France |         | [Saint-Mandé](http://wwww.wikidata.org/entity/Q18102) |
+    | FAAM UUID | label       | description                     | aliases | Wikidata QID                                     |
+    | :-------: | :---------: | :-----------------------------: | :-----: | :----------------------------------------------: |
+    | jBmWv3jC  | Saint-Mandé | commune in Val-de-Marne, France |         | [Saint-Mandé](http://wikidata.org/entity/Q18102) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jBmWv3jC.html" height="800" width="1200" title="jBmWv3jC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jBmWv3jC" height="800" width="1200" title="jBmWv3jC"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Henri Hirschmann](./48fXZNpH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Paul Wachs](./DZekGw3j.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1851–1915)
 

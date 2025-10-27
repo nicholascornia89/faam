@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bcZAc7AZ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bcZAc7AZ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bcZAc7AZ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bcZAc7AZ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bcZAc7AZ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bcZAc7AZ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bcZAc7AZ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felice_Blangini_1820.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                              | description                  | Wikidata QID                                                |
-    | :-------: | :-------------: | :----------------------------------: | :--------------------------: | :---------------------------------------------------------: |
-    | bcZAc7AZ  | Felice Blangini | Giuseppe Marco Maria Felice Blangini | Italian composer (1781-1841) | [Felice Blangini](http://wwww.wikidata.org/entity/Q3742112) |
+    | FAAM UUID | label           | aliases                              | description                  | Wikidata QID                                           |
+    | :-------: | :-------------: | :----------------------------------: | :--------------------------: | :----------------------------------------------------: |
+    | bcZAc7AZ  | Felice Blangini | Giuseppe Marco Maria Felice Blangini | Italian composer (1781-1841) | [Felice Blangini](http://wikidata.org/entity/Q3742112) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 	- [cellist](./JJEmNCK7.md)
 
-	- [](./HrJb4zkG.md)
+	- [maestro](./HrJb4zkG.md)
 
 	- [organist](./ZhptKYF3.md)
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/bcZAc7AZ.html" height="800" width="1200" title="bcZAc7AZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bcZAc7AZ" height="800" width="1200" title="bcZAc7AZ"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,15 @@ tags: agent
 
 -	__[Douze melodies italiennes : pour la flûte, avec accompagnement de piano: divisées en trois suites](./JuAQYsFX.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334547.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334547.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Vanne al mio bene](./9vMpSp9k.md)__
 
 	
 

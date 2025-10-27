@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7P5LYwUf
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-428466571/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7P5LYwUf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7P5LYwUf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7P5LYwUf.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-428466571/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7P5LYwUf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7P5LYwUf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7P5LYwUf.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-428466571.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-428466571.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                           | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :---------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | 7P5LYwUf  | BNF-428466571         | Méthode de violon divisée en 3 parties, op. 102 | [external URL](N5Hoh28Y) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                           | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :---------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | 7P5LYwUf  | BNF-428466571         | Méthode de violon divisée en 3 parties, op. 102 | [external URL](http://catalogue.bnf.fr/ark:/12148/cb428466571) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ===  "note" 
 
@@ -78,10 +82,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/7P5LYwUf.html" height="800" width="1200" title="7P5LYwUf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7P5LYwUf" height="800" width="1200" title="7P5LYwUf"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/7P5LYwUf.html" height="800" width="1200" title="7P5LYwUf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/7P5LYwUf" height="800" width="1200" title="7P5LYwUf"></iframe>

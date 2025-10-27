@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4GKCRDgx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                | aliases       | Wikidata QID                                        |
-    | :-------: | :------: | :----------------------------------------: | :-----------: | :-------------------------------------------------: |
-    | 4GKCRDgx  | Limerick | city in Ireland in the province of Munster | Limerick City | [Limerick](http://wwww.wikidata.org/entity/Q133315) |
+    | FAAM UUID | label    | description                                | aliases       | Wikidata QID                                   |
+    | :-------: | :------: | :----------------------------------------: | :-----------: | :--------------------------------------------: |
+    | 4GKCRDgx  | Limerick | city in Ireland in the province of Munster | Limerick City | [Limerick](http://wikidata.org/entity/Q133315) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4GKCRDgx.html" height="800" width="1200" title="4GKCRDgx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4GKCRDgx" height="800" width="1200" title="4GKCRDgx"></iframe>
 
 ## Identifiers
 

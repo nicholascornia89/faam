@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SD6SqrRC
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                             | aliases             | Wikidata QID                                        |
-    | :-------: | :-----: | :---------------------------------------------------------------------: | :-----------------: | :-------------------------------------------------: |
-    | SD6SqrRC  | chanson | polyphonic form of secular vocal music from the 15th and 16th centuries | polyphonic chansons | [chanson](http://wwww.wikidata.org/entity/Q1062328) |
+    | FAAM UUID | label   | description                                                             | aliases             | Wikidata QID                                   |
+    | :-------: | :-----: | :---------------------------------------------------------------------: | :-----------------: | :--------------------------------------------: |
+    | SD6SqrRC  | chanson | polyphonic form of secular vocal music from the 15th and 16th centuries | polyphonic chansons | [chanson](http://wikidata.org/entity/Q1062328) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/SD6SqrRC.html" height="800" width="1200" title="SD6SqrRC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SD6SqrRC" height="800" width="1200" title="SD6SqrRC"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AWxaRSam
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/AWxaRSam.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/AWxaRSam.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/AWxaRSam.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/AWxaRSam.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/AWxaRSam.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/AWxaRSam.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases                     | description                        | Wikidata QID                                             |
-    | :-------: | :----------: | :-------------------------: | :--------------------------------: | :------------------------------------------------------: |
-    | AWxaRSam  | Aimé Leborne | Aime Ambroise Simon Leborne | French composer and music educator | [Aimé Leborne](http://wwww.wikidata.org/entity/Q1028877) |
+    | FAAM UUID | label        | aliases                     | description                        | Wikidata QID                                        |
+    | :-------: | :----------: | :-------------------------: | :--------------------------------: | :-------------------------------------------------: |
+    | AWxaRSam  | Aimé Leborne | Aime Ambroise Simon Leborne | French composer and music educator | [Aimé Leborne](http://wikidata.org/entity/Q1028877) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/AWxaRSam.html" height="800" width="1200" title="AWxaRSam"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AWxaRSam" height="800" width="1200" title="AWxaRSam"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Victorin de Joncières](./GWNPu33q.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joncières,_Victorin_de,_Nadar,_Gallica.jpg){align=left width="150" height="150"} 
+
+	French composer (1839–1903)
+
+-	__[Jules Duprato](./NjFENZnt.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jules_Duprato.png){align=left width="150" height="150"} 
+
+	French composer (1827–1892)
+
+</div>

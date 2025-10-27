@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LnhPQvt2
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description           | Wikidata QID                                             |
-    | :-------: | :---------: | :---------: | :-------------------: | :------------------------------------------------------: |
-    | LnhPQvt2  | Le farfadet | Le farfadet | opera by Adolphe Adam | [Le farfadet](http://wwww.wikidata.org/entity/Q11093241) |
+    | FAAM UUID | label       | aliases     | description           | Wikidata QID                                        |
+    | :-------: | :---------: | :---------: | :-------------------: | :-------------------------------------------------: |
+    | LnhPQvt2  | Le farfadet | Le farfadet | opera by Adolphe Adam | [Le farfadet](http://wikidata.org/entity/Q11093241) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/LnhPQvt2.html" height="800" width="1200" title="LnhPQvt2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LnhPQvt2" height="800" width="1200" title="LnhPQvt2"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: musical_work
 
 -	__[Le farfadet : opéra comique en un acte](./UWSwdWvi.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902614640.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902614640.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Lg8XqP4c
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Lg8XqP4c.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Lg8XqP4c.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Lg8XqP4c.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Lg8XqP4c.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Lg8XqP4c.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Lg8XqP4c.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Antonio_Bazzini_(before_1897)_-_Archivio_Storico_Ricordi_FOTO000436.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description                                         | Wikidata QID                                               |
-    | :-------: | :-------------: | :-----: | :-------------------------------------------------: | :--------------------------------------------------------: |
-    | Lg8XqP4c  | Antonio Bazzini |         | Italian violinist, composer and teacher (1818-1897) | [Antonio Bazzini](http://wwww.wikidata.org/entity/Q461296) |
+    | FAAM UUID | label           | aliases | description                                         | Wikidata QID                                          |
+    | :-------: | :-------------: | :-----: | :-------------------------------------------------: | :---------------------------------------------------: |
+    | Lg8XqP4c  | Antonio Bazzini |         | Italian violinist, composer and teacher (1818-1897) | [Antonio Bazzini](http://wikidata.org/entity/Q461296) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Lg8XqP4c.html" height="800" width="1200" title="Lg8XqP4c"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Lg8XqP4c" height="800" width="1200" title="Lg8XqP4c"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giacomo Puccini](./MAnxgT8A.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/GiacomoPuccini.jpg){align=left width="150" height="150"} 
+
+	Italian opera composer (1858–1924)
+
+</div>

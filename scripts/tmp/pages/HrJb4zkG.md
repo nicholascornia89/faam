@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HrJb4zkG
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                                                                     | aliases | Wikidata QID                                        |
-    | :-------: | :-----: | :-------------------------------------------------------------------------------------------------------------: | :-----: | :-------------------------------------------------: |
-    | HrJb4zkG  | maestro | honorific title of respect given to a master musician; most often used in addressing or referring to conductors |         | [maestro](http://wwww.wikidata.org/entity/Q1836630) |
+    | FAAM UUID | label   | description                                                                                                     | aliases | Wikidata QID                                   |
+    | :-------: | :-----: | :-------------------------------------------------------------------------------------------------------------: | :-----: | :--------------------------------------------: |
+    | HrJb4zkG  | maestro | honorific title of respect given to a master musician; most often used in addressing or referring to conductors |         | [maestro](http://wikidata.org/entity/Q1836630) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/HrJb4zkG.html" height="800" width="1200" title="HrJb4zkG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HrJb4zkG" height="800" width="1200" title="HrJb4zkG"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Giovanni Tadolini](./c4bta3mz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

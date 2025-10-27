@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LSto4bhP
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                         | aliases                                     | Wikidata QID                                                  |
-    | :-------: | :-----------------: | :---------------------------------: | :-----------------------------------------: | :-----------------------------------------------------------: |
-    | LSto4bhP  | Columbia University | private university in New York City | Columbia University in the City of New York | [Columbia University](http://wwww.wikidata.org/entity/Q49088) |
+    | FAAM UUID | label               | description                         | aliases                                     | Wikidata QID                                             |
+    | :-------: | :-----------------: | :---------------------------------: | :-----------------------------------------: | :------------------------------------------------------: |
+    | LSto4bhP  | Columbia University | private university in New York City | Columbia University in the City of New York | [Columbia University](http://wikidata.org/entity/Q49088) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/LSto4bhP.html" height="800" width="1200" title="LSto4bhP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LSto4bhP" height="800" width="1200" title="LSto4bhP"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: music_organization
 
 -	__[Daniel Gregory Mason](./cABqPnWp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer (1873–1953)
 

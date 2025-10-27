@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ri3gvZ2t
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                            | aliases              | Wikidata QID                                                    |
-    | :-------: | :----------------: | :------------------------------------: | :------------------: | :-------------------------------------------------------------: |
-    | Ri3gvZ2t  | music organization | type of organization linked with music | musical organisation | [music organization](http://wwww.wikidata.org/entity/Q32178211) |
+    | FAAM UUID | label              | description                            | aliases              | Wikidata QID                                               |
+    | :-------: | :----------------: | :------------------------------------: | :------------------: | :--------------------------------------------------------: |
+    | Ri3gvZ2t  | music organization | type of organization linked with music | musical organisation | [music organization](http://wikidata.org/entity/Q32178211) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Ri3gvZ2t.html" height="800" width="1200" title="Ri3gvZ2t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ri3gvZ2t" height="800" width="1200" title="Ri3gvZ2t"></iframe>
 
 ## Cross-references
 

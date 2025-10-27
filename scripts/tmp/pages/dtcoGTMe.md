@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dtcoGTMe
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------------: | :-----: | :---------: | :----------------------------------: |
-    | dtcoGTMe  | Humoristische jubelgroet |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                    | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------------: | :-----: | :---------: | :-----------------------------: |
+    | dtcoGTMe  | Humoristische jubelgroet |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/dtcoGTMe.html" height="800" width="1200" title="dtcoGTMe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dtcoGTMe" height="800" width="1200" title="dtcoGTMe"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: musical_work
 
 -	__[Humoresca](./6EsgsPFB.md)__
 
-	![Image](../assets/images/thumbs/KCA-030900921021.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030900921021.gif){align=left width="150" height="150"} 
 
 	
 

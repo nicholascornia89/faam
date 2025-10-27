@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M5vog5yS
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                                                   | aliases           | Wikidata QID                                                   |
-    | :-------: | :------------------: | :-----------------------------------------------------------: | :---------------: | :------------------------------------------------------------: |
-    | M5vog5yS  | University of Oxford | collegiate research university in Oxford, England (Est. 1096) | Oxford University | [University of Oxford](http://wwww.wikidata.org/entity/Q34433) |
+    | FAAM UUID | label                | description                                                   | aliases           | Wikidata QID                                              |
+    | :-------: | :------------------: | :-----------------------------------------------------------: | :---------------: | :-------------------------------------------------------: |
+    | M5vog5yS  | University of Oxford | collegiate research university in Oxford, England (Est. 1096) | Oxford University | [University of Oxford](http://wikidata.org/entity/Q34433) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./G55Yyhx6.md)
+	[Oxford](./G55Yyhx6.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/M5vog5yS.html" height="800" width="1200" title="M5vog5yS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M5vog5yS" height="800" width="1200" title="M5vog5yS"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: music_organization
 
 -	__[Hubert Parry](./5RMqe6BR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British composer, teacher and historian (1848–1918)
 

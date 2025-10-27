@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 65gfhX2B
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                  | aliases        | Wikidata QID                                                        |
-    | :-------: | :--------------------: | :--------------------------: | :------------: | :-----------------------------------------------------------------: |
-    | 65gfhX2B  | labrosones with slides | class of musical instruments | slide trumpets | [labrosones with slides](http://wwww.wikidata.org/entity/Q55738923) |
+    | FAAM UUID | label                  | description                  | aliases        | Wikidata QID                                                   |
+    | :-------: | :--------------------: | :--------------------------: | :------------: | :------------------------------------------------------------: |
+    | 65gfhX2B  | labrosones with slides | class of musical instruments | slide trumpets | [labrosones with slides](http://wikidata.org/entity/Q55738923) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/65gfhX2B.html" height="800" width="1200" title="65gfhX2B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/65gfhX2B" height="800" width="1200" title="65gfhX2B"></iframe>
 
 ## Cross-references
 

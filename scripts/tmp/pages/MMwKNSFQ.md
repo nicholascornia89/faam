@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MMwKNSFQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MMwKNSFQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MMwKNSFQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MMwKNSFQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MMwKNSFQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MMwKNSFQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MMwKNSFQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description                 | Wikidata QID                                              |
-    | :-------: | :----------: | :-----: | :-------------------------: | :-------------------------------------------------------: |
-    | MMwKNSFQ  | Benoit Mozin |         | French composer (1769-1857) | [Benoit Mozin](http://wwww.wikidata.org/entity/Q17352283) |
+    | FAAM UUID | label        | aliases | description                 | Wikidata QID                                         |
+    | :-------: | :----------: | :-----: | :-------------------------: | :--------------------------------------------------: |
+    | MMwKNSFQ  | Benoit Mozin |         | French composer (1769-1857) | [Benoit Mozin](http://wikidata.org/entity/Q17352283) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/MMwKNSFQ.html" height="800" width="1200" title="MMwKNSFQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MMwKNSFQ" height="800" width="1200" title="MMwKNSFQ"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Victor Dourlen](./PbwqrnC5.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Victor_Dourlen_by_Ingres_1.jpg){align=left width="150" height="150"} 
+
+	French composer and pedagogue
+
+</div>

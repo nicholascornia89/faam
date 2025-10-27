@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6iHzMmE5
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                                | aliases               | Wikidata QID                                                   |
-    | :-------: | :----------------: | :--------------------------------------------------------: | :-------------------: | :------------------------------------------------------------: |
-    | 6iHzMmE5  | Avignon University | French university based in Avignon, France, inception 1227 | University of Avignon | [Avignon University](http://wwww.wikidata.org/entity/Q2033119) |
+    | FAAM UUID | label              | description                                                | aliases               | Wikidata QID                                              |
+    | :-------: | :----------------: | :--------------------------------------------------------: | :-------------------: | :-------------------------------------------------------: |
+    | 6iHzMmE5  | Avignon University | French university based in Avignon, France, inception 1227 | University of Avignon | [Avignon University](http://wikidata.org/entity/Q2033119) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/6iHzMmE5.html" height="800" width="1200" title="6iHzMmE5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6iHzMmE5" height="800" width="1200" title="6iHzMmE5"></iframe>
 
 ## Cross-references
 

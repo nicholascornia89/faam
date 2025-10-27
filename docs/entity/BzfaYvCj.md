@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BzfaYvCj
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BzfaYvCj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BzfaYvCj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BzfaYvCj.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BzfaYvCj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BzfaYvCj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BzfaYvCj.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giusto_Fernando_Tenducci.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases                  | description                                                       | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :----------------------: | :---------------------------------------------------------------: | :------------------------------------------------------------------: |
-    | BzfaYvCj  | Giusto Fernando Tenducci | Giusto Fernando Tenducci | Italian castrato opera singer and compose in Britain; (1736-1790) | [Giusto Fernando Tenducci](http://wwww.wikidata.org/entity/Q3771763) |
+    | FAAM UUID | label                    | aliases                  | description                                                       | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :----------------------: | :---------------------------------------------------------------: | :-------------------------------------------------------------: |
+    | BzfaYvCj  | Giusto Fernando Tenducci | Giusto Fernando Tenducci | Italian castrato opera singer and compose in Britain; (1736-1790) | [Giusto Fernando Tenducci](http://wikidata.org/entity/Q3771763) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/BzfaYvCj.html" height="800" width="1200" title="BzfaYvCj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BzfaYvCj" height="800" width="1200" title="BzfaYvCj"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,7 @@ tags: agent
 
 -	__[A | Collection of Lessons | for the Harpsicord | or Piano et Forte | Composed by | Ferdinando Tenducci | Dedicated to the Right Hon.ble | Lady Hope](./KuGVAhXq.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA76.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA76.gif){align=left width="150" height="150"} 
 
 	
 

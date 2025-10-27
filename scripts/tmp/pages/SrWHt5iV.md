@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SrWHt5iV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                    | aliases | Wikidata QID                                            |
-    | :-------: | :---------: | :----------------------------: | :-----: | :-----------------------------------------------------: |
-    | SrWHt5iV  | Chamouilley | commune in Haute-Marne, France |         | [Chamouilley](http://wwww.wikidata.org/entity/Q1101461) |
+    | FAAM UUID | label       | description                    | aliases | Wikidata QID                                       |
+    | :-------: | :---------: | :----------------------------: | :-----: | :------------------------------------------------: |
+    | SrWHt5iV  | Chamouilley | commune in Haute-Marne, France |         | [Chamouilley](http://wikidata.org/entity/Q1101461) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/SrWHt5iV.html" height="800" width="1200" title="SrWHt5iV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SrWHt5iV" height="800" width="1200" title="SrWHt5iV"></iframe>
 
 ## Identifiers
 

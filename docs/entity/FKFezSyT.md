@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FKFezSyT
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | aliases                   | description                            | Wikidata QID                                                      |
-    | :-------: | :------------------------: | :-----------------------: | :------------------------------------: | :---------------------------------------------------------------: |
-    | FKFezSyT  | Piano Concerto No.1, Op.11 | Piano Concerto in C major | piano concerto by Carl Maria von Weber | [Piano Concerto No. 1](http://wwww.wikidata.org/entity/Q11331308) |
+    | FAAM UUID | label                      | aliases                   | description                            | Wikidata QID                                                 |
+    | :-------: | :------------------------: | :-----------------------: | :------------------------------------: | :----------------------------------------------------------: |
+    | FKFezSyT  | Piano Concerto No.1, Op.11 | Piano Concerto in C major | piano concerto by Carl Maria von Weber | [Piano Concerto No. 1](http://wikidata.org/entity/Q11331308) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/FKFezSyT.html" height="800" width="1200" title="FKFezSyT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FKFezSyT" height="800" width="1200" title="FKFezSyT"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Concerto N° 1 in C : voor piano enOrchestra : Opus 11.](./kDHA4eYt.md)__
 
-	![Image](../assets/images/thumbs/KCG-000372455.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000372455.gif){align=left width="150" height="150"} 
 
 	
 

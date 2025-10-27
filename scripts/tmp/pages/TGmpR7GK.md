@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TGmpR7GK
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                              | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :--------------------------------------: | :-----: | :-----------------------------------------------: |
-    | TGmpR7GK  | Leuven | capital city of Flemish Brabant, Belgium | Louvain | [Leuven](http://wwww.wikidata.org/entity/Q118958) |
+    | FAAM UUID | label  | description                              | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :--------------------------------------: | :-----: | :------------------------------------------: |
+    | TGmpR7GK  | Leuven | capital city of Flemish Brabant, Belgium | Louvain | [Leuven](http://wikidata.org/entity/Q118958) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TGmpR7GK.html" height="800" width="1200" title="TGmpR7GK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TGmpR7GK" height="800" width="1200" title="TGmpR7GK"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Elisabeth Alberdingk Thijm](./QDMziZ5r.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	writer, translator and patron (1863-1952)
 

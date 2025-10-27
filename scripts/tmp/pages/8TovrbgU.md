@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8TovrbgU
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8TovrbgU.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8TovrbgU.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8TovrbgU.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8TovrbgU.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8TovrbgU.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8TovrbgU.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alfred_Bruneau.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                                 | description                 | Wikidata QID                                              |
-    | :-------: | :------------: | :-------------------------------------: | :-------------------------: | :-------------------------------------------------------: |
-    | 8TovrbgU  | Alfred Bruneau | Louis-Charles-Bonaventure-Alfred Brunea | French composer (1857-1934) | [Alfred Bruneau](http://wwww.wikidata.org/entity/Q933351) |
+    | FAAM UUID | label          | aliases                                 | description                 | Wikidata QID                                         |
+    | :-------: | :------------: | :-------------------------------------: | :-------------------------: | :--------------------------------------------------: |
+    | 8TovrbgU  | Alfred Bruneau | Louis-Charles-Bonaventure-Alfred Brunea | French composer (1857-1934) | [Alfred Bruneau](http://wikidata.org/entity/Q933351) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 ??? quote "educated at" 
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8TovrbgU.html" height="800" width="1200" title="8TovrbgU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8TovrbgU" height="800" width="1200" title="8TovrbgU"></iframe>
 
 ## Identifiers
 
@@ -89,25 +93,25 @@ tags: agent
 
 -	__[Le Nouveau-né](./AXDEQZr2.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p53.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p53.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Amants fidèles ou Le Cierge dans le paradis](./fJiP5iiC.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p33.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p33.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[L'Enfant-Roi](./eX6am24G.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p42.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p42.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Nais Micoulin](./kf3QYqBs.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p72.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p72.gif){align=left width="150" height="150"} 
 
 	
 

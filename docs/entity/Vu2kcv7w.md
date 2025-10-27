@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vu2kcv7w
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Vu2kcv7w.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Vu2kcv7w.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Vu2kcv7w.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Vu2kcv7w.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Vu2kcv7w.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Vu2kcv7w.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Maria_Bononcini.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases                  | description                                | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :----------------------: | :----------------------------------------: | :-----------------------------------------------------------------: |
-    | Vu2kcv7w  | Giovanni Maria Bononcini | Giovanni Maria Bononcini | Italian violinist and composer (1642-1678) | [Giovanni Maria Bononcini](http://wwww.wikidata.org/entity/Q957648) |
+    | FAAM UUID | label                    | aliases                  | description                                | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :----------------------: | :----------------------------------------: | :------------------------------------------------------------: |
+    | Vu2kcv7w  | Giovanni Maria Bononcini | Giovanni Maria Bononcini | Italian violinist and composer (1642-1678) | [Giovanni Maria Bononcini](http://wikidata.org/entity/Q957648) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [music theorist](./HkbL2euD.md)
 
-	- [](./HiywuUEM.md)
+	- [non-fiction writer](./HiywuUEM.md)
 
 	- [violinist](./9CVVGZdo.md)
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Vu2kcv7w.html" height="800" width="1200" title="Vu2kcv7w"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vu2kcv7w" height="800" width="1200" title="Vu2kcv7w"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Bononcini](./GUoz686r.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Buononcini.jpg){align=left width="150" height="150"} 
+
+	Italian composer (1670–1747)
+
+</div>

@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cSBUDXaw a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "village and civil parish in the Brentwood borough of Essex, England"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1008415>,
+        "0"^^xsd:string,
+        "cSBUDXaw"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu ;
+    skos:altLabel "Stondon Massey (civil parish), Essex"^^xsd:string,
+        "Stondon Massey, Essex"^^xsd:string ;
+    skos:prefLabel "Stondon Massey"^^xsd:string ;
+    wd:P1566 gn:11593453,
+        gn:7293502 .
+

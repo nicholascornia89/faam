@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MiAQkxaw
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description      | aliases | Wikidata QID                                       |
-    | :-------: | :------: | :--------------: | :-----: | :------------------------------------------------: |
-    | MiAQkxaw  | Valletta | capital of Malta | Valleta | [Valletta](http://wwww.wikidata.org/entity/Q23800) |
+    | FAAM UUID | label    | description      | aliases | Wikidata QID                                  |
+    | :-------: | :------: | :--------------: | :-----: | :-------------------------------------------: |
+    | MiAQkxaw  | Valletta | capital of Malta | Valleta | [Valletta](http://wikidata.org/entity/Q23800) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/MiAQkxaw.html" height="800" width="1200" title="MiAQkxaw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MiAQkxaw" height="800" width="1200" title="MiAQkxaw"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Girolamo Abos](./9C5ZHtsW.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Maltese-Italian composer (1715–1760)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BrGDbQMx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description             | aliases               | Wikidata QID                                            |
-    | :-------: | :----------: | :---------------------: | :-------------------: | :-----------------------------------------------------: |
-    | BrGDbQMx  | Ermenonville | commune in Oise, France | Jean-Jacques-Rousseau | [Ermenonville](http://wwww.wikidata.org/entity/Q391953) |
+    | FAAM UUID | label        | description             | aliases               | Wikidata QID                                       |
+    | :-------: | :----------: | :---------------------: | :-------------------: | :------------------------------------------------: |
+    | BrGDbQMx  | Ermenonville | commune in Oise, France | Jean-Jacques-Rousseau | [Ermenonville](http://wikidata.org/entity/Q391953) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BrGDbQMx.html" height="800" width="1200" title="BrGDbQMx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BrGDbQMx" height="800" width="1200" title="BrGDbQMx"></iframe>
 
 ## Identifiers
 

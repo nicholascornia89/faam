@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JJEmNCK7
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                  | aliases      | Wikidata QID                                         |
-    | :-------: | :-----: | :--------------------------: | :----------: | :--------------------------------------------------: |
-    | JJEmNCK7  | cellist | musician who plays the cello | cello player | [cellist](http://wwww.wikidata.org/entity/Q13219637) |
+    | FAAM UUID | label   | description                  | aliases      | Wikidata QID                                    |
+    | :-------: | :-----: | :--------------------------: | :----------: | :---------------------------------------------: |
+    | JJEmNCK7  | cellist | musician who plays the cello | cello player | [cellist](http://wikidata.org/entity/Q13219637) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/JJEmNCK7.html" height="800" width="1200" title="JJEmNCK7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JJEmNCK7" height="800" width="1200" title="JJEmNCK7"></iframe>
 
 ## Cross-references
 
@@ -49,7 +53,7 @@ tags: occupation
 
 -	__[Jef Alpaerts](./LFJgDfLj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian cellist and composer
 
@@ -73,13 +77,13 @@ tags: occupation
 
 -	__[Ernest Gillet](./Sjw2pJu9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician and composer (1856-1940)
 
 -	__[Charles Baudiot](./NnHKaK9g.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French cellist, composer and music educator
 
@@ -109,7 +113,7 @@ tags: occupation
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
@@ -145,7 +149,7 @@ tags: occupation
 
 -	__[Georg Goltermann](./aQfbT97p.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German cellist, conductor, and composer (1824–1898)
 
@@ -163,7 +167,7 @@ tags: occupation
 
 -	__[James Cervetto](./mKS3bq3i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English cellist and composer
 
@@ -175,19 +179,19 @@ tags: occupation
 
 -	__[Cesare A. Casella](./GbqX2j2Y.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	composer, cellist (1822-1886)
 
 -	__[Gaetano Agazzi](./WbCeeNZe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Salvatore Lanzetti](./3KAmatqN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian cello player and composer
 
@@ -211,7 +215,7 @@ tags: occupation
 
 -	__[Julien Closset](./6CJAA9n5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and cellist
 
@@ -223,19 +227,19 @@ tags: occupation
 
 -	__[Julien Closset](./JAJecPWc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and cellist
 
 -	__[Léa Fauquel](./hXVVRcWL.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Petronio Franceschini](./iSNyEoZS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1651-1680)
 
@@ -253,7 +257,7 @@ tags: occupation
 
 -	__[Jean-Baptiste-Aimé Joseph Janson](./HqrR2CSY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, cellist and music educator (1742-1803)
 
@@ -265,13 +269,13 @@ tags: occupation
 
 -	__[Karl Drexler](./PmQmiLgv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German cellist and music educator (1800-1873)
 
 -	__[Josef Reicha](./KeExYuiF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech composer and violoncellist
 
@@ -283,7 +287,7 @@ tags: occupation
 
 -	__[Jean-Henri Levasseur](./TuQsEjAR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French cellist and composer
 
@@ -301,19 +305,19 @@ tags: occupation
 
 -	__[Johann Konrad Schlick](./EUtRFBeV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German cellist
 
 -	__[Giovanni Battista Costanzi](./Ymv4KcHV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Henri Geul](./ku6jtjDm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

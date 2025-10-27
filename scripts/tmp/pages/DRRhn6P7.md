@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DRRhn6P7
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                          | description                   | aliases                                 | Wikidata QID                                                                              |
-    | :-------: | :--------------------------------------------: | :---------------------------: | :-------------------------------------: | :---------------------------------------------------------------------------------------: |
-    | DRRhn6P7  | University of Music and Performing Arts Vienna | university in Vienna, Austria | University of Music and Performing Arts | [University of Music and Performing Arts Vienna](http://wwww.wikidata.org/entity/Q686522) |
+    | FAAM UUID | label                                          | description                   | aliases                                 | Wikidata QID                                                                         |
+    | :-------: | :--------------------------------------------: | :---------------------------: | :-------------------------------------: | :----------------------------------------------------------------------------------: |
+    | DRRhn6P7  | University of Music and Performing Arts Vienna | university in Vienna, Austria | University of Music and Performing Arts | [University of Music and Performing Arts Vienna](http://wikidata.org/entity/Q686522) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/DRRhn6P7.html" height="800" width="1200" title="DRRhn6P7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DRRhn6P7" height="800" width="1200" title="DRRhn6P7"></iframe>
 
 ## Cross-references
 
@@ -83,7 +87,7 @@ tags: music_organization
 
 -	__[Josef Dachs](./JUuCMm3W.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian musician (1825–1896)
 
@@ -107,43 +111,43 @@ tags: music_organization
 
 -	__[Joseph Böhm](./6b3CkNVn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Hungarian musician (1795-1876)
 
 -	__[Georg Hellmesberger](./8uBMTTxq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian violinist, conductor and composer (1800–1873)
 
 -	__[Jakob Grün](./DJPGuSPB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Hungarian violinist and music educator (1837-1916)
 
 -	__[Joseph Marx](./383CM2RQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer, teacher and critic (1882-1964)
 
 -	__[Franz Schmidt](./NtfUK4LJ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer, cellist and pianist (1874-1939)
 
 -	__[Johann Nepomuk Fuchs](./Qu7owwo2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer and conductor (1842-1899)
 
 -	__[Robert Fuchs](./R8NWq8XK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer and music teacher (1847–1927)
 
@@ -197,7 +201,7 @@ tags: music_organization
 
 -	__[Henri Vieuxtemps](./dQpy5hbT.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vieuxtemps.jpeg){align=left width="150" height="150"} 
 
 	Belgian violinist and composer (1820-1881)
 

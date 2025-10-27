@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9ZLX7vME
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                                             | description                    | Wikidata QID                                               |
-    | :-------: | :--------------: | :-------------------------------------------------: | :----------------------------: | :--------------------------------------------------------: |
-    | 9ZLX7vME  | Romeo and Juliet | An Excellent conceited Tragedie of Romeo and Iuliet | tragedy by William Shakespeare | [Romeo and Juliet](http://wwww.wikidata.org/entity/Q83186) |
+    | FAAM UUID | label            | aliases                                             | description                    | Wikidata QID                                          |
+    | :-------: | :--------------: | :-------------------------------------------------: | :----------------------------: | :---------------------------------------------------: |
+    | 9ZLX7vME  | Romeo and Juliet | An Excellent conceited Tragedie of Romeo and Iuliet | tragedy by William Shakespeare | [Romeo and Juliet](http://wikidata.org/entity/Q83186) |
 
 <br><br><br>
 
@@ -39,13 +43,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./eSNNRKyY.md)
+	- [The Tragicall Historye of Romeus and Juliet](./eSNNRKyY.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/9ZLX7vME.html" height="800" width="1200" title="9ZLX7vME"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9ZLX7vME" height="800" width="1200" title="9ZLX7vME"></iframe>
 
 ## Identifiers
 

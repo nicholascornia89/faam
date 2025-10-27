@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: g9oYkZyL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :--------------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | g9oYkZyL  | Mainz | capital of the federal state Rhineland-Palatinate, Germany | Mainz   | [Mainz](http://wwww.wikidata.org/entity/Q1720) |
+    | FAAM UUID | label | description                                                | aliases | Wikidata QID                              |
+    | :-------: | :---: | :--------------------------------------------------------: | :-----: | :---------------------------------------: |
+    | g9oYkZyL  | Mainz | capital of the federal state Rhineland-Palatinate, Germany | Mainz   | [Mainz](http://wikidata.org/entity/Q1720) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/g9oYkZyL.html" height="800" width="1200" title="g9oYkZyL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/g9oYkZyL" height="800" width="1200" title="g9oYkZyL"></iframe>
 
 ## Identifiers
 

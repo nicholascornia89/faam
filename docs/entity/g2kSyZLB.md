@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: g2kSyZLB
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902354767/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/g2kSyZLB.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/g2kSyZLB.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/g2kSyZLB.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902354767/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/g2kSyZLB.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/g2kSyZLB.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/g2kSyZLB.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902354767.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902354767.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title       | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------: | :----------------------: | :-----------------------------------------------------------: |
-    | g2kSyZLB  | KCA-030902354767      | Ik droomde! | [external URL](LQE77nqs) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title       | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :---------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | g2kSyZLB  | KCA-030902354767      | Ik droomde! | [external URL](https://anet.be/record/opacdkvc/c:lvd:6793327/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -77,10 +81,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/g2kSyZLB.html" height="800" width="1200" title="g2kSyZLB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/g2kSyZLB" height="800" width="1200" title="g2kSyZLB"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/g2kSyZLB.html" height="800" width="1200" title="g2kSyZLB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/g2kSyZLB" height="800" width="1200" title="g2kSyZLB"></iframe>

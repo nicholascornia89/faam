@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RZGiFfU2
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description                          | aliases                  | Wikidata QID                                                                |
-    | :-------: | :----------------------------: | :----------------------------------: | :----------------------: | :-------------------------------------------------------------------------: |
-    | RZGiFfU2  | professor of music composition | music professor teaching composition | professor of composition | [professor of music composition](http://wwww.wikidata.org/entity/Q24256060) |
+    | FAAM UUID | label                          | description                          | aliases                  | Wikidata QID                                                           |
+    | :-------: | :----------------------------: | :----------------------------------: | :----------------------: | :--------------------------------------------------------------------: |
+    | RZGiFfU2  | professor of music composition | music professor teaching composition | professor of composition | [professor of music composition](http://wikidata.org/entity/Q24256060) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/RZGiFfU2.html" height="800" width="1200" title="RZGiFfU2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RZGiFfU2" height="800" width="1200" title="RZGiFfU2"></iframe>
 
 ## Cross-references
 

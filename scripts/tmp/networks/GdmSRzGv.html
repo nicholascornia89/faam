@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "QChw63qm", "label": "Alfredo Soffredini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QChw63qm.md\u0027\u003eAlfredo Soffredini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "GdmSRzGv", "label": "lyricist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GdmSRzGv.md\u0027\u003elyricist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ewriter of song lyrics\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "EorjjYHP", "label": "\u00c9mile Barateau", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EorjjYHP.md\u0027\u003e\u00c9mile Barateau\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epenman, poet, lyricist (1792-1870)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "57nJD8mo", "label": "Hafez", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./57nJD8mo.md\u0027\u003eHafez\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ePersian poet and mystic (1325\u20131389)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mohammad_Shams_al-Din_Hafez.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "QChw63qm", "to": "GdmSRzGv", "width": 10}, {"from": "EorjjYHP", "to": "GdmSRzGv", "width": 10}, {"from": "GdmSRzGv", "to": "57nJD8mo", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "57nJD8mo", "label": "Hafez", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/57nJD8mo\u0027\u003eHafez\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ePersian poet and mystic (1325\u20131389)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mohammad_Shams_al-Din_Hafez.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "GdmSRzGv", "label": "lyricist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GdmSRzGv\u0027\u003elyricist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ewriter of song lyrics\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "EorjjYHP", "label": "\u00c9mile Barateau", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/EorjjYHP\u0027\u003e\u00c9mile Barateau\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epenman, poet, lyricist (1792-1870)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "QChw63qm", "label": "Alfredo Soffredini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QChw63qm\u0027\u003eAlfredo Soffredini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "57nJD8mo", "to": "GdmSRzGv", "width": 10}, {"from": "EorjjYHP", "to": "GdmSRzGv", "width": 10}, {"from": "GdmSRzGv", "to": "QChw63qm", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

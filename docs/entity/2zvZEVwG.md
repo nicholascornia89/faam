@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2zvZEVwG
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                           | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :-----------------------------------: | :-----: | :------------------------------------------------: |
-    | 2zvZEVwG  | method | planned path to reaching an objective | methods | [method](http://wwww.wikidata.org/entity/Q1799072) |
+    | FAAM UUID | label  | description                           | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :-----------------------------------: | :-----: | :-------------------------------------------: |
+    | 2zvZEVwG  | method | planned path to reaching an objective | methods | [method](http://wikidata.org/entity/Q1799072) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/2zvZEVwG.html" height="800" width="1200" title="2zvZEVwG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2zvZEVwG" height="800" width="1200" title="2zvZEVwG"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vk44zu9x
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Vk44zu9x.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Vk44zu9x.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Vk44zu9x.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Vk44zu9x.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Vk44zu9x.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Vk44zu9x.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Walter_Cecil_Macfarren_001.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases          | description                  | Wikidata QID                                                        |
-    | :-------: | :--------------------: | :--------------: | :--------------------------: | :-----------------------------------------------------------------: |
-    | Vk44zu9x  | Walter Cecil Macfarren | Walter Macfarren | English pianist and composer | [Walter Cecil Macfarren](http://wwww.wikidata.org/entity/Q18954633) |
+    | FAAM UUID | label                  | aliases          | description                  | Wikidata QID                                                   |
+    | :-------: | :--------------------: | :--------------: | :--------------------------: | :------------------------------------------------------------: |
+    | Vk44zu9x  | Walter Cecil Macfarren | Walter Macfarren | English pianist and composer | [Walter Cecil Macfarren](http://wikidata.org/entity/Q18954633) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Vk44zu9x.html" height="800" width="1200" title="Vk44zu9x"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vk44zu9x" height="800" width="1200" title="Vk44zu9x"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[George Aitken](./b4BzWFzE.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	English composer and pianist (b.1882)
+
+-	__[Tobias Matthay](./mxQFtBVF.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tobias_Matthay_-_Project_Gutenberg_eText_15604.png){align=left width="150" height="150"} 
+
+	British pianist, teacher and composer (1858–1945)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DpNySsgB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                   | aliases         | Wikidata QID                                               |
-    | :-------: | :-------------: | :---------------------------: | :-------------: | :--------------------------------------------------------: |
-    | DpNySsgB  | Sânnicolau Mare | town in Timiș County, Romania | Sannicolau Mare | [Sânnicolau Mare](http://wwww.wikidata.org/entity/Q837161) |
+    | FAAM UUID | label           | description                   | aliases         | Wikidata QID                                          |
+    | :-------: | :-------------: | :---------------------------: | :-------------: | :---------------------------------------------------: |
+    | DpNySsgB  | Sânnicolau Mare | town in Timiș County, Romania | Sannicolau Mare | [Sânnicolau Mare](http://wikidata.org/entity/Q837161) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/DpNySsgB.html" height="800" width="1200" title="DpNySsgB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DpNySsgB" height="800" width="1200" title="DpNySsgB"></iframe>
 
 ## Identifiers
 

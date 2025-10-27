@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ha7SvtCj
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                   | aliases | Wikidata QID                                         |
-    | :-------: | :--------: | :---------------------------: | :-----: | :--------------------------------------------------: |
-    | Ha7SvtCj  | Vermandois | traditional county of Picardy |         | [Vermandois](http://wwww.wikidata.org/entity/Q26385) |
+    | FAAM UUID | label      | description                   | aliases | Wikidata QID                                    |
+    | :-------: | :--------: | :---------------------------: | :-----: | :---------------------------------------------: |
+    | Ha7SvtCj  | Vermandois | traditional county of Picardy |         | [Vermandois](http://wikidata.org/entity/Q26385) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Ha7SvtCj.html" height="800" width="1200" title="Ha7SvtCj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ha7SvtCj" height="800" width="1200" title="Ha7SvtCj"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Josquin des Prez](./7ahVeGBq.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8e/Josquin_des_Prez.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josquin_des_Prez.jpg){align=left width="150" height="150"} 
 
 	composer of the Renaissance (c. 1450–1521)
 

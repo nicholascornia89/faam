@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NJhqUmN2
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NJhqUmN2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NJhqUmN2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NJhqUmN2.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NJhqUmN2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NJhqUmN2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NJhqUmN2.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giosuè_Carducci3_(cropped).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                          | Wikidata QID                                              |
-    | :-------: | :-------------: | :-------------: | :----------------------------------: | :-------------------------------------------------------: |
-    | NJhqUmN2  | Giosuè Carducci | Giosue Carducci | Italian poet and teacher (1835-1907) | [Giosuè Carducci](http://wwww.wikidata.org/entity/Q43440) |
+    | FAAM UUID | label           | aliases         | description                          | Wikidata QID                                         |
+    | :-------: | :-------------: | :-------------: | :----------------------------------: | :--------------------------------------------------: |
+    | NJhqUmN2  | Giosuè Carducci | Giosue Carducci | Italian poet and teacher (1835-1907) | [Giosuè Carducci](http://wikidata.org/entity/Q43440) |
 
 <br><br><br>
 
@@ -55,19 +59,19 @@ tags: agent
 
 	- [literary critic](./ZRPRu8Sj.md)
 
-	- [](./mgCuy3HQ.md)
+	- [philologist](./mgCuy3HQ.md)
 
 ??? quote "educated at" 
 
-	- [](./2vqA3xHH.md)
+	- [convent of Scolopi](./2vqA3xHH.md)
 
-	- [](./Q8R6Cvdd.md)
+	- [Scuola Normale Superiore. Classe di Lettere e Filosofia](./Q8R6Cvdd.md)
 
 ??? quote "employer" 
 
-	- [](./AfjP44UA.md)
+	- [San Miniato lyceum-gymnasium](./AfjP44UA.md)
 
-	- [](./gxzXao2B.md)
+	- [Liceo Statale Niccolò Forteguerri](./gxzXao2B.md)
 
 	- [University of Bologna](./NzskaK6T.md)
 
@@ -75,7 +79,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NJhqUmN2.html" height="800" width="1200" title="NJhqUmN2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NJhqUmN2" height="800" width="1200" title="NJhqUmN2"></iframe>
 
 ## Identifiers
 
@@ -96,3 +100,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Ruggero Leoncavallo](./Yk43yHM9.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Zonder_titel_PK-F-MM.5862_-_recto.tiff){align=left width="150" height="150"} 
+
+	Italian composer
+
+</div>

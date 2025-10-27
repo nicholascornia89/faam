@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XtjRJ6FC
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902357885/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XtjRJ6FC.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XtjRJ6FC.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XtjRJ6FC.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902357885/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XtjRJ6FC.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XtjRJ6FC.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XtjRJ6FC.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902357885.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902357885.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                           | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | XtjRJ6FC  | KCA-030902357885      | Sérénade de Milenka: pour ténor: (ton original) | [external URL](UJ57Ew5y) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                           | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :---------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | XtjRJ6FC  | KCA-030902357885      | Sérénade de Milenka: pour ténor: (ton original) | [external URL](https://anet.be/record/opacdkvc/c:lvd:12939634/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -93,10 +97,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/XtjRJ6FC.html" height="800" width="1200" title="XtjRJ6FC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XtjRJ6FC" height="800" width="1200" title="XtjRJ6FC"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/XtjRJ6FC.html" height="800" width="1200" title="XtjRJ6FC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/XtjRJ6FC" height="800" width="1200" title="XtjRJ6FC"></iframe>

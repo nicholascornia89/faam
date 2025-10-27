@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4bvag8U3
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                          | aliases | Wikidata QID                                       |
-    | :-------: | :-------: | :----------------------------------: | :-----: | :------------------------------------------------: |
-    | 4bvag8U3  | Wiesbaden | capital of the German state of Hesse |         | [Wiesbaden](http://wwww.wikidata.org/entity/Q1721) |
+    | FAAM UUID | label     | description                          | aliases | Wikidata QID                                  |
+    | :-------: | :-------: | :----------------------------------: | :-----: | :-------------------------------------------: |
+    | 4bvag8U3  | Wiesbaden | capital of the German state of Hesse |         | [Wiesbaden](http://wikidata.org/entity/Q1721) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4bvag8U3.html" height="800" width="1200" title="4bvag8U3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4bvag8U3" height="800" width="1200" title="4bvag8U3"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: city
 
 -	__[Theodor Kroyer](./MTPhkSTp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist (1873-1945)
 

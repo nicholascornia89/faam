@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ipBDjUYH
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description | Wikidata QID                         |
-    | :-------: | :------------: | :-----: | :---------: | :----------------------------------: |
-    | ipBDjUYH  | Kinderdeuntjes |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label          | aliases | description | Wikidata QID                    |
+    | :-------: | :------------: | :-----: | :---------: | :-----------------------------: |
+    | ipBDjUYH  | Kinderdeuntjes |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/ipBDjUYH.html" height="800" width="1200" title="ipBDjUYH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ipBDjUYH" height="800" width="1200" title="ipBDjUYH"></iframe>
 
 ## Identifiers
 
@@ -59,19 +63,19 @@ tags: musical_work
 
 -	__[Gavotte](./KUsBW9X7.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901805751.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901805751.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Kinderdeuntjes](./ntV7fDJb.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901805900.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901805900.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Kinderdeuntjes](./9uF8rfeY.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901805892.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901805892.gif){align=left width="150" height="150"} 
 
 	
 

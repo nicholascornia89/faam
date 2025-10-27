@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PGnoaY2D
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | description        | aliases                                   | Wikidata QID                                                                      |
-    | :-------: | :-----------------------------------: | :----------------: | :---------------------------------------: | :-------------------------------------------------------------------------------: |
-    | PGnoaY2D  | First Pavlov State Medical University | Russian university | Saint Petersburg State Medical University | [First Pavlov State Medical University](http://wwww.wikidata.org/entity/Q1056886) |
+    | FAAM UUID | label                                 | description        | aliases                                   | Wikidata QID                                                                 |
+    | :-------: | :-----------------------------------: | :----------------: | :---------------------------------------: | :--------------------------------------------------------------------------: |
+    | PGnoaY2D  | First Pavlov State Medical University | Russian university | Saint Petersburg State Medical University | [First Pavlov State Medical University](http://wikidata.org/entity/Q1056886) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./ZpwbPoZj.md)
+	[Saint Petersburg](./ZpwbPoZj.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/PGnoaY2D.html" height="800" width="1200" title="PGnoaY2D"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PGnoaY2D" height="800" width="1200" title="PGnoaY2D"></iframe>
 
 ## Cross-references
 

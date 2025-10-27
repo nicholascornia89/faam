@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SnnqZ7he
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143701p10/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/SnnqZ7he.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/SnnqZ7he.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/SnnqZ7he.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143701p10/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/SnnqZ7he.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/SnnqZ7he.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/SnnqZ7he.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143701p10.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143701p10.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                          | permalink                | provenance                         |
-    | :-------: | :-------------------: | :--------------------------------------------: | :----------------------: | :--------------------------------: |
-    | SnnqZ7he  | ORP-20143701p10       | Tanzkranz. 16 leichte Tänze. N. 1-16 in Band 1 | [external URL](UKFh22Sf) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                          | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :--------------------------------------------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | SnnqZ7he  | ORP-20143701p10       | Tanzkranz. 16 leichte Tänze. N. 1-16 in Band 1 | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22187) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ## Statements
 
@@ -55,10 +59,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/SnnqZ7he.html" height="800" width="1200" title="SnnqZ7he"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SnnqZ7he" height="800" width="1200" title="SnnqZ7he"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/SnnqZ7he.html" height="800" width="1200" title="SnnqZ7he"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/SnnqZ7he" height="800" width="1200" title="SnnqZ7he"></iframe>

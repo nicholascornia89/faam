@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BjUXRvQb
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                           | aliases    | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------------------------------: | :--------: | :------------------------------------------------------: |
-    | BjUXRvQb  | Linz am Rhein | town in Rhineland-Palatinate, Germany | Linz/Rhein | [Linz am Rhein](http://wwww.wikidata.org/entity/Q390125) |
+    | FAAM UUID | label         | description                           | aliases    | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------------------------------: | :--------: | :-------------------------------------------------: |
+    | BjUXRvQb  | Linz am Rhein | town in Rhineland-Palatinate, Germany | Linz/Rhein | [Linz am Rhein](http://wikidata.org/entity/Q390125) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BjUXRvQb.html" height="800" width="1200" title="BjUXRvQb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BjUXRvQb" height="800" width="1200" title="BjUXRvQb"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Stephan Lück](./Y37RQzq9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	dom kapellmeister (1806–1883)
 

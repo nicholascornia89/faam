@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2f7Dvee6
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description | aliases          | Wikidata QID                                                   |
-    | :-------: | :---------------: | :---------: | :--------------: | :------------------------------------------------------------: |
-    | 2f7Dvee6  | symmetry of music |             | musical symmetry | [symmetry of music](http://wwww.wikidata.org/entity/Q17587988) |
+    | FAAM UUID | label             | description | aliases          | Wikidata QID                                              |
+    | :-------: | :---------------: | :---------: | :--------------: | :-------------------------------------------------------: |
+    | 2f7Dvee6  | symmetry of music |             | musical symmetry | [symmetry of music](http://wikidata.org/entity/Q17587988) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/2f7Dvee6.html" height="800" width="1200" title="2f7Dvee6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2f7Dvee6" height="800" width="1200" title="2f7Dvee6"></iframe>
 
 ## Cross-references
 

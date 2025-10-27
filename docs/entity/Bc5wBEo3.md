@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Bc5wBEo3
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description            | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :--------------------: | :-----: | :--------------------------------------------------: |
-    | Bc5wBEo3  | Grobniki | place in Opole, Poland |         | [Grobniki](http://wwww.wikidata.org/entity/Q5609925) |
+    | FAAM UUID | label    | description            | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :--------------------: | :-----: | :---------------------------------------------: |
+    | Bc5wBEo3  | Grobniki | place in Opole, Poland |         | [Grobniki](http://wikidata.org/entity/Q5609925) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Bc5wBEo3.html" height="800" width="1200" title="Bc5wBEo3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Bc5wBEo3" height="800" width="1200" title="Bc5wBEo3"></iframe>
 
 ## Identifiers
 

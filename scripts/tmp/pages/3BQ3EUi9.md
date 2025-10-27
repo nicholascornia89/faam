@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3BQ3EUi9
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20143703p8/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3BQ3EUi9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3BQ3EUi9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3BQ3EUi9.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20143703p8/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3BQ3EUi9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3BQ3EUi9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3BQ3EUi9.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143703p8.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143703p8.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                | provenance                         |
-    | :-------: | :-------------------: | :------------------------------------: | :----------------------: | :--------------------------------: |
-    | 3BQ3EUi9  | ORP-20143703p8        | Faust, Opéra en 5 Actes, de Ch. Gounod | [external URL](gaLrAUbu) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :------------------------------------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | 3BQ3EUi9  | ORP-20143703p8        | Faust, Opéra en 5 Actes, de Ch. Gounod | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ## Statements
 
@@ -65,10 +69,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/3BQ3EUi9.html" height="800" width="1200" title="3BQ3EUi9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3BQ3EUi9" height="800" width="1200" title="3BQ3EUi9"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/3BQ3EUi9.html" height="800" width="1200" title="3BQ3EUi9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/3BQ3EUi9" height="800" width="1200" title="3BQ3EUi9"></iframe>

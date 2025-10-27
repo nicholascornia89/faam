@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: R29qcGpo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                       | aliases           | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------------------------: | :---------------: | :------------------------------------------------: |
-    | R29qcGpo  | Étretat | commune in Seine-Maritime, France | Cliffs of Étretat | [Étretat](http://wwww.wikidata.org/entity/Q290936) |
+    | FAAM UUID | label   | description                       | aliases           | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------------------------: | :---------------: | :-------------------------------------------: |
+    | R29qcGpo  | Étretat | commune in Seine-Maritime, France | Cliffs of Étretat | [Étretat](http://wikidata.org/entity/Q290936) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/R29qcGpo.html" height="800" width="1200" title="R29qcGpo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/R29qcGpo" height="800" width="1200" title="R29qcGpo"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KeExYuiF
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KeExYuiF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KeExYuiF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KeExYuiF.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KeExYuiF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KeExYuiF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KeExYuiF.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description                      | Wikidata QID                                            |
-    | :-------: | :----------: | :-----: | :------------------------------: | :-----------------------------------------------------: |
-    | KeExYuiF  | Josef Reicha |         | Czech composer and violoncellist | [Josef Reicha](http://wwww.wikidata.org/entity/Q569450) |
+    | FAAM UUID | label        | aliases | description                      | Wikidata QID                                       |
+    | :-------: | :----------: | :-----: | :------------------------------: | :------------------------------------------------: |
+    | KeExYuiF  | Josef Reicha |         | Czech composer and violoncellist | [Josef Reicha](http://wikidata.org/entity/Q569450) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KeExYuiF.html" height="800" width="1200" title="KeExYuiF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KeExYuiF" height="800" width="1200" title="KeExYuiF"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Anton Reicha](./SgJFWhdM.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg){align=left width="150" height="150"} 
+
+	Czech-born French composer
+
+</div>

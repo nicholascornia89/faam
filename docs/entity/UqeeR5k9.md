@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UqeeR5k9
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000350286/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UqeeR5k9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UqeeR5k9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UqeeR5k9.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000350286/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UqeeR5k9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UqeeR5k9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UqeeR5k9.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000350286.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350286.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                  | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | UqeeR5k9  | KCG-000350286         | Septet in C "Militaire" Oeuvre 114 : voor piano, Flute, Clarinet, trompet, Violin, cello en DoubleBass | [external URL](gb6MiJbD) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                  | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | UqeeR5k9  | KCG-000350286         | Septet in C "Militaire" Oeuvre 114 : voor piano, Flute, Clarinet, trompet, Violin, cello en DoubleBass | [external URL](https://catalogus.hogent.be/catalog/hog01:000350286) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -84,10 +88,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/UqeeR5k9.html" height="800" width="1200" title="UqeeR5k9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UqeeR5k9" height="800" width="1200" title="UqeeR5k9"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/UqeeR5k9.html" height="800" width="1200" title="UqeeR5k9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/UqeeR5k9" height="800" width="1200" title="UqeeR5k9"></iframe>

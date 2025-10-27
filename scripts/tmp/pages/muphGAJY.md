@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: muphGAJY
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | muphGAJY  | Keyboard Sonata in D minor, K.444 | Keyboard Sonata in D minor, L.420 | sonata by Domenico Scarlatti | [Sonata K. 444](http://wwww.wikidata.org/entity/Q74594852) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | muphGAJY  | Keyboard Sonata in D minor, K.444 | Keyboard Sonata in D minor, L.420 | sonata by Domenico Scarlatti | [Sonata K. 444](http://wikidata.org/entity/Q74594852) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/muphGAJY.html" height="800" width="1200" title="muphGAJY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/muphGAJY" height="800" width="1200" title="muphGAJY"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

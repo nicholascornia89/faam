@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: D7tPHizN
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                            | aliases                   | Wikidata QID                                              |
-    | :-------: | :------------: | :------------------------------------: | :-----------------------: | :-------------------------------------------------------: |
-    | D7tPHizN  | King's College | college of the University of Cambridge | King's College, Cambridge | [King's College](http://wwww.wikidata.org/entity/Q924289) |
+    | FAAM UUID | label          | description                            | aliases                   | Wikidata QID                                         |
+    | :-------: | :------------: | :------------------------------------: | :-----------------------: | :--------------------------------------------------: |
+    | D7tPHizN  | King's College | college of the University of Cambridge | King's College, Cambridge | [King's College](http://wikidata.org/entity/Q924289) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./5Vf3B6KY.md)
+	[Cambridge](./5Vf3B6KY.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/D7tPHizN.html" height="800" width="1200" title="D7tPHizN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/D7tPHizN" height="800" width="1200" title="D7tPHizN"></iframe>
 
 ## Cross-references
 

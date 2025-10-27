@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: n8Jsg8rS
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases      | description                             | Wikidata QID                                         |
-    | :-------: | :-------------: | :----------: | :-------------------------------------: | :--------------------------------------------------: |
-    | n8Jsg8rS  | Miserere, IGA 2 | Miserere mei | Setting of Psalm 51 by Gregorio Allegri | [Miserere](http://wwww.wikidata.org/entity/Q1576091) |
+    | FAAM UUID | label           | aliases      | description                             | Wikidata QID                                    |
+    | :-------: | :-------------: | :----------: | :-------------------------------------: | :---------------------------------------------: |
+    | n8Jsg8rS  | Miserere, IGA 2 | Miserere mei | Setting of Psalm 51 by Gregorio Allegri | [Miserere](http://wikidata.org/entity/Q1576091) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/n8Jsg8rS.html" height="800" width="1200" title="n8Jsg8rS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/n8Jsg8rS" height="800" width="1200" title="n8Jsg8rS"></iframe>
 
 ## Identifiers
 
@@ -81,31 +85,31 @@ tags: musical_work
 
 -	__[La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia](./iFkRR5rr.md)__
 
-	![Image](../assets/images/thumbs/SLD-512657440.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SLD-512657440.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife](./8h6APj7b.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076911629707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076911629707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne : executés aux concerts de la Sociéte de musique vocale religieuse et classique fondée a Paris en 1843 [...] sous la direction de Mr. le Prince de la Moskowa. [Deuxième volume, Nr 8-20]](./Mdtc39Ji.md)__
 
-	![Image](../assets/images/thumbs/KMN-100549.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KMN-100549.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Livre des motets (3e année)](./3ywrWJLQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV105371.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV105371.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne : executés aux concerts de la Sociéte de musique vocale religieuse et classique fondée a Paris en 1843 [...] sous la direction de Mr. le Prince de la Moskowa. [Deuxième volume, Nr 8-20]](./Mdtc39Ji.md)__
 
-	![Image](../assets/images/thumbs/KMN-100549.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KMN-100549.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Gy7etqb5
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description                | Wikidata QID                                           |
-    | :-------: | :-------: | :-------: | :------------------------: | :----------------------------------------------------: |
-    | Gy7etqb5  | La sirène | La Sirène | 1844 opera by Daniel Auber | [La sirène](http://wwww.wikidata.org/entity/Q64995220) |
+    | FAAM UUID | label     | aliases   | description                | Wikidata QID                                      |
+    | :-------: | :-------: | :-------: | :------------------------: | :-----------------------------------------------: |
+    | Gy7etqb5  | La sirène | La Sirène | 1844 opera by Daniel Auber | [La sirène](http://wikidata.org/entity/Q64995220) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Gy7etqb5.html" height="800" width="1200" title="Gy7etqb5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Gy7etqb5" height="800" width="1200" title="Gy7etqb5"></iframe>
 
 ## Identifiers
 

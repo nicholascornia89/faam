@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CEjchGw4
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/CEjchGw4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/CEjchGw4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/CEjchGw4.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/CEjchGw4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/CEjchGw4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/CEjchGw4.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                      | Wikidata QID                                                |
-    | :-------: | :-----------: | :-----------: | :------------------------------: | :---------------------------------------------------------: |
-    | CEjchGw4  | Maria Anfossi | Maria Anfossi | Italian singer and music teacher | [Maria Anfossi](http://wwww.wikidata.org/entity/Q130418526) |
+    | FAAM UUID | label         | aliases       | description                      | Wikidata QID                                           |
+    | :-------: | :-----------: | :-----------: | :------------------------------: | :----------------------------------------------------: |
+    | CEjchGw4  | Maria Anfossi | Maria Anfossi | Italian singer and music teacher | [Maria Anfossi](http://wikidata.org/entity/Q130418526) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/CEjchGw4.html" height="800" width="1200" title="CEjchGw4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CEjchGw4" height="800" width="1200" title="CEjchGw4"></iframe>
 
 ## Identifiers
 
@@ -73,13 +77,13 @@ tags: agent
 
 -	__[A theoretical and practical treatise on the art of singing = Trattato teorico-pratico sull'arte del canto / composed ... by Maria Anfossi.](./7FG3xHXk.md)__
 
-	![Image](../assets/images/thumbs/UML-68584532.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/UML-68584532.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[A theoretical and practical treatise on the art of singing = Trattato teorico-pratico sull'arte del canto / composed ... by Maria Anfossi.](./7FG3xHXk.md)__
 
-	![Image](../assets/images/thumbs/UML-68584532.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/UML-68584532.gif){align=left width="150" height="150"} 
 
 	
 

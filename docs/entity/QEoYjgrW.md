@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QEoYjgrW
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                           | Wikidata QID                                              |
-    | :-------: | :-------------: | :-------------: | :-----------------------------------: | :-------------------------------------------------------: |
-    | QEoYjgrW  | Orlando Furioso | Orlando furioso | epic Italian poem by Ludovico Ariosto | [Orlando Furioso](http://wwww.wikidata.org/entity/Q48922) |
+    | FAAM UUID | label           | aliases         | description                           | Wikidata QID                                         |
+    | :-------: | :-------------: | :-------------: | :-----------------------------------: | :--------------------------------------------------: |
+    | QEoYjgrW  | Orlando Furioso | Orlando furioso | epic Italian poem by Ludovico Ariosto | [Orlando Furioso](http://wikidata.org/entity/Q48922) |
 
 <br><br><br>
 
@@ -35,15 +39,15 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./o7nk6Uyh.md)
+	- [The Song of Roland](./o7nk6Uyh.md)
 
-	- [](./P5L5QHfS.md)
+	- [Orlando Innamorato](./P5L5QHfS.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/QEoYjgrW.html" height="800" width="1200" title="QEoYjgrW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QEoYjgrW" height="800" width="1200" title="QEoYjgrW"></iframe>
 
 ## Identifiers
 

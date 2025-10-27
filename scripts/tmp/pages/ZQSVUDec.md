@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZQSVUDec
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ZQSVUDec.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ZQSVUDec.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ZQSVUDec.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ZQSVUDec.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ZQSVUDec.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ZQSVUDec.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases       | description             | Wikidata QID                                               |
-    | :-------: | :------------: | :-----------: | :---------------------: | :--------------------------------------------------------: |
-    | ZQSVUDec  | Robert Bremner | Robert Brymer | British music publisher | [Robert Bremner](http://wwww.wikidata.org/entity/Q7342331) |
+    | FAAM UUID | label          | aliases       | description             | Wikidata QID                                          |
+    | :-------: | :------------: | :-----------: | :---------------------: | :---------------------------------------------------: |
+    | ZQSVUDec  | Robert Bremner | Robert Brymer | British music publisher | [Robert Bremner](http://wikidata.org/entity/Q7342331) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./Q84RFgum.md)
+	- [fiddler](./Q84RFgum.md)
 
 	- [music teacher](./L7DPWnnr.md)
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ZQSVUDec.html" height="800" width="1200" title="ZQSVUDec"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZQSVUDec" height="800" width="1200" title="ZQSVUDec"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: agent
 
 -	__[La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia](./iFkRR5rr.md)__
 
-	![Image](../assets/images/thumbs/SLD-512657440.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SLD-512657440.gif){align=left width="150" height="150"} 
 
 	
 

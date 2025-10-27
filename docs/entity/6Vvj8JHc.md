@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6Vvj8JHc
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                  | aliases           | Wikidata QID                                                |
-    | :-------: | :------------: | :------------------------------------------: | :---------------: | :---------------------------------------------------------: |
-    | 6Vvj8JHc  | Aix University | former university in Aix-en-Provence, France | University of Aix | [Aix University](http://wwww.wikidata.org/entity/Q26857409) |
+    | FAAM UUID | label          | description                                  | aliases           | Wikidata QID                                           |
+    | :-------: | :------------: | :------------------------------------------: | :---------------: | :----------------------------------------------------: |
+    | 6Vvj8JHc  | Aix University | former university in Aix-en-Provence, France | University of Aix | [Aix University](http://wikidata.org/entity/Q26857409) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "country" 
 
-	[County of Provence](http://www.wikidata.org/entity/Q2991382)
+	[County of Provence](Q2991382)
 
 	[France](./BJqUa5Kf.md)
 
@@ -39,7 +43,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/6Vvj8JHc.html" height="800" width="1200" title="6Vvj8JHc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6Vvj8JHc" height="800" width="1200" title="6Vvj8JHc"></iframe>
 
 ## Cross-references
 
@@ -55,7 +59,7 @@ tags: music_organization
 
 -	__[Philibert Fezaye](./jFoNaH3L.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French philosopher, teacher of Gassendi
 

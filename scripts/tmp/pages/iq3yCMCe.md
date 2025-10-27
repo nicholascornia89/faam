@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iq3yCMCe
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------: | :-----: | :---------: | :----------------------------------: |
-    | iq3yCMCe  | Piano Sonata, Op.36 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label               | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------: | :-----: | :---------: | :-----------------------------: |
+    | iq3yCMCe  | Piano Sonata, Op.36 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/iq3yCMCe.html" height="800" width="1200" title="iq3yCMCe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iq3yCMCe" height="800" width="1200" title="iq3yCMCe"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: musical_work
 
 -	__[Sonatinen : für Pianoforte Solo](./gJXhyA3T.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902713814.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902713814.gif){align=left width="150" height="150"} 
 
 	
 

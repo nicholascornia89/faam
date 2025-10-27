@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cnMJLvT7
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/cnMJLvT7.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/cnMJLvT7.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/cnMJLvT7.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/cnMJLvT7.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/cnMJLvT7.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/cnMJLvT7.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Henri_Obin_by_Alphonse_Liébert.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases | description             | Wikidata QID                                                  |
-    | :-------: | :--------------: | :-----: | :---------------------: | :-----------------------------------------------------------: |
-    | cnMJLvT7  | Louis-Henri Obin |         | French bass (1820-1895) | [Louis-Henri Obin](http://wwww.wikidata.org/entity/Q19929962) |
+    | FAAM UUID | label            | aliases | description             | Wikidata QID                                             |
+    | :-------: | :--------------: | :-----: | :---------------------: | :------------------------------------------------------: |
+    | cnMJLvT7  | Louis-Henri Obin |         | French bass (1820-1895) | [Louis-Henri Obin](http://wikidata.org/entity/Q19929962) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/cnMJLvT7.html" height="800" width="1200" title="cnMJLvT7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cnMJLvT7" height="800" width="1200" title="cnMJLvT7"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Théophile-Adolphe Manoury](./TLbNgxFk.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Théophile-Adolphe_Manoury.png){align=left width="150" height="150"} 
+
+	French baritone
+
+</div>

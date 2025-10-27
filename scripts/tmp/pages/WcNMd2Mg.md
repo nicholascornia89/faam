@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WcNMd2Mg
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WcNMd2Mg.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WcNMd2Mg.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WcNMd2Mg.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WcNMd2Mg.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WcNMd2Mg.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WcNMd2Mg.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases | description | Wikidata QID                                                |
-    | :-------: | :--------------: | :-----: | :---------: | :---------------------------------------------------------: |
-    | WcNMd2Mg  | Leonhard Lechner |         | composer    | [Leonhard Lechner](http://wwww.wikidata.org/entity/Q683132) |
+    | FAAM UUID | label            | aliases | description | Wikidata QID                                           |
+    | :-------: | :--------------: | :-----: | :---------: | :----------------------------------------------------: |
+    | WcNMd2Mg  | Leonhard Lechner |         | composer    | [Leonhard Lechner](http://wikidata.org/entity/Q683132) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/WcNMd2Mg.html" height="800" width="1200" title="WcNMd2Mg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WcNMd2Mg" height="800" width="1200" title="WcNMd2Mg"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Hans Leo Hassler](./FKbhwaox.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans_Leo_Haßler.jpg){align=left width="150" height="150"} 
+
+	German composer and organist (1564-1612)
+
+</div>

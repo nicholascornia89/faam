@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4U9xMGUe
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/4U9xMGUe.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/4U9xMGUe.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/4U9xMGUe.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/4U9xMGUe.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/4U9xMGUe.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/4U9xMGUe.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description          | Wikidata QID                                             |
-    | :-------: | :----------: | :-----: | :------------------: | :------------------------------------------------------: |
-    | 4U9xMGUe  | Albert Fuchs |         | composer (1858-1910) | [Albert Fuchs](http://wwww.wikidata.org/entity/Q5746691) |
+    | FAAM UUID | label        | aliases | description          | Wikidata QID                                        |
+    | :-------: | :----------: | :-----: | :------------------: | :-------------------------------------------------: |
+    | 4U9xMGUe  | Albert Fuchs |         | composer (1858-1910) | [Albert Fuchs](http://wikidata.org/entity/Q5746691) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/4U9xMGUe.html" height="800" width="1200" title="4U9xMGUe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4U9xMGUe" height="800" width="1200" title="4U9xMGUe"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Max Reger](./WXLXgEpt.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Reger.jpg){align=left width="150" height="150"} 
+
+	German composer, pianist and conductor (1873-1916)
+
+</div>

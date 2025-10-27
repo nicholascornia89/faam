@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: REoKBPyf
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/REoKBPyf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/REoKBPyf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/REoKBPyf.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/REoKBPyf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/REoKBPyf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/REoKBPyf.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gottfried_Mann_-_Onze_Musici_(1898).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :------------------------: | :--------------------------------------------------------: |
-    | REoKBPyf  | Gottfried Mann | Gottfried Mann | Dutch composer (1858–1904) | [Gottfried Mann](http://wwww.wikidata.org/entity/Q2081404) |
+    | FAAM UUID | label          | aliases        | description                | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :------------------------: | :---------------------------------------------------: |
+    | REoKBPyf  | Gottfried Mann | Gottfried Mann | Dutch composer (1858–1904) | [Gottfried Mann](http://wikidata.org/entity/Q2081404) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/REoKBPyf.html" height="800" width="1200" title="REoKBPyf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/REoKBPyf" height="800" width="1200" title="REoKBPyf"></iframe>
 
 ## Identifiers
 

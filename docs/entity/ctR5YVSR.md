@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ctR5YVSR
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ctR5YVSR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ctR5YVSR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ctR5YVSR.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ctR5YVSR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ctR5YVSR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ctR5YVSR.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases                 | description                      | Wikidata QID                                                      |
-    | :-------: | :---------------------: | :---------------------: | :------------------------------: | :---------------------------------------------------------------: |
-    | ctR5YVSR  | Heinrich Christoph Koch | Heinrich Christoph Koch | German musicologist and composer | [Heinrich Christoph Koch](http://wwww.wikidata.org/entity/Q87294) |
+    | FAAM UUID | label                   | aliases                 | description                      | Wikidata QID                                                 |
+    | :-------: | :---------------------: | :---------------------: | :------------------------------: | :----------------------------------------------------------: |
+    | ctR5YVSR  | Heinrich Christoph Koch | Heinrich Christoph Koch | German musicologist and composer | [Heinrich Christoph Koch](http://wikidata.org/entity/Q87294) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ctR5YVSR.html" height="800" width="1200" title="ctR5YVSR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ctR5YVSR" height="800" width="1200" title="ctR5YVSR"></iframe>
 
 ## Identifiers
 

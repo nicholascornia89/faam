@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RFNnzUS7
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                | aliases        | Wikidata QID                                               |
-    | :-------: | :------------: | :----------------------------------------: | :------------: | :--------------------------------------------------------: |
-    | RFNnzUS7  | Ferme générale | historical tax collection system in France | Ferme generale | [Ferme générale](http://wwww.wikidata.org/entity/Q1147614) |
+    | FAAM UUID | label          | description                                | aliases        | Wikidata QID                                          |
+    | :-------: | :------------: | :----------------------------------------: | :------------: | :---------------------------------------------------: |
+    | RFNnzUS7  | Ferme générale | historical tax collection system in France | Ferme generale | [Ferme générale](http://wikidata.org/entity/Q1147614) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/RFNnzUS7.html" height="800" width="1200" title="RFNnzUS7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RFNnzUS7" height="800" width="1200" title="RFNnzUS7"></iframe>
 
 ## Cross-references
 

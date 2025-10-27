@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MnwMVfio
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MnwMVfio.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MnwMVfio.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MnwMVfio.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MnwMVfio.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MnwMVfio.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MnwMVfio.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Margaret_Cavendish,_Duchess_of_Newcastle,_by_Peter_Lely.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                              | aliases            | description                                        | Wikidata QID                                                                                  |
-    | :-------: | :------------------------------------------------: | :----------------: | :------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
-    | MnwMVfio  | Margaret Cavendish, Duchess of Newcastle-upon-Tyne | Margaret Cavendish | English aristocrat, prolific writer, and scientist | [Margaret Cavendish, Duchess of Newcastle-upon-Tyne](http://wwww.wikidata.org/entity/Q242640) |
+    | FAAM UUID | label                                              | aliases            | description                                        | Wikidata QID                                                                             |
+    | :-------: | :------------------------------------------------: | :----------------: | :------------------------------------------------: | :--------------------------------------------------------------------------------------: |
+    | MnwMVfio  | Margaret Cavendish, Duchess of Newcastle-upon-Tyne | Margaret Cavendish | English aristocrat, prolific writer, and scientist | [Margaret Cavendish, Duchess of Newcastle-upon-Tyne](http://wikidata.org/entity/Q242640) |
 
 <br><br><br>
 
@@ -43,25 +47,25 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./6pfzESag.md)
+	- [philosopher](./6pfzESag.md)
 
-	- [](./efo9JT9K.md)
+	- [physicist](./efo9JT9K.md)
 
 	- [poet](./fKBqCJio.md)
 
 	- [writer](./YrCfZ8vh.md)
 
-	- [](./NdvmaeTr.md)
+	- [essayist](./NdvmaeTr.md)
 
-	- [](./nzNB9DtJ.md)
+	- [science fiction writer](./nzNB9DtJ.md)
 
-	- [](./c7DJTAj9.md)
+	- [lady-in-waiting](./c7DJTAj9.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/MnwMVfio.html" height="800" width="1200" title="MnwMVfio"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MnwMVfio" height="800" width="1200" title="MnwMVfio"></iframe>
 
 ## Identifiers
 

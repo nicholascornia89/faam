@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: epncX6P9
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/epncX6P9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/epncX6P9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/epncX6P9.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/epncX6P9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/epncX6P9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/epncX6P9.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases | description              | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----: | :----------------------: | :-----------------------------------------------------------: |
-    | epncX6P9  | Virgilio Mazzocchi |         | Italian Baroque composer | [Virgilio Mazzocchi](http://wwww.wikidata.org/entity/Q375733) |
+    | FAAM UUID | label              | aliases | description              | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----: | :----------------------: | :------------------------------------------------------: |
+    | epncX6P9  | Virgilio Mazzocchi |         | Italian Baroque composer | [Virgilio Mazzocchi](http://wikidata.org/entity/Q375733) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/epncX6P9.html" height="800" width="1200" title="epncX6P9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/epncX6P9" height="800" width="1200" title="epncX6P9"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giuseppe Corsi](./42oEhvwr.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer and priest
+
+</div>

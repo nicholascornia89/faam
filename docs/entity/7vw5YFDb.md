@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7vw5YFDb
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                 | aliases | Wikidata QID                                      |
-    | :-------: | :---: | :-------------------------: | :-----: | :-----------------------------------------------: |
-    | 7vw5YFDb  | mark  | medium of conveying meaning | marking | [mark](http://wwww.wikidata.org/entity/Q11341687) |
+    | FAAM UUID | label | description                 | aliases | Wikidata QID                                 |
+    | :-------: | :---: | :-------------------------: | :-----: | :------------------------------------------: |
+    | 7vw5YFDb  | mark  | medium of conveying meaning | marking | [mark](http://wikidata.org/entity/Q11341687) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/7vw5YFDb.html" height="800" width="1200" title="7vw5YFDb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7vw5YFDb" height="800" width="1200" title="7vw5YFDb"></iframe>
 
 ## Cross-references
 

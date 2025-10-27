@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Tf6tmSRP
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                    | aliases       | Wikidata QID                                              |
-    | :-------: | :-----------: | :----------------------------: | :-----------: | :-------------------------------------------------------: |
-    | Tf6tmSRP  | violin sonata | musical composition for violin | violin sonata | [violin sonata](http://wwww.wikidata.org/entity/Q7933385) |
+    | FAAM UUID | label         | description                    | aliases       | Wikidata QID                                         |
+    | :-------: | :-----------: | :----------------------------: | :-----------: | :--------------------------------------------------: |
+    | Tf6tmSRP  | violin sonata | musical composition for violin | violin sonata | [violin sonata](http://wikidata.org/entity/Q7933385) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Tf6tmSRP.html" height="800" width="1200" title="Tf6tmSRP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Tf6tmSRP" height="800" width="1200" title="Tf6tmSRP"></iframe>
 
 ## Cross-references
 
@@ -39,55 +43,55 @@ tags: keyword
 
 -	__[Sonate für Violine solo](./FtE6Gc97.md)__
 
-	![Image](../assets/images/thumbs/BSB-991018906949707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991018906949707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonaten für Violine mit beziffertem Bass](./MxS3GvEN.md)__
 
-	![Image](../assets/images/thumbs/BSB-991040351439707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991040351439707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Die hohe Schule des Violinspiels: Werke berühmter Meister d. 17. u. 18. Jh.](./FFiDyaRp.md)__
 
-	![Image](../assets/images/thumbs/BSB-991018766109707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991018766109707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./hUSShLaN.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902751301.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902751301.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./EFUgU9L4.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902751319.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902751319.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./mM92yEzz.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920292.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920292.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./GXFWfE7D.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920300.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920300.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate en ré majeur nr 4 : pour violon et piano](./joMynDmV.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902480737.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902480737.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate en ré majeur nr 4 : pour violon et piano](./NSHSjaif.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902480745.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902480745.gif){align=left width="150" height="150"} 
 
 	
 

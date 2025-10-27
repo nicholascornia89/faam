@@ -1,0 +1,53 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:h7iqGs87 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:YqhiCoLK ;
+    schema1:birthDate "1809-02-03"^^xsd:string ;
+    schema1:birthPlace faamentity:TrVTMFdZ ;
+    schema1:deathDate "1847-11-04"^^xsd:string ;
+    schema1:deathPlace faamentity:4GU7NjmQ ;
+    schema1:description "German composer, pianist, organist and conductor of Jewish descent (1809–1847)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q46096>,
+        "15995938"^^xsd:string,
+        "h7iqGs87"^^xsd:string ;
+    schema1:nationality faamentity:Bwqn3dni ;
+    skos:altLabel "Felix Mendelssohn"^^xsd:string,
+        "Felix Mendelssohn Bartholdy"^^xsd:string,
+        "Felix Mendelssohn-Bartholdy"^^xsd:string,
+        "Jakob Ludwig Felix Mendelssohn Bartholdy"^^xsd:string,
+        "Mendelssohn"^^xsd:string,
+        "Mendelssohn-Bartholdy"^^xsd:string ;
+    skos:prefLabel "Felix Mendelssohn"^^xsd:string ;
+    wd:P108 faamentity:PBdH8TpS ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:2665666 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/88790> ;
+    wd:P737 faamentity:BYQnQdSz,
+        faamentity:MaUbEzxG,
+        faamentity:SHxocKpW,
+        faamentity:WmRXBH5x,
+        faamentity:fqtj7Nqz,
+        faamentity:nmvHNzAd ;
+    wd:P839 <https://imslp.org/wiki/Category:Mendelssohn,_Felix> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty,
+        faamentity:YrCfZ8vh,
+        faamentity:ZhptKYF3,
+        faamentity:mGWMWMfo .
+

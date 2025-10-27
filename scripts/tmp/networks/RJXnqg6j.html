@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DpFDFGMR", "label": "Eduard M\u00fcller", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DpFDFGMR.md\u0027\u003eEduard M\u00fcller\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss organist (1912-1983)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aJeJBesD.md\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ku2dT5kg", "label": "male", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ku2dT5kg.md\u0027\u003emale\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eto be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8cygiHEB", "label": "organ", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8cygiHEB.md\u0027\u003eorgan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "RJXnqg6j", "label": "G\u00fcnther Ramin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RJXnqg6j.md\u0027\u003eG\u00fcnther Ramin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman organist, conductor and composer (1898\u20131956)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PBdH8TpS", "label": "University of Music and Theatre Leipzig", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PBdH8TpS.md\u0027\u003eUniversity of Music and Theatre Leipzig\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic university in Leipzig, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KCuuJYaL", "label": "Berlin University of the Arts", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KCuuJYaL.md\u0027\u003eBerlin University of the Arts\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic art school in Berlin, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "DpFDFGMR", "to": "aJeJBesD", "width": 1}, {"from": "DpFDFGMR", "to": "ku2dT5kg", "width": 1}, {"from": "DpFDFGMR", "to": "8cygiHEB", "width": 1}, {"from": "DpFDFGMR", "to": "RJXnqg6j", "width": 1}, {"from": "PBdH8TpS", "to": "RJXnqg6j", "width": 1}, {"from": "aJeJBesD", "to": "RJXnqg6j", "width": 1}, {"from": "ku2dT5kg", "to": "RJXnqg6j", "width": 1}, {"from": "RJXnqg6j", "to": "8cygiHEB", "width": 1}, {"from": "RJXnqg6j", "to": "KCuuJYaL", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DpFDFGMR", "label": "Eduard M\u00fcller", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DpFDFGMR\u0027\u003eEduard M\u00fcller\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss organist (1912-1983)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aJeJBesD\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ku2dT5kg", "label": "male", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ku2dT5kg\u0027\u003emale\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eto be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8cygiHEB", "label": "organ", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8cygiHEB\u0027\u003eorgan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "RJXnqg6j", "label": "G\u00fcnther Ramin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/RJXnqg6j\u0027\u003eG\u00fcnther Ramin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman organist, conductor and composer (1898\u20131956)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KCuuJYaL", "label": "Berlin University of the Arts", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KCuuJYaL\u0027\u003eBerlin University of the Arts\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic art school in Berlin, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PBdH8TpS", "label": "University of Music and Theatre Leipzig", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PBdH8TpS\u0027\u003eUniversity of Music and Theatre Leipzig\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic university in Leipzig, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "DpFDFGMR", "to": "aJeJBesD", "width": 1}, {"from": "DpFDFGMR", "to": "ku2dT5kg", "width": 1}, {"from": "DpFDFGMR", "to": "8cygiHEB", "width": 1}, {"from": "DpFDFGMR", "to": "RJXnqg6j", "width": 1}, {"from": "KCuuJYaL", "to": "RJXnqg6j", "width": 1}, {"from": "RJXnqg6j", "to": "aJeJBesD", "width": 1}, {"from": "RJXnqg6j", "to": "ku2dT5kg", "width": 1}, {"from": "RJXnqg6j", "to": "8cygiHEB", "width": 1}, {"from": "RJXnqg6j", "to": "PBdH8TpS", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

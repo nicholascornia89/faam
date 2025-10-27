@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BpqErbq5
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | BpqErbq5  | Keyboard Sonata in G minor, K.179 | Keyboard Sonata in G minor, L.177 | sonata by Domenico Scarlatti | [Sonata K. 179](http://wwww.wikidata.org/entity/Q67199948) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | BpqErbq5  | Keyboard Sonata in G minor, K.179 | Keyboard Sonata in G minor, L.177 | sonata by Domenico Scarlatti | [Sonata K. 179](http://wikidata.org/entity/Q67199948) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/BpqErbq5.html" height="800" width="1200" title="BpqErbq5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BpqErbq5" height="800" width="1200" title="BpqErbq5"></iframe>
 
 ## Identifiers
 
@@ -71,13 +75,13 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Clavecinistes de 1637 à 1790 : en trois volumes musique / [édité par] Amédée Méreaux.](./c3pcMa2E.md)__
 
-	![Image](../assets/images/thumbs/SML-18890.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18890.gif){align=left width="150" height="150"} 
 
 	
 

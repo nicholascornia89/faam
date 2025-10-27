@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FoEd7fXK
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                | aliases                              | description                                                                 | Wikidata QID                                                                     |
-    | :-------: | :----------------------------------: | :----------------------------------: | :-------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
-    | FoEd7fXK  | Gott fähret auf mit Jauchzen, BWV 43 | Gott fähret auf mit Jauchzen, BWV 43 | church cantata by Johann Sebastian Bach composed for the feast of Ascension | [Gott fähret auf mit Jauchzen, BWV 43](http://wwww.wikidata.org/entity/Q1538906) |
+    | FAAM UUID | label                                | aliases                              | description                                                                 | Wikidata QID                                                                |
+    | :-------: | :----------------------------------: | :----------------------------------: | :-------------------------------------------------------------------------: | :-------------------------------------------------------------------------: |
+    | FoEd7fXK  | Gott fähret auf mit Jauchzen, BWV 43 | Gott fähret auf mit Jauchzen, BWV 43 | church cantata by Johann Sebastian Bach composed for the feast of Ascension | [Gott fähret auf mit Jauchzen, BWV 43](http://wikidata.org/entity/Q1538906) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/FoEd7fXK.html" height="800" width="1200" title="FoEd7fXK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FoEd7fXK" height="800" width="1200" title="FoEd7fXK"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Gott fähret auf mit Jauchzen](./M6Wy5S4B.md)__
 
-	![Image](../assets/images/thumbs/BSB-991106266939707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991106266939707356.gif){align=left width="150" height="150"} 
 
 	
 

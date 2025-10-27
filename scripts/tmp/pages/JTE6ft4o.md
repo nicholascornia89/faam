@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JTE6ft4o
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                                | aliases | Wikidata QID                                      |
-    | :-------: | :---: | :------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | JTE6ft4o  | Kent  | non-metropolitan county in South East England, UK (doesn't include Medway) |         | [Kent](http://wwww.wikidata.org/entity/Q21694674) |
+    | FAAM UUID | label | description                                                                | aliases | Wikidata QID                                 |
+    | :-------: | :---: | :------------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | JTE6ft4o  | Kent  | non-metropolitan county in South East England, UK (doesn't include Medway) |         | [Kent](http://wikidata.org/entity/Q21694674) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/JTE6ft4o.html" height="800" width="1200" title="JTE6ft4o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JTE6ft4o" height="800" width="1200" title="JTE6ft4o"></iframe>
 
 ## Identifiers
 

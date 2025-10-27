@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LymYwjCa
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | description                  | aliases                           | Wikidata QID                                                                    |
-    | :-------: | :---------------------------------: | :--------------------------: | :-------------------------------: | :-----------------------------------------------------------------------------: |
-    | LymYwjCa  | Guildhall School of Music and Drama | school in City of London, UK | Guildhall School of Music & Drama | [Guildhall School of Music and Drama](http://wwww.wikidata.org/entity/Q1419737) |
+    | FAAM UUID | label                               | description                  | aliases                           | Wikidata QID                                                               |
+    | :-------: | :---------------------------------: | :--------------------------: | :-------------------------------: | :------------------------------------------------------------------------: |
+    | LymYwjCa  | Guildhall School of Music and Drama | school in City of London, UK | Guildhall School of Music & Drama | [Guildhall School of Music and Drama](http://wikidata.org/entity/Q1419737) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./CsTXBZxd.md)
+	[City of London](./CsTXBZxd.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/LymYwjCa.html" height="800" width="1200" title="LymYwjCa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LymYwjCa" height="800" width="1200" title="LymYwjCa"></iframe>
 
 ## Cross-references
 
@@ -57,13 +61,13 @@ tags: music_organization
 
 -	__[Orlando Morgan](./Ne3VPM3y.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English music teacher, composer and musicologist
 
 -	__[Orlando Morgan](./Ne3VPM3y.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English music teacher, composer and musicologist
 

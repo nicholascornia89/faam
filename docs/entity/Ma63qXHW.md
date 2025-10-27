@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ma63qXHW
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901199361/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Ma63qXHW.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Ma63qXHW.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Ma63qXHW.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901199361/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Ma63qXHW.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Ma63qXHW.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Ma63qXHW.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901199361.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901199361.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                            | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | Ma63qXHW  | KCA-030901199361      | 6 suites : pour violoncelle seul | [external URL](m9rNaSAR) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                            | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | Ma63qXHW  | KCA-030901199361      | 6 suites : pour violoncelle seul | [external URL](https://anet.be/record/opacdkvc/c:lvd:6739633/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -102,10 +106,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Ma63qXHW.html" height="800" width="1200" title="Ma63qXHW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ma63qXHW" height="800" width="1200" title="Ma63qXHW"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Ma63qXHW.html" height="800" width="1200" title="Ma63qXHW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Ma63qXHW" height="800" width="1200" title="Ma63qXHW"></iframe>

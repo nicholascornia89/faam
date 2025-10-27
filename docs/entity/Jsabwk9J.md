@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Jsabwk9J
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                 | aliases | Wikidata QID                                           |
-    | :-------: | :---------: | :-------------------------: | :-----: | :----------------------------------------------------: |
-    | Jsabwk9J  | Vernouillet | commune in Yvelines, France |         | [Vernouillet](http://wwww.wikidata.org/entity/Q638911) |
+    | FAAM UUID | label       | description                 | aliases | Wikidata QID                                      |
+    | :-------: | :---------: | :-------------------------: | :-----: | :-----------------------------------------------: |
+    | Jsabwk9J  | Vernouillet | commune in Yvelines, France |         | [Vernouillet](http://wikidata.org/entity/Q638911) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Jsabwk9J.html" height="800" width="1200" title="Jsabwk9J"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Jsabwk9J" height="800" width="1200" title="Jsabwk9J"></iframe>
 
 ## Identifiers
 

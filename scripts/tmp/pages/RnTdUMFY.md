@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RnTdUMFY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                      | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :------------------------------: | :-----: | :--------------------------------------------------: |
-    | RnTdUMFY  | Bonheiden | municipality in Antwerp, Belgium |         | [Bonheiden](http://wwww.wikidata.org/entity/Q528222) |
+    | FAAM UUID | label     | description                      | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :------------------------------: | :-----: | :---------------------------------------------: |
+    | RnTdUMFY  | Bonheiden | municipality in Antwerp, Belgium |         | [Bonheiden](http://wikidata.org/entity/Q528222) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/RnTdUMFY.html" height="800" width="1200" title="RnTdUMFY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RnTdUMFY" height="800" width="1200" title="RnTdUMFY"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[August Verbesselt](./7M5wmsyu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and flute player, 1919–2012
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Tsts8u6R
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description               | Wikidata QID                                         |
-    | :-------: | :-------: | :-------: | :-----------------------: | :--------------------------------------------------: |
-    | Tsts8u6R  | Il pirata | Il pirata | opera by Vincenzo Bellini | [Il pirata](http://wwww.wikidata.org/entity/Q467292) |
+    | FAAM UUID | label     | aliases   | description               | Wikidata QID                                    |
+    | :-------: | :-------: | :-------: | :-----------------------: | :---------------------------------------------: |
+    | Tsts8u6R  | Il pirata | Il pirata | opera by Vincenzo Bellini | [Il pirata](http://wikidata.org/entity/Q467292) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Tsts8u6R.html" height="800" width="1200" title="Tsts8u6R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Tsts8u6R" height="800" width="1200" title="Tsts8u6R"></iframe>
 
 ## Identifiers
 
@@ -67,13 +71,13 @@ tags: musical_work
 
 -	__[Il Pirato : Ouverture à Grand Orchestre de l' Opéra](./QtWStRSk.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333898.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333898.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Variations Brillantes : sur un thême du Pirate de Bellini : composées pour la Flûte avec accomp.t de Quatuor ou Piano : Op: 10.](./RQcw73HY.md)__
 
-	![Image](../assets/images/thumbs/KCG-000340395.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000340395.gif){align=left width="150" height="150"} 
 
 	
 

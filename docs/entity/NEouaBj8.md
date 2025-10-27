@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NEouaBj8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description             | aliases             | Wikidata QID                                                 |
-    | :-------: | :---------------: | :---------------------: | :-----------------: | :----------------------------------------------------------: |
-    | NEouaBj8  | Avesnes-sur-Helpe | commune in Nord, France | Avenne aan de Helpe | [Avesnes-sur-Helpe](http://wwww.wikidata.org/entity/Q217178) |
+    | FAAM UUID | label             | description             | aliases             | Wikidata QID                                            |
+    | :-------: | :---------------: | :---------------------: | :-----------------: | :-----------------------------------------------------: |
+    | NEouaBj8  | Avesnes-sur-Helpe | commune in Nord, France | Avenne aan de Helpe | [Avesnes-sur-Helpe](http://wikidata.org/entity/Q217178) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/NEouaBj8.html" height="800" width="1200" title="NEouaBj8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NEouaBj8" height="800" width="1200" title="NEouaBj8"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iLfYcA3R
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description    | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :------------: | :-----: | :----------------------------------------------: |
-    | iLfYcA3R  | Kamenz | town in Saxony |         | [Kamenz](http://wwww.wikidata.org/entity/Q81722) |
+    | FAAM UUID | label  | description    | aliases | Wikidata QID                                |
+    | :-------: | :----: | :------------: | :-----: | :-----------------------------------------: |
+    | iLfYcA3R  | Kamenz | town in Saxony |         | [Kamenz](http://wikidata.org/entity/Q81722) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/iLfYcA3R.html" height="800" width="1200" title="iLfYcA3R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iLfYcA3R" height="800" width="1200" title="iLfYcA3R"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Karl Drexler](./PmQmiLgv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German cellist and music educator (1800-1873)
 

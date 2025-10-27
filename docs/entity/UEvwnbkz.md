@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UEvwnbkz
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                | description | aliases                                                      | Wikidata QID                                                                     |
-    | :-------: | :----------------------------------: | :---------: | :----------------------------------------------------------: | :------------------------------------------------------------------------------: |
-    | UEvwnbkz  | The First Saint-Petersburg Gymnasium |             | The First Saint-Petersburg Gymnasium (St.Petersburg, Russia) | [The First Saint-Petersburg Gymnasium](http://wwww.wikidata.org/entity/Q3401716) |
+    | FAAM UUID | label                                | description | aliases                                                      | Wikidata QID                                                                |
+    | :-------: | :----------------------------------: | :---------: | :----------------------------------------------------------: | :-------------------------------------------------------------------------: |
+    | UEvwnbkz  | The First Saint-Petersburg Gymnasium |             | The First Saint-Petersburg Gymnasium (St.Petersburg, Russia) | [The First Saint-Petersburg Gymnasium](http://wikidata.org/entity/Q3401716) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/UEvwnbkz.html" height="800" width="1200" title="UEvwnbkz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UEvwnbkz" height="800" width="1200" title="UEvwnbkz"></iframe>
 
 ## Cross-references
 

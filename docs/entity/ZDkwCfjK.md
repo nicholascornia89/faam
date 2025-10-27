@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZDkwCfjK
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                                | aliases                                                         | description                            | Wikidata QID                                                                                            |
-    | :-------: | :------------------------------------------------------------------: | :-------------------------------------------------------------: | :------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-    | ZDkwCfjK  | Capriccio sopra la lontananza del suo fratello dilettissimo, BWV 992 | Capriccio on the Departure of his Most Beloved Brother, BWV 992 | composition for keyboard by J. S. Bach | [Capriccio sopra la lontananza del suo fratello dilettissimo](http://wwww.wikidata.org/entity/Q1034933) |
+    | FAAM UUID | label                                                                | aliases                                                         | description                            | Wikidata QID                                                                                       |
+    | :-------: | :------------------------------------------------------------------: | :-------------------------------------------------------------: | :------------------------------------: | :------------------------------------------------------------------------------------------------: |
+    | ZDkwCfjK  | Capriccio sopra la lontananza del suo fratello dilettissimo, BWV 992 | Capriccio on the Departure of his Most Beloved Brother, BWV 992 | composition for keyboard by J. S. Bach | [Capriccio sopra la lontananza del suo fratello dilettissimo](http://wikidata.org/entity/Q1034933) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/ZDkwCfjK.html" height="800" width="1200" title="ZDkwCfjK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZDkwCfjK" height="800" width="1200" title="ZDkwCfjK"></iframe>
 
 ## Identifiers
 
@@ -67,13 +71,13 @@ tags: musical_work
 
 -	__[Capriccio : sopra la lontananza del fratello dilettissimo = Capriccio : über die Abreise des vielgeliebten bruders](./S7MRRD7P.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904465058.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904465058.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Capriccio: B dur (abreise)](./LAjTaxC3.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP140299.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP140299.gif){align=left width="150" height="150"} 
 
 	
 

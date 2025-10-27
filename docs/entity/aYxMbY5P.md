@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aYxMbY5P
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/WML-1294032/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/aYxMbY5P.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/aYxMbY5P.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/aYxMbY5P.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/WML-1294032/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/aYxMbY5P.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/aYxMbY5P.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/aYxMbY5P.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/WML-1294032.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-1294032.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                       | permalink                | provenance                                           |
-    | :-------: | :-------------------: | :-------------------------: | :----------------------: | :--------------------------------------------------: |
-    | aYxMbY5P  | WML-1294032           | Symphony No. 7, Movement IV | [external URL](QwGYdnmk) | [J. William Marriott Digital Library](./Wdj3hQU8.md) |
+    | FAAM UUID | FAAM manifestation ID | title                       | permalink                                                            | provenance                                           |
+    | :-------: | :-------------------: | :-------------------------: | :------------------------------------------------------------------: | :--------------------------------------------------: |
+    | aYxMbY5P  | WML-1294032           | Symphony No. 7, Movement IV | [external URL](https://collections.lib.utah.edu/ark:/87278/s6zw5jgz) | [J. William Marriott Digital Library](./Wdj3hQU8.md) |
 
 ## Statements
 
@@ -58,10 +62,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/aYxMbY5P.html" height="800" width="1200" title="aYxMbY5P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aYxMbY5P" height="800" width="1200" title="aYxMbY5P"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/aYxMbY5P.html" height="800" width="1200" title="aYxMbY5P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/aYxMbY5P" height="800" width="1200" title="aYxMbY5P"></iframe>

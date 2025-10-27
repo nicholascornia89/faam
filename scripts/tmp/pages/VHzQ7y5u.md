@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VHzQ7y5u
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases | description                                 | Wikidata QID                                                                      |
-    | :-------: | :---------------------: | :-----: | :-----------------------------------------: | :-------------------------------------------------------------------------------: |
-    | VHzQ7y5u  | Violin Concerto, RV 310 | RV 314  | violin concerto composed by Antonio Vivaldi | [Violin concerto in G major (RV 314)](http://wwww.wikidata.org/entity/Q116050280) |
+    | FAAM UUID | label                   | aliases | description                                 | Wikidata QID                                                                 |
+    | :-------: | :---------------------: | :-----: | :-----------------------------------------: | :--------------------------------------------------------------------------: |
+    | VHzQ7y5u  | Violin Concerto, RV 310 | RV 314  | violin concerto composed by Antonio Vivaldi | [Violin concerto in G major (RV 314)](http://wikidata.org/entity/Q116050280) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/VHzQ7y5u.html" height="800" width="1200" title="VHzQ7y5u"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VHzQ7y5u" height="800" width="1200" title="VHzQ7y5u"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[25. | Concerto | Violino conc., 2 Violini, Viola, e Basso | Del Sig. Vivaldi](./Wau8qFFq.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA63.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA63.gif){align=left width="150" height="150"} 
 
 	
 

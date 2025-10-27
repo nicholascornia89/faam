@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cbyFHdDB
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                                                                                           | aliases   | Wikidata QID                                          |
-    | :-------: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :-------: | :---------------------------------------------------: |
-    | cbyFHdDB  | reflection | change in direction of a wavefront at an interface between two different media so that the wavefront returns into the medium from which it originated | reflexion | [reflection](http://wwww.wikidata.org/entity/Q165939) |
+    | FAAM UUID | label      | description                                                                                                                                           | aliases   | Wikidata QID                                     |
+    | :-------: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :-------: | :----------------------------------------------: |
+    | cbyFHdDB  | reflection | change in direction of a wavefront at an interface between two different media so that the wavefront returns into the medium from which it originated | reflexion | [reflection](http://wikidata.org/entity/Q165939) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/cbyFHdDB.html" height="800" width="1200" title="cbyFHdDB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cbyFHdDB" height="800" width="1200" title="cbyFHdDB"></iframe>
 
 ## Cross-references
 

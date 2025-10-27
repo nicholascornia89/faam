@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iT72PW6c
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | iT72PW6c  | Keyboard Sonata in C minor, K.526 | Keyboard Sonata in C minor, L.456 | sonata by Domenico Scarlatti | [Sonata K. 526](http://wwww.wikidata.org/entity/Q78246025) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | iT72PW6c  | Keyboard Sonata in C minor, K.526 | Keyboard Sonata in C minor, L.456 | sonata by Domenico Scarlatti | [Sonata K. 526](http://wikidata.org/entity/Q78246025) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/iT72PW6c.html" height="800" width="1200" title="iT72PW6c"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iT72PW6c" height="800" width="1200" title="iT72PW6c"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

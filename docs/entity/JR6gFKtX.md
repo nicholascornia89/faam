@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JR6gFKtX
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JR6gFKtX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JR6gFKtX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JR6gFKtX.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JR6gFKtX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JR6gFKtX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JR6gFKtX.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :--------------------------: | :-------------------------------------------------------: |
-    | JR6gFKtX  | Joseph Küffner | Joseph Küffner | German musician and composer | [Joseph Küffner](http://wwww.wikidata.org/entity/Q106000) |
+    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :--------------------------: | :--------------------------------------------------: |
+    | JR6gFKtX  | Joseph Küffner | Joseph Küffner | German musician and composer | [Joseph Küffner](http://wikidata.org/entity/Q106000) |
 
 <br><br><br>
 
@@ -51,13 +55,13 @@ tags: agent
 
 	- [conductor](./TDF2knmi.md)
 
-	- [](./WZmnxKsB.md)
+	- [instrumentalist](./WZmnxKsB.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/JR6gFKtX.html" height="800" width="1200" title="JR6gFKtX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JR6gFKtX" height="800" width="1200" title="JR6gFKtX"></iframe>
 
 ## Identifiers
 
@@ -83,14 +87,30 @@ tags: agent
 
 -	__[32me Potpourri : pour Piano et Flûte ou Violon : sur des motifs de l'Opéra Gustave ou le bal masqué : Oeuv: 259.](./a5FmXQHw.md)__
 
-	![Image](../assets/images/thumbs/KCG-000352632.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000352632.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[seizième Potpourri : pour Piano et Flute ou Violon](./iFYfBsMq.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750008.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750008.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Sizième Potpurri pour Piano et Flûte ou Violon, Op. 213](./fYMphfsh.md)__
+
+	
+
+-	__[Le comte Ory](./mmxBtMLz.md)__
+
+	opera by Gioachino Rossini
+
+-	__[Gustave III ou Le bal masqué](./6UEXnNtj.md)__
+
+	opera by Daniel-François-Esprit Auber
 
 </div>

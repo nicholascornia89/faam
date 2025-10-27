@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 93XWfcVS
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/93XWfcVS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/93XWfcVS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/93XWfcVS.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/93XWfcVS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/93XWfcVS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/93XWfcVS.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Xavier_Lefèvre.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases             | description                                | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-----------------: | :----------------------------------------: | :------------------------------------------------------------: |
-    | 93XWfcVS  | Jean-Xavier Lefèvre | Jean-Xavier Lefevre | Swiss-born French clarinettist (1763-1829) | [Jean-Xavier Lefèvre](http://wwww.wikidata.org/entity/Q115971) |
+    | FAAM UUID | label               | aliases             | description                                | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-----------------: | :----------------------------------------: | :-------------------------------------------------------: |
+    | 93XWfcVS  | Jean-Xavier Lefèvre | Jean-Xavier Lefevre | Swiss-born French clarinettist (1763-1829) | [Jean-Xavier Lefèvre](http://wikidata.org/entity/Q115971) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/93XWfcVS.html" height="800" width="1200" title="93XWfcVS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/93XWfcVS" height="800" width="1200" title="93XWfcVS"></iframe>
 
 ## Identifiers
 
@@ -86,3 +90,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Bernhard Crusell](./FeRTAUvm.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Henrik_Crusell_1826.jpg){align=left width="150" height="150"} 
+
+	Swedish-Finnish clarinetist, composer and translator (1775–1838)
+
+-	__[Bernhard Crusell](./kjc6KBeH.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Henrik_Crusell_1826.jpg){align=left width="150" height="150"} 
+
+	Swedish-Finnish clarinetist, composer and translator (1775–1838)
+
+</div>

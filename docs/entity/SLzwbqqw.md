@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SLzwbqqw
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description        | aliases       | Wikidata QID                                             |
-    | :-------: | :-----------: | :----------------: | :-----------: | :------------------------------------------------------: |
-    | SLzwbqqw  | viola d'amore | musical instrument | viole d'amour | [viola d'amore](http://wwww.wikidata.org/entity/Q742180) |
+    | FAAM UUID | label         | description        | aliases       | Wikidata QID                                        |
+    | :-------: | :-----------: | :----------------: | :-----------: | :-------------------------------------------------: |
+    | SLzwbqqw  | viola d'amore | musical instrument | viole d'amour | [viola d'amore](http://wikidata.org/entity/Q742180) |
 
 <br><br><br>
 
@@ -31,19 +35,19 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./nY5G3yfD.md)
+	- [viol family](./nY5G3yfD.md)
 
-	- [](./2ap3ujQs.md)
+	- [Baroque instrument](./2ap3ujQs.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/SLzwbqqw.html" height="800" width="1200" title="SLzwbqqw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SLzwbqqw" height="800" width="1200" title="SLzwbqqw"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: musical_instrument
 
 -	__[3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano](./cq9RrJ9Y.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
 
 	
 
@@ -63,7 +67,7 @@ tags: musical_instrument
 
 -	__[Antonio Vivaldi](./GSqAPxLN.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vivaldi.jpg){align=left width="150" height="150"} 
 
 	Italian composer and violinist (1678-1741)
 

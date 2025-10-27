@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7RKddazD
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                                  | aliases        | Wikidata QID                                                |
-    | :-------: | :--------------: | :----------------------------------------------------------: | :------------: | :---------------------------------------------------------: |
-    | 7RKddazD  | classical guitar | acoustic wooden guitar with wide neck, strings made of nylon | concert guitar | [classical guitar](http://wwww.wikidata.org/entity/Q719120) |
+    | FAAM UUID | label            | description                                                  | aliases        | Wikidata QID                                           |
+    | :-------: | :--------------: | :----------------------------------------------------------: | :------------: | :----------------------------------------------------: |
+    | 7RKddazD  | classical guitar | acoustic wooden guitar with wide neck, strings made of nylon | concert guitar | [classical guitar](http://wikidata.org/entity/Q719120) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./Mf9pMTv2.md)
+	- [acoustic guitar](./Mf9pMTv2.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/7RKddazD.html" height="800" width="1200" title="7RKddazD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7RKddazD" height="800" width="1200" title="7RKddazD"></iframe>
 
 ## Cross-references
 
@@ -47,19 +51,19 @@ tags: musical_instrument
 
 -	__[Concerto per chitarra, archi e timpani, op. 30](./a64gD2W5.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904183586.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904183586.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Große Sonate : für Flöte (Violine) und Gitarre, op. 85](./GTT3Hefh.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902194585.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902194585.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Variations sur les "Folies d'Espagne", op. 45](./PoJBawN7.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904176952.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904176952.gif){align=left width="150" height="150"} 
 
 	
 
@@ -93,7 +97,7 @@ tags: musical_instrument
 
 -	__[Julián Arcas](./eLxUK2wE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish guitarist and composer (1832–1882)
 

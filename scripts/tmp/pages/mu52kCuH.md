@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mu52kCuH
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                                      | aliases                   | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :----------------------------------------------: | :-----------------------: | :------------------------------------------------------------------: |
-    | mu52kCuH  | University of Montpellier | French university located in Montpellier (2022-) | Université de Montpellier | [University of Montpellier](http://wwww.wikidata.org/entity/Q776223) |
+    | FAAM UUID | label                     | description                                      | aliases                   | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :----------------------------------------------: | :-----------------------: | :-------------------------------------------------------------: |
+    | mu52kCuH  | University of Montpellier | French university located in Montpellier (2022-) | Université de Montpellier | [University of Montpellier](http://wikidata.org/entity/Q776223) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./nSBiXUi9.md)
+	[Montpellier](./nSBiXUi9.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/mu52kCuH.html" height="800" width="1200" title="mu52kCuH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mu52kCuH" height="800" width="1200" title="mu52kCuH"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[François Bernier](./KKvERxRE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French physician and traveller
 

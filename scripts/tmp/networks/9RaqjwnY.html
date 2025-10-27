@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7AXGCpck.md\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9RaqjwnY", "label": "The Barber of Seville (Il barbiere di Siviglia)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9RaqjwnY.md\u0027\u003eThe Barber of Seville (Il barbiere di Siviglia)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e1816 opera by Gioachino Rossini\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YWvFQ75E", "label": "Gioachino Rossini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YWvFQ75E.md\u0027\u003eGioachino Rossini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian opera composer (1792\u20131868)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ibtAhZeL", "label": "Le Barbier de S\u00e9ville, Op.6", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ibtAhZeL.md\u0027\u003eLe Barbier de S\u00e9ville, Op.6\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iGWTaGKR", "label": "Adrien-Fran\u00e7ois Servais", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iGWTaGKR.md\u0027\u003eAdrien-Fran\u00e7ois Servais\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1807-1866)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Servais_Adrien.JPG\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "n7ez74JN", "label": "The Barber of Seville", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./n7ez74JN.md\u0027\u003eThe Barber of Seville\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench play by Pierre Beaumarchais\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "7AXGCpck", "to": "9RaqjwnY", "width": 10}, {"from": "YWvFQ75E", "to": "9RaqjwnY", "width": 10}, {"from": "ibtAhZeL", "to": "iGWTaGKR", "width": 1}, {"from": "ibtAhZeL", "to": "9RaqjwnY", "width": 1}, {"from": "9RaqjwnY", "to": "iGWTaGKR", "width": 1}, {"from": "9RaqjwnY", "to": "n7ez74JN", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7AXGCpck\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9RaqjwnY", "label": "The Barber of Seville (Il barbiere di Siviglia)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9RaqjwnY\u0027\u003eThe Barber of Seville (Il barbiere di Siviglia)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e1816 opera by Gioachino Rossini\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "n7ez74JN", "label": "The Barber of Seville", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/n7ez74JN\u0027\u003eThe Barber of Seville\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench play by Pierre Beaumarchais\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iGWTaGKR", "label": "Adrien-Fran\u00e7ois Servais", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iGWTaGKR\u0027\u003eAdrien-Fran\u00e7ois Servais\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1807-1866)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Servais_Adrien.JPG\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ibtAhZeL", "label": "Le Barbier de S\u00e9ville, Op.6", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ibtAhZeL\u0027\u003eLe Barbier de S\u00e9ville, Op.6\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YWvFQ75E", "label": "Gioachino Rossini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YWvFQ75E\u0027\u003eGioachino Rossini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian opera composer (1792\u20131868)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "7AXGCpck", "to": "9RaqjwnY", "width": 10}, {"from": "n7ez74JN", "to": "9RaqjwnY", "width": 10}, {"from": "iGWTaGKR", "to": "ibtAhZeL", "width": 1}, {"from": "iGWTaGKR", "to": "9RaqjwnY", "width": 1}, {"from": "ibtAhZeL", "to": "9RaqjwnY", "width": 1}, {"from": "9RaqjwnY", "to": "YWvFQ75E", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

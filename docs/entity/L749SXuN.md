@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: L749SXuN
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                             | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :-----------------------------------------------------: | :-----: | :--------------------------------------------------: |
-    | L749SXuN  | Velichov | village in Karlovy Vary District of Karlovy Vary region |         | [Velichov](http://wwww.wikidata.org/entity/Q1246662) |
+    | FAAM UUID | label    | description                                             | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :-----------------------------------------------------: | :-----: | :---------------------------------------------: |
+    | L749SXuN  | Velichov | village in Karlovy Vary District of Karlovy Vary region |         | [Velichov](http://wikidata.org/entity/Q1246662) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/L749SXuN.html" height="800" width="1200" title="L749SXuN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/L749SXuN" height="800" width="1200" title="L749SXuN"></iframe>
 
 ## Identifiers
 

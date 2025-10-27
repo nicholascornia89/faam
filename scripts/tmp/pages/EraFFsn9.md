@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EraFFsn9
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------: | :-----: | :---------: | :----------------------------------: |
-    | EraFFsn9  | Berceuse No.1 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label         | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------: | :-----: | :---------: | :-----------------------------: |
+    | EraFFsn9  | Berceuse No.1 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/EraFFsn9.html" height="800" width="1200" title="EraFFsn9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EraFFsn9" height="800" width="1200" title="EraFFsn9"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Berceuse](./EsLGr2Yy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904192652.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904192652.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Wdoc9Ngd
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases              | description                                      | Wikidata QID                                                     |
-    | :-------: | :------------: | :------------------: | :----------------------------------------------: | :--------------------------------------------------------------: |
-    | Wdoc9Ngd  | 4 Etudes, K009 | Quatre études, Op. 7 | collection of études composed by Igor Stravinsky | [Quatre études, Op. 7](http://wwww.wikidata.org/entity/Q3413524) |
+    | FAAM UUID | label          | aliases              | description                                      | Wikidata QID                                                |
+    | :-------: | :------------: | :------------------: | :----------------------------------------------: | :---------------------------------------------------------: |
+    | Wdoc9Ngd  | 4 Etudes, K009 | Quatre études, Op. 7 | collection of études composed by Igor Stravinsky | [Quatre études, Op. 7](http://wikidata.org/entity/Q3413524) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Wdoc9Ngd.html" height="800" width="1200" title="Wdoc9Ngd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Wdoc9Ngd" height="800" width="1200" title="Wdoc9Ngd"></iframe>
 
 ## Identifiers
 
@@ -63,19 +67,19 @@ tags: musical_work
 
 -	__[Quatre études, op. 2](./iQey8siG.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902402178.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902402178.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quatre études, op. 2](./d2XqYCDv.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902402160.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902402160.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quatre études, op. 2](./8cgKp2bQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904303523.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904303523.gif){align=left width="150" height="150"} 
 
 	
 

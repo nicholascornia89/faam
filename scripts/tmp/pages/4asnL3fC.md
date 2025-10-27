@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4asnL3fC
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                             | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :-------------------------------------: | :-----: | :-------------------------------------------------: |
-    | 4asnL3fC  | loudness | subjective perception of sound pressure | volume  | [loudness](http://wwww.wikidata.org/entity/Q622324) |
+    | FAAM UUID | label    | description                             | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :-------------------------------------: | :-----: | :--------------------------------------------: |
+    | 4asnL3fC  | loudness | subjective perception of sound pressure | volume  | [loudness](http://wikidata.org/entity/Q622324) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/4asnL3fC.html" height="800" width="1200" title="4asnL3fC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4asnL3fC" height="800" width="1200" title="4asnL3fC"></iframe>
 
 ## Cross-references
 

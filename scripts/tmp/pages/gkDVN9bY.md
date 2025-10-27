@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gkDVN9bY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/gkDVN9bY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/gkDVN9bY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/gkDVN9bY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/gkDVN9bY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/gkDVN9bY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/gkDVN9bY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Édouard_Lalo2.jpeg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description     | Wikidata QID                                            |
-    | :-------: | :----------: | :----------: | :-------------: | :-----------------------------------------------------: |
-    | gkDVN9bY  | Edouard Lalo | Édouard Lalo | French composer | [Edouard Lalo](http://wwww.wikidata.org/entity/Q224002) |
+    | FAAM UUID | label        | aliases      | description     | Wikidata QID                                       |
+    | :-------: | :----------: | :----------: | :-------------: | :------------------------------------------------: |
+    | gkDVN9bY  | Edouard Lalo | Édouard Lalo | French composer | [Edouard Lalo](http://wikidata.org/entity/Q224002) |
 
 <br><br><br>
 
@@ -55,13 +59,13 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./Lbumvb4P.md)
+	- [Regional Conservatory of Lille](./Lbumvb4P.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/gkDVN9bY.html" height="800" width="1200" title="gkDVN9bY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gkDVN9bY" height="800" width="1200" title="gkDVN9bY"></iframe>
 
 ## Identifiers
 
@@ -87,13 +91,13 @@ tags: agent
 
 -	__[Divertissement. pour Orchestre](./D6vWcJJd.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p3.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p3.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Namouna. Valse Lente](./nRUmnBvM.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p86.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p86.gif){align=left width="150" height="150"} 
 
 	
 

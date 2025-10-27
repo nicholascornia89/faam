@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: i5esrLWQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description    | aliases        | Wikidata QID                                   |
-    | :-------: | :---: | :------------: | :------------: | :--------------------------------------------: |
-    | i5esrLWQ  | Enna  | Italian comune | Castrogiovanni | [Enna](http://wwww.wikidata.org/entity/Q13687) |
+    | FAAM UUID | label | description    | aliases        | Wikidata QID                              |
+    | :-------: | :---: | :------------: | :------------: | :---------------------------------------: |
+    | i5esrLWQ  | Enna  | Italian comune | Castrogiovanni | [Enna](http://wikidata.org/entity/Q13687) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/i5esrLWQ.html" height="800" width="1200" title="i5esrLWQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/i5esrLWQ" height="800" width="1200" title="i5esrLWQ"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Ottavio Catalani](./5wG4dxFC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4xi2DgAF
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | description       | aliases | Wikidata QID                                                                       |
-    | :-------: | :-----------------------------------: | :---------------: | :-----: | :--------------------------------------------------------------------------------: |
-    | 4xi2DgAF  | Nizhny Novgorod Institute of nobility | Russian institute |         | [Nizhny Novgorod Institute of nobility](http://wwww.wikidata.org/entity/Q15962040) |
+    | FAAM UUID | label                                 | description       | aliases | Wikidata QID                                                                  |
+    | :-------: | :-----------------------------------: | :---------------: | :-----: | :---------------------------------------------------------------------------: |
+    | 4xi2DgAF  | Nizhny Novgorod Institute of nobility | Russian institute |         | [Nizhny Novgorod Institute of nobility](http://wikidata.org/entity/Q15962040) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/4xi2DgAF.html" height="800" width="1200" title="4xi2DgAF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4xi2DgAF" height="800" width="1200" title="4xi2DgAF"></iframe>
 
 ## Cross-references
 

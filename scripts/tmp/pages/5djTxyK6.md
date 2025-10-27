@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5djTxyK6
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904328777/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5djTxyK6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5djTxyK6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5djTxyK6.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904328777/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5djTxyK6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5djTxyK6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5djTxyK6.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904328777.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904328777.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                               | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 5djTxyK6  | KCA-030904328777      | Fée d'amour : mazurka: extraite du ballet divertissement en un acte | [external URL](LQE77nqs) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                               | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 5djTxyK6  | KCA-030904328777      | Fée d'amour : mazurka: extraite du ballet divertissement en un acte | [external URL](https://anet.be/record/opacdkvc/c:lvd:15072444/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -73,10 +77,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/5djTxyK6.html" height="800" width="1200" title="5djTxyK6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5djTxyK6" height="800" width="1200" title="5djTxyK6"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/5djTxyK6.html" height="800" width="1200" title="5djTxyK6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/5djTxyK6" height="800" width="1200" title="5djTxyK6"></iframe>

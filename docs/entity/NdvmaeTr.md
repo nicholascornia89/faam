@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NdvmaeTr
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description              | aliases   | Wikidata QID                                          |
-    | :-------: | :------: | :----------------------: | :-------: | :---------------------------------------------------: |
-    | NdvmaeTr  | essayist | person who writes essays | essayists | [essayist](http://wwww.wikidata.org/entity/Q11774202) |
+    | FAAM UUID | label    | description              | aliases   | Wikidata QID                                     |
+    | :-------: | :------: | :----------------------: | :-------: | :----------------------------------------------: |
+    | NdvmaeTr  | essayist | person who writes essays | essayists | [essayist](http://wikidata.org/entity/Q11774202) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/NdvmaeTr.html" height="800" width="1200" title="NdvmaeTr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NdvmaeTr" height="800" width="1200" title="NdvmaeTr"></iframe>
 
 ## Cross-references
 

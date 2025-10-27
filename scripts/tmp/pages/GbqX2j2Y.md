@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GbqX2j2Y
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GbqX2j2Y.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GbqX2j2Y.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GbqX2j2Y.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GbqX2j2Y.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GbqX2j2Y.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GbqX2j2Y.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases             | description                   | Wikidata QID                                                    |
-    | :-------: | :---------------: | :-----------------: | :---------------------------: | :-------------------------------------------------------------: |
-    | GbqX2j2Y  | Cesare A. Casella | César A. de Casella | composer, cellist (1822-1886) | [Cesare A. Casella](http://wwww.wikidata.org/entity/Q102279018) |
+    | FAAM UUID | label             | aliases             | description                   | Wikidata QID                                               |
+    | :-------: | :---------------: | :-----------------: | :---------------------------: | :--------------------------------------------------------: |
+    | GbqX2j2Y  | Cesare A. Casella | César A. de Casella | composer, cellist (1822-1886) | [Cesare A. Casella](http://wikidata.org/entity/Q102279018) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/GbqX2j2Y.html" height="800" width="1200" title="GbqX2j2Y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GbqX2j2Y" height="800" width="1200" title="GbqX2j2Y"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: agent
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 

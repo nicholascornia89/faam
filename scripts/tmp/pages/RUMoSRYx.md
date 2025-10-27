@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RUMoSRYx
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases | description | Wikidata QID                                                                   |
-    | :-------: | :-------------------: | :-----: | :---------: | :----------------------------------------------------------------------------: |
-    | RUMoSRYx  | Choral Fantasy, Op.80 |         |             | [Choral Fantasy in C Minor, Op. 80](http://wwww.wikidata.org/entity/Q42187855) |
+    | FAAM UUID | label                 | aliases | description | Wikidata QID                                                              |
+    | :-------: | :-------------------: | :-----: | :---------: | :-----------------------------------------------------------------------: |
+    | RUMoSRYx  | Choral Fantasy, Op.80 |         |             | [Choral Fantasy in C Minor, Op. 80](http://wikidata.org/entity/Q42187855) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/RUMoSRYx.html" height="800" width="1200" title="RUMoSRYx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RUMoSRYx" height="800" width="1200" title="RUMoSRYx"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Fantasie für Pianoforte, Orchester und Chor, op. 80](./ZAbJ9Lcf.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903242334.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903242334.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8DqPNmjD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8DqPNmjD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8DqPNmjD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8DqPNmjD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8DqPNmjD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8DqPNmjD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8DqPNmjD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Marcel_Samuel-Rousseau_(1930).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases                              | description                                              | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :----------------------------------: | :------------------------------------------------------: | :---------------------------------------------------------------: |
-    | 8DqPNmjD  | Marcel Samuel-Rousseau | Marcel Auguste Louis Samuel-Rousseau | French composer, organist and opera director (1882-1955) | [Marcel Samuel-Rousseau](http://wwww.wikidata.org/entity/Q432256) |
+    | FAAM UUID | label                  | aliases                              | description                                              | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :----------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+    | 8DqPNmjD  | Marcel Samuel-Rousseau | Marcel Auguste Louis Samuel-Rousseau | French composer, organist and opera director (1882-1955) | [Marcel Samuel-Rousseau](http://wikidata.org/entity/Q432256) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8DqPNmjD.html" height="800" width="1200" title="8DqPNmjD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8DqPNmjD" height="800" width="1200" title="8DqPNmjD"></iframe>
 
 ## Identifiers
 
@@ -91,7 +95,7 @@ tags: agent
 
 -	__[Ronde enfantine](./DPiUKZzY.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p51.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p51.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: a5FmXQHw
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000352632/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/a5FmXQHw.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/a5FmXQHw.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/a5FmXQHw.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000352632/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/a5FmXQHw.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/a5FmXQHw.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/a5FmXQHw.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000352632.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000352632.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                            | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | a5FmXQHw  | KCG-000352632         | 32me Potpourri : pour Piano et Flûte ou Violon : sur des motifs de l'Opéra Gustave ou le bal masqué : Oeuv: 259. | [external URL](eNyFmkHC) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                            | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | a5FmXQHw  | KCG-000352632         | 32me Potpourri : pour Piano et Flûte ou Violon : sur des motifs de l'Opéra Gustave ou le bal masqué : Oeuv: 259. | [external URL](https://catalogus.hogent.be/catalog/hog01:000352632) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -73,10 +77,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/a5FmXQHw.html" height="800" width="1200" title="a5FmXQHw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/a5FmXQHw" height="800" width="1200" title="a5FmXQHw"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/a5FmXQHw.html" height="800" width="1200" title="a5FmXQHw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/a5FmXQHw" height="800" width="1200" title="a5FmXQHw"></iframe>

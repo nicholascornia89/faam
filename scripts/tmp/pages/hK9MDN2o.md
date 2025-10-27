@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hK9MDN2o
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description              | aliases         | Wikidata QID                                                 |
-    | :-------: | :----------------: | :----------------------: | :-------------: | :----------------------------------------------------------: |
-    | hK9MDN2o  | Province of Naples | former province in Italy | Naples province | [Province of Naples](http://wwww.wikidata.org/entity/Q15123) |
+    | FAAM UUID | label              | description              | aliases         | Wikidata QID                                            |
+    | :-------: | :----------------: | :----------------------: | :-------------: | :-----------------------------------------------------: |
+    | hK9MDN2o  | Province of Naples | former province in Italy | Naples province | [Province of Naples](http://wikidata.org/entity/Q15123) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/hK9MDN2o.html" height="800" width="1200" title="hK9MDN2o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hK9MDN2o" height="800" width="1200" title="hK9MDN2o"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VbkbTd78
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/VbkbTd78.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/VbkbTd78.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/VbkbTd78.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/VbkbTd78.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/VbkbTd78.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/VbkbTd78.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases              | description      | Wikidata QID                                                        |
-    | :-------: | :-------------------: | :------------------: | :--------------: | :-----------------------------------------------------------------: |
-    | VbkbTd78  | Francesco Chiaramonte | François Chiaramonte | Italian composer | [Francesco Chiaramonte](http://wwww.wikidata.org/entity/Q130319994) |
+    | FAAM UUID | label                 | aliases              | description      | Wikidata QID                                                   |
+    | :-------: | :-------------------: | :------------------: | :--------------: | :------------------------------------------------------------: |
+    | VbkbTd78  | Francesco Chiaramonte | François Chiaramonte | Italian composer | [Francesco Chiaramonte](http://wikidata.org/entity/Q130319994) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/VbkbTd78.html" height="800" width="1200" title="VbkbTd78"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VbkbTd78" height="800" width="1200" title="VbkbTd78"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: agent
 
 -	__[L'art de phraser et de cadencer : leçons de chant pour développer le médium de la voix / par F. Chiaromonte](./7Yq4QTtg.md)__
 
-	![Image](../assets/images/thumbs/BNF-42908059w.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42908059w.gif){align=left width="150" height="150"} 
 
 	
 

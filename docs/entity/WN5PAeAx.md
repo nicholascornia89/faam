@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WN5PAeAx
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                                             | aliases | Wikidata QID                                                 |
-    | :-------: | :----------------: | :---------------------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
-    | WN5PAeAx  | Kingdom of Prussia | former European state (1701–1918), part of the German Empire after 1871 | Prussia | [Kingdom of Prussia](http://wwww.wikidata.org/entity/Q27306) |
+    | FAAM UUID | label              | description                                                             | aliases | Wikidata QID                                            |
+    | :-------: | :----------------: | :---------------------------------------------------------------------: | :-----: | :-----------------------------------------------------: |
+    | WN5PAeAx  | Kingdom of Prussia | former European state (1701–1918), part of the German Empire after 1871 | Prussia | [Kingdom of Prussia](http://wikidata.org/entity/Q27306) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/WN5PAeAx.html" height="800" width="1200" title="WN5PAeAx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WN5PAeAx" height="800" width="1200" title="WN5PAeAx"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: country
 
 -	__[Friedrich Gernsheim](./brm7iEdB.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/83/Friedrich_Gernsheim_%28BerlLeben_1906-07%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Gernsheim_%28BerlLeben_1906-07%29.jpg){align=left width="150" height="150"} 
 
 	German composer, conductor, pianist and teacher (1839–1916)
 
@@ -91,13 +95,13 @@ tags: country
 
 -	__[Franz Kullak](./KQYeWCdx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1844-1913)
 
 -	__[Hans Sikorski](./XAGe7nBv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German music publisher
 
@@ -109,25 +113,25 @@ tags: country
 
 -	__[Maurice Schlesinger](./HyU2Z63V.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German music publisher (1798–1871)
 
 -	__[August Neithardt](./HtKwZwuW.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1b/August_Neithardt.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August_Neithardt.jpg){align=left width="150" height="150"} 
 
 	German composer (1793-1861)
 
 -	__[Kaspar Fürstenau](./W5tLaHDf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German flautist (1772-1819)
 
 -	__[Johann Matthias Heberle](./QsyS369D.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German bookseller and auctioneer (1775-1840)
 
@@ -157,7 +161,7 @@ tags: country
 
 -	__[Georg Goltermann](./aQfbT97p.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German cellist, conductor, and composer (1824–1898)
 
@@ -187,7 +191,7 @@ tags: country
 
 -	__[Kistner](./29damiGF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	musical publisher
 
@@ -253,7 +257,7 @@ tags: country
 
 -	__[Daniel Hünten](./ZJUGoDLC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1760-1823)
 

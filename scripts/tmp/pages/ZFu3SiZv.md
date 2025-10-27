@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZFu3SiZv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ZFu3SiZv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ZFu3SiZv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ZFu3SiZv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ZFu3SiZv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ZFu3SiZv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ZFu3SiZv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                       | description                                      | Wikidata QID                                                 |
-    | :-------: | :--------------: | :---------------------------: | :----------------------------------------------: | :----------------------------------------------------------: |
-    | ZFu3SiZv  | Felix Blumenfeld | Felix Mikhailovich Blumenfeld | Russian composer, pianist, conductor (1863-1931) | [Felix Blumenfeld](http://wwww.wikidata.org/entity/Q1349550) |
+    | FAAM UUID | label            | aliases                       | description                                      | Wikidata QID                                            |
+    | :-------: | :--------------: | :---------------------------: | :----------------------------------------------: | :-----------------------------------------------------: |
+    | ZFu3SiZv  | Felix Blumenfeld | Felix Mikhailovich Blumenfeld | Russian composer, pianist, conductor (1863-1931) | [Felix Blumenfeld](http://wikidata.org/entity/Q1349550) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 	- [Moscow Conservatory](./GjurMHUq.md)
 
-	- [Ukrainian National Tchaikovsky Academy of Music](http://www.wikidata.org/entity/Q1515426)
+	- [Ukrainian National Tchaikovsky Academy of Music](Q1515426)
 
 	- [Saint Petersburg Conservatory](./VwZmF2Uv.md)
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ZFu3SiZv.html" height="800" width="1200" title="ZFu3SiZv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZFu3SiZv" height="800" width="1200" title="ZFu3SiZv"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Maria Yudina](./96zMohM3.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Maria_Yudina.jpg){align=left width="150" height="150"} 
+
+	Soviet pianist
+
+</div>

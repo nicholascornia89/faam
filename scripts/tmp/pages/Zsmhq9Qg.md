@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Zsmhq9Qg
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description | aliases | Wikidata QID                                          |
-    | :-------: | :-------: | :---------: | :-----: | :---------------------------------------------------: |
-    | Zsmhq9Qg  | Vlierbeek |             |         | [Vlierbeek](http://wwww.wikidata.org/entity/Q2290198) |
+    | FAAM UUID | label     | description | aliases | Wikidata QID                                     |
+    | :-------: | :-------: | :---------: | :-----: | :----------------------------------------------: |
+    | Zsmhq9Qg  | Vlierbeek |             |         | [Vlierbeek](http://wikidata.org/entity/Q2290198) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Zsmhq9Qg.html" height="800" width="1200" title="Zsmhq9Qg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Zsmhq9Qg" height="800" width="1200" title="Zsmhq9Qg"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Elisabeth Alberdingk Thijm](./QDMziZ5r.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	writer, translator and patron (1863-1952)
 

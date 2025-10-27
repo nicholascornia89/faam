@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dEBzFsDJ
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                                                  | aliases | Wikidata QID                                                             |
-    | :-------: | :-------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------------------: |
-    | dEBzFsDJ  | Free University of Brussels | former bilingual university in Brussels, Belgium (1834-1970) | FUB     | [Free University of Brussels](http://wwww.wikidata.org/entity/Q20754971) |
+    | FAAM UUID | label                       | description                                                  | aliases | Wikidata QID                                                        |
+    | :-------: | :-------------------------: | :----------------------------------------------------------: | :-----: | :-----------------------------------------------------------------: |
+    | dEBzFsDJ  | Free University of Brussels | former bilingual university in Brussels, Belgium (1834-1970) | FUB     | [Free University of Brussels](http://wikidata.org/entity/Q20754971) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/dEBzFsDJ.html" height="800" width="1200" title="dEBzFsDJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dEBzFsDJ" height="800" width="1200" title="dEBzFsDJ"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c2dmjbDM
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description  | aliases | Wikidata QID                                      |
-    | :-------: | :---: | :----------: | :-----: | :-----------------------------------------------: |
-    | c2dmjbDM  | tacet | Musical term | Tacet   | [Tacet](http://wwww.wikidata.org/entity/Q1567967) |
+    | FAAM UUID | label | description  | aliases | Wikidata QID                                 |
+    | :-------: | :---: | :----------: | :-----: | :------------------------------------------: |
+    | c2dmjbDM  | tacet | Musical term | Tacet   | [Tacet](http://wikidata.org/entity/Q1567967) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/c2dmjbDM.html" height="800" width="1200" title="c2dmjbDM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c2dmjbDM" height="800" width="1200" title="c2dmjbDM"></iframe>
 
 ## Cross-references
 
@@ -57,13 +61,13 @@ tags: annotation_type
 
 -	__[Ouverture : in H moll](./JrarmXTr.md)__
 
-	![Image](../assets/images/thumbs/KCG-000749031.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000749031.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Souvenirs Dramatiques : Arrangés en Trios pour Piano, Flûte et Violoncelle : 4e Don Jaun : Op. 86](./HNeP5iCN.md)__
 
-	![Image](../assets/images/thumbs/KCG-000359822.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000359822.gif){align=left width="150" height="150"} 
 
 	
 

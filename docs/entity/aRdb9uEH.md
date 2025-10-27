@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aRdb9uEH
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description                | Wikidata QID                                           |
-    | :-------: | :---------: | :---------: | :------------------------: | :----------------------------------------------------: |
-    | aRdb9uEH  | Anna Bolena | Anna Bolena | opera by Gaetano Donizetti | [Anna Bolena](http://wwww.wikidata.org/entity/Q559848) |
+    | FAAM UUID | label       | aliases     | description                | Wikidata QID                                      |
+    | :-------: | :---------: | :---------: | :------------------------: | :-----------------------------------------------: |
+    | aRdb9uEH  | Anna Bolena | Anna Bolena | opera by Gaetano Donizetti | [Anna Bolena](http://wikidata.org/entity/Q559848) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/aRdb9uEH.html" height="800" width="1200" title="aRdb9uEH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aRdb9uEH" height="800" width="1200" title="aRdb9uEH"></iframe>
 
 ## Identifiers
 

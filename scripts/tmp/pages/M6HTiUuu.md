@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M6HTiUuu
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description             | aliases          | Wikidata QID                                             |
-    | :-------: | :----------: | :---------------------: | :--------------: | :------------------------------------------------------: |
-    | M6HTiUuu  | men's chorus | choir consisting of men | male-voice choir | [men's chorus](http://wwww.wikidata.org/entity/Q1684352) |
+    | FAAM UUID | label        | description             | aliases          | Wikidata QID                                        |
+    | :-------: | :----------: | :---------------------: | :--------------: | :-------------------------------------------------: |
+    | M6HTiUuu  | men's chorus | choir consisting of men | male-voice choir | [men's chorus](http://wikidata.org/entity/Q1684352) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/M6HTiUuu.html" height="800" width="1200" title="M6HTiUuu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M6HTiUuu" height="800" width="1200" title="M6HTiUuu"></iframe>
 
 ## Cross-references
 

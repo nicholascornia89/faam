@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TrcsWua6
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                          | aliases  | Wikidata QID                                         |
-    | :-------: | :-----: | :----------------------------------: | :------: | :--------------------------------------------------: |
-    | TrcsWua6  | diarist | person who writes a personal journal | diarists | [diarist](http://wwww.wikidata.org/entity/Q18939491) |
+    | FAAM UUID | label   | description                          | aliases  | Wikidata QID                                    |
+    | :-------: | :-----: | :----------------------------------: | :------: | :---------------------------------------------: |
+    | TrcsWua6  | diarist | person who writes a personal journal | diarists | [diarist](http://wikidata.org/entity/Q18939491) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/TrcsWua6.html" height="800" width="1200" title="TrcsWua6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TrcsWua6" height="800" width="1200" title="TrcsWua6"></iframe>
 
 ## Cross-references
 

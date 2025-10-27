@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8ANmWc5i
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description               | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :-----------------------: | :-----: | :-------------------------------------------------: |
-    | 8ANmWc5i  | Nivelles | city in Wallonia, Belgium | Nijvel  | [Nivelles](http://wwww.wikidata.org/entity/Q319463) |
+    | FAAM UUID | label    | description               | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :-----------------------: | :-----: | :--------------------------------------------: |
+    | 8ANmWc5i  | Nivelles | city in Wallonia, Belgium | Nijvel  | [Nivelles](http://wikidata.org/entity/Q319463) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8ANmWc5i.html" height="800" width="1200" title="8ANmWc5i"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8ANmWc5i" height="800" width="1200" title="8ANmWc5i"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Felix Aerts](./Bbkf475N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian violinist
 

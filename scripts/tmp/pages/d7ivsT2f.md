@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: d7ivsT2f
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                                                                                     | aliases                                  | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------: | :--------------------------------------: | :--------------------------------------------------------------: |
-    | d7ivsT2f  | Fontainebleau Schools | consists of two schools, the American Conservatory and the School of Fine Arts at Fontainebleau | Conservatoire américain de Fontainebleau | [Fontainebleau Schools](http://wwww.wikidata.org/entity/Q470082) |
+    | FAAM UUID | label                 | description                                                                                     | aliases                                  | Wikidata QID                                                |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------: | :--------------------------------------: | :---------------------------------------------------------: |
+    | d7ivsT2f  | Fontainebleau Schools | consists of two schools, the American Conservatory and the School of Fine Arts at Fontainebleau | Conservatoire américain de Fontainebleau | [Fontainebleau Schools](http://wikidata.org/entity/Q470082) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/d7ivsT2f.html" height="800" width="1200" title="d7ivsT2f"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/d7ivsT2f" height="800" width="1200" title="d7ivsT2f"></iframe>
 
 ## Cross-references
 

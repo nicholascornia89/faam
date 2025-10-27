@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MdFCS4qM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MdFCS4qM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MdFCS4qM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MdFCS4qM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MdFCS4qM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MdFCS4qM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MdFCS4qM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description     | Wikidata QID                                                    |
-    | :-------: | :---------------: | :---------------: | :-------------: | :-------------------------------------------------------------: |
-    | MdFCS4qM  | Lambrecht Baumert | Lambrecht Baumert | German composer | [Lambrecht Baumert](http://wwww.wikidata.org/entity/Q122577478) |
+    | FAAM UUID | label             | aliases           | description     | Wikidata QID                                               |
+    | :-------: | :---------------: | :---------------: | :-------------: | :--------------------------------------------------------: |
+    | MdFCS4qM  | Lambrecht Baumert | Lambrecht Baumert | German composer | [Lambrecht Baumert](http://wikidata.org/entity/Q122577478) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/MdFCS4qM.html" height="800" width="1200" title="MdFCS4qM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MdFCS4qM" height="800" width="1200" title="MdFCS4qM"></iframe>
 
 ## Identifiers
 
@@ -71,8 +75,20 @@ tags: agent
 
 -	__[Festpräludium : zu dem Choral "Ein' feste Burg ist unser Gott": für die Orgel, op. 38](./JrXChdhy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127666.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127666.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Festpraëludium, Op. 38](./eME3yXnk.md)__
+
+	
+
+-	__[Ein feste Burg ist unser Gott, BWV 80](./QvKjp2ZU.md)__
+
+	chorale cantata by Johann Sebastian Bach
 
 </div>

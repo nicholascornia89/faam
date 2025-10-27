@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: D5YqeXET
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/D5YqeXET.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/D5YqeXET.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/D5YqeXET.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/D5YqeXET.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/D5YqeXET.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/D5YqeXET.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases              | description                        | Wikidata QID                                             |
-    | :-------: | :----------: | :------------------: | :--------------------------------: | :------------------------------------------------------: |
-    | D5YqeXET  | Ernst Ferand | Ernest Thomas Ferand | Hungarian musicologist (1887-1972) | [Ernst Ferand](http://wwww.wikidata.org/entity/Q5394981) |
+    | FAAM UUID | label        | aliases              | description                        | Wikidata QID                                        |
+    | :-------: | :----------: | :------------------: | :--------------------------------: | :-------------------------------------------------: |
+    | D5YqeXET  | Ernst Ferand | Ernest Thomas Ferand | Hungarian musicologist (1887-1972) | [Ernst Ferand](http://wikidata.org/entity/Q5394981) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./T3wMSaR4.md)
+	- [Budapest University of Technology and Economics](./T3wMSaR4.md)
 
 	- [Franz Liszt Academy of Music](./NCABARog.md)
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/D5YqeXET.html" height="800" width="1200" title="D5YqeXET"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/D5YqeXET" height="800" width="1200" title="D5YqeXET"></iframe>
 
 ## Identifiers
 

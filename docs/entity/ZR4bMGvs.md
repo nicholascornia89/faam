@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZR4bMGvs
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                   | aliases       | Wikidata QID                                           |
-    | :-------: | :---------: | :-----------------------------------------------------------: | :-----------: | :----------------------------------------------------: |
-    | ZR4bMGvs  | Esperantist | person speaking or using the international language Esperanto | Esperantanaso | [Esperantist](http://wwww.wikidata.org/entity/Q860918) |
+    | FAAM UUID | label       | description                                                   | aliases       | Wikidata QID                                      |
+    | :-------: | :---------: | :-----------------------------------------------------------: | :-----------: | :-----------------------------------------------: |
+    | ZR4bMGvs  | Esperantist | person speaking or using the international language Esperanto | Esperantanaso | [Esperantist](http://wikidata.org/entity/Q860918) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ZR4bMGvs.html" height="800" width="1200" title="ZR4bMGvs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZR4bMGvs" height="800" width="1200" title="ZR4bMGvs"></iframe>
 
 ## Cross-references
 

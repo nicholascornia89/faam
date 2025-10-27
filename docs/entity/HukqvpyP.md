@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HukqvpyP
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903081898/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HukqvpyP.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HukqvpyP.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HukqvpyP.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903081898/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HukqvpyP.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HukqvpyP.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HukqvpyP.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030903081898.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903081898.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                      | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | HukqvpyP  | KCA-030903081898      | Symphonic fantasy : (based on an Easter Plainsong), op. 13 | [external URL](amkJ6EBs) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                      | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | HukqvpyP  | KCA-030903081898      | Symphonic fantasy : (based on an Easter Plainsong), op. 13 | [external URL](https://anet.be/record/opacdkvc/c:lvd:6740338/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -73,10 +77,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/HukqvpyP.html" height="800" width="1200" title="HukqvpyP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HukqvpyP" height="800" width="1200" title="HukqvpyP"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/HukqvpyP.html" height="800" width="1200" title="HukqvpyP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/HukqvpyP" height="800" width="1200" title="HukqvpyP"></iframe>

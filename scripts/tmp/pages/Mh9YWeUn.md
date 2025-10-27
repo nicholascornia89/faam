@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Mh9YWeUn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                      | aliases          | Wikidata QID                                      |
-    | :-------: | :----: | :------------------------------: | :--------------: | :-----------------------------------------------: |
-    | Mh9YWeUn  | Edegem | municipality in Antwerp, Belgium | Edegem (Belgium) | [Edegem](http://wwww.wikidata.org/entity/Q724238) |
+    | FAAM UUID | label  | description                      | aliases          | Wikidata QID                                 |
+    | :-------: | :----: | :------------------------------: | :--------------: | :------------------------------------------: |
+    | Mh9YWeUn  | Edegem | municipality in Antwerp, Belgium | Edegem (Belgium) | [Edegem](http://wikidata.org/entity/Q724238) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Mh9YWeUn.html" height="800" width="1200" title="Mh9YWeUn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Mh9YWeUn" height="800" width="1200" title="Mh9YWeUn"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Valentine Degive-Ledelier](./9bug7VfA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian singer and music teacher
 

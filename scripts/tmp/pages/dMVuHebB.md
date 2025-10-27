@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dMVuHebB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                   | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :---------------------------: | :-----: | :------------------------------------------------: |
-    | dMVuHebB  | Louvres | commune in Val-d'Oise, France |         | [Louvres](http://wwww.wikidata.org/entity/Q908517) |
+    | FAAM UUID | label   | description                   | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :---------------------------: | :-----: | :-------------------------------------------: |
+    | dMVuHebB  | Louvres | commune in Val-d'Oise, France |         | [Louvres](http://wikidata.org/entity/Q908517) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dMVuHebB.html" height="800" width="1200" title="dMVuHebB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dMVuHebB" height="800" width="1200" title="dMVuHebB"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Pierre Robert](./9JBj5YHs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

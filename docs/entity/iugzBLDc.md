@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iugzBLDc
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description            | aliases                | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :--------------------: | :--------------------: | :-------------------------------------------------------------: |
-    | iugzBLDc  | human communication | how humans communicate | communicative activity | [human communication](http://wwww.wikidata.org/entity/Q1066689) |
+    | FAAM UUID | label               | description            | aliases                | Wikidata QID                                               |
+    | :-------: | :-----------------: | :--------------------: | :--------------------: | :--------------------------------------------------------: |
+    | iugzBLDc  | human communication | how humans communicate | communicative activity | [human communication](http://wikidata.org/entity/Q1066689) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/iugzBLDc.html" height="800" width="1200" title="iugzBLDc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iugzBLDc" height="800" width="1200" title="iugzBLDc"></iframe>
 
 ## Cross-references
 

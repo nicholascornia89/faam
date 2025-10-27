@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2h4QWJrH
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-42599226w/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2h4QWJrH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2h4QWJrH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2h4QWJrH.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-42599226w/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2h4QWJrH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2h4QWJrH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2h4QWJrH.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-42599226w.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42599226w.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                              | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | 2h4QWJrH  | BNF-42599226w         | Sonates pour piano et violon / L. van Beethoven ; nouvelle édition complète par Carl Reinecke ; la partie de violon arrangée par Friedrich Hermann | [external URL](H9peVKU2) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                              | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | 2h4QWJrH  | BNF-42599226w         | Sonates pour piano et violon / L. van Beethoven ; nouvelle édition complète par Carl Reinecke ; la partie de violon arrangée par Friedrich Hermann | [external URL](http://catalogue.bnf.fr/ark:/12148/cb42599226w) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -89,10 +93,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/2h4QWJrH.html" height="800" width="1200" title="2h4QWJrH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2h4QWJrH" height="800" width="1200" title="2h4QWJrH"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/2h4QWJrH.html" height="800" width="1200" title="2h4QWJrH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/2h4QWJrH" height="800" width="1200" title="2h4QWJrH"></iframe>

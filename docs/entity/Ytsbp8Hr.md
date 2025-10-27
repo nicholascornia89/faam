@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ytsbp8Hr
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Ytsbp8Hr.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Ytsbp8Hr.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Ytsbp8Hr.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Ytsbp8Hr.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Ytsbp8Hr.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Ytsbp8Hr.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases        | description      | Wikidata QID                                                 |
-    | :-------: | :--------------: | :------------: | :--------------: | :----------------------------------------------------------: |
-    | Ytsbp8Hr  | Jacobus de Kerle | Jakob De Kerle | Flemish composer | [Jacobus de Kerle](http://wwww.wikidata.org/entity/Q1350877) |
+    | FAAM UUID | label            | aliases        | description      | Wikidata QID                                            |
+    | :-------: | :--------------: | :------------: | :--------------: | :-----------------------------------------------------: |
+    | Ytsbp8Hr  | Jacobus de Kerle | Jakob De Kerle | Flemish composer | [Jacobus de Kerle](http://wikidata.org/entity/Q1350877) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Ytsbp8Hr.html" height="800" width="1200" title="Ytsbp8Hr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ytsbp8Hr" height="800" width="1200" title="Ytsbp8Hr"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,11 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Missa Regina coeli](./9nr5d8bU.md)__
+
+	
+
+</div>

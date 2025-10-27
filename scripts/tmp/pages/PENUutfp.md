@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PENUutfp
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-b387186265/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PENUutfp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PENUutfp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PENUutfp.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-b387186265/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PENUutfp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PENUutfp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PENUutfp.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-b387186265.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-b387186265.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | PENUutfp  | BNF-b387186265        | Mon art du chant, trad. par E. Naegely | [external URL](cy2NFhfp) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                                                       | provenance                                        |
+    | :-------: | :-------------------: | :------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------: |
+    | PENUutfp  | BNF-b387186265        | Mon art du chant, trad. par E. Naegely | [external URL](https://catalogue.bnf.fr/ark:/12148/cb387186265) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ===  "sections" 
 
@@ -68,10 +72,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/PENUutfp.html" height="800" width="1200" title="PENUutfp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PENUutfp" height="800" width="1200" title="PENUutfp"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/PENUutfp.html" height="800" width="1200" title="PENUutfp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/PENUutfp" height="800" width="1200" title="PENUutfp"></iframe>

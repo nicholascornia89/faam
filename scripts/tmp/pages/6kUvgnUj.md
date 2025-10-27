@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6kUvgnUj
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6kUvgnUj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6kUvgnUj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6kUvgnUj.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6kUvgnUj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6kUvgnUj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6kUvgnUj.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :--------------------------: | :--------------------------------------------------------: |
-    | 6kUvgnUj  | Vittorio Rieti | Vittorio Rieti | Italian composer (1898–1994) | [Vittorio Rieti](http://wwww.wikidata.org/entity/Q3561375) |
+    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :--------------------------: | :---------------------------------------------------: |
+    | 6kUvgnUj  | Vittorio Rieti | Vittorio Rieti | Italian composer (1898–1994) | [Vittorio Rieti](http://wikidata.org/entity/Q3561375) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/6kUvgnUj.html" height="800" width="1200" title="6kUvgnUj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6kUvgnUj" height="800" width="1200" title="6kUvgnUj"></iframe>
 
 ## Identifiers
 

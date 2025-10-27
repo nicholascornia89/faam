@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ry7LeXZn
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                    | aliases         | Wikidata QID                                               |
-    | :-------: | :-------------: | :----------------------------: | :-------------: | :--------------------------------------------------------: |
-    | Ry7LeXZn  | Lycée Condorcet | public school in Paris, France | Lycee Condorcet | [Lycée Condorcet](http://wwww.wikidata.org/entity/Q926749) |
+    | FAAM UUID | label           | description                    | aliases         | Wikidata QID                                          |
+    | :-------: | :-------------: | :----------------------------: | :-------------: | :---------------------------------------------------: |
+    | Ry7LeXZn  | Lycée Condorcet | public school in Paris, France | Lycee Condorcet | [Lycée Condorcet](http://wikidata.org/entity/Q926749) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Ry7LeXZn.html" height="800" width="1200" title="Ry7LeXZn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ry7LeXZn" height="800" width="1200" title="Ry7LeXZn"></iframe>
 
 ## Cross-references
 

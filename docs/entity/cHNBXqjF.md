@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cHNBXqjF
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                     | aliases        | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------------------------: | :------------: | :----------------------------------------------------------: |
-    | cHNBXqjF  | Charenton-le-Pont | commune in Val-de-Marne, France | Le Républicain | [Charenton-le-Pont](http://wwww.wikidata.org/entity/Q212793) |
+    | FAAM UUID | label             | description                     | aliases        | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------------------------: | :------------: | :-----------------------------------------------------: |
+    | cHNBXqjF  | Charenton-le-Pont | commune in Val-de-Marne, France | Le Républicain | [Charenton-le-Pont](http://wikidata.org/entity/Q212793) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cHNBXqjF.html" height="800" width="1200" title="cHNBXqjF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cHNBXqjF" height="800" width="1200" title="cHNBXqjF"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Jean-Joseph Mouret](./7SJjsBpR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1682-1738)
 

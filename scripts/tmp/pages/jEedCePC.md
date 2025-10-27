@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jEedCePC
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/jEedCePC.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/jEedCePC.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/jEedCePC.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/jEedCePC.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/jEedCePC.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/jEedCePC.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Thomán_István.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                                 | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :-----------------------------------------: | :------------------------------------------------------: |
-    | jEedCePC  | István Thomán | Istvan Thoman | (1862–1940 classical pianist, piano teacher | [István Thomán](http://wwww.wikidata.org/entity/Q375024) |
+    | FAAM UUID | label         | aliases       | description                                 | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :-----------------------------------------: | :-------------------------------------------------: |
+    | jEedCePC  | István Thomán | Istvan Thoman | (1862–1940 classical pianist, piano teacher | [István Thomán](http://wikidata.org/entity/Q375024) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./AKfEoRof.md)
+	- [classical pianist](./AKfEoRof.md)
 
 	- [composer](./5aTYuVxp.md)
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/jEedCePC.html" height="800" width="1200" title="jEedCePC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jEedCePC" height="800" width="1200" title="jEedCePC"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Béla Bartók](./8ALmZPzx.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bartók_Béla_1927.jpg){align=left width="150" height="150"} 
+
+	Hungarian composer and pianist (1881–1945)
+
+</div>

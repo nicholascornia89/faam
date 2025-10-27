@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fG38Ux7e
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description           | aliases | Wikidata QID                                                                |
-    | :-------: | :----------------------------: | :-------------------: | :-----: | :-------------------------------------------------------------------------: |
-    | fG38Ux7e  | Music conservatories of Naples | Italian music schools |         | [Music conservatories of Naples](http://wwww.wikidata.org/entity/Q60449257) |
+    | FAAM UUID | label                          | description           | aliases | Wikidata QID                                                           |
+    | :-------: | :----------------------------: | :-------------------: | :-----: | :--------------------------------------------------------------------: |
+    | fG38Ux7e  | Music conservatories of Naples | Italian music schools |         | [Music conservatories of Naples](http://wikidata.org/entity/Q60449257) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/fG38Ux7e.html" height="800" width="1200" title="fG38Ux7e"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fG38Ux7e" height="800" width="1200" title="fG38Ux7e"></iframe>
 
 ## Cross-references
 

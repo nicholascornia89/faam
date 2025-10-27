@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "oLLSYQmF", "label": "Nice", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oLLSYQmF.md\u0027\u003eNice\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and commune in Alpes-Maritimes, Provence-Alpes-C\u00f4te d\u0027Azur, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BJqUa5Kf.md\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NPPV2XtG", "label": "Fromental Hal\u00e9vy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NPPV2XtG.md\u0027\u003eFromental Hal\u00e9vy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Fromental_Halevy_by_Etienne_Carjat-crop.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "oLLSYQmF", "to": "BJqUa5Kf", "width": 10}, {"from": "oLLSYQmF", "to": "NPPV2XtG", "width": 10}, {"from": "NPPV2XtG", "to": "BJqUa5Kf", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BJqUa5Kf\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "oLLSYQmF", "label": "Nice", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/oLLSYQmF\u0027\u003eNice\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and commune in Alpes-Maritimes, Provence-Alpes-C\u00f4te d\u0027Azur, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NPPV2XtG", "label": "Fromental Hal\u00e9vy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NPPV2XtG\u0027\u003eFromental Hal\u00e9vy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Fromental_Halevy_by_Etienne_Carjat-crop.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "BJqUa5Kf", "to": "oLLSYQmF", "width": 10}, {"from": "BJqUa5Kf", "to": "NPPV2XtG", "width": 1}, {"from": "NPPV2XtG", "to": "oLLSYQmF", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

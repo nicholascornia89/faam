@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Pqaewj9f
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                       | aliases   | Wikidata QID                                    |
-    | :-------: | :---: | :-------------------------------: | :-------: | :---------------------------------------------: |
-    | Pqaewj9f  | Rouen | commune in Seine-Maritime, France | Rotomagus | [Rouen](http://wwww.wikidata.org/entity/Q30974) |
+    | FAAM UUID | label | description                       | aliases   | Wikidata QID                               |
+    | :-------: | :---: | :-------------------------------: | :-------: | :----------------------------------------: |
+    | Pqaewj9f  | Rouen | commune in Seine-Maritime, France | Rotomagus | [Rouen](http://wikidata.org/entity/Q30974) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Pqaewj9f.html" height="800" width="1200" title="Pqaewj9f"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Pqaewj9f" height="800" width="1200" title="Pqaewj9f"></iframe>
 
 ## Identifiers
 

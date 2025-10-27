@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QnbKU2fz
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                                                                                                                                            | aliases                                 | Wikidata QID                                                  |
-    | :-------: | :--------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------: | :-----------------------------------------------------------: |
-    | QnbKU2fz  | punctuation mark | symbols indicating structure and organization of written language, intonation, and pauses; opposite to intra-word orthographical elements (apostrophes, hyphens, etc.) | punctuation mark (sentence-structuring) | [punctuation mark](http://wwww.wikidata.org/entity/Q10617810) |
+    | FAAM UUID | label            | description                                                                                                                                                            | aliases                                 | Wikidata QID                                             |
+    | :-------: | :--------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------: | :------------------------------------------------------: |
+    | QnbKU2fz  | punctuation mark | symbols indicating structure and organization of written language, intonation, and pauses; opposite to intra-word orthographical elements (apostrophes, hyphens, etc.) | punctuation mark (sentence-structuring) | [punctuation mark](http://wikidata.org/entity/Q10617810) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/QnbKU2fz.html" height="800" width="1200" title="QnbKU2fz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QnbKU2fz" height="800" width="1200" title="QnbKU2fz"></iframe>
 
 ## Cross-references
 

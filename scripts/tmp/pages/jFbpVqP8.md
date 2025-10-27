@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jFbpVqP8
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/jFbpVqP8.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/jFbpVqP8.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/jFbpVqP8.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/jFbpVqP8.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/jFbpVqP8.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/jFbpVqP8.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description      | Wikidata QID                                                    |
-    | :-------: | :------------------: | :------------------: | :--------------: | :-------------------------------------------------------------: |
-    | jFbpVqP8  | André-Joseph Blavier | Andre-Joseph Blavier | Belgian composer | [André-Joseph Blavier](http://wwww.wikidata.org/entity/Q516367) |
+    | FAAM UUID | label                | aliases              | description      | Wikidata QID                                               |
+    | :-------: | :------------------: | :------------------: | :--------------: | :--------------------------------------------------------: |
+    | jFbpVqP8  | André-Joseph Blavier | Andre-Joseph Blavier | Belgian composer | [André-Joseph Blavier](http://wikidata.org/entity/Q516367) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/jFbpVqP8.html" height="800" width="1200" title="jFbpVqP8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jFbpVqP8" height="800" width="1200" title="jFbpVqP8"></iframe>
 
 ## Identifiers
 
@@ -58,3 +62,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[François Joseph Gossec](./G4co3etX.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/François-Joseph_Gossec_by_Antoine_Vestier.png){align=left width="150" height="150"} 
+
+	French composer and conductor
+
+</div>

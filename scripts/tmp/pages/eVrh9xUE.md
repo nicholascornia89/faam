@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eVrh9xUE
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502042/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/eVrh9xUE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/eVrh9xUE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/eVrh9xUE.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502042/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/eVrh9xUE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/eVrh9xUE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/eVrh9xUE.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502042.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502042.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                       | permalink                | provenance                              |
-    | :-------: | :-------------------: | :---------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | eVrh9xUE  | DPF-202502042         | O Beata Mater. pour Solo et 4 voix mixtes ou 4 voix égales. | [external URL](kxAqh9HR) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                       | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :---------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | eVrh9xUE  | DPF-202502042         | O Beata Mater. pour Solo et 4 voix mixtes ou 4 voix égales. | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ## Statements
 
@@ -83,10 +87,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/eVrh9xUE.html" height="800" width="1200" title="eVrh9xUE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eVrh9xUE" height="800" width="1200" title="eVrh9xUE"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/eVrh9xUE.html" height="800" width="1200" title="eVrh9xUE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/eVrh9xUE" height="800" width="1200" title="eVrh9xUE"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: J2JS4FwU
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/J2JS4FwU.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/J2JS4FwU.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/J2JS4FwU.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/J2JS4FwU.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/J2JS4FwU.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/J2JS4FwU.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases                             | description                                                          | Wikidata QID                                                 |
-    | :-------: | :----------------: | :---------------------------------: | :------------------------------------------------------------------: | :----------------------------------------------------------: |
-    | J2JS4FwU  | Claudio Monteverdi | Claudio Giovanni Antonio Monteverdi | Italian composer, string player, choirmaster, and priest (1567–1643) | [Claudio Monteverdi](http://wwww.wikidata.org/entity/Q53068) |
+    | FAAM UUID | label              | aliases                             | description                                                          | Wikidata QID                                            |
+    | :-------: | :----------------: | :---------------------------------: | :------------------------------------------------------------------: | :-----------------------------------------------------: |
+    | J2JS4FwU  | Claudio Monteverdi | Claudio Giovanni Antonio Monteverdi | Italian composer, string player, choirmaster, and priest (1567–1643) | [Claudio Monteverdi](http://wikidata.org/entity/Q53068) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 	- [music theorist](./HkbL2euD.md)
 
-	- [](./DxGATHZF.md)
+	- [viol player](./DxGATHZF.md)
 
 	- [Catholic priest](./eUa7qYMN.md)
 
@@ -67,7 +71,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./Gmyihe9r.md)
+	- [opera composer](./Gmyihe9r.md)
 
 	- [choreographer](./kTo2uTWZ.md)
 
@@ -77,7 +81,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/J2JS4FwU.html" height="800" width="1200" title="J2JS4FwU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/J2JS4FwU" height="800" width="1200" title="J2JS4FwU"></iframe>
 
 ## Identifiers
 
@@ -103,20 +107,46 @@ tags: agent
 
 -	__[Orfeo](./X88EQe9Q.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901700127.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901700127.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le retour d'Ulysse](./RVj9CnAy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901294238.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901294238.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Il quarto libro dei madrigali](./nrkdoJ5j.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902628988.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902628988.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Battista Buonamente](./kpwkyWgQ.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Madrigals, Book 4, SV 75–93](./KoszR7PU.md)__
+
+	Fourth book of madrigals by Claudio Monteverdi
+
+-	__[L'Orfeo, SV 318](./38QQN4CR.md)__
+
+	opera by Claudio Monteverdi, with libretto by Alessandro Striggio
+
+-	__[Il ritorno d'Ulisse in patria](./FxEcZ7bq.md)__
+
+	opera by Claudio Monteverdi
 
 </div>

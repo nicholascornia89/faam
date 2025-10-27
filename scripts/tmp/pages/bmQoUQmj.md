@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bmQoUQmj
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                                                              | aliases     | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :--------------------------------------------------------------------------------------: | :---------: | :---------------------------------------------------------------: |
-    | bmQoUQmj  | Kingdom of Württemberg | kingdom in Central Europe between 1806–1918, from January 1871 part of the German Empire | Württemberg | [Kingdom of Württemberg](http://wwww.wikidata.org/entity/Q159631) |
+    | FAAM UUID | label                  | description                                                                              | aliases     | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :--------------------------------------------------------------------------------------: | :---------: | :----------------------------------------------------------: |
+    | bmQoUQmj  | Kingdom of Württemberg | kingdom in Central Europe between 1806–1918, from January 1871 part of the German Empire | Württemberg | [Kingdom of Württemberg](http://wikidata.org/entity/Q159631) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/bmQoUQmj.html" height="800" width="1200" title="bmQoUQmj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bmQoUQmj" height="800" width="1200" title="bmQoUQmj"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Friedrich Wilhelm Arnold](./PkZM93eA.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Friedrich_Wilhelm_Arnold.tif/lossless-page1-570px-Friedrich_Wilhelm_Arnold.tif.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/lossless-page1-570px-Friedrich_Wilhelm_Arnold.tif.png){align=left width="150" height="150"} 
 
 	German musician and publisher
 

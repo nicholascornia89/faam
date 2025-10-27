@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6CsHj57Q a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "university in Italy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q193510>,
+        "16004785"^^xsd:string,
+        "6CsHj57Q"^^xsd:string ;
+    schema1:location faamentity:fdBRs3SB,
+        faamentity:fj46nffV ;
+    skos:altLabel "UNIPD"^^xsd:string,
+        "Universita degli Studi di Padova"^^xsd:string,
+        "Universita di Padova"^^xsd:string,
+        "University of Padova"^^xsd:string,
+        "University of Padua"^^xsd:string,
+        "Università degli Studi di Padova"^^xsd:string,
+        "Università di Padova"^^xsd:string ;
+    skos:prefLabel "University of Padua"^^xsd:string .
+

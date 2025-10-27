@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Rsi49MkN
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Rsi49MkN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Rsi49MkN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Rsi49MkN.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Rsi49MkN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Rsi49MkN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Rsi49MkN.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/SIGNOR_LAMPERTI.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description                       | Wikidata QID                                                  |
-    | :-------: | :----------------: | :----------------: | :-------------------------------: | :-----------------------------------------------------------: |
-    | Rsi49MkN  | Francesco Lamperti | Francesco Lamperti | Italian voice teacher (1813–1892) | [Francesco Lamperti](http://wwww.wikidata.org/entity/Q376597) |
+    | FAAM UUID | label              | aliases            | description                       | Wikidata QID                                             |
+    | :-------: | :----------------: | :----------------: | :-------------------------------: | :------------------------------------------------------: |
+    | Rsi49MkN  | Francesco Lamperti | Francesco Lamperti | Italian voice teacher (1813–1892) | [Francesco Lamperti](http://wikidata.org/entity/Q376597) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Rsi49MkN.html" height="800" width="1200" title="Rsi49MkN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Rsi49MkN" height="800" width="1200" title="Rsi49MkN"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Albert Bernhard Bach](./4aFMAhXz.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	German singing teacher
+
+-	__[Cornélie van Zanten](./HxMjq5go.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Onze_Musici_(1911)_-_Cornélie_van_Zanten.jpg){align=left width="150" height="150"} 
+
+	Dutch opera singer (1855–1946)
+
+</div>

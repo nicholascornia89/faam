@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dLe55yyF
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description               | aliases         | Wikidata QID                                                     |
-    | :-------: | :------------------: | :-----------------------: | :-------------: | :--------------------------------------------------------------: |
-    | dLe55yyF  | St. Paul's Cathedral | cathedral in Mdina, Malta | Mdina Cathedral | [St. Paul's Cathedral](http://wwww.wikidata.org/entity/Q1630170) |
+    | FAAM UUID | label                | description               | aliases         | Wikidata QID                                                |
+    | :-------: | :------------------: | :-----------------------: | :-------------: | :---------------------------------------------------------: |
+    | dLe55yyF  | St. Paul's Cathedral | cathedral in Mdina, Malta | Mdina Cathedral | [St. Paul's Cathedral](http://wikidata.org/entity/Q1630170) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/dLe55yyF.html" height="800" width="1200" title="dLe55yyF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dLe55yyF" height="800" width="1200" title="dLe55yyF"></iframe>
 
 ## Cross-references
 

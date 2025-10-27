@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5bi6fc4k
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-42846644p/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5bi6fc4k.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5bi6fc4k.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5bi6fc4k.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-42846644p/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5bi6fc4k.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5bi6fc4k.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5bi6fc4k.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-42846644p.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42846644p.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | 5bi6fc4k  | BNF-42846644p         | Six études brillantes pour le violon avec accompagnement de piano ad libitum, op. 17 | [external URL](GepDoTXn) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | 5bi6fc4k  | BNF-42846644p         | Six études brillantes pour le violon avec accompagnement de piano ad libitum, op. 17 | [external URL](http://catalogue.bnf.fr/ark:/12148/cb42846644p) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -86,10 +90,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/5bi6fc4k.html" height="800" width="1200" title="5bi6fc4k"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5bi6fc4k" height="800" width="1200" title="5bi6fc4k"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/5bi6fc4k.html" height="800" width="1200" title="5bi6fc4k"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/5bi6fc4k" height="800" width="1200" title="5bi6fc4k"></iframe>

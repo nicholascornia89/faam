@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: So7Y8Sow
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/So7Y8Sow.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/So7Y8Sow.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/So7Y8Sow.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/So7Y8Sow.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/So7Y8Sow.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/So7Y8Sow.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description      | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-------------: | :--------------: | :----------------------------------------------------------: |
-    | So7Y8Sow  | Pasquale Pisari | Pasquale Pisari | Italian composer | [Pasquale Pisari](http://wwww.wikidata.org/entity/Q11940412) |
+    | FAAM UUID | label           | aliases         | description      | Wikidata QID                                            |
+    | :-------: | :-------------: | :-------------: | :--------------: | :-----------------------------------------------------: |
+    | So7Y8Sow  | Pasquale Pisari | Pasquale Pisari | Italian composer | [Pasquale Pisari](http://wikidata.org/entity/Q11940412) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/So7Y8Sow.html" height="800" width="1200" title="So7Y8Sow"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/So7Y8Sow" height="800" width="1200" title="So7Y8Sow"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,11 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[O salutaris Hostia](./7F6CpoBs.md)__
+
+	
+
+</div>

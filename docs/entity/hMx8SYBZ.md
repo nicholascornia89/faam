@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hMx8SYBZ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hMx8SYBZ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hMx8SYBZ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hMx8SYBZ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hMx8SYBZ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hMx8SYBZ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hMx8SYBZ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bruno_mugellini.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases          | description                                       | Wikidata QID                                                |
-    | :-------: | :-------------: | :--------------: | :-----------------------------------------------: | :---------------------------------------------------------: |
-    | hMx8SYBZ  | Bruno Mugellini | Bruno Mongellini | Italian pianist, composer and teacher (1871-1912) | [Bruno Mugellini](http://wwww.wikidata.org/entity/Q3645853) |
+    | FAAM UUID | label           | aliases          | description                                       | Wikidata QID                                           |
+    | :-------: | :-------------: | :--------------: | :-----------------------------------------------: | :----------------------------------------------------: |
+    | hMx8SYBZ  | Bruno Mugellini | Bruno Mongellini | Italian pianist, composer and teacher (1871-1912) | [Bruno Mugellini](http://wikidata.org/entity/Q3645853) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/hMx8SYBZ.html" height="800" width="1200" title="hMx8SYBZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hMx8SYBZ" height="800" width="1200" title="hMx8SYBZ"></iframe>
 
 ## Identifiers
 

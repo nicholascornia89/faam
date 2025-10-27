@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Bpes3qeQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                 | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :-------------------------: | :-----: | :-------------------------------------------------: |
-    | Bpes3qeQ  | Gebstedt | human settlement in Germany |         | [Gebstedt](http://wwww.wikidata.org/entity/Q684839) |
+    | FAAM UUID | label    | description                 | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :-------------------------: | :-----: | :--------------------------------------------: |
+    | Bpes3qeQ  | Gebstedt | human settlement in Germany |         | [Gebstedt](http://wikidata.org/entity/Q684839) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Bpes3qeQ.html" height="800" width="1200" title="Bpes3qeQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Bpes3qeQ" height="800" width="1200" title="Bpes3qeQ"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Volckmar Leisring](./MiFcRaV3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and theorist
 

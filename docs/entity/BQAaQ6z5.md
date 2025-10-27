@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BQAaQ6z5
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BQAaQ6z5.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BQAaQ6z5.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BQAaQ6z5.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BQAaQ6z5.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BQAaQ6z5.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BQAaQ6z5.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases                      | description                  | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :--------------------------: | :--------------------------: | :---------------------------------------------------------------: |
-    | BQAaQ6z5  | Martin Pierre Marsick | Martin Pierre Joseph Marsick | Belgian musician (1847-1924) | [Martin Pierre Marsick](http://wwww.wikidata.org/entity/Q1356601) |
+    | FAAM UUID | label                 | aliases                      | description                  | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :--------------------------: | :--------------------------: | :----------------------------------------------------------: |
+    | BQAaQ6z5  | Martin Pierre Marsick | Martin Pierre Joseph Marsick | Belgian musician (1847-1924) | [Martin Pierre Marsick](http://wikidata.org/entity/Q1356601) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/BQAaQ6z5.html" height="800" width="1200" title="BQAaQ6z5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BQAaQ6z5" height="800" width="1200" title="BQAaQ6z5"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Adolf Rebner](./PjmNW6zi.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolf_Rebner.png){align=left width="150" height="150"} 
+
+	Austrian musician (1876–1967)
+
+</div>

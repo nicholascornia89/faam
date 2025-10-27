@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TBYigQyt
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                         | aliases | Wikidata QID                                        |
-    | :-------: | :-------: | :---------------------------------: | :-----: | :-------------------------------------------------: |
-    | TBYigQyt  | physician | professional who practices medicine | doctor  | [physician](http://wwww.wikidata.org/entity/Q39631) |
+    | FAAM UUID | label     | description                         | aliases | Wikidata QID                                   |
+    | :-------: | :-------: | :---------------------------------: | :-----: | :--------------------------------------------: |
+    | TBYigQyt  | physician | professional who practices medicine | doctor  | [physician](http://wikidata.org/entity/Q39631) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/TBYigQyt.html" height="800" width="1200" title="TBYigQyt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TBYigQyt" height="800" width="1200" title="TBYigQyt"></iframe>
 
 ## Cross-references
 
@@ -43,13 +47,13 @@ tags: occupation
 
 -	__[Raoul Émile Blondel](./YdiyVjfd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French physician
 
 -	__[François Bernier](./KKvERxRE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French physician and traveller
 
@@ -61,7 +65,7 @@ tags: occupation
 
 -	__[Pasqual Mario Marafioti](./ATBYRUVY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American physician and vocal coach (1878–1951)
 

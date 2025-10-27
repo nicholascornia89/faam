@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fxtj72S3
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                           | aliases                 | Wikidata QID                                                |
-    | :-------: | :--------------: | :-----------------------------------: | :---------------------: | :---------------------------------------------------------: |
-    | fxtj72S3  | musical notation | graphic writing of musical parameters | musical notation system | [musical notation](http://wwww.wikidata.org/entity/Q233861) |
+    | FAAM UUID | label            | description                           | aliases                 | Wikidata QID                                           |
+    | :-------: | :--------------: | :-----------------------------------: | :---------------------: | :----------------------------------------------------: |
+    | fxtj72S3  | musical notation | graphic writing of musical parameters | musical notation system | [musical notation](http://wikidata.org/entity/Q233861) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/fxtj72S3.html" height="800" width="1200" title="fxtj72S3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fxtj72S3" height="800" width="1200" title="fxtj72S3"></iframe>
 
 ## Cross-references
 

@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4XYe8Utf a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:KCuuJYaL ;
+    schema1:birthDate "1852-08-13"^^xsd:string ;
+    schema1:birthPlace faamentity:U4jJR5An ;
+    schema1:deathDate "1909-01-18"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "German musician"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q304843>,
+        "15996038"^^xsd:string,
+        "4XYe8Utf"^^xsd:string ;
+    schema1:nationality faamentity:WN5PAeAx ;
+    skos:altLabel "Robert Hausmann"^^xsd:string ;
+    skos:prefLabel "Robert Hausmann"^^xsd:string ;
+    wd:P108 faamentity:KCuuJYaL ;
+    wd:P1303 faamentity:2nFJpnZ8 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:19947199 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/54556> ;
+    wd:P839 <https://imslp.org/wiki/Category:Hausmann,_Robert> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:JJEmNCK7,
+        faamentity:L7DPWnnr,
+        faamentity:XWcaJQty .
+

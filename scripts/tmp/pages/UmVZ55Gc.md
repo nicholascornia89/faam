@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UmVZ55Gc
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases               | description | Wikidata QID                                              |
-    | :-------: | :------------------: | :-------------------: | :---------: | :-------------------------------------------------------: |
-    | UmVZ55Gc  | 24 Horn Trios, Op.82 | 24 Horn Trios, Op. 82 |             | [24 Horn Trios](http://wwww.wikidata.org/entity/Q4631843) |
+    | FAAM UUID | label                | aliases               | description | Wikidata QID                                         |
+    | :-------: | :------------------: | :-------------------: | :---------: | :--------------------------------------------------: |
+    | UmVZ55Gc  | 24 Horn Trios, Op.82 | 24 Horn Trios, Op. 82 |             | [24 Horn Trios](http://wikidata.org/entity/Q4631843) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/UmVZ55Gc.html" height="800" width="1200" title="UmVZ55Gc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UmVZ55Gc" height="800" width="1200" title="UmVZ55Gc"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[24 Trio's : voor 3 French Horns : Opus 82.](./9Q5hZDyB.md)__
 
-	![Image](../assets/images/thumbs/KCG-000363791.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000363791.gif){align=left width="150" height="150"} 
 
 	
 

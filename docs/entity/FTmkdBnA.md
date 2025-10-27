@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FTmkdBnA
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FTmkdBnA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FTmkdBnA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FTmkdBnA.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FTmkdBnA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FTmkdBnA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FTmkdBnA.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Igor_Stravinsky_LOC_32392u.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                     | description                  | Wikidata QID                                             |
-    | :-------: | :-------------: | :-------------------------: | :--------------------------: | :------------------------------------------------------: |
-    | FTmkdBnA  | Igor Stravinsky | Igor Fyodorovich Stravinsky | Russian composer (1882–1971) | [Igor Stravinsky](http://wwww.wikidata.org/entity/Q7314) |
+    | FAAM UUID | label           | aliases                     | description                  | Wikidata QID                                        |
+    | :-------: | :-------------: | :-------------------------: | :--------------------------: | :-------------------------------------------------: |
+    | FTmkdBnA  | Igor Stravinsky | Igor Fyodorovich Stravinsky | Russian composer (1882–1971) | [Igor Stravinsky](http://wikidata.org/entity/Q7314) |
 
 <br><br><br>
 
@@ -57,15 +61,15 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./7rEtykNP.md)
+	- [Saint Petersburg State University](./7rEtykNP.md)
 
-	- [](./atPgtkXM.md)
+	- [The Second Saint Petersburg Gymnasium](./atPgtkXM.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FTmkdBnA.html" height="800" width="1200" title="FTmkdBnA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FTmkdBnA" height="800" width="1200" title="FTmkdBnA"></iframe>
 
 ## Identifiers
 
@@ -91,37 +95,53 @@ tags: agent
 
 -	__[Faun und Schäferin: liedercyklus für Gesang und Klavier, op. 2 = Le faune et la bergère: suite pour chant et piano, opus 2](./XRgokHR3.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902642138.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902642138.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Danses concertantes : for chamber orchestra = Danses concertantes : für Kammerorchester](./CY69q29C.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904721377.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904721377.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Danses concertantes : for chamber orchestra = Danses concertantes : für Kammerorchester](./CY69q29C.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904721377.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904721377.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quatre études, op. 2](./iQey8siG.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902402178.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902402178.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quatre études, op. 2](./d2XqYCDv.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902402160.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902402160.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quatre études, op. 2](./8cgKp2bQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904303523.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904303523.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[4 Etudes, K009](./Wdoc9Ngd.md)__
+
+	collection of études composed by Igor Stravinsky
+
+-	__[Danses concertantes, K063](./gEMV6Kme.md)__
+
+	
+
+-	__[The Faun and the Shepherdess, K002](./Z9XqKKPC.md)__
 
 	
 

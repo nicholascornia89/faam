@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Jj6yVN5E
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | description                                  | aliases                           | Wikidata QID                                                                |
-    | :-------: | :-------------------------------: | :------------------------------------------: | :-------------------------------: | :-------------------------------------------------------------------------: |
-    | Jj6yVN5E  | United Kingdom of the Netherlands | Kingdom of the Netherlands from 1815 to 1839 | United Kingdom of the Netherlands | [United Kingdom of the Netherlands](http://wwww.wikidata.org/entity/Q15864) |
+    | FAAM UUID | label                             | description                                  | aliases                           | Wikidata QID                                                           |
+    | :-------: | :-------------------------------: | :------------------------------------------: | :-------------------------------: | :--------------------------------------------------------------------: |
+    | Jj6yVN5E  | United Kingdom of the Netherlands | Kingdom of the Netherlands from 1815 to 1839 | United Kingdom of the Netherlands | [United Kingdom of the Netherlands](http://wikidata.org/entity/Q15864) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/Jj6yVN5E.html" height="800" width="1200" title="Jj6yVN5E"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Jj6yVN5E" height="800" width="1200" title="Jj6yVN5E"></iframe>
 
 ## Identifiers
 

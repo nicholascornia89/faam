@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UiWvdwAG
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                                                                          | aliases          | Wikidata QID                                              |
-    | :-------: | :-----------: | :--------------------------------------------------------------------------------------------------: | :--------------: | :-------------------------------------------------------: |
-    | UiWvdwAG  | tour promoter | individuals or companies responsible for organizing a live concert tour or special event performance | concert promoter | [tour promoter](http://wwww.wikidata.org/entity/Q3922927) |
+    | FAAM UUID | label         | description                                                                                          | aliases          | Wikidata QID                                         |
+    | :-------: | :-----------: | :--------------------------------------------------------------------------------------------------: | :--------------: | :--------------------------------------------------: |
+    | UiWvdwAG  | tour promoter | individuals or companies responsible for organizing a live concert tour or special event performance | concert promoter | [tour promoter](http://wikidata.org/entity/Q3922927) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/UiWvdwAG.html" height="800" width="1200" title="UiWvdwAG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UiWvdwAG" height="800" width="1200" title="UiWvdwAG"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NSvvf3ok
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCA-030902664280/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NSvvf3ok.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NSvvf3ok.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NSvvf3ok.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCA-030902664280/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NSvvf3ok.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NSvvf3ok.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NSvvf3ok.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902664280.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902664280.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                              | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | NSvvf3ok  | KCA-030902664280      | The ornamentations in Joh. Seb. Bach's pianoforte-works : studies and elucidations | [external URL](8Au3ocED) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                              | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | NSvvf3ok  | KCA-030902664280      | The ornamentations in Joh. Seb. Bach's pianoforte-works : studies and elucidations | [external URL](https://anet.be/record/opacdkvc/c:lvd:13164807/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -62,10 +66,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/NSvvf3ok.html" height="800" width="1200" title="NSvvf3ok"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NSvvf3ok" height="800" width="1200" title="NSvvf3ok"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/NSvvf3ok.html" height="800" width="1200" title="NSvvf3ok"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/NSvvf3ok" height="800" width="1200" title="NSvvf3ok"></iframe>

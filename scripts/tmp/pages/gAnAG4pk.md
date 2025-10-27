@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gAnAG4pk
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | aliases | description                           | Wikidata QID                                      |
-    | :-------: | :----: | :-----: | :-----------------------------------: | :-----------------------------------------------: |
-    | gAnAG4pk  | Alcina | HWV 34  | opera seria by George Frideric Handel | [Alcina](http://wwww.wikidata.org/entity/Q275627) |
+    | FAAM UUID | label  | aliases | description                           | Wikidata QID                                 |
+    | :-------: | :----: | :-----: | :-----------------------------------: | :------------------------------------------: |
+    | gAnAG4pk  | Alcina | HWV 34  | opera seria by George Frideric Handel | [Alcina](http://wikidata.org/entity/Q275627) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./QEoYjgrW.md)
+	- [Orlando Furioso](./QEoYjgrW.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/gAnAG4pk.html" height="800" width="1200" title="gAnAG4pk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gAnAG4pk" height="800" width="1200" title="gAnAG4pk"></iframe>
 
 ## Identifiers
 
@@ -63,13 +67,13 @@ tags: musical_work
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)](./cDShRWzG.md)__
 
-	![Image](../assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)](./cDShRWzG.md)__
 
-	![Image](../assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XXsNjGGF
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                 | aliases | Wikidata QID                                               |
-    | :-------: | :------------: | :-------------------------: | :-----: | :--------------------------------------------------------: |
-    | XXsNjGGF  | 's-Gravenwezel | section of Schilde, Belgium |         | ['s-Gravenwezel](http://wwww.wikidata.org/entity/Q2747279) |
+    | FAAM UUID | label          | description                 | aliases | Wikidata QID                                          |
+    | :-------: | :------------: | :-------------------------: | :-----: | :---------------------------------------------------: |
+    | XXsNjGGF  | 's-Gravenwezel | section of Schilde, Belgium |         | ['s-Gravenwezel](http://wikidata.org/entity/Q2747279) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/XXsNjGGF.html" height="800" width="1200" title="XXsNjGGF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XXsNjGGF" height="800" width="1200" title="XXsNjGGF"></iframe>
 
 ## Identifiers
 

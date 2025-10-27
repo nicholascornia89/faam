@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mgfnr38k
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mgfnr38k.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mgfnr38k.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mgfnr38k.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mgfnr38k.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mgfnr38k.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mgfnr38k.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portret_van_Pietro_Antonio_Locatelli,_RP-P-1910-1512.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                  | description                                        | Wikidata QID                                                |
-    | :-------: | :--------------: | :----------------------: | :------------------------------------------------: | :---------------------------------------------------------: |
-    | mgfnr38k  | Pietro Locatelli | Pietro Antonio Locatelli | Italian Baroque composer and violinist (1695-1764) | [Pietro Locatelli](http://wwww.wikidata.org/entity/Q124772) |
+    | FAAM UUID | label            | aliases                  | description                                        | Wikidata QID                                           |
+    | :-------: | :--------------: | :----------------------: | :------------------------------------------------: | :----------------------------------------------------: |
+    | mgfnr38k  | Pietro Locatelli | Pietro Antonio Locatelli | Italian Baroque composer and violinist (1695-1764) | [Pietro Locatelli](http://wikidata.org/entity/Q124772) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/mgfnr38k.html" height="800" width="1200" title="mgfnr38k"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mgfnr38k" height="800" width="1200" title="mgfnr38k"></iframe>
 
 ## Identifiers
 

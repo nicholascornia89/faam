@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MdNmE4R2
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | MdNmE4R2  | Fantaisie caractéristique, Op.16 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                            | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | MdNmE4R2  | Fantaisie caractéristique, Op.16 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/MdNmE4R2.html" height="800" width="1200" title="MdNmE4R2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MdNmE4R2" height="800" width="1200" title="MdNmE4R2"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Fantaisie caractéristique : pour flûte : op. 16](./nuxEdyt8.md)__
 
-	![Image](../assets/images/thumbs/KCG-000329401.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000329401.gif){align=left width="150" height="150"} 
 
 	
 

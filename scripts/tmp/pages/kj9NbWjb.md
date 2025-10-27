@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kj9NbWjb
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kj9NbWjb.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kj9NbWjb.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kj9NbWjb.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kj9NbWjb.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kj9NbWjb.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kj9NbWjb.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                        | Wikidata QID                                                                 |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------------: | :--------------------------------------------------------------------------: |
-    | kj9NbWjb  | Jacques Champion de Chambonnières | Jacques Champion de Chambonnieres | French composer and harpsichordist | [Jacques Champion de Chambonnières](http://wwww.wikidata.org/entity/Q725685) |
+    | FAAM UUID | label                             | aliases                           | description                        | Wikidata QID                                                            |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------------: | :---------------------------------------------------------------------: |
+    | kj9NbWjb  | Jacques Champion de Chambonnières | Jacques Champion de Chambonnieres | French composer and harpsichordist | [Jacques Champion de Chambonnières](http://wikidata.org/entity/Q725685) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/kj9NbWjb.html" height="800" width="1200" title="kj9NbWjb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kj9NbWjb" height="800" width="1200" title="kj9NbWjb"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,25 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Nicolas Lebègue](./EzfSNmgD.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French organist, harpsichordist and composer
+
+-	__[Louis Couperin](./KqBibisZ.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French Baroque composer
+
+-	__[Charles Couperin](./FtoR4wmZ.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lefebvre_Charles_Couperin.jpg){align=left width="150" height="150"} 
+
+	French organist
+
+</div>

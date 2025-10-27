@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ALdLC4cv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ALdLC4cv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ALdLC4cv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ALdLC4cv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ALdLC4cv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ALdLC4cv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ALdLC4cv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Retrato_de_Cristóbal_de_Morales.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases           | description      | Wikidata QID                                                    |
-    | :-------: | :------------------: | :---------------: | :--------------: | :-------------------------------------------------------------: |
-    | ALdLC4cv  | Cristóbal de Morales | Mohamed de Cristo | Spanish composer | [Cristóbal de Morales](http://wwww.wikidata.org/entity/Q360184) |
+    | FAAM UUID | label                | aliases           | description      | Wikidata QID                                               |
+    | :-------: | :------------------: | :---------------: | :--------------: | :--------------------------------------------------------: |
+    | ALdLC4cv  | Cristóbal de Morales | Mohamed de Cristo | Spanish composer | [Cristóbal de Morales](http://wikidata.org/entity/Q360184) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ALdLC4cv.html" height="800" width="1200" title="ALdLC4cv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ALdLC4cv" height="800" width="1200" title="ALdLC4cv"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,25 @@ tags: agent
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Juan Navarro Hispalensis](./H2w2eF7A.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Spanish composer
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Missa Quaeramus cum pastoribus](./K4WvWT5h.md)__
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jPn8bowv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                        | aliases | Wikidata QID                                          |
-    | :-------: | :---------: | :--------------------------------: | :-----: | :---------------------------------------------------: |
-    | jPn8bowv  | Oranienburg | town in Brandenburg state, Germany |         | [Oranienburg](http://wwww.wikidata.org/entity/Q14808) |
+    | FAAM UUID | label       | description                        | aliases | Wikidata QID                                     |
+    | :-------: | :---------: | :--------------------------------: | :-----: | :----------------------------------------------: |
+    | jPn8bowv  | Oranienburg | town in Brandenburg state, Germany |         | [Oranienburg](http://wikidata.org/entity/Q14808) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jPn8bowv.html" height="800" width="1200" title="jPn8bowv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jPn8bowv" height="800" width="1200" title="jPn8bowv"></iframe>
 
 ## Identifiers
 

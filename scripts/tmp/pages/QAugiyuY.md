@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QAugiyuY
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description          | aliases           | Wikidata QID                                                 |
-    | :-------: | :-------------: | :------------------: | :---------------: | :----------------------------------------------------------: |
-    | QAugiyuY  | aspect of sound | phonological quality | property of sound | [aspect of sound](http://wwww.wikidata.org/entity/Q17587776) |
+    | FAAM UUID | label           | description          | aliases           | Wikidata QID                                            |
+    | :-------: | :-------------: | :------------------: | :---------------: | :-----------------------------------------------------: |
+    | QAugiyuY  | aspect of sound | phonological quality | property of sound | [aspect of sound](http://wikidata.org/entity/Q17587776) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/QAugiyuY.html" height="800" width="1200" title="QAugiyuY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QAugiyuY" height="800" width="1200" title="QAugiyuY"></iframe>
 
 ## Cross-references
 

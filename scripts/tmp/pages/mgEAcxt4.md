@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mgEAcxt4
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                              | aliases          | Wikidata QID                                                  |
-    | :-------: | :-------------: | :--------------------------------------: | :--------------: | :-----------------------------------------------------------: |
-    | mgEAcxt4  | concert flutist | musician who plays western concert flute | concert flautist | [concert flutist](http://wwww.wikidata.org/entity/Q118397797) |
+    | FAAM UUID | label           | description                              | aliases          | Wikidata QID                                             |
+    | :-------: | :-------------: | :--------------------------------------: | :--------------: | :------------------------------------------------------: |
+    | mgEAcxt4  | concert flutist | musician who plays western concert flute | concert flautist | [concert flutist](http://wikidata.org/entity/Q118397797) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/mgEAcxt4.html" height="800" width="1200" title="mgEAcxt4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mgEAcxt4" height="800" width="1200" title="mgEAcxt4"></iframe>
 
 ## Cross-references
 

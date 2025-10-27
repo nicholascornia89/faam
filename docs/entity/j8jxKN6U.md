@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: j8jxKN6U
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                              | aliases | Wikidata QID                                                 |
-    | :-------: | :-------------: | :--------------------------------------: | :-----: | :----------------------------------------------------------: |
-    | j8jxKN6U  | organic chemist | chemist specialized in organic chemistry |         | [organic chemist](http://wwww.wikidata.org/entity/Q34463094) |
+    | FAAM UUID | label           | description                              | aliases | Wikidata QID                                            |
+    | :-------: | :-------------: | :--------------------------------------: | :-----: | :-----------------------------------------------------: |
+    | j8jxKN6U  | organic chemist | chemist specialized in organic chemistry |         | [organic chemist](http://wikidata.org/entity/Q34463094) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/j8jxKN6U.html" height="800" width="1200" title="j8jxKN6U"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/j8jxKN6U" height="800" width="1200" title="j8jxKN6U"></iframe>
 
 ## Cross-references
 

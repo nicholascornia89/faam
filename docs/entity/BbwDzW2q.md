@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BbwDzW2q
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                               | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :---------------------------------------: | :-----: | :--------------------------------------------------: |
-    | BbwDzW2q  | Braunfels | town in Lahn-Dill-Kreis in Hesse, Germany |         | [Braunfels](http://wwww.wikidata.org/entity/Q525612) |
+    | FAAM UUID | label     | description                               | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :---------------------------------------: | :-----: | :---------------------------------------------: |
+    | BbwDzW2q  | Braunfels | town in Lahn-Dill-Kreis in Hesse, Germany |         | [Braunfels](http://wikidata.org/entity/Q525612) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BbwDzW2q.html" height="800" width="1200" title="BbwDzW2q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BbwDzW2q" height="800" width="1200" title="BbwDzW2q"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9Tium4Fv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :------------------------: | :-----: | :-------------------------------------------------: |
-    | 9Tium4Fv  | Arnstadt | town in Thuringia, Germany |         | [Arnstadt](http://wwww.wikidata.org/entity/Q490665) |
+    | FAAM UUID | label    | description                | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :------------------------: | :-----: | :--------------------------------------------: |
+    | 9Tium4Fv  | Arnstadt | town in Thuringia, Germany |         | [Arnstadt](http://wikidata.org/entity/Q490665) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9Tium4Fv.html" height="800" width="1200" title="9Tium4Fv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9Tium4Fv" height="800" width="1200" title="9Tium4Fv"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Friedrich Filitz](./e4CjhnYh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	19th century German composer and musicologist
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Johann Christoph Bach II](./8mBATjSW.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 

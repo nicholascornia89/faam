@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XMU4WE3Z
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description      | aliases | Wikidata QID                                        |
-    | :-------: | :-----: | :--------------: | :-----: | :-------------------------------------------------: |
-    | XMU4WE3Z  | Ribnica | town in Slovenia |         | [Ribnica](http://wwww.wikidata.org/entity/Q2596325) |
+    | FAAM UUID | label   | description      | aliases | Wikidata QID                                   |
+    | :-------: | :-----: | :--------------: | :-----: | :--------------------------------------------: |
+    | XMU4WE3Z  | Ribnica | town in Slovenia |         | [Ribnica](http://wikidata.org/entity/Q2596325) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Slovenia](http://www.wikidata.org/entity/Q215)
+	- [Slovenia](Q215)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/XMU4WE3Z.html" height="800" width="1200" title="XMU4WE3Z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XMU4WE3Z" height="800" width="1200" title="XMU4WE3Z"></iframe>
 
 ## Identifiers
 

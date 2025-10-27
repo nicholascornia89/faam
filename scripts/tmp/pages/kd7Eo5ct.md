@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kd7Eo5ct
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                                 | aliases        | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :-----------------------------------------: | :------------: | :--------------------------------------------------------------------: |
-    | kd7Eo5ct  | Duchy of Parma and Piacenza | former Italian state (1545–1802; 1814–1859) | Duchy of Parma | [Duchy of Parma and Piacenza](http://wwww.wikidata.org/entity/Q165040) |
+    | FAAM UUID | label                       | description                                 | aliases        | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :-----------------------------------------: | :------------: | :---------------------------------------------------------------: |
+    | kd7Eo5ct  | Duchy of Parma and Piacenza | former Italian state (1545–1802; 1814–1859) | Duchy of Parma | [Duchy of Parma and Piacenza](http://wikidata.org/entity/Q165040) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/kd7Eo5ct.html" height="800" width="1200" title="kd7Eo5ct"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kd7Eo5ct" height="800" width="1200" title="kd7Eo5ct"></iframe>
 
 ## Identifiers
 
@@ -43,13 +47,13 @@ tags: country
 
 -	__[Giuseppe Verdi](./nhPsm7TZ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/19/Verdi_by_Giovanni_Boldini.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Verdi_by_Giovanni_Boldini.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1813–1901)
 
 -	__[Fortunato Chelleri](./MJqDk4yg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian-German Kapellmeister and composer
 
@@ -73,7 +77,7 @@ tags: country
 
 -	__[Marco Uccellini](./8j3Rxjfp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician and composer
 

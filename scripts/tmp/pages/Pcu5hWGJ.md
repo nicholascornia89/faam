@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Pcu5hWGJ
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | description | aliases              | Wikidata QID                                                                   |
-    | :-------: | :---------------------------------: | :---------: | :------------------: | :----------------------------------------------------------------------------: |
-    | Pcu5hWGJ  | Grand Duchy of Mecklenburg-Schwerin | grand duchy | Mecklenburg-Schwerin | [Grand Duchy of Mecklenburg-Schwerin](http://wwww.wikidata.org/entity/Q158445) |
+    | FAAM UUID | label                               | description | aliases              | Wikidata QID                                                              |
+    | :-------: | :---------------------------------: | :---------: | :------------------: | :-----------------------------------------------------------------------: |
+    | Pcu5hWGJ  | Grand Duchy of Mecklenburg-Schwerin | grand duchy | Mecklenburg-Schwerin | [Grand Duchy of Mecklenburg-Schwerin](http://wikidata.org/entity/Q158445) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/Pcu5hWGJ.html" height="800" width="1200" title="Pcu5hWGJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Pcu5hWGJ" height="800" width="1200" title="Pcu5hWGJ"></iframe>
 
 ## Identifiers
 

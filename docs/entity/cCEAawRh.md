@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cCEAawRh
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/cCEAawRh.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/cCEAawRh.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/cCEAawRh.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/cCEAawRh.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/cCEAawRh.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/cCEAawRh.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felice_Boghen_04.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases             | description                                        | Wikidata QID                                               |
-    | :-------: | :-----------: | :-----------------: | :------------------------------------------------: | :--------------------------------------------------------: |
-    | cCEAawRh  | Felice Boghen | Carlo Felice Boghen | composer, orchestra conductor, pianist (1869-1945) | [Felice Boghen](http://wwww.wikidata.org/entity/Q55225713) |
+    | FAAM UUID | label         | aliases             | description                                        | Wikidata QID                                          |
+    | :-------: | :-----------: | :-----------------: | :------------------------------------------------: | :---------------------------------------------------: |
+    | cCEAawRh  | Felice Boghen | Carlo Felice Boghen | composer, orchestra conductor, pianist (1869-1945) | [Felice Boghen](http://wikidata.org/entity/Q55225713) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/cCEAawRh.html" height="800" width="1200" title="cCEAawRh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cCEAawRh" height="800" width="1200" title="cCEAawRh"></iframe>
 
 ## Identifiers
 

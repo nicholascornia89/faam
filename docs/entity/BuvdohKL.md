@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BuvdohKL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                               | aliases | Wikidata QID                                            |
-    | :-------: | :---------: | :-----------------------------------------------------------------------: | :-----: | :-----------------------------------------------------: |
-    | BuvdohKL  | Nelahozeves | village in Mělník District of Central Bohemian region, the Czech Republic |         | [Nelahozeves](http://wwww.wikidata.org/entity/Q1021621) |
+    | FAAM UUID | label       | description                                                               | aliases | Wikidata QID                                       |
+    | :-------: | :---------: | :-----------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
+    | BuvdohKL  | Nelahozeves | village in Mělník District of Central Bohemian region, the Czech Republic |         | [Nelahozeves](http://wikidata.org/entity/Q1021621) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BuvdohKL.html" height="800" width="1200" title="BuvdohKL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BuvdohKL" height="800" width="1200" title="BuvdohKL"></iframe>
 
 ## Identifiers
 

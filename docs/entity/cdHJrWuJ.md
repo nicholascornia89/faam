@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cdHJrWuJ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description               | Wikidata QID                                            |
-    | :-------: | :----------: | :----------: | :-----------------------: | :-----------------------------------------------------: |
-    | cdHJrWuJ  | La straniera | La straniera | opera by Vincenzo Bellini | [La straniera](http://wwww.wikidata.org/entity/Q785347) |
+    | FAAM UUID | label        | aliases      | description               | Wikidata QID                                       |
+    | :-------: | :----------: | :----------: | :-----------------------: | :------------------------------------------------: |
+    | cdHJrWuJ  | La straniera | La straniera | opera by Vincenzo Bellini | [La straniera](http://wikidata.org/entity/Q785347) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/cdHJrWuJ.html" height="800" width="1200" title="cdHJrWuJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cdHJrWuJ" height="800" width="1200" title="cdHJrWuJ"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Récréations musicales : collection d'airs variés et fantaisies pour la flûte sur des thêmes choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs célèbres](./ffw6asHK.md)__
 
-	![Image](../assets/images/thumbs/KCG-000370144.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000370144.gif){align=left width="150" height="150"} 
 
 	
 

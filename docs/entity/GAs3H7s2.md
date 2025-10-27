@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GAs3H7s2
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                         | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :---------------------------------: | :-----: | :---------------------------------------------: |
-    | GAs3H7s2  | neume | system of medieval musical notation | neum    | [neume](http://wwww.wikidata.org/entity/Q41867) |
+    | FAAM UUID | label | description                         | aliases | Wikidata QID                               |
+    | :-------: | :---: | :---------------------------------: | :-----: | :----------------------------------------: |
+    | GAs3H7s2  | neume | system of medieval musical notation | neum    | [neume](http://wikidata.org/entity/Q41867) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/GAs3H7s2.html" height="800" width="1200" title="GAs3H7s2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GAs3H7s2" height="800" width="1200" title="GAs3H7s2"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Introduction a l'exécution du chant Grégorien d'après les principes des Bénédictins de Solesmes](./A7VAiBNL.md)__
 
-	![Image](../assets/images/thumbs/KCA-KGR127262.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KGR127262.gif){align=left width="150" height="150"} 
 
 	
 

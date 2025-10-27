@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YznTcR3V
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                   | aliases     | Wikidata QID                                          |
-    | :-------: | :--------: | :-------------------------------------------: | :---------: | :---------------------------------------------------: |
-    | YznTcR3V  | songwriter | person who writes the words or music to songs | song writer | [songwriter](http://wwww.wikidata.org/entity/Q753110) |
+    | FAAM UUID | label      | description                                   | aliases     | Wikidata QID                                     |
+    | :-------: | :--------: | :-------------------------------------------: | :---------: | :----------------------------------------------: |
+    | YznTcR3V  | songwriter | person who writes the words or music to songs | song writer | [songwriter](http://wikidata.org/entity/Q753110) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/YznTcR3V.html" height="800" width="1200" title="YznTcR3V"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YznTcR3V" height="800" width="1200" title="YznTcR3V"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Ton Koopman](./Jy8ns9kr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
 
 	Dutch conductor, organist and harpsichordist, born 2 October 1944
 

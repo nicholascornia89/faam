@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KKvERxRE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KKvERxRE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KKvERxRE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KKvERxRE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KKvERxRE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KKvERxRE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KKvERxRE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases | description                    | Wikidata QID                                                |
-    | :-------: | :--------------: | :-----: | :----------------------------: | :---------------------------------------------------------: |
-    | KKvERxRE  | François Bernier | Bernier | French physician and traveller | [François Bernier](http://wwww.wikidata.org/entity/Q375438) |
+    | FAAM UUID | label            | aliases | description                    | Wikidata QID                                           |
+    | :-------: | :--------------: | :-----: | :----------------------------: | :----------------------------------------------------: |
+    | KKvERxRE  | François Bernier | Bernier | French physician and traveller | [François Bernier](http://wikidata.org/entity/Q375438) |
 
 <br><br><br>
 
@@ -43,15 +47,15 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./6pfzESag.md)
+	- [philosopher](./6pfzESag.md)
 
-	- [](./TBYigQyt.md)
+	- [physician](./TBYigQyt.md)
 
 	- [writer](./YrCfZ8vh.md)
 
-	- [](./N2xR7adJ.md)
+	- [explorer](./N2xR7adJ.md)
 
-	- [](./oNLtVNzY.md)
+	- [anthropologist](./oNLtVNzY.md)
 
 ??? quote "educated at" 
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KKvERxRE.html" height="800" width="1200" title="KKvERxRE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KKvERxRE" height="800" width="1200" title="KKvERxRE"></iframe>
 
 ## Identifiers
 

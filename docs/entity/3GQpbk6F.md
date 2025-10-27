@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3GQpbk6F
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases       | description                      | Wikidata QID                                               |
-    | :-------: | :---------------: | :-----------: | :------------------------------: | :--------------------------------------------------------: |
-    | 3GQpbk6F  | 3 Gedichte, Op.29 | Zigeunerleben | lied composed by Robert Schumann | [Zigeunerleben](http://wwww.wikidata.org/entity/Q11556728) |
+    | FAAM UUID | label             | aliases       | description                      | Wikidata QID                                          |
+    | :-------: | :---------------: | :-----------: | :------------------------------: | :---------------------------------------------------: |
+    | 3GQpbk6F  | 3 Gedichte, Op.29 | Zigeunerleben | lied composed by Robert Schumann | [Zigeunerleben](http://wikidata.org/entity/Q11556728) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/3GQpbk6F.html" height="800" width="1200" title="3GQpbk6F"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3GQpbk6F" height="800" width="1200" title="3GQpbk6F"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Les Bohémiens Op. 29 N° 3 : Drei Gedichte](./dzJH3DPT.md)__
 
-	![Image](../assets/images/thumbs/KCG-000346180.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000346180.gif){align=left width="150" height="150"} 
 
 	
 

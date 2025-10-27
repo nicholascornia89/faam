@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YM9gGYJ9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                   | description             | aliases | Wikidata QID                                                                        |
-    | :-------: | :-------------------------------------: | :---------------------: | :-----: | :---------------------------------------------------------------------------------: |
-    | YM9gGYJ9  | Rue Louise-Émilie-de-La-Tour-d'Auvergne | street in Paris, France |         | [Rue Louise-Émilie-de-La-Tour-d'Auvergne](http://wwww.wikidata.org/entity/Q2378296) |
+    | FAAM UUID | label                                   | description             | aliases | Wikidata QID                                                                   |
+    | :-------: | :-------------------------------------: | :---------------------: | :-----: | :----------------------------------------------------------------------------: |
+    | YM9gGYJ9  | Rue Louise-Émilie-de-La-Tour-d'Auvergne | street in Paris, France |         | [Rue Louise-Émilie-de-La-Tour-d'Auvergne](http://wikidata.org/entity/Q2378296) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YM9gGYJ9.html" height="800" width="1200" title="YM9gGYJ9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YM9gGYJ9" height="800" width="1200" title="YM9gGYJ9"></iframe>
 
 ## Identifiers
 

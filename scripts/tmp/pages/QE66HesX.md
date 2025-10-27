@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QE66HesX
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description               | aliases | Wikidata QID                                    |
-    | :-------: | :----: | :-----------------------: | :-----: | :---------------------------------------------: |
-    | QE66HesX  | guitar | fretted string instrument | guitar  | [guitar](http://wwww.wikidata.org/entity/Q6607) |
+    | FAAM UUID | label  | description               | aliases | Wikidata QID                               |
+    | :-------: | :----: | :-----------------------: | :-----: | :----------------------------------------: |
+    | QE66HesX  | guitar | fretted string instrument | guitar  | [guitar](http://wikidata.org/entity/Q6607) |
 
 <br><br><br>
 
@@ -31,19 +35,19 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./DNdvjXZe.md)
+	- [necked, flat-backed, plucked lutes](./DNdvjXZe.md)
 
-	- [](./YE8FPP89.md)
+	- [long, thin object](./YE8FPP89.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/QE66HesX.html" height="800" width="1200" title="QE66HesX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QE66HesX" height="800" width="1200" title="QE66HesX"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: musical_instrument
 
 -	__[Grande Sonate brillante : für Gitarre und Klavier, op. 102](./B3B8jgZK.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901582434.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901582434.gif){align=left width="150" height="150"} 
 
 	
 
@@ -93,7 +97,7 @@ tags: musical_instrument
 
 -	__[Gustavo Carulli](./AbReSA72.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian-French musician 1801-76
 
@@ -111,7 +115,7 @@ tags: musical_instrument
 
 -	__[Josep Brocà i Codina](./jhHqv86b.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer and classical guitarist (1805-1882)
 

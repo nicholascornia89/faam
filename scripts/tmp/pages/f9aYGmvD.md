@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: f9aYGmvD
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                        | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | f9aYGmvD  | 3 Études Caractéristiques pour violon, Op.37 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                        | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | f9aYGmvD  | 3 Études Caractéristiques pour violon, Op.37 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/f9aYGmvD.html" height="800" width="1200" title="f9aYGmvD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/f9aYGmvD" height="800" width="1200" title="f9aYGmvD"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[3 études caractéristiques pour violon avec accpt. de piano, op. 37](./bSxwuKKy.md)__
 
-	![Image](../assets/images/thumbs/BNF-428466451.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-428466451.gif){align=left width="150" height="150"} 
 
 	
 

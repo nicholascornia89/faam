@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JrarmXTr
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000749031/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JrarmXTr.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JrarmXTr.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JrarmXTr.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000749031/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JrarmXTr.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JrarmXTr.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JrarmXTr.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000749031.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000749031.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                 | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-------------------: | :----------------------: | :------------------------------------------------: |
-    | JrarmXTr  | KCG-000749031         | Ouverture : in H moll | [external URL](mMrUGL4h) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                 | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | JrarmXTr  | KCG-000749031         | Ouverture : in H moll | [external URL](https://catalogus.hogent.be/catalog/hog01:000749031) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -106,10 +110,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/JrarmXTr.html" height="800" width="1200" title="JrarmXTr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JrarmXTr" height="800" width="1200" title="JrarmXTr"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/JrarmXTr.html" height="800" width="1200" title="JrarmXTr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/JrarmXTr" height="800" width="1200" title="JrarmXTr"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jxnVXc6y
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                     | aliases  | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :-----------------------------: | :------: | :--------------------------------------------------------------------: |
-    | jxnVXc6y  | Sint-Gillis-bij-Dendermonde | section of Dendermonde, Belgium | Zwijveke | [Sint-Gillis-bij-Dendermonde](http://wwww.wikidata.org/entity/Q898394) |
+    | FAAM UUID | label                       | description                     | aliases  | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :-----------------------------: | :------: | :---------------------------------------------------------------: |
+    | jxnVXc6y  | Sint-Gillis-bij-Dendermonde | section of Dendermonde, Belgium | Zwijveke | [Sint-Gillis-bij-Dendermonde](http://wikidata.org/entity/Q898394) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jxnVXc6y.html" height="800" width="1200" title="jxnVXc6y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jxnVXc6y" height="800" width="1200" title="jxnVXc6y"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RgNFJ8gc
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                | aliases       | Wikidata QID                                               |
-    | :-------: | :------------: | :----------------------------------------: | :-----------: | :--------------------------------------------------------: |
-    | RgNFJ8gc  | school teacher | teacher in primary and secondary education | schoolteacher | [school teacher](http://wwww.wikidata.org/entity/Q2251335) |
+    | FAAM UUID | label          | description                                | aliases       | Wikidata QID                                          |
+    | :-------: | :------------: | :----------------------------------------: | :-----------: | :---------------------------------------------------: |
+    | RgNFJ8gc  | school teacher | teacher in primary and secondary education | schoolteacher | [school teacher](http://wikidata.org/entity/Q2251335) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/RgNFJ8gc.html" height="800" width="1200" title="RgNFJ8gc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RgNFJ8gc" height="800" width="1200" title="RgNFJ8gc"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Remi Ghesquiere](./5FzPNxhE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	sacristan, teacher, organist, composer, poet and politician from Belgium (1866-1964)
 
@@ -55,7 +59,7 @@ tags: occupation
 
 -	__[Pieter Benoit](./i6yQPw7F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian priest and teacher (1820-1892)
 

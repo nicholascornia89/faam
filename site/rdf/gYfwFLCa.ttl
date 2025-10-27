@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gYfwFLCa a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1873-04-18"^^xsd:string ;
+    schema1:birthPlace faamentity:8id9Fcsj ;
+    schema1:deathDate "1954-07-19"^^xsd:string ;
+    schema1:deathPlace faamentity:h5oVzrqP ;
+    schema1:description "French composer (1873–1954)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q649959>,
+        "16005329"^^xsd:string,
+        "gYfwFLCa"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Jean Jules Aimable Roger-Ducasse"^^xsd:string,
+        "Jean Jules Amable Roger-Ducasse"^^xsd:string,
+        "Jean Roger-Ducasse"^^xsd:string ;
+    skos:prefLabel "Jean Roger-Ducasse"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P1303 faamentity:ARCBiyhQ,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:79742467 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:GsCCwH8o ;
+    wd:P839 <https://imslp.org/wiki/Category:Roger-Ducasse,_Jean> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:QBx3kSJW .
+

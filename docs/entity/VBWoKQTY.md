@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VBWoKQTY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                                          | aliases | Wikidata QID                                    |
-    | :-------: | :--------------------: | :------------------------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | VBWoKQTY  | Hareskov Health Resort | former sanatorium, burned down by the resistance group Holger Danske |         | [H](http://wwww.wikidata.org/entity/Q124313034) |
+    | FAAM UUID | label                  | description                                                          | aliases | Wikidata QID                               |
+    | :-------: | :--------------------: | :------------------------------------------------------------------: | :-----: | :----------------------------------------: |
+    | VBWoKQTY  | Hareskov Health Resort | former sanatorium, burned down by the resistance group Holger Danske |         | [H](http://wikidata.org/entity/Q124313034) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Denmark](http://www.wikidata.org/entity/Q35)
+	- [Denmark](Q35)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/VBWoKQTY.html" height="800" width="1200" title="VBWoKQTY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VBWoKQTY" height="800" width="1200" title="VBWoKQTY"></iframe>
 
 ## Identifiers
 

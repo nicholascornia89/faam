@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LwEejcZj
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000122135/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LwEejcZj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LwEejcZj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LwEejcZj.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000122135/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LwEejcZj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LwEejcZj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LwEejcZj.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000122135.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000122135.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                       | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | LwEejcZj  | KCG-000122135         | LE MAÎTRE DE CHAPELLE ou LE SOUPER IMPRÉVU. No. 2. Grande scène : Ah! quel plaisir de pressentir sa gloire! | [external URL](j3tnVzW5) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                       | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | LwEejcZj  | KCG-000122135         | LE MAÎTRE DE CHAPELLE ou LE SOUPER IMPRÉVU. No. 2. Grande scène : Ah! quel plaisir de pressentir sa gloire! | [external URL](https://catalogus.hogent.be/catalog/hog01:000122135) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -94,10 +98,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/LwEejcZj.html" height="800" width="1200" title="LwEejcZj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LwEejcZj" height="800" width="1200" title="LwEejcZj"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/LwEejcZj.html" height="800" width="1200" title="LwEejcZj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/LwEejcZj" height="800" width="1200" title="LwEejcZj"></iframe>

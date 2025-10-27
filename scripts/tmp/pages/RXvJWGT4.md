@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RXvJWGT4
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | aliases | description | Wikidata QID                         |
-    | :-------: | :--------------------------: | :-----: | :---------: | :----------------------------------: |
-    | RXvJWGT4  | Récréations musicales, Op.65 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                        | aliases | description | Wikidata QID                    |
+    | :-------: | :--------------------------: | :-----: | :---------: | :-----------------------------: |
+    | RXvJWGT4  | Récréations musicales, Op.65 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/RXvJWGT4.html" height="800" width="1200" title="RXvJWGT4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RXvJWGT4" height="800" width="1200" title="RXvJWGT4"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Récréations musicales : collection d'airs variés et fantaisies pour la flûte sur des thêmes choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs célèbres](./ffw6asHK.md)__
 
-	![Image](../assets/images/thumbs/KCG-000370144.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000370144.gif){align=left width="150" height="150"} 
 
 	
 

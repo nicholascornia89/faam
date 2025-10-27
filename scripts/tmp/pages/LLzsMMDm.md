@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LLzsMMDm
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LLzsMMDm.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LLzsMMDm.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LLzsMMDm.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LLzsMMDm.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LLzsMMDm.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LLzsMMDm.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases | description                                          | Wikidata QID                                                    |
-    | :-------: | :------------------: | :-----: | :--------------------------------------------------: | :-------------------------------------------------------------: |
-    | LLzsMMDm  | Gottfried von Preyer |         | Austrian composer, conductor and teacher (1807–1901) | [Gottfried von Preyer](http://wwww.wikidata.org/entity/Q113506) |
+    | FAAM UUID | label                | aliases | description                                          | Wikidata QID                                               |
+    | :-------: | :------------------: | :-----: | :--------------------------------------------------: | :--------------------------------------------------------: |
+    | LLzsMMDm  | Gottfried von Preyer |         | Austrian composer, conductor and teacher (1807–1901) | [Gottfried von Preyer](http://wikidata.org/entity/Q113506) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/LLzsMMDm.html" height="800" width="1200" title="LLzsMMDm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LLzsMMDm" height="800" width="1200" title="LLzsMMDm"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Adolf Pollitzer](./kbQANhqN.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolf_Pollitzer_(1832–1900).png){align=left width="150" height="150"} 
+
+	Hungarian musician (1832–1900)
+
+</div>

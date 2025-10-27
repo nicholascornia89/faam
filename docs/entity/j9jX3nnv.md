@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: j9jX3nnv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                   | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :-------------------------------------------: | :-----: | :------------------------------------------------: |
-    | j9jX3nnv  | Medlov | village in Olomouc District of Olomouc region |         | [Medlov](http://wwww.wikidata.org/entity/Q1387700) |
+    | FAAM UUID | label  | description                                   | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :-------------------------------------------: | :-----: | :-------------------------------------------: |
+    | j9jX3nnv  | Medlov | village in Olomouc District of Olomouc region |         | [Medlov](http://wikidata.org/entity/Q1387700) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/j9jX3nnv.html" height="800" width="1200" title="j9jX3nnv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/j9jX3nnv" height="800" width="1200" title="j9jX3nnv"></iframe>
 
 ## Identifiers
 

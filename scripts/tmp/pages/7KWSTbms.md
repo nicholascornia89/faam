@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7KWSTbms
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                    | aliases     | Wikidata QID                                          |
-    | :-------: | :--------: | :----------------------------: | :---------: | :---------------------------------------------------: |
-    | 7KWSTbms  | astrologer | person who practices astrology | astrologist | [astrologer](http://wwww.wikidata.org/entity/Q155647) |
+    | FAAM UUID | label      | description                    | aliases     | Wikidata QID                                     |
+    | :-------: | :--------: | :----------------------------: | :---------: | :----------------------------------------------: |
+    | 7KWSTbms  | astrologer | person who practices astrology | astrologist | [astrologer](http://wikidata.org/entity/Q155647) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/7KWSTbms.html" height="800" width="1200" title="7KWSTbms"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7KWSTbms" height="800" width="1200" title="7KWSTbms"></iframe>
 
 ## Cross-references
 

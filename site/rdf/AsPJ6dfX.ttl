@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AsPJ6dfX a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1795-12-08"^^xsd:string ;
+    schema1:birthPlace faamentity:6rNSbLYV ;
+    schema1:deathDate "1864-10-18"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French composer, professor, hornist and music educator (1795-1864)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1677973>,
+        "15995940"^^xsd:string,
+        "AsPJ6dfX"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Jacques François Gallay"^^xsd:string ;
+    skos:prefLabel "Jacques François Gallay"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P1303 faamentity:SRXTUjuW,
+        faamentity:cLNoEZce ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:54338133 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/41020266> ;
+    wd:P737 faamentity:9sgtLnWS ;
+    wd:P839 <https://imslp.org/wiki/Category:Gallay,_Jacques_François> ;
+    schema:hasOccupation faamentity:4oDTHpMV,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bTa6kXe8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                      | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :------------------------------: | :-----: | :----------------------------------------------: |
-    | bTa6kXe8  | Arras | commune in Pas-de-Calais, France | Atrecht | [Arras](http://wwww.wikidata.org/entity/Q131329) |
+    | FAAM UUID | label | description                      | aliases | Wikidata QID                                |
+    | :-------: | :---: | :------------------------------: | :-----: | :-----------------------------------------: |
+    | bTa6kXe8  | Arras | commune in Pas-de-Calais, France | Atrecht | [Arras](http://wikidata.org/entity/Q131329) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bTa6kXe8.html" height="800" width="1200" title="bTa6kXe8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bTa6kXe8" height="800" width="1200" title="bTa6kXe8"></iframe>
 
 ## Identifiers
 

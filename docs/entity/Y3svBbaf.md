@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Y3svBbaf
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                                                                    | aliases               | Wikidata QID                                            |
-    | :-------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------: | :-------------------: | :-----------------------------------------------------: |
-    | Y3svBbaf  | variety show | television genre characterized by a series of specialty acts such as music, dance, comedy, magic, acrobatics and ventriloquism | variety entertainment | [variety show](http://wwww.wikidata.org/entity/Q336181) |
+    | FAAM UUID | label        | description                                                                                                                    | aliases               | Wikidata QID                                       |
+    | :-------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------: | :-------------------: | :------------------------------------------------: |
+    | Y3svBbaf  | variety show | television genre characterized by a series of specialty acts such as music, dance, comedy, magic, acrobatics and ventriloquism | variety entertainment | [variety show](http://wikidata.org/entity/Q336181) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Y3svBbaf.html" height="800" width="1200" title="Y3svBbaf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Y3svBbaf" height="800" width="1200" title="Y3svBbaf"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HgVUuaP9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                             | aliases                 | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------------------------------------------------: | :---------------------: | :------------------------------------------------: |
-    | HgVUuaP9  | Evesham | market town and civil parish in Worcestershire, England | Evesham, Worcestershire | [Evesham](http://wwww.wikidata.org/entity/Q585963) |
+    | FAAM UUID | label   | description                                             | aliases                 | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------------------------------------------------: | :---------------------: | :-------------------------------------------: |
+    | HgVUuaP9  | Evesham | market town and civil parish in Worcestershire, England | Evesham, Worcestershire | [Evesham](http://wikidata.org/entity/Q585963) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HgVUuaP9.html" height="800" width="1200" title="HgVUuaP9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HgVUuaP9" height="800" width="1200" title="HgVUuaP9"></iframe>
 
 ## Identifiers
 

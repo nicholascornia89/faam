@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LZEG3pgN
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LZEG3pgN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LZEG3pgN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LZEG3pgN.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LZEG3pgN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LZEG3pgN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LZEG3pgN.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Ambrosius_Bach.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases | description                                                  | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :-----: | :----------------------------------------------------------: | :--------------------------------------------------------------: |
-    | LZEG3pgN  | Johann Ambrosius Bach |         | German musician, father to Johann Sebastian Bach (1645-1695) | [Johann Ambrosius Bach](http://wwww.wikidata.org/entity/Q309470) |
+    | FAAM UUID | label                 | aliases | description                                                  | Wikidata QID                                                |
+    | :-------: | :-------------------: | :-----: | :----------------------------------------------------------: | :---------------------------------------------------------: |
+    | LZEG3pgN  | Johann Ambrosius Bach |         | German musician, father to Johann Sebastian Bach (1645-1695) | [Johann Ambrosius Bach](http://wikidata.org/entity/Q309470) |
 
 <br><br><br>
 
@@ -61,15 +65,15 @@ tags: agent
 
 	- [musician](./bX2aWAhB.md)
 
-	- [](./JhmpDLuj.md)
+	- [alta cappella](./JhmpDLuj.md)
 
-	- [](./BpZTW7SQ.md)
+	- [court musician](./BpZTW7SQ.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/LZEG3pgN.html" height="800" width="1200" title="LZEG3pgN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LZEG3pgN" height="800" width="1200" title="LZEG3pgN"></iframe>
 
 ## Identifiers
 
@@ -86,3 +90,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Johann Sebastian Bach](./GecAsFfL.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Sebastian_Bach.jpg){align=left width="150" height="150"} 
+
+	German composer (1685–1750)
+
+</div>

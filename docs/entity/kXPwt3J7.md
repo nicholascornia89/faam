@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kXPwt3J7
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                            | aliases | Wikidata QID                                              |
-    | :-------: | :------------: | :----------------------------------------------------: | :-----: | :-------------------------------------------------------: |
-    | kXPwt3J7  | Duchy of Savoy | state in Western Europe that existed from 1416 to 1860 | Savoy   | [Duchy of Savoy](http://wwww.wikidata.org/entity/Q426025) |
+    | FAAM UUID | label          | description                                            | aliases | Wikidata QID                                         |
+    | :-------: | :------------: | :----------------------------------------------------: | :-----: | :--------------------------------------------------: |
+    | kXPwt3J7  | Duchy of Savoy | state in Western Europe that existed from 1416 to 1860 | Savoy   | [Duchy of Savoy](http://wikidata.org/entity/Q426025) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/kXPwt3J7.html" height="800" width="1200" title="kXPwt3J7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kXPwt3J7" height="800" width="1200" title="kXPwt3J7"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Pietro Heredia](./iB5gXbgh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dccWmHRA
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description             | aliases | Wikidata QID                                               |
-    | :-------: | :-------------: | :---------------------: | :-----: | :--------------------------------------------------------: |
-    | dccWmHRA  | Gresham College | educational institution |         | [Gresham College](http://wwww.wikidata.org/entity/Q788375) |
+    | FAAM UUID | label           | description             | aliases | Wikidata QID                                          |
+    | :-------: | :-------------: | :---------------------: | :-----: | :---------------------------------------------------: |
+    | dccWmHRA  | Gresham College | educational institution |         | [Gresham College](http://wikidata.org/entity/Q788375) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./3cqgUmXp.md)
+	[Holborn](./3cqgUmXp.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/dccWmHRA.html" height="800" width="1200" title="dccWmHRA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dccWmHRA" height="800" width="1200" title="dccWmHRA"></iframe>
 
 ## Cross-references
 

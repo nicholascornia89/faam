@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dRksXP4F
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                                                                                                                                                                                  | aliases          | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------: | :---------------------------------------------------------------: |
-    | dRksXP4F  | traditional folk music | local or regional traditional music that was originally produced in performance and transmitted in community conditions, as well as music written stylistically and/or ideologically within these traditions | musical folklore | [traditional folk music](http://wwww.wikidata.org/entity/Q235858) |
+    | FAAM UUID | label                  | description                                                                                                                                                                                                  | aliases          | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------: | :----------------------------------------------------------: |
+    | dRksXP4F  | traditional folk music | local or regional traditional music that was originally produced in performance and transmitted in community conditions, as well as music written stylistically and/or ideologically within these traditions | musical folklore | [traditional folk music](http://wikidata.org/entity/Q235858) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/dRksXP4F.html" height="800" width="1200" title="dRksXP4F"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dRksXP4F" height="800" width="1200" title="dRksXP4F"></iframe>
 
 ## Cross-references
 
@@ -39,13 +43,13 @@ tags: keyword
 
 -	__[Twenty-seven old Flemish folk songs : transcribed for piano](./mHxPYjpk.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904517767.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904517767.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Échos du temps passé.](./eiDYWXvf.md)__
 
-	![Image](../assets/images/thumbs/UTL-978130914.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/UTL-978130914.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VwZmF2Uv
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | description                      | aliases                | Wikidata QID                                                             |
-    | :-------: | :---------------------------: | :------------------------------: | :--------------------: | :----------------------------------------------------------------------: |
-    | VwZmF2Uv  | Saint Petersburg Conservatory | music school in Saint Petersburg | Leningrad Conservatory | [Saint Petersburg Conservatory](http://wwww.wikidata.org/entity/Q178416) |
+    | FAAM UUID | label                         | description                      | aliases                | Wikidata QID                                                        |
+    | :-------: | :---------------------------: | :------------------------------: | :--------------------: | :-----------------------------------------------------------------: |
+    | VwZmF2Uv  | Saint Petersburg Conservatory | music school in Saint Petersburg | Leningrad Conservatory | [Saint Petersburg Conservatory](http://wikidata.org/entity/Q178416) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./ZpwbPoZj.md)
+	[Saint Petersburg](./ZpwbPoZj.md)
 
 !!! quote "country" 
 
@@ -45,7 +49,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/VwZmF2Uv.html" height="800" width="1200" title="VwZmF2Uv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VwZmF2Uv" height="800" width="1200" title="VwZmF2Uv"></iframe>
 
 ## Cross-references
 
@@ -103,7 +107,7 @@ tags: music_organization
 
 -	__[Alexander Villoing](./LGDvCCZt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian music educator and composer
 
@@ -115,7 +119,7 @@ tags: music_organization
 
 -	__[Leonid Nikolayev](./HX8ujrS4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian musician (1878–1942)
 
@@ -133,43 +137,43 @@ tags: music_organization
 
 -	__[Wassili Kalafati](./3qxHzY3Z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian composer and pedagogue (1869–1942)
 
 -	__[Anton Gerke](./axvBLicr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian musician
 
 -	__[Anna Yesipova](./jhDovNPr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian pianist (1851-1914)
 
 -	__[Felix Blumenfeld](./ZFu3SiZv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian composer, pianist, conductor (1863-1931)
 
 -	__[Jāzeps Vītols](./oJyuwdgt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Latvian composer (1863-1948)
 
 -	__[Nikolai Tcherepnin](./VNe4Xzes.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian composer (1873–1945)
 
 -	__[Vasily Bessel](./KLcqFTj4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian publisher (1843–1907)
 
@@ -211,7 +215,7 @@ tags: music_organization
 
 -	__[Wassili Kalafati](./3qxHzY3Z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian composer and pedagogue (1869–1942)
 

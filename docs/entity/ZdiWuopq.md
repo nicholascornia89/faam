@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZdiWuopq
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                        | aliases             | Wikidata QID                                          |
-    | :-------: | :------: | :------------------------------------------------: | :-----------------: | :---------------------------------------------------: |
-    | ZdiWuopq  | baritone | instrumental part between the tenor and bass lines | baritone instrument | [baritone](http://wwww.wikidata.org/entity/Q15212740) |
+    | FAAM UUID | label    | description                                        | aliases             | Wikidata QID                                     |
+    | :-------: | :------: | :------------------------------------------------: | :-----------------: | :----------------------------------------------: |
+    | ZdiWuopq  | baritone | instrumental part between the tenor and bass lines | baritone instrument | [baritone](http://wikidata.org/entity/Q15212740) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/ZdiWuopq.html" height="800" width="1200" title="ZdiWuopq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZdiWuopq" height="800" width="1200" title="ZdiWuopq"></iframe>
 
 ## Cross-references
 

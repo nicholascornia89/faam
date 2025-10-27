@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Kfr836HB
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Kfr836HB.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Kfr836HB.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Kfr836HB.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Kfr836HB.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Kfr836HB.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Kfr836HB.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Berlioz_Petit_BNF_Gallica-crop.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                               | Wikidata QID                                            |
-    | :-------: | :------------: | :------------: | :---------------------------------------: | :-----------------------------------------------------: |
-    | Kfr836HB  | Hector Berlioz | Hector Berlioz | French composer and conductor (1803–1869) | [Hector Berlioz](http://wwww.wikidata.org/entity/Q1151) |
+    | FAAM UUID | label          | aliases        | description                               | Wikidata QID                                       |
+    | :-------: | :------------: | :------------: | :---------------------------------------: | :------------------------------------------------: |
+    | Kfr836HB  | Hector Berlioz | Hector Berlioz | French composer and conductor (1803–1869) | [Hector Berlioz](http://wikidata.org/entity/Q1151) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 	- [autobiographer](./Tj5k8Dah.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 	- [librettist](./BPsUV5WT.md)
 
@@ -79,7 +83,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Kfr836HB.html" height="800" width="1200" title="Kfr836HB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Kfr836HB" height="800" width="1200" title="Kfr836HB"></iframe>
 
 ## Identifiers
 
@@ -100,3 +104,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Antoine Elwart](./jHLdEc4N.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Elwart,_Antoine,_Nadar_Gallica.jpg){align=left width="150" height="150"} 
+
+	French composer (1808-1877)
+
+-	__[Théodore Ritter](./Cz4Pypuz.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Toussaint_Prévost,_dit_Théodore_Ritter.png){align=left width="150" height="150"} 
+
+	French composer (1840-1886)
+
+</div>

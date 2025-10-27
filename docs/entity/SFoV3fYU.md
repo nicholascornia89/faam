@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SFoV3fYU
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                 | aliases | Wikidata QID                                          |
-    | :-------: | :-------: | :-------------------------: | :-----: | :---------------------------------------------------: |
-    | SFoV3fYU  | Puderbach | human settlement in Germany |         | [Puderbach](http://wwww.wikidata.org/entity/Q1523775) |
+    | FAAM UUID | label     | description                 | aliases | Wikidata QID                                     |
+    | :-------: | :-------: | :-------------------------: | :-----: | :----------------------------------------------: |
+    | SFoV3fYU  | Puderbach | human settlement in Germany |         | [Puderbach](http://wikidata.org/entity/Q1523775) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/SFoV3fYU.html" height="800" width="1200" title="SFoV3fYU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SFoV3fYU" height="800" width="1200" title="SFoV3fYU"></iframe>
 
 ## Identifiers
 

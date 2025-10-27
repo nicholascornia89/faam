@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jHJnTqYF
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903755269/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/jHJnTqYF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/jHJnTqYF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/jHJnTqYF.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903755269/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/jHJnTqYF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/jHJnTqYF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/jHJnTqYF.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030903755269.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903755269.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                 | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | jHJnTqYF  | KCA-030903755269      | Préludes : pour piano | [external URL](LQE77nqs) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                 | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | jHJnTqYF  | KCA-030903755269      | Préludes : pour piano | [external URL](https://anet.be/record/opacdkvc/c:lvd:6719077/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -101,10 +105,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/jHJnTqYF.html" height="800" width="1200" title="jHJnTqYF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jHJnTqYF" height="800" width="1200" title="jHJnTqYF"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/jHJnTqYF.html" height="800" width="1200" title="jHJnTqYF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/jHJnTqYF" height="800" width="1200" title="jHJnTqYF"></iframe>

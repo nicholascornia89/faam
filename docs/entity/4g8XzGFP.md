@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4g8XzGFP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                              | aliases          | Wikidata QID                                             |
-    | :-------: | :------: | :--------------------------------------: | :--------------: | :------------------------------------------------------: |
-    | 4g8XzGFP  | Brussels | municipality and capital city of Belgium | City of Brussels | [City of Brussels](http://wwww.wikidata.org/entity/Q239) |
+    | FAAM UUID | label    | description                              | aliases          | Wikidata QID                                        |
+    | :-------: | :------: | :--------------------------------------: | :--------------: | :-------------------------------------------------: |
+    | 4g8XzGFP  | Brussels | municipality and capital city of Belgium | City of Brussels | [City of Brussels](http://wikidata.org/entity/Q239) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4g8XzGFP.html" height="800" width="1200" title="4g8XzGFP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4g8XzGFP" height="800" width="1200" title="4g8XzGFP"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Fernand Lauweryns](./jvUzFRTr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian music publisher
 
 -	__[Raymond Moulaert](./brhsLAa9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and musicologist (1875–1962)
 
@@ -79,13 +83,13 @@ tags: city
 
 -	__[Raymond Chevreuille](./VAncHNTJ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1901-1976)
 
 -	__[Charles Ots](./kPnk2SZm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and music teacher
 
@@ -97,7 +101,7 @@ tags: city
 
 -	__[Rosalie Huyghe-Bosman](./3fWwPrfr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian operatic singer
 
@@ -109,25 +113,25 @@ tags: city
 
 -	__[Aimé Leborne](./AWxaRSam.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music educator
 
 -	__[Corneille](./UFbwTaUw.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian violinist and composer
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
 -	__[Paul de Maleingreau](./7qDtgfx5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French/Belgian organist (1887-1956)
 
@@ -145,13 +149,13 @@ tags: city
 
 -	__[Gaston Knosp](./jqZT8vAB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Knosp, Gaston, 1874-1942
 
 -	__[Hélène Dinsart](./GgyGnGfG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and music educator
 
@@ -187,25 +191,25 @@ tags: city
 
 -	__[Daniel Sternefeld](./NNF4zeEn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1905-1986)
 
 -	__[Gustave Michiels](./H7VpWypq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian conductor (1861-1911)
 
 -	__[Antonio Tirabassi](./WVr2FMMj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian organist and musicologist (1882–1947)
 
 -	__[Victor Guillaume Antoine Hanssens](./kZ9cSBEr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian poet and translator
 
@@ -217,13 +221,13 @@ tags: city
 
 -	__[Louis Gobbaerts](./XqwGf95J.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian concert pianist, piano teacher and composer (1835-1886)
 
 -	__[Corneille](./UFbwTaUw.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian violinist and composer
 

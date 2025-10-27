@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NNM2FLqz
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :------------------------: | :------------------------------------------------------: |
-    | NNM2FLqz  | Les Huguenots | Les Huguenots | opera by Giacomo Meyerbeer | [Les Huguenots](http://wwww.wikidata.org/entity/Q466848) |
+    | FAAM UUID | label         | aliases       | description                | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :------------------------: | :-------------------------------------------------: |
+    | NNM2FLqz  | Les Huguenots | Les Huguenots | opera by Giacomo Meyerbeer | [Les Huguenots](http://wikidata.org/entity/Q466848) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./iWPbSNrB.md)
+	- [A Chronicle of the Reign of Charles IX](./iWPbSNrB.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/NNM2FLqz.html" height="800" width="1200" title="NNM2FLqz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NNM2FLqz" height="800" width="1200" title="NNM2FLqz"></iframe>
 
 ## Identifiers
 

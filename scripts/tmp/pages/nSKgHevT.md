@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nSKgHevT
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description               | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :-----------------------: | :-----: | :--------------------------------------------: |
-    | nSKgHevT  | Liège | city in Wallonia, Belgium | Liège   | [Liège](http://wwww.wikidata.org/entity/Q3992) |
+    | FAAM UUID | label | description               | aliases | Wikidata QID                              |
+    | :-------: | :---: | :-----------------------: | :-----: | :---------------------------------------: |
+    | nSKgHevT  | Liège | city in Wallonia, Belgium | Liège   | [Liège](http://wikidata.org/entity/Q3992) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nSKgHevT.html" height="800" width="1200" title="nSKgHevT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nSKgHevT" height="800" width="1200" title="nSKgHevT"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Pierre François Riga](./gnZXWv4y.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1831-1892)
 
 -	__[Jean-Marie Plum](./JwNgGW3X.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and organist
 
@@ -73,37 +77,37 @@ tags: city
 
 -	__[Georges Antoine](./F5XuWprz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1892-1918)
 
 -	__[Jean Rogister](./YAikRAxA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1879-1964)
 
 -	__[Eugène Hutoy](./7hxqLzvd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and conductor
 
 -	__[Alphonse Antoine Neufcour](./ZmNH2Qss.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer
 
 -	__[Eugène Bacha](./k8bR5tuM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	librarian (1864-1934)
 
 -	__[André-Joseph Blavier](./jFbpVqP8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer
 
@@ -121,13 +125,13 @@ tags: city
 
 -	__[Gilles van der Eeden](./KrRRRsTZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist, musician and composer
 
 -	__[Jean Rogister](./YAikRAxA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1879-1964)
 

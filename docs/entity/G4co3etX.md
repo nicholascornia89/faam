@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: G4co3etX
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/G4co3etX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/G4co3etX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/G4co3etX.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/G4co3etX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/G4co3etX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/G4co3etX.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/François-Joseph_Gossec_by_Antoine_Vestier.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases                | description                   | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :--------------------: | :---------------------------: | :---------------------------------------------------------------: |
-    | G4co3etX  | François Joseph Gossec | François-Joseph Gossec | French composer and conductor | [François Joseph Gossec](http://wwww.wikidata.org/entity/Q313667) |
+    | FAAM UUID | label                  | aliases                | description                   | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :--------------------: | :---------------------------: | :----------------------------------------------------------: |
+    | G4co3etX  | François Joseph Gossec | François-Joseph Gossec | French composer and conductor | [François Joseph Gossec](http://wikidata.org/entity/Q313667) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/G4co3etX.html" height="800" width="1200" title="G4co3etX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/G4co3etX" height="800" width="1200" title="G4co3etX"></iframe>
 
 ## Identifiers
 
@@ -91,8 +95,42 @@ tags: agent
 
 -	__[Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.](./HrioxeJc.md)__
 
-	![Image](../assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Charles-Simon Catel](./JpmcYb8F.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles-Simon_Catel.jpg){align=left width="150" height="150"} 
+
+	French composer and educator (1773–1830)
+
+-	__[Bernhard Crusell](./FeRTAUvm.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Henrik_Crusell_1826.jpg){align=left width="150" height="150"} 
+
+	Swedish-Finnish clarinetist, composer and translator (1775–1838)
+
+-	__[Bernhard Crusell](./kjc6KBeH.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Henrik_Crusell_1826.jpg){align=left width="150" height="150"} 
+
+	Swedish-Finnish clarinetist, composer and translator (1775–1838)
+
+-	__[Victor Dourlen](./PbwqrnC5.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Victor_Dourlen_by_Ingres_1.jpg){align=left width="150" height="150"} 
+
+	French composer and pedagogue
+
+-	__[Félix Cazot](./EUMKhzpe.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French composer and pianist (1790–1857)
 
 </div>

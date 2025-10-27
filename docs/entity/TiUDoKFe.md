@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TiUDoKFe
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | description         | aliases                                          | Wikidata QID                                                                       |
-    | :-------: | :------------------------------------: | :-----------------: | :----------------------------------------------: | :--------------------------------------------------------------------------------: |
-    | TiUDoKFe  | University of Modena and Reggio Emilia | university in Italy | Università degli Studi di Modena e Reggio Emilia | [University of Modena and Reggio Emilia](http://wwww.wikidata.org/entity/Q1243705) |
+    | FAAM UUID | label                                  | description         | aliases                                          | Wikidata QID                                                                  |
+    | :-------: | :------------------------------------: | :-----------------: | :----------------------------------------------: | :---------------------------------------------------------------------------: |
+    | TiUDoKFe  | University of Modena and Reggio Emilia | university in Italy | Università degli Studi di Modena e Reggio Emilia | [University of Modena and Reggio Emilia](http://wikidata.org/entity/Q1243705) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./iU2pomC5.md)
+	[Modena](./iU2pomC5.md)
 
-	[](./VjNq678w.md)
+	[Reggio Emilia](./VjNq678w.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/TiUDoKFe.html" height="800" width="1200" title="TiUDoKFe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TiUDoKFe" height="800" width="1200" title="TiUDoKFe"></iframe>
 
 ## Cross-references
 

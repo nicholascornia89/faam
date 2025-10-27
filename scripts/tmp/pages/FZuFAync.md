@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FZuFAync
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases                     | description                                         | Wikidata QID                                                             |
-    | :-------: | :---------------------: | :-------------------------: | :-------------------------------------------------: | :----------------------------------------------------------------------: |
-    | FZuFAync  | 12 Violin Sonatas, Op.5 | Twelve Violin Sonatas, Op.5 | set of violin sonatas composed by Arcangelo Corelli | [Twelve Violin Sonatas, Op.5](http://wwww.wikidata.org/entity/Q10373279) |
+    | FAAM UUID | label                   | aliases                     | description                                         | Wikidata QID                                                        |
+    | :-------: | :---------------------: | :-------------------------: | :-------------------------------------------------: | :-----------------------------------------------------------------: |
+    | FZuFAync  | 12 Violin Sonatas, Op.5 | Twelve Violin Sonatas, Op.5 | set of violin sonatas composed by Arcangelo Corelli | [Twelve Violin Sonatas, Op.5](http://wikidata.org/entity/Q10373279) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/FZuFAync.html" height="800" width="1200" title="FZuFAync"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FZuFAync" height="800" width="1200" title="FZuFAync"></iframe>
 
 ## Identifiers
 
@@ -67,25 +71,25 @@ tags: musical_work
 
 -	__[Sonates : pour violon et piano, op. 5](./hUSShLaN.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902751301.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902751301.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./EFUgU9L4.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902751319.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902751319.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./mM92yEzz.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920292.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920292.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonates : pour violon et piano, op. 5](./GXFWfE7D.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920300.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920300.gif){align=left width="150" height="150"} 
 
 	
 

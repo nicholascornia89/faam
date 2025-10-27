@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FLkzgv4J
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                               | aliases          | Wikidata QID                                 |
-    | :-------: | :---: | :-------------------------------------------------------: | :--------------: | :------------------------------------------: |
-    | FLkzgv4J  | Spain | country in southwestern Europe with territories in Africa | Kingdom of Spain | [Spain](http://wwww.wikidata.org/entity/Q29) |
+    | FAAM UUID | label | description                                               | aliases          | Wikidata QID                            |
+    | :-------: | :---: | :-------------------------------------------------------: | :--------------: | :-------------------------------------: |
+    | FLkzgv4J  | Spain | country in southwestern Europe with territories in Africa | Kingdom of Spain | [Spain](http://wikidata.org/entity/Q29) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/FLkzgv4J.html" height="800" width="1200" title="FLkzgv4J"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FLkzgv4J" height="800" width="1200" title="FLkzgv4J"></iframe>
 
 ## Identifiers
 
@@ -47,13 +51,13 @@ tags: country
 
 -	__[Ignacio Prieto](./eb7u4xWh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer and organist
 
 -	__[Denis Granado](./ZD78QBo6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer and guitarist
 
@@ -89,7 +93,7 @@ tags: country
 
 -	__[Francesco Piermarini](./n9XVoQC2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -113,37 +117,37 @@ tags: country
 
 -	__[Enrique Broca](./SN5baita.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish author
 
 -	__[Josep Pons](./XvhjzvcS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer (1770-1818)
 
 -	__[Pedro Fernández de Castilleja](./fApHxzGr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Francisco de Peñalosa](./gKY5NR5M.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer (1470-1528)
 
 -	__[Juan Navarro Hispalensis](./H2w2eF7A.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer
 
 -	__[Bernardino de Ribera](./koZRWEgi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

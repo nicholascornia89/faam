@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4A7CXbtq
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502053/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/4A7CXbtq.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/4A7CXbtq.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/4A7CXbtq.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502053/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/4A7CXbtq.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/4A7CXbtq.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/4A7CXbtq.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502053.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502053.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                              | permalink                | provenance                              |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | 4A7CXbtq  | DPF-202502053         | Diffusa est gratia. Motet en 'honneur de la T.S. Vierge. à 3 voix égales et orgue. | [external URL](6fQyHcwz) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                              | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | 4A7CXbtq  | DPF-202502053         | Diffusa est gratia. Motet en 'honneur de la T.S. Vierge. à 3 voix égales et orgue. | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -88,10 +92,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/4A7CXbtq.html" height="800" width="1200" title="4A7CXbtq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4A7CXbtq" height="800" width="1200" title="4A7CXbtq"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/4A7CXbtq.html" height="800" width="1200" title="4A7CXbtq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/4A7CXbtq" height="800" width="1200" title="4A7CXbtq"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ri4Kf4iy
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Ri4Kf4iy.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Ri4Kf4iy.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Ri4Kf4iy.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Ri4Kf4iy.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Ri4Kf4iy.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Ri4Kf4iy.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henri_Rabaud.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases               | description                 | Wikidata QID                                            |
-    | :-------: | :----------: | :-------------------: | :-------------------------: | :-----------------------------------------------------: |
-    | Ri4Kf4iy  | Henri Rabaud | Henri Benjamin Rabaud | French composer (1873-1949) | [Henri Rabaud](http://wwww.wikidata.org/entity/Q503861) |
+    | FAAM UUID | label        | aliases               | description                 | Wikidata QID                                       |
+    | :-------: | :----------: | :-------------------: | :-------------------------: | :------------------------------------------------: |
+    | Ri4Kf4iy  | Henri Rabaud | Henri Benjamin Rabaud | French composer (1873-1949) | [Henri Rabaud](http://wikidata.org/entity/Q503861) |
 
 <br><br><br>
 
@@ -57,15 +61,15 @@ tags: agent
 
 	- [Conservatoire de Paris](./mNynReve.md)
 
-	- [](./QbqbKMcW.md)
+	- [Boston Symphony Orchestra](./QbqbKMcW.md)
 
-	- [](./JbcbZert.md)
+	- [Pasdeloup Orchestra](./JbcbZert.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Ri4Kf4iy.html" height="800" width="1200" title="Ri4Kf4iy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ri4Kf4iy" height="800" width="1200" title="Ri4Kf4iy"></iframe>
 
 ## Identifiers
 
@@ -91,7 +95,7 @@ tags: agent
 
 -	__[La fille de Roland](./L9U6Anck.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p12.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p12.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DsBHiL3K
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description  | aliases  | Wikidata QID                                        |
-    | :-------: | :------: | :----------: | :------: | :-------------------------------------------------: |
-    | DsBHiL3K  | rhapsody | musical form | rhapsody | [rhapsody](http://wwww.wikidata.org/entity/Q464769) |
+    | FAAM UUID | label    | description  | aliases  | Wikidata QID                                   |
+    | :-------: | :------: | :----------: | :------: | :--------------------------------------------: |
+    | DsBHiL3K  | rhapsody | musical form | rhapsody | [rhapsody](http://wikidata.org/entity/Q464769) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/DsBHiL3K.html" height="800" width="1200" title="DsBHiL3K"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DsBHiL3K" height="800" width="1200" title="DsBHiL3K"></iframe>
 
 ## Cross-references
 
@@ -39,37 +43,37 @@ tags: keyword
 
 -	__[Rhapsody in blue](./cKUudgGd.md)__
 
-	![Image](../assets/images/thumbs/KCA-0309044064458.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-0309044064458.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ungarische Rhapsodie no. 2 : cadenza](./GWuKPdtn.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904702856.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702856.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ungarische Rhapsodien Band 1](./4xbkrVPN.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904702864.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702864.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ungarische Rhapsodien Band 2](./kUKZ2wfP.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904702872.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702872.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ungarische Rhapsodie no. 12 : Klavier](./d3mbUQHo.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904692388.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904692388.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Clavierstücke](./Xdoc9XJj.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904673826.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904673826.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Q9My2FwW
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902681235/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Q9My2FwW.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Q9My2FwW.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Q9My2FwW.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902681235/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Q9My2FwW.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Q9My2FwW.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Q9My2FwW.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902681235.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902681235.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                 | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | Q9My2FwW  | KCA-030902681235      | Le martyre de Saint Sébastien : mystère en cinq actes | [external URL](TLaaNgbw) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                 | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :---------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | Q9My2FwW  | KCA-030902681235      | Le martyre de Saint Sébastien : mystère en cinq actes | [external URL](https://anet.be/record/opacdkvc/c:lvd:13130720/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -71,10 +75,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Q9My2FwW.html" height="800" width="1200" title="Q9My2FwW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Q9My2FwW" height="800" width="1200" title="Q9My2FwW"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Q9My2FwW.html" height="800" width="1200" title="Q9My2FwW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Q9My2FwW" height="800" width="1200" title="Q9My2FwW"></iframe>

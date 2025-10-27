@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: b7dYFHUa
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                        | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :--------------------------------: | :-----: | :----------------------------------------------: |
-    | b7dYFHUa  | Vence | commune in Alpes-Maritimes, France |         | [Vence](http://wwww.wikidata.org/entity/Q192368) |
+    | FAAM UUID | label | description                        | aliases | Wikidata QID                                |
+    | :-------: | :---: | :--------------------------------: | :-----: | :-----------------------------------------: |
+    | b7dYFHUa  | Vence | commune in Alpes-Maritimes, France |         | [Vence](http://wikidata.org/entity/Q192368) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/b7dYFHUa.html" height="800" width="1200" title="b7dYFHUa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/b7dYFHUa" height="800" width="1200" title="b7dYFHUa"></iframe>
 
 ## Identifiers
 

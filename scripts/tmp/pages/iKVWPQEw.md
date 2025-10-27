@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iKVWPQEw
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/iKVWPQEw.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/iKVWPQEw.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/iKVWPQEw.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/iKVWPQEw.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/iKVWPQEw.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/iKVWPQEw.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Baptiste_Rey_after_Pierre-Narcisse_Guérin.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description                   | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----: | :---------------------------: | :----------------------------------------------------------: |
-    | iKVWPQEw  | Jean-Baptiste Rey |         | French composer and conductor | [Jean-Baptiste Rey](http://wwww.wikidata.org/entity/Q948347) |
+    | FAAM UUID | label             | aliases | description                   | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----: | :---------------------------: | :-----------------------------------------------------: |
+    | iKVWPQEw  | Jean-Baptiste Rey |         | French composer and conductor | [Jean-Baptiste Rey](http://wikidata.org/entity/Q948347) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/iKVWPQEw.html" height="800" width="1200" title="iKVWPQEw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iKVWPQEw" height="800" width="1200" title="iKVWPQEw"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[François-Joseph Fétis](./koReuX6g.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+
+	Belgian composer (1784-1871)
+
+-	__[Henri Montan Berton](./jzsis3MS.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/HenriMontanBerton.jpg){align=left width="150" height="150"} 
+
+	French composer, teacher, and writer
+
+</div>

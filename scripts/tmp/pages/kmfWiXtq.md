@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kmfWiXtq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                         | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :---------------------------------: | :-----: | :--------------------------------------------------: |
-    | kmfWiXtq  | Schleswig | town in Schleswig-Holstein, Germany |         | [Schleswig](http://wwww.wikidata.org/entity/Q501661) |
+    | FAAM UUID | label     | description                         | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :---------------------------------: | :-----: | :---------------------------------------------: |
+    | kmfWiXtq  | Schleswig | town in Schleswig-Holstein, Germany |         | [Schleswig](http://wikidata.org/entity/Q501661) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/kmfWiXtq.html" height="800" width="1200" title="kmfWiXtq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kmfWiXtq" height="800" width="1200" title="kmfWiXtq"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Max Seiffert](./KVupSpFz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist (1868–1948)
 

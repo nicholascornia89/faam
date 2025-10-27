@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZsURQGSW
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                              | aliases | Wikidata QID                                   |
-    | :-------: | :----: | :------------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | ZsURQGSW  | Boston | capital and largest city of Massachusetts, United States | Boston  | [Boston](http://wwww.wikidata.org/entity/Q100) |
+    | FAAM UUID | label  | description                                              | aliases | Wikidata QID                              |
+    | :-------: | :----: | :------------------------------------------------------: | :-----: | :---------------------------------------: |
+    | ZsURQGSW  | Boston | capital and largest city of Massachusetts, United States | Boston  | [Boston](http://wikidata.org/entity/Q100) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ZsURQGSW.html" height="800" width="1200" title="ZsURQGSW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZsURQGSW" height="800" width="1200" title="ZsURQGSW"></iframe>
 
 ## Identifiers
 

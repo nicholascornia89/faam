@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iA5dSjTz
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                             | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :-----------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | iA5dSjTz  | Leiden | city and municipality in South Holland, the Netherlands | Leiden  | [Leiden](http://wwww.wikidata.org/entity/Q43631) |
+    | FAAM UUID | label  | description                                             | aliases | Wikidata QID                                |
+    | :-------: | :----: | :-----------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | iA5dSjTz  | Leiden | city and municipality in South Holland, the Netherlands | Leiden  | [Leiden](http://wikidata.org/entity/Q43631) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/iA5dSjTz.html" height="800" width="1200" title="iA5dSjTz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iA5dSjTz" height="800" width="1200" title="iA5dSjTz"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Mario van Overeem](./GzWH52Di.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch composer and music educator
 

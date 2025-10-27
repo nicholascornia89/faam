@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: i4AVcH4i
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                           | description                 | aliases               | Wikidata QID                                                              |
-    | :-------: | :-----------------------------: | :-------------------------: | :-------------------: | :-----------------------------------------------------------------------: |
-    | i4AVcH4i  | Frederick William IV of Prussia | King of Prussia (1795–1861) | Friedrich Wilhelm IV. | [Frederick William IV of Prussia](http://wwww.wikidata.org/entity/Q57180) |
+    | FAAM UUID | label                           | description                 | aliases               | Wikidata QID                                                         |
+    | :-------: | :-----------------------------: | :-------------------------: | :-------------------: | :------------------------------------------------------------------: |
+    | i4AVcH4i  | Frederick William IV of Prussia | King of Prussia (1795–1861) | Friedrich Wilhelm IV. | [Frederick William IV of Prussia](http://wikidata.org/entity/Q57180) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/i4AVcH4i.html" height="800" width="1200" title="i4AVcH4i"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/i4AVcH4i" height="800" width="1200" title="i4AVcH4i"></iframe>
 
 ## Cross-references
 

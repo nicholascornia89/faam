@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Su8RABWY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                 | aliases     | Wikidata QID                                       |
-    | :-------: | :------: | :-------------------------: | :---------: | :------------------------------------------------: |
-    | Su8RABWY  | Klosters | municipality in Switzerland | Klosters GR | [Klosters](http://wwww.wikidata.org/entity/Q68236) |
+    | FAAM UUID | label    | description                 | aliases     | Wikidata QID                                  |
+    | :-------: | :------: | :-------------------------: | :---------: | :-------------------------------------------: |
+    | Su8RABWY  | Klosters | municipality in Switzerland | Klosters GR | [Klosters](http://wikidata.org/entity/Q68236) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Su8RABWY.html" height="800" width="1200" title="Su8RABWY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Su8RABWY" height="800" width="1200" title="Su8RABWY"></iframe>
 
 ## Identifiers
 

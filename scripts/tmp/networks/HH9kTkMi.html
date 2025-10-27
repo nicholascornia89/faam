@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HH9kTkMi", "label": "Imperial Moscow University", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HH9kTkMi.md\u0027\u003eImperial Moscow University\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ethe first of the twelve Imperial universities of the Russian Empire, located in Moscow (1755\u20141917).\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "DEbEnXwM", "label": "Russian Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DEbEnXwM.md\u0027\u003eRussian Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer empire in Eurasia and North America (1721\u20131917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5KHPgpw3", "label": "Nikolai Zverev", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5KHPgpw3.md\u0027\u003eNikolai Zverev\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian classical pianist (1833\u20131893)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai-Zverev.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "HH9kTkMi", "to": "DEbEnXwM", "width": 10}, {"from": "HH9kTkMi", "to": "5KHPgpw3", "width": 10}, {"from": "DEbEnXwM", "to": "5KHPgpw3", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "DEbEnXwM", "label": "Russian Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DEbEnXwM\u0027\u003eRussian Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer empire in Eurasia and North America (1721\u20131917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HH9kTkMi", "label": "Imperial Moscow University", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HH9kTkMi\u0027\u003eImperial Moscow University\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ethe first of the twelve Imperial universities of the Russian Empire, located in Moscow (1755\u20141917).\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5KHPgpw3", "label": "Nikolai Zverev", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5KHPgpw3\u0027\u003eNikolai Zverev\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian classical pianist (1833\u20131893)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai-Zverev.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "DEbEnXwM", "to": "HH9kTkMi", "width": 10}, {"from": "DEbEnXwM", "to": "5KHPgpw3", "width": 1}, {"from": "5KHPgpw3", "to": "HH9kTkMi", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

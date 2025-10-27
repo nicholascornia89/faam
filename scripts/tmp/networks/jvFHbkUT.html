@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "FLkzgv4J", "label": "Spain", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FLkzgv4J.md\u0027\u003eSpain\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in southwestern Europe with territories in Africa\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "jvFHbkUT", "label": "Barcelona", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jvFHbkUT.md\u0027\u003eBarcelona\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Catalonia, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JAaw4r23", "label": "Francisco T\u00e1rrega", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JAaw4r23.md\u0027\u003eFrancisco T\u00e1rrega\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer and classical guitarist (1852-1909)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francisco_tarrega_retrato.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kXNArq5N", "label": "Felip Pedrell", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kXNArq5N.md\u0027\u003eFelip Pedrell\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCatalan composer, teacher and musicologist (1841\u20131922)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felipe_Pedrell_01.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "btwYwVv8", "label": "Santiago Riera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./btwYwVv8.md\u0027\u003eSantiago Riera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Santiago_Riera.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "eL6rC9yE", "label": "Emilio Pujol", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eL6rC9yE.md\u0027\u003eEmilio Pujol\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCatalan classical guitarist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emili_Pujol.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "FLkzgv4J", "to": "jvFHbkUT", "width": 10}, {"from": "FLkzgv4J", "to": "JAaw4r23", "width": 10}, {"from": "FLkzgv4J", "to": "kXNArq5N", "width": 10}, {"from": "FLkzgv4J", "to": "btwYwVv8", "width": 10}, {"from": "JAaw4r23", "to": "eL6rC9yE", "width": 1}, {"from": "JAaw4r23", "to": "jvFHbkUT", "width": 10}, {"from": "eL6rC9yE", "to": "jvFHbkUT", "width": 10}, {"from": "kXNArq5N", "to": "jvFHbkUT", "width": 10}, {"from": "btwYwVv8", "to": "jvFHbkUT", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "FLkzgv4J", "label": "Spain", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FLkzgv4J\u0027\u003eSpain\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in southwestern Europe with territories in Africa\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "jvFHbkUT", "label": "Barcelona", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jvFHbkUT\u0027\u003eBarcelona\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Catalonia, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JAaw4r23", "label": "Francisco T\u00e1rrega", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/JAaw4r23\u0027\u003eFrancisco T\u00e1rrega\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer and classical guitarist (1852-1909)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francisco_tarrega_retrato.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kXNArq5N", "label": "Felip Pedrell", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kXNArq5N\u0027\u003eFelip Pedrell\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCatalan composer, teacher and musicologist (1841\u20131922)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felipe_Pedrell_01.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "btwYwVv8", "label": "Santiago Riera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/btwYwVv8\u0027\u003eSantiago Riera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Santiago_Riera.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "eL6rC9yE", "label": "Emilio Pujol", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eL6rC9yE\u0027\u003eEmilio Pujol\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCatalan classical guitarist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emili_Pujol.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "FLkzgv4J", "to": "jvFHbkUT", "width": 10}, {"from": "FLkzgv4J", "to": "JAaw4r23", "width": 10}, {"from": "FLkzgv4J", "to": "kXNArq5N", "width": 10}, {"from": "FLkzgv4J", "to": "btwYwVv8", "width": 10}, {"from": "JAaw4r23", "to": "eL6rC9yE", "width": 1}, {"from": "JAaw4r23", "to": "jvFHbkUT", "width": 10}, {"from": "btwYwVv8", "to": "jvFHbkUT", "width": 10}, {"from": "jvFHbkUT", "to": "eL6rC9yE", "width": 10}, {"from": "jvFHbkUT", "to": "kXNArq5N", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

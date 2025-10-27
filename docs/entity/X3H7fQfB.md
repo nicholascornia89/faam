@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: X3H7fQfB
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                            | aliases  | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :------------------------------------: | :------: | :------------------------------------------------------------: |
-    | X3H7fQfB  | University of Paris | French university (middle ages - 1970) | Sorbonne | [University of Paris](http://wwww.wikidata.org/entity/Q209842) |
+    | FAAM UUID | label               | description                            | aliases  | Wikidata QID                                              |
+    | :-------: | :-----------------: | :------------------------------------: | :------: | :-------------------------------------------------------: |
+    | X3H7fQfB  | University of Paris | French university (middle ages - 1970) | Sorbonne | [University of Paris](http://wikidata.org/entity/Q209842) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/X3H7fQfB.html" height="800" width="1200" title="X3H7fQfB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/X3H7fQfB" height="800" width="1200" title="X3H7fQfB"></iframe>
 
 ## Cross-references
 
@@ -53,19 +57,19 @@ tags: music_organization
 
 -	__[John Major](./iYvVho7R.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Scottish philosopher
 
 -	__[John Major](./iYvVho7R.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Scottish philosopher
 
 -	__[Armand Machabey](./fcb7732q.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musicologist (1886-1966)
 

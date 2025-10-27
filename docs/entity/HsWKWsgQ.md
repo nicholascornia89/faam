@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HsWKWsgQ
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description       | aliases       | Wikidata QID                                               |
-    | :-------: | :-----------: | :---------------: | :-----------: | :--------------------------------------------------------: |
-    | HsWKWsgQ  | De Morgenpost | Belgian newspaper | De Morgenpost | [De Morgenpost](http://wwww.wikidata.org/entity/Q64334492) |
+    | FAAM UUID | label         | description       | aliases       | Wikidata QID                                          |
+    | :-------: | :-----------: | :---------------: | :-----------: | :---------------------------------------------------: |
+    | HsWKWsgQ  | De Morgenpost | Belgian newspaper | De Morgenpost | [De Morgenpost](http://wikidata.org/entity/Q64334492) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/HsWKWsgQ.html" height="800" width="1200" title="HsWKWsgQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HsWKWsgQ" height="800" width="1200" title="HsWKWsgQ"></iframe>
 
 ## Cross-references
 

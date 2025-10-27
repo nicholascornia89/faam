@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Tiv96JGs
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                     | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :-------------------------------------------------------------: | :-----: | :--------------------------------------------------: |
-    | Tiv96JGs  | director | person who leads a particular area of a company or organization | chief   | [director](http://wwww.wikidata.org/entity/Q1162163) |
+    | FAAM UUID | label    | description                                                     | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :-------------------------------------------------------------: | :-----: | :---------------------------------------------: |
+    | Tiv96JGs  | director | person who leads a particular area of a company or organization | chief   | [director](http://wikidata.org/entity/Q1162163) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Tiv96JGs.html" height="800" width="1200" title="Tiv96JGs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Tiv96JGs" height="800" width="1200" title="Tiv96JGs"></iframe>
 
 ## Cross-references
 
@@ -49,7 +53,7 @@ tags: occupation
 
 -	__[Karel Candael](./9dCiGXXo.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, music teacher, and conductor (1883-1948)
 
@@ -61,13 +65,13 @@ tags: occupation
 
 -	__[Alfredo Soffredini](./QChw63qm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Pieter Benoit](./i6yQPw7F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian priest and teacher (1820-1892)
 

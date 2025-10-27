@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WaAiuf8M
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                              | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :--------------------------------------: | :-----: | :------------------------------------------------: |
-    | WaAiuf8M  | Berchem | district of the City of Antwerp, Belgium |         | [Berchem](http://wwww.wikidata.org/entity/Q818804) |
+    | FAAM UUID | label   | description                              | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :--------------------------------------: | :-----: | :-------------------------------------------: |
+    | WaAiuf8M  | Berchem | district of the City of Antwerp, Belgium |         | [Berchem](http://wikidata.org/entity/Q818804) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/WaAiuf8M.html" height="800" width="1200" title="WaAiuf8M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WaAiuf8M" height="800" width="1200" title="WaAiuf8M"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Frédéric Bonzon](./7GsKtem6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch composer and oboist
 

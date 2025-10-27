@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CHYcv62R
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/CHYcv62R.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/CHYcv62R.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/CHYcv62R.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/CHYcv62R.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/CHYcv62R.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/CHYcv62R.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/ErnestAnsermet.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                   | description                 | Wikidata QID                                               |
-    | :-------: | :-------------: | :-----------------------: | :-------------------------: | :--------------------------------------------------------: |
-    | CHYcv62R  | Ernest Ansermet | Ernest Alexandre Ansermet | Swiss conductor (1883–1969) | [Ernest Ansermet](http://wwww.wikidata.org/entity/Q123603) |
+    | FAAM UUID | label           | aliases                   | description                 | Wikidata QID                                          |
+    | :-------: | :-------------: | :-----------------------: | :-------------------------: | :---------------------------------------------------: |
+    | CHYcv62R  | Ernest Ansermet | Ernest Alexandre Ansermet | Swiss conductor (1883–1969) | [Ernest Ansermet](http://wikidata.org/entity/Q123603) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/CHYcv62R.html" height="800" width="1200" title="CHYcv62R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CHYcv62R" height="800" width="1200" title="CHYcv62R"></iframe>
 
 ## Identifiers
 

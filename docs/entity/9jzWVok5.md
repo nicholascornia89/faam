@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9jzWVok5
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                             | aliases       | Wikidata QID                                         |
-    | :-------: | :------: | :-------------------------------------: | :-----------: | :--------------------------------------------------: |
-    | 9jzWVok5  | medalist | artist who designs medals or medallions | сoin designer | [medalist](http://wwww.wikidata.org/entity/Q1708232) |
+    | FAAM UUID | label    | description                             | aliases       | Wikidata QID                                    |
+    | :-------: | :------: | :-------------------------------------: | :-----------: | :---------------------------------------------: |
+    | 9jzWVok5  | medalist | artist who designs medals or medallions | сoin designer | [medalist](http://wikidata.org/entity/Q1708232) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/9jzWVok5.html" height="800" width="1200" title="9jzWVok5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9jzWVok5" height="800" width="1200" title="9jzWVok5"></iframe>
 
 ## Cross-references
 

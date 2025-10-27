@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9NkQurbP
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                 | aliases  | Wikidata QID                                    |
-    | :-------: | :-----: | :-------------------------: | :------: | :---------------------------------------------: |
-    | 9NkQurbP  | Romania | country in Southeast Europe | Roumania | [Romania](http://wwww.wikidata.org/entity/Q218) |
+    | FAAM UUID | label   | description                 | aliases  | Wikidata QID                               |
+    | :-------: | :-----: | :-------------------------: | :------: | :----------------------------------------: |
+    | 9NkQurbP  | Romania | country in Southeast Europe | Roumania | [Romania](http://wikidata.org/entity/Q218) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/9NkQurbP.html" height="800" width="1200" title="9NkQurbP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9NkQurbP" height="800" width="1200" title="9NkQurbP"></iframe>
 
 ## Identifiers
 

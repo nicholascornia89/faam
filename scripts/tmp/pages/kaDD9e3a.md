@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kaDD9e3a
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description      | aliases | Wikidata QID                                    |
-    | :-------: | :----: | :--------------: | :-----: | :---------------------------------------------: |
-    | kaDD9e3a  | Madrid | capital of Spain | Madrid  | [Madrid](http://wwww.wikidata.org/entity/Q2807) |
+    | FAAM UUID | label  | description      | aliases | Wikidata QID                               |
+    | :-------: | :----: | :--------------: | :-----: | :----------------------------------------: |
+    | kaDD9e3a  | Madrid | capital of Spain | Madrid  | [Madrid](http://wikidata.org/entity/Q2807) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/kaDD9e3a.html" height="800" width="1200" title="kaDD9e3a"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kaDD9e3a" height="800" width="1200" title="kaDD9e3a"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: city
 
 -	__[Tomás Luis de Victoria](./ZpAqTJvQ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c3/Tom%C3%A1s_Luis_de_Victoria.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tom%C3%A1s_Luis_de_Victoria.jpg){align=left width="150" height="150"} 
 
 	Spanish composer (c. 1548 – 1611)
 

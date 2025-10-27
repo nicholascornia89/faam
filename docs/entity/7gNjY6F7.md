@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7gNjY6F7
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7gNjY6F7.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7gNjY6F7.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7gNjY6F7.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7gNjY6F7.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7gNjY6F7.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7gNjY6F7.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Anton_Bruckner_(1868).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases               | description                   | Wikidata QID                                             |
-    | :-------: | :------------: | :-------------------: | :---------------------------: | :------------------------------------------------------: |
-    | 7gNjY6F7  | Anton Bruckner | Joseph Anton Bruckner | Austrian composer (1824-1896) | [Anton Bruckner](http://wwww.wikidata.org/entity/Q81752) |
+    | FAAM UUID | label          | aliases               | description                   | Wikidata QID                                        |
+    | :-------: | :------------: | :-------------------: | :---------------------------: | :-------------------------------------------------: |
+    | 7gNjY6F7  | Anton Bruckner | Joseph Anton Bruckner | Austrian composer (1824-1896) | [Anton Bruckner](http://wikidata.org/entity/Q81752) |
 
 <br><br><br>
 
@@ -77,7 +81,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/7gNjY6F7.html" height="800" width="1200" title="7gNjY6F7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7gNjY6F7" height="800" width="1200" title="7gNjY6F7"></iframe>
 
 ## Identifiers
 
@@ -98,3 +102,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Émile Jaques-Dalcroze](./TvDT5iVC.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Jaques_Dalcroze.jpg){align=left width="150" height="150"} 
+
+	Swiss composer, musician and music educator (1865-1950)
+
+-	__[Felix Mottl](./ftRRiWWs.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felix_Mottl.jpg){align=left width="150" height="150"} 
+
+	Austrian conductor and composer (1856-1911)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nXRqon53
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nXRqon53.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nXRqon53.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nXRqon53.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nXRqon53.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nXRqon53.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nXRqon53.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hugo_Riemann.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases                          | description                     | Wikidata QID                                            |
-    | :-------: | :----------: | :------------------------------: | :-----------------------------: | :-----------------------------------------------------: |
-    | nXRqon53  | Hugo Riemann | Karl Wilhelm Julius Hugo Riemann | German musicologist (1849-1919) | [Hugo Riemann](http://wwww.wikidata.org/entity/Q213539) |
+    | FAAM UUID | label        | aliases                          | description                     | Wikidata QID                                       |
+    | :-------: | :----------: | :------------------------------: | :-----------------------------: | :------------------------------------------------: |
+    | nXRqon53  | Hugo Riemann | Karl Wilhelm Julius Hugo Riemann | German musicologist (1849-1919) | [Hugo Riemann](http://wikidata.org/entity/Q213539) |
 
 <br><br><br>
 
@@ -79,7 +83,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/nXRqon53.html" height="800" width="1200" title="nXRqon53"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nXRqon53" height="800" width="1200" title="nXRqon53"></iframe>
 
 ## Identifiers
 
@@ -105,20 +109,38 @@ tags: agent
 
 -	__[Klavier-Konzert d moll : mit Begleitung eines zweiten Klaviers](./dujg8ZxX.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902586079.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902586079.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Klavier-Konzert F dur : mit Begleitung eines zweiten Klaviers](./NRXRZ9kB.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902808283.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902808283.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Anleitung zum Generalbass-Spielen : Harmonie-Übungen am Klavier](./imYAqfW8.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903702279.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903702279.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Max Reger](./WXLXgEpt.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Reger.jpg){align=left width="150" height="150"} 
+
+	German composer, pianist and conductor (1873-1916)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Harpsichord Concerto No.6 in F major, BWV 1057](./CL6scX3X.md)__
+
+	composition by Johann Sebastian Bach
 
 </div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LKYcvgWo
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                                 | aliases      | Wikidata QID                                             |
-    | :-------: | :----------: | :-----------------------------------------------------------------------------------------: | :----------: | :------------------------------------------------------: |
-    | LKYcvgWo  | German Reich | official name for the German nation state from 1871 to 1945, and name of Germany until 1949 | German Realm | [German Reich](http://wwww.wikidata.org/entity/Q1206012) |
+    | FAAM UUID | label        | description                                                                                 | aliases      | Wikidata QID                                        |
+    | :-------: | :----------: | :-----------------------------------------------------------------------------------------: | :----------: | :-------------------------------------------------: |
+    | LKYcvgWo  | German Reich | official name for the German nation state from 1871 to 1945, and name of Germany until 1949 | German Realm | [German Reich](http://wikidata.org/entity/Q1206012) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/LKYcvgWo.html" height="800" width="1200" title="LKYcvgWo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LKYcvgWo" height="800" width="1200" title="LKYcvgWo"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: country
 
 -	__[Carl Merseburger](./GyJBKL3i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist, music writer and music publisher
 

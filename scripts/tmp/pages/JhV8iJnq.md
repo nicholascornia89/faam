@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JhV8iJnq
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JhV8iJnq.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JhV8iJnq.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JhV8iJnq.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JhV8iJnq.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JhV8iJnq.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JhV8iJnq.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description                  | Wikidata QID                                                   |
-    | :-------: | :---------------: | :-----: | :--------------------------: | :------------------------------------------------------------: |
-    | JhV8iJnq  | Faustino Camisani |         | Italian composer (1772-1830) | [Faustino Camisani](http://wwww.wikidata.org/entity/Q20057350) |
+    | FAAM UUID | label             | aliases | description                  | Wikidata QID                                              |
+    | :-------: | :---------------: | :-----: | :--------------------------: | :-------------------------------------------------------: |
+    | JhV8iJnq  | Faustino Camisani |         | Italian composer (1772-1830) | [Faustino Camisani](http://wikidata.org/entity/Q20057350) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/JhV8iJnq.html" height="800" width="1200" title="JhV8iJnq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JhV8iJnq" height="800" width="1200" title="JhV8iJnq"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Antonio Bazzini](./Lg8XqP4c.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Antonio_Bazzini_(before_1897)_-_Archivio_Storico_Ricordi_FOTO000436.jpg){align=left width="150" height="150"} 
+
+	Italian violinist, composer and teacher (1818-1897)
+
+</div>

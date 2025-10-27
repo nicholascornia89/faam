@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c4DdDGWx
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                           | aliases | Wikidata QID                                           |
-    | :-------: | :----------: | :-----------------------------------: | :-----: | :----------------------------------------------------: |
-    | c4DdDGWx  | Soviet Union | former country in Eurasia (1922–1991) | USSR    | [Soviet Union](http://wwww.wikidata.org/entity/Q15180) |
+    | FAAM UUID | label        | description                           | aliases | Wikidata QID                                      |
+    | :-------: | :----------: | :-----------------------------------: | :-----: | :-----------------------------------------------: |
+    | c4DdDGWx  | Soviet Union | former country in Eurasia (1922–1991) | USSR    | [Soviet Union](http://wikidata.org/entity/Q15180) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/c4DdDGWx.html" height="800" width="1200" title="c4DdDGWx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c4DdDGWx" height="800" width="1200" title="c4DdDGWx"></iframe>
 
 ## Identifiers
 
@@ -53,7 +57,7 @@ tags: country
 
 -	__[Leonid Nikolayev](./HX8ujrS4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian musician (1878–1942)
 
@@ -65,7 +69,7 @@ tags: country
 
 -	__[Alexander Ossovsky](./7JHzNARd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Musicologist, Russian writer (1871-1957)
 
@@ -77,7 +81,7 @@ tags: country
 
 -	__[Wassili Kalafati](./3qxHzY3Z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian composer and pedagogue (1869–1942)
 

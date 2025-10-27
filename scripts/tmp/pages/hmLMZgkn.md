@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hmLMZgkn
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hmLMZgkn.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hmLMZgkn.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hmLMZgkn.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hmLMZgkn.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hmLMZgkn.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hmLMZgkn.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                    | Wikidata QID                                                  |
-    | :-------: | :-------------: | :-------------: | :----------------------------: | :-----------------------------------------------------------: |
-    | hmLMZgkn  | Pierre Sechiari | Pierre Sechiari | French violinist and conductor | [Pierre Sechiari](http://wwww.wikidata.org/entity/Q124453836) |
+    | FAAM UUID | label           | aliases         | description                    | Wikidata QID                                             |
+    | :-------: | :-------------: | :-------------: | :----------------------------: | :------------------------------------------------------: |
+    | hmLMZgkn  | Pierre Sechiari | Pierre Sechiari | French violinist and conductor | [Pierre Sechiari](http://wikidata.org/entity/Q124453836) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/hmLMZgkn.html" height="800" width="1200" title="hmLMZgkn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hmLMZgkn" height="800" width="1200" title="hmLMZgkn"></iframe>
 
 ## Identifiers
 
@@ -63,13 +67,13 @@ tags: agent
 
 -	__[Ouverture : in H moll](./JrarmXTr.md)__
 
-	![Image](../assets/images/thumbs/KCG-000749031.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000749031.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ouverture : in H moll](./JrarmXTr.md)__
 
-	![Image](../assets/images/thumbs/KCG-000749031.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000749031.gif){align=left width="150" height="150"} 
 
 	
 

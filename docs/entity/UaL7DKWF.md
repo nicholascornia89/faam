@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UaL7DKWF
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description              | aliases               | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :----------------------: | :-------------------: | :---------------------------------------------------------------: |
-    | UaL7DKWF  | Saint-Valery-sur-Somme | commune in Somme, France | La Montagne-sur-Somme | [Saint-Valery-sur-Somme](http://wwww.wikidata.org/entity/Q473842) |
+    | FAAM UUID | label                  | description              | aliases               | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :----------------------: | :-------------------: | :----------------------------------------------------------: |
+    | UaL7DKWF  | Saint-Valery-sur-Somme | commune in Somme, France | La Montagne-sur-Somme | [Saint-Valery-sur-Somme](http://wikidata.org/entity/Q473842) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/UaL7DKWF.html" height="800" width="1200" title="UaL7DKWF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UaL7DKWF" height="800" width="1200" title="UaL7DKWF"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Charles Laffillé](./V4Z9quf2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, poet and theatre director
 

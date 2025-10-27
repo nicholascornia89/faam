@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3FddhNGM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3FddhNGM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3FddhNGM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3FddhNGM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3FddhNGM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3FddhNGM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3FddhNGM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Marco_Enrico_Bossi,_1905.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases | description                                                       | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----: | :---------------------------------------------------------------: | :-----------------------------------------------------------: |
-    | 3FddhNGM  | Marco Enrico Bossi |         | Italian organist, composer, improviser and pedagogue. (1861–1925) | [Marco Enrico Bossi](http://wwww.wikidata.org/entity/Q477559) |
+    | FAAM UUID | label              | aliases | description                                                       | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----: | :---------------------------------------------------------------: | :------------------------------------------------------: |
+    | 3FddhNGM  | Marco Enrico Bossi |         | Italian organist, composer, improviser and pedagogue. (1861–1925) | [Marco Enrico Bossi](http://wikidata.org/entity/Q477559) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/3FddhNGM.html" height="800" width="1200" title="3FddhNGM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3FddhNGM" height="800" width="1200" title="3FddhNGM"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Gian Francesco Malipiero](./Wm9HGynC.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gian_Francesco_Malipiero_(before_1973)_-_Archivio_storico_Ricordi_FOTO001318.jpg){align=left width="150" height="150"} 
+
+	Italian composer of the 20th century (1882-1973)
+
+</div>

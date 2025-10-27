@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: o83fMws4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description              | aliases            | Wikidata QID                                    |
-    | :-------: | :---: | :----------------------: | :----------------: | :---------------------------------------------: |
-    | o83fMws4  | Porto | municipality in Portugal | Porto Municipality | [Porto](http://wwww.wikidata.org/entity/Q36433) |
+    | FAAM UUID | label | description              | aliases            | Wikidata QID                               |
+    | :-------: | :---: | :----------------------: | :----------------: | :----------------------------------------: |
+    | o83fMws4  | Porto | municipality in Portugal | Porto Municipality | [Porto](http://wikidata.org/entity/Q36433) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/o83fMws4.html" height="800" width="1200" title="o83fMws4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/o83fMws4" height="800" width="1200" title="o83fMws4"></iframe>
 
 ## Identifiers
 

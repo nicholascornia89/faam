@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SN4UvwmL
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description                                 | Wikidata QID                                          |
-    | :-------: | :-------: | :-------: | :-----------------------------------------: | :---------------------------------------------------: |
-    | SN4UvwmL  | Kol Nidre | Kol Nidre | recitation that precedes Yom Kippur service | [Kol Nidre](http://wwww.wikidata.org/entity/Q1760699) |
+    | FAAM UUID | label     | aliases   | description                                 | Wikidata QID                                     |
+    | :-------: | :-------: | :-------: | :-----------------------------------------: | :----------------------------------------------: |
+    | SN4UvwmL  | Kol Nidre | Kol Nidre | recitation that precedes Yom Kippur service | [Kol Nidre](http://wikidata.org/entity/Q1760699) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/SN4UvwmL.html" height="800" width="1200" title="SN4UvwmL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SN4UvwmL" height="800" width="1200" title="SN4UvwmL"></iframe>
 
 ## Identifiers
 

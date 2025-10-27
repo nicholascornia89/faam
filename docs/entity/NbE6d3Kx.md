@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NbE6d3Kx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                         | aliases | Wikidata QID                                  |
-    | :-------: | :---: | :---------------------------------: | :-----: | :-------------------------------------------: |
-    | NbE6d3Kx  | Kyiv  | capital and largest city of Ukraine | Kyjiv   | [Kyiv](http://wwww.wikidata.org/entity/Q1899) |
+    | FAAM UUID | label | description                         | aliases | Wikidata QID                             |
+    | :-------: | :---: | :---------------------------------: | :-----: | :--------------------------------------: |
+    | NbE6d3Kx  | Kyiv  | capital and largest city of Ukraine | Kyjiv   | [Kyiv](http://wikidata.org/entity/Q1899) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Ukraine](http://www.wikidata.org/entity/Q212)
+	- [Ukraine](Q212)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/NbE6d3Kx.html" height="800" width="1200" title="NbE6d3Kx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NbE6d3Kx" height="800" width="1200" title="NbE6d3Kx"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Leonid Nikolayev](./HX8ujrS4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian musician (1878–1942)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iQey8siG
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902402178/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/iQey8siG.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/iQey8siG.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/iQey8siG.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902402178/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/iQey8siG.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/iQey8siG.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/iQey8siG.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902402178.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902402178.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | iQey8siG  | KCA-030902402178      | Quatre études, op. 2 | [external URL](6fQyHcwz) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | iQey8siG  | KCA-030902402178      | Quatre études, op. 2 | [external URL](https://anet.be/record/opacdkvc/c:lvd:6709314/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -79,10 +83,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/iQey8siG.html" height="800" width="1200" title="iQey8siG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iQey8siG" height="800" width="1200" title="iQey8siG"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/iQey8siG.html" height="800" width="1200" title="iQey8siG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/iQey8siG" height="800" width="1200" title="iQey8siG"></iframe>

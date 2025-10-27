@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LhfzpyFP
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                         | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :-------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | LhfzpyFP  | drum  | type of musical instrument of the percussion family | caisse  | [drum](http://wwww.wikidata.org/entity/Q11404) |
+    | FAAM UUID | label | description                                         | aliases | Wikidata QID                              |
+    | :-------: | :---: | :-------------------------------------------------: | :-----: | :---------------------------------------: |
+    | LhfzpyFP  | drum  | type of musical instrument of the percussion family | caisse  | [drum](http://wikidata.org/entity/Q11404) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./mck2GKeN.md)
+	- [struck membranophone](./mck2GKeN.md)
 
 !!! quote "instance of" 
 
-	- [](./dSq7JTyF.md)
+	- [family of musical instruments](./dSq7JTyF.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/LhfzpyFP.html" height="800" width="1200" title="LhfzpyFP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LhfzpyFP" height="800" width="1200" title="LhfzpyFP"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: musical_instrument
 
 -	__[Légende du Doudou](./hMSkTu7t.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902639415.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902639415.gif){align=left width="150" height="150"} 
 
 	
 

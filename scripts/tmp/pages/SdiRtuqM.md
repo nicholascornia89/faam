@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SdiRtuqM
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                      | aliases    | Wikidata QID                                         |
-    | :-------: | :------: | :------------------------------: | :--------: | :--------------------------------------------------: |
-    | SdiRtuqM  | sculptor | artist specializing in sculpture | sculptress | [sculptor](http://wwww.wikidata.org/entity/Q1281618) |
+    | FAAM UUID | label    | description                      | aliases    | Wikidata QID                                    |
+    | :-------: | :------: | :------------------------------: | :--------: | :---------------------------------------------: |
+    | SdiRtuqM  | sculptor | artist specializing in sculpture | sculptress | [sculptor](http://wikidata.org/entity/Q1281618) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/SdiRtuqM.html" height="800" width="1200" title="SdiRtuqM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SdiRtuqM" height="800" width="1200" title="SdiRtuqM"></iframe>
 
 ## Cross-references
 

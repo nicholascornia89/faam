@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2vdPrW4J
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2vdPrW4J.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2vdPrW4J.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2vdPrW4J.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2vdPrW4J.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2vdPrW4J.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2vdPrW4J.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FerruccioBusoni1913.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                                       | description                                             | Wikidata QID                                                |
-    | :-------: | :--------------: | :-------------------------------------------: | :-----------------------------------------------------: | :---------------------------------------------------------: |
-    | 2vdPrW4J  | Ferruccio Busoni | Dante Michelangelo Benvenuto Ferruccio Busoni | Italian composer, pianist, conductor, editor, born 1866 | [Ferruccio Busoni](http://wwww.wikidata.org/entity/Q219551) |
+    | FAAM UUID | label            | aliases                                       | description                                             | Wikidata QID                                           |
+    | :-------: | :--------------: | :-------------------------------------------: | :-----------------------------------------------------: | :----------------------------------------------------: |
+    | 2vdPrW4J  | Ferruccio Busoni | Dante Michelangelo Benvenuto Ferruccio Busoni | Italian composer, pianist, conductor, editor, born 1866 | [Ferruccio Busoni](http://wikidata.org/entity/Q219551) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 	- [music theorist](./HkbL2euD.md)
 
-	- [](./VCwjpsAa.md)
+	- [recording artist](./VCwjpsAa.md)
 
 ??? quote "educated at" 
 
@@ -73,7 +77,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/2vdPrW4J.html" height="800" width="1200" title="2vdPrW4J"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2vdPrW4J" height="800" width="1200" title="2vdPrW4J"></iframe>
 
 ## Identifiers
 
@@ -99,14 +103,46 @@ tags: agent
 
 -	__[Capriccio : sopra la lontananza del fratello dilettissimo = Capriccio : über die Abreise des vielgeliebten bruders](./S7MRRD7P.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904465058.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904465058.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Das wohltemperierte Klavier](./6Cxuh5fi.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901767043.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901767043.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Ottorino Respighi](./Y32iiyWF.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ottorino_Respighi,_1927_(cropped).jpg){align=left width="150" height="150"} 
+
+	Italian composer, musicologist and conductor
+
+-	__[Egon Petri](./bRsuqnrj.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Petri_Egon.jpg){align=left width="150" height="150"} 
+
+	Dutch musician (1881-1962)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Capriccio sopra la lontananza del suo fratello dilettissimo, BWV 992](./ZDkwCfjK.md)__
+
+	composition for keyboard by J. S. Bach
+
+-	__[Études d'exécution transcendante, S.139](./bJmRDwy3.md)__
+
+	composition for piano by Franz Liszt
+
+-	__[The Well-Tempered Clavier](./dwdaRArz.md)__
+
+	collection of solo keyboard music by J.S. Bach
 
 </div>

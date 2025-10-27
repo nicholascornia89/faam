@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CTNhzr7a", "label": "Germany", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CTNhzr7a.md\u0027\u003eGermany\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "322brsk4", "label": "Kassel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./322brsk4.md\u0027\u003eKassel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Hesse, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6KzizJua", "label": "Carl Friedrich Ebers", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6KzizJua.md\u0027\u003eCarl Friedrich Ebers\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MJqDk4yg", "label": "Fortunato Chelleri", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MJqDk4yg.md\u0027\u003eFortunato Chelleri\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian-German Kapellmeister and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9kMfPxdg", "label": "Louis Spohr", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9kMfPxdg.md\u0027\u003eLouis Spohr\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer, violinist and conductor\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludwig_Spohr_portrait.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FGEPRAzo", "label": "Friedrich Kalkbrenner", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FGEPRAzo.md\u0027\u003eFriedrich Kalkbrenner\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman-born French pianist, composer, piano teacher and piano manufacturer (1784-1849)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Kalkbrenner_1829.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "4rMryHtz", "label": "Georg Otto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4rMryHtz.md\u0027\u003eGeorg Otto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (ca. 1550-1618)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "CTNhzr7a", "to": "322brsk4", "width": 10}, {"from": "CTNhzr7a", "to": "6KzizJua", "width": 10}, {"from": "MJqDk4yg", "to": "322brsk4", "width": 10}, {"from": "9kMfPxdg", "to": "322brsk4", "width": 10}, {"from": "FGEPRAzo", "to": "322brsk4", "width": 10}, {"from": "322brsk4", "to": "6KzizJua", "width": 10}, {"from": "322brsk4", "to": "4rMryHtz", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6KzizJua", "label": "Carl Friedrich Ebers", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6KzizJua\u0027\u003eCarl Friedrich Ebers\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CTNhzr7a", "label": "Germany", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CTNhzr7a\u0027\u003eGermany\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "322brsk4", "label": "Kassel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/322brsk4\u0027\u003eKassel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Hesse, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FGEPRAzo", "label": "Friedrich Kalkbrenner", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FGEPRAzo\u0027\u003eFriedrich Kalkbrenner\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman-born French pianist, composer, piano teacher and piano manufacturer (1784-1849)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Kalkbrenner_1829.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "4rMryHtz", "label": "Georg Otto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4rMryHtz\u0027\u003eGeorg Otto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (ca. 1550-1618)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MJqDk4yg", "label": "Fortunato Chelleri", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MJqDk4yg\u0027\u003eFortunato Chelleri\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian-German Kapellmeister and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9kMfPxdg", "label": "Louis Spohr", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9kMfPxdg\u0027\u003eLouis Spohr\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer, violinist and conductor\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludwig_Spohr_portrait.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "6KzizJua", "to": "CTNhzr7a", "width": 10}, {"from": "6KzizJua", "to": "322brsk4", "width": 10}, {"from": "FGEPRAzo", "to": "322brsk4", "width": 10}, {"from": "4rMryHtz", "to": "322brsk4", "width": 10}, {"from": "MJqDk4yg", "to": "322brsk4", "width": 10}, {"from": "9kMfPxdg", "to": "322brsk4", "width": 10}, {"from": "CTNhzr7a", "to": "322brsk4", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QJhBdvTq
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                                               | aliases       | Wikidata QID                                            |
-    | :-------: | :----------: | :-------------------------------------------------------------------------------------------------------: | :-----------: | :-----------------------------------------------------: |
-    | QJhBdvTq  | chapelmaster | leader of a musical ensemble, often smaller ones used for TV, radio, and theatres, originally for chapels | kapellmeister | [chapelmaster](http://wwww.wikidata.org/entity/Q215793) |
+    | FAAM UUID | label        | description                                                                                               | aliases       | Wikidata QID                                       |
+    | :-------: | :----------: | :-------------------------------------------------------------------------------------------------------: | :-----------: | :------------------------------------------------: |
+    | QJhBdvTq  | chapelmaster | leader of a musical ensemble, often smaller ones used for TV, radio, and theatres, originally for chapels | kapellmeister | [chapelmaster](http://wikidata.org/entity/Q215793) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/QJhBdvTq.html" height="800" width="1200" title="QJhBdvTq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QJhBdvTq" height="800" width="1200" title="QJhBdvTq"></iframe>
 
 ## Cross-references
 
@@ -49,7 +53,7 @@ tags: occupation
 
 -	__[Antonio Vivaldi](./GSqAPxLN.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vivaldi.jpg){align=left width="150" height="150"} 
 
 	Italian composer and violinist (1678-1741)
 
@@ -61,13 +65,13 @@ tags: occupation
 
 -	__[Jacob Clemens non Papa](./YtAudC9S.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	16th-century Flemish composer
 
 -	__[Giammateo Asola](./Mvde8e4F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -103,7 +107,7 @@ tags: occupation
 
 -	__[Carlo Pallavicino](./5ZTUJVn2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -127,13 +131,13 @@ tags: occupation
 
 -	__[Josep Pons](./XvhjzvcS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer (1770-1818)
 
 -	__[Alessandro Capece](./Xvwzn58s.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -145,25 +149,25 @@ tags: occupation
 
 -	__[Georg Otto](./4rMryHtz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (ca. 1550-1618)
 
 -	__[Bernardino de Ribera](./koZRWEgi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Robin Mallapert](./SGtJYpLe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 
 -	__[Charles Louis Maucourt](./dEs5J8i5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

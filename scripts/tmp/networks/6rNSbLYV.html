@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AsPJ6dfX", "label": "Jacques Fran\u00e7ois Gallay", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AsPJ6dfX.md\u0027\u003eJacques Fran\u00e7ois Gallay\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, professor, hornist and music educator (1795-1864)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jacques_Fran\u00e7ois_Gallay_Hornist.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BJqUa5Kf.md\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "6rNSbLYV", "label": "Perpignan", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6rNSbLYV.md\u0027\u003ePerpignan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench commune in Pyr\u00e9n\u00e9es-Orientales, Occitania\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "cAKTcfFf", "label": "Antoine Taudou", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./cAKTcfFf.md\u0027\u003eAntoine Taudou\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer and music educator (1846-1925)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Antoine_Taudou,1903.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "AsPJ6dfX", "to": "BJqUa5Kf", "width": 1}, {"from": "AsPJ6dfX", "to": "6rNSbLYV", "width": 10}, {"from": "cAKTcfFf", "to": "BJqUa5Kf", "width": 10}, {"from": "cAKTcfFf", "to": "6rNSbLYV", "width": 10}, {"from": "6rNSbLYV", "to": "BJqUa5Kf", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "cAKTcfFf", "label": "Antoine Taudou", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cAKTcfFf\u0027\u003eAntoine Taudou\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer and music educator (1846-1925)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Antoine_Taudou,1903.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BJqUa5Kf\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "6rNSbLYV", "label": "Perpignan", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6rNSbLYV\u0027\u003ePerpignan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench commune in Pyr\u00e9n\u00e9es-Orientales, Occitania\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AsPJ6dfX", "label": "Jacques Fran\u00e7ois Gallay", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AsPJ6dfX\u0027\u003eJacques Fran\u00e7ois Gallay\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, professor, hornist and music educator (1795-1864)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jacques_Fran\u00e7ois_Gallay_Hornist.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "cAKTcfFf", "to": "BJqUa5Kf", "width": 10}, {"from": "cAKTcfFf", "to": "6rNSbLYV", "width": 10}, {"from": "BJqUa5Kf", "to": "6rNSbLYV", "width": 10}, {"from": "BJqUa5Kf", "to": "AsPJ6dfX", "width": 1}, {"from": "AsPJ6dfX", "to": "6rNSbLYV", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

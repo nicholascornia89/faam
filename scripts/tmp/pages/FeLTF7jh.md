@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FeLTF7jh
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                    | aliases | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :----------------------------: | :-----: | :----------------------------------------------------------------: |
-    | FeLTF7jh  | Royal Military Academy | Military university of Belgium | RMA     | [Royal Military Academy](http://wwww.wikidata.org/entity/Q1515214) |
+    | FAAM UUID | label                  | description                    | aliases | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :----------------------------: | :-----: | :-----------------------------------------------------------: |
+    | FeLTF7jh  | Royal Military Academy | Military university of Belgium | RMA     | [Royal Military Academy](http://wikidata.org/entity/Q1515214) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/FeLTF7jh.html" height="800" width="1200" title="FeLTF7jh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FeLTF7jh" height="800" width="1200" title="FeLTF7jh"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Charles-Wilfrid de Bériot](./Mj6zznNc.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e2/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg){align=left width="150" height="150"} 
 
 	French pianist and composer (1833-1914)
 

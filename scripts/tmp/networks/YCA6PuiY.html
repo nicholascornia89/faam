@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KmPGztnu", "label": "United Kingdom", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KmPGztnu.md\u0027\u003eUnited Kingdom\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in north-west Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "YCA6PuiY", "label": "Oxford", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YCA6PuiY.md\u0027\u003eOxford\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edistrict in Oxfordshire, England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "N8neJZHT", "label": "Merton College", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./N8neJZHT.md\u0027\u003eMerton College\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecollege of the University of Oxford\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kadw32yr", "label": "Magdalen College", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kadw32yr.md\u0027\u003eMagdalen College\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003econstituent college of the University of Oxford in England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "KmPGztnu", "to": "YCA6PuiY", "width": 10}, {"from": "KmPGztnu", "to": "N8neJZHT", "width": 10}, {"from": "KmPGztnu", "to": "kadw32yr", "width": 1}, {"from": "YCA6PuiY", "to": "N8neJZHT", "width": 10}, {"from": "YCA6PuiY", "to": "kadw32yr", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kadw32yr", "label": "Magdalen College", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kadw32yr\u0027\u003eMagdalen College\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003econstituent college of the University of Oxford in England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "YCA6PuiY", "label": "Oxford", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YCA6PuiY\u0027\u003eOxford\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edistrict in Oxfordshire, England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KmPGztnu", "label": "United Kingdom", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KmPGztnu\u0027\u003eUnited Kingdom\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in north-west Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "N8neJZHT", "label": "Merton College", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/N8neJZHT\u0027\u003eMerton College\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecollege of the University of Oxford\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "kadw32yr", "to": "YCA6PuiY", "width": 10}, {"from": "kadw32yr", "to": "KmPGztnu", "width": 1}, {"from": "N8neJZHT", "to": "YCA6PuiY", "width": 10}, {"from": "N8neJZHT", "to": "KmPGztnu", "width": 10}, {"from": "YCA6PuiY", "to": "KmPGztnu", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

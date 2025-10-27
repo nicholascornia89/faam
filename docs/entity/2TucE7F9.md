@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2TucE7F9
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2TucE7F9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2TucE7F9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2TucE7F9.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2TucE7F9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2TucE7F9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2TucE7F9.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Robert-schumann.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                   | description                                     | Wikidata QID                                             |
-    | :-------: | :-------------: | :-----------------------: | :---------------------------------------------: | :------------------------------------------------------: |
-    | 2TucE7F9  | Robert Schumann | Robert Alexander Schumann | German composer, pianist and critic (1810–1856) | [Robert Schumann](http://wwww.wikidata.org/entity/Q7351) |
+    | FAAM UUID | label           | aliases                   | description                                     | Wikidata QID                                        |
+    | :-------: | :-------------: | :-----------------------: | :---------------------------------------------: | :-------------------------------------------------: |
+    | 2TucE7F9  | Robert Schumann | Robert Alexander Schumann | German composer, pianist and critic (1810–1856) | [Robert Schumann](http://wikidata.org/entity/Q7351) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 	- [pianist](./T6nAVeGM.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 	- [conductor](./TDF2knmi.md)
 
@@ -73,7 +77,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/2TucE7F9.html" height="800" width="1200" title="2TucE7F9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2TucE7F9" height="800" width="1200" title="2TucE7F9"></iframe>
 
 ## Identifiers
 
@@ -99,25 +103,47 @@ tags: agent
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Bohémiens Op. 29 N° 3 : Drei Gedichte](./dzJH3DPT.md)__
 
-	![Image](../assets/images/thumbs/KCG-000346180.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000346180.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quintette : pour Piano, 2 Violons, Alto & Violoncelle : Op. 44](./mW66jj2Y.md)__
 
-	![Image](../assets/images/thumbs/KCG-000741205.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000741205.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein](./heTepEsp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Carl Reinecke](./GBEySAxU.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/C.Reinecke-1890.jpg){align=left width="150" height="150"} 
+
+	German composer, conductor and pianist (1824–1910)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[3 Gedichte, Op.29](./3GQpbk6F.md)__
+
+	lied composed by Robert Schumann
+
+-	__[Manfred, Op.115](./NxDTB2Xy.md)__
 
 	
 

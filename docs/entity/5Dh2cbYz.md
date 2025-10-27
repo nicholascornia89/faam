@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5Dh2cbYz
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5Dh2cbYz.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5Dh2cbYz.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5Dh2cbYz.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5Dh2cbYz.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5Dh2cbYz.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5Dh2cbYz.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases | description                                                          | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :-----: | :------------------------------------------------------------------: | :---------------------------------------------------------------: |
-    | 5Dh2cbYz  | Joseph-Arthur Bernier |         | Canadian organist, pianist, composer, and music educator (1877–1944) | [Joseph-Arthur Bernier](http://wwww.wikidata.org/entity/Q1706324) |
+    | FAAM UUID | label                 | aliases | description                                                          | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :-----: | :------------------------------------------------------------------: | :----------------------------------------------------------: |
+    | 5Dh2cbYz  | Joseph-Arthur Bernier |         | Canadian organist, pianist, composer, and music educator (1877–1944) | [Joseph-Arthur Bernier](http://wikidata.org/entity/Q1706324) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/5Dh2cbYz.html" height="800" width="1200" title="5Dh2cbYz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5Dh2cbYz" height="800" width="1200" title="5Dh2cbYz"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Omer Létourneau](./VZbaoske.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Omer_Létourneau.jpg){align=left width="150" height="150"} 
+
+	Canadian musician (1891-1983)
+
+</div>

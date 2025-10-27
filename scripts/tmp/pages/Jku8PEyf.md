@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Jku8PEyf
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502010/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Jku8PEyf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Jku8PEyf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Jku8PEyf.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502010/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Jku8PEyf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Jku8PEyf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Jku8PEyf.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502010.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502010.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                  | permalink                | provenance                              |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | Jku8PEyf  | DPF-202502010         | Missa in honorem S. Elisabeth. Ad duas voces aequales comitante organo | [external URL](JwqBvu9Z) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                  | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | Jku8PEyf  | DPF-202502010         | Missa in honorem S. Elisabeth. Ad duas voces aequales comitante organo | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Jku8PEyf.html" height="800" width="1200" title="Jku8PEyf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Jku8PEyf" height="800" width="1200" title="Jku8PEyf"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Jku8PEyf.html" height="800" width="1200" title="Jku8PEyf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Jku8PEyf" height="800" width="1200" title="Jku8PEyf"></iframe>

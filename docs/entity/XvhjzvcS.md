@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XvhjzvcS
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XvhjzvcS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XvhjzvcS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XvhjzvcS.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XvhjzvcS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XvhjzvcS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XvhjzvcS.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases   | description                  | Wikidata QID                                            |
-    | :-------: | :--------: | :-------: | :--------------------------: | :-----------------------------------------------------: |
-    | XvhjzvcS  | Josep Pons | José Pons | Spanish composer (1770-1818) | [Josep Pons](http://wwww.wikidata.org/entity/Q20004719) |
+    | FAAM UUID | label      | aliases   | description                  | Wikidata QID                                       |
+    | :-------: | :--------: | :-------: | :--------------------------: | :------------------------------------------------: |
+    | XvhjzvcS  | Josep Pons | José Pons | Spanish composer (1770-1818) | [Josep Pons](http://wikidata.org/entity/Q20004719) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/XvhjzvcS.html" height="800" width="1200" title="XvhjzvcS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XvhjzvcS" height="800" width="1200" title="XvhjzvcS"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[José Melchor Gomis](./jwWs2UgB.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jose_Melchor_Gomis.jpg){align=left width="150" height="150"} 
+
+	Spanish composer (1791-1836)
+
+</div>

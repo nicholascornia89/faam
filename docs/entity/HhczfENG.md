@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HhczfENG
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                     | aliases     | Wikidata QID                                          |
-    | :-------: | :----------: | :-------------------------------------------------------------: | :---------: | :---------------------------------------------------: |
-    | HhczfENG  | Nazi Germany | Germany from 1933 to 1945 while under control of the Nazi Party | Third Reich | [Nazi Germany](http://wwww.wikidata.org/entity/Q7318) |
+    | FAAM UUID | label        | description                                                     | aliases     | Wikidata QID                                     |
+    | :-------: | :----------: | :-------------------------------------------------------------: | :---------: | :----------------------------------------------: |
+    | HhczfENG  | Nazi Germany | Germany from 1933 to 1945 while under control of the Nazi Party | Third Reich | [Nazi Germany](http://wikidata.org/entity/Q7318) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/HhczfENG.html" height="800" width="1200" title="HhczfENG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HhczfENG" height="800" width="1200" title="HhczfENG"></iframe>
 
 ## Identifiers
 

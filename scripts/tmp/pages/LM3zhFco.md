@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LM3zhFco
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | aliases            | description                       | Wikidata QID                                                  |
-    | :-------: | :--------------------------: | :----------------: | :-------------------------------: | :-----------------------------------------------------------: |
-    | LM3zhFco  | Weihnachtsoratorium, BWV 248 | Christmas Oratorio | oratorio by Johann Sebastian Bach | [Christmas Oratorio](http://wwww.wikidata.org/entity/Q642010) |
+    | FAAM UUID | label                        | aliases            | description                       | Wikidata QID                                             |
+    | :-------: | :--------------------------: | :----------------: | :-------------------------------: | :------------------------------------------------------: |
+    | LM3zhFco  | Weihnachtsoratorium, BWV 248 | Christmas Oratorio | oratorio by Johann Sebastian Bach | [Christmas Oratorio](http://wikidata.org/entity/Q642010) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/LM3zhFco.html" height="800" width="1200" title="LM3zhFco"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LM3zhFco" height="800" width="1200" title="LM3zhFco"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[9 Tenor-Arien : aus versch. Cantaten ; mit Begl. d. Pianoforte](./gex3sqyu.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
 
 	
 

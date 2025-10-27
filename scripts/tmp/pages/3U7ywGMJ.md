@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3U7ywGMJ
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description               | aliases      | Wikidata QID                                   |
-    | :-------: | :-----: | :-----------------------: | :----------: | :--------------------------------------------: |
-    | 3U7ywGMJ  | Hungary | country in Central Europe | Magyarország | [Hungary](http://wwww.wikidata.org/entity/Q28) |
+    | FAAM UUID | label   | description               | aliases      | Wikidata QID                              |
+    | :-------: | :-----: | :-----------------------: | :----------: | :---------------------------------------: |
+    | 3U7ywGMJ  | Hungary | country in Central Europe | Magyarország | [Hungary](http://wikidata.org/entity/Q28) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/3U7ywGMJ.html" height="800" width="1200" title="3U7ywGMJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3U7ywGMJ" height="800" width="1200" title="3U7ywGMJ"></iframe>
 
 ## Identifiers
 
@@ -47,7 +51,7 @@ tags: country
 
 -	__[Dezső Lederer](./oQgvGTVH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Hungarian-French violinist, composer (1858–1921)
 
@@ -71,7 +75,7 @@ tags: country
 
 -	__[Ernst Ferand](./D5YqeXET.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Hungarian musicologist (1887-1972)
 

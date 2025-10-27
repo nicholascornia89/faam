@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bQY8ZNZS
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bQY8ZNZS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bQY8ZNZS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bQY8ZNZS.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bQY8ZNZS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bQY8ZNZS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bQY8ZNZS.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/John_Bull_(composer).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description                                  | Wikidata QID                                         |
-    | :-------: | :-------: | :-------: | :------------------------------------------: | :--------------------------------------------------: |
-    | bQY8ZNZS  | John Bull | John Bull | English composer, musician and organ builder | [John Bull](http://wwww.wikidata.org/entity/Q511463) |
+    | FAAM UUID | label     | aliases   | description                                  | Wikidata QID                                    |
+    | :-------: | :-------: | :-------: | :------------------------------------------: | :---------------------------------------------: |
+    | bQY8ZNZS  | John Bull | John Bull | English composer, musician and organ builder | [John Bull](http://wikidata.org/entity/Q511463) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 	- [harpsichordist](./hMYL5Z9b.md)
 
-	- [](./hnyh7RvW.md)
+	- [music professor](./hnyh7RvW.md)
 
 	- [organist](./ZhptKYF3.md)
 
@@ -65,13 +69,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./dccWmHRA.md)
+	- [Gresham College](./dccWmHRA.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/bQY8ZNZS.html" height="800" width="1200" title="bQY8ZNZS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bQY8ZNZS" height="800" width="1200" title="bQY8ZNZS"></iframe>
 
 ## Identifiers
 
@@ -97,7 +101,7 @@ tags: agent
 
 -	__[Old English composers for the virginals & harpsichord : a collection of preludes, galliards, pavanes, grounds, chaconnes, suites, overtures, sonatas, etc. selected from the works of / William Byrde, John Bull, Orlando Gibbons, John Blow, Henry Purcell and Thomas Augustine Arne ; revised & edited by E. Pauer ; with biographical notices by W. A. Barrett.](./FEppMQbX.md)__
 
-	![Image](../assets/images/thumbs/SML-18937.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18937.gif){align=left width="150" height="150"} 
 
 	
 

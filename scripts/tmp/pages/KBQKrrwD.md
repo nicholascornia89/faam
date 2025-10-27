@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KBQKrrwD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KBQKrrwD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KBQKrrwD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KBQKrrwD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KBQKrrwD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KBQKrrwD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KBQKrrwD.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/49/William_Barclay_Squire.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/William_Barclay_Squire.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases                | description                                                | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :--------------------: | :--------------------------------------------------------: | :----------------------------------------------------------------: |
-    | KBQKrrwD  | William Barclay Squire | William Barclay Squire | British musicologist, librarian and librettist (1855-1927) | [William Barclay Squire](http://wwww.wikidata.org/entity/Q4422652) |
+    | FAAM UUID | label                  | aliases                | description                                                | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :--------------------: | :--------------------------------------------------------: | :-----------------------------------------------------------: |
+    | KBQKrrwD  | William Barclay Squire | William Barclay Squire | British musicologist, librarian and librettist (1855-1927) | [William Barclay Squire](http://wikidata.org/entity/Q4422652) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KBQKrrwD.html" height="800" width="1200" title="KBQKrrwD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KBQKrrwD" height="800" width="1200" title="KBQKrrwD"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,11 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Stabat Mater, IGP 90](./4cGZC6bC.md)__
+
+	composition by Giovanni Pierluigi da Palestrina
+
+</div>

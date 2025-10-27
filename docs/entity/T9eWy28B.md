@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: T9eWy28B
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                     | aliases | Wikidata QID                                         |
-    | :-------: | :---------: | :-----------------------------: | :-----: | :--------------------------------------------------: |
-    | T9eWy28B  | Bloemendaal | municipality in the Netherlands |         | [Bloemendaal](http://wwww.wikidata.org/entity/Q9908) |
+    | FAAM UUID | label       | description                     | aliases | Wikidata QID                                    |
+    | :-------: | :---------: | :-----------------------------: | :-----: | :---------------------------------------------: |
+    | T9eWy28B  | Bloemendaal | municipality in the Netherlands |         | [Bloemendaal](http://wikidata.org/entity/Q9908) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/T9eWy28B.html" height="800" width="1200" title="T9eWy28B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/T9eWy28B" height="800" width="1200" title="T9eWy28B"></iframe>
 
 ## Identifiers
 

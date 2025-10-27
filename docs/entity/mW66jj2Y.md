@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mW66jj2Y
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000741205/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mW66jj2Y.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mW66jj2Y.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mW66jj2Y.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000741205/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mW66jj2Y.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mW66jj2Y.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mW66jj2Y.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000741205.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000741205.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                          | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | mW66jj2Y  | KCG-000741205         | Quintette : pour Piano, 2 Violons, Alto & Violoncelle : Op. 44 | [external URL](mhohuJYG) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                          | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | mW66jj2Y  | KCG-000741205         | Quintette : pour Piano, 2 Violons, Alto & Violoncelle : Op. 44 | [external URL](https://catalogus.hogent.be/catalog/hog01:000741205) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -92,10 +96,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/mW66jj2Y.html" height="800" width="1200" title="mW66jj2Y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mW66jj2Y" height="800" width="1200" title="mW66jj2Y"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/mW66jj2Y.html" height="800" width="1200" title="mW66jj2Y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/mW66jj2Y" height="800" width="1200" title="mW66jj2Y"></iframe>

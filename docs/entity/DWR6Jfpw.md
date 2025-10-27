@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DWR6Jfpw
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/BSB-991072273939707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DWR6Jfpw.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DWR6Jfpw.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DWR6Jfpw.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/BSB-991072273939707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DWR6Jfpw.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DWR6Jfpw.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DWR6Jfpw.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991072273939707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991072273939707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                                                          | permalink                | provenance                              |
-    | :-------: | :--------------------: | :----------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | DWR6Jfpw  | BSB-991072273939707356 | Concerte für Waldhorn: mit Begleitung d. Orchesters. 2: No. 2, Op. 105: Es-Dur | [external URL](GBEySAxU) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                                                          | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :----------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | DWR6Jfpw  | BSB-991072273939707356 | Concerte für Waldhorn: mit Begleitung d. Orchesters. 2: No. 2, Op. 105: Es-Dur | [external URL](https://mdz-nbn-resolving.de/details:bsb11511365) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -92,10 +96,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/DWR6Jfpw.html" height="800" width="1200" title="DWR6Jfpw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DWR6Jfpw" height="800" width="1200" title="DWR6Jfpw"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/DWR6Jfpw.html" height="800" width="1200" title="DWR6Jfpw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/DWR6Jfpw" height="800" width="1200" title="DWR6Jfpw"></iframe>

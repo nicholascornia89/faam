@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dFR5v6yY
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                                                       | aliases                | Wikidata QID                                                                  |
-    | :-------: | :--------------------: | :-------------------------------------------------------------------------------: | :--------------------: | :---------------------------------------------------------------------------: |
-    | dFR5v6yY  | University of Toulouse | former French university in Toulouse existing from 1229 to 1793, and 1896 to 1969 | Université de Toulouse | [University of Toulouse (1896-1968)](http://wwww.wikidata.org/entity/Q578023) |
+    | FAAM UUID | label                  | description                                                                       | aliases                | Wikidata QID                                                             |
+    | :-------: | :--------------------: | :-------------------------------------------------------------------------------: | :--------------------: | :----------------------------------------------------------------------: |
+    | dFR5v6yY  | University of Toulouse | former French university in Toulouse existing from 1229 to 1793, and 1896 to 1969 | Université de Toulouse | [University of Toulouse (1896-1968)](http://wikidata.org/entity/Q578023) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./S2syfUxp.md)
+	[Toulouse](./S2syfUxp.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/dFR5v6yY.html" height="800" width="1200" title="dFR5v6yY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dFR5v6yY" height="800" width="1200" title="dFR5v6yY"></iframe>
 
 ## Cross-references
 

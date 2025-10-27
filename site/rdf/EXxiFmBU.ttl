@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EXxiFmBU a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "Wikidata metaclass; type of musical group, band or ensemble, defined by genre, by instrumentation, or some other criteria"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q105756498>,
+        "0"^^xsd:string,
+        "EXxiFmBU"^^xsd:string ;
+    skos:altLabel "type of band"^^xsd:string,
+        "type of ensemble"^^xsd:string,
+        "type of musical group"^^xsd:string ;
+    skos:prefLabel "type of musical group"^^xsd:string .
+

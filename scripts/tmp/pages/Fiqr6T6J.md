@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Fiqr6T6J
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                | aliases         | Wikidata QID                                           |
-    | :-------: | :-------: | :----------------------------------------: | :-------------: | :----------------------------------------------------: |
-    | Fiqr6T6J  | Wiltshire | historic county of England, United Kingdom | County of Wilts | [Wiltshire](http://wwww.wikidata.org/entity/Q67575300) |
+    | FAAM UUID | label     | description                                | aliases         | Wikidata QID                                      |
+    | :-------: | :-------: | :----------------------------------------: | :-------------: | :-----------------------------------------------: |
+    | Fiqr6T6J  | Wiltshire | historic county of England, United Kingdom | County of Wilts | [Wiltshire](http://wikidata.org/entity/Q67575300) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Fiqr6T6J.html" height="800" width="1200" title="Fiqr6T6J"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Fiqr6T6J" height="800" width="1200" title="Fiqr6T6J"></iframe>
 
 ## Identifiers
 

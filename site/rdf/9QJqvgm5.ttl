@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9QJqvgm5 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthPlace faamentity:96rVh94r ;
+    schema1:description "publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q102280530>,
+        "16002138"^^xsd:string,
+        "9QJqvgm5"^^xsd:string ;
+    skos:altLabel "Augener"^^xsd:string ;
+    skos:prefLabel "Augner"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:MwhmFC4w .
+

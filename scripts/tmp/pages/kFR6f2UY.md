@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kFR6f2UY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kFR6f2UY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kFR6f2UY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kFR6f2UY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kFR6f2UY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kFR6f2UY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kFR6f2UY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Beniamino_Cesi.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :--------------------------: | :--------------------------------------------------------: |
-    | kFR6f2UY  | Beniamino Cesi | Beniamino Cesi | Italian musician (1845-1907) | [Beniamino Cesi](http://wwww.wikidata.org/entity/Q1619820) |
+    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :--------------------------: | :---------------------------------------------------: |
+    | kFR6f2UY  | Beniamino Cesi | Beniamino Cesi | Italian musician (1845-1907) | [Beniamino Cesi](http://wikidata.org/entity/Q1619820) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/kFR6f2UY.html" height="800" width="1200" title="kFR6f2UY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kFR6f2UY" height="800" width="1200" title="kFR6f2UY"></iframe>
 
 ## Identifiers
 
@@ -89,8 +93,24 @@ tags: agent
 
 -	__[Musica antica italiana; sei celebri pezzi per cembalo, trascritti per pianoforte.](./LKW4UtTu.md)__
 
-	![Image](../assets/images/thumbs/SML-12107.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-12107.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Ruggero Leoncavallo](./Yk43yHM9.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Zonder_titel_PK-F-MM.5862_-_recto.tiff){align=left width="150" height="150"} 
+
+	Italian composer
+
+-	__[Giuseppe Martucci](./RX7geHVL.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giuseppe_Martucci_(1856).jpg){align=left width="150" height="150"} 
+
+	Italian musician (1856-1909)
 
 </div>

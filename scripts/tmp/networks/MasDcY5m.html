@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "MasDcY5m", "label": "Potpourri, Op.55", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MasDcY5m.md\u0027\u003ePotpourri, Op.55\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eyBy9fJP", "label": "potpourri", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eyBy9fJP.md\u0027\u003epotpourri\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical piece made up of short excerpts from different existing pieces, played one after the other\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KuMf3k3f", "label": "Giulio Briccialdi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KuMf3k3f.md\u0027\u003eGiulio Briccialdi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian musician (1818\u20131881)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UWuzhp4p", "label": "I Capuleti e i Montecchi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UWuzhp4p.md\u0027\u003eI Capuleti e i Montecchi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Vincenzo Bellini\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "PAzvCf6p", "label": "Potpourri : pour la Fl\u00fbte avec Accompagt de Piano sur des motifs de l\u0027op\u00e9ra I Montecchi ed I capuletti de Bellini : Op: 55.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PAzvCf6p.md\u0027\u003ePotpourri : pour la Fl\u00fbte avec Accompagt de Piano sur des motifs de l\u0027op\u00e9ra I Montecchi ed I capuletti de Bellini : Op: 55.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000337038.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "MasDcY5m", "to": "eyBy9fJP", "width": 10}, {"from": "MasDcY5m", "to": "KuMf3k3f", "width": 1}, {"from": "MasDcY5m", "to": "UWuzhp4p", "width": 1}, {"from": "MasDcY5m", "to": "PAzvCf6p", "width": 1}, {"from": "PAzvCf6p", "to": "eyBy9fJP", "width": 10}, {"from": "PAzvCf6p", "to": "UWuzhp4p", "width": 1}, {"from": "UWuzhp4p", "to": "KuMf3k3f", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "PAzvCf6p", "label": "Potpourri : pour la Fl\u00fbte avec Accompagt de Piano sur des motifs de l\u0027op\u00e9ra I Montecchi ed I capuletti de Bellini : Op: 55.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PAzvCf6p\u0027\u003ePotpourri : pour la Fl\u00fbte avec Accompagt de Piano sur des motifs de l\u0027op\u00e9ra I Montecchi ed I capuletti de Bellini : Op: 55.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000337038.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eyBy9fJP", "label": "potpourri", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eyBy9fJP\u0027\u003epotpourri\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical piece made up of short excerpts from different existing pieces, played one after the other\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UWuzhp4p", "label": "I Capuleti e i Montecchi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UWuzhp4p\u0027\u003eI Capuleti e i Montecchi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Vincenzo Bellini\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "MasDcY5m", "label": "Potpourri, Op.55", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MasDcY5m\u0027\u003ePotpourri, Op.55\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KuMf3k3f", "label": "Giulio Briccialdi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KuMf3k3f\u0027\u003eGiulio Briccialdi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian musician (1818\u20131881)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "PAzvCf6p", "to": "eyBy9fJP", "width": 10}, {"from": "PAzvCf6p", "to": "UWuzhp4p", "width": 1}, {"from": "PAzvCf6p", "to": "MasDcY5m", "width": 1}, {"from": "MasDcY5m", "to": "eyBy9fJP", "width": 10}, {"from": "MasDcY5m", "to": "KuMf3k3f", "width": 1}, {"from": "MasDcY5m", "to": "UWuzhp4p", "width": 1}, {"from": "UWuzhp4p", "to": "KuMf3k3f", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

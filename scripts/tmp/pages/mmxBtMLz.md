@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mmxBtMLz
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                | Wikidata QID                                            |
-    | :-------: | :----------: | :----------: | :------------------------: | :-----------------------------------------------------: |
-    | mmxBtMLz  | Le comte Ory | Le comte Ory | opera by Gioachino Rossini | [Le comte Ory](http://wwww.wikidata.org/entity/Q734560) |
+    | FAAM UUID | label        | aliases      | description                | Wikidata QID                                       |
+    | :-------: | :----------: | :----------: | :------------------------: | :------------------------------------------------: |
+    | mmxBtMLz  | Le comte Ory | Le comte Ory | opera by Gioachino Rossini | [Le comte Ory](http://wikidata.org/entity/Q734560) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/mmxBtMLz.html" height="800" width="1200" title="mmxBtMLz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mmxBtMLz" height="800" width="1200" title="mmxBtMLz"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[seizième Potpourri : pour Piano et Flute ou Violon](./iFYfBsMq.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750008.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750008.gif){align=left width="150" height="150"} 
 
 	
 

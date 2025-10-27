@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: norpC5Ht
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description        | aliases | Wikidata QID                                               |
-    | :-------: | :------------: | :----------------: | :-----: | :--------------------------------------------------------: |
-    | norpC5Ht  | William Turner | Bishop of Galloway |         | [William Turner](http://wwww.wikidata.org/entity/Q8019579) |
+    | FAAM UUID | label          | description        | aliases | Wikidata QID                                          |
+    | :-------: | :------------: | :----------------: | :-----: | :---------------------------------------------------: |
+    | norpC5Ht  | William Turner | Bishop of Galloway |         | [William Turner](http://wikidata.org/entity/Q8019579) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/norpC5Ht.html" height="800" width="1200" title="norpC5Ht"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/norpC5Ht" height="800" width="1200" title="norpC5Ht"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 -	__[Pieter Benoit](./i6yQPw7F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian priest and teacher (1820-1892)
 

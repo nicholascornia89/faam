@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4x3LYxf9
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description            | aliases                     | Wikidata QID                                                    |
-    | :-------: | :----------------: | :--------------------: | :-------------------------: | :-------------------------------------------------------------: |
-    | 4x3LYxf9  | La Monnaie/De Munt | Brussels opera company | Royal Theatre of La Monnaie | [La Monnaie/De Munt](http://wwww.wikidata.org/entity/Q54805195) |
+    | FAAM UUID | label              | description            | aliases                     | Wikidata QID                                               |
+    | :-------: | :----------------: | :--------------------: | :-------------------------: | :--------------------------------------------------------: |
+    | 4x3LYxf9  | La Monnaie/De Munt | Brussels opera company | Royal Theatre of La Monnaie | [La Monnaie/De Munt](http://wikidata.org/entity/Q54805195) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/4x3LYxf9.html" height="800" width="1200" title="4x3LYxf9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4x3LYxf9" height="800" width="1200" title="4x3LYxf9"></iframe>
 
 ## Cross-references
 

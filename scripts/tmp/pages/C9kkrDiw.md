@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: C9kkrDiw
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                    | aliases  | Wikidata QID                                      |
-    | :-------: | :------: | :------------------------------------------------------------: | :------: | :-----------------------------------------------: |
-    | C9kkrDiw  | Valencia | municipality in Spain, capital city of the Valencian Community | València | [Valencia](http://wwww.wikidata.org/entity/Q8818) |
+    | FAAM UUID | label    | description                                                    | aliases  | Wikidata QID                                 |
+    | :-------: | :------: | :------------------------------------------------------------: | :------: | :------------------------------------------: |
+    | C9kkrDiw  | Valencia | municipality in Spain, capital city of the Valencian Community | València | [Valencia](http://wikidata.org/entity/Q8818) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/C9kkrDiw.html" height="800" width="1200" title="C9kkrDiw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/C9kkrDiw" height="800" width="1200" title="C9kkrDiw"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Josep Pons](./XvhjzvcS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer (1770-1818)
 

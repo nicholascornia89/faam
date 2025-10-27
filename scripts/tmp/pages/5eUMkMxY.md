@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5eUMkMxY
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                    | aliases     | Wikidata QID                                          |
-    | :-------: | :--------: | :----------------------------: | :---------: | :---------------------------------------------------: |
-    | 5eUMkMxY  | bandleader | leader of a group of musicians | band leader | [bandleader](http://wwww.wikidata.org/entity/Q806349) |
+    | FAAM UUID | label      | description                    | aliases     | Wikidata QID                                     |
+    | :-------: | :--------: | :----------------------------: | :---------: | :----------------------------------------------: |
+    | 5eUMkMxY  | bandleader | leader of a group of musicians | band leader | [bandleader](http://wikidata.org/entity/Q806349) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/5eUMkMxY.html" height="800" width="1200" title="5eUMkMxY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5eUMkMxY" height="800" width="1200" title="5eUMkMxY"></iframe>
 
 ## Cross-references
 
@@ -43,13 +47,13 @@ tags: occupation
 
 -	__[Ludwig Stassny](./WmzqRyzE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	(1823-1883)
 
 -	__[Antonio Cesti](./ecu6SJkK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, singer and organist (1623-1669)
 
@@ -79,13 +83,13 @@ tags: occupation
 
 -	__[Giuseppe Amendola](./egcX2NfV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Antonio Boroni](./LabXUgsv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

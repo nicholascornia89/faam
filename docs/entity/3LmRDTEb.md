@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3LmRDTEb
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :----------------------------------------: | :-----: | :------------------------------------------------: |
-    | 3LmRDTEb  | Taunton | town and civil parish in Somerset, England |         | [Taunton](http://wwww.wikidata.org/entity/Q845619) |
+    | FAAM UUID | label   | description                                | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :----------------------------------------: | :-----: | :-------------------------------------------: |
+    | 3LmRDTEb  | Taunton | town and civil parish in Somerset, England |         | [Taunton](http://wikidata.org/entity/Q845619) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3LmRDTEb.html" height="800" width="1200" title="3LmRDTEb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3LmRDTEb" height="800" width="1200" title="3LmRDTEb"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[James Turle](./2DP7oN7d.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English organist and composer (1802-1882)
 

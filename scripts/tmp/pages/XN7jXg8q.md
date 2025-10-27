@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XN7jXg8q
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XN7jXg8q.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XN7jXg8q.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XN7jXg8q.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XN7jXg8q.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XN7jXg8q.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XN7jXg8q.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description                    | Wikidata QID                                                |
-    | :-------: | :-------------: | :-----: | :----------------------------: | :---------------------------------------------------------: |
-    | XN7jXg8q  | Lambert Pietkin |         | Belgian conductor and composer | [Lambert Pietkin](http://wwww.wikidata.org/entity/Q1416117) |
+    | FAAM UUID | label           | aliases | description                    | Wikidata QID                                           |
+    | :-------: | :-------------: | :-----: | :----------------------------: | :----------------------------------------------------: |
+    | XN7jXg8q  | Lambert Pietkin |         | Belgian conductor and composer | [Lambert Pietkin](http://wikidata.org/entity/Q1416117) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/XN7jXg8q.html" height="800" width="1200" title="XN7jXg8q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XN7jXg8q" height="800" width="1200" title="XN7jXg8q"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Henri Du Mont](./YXDkqYqP.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henri_Du_Mont.jpg){align=left width="150" height="150"} 
+
+	composer from the Southern Netherlands
+
+</div>

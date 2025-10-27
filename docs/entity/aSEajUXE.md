@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aSEajUXE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/aSEajUXE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/aSEajUXE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/aSEajUXE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/aSEajUXE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/aSEajUXE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/aSEajUXE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/SalvatoreMarchesi.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases                       | description                                                       | Wikidata QID                                                   |
-    | :-------: | :----------------: | :---------------------------: | :---------------------------------------------------------------: | :------------------------------------------------------------: |
-    | aSEajUXE  | Salvatore Marchesi | Salvador de Castrone Marchesi | Italian musician, translator, singer and opera singer (1822-1908) | [Salvatore Marchesi](http://wwww.wikidata.org/entity/Q3946123) |
+    | FAAM UUID | label              | aliases                       | description                                                       | Wikidata QID                                              |
+    | :-------: | :----------------: | :---------------------------: | :---------------------------------------------------------------: | :-------------------------------------------------------: |
+    | aSEajUXE  | Salvatore Marchesi | Salvador de Castrone Marchesi | Italian musician, translator, singer and opera singer (1822-1908) | [Salvatore Marchesi](http://wikidata.org/entity/Q3946123) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/aSEajUXE.html" height="800" width="1200" title="aSEajUXE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aSEajUXE" height="800" width="1200" title="aSEajUXE"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Twenty elementary and progressive vocalises : op. 15bis : with Italian words : for the medium of the voice, the same transposed for alto](./ALFv8zHy.md)__
 
-	![Image](../assets/images/thumbs/UTL-31763973.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/UTL-31763973.gif){align=left width="150" height="150"} 
 
 	
 

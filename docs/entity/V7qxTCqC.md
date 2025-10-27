@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: V7qxTCqC
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                           | aliases                 | Wikidata QID                                       |
-    | :-------: | :-----: | :---------------------------------------------------: | :---------------------: | :------------------------------------------------: |
-    | V7qxTCqC  | luthier | person making or repairing string musical instruments | string instrument maker | [luthier](http://wwww.wikidata.org/entity/Q762707) |
+    | FAAM UUID | label   | description                                           | aliases                 | Wikidata QID                                  |
+    | :-------: | :-----: | :---------------------------------------------------: | :---------------------: | :-------------------------------------------: |
+    | V7qxTCqC  | luthier | person making or repairing string musical instruments | string instrument maker | [luthier](http://wikidata.org/entity/Q762707) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/V7qxTCqC.html" height="800" width="1200" title="V7qxTCqC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/V7qxTCqC" height="800" width="1200" title="V7qxTCqC"></iframe>
 
 ## Cross-references
 

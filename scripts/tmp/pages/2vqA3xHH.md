@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2vqA3xHH
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                 | aliases | Wikidata QID                                                    |
-    | :-------: | :----------------: | :-------------------------: | :-----: | :-------------------------------------------------------------: |
-    | 2vqA3xHH  | convent of Scolopi | building in Florence, Italy |         | [convent of Scolopi](http://wwww.wikidata.org/entity/Q19984666) |
+    | FAAM UUID | label              | description                 | aliases | Wikidata QID                                               |
+    | :-------: | :----------------: | :-------------------------: | :-----: | :--------------------------------------------------------: |
+    | 2vqA3xHH  | convent of Scolopi | building in Florence, Italy |         | [convent of Scolopi](http://wikidata.org/entity/Q19984666) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/2vqA3xHH.html" height="800" width="1200" title="2vqA3xHH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2vqA3xHH" height="800" width="1200" title="2vqA3xHH"></iframe>
 
 ## Cross-references
 

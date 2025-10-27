@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cSBUDXaw
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                         | aliases               | Wikidata QID                                               |
-    | :-------: | :------------: | :-----------------------------------------------------------------: | :-------------------: | :--------------------------------------------------------: |
-    | cSBUDXaw  | Stondon Massey | village and civil parish in the Brentwood borough of Essex, England | Stondon Massey, Essex | [Stondon Massey](http://wwww.wikidata.org/entity/Q1008415) |
+    | FAAM UUID | label          | description                                                         | aliases               | Wikidata QID                                          |
+    | :-------: | :------------: | :-----------------------------------------------------------------: | :-------------------: | :---------------------------------------------------: |
+    | cSBUDXaw  | Stondon Massey | village and civil parish in the Brentwood borough of Essex, England | Stondon Massey, Essex | [Stondon Massey](http://wikidata.org/entity/Q1008415) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cSBUDXaw.html" height="800" width="1200" title="cSBUDXaw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cSBUDXaw" height="800" width="1200" title="cSBUDXaw"></iframe>
 
 ## Identifiers
 

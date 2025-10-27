@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eu3HHszA
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                        | aliases                                      | description             | Wikidata QID                                                                             |
-    | :-------: | :------------------------------------------: | :------------------------------------------: | :---------------------: | :--------------------------------------------------------------------------------------: |
-    | eu3HHszA  | The Trickster of Seville and the Stone Guest | El burlador de Sevilla y convidado de piedra | play by Tirso de Molina | [The Trickster of Seville and the Stone Guest](http://wwww.wikidata.org/entity/Q2714218) |
+    | FAAM UUID | label                                        | aliases                                      | description             | Wikidata QID                                                                        |
+    | :-------: | :------------------------------------------: | :------------------------------------------: | :---------------------: | :---------------------------------------------------------------------------------: |
+    | eu3HHszA  | The Trickster of Seville and the Stone Guest | El burlador de Sevilla y convidado de piedra | play by Tirso de Molina | [The Trickster of Seville and the Stone Guest](http://wikidata.org/entity/Q2714218) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/eu3HHszA.html" height="800" width="1200" title="eu3HHszA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eu3HHszA" height="800" width="1200" title="eu3HHszA"></iframe>
 
 ## Identifiers
 

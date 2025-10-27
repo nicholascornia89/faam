@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SSZnEvHy
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------------: | :-----: | :---------: | :----------------------------------: |
-    | SSZnEvHy  | Piano Concerto No.4, Op.64 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                      | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------------: | :-----: | :---------: | :-----------------------------: |
+    | SSZnEvHy  | Piano Concerto No.4, Op.64 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/SSZnEvHy.html" height="800" width="1200" title="SSZnEvHy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SSZnEvHy" height="800" width="1200" title="SSZnEvHy"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Quatrieème Concerto : pour Piano Forte Avec Accompagnement d'Orchestre : OEuvre 64](./ZpNHCYZh.md)__
 
-	![Image](../assets/images/thumbs/KCG-000359471.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000359471.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fJdhWYoM
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902215612/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fJdhWYoM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fJdhWYoM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fJdhWYoM.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902215612/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fJdhWYoM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fJdhWYoM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fJdhWYoM.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902215612.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902215612.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                            | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | fJdhWYoM  | KCA-030902215612      | Het daghet in den Oosten: fantasie op oude Vlaamse volkmelodieën | [external URL](eSzqVmee) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                            | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | fJdhWYoM  | KCA-030902215612      | Het daghet in den Oosten: fantasie op oude Vlaamse volkmelodieën | [external URL](https://anet.be/record/opacdkvc/c:lvd:7099493/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -87,10 +91,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/fJdhWYoM.html" height="800" width="1200" title="fJdhWYoM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fJdhWYoM" height="800" width="1200" title="fJdhWYoM"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/fJdhWYoM.html" height="800" width="1200" title="fJdhWYoM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/fJdhWYoM" height="800" width="1200" title="fJdhWYoM"></iframe>

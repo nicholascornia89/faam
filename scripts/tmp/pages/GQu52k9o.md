@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GQu52k9o
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/CBM-TORRMsA106/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GQu52k9o.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GQu52k9o.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GQu52k9o.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/CBM-TORRMsA106/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GQu52k9o.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GQu52k9o.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GQu52k9o.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/CBM-TORRMsA106.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA106.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                 | permalink                | provenance                                                       |
-    | :-------: | :-------------------: | :-------------------: | :----------------------: | :--------------------------------------------------------------: |
-    | GQu52k9o  | CBM-TORRMsA106        | (Preludio) circa 1740 | [external URL](MYAXux6m) | [Biblioteca del Conservatorio Benedetto Marcello](./FqJJaJb7.md) |
+    | FAAM UUID | FAAM manifestation ID | title                 | permalink                                                                                                                                      | provenance                                                       |
+    | :-------: | :-------------------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: |
+    | GQu52k9o  | CBM-TORRMsA106        | (Preludio) circa 1740 | [external URL](https://polovea.sebina.it/SebinaOpac/resource/a-modo-di-notturno-preludio-circa-1740-bgaluppiil-buranello-17061785/VEA01143339) | [Biblioteca del Conservatorio Benedetto Marcello](./FqJJaJb7.md) |
 
 ## Statements
 
@@ -83,10 +87,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/GQu52k9o.html" height="800" width="1200" title="GQu52k9o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GQu52k9o" height="800" width="1200" title="GQu52k9o"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/GQu52k9o.html" height="800" width="1200" title="GQu52k9o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/GQu52k9o" height="800" width="1200" title="GQu52k9o"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fQFH2wUL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fQFH2wUL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fQFH2wUL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fQFH2wUL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fQFH2wUL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fQFH2wUL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fQFH2wUL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tebaldini.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description                  | Wikidata QID                                                  |
-    | :-------: | :----------------: | :----------------: | :--------------------------: | :-----------------------------------------------------------: |
-    | fQFH2wUL  | Giovanni Tebaldini | Giovanni Tebaldini | Italian composer (1864–1952) | [Giovanni Tebaldini](http://wwww.wikidata.org/entity/Q955956) |
+    | FAAM UUID | label              | aliases            | description                  | Wikidata QID                                             |
+    | :-------: | :----------------: | :----------------: | :--------------------------: | :------------------------------------------------------: |
+    | fQFH2wUL  | Giovanni Tebaldini | Giovanni Tebaldini | Italian composer (1864–1952) | [Giovanni Tebaldini](http://wikidata.org/entity/Q955956) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/fQFH2wUL.html" height="800" width="1200" title="fQFH2wUL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fQFH2wUL" height="800" width="1200" title="fQFH2wUL"></iframe>
 
 ## Identifiers
 

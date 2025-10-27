@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EXFpFukw
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-43204301c/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EXFpFukw.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EXFpFukw.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EXFpFukw.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-43204301c/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EXFpFukw.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EXFpFukw.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EXFpFukw.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-43204301c.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43204301c.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                          | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | EXFpFukw  | BNF-43204301c         | Basses et chants donnés aux examens et concours des classes d'harmonie et d'accompagnement (années 1827-1900) / recueillis par Constant Pierre | [external URL](JwqBvu9Z) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                          | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | EXFpFukw  | BNF-43204301c         | Basses et chants donnés aux examens et concours des classes d'harmonie et d'accompagnement (années 1827-1900) / recueillis par Constant Pierre | [external URL](http://catalogue.bnf.fr/ark:/12148/cb43204301c) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -60,10 +64,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/EXFpFukw.html" height="800" width="1200" title="EXFpFukw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EXFpFukw" height="800" width="1200" title="EXFpFukw"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/EXFpFukw.html" height="800" width="1200" title="EXFpFukw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/EXFpFukw" height="800" width="1200" title="EXFpFukw"></iframe>

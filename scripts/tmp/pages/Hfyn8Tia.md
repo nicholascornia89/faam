@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Hfyn8Tia
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description                | Wikidata QID                                                    |
-    | :-------: | :------------------: | :------------------: | :------------------------: | :-------------------------------------------------------------: |
-    | Hfyn8Tia  | Aureliano in Palmira | Aureliano in Palmira | opera by Gioachino Rossini | [Aureliano in Palmira](http://wwww.wikidata.org/entity/Q781525) |
+    | FAAM UUID | label                | aliases              | description                | Wikidata QID                                               |
+    | :-------: | :------------------: | :------------------: | :------------------------: | :--------------------------------------------------------: |
+    | Hfyn8Tia  | Aureliano in Palmira | Aureliano in Palmira | opera by Gioachino Rossini | [Aureliano in Palmira](http://wikidata.org/entity/Q781525) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Hfyn8Tia.html" height="800" width="1200" title="Hfyn8Tia"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Hfyn8Tia" height="800" width="1200" title="Hfyn8Tia"></iframe>
 
 ## Identifiers
 

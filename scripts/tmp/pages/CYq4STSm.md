@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CYq4STSm
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | aliases  | description                  | Wikidata QID                                         |
-    | :-------: | :------: | :------: | :--------------------------: | :--------------------------------------------------: |
-    | CYq4STSm  | Tancrède | Tancrède | five-act tragedy by Voltaire | [Tancrède](http://wwww.wikidata.org/entity/Q3514988) |
+    | FAAM UUID | label    | aliases  | description                  | Wikidata QID                                    |
+    | :-------: | :------: | :------: | :--------------------------: | :---------------------------------------------: |
+    | CYq4STSm  | Tancrède | Tancrède | five-act tragedy by Voltaire | [Tancrède](http://wikidata.org/entity/Q3514988) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/CYq4STSm.html" height="800" width="1200" title="CYq4STSm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CYq4STSm" height="800" width="1200" title="CYq4STSm"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XyMWqErC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                       | aliases  | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-------------------------------: | :------: | :-----------------------------------------------------------: |
-    | XyMWqErC  | Asnières-sur-Seine | commune in Hauts-de-Seine, France | Asnières | [Asnières-sur-Seine](http://wwww.wikidata.org/entity/Q191415) |
+    | FAAM UUID | label              | description                       | aliases  | Wikidata QID                                             |
+    | :-------: | :----------------: | :-------------------------------: | :------: | :------------------------------------------------------: |
+    | XyMWqErC  | Asnières-sur-Seine | commune in Hauts-de-Seine, France | Asnières | [Asnières-sur-Seine](http://wikidata.org/entity/Q191415) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/XyMWqErC.html" height="800" width="1200" title="XyMWqErC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XyMWqErC" height="800" width="1200" title="XyMWqErC"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[François Servais](./2yWyDYJy.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and conductor (1846-1901)
 

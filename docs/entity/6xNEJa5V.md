@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6xNEJa5V
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases                  | description    | Wikidata QID                                                     |
-    | :-------: | :------------------: | :----------------------: | :------------: | :--------------------------------------------------------------: |
-    | 6xNEJa5V  | continence of Scipio | the continence of Scipio | artistic theme | [continence of Scipio](http://wwww.wikidata.org/entity/Q1029378) |
+    | FAAM UUID | label                | aliases                  | description    | Wikidata QID                                                |
+    | :-------: | :------------------: | :----------------------: | :------------: | :---------------------------------------------------------: |
+    | 6xNEJa5V  | continence of Scipio | the continence of Scipio | artistic theme | [continence of Scipio](http://wikidata.org/entity/Q1029378) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/6xNEJa5V.html" height="800" width="1200" title="6xNEJa5V"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6xNEJa5V" height="800" width="1200" title="6xNEJa5V"></iframe>
 
 ## Identifiers
 

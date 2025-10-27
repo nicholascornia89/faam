@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WjbqsK8A
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | aliases             | description            | Wikidata QID                                      |
-    | :-------: | :----: | :-----------------: | :--------------------: | :-----------------------------------------------: |
-    | WjbqsK8A  | Phèdre | Phèdre et Hippolyte | tragedy by Jean Racine | [Phèdre](http://wwww.wikidata.org/entity/Q969098) |
+    | FAAM UUID | label  | aliases             | description            | Wikidata QID                                 |
+    | :-------: | :----: | :-----------------: | :--------------------: | :------------------------------------------: |
+    | WjbqsK8A  | Phèdre | Phèdre et Hippolyte | tragedy by Jean Racine | [Phèdre](http://wikidata.org/entity/Q969098) |
 
 <br><br><br>
 
@@ -35,17 +39,17 @@ tags: musical_work
 
 	- [poem](./cgtepzqb.md)
 
-	- [drama in Alexandrine verse](http://www.wikidata.org/entity/Q72408184)
+	- [drama in Alexandrine verse](Q72408184)
 
 ??? quote "based on" 
 
-	- [](./S4aUiTV9.md)
+	- [Hippolytus](./S4aUiTV9.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/WjbqsK8A.html" height="800" width="1200" title="WjbqsK8A"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WjbqsK8A" height="800" width="1200" title="WjbqsK8A"></iframe>
 
 ## Identifiers
 

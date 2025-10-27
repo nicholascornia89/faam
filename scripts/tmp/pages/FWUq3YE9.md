@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FWUq3YE9
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FWUq3YE9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FWUq3YE9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FWUq3YE9.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FWUq3YE9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FWUq3YE9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FWUq3YE9.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/CharlesMayer.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description          | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----------: | :------------------: | :-------------------------------------------------------: |
-    | FWUq3YE9  | Charles Meyer | Charles Mayer | composer (1799-1862) | [Charles Meyer](http://wwww.wikidata.org/entity/Q4274803) |
+    | FAAM UUID | label         | aliases       | description          | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----------: | :------------------: | :--------------------------------------------------: |
+    | FWUq3YE9  | Charles Meyer | Charles Mayer | composer (1799-1862) | [Charles Meyer](http://wikidata.org/entity/Q4274803) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/FWUq3YE9.html" height="800" width="1200" title="FWUq3YE9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FWUq3YE9" height="800" width="1200" title="FWUq3YE9"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Mikhail Glinka](./jZ54gutD.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Glinka_1856.jpg){align=left width="150" height="150"} 
+
+	Russian composer
+
+</div>

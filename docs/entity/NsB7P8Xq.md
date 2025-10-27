@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NsB7P8Xq
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143988p79/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NsB7P8Xq.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NsB7P8Xq.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NsB7P8Xq.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143988p79/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NsB7P8Xq.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NsB7P8Xq.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NsB7P8Xq.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143988p79.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p79.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title       | permalink                | provenance                         |
-    | :-------: | :-------------------: | :---------: | :----------------------: | :--------------------------------: |
-    | NsB7P8Xq  | ORP-20143988p79       | Immortalité | [external URL](9JZUardt) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title       | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :---------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | NsB7P8Xq  | ORP-20143988p79       | Immortalité | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22440) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "note" 
 
@@ -63,10 +67,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/NsB7P8Xq.html" height="800" width="1200" title="NsB7P8Xq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NsB7P8Xq" height="800" width="1200" title="NsB7P8Xq"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/NsB7P8Xq.html" height="800" width="1200" title="NsB7P8Xq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/NsB7P8Xq" height="800" width="1200" title="NsB7P8Xq"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 55SNFCoc
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description              | aliases    | Wikidata QID                                             |
-    | :-------: | :----------: | :----------------------: | :--------: | :------------------------------------------------------: |
-    | 55SNFCoc  | chord symbol | system for naming chords | chord name | [chord symbol](http://wwww.wikidata.org/entity/Q1504804) |
+    | FAAM UUID | label        | description              | aliases    | Wikidata QID                                        |
+    | :-------: | :----------: | :----------------------: | :--------: | :-------------------------------------------------: |
+    | 55SNFCoc  | chord symbol | system for naming chords | chord name | [chord symbol](http://wikidata.org/entity/Q1504804) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/55SNFCoc.html" height="800" width="1200" title="55SNFCoc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/55SNFCoc" height="800" width="1200" title="55SNFCoc"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: annotation_type
 
 -	__[Six ecossaises](./8EEgmM8Z.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903994140.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903994140.gif){align=left width="150" height="150"} 
 
 	
 

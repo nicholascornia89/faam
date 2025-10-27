@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DDcZ9LJC
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                            | aliases             | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :------------------------------------: | :-----------------: | :------------------------------------------------------------: |
-    | DDcZ9LJC  | Prague Conservatory | music school in Prague, Czech Republic | Pražská konzervatoř | [Prague Conservatory](http://wwww.wikidata.org/entity/Q927373) |
+    | FAAM UUID | label               | description                            | aliases             | Wikidata QID                                              |
+    | :-------: | :-----------------: | :------------------------------------: | :-----------------: | :-------------------------------------------------------: |
+    | DDcZ9LJC  | Prague Conservatory | music school in Prague, Czech Republic | Pražská konzervatoř | [Prague Conservatory](http://wikidata.org/entity/Q927373) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./aNUMypcb.md)
+	[Old Town](./aNUMypcb.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/DDcZ9LJC.html" height="800" width="1200" title="DDcZ9LJC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DDcZ9LJC" height="800" width="1200" title="DDcZ9LJC"></iframe>
 
 ## Cross-references
 
@@ -71,7 +75,7 @@ tags: music_organization
 
 -	__[Antonín Bennewitz](./dGjgsiqk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech violinist, conductor and teacher (1833–1926)
 
@@ -95,7 +99,7 @@ tags: music_organization
 
 -	__[Philipp Schmutzer](./2UtGp5td.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

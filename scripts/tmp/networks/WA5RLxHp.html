@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WA5RLxHp", "label": "University of Bonn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WA5RLxHp.md\u0027\u003eUniversity of Bonn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic research university located in Bonn, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "G8KijfkK", "label": "Bonn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./G8KijfkK.md\u0027\u003eBonn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Germany and capital of former West Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "gyvHzV66", "label": "North Rhine-Westphalia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gyvHzV66.md\u0027\u003eNorth Rhine-Westphalia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estate in Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CTNhzr7a", "label": "Germany", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CTNhzr7a.md\u0027\u003eGermany\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gwmSxNpA", "label": "Max Bruch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gwmSxNpA.md\u0027\u003eMax Bruch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman romantic composer and conductor (1838-1920)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Max_bruch.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SgJFWhdM", "label": "Anton Reicha", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SgJFWhdM.md\u0027\u003eAnton Reicha\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCzech-born French composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "99BtzTfg", "label": "Hermann A. Korff", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./99BtzTfg.md\u0027\u003eHermann A. Korff\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman literary historian (1882\u20131963)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hermann_August_Korff_-_Jb._d._S\u00e4chs._Ak._d._Wiss.1963-65_(1967),_S._322.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "WA5RLxHp", "to": "G8KijfkK", "width": 1}, {"from": "WA5RLxHp", "to": "gyvHzV66", "width": 1}, {"from": "WA5RLxHp", "to": "CTNhzr7a", "width": 1}, {"from": "WA5RLxHp", "to": "gwmSxNpA", "width": 10}, {"from": "WA5RLxHp", "to": "SgJFWhdM", "width": 10}, {"from": "WA5RLxHp", "to": "99BtzTfg", "width": 10}, {"from": "CTNhzr7a", "to": "G8KijfkK", "width": 1}, {"from": "CTNhzr7a", "to": "gyvHzV66", "width": 1}, {"from": "CTNhzr7a", "to": "gwmSxNpA", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "G8KijfkK", "label": "Bonn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/G8KijfkK\u0027\u003eBonn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Germany and capital of former West Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CTNhzr7a", "label": "Germany", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CTNhzr7a\u0027\u003eGermany\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WA5RLxHp", "label": "University of Bonn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WA5RLxHp\u0027\u003eUniversity of Bonn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic research university located in Bonn, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "gyvHzV66", "label": "North Rhine-Westphalia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gyvHzV66\u0027\u003eNorth Rhine-Westphalia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estate in Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gwmSxNpA", "label": "Max Bruch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gwmSxNpA\u0027\u003eMax Bruch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman romantic composer and conductor (1838-1920)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Max_bruch.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SgJFWhdM", "label": "Anton Reicha", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SgJFWhdM\u0027\u003eAnton Reicha\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCzech-born French composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "99BtzTfg", "label": "Hermann A. Korff", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/99BtzTfg\u0027\u003eHermann A. Korff\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman literary historian (1882\u20131963)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hermann_August_Korff_-_Jb._d._S\u00e4chs._Ak._d._Wiss.1963-65_(1967),_S._322.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "G8KijfkK", "to": "CTNhzr7a", "width": 1}, {"from": "G8KijfkK", "to": "WA5RLxHp", "width": 1}, {"from": "WA5RLxHp", "to": "gyvHzV66", "width": 1}, {"from": "WA5RLxHp", "to": "CTNhzr7a", "width": 1}, {"from": "WA5RLxHp", "to": "gwmSxNpA", "width": 10}, {"from": "WA5RLxHp", "to": "SgJFWhdM", "width": 10}, {"from": "WA5RLxHp", "to": "99BtzTfg", "width": 10}, {"from": "gwmSxNpA", "to": "CTNhzr7a", "width": 1}, {"from": "CTNhzr7a", "to": "gyvHzV66", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

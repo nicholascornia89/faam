@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NY8AZCns
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NY8AZCns.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NY8AZCns.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NY8AZCns.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NY8AZCns.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NY8AZCns.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NY8AZCns.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Van_den_Borren.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases                | description                                                                           | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :--------------------: | :-----------------------------------------------------------------------------------: | :----------------------------------------------------------------: |
-    | NY8AZCns  | Charles Van den Borren | Charles Van den Borren | Belgian university professor, librarian, musicologist and music historian (1874–1966) | [Charles Van den Borren](http://wwww.wikidata.org/entity/Q1066297) |
+    | FAAM UUID | label                  | aliases                | description                                                                           | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :--------------------: | :-----------------------------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | NY8AZCns  | Charles Van den Borren | Charles Van den Borren | Belgian university professor, librarian, musicologist and music historian (1874–1966) | [Charles Van den Borren](http://wikidata.org/entity/Q1066297) |
 
 <br><br><br>
 
@@ -65,13 +69,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./GDp3g8Qs.md)
+	- [University of Liège](./GDp3g8Qs.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/NY8AZCns.html" height="800" width="1200" title="NY8AZCns"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NY8AZCns" height="800" width="1200" title="NY8AZCns"></iframe>
 
 ## Identifiers
 
@@ -93,8 +97,18 @@ tags: agent
 
 -	__[Hoe Gabriël Maria vond. Comment Gabriel trouva Marie](./PuXvvqie.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502025.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502025.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Robert Thurston Dart](./7uucaRLU.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/ThurstonDart1961.jpg){align=left width="150" height="150"} 
+
+	British musicologist (1921–1971)
 
 </div>

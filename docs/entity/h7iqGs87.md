@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: h7iqGs87
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/h7iqGs87.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/h7iqGs87.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/h7iqGs87.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/h7iqGs87.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/h7iqGs87.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/h7iqGs87.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felix_Mendelssohn_Bartholdy.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases               | description                                                                    | Wikidata QID                                                |
-    | :-------: | :---------------: | :-------------------: | :----------------------------------------------------------------------------: | :---------------------------------------------------------: |
-    | h7iqGs87  | Felix Mendelssohn | Mendelssohn-Bartholdy | German composer, pianist, organist and conductor of Jewish descent (1809–1847) | [Felix Mendelssohn](http://wwww.wikidata.org/entity/Q46096) |
+    | FAAM UUID | label             | aliases               | description                                                                    | Wikidata QID                                           |
+    | :-------: | :---------------: | :-------------------: | :----------------------------------------------------------------------------: | :----------------------------------------------------: |
+    | h7iqGs87  | Felix Mendelssohn | Mendelssohn-Bartholdy | German composer, pianist, organist and conductor of Jewish descent (1809–1847) | [Felix Mendelssohn](http://wikidata.org/entity/Q46096) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 	- [university teacher](./XWcaJQty.md)
 
-	- [](./mGWMWMfo.md)
+	- [painter](./mGWMWMfo.md)
 
 	- [writer](./YrCfZ8vh.md)
 
@@ -81,7 +85,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/h7iqGs87.html" height="800" width="1200" title="h7iqGs87"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/h7iqGs87" height="800" width="1200" title="h7iqGs87"></iframe>
 
 ## Identifiers
 
@@ -107,31 +111,73 @@ tags: agent
 
 -	__[Ottetto : Pour quatre Violons, deux Altos, deux Violoncelles : Oeuv. 20](./RV7gSF6E.md)__
 
-	![Image](../assets/images/thumbs/KCG-000356945.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000356945.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concerto (en RE mineur) : pour Piano avec Accompagnement d'Orchestre ou de Quatuor : Op: 40](./PoGNkuM3.md)__
 
-	![Image](../assets/images/thumbs/KCG-000356805.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000356805.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Der LXXXXVste Psalm für Chor und Orchester op. 46](./RFC5qVoj.md)__
 
-	![Image](../assets/images/thumbs/ORP-20140284e.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20140284e.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein](./heTepEsp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Supplément à la Musica sacra, 1886-87 N.8](./TqmirwYM.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502045.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502045.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Carl Reinecke](./GBEySAxU.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/C.Reinecke-1890.jpg){align=left width="150" height="150"} 
+
+	German composer, conductor and pianist (1824–1910)
+
+-	__[Eduard Franck](./RruLS8iV.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eduard_Franck.png){align=left width="150" height="150"} 
+
+	German composer (1817-1893)
+
+-	__[Johannes Verhulst](./bsgJz3jr.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Dutch composer and conductor (1816–1891)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[6 Organ Sonatas, Op.65](./aXQt4E74.md)__
+
+	
+
+-	__[Kommt, laßt uns anbeten, Op.46](./Zcbf7A8n.md)__
+
+	
+
+-	__[Piano Concerto No.2, Op.40](./g9q7Pf6S.md)__
+
+	concerto written in 1837 by Felix Mendelssohn
+
+-	__[String Octet, Op.20](./bUThF32t.md)__
 
 	
 

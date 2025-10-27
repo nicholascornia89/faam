@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c8PM93td
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description        | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :----------------: | :-----: | :----------------------------------------------: |
-    | c8PM93td  | Lehel | district of Munich |         | [Lehel](http://wwww.wikidata.org/entity/Q445471) |
+    | FAAM UUID | label | description        | aliases | Wikidata QID                                |
+    | :-------: | :---: | :----------------: | :-----: | :-----------------------------------------: |
+    | c8PM93td  | Lehel | district of Munich |         | [Lehel](http://wikidata.org/entity/Q445471) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/c8PM93td.html" height="800" width="1200" title="c8PM93td"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c8PM93td" height="800" width="1200" title="c8PM93td"></iframe>
 
 ## Identifiers
 

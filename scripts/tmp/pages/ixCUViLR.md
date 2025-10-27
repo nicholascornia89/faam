@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ixCUViLR
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ixCUViLR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ixCUViLR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ixCUViLR.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ixCUViLR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ixCUViLR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ixCUViLR.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nicola_Antonio_Zingarelli.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | aliases                    | description                  | Wikidata QID                                                          |
-    | :-------: | :------------------------: | :------------------------: | :--------------------------: | :-------------------------------------------------------------------: |
-    | ixCUViLR  | Niccolò Antonio Zingarelli | Niccolo Antonio Zingarelli | Italian composer (1752–1837) | [Niccolò Antonio Zingarelli](http://wwww.wikidata.org/entity/Q505202) |
+    | FAAM UUID | label                      | aliases                    | description                  | Wikidata QID                                                     |
+    | :-------: | :------------------------: | :------------------------: | :--------------------------: | :--------------------------------------------------------------: |
+    | ixCUViLR  | Niccolò Antonio Zingarelli | Niccolo Antonio Zingarelli | Italian composer (1752–1837) | [Niccolò Antonio Zingarelli](http://wikidata.org/entity/Q505202) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ixCUViLR.html" height="800" width="1200" title="ixCUViLR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ixCUViLR" height="800" width="1200" title="ixCUViLR"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,25 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Saverio Mercadante](./kv4NyzvW.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Saverio_Mercadante_by_Andrea_Cefaly.jpg){align=left width="150" height="150"} 
+
+	Italian composer
+
+-	__[Vincenzo Bellini](./FzuLDZCr.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lucchini-Bellini.jpg){align=left width="150" height="150"} 
+
+	Italian opera composer (1801–1835)
+
+-	__[Francesco Morlacchi](./9ZGwei8K.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francesco_morlacchi.jpg){align=left width="150" height="150"} 
+
+	Italian composer (1784-1841)
+
+</div>

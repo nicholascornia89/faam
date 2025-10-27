@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5agBK3vj
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5agBK3vj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5agBK3vj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5agBK3vj.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5agBK3vj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5agBK3vj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5agBK3vj.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nicolas_Isouard_par_Ducarme.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases        | description                  | Wikidata QID                                               |
-    | :-------: | :-------------: | :------------: | :--------------------------: | :--------------------------------------------------------: |
-    | 5agBK3vj  | Nicolas Isouard | Nicolò Isouard | Maltese composer (1773–1818) | [Nicolas Isouard](http://wwww.wikidata.org/entity/Q736805) |
+    | FAAM UUID | label           | aliases        | description                  | Wikidata QID                                          |
+    | :-------: | :-------------: | :------------: | :--------------------------: | :---------------------------------------------------: |
+    | 5agBK3vj  | Nicolas Isouard | Nicolò Isouard | Maltese composer (1773–1818) | [Nicolas Isouard](http://wikidata.org/entity/Q736805) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/5agBK3vj.html" height="800" width="1200" title="5agBK3vj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5agBK3vj" height="800" width="1200" title="5agBK3vj"></iframe>
 
 ## Identifiers
 

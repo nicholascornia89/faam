@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EfYVMj9T
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                               | aliases              | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :---------------------------------------: | :------------------: | :-------------------------------------------------------------: |
-    | EfYVMj9T  | political scientist | expert in or student of political science | political scientists | [political scientist](http://wwww.wikidata.org/entity/Q1238570) |
+    | FAAM UUID | label               | description                               | aliases              | Wikidata QID                                               |
+    | :-------: | :-----------------: | :---------------------------------------: | :------------------: | :--------------------------------------------------------: |
+    | EfYVMj9T  | political scientist | expert in or student of political science | political scientists | [political scientist](http://wikidata.org/entity/Q1238570) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/EfYVMj9T.html" height="800" width="1200" title="EfYVMj9T"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EfYVMj9T" height="800" width="1200" title="EfYVMj9T"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KrVfsHyD
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/UML-62718187/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KrVfsHyD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KrVfsHyD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KrVfsHyD.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/UML-62718187/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KrVfsHyD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KrVfsHyD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KrVfsHyD.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/UML-62718187.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/UML-62718187.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                                                                                            | permalink                | provenance                                      |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :---------------------------------------------: |
-    | KrVfsHyD  | UML-62718187          | The science of the art of singing / by Anna Lankow. English translation by E. Buek. Combined with practical exercising material, by Anna Lankow and Manuel Garcia ... Die wissenschaft des kunst-gesanges, von Anna Lankow. Mit praktischem uebungs-material, von Anna Lankow und Manuel Garcia. | [external URL](j3tnVzW5) | [University of Michigan Library](./j5hTzft8.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                                                                                            | permalink                                                                      | provenance                                      |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :---------------------------------------------: |
+    | KrVfsHyD  | UML-62718187          | The science of the art of singing / by Anna Lankow. English translation by E. Buek. Combined with practical exercising material, by Anna Lankow and Manuel Garcia ... Die wissenschaft des kunst-gesanges, von Anna Lankow. Mit praktischem uebungs-material, von Anna Lankow und Manuel Garcia. | [external URL](https://search.lib.umich.edu/catalog/record/990015520010106381) | [University of Michigan Library](./j5hTzft8.md) |
 
 ## Statements
 
@@ -72,10 +76,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/KrVfsHyD.html" height="800" width="1200" title="KrVfsHyD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KrVfsHyD" height="800" width="1200" title="KrVfsHyD"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/KrVfsHyD.html" height="800" width="1200" title="KrVfsHyD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/KrVfsHyD" height="800" width="1200" title="KrVfsHyD"></iframe>

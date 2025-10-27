@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3eXGYxJT
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-432579384/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3eXGYxJT.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3eXGYxJT.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3eXGYxJT.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-432579384/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3eXGYxJT.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3eXGYxJT.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3eXGYxJT.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-432579384.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-432579384.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :--------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | 3eXGYxJT  | BNF-432579384         | Sonate n° 32 [i.e. 159] / gigueDomenico Scarlatti... | [external URL](HKyA3Qzz) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                | permalink                                                       | provenance                                        |
+    | :-------: | :-------------------: | :--------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------: |
+    | 3eXGYxJT  | BNF-432579384         | Sonate n° 32 [i.e. 159] / gigueDomenico Scarlatti... | [external URL](https://catalogue.bnf.fr/ark:/12148/cb432579384) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -79,10 +83,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/3eXGYxJT.html" height="800" width="1200" title="3eXGYxJT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3eXGYxJT" height="800" width="1200" title="3eXGYxJT"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/3eXGYxJT.html" height="800" width="1200" title="3eXGYxJT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/3eXGYxJT" height="800" width="1200" title="3eXGYxJT"></iframe>

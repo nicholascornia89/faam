@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FicTBGBH
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                    | aliases          | Wikidata QID                                               |
-    | :-------: | :------------: | :------------------------------------------------------------: | :--------------: | :--------------------------------------------------------: |
-    | FicTBGBH  | music director | director of music, for an orchestra, film, radio station, etc. | musical director | [music director](http://wwww.wikidata.org/entity/Q1198887) |
+    | FAAM UUID | label          | description                                                    | aliases          | Wikidata QID                                          |
+    | :-------: | :------------: | :------------------------------------------------------------: | :--------------: | :---------------------------------------------------: |
+    | FicTBGBH  | music director | director of music, for an orchestra, film, radio station, etc. | musical director | [music director](http://wikidata.org/entity/Q1198887) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FicTBGBH.html" height="800" width="1200" title="FicTBGBH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FicTBGBH" height="800" width="1200" title="FicTBGBH"></iframe>
 
 ## Cross-references
 
@@ -61,7 +65,7 @@ tags: occupation
 
 -	__[Antonio Vivaldi](./GSqAPxLN.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vivaldi.jpg){align=left width="150" height="150"} 
 
 	Italian composer and violinist (1678-1741)
 

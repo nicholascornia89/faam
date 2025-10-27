@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MBofjcoj
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MBofjcoj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MBofjcoj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MBofjcoj.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MBofjcoj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MBofjcoj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MBofjcoj.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/NicolaSala.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases | description                                           | Wikidata QID                                           |
-    | :-------: | :---------: | :-----: | :---------------------------------------------------: | :----------------------------------------------------: |
-    | MBofjcoj  | Nicola Sala |         | Italian opera composer and music theorist (1713-1801) | [Nicola Sala](http://wwww.wikidata.org/entity/Q708209) |
+    | FAAM UUID | label       | aliases | description                                           | Wikidata QID                                      |
+    | :-------: | :---------: | :-----: | :---------------------------------------------------: | :-----------------------------------------------: |
+    | MBofjcoj  | Nicola Sala |         | Italian opera composer and music theorist (1713-1801) | [Nicola Sala](http://wikidata.org/entity/Q708209) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/MBofjcoj.html" height="800" width="1200" title="MBofjcoj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MBofjcoj" height="800" width="1200" title="MBofjcoj"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,25 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Gaspare Spontini](./nX6FcnrF.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Aubry-Lecomte_-_Spontini_(cropped).jpg){align=left width="150" height="150"} 
+
+	Italian composer and conductor
+
+-	__[Nicolas Isouard](./5agBK3vj.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nicolas_Isouard_par_Ducarme.jpg){align=left width="150" height="150"} 
+
+	Maltese composer (1773–1818)
+
+-	__[Pietro Ray](./XDUjMRo5.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer and music teacher
+
+</div>

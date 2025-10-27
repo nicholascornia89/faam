@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hGBUn64f
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hGBUn64f.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hGBUn64f.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hGBUn64f.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hGBUn64f.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hGBUn64f.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hGBUn64f.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/William_Chaumet.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description     | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-------------: | :-------------: | :----------------------------------------------------------: |
-    | hGBUn64f  | William Chaumet | William Chaumet | French composer | [William Chaumet](http://wwww.wikidata.org/entity/Q38228156) |
+    | FAAM UUID | label           | aliases         | description     | Wikidata QID                                            |
+    | :-------: | :-------------: | :-------------: | :-------------: | :-----------------------------------------------------: |
+    | hGBUn64f  | William Chaumet | William Chaumet | French composer | [William Chaumet](http://wikidata.org/entity/Q38228156) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/hGBUn64f.html" height="800" width="1200" title="hGBUn64f"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hGBUn64f" height="800" width="1200" title="hGBUn64f"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: agent
 
 -	__[La Petite maison](./GB9QCLn3.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p23.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p23.gif){align=left width="150" height="150"} 
 
 	
 

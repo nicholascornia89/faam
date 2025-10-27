@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cNik4RLk
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/cNik4RLk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/cNik4RLk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/cNik4RLk.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/cNik4RLk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/cNik4RLk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/cNik4RLk.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases | description                  | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :-----: | :--------------------------: | :-----------------------------------------------------------------: |
-    | cNik4RLk  | Giovanni Battista Borghi |         | Italian composer (1738-1796) | [Giovanni Battista Borghi](http://wwww.wikidata.org/entity/Q664913) |
+    | FAAM UUID | label                    | aliases | description                  | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :-----: | :--------------------------: | :------------------------------------------------------------: |
+    | cNik4RLk  | Giovanni Battista Borghi |         | Italian composer (1738-1796) | [Giovanni Battista Borghi](http://wikidata.org/entity/Q664913) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/cNik4RLk.html" height="800" width="1200" title="cNik4RLk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cNik4RLk" height="800" width="1200" title="cNik4RLk"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Francesco Basili](./eCb8HyWC.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FrancescoBasily.jpg){align=left width="150" height="150"} 
+
+	Italian composer and conductor
+
+</div>

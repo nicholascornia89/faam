@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZqNc4R6J
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ZqNc4R6J.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ZqNc4R6J.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ZqNc4R6J.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ZqNc4R6J.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ZqNc4R6J.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ZqNc4R6J.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Walford_Davies_001.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases              | description                  | Wikidata QID                                               |
-    | :-------: | :------------: | :------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | ZqNc4R6J  | Walford Davies | Henry Walford Davies | British composer (1869–1941) | [Walford Davies](http://wwww.wikidata.org/entity/Q3131948) |
+    | FAAM UUID | label          | aliases              | description                  | Wikidata QID                                          |
+    | :-------: | :------------: | :------------------: | :--------------------------: | :---------------------------------------------------: |
+    | ZqNc4R6J  | Walford Davies | Henry Walford Davies | British composer (1869–1941) | [Walford Davies](http://wikidata.org/entity/Q3131948) |
 
 <br><br><br>
 
@@ -57,21 +61,21 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./gMya8N6J.md)
+	- [Fitzwilliam College](./gMya8N6J.md)
 
 	- [Royal College of Music](./L5BeZMkD.md)
 
-	- [](./RUL9uZV5.md)
+	- [St George's School, Windsor Castle](./RUL9uZV5.md)
 
 ??? quote "employer" 
 
-	- [](./idDHKrCv.md)
+	- [Aberystwyth University](./idDHKrCv.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ZqNc4R6J.html" height="800" width="1200" title="ZqNc4R6J"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZqNc4R6J" height="800" width="1200" title="ZqNc4R6J"></iframe>
 
 ## Identifiers
 
@@ -88,3 +92,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Leopold Stokowski](./Dwap6GR3.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Stokowski_LOC_26447u.jpg){align=left width="150" height="150"} 
+
+	British-born American conductor (1882–1977)
+
+</div>

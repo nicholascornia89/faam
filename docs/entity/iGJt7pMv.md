@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iGJt7pMv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description             | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :---------------------: | :-----: | :-----------------------------------------------: |
-    | iGJt7pMv  | Senlis | commune in Oise, France |         | [Senlis](http://wwww.wikidata.org/entity/Q126668) |
+    | FAAM UUID | label  | description             | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :---------------------: | :-----: | :------------------------------------------: |
+    | iGJt7pMv  | Senlis | commune in Oise, France |         | [Senlis](http://wikidata.org/entity/Q126668) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/iGJt7pMv.html" height="800" width="1200" title="iGJt7pMv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iGJt7pMv" height="800" width="1200" title="iGJt7pMv"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Nicolas Goupillet](./78NbgeDt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

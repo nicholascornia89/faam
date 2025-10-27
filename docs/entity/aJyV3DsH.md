@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aJyV3DsH
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/aJyV3DsH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/aJyV3DsH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/aJyV3DsH.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/aJyV3DsH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/aJyV3DsH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/aJyV3DsH.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                        | Wikidata QID                                              |
-    | :-------: | :----------: | :----------: | :--------------------------------: | :-------------------------------------------------------: |
-    | aJyV3DsH  | Pierre Leduc | Pierre Leduc | French music publisher (1755-1826) | [Pierre Leduc](http://wwww.wikidata.org/entity/Q20656120) |
+    | FAAM UUID | label        | aliases      | description                        | Wikidata QID                                         |
+    | :-------: | :----------: | :----------: | :--------------------------------: | :--------------------------------------------------: |
+    | aJyV3DsH  | Pierre Leduc | Pierre Leduc | French music publisher (1755-1826) | [Pierre Leduc](http://wikidata.org/entity/Q20656120) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/aJyV3DsH.html" height="800" width="1200" title="aJyV3DsH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aJyV3DsH" height="800" width="1200" title="aJyV3DsH"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[Six Sonatas : for the Harpsichord or Piano Forte with an Accompanyment for a German Flûte or Violin : Op. II](./nJai3Wij.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GeCMnv78
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description              | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :----------------------: | :-----: | :--------------------------------------------------: |
-    | GeCMnv78  | Ploujean | former commune in France |         | [Ploujean](http://wwww.wikidata.org/entity/Q3392580) |
+    | FAAM UUID | label    | description              | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :----------------------: | :-----: | :---------------------------------------------: |
+    | GeCMnv78  | Ploujean | former commune in France |         | [Ploujean](http://wikidata.org/entity/Q3392580) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/GeCMnv78.html" height="800" width="1200" title="GeCMnv78"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GeCMnv78" height="800" width="1200" title="GeCMnv78"></iframe>
 
 ## Identifiers
 

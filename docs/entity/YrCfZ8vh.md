@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YrCfZ8vh
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                                      | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :------------------------------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | YrCfZ8vh  | writer | person who uses written words to communicate ideas and to produce literary works | author  | [writer](http://wwww.wikidata.org/entity/Q36180) |
+    | FAAM UUID | label  | description                                                                      | aliases | Wikidata QID                                |
+    | :-------: | :----: | :------------------------------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | YrCfZ8vh  | writer | person who uses written words to communicate ideas and to produce literary works | author  | [writer](http://wikidata.org/entity/Q36180) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/YrCfZ8vh.html" height="800" width="1200" title="YrCfZ8vh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YrCfZ8vh" height="800" width="1200" title="YrCfZ8vh"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
@@ -139,7 +143,7 @@ tags: occupation
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
@@ -151,7 +155,7 @@ tags: occupation
 
 -	__[François Bernier](./KKvERxRE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French physician and traveller
 
@@ -217,7 +221,7 @@ tags: occupation
 
 -	__[Giovanni Briccio](./BGgBiHmg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian painter, playwright and musician (1579-1645)
 
@@ -229,7 +233,7 @@ tags: occupation
 
 -	__[Xavier de Courville](./JuC9KczB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French writer and historian (1894-1984)
 
@@ -241,7 +245,7 @@ tags: occupation
 
 -	__[Heinrich Ehrlich](./RatUUATc.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e2/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg){align=left width="150" height="150"} 
 
 	pianist and composer (1822-1899)
 
@@ -253,7 +257,7 @@ tags: occupation
 
 -	__[Michael Vetter](./GU5zzTXD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1943-2013)
 
@@ -271,13 +275,13 @@ tags: occupation
 
 -	__[Giuseppe Verdi](./nhPsm7TZ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/19/Verdi_by_Giovanni_Boldini.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Verdi_by_Giovanni_Boldini.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1813–1901)
 
 -	__[Ludwig van Beethoven](./TZfafBBe.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Beethoven.jpg){align=left width="150" height="150"} 
 
 	German composer (1770–1827)
 
@@ -295,37 +299,37 @@ tags: occupation
 
 -	__[Anton van de Velde](./3VXUQ7ER.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/aa/Anton_van_de_Velde.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_van_de_Velde.jpg){align=left width="150" height="150"} 
 
 	Belgian playwright, writer and theatre director (1895–1983)
 
 -	__[Émile Barateau](./EorjjYHP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	penman, poet, lyricist (1792-1870)
 
 -	__[Édouard Fournier](./W8EkVxFo.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
 
 	French historian, writer, bibliographer and librarian (1819-1880)
 
 -	__[Heinrich Ferdinand Steinmann](./kHoYwJ3n.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German writer (1806-1872)
 
 -	__[Alfons Moortgat](./M6Abn5oQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Pietro Grassi Florio](./HAZe8aaT.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Pietro Grassi Florio; b. before 1740; d. June 20, 1795 in London; Italian
 
@@ -337,19 +341,19 @@ tags: occupation
 
 -	__[Stéphen de La Madelaine](./FKvvzr9a.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French singer and writer
 
 -	__[Otto Vrieslander](./Y38WFUP4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	musicologist
 
 -	__[Eugeen De Ridder](./fczsbKzK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian writer (1893-1962)
 
@@ -361,7 +365,7 @@ tags: occupation
 
 -	__[Gabriele D'Annunzio](./i2w6M7XJ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/25/Gabriele_D%27Annunzio_1922.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gabriele_D%27Annunzio_1922.jpg){align=left width="150" height="150"} 
 
 	
 

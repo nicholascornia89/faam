@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UQwBXvMJ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases                      | description                                    | Wikidata QID                                                    |
-    | :-------: | :------------------: | :--------------------------: | :--------------------------------------------: | :-------------------------------------------------------------: |
-    | UQwBXvMJ  | La fille du régiment | The Daughter of the Regiment | opéra-comique in two acts by Gaetano Donizetti | [La Fille du régiment](http://wwww.wikidata.org/entity/Q729568) |
+    | FAAM UUID | label                | aliases                      | description                                    | Wikidata QID                                               |
+    | :-------: | :------------------: | :--------------------------: | :--------------------------------------------: | :--------------------------------------------------------: |
+    | UQwBXvMJ  | La fille du régiment | The Daughter of the Regiment | opéra-comique in two acts by Gaetano Donizetti | [La Fille du régiment](http://wikidata.org/entity/Q729568) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/UQwBXvMJ.html" height="800" width="1200" title="UQwBXvMJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UQwBXvMJ" height="800" width="1200" title="UQwBXvMJ"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gyZdimpE
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20140284b/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/gyZdimpE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/gyZdimpE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/gyZdimpE.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20140284b/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/gyZdimpE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/gyZdimpE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/gyZdimpE.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20140284b.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20140284b.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                     | permalink                | provenance                         |
-    | :-------: | :-------------------: | :---------------------------------------: | :----------------------: | :--------------------------------: |
-    | gyZdimpE  | ORP-20140284b         | Kantate Nr. 60. O Ewigkeit, du Donnerwort | [external URL](mhohuJYG) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                     | permalink                                                      | provenance                         |
+    | :-------: | :-------------------: | :---------------------------------------: | :------------------------------------------------------------: | :--------------------------------: |
+    | gyZdimpE  | ORP-20140284b         | Kantate Nr. 60. O Ewigkeit, du Donnerwort | [external URL](https://www.cageweb.be/catalog/orp01:000004922) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ## Statements
 
@@ -100,10 +104,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/gyZdimpE.html" height="800" width="1200" title="gyZdimpE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gyZdimpE" height="800" width="1200" title="gyZdimpE"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/gyZdimpE.html" height="800" width="1200" title="gyZdimpE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/gyZdimpE" height="800" width="1200" title="gyZdimpE"></iframe>

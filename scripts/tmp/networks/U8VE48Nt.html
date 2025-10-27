@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "U8VE48Nt", "label": "6th arrondissement of Paris", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./U8VE48Nt.md\u0027\u003e6th arrondissement of Paris\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the 20 administrative districts of Paris, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BJqUa5Kf.md\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "asaGcMEt", "label": "Lyc\u00e9e Saint-Louis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./asaGcMEt.md\u0027\u003eLyc\u00e9e Saint-Louis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epost-secondary school in Paris\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aGzkcUgh", "label": "Coll\u00e8ge Stanislas de Paris", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aGzkcUgh.md\u0027\u003eColl\u00e8ge Stanislas de Paris\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprivate Catholic school in Paris\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fMq3pPFf", "label": "Lyc\u00e9e Montaigne", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fMq3pPFf.md\u0027\u003eLyc\u00e9e Montaigne\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esecondary school in Paris, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "66Xpb5tT", "label": "Church of Saint-Sulpice", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./66Xpb5tT.md\u0027\u003eChurch of Saint-Sulpice\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebuilding in Paris, France (1646-)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WUZ8VDyK", "label": "Andr\u00e9 Gedalge", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WUZ8VDyK.md\u0027\u003eAndr\u00e9 Gedalge\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1856-1926)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Andr\u00e9_Gedalge.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "U8VE48Nt", "to": "BJqUa5Kf", "width": 10}, {"from": "U8VE48Nt", "to": "asaGcMEt", "width": 10}, {"from": "U8VE48Nt", "to": "aGzkcUgh", "width": 10}, {"from": "U8VE48Nt", "to": "fMq3pPFf", "width": 10}, {"from": "U8VE48Nt", "to": "66Xpb5tT", "width": 10}, {"from": "U8VE48Nt", "to": "WUZ8VDyK", "width": 10}, {"from": "aGzkcUgh", "to": "BJqUa5Kf", "width": 10}, {"from": "66Xpb5tT", "to": "BJqUa5Kf", "width": 10}, {"from": "asaGcMEt", "to": "BJqUa5Kf", "width": 10}, {"from": "fMq3pPFf", "to": "BJqUa5Kf", "width": 1}, {"from": "BJqUa5Kf", "to": "WUZ8VDyK", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "asaGcMEt", "label": "Lyc\u00e9e Saint-Louis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/asaGcMEt\u0027\u003eLyc\u00e9e Saint-Louis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epost-secondary school in Paris\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "U8VE48Nt", "label": "6th arrondissement of Paris", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/U8VE48Nt\u0027\u003e6th arrondissement of Paris\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the 20 administrative districts of Paris, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BJqUa5Kf\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WUZ8VDyK", "label": "Andr\u00e9 Gedalge", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WUZ8VDyK\u0027\u003eAndr\u00e9 Gedalge\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1856-1926)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Andr\u00e9_Gedalge.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aGzkcUgh", "label": "Coll\u00e8ge Stanislas de Paris", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aGzkcUgh\u0027\u003eColl\u00e8ge Stanislas de Paris\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprivate Catholic school in Paris\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fMq3pPFf", "label": "Lyc\u00e9e Montaigne", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fMq3pPFf\u0027\u003eLyc\u00e9e Montaigne\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esecondary school in Paris, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "66Xpb5tT", "label": "Church of Saint-Sulpice", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/66Xpb5tT\u0027\u003eChurch of Saint-Sulpice\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebuilding in Paris, France (1646-)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "asaGcMEt", "to": "U8VE48Nt", "width": 10}, {"from": "asaGcMEt", "to": "BJqUa5Kf", "width": 10}, {"from": "WUZ8VDyK", "to": "BJqUa5Kf", "width": 10}, {"from": "WUZ8VDyK", "to": "U8VE48Nt", "width": 10}, {"from": "U8VE48Nt", "to": "BJqUa5Kf", "width": 10}, {"from": "U8VE48Nt", "to": "aGzkcUgh", "width": 10}, {"from": "U8VE48Nt", "to": "fMq3pPFf", "width": 10}, {"from": "U8VE48Nt", "to": "66Xpb5tT", "width": 10}, {"from": "aGzkcUgh", "to": "BJqUa5Kf", "width": 10}, {"from": "BJqUa5Kf", "to": "fMq3pPFf", "width": 1}, {"from": "BJqUa5Kf", "to": "66Xpb5tT", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9naWwski
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                            | aliases         | Wikidata QID                                       |
-    | :-------: | :-----: | :------------------------------------: | :-------------: | :------------------------------------------------: |
-    | 9naWwski  | Chelsea | area of London and former civil parish | Chelsea, London | [Chelsea](http://wwww.wikidata.org/entity/Q743535) |
+    | FAAM UUID | label   | description                            | aliases         | Wikidata QID                                  |
+    | :-------: | :-----: | :------------------------------------: | :-------------: | :-------------------------------------------: |
+    | 9naWwski  | Chelsea | area of London and former civil parish | Chelsea, London | [Chelsea](http://wikidata.org/entity/Q743535) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9naWwski.html" height="800" width="1200" title="9naWwski"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9naWwski" height="800" width="1200" title="9naWwski"></iframe>
 
 ## Identifiers
 

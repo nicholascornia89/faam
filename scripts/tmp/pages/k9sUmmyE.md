@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: k9sUmmyE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/k9sUmmyE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/k9sUmmyE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/k9sUmmyE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/k9sUmmyE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/k9sUmmyE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/k9sUmmyE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/V_J_Tomášek,_by_Antonín_Machek.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                 | description                       | Wikidata QID                                              |
-    | :-------: | :------------: | :---------------------: | :-------------------------------: | :-------------------------------------------------------: |
-    | k9sUmmyE  | Václav Tomášek | Wenzel Johann Tumaschek | Czech music educator and composer | [Václav Tomášek](http://wwww.wikidata.org/entity/Q918645) |
+    | FAAM UUID | label          | aliases                 | description                       | Wikidata QID                                         |
+    | :-------: | :------------: | :---------------------: | :-------------------------------: | :--------------------------------------------------: |
+    | k9sUmmyE  | Václav Tomášek | Wenzel Johann Tumaschek | Czech music educator and composer | [Václav Tomášek](http://wikidata.org/entity/Q918645) |
 
 <br><br><br>
 
@@ -49,11 +53,11 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./CLPvKLfc.md)
+	- [opinion journalist](./CLPvKLfc.md)
 
 ??? quote "educated at" 
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/k9sUmmyE.html" height="800" width="1200" title="k9sUmmyE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/k9sUmmyE" height="800" width="1200" title="k9sUmmyE"></iframe>
 
 ## Identifiers
 
@@ -86,3 +90,25 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Julius Schulhoff](./JVRdqvpd.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Julius_Schulhoff.jpg){align=left width="150" height="150"} 
+
+	Austrian pianist and composer (1825-1898)
+
+-	__[Wilhelm Würfel](./JHkVzjNY.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Czech conductor, music educator, composer and pianist (1790–1832)
+
+-	__[Jan Václav Voříšek](./jxaMCSNZ.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hugo_Worzischek_by_Engelmann.jpg){align=left width="150" height="150"} 
+
+	Czech music educator, composer, pianist and organist (1791–1825)
+
+</div>

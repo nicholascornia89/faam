@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: icedGMzA
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-22563/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/icedGMzA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/icedGMzA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/icedGMzA.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-22563/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/icedGMzA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/icedGMzA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/icedGMzA.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-22563.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22563.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                  | permalink                | provenance                            |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | icedGMzA  | SML-22563             | Early Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito. | [external URL](JwqBvu9Z) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                  | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | icedGMzA  | SML-22563             | Early Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910338463405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -131,10 +135,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/icedGMzA.html" height="800" width="1200" title="icedGMzA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/icedGMzA" height="800" width="1200" title="icedGMzA"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/icedGMzA.html" height="800" width="1200" title="icedGMzA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/icedGMzA" height="800" width="1200" title="icedGMzA"></iframe>

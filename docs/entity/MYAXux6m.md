@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MYAXux6m
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description         | aliases   | Wikidata QID                                            |
-    | :-------: | :-------: | :-----------------: | :-------: | :-----------------------------------------------------: |
-    | MYAXux6m  | buff stop | stop on harpsichord | buff stop | [buff stop](http://wwww.wikidata.org/entity/Q123059541) |
+    | FAAM UUID | label     | description         | aliases   | Wikidata QID                                       |
+    | :-------: | :-------: | :-----------------: | :-------: | :------------------------------------------------: |
+    | MYAXux6m  | buff stop | stop on harpsichord | buff stop | [buff stop](http://wikidata.org/entity/Q123059541) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/MYAXux6m.html" height="800" width="1200" title="MYAXux6m"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MYAXux6m" height="800" width="1200" title="MYAXux6m"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: annotation_type
 
 -	__[Galuppi-Tempo di Minuetto | N.o 26 (N.o19 del ms Catalogo)](./M7uHYazb.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA100.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA100.gif){align=left width="150" height="150"} 
 
 	
 

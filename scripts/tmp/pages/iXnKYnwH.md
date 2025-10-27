@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iXnKYnwH
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000743948/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/iXnKYnwH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/iXnKYnwH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/iXnKYnwH.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000743948/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/iXnKYnwH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/iXnKYnwH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/iXnKYnwH.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000743948.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000743948.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | iXnKYnwH  | KCG-000743948         | Oedipe a Colone : Opéra en trois Actes | [external URL](DT4vQExr) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | iXnKYnwH  | KCG-000743948         | Oedipe a Colone : Opéra en trois Actes | [external URL](https://catalogus.hogent.be/catalog/hog01:000743948) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -80,10 +84,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/iXnKYnwH.html" height="800" width="1200" title="iXnKYnwH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iXnKYnwH" height="800" width="1200" title="iXnKYnwH"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/iXnKYnwH.html" height="800" width="1200" title="iXnKYnwH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/iXnKYnwH" height="800" width="1200" title="iXnKYnwH"></iframe>

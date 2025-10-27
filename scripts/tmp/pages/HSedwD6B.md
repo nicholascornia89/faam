@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HSedwD6B
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | HSedwD6B  | Keyboard Sonata in G minor, K.315 | Keyboard Sonata in G minor, L.235 | sonata by Domenico Scarlatti | [Sonata K. 315](http://wwww.wikidata.org/entity/Q67199970) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | HSedwD6B  | Keyboard Sonata in G minor, K.315 | Keyboard Sonata in G minor, L.235 | sonata by Domenico Scarlatti | [Sonata K. 315](http://wikidata.org/entity/Q67199970) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/HSedwD6B.html" height="800" width="1200" title="HSedwD6B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HSedwD6B" height="800" width="1200" title="HSedwD6B"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

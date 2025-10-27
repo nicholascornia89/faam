@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Lifw9vuE
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                                  | aliases            | Wikidata QID                                                 |
-    | :-------: | :-------------: | :----------------------------------------------------------: | :----------------: | :----------------------------------------------------------: |
-    | Lifw9vuE  | posthumous work | creative work first published after the death of its creator | posthumous release | [posthumous work](http://wwww.wikidata.org/entity/Q17518461) |
+    | FAAM UUID | label           | description                                                  | aliases            | Wikidata QID                                            |
+    | :-------: | :-------------: | :----------------------------------------------------------: | :----------------: | :-----------------------------------------------------: |
+    | Lifw9vuE  | posthumous work | creative work first published after the death of its creator | posthumous release | [posthumous work](http://wikidata.org/entity/Q17518461) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Lifw9vuE.html" height="800" width="1200" title="Lifw9vuE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Lifw9vuE" height="800" width="1200" title="Lifw9vuE"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Dernier Concerto : pour Piano, avec Accompagnement d'Orchestre : N° 1. des Oeuvres Posthumes](./mUwfzkxw.md)__
 
-	![Image](../assets/images/thumbs/KCG-000350255.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350255.gif){align=left width="150" height="150"} 
 
 	
 

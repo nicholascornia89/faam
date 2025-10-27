@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BuMSmVX8
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BuMSmVX8.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BuMSmVX8.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BuMSmVX8.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BuMSmVX8.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BuMSmVX8.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BuMSmVX8.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/LRDugazon.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases | description                        | Wikidata QID                                                       |
-    | :-------: | :---------------------: | :-----: | :--------------------------------: | :----------------------------------------------------------------: |
-    | BuMSmVX8  | Louise-Rosalie Lefebvre |         | French actress, dancer, and singer | [Louise-Rosalie Lefebvre](http://wwww.wikidata.org/entity/Q453934) |
+    | FAAM UUID | label                   | aliases | description                        | Wikidata QID                                                  |
+    | :-------: | :---------------------: | :-----: | :--------------------------------: | :-----------------------------------------------------------: |
+    | BuMSmVX8  | Louise-Rosalie Lefebvre |         | French actress, dancer, and singer | [Louise-Rosalie Lefebvre](http://wikidata.org/entity/Q453934) |
 
 <br><br><br>
 
@@ -47,19 +51,19 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./F6jyWvcL.md)
+	- [actor](./F6jyWvcL.md)
 
 	- [opera singer](./9giCtFiy.md)
 
-	- [](./TD8KzuyD.md)
+	- [dancer](./TD8KzuyD.md)
 
-	- [](./E57MkHSb.md)
+	- [stage actor](./E57MkHSb.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BuMSmVX8.html" height="800" width="1200" title="BuMSmVX8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BuMSmVX8" height="800" width="1200" title="BuMSmVX8"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Jean-Blaise Martin](./8vWb9eDu.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Blaise-Martin.jpg){align=left width="150" height="150"} 
+
+	French opera singer
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ao8KGviV
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                              | aliases      | Wikidata QID                                                |
-    | :-------: | :-------------: | :------------------------------------------------------: | :----------: | :---------------------------------------------------------: |
-    | Ao8KGviV  | music of Venice | the city's role in the development of the music of Italy | Venice music | [music of Venice](http://wwww.wikidata.org/entity/Q1955035) |
+    | FAAM UUID | label           | description                                              | aliases      | Wikidata QID                                           |
+    | :-------: | :-------------: | :------------------------------------------------------: | :----------: | :----------------------------------------------------: |
+    | Ao8KGviV  | music of Venice | the city's role in the development of the music of Italy | Venice music | [music of Venice](http://wikidata.org/entity/Q1955035) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Ao8KGviV.html" height="800" width="1200" title="Ao8KGviV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ao8KGviV" height="800" width="1200" title="Ao8KGviV"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Récréations musicales : collection d'airs variés et fantaisies pour la flûte sur des thêmes choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs célèbres](./ffw6asHK.md)__
 
-	![Image](../assets/images/thumbs/KCG-000370144.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000370144.gif){align=left width="150" height="150"} 
 
 	
 
@@ -49,7 +53,7 @@ tags: keyword
 
 -	__[Gaetano Donizetti](./Zh2b6vBQ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fotoreproductie_van_Gaetano_Donizetti.png){align=left width="150" height="150"} 
 
 	Italian opera composer (1797–1848)
 

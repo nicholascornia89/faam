@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QgFAuPKp
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                | aliases   | Wikidata QID                                             |
-    | :-------: | :--------: | :--------------------------------------------------------: | :-------: | :------------------------------------------------------: |
-    | QgFAuPKp  | impression | mark made by an object pressed on the surface of something | indention | [impression](http://wwww.wikidata.org/entity/Q115640974) |
+    | FAAM UUID | label      | description                                                | aliases   | Wikidata QID                                        |
+    | :-------: | :--------: | :--------------------------------------------------------: | :-------: | :-------------------------------------------------: |
+    | QgFAuPKp  | impression | mark made by an object pressed on the surface of something | indention | [impression](http://wikidata.org/entity/Q115640974) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/QgFAuPKp.html" height="800" width="1200" title="QgFAuPKp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QgFAuPKp" height="800" width="1200" title="QgFAuPKp"></iframe>
 
 ## Cross-references
 

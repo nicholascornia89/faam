@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eBGrzZAP
 
 tags: role
@@ -19,9 +23,9 @@ tags: role
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                          | aliases          | Wikidata QID                                           |
-    | :-------: | :--------: | :----------------------------------------------------------------------------------: | :--------------: | :----------------------------------------------------: |
-    | eBGrzZAP  | librettist | author of the libretto (words) of an opera or a similar extended musical composition | opera librettist | [librettist](http://wwww.wikidata.org/entity/Q8178443) |
+    | FAAM UUID | label      | description                                                                          | aliases          | Wikidata QID                                      |
+    | :-------: | :--------: | :----------------------------------------------------------------------------------: | :--------------: | :-----------------------------------------------: |
+    | eBGrzZAP  | librettist | author of the libretto (words) of an opera or a similar extended musical composition | opera librettist | [librettist](http://wikidata.org/entity/Q8178443) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: role
 
 ---
 
-<iframe src="../network/eBGrzZAP.html" height="800" width="1200" title="eBGrzZAP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eBGrzZAP" height="800" width="1200" title="eBGrzZAP"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: role
 
 -	__[Edouard Bélanger](./KkjWWRKk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French librettist (1804-1878)
 
@@ -99,7 +103,7 @@ tags: role
 
 -	__[Henry de Puymaly](./8ziidhix.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French poet
 
@@ -111,7 +115,7 @@ tags: role
 
 -	__[Victor Guillaume Antoine Hanssens](./kZ9cSBEr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian poet and translator
 
@@ -129,37 +133,37 @@ tags: role
 
 -	__[Frans Gittens](./jcu4u5sd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian writer (1842-1911)
 
 -	__[Anton van de Velde](./3VXUQ7ER.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/aa/Anton_van_de_Velde.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_van_de_Velde.jpg){align=left width="150" height="150"} 
 
 	Belgian playwright, writer and theatre director (1895–1983)
 
 -	__[Émile Barateau](./EorjjYHP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	penman, poet, lyricist (1792-1870)
 
 -	__[Raymond Herreman](./DYkLZpTt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian poet and journalist (1896–1971)
 
 -	__[Édouard Fournier](./W8EkVxFo.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
 
 	French historian, writer, bibliographer and librarian (1819-1880)
 
 -	__[Eugeen De Ridder](./fczsbKzK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian writer (1893-1962)
 
@@ -171,13 +175,13 @@ tags: role
 
 -	__[Adolphe Larmande](./7xorXhE5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Gabriele D'Annunzio](./i2w6M7XJ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/25/Gabriele_D%27Annunzio_1922.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gabriele_D%27Annunzio_1922.jpg){align=left width="150" height="150"} 
 
 	
 

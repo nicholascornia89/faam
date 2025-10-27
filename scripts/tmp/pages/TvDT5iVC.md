@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TvDT5iVC
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/TvDT5iVC.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/TvDT5iVC.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/TvDT5iVC.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/TvDT5iVC.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/TvDT5iVC.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/TvDT5iVC.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Jaques_Dalcroze.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases               | description                                             | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :-------------------: | :-----------------------------------------------------: | :--------------------------------------------------------------: |
-    | TvDT5iVC  | Émile Jaques-Dalcroze | Emile Jaques-Dalcroze | Swiss composer, musician and music educator (1865-1950) | [Émile Jaques-Dalcroze](http://wwww.wikidata.org/entity/Q286062) |
+    | FAAM UUID | label                 | aliases               | description                                             | Wikidata QID                                                |
+    | :-------: | :-------------------: | :-------------------: | :-----------------------------------------------------: | :---------------------------------------------------------: |
+    | TvDT5iVC  | Émile Jaques-Dalcroze | Emile Jaques-Dalcroze | Swiss composer, musician and music educator (1865-1950) | [Émile Jaques-Dalcroze](http://wikidata.org/entity/Q286062) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [music teacher](./L7DPWnnr.md)
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/TvDT5iVC.html" height="800" width="1200" title="TvDT5iVC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TvDT5iVC" height="800" width="1200" title="TvDT5iVC"></iframe>
 
 ## Identifiers
 

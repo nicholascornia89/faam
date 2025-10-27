@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MasDcY5m
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases | description | Wikidata QID                         |
-    | :-------: | :--------------: | :-----: | :---------: | :----------------------------------: |
-    | MasDcY5m  | Potpourri, Op.55 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label            | aliases | description | Wikidata QID                    |
+    | :-------: | :--------------: | :-----: | :---------: | :-----------------------------: |
+    | MasDcY5m  | Potpourri, Op.55 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/MasDcY5m.html" height="800" width="1200" title="MasDcY5m"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MasDcY5m" height="800" width="1200" title="MasDcY5m"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Potpourri : pour la Flûte avec Accompagt de Piano sur des motifs de l'opéra I Montecchi ed I capuletti de Bellini : Op: 55.](./PAzvCf6p.md)__
 
-	![Image](../assets/images/thumbs/KCG-000337038.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000337038.gif){align=left width="150" height="150"} 
 
 	
 

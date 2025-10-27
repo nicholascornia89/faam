@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: biTvAVr9
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | biTvAVr9  | String Quintet, Op.70 (Krommer, Franz) |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                  | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | biTvAVr9  | String Quintet, Op.70 (Krommer, Franz) |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/biTvAVr9.html" height="800" width="1200" title="biTvAVr9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/biTvAVr9" height="800" width="1200" title="biTvAVr9"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Grand Quintetto : pour Deux Violons, deux Altos et Violoncelle : Oeuvre 70](./WUWzhNxd.md)__
 
-	![Image](../assets/images/thumbs/KCG-000735262.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735262.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bqGtGe4z
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description    | aliases | Wikidata QID                                                 |
-    | :-------: | :---------------: | :------------: | :-----: | :----------------------------------------------------------: |
-    | bqGtGe4z  | Maiolati Spontini | Italian comune |         | [Maiolati Spontini](http://wwww.wikidata.org/entity/Q124139) |
+    | FAAM UUID | label             | description    | aliases | Wikidata QID                                            |
+    | :-------: | :---------------: | :------------: | :-----: | :-----------------------------------------------------: |
+    | bqGtGe4z  | Maiolati Spontini | Italian comune |         | [Maiolati Spontini](http://wikidata.org/entity/Q124139) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bqGtGe4z.html" height="800" width="1200" title="bqGtGe4z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bqGtGe4z" height="800" width="1200" title="bqGtGe4z"></iframe>
 
 ## Identifiers
 

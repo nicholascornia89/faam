@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: heF7MvHs
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                 | aliases            | Wikidata QID                                   |
-    | :-------: | :----: | :-----------------------------------------: | :----------------: | :--------------------------------------------: |
-    | heF7MvHs  | Zwolle | municipality in Overijssel, the Netherlands | Zwolle, Overijssel | [Zwolle](http://wwww.wikidata.org/entity/Q793) |
+    | FAAM UUID | label  | description                                 | aliases            | Wikidata QID                              |
+    | :-------: | :----: | :-----------------------------------------: | :----------------: | :---------------------------------------: |
+    | heF7MvHs  | Zwolle | municipality in Overijssel, the Netherlands | Zwolle, Overijssel | [Zwolle](http://wikidata.org/entity/Q793) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/heF7MvHs.html" height="800" width="1200" title="heF7MvHs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/heF7MvHs" height="800" width="1200" title="heF7MvHs"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Ton Koopman](./Jy8ns9kr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
 
 	Dutch conductor, organist and harpsichordist, born 2 October 1944
 

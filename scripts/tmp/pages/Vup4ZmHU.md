@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vup4ZmHU
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Vup4ZmHU.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Vup4ZmHU.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Vup4ZmHU.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Vup4ZmHU.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Vup4ZmHU.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Vup4ZmHU.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Василий_Сафронов.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases               | description                                                  | Wikidata QID                                              |
-    | :-------: | :------------: | :-------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
-    | Vup4ZmHU  | Vasily Safonov | Vasily Ilyich Safonov | Russian pianist, teacher, conductor and composer (1852-1918) | [Vasily Safonov](http://wwww.wikidata.org/entity/Q947291) |
+    | FAAM UUID | label          | aliases               | description                                                  | Wikidata QID                                         |
+    | :-------: | :------------: | :-------------------: | :----------------------------------------------------------: | :--------------------------------------------------: |
+    | Vup4ZmHU  | Vasily Safonov | Vasily Ilyich Safonov | Russian pianist, teacher, conductor and composer (1852-1918) | [Vasily Safonov](http://wikidata.org/entity/Q947291) |
 
 <br><br><br>
 
@@ -47,11 +51,11 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./AKfEoRof.md)
+	- [classical pianist](./AKfEoRof.md)
 
 	- [conductor](./TDF2knmi.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [pianist](./T6nAVeGM.md)
 
@@ -59,9 +63,9 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./UEvwnbkz.md)
+	- [The First Saint-Petersburg Gymnasium](./UEvwnbkz.md)
 
-	- [](./2hnWXN4U.md)
+	- [Imperial Alexander Lyceum](./2hnWXN4U.md)
 
 	- [Saint Petersburg Conservatory](./VwZmF2Uv.md)
 
@@ -73,7 +77,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Vup4ZmHU.html" height="800" width="1200" title="Vup4ZmHU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vup4ZmHU" height="800" width="1200" title="Vup4ZmHU"></iframe>
 
 ## Identifiers
 
@@ -90,3 +94,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Alexander Scriabin](./2J9rMsu5.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Skrjabin_Alexander.jpg){align=left width="150" height="150"} 
+
+	Russian composer and pianist (1872–1915)
+
+</div>

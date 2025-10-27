@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8fRMPni7
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                           | aliases | Wikidata QID                                                             |
-    | :-------: | :--------------------------: | :-----------------------------------: | :-----: | :----------------------------------------------------------------------: |
-    | 8fRMPni7  | Presbyterian Ladies' College | school for girls in Burwood, Victoria | PLC     | [Presbyterian Ladies' College](http://wwww.wikidata.org/entity/Q7240787) |
+    | FAAM UUID | label                        | description                           | aliases | Wikidata QID                                                        |
+    | :-------: | :--------------------------: | :-----------------------------------: | :-----: | :-----------------------------------------------------------------: |
+    | 8fRMPni7  | Presbyterian Ladies' College | school for girls in Burwood, Victoria | PLC     | [Presbyterian Ladies' College](http://wikidata.org/entity/Q7240787) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./i3TAbiBE.md)
+	[Victoria](./i3TAbiBE.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/8fRMPni7.html" height="800" width="1200" title="8fRMPni7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8fRMPni7" height="800" width="1200" title="8fRMPni7"></iframe>
 
 ## Cross-references
 

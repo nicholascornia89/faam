@@ -25,7 +25,7 @@ from dominate.util import raw
 
 ### Pyvis graph network visualization
 
-def add_node_faam(item,uuid_int,net,graph_attributes_type,nodes_list):
+def add_node_faam(item,uuid_int,net,graph_attributes_type,nodes_list,base_url="https://nicholascornia89.github.io/faam/"):
 	# append new item to node
 	attributes = list(filter(lambda x: x["type"] == item["metadata"]["object_type"][0]["value"],graph_attributes_type))[0]
 	if "thumb" in item["resources"]:
@@ -34,12 +34,13 @@ def add_node_faam(item,uuid_int,net,graph_attributes_type,nodes_list):
 		image = f"""<img src="{item["resources"]["image"][0]["base_url"]}{item["resources"]["image"][0]["value"]}" width="250" height="200">"""
 	else:
 		image = "<p></p>"
+
 	title = (
 				"""
 			<body>
-			<h3> <a href='./"""
-				+ item["id"]
-				+ """.md'>"""
+			<h3> <a href='""" 
+				+ base_url + """entity/""" + item["id"]
+				+ """'>"""
 				+ item["metadata"]["label"][0]["value"]
 				+ """</a></h3>
 			<p>"""
@@ -102,36 +103,46 @@ def generate_network(faam_kb,graph_attributes_type_filename,out_dir):
 	dict2json(net_dict,os.path.join(out_dir,"pyvis_graph","network-"+get_current_date()+".json"))
 	return net
 
-def pyvis_visualization(net,net_filename):
+def pyvis_visualization(net,net_filename,select_menu=False,toggle_physics=False,filter_menu=False):
 	layout = nx.spring_layout(net)
-	visualization=Network(height="1200px", width="1200px", bgcolor="#1C1A19", font_color="#f8f7f4", directed=False,select_menu=False,filter_menu=False,notebook=False)
+	visualization=Network(height="1200px", width="1200px", bgcolor="#1C1A19", font_color="#f8f7f4", directed=False,select_menu=select_menu,filter_menu=filter_menu,notebook=False)
 	visualization.barnes_hut()
 	visualization.from_nx(net)
-	visualization.toggle_physics(False)
-	visualization.show_buttons(filter_=['nodes','physics'])
-	#for i in visualization.nodes:
-			#node_id = i["id"]
-			#if node_id in layout:
-				#i["x"], i["y"] = layout[node_id][0]*1000, layout[node_id][1]*1000
+	visualization.toggle_physics(toggle_physics)
+	#visualization.show_buttons(filter_=['nodes','physics'])
+	#visualization.show_buttons(filter_=['physics'])
 	options = """
-			var options = {
-					"configure": {
-						"enabled": false
+				var options = {
+						"configure": {
+							"enabled": false
+								},
+						"edges": {
+							"color": {
+							"inherit": false
 							},
-					"edges": {
-					"color": {
-					"inherit": true
+						"smooth": false
 						},
-					"smooth": false
-					},
-					"physics": {
-					"barnesHut": {
-					"gravitationalConstant": -120050
-					},
-					"minVelocity": 0.75
-					}
-					}
-				"""
+						"nodes": {
+							"font": {
+								"size": 14,
+								"align": "center",
+								"face": "sans"
+							}
+						},
+						"physics": {
+							"forceAtlas2Based": {
+							"gravitationalConstant": -200000000000000,
+							"springLength": 10,
+							"springConstant": 0.0010,
+							"avoidOverlap": 1.0,
+							"damping":0
+
+								},
+						"maxVelocity": 1,
+						"minVelocity": 0.25
+							}
+						}
+					"""
 	visualization.set_options(options)
 	#visualization.show(net_filename+'.html',notebook=False)
 	#input()
@@ -180,7 +191,65 @@ def generate_faam_graphs(faam_kb,graph_attributes_type_filename,out_dir):
 		print(f"Processed {100*float(processed)/number_of_nodes}%")
 
 
+def generate_music_annotation_ontology(faam_kb,graph_attributes_type_filename,out_dir):
+	# generate integer list for bisect query
+	uuid_list,item_list = generate_uuid_list(faam_kb)
+	nodes_list = []
+	graph_attributes_type = csv2dict(graph_attributes_type_filename)
+	# initialize network
+	net = nx.Graph()
+	# GENERATE NODES only belonging to "annotation_type" object type
+	for item in faam_kb["items"]:
+		if item["metadata"]["object_type"][0]["value"] == "annotation_type":
+			# get integer representation of item id
+			uuid_int = shortuuid.decode(item["id"]).int
+			# query value in uuid_list
+			try:
+				index = bisect_left(nodes_list,uuid_int)
+				if item["id"] == item_list[index]["id"]:
+					# already present
+					pass
+				else:
+					net,nodes_list = add_node_faam(item,uuid_int,net,graph_attributes_type,nodes_list)
+				
+			except IndexError: # item not in list
+				net,nodes_list = add_node_faam(item,uuid_int,net,graph_attributes_type,nodes_list)
 
+	# ADD EDGES
+
+	for item in faam_kb["items"]:
+		if item["metadata"]["object_type"][0]["value"] == "annotation_type":
+			for prop in item["statements"].keys():
+				for statement in item["statements"][prop]:
+					if statement["type"] == "item":
+						# check if statement is already in subgraph
+						accepted_types = ["annotation_type"]
+						statement_item = list(filter(lambda x: x["id"] == statement["value"], faam_kb["items"]))[0]
+						if statement_item["metadata"]["object_type"][0]["value"] in accepted_types:
+							# append node if needed
+							uuid_int = shortuuid.decode(statement_item["id"]).int
+							# query value in uuid_list
+							try:
+								index = bisect_left(nodes_list,uuid_int)
+								if statement_item["id"] == item_list[index]["id"]:
+									# already present
+									pass
+								else:
+									net,nodes_list = add_node_faam(statement_item,uuid_int,net,graph_attributes_type,nodes_list)
+								
+							except IndexError: # item not in list
+								net,nodes_list = add_node_faam(statement_item,uuid_int,net,graph_attributes_type,nodes_list)
+							
+							# append edge
+							net.add_edge(item["id"], statement["value"], weight=10)
+
+
+	# Save Network serialization
+
+	net_dict = nx.node_link_data(net, edges="links")
+	dict2json(net_dict,os.path.join(out_dir,"pyvis_graph","music_annotation_ontology-"+get_current_date()+".json"))
+	print("Generating Music Annotation Ontology...")
+	pyvis_visualization(net,os.path.join(out_dir,"pyvis_graph","music_annotation_ontology_graph"),select_menu=False,toggle_physics=False,filter_menu=False)
 
 ### Image carousel visualization
 
@@ -265,7 +334,13 @@ def generate_image_carousel(faam_kb,github_repo_url,repo_name):
 
 				doc.add(style(raw(""".background-faam {
 										background-color: #1e1d1d;
-							}""")))
+									}
+									.carousel-control-prev-icon{
+										background-color: #017cb1;
+									}
+									.carousel-control-next-icon{
+										background-color: #017cb1;
+									}""")))
 
 				# generate body
 

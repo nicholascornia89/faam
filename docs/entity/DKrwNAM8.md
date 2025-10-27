@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DKrwNAM8
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DKrwNAM8.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DKrwNAM8.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DKrwNAM8.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DKrwNAM8.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DKrwNAM8.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DKrwNAM8.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases               | description     | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :-------------------: | :-------------: | :---------------------------------------------------------------: |
-    | DKrwNAM8  | Jacques-Jules Bouffil | Jacques Jules Bouffil | French musician | [Jacques-Jules Bouffil](http://wwww.wikidata.org/entity/Q6120326) |
+    | FAAM UUID | label                 | aliases               | description     | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :-------------------: | :-------------: | :----------------------------------------------------------: |
+    | DKrwNAM8  | Jacques-Jules Bouffil | Jacques Jules Bouffil | French musician | [Jacques-Jules Bouffil](http://wikidata.org/entity/Q6120326) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DKrwNAM8.html" height="800" width="1200" title="DKrwNAM8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DKrwNAM8" height="800" width="1200" title="DKrwNAM8"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,15 @@ tags: agent
 
 -	__[Trois Trios : Pour Trois Clarinettes : Opéra 8](./3Jefp8WF.md)__
 
-	![Image](../assets/images/thumbs/KCG-000336430.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000336430.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[3 Trios for Clarinets, Op.8](./GcutmK87.md)__
 
 	
 

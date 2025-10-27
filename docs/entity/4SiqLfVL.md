@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4SiqLfVL
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                                             | aliases                           | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :-----------------------------------------------------: | :-------------------------------: | :------------------------------------------------------------------: |
-    | 4SiqLfVL  | New England Conservatory | oldest independent school of music in the United States | New England Conservatory of Music | [New England Conservatory](http://wwww.wikidata.org/entity/Q1347162) |
+    | FAAM UUID | label                    | description                                             | aliases                           | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :-----------------------------------------------------: | :-------------------------------: | :-------------------------------------------------------------: |
+    | 4SiqLfVL  | New England Conservatory | oldest independent school of music in the United States | New England Conservatory of Music | [New England Conservatory](http://wikidata.org/entity/Q1347162) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/4SiqLfVL.html" height="800" width="1200" title="4SiqLfVL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4SiqLfVL" height="800" width="1200" title="4SiqLfVL"></iframe>
 
 ## Cross-references
 

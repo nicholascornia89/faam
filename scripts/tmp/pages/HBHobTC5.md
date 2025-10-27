@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HBHobTC5
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases             | description                | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-----------------: | :------------------------: | :------------------------------------------------------------: |
-    | HBHobTC5  | Lucia di Lammermoor | Lucia di Lammermoor | opera by Gaetano Donizetti | [Lucia di Lammermoor](http://wwww.wikidata.org/entity/Q244209) |
+    | FAAM UUID | label               | aliases             | description                | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-----------------: | :------------------------: | :-------------------------------------------------------: |
+    | HBHobTC5  | Lucia di Lammermoor | Lucia di Lammermoor | opera by Gaetano Donizetti | [Lucia di Lammermoor](http://wikidata.org/entity/Q244209) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./4r2egU9G.md)
+	- [The Bride of Lammermoor](./4r2egU9G.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/HBHobTC5.html" height="800" width="1200" title="HBHobTC5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HBHobTC5" height="800" width="1200" title="HBHobTC5"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: musical_work
 
 -	__[DER JUNGE OPERNFREUND](./YM8k9nyE.md)__
 
-	![Image](../assets/images/thumbs/KCG-000350901.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350901.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WAgLcNUe
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                                                                               | aliases      | Wikidata QID                                             |
-    | :-------: | :-----------: | :-------------------------------------------------------------------------------------------------------: | :----------: | :------------------------------------------------------: |
-    | WAgLcNUe  | mezzo-soprano | type of classical female singing voice whose vocal range lies between the soprano and the contralto voice | mezzosoprano | [mezzo-soprano](http://wwww.wikidata.org/entity/Q186506) |
+    | FAAM UUID | label         | description                                                                                               | aliases      | Wikidata QID                                        |
+    | :-------: | :-----------: | :-------------------------------------------------------------------------------------------------------: | :----------: | :-------------------------------------------------: |
+    | WAgLcNUe  | mezzo-soprano | type of classical female singing voice whose vocal range lies between the soprano and the contralto voice | mezzosoprano | [mezzo-soprano](http://wikidata.org/entity/Q186506) |
 
 <br><br><br>
 
@@ -31,21 +35,21 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./QRJDh2F3.md)
+	- [female voice](./QRJDh2F3.md)
 
 	- [voice](./NFAxdnVA.md)
 
-	- [](./Cv5BUeW7.md)
+	- [medium voice](./Cv5BUeW7.md)
 
 !!! quote "instance of" 
 
-	- [](./g3FMFoiZ.md)
+	- [voice type](./g3FMFoiZ.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/WAgLcNUe.html" height="800" width="1200" title="WAgLcNUe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WAgLcNUe" height="800" width="1200" title="WAgLcNUe"></iframe>
 
 ## Cross-references
 
@@ -55,19 +59,19 @@ tags: musical_instrument
 
 -	__[Hymne au roi (des belges) : air de concert : tenor ou mez. sop.](./C7d2FYyC.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902584041.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902584041.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concert aria : kerstnacht = Air de concert : nuit de Noël](./kiBUJvwd.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518999.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518999.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ivanhoe: N.7 Romance de Rebecca: Pour Mezzo Soprano: (Longtempts brisé)](./XG63Jdar.md)__
 
-	![Image](../assets/images/thumbs/KCG-000322330.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000322330.gif){align=left width="150" height="150"} 
 
 	
 
@@ -77,7 +81,7 @@ tags: musical_instrument
 
 -	__[Francine Lepage](./hBcFSi6N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian mezzo soprano
 

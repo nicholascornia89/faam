@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aJiYRqN2
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                  | aliases | Wikidata QID                                                 |
-    | :-------: | :---------------: | :------------------------------------------: | :-----: | :----------------------------------------------------------: |
-    | aJiYRqN2  | École des chartes | grande école in Paris specialised in history | ÉnC     | [École des chartes](http://wwww.wikidata.org/entity/Q273570) |
+    | FAAM UUID | label             | description                                  | aliases | Wikidata QID                                            |
+    | :-------: | :---------------: | :------------------------------------------: | :-----: | :-----------------------------------------------------: |
+    | aJiYRqN2  | École des chartes | grande école in Paris specialised in history | ÉnC     | [École des chartes](http://wikidata.org/entity/Q273570) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/aJiYRqN2.html" height="800" width="1200" title="aJiYRqN2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aJiYRqN2" height="800" width="1200" title="aJiYRqN2"></iframe>
 
 ## Cross-references
 
@@ -47,7 +51,7 @@ tags: music_organization
 
 -	__[Émile Travers](./D6WGKygv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French historian
 

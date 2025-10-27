@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: j7QvGcV9
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases               | description | Wikidata QID                                                        |
-    | :-------: | :-------------------: | :-------------------: | :---------: | :-----------------------------------------------------------------: |
-    | j7QvGcV9  | Le Capitaine Fracasse | Le Capitaine Fracasse | comic opera | [Le Capitaine Fracasse](http://wwww.wikidata.org/entity/Q110892182) |
+    | FAAM UUID | label                 | aliases               | description | Wikidata QID                                                   |
+    | :-------: | :-------------------: | :-------------------: | :---------: | :------------------------------------------------------------: |
+    | j7QvGcV9  | Le Capitaine Fracasse | Le Capitaine Fracasse | comic opera | [Le Capitaine Fracasse](http://wikidata.org/entity/Q110892182) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/j7QvGcV9.html" height="800" width="1200" title="j7QvGcV9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/j7QvGcV9" height="800" width="1200" title="j7QvGcV9"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Prélude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Flûte, Hautbois, Clarinette, Cor et Basson](./2BArFkGf.md)__
 
-	![Image](../assets/images/thumbs/KCG-000735722.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735722.gif){align=left width="150" height="150"} 
 
 	
 

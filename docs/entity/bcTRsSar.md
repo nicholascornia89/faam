@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bcTRsSar
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                              | aliases | Wikidata QID                                        |
-    | :-------: | :--------: | :--------------------------------------: | :-----: | :-------------------------------------------------: |
-    | bcTRsSar  | Heidelberg | large city in Baden-Württemberg, Germany |         | [Heidelberg](http://wwww.wikidata.org/entity/Q2966) |
+    | FAAM UUID | label      | description                              | aliases | Wikidata QID                                   |
+    | :-------: | :--------: | :--------------------------------------: | :-----: | :--------------------------------------------: |
+    | bcTRsSar  | Heidelberg | large city in Baden-Württemberg, Germany |         | [Heidelberg](http://wikidata.org/entity/Q2966) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bcTRsSar.html" height="800" width="1200" title="bcTRsSar"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bcTRsSar" height="800" width="1200" title="bcTRsSar"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Franz Tausch](./kypLEwJs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	clarinetist and composer (1762-1817)
 
 -	__[Wolfgang Fortner](./3vF4a5M7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and conductor (1907–1987)
 

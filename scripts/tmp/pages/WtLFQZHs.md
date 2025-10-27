@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WtLFQZHs
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                   | description  | aliases                                               | Wikidata QID                                                                                       |
-    | :-------: | :-----------------------------------------------------: | :----------: | :---------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-    | WtLFQZHs  | State University of Music and Performing Arts Stuttgart | music school | Hochschule für Musik und Darstellende Kunst Stuttgart | [State University of Music and Performing Arts Stuttgart](http://wwww.wikidata.org/entity/Q568692) |
+    | FAAM UUID | label                                                   | description  | aliases                                               | Wikidata QID                                                                                  |
+    | :-------: | :-----------------------------------------------------: | :----------: | :---------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
+    | WtLFQZHs  | State University of Music and Performing Arts Stuttgart | music school | Hochschule für Musik und Darstellende Kunst Stuttgart | [State University of Music and Performing Arts Stuttgart](http://wikidata.org/entity/Q568692) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./VnsRap2q.md)
+	[Stuttgart](./VnsRap2q.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/WtLFQZHs.html" height="800" width="1200" title="WtLFQZHs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WtLFQZHs" height="800" width="1200" title="WtLFQZHs"></iframe>
 
 ## Cross-references
 

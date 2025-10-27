@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Fy72RCta
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------------------: | :-----: | :---------: | :----------------------------------: |
-    | Fy72RCta  | Air Varié pour la flûte, Op. 8 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                          | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------------------: | :-----: | :---------: | :-----------------------------: |
+    | Fy72RCta  | Air Varié pour la flûte, Op. 8 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Fy72RCta.html" height="800" width="1200" title="Fy72RCta"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Fy72RCta" height="800" width="1200" title="Fy72RCta"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:](./JHJZeU8t.md)__
 
-	![Image](../assets/images/thumbs/KCG-000344649.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000344649.gif){align=left width="150" height="150"} 
 
 	
 

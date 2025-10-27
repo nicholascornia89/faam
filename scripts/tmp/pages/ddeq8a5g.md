@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ddeq8a5g
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                    | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :----------------------------: | :-----: | :----------------------------------------------: |
-    | ddeq8a5g  | Tielt | city in West Flanders, Belgium |         | [Tielt](http://wwww.wikidata.org/entity/Q651811) |
+    | FAAM UUID | label | description                    | aliases | Wikidata QID                                |
+    | :-------: | :---: | :----------------------------: | :-----: | :-----------------------------------------: |
+    | ddeq8a5g  | Tielt | city in West Flanders, Belgium |         | [Tielt](http://wikidata.org/entity/Q651811) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ddeq8a5g.html" height="800" width="1200" title="ddeq8a5g"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ddeq8a5g" height="800" width="1200" title="ddeq8a5g"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Pierre Joseph D'Hollander](./3HuQsR4z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	priest, theologian, professor and honorary canon (1804 - 1866)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bsgJz3jr
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bsgJz3jr.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bsgJz3jr.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bsgJz3jr.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bsgJz3jr.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bsgJz3jr.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bsgJz3jr.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                        | description                              | Wikidata QID                                                 |
-    | :-------: | :---------------: | :----------------------------: | :--------------------------------------: | :----------------------------------------------------------: |
-    | bsgJz3jr  | Johannes Verhulst | Johann Joseph Hermann Verhulst | Dutch composer and conductor (1816–1891) | [Johannes Verhulst](http://wwww.wikidata.org/entity/Q964611) |
+    | FAAM UUID | label             | aliases                        | description                              | Wikidata QID                                            |
+    | :-------: | :---------------: | :----------------------------: | :--------------------------------------: | :-----------------------------------------------------: |
+    | bsgJz3jr  | Johannes Verhulst | Johann Joseph Hermann Verhulst | Dutch composer and conductor (1816–1891) | [Johannes Verhulst](http://wikidata.org/entity/Q964611) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/bsgJz3jr.html" height="800" width="1200" title="bsgJz3jr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bsgJz3jr" height="800" width="1200" title="bsgJz3jr"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Berthold Tours](./9UFKY99S.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Berthold_Tours.jpg){align=left width="150" height="150"} 
+
+	Dutch composer (1838-1897)
+
+</div>

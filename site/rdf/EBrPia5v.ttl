@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EBrPia5v a rdfs:Resource ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1911-09-27"^^xsd:string ;
+    schema1:birthPlace faamentity:Yv6KLPcH ;
+    schema1:deathDate "1989-03-01"^^xsd:string ;
+    schema1:deathPlace faamentity:Yv6KLPcH ;
+    schema1:description "Belgian horn player and music teacher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q125489262>,
+        "16002511"^^xsd:string,
+        "EBrPia5v"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Leo De Barse"^^xsd:string ;
+    skos:prefLabel "Leo De Barse"^^xsd:string ;
+    wd:P108 faamentity:SGA8i9nK ;
+    wd:P1303 faamentity:SRXTUjuW ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:4oDTHpMV,
+        faamentity:L7DPWnnr .
+

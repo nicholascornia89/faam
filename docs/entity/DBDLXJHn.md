@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DBDLXJHn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                       | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :-----------------------------------------------: | :-----: | :----------------------------------------------: |
-    | DBDLXJHn  | Halle | city and municipality in Flemish Brabant, Belgium | Hal     | [Halle](http://wwww.wikidata.org/entity/Q210003) |
+    | FAAM UUID | label | description                                       | aliases | Wikidata QID                                |
+    | :-------: | :---: | :-----------------------------------------------: | :-----: | :-----------------------------------------: |
+    | DBDLXJHn  | Halle | city and municipality in Flemish Brabant, Belgium | Hal     | [Halle](http://wikidata.org/entity/Q210003) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/DBDLXJHn.html" height="800" width="1200" title="DBDLXJHn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DBDLXJHn" height="800" width="1200" title="DBDLXJHn"></iframe>
 
 ## Identifiers
 

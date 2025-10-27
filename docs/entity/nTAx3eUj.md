@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nTAx3eUj
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-KMT175228/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nTAx3eUj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nTAx3eUj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nTAx3eUj.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-KMT175228/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nTAx3eUj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nTAx3eUj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nTAx3eUj.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-KMT175228.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KMT175228.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                       | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | nTAx3eUj  | KCA-KMT175228         | Grand trio pour violon, alto et violoncelle | [external URL](eSzqVmee) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                       | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | nTAx3eUj  | KCA-KMT175228         | Grand trio pour violon, alto et violoncelle | [external URL](https://anet.be/record/opacdkvc/c:lvd:6782893/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -86,10 +90,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/nTAx3eUj.html" height="800" width="1200" title="nTAx3eUj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nTAx3eUj" height="800" width="1200" title="nTAx3eUj"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/nTAx3eUj.html" height="800" width="1200" title="nTAx3eUj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/nTAx3eUj" height="800" width="1200" title="nTAx3eUj"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4kPSMxHb
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/4kPSMxHb.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/4kPSMxHb.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/4kPSMxHb.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/4kPSMxHb.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/4kPSMxHb.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/4kPSMxHb.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giuseppe_Sarti_(1729-1802).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                        | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :--------------------------------: | :-------------------------------------------------------: |
-    | 4kPSMxHb  | Giuseppe Sarti | Giuseppe Sarti | Italian opera composer (1729–1802) | [Giuseppe Sarti](http://wwww.wikidata.org/entity/Q455199) |
+    | FAAM UUID | label          | aliases        | description                        | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :--------------------------------: | :--------------------------------------------------: |
+    | 4kPSMxHb  | Giuseppe Sarti | Giuseppe Sarti | Italian opera composer (1729–1802) | [Giuseppe Sarti](http://wikidata.org/entity/Q455199) |
 
 <br><br><br>
 
@@ -55,13 +59,13 @@ tags: agent
 
 	- [chapelmaster](./QJhBdvTq.md)
 
-	- [](./Tiv96JGs.md)
+	- [director](./Tiv96JGs.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4kPSMxHb.html" height="800" width="1200" title="4kPSMxHb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4kPSMxHb" height="800" width="1200" title="4kPSMxHb"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Luigi Cherubini](./AtBjcym2.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Auguste-Dominique_Ingres_-_Luigi_Cherubini_-_Google_Art_Project.jpg){align=left width="150" height="150"} 
+
+	Italian Classical and Romantic composer (1760–1842)
+
+</div>

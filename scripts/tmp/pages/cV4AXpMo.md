@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cV4AXpMo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description              | aliases | Wikidata QID                                        |
-    | :-------: | :-------: | :----------------------: | :-----: | :-------------------------------------------------: |
-    | cV4AXpMo  | Abbeville | commune in Somme, France |         | [Abbeville](http://wwww.wikidata.org/entity/Q28520) |
+    | FAAM UUID | label     | description              | aliases | Wikidata QID                                   |
+    | :-------: | :-------: | :----------------------: | :-----: | :--------------------------------------------: |
+    | cV4AXpMo  | Abbeville | commune in Somme, France |         | [Abbeville](http://wikidata.org/entity/Q28520) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cV4AXpMo.html" height="800" width="1200" title="cV4AXpMo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cV4AXpMo" height="800" width="1200" title="cV4AXpMo"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Henri-Jean Rigel](./nqNsEqzn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist
 

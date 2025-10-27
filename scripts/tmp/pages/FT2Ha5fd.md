@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FT2Ha5fd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description    | aliases | Wikidata QID                                                 |
-    | :-------: | :---------------: | :------------: | :-----: | :----------------------------------------------------------: |
-    | FT2Ha5fd  | Civita Castellana | Italian comune |         | [Civita Castellana](http://wwww.wikidata.org/entity/Q160954) |
+    | FAAM UUID | label             | description    | aliases | Wikidata QID                                            |
+    | :-------: | :---------------: | :------------: | :-----: | :-----------------------------------------------------: |
+    | FT2Ha5fd  | Civita Castellana | Italian comune |         | [Civita Castellana](http://wikidata.org/entity/Q160954) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/FT2Ha5fd.html" height="800" width="1200" title="FT2Ha5fd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FT2Ha5fd" height="800" width="1200" title="FT2Ha5fd"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Virgilio Mazzocchi](./epncX6P9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian Baroque composer
 
 -	__[Virgilio Mazzocchi](./epncX6P9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian Baroque composer
 

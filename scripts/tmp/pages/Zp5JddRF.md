@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Zp5JddRF
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases                        | description                            | Wikidata QID                                                               |
-    | :-------: | :---------------------: | :----------------------------: | :------------------------------------: | :------------------------------------------------------------------------: |
-    | Zp5JddRF  | 4 Klavierstücke, Op.119 | Four Pieces for Piano, Op. 119 | set of piano pieces by Johannes Brahms | [Four Pieces for Piano, Op. 119](http://wwww.wikidata.org/entity/Q3069011) |
+    | FAAM UUID | label                   | aliases                        | description                            | Wikidata QID                                                          |
+    | :-------: | :---------------------: | :----------------------------: | :------------------------------------: | :-------------------------------------------------------------------: |
+    | Zp5JddRF  | 4 Klavierstücke, Op.119 | Four Pieces for Piano, Op. 119 | set of piano pieces by Johannes Brahms | [Four Pieces for Piano, Op. 119](http://wikidata.org/entity/Q3069011) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Zp5JddRF.html" height="800" width="1200" title="Zp5JddRF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Zp5JddRF" height="800" width="1200" title="Zp5JddRF"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Clavierstücke](./Xdoc9XJj.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904673826.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904673826.gif){align=left width="150" height="150"} 
 
 	
 

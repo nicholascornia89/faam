@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Nh3UT45c
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                   | aliases | Wikidata QID                                                 |
-    | :-------: | :-----------------: | :---------------------------: | :-----: | :----------------------------------------------------------: |
-    | Nh3UT45c  | Province of Antwerp | province in Flanders, Belgium | Antwerp | [Province of Antwerp](http://wwww.wikidata.org/entity/Q1116) |
+    | FAAM UUID | label               | description                   | aliases | Wikidata QID                                            |
+    | :-------: | :-----------------: | :---------------------------: | :-----: | :-----------------------------------------------------: |
+    | Nh3UT45c  | Province of Antwerp | province in Flanders, Belgium | Antwerp | [Province of Antwerp](http://wikidata.org/entity/Q1116) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Nh3UT45c.html" height="800" width="1200" title="Nh3UT45c"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Nh3UT45c" height="800" width="1200" title="Nh3UT45c"></iframe>
 
 ## Identifiers
 

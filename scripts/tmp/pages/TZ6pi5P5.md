@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TZ6pi5P5
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/TZ6pi5P5.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/TZ6pi5P5.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/TZ6pi5P5.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/TZ6pi5P5.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/TZ6pi5P5.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/TZ6pi5P5.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Philippe_Musard_Recadré.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases         | description                               | Wikidata QID                                             |
-    | :-------: | :-----------: | :-------------: | :---------------------------------------: | :------------------------------------------------------: |
-    | TZ6pi5P5  | Philip Musard | Philippe Musard | French conductor and composer (1792–1859) | [Philip Musard](http://wwww.wikidata.org/entity/Q715299) |
+    | FAAM UUID | label         | aliases         | description                               | Wikidata QID                                        |
+    | :-------: | :-----------: | :-------------: | :---------------------------------------: | :-------------------------------------------------: |
+    | TZ6pi5P5  | Philip Musard | Philippe Musard | French conductor and composer (1792–1859) | [Philip Musard](http://wikidata.org/entity/Q715299) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./UiWvdwAG.md)
+	- [tour promoter](./UiWvdwAG.md)
 
 	- [violinist](./9CVVGZdo.md)
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/TZ6pi5P5.html" height="800" width="1200" title="TZ6pi5P5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TZ6pi5P5" height="800" width="1200" title="TZ6pi5P5"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[L'Ouragan](./JGzpr2Ro.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p39.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p39.gif){align=left width="150" height="150"} 
 
 	
 

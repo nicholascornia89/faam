@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: edCes47R
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/edCes47R.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/edCes47R.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/edCes47R.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/edCes47R.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/edCes47R.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/edCes47R.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Iosif_Ivanovici.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases         | description                                            | Wikidata QID                                              |
-    | :-------: | :------------: | :-------------: | :----------------------------------------------------: | :-------------------------------------------------------: |
-    | edCes47R  | Ioan Ivanovici | Iosif Ivanovici | Romanian military band leader and composer (1845–1902) | [Ioan Ivanovici](http://wwww.wikidata.org/entity/Q375477) |
+    | FAAM UUID | label          | aliases         | description                                            | Wikidata QID                                         |
+    | :-------: | :------------: | :-------------: | :----------------------------------------------------: | :--------------------------------------------------: |
+    | edCes47R  | Ioan Ivanovici | Iosif Ivanovici | Romanian military band leader and composer (1845–1902) | [Ioan Ivanovici](http://wikidata.org/entity/Q375477) |
 
 <br><br><br>
 
@@ -47,17 +51,17 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./Pzf95he6.md)
+	- [military officer](./Pzf95he6.md)
 
 ??? quote "educated at" 
 
-	- [](./kgc3ZdF7.md)
+	- [Nikolaus Lenau Theoretical High School](./kgc3ZdF7.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/edCes47R.html" height="800" width="1200" title="edCes47R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/edCes47R" height="800" width="1200" title="edCes47R"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[Donau-Wellen-Walzer](./Pw96Y4ub.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p12.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p12.gif){align=left width="150" height="150"} 
 
 	
 

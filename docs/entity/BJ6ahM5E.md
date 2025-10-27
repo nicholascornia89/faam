@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BJ6ahM5E
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143702p16/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BJ6ahM5E.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BJ6ahM5E.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BJ6ahM5E.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143702p16/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BJ6ahM5E.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BJ6ahM5E.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BJ6ahM5E.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143702p16.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p16.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title               | permalink                | provenance                         |
-    | :-------: | :-------------------: | :-----------------: | :----------------------: | :--------------------------------: |
-    | BJ6ahM5E  | ORP-20143702p16       | La Valse des Perles | [external URL](FxU5NEib) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title               | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :-----------------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | BJ6ahM5E  | ORP-20143702p16       | La Valse des Perles | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22186) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "sections" 
 
@@ -57,10 +61,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/BJ6ahM5E.html" height="800" width="1200" title="BJ6ahM5E"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BJ6ahM5E" height="800" width="1200" title="BJ6ahM5E"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/BJ6ahM5E.html" height="800" width="1200" title="BJ6ahM5E"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/BJ6ahM5E" height="800" width="1200" title="BJ6ahM5E"></iframe>

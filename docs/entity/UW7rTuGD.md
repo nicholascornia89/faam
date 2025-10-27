@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UW7rTuGD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UW7rTuGD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UW7rTuGD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UW7rTuGD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UW7rTuGD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UW7rTuGD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UW7rTuGD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description      | Wikidata QID                                                |
-    | :-------: | :-------------: | :-----: | :--------------: | :---------------------------------------------------------: |
-    | UW7rTuGD  | Carlo Cotumacci |         | Italian composer | [Carlo Cotumacci](http://wwww.wikidata.org/entity/Q3659224) |
+    | FAAM UUID | label           | aliases | description      | Wikidata QID                                           |
+    | :-------: | :-------------: | :-----: | :--------------: | :----------------------------------------------------: |
+    | UW7rTuGD  | Carlo Cotumacci |         | Italian composer | [Carlo Cotumacci](http://wikidata.org/entity/Q3659224) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/UW7rTuGD.html" height="800" width="1200" title="UW7rTuGD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UW7rTuGD" height="800" width="1200" title="UW7rTuGD"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Paisiello](./ZpFhVj9c.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/PaiselloVigeeLeBrun.jpg){align=left width="150" height="150"} 
+
+	Italian composer of the Classical era (1740-1816)
+
+-	__[Giovanni Furno](./3P9EP7VG.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer
+
+</div>

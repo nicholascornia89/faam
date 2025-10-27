@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Cvc2GLdL
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                         | aliases   | Wikidata QID                                                  |
-    | :-------: | :----------------: | :---------------------------------: | :-------: | :-----------------------------------------------------------: |
-    | Cvc2GLdL  | Duchy of Brunswick | historical German state (1815–1918) | Brunswick | [Duchy of Brunswick](http://wwww.wikidata.org/entity/Q326029) |
+    | FAAM UUID | label              | description                         | aliases   | Wikidata QID                                             |
+    | :-------: | :----------------: | :---------------------------------: | :-------: | :------------------------------------------------------: |
+    | Cvc2GLdL  | Duchy of Brunswick | historical German state (1815–1918) | Brunswick | [Duchy of Brunswick](http://wikidata.org/entity/Q326029) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/Cvc2GLdL.html" height="800" width="1200" title="Cvc2GLdL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Cvc2GLdL" height="800" width="1200" title="Cvc2GLdL"></iframe>
 
 ## Identifiers
 

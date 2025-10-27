@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DxGATHZF
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                         | aliases | Wikidata QID                                             |
-    | :-------: | :---------: | :---------------------------------: | :-----: | :------------------------------------------------------: |
-    | DxGATHZF  | viol player | person who plays the viola da gamba | gambist | [viol player](http://wwww.wikidata.org/entity/Q19760296) |
+    | FAAM UUID | label       | description                         | aliases | Wikidata QID                                        |
+    | :-------: | :---------: | :---------------------------------: | :-----: | :-------------------------------------------------: |
+    | DxGATHZF  | viol player | person who plays the viola da gamba | gambist | [viol player](http://wikidata.org/entity/Q19760296) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/DxGATHZF.html" height="800" width="1200" title="DxGATHZF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DxGATHZF" height="800" width="1200" title="DxGATHZF"></iframe>
 
 ## Cross-references
 
@@ -49,25 +53,25 @@ tags: occupation
 
 -	__[Claudio Monteverdi](./J2JS4FwU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
 
 	Italian composer, string player, choirmaster, and priest (1567–1643)
 
 -	__[Louis Couperin](./KqBibisZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French Baroque composer
 
 -	__[Nicolas Métru](./Jy9mndDY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Franz Xaver Hammer](./QrKgi8Ge.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German gambist, cellist and composer
 

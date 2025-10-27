@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Kwixsiao
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Kwixsiao.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Kwixsiao.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Kwixsiao.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Kwixsiao.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Kwixsiao.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Kwixsiao.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases               | description                  | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :-------------------: | :--------------------------: | :---------------------------------------------------------------: |
-    | Kwixsiao  | Cyriel Van den Abeele | Cyriel Van den Abeele | Belgian composer (1875-1946) | [Cyriel Van den Abeele](http://wwww.wikidata.org/entity/Q2124270) |
+    | FAAM UUID | label                 | aliases               | description                  | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :-------------------: | :--------------------------: | :----------------------------------------------------------: |
+    | Kwixsiao  | Cyriel Van den Abeele | Cyriel Van den Abeele | Belgian composer (1875-1946) | [Cyriel Van den Abeele](http://wikidata.org/entity/Q2124270) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Kwixsiao.html" height="800" width="1200" title="Kwixsiao"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Kwixsiao" height="800" width="1200" title="Kwixsiao"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: agent
 
 -	__[Dominus conserveteum : à 4 voix](./Vi4x7qtG.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904383624.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904383624.gif){align=left width="150" height="150"} 
 
 	
 

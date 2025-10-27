@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Sxuj4YAb
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                        | aliases                      | Wikidata QID                                                             |
-    | :-------: | :--------------------------: | :--------------------------------: | :--------------------------: | :----------------------------------------------------------------------: |
-    | Sxuj4YAb  | Tanks Upper Secondary School | secondary school in Bergen, Norway | Tanks Upper Secondary School | [Tanks Upper Secondary School](http://wwww.wikidata.org/entity/Q7683566) |
+    | FAAM UUID | label                        | description                        | aliases                      | Wikidata QID                                                        |
+    | :-------: | :--------------------------: | :--------------------------------: | :--------------------------: | :-----------------------------------------------------------------: |
+    | Sxuj4YAb  | Tanks Upper Secondary School | secondary school in Bergen, Norway | Tanks Upper Secondary School | [Tanks Upper Secondary School](http://wikidata.org/entity/Q7683566) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./3xUgfbpe.md)
+	[Bergen Municipality](./3xUgfbpe.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Sxuj4YAb.html" height="800" width="1200" title="Sxuj4YAb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Sxuj4YAb" height="800" width="1200" title="Sxuj4YAb"></iframe>
 
 ## Cross-references
 

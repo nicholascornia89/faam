@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6rNSbLYV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                      | aliases  | Wikidata QID                                       |
-    | :-------: | :-------: | :----------------------------------------------: | :------: | :------------------------------------------------: |
-    | 6rNSbLYV  | Perpignan | French commune in Pyrénées-Orientales, Occitania | Perpinyà | [Perpignan](http://wwww.wikidata.org/entity/Q6730) |
+    | FAAM UUID | label     | description                                      | aliases  | Wikidata QID                                  |
+    | :-------: | :-------: | :----------------------------------------------: | :------: | :-------------------------------------------: |
+    | 6rNSbLYV  | Perpignan | French commune in Pyrénées-Orientales, Occitania | Perpinyà | [Perpignan](http://wikidata.org/entity/Q6730) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/6rNSbLYV.html" height="800" width="1200" title="6rNSbLYV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6rNSbLYV" height="800" width="1200" title="6rNSbLYV"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9kMfPxdg
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/9kMfPxdg.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/9kMfPxdg.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/9kMfPxdg.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/9kMfPxdg.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/9kMfPxdg.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/9kMfPxdg.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludwig_Spohr_portrait.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases      | description                              | Wikidata QID                                          |
-    | :-------: | :---------: | :----------: | :--------------------------------------: | :---------------------------------------------------: |
-    | 9kMfPxdg  | Louis Spohr | Ludwig Spohr | German composer, violinist and conductor | [Louis Spohr](http://wwww.wikidata.org/entity/Q57226) |
+    | FAAM UUID | label       | aliases      | description                              | Wikidata QID                                     |
+    | :-------: | :---------: | :----------: | :--------------------------------------: | :----------------------------------------------: |
+    | 9kMfPxdg  | Louis Spohr | Ludwig Spohr | German composer, violinist and conductor | [Louis Spohr](http://wikidata.org/entity/Q57226) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/9kMfPxdg.html" height="800" width="1200" title="9kMfPxdg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9kMfPxdg" height="800" width="1200" title="9kMfPxdg"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,31 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Moritz Hauptmann](./FRvAKw75.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Moritz_Hauptmann.jpg){align=left width="150" height="150"} 
+
+	German music theorist, teacher and composer (1792–1868)
+
+-	__[Ferdinand David](./NdggfNk9.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferdinand_david.jpg){align=left width="150" height="150"} 
+
+	German musician (1810-1873)
+
+-	__[Henry Holmes](./VaVtojpJ.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henry_and_Alfred_Holmes.jpg){align=left width="150" height="150"} 
+
+	English violinist and composer (1839–1905)
+
+-	__[Bernhard Molique](./FM4yWajx.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Molique_passport.jpg){align=left width="150" height="150"} 
+
+	German violinist and composer (1802-1869)
+
+</div>

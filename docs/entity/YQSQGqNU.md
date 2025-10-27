@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YQSQGqNU
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                       | aliases                | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------------------------: | :--------------------: | :------------------------------------------------: |
-    | YQSQGqNU  | Damazan | commune in Lot-et-Garonne, France | Damazan-le-Républicain | [Damazan](http://wwww.wikidata.org/entity/Q764362) |
+    | FAAM UUID | label   | description                       | aliases                | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------------------------: | :--------------------: | :-------------------------------------------: |
+    | YQSQGqNU  | Damazan | commune in Lot-et-Garonne, France | Damazan-le-Républicain | [Damazan](http://wikidata.org/entity/Q764362) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YQSQGqNU.html" height="800" width="1200" title="YQSQGqNU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YQSQGqNU" height="800" width="1200" title="YQSQGqNU"></iframe>
 
 ## Identifiers
 

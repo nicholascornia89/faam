@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DfHHYDni
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DfHHYDni.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DfHHYDni.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DfHHYDni.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DfHHYDni.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DfHHYDni.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DfHHYDni.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_Bernhard_Fürstenau.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases                  | description                              | Wikidata QID                                                       |
-    | :-------: | :----------------------: | :----------------------: | :--------------------------------------: | :----------------------------------------------------------------: |
-    | DfHHYDni  | Anton Bernhard Fürstenau | Anton Bernhard Fürstenau | German flautist and composer (1792-1852) | [Anton Bernhard Fürstenau](http://wwww.wikidata.org/entity/Q68254) |
+    | FAAM UUID | label                    | aliases                  | description                              | Wikidata QID                                                  |
+    | :-------: | :----------------------: | :----------------------: | :--------------------------------------: | :-----------------------------------------------------------: |
+    | DfHHYDni  | Anton Bernhard Fürstenau | Anton Bernhard Fürstenau | German flautist and composer (1792-1852) | [Anton Bernhard Fürstenau](http://wikidata.org/entity/Q68254) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DfHHYDni.html" height="800" width="1200" title="DfHHYDni"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DfHHYDni" height="800" width="1200" title="DfHHYDni"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,27 @@ tags: agent
 
 -	__[Les délices de l'opéra : rondos, fantaisies, mosaïque et variations sur des thêmes favorits des opéras modernes: pour la flûte avec accompagnement de pianoforte](./LoUFQ6jY.md)__
 
-	![Image](../assets/images/thumbs/KCG-000345131.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345131.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Les Délices de l'Opéra](./JbE9VQs8.md)__
+
+	
+
+-	__[Alessandro Stradella](./4QR6T5Rn.md)__
+
+	opera by Friedrich von Flotow
+
+-	__[Struensée](./f3UjbHXn.md)__
+
+	
+
+-	__[Les mousquetaires de la reine](./a6KdnuEg.md)__
 
 	
 

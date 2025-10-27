@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MzU3fdit
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MzU3fdit.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MzU3fdit.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MzU3fdit.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MzU3fdit.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MzU3fdit.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MzU3fdit.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases               | description      | Wikidata QID                                             |
-    | :-------: | :-----------: | :-------------------: | :--------------: | :------------------------------------------------------: |
-    | MzU3fdit  | Stefano Felis | Stefano de Maza Gatto | Italian composer | [Stefano Felis](http://wwww.wikidata.org/entity/Q431549) |
+    | FAAM UUID | label         | aliases               | description      | Wikidata QID                                        |
+    | :-------: | :-----------: | :-------------------: | :--------------: | :-------------------------------------------------: |
+    | MzU3fdit  | Stefano Felis | Stefano de Maza Gatto | Italian composer | [Stefano Felis](http://wikidata.org/entity/Q431549) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/MzU3fdit.html" height="800" width="1200" title="MzU3fdit"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MzU3fdit" height="800" width="1200" title="MzU3fdit"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Carlo Gesualdo](./5WLcbQoY.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gesualdo3.jpg){align=left width="150" height="150"} 
+
+	Italian prince, composer and murderer (1566–1613)
+
+-	__[Pomponio Nenna](./FpfYVAFn.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer
+
+</div>

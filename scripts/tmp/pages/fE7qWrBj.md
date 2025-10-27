@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fE7qWrBj
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                                       | aliases               | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :-----------------------------------------------: | :-------------------: | :-----------------------------------------------------------------: |
-    | fE7qWrBj  | University of Birmingham | University in Birmingham, England, United Kingdom | Birmingham University | [University of Birmingham](http://wwww.wikidata.org/entity/Q223429) |
+    | FAAM UUID | label                    | description                                       | aliases               | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :-----------------------------------------------: | :-------------------: | :------------------------------------------------------------: |
+    | fE7qWrBj  | University of Birmingham | University in Birmingham, England, United Kingdom | Birmingham University | [University of Birmingham](http://wikidata.org/entity/Q223429) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./eej5SpMx.md)
+	[Birmingham](./eej5SpMx.md)
 
-	[](./cPi9NUFh.md)
+	[Birmingham](./cPi9NUFh.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/fE7qWrBj.html" height="800" width="1200" title="fE7qWrBj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fE7qWrBj" height="800" width="1200" title="fE7qWrBj"></iframe>
 
 ## Cross-references
 

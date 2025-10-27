@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BsmzGsyT
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description           | aliases    | Wikidata QID                                               |
-    | :-------: | :------------: | :-------------------: | :--------: | :--------------------------------------------------------: |
-    | BsmzGsyT  | Château de Pau | Castle in Pau, France | Pau Castle | [Château de Pau](http://wwww.wikidata.org/entity/Q1480604) |
+    | FAAM UUID | label          | description           | aliases    | Wikidata QID                                          |
+    | :-------: | :------------: | :-------------------: | :--------: | :---------------------------------------------------: |
+    | BsmzGsyT  | Château de Pau | Castle in Pau, France | Pau Castle | [Château de Pau](http://wikidata.org/entity/Q1480604) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BsmzGsyT.html" height="800" width="1200" title="BsmzGsyT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BsmzGsyT" height="800" width="1200" title="BsmzGsyT"></iframe>
 
 ## Identifiers
 

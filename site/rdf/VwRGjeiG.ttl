@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VwRGjeiG a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "musician who plays the mandolin"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q19723482>,
+        "0"^^xsd:string,
+        "VwRGjeiG"^^xsd:string ;
+    skos:altLabel "mandolin player"^^xsd:string ;
+    skos:prefLabel "mandolinist"^^xsd:string .
+

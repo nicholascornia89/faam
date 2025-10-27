@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cndk234f
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description               | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :-----------------------: | :------------------------------------------------------: |
-    | cndk234f  | La sonnambula | La sonnambula | opera by Vincenzo Bellini | [La sonnambula](http://wwww.wikidata.org/entity/Q753123) |
+    | FAAM UUID | label         | aliases       | description               | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :-----------------------: | :-------------------------------------------------: |
+    | cndk234f  | La sonnambula | La sonnambula | opera by Vincenzo Bellini | [La sonnambula](http://wikidata.org/entity/Q753123) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./7jZHujn8.md)
+	- [La somnambule, ou L'arrivée d'un nouveau seigneur](./7jZHujn8.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/cndk234f.html" height="800" width="1200" title="cndk234f"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cndk234f" height="800" width="1200" title="cndk234f"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: musical_work
 
 -	__[DUO BRILLANT: composé sur les motifs de la Sonnambule de Bellini/par J. Benedict & C. De Bériot;arrangé pour flûte et piano par Tulou. : Voor fluit en piano.](./QxFSEUST.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333995.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333995.gif){align=left width="150" height="150"} 
 
 	
 

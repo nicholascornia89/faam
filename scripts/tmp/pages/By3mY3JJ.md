@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: By3mY3JJ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                            | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :------------------------------------: | :-----: | :------------------------------------------------: |
-    | By3mY3JJ  | Waregem | municipality in West Flanders, Belgium |         | [Waregem](http://wwww.wikidata.org/entity/Q204547) |
+    | FAAM UUID | label   | description                            | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :------------------------------------: | :-----: | :-------------------------------------------: |
+    | By3mY3JJ  | Waregem | municipality in West Flanders, Belgium |         | [Waregem](http://wikidata.org/entity/Q204547) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/By3mY3JJ.html" height="800" width="1200" title="By3mY3JJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/By3mY3JJ" height="800" width="1200" title="By3mY3JJ"></iframe>
 
 ## Identifiers
 

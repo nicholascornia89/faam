@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nmvHNzAd
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nmvHNzAd.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nmvHNzAd.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nmvHNzAd.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nmvHNzAd.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nmvHNzAd.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nmvHNzAd.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Carl-Friedrich-Zelter.jpeg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases | description                 | Wikidata QID                                                    |
-    | :-------: | :-------------------: | :-----: | :-------------------------: | :-------------------------------------------------------------: |
-    | nmvHNzAd  | Carl Friedrich Zelter |         | German composer (1758-1832) | [Carl Friedrich Zelter](http://wwww.wikidata.org/entity/Q58857) |
+    | FAAM UUID | label                 | aliases | description                 | Wikidata QID                                               |
+    | :-------: | :-------------------: | :-----: | :-------------------------: | :--------------------------------------------------------: |
+    | nmvHNzAd  | Carl Friedrich Zelter |         | German composer (1758-1832) | [Carl Friedrich Zelter](http://wikidata.org/entity/Q58857) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/nmvHNzAd.html" height="800" width="1200" title="nmvHNzAd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nmvHNzAd" height="800" width="1200" title="nmvHNzAd"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,25 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Felix Mendelssohn](./h7iqGs87.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felix_Mendelssohn_Bartholdy.jpg){align=left width="150" height="150"} 
+
+	German composer, pianist, organist and conductor of Jewish descent (1809–1847)
+
+-	__[Giacomo Meyerbeer](./9pjEsA6m.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Meyerbeer_d'après_P._Petit_b_1865.jpg){align=left width="150" height="150"} 
+
+	German-French composer
+
+-	__[Otto Nicolai](./dBWmUbvz.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Otto_Nicolai.jpg){align=left width="150" height="150"} 
+
+	(1810-1849) composer and conductor
+
+</div>

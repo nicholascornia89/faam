@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ACbdo5Jg
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904562375/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ACbdo5Jg.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ACbdo5Jg.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ACbdo5Jg.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904562375/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ACbdo5Jg.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ACbdo5Jg.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ACbdo5Jg.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904562375.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904562375.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | ACbdo5Jg  | KCA-030904562375      | Erstes Concert für Pianoforte und Orchester (S. 124) | [external URL](LBfWd2va) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | ACbdo5Jg  | KCA-030904562375      | Erstes Concert für Pianoforte und Orchester (S. 124) | [external URL](https://anet.be/record/opacdkvc/c:lvd:15350731/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -70,10 +74,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/ACbdo5Jg.html" height="800" width="1200" title="ACbdo5Jg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ACbdo5Jg" height="800" width="1200" title="ACbdo5Jg"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/ACbdo5Jg.html" height="800" width="1200" title="ACbdo5Jg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/ACbdo5Jg" height="800" width="1200" title="ACbdo5Jg"></iframe>

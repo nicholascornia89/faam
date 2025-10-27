@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7m3W3JXh
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                          | aliases              | Wikidata QID                                                 |
-    | :-------: | :---------------: | :----------------------------------: | :------------------: | :----------------------------------------------------------: |
-    | 7m3W3JXh  | Leiden University | public university in the Netherlands | University of Leiden | [Leiden University](http://wwww.wikidata.org/entity/Q156598) |
+    | FAAM UUID | label             | description                          | aliases              | Wikidata QID                                            |
+    | :-------: | :---------------: | :----------------------------------: | :------------------: | :-----------------------------------------------------: |
+    | 7m3W3JXh  | Leiden University | public university in the Netherlands | University of Leiden | [Leiden University](http://wikidata.org/entity/Q156598) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: music_organization
 
 !!! quote "country" 
 
-	[](./BWX2VNz4.md)
+	[Netherlands](./BWX2VNz4.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/7m3W3JXh.html" height="800" width="1200" title="7m3W3JXh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7m3W3JXh" height="800" width="1200" title="7m3W3JXh"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Ton Koopman](./Jy8ns9kr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
 
 	Dutch conductor, organist and harpsichordist, born 2 October 1944
 

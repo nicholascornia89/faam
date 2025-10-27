@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cFR6nVXh
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                           | aliases | Wikidata QID                                    |
-    | :-------: | :-----: | :---------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | cFR6nVXh  | Cologne | most populous city in North Rhine-Westphalia, Germany | Köln    | [Cologne](http://wwww.wikidata.org/entity/Q365) |
+    | FAAM UUID | label   | description                                           | aliases | Wikidata QID                               |
+    | :-------: | :-----: | :---------------------------------------------------: | :-----: | :----------------------------------------: |
+    | cFR6nVXh  | Cologne | most populous city in North Rhine-Westphalia, Germany | Köln    | [Cologne](http://wikidata.org/entity/Q365) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cFR6nVXh.html" height="800" width="1200" title="cFR6nVXh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cFR6nVXh" height="800" width="1200" title="cFR6nVXh"></iframe>
 
 ## Identifiers
 
@@ -65,19 +69,19 @@ tags: city
 
 -	__[Franz Commer](./cQjSTbFf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1813-1887)
 
 -	__[Engelbert Brepsant](./o48pgvSD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	composer
 
 -	__[Gilles van der Eeden](./KrRRRsTZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist, musician and composer
 
@@ -89,7 +93,7 @@ tags: city
 
 -	__[Johann Matthias Heberle](./QsyS369D.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German bookseller and auctioneer (1775-1840)
 
@@ -101,7 +105,7 @@ tags: city
 
 -	__[Gustav Jensen](./FjJkCWj5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer, violinist and music pedagogue (1843-1895)
 

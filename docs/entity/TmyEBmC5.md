@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TmyEBmC5
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases | description | Wikidata QID                         |
-    | :-------: | :-------------------------: | :-----: | :---------: | :----------------------------------: |
-    | TmyEBmC5  | Violin Concerto No.6, Op.70 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                       | aliases | description | Wikidata QID                    |
+    | :-------: | :-------------------------: | :-----: | :---------: | :-----------------------------: |
+    | TmyEBmC5  | Violin Concerto No.6, Op.70 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/TmyEBmC5.html" height="800" width="1200" title="TmyEBmC5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TmyEBmC5" height="800" width="1200" title="TmyEBmC5"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[6me Concert : [pour violon : Opus 70]](./MkjtKGfB.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334477.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334477.gif){align=left width="150" height="150"} 
 
 	
 

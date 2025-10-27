@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CgwoRL8B
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502027/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/CgwoRL8B.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/CgwoRL8B.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/CgwoRL8B.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502027/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/CgwoRL8B.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/CgwoRL8B.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/CgwoRL8B.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502027.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502027.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                         | permalink                | provenance                              |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | CgwoRL8B  | DPF-202502027         | Organum liturgicum. Super themata gregoriana e nativitatis liturgia. Praeludia facilia (non requisito pedali) | [external URL](kxAqh9HR) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                         | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | CgwoRL8B  | DPF-202502027         | Organum liturgicum. Super themata gregoriana e nativitatis liturgia. Praeludia facilia (non requisito pedali) | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -80,10 +84,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/CgwoRL8B.html" height="800" width="1200" title="CgwoRL8B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CgwoRL8B" height="800" width="1200" title="CgwoRL8B"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/CgwoRL8B.html" height="800" width="1200" title="CgwoRL8B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/CgwoRL8B" height="800" width="1200" title="CgwoRL8B"></iframe>

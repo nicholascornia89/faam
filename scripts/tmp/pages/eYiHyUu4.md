@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eYiHyUu4
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                   | aliases                            | Wikidata QID                                                |
-    | :-------: | :----------------: | :-------------------------------------------: | :--------------------------------: | :---------------------------------------------------------: |
-    | eYiHyUu4  | Republic of Venice | former state in Northeastern Italy (697–1797) | The Most Serene Republic of Venice | [Republic of Venice](http://wwww.wikidata.org/entity/Q4948) |
+    | FAAM UUID | label              | description                                   | aliases                            | Wikidata QID                                           |
+    | :-------: | :----------------: | :-------------------------------------------: | :--------------------------------: | :----------------------------------------------------: |
+    | eYiHyUu4  | Republic of Venice | former state in Northeastern Italy (697–1797) | The Most Serene Republic of Venice | [Republic of Venice](http://wikidata.org/entity/Q4948) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/eYiHyUu4.html" height="800" width="1200" title="eYiHyUu4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eYiHyUu4" height="800" width="1200" title="eYiHyUu4"></iframe>
 
 ## Identifiers
 
@@ -49,7 +53,7 @@ tags: country
 
 -	__[Bartolomeo Cordans](./aZuwHuQs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1698-1757)
 
@@ -67,13 +71,13 @@ tags: country
 
 -	__[Antonio Vivaldi](./GSqAPxLN.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vivaldi.jpg){align=left width="150" height="150"} 
 
 	Italian composer and violinist (1678-1741)
 
 -	__[Vincenzo Ruffo](./eFsFUzo8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1510-1587)
 
@@ -85,7 +89,7 @@ tags: country
 
 -	__[Giovanni Croce](./FjfxRXzo.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -97,13 +101,13 @@ tags: country
 
 -	__[Andrea Gabrieli](./K79S8mEL.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Francesco Antonio Calegari](./4qQWxuSP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian baroque music theorist, composer and priest
 
@@ -115,13 +119,13 @@ tags: country
 
 -	__[Giammateo Asola](./Mvde8e4F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giovanni Gabrieli](./6L9tixhA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -133,25 +137,25 @@ tags: country
 
 -	__[Claudio Monteverdi](./J2JS4FwU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
 
 	Italian composer, string player, choirmaster, and priest (1567–1643)
 
 -	__[Biagio Marini](./5mEwdeZH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and composer
 
 -	__[Luigi Madonis](./kk7RXapg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and violinist
 
 -	__[Tommaso Traetta](./8NZ5NFvg.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Tommaso_traetta.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tommaso_traetta.jpg){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -175,13 +179,13 @@ tags: country
 
 -	__[Giovanni Benedetto Platti](./dek3dK5z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Antonio Denzio](./Muw3uQmx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian opera singer
 
@@ -199,7 +203,7 @@ tags: country
 
 -	__[Antonio Lotti](./kGtx9MnB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian Baroque composer
 
@@ -229,13 +233,13 @@ tags: country
 
 -	__[Giovanni Battista Pescetti](./o7WPMz42.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Petronio Franceschini](./iSNyEoZS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1651-1680)
 
@@ -247,7 +251,7 @@ tags: country
 
 -	__[Giovanni Battista Vivaldi](./4cWGCPTD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist
 
@@ -259,7 +263,7 @@ tags: country
 
 -	__[Biagio Rossetti](./996JYb4C.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian organist of the Renaissance
 
@@ -271,19 +275,19 @@ tags: country
 
 -	__[Marc'Antonio Ingegneri](./DMSLG6R2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giovanni Battista Bassani](./bTS8wpNY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, violinist and organist
 
 -	__[Dionisio Bellante](./D6ZQ2XXM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and composer
 
@@ -295,13 +299,13 @@ tags: country
 
 -	__[Michelangelo Gasparini](./Kpwwy43U.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and singer
 
 -	__[Giovanni Antonio Riccieri](./PuGAQNHr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

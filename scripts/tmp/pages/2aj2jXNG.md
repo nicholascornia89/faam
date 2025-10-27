@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2aj2jXNG
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901832342/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2aj2jXNG.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2aj2jXNG.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2aj2jXNG.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901832342/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2aj2jXNG.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2aj2jXNG.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2aj2jXNG.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901832342.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901832342.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title              | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :----------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 2aj2jXNG  | KCA-030901832342      | 25 études, op. 100 | [external URL](7XBG3iZJ) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title              | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :----------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 2aj2jXNG  | KCA-030901832342      | 25 études, op. 100 | [external URL](https://anet.be/record/opacdkvc/c:lvd:6729143/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -93,10 +97,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/2aj2jXNG.html" height="800" width="1200" title="2aj2jXNG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2aj2jXNG" height="800" width="1200" title="2aj2jXNG"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/2aj2jXNG.html" height="800" width="1200" title="2aj2jXNG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/2aj2jXNG" height="800" width="1200" title="2aj2jXNG"></iframe>

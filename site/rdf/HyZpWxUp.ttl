@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HyZpWxUp a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "public school in Westminster, London, England"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1341516>,
+        "0"^^xsd:string,
+        "HyZpWxUp"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu,
+        faamentity:bTpHpqc3 ;
+    skos:altLabel "The Royal College of St. Peter in Westminster"^^xsd:string ;
+    skos:prefLabel "Westminster School"^^xsd:string .
+

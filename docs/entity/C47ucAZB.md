@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: C47ucAZB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description | aliases  | Wikidata QID                                         |
-    | :-------: | :------: | :---------: | :------: | :--------------------------------------------------: |
-    | C47ucAZB  | Lyubensk | Village     | Ljubensk | [Lyubensk](http://wwww.wikidata.org/entity/Q3835698) |
+    | FAAM UUID | label    | description | aliases  | Wikidata QID                                    |
+    | :-------: | :------: | :---------: | :------: | :---------------------------------------------: |
+    | C47ucAZB  | Lyubensk | Village     | Ljubensk | [Lyubensk](http://wikidata.org/entity/Q3835698) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/C47ucAZB.html" height="800" width="1200" title="C47ucAZB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/C47ucAZB" height="800" width="1200" title="C47ucAZB"></iframe>
 
 ## Identifiers
 

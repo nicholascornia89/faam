@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M2g4cXkE
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                               | aliases           | Wikidata QID                                             |
-    | :-------: | :-----------: | :-------------------------------------------------------: | :---------------: | :------------------------------------------------------: |
-    | M2g4cXkE  | time interval | temporal extent having a beginning, an end and a duration | temporal interval | [time interval](http://wwww.wikidata.org/entity/Q186081) |
+    | FAAM UUID | label         | description                                               | aliases           | Wikidata QID                                        |
+    | :-------: | :-----------: | :-------------------------------------------------------: | :---------------: | :-------------------------------------------------: |
+    | M2g4cXkE  | time interval | temporal extent having a beginning, an end and a duration | temporal interval | [time interval](http://wikidata.org/entity/Q186081) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/M2g4cXkE.html" height="800" width="1200" title="M2g4cXkE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M2g4cXkE" height="800" width="1200" title="M2g4cXkE"></iframe>
 
 ## Cross-references
 

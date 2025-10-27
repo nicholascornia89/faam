@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9WShvTNc
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                                | aliases                        | Wikidata QID                                                   |
-    | :-------: | :------------------: | :----------------------------------------: | :----------------------------: | :------------------------------------------------------------: |
-    | 9WShvTNc  | Electoral Palatinate | state of the Holy Roman Empire (1085–1803) | County Palatine of Lotharingia | [Electoral Palatinate](http://wwww.wikidata.org/entity/Q22880) |
+    | FAAM UUID | label                | description                                | aliases                        | Wikidata QID                                              |
+    | :-------: | :------------------: | :----------------------------------------: | :----------------------------: | :-------------------------------------------------------: |
+    | 9WShvTNc  | Electoral Palatinate | state of the Holy Roman Empire (1085–1803) | County Palatine of Lotharingia | [Electoral Palatinate](http://wikidata.org/entity/Q22880) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/9WShvTNc.html" height="800" width="1200" title="9WShvTNc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9WShvTNc" height="800" width="1200" title="9WShvTNc"></iframe>
 
 ## Identifiers
 
@@ -49,7 +53,7 @@ tags: country
 
 -	__[Franz Tausch](./kypLEwJs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	clarinetist and composer (1762-1817)
 

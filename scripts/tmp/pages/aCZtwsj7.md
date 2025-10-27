@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aCZtwsj7
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description             | aliases | Wikidata QID                                    |
-    | :-------: | :----: | :---------------------: | :-----: | :---------------------------------------------: |
-    | aCZtwsj7  | Mantua | Italian comune and city | Mantova | [Mantua](http://wwww.wikidata.org/entity/Q6247) |
+    | FAAM UUID | label  | description             | aliases | Wikidata QID                               |
+    | :-------: | :----: | :---------------------: | :-----: | :----------------------------------------: |
+    | aCZtwsj7  | Mantua | Italian comune and city | Mantova | [Mantua](http://wikidata.org/entity/Q6247) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/aCZtwsj7.html" height="800" width="1200" title="aCZtwsj7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aCZtwsj7" height="800" width="1200" title="aCZtwsj7"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Jacquet of Mantua](./VWefXFGT.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PVSh8RRs
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                   | aliases | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :---------------------------: | :-----: | :------------------------------------------------------------: |
-    | PVSh8RRs  | Stratford-upon-Avon | town in Warwickshire, England |         | [Stratford-upon-Avon](http://wwww.wikidata.org/entity/Q189288) |
+    | FAAM UUID | label               | description                   | aliases | Wikidata QID                                              |
+    | :-------: | :-----------------: | :---------------------------: | :-----: | :-------------------------------------------------------: |
+    | PVSh8RRs  | Stratford-upon-Avon | town in Warwickshire, England |         | [Stratford-upon-Avon](http://wikidata.org/entity/Q189288) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/PVSh8RRs.html" height="800" width="1200" title="PVSh8RRs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PVSh8RRs" height="800" width="1200" title="PVSh8RRs"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YEfG9mKy
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                  | aliases                        | Wikidata QID                                                   |
-    | :-------: | :----------------: | :--------------------------: | :----------------------------: | :------------------------------------------------------------: |
-    | YEfG9mKy  | Pro Musica Antiqua | Belgian early music ensemble | Pro Musica Antiqua of Brussels | [Pro Musica Antiqua](http://wwww.wikidata.org/entity/Q6086947) |
+    | FAAM UUID | label              | description                  | aliases                        | Wikidata QID                                              |
+    | :-------: | :----------------: | :--------------------------: | :----------------------------: | :-------------------------------------------------------: |
+    | YEfG9mKy  | Pro Musica Antiqua | Belgian early music ensemble | Pro Musica Antiqua of Brussels | [Pro Musica Antiqua](http://wikidata.org/entity/Q6086947) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/YEfG9mKy.html" height="800" width="1200" title="YEfG9mKy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YEfG9mKy" height="800" width="1200" title="YEfG9mKy"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 -	__[Safford Cape](./R32ZWczF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American conductor (1906–1973)
 

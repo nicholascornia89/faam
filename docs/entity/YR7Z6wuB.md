@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YR7Z6wuB
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/YR7Z6wuB.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/YR7Z6wuB.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/YR7Z6wuB.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/YR7Z6wuB.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/YR7Z6wuB.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/YR7Z6wuB.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description                  | Wikidata QID                                                   |
-    | :-------: | :----------------: | :----------------: | :--------------------------: | :------------------------------------------------------------: |
-    | YR7Z6wuB  | Maurice Schoemaker | Maurits Schoemaker | Belgian composer (1890-1964) | [Maurice Schoemaker](http://wwww.wikidata.org/entity/Q3417072) |
+    | FAAM UUID | label              | aliases            | description                  | Wikidata QID                                              |
+    | :-------: | :----------------: | :----------------: | :--------------------------: | :-------------------------------------------------------: |
+    | YR7Z6wuB  | Maurice Schoemaker | Maurits Schoemaker | Belgian composer (1890-1964) | [Maurice Schoemaker](http://wikidata.org/entity/Q3417072) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/YR7Z6wuB.html" height="800" width="1200" title="YR7Z6wuB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YR7Z6wuB" height="800" width="1200" title="YR7Z6wuB"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: agent
 
 -	__[2 mélodies](./biSvwyth.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902653291.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902653291.gif){align=left width="150" height="150"} 
 
 	
 

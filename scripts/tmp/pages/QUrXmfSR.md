@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QUrXmfSR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description            | aliases         | Wikidata QID                                      |
-    | :-------: | :----: | :--------------------: | :-------------: | :-----------------------------------------------: |
-    | QUrXmfSR  | Exeter | city in Devon, England | Exeter, England | [Exeter](http://wwww.wikidata.org/entity/Q134672) |
+    | FAAM UUID | label  | description            | aliases         | Wikidata QID                                 |
+    | :-------: | :----: | :--------------------: | :-------------: | :------------------------------------------: |
+    | QUrXmfSR  | Exeter | city in Devon, England | Exeter, England | [Exeter](http://wikidata.org/entity/Q134672) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/QUrXmfSR.html" height="800" width="1200" title="QUrXmfSR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QUrXmfSR" height="800" width="1200" title="QUrXmfSR"></iframe>
 
 ## Identifiers
 

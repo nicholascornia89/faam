@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KtzL5gXa
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KtzL5gXa.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KtzL5gXa.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KtzL5gXa.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KtzL5gXa.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KtzL5gXa.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KtzL5gXa.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sigiswald_Kuijken.JPG" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description      | Wikidata QID                                                 |
-    | :-------: | :---------------: | :---------------: | :--------------: | :----------------------------------------------------------: |
-    | KtzL5gXa  | Sigiswald Kuijken | Sigiswald Kuijken | Belgian musician | [Sigiswald Kuijken](http://wwww.wikidata.org/entity/Q506771) |
+    | FAAM UUID | label             | aliases           | description      | Wikidata QID                                            |
+    | :-------: | :---------------: | :---------------: | :--------------: | :-----------------------------------------------------: |
+    | KtzL5gXa  | Sigiswald Kuijken | Sigiswald Kuijken | Belgian musician | [Sigiswald Kuijken](http://wikidata.org/entity/Q506771) |
 
 <br><br><br>
 
@@ -75,7 +79,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KtzL5gXa.html" height="800" width="1200" title="KtzL5gXa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KtzL5gXa" height="800" width="1200" title="KtzL5gXa"></iframe>
 
 ## Identifiers
 

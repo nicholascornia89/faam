@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7xXPQtWA
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7xXPQtWA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7xXPQtWA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7xXPQtWA.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7xXPQtWA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7xXPQtWA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7xXPQtWA.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description     | Wikidata QID                                               |
-    | :-------: | :-----------: | :-----------: | :-------------: | :--------------------------------------------------------: |
-    | 7xXPQtWA  | Augener & Co. | Augener & Co. | music publisher | [Augener & Co.](http://wwww.wikidata.org/entity/Q20311223) |
+    | FAAM UUID | label         | aliases       | description     | Wikidata QID                                          |
+    | :-------: | :-----------: | :-----------: | :-------------: | :---------------------------------------------------: |
+    | 7xXPQtWA  | Augener & Co. | Augener & Co. | music publisher | [Augener & Co.](http://wikidata.org/entity/Q20311223) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/7xXPQtWA.html" height="800" width="1200" title="7xXPQtWA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7xXPQtWA" height="800" width="1200" title="7xXPQtWA"></iframe>
 
 ## Identifiers
 
@@ -67,19 +71,19 @@ tags: agent
 
 -	__[Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.](./HrioxeJc.md)__
 
-	![Image](../assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Old English composers for the virginals & harpsichord : a collection of preludes, galliards, pavanes, grounds, chaconnes, suites, overtures, sonatas, etc. selected from the works of / William Byrde, John Bull, Orlando Gibbons, John Blow, Henry Purcell and Thomas Augustine Arne ; revised & edited by E. Pauer ; with biographical notices by W. A. Barrett.](./FEppMQbX.md)__
 
-	![Image](../assets/images/thumbs/SML-18937.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18937.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[29 sonatas](./B7PgUtbR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
 
 	
 

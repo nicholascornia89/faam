@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DVxDgUHo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                      | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :----------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | DVxDgUHo  | Blatce | village in Česká Lípa District of Liberec region |         | [Blatce](http://wwww.wikidata.org/entity/Q882106) |
+    | FAAM UUID | label  | description                                      | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :----------------------------------------------: | :-----: | :------------------------------------------: |
+    | DVxDgUHo  | Blatce | village in Česká Lípa District of Liberec region |         | [Blatce](http://wikidata.org/entity/Q882106) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/DVxDgUHo.html" height="800" width="1200" title="DVxDgUHo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DVxDgUHo" height="800" width="1200" title="DVxDgUHo"></iframe>
 
 ## Identifiers
 

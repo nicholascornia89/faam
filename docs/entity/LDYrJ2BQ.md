@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LDYrJ2BQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                   | aliases                 | Wikidata QID                                             |
-    | :-------: | :-----------: | :---------------------------: | :---------------------: | :------------------------------------------------------: |
-    | LDYrJ2BQ  | Bad Cannstatt | quarter of Stuttgart, Germany | Stuttgart-Bad Cannstatt | [Bad Cannstatt](http://wwww.wikidata.org/entity/Q656982) |
+    | FAAM UUID | label         | description                   | aliases                 | Wikidata QID                                        |
+    | :-------: | :-----------: | :---------------------------: | :---------------------: | :-------------------------------------------------: |
+    | LDYrJ2BQ  | Bad Cannstatt | quarter of Stuttgart, Germany | Stuttgart-Bad Cannstatt | [Bad Cannstatt](http://wikidata.org/entity/Q656982) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LDYrJ2BQ.html" height="800" width="1200" title="LDYrJ2BQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LDYrJ2BQ" height="800" width="1200" title="LDYrJ2BQ"></iframe>
 
 ## Identifiers
 

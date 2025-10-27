@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6Y3ZcTkG
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description        | aliases                                 | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :----------------: | :-------------------------------------: | :-----------------------------------------------------------------: |
-    | 6Y3ZcTkG  | Kazan Federal University | Russian university | Kazan (Volga region) Federal University | [Kazan Federal University](http://wwww.wikidata.org/entity/Q113788) |
+    | FAAM UUID | label                    | description        | aliases                                 | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :----------------: | :-------------------------------------: | :------------------------------------------------------------: |
+    | 6Y3ZcTkG  | Kazan Federal University | Russian university | Kazan (Volga region) Federal University | [Kazan Federal University](http://wikidata.org/entity/Q113788) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/6Y3ZcTkG.html" height="800" width="1200" title="6Y3ZcTkG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6Y3ZcTkG" height="800" width="1200" title="6Y3ZcTkG"></iframe>
 
 ## Cross-references
 

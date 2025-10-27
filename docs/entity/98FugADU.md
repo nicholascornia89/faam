@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 98FugADU
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                | aliases   | Wikidata QID                                      |
-    | :-------: | :------: | :----------------------------------------: | :-------: | :-----------------------------------------------: |
-    | 98FugADU  | Tübingen | town in central Baden-Württemberg, Germany | Tuebingen | [Tübingen](http://wwww.wikidata.org/entity/Q3806) |
+    | FAAM UUID | label    | description                                | aliases   | Wikidata QID                                 |
+    | :-------: | :------: | :----------------------------------------: | :-------: | :------------------------------------------: |
+    | 98FugADU  | Tübingen | town in central Baden-Württemberg, Germany | Tuebingen | [Tübingen](http://wikidata.org/entity/Q3806) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/98FugADU.html" height="800" width="1200" title="98FugADU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/98FugADU" height="800" width="1200" title="98FugADU"></iframe>
 
 ## Identifiers
 

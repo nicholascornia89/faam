@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4Z7hCist
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | aliases | description | Wikidata QID                         |
-    | :-------: | :---------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | 4Z7hCist  | Violin Sonata in E minor, Op.2 No.8 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                               | aliases | description | Wikidata QID                    |
+    | :-------: | :---------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | 4Z7hCist  | Violin Sonata in E minor, Op.2 No.8 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/4Z7hCist.html" height="800" width="1200" title="4Z7hCist"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4Z7hCist" height="800" width="1200" title="4Z7hCist"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Concert-Sonate für Violine mit beziffertem Bass](./as8iFPEC.md)__
 
-	![Image](../assets/images/thumbs/BSB-991061395849707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991061395849707356.gif){align=left width="150" height="150"} 
 
 	
 

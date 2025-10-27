@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dzJH3DPT
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000346180/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/dzJH3DPT.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/dzJH3DPT.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/dzJH3DPT.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000346180/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/dzJH3DPT.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/dzJH3DPT.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/dzJH3DPT.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000346180.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000346180.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                     | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :---------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | dzJH3DPT  | KCG-000346180         | Les Bohémiens Op. 29 N° 3 : Drei Gedichte | [external URL](gb6MiJbD) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                     | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :---------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | dzJH3DPT  | KCG-000346180         | Les Bohémiens Op. 29 N° 3 : Drei Gedichte | [external URL](https://catalogus.hogent.be/catalog/hog01:000346180) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -98,10 +102,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/dzJH3DPT.html" height="800" width="1200" title="dzJH3DPT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dzJH3DPT" height="800" width="1200" title="dzJH3DPT"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/dzJH3DPT.html" height="800" width="1200" title="dzJH3DPT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/dzJH3DPT" height="800" width="1200" title="dzJH3DPT"></iframe>

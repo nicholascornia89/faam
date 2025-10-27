@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FTz4No8B
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FTz4No8B.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FTz4No8B.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FTz4No8B.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FTz4No8B.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FTz4No8B.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FTz4No8B.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portraitlefevre.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                 | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------: | :-------------------------: | :--------------------------------------------------------: |
-    | FTz4No8B  | Gustave Lefèvre | Gustave Lefevre | French composer (1831–1910) | [Gustave Lefèvre](http://wwww.wikidata.org/entity/Q446814) |
+    | FAAM UUID | label           | aliases         | description                 | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------: | :-------------------------: | :---------------------------------------------------: |
+    | FTz4No8B  | Gustave Lefèvre | Gustave Lefevre | French composer (1831–1910) | [Gustave Lefèvre](http://wikidata.org/entity/Q446814) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/FTz4No8B.html" height="800" width="1200" title="FTz4No8B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FTz4No8B" height="800" width="1200" title="FTz4No8B"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Gabriel Fauré](./GsCCwH8o.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FauréPirou1905.jpg){align=left width="150" height="150"} 
+
+	French composer, organist, pianist and teacher (1845–1924)
+
+</div>

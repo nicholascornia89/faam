@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dNidfqfQ a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "musical instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q180733>,
+        "15990819"^^xsd:string,
+        "dNidfqfQ"^^xsd:string ;
+    skos:altLabel "lute"^^xsd:string,
+        "luth"^^xsd:string ;
+    skos:prefLabel "lute"^^xsd:string ;
+    wd:P279 faamentity:jQm7fsD8 .
+

@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MdNmE4R2 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:UVrhQznW ;
+    schema1:identifier "16004225"^^xsd:string,
+        "MdNmE4R2"^^xsd:string ;
+    skos:prefLabel "Fantaisie caractéristique, Op.16"^^xsd:string ;
+    wd:P7937 faamentity:2uZm833M,
+        faamentity:DQwB3wUJ ;
+    wd:P839 <https://imslp.org/wiki/Fantaisie_caractéristique,_Op.16_(Andersen,_Joachim)> .
+

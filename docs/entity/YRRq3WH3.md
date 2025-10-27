@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YRRq3WH3
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                      | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :----------------------------------------------: | :-----: | :-------------------------------------------------: |
-    | YRRq3WH3  | Coniston | village and civil parish in Cumbria, England, UK |         | [Coniston](http://wwww.wikidata.org/entity/Q338140) |
+    | FAAM UUID | label    | description                                      | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :----------------------------------------------: | :-----: | :--------------------------------------------: |
+    | YRRq3WH3  | Coniston | village and civil parish in Cumbria, England, UK |         | [Coniston](http://wikidata.org/entity/Q338140) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YRRq3WH3.html" height="800" width="1200" title="YRRq3WH3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YRRq3WH3" height="800" width="1200" title="YRRq3WH3"></iframe>
 
 ## Identifiers
 

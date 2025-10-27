@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kLNcdAvw
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                               | aliases      | Wikidata QID                                                         |
-    | :-------: | :-------------------------: | :---------------------------------------: | :----------: | :------------------------------------------------------------------: |
-    | kLNcdAvw  | One Thousand and One Nights | collection of Middle Eastern folk stories | 1,001 Nights | [One Thousand and One Nights](http://wwww.wikidata.org/entity/Q8258) |
+    | FAAM UUID | label                       | description                               | aliases      | Wikidata QID                                                    |
+    | :-------: | :-------------------------: | :---------------------------------------: | :----------: | :-------------------------------------------------------------: |
+    | kLNcdAvw  | One Thousand and One Nights | collection of Middle Eastern folk stories | 1,001 Nights | [One Thousand and One Nights](http://wikidata.org/entity/Q8258) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/kLNcdAvw.html" height="800" width="1200" title="kLNcdAvw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kLNcdAvw" height="800" width="1200" title="kLNcdAvw"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Alladin en de wonderlamp](./KwxaGLh6.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904190086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904190086.gif){align=left width="150" height="150"} 
 
 	
 

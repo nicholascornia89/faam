@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: G55Yyhx6
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                  | aliases         | Wikidata QID                                     |
-    | :-------: | :----: | :--------------------------: | :-------------: | :----------------------------------------------: |
-    | G55Yyhx6  | Oxford | city in Oxfordshire, England | Oxford, England | [Oxford](http://wwww.wikidata.org/entity/Q34217) |
+    | FAAM UUID | label  | description                  | aliases         | Wikidata QID                                |
+    | :-------: | :----: | :--------------------------: | :-------------: | :-----------------------------------------: |
+    | G55Yyhx6  | Oxford | city in Oxfordshire, England | Oxford, England | [Oxford](http://wikidata.org/entity/Q34217) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/G55Yyhx6.html" height="800" width="1200" title="G55Yyhx6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/G55Yyhx6" height="800" width="1200" title="G55Yyhx6"></iframe>
 
 ## Identifiers
 

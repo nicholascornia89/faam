@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PRdn5fC3
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description          | aliases | Wikidata QID                                              |
-    | :-------: | :-----------: | :------------------: | :-----: | :-------------------------------------------------------: |
-    | PRdn5fC3  | Harrow School | school in Harrow, UK | Harrow  | [Harrow School](http://wwww.wikidata.org/entity/Q1247373) |
+    | FAAM UUID | label         | description          | aliases | Wikidata QID                                         |
+    | :-------: | :-----------: | :------------------: | :-----: | :--------------------------------------------------: |
+    | PRdn5fC3  | Harrow School | school in Harrow, UK | Harrow  | [Harrow School](http://wikidata.org/entity/Q1247373) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./icKJKziD.md)
+	[London Borough of Harrow](./icKJKziD.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/PRdn5fC3.html" height="800" width="1200" title="PRdn5fC3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PRdn5fC3" height="800" width="1200" title="PRdn5fC3"></iframe>
 
 ## Cross-references
 

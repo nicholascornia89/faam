@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "L9szjsBt", "label": "keyboard instrument", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./L9szjsBt.md\u0027\u003ekeyboard instrument\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eclass of musical instrument which is played using a musical keyboard\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "imYAqfW8", "label": "Anleitung zum Generalbass-Spielen : Harmonie-\u00dcbungen am Klavier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./imYAqfW8.md\u0027\u003eAnleitung zum Generalbass-Spielen : Harmonie-\u00dcbungen am Klavier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030903702279.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "2C9Fy8H6", "label": "Heritage Library Royal Conservatoire Antwerp", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2C9Fy8H6.md\u0027\u003eHeritage Library Royal Conservatoire Antwerp\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusic school\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Mk25KX72", "label": "music theory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Mk25KX72.md\u0027\u003emusic theory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estudy of the theoretical aspects of music and its notation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gKMU7J89", "label": "realization of figured bass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gKMU7J89.md\u0027\u003erealization of figured bass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epractice of expanding figured bass notation into a full accompaniment\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "awRfkzzU", "label": "basso continuo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./awRfkzzU.md\u0027\u003ebasso continuo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etechnique of improvisation and accompaniment, common in Baroque music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NkfcVjHM", "label": "music education", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NkfcVjHM.md\u0027\u003emusic education\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efield of study associated with the teaching and learning of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "L9szjsBt", "to": "imYAqfW8", "width": 1}, {"from": "imYAqfW8", "to": "2C9Fy8H6", "width": 1}, {"from": "imYAqfW8", "to": "Mk25KX72", "width": 1}, {"from": "imYAqfW8", "to": "gKMU7J89", "width": 1}, {"from": "imYAqfW8", "to": "awRfkzzU", "width": 1}, {"from": "imYAqfW8", "to": "NkfcVjHM", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "imYAqfW8", "label": "Anleitung zum Generalbass-Spielen : Harmonie-\u00dcbungen am Klavier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/imYAqfW8\u0027\u003eAnleitung zum Generalbass-Spielen : Harmonie-\u00dcbungen am Klavier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030903702279.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "2C9Fy8H6", "label": "Heritage Library Royal Conservatoire Antwerp", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2C9Fy8H6\u0027\u003eHeritage Library Royal Conservatoire Antwerp\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusic school\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Mk25KX72", "label": "music theory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Mk25KX72\u0027\u003emusic theory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estudy of the theoretical aspects of music and its notation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gKMU7J89", "label": "realization of figured bass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gKMU7J89\u0027\u003erealization of figured bass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epractice of expanding figured bass notation into a full accompaniment\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "awRfkzzU", "label": "basso continuo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/awRfkzzU\u0027\u003ebasso continuo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etechnique of improvisation and accompaniment, common in Baroque music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NkfcVjHM", "label": "music education", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NkfcVjHM\u0027\u003emusic education\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efield of study associated with the teaching and learning of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "L9szjsBt", "label": "keyboard instrument", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/L9szjsBt\u0027\u003ekeyboard instrument\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eclass of musical instrument which is played using a musical keyboard\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "imYAqfW8", "to": "2C9Fy8H6", "width": 1}, {"from": "imYAqfW8", "to": "Mk25KX72", "width": 1}, {"from": "imYAqfW8", "to": "gKMU7J89", "width": 1}, {"from": "imYAqfW8", "to": "awRfkzzU", "width": 1}, {"from": "imYAqfW8", "to": "NkfcVjHM", "width": 1}, {"from": "imYAqfW8", "to": "L9szjsBt", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

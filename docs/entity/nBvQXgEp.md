@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nBvQXgEp
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                             | aliases         | Wikidata QID                                      |
-    | :-------: | :-----: | :-----------------------------------------------------: | :-------------: | :-----------------------------------------------: |
-    | nBvQXgEp  | Imperia | coastal city and comune in the region of Liguria, Italy | Imperia (Italy) | [Imperia](http://wwww.wikidata.org/entity/Q13318) |
+    | FAAM UUID | label   | description                                             | aliases         | Wikidata QID                                 |
+    | :-------: | :-----: | :-----------------------------------------------------: | :-------------: | :------------------------------------------: |
+    | nBvQXgEp  | Imperia | coastal city and comune in the region of Liguria, Italy | Imperia (Italy) | [Imperia](http://wikidata.org/entity/Q13318) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nBvQXgEp.html" height="800" width="1200" title="nBvQXgEp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nBvQXgEp" height="800" width="1200" title="nBvQXgEp"></iframe>
 
 ## Identifiers
 

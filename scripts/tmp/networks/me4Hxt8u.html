@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BdJHjaCE", "label": "liturgical music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BdJHjaCE.md\u0027\u003eliturgical music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic practiced during worship processes in various religions\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "me4Hxt8u", "label": "Passio secundum Mathaeum", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./me4Hxt8u.md\u0027\u003ePassio secundum Mathaeum\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "3ywrWJLQ", "label": "Livre des motets (3e ann\u00e9e)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3ywrWJLQ.md\u0027\u003eLivre des motets (3e ann\u00e9e)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-KV105371.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QELJUJBf", "label": "church cantata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QELJUJBf.md\u0027\u003echurch cantata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of cantata intended to be performed during a liturgical service\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DvqehxQh", "label": "Francesco Soriano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DvqehxQh.md\u0027\u003eFrancesco Soriano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer of the Renaissance, born 1548 or 1549, died 29 July 1621\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francesco_Soriano.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "mK2saWSr", "label": "Charles Bordes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mK2saWSr.md\u0027\u003eCharles Bordes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench music teacher and composer (1863-1909)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Bordes_Comoedia.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "BdJHjaCE", "to": "me4Hxt8u", "width": 10}, {"from": "BdJHjaCE", "to": "3ywrWJLQ", "width": 10}, {"from": "me4Hxt8u", "to": "QELJUJBf", "width": 10}, {"from": "me4Hxt8u", "to": "DvqehxQh", "width": 10}, {"from": "me4Hxt8u", "to": "mK2saWSr", "width": 10}, {"from": "me4Hxt8u", "to": "3ywrWJLQ", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DvqehxQh", "label": "Francesco Soriano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DvqehxQh\u0027\u003eFrancesco Soriano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer of the Renaissance, born 1548 or 1549, died 29 July 1621\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francesco_Soriano.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "me4Hxt8u", "label": "Passio secundum Mathaeum", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/me4Hxt8u\u0027\u003ePassio secundum Mathaeum\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "3ywrWJLQ", "label": "Livre des motets (3e ann\u00e9e)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3ywrWJLQ\u0027\u003eLivre des motets (3e ann\u00e9e)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-KV105371.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BdJHjaCE", "label": "liturgical music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BdJHjaCE\u0027\u003eliturgical music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic practiced during worship processes in various religions\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "mK2saWSr", "label": "Charles Bordes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mK2saWSr\u0027\u003eCharles Bordes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench music teacher and composer (1863-1909)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Bordes_Comoedia.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QELJUJBf", "label": "church cantata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QELJUJBf\u0027\u003echurch cantata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of cantata intended to be performed during a liturgical service\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "DvqehxQh", "to": "me4Hxt8u", "width": 10}, {"from": "3ywrWJLQ", "to": "BdJHjaCE", "width": 10}, {"from": "3ywrWJLQ", "to": "me4Hxt8u", "width": 10}, {"from": "mK2saWSr", "to": "me4Hxt8u", "width": 10}, {"from": "QELJUJBf", "to": "me4Hxt8u", "width": 10}, {"from": "BdJHjaCE", "to": "me4Hxt8u", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

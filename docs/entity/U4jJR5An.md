@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: U4jJR5An
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                 | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :-------------------------: | :-----: | :-----------------------------------------------------: |
-    | U4jJR5An  | Rottleberode | human settlement in Germany |         | [Rottleberode](http://wwww.wikidata.org/entity/Q699137) |
+    | FAAM UUID | label        | description                 | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :-------------------------: | :-----: | :------------------------------------------------: |
+    | U4jJR5An  | Rottleberode | human settlement in Germany |         | [Rottleberode](http://wikidata.org/entity/Q699137) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/U4jJR5An.html" height="800" width="1200" title="U4jJR5An"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/U4jJR5An" height="800" width="1200" title="U4jJR5An"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kbd9itZ9
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                               | aliases                              | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :---------------------------------------: | :----------------------------------: | :------------------------------------------------------------------: |
-    | kbd9itZ9  | Faculty of Arts of Paris | French educational institution, 1808–1970 | Faculty of Arts and Letters of Paris | [Faculty of Arts of Paris](http://wwww.wikidata.org/entity/Q3064325) |
+    | FAAM UUID | label                    | description                               | aliases                              | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :---------------------------------------: | :----------------------------------: | :-------------------------------------------------------------: |
+    | kbd9itZ9  | Faculty of Arts of Paris | French educational institution, 1808–1970 | Faculty of Arts and Letters of Paris | [Faculty of Arts of Paris](http://wikidata.org/entity/Q3064325) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/kbd9itZ9.html" height="800" width="1200" title="kbd9itZ9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kbd9itZ9" height="800" width="1200" title="kbd9itZ9"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Eugène Talbot](./VaLifJKc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French classicist and translator (1814–1894)
 

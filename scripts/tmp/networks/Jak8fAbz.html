@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8mBATjSW", "label": "Johann Christoph Bach II", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8mBATjSW.md\u0027\u003eJohann Christoph Bach II\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Jak8fAbz", "label": "Erfurt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Jak8fAbz.md\u0027\u003eErfurt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city of German federated state of Thuringia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "WN5PAeAx", "label": "Kingdom of Prussia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WN5PAeAx.md\u0027\u003eKingdom of Prussia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer European state (1701\u20131918), part of the German Empire after 1871\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NcsUmtLU", "label": "Johann Christoph Bach III", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NcsUmtLU.md\u0027\u003eJohann Christoph Bach III\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eOrganist in Ohrdruf\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LZEG3pgN", "label": "Johann Ambrosius Bach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LZEG3pgN.md\u0027\u003eJohann Ambrosius Bach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman musician, father to Johann Sebastian Bach (1645-1695)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Ambrosius_Bach.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "8mBATjSW", "to": "Jak8fAbz", "width": 10}, {"from": "WN5PAeAx", "to": "Jak8fAbz", "width": 10}, {"from": "NcsUmtLU", "to": "Jak8fAbz", "width": 10}, {"from": "Jak8fAbz", "to": "LZEG3pgN", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NcsUmtLU", "label": "Johann Christoph Bach III", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NcsUmtLU\u0027\u003eJohann Christoph Bach III\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eOrganist in Ohrdruf\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Jak8fAbz", "label": "Erfurt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Jak8fAbz\u0027\u003eErfurt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city of German federated state of Thuringia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8mBATjSW", "label": "Johann Christoph Bach II", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8mBATjSW\u0027\u003eJohann Christoph Bach II\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LZEG3pgN", "label": "Johann Ambrosius Bach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LZEG3pgN\u0027\u003eJohann Ambrosius Bach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman musician, father to Johann Sebastian Bach (1645-1695)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Ambrosius_Bach.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "WN5PAeAx", "label": "Kingdom of Prussia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WN5PAeAx\u0027\u003eKingdom of Prussia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer European state (1701\u20131918), part of the German Empire after 1871\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "NcsUmtLU", "to": "Jak8fAbz", "width": 10}, {"from": "8mBATjSW", "to": "Jak8fAbz", "width": 10}, {"from": "LZEG3pgN", "to": "Jak8fAbz", "width": 10}, {"from": "Jak8fAbz", "to": "WN5PAeAx", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

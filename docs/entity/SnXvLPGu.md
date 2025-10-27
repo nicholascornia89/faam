@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SnXvLPGu
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                            | aliases             | Wikidata QID                                               |
-    | :-------: | :------------: | :----------------------------------------------------: | :-----------------: | :--------------------------------------------------------: |
-    | SnXvLPGu  | Black Mountain | town in Buncombe County, North Carolina, United States | Black Mountain, USA | [Black Mountain](http://wwww.wikidata.org/entity/Q2413277) |
+    | FAAM UUID | label          | description                                            | aliases             | Wikidata QID                                          |
+    | :-------: | :------------: | :----------------------------------------------------: | :-----------------: | :---------------------------------------------------: |
+    | SnXvLPGu  | Black Mountain | town in Buncombe County, North Carolina, United States | Black Mountain, USA | [Black Mountain](http://wikidata.org/entity/Q2413277) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/SnXvLPGu.html" height="800" width="1200" title="SnXvLPGu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SnXvLPGu" height="800" width="1200" title="SnXvLPGu"></iframe>
 
 ## Identifiers
 

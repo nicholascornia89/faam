@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: B7gtmRUk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description             | aliases      | Wikidata QID                                    |
-    | :-------: | :----: | :---------------------: | :----------: | :---------------------------------------------: |
-    | B7gtmRUk  | Troyes | commune in Aube, France | Troyes, Aube | [Troyes](http://wwww.wikidata.org/entity/Q5489) |
+    | FAAM UUID | label  | description             | aliases      | Wikidata QID                               |
+    | :-------: | :----: | :---------------------: | :----------: | :----------------------------------------: |
+    | B7gtmRUk  | Troyes | commune in Aube, France | Troyes, Aube | [Troyes](http://wikidata.org/entity/Q5489) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/B7gtmRUk.html" height="800" width="1200" title="B7gtmRUk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/B7gtmRUk" height="800" width="1200" title="B7gtmRUk"></iframe>
 
 ## Identifiers
 

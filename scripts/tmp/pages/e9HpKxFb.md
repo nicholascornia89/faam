@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: e9HpKxFb
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                       | aliases | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------------------------: | :-----: | :--------------------------------------------------------: |
-    | e9HpKxFb  | Chaumes-en-Brie | commune in Seine-et-Marne, France | Chaumes | [Chaumes-en-Brie](http://wwww.wikidata.org/entity/Q767562) |
+    | FAAM UUID | label           | description                       | aliases | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------------------------: | :-----: | :---------------------------------------------------: |
+    | e9HpKxFb  | Chaumes-en-Brie | commune in Seine-et-Marne, France | Chaumes | [Chaumes-en-Brie](http://wikidata.org/entity/Q767562) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/e9HpKxFb.html" height="800" width="1200" title="e9HpKxFb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/e9HpKxFb" height="800" width="1200" title="e9HpKxFb"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Louis Couperin](./KqBibisZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French Baroque composer
 

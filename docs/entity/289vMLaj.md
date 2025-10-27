@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 289vMLaj
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                   | aliases   | Wikidata QID                                        |
-    | :-------: | :-----: | :-------------------------------------------: | :-------: | :-------------------------------------------------: |
-    | 289vMLaj  | command | instruction that carries a legal duty to obey | directive | [command](http://wwww.wikidata.org/entity/Q1665268) |
+    | FAAM UUID | label   | description                                   | aliases   | Wikidata QID                                   |
+    | :-------: | :-----: | :-------------------------------------------: | :-------: | :--------------------------------------------: |
+    | 289vMLaj  | command | instruction that carries a legal duty to obey | directive | [command](http://wikidata.org/entity/Q1665268) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/289vMLaj.html" height="800" width="1200" title="289vMLaj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/289vMLaj" height="800" width="1200" title="289vMLaj"></iframe>
 
 ## Cross-references
 

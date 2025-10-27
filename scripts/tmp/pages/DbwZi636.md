@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DbwZi636
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description        | aliases                  | Wikidata QID                                                           |
-    | :-------: | :-----------------------: | :----------------: | :----------------------: | :--------------------------------------------------------------------: |
-    | DbwZi636  | Kent College (Canterbury) | school in Kent, UK | Kent College, Canterbury | [Kent College (Canterbury)](http://wwww.wikidata.org/entity/Q15235569) |
+    | FAAM UUID | label                     | description        | aliases                  | Wikidata QID                                                      |
+    | :-------: | :-----------------------: | :----------------: | :----------------------: | :---------------------------------------------------------------: |
+    | DbwZi636  | Kent College (Canterbury) | school in Kent, UK | Kent College, Canterbury | [Kent College (Canterbury)](http://wikidata.org/entity/Q15235569) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./JTE6ft4o.md)
+	[Kent](./JTE6ft4o.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/DbwZi636.html" height="800" width="1200" title="DbwZi636"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DbwZi636" height="800" width="1200" title="DbwZi636"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Thomas Dunhill](./Vp4ucERe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British composer
 

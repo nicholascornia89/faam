@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hoMFZs5A
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                         | aliases   | Wikidata QID                                        |
-    | :-------: | :--------: | :-----------------------------------------------------------------: | :-------: | :-------------------------------------------------: |
-    | hoMFZs5A  | Maastricht | city, municipality and capital of province Limburg, the Netherlands | Mastrique | [Maastricht](http://wwww.wikidata.org/entity/Q1309) |
+    | FAAM UUID | label      | description                                                         | aliases   | Wikidata QID                                   |
+    | :-------: | :--------: | :-----------------------------------------------------------------: | :-------: | :--------------------------------------------: |
+    | hoMFZs5A  | Maastricht | city, municipality and capital of province Limburg, the Netherlands | Mastrique | [Maastricht](http://wikidata.org/entity/Q1309) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/hoMFZs5A.html" height="800" width="1200" title="hoMFZs5A"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hoMFZs5A" height="800" width="1200" title="hoMFZs5A"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kcYzpAVp
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | aliases                             | description                             | Wikidata QID                                                                   |
-    | :-------: | :---------------------------------: | :---------------------------------: | :-------------------------------------: | :----------------------------------------------------------------------------: |
-    | kcYzpAVp  | Schwingt freudig euch empor, BWV 36 | Schwingt freudig euch empor, BWV 36 | church cantata by Johann Sebastian Bach | [Schwingt freudig euch empor, BWV 36](http://wwww.wikidata.org/entity/Q250776) |
+    | FAAM UUID | label                               | aliases                             | description                             | Wikidata QID                                                              |
+    | :-------: | :---------------------------------: | :---------------------------------: | :-------------------------------------: | :-----------------------------------------------------------------------: |
+    | kcYzpAVp  | Schwingt freudig euch empor, BWV 36 | Schwingt freudig euch empor, BWV 36 | church cantata by Johann Sebastian Bach | [Schwingt freudig euch empor, BWV 36](http://wikidata.org/entity/Q250776) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/kcYzpAVp.html" height="800" width="1200" title="kcYzpAVp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kcYzpAVp" height="800" width="1200" title="kcYzpAVp"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[9 Tenor-Arien : aus versch. Cantaten ; mit Begl. d. Pianoforte](./gex3sqyu.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
 
 	
 

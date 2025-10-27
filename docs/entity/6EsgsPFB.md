@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6EsgsPFB
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030900921021/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6EsgsPFB.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6EsgsPFB.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6EsgsPFB.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030900921021/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6EsgsPFB.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6EsgsPFB.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6EsgsPFB.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030900921021.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030900921021.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title     | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------: | :----------------------: | :-----------------------------------------------------------: |
-    | 6EsgsPFB  | KCA-030900921021      | Humoresca | [external URL](48ukXYmB) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title     | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 6EsgsPFB  | KCA-030900921021      | Humoresca | [external URL](https://anet.be/record/opacdkvc/c:lvd:6690624/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -73,10 +77,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/6EsgsPFB.html" height="800" width="1200" title="6EsgsPFB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6EsgsPFB" height="800" width="1200" title="6EsgsPFB"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/6EsgsPFB.html" height="800" width="1200" title="6EsgsPFB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/6EsgsPFB" height="800" width="1200" title="6EsgsPFB"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: McJC9Mfx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                         | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :-----------------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | McJC9Mfx  | Faenza | Italian city and comune, in the province of Ravenna, Emilia-Romagna |         | [Faenza](http://wwww.wikidata.org/entity/Q52981) |
+    | FAAM UUID | label  | description                                                         | aliases | Wikidata QID                                |
+    | :-------: | :----: | :-----------------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | McJC9Mfx  | Faenza | Italian city and comune, in the province of Ravenna, Emilia-Romagna |         | [Faenza](http://wikidata.org/entity/Q52981) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/McJC9Mfx.html" height="800" width="1200" title="McJC9Mfx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/McJC9Mfx" height="800" width="1200" title="McJC9Mfx"></iframe>
 
 ## Identifiers
 

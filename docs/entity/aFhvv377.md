@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aFhvv377
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                           | aliases | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------------------------------: | :-----: | :------------------------------------------------------: |
-    | aFhvv377  | Geiselgasteig | quarter of Grünwald, Bavaria, Germany |         | [Geiselgasteig](http://wwww.wikidata.org/entity/Q258622) |
+    | FAAM UUID | label         | description                           | aliases | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------------------------------: | :-----: | :-------------------------------------------------: |
+    | aFhvv377  | Geiselgasteig | quarter of Grünwald, Bavaria, Germany |         | [Geiselgasteig](http://wikidata.org/entity/Q258622) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/aFhvv377.html" height="800" width="1200" title="aFhvv377"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aFhvv377" height="800" width="1200" title="aFhvv377"></iframe>
 
 ## Identifiers
 

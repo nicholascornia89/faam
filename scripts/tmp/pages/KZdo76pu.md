@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KZdo76pu
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                   | aliases    | Wikidata QID                                        |
-    | :-------: | :------: | :-----------------------------------------------------------: | :--------: | :-------------------------------------------------: |
-    | KZdo76pu  | Edelstal | municipality in Neusiedl am See District, Burgenland, Austria | Nemesvölgy | [Edelstal](http://wwww.wikidata.org/entity/Q663362) |
+    | FAAM UUID | label    | description                                                   | aliases    | Wikidata QID                                   |
+    | :-------: | :------: | :-----------------------------------------------------------: | :--------: | :--------------------------------------------: |
+    | KZdo76pu  | Edelstal | municipality in Neusiedl am See District, Burgenland, Austria | Nemesvölgy | [Edelstal](http://wikidata.org/entity/Q663362) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/KZdo76pu.html" height="800" width="1200" title="KZdo76pu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KZdo76pu" height="800" width="1200" title="KZdo76pu"></iframe>
 
 ## Identifiers
 

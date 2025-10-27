@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8DHf9Yua
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8DHf9Yua.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8DHf9Yua.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8DHf9Yua.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8DHf9Yua.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8DHf9Yua.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8DHf9Yua.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                                              | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :------------------------------------------------------: | :--------------------------------------------------------: |
-    | 8DHf9Yua  | Alfred Dörffel | Alfred Dörffel | German librarian, publisher and musicologist (1821–1905) | [Alfred Dörffel](http://wwww.wikidata.org/entity/Q1758336) |
+    | FAAM UUID | label          | aliases        | description                                              | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :------------------------------------------------------: | :---------------------------------------------------: |
+    | 8DHf9Yua  | Alfred Dörffel | Alfred Dörffel | German librarian, publisher and musicologist (1821–1905) | [Alfred Dörffel](http://wikidata.org/entity/Q1758336) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8DHf9Yua.html" height="800" width="1200" title="8DHf9Yua"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8DHf9Yua" height="800" width="1200" title="8DHf9Yua"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,27 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Tu es Petrus, IGP 97](./2bLETYjG.md)__
+
+	Parody mass by Giovanni Pierluigi da Palestrina
+
+-	__[Missa Iste confessor IGP53](./PjTRnLov.md)__
+
+	
+
+-	__[Ecce quomodo moritur justus, IGP 19](./NocFjAwh.md)__
+
+	
+
+-	__[Omnes amici mei, IGP 70](./CcHL7gSJ.md)__
+
+	
+
+-	__[Adoramus te Christe, TriCo 28](./Qz6nenHY.md)__
+
+	
+
+</div>

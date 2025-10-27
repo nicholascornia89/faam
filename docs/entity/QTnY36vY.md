@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QTnY36vY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                                                      | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :----------------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | QTnY36vY  | Tikhvin | city and administrative center of Tikhvinsky District of Leningrad Oblast in northwestern Russia | Tihvinä | [Tikhvin](http://wwww.wikidata.org/entity/Q15336) |
+    | FAAM UUID | label   | description                                                                                      | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :----------------------------------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | QTnY36vY  | Tikhvin | city and administrative center of Tikhvinsky District of Leningrad Oblast in northwestern Russia | Tihvinä | [Tikhvin](http://wikidata.org/entity/Q15336) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/QTnY36vY.html" height="800" width="1200" title="QTnY36vY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QTnY36vY" height="800" width="1200" title="QTnY36vY"></iframe>
 
 ## Identifiers
 

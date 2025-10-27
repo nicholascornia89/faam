@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JteuXrMv
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases    | description                       | Wikidata QID                                           |
-    | :-------: | :--------: | :--------: | :-------------------------------: | :----------------------------------------------------: |
-    | JteuXrMv  | Charles VI | Charles VI | opera by Jacques Fromental Halévy | [Charles VI](http://wwww.wikidata.org/entity/Q5083098) |
+    | FAAM UUID | label      | aliases    | description                       | Wikidata QID                                      |
+    | :-------: | :--------: | :--------: | :-------------------------------: | :-----------------------------------------------: |
+    | JteuXrMv  | Charles VI | Charles VI | opera by Jacques Fromental Halévy | [Charles VI](http://wikidata.org/entity/Q5083098) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/JteuXrMv.html" height="800" width="1200" title="JteuXrMv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JteuXrMv" height="800" width="1200" title="JteuXrMv"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Charles VI : opera in 5 bedrijven](./o84GQDuG.md)__
 
-	![Image](../assets/images/thumbs/KCG-000348150.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000348150.gif){align=left width="150" height="150"} 
 
 	
 

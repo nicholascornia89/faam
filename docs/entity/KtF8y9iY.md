@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KtF8y9iY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                              | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :------------------------------------------------------: | :-----: | :-----------------------------------------------------: |
-    | KtF8y9iY  | Guntramsdorf | municipality in Mödling District, Lower Austria, Austria |         | [Guntramsdorf](http://wwww.wikidata.org/entity/Q661877) |
+    | FAAM UUID | label        | description                                              | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :------------------------------------------------------: | :-----: | :------------------------------------------------: |
+    | KtF8y9iY  | Guntramsdorf | municipality in Mödling District, Lower Austria, Austria |         | [Guntramsdorf](http://wikidata.org/entity/Q661877) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/KtF8y9iY.html" height="800" width="1200" title="KtF8y9iY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KtF8y9iY" height="800" width="1200" title="KtF8y9iY"></iframe>
 
 ## Identifiers
 

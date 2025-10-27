@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TwC8dFH4
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                      | aliases  | Wikidata QID                                                  |
-    | :-------: | :--------------: | :------------------------------: | :------: | :-----------------------------------------------------------: |
-    | TwC8dFH4  | television actor | actor who performs on television | TV actor | [television actor](http://wwww.wikidata.org/entity/Q10798782) |
+    | FAAM UUID | label            | description                      | aliases  | Wikidata QID                                             |
+    | :-------: | :--------------: | :------------------------------: | :------: | :------------------------------------------------------: |
+    | TwC8dFH4  | television actor | actor who performs on television | TV actor | [television actor](http://wikidata.org/entity/Q10798782) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/TwC8dFH4.html" height="800" width="1200" title="TwC8dFH4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TwC8dFH4" height="800" width="1200" title="TwC8dFH4"></iframe>
 
 ## Cross-references
 

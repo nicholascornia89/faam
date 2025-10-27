@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bknvSTij
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bknvSTij.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bknvSTij.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bknvSTij.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bknvSTij.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bknvSTij.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bknvSTij.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description          | Wikidata QID                                               |
-    | :-------: | :----------: | :-----: | :------------------: | :--------------------------------------------------------: |
-    | bknvSTij  | Henri Moreau |         | composer (1728-1803) | [Henri Moreau](http://wwww.wikidata.org/entity/Q106311097) |
+    | FAAM UUID | label        | aliases | description          | Wikidata QID                                          |
+    | :-------: | :----------: | :-----: | :------------------: | :---------------------------------------------------: |
+    | bknvSTij  | Henri Moreau |         | composer (1728-1803) | [Henri Moreau](http://wikidata.org/entity/Q106311097) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/bknvSTij.html" height="800" width="1200" title="bknvSTij"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bknvSTij" height="800" width="1200" title="bknvSTij"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[André Grétry](./DpgviBL9.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/André_Ernest_Modeste_Grétry_(cropped).jpg){align=left width="150" height="150"} 
+
+	composer from present-day Belgium (1741–1813)
+
+</div>

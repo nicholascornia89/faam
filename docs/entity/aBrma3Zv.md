@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aBrma3Zv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description             | aliases | Wikidata QID                                                       |
-    | :-------: | :---------------------: | :---------------------: | :-----: | :----------------------------------------------------------------: |
-    | aBrma3Zv  | Mallersdorf-Pfaffenberg | municipality of Germany | Mpf     | [Mallersdorf-Pfaffenberg](http://wwww.wikidata.org/entity/Q261440) |
+    | FAAM UUID | label                   | description             | aliases | Wikidata QID                                                  |
+    | :-------: | :---------------------: | :---------------------: | :-----: | :-----------------------------------------------------------: |
+    | aBrma3Zv  | Mallersdorf-Pfaffenberg | municipality of Germany | Mpf     | [Mallersdorf-Pfaffenberg](http://wikidata.org/entity/Q261440) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/aBrma3Zv.html" height="800" width="1200" title="aBrma3Zv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aBrma3Zv" height="800" width="1200" title="aBrma3Zv"></iframe>
 
 ## Identifiers
 

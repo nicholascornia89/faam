@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ixNesbEv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                         | aliases  | Wikidata QID                                      |
-    | :-------: | :----: | :---------------------------------: | :------: | :-----------------------------------------------: |
-    | ixNesbEv  | Vertou | commune in Loire-Atlantique, France | Gwerzhav | [Vertou](http://wwww.wikidata.org/entity/Q328077) |
+    | FAAM UUID | label  | description                         | aliases  | Wikidata QID                                 |
+    | :-------: | :----: | :---------------------------------: | :------: | :------------------------------------------: |
+    | ixNesbEv  | Vertou | commune in Loire-Atlantique, France | Gwerzhav | [Vertou](http://wikidata.org/entity/Q328077) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ixNesbEv.html" height="800" width="1200" title="ixNesbEv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ixNesbEv" height="800" width="1200" title="ixNesbEv"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Gustave Sandré](./PuX8Ceos.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1843–1916)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FMUnrC8w
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20140416/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FMUnrC8w.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FMUnrC8w.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FMUnrC8w.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20140416/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FMUnrC8w.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FMUnrC8w.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FMUnrC8w.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20140416.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20140416.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                         | permalink                | provenance                         |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :--------------------------------: |
-    | FMUnrC8w  | ORP-20140416          | Le Clavecin bien tempéré ou Préludes et fugues, 1ère partie. Dans tous les tons et demi-tons sur les modes majeurs et mineurs | [external URL](atGzytDR) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                         | permalink                                                      | provenance                         |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :--------------------------------: |
+    | FMUnrC8w  | ORP-20140416          | Le Clavecin bien tempéré ou Préludes et fugues, 1ère partie. Dans tous les tons et demi-tons sur les modes majeurs et mineurs | [external URL](https://www.cageweb.be/catalog/orp01:000000051) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ## Statements
 
@@ -98,10 +102,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/FMUnrC8w.html" height="800" width="1200" title="FMUnrC8w"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FMUnrC8w" height="800" width="1200" title="FMUnrC8w"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/FMUnrC8w.html" height="800" width="1200" title="FMUnrC8w"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/FMUnrC8w" height="800" width="1200" title="FMUnrC8w"></iframe>

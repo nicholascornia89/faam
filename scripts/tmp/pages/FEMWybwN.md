@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FEMWybwN
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FEMWybwN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FEMWybwN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FEMWybwN.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FEMWybwN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FEMWybwN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FEMWybwN.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description      | Wikidata QID                                                     |
-    | :-------: | :---------------: | :---------------: | :--------------: | :--------------------------------------------------------------: |
-    | FEMWybwN  | Pompeo Canniciari | Pompeo Canniciari | Italian composer | [Pompeo Cannicciari](http://wwww.wikidata.org/entity/Q131845088) |
+    | FAAM UUID | label             | aliases           | description      | Wikidata QID                                                |
+    | :-------: | :---------------: | :---------------: | :--------------: | :---------------------------------------------------------: |
+    | FEMWybwN  | Pompeo Canniciari | Pompeo Canniciari | Italian composer | [Pompeo Cannicciari](http://wikidata.org/entity/Q131845088) |
 
 <br><br><br>
 
@@ -51,13 +55,13 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./kdzVcbUL.md)
+	- [church musician](./kdzVcbUL.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FEMWybwN.html" height="800" width="1200" title="FEMWybwN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FEMWybwN" height="800" width="1200" title="FEMWybwN"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,19 @@ tags: agent
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Credo quod Redemptor](./fNEsU4iL.md)__
+
+	
+
+-	__[Missa in A minor](./AJRS4PAe.md)__
 
 	
 

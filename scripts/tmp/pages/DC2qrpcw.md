@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DC2qrpcw
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000349202/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DC2qrpcw.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DC2qrpcw.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DC2qrpcw.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000349202/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DC2qrpcw.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DC2qrpcw.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DC2qrpcw.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000349202.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000349202.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                  | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | DC2qrpcw  | KCG-000349202         | Le Pre aux Clercs : opera in 3 bedrijven : reductie voor zang en piano | [external URL](kxAqh9HR) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                  | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | DC2qrpcw  | KCG-000349202         | Le Pre aux Clercs : opera in 3 bedrijven : reductie voor zang en piano | [external URL](https://catalogus.hogent.be/catalog/hog01:000349202) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -96,10 +100,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/DC2qrpcw.html" height="800" width="1200" title="DC2qrpcw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DC2qrpcw" height="800" width="1200" title="DC2qrpcw"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/DC2qrpcw.html" height="800" width="1200" title="DC2qrpcw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/DC2qrpcw" height="800" width="1200" title="DC2qrpcw"></iframe>

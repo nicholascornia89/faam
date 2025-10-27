@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iUQBZYW5
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                  | aliases             | Wikidata QID                                                |
-    | :-------: | :--------------: | :--------------------------: | :-----------------: | :---------------------------------------------------------: |
-    | iUQBZYW5  | brass instrument | class of musical instruments | lip-reed instrument | [brass instrument](http://wwww.wikidata.org/entity/Q180744) |
+    | FAAM UUID | label            | description                  | aliases             | Wikidata QID                                           |
+    | :-------: | :--------------: | :--------------------------: | :-----------------: | :----------------------------------------------------: |
+    | iUQBZYW5  | brass instrument | class of musical instruments | lip-reed instrument | [brass instrument](http://wikidata.org/entity/Q180744) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/iUQBZYW5.html" height="800" width="1200" title="iUQBZYW5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iUQBZYW5" height="800" width="1200" title="iUQBZYW5"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GsNh97pk
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-43004086d/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GsNh97pk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GsNh97pk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GsNh97pk.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-43004086d/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GsNh97pk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GsNh97pk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GsNh97pk.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-43004086d.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43004086d.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                       | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | GsNh97pk  | BNF-43004086d         | Nouvelle méthode de chant des jeunes demoiselles (convenable aussi aux voix de mezzo soprano ou de second ténor, oeuvre 66) | [external URL](eKs65urh) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                       | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | GsNh97pk  | BNF-43004086d         | Nouvelle méthode de chant des jeunes demoiselles (convenable aussi aux voix de mezzo soprano ou de second ténor, oeuvre 66) | [external URL](http://catalogue.bnf.fr/ark:/12148/cb43004086d) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -60,10 +64,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/GsNh97pk.html" height="800" width="1200" title="GsNh97pk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GsNh97pk" height="800" width="1200" title="GsNh97pk"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/GsNh97pk.html" height="800" width="1200" title="GsNh97pk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/GsNh97pk" height="800" width="1200" title="GsNh97pk"></iframe>

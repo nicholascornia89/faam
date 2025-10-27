@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LCBnZLoP
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                             | aliases     | Wikidata QID                                               |
-    | :-------: | :-------------: | :-----------------------------------------------------: | :---------: | :--------------------------------------------------------: |
-    | LCBnZLoP  | chorale prelude | musical composition for organ based on a chorale melody | Orgelchoral | [chorale prelude](http://wwww.wikidata.org/entity/Q302987) |
+    | FAAM UUID | label           | description                                             | aliases     | Wikidata QID                                          |
+    | :-------: | :-------------: | :-----------------------------------------------------: | :---------: | :---------------------------------------------------: |
+    | LCBnZLoP  | chorale prelude | musical composition for organ based on a chorale melody | Orgelchoral | [chorale prelude](http://wikidata.org/entity/Q302987) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/LCBnZLoP.html" height="800" width="1200" title="LCBnZLoP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LCBnZLoP" height="800" width="1200" title="LCBnZLoP"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Festpräludium : zu dem Choral "Ein' feste Burg ist unser Gott": für die Orgel, op. 38](./JrXChdhy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127666.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127666.gif){align=left width="150" height="150"} 
 
 	
 

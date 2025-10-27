@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aNsNWzhA
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description    | aliases | Wikidata QID                                                    |
-    | :-------: | :-------------------: | :------------: | :-----: | :-------------------------------------------------------------: |
-    | aNsNWzhA  | San Vito dei Normanni | Italian comune |         | [San Vito dei Normanni](http://wwww.wikidata.org/entity/Q51878) |
+    | FAAM UUID | label                 | description    | aliases | Wikidata QID                                               |
+    | :-------: | :-------------------: | :------------: | :-----: | :--------------------------------------------------------: |
+    | aNsNWzhA  | San Vito dei Normanni | Italian comune |         | [San Vito dei Normanni](http://wikidata.org/entity/Q51878) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/aNsNWzhA.html" height="800" width="1200" title="aNsNWzhA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aNsNWzhA" height="800" width="1200" title="aNsNWzhA"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7FG3xHXk
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/UML-68584532/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7FG3xHXk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7FG3xHXk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7FG3xHXk.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/UML-68584532/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7FG3xHXk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7FG3xHXk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7FG3xHXk.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/UML-68584532.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/UML-68584532.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                      | permalink                | provenance                                      |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :---------------------------------------------: |
-    | 7FG3xHXk  | UML-68584532          | A theoretical and practical treatise on the art of singing = Trattato teorico-pratico sull'arte del canto / composed ... by Maria Anfossi. | [external URL](EXzrp8XT) | [University of Michigan Library](./j5hTzft8.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                      | permalink                                                                      | provenance                                      |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :---------------------------------------------: |
+    | 7FG3xHXk  | UML-68584532          | A theoretical and practical treatise on the art of singing = Trattato teorico-pratico sull'arte del canto / composed ... by Maria Anfossi. | [external URL](https://search.lib.umich.edu/catalog/record/990028142270106381) | [University of Michigan Library](./j5hTzft8.md) |
 
 ## Statements
 
@@ -80,10 +84,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/7FG3xHXk.html" height="800" width="1200" title="7FG3xHXk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7FG3xHXk" height="800" width="1200" title="7FG3xHXk"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/7FG3xHXk.html" height="800" width="1200" title="7FG3xHXk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/7FG3xHXk" height="800" width="1200" title="7FG3xHXk"></iframe>

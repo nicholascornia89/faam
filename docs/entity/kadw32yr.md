@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kadw32yr
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                                | aliases                                                                                  | Wikidata QID                                               |
-    | :-------: | :--------------: | :--------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------: |
-    | kadw32yr  | Magdalen College | constituent college of the University of Oxford in England | The President and Fellows of the College of St Mary Magdalen in the University of Oxford | [Magdalen College](http://wwww.wikidata.org/entity/Q81162) |
+    | FAAM UUID | label            | description                                                | aliases                                                                                  | Wikidata QID                                          |
+    | :-------: | :--------------: | :--------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :---------------------------------------------------: |
+    | kadw32yr  | Magdalen College | constituent college of the University of Oxford in England | The President and Fellows of the College of St Mary Magdalen in the University of Oxford | [Magdalen College](http://wikidata.org/entity/Q81162) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./YCA6PuiY.md)
+	[Oxford](./YCA6PuiY.md)
 
-	[](./G55Yyhx6.md)
+	[Oxford](./G55Yyhx6.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/kadw32yr.html" height="800" width="1200" title="kadw32yr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kadw32yr" height="800" width="1200" title="kadw32yr"></iframe>
 
 ## Cross-references
 

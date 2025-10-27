@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: csE7AoAF
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                | aliases | Wikidata QID                                              |
-    | :-------: | :------------: | :----------------------------------------: | :-----: | :-------------------------------------------------------: |
-    | csE7AoAF  | Rot an der Rot | municipality in Baden-Württemberg, Germany |         | [Rot an der Rot](http://wwww.wikidata.org/entity/Q527998) |
+    | FAAM UUID | label          | description                                | aliases | Wikidata QID                                         |
+    | :-------: | :------------: | :----------------------------------------: | :-----: | :--------------------------------------------------: |
+    | csE7AoAF  | Rot an der Rot | municipality in Baden-Württemberg, Germany |         | [Rot an der Rot](http://wikidata.org/entity/Q527998) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/csE7AoAF.html" height="800" width="1200" title="csE7AoAF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/csE7AoAF" height="800" width="1200" title="csE7AoAF"></iframe>
 
 ## Identifiers
 

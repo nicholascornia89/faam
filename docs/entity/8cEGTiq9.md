@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8cEGTiq9
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8cEGTiq9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8cEGTiq9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8cEGTiq9.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8cEGTiq9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8cEGTiq9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8cEGTiq9.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tobias_Haslinger_crop.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                           | Wikidata QID                                                 |
-    | :-------: | :--------------: | :--------------: | :-----------------------------------: | :----------------------------------------------------------: |
-    | 8cEGTiq9  | Tobias Haslinger | Tobias Haslinger | Austrian music publisher and composer | [Tobias Haslinger](http://wwww.wikidata.org/entity/Q2437818) |
+    | FAAM UUID | label            | aliases          | description                           | Wikidata QID                                            |
+    | :-------: | :--------------: | :--------------: | :-----------------------------------: | :-----------------------------------------------------: |
+    | 8cEGTiq9  | Tobias Haslinger | Tobias Haslinger | Austrian music publisher and composer | [Tobias Haslinger](http://wikidata.org/entity/Q2437818) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8cEGTiq9.html" height="800" width="1200" title="8cEGTiq9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8cEGTiq9" height="800" width="1200" title="8cEGTiq9"></iframe>
 
 ## Identifiers
 
@@ -85,19 +89,19 @@ tags: agent
 
 -	__[DER JUNGE OPERNFREUND](./YM8k9nyE.md)__
 
-	![Image](../assets/images/thumbs/KCG-000350901.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350901.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Fantasia chromatica](./G6fDRy98.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076574139707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076574139707356.gif){align=left width="150" height="150"} 
 
 	
 

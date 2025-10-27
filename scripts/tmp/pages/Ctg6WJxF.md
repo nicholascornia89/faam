@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ctg6WJxF
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030904673867/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Ctg6WJxF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Ctg6WJxF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Ctg6WJxF.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030904673867/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Ctg6WJxF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Ctg6WJxF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Ctg6WJxF.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904673867.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904673867.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                               | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | Ctg6WJxF  | KCA-030904673867      | Sonata n. 23 in Mi : per pianoforte | [external URL](2qoBxv5j) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                               | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :---------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | Ctg6WJxF  | KCA-030904673867      | Sonata n. 23 in Mi : per pianoforte | [external URL](https://anet.be/record/opacdkvc/c:lvd:15353816/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -91,10 +95,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Ctg6WJxF.html" height="800" width="1200" title="Ctg6WJxF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ctg6WJxF" height="800" width="1200" title="Ctg6WJxF"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Ctg6WJxF.html" height="800" width="1200" title="Ctg6WJxF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Ctg6WJxF" height="800" width="1200" title="Ctg6WJxF"></iframe>

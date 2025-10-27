@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oBYJjA9Y
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                        | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :--------------------------------: | :-----: | :------------------------------------------------: |
-    | oBYJjA9Y  | Beeskow | town in Brandenburg state, Germany |         | [Beeskow](http://wwww.wikidata.org/entity/Q572615) |
+    | FAAM UUID | label   | description                        | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :--------------------------------: | :-----: | :-------------------------------------------: |
+    | oBYJjA9Y  | Beeskow | town in Brandenburg state, Germany |         | [Beeskow](http://wikidata.org/entity/Q572615) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/oBYJjA9Y.html" height="800" width="1200" title="oBYJjA9Y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oBYJjA9Y" height="800" width="1200" title="oBYJjA9Y"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Max Seiffert](./KVupSpFz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist (1868–1948)
 

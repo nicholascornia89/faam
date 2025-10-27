@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: k9jEdy5a
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | description                                              | aliases                 | Wikidata QID                                                                |
-    | :-------: | :------------------------------: | :------------------------------------------------------: | :---------------------: | :-------------------------------------------------------------------------: |
-    | k9jEdy5a  | Prince-Archbishopric of Salzburg | prince-archbishopric in Central Europe between 1328–1803 | Fürsterzbistum Salzburg | [Prince-Archbishopric of Salzburg](http://wwww.wikidata.org/entity/Q701614) |
+    | FAAM UUID | label                            | description                                              | aliases                 | Wikidata QID                                                           |
+    | :-------: | :------------------------------: | :------------------------------------------------------: | :---------------------: | :--------------------------------------------------------------------: |
+    | k9jEdy5a  | Prince-Archbishopric of Salzburg | prince-archbishopric in Central Europe between 1328–1803 | Fürsterzbistum Salzburg | [Prince-Archbishopric of Salzburg](http://wikidata.org/entity/Q701614) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/k9jEdy5a.html" height="800" width="1200" title="k9jEdy5a"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/k9jEdy5a" height="800" width="1200" title="k9jEdy5a"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
 
 	Austrian composer of the Classical period (1756–1791)
 

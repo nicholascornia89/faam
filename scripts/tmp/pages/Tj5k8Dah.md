@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Tj5k8Dah
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                          | aliases        | Wikidata QID                                                |
-    | :-------: | :------------: | :----------------------------------: | :------------: | :---------------------------------------------------------: |
-    | Tj5k8Dah  | autobiographer | person who wrote their autobiography | autobiographer | [autobiographer](http://wwww.wikidata.org/entity/Q18814623) |
+    | FAAM UUID | label          | description                          | aliases        | Wikidata QID                                           |
+    | :-------: | :------------: | :----------------------------------: | :------------: | :----------------------------------------------------: |
+    | Tj5k8Dah  | autobiographer | person who wrote their autobiography | autobiographer | [autobiographer](http://wikidata.org/entity/Q18814623) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Tj5k8Dah.html" height="800" width="1200" title="Tj5k8Dah"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Tj5k8Dah" height="800" width="1200" title="Tj5k8Dah"></iframe>
 
 ## Cross-references
 

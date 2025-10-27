@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nVd92sv3
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                        | aliases | Wikidata QID                                      |
-    | :-------: | :------: | :--------------------------------: | :-----: | :-----------------------------------------------: |
-    | nVd92sv3  | Mannheim | city in Baden-Württemberg, Germany | Mannem  | [Mannheim](http://wwww.wikidata.org/entity/Q2119) |
+    | FAAM UUID | label    | description                        | aliases | Wikidata QID                                 |
+    | :-------: | :------: | :--------------------------------: | :-----: | :------------------------------------------: |
+    | nVd92sv3  | Mannheim | city in Baden-Württemberg, Germany | Mannem  | [Mannheim](http://wikidata.org/entity/Q2119) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nVd92sv3.html" height="800" width="1200" title="nVd92sv3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nVd92sv3" height="800" width="1200" title="nVd92sv3"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Peter Winter](./Rnb5nj5c.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/eb/Peter_Winter_1815.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Peter_Winter_1815.jpg){align=left width="150" height="150"} 
 
 	German opera composer
 
@@ -79,7 +83,7 @@ tags: city
 
 -	__[Franz Eck](./HJeQijVf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German violinist
 

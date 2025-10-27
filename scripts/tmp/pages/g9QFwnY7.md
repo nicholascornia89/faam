@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: g9QFwnY7
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                          | aliases               | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :----------------------------------: | :-------------------: | :---------------------------------------------------------------------: |
-    | g9QFwnY7  | Hochschule für Musik Detmold | German music conservatory in Detmold | Detmold Music Academy | [Hochschule für Musik Detmold](http://wwww.wikidata.org/entity/Q317855) |
+    | FAAM UUID | label                        | description                          | aliases               | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :----------------------------------: | :-------------------: | :----------------------------------------------------------------: |
+    | g9QFwnY7  | Hochschule für Musik Detmold | German music conservatory in Detmold | Detmold Music Academy | [Hochschule für Musik Detmold](http://wikidata.org/entity/Q317855) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./Cr5NYZu9.md)
+	[Detmold](./Cr5NYZu9.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/g9QFwnY7.html" height="800" width="1200" title="g9QFwnY7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/g9QFwnY7" height="800" width="1200" title="g9QFwnY7"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Wolfgang Fortner](./3vF4a5M7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and conductor (1907–1987)
 

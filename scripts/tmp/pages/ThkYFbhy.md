@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ThkYFbhy
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ThkYFbhy.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ThkYFbhy.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ThkYFbhy.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ThkYFbhy.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ThkYFbhy.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ThkYFbhy.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases         | description                                                     | Wikidata QID                                                            |
-    | :-------: | :-------------------------: | :-------------: | :-------------------------------------------------------------: | :---------------------------------------------------------------------: |
-    | ThkYFbhy  | Johann Baptist Singenberger | J. Singenberger | Swiss composer, music teacher, editor and publisher (1848-1924) | [Johann Baptist Singenberger](http://wwww.wikidata.org/entity/Q6215625) |
+    | FAAM UUID | label                       | aliases         | description                                                     | Wikidata QID                                                       |
+    | :-------: | :-------------------------: | :-------------: | :-------------------------------------------------------------: | :----------------------------------------------------------------: |
+    | ThkYFbhy  | Johann Baptist Singenberger | J. Singenberger | Swiss composer, music teacher, editor and publisher (1848-1924) | [Johann Baptist Singenberger](http://wikidata.org/entity/Q6215625) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ThkYFbhy.html" height="800" width="1200" title="ThkYFbhy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ThkYFbhy" height="800" width="1200" title="ThkYFbhy"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,7 @@ tags: agent
 
 -	__[Supplément à la Musica sacra, 1887-88 N.1](./SVrADgnM.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502040.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502040.gif){align=left width="150" height="150"} 
 
 	
 

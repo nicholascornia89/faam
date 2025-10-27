@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8DGz67Rt
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                            | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :------------------------------------: | :-----: | :----------------------------------------------: |
-    | 8DGz67Rt  | pace  | the tempo or rhythm that events happen | rhythm  | [pace](http://wwww.wikidata.org/entity/Q3306516) |
+    | FAAM UUID | label | description                            | aliases | Wikidata QID                                |
+    | :-------: | :---: | :------------------------------------: | :-----: | :-----------------------------------------: |
+    | 8DGz67Rt  | pace  | the tempo or rhythm that events happen | rhythm  | [pace](http://wikidata.org/entity/Q3306516) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/8DGz67Rt.html" height="800" width="1200" title="8DGz67Rt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8DGz67Rt" height="800" width="1200" title="8DGz67Rt"></iframe>
 
 ## Cross-references
 

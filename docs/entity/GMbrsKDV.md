@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GMbrsKDV
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                          | aliases          | Wikidata QID                                                  |
-    | :-------: | :----------------: | :--------------------------------------------------: | :--------------: | :-----------------------------------------------------------: |
-    | GMbrsKDV  | Kingdom of Romania | kingdom in Southeastern Europe between 1881 and 1947 | Regatul României | [Kingdom of Romania](http://wwww.wikidata.org/entity/Q203493) |
+    | FAAM UUID | label              | description                                          | aliases          | Wikidata QID                                             |
+    | :-------: | :----------------: | :--------------------------------------------------: | :--------------: | :------------------------------------------------------: |
+    | GMbrsKDV  | Kingdom of Romania | kingdom in Southeastern Europe between 1881 and 1947 | Regatul României | [Kingdom of Romania](http://wikidata.org/entity/Q203493) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/GMbrsKDV.html" height="800" width="1200" title="GMbrsKDV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GMbrsKDV" height="800" width="1200" title="GMbrsKDV"></iframe>
 
 ## Identifiers
 

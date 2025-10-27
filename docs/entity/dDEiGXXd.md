@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dDEiGXXd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :-----------------------------: | :-----: | :--------------------------------------------------: |
-    | dDEiGXXd  | Pontlevoy | commune in Loir-et-Cher, France |         | [Pontlevoy](http://wwww.wikidata.org/entity/Q266148) |
+    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :-----------------------------: | :-----: | :---------------------------------------------: |
+    | dDEiGXXd  | Pontlevoy | commune in Loir-et-Cher, France |         | [Pontlevoy](http://wikidata.org/entity/Q266148) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dDEiGXXd.html" height="800" width="1200" title="dDEiGXXd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dDEiGXXd" height="800" width="1200" title="dDEiGXXd"></iframe>
 
 ## Identifiers
 

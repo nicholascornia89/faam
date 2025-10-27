@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Dwap6GR3
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Dwap6GR3.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Dwap6GR3.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Dwap6GR3.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Dwap6GR3.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Dwap6GR3.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Dwap6GR3.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Stokowski_LOC_26447u.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                   | description                                 | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------------------: | :-----------------------------------------: | :----------------------------------------------------------: |
-    | Dwap6GR3  | Leopold Stokowski | Leopold Anthony Stokowski | British-born American conductor (1882–1977) | [Leopold Stokowski](http://wwww.wikidata.org/entity/Q297562) |
+    | FAAM UUID | label             | aliases                   | description                                 | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------------------: | :-----------------------------------------: | :-----------------------------------------------------: |
+    | Dwap6GR3  | Leopold Stokowski | Leopold Anthony Stokowski | British-born American conductor (1882–1977) | [Leopold Stokowski](http://wikidata.org/entity/Q297562) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Dwap6GR3.html" height="800" width="1200" title="Dwap6GR3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Dwap6GR3" height="800" width="1200" title="Dwap6GR3"></iframe>
 
 ## Identifiers
 

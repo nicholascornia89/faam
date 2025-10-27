@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mNynReve
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                             | aliases | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :-------------------------------------: | :-----: | :---------------------------------------------------------------: |
-    | mNynReve  | Conservatoire de Paris | music and dance school in Paris, France | CNSMDP  | [Conservatoire de Paris](http://wwww.wikidata.org/entity/Q463055) |
+    | FAAM UUID | label                  | description                             | aliases | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :-------------------------------------: | :-----: | :----------------------------------------------------------: |
+    | mNynReve  | Conservatoire de Paris | music and dance school in Paris, France | CNSMDP  | [Conservatoire de Paris](http://wikidata.org/entity/Q463055) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/mNynReve.html" height="800" width="1200" title="mNynReve"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mNynReve" height="800" width="1200" title="mNynReve"></iframe>
 
 ## Cross-references
 
@@ -47,19 +51,19 @@ tags: music_organization
 
 -	__[Ecole du violon, Méthode complète et progressive à l'usage du Conservatoire](./iBZ5XdH6.md)__
 
-	![Image](../assets/images/thumbs/BNF-42810019r.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42810019r.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Théories complètes du chant / par M. Stéphen de La Madelaine...](./VWxfQNha.md)__
 
-	![Image](../assets/images/thumbs/BNF-324059706.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-324059706.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Basses et chants donnés aux examens et concours des classes d'harmonie et d'accompagnement (années 1827-1900) / recueillis par Constant Pierre](./EXFpFukw.md)__
 
-	![Image](../assets/images/thumbs/BNF-43204301c.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43204301c.gif){align=left width="150" height="150"} 
 
 	
 
@@ -75,13 +79,13 @@ tags: music_organization
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
 -	__[Louis-François Dauprat](./9sgtLnWS.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
 
 	French composer and horn-player
 
@@ -201,7 +205,7 @@ tags: music_organization
 
 -	__[Charles Labro](./L7UbY6cm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and double bass player
 
@@ -267,7 +271,7 @@ tags: music_organization
 
 -	__[Charles Baudiot](./NnHKaK9g.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French cellist, composer and music educator
 
@@ -279,7 +283,7 @@ tags: music_organization
 
 -	__[François-René Gebauer](./fMmiNPr6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French bassoonist and composer
 
@@ -309,7 +313,7 @@ tags: music_organization
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
@@ -333,7 +337,7 @@ tags: music_organization
 
 -	__[Stanislas Verroust](./EFo9QgMr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, teacher and oboist (1814-1863)
 
@@ -357,7 +361,7 @@ tags: music_organization
 
 -	__[Adolphe Adam](./Y7stG82h.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Adolphe_Adam.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolphe_Adam.jpg){align=left width="150" height="150"} 
 
 	French composer (1803–1856)
 
@@ -369,7 +373,7 @@ tags: music_organization
 
 -	__[Fromental Halévy](./NPPV2XtG.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
 
 	French composer
 
@@ -447,7 +451,7 @@ tags: music_organization
 
 -	__[Balthazar Lutgen](./FFvHWePM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French music teacher
 
@@ -525,7 +529,7 @@ tags: music_organization
 
 -	__[Antonin Marmontel](./Rj4bGWry.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, pianist and music educator (1850–1907)
 
@@ -573,7 +577,7 @@ tags: music_organization
 
 -	__[Aimé Leborne](./AWxaRSam.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music educator
 
@@ -609,13 +613,13 @@ tags: music_organization
 
 -	__[Marie-Pierre Chénié](./RRZ5NMaw.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1773-1832)
 
 -	__[Louis-François Chaft](./KEsfoE9o.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -633,7 +637,7 @@ tags: music_organization
 
 -	__[Henri-Jean Rigel](./nqNsEqzn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist
 
@@ -651,7 +655,7 @@ tags: music_organization
 
 -	__[Aimée Van de Wiele](./Qj6RwzVa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, musicologist and music educator (1907–1991)
 
@@ -675,7 +679,7 @@ tags: music_organization
 
 -	__[Jean-Baptiste-Aimé Joseph Janson](./HqrR2CSY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, cellist and music educator (1742-1803)
 
@@ -699,7 +703,7 @@ tags: music_organization
 
 -	__[Johann Georg Wunderlich](./idqENLhq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and musician
 
@@ -741,55 +745,55 @@ tags: music_organization
 
 -	__[Louis Vierne](./YbVtaBnQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1870–1937)
 
 -	__[Berthold Damcke](./QGEdkwHf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer, pianist, conductor, music educator, music critic and newspaper correspondent (1812-1875)
 
 -	__[Manuel García](./6Xda8WHT.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish singing teacher (1805-1906)
 
 -	__[Niccolò Piccinni](./67d73Xph.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Hippolyte-Raymond Colet](./AnuyMmYL.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music educator (1808–1851)
 
 -	__[Paul Vidal](./Ucu6hfrE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, conductor and music teacher (1863–1931)
 
 -	__[Marie-Antoinette Got-Roy](./WrJhnq2h.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French pianist
 
 -	__[Martin Pierre Marsick](./BQAaQ6z5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1847-1924)
 
 -	__[Jean-Louis Duport](./XGwXMqpM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	cellist and composer
 
@@ -807,19 +811,19 @@ tags: music_organization
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
 -	__[Louis-François Dauprat](./9sgtLnWS.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Fran%C3%A7ois_Dauprat.jpg){align=left width="150" height="150"} 
 
 	French composer and horn-player
 
 -	__[Julie Dorus-Gras](./cFRPbHXZ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/f/fa/JulieDorus-Gras.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/JulieDorus-Gras.jpg){align=left width="150" height="150"} 
 
 	singer (1805–1896)
 
@@ -855,7 +859,7 @@ tags: music_organization
 
 -	__[Paul Pierné](./3kR3ygqu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1874-1952)
 
@@ -885,7 +889,7 @@ tags: music_organization
 
 -	__[Charles Levadé](./V6W5MAQr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1869-1948)
 
@@ -927,7 +931,7 @@ tags: music_organization
 
 -	__[Raymond Pech](./27knDtjx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1876–1952)
 
@@ -1011,7 +1015,7 @@ tags: music_organization
 
 -	__[Alix Fournier](./k86xhxkG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1864-1897)
 
@@ -1071,7 +1075,7 @@ tags: music_organization
 
 -	__[Charles Labro](./L7UbY6cm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and double bass player
 
@@ -1101,7 +1105,7 @@ tags: music_organization
 
 -	__[Jean Gabriel Marie](./KChV7zcZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and conductor (1852-1928)
 
@@ -1113,13 +1117,13 @@ tags: music_organization
 
 -	__[Ernest Gillet](./Sjw2pJu9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician and composer (1856-1940)
 
 -	__[Jean-Baptiste-Joseph Tolbecque](./9FCtqmNH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, violinist and conductor
 
@@ -1131,7 +1135,7 @@ tags: music_organization
 
 -	__[Charles Renaud de Vilbac](./gC6LReJJ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and organist (1829–1884)
 
@@ -1233,7 +1237,7 @@ tags: music_organization
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
@@ -1257,13 +1261,13 @@ tags: music_organization
 
 -	__[Stanislas Verroust](./EFo9QgMr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, teacher and oboist (1814-1863)
 
 -	__[Xavier Boisselot](./GziVRsjy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/56/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
 
 	Composer and piano maker (1811-1893)
 
@@ -1281,13 +1285,13 @@ tags: music_organization
 
 -	__[Adolphe Adam](./Y7stG82h.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Adolphe_Adam.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolphe_Adam.jpg){align=left width="150" height="150"} 
 
 	French composer (1803–1856)
 
 -	__[Fromental Halévy](./NPPV2XtG.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
 
 	French composer
 
@@ -1359,7 +1363,7 @@ tags: music_organization
 
 -	__[Jacques-Jules Bouffil](./9w96fD4i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 
@@ -1389,7 +1393,7 @@ tags: music_organization
 
 -	__[Jacques-Jules Bouffil](./DKrwNAM8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 
@@ -1473,7 +1477,7 @@ tags: music_organization
 
 -	__[Aimé Leborne](./AWxaRSam.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music educator
 
@@ -1497,7 +1501,7 @@ tags: music_organization
 
 -	__[Louis-François Chaft](./KEsfoE9o.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -1545,7 +1549,7 @@ tags: music_organization
 
 -	__[Félix Cazot](./EUMKhzpe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and pianist (1790–1857)
 

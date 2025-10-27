@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: H44dVBEk
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description           | aliases                 | Wikidata QID                                                     |
-    | :-------: | :--------------------: | :-------------------: | :---------------------: | :--------------------------------------------------------------: |
-    | H44dVBEk  | University of Salzburg | university in Austria | Paris Lodron University | [University of Salzburg](http://wwww.wikidata.org/entity/Q27265) |
+    | FAAM UUID | label                  | description           | aliases                 | Wikidata QID                                                |
+    | :-------: | :--------------------: | :-------------------: | :---------------------: | :---------------------------------------------------------: |
+    | H44dVBEk  | University of Salzburg | university in Austria | Paris Lodron University | [University of Salzburg](http://wikidata.org/entity/Q27265) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/H44dVBEk.html" height="800" width="1200" title="H44dVBEk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/H44dVBEk" height="800" width="1200" title="H44dVBEk"></iframe>
 
 ## Cross-references
 

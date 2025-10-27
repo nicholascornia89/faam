@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c5ZKjhf7
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description              | aliases          | Wikidata QID                                              |
-    | :-------: | :-----------: | :----------------------: | :--------------: | :-------------------------------------------------------: |
-    | c5ZKjhf7  | music teacher | person who teaches music | teacher of music | [music teacher](http://wwww.wikidata.org/entity/Q2675537) |
+    | FAAM UUID | label         | description              | aliases          | Wikidata QID                                         |
+    | :-------: | :-----------: | :----------------------: | :--------------: | :--------------------------------------------------: |
+    | c5ZKjhf7  | music teacher | person who teaches music | teacher of music | [music teacher](http://wikidata.org/entity/Q2675537) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/c5ZKjhf7.html" height="800" width="1200" title="c5ZKjhf7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c5ZKjhf7" height="800" width="1200" title="c5ZKjhf7"></iframe>
 
 ## Cross-references
 
@@ -37,19 +41,19 @@ tags: occupation
 
 -	__[François Everaerts](./7QBwBhWa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer
 
 -	__[Julia Sureau-Bellet](./VAotUxhx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Anna Lankow](./X9dMHKAY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -61,7 +65,7 @@ tags: occupation
 
 -	__[Frédéric Bonzon](./7GsKtem6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch composer and oboist
 
@@ -79,19 +83,19 @@ tags: occupation
 
 -	__[Franz Xaver Gleichauf](./9A7T4C3U.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Friedrich August Roitzsch](./hgyCbyUG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	born:1805|died:1889|; Roitzsch, F. A. (Friedrich August), 1805-1889; Roitzsch, F.A. (Ferdinand August), 1808-1889; Roitzsch, F.A.; Roitzsch, Ferdinand, 1805-1889; Roitzsch, Ferdinand
 
 -	__[Alfeo Buya](./YZXcaKsg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and music educator
 
@@ -103,7 +107,7 @@ tags: occupation
 
 -	__[Anton Halm](./Jk8XEGH5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 

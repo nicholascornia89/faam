@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UczAjTSk
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                 | aliases     | Wikidata QID                                        |
-    | :-------: | :-----: | :-------------------------: | :---------: | :-------------------------------------------------: |
-    | UczAjTSk  | harpist | musician who plays the harp | harp player | [harpist](http://wwww.wikidata.org/entity/Q3127709) |
+    | FAAM UUID | label   | description                 | aliases     | Wikidata QID                                   |
+    | :-------: | :-----: | :-------------------------: | :---------: | :--------------------------------------------: |
+    | UczAjTSk  | harpist | musician who plays the harp | harp player | [harpist](http://wikidata.org/entity/Q3127709) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/UczAjTSk.html" height="800" width="1200" title="UczAjTSk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UczAjTSk" height="800" width="1200" title="UczAjTSk"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Jeanne Dalliès](./DzK8Nnk8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French harpist and musicologist
 
@@ -55,7 +59,7 @@ tags: occupation
 
 -	__[Jacques Georges Cousineau](./86S8QHRK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French harpmaker
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Henry Bénigne](./EvARkkcs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, harpist, singer and music teacher
 

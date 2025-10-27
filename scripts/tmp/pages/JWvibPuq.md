@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JWvibPuq
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                          | aliases | Wikidata QID                                                  |
-    | :-------: | :-------------: | :----------------------------------: | :-----: | :-----------------------------------------------------------: |
-    | JWvibPuq  | non-piped organ | aerophone or electrophone instrument |         | [non-piped organ](http://wwww.wikidata.org/entity/Q115863085) |
+    | FAAM UUID | label           | description                          | aliases | Wikidata QID                                             |
+    | :-------: | :-------------: | :----------------------------------: | :-----: | :------------------------------------------------------: |
+    | JWvibPuq  | non-piped organ | aerophone or electrophone instrument |         | [non-piped organ](http://wikidata.org/entity/Q115863085) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/JWvibPuq.html" height="800" width="1200" title="JWvibPuq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JWvibPuq" height="800" width="1200" title="JWvibPuq"></iframe>
 
 ## Cross-references
 

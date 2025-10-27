@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ni7UNMie
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-43257934r/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Ni7UNMie.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Ni7UNMie.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Ni7UNMie.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-43257934r/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Ni7UNMie.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Ni7UNMie.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Ni7UNMie.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-43257934r.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257934r.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                  | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :----------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | Ni7UNMie  | BNF-43257934r         | Sonate n° 38 [i.e. 96] : gigue / Domenico Scarlatti... | [external URL](6fQyHcwz) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                  | permalink                                                       | provenance                                        |
+    | :-------: | :-------------------: | :----------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------: |
+    | Ni7UNMie  | BNF-43257934r         | Sonate n° 38 [i.e. 96] : gigue / Domenico Scarlatti... | [external URL](https://catalogue.bnf.fr/ark:/12148/cb43257934r) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -83,10 +87,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Ni7UNMie.html" height="800" width="1200" title="Ni7UNMie"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ni7UNMie" height="800" width="1200" title="Ni7UNMie"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Ni7UNMie.html" height="800" width="1200" title="Ni7UNMie"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Ni7UNMie" height="800" width="1200" title="Ni7UNMie"></iframe>

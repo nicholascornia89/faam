@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:a6WmY75X a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1809-09-28"^^xsd:string ;
+    schema1:birthPlace faamentity:WeaEEeU5 ;
+    schema1:deathDate "1861-11-03"^^xsd:string ;
+    schema1:deathPlace faamentity:4GU7NjmQ ;
+    schema1:description "German music publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q29592765>,
+        "16004339"^^xsd:string,
+        "a6WmY75X"^^xsd:string ;
+    skos:altLabel "Friedrich Whistling"^^xsd:string,
+        "Friedrich Wilhelm Whistling"^^xsd:string ;
+    skos:prefLabel "Friedrich Whistling"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:95610240 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:MwhmFC4w .
+

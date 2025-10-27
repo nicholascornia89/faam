@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bQee2zg9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description             | aliases | Wikidata QID                                           |
-    | :-------: | :--------: | :---------------------: | :-----: | :----------------------------------------------------: |
-    | bQee2zg9  | rue Daunou | street in Paris, France |         | [rue Daunou](http://wwww.wikidata.org/entity/Q3447625) |
+    | FAAM UUID | label      | description             | aliases | Wikidata QID                                      |
+    | :-------: | :--------: | :---------------------: | :-----: | :-----------------------------------------------: |
+    | bQee2zg9  | rue Daunou | street in Paris, France |         | [rue Daunou](http://wikidata.org/entity/Q3447625) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bQee2zg9.html" height="800" width="1200" title="bQee2zg9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bQee2zg9" height="800" width="1200" title="bQee2zg9"></iframe>
 
 ## Identifiers
 

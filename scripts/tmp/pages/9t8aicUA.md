@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9t8aicUA
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030903514815/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/9t8aicUA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/9t8aicUA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/9t8aicUA.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030903514815/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/9t8aicUA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/9t8aicUA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/9t8aicUA.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030903514815.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903514815.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                          | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 9t8aicUA  | KCA-030903514815      | Pièces pour le Clavecin par Domenico Scarlatti | [external URL](UJ57Ew5y) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                          | permalink                     | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------: | :---------------------------: | :-----------------------------------------------------------: |
+    | 9t8aicUA  | KCA-030903514815      | Pièces pour le Clavecin par Domenico Scarlatti | [external URL](not available) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -95,10 +99,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/9t8aicUA.html" height="800" width="1200" title="9t8aicUA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9t8aicUA" height="800" width="1200" title="9t8aicUA"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/9t8aicUA.html" height="800" width="1200" title="9t8aicUA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/9t8aicUA" height="800" width="1200" title="9t8aicUA"></iframe>

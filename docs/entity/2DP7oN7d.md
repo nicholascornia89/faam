@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2DP7oN7d
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2DP7oN7d.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2DP7oN7d.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2DP7oN7d.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2DP7oN7d.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2DP7oN7d.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2DP7oN7d.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases      | description                               | Wikidata QID                                            |
-    | :-------: | :---------: | :----------: | :---------------------------------------: | :-----------------------------------------------------: |
-    | 2DP7oN7d  | James Turle | Jacopo Turle | English organist and composer (1802-1882) | [James Turle](http://wwww.wikidata.org/entity/Q6144471) |
+    | FAAM UUID | label       | aliases      | description                               | Wikidata QID                                       |
+    | :-------: | :---------: | :----------: | :---------------------------------------: | :------------------------------------------------: |
+    | 2DP7oN7d  | James Turle | Jacopo Turle | English organist and composer (1802-1882) | [James Turle](http://wikidata.org/entity/Q6144471) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/2DP7oN7d.html" height="800" width="1200" title="2DP7oN7d"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2DP7oN7d" height="800" width="1200" title="2DP7oN7d"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Walter Cecil Macfarren](./Vk44zu9x.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Walter_Cecil_Macfarren_001.jpg){align=left width="150" height="150"} 
+
+	English pianist and composer
+
+</div>

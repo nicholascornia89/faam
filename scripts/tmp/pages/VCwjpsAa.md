@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VCwjpsAa
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                        | aliases | Wikidata QID                                                  |
-    | :-------: | :--------------: | :------------------------------------------------: | :-----: | :-----------------------------------------------------------: |
-    | VCwjpsAa  | recording artist | person, musician who performs music for recordings |         | [recording artist](http://wwww.wikidata.org/entity/Q55960555) |
+    | FAAM UUID | label            | description                                        | aliases | Wikidata QID                                             |
+    | :-------: | :--------------: | :------------------------------------------------: | :-----: | :------------------------------------------------------: |
+    | VCwjpsAa  | recording artist | person, musician who performs music for recordings |         | [recording artist](http://wikidata.org/entity/Q55960555) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/VCwjpsAa.html" height="800" width="1200" title="VCwjpsAa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VCwjpsAa" height="800" width="1200" title="VCwjpsAa"></iframe>
 
 ## Cross-references
 

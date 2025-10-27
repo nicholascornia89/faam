@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4ad55yoD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/4ad55yoD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/4ad55yoD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/4ad55yoD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/4ad55yoD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/4ad55yoD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/4ad55yoD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Blanche_Selva.jpeg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases             | description     | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----------------: | :-------------: | :-------------------------------------------------------: |
-    | 4ad55yoD  | Blanche Selva | Marie Blanche Selva | French composer | [Blanche Selva](http://wwww.wikidata.org/entity/Q2906016) |
+    | FAAM UUID | label         | aliases             | description     | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----------------: | :-------------: | :--------------------------------------------------: |
+    | 4ad55yoD  | Blanche Selva | Marie Blanche Selva | French composer | [Blanche Selva](http://wikidata.org/entity/Q2906016) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/4ad55yoD.html" height="800" width="1200" title="4ad55yoD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4ad55yoD" height="800" width="1200" title="4ad55yoD"></iframe>
 
 ## Identifiers
 
@@ -85,20 +89,36 @@ tags: agent
 
 -	__[Fantaisie Chromatique et Fugue : BWV 903](./cVDimCi6.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331890.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331890.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concerto Italien : klavecimbel](./BLnh4CjG.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331927.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331927.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le clavecin bien tempéré : pour piano, Livre I](./UKouFUpF.md)__
 
-	![Image](../assets/images/thumbs/KCG-000549373.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000549373.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Italienisches Konzert, BWV 971](./2hkfvFN4.md)__
+
+	composition for keyboard by J. S. Bach
+
+-	__[Chromatic Fantasia and Fugue, BWV 903](./MHKmHYhH.md)__
+
+	composition for keyboard by J. S. Bach
+
+-	__[The Well-Tempered Clavier](./dwdaRArz.md)__
+
+	collection of solo keyboard music by J.S. Bach
 
 </div>

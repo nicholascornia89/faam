@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HdRiDhLK
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HdRiDhLK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HdRiDhLK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HdRiDhLK.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HdRiDhLK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HdRiDhLK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HdRiDhLK.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases | description | Wikidata QID                                                     |
-    | :-------: | :-----------------: | :-----: | :---------: | :--------------------------------------------------------------: |
-    | HdRiDhLK  | Agostino Bendinelli |         |             | [Agostino Bendinelli](http://wwww.wikidata.org/entity/Q61997412) |
+    | FAAM UUID | label               | aliases | description | Wikidata QID                                                |
+    | :-------: | :-----------------: | :-----: | :---------: | :---------------------------------------------------------: |
+    | HdRiDhLK  | Agostino Bendinelli |         |             | [Agostino Bendinelli](http://wikidata.org/entity/Q61997412) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/HdRiDhLK.html" height="800" width="1200" title="HdRiDhLK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HdRiDhLK" height="800" width="1200" title="HdRiDhLK"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Maria Bononcini](./Vu2kcv7w.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Maria_Bononcini.jpg){align=left width="150" height="150"} 
+
+	Italian violinist and composer (1642-1678)
+
+</div>

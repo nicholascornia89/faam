@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NSkqAh3R
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NSkqAh3R.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NSkqAh3R.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NSkqAh3R.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NSkqAh3R.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NSkqAh3R.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NSkqAh3R.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description     | Wikidata QID                                                    |
-    | :-------: | :---------------: | :---------------: | :-------------: | :-------------------------------------------------------------: |
-    | NSkqAh3R  | Florine Mouvielle | Florine Mouvielle | French composer | [Florine Mouvielle](http://wwww.wikidata.org/entity/Q126722520) |
+    | FAAM UUID | label             | aliases           | description     | Wikidata QID                                               |
+    | :-------: | :---------------: | :---------------: | :-------------: | :--------------------------------------------------------: |
+    | NSkqAh3R  | Florine Mouvielle | Florine Mouvielle | French composer | [Florine Mouvielle](http://wikidata.org/entity/Q126722520) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NSkqAh3R.html" height="800" width="1200" title="NSkqAh3R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NSkqAh3R" height="800" width="1200" title="NSkqAh3R"></iframe>
 
 ## Identifiers
 
@@ -67,8 +71,18 @@ tags: agent
 
 -	__[Vole Vite](./TpT4SaZw.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p21.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p21.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Marie Lassaveur](./JDmGtCKG.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French composer
 
 </div>

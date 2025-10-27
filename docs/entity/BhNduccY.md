@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BhNduccY
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description              | aliases | Wikidata QID                                                    |
-    | :-------: | :------------------: | :----------------------: | :-----: | :-------------------------------------------------------------: |
-    | BhNduccY  | Stiftsgymnasium Melk | Austrian monastic school |         | [Stiftsgymnasium Melk](http://wwww.wikidata.org/entity/Q260581) |
+    | FAAM UUID | label                | description              | aliases | Wikidata QID                                               |
+    | :-------: | :------------------: | :----------------------: | :-----: | :--------------------------------------------------------: |
+    | BhNduccY  | Stiftsgymnasium Melk | Austrian monastic school |         | [Stiftsgymnasium Melk](http://wikidata.org/entity/Q260581) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/BhNduccY.html" height="800" width="1200" title="BhNduccY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BhNduccY" height="800" width="1200" title="BhNduccY"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FA3sCouY
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------------: | :-----: | :---------: | :----------------------------------: |
-    | FA3sCouY  | String Quintet No.2, Op.51 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                      | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------------: | :-----: | :---------: | :-----------------------------: |
+    | FA3sCouY  | String Quintet No.2, Op.51 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/FA3sCouY.html" height="800" width="1200" title="FA3sCouY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FA3sCouY" height="800" width="1200" title="FA3sCouY"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[2me. Quintette ou Sextuor : pour deux Violons, deux Altos, Violoncelle et Contrebasse (ad libitum) : Op. 51](./jiooCs7A.md)__
 
-	![Image](../assets/images/thumbs/KCG-000356465.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000356465.gif){align=left width="150" height="150"} 
 
 	
 

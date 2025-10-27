@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6SDpLwXq
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                    | aliases         | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :----------------------------: | :-------------: | :----------------------------------------------------------------: |
-    | 6SDpLwXq  | Lycée Pierre-Corneille | public school in Rouen, France | Lycée Corneille | [Lycée Pierre-Corneille](http://wwww.wikidata.org/entity/Q3268638) |
+    | FAAM UUID | label                  | description                    | aliases         | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :----------------------------: | :-------------: | :-----------------------------------------------------------: |
+    | 6SDpLwXq  | Lycée Pierre-Corneille | public school in Rouen, France | Lycée Corneille | [Lycée Pierre-Corneille](http://wikidata.org/entity/Q3268638) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/6SDpLwXq.html" height="800" width="1200" title="6SDpLwXq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6SDpLwXq" height="800" width="1200" title="6SDpLwXq"></iframe>
 
 ## Cross-references
 

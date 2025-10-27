@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: STmQ9ouS
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | aliases                                                   | description                       | Wikidata QID                                                                                         |
-    | :-------: | :------------------------: | :-------------------------------------------------------: | :-------------------------------: | :--------------------------------------------------------------------------------------------------: |
-    | STmQ9ouS  | Piano Concerto No.1, Op.11 | Concerto for Piano and Orchestra no. 1 in E minor, op. 11 | piano concerto by Frédéric Chopin | [Concerto for Piano and Orchestra no. 1 in E minor, op. 11](http://wwww.wikidata.org/entity/Q162884) |
+    | FAAM UUID | label                      | aliases                                                   | description                       | Wikidata QID                                                                                    |
+    | :-------: | :------------------------: | :-------------------------------------------------------: | :-------------------------------: | :---------------------------------------------------------------------------------------------: |
+    | STmQ9ouS  | Piano Concerto No.1, Op.11 | Concerto for Piano and Orchestra no. 1 in E minor, op. 11 | piano concerto by Frédéric Chopin | [Concerto for Piano and Orchestra no. 1 in E minor, op. 11](http://wikidata.org/entity/Q162884) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/STmQ9ouS.html" height="800" width="1200" title="STmQ9ouS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/STmQ9ouS" height="800" width="1200" title="STmQ9ouS"></iframe>
 
 ## Identifiers
 
@@ -65,13 +69,13 @@ tags: musical_work
 
 -	__[Concerto N° 1 in e : voor piano enOrchestra : Opus 11.](./FTZ58fP3.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339397.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339397.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concerto N° 1 in e : voor piano enOrchestra : Opus 11.](./Js8pCRJz.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339398.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339398.gif){align=left width="150" height="150"} 
 
 	
 

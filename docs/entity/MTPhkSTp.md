@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MTPhkSTp
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MTPhkSTp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MTPhkSTp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MTPhkSTp.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MTPhkSTp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MTPhkSTp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MTPhkSTp.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description                     | Wikidata QID                                             |
-    | :-------: | :------------: | :-----: | :-----------------------------: | :------------------------------------------------------: |
-    | MTPhkSTp  | Theodor Kroyer |         | German musicologist (1873-1945) | [Theodor Kroyer](http://wwww.wikidata.org/entity/Q91581) |
+    | FAAM UUID | label          | aliases | description                     | Wikidata QID                                        |
+    | :-------: | :------------: | :-----: | :-----------------------------: | :-------------------------------------------------: |
+    | MTPhkSTp  | Theodor Kroyer |         | German musicologist (1873-1945) | [Theodor Kroyer](http://wikidata.org/entity/Q91581) |
 
 <br><br><br>
 
@@ -51,17 +55,17 @@ tags: agent
 
 	- [Leipzig University](./8hu8F7Zd.md)
 
-	- [](./Yr3wwkgS.md)
+	- [Heidelberg University](./Yr3wwkgS.md)
 
 	- [Ludwig Maximilian University of Munich](./o3myxgaX.md)
 
-	- [](./fAbjif4V.md)
+	- [University of Cologne](./fAbjif4V.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/MTPhkSTp.html" height="800" width="1200" title="MTPhkSTp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MTPhkSTp" height="800" width="1200" title="MTPhkSTp"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Wolfgang Fortner](./3vF4a5M7.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	German composer and conductor (1907–1987)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dFEMxp4r
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/dFEMxp4r.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/dFEMxp4r.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/dFEMxp4r.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/dFEMxp4r.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/dFEMxp4r.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/dFEMxp4r.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emil_Hegar.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases | description | Wikidata QID                                           |
-    | :-------: | :--------: | :-----: | :---------: | :----------------------------------------------------: |
-    | dFEMxp4r  | Emil Hegar |         | (1843-1921) | [Emil Hegar](http://wwww.wikidata.org/entity/Q4497049) |
+    | FAAM UUID | label      | aliases | description | Wikidata QID                                      |
+    | :-------: | :--------: | :-----: | :---------: | :-----------------------------------------------: |
+    | dFEMxp4r  | Emil Hegar |         | (1843-1921) | [Emil Hegar](http://wikidata.org/entity/Q4497049) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/dFEMxp4r.html" height="800" width="1200" title="dFEMxp4r"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dFEMxp4r" height="800" width="1200" title="dFEMxp4r"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Julius Klengel](./5F6uGb6k.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Julius-Klengel-1903_part.jpg){align=left width="150" height="150"} 
+
+	German musician (1859-1933)
+
+</div>

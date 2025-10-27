@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hcZB9haW
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description  | aliases  | Wikidata QID                                        |
-    | :-------: | :------: | :----------: | :------: | :-------------------------------------------------: |
-    | hcZB9haW  | serenade | musical form | serenata | [serenade](http://wwww.wikidata.org/entity/Q215911) |
+    | FAAM UUID | label    | description  | aliases  | Wikidata QID                                   |
+    | :-------: | :------: | :----------: | :------: | :--------------------------------------------: |
+    | hcZB9haW  | serenade | musical form | serenata | [serenade](http://wikidata.org/entity/Q215911) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/hcZB9haW.html" height="800" width="1200" title="hcZB9haW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hcZB9haW" height="800" width="1200" title="hcZB9haW"></iframe>
 
 ## Cross-references
 
@@ -39,31 +43,31 @@ tags: keyword
 
 -	__[Sérénade andalouse: pour violon et piano, op. 28](./haTPbpUy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901351285.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901351285.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sérénade andalouse: pour violon et piano, op. 28](./E94koxmQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901292380.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901292380.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Mandoline](./MgQHhQbj.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p31.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p31.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sérénade mutine. Piece humoristique](./78u4st4D.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p28.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p28.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sérénade](./BBU6oQkh.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p15.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p15.gif){align=left width="150" height="150"} 
 
 	
 

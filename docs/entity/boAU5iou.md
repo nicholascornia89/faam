@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: boAU5iou
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/boAU5iou.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/boAU5iou.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/boAU5iou.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/boAU5iou.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/boAU5iou.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/boAU5iou.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jane_Vieu.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description     | Wikidata QID                                           |
-    | :-------: | :-------: | :-------: | :-------------: | :----------------------------------------------------: |
-    | boAU5iou  | Jane Vieu | Jane Vieu | French composer | [Jane Vieu](http://wwww.wikidata.org/entity/Q15434484) |
+    | FAAM UUID | label     | aliases   | description     | Wikidata QID                                      |
+    | :-------: | :-------: | :-------: | :-------------: | :-----------------------------------------------: |
+    | boAU5iou  | Jane Vieu | Jane Vieu | French composer | [Jane Vieu](http://wikidata.org/entity/Q15434484) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/boAU5iou.html" height="800" width="1200" title="boAU5iou"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/boAU5iou" height="800" width="1200" title="boAU5iou"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: agent
 
 -	__[Sérénade japonaise. Tanka japonais](./XHefkbYS.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p21.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p21.gif){align=left width="150" height="150"} 
 
 	
 

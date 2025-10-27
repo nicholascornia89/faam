@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LKEZbx72 a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "music learning book; kind of textbook for a specified musical instrument or a selected problem of playing a certain instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2250960>,
+        "16004360"^^xsd:string,
+        "LKEZbx72"^^xsd:string ;
+    skos:altLabel "instrument method"^^xsd:string,
+        "method"^^xsd:string,
+        "musical instrument method"^^xsd:string,
+        "tutor"^^xsd:string ;
+    skos:prefLabel "method"^^xsd:string .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KhgLimM7
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KhgLimM7.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KhgLimM7.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KhgLimM7.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KhgLimM7.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KhgLimM7.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KhgLimM7.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Luigi_Torchi.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description                      | Wikidata QID                                             |
-    | :-------: | :----------: | :-----: | :------------------------------: | :------------------------------------------------------: |
-    | KhgLimM7  | Luigi Torchi |         | Italian musicologist (1858–1920) | [Luigi Torchi](http://wwww.wikidata.org/entity/Q3840209) |
+    | FAAM UUID | label        | aliases | description                      | Wikidata QID                                        |
+    | :-------: | :----------: | :-----: | :------------------------------: | :-------------------------------------------------: |
+    | KhgLimM7  | Luigi Torchi |         | Italian musicologist (1858–1920) | [Luigi Torchi](http://wikidata.org/entity/Q3840209) |
 
 <br><br><br>
 
@@ -49,15 +53,15 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./QSaAmDt9.md)
+	- [Philharmonic Academy of Bologna](./QSaAmDt9.md)
 
-	- [](./GNcY5wsD.md)
+	- [San Pietro a Majella Conservatory of Music](./GNcY5wsD.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/KhgLimM7.html" height="800" width="1200" title="KhgLimM7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KhgLimM7" height="800" width="1200" title="KhgLimM7"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Ottorino Respighi](./Y32iiyWF.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ottorino_Respighi,_1927_(cropped).jpg){align=left width="150" height="150"} 
+
+	Italian composer, musicologist and conductor
+
+</div>

@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Xqd8kuF3", "label": "Eugen d\u0027Albert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Xqd8kuF3.md\u0027\u003eEugen d\u0027Albert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish-born German pianist and composer (1864-1932)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eugen_Francis_Charles_D\u0027Albert_(before_1932)_-_Archivio_storico_Ricordi_FOTO001157.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KmPGztnu", "label": "United Kingdom", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KmPGztnu.md\u0027\u003eUnited Kingdom\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in north-west Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Zu83hTYV", "label": "Glasgow", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Zu83hTYV.md\u0027\u003eGlasgow\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Scotland, United Kingdom\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Aqp3Wu84", "label": "Eugen d\u0027Albert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Aqp3Wu84.md\u0027\u003eEugen d\u0027Albert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish-born German pianist and composer (1864-1932)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eugen_Francis_Charles_D\u0027Albert_(before_1932)_-_Archivio_storico_Ricordi_FOTO001157.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "Xqd8kuF3", "to": "KmPGztnu", "width": 10}, {"from": "Xqd8kuF3", "to": "Zu83hTYV", "width": 10}, {"from": "KmPGztnu", "to": "Zu83hTYV", "width": 10}, {"from": "Aqp3Wu84", "to": "Zu83hTYV", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Zu83hTYV", "label": "Glasgow", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Zu83hTYV\u0027\u003eGlasgow\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Scotland, United Kingdom\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KmPGztnu", "label": "United Kingdom", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KmPGztnu\u0027\u003eUnited Kingdom\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in north-west Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Aqp3Wu84", "label": "Eugen d\u0027Albert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Aqp3Wu84\u0027\u003eEugen d\u0027Albert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish-born German pianist and composer (1864-1932)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eugen_Francis_Charles_D\u0027Albert_(before_1932)_-_Archivio_storico_Ricordi_FOTO001157.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Xqd8kuF3", "label": "Eugen d\u0027Albert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Xqd8kuF3\u0027\u003eEugen d\u0027Albert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish-born German pianist and composer (1864-1932)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eugen_Francis_Charles_D\u0027Albert_(before_1932)_-_Archivio_storico_Ricordi_FOTO001157.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "Zu83hTYV", "to": "KmPGztnu", "width": 10}, {"from": "Zu83hTYV", "to": "Aqp3Wu84", "width": 10}, {"from": "Zu83hTYV", "to": "Xqd8kuF3", "width": 10}, {"from": "Xqd8kuF3", "to": "KmPGztnu", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

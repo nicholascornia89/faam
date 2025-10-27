@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NDNPJvoV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description               | aliases   | Wikidata QID                                         |
-    | :-------: | :-------: | :-----------------------: | :-------: | :--------------------------------------------------: |
-    | NDNPJvoV  | Montluçon | commune in Allier, France | Montleçon | [Montluçon](http://wwww.wikidata.org/entity/Q193256) |
+    | FAAM UUID | label     | description               | aliases   | Wikidata QID                                    |
+    | :-------: | :-------: | :-----------------------: | :-------: | :---------------------------------------------: |
+    | NDNPJvoV  | Montluçon | commune in Allier, France | Montleçon | [Montluçon](http://wikidata.org/entity/Q193256) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/NDNPJvoV.html" height="800" width="1200" title="NDNPJvoV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NDNPJvoV" height="800" width="1200" title="NDNPJvoV"></iframe>
 
 ## Identifiers
 

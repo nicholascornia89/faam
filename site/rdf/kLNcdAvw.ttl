@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kLNcdAvw a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "collection of Middle Eastern folk stories"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q8258>,
+        "15990697"^^xsd:string,
+        "kLNcdAvw"^^xsd:string ;
+    skos:altLabel "1,001 Nights"^^xsd:string,
+        "1001 Arabian nights"^^xsd:string,
+        "1001 Nights"^^xsd:string,
+        "1001 night"^^xsd:string,
+        "Arabian Nights"^^xsd:string,
+        "Arabian Nights Entertainments"^^xsd:string,
+        "El libro de las mil y una noches"^^xsd:string,
+        "Las mil y una noches"^^xsd:string,
+        "Mil y una noches"^^xsd:string,
+        "Noches árabes"^^xsd:string,
+        "One Thousand and One Nights"^^xsd:string,
+        "The 1,001 Nights"^^xsd:string,
+        "The 1001 Nights"^^xsd:string,
+        "The Arabian Nights"^^xsd:string,
+        "The One Thousand and One Nights"^^xsd:string,
+        "The Thousand and One Nights"^^xsd:string,
+        "Thousand and One Nights"^^xsd:string ;
+    skos:prefLabel "One Thousand and One Nights"^^xsd:string .
+

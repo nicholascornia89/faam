@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EbQqVHiE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EbQqVHiE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EbQqVHiE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EbQqVHiE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EbQqVHiE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EbQqVHiE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EbQqVHiE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases      | description                      | Wikidata QID                                                      |
-    | :-------: | :------------------: | :----------: | :------------------------------: | :---------------------------------------------------------------: |
-    | EbQqVHiE  | William Henry Holmes | W. H. Holmes | pianist and composer (1812-1885) | [William Henry Holmes](http://wwww.wikidata.org/entity/Q24088318) |
+    | FAAM UUID | label                | aliases      | description                      | Wikidata QID                                                 |
+    | :-------: | :------------------: | :----------: | :------------------------------: | :----------------------------------------------------------: |
+    | EbQqVHiE  | William Henry Holmes | W. H. Holmes | pianist and composer (1812-1885) | [William Henry Holmes](http://wikidata.org/entity/Q24088318) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/EbQqVHiE.html" height="800" width="1200" title="EbQqVHiE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EbQqVHiE" height="800" width="1200" title="EbQqVHiE"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Walter Cecil Macfarren](./Vk44zu9x.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Walter_Cecil_Macfarren_001.jpg){align=left width="150" height="150"} 
+
+	English pianist and composer
+
+</div>

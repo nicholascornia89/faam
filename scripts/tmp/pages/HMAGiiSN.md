@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HMAGiiSN
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HMAGiiSN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HMAGiiSN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HMAGiiSN.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HMAGiiSN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HMAGiiSN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HMAGiiSN.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                  | Wikidata QID                                                |
-    | :-------: | :--------------: | :--------------: | :--------------------------: | :---------------------------------------------------------: |
-    | HMAGiiSN  | Vincenzo Ugolini | Vincènzo Ugolini | Italian composer (1570–1638) | [Vincenzo Ugolini](http://wwww.wikidata.org/entity/Q330488) |
+    | FAAM UUID | label            | aliases          | description                  | Wikidata QID                                           |
+    | :-------: | :--------------: | :--------------: | :--------------------------: | :----------------------------------------------------: |
+    | HMAGiiSN  | Vincenzo Ugolini | Vincènzo Ugolini | Italian composer (1570–1638) | [Vincenzo Ugolini](http://wikidata.org/entity/Q330488) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/HMAGiiSN.html" height="800" width="1200" title="HMAGiiSN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HMAGiiSN" height="800" width="1200" title="HMAGiiSN"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Orazio Benevoli](./g84jRUjK.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer (1605-1672)
+
+</div>

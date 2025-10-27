@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nfsjuNCe
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nfsjuNCe.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nfsjuNCe.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nfsjuNCe.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nfsjuNCe.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nfsjuNCe.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nfsjuNCe.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Moritz_Moszkowski.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases    | description                                      | Wikidata QID                                                 |
-    | :-------: | :---------------: | :--------: | :----------------------------------------------: | :----------------------------------------------------------: |
-    | nfsjuNCe  | Moritz Moszkowski | Moszkowski | German composer, pianist and teacher (1854–1925) | [Moritz Moszkowski](http://wwww.wikidata.org/entity/Q322427) |
+    | FAAM UUID | label             | aliases    | description                                      | Wikidata QID                                            |
+    | :-------: | :---------------: | :--------: | :----------------------------------------------: | :-----------------------------------------------------: |
+    | nfsjuNCe  | Moritz Moszkowski | Moszkowski | German composer, pianist and teacher (1854–1925) | [Moritz Moszkowski](http://wikidata.org/entity/Q322427) |
 
 <br><br><br>
 
@@ -59,13 +63,13 @@ tags: agent
 
 	- [Berlin University of the Arts](./KCuuJYaL.md)
 
-	- [](./eQenGTnX.md)
+	- [Stern Conservatory](./eQenGTnX.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/nfsjuNCe.html" height="800" width="1200" title="nfsjuNCe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nfsjuNCe" height="800" width="1200" title="nfsjuNCe"></iframe>
 
 ## Identifiers
 
@@ -91,7 +95,7 @@ tags: agent
 
 -	__[Près du Berceau](./6tPEdmGK.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p82.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p82.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6KPGTuk7
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                           | aliases      | Wikidata QID                                          |
-    | :-------: | :---------: | :---------------------------------------------------: | :----------: | :---------------------------------------------------: |
-    | 6KPGTuk7  | New Orleans | largest city of the state of Louisiana, United States | The Big Easy | [New Orleans](http://wwww.wikidata.org/entity/Q34404) |
+    | FAAM UUID | label       | description                                           | aliases      | Wikidata QID                                     |
+    | :-------: | :---------: | :---------------------------------------------------: | :----------: | :----------------------------------------------: |
+    | 6KPGTuk7  | New Orleans | largest city of the state of Louisiana, United States | The Big Easy | [New Orleans](http://wikidata.org/entity/Q34404) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/6KPGTuk7.html" height="800" width="1200" title="6KPGTuk7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6KPGTuk7" height="800" width="1200" title="6KPGTuk7"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Charles Lucien Lambert](./8Ei9ktbr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer (1828–1896)
 

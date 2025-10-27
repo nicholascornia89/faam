@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QvKjp2ZU
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | aliases                               | description                              | Wikidata QID                                                                      |
-    | :-------: | :-----------------------------------: | :-----------------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------: |
-    | QvKjp2ZU  | Ein feste Burg ist unser Gott, BWV 80 | Ein feste Burg ist unser Gott, BWV 80 | chorale cantata by Johann Sebastian Bach | [Ein feste Burg ist unser Gott, BWV 80](http://wwww.wikidata.org/entity/Q1305461) |
+    | FAAM UUID | label                                 | aliases                               | description                              | Wikidata QID                                                                 |
+    | :-------: | :-----------------------------------: | :-----------------------------------: | :--------------------------------------: | :--------------------------------------------------------------------------: |
+    | QvKjp2ZU  | Ein feste Burg ist unser Gott, BWV 80 | Ein feste Burg ist unser Gott, BWV 80 | chorale cantata by Johann Sebastian Bach | [Ein feste Burg ist unser Gott, BWV 80](http://wikidata.org/entity/Q1305461) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./WnZM3HzT.md)
+	- [Ein' feste Burg ist unser Gott](./WnZM3HzT.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/QvKjp2ZU.html" height="800" width="1200" title="QvKjp2ZU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QvKjp2ZU" height="800" width="1200" title="QvKjp2ZU"></iframe>
 
 ## Identifiers
 

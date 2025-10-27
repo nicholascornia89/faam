@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dvnv2bcc
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                  | aliases                              | Wikidata QID                                            |
-    | :-------: | :----------: | :----------------------------------------------------------: | :----------------------------------: | :-----------------------------------------------------: |
-    | dvnv2bcc  | Cartmel Fell | village and civil parish in South Lakeland, Cumbria, England | Cartmel Fell (civil parish), Cumbria | [Cartmel Fell](http://wwww.wikidata.org/entity/Q773957) |
+    | FAAM UUID | label        | description                                                  | aliases                              | Wikidata QID                                       |
+    | :-------: | :----------: | :----------------------------------------------------------: | :----------------------------------: | :------------------------------------------------: |
+    | dvnv2bcc  | Cartmel Fell | village and civil parish in South Lakeland, Cumbria, England | Cartmel Fell (civil parish), Cumbria | [Cartmel Fell](http://wikidata.org/entity/Q773957) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dvnv2bcc.html" height="800" width="1200" title="dvnv2bcc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dvnv2bcc" height="800" width="1200" title="dvnv2bcc"></iframe>
 
 ## Identifiers
 

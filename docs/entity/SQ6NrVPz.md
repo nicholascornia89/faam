@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SQ6NrVPz
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                                                | aliases                  | Wikidata QID                                                   |
-    | :-------: | :------------------: | :--------------------------------------------------------: | :----------------------: | :------------------------------------------------------------: |
-    | SQ6NrVPz  | Second French Empire | government of France under Napoleon III, from 1852 to 1870 | Second Empire, 1852-1870 | [Second French Empire](http://wwww.wikidata.org/entity/Q71092) |
+    | FAAM UUID | label                | description                                                | aliases                  | Wikidata QID                                              |
+    | :-------: | :------------------: | :--------------------------------------------------------: | :----------------------: | :-------------------------------------------------------: |
+    | SQ6NrVPz  | Second French Empire | government of France under Napoleon III, from 1852 to 1870 | Second Empire, 1852-1870 | [Second French Empire](http://wikidata.org/entity/Q71092) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/SQ6NrVPz.html" height="800" width="1200" title="SQ6NrVPz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SQ6NrVPz" height="800" width="1200" title="SQ6NrVPz"></iframe>
 
 ## Identifiers
 

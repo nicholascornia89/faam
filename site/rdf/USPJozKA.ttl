@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:USPJozKA a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "content specialist charged with a museum's collections and involved with the interpretation of heritage material"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q674426>,
+        "0"^^xsd:string,
+        "USPJozKA"^^xsd:string ;
+    skos:altLabel "museum conservator"^^xsd:string,
+        "museum curator"^^xsd:string ;
+    skos:prefLabel "curator"^^xsd:string .
+

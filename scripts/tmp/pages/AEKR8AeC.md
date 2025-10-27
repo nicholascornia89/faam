@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AEKR8AeC
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                       | aliases        | Wikidata QID                                              |
-    | :-------: | :------------: | :-------------------------------: | :------------: | :-------------------------------------------------------: |
-    | AEKR8AeC  | bass saxophone | large low-pitched wind instrument | bass saxophone | [bass saxophone](http://wwww.wikidata.org/entity/Q810551) |
+    | FAAM UUID | label          | description                       | aliases        | Wikidata QID                                         |
+    | :-------: | :------------: | :-------------------------------: | :------------: | :--------------------------------------------------: |
+    | AEKR8AeC  | bass saxophone | large low-pitched wind instrument | bass saxophone | [bass saxophone](http://wikidata.org/entity/Q810551) |
 
 <br><br><br>
 
@@ -35,19 +39,19 @@ tags: musical_instrument
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
-	- [](./E2Sb746q.md)
+	- [musical instrument](./E2Sb746q.md)
 
-	- [](./hBUT5Cbq.md)
+	- [woodwind instrument](./hBUT5Cbq.md)
 
-	- [](./gZ5cZei7.md)
+	- [reed instrument](./gZ5cZei7.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/AEKR8AeC.html" height="800" width="1200" title="AEKR8AeC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AEKR8AeC" height="800" width="1200" title="AEKR8AeC"></iframe>
 
 ## Cross-references
 

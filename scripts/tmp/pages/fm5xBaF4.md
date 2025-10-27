@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fm5xBaF4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                           | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------------------------------: | :-----: | :------------------------------------------------: |
-    | fm5xBaF4  | Blâmont | commune in Meurthe-et-Moselle, France | Blamont | [Blâmont](http://wwww.wikidata.org/entity/Q457569) |
+    | FAAM UUID | label   | description                           | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------------------------------: | :-----: | :-------------------------------------------: |
+    | fm5xBaF4  | Blâmont | commune in Meurthe-et-Moselle, France | Blamont | [Blâmont](http://wikidata.org/entity/Q457569) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fm5xBaF4.html" height="800" width="1200" title="fm5xBaF4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fm5xBaF4" height="800" width="1200" title="fm5xBaF4"></iframe>
 
 ## Identifiers
 

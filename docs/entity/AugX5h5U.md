@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AugX5h5U
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                                | aliases                    | Wikidata QID                                                            |
-    | :-------: | :------------------------: | :----------------------------------------: | :------------------------: | :---------------------------------------------------------------------: |
-    | AugX5h5U  | Nikolay engineering school | school in Saint Petersburg, Russian Empire | Nikolay engineering school | [Nikolay engineering school](http://wwww.wikidata.org/entity/Q16680888) |
+    | FAAM UUID | label                      | description                                | aliases                    | Wikidata QID                                                       |
+    | :-------: | :------------------------: | :----------------------------------------: | :------------------------: | :----------------------------------------------------------------: |
+    | AugX5h5U  | Nikolay engineering school | school in Saint Petersburg, Russian Empire | Nikolay engineering school | [Nikolay engineering school](http://wikidata.org/entity/Q16680888) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./ZpwbPoZj.md)
+	[Saint Petersburg](./ZpwbPoZj.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/AugX5h5U.html" height="800" width="1200" title="AugX5h5U"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AugX5h5U" height="800" width="1200" title="AugX5h5U"></iframe>
 
 ## Cross-references
 

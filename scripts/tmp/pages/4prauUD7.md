@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4prauUD7
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | aliases                        | description                             | Wikidata QID                                                               |
-    | :-------: | :----------------------------: | :----------------------------: | :-------------------------------------: | :------------------------------------------------------------------------: |
-    | 4prauUD7  | Wo soll ich fliehen hin, BWV 5 | Wo soll ich fliehen hin, BWV 5 | church cantata by Johann Sebastian Bach | [Wo soll ich fliehen hin, BWV 5](http://wwww.wikidata.org/entity/Q2094394) |
+    | FAAM UUID | label                          | aliases                        | description                             | Wikidata QID                                                          |
+    | :-------: | :----------------------------: | :----------------------------: | :-------------------------------------: | :-------------------------------------------------------------------: |
+    | 4prauUD7  | Wo soll ich fliehen hin, BWV 5 | Wo soll ich fliehen hin, BWV 5 | church cantata by Johann Sebastian Bach | [Wo soll ich fliehen hin, BWV 5](http://wikidata.org/entity/Q2094394) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/4prauUD7.html" height="800" width="1200" title="4prauUD7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4prauUD7" height="800" width="1200" title="4prauUD7"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: musical_work
 
 -	__[9 Tenor-Arien : aus versch. Cantaten ; mit Begl. d. Pianoforte](./gex3sqyu.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
 
 	
 

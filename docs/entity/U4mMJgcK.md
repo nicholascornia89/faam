@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: U4mMJgcK
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/U4mMJgcK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/U4mMJgcK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/U4mMJgcK.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/U4mMJgcK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/U4mMJgcK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/U4mMJgcK.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases | description                   | Wikidata QID                                                        |
-    | :-------: | :-----------------------: | :-----: | :---------------------------: | :-----------------------------------------------------------------: |
-    | U4mMJgcK  | Christian Theodor Weinlig |         | German composer and conductor | [Christian Theodor Weinlig](http://wwww.wikidata.org/entity/Q65815) |
+    | FAAM UUID | label                     | aliases | description                   | Wikidata QID                                                   |
+    | :-------: | :-----------------------: | :-----: | :---------------------------: | :------------------------------------------------------------: |
+    | U4mMJgcK  | Christian Theodor Weinlig |         | German composer and conductor | [Christian Theodor Weinlig](http://wikidata.org/entity/Q65815) |
 
 <br><br><br>
 
@@ -53,13 +57,13 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./cuxAGzGF.md)
+	- [lawyer](./cuxAGzGF.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/U4mMJgcK.html" height="800" width="1200" title="U4mMJgcK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/U4mMJgcK" height="800" width="1200" title="U4mMJgcK"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Richard Wagner](./DYgYnSpY.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/RichardWagner.jpg){align=left width="150" height="150"} 
+
+	German composer (1813–1883)
+
+</div>

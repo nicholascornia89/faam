@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aSj2yDYD
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                          | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :--------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | aSj2yDYD  | Fulham | area in the London Borough of Hammersmith and Fulham |         | [Fulham](http://wwww.wikidata.org/entity/Q3367868) |
+    | FAAM UUID | label  | description                                          | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :--------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | aSj2yDYD  | Fulham | area in the London Borough of Hammersmith and Fulham |         | [Fulham](http://wikidata.org/entity/Q3367868) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/aSj2yDYD.html" height="800" width="1200" title="aSj2yDYD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aSj2yDYD" height="800" width="1200" title="aSj2yDYD"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Alfred Moffat](./gGDDnuWi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Scottish musician and composer
 

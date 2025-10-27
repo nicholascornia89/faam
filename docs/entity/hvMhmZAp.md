@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hvMhmZAp
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                         | aliases      | Wikidata QID                                              |
-    | :-------: | :-------------: | :---------------------------------: | :----------: | :-------------------------------------------------------: |
-    | hvMhmZAp  | Weimar Republic | Germany in the years 1918/1919–1933 | German Reich | [Weimar Republic](http://wwww.wikidata.org/entity/Q41304) |
+    | FAAM UUID | label           | description                         | aliases      | Wikidata QID                                         |
+    | :-------: | :-------------: | :---------------------------------: | :----------: | :--------------------------------------------------: |
+    | hvMhmZAp  | Weimar Republic | Germany in the years 1918/1919–1933 | German Reich | [Weimar Republic](http://wikidata.org/entity/Q41304) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/hvMhmZAp.html" height="800" width="1200" title="hvMhmZAp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hvMhmZAp" height="800" width="1200" title="hvMhmZAp"></iframe>
 
 ## Identifiers
 

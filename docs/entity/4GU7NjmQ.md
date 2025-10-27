@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4GU7NjmQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                     | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :-----------------------------: | :-----: | :----------------------------------------------: |
-    | 4GU7NjmQ  | Leipzig | largest city in Saxony, Germany | Leipzig | [Leipzig](http://wwww.wikidata.org/entity/Q2079) |
+    | FAAM UUID | label   | description                     | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :-----------------------------: | :-----: | :-----------------------------------------: |
+    | 4GU7NjmQ  | Leipzig | largest city in Saxony, Germany | Leipzig | [Leipzig](http://wikidata.org/entity/Q2079) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4GU7NjmQ.html" height="800" width="1200" title="4GU7NjmQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4GU7NjmQ" height="800" width="1200" title="4GU7NjmQ"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Wolfgang Fortner](./3vF4a5M7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and conductor (1907–1987)
 
@@ -73,19 +77,19 @@ tags: city
 
 -	__[Carl Merseburger](./GyJBKL3i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist, music writer and music publisher
 
 -	__[Steingräber Verlag](./W8EfwtH8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German publishing company
 
 -	__[Anton J. Benjamin / Hans C. Sikorski KG, Leipzig](./aDqMJZoH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German publisher
 
@@ -103,7 +107,7 @@ tags: city
 
 -	__[Friedrich Wilhelm Zachow](./9SNg4hjN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
@@ -115,7 +119,7 @@ tags: city
 
 -	__[Ernst Wilhelm Fritsch](./UeTdWiXH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1840-1902)
 
@@ -127,13 +131,13 @@ tags: city
 
 -	__[Wilhelm Rust](./AUMMWhZm.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Wilhelm_Rust_1885.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wilhelm_Rust_1885.jpg){align=left width="150" height="150"} 
 
 	German composer and musicologist (1822–1892)
 
 -	__[Gustav Schreck](./hKmhCVh7.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8d/Gustav_Schreck.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Schreck.jpg){align=left width="150" height="150"} 
 
 	German composer, music educator, and choirmaster (1849–1918)
 
@@ -175,7 +179,7 @@ tags: city
 
 -	__[Carl Merseburger](./GyJBKL3i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist, music writer and music publisher
 
@@ -187,7 +191,7 @@ tags: city
 
 -	__[Alfred Dörffel](./8DHf9Yua.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German librarian, publisher and musicologist (1821–1905)
 
@@ -205,7 +209,7 @@ tags: city
 
 -	__[Friedrich Whistling](./a6WmY75X.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German music publisher
 
@@ -235,7 +239,7 @@ tags: city
 
 -	__[Christian Theodor Weinlig](./U4mMJgcK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and conductor
 

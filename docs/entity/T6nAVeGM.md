@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: T6nAVeGM
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                  | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :--------------------------: | :-----: | :------------------------------------------------: |
-    | T6nAVeGM  | pianist | musician who plays the piano | pianist | [pianist](http://wwww.wikidata.org/entity/Q486748) |
+    | FAAM UUID | label   | description                  | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :--------------------------: | :-----: | :-------------------------------------------: |
+    | T6nAVeGM  | pianist | musician who plays the piano | pianist | [pianist](http://wikidata.org/entity/Q486748) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/T6nAVeGM.html" height="800" width="1200" title="T6nAVeGM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/T6nAVeGM" height="800" width="1200" title="T6nAVeGM"></iframe>
 
 ## Cross-references
 
@@ -49,7 +53,7 @@ tags: occupation
 
 -	__[Raymond Moulaert](./brhsLAa9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and musicologist (1875–1962)
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Jeanne Herscher-Clément](./DVxYRhgG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 
@@ -127,7 +131,7 @@ tags: occupation
 
 -	__[George Aitken](./b4BzWFzE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English composer and pianist (b.1882)
 
@@ -151,7 +155,7 @@ tags: occupation
 
 -	__[Paul Wachs](./DZekGw3j.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1851–1915)
 
@@ -175,7 +179,7 @@ tags: occupation
 
 -	__[Franz Görner](./DzFR58ko.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German pianist and music arranger
 
@@ -193,13 +197,13 @@ tags: occupation
 
 -	__[Elisa Bosch](./YkKD2dJ6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Henri Cramer](./DNuhrnms.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German pianist and composer
 
@@ -241,7 +245,7 @@ tags: occupation
 
 -	__[Giuseppe Capitani di Vincenzo](./RN3tbWbS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and pianist (1843-1890)
 
@@ -295,7 +299,7 @@ tags: occupation
 
 -	__[Charles-Wilfrid de Bériot](./Mj6zznNc.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e2/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg){align=left width="150" height="150"} 
 
 	French pianist and composer (1833-1914)
 
@@ -313,7 +317,7 @@ tags: occupation
 
 -	__[Hélène Dinsart](./GgyGnGfG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and music educator
 
@@ -373,7 +377,7 @@ tags: occupation
 
 -	__[Walter Piston](./hgkK9LyH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer (1894–1976)
 
@@ -409,7 +413,7 @@ tags: occupation
 
 -	__[Jean Ancot junior](./BwiWTb7j.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian violinist and composer
 
@@ -457,7 +461,7 @@ tags: occupation
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
@@ -487,7 +491,7 @@ tags: occupation
 
 -	__[Wanda Landowska](./ANygk75M.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
 
 	(1879-1959) Polish-French harpsichordist
 
@@ -529,7 +533,7 @@ tags: occupation
 
 -	__[Xavier Boisselot](./GziVRsjy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/56/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
 
 	Composer and piano maker (1811-1893)
 
@@ -559,7 +563,7 @@ tags: occupation
 
 -	__[Adolphe Adam](./Y7stG82h.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Adolphe_Adam.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolphe_Adam.jpg){align=left width="150" height="150"} 
 
 	French composer (1803–1856)
 
@@ -583,7 +587,7 @@ tags: occupation
 
 -	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
 
 	Austrian composer of the Classical period (1756–1791)
 
@@ -625,13 +629,13 @@ tags: occupation
 
 -	__[Ton Koopman](./Jy8ns9kr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
 
 	Dutch conductor, organist and harpsichordist, born 2 October 1944
 
 -	__[Franz Kullak](./KQYeWCdx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1844-1913)
 
@@ -643,7 +647,7 @@ tags: occupation
 
 -	__[Emmanuel Durlet](./ThMz2zA8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, pianist and music educator (1893–1977)
 
@@ -655,7 +659,7 @@ tags: occupation
 
 -	__[Henry Mathias Balthasar-Florence](./Spwnnngn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -673,7 +677,7 @@ tags: occupation
 
 -	__[Heinrich Ehrlich](./RatUUATc.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e2/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg){align=left width="150" height="150"} 
 
 	pianist and composer (1822-1899)
 
@@ -685,7 +689,7 @@ tags: occupation
 
 -	__[Jean-Frédéric Edelmann](./oRcy7jj8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1749–1794)
 
@@ -703,7 +707,7 @@ tags: occupation
 
 -	__[Thomas Haigh](./4UFJuwWB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English musician and composer
 
@@ -733,7 +737,7 @@ tags: occupation
 
 -	__[Hugo Ulrich](./7bN7WGVq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German Romantic composer
 
@@ -769,7 +773,7 @@ tags: occupation
 
 -	__[Ludwig van Beethoven](./TZfafBBe.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Beethoven.jpg){align=left width="150" height="150"} 
 
 	German composer (1770–1827)
 
@@ -805,55 +809,55 @@ tags: occupation
 
 -	__[Sigismondo Cesi](./cZPgkFV4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Georges de Lausnay](./j6MeiLfK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, pianist and conductor
 
 -	__[Louis Gobbaerts](./XqwGf95J.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian concert pianist, piano teacher and composer (1835-1886)
 
 -	__[Georges Haakman](./dmEmZrfD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and virtuoso pianist
 
 -	__[Karl Schwencke](./EjvQ4EcD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c3/PPN663943914_Carl_Schwencke_%281853%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/PPN663943914_Carl_Schwencke_%281853%29.jpg){align=left width="150" height="150"} 
 
 	German pianist and composer
 
 -	__[Julius Sachs](./WMMn7pt6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Jan Blockx](./6UrJ5gwo.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/23/Karikatuur_getekend_door_Enrico_Caruso%2C_Enrico_Caruso%2C_1906_%26_1909%2C_Universiteitsbibliotheek_Gent%2C910000094265_2018_0019_AC_%28cropped%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Karikatuur_getekend_door_Enrico_Caruso%2C_Enrico_Caruso%2C_1906_%26_1909%2C_Universiteitsbibliotheek_Gent%2C910000094265_2018_0019_AC_%28cropped%29.jpg){align=left width="150" height="150"} 
 
 	Belgian composer, pianist and teacher (1851–1912)
 
 -	__[Gérard Nauwelaers](./GwzqZPkq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Henri Ghys](./2f832VwN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French pianist and composer
 
@@ -877,7 +881,7 @@ tags: occupation
 
 -	__[Otto Vrieslander](./Y38WFUP4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	musicologist
 
@@ -913,7 +917,7 @@ tags: occupation
 
 -	__[Elisa Verbrugghe](./TtGGECSj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -925,7 +929,7 @@ tags: occupation
 
 -	__[Yvonne Van den Berghe](./J9qyNZCR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -997,7 +1001,7 @@ tags: occupation
 
 -	__[Antonin Marmontel](./Rj4bGWry.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, pianist and music educator (1850–1907)
 
@@ -1057,7 +1061,7 @@ tags: occupation
 
 -	__[Anton Halm](./Jk8XEGH5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 
@@ -1087,7 +1091,7 @@ tags: occupation
 
 -	__[Charles-Laurent Rhein](./jjZYuf95.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French pianist and composer
 
@@ -1105,13 +1109,13 @@ tags: occupation
 
 -	__[Alexander Villoing](./LGDvCCZt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian music educator and composer
 
 -	__[Josef Dachs](./JUuCMm3W.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian musician (1825–1896)
 
@@ -1135,7 +1139,7 @@ tags: occupation
 
 -	__[Henri-Jean Rigel](./nqNsEqzn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist
 
@@ -1153,19 +1157,19 @@ tags: occupation
 
 -	__[Leonid Nikolayev](./HX8ujrS4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian musician (1878–1942)
 
 -	__[Alexandra Rozanova](./n67X6P2Q.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Ignatiy Glyasser](./gPGoknyV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -1261,25 +1265,25 @@ tags: occupation
 
 -	__[Wilhelm Würfel](./JHkVzjNY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech conductor, music educator, composer and pianist (1790–1832)
 
 -	__[Jeanne Marie Williaume](./fBAyTHso.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French opera singer, pianist and music educator
 
 -	__[Ignaz Ladurner](./m6fgGvfv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French pianist
 
 -	__[Félix Cazot](./EUMKhzpe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and pianist (1790–1857)
 
@@ -1297,7 +1301,7 @@ tags: occupation
 
 -	__[Franz Lauska](./MaUbEzxG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Moravian piano teach and composer
 
@@ -1321,7 +1325,7 @@ tags: occupation
 
 -	__[Andre Robberechts](./NtFF6WaB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1797–1860)
 
@@ -1345,7 +1349,7 @@ tags: occupation
 
 -	__[Joseph Czerny](./fyTYpvN6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer (1785–1831)
 
@@ -1375,7 +1379,7 @@ tags: occupation
 
 -	__[August Mittag](./eMp37r9z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	* 25.12.1795 Kreischa bei Dresden/D, † 21.11.1867 Wien. Fagottist, Pianist, Pädagoge.
 
@@ -1405,7 +1409,7 @@ tags: occupation
 
 -	__[Edward Kilenyi](./a7VLGgQh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American musician, teacher of George Gershwin
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RU2NmzHK
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RU2NmzHK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RU2NmzHK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RU2NmzHK.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RU2NmzHK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RU2NmzHK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RU2NmzHK.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/D_weber.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases                | description                                   | Wikidata QID                                                  |
-    | :-------: | :-----------------: | :--------------------: | :-------------------------------------------: | :-----------------------------------------------------------: |
-    | RU2NmzHK  | Bedřich Diviš Weber | Friedrich Dionís Weber | Czech music educator and composer (1766-1842) | [Bedřich Diviš Weber](http://wwww.wikidata.org/entity/Q79023) |
+    | FAAM UUID | label               | aliases                | description                                   | Wikidata QID                                             |
+    | :-------: | :-----------------: | :--------------------: | :-------------------------------------------: | :------------------------------------------------------: |
+    | RU2NmzHK  | Bedřich Diviš Weber | Friedrich Dionís Weber | Czech music educator and composer (1766-1842) | [Bedřich Diviš Weber](http://wikidata.org/entity/Q79023) |
 
 <br><br><br>
 
@@ -49,17 +53,17 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./W4yL2jDA.md)
+	- [inventor](./W4yL2jDA.md)
 
 ??? quote "employer" 
 
-	- [](./DDcZ9LJC.md)
+	- [Prague Conservatory](./DDcZ9LJC.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/RU2NmzHK.html" height="800" width="1200" title="RU2NmzHK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RU2NmzHK" height="800" width="1200" title="RU2NmzHK"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Ignaz Moscheles](./WmRXBH5x.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ignaz_Moscheles.jpg){align=left width="150" height="150"} 
+
+	Bohemian conductor, music educator, composer and pianist (1794–1870)
+
+</div>

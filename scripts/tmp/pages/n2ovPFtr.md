@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: n2ovPFtr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description      | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :--------------: | :-----: | :-------------------------------------------------: |
-    | n2ovPFtr  | Camaiore | commune in Italy |         | [Camaiore](http://wwww.wikidata.org/entity/Q216853) |
+    | FAAM UUID | label    | description      | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :--------------: | :-----: | :--------------------------------------------: |
+    | n2ovPFtr  | Camaiore | commune in Italy |         | [Camaiore](http://wikidata.org/entity/Q216853) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/n2ovPFtr.html" height="800" width="1200" title="n2ovPFtr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/n2ovPFtr" height="800" width="1200" title="n2ovPFtr"></iframe>
 
 ## Identifiers
 

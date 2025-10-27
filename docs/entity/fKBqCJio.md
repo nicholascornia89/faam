@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fKBqCJio
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description              | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :----------------------: | :-----: | :--------------------------------------------: |
-    | fKBqCJio  | poet  | person who writes poetry | poetess | [poet](http://wwww.wikidata.org/entity/Q49757) |
+    | FAAM UUID | label | description              | aliases | Wikidata QID                              |
+    | :-------: | :---: | :----------------------: | :-----: | :---------------------------------------: |
+    | fKBqCJio  | poet  | person who writes poetry | poetess | [poet](http://wikidata.org/entity/Q49757) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/fKBqCJio.html" height="800" width="1200" title="fKBqCJio"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fKBqCJio" height="800" width="1200" title="fKBqCJio"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Charles Laffillé](./V4Z9quf2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, poet and theatre director
 
@@ -49,19 +53,19 @@ tags: occupation
 
 -	__[Remi Ghesquiere](./5FzPNxhE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	sacristan, teacher, organist, composer, poet and politician from Belgium (1866-1964)
 
 -	__[Jean d'Udine](./2wfwYXvr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist (1870-1938)
 
 -	__[Léo d'Ageni](./jysMRePQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and poet
 
@@ -169,13 +173,13 @@ tags: occupation
 
 -	__[Antonio Denzio](./Muw3uQmx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian opera singer
 
 -	__[Victor Guillaume Antoine Hanssens](./kZ9cSBEr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian poet and translator
 
@@ -193,19 +197,19 @@ tags: occupation
 
 -	__[Frans Gittens](./jcu4u5sd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian writer (1842-1911)
 
 -	__[Émile Barateau](./EorjjYHP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	penman, poet, lyricist (1792-1870)
 
 -	__[Raymond Herreman](./DYkLZpTt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian poet and journalist (1896–1971)
 
@@ -217,13 +221,13 @@ tags: occupation
 
 -	__[Adolphe Larmande](./7xorXhE5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Gabriele D'Annunzio](./i2w6M7XJ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/25/Gabriele_D%27Annunzio_1922.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gabriele_D%27Annunzio_1922.jpg){align=left width="150" height="150"} 
 
 	
 
@@ -247,7 +251,7 @@ tags: occupation
 
 -	__[Pedro Fernández de Castilleja](./fApHxzGr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

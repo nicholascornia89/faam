@@ -131,6 +131,9 @@ def wikidata_SPARQL_enhance():
 def data_visualization():
     faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
 
+    print("Music Annotation Ontology...")
+    generate_music_annotation_ontology(faam_kb, graph_attributes_type_filename, out_dir)
+
     print("Generating image carousels for each manifestation...")
     github_api_repo = "https://api.github.com/repos/nicholascornia89"
     repo_name = "https://github.com/nicholascornia89/faam"
@@ -281,6 +284,7 @@ def statistics():
     print("Some statistics...")
     basic_statistics(faam_kb)
     annotations_statistics(faam_kb)
+    cross_references_statistics(faam_kb)
 
 
 # Mkdocs pages
@@ -303,4 +307,16 @@ def mkdocs_pages():
 # data_visualization()
 # statistics()
 # data_validation()
+
+"""
+faam_kb_filename = os.path.join(
+    "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+)
+
+faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
+"""
+
+
+# dict2json(faam_kb, faam_kb_filename)
+
 mkdocs_pages()

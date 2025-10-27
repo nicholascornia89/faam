@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: egcX2NfV
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/egcX2NfV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/egcX2NfV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/egcX2NfV.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/egcX2NfV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/egcX2NfV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/egcX2NfV.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description      | Wikidata QID                                                  |
-    | :-------: | :---------------: | :-----: | :--------------: | :-----------------------------------------------------------: |
-    | egcX2NfV  | Giuseppe Amendola |         | Italian composer | [Giuseppe Amendola](http://wwww.wikidata.org/entity/Q3107973) |
+    | FAAM UUID | label             | aliases | description      | Wikidata QID                                             |
+    | :-------: | :---------------: | :-----: | :--------------: | :------------------------------------------------------: |
+    | egcX2NfV  | Giuseppe Amendola |         | Italian composer | [Giuseppe Amendola](http://wikidata.org/entity/Q3107973) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./5eUMkMxY.md)
+	- [bandleader](./5eUMkMxY.md)
 
 	- [music teacher](./L7DPWnnr.md)
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/egcX2NfV.html" height="800" width="1200" title="egcX2NfV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/egcX2NfV" height="800" width="1200" title="egcX2NfV"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Nicolas Isouard](./5agBK3vj.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nicolas_Isouard_par_Ducarme.jpg){align=left width="150" height="150"} 
+
+	Maltese composer (1773–1818)
+
+</div>

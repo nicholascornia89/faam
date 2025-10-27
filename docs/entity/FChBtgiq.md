@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FChBtgiq
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                  | aliases    | Wikidata QID                                                    |
-    | :-------: | :----------------: | :--------------------------: | :--------: | :-------------------------------------------------------------: |
-    | FChBtgiq  | sets of free reeds | class of musical instruments | harmonicum | [sets of free reeds](http://wwww.wikidata.org/entity/Q19650003) |
+    | FAAM UUID | label              | description                  | aliases    | Wikidata QID                                               |
+    | :-------: | :----------------: | :--------------------------: | :--------: | :--------------------------------------------------------: |
+    | FChBtgiq  | sets of free reeds | class of musical instruments | harmonicum | [sets of free reeds](http://wikidata.org/entity/Q19650003) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/FChBtgiq.html" height="800" width="1200" title="FChBtgiq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FChBtgiq" height="800" width="1200" title="FChBtgiq"></iframe>
 
 ## Cross-references
 

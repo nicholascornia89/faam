@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Y4EwuMLr
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                  | aliases       | Wikidata QID                                              |
-    | :-------: | :-----------: | :--------------------------: | :-----------: | :-------------------------------------------------------: |
-    | Y4EwuMLr  | Lycée Chaptal | high school in Paris, France | Lycee Chaptal | [Lycée Chaptal](http://wwww.wikidata.org/entity/Q3268619) |
+    | FAAM UUID | label         | description                  | aliases       | Wikidata QID                                         |
+    | :-------: | :-----------: | :--------------------------: | :-----------: | :--------------------------------------------------: |
+    | Y4EwuMLr  | Lycée Chaptal | high school in Paris, France | Lycee Chaptal | [Lycée Chaptal](http://wikidata.org/entity/Q3268619) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Y4EwuMLr.html" height="800" width="1200" title="Y4EwuMLr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Y4EwuMLr" height="800" width="1200" title="Y4EwuMLr"></iframe>
 
 ## Cross-references
 

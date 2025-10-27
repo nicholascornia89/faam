@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Qz6nenHY
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | aliases | description | Wikidata QID                         |
-    | :-------: | :---------------------------: | :-----: | :---------: | :----------------------------------: |
-    | Qz6nenHY  | Adoramus te Christe, TriCo 28 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                         | aliases | description | Wikidata QID                    |
+    | :-------: | :---------------------------: | :-----: | :---------: | :-----------------------------: |
+    | Qz6nenHY  | Adoramus te Christe, TriCo 28 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Qz6nenHY.html" height="800" width="1200" title="Qz6nenHY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Qz6nenHY" height="800" width="1200" title="Qz6nenHY"></iframe>
 
 ## Identifiers
 
@@ -65,25 +69,25 @@ tags: musical_work
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)](./4MMhcBUy.md)__
 
-	![Image](../assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893](./SGrwmsQj.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)](./4MMhcBUy.md)__
 
-	![Image](../assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893](./SGrwmsQj.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
 
 	
 

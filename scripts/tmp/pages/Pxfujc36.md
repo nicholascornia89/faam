@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Pxfujc36
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000333241/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Pxfujc36.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Pxfujc36.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Pxfujc36.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000333241/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Pxfujc36.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Pxfujc36.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Pxfujc36.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000333241.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333241.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                   | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | Pxfujc36  | KCG-000333241         | Ouverture : pour deux Violons, Alto, Violoncelle, Basse, deux Flûtes, deux haubois, deux Clarinettes, deux Cors, deux Trompettes, deux Bassons et Timballe : OEuvre 43. | [external URL](mkCY9LDD) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                   | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | Pxfujc36  | KCG-000333241         | Ouverture : pour deux Violons, Alto, Violoncelle, Basse, deux Flûtes, deux haubois, deux Clarinettes, deux Cors, deux Trompettes, deux Bassons et Timballe : OEuvre 43. | [external URL](https://catalogus.hogent.be/catalog/hog01:000333241) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -101,10 +105,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Pxfujc36.html" height="800" width="1200" title="Pxfujc36"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Pxfujc36" height="800" width="1200" title="Pxfujc36"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Pxfujc36.html" height="800" width="1200" title="Pxfujc36"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Pxfujc36" height="800" width="1200" title="Pxfujc36"></iframe>

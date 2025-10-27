@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DmTe7mXT
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DmTe7mXT.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DmTe7mXT.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DmTe7mXT.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DmTe7mXT.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DmTe7mXT.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DmTe7mXT.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description                                              | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-----: | :------------------------------------------------------: | :----------------------------------------------------------: |
-    | DmTe7mXT  | Ernesto Consolo |         | Italian pianist, composer and music educator (1864-1931) | [Ernesto Consolo](http://wwww.wikidata.org/entity/Q16189778) |
+    | FAAM UUID | label           | aliases | description                                              | Wikidata QID                                            |
+    | :-------: | :-------------: | :-----: | :------------------------------------------------------: | :-----------------------------------------------------: |
+    | DmTe7mXT  | Ernesto Consolo |         | Italian pianist, composer and music educator (1864-1931) | [Ernesto Consolo](http://wikidata.org/entity/Q16189778) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DmTe7mXT.html" height="800" width="1200" title="DmTe7mXT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DmTe7mXT" height="800" width="1200" title="DmTe7mXT"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Luigi Dallapiccola](./kZu2nCfq.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Luigi-Dallapiccola.jpg){align=left width="150" height="150"} 
+
+	Italian composer (1904–1975)
+
+</div>

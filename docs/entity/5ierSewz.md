@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5ierSewz
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :-------------------------------------: | :-----: | :----------------------------------------------: |
-    | 5ierSewz  | Krefeld | city in North Rhine-Westphalia, Germany | Crefeld | [Krefeld](http://wwww.wikidata.org/entity/Q2805) |
+    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :-------------------------------------: | :-----: | :-----------------------------------------: |
+    | 5ierSewz  | Krefeld | city in North Rhine-Westphalia, Germany | Crefeld | [Krefeld](http://wikidata.org/entity/Q2805) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/5ierSewz.html" height="800" width="1200" title="5ierSewz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5ierSewz" height="800" width="1200" title="5ierSewz"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Henri Geul](./ku6jtjDm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

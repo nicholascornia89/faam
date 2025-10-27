@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YQ5AKxXL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                       | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------------------------: | :-----: | :------------------------------------------------: |
-    | YQ5AKxXL  | Provins | commune in Seine-et-Marne, France |         | [Provins](http://wwww.wikidata.org/entity/Q203285) |
+    | FAAM UUID | label   | description                       | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------------------------: | :-----: | :-------------------------------------------: |
+    | YQ5AKxXL  | Provins | commune in Seine-et-Marne, France |         | [Provins](http://wikidata.org/entity/Q203285) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YQ5AKxXL.html" height="800" width="1200" title="YQ5AKxXL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YQ5AKxXL" height="800" width="1200" title="YQ5AKxXL"></iframe>
 
 ## Identifiers
 

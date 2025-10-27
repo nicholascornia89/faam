@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bKr8ng86
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bKr8ng86.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bKr8ng86.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bKr8ng86.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bKr8ng86.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bKr8ng86.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bKr8ng86.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Jacques_Rousseau_(painted_portrait).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases           | description                                           | Wikidata QID                                                   |
-    | :-------: | :-------------------: | :---------------: | :---------------------------------------------------: | :------------------------------------------------------------: |
-    | bKr8ng86  | Jean Jacques Rousseau | Citizen of Geneva | Genevan philosopher, writer, and composer (1712–1778) | [Jean-Jacques Rousseau](http://wwww.wikidata.org/entity/Q6527) |
+    | FAAM UUID | label                 | aliases           | description                                           | Wikidata QID                                              |
+    | :-------: | :-------------------: | :---------------: | :---------------------------------------------------: | :-------------------------------------------------------: |
+    | bKr8ng86  | Jean Jacques Rousseau | Citizen of Geneva | Genevan philosopher, writer, and composer (1712–1778) | [Jean-Jacques Rousseau](http://wikidata.org/entity/Q6527) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./6pfzESag.md)
+	- [philosopher](./6pfzESag.md)
 
 	- [writer](./YrCfZ8vh.md)
 
@@ -55,27 +59,27 @@ tags: agent
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./Z82mUmvc.md)
+	- [novelist](./Z82mUmvc.md)
 
 	- [autobiographer](./Tj5k8Dah.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
-	- [](./EU8pReRh.md)
+	- [naturalist](./EU8pReRh.md)
 
 	- [playwright](./CaE8K7ZF.md)
 
-	- [](./4yt5EE7y.md)
+	- [encyclopédistes](./4yt5EE7y.md)
 
-	- [](./SucjbMJQ.md)
+	- [correspondent](./SucjbMJQ.md)
 
-	- [](./EfYVMj9T.md)
+	- [political scientist](./EfYVMj9T.md)
 
-	- [](./NdvmaeTr.md)
+	- [essayist](./NdvmaeTr.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
-	- [](./jRPz5KUj.md)
+	- [botanist](./jRPz5KUj.md)
 
 	- [composer](./5aTYuVxp.md)
 
@@ -83,7 +87,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/bKr8ng86.html" height="800" width="1200" title="bKr8ng86"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bKr8ng86" height="800" width="1200" title="bKr8ng86"></iframe>
 
 ## Identifiers
 
@@ -109,7 +113,7 @@ tags: agent
 
 -	__[Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.](./HrioxeJc.md)__
 
-	![Image](../assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
 
 	
 

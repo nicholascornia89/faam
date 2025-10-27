@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gDD2rjHG
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                       | Wikidata QID                                                 |
-    | :-------: | :--------------: | :--------------: | :-------------------------------: | :----------------------------------------------------------: |
-    | gDD2rjHG  | Guido et Ginevra | Guido et Ginevra | opera by Jacques Fromental Halévy | [Guido et Ginevra](http://wwww.wikidata.org/entity/Q3119476) |
+    | FAAM UUID | label            | aliases          | description                       | Wikidata QID                                            |
+    | :-------: | :--------------: | :--------------: | :-------------------------------: | :-----------------------------------------------------: |
+    | gDD2rjHG  | Guido et Ginevra | Guido et Ginevra | opera by Jacques Fromental Halévy | [Guido et Ginevra](http://wikidata.org/entity/Q3119476) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/gDD2rjHG.html" height="800" width="1200" title="gDD2rjHG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gDD2rjHG" height="800" width="1200" title="gDD2rjHG"></iframe>
 
 ## Identifiers
 

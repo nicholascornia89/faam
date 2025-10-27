@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GU5zzTXD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GU5zzTXD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GU5zzTXD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GU5zzTXD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GU5zzTXD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GU5zzTXD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GU5zzTXD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                 | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :-------------------------: | :--------------------------------------------------------: |
-    | GU5zzTXD  | Michael Vetter | Michael Vetter | German composer (1943-2013) | [Michael Vetter](http://wwww.wikidata.org/entity/Q6835092) |
+    | FAAM UUID | label          | aliases        | description                 | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :-------------------------: | :---------------------------------------------------: |
+    | GU5zzTXD  | Michael Vetter | Michael Vetter | German composer (1943-2013) | [Michael Vetter](http://wikidata.org/entity/Q6835092) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/GU5zzTXD.html" height="800" width="1200" title="GU5zzTXD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GU5zzTXD" height="800" width="1200" title="GU5zzTXD"></iframe>
 
 ## Identifiers
 

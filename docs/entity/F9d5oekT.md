@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: F9d5oekT
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/F9d5oekT.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/F9d5oekT.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/F9d5oekT.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/F9d5oekT.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/F9d5oekT.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/F9d5oekT.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Christian_Bach_by_Thomas_Gainsborough.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases | description                 | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :-----: | :-------------------------: | :--------------------------------------------------------------: |
-    | F9d5oekT  | Johann Christian Bach |         | German composer (1735–1782) | [Johann Christian Bach](http://wwww.wikidata.org/entity/Q106641) |
+    | FAAM UUID | label                 | aliases | description                 | Wikidata QID                                                |
+    | :-------: | :-------------------: | :-----: | :-------------------------: | :---------------------------------------------------------: |
+    | F9d5oekT  | Johann Christian Bach |         | German composer (1735–1782) | [Johann Christian Bach](http://wikidata.org/entity/Q106641) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/F9d5oekT.html" height="800" width="1200" title="F9d5oekT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/F9d5oekT" height="800" width="1200" title="F9d5oekT"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+
+	Austrian composer of the Classical period (1756–1791)
+
+</div>

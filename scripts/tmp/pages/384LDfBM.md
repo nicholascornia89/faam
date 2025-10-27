@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 384LDfBM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/384LDfBM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/384LDfBM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/384LDfBM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/384LDfBM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/384LDfBM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/384LDfBM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anna_Maria_Strada_(Johannes_Verelst_1732).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description                         | Wikidata QID                                                 |
-    | :-------: | :---------------: | :---------------: | :---------------------------------: | :----------------------------------------------------------: |
-    | 384LDfBM  | Anna Maria Strada | Anna Maria Strada | Italian soprano of the 18th century | [Anna Maria Strada](http://wwww.wikidata.org/entity/Q509966) |
+    | FAAM UUID | label             | aliases           | description                         | Wikidata QID                                            |
+    | :-------: | :---------------: | :---------------: | :---------------------------------: | :-----------------------------------------------------: |
+    | 384LDfBM  | Anna Maria Strada | Anna Maria Strada | Italian soprano of the 18th century | [Anna Maria Strada](http://wikidata.org/entity/Q509966) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/384LDfBM.html" height="800" width="1200" title="384LDfBM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/384LDfBM" height="800" width="1200" title="384LDfBM"></iframe>
 
 ## Identifiers
 

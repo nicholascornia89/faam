@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: a6WmY75X
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/a6WmY75X.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/a6WmY75X.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/a6WmY75X.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/a6WmY75X.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/a6WmY75X.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/a6WmY75X.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases                     | description            | Wikidata QID                                                     |
-    | :-------: | :-----------------: | :-------------------------: | :--------------------: | :--------------------------------------------------------------: |
-    | a6WmY75X  | Friedrich Whistling | Friedrich Wilhelm Whistling | German music publisher | [Friedrich Whistling](http://wwww.wikidata.org/entity/Q29592765) |
+    | FAAM UUID | label               | aliases                     | description            | Wikidata QID                                                |
+    | :-------: | :-----------------: | :-------------------------: | :--------------------: | :---------------------------------------------------------: |
+    | a6WmY75X  | Friedrich Whistling | Friedrich Wilhelm Whistling | German music publisher | [Friedrich Whistling](http://wikidata.org/entity/Q29592765) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/a6WmY75X.html" height="800" width="1200" title="a6WmY75X"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/a6WmY75X" height="800" width="1200" title="a6WmY75X"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: agent
 
 -	__[9 Tenor-Arien : aus versch. Cantaten ; mit Begl. d. Pianoforte](./gex3sqyu.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
 
 	
 

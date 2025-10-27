@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cp3qn2AH
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902146544/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/cp3qn2AH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/cp3qn2AH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/cp3qn2AH.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902146544/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/cp3qn2AH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/cp3qn2AH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/cp3qn2AH.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902146544.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902146544.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                        | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | cp3qn2AH  | KCA-030902146544      | Rubens-marsch: op motiven der Rubens-cantate | [external URL](EgkVbUEo) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                        | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | cp3qn2AH  | KCA-030902146544      | Rubens-marsch: op motiven der Rubens-cantate | [external URL](https://anet.be/record/opacdkvc/c:lvd:7060489/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -73,10 +77,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/cp3qn2AH.html" height="800" width="1200" title="cp3qn2AH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cp3qn2AH" height="800" width="1200" title="cp3qn2AH"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/cp3qn2AH.html" height="800" width="1200" title="cp3qn2AH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/cp3qn2AH" height="800" width="1200" title="cp3qn2AH"></iframe>

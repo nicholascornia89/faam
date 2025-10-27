@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gqmdTGMK
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                              | aliases                | Wikidata QID                                          |
-    | :-------: | :-------: | :------------------------------------------------------: | :--------------------: | :---------------------------------------------------: |
-    | gqmdTGMK  | Lakeville | village in Litchfield County, Connecticut, United States | Lakeville, Connecticut | [Lakeville](http://wwww.wikidata.org/entity/Q3086417) |
+    | FAAM UUID | label     | description                                              | aliases                | Wikidata QID                                     |
+    | :-------: | :-------: | :------------------------------------------------------: | :--------------------: | :----------------------------------------------: |
+    | gqmdTGMK  | Lakeville | village in Litchfield County, Connecticut, United States | Lakeville, Connecticut | [Lakeville](http://wikidata.org/entity/Q3086417) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gqmdTGMK.html" height="800" width="1200" title="gqmdTGMK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gqmdTGMK" height="800" width="1200" title="gqmdTGMK"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Wanda Landowska](./ANygk75M.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
 
 	(1879-1959) Polish-French harpsichordist
 

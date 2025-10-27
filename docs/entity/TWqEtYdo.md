@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TWqEtYdo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description             | aliases | Wikidata QID                                             |
-    | :-------: | :----------: | :---------------------: | :-----: | :------------------------------------------------------: |
-    | TWqEtYdo  | rue Dauphine | street in Paris, France |         | [rue Dauphine](http://wwww.wikidata.org/entity/Q3447626) |
+    | FAAM UUID | label        | description             | aliases | Wikidata QID                                        |
+    | :-------: | :----------: | :---------------------: | :-----: | :-------------------------------------------------: |
+    | TWqEtYdo  | rue Dauphine | street in Paris, France |         | [rue Dauphine](http://wikidata.org/entity/Q3447626) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TWqEtYdo.html" height="800" width="1200" title="TWqEtYdo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TWqEtYdo" height="800" width="1200" title="TWqEtYdo"></iframe>
 
 ## Identifiers
 

@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "c4DdDGWx", "label": "Soviet Union", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./c4DdDGWx.md\u0027\u003eSoviet Union\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer country in Eurasia (1922\u20131991)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jKKzbBBu", "label": "Workers\u0027 Youth Theatre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jKKzbBBu.md\u0027\u003eWorkers\u0027 Youth Theatre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSoviet theatre type\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "D6jgxFyi", "label": "Dmitri Shostakovich", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./D6jgxFyi.md\u0027\u003eDmitri Shostakovich\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSoviet composer and pianist (1906-1975)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "ZpwbPoZj", "label": "Saint Petersburg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZpwbPoZj.md\u0027\u003eSaint Petersburg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efederal city and former capital of Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "diUttN86", "label": "Moscow", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./diUttN86.md\u0027\u003eMoscow\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital and most populous city of Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "c4DdDGWx", "to": "jKKzbBBu", "width": 10}, {"from": "c4DdDGWx", "to": "D6jgxFyi", "width": 1}, {"from": "ZpwbPoZj", "to": "jKKzbBBu", "width": 1}, {"from": "ZpwbPoZj", "to": "D6jgxFyi", "width": 1}, {"from": "D6jgxFyi", "to": "diUttN86", "width": 1}, {"from": "D6jgxFyi", "to": "jKKzbBBu", "width": 1}, {"from": "jKKzbBBu", "to": "diUttN86", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jKKzbBBu", "label": "Workers\u0027 Youth Theatre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jKKzbBBu\u0027\u003eWorkers\u0027 Youth Theatre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSoviet theatre type\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "diUttN86", "label": "Moscow", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/diUttN86\u0027\u003eMoscow\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital and most populous city of Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "ZpwbPoZj", "label": "Saint Petersburg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZpwbPoZj\u0027\u003eSaint Petersburg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efederal city and former capital of Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "c4DdDGWx", "label": "Soviet Union", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/c4DdDGWx\u0027\u003eSoviet Union\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer country in Eurasia (1922\u20131991)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "D6jgxFyi", "label": "Dmitri Shostakovich", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/D6jgxFyi\u0027\u003eDmitri Shostakovich\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSoviet composer and pianist (1906-1975)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "jKKzbBBu", "to": "diUttN86", "width": 1}, {"from": "jKKzbBBu", "to": "ZpwbPoZj", "width": 1}, {"from": "jKKzbBBu", "to": "c4DdDGWx", "width": 10}, {"from": "jKKzbBBu", "to": "D6jgxFyi", "width": 1}, {"from": "ZpwbPoZj", "to": "D6jgxFyi", "width": 1}, {"from": "D6jgxFyi", "to": "c4DdDGWx", "width": 1}, {"from": "D6jgxFyi", "to": "diUttN86", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

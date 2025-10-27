@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Lsxvvwm9
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                           | aliases          | Wikidata QID                                           |
-    | :-------: | :--------: | :-----------------------------------: | :--------------: | :----------------------------------------------------: |
-    | Lsxvvwm9  | salonnière | person who organizes or hosts a salon | literary hostess | [salonnière](http://wwww.wikidata.org/entity/Q3068305) |
+    | FAAM UUID | label      | description                           | aliases          | Wikidata QID                                      |
+    | :-------: | :--------: | :-----------------------------------: | :--------------: | :-----------------------------------------------: |
+    | Lsxvvwm9  | salonnière | person who organizes or hosts a salon | literary hostess | [salonnière](http://wikidata.org/entity/Q3068305) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Lsxvvwm9.html" height="800" width="1200" title="Lsxvvwm9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Lsxvvwm9" height="800" width="1200" title="Lsxvvwm9"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BiMpVQUM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BiMpVQUM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BiMpVQUM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BiMpVQUM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BiMpVQUM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BiMpVQUM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BiMpVQUM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles-Marie_Widor_(2).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases                         | description                              | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-----------------------------: | :--------------------------------------: | :------------------------------------------------------------: |
-    | BiMpVQUM  | Charles-Marie Widor | Charles-Marie Jean Albert Widor | French organist and composer (1844–1937) | [Charles-Marie Widor](http://wwww.wikidata.org/entity/Q215161) |
+    | FAAM UUID | label               | aliases                         | description                              | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-----------------------------: | :--------------------------------------: | :-------------------------------------------------------: |
+    | BiMpVQUM  | Charles-Marie Widor | Charles-Marie Jean Albert Widor | French organist and composer (1844–1937) | [Charles-Marie Widor](http://wikidata.org/entity/Q215161) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 	- [university teacher](./XWcaJQty.md)
 
@@ -73,17 +77,17 @@ tags: agent
 
 	- [Conservatoire de Paris](./mNynReve.md)
 
-	- [](./d7ivsT2f.md)
+	- [Fontainebleau Schools](./d7ivsT2f.md)
 
-	- [](./TevRCpsV.md)
+	- [Église Saint-François-de-Sales de Lyon](./TevRCpsV.md)
 
-	- [](./66Xpb5tT.md)
+	- [Church of Saint-Sulpice](./66Xpb5tT.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BiMpVQUM.html" height="800" width="1200" title="BiMpVQUM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BiMpVQUM" height="800" width="1200" title="BiMpVQUM"></iframe>
 
 ## Identifiers
 
@@ -109,8 +113,42 @@ tags: agent
 
 -	__[Valse oubliée](./JWn2Vg4H.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p55.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p55.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Edgard Varèse](./Pcbbgxfw.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edgar_Varèse_-_John_French_Sloan.jpg){align=left width="150" height="150"} 
+
+	French composer (1883-1965)
+
+-	__[Marcel Dupré](./5YrR8BxV.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dupre.jpg){align=left width="150" height="150"} 
+
+	French organist and composer (1886–1971)
+
+-	__[Arthur Honegger](./NCFq3aXa.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arthur_Honegger_1921.jpg){align=left width="150" height="150"} 
+
+	Swiss composer (1892-1955)
+
+-	__[Darius Milhaud](./JaKU2RAe.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Darius_Milhaud_b_Meurisse_1923.jpg){align=left width="150" height="150"} 
+
+	French composer (1892–1974)
+
+-	__[Nadia Boulanger](./nCmayBbg.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nadia_Boulanger_1925_colorized.jpg){align=left width="150" height="150"} 
+
+	French musician, conductor, and teacher (1887-1979)
 
 </div>

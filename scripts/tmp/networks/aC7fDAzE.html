@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "9QaFAsRL", "label": "scholar (owner)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9QaFAsRL.md\u0027\u003escholar (owner)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esomeone who has great knowledge\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aC7fDAzE", "label": "voice leading", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aC7fDAzE.md\u0027\u003evoice leading\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edecision-making consideration when arranging voices in musical composition\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "6UPEJgTQ", "label": "editor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6UPEJgTQ.md\u0027\u003eeditor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who edits sheet music for publication\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "FshUpZtG", "label": "Missa \"tu es Petrus\": sex vocum", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FshUpZtG.md\u0027\u003eMissa \"tu es Petrus\": sex vocum\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BSB-991099181519707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "XQ7Dcasr", "label": "musical-structural concept", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./XQ7Dcasr.md\u0027\u003emusical-structural concept\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusicological concept, relating to the structure of the composed musical work\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Mk25KX72", "label": "music theory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Mk25KX72.md\u0027\u003emusic theory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estudy of the theoretical aspects of music and its notation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2kxvrpzm", "label": "pitch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2kxvrpzm.md\u0027\u003epitch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperceptual property in music ordering sounds from low to high\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "9QaFAsRL", "to": "aC7fDAzE", "width": 10}, {"from": "6UPEJgTQ", "to": "aC7fDAzE", "width": 10}, {"from": "FshUpZtG", "to": "aC7fDAzE", "width": 10}, {"from": "XQ7Dcasr", "to": "aC7fDAzE", "width": 10}, {"from": "Mk25KX72", "to": "aC7fDAzE", "width": 10}, {"from": "aC7fDAzE", "to": "2kxvrpzm", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aC7fDAzE", "label": "voice leading", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aC7fDAzE\u0027\u003evoice leading\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edecision-making consideration when arranging voices in musical composition\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "XQ7Dcasr", "label": "musical-structural concept", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XQ7Dcasr\u0027\u003emusical-structural concept\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusicological concept, relating to the structure of the composed musical work\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Mk25KX72", "label": "music theory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Mk25KX72\u0027\u003emusic theory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estudy of the theoretical aspects of music and its notation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2kxvrpzm", "label": "pitch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2kxvrpzm\u0027\u003epitch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperceptual property in music ordering sounds from low to high\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "9QaFAsRL", "label": "scholar (owner)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9QaFAsRL\u0027\u003escholar (owner)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esomeone who has great knowledge\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "6UPEJgTQ", "label": "editor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6UPEJgTQ\u0027\u003eeditor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who edits sheet music for publication\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "FshUpZtG", "label": "Missa \"tu es Petrus\": sex vocum", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FshUpZtG\u0027\u003eMissa \"tu es Petrus\": sex vocum\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991099181519707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "aC7fDAzE", "to": "XQ7Dcasr", "width": 10}, {"from": "aC7fDAzE", "to": "Mk25KX72", "width": 10}, {"from": "aC7fDAzE", "to": "2kxvrpzm", "width": 10}, {"from": "aC7fDAzE", "to": "9QaFAsRL", "width": 10}, {"from": "aC7fDAzE", "to": "6UPEJgTQ", "width": 10}, {"from": "aC7fDAzE", "to": "FshUpZtG", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

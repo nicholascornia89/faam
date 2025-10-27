@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KmsHJ5Vx
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description             | aliases                                    | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :---------------------: | :----------------------------------------: | :---------------------------------------------------------------------: |
-    | KmsHJ5Vx  | Royal Conservatoire of Ghent | Belgian school of music | University College Ghent, Faculty of Music | [Royal Conservatory of Ghent](http://wwww.wikidata.org/entity/Q2061988) |
+    | FAAM UUID | label                        | description             | aliases                                    | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :---------------------: | :----------------------------------------: | :----------------------------------------------------------------: |
+    | KmsHJ5Vx  | Royal Conservatoire of Ghent | Belgian school of music | University College Ghent, Faculty of Music | [Royal Conservatory of Ghent](http://wikidata.org/entity/Q2061988) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/KmsHJ5Vx.html" height="800" width="1200" title="KmsHJ5Vx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KmsHJ5Vx" height="800" width="1200" title="KmsHJ5Vx"></iframe>
 
 ## Cross-references
 

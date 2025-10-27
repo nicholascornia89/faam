@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HeEL7b5v
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                     | aliases                         | description | Wikidata QID                                                                |
-    | :-------: | :---------------------------------------: | :-----------------------------: | :---------: | :-------------------------------------------------------------------------: |
-    | HeEL7b5v  | 8 Kleine Präludien und Fugen, BWV 553-560 | Eight Short Preludes and Fugues |             | [Eight Short Preludes and Fugues](http://wwww.wikidata.org/entity/Q5349011) |
+    | FAAM UUID | label                                     | aliases                         | description | Wikidata QID                                                           |
+    | :-------: | :---------------------------------------: | :-----------------------------: | :---------: | :--------------------------------------------------------------------: |
+    | HeEL7b5v  | 8 Kleine Präludien und Fugen, BWV 553-560 | Eight Short Preludes and Fugues |             | [Eight Short Preludes and Fugues](http://wikidata.org/entity/Q5349011) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/HeEL7b5v.html" height="800" width="1200" title="HeEL7b5v"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HeEL7b5v" height="800" width="1200" title="HeEL7b5v"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: musical_work
 
 -	__[Huit petits préludes et fugues, trois préludes, neuf fugues, cinq fantaisies](./C7MaY9BP.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902707634.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902707634.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9MHE74xB
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                            | aliases | Wikidata QID                                                           |
-    | :-------: | :------------------------: | :------------------------------------: | :-----: | :--------------------------------------------------------------------: |
-    | 9MHE74xB  | Musikverein für Steiermark | Austrian Music Society in Graz (1815-) |         | [Musikverein für Steiermark](http://wwww.wikidata.org/entity/Q1955271) |
+    | FAAM UUID | label                      | description                            | aliases | Wikidata QID                                                      |
+    | :-------: | :------------------------: | :------------------------------------: | :-----: | :---------------------------------------------------------------: |
+    | 9MHE74xB  | Musikverein für Steiermark | Austrian Music Society in Graz (1815-) |         | [Musikverein für Steiermark](http://wikidata.org/entity/Q1955271) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/9MHE74xB.html" height="800" width="1200" title="9MHE74xB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9MHE74xB" height="800" width="1200" title="9MHE74xB"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Wilhelm Mayer](./AQUfsFjr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer and music teacher (1831-1898)
 

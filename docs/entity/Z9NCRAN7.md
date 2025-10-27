@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Z9NCRAN7
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                           | description                         | aliases | Wikidata QID                                                                 |
-    | :-------: | :-----------------------------: | :---------------------------------: | :-----: | :--------------------------------------------------------------------------: |
-    | Z9NCRAN7  | Royal Music Institute of Berlin | musicians training centre at Berlin |         | [Royal Music Institute of Berlin](http://wwww.wikidata.org/entity/Q15732954) |
+    | FAAM UUID | label                           | description                         | aliases | Wikidata QID                                                            |
+    | :-------: | :-----------------------------: | :---------------------------------: | :-----: | :---------------------------------------------------------------------: |
+    | Z9NCRAN7  | Royal Music Institute of Berlin | musicians training centre at Berlin |         | [Royal Music Institute of Berlin](http://wikidata.org/entity/Q15732954) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Z9NCRAN7.html" height="800" width="1200" title="Z9NCRAN7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Z9NCRAN7" height="800" width="1200" title="Z9NCRAN7"></iframe>
 
 ## Cross-references
 

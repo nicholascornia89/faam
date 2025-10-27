@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BqcksJYr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description    | aliases      | Wikidata QID                                        |
-    | :-------: | :------: | :------------: | :----------: | :-------------------------------------------------: |
-    | BqcksJYr  | Petergof | city in Russia | Petrodvorets | [Petergof](http://wwww.wikidata.org/entity/Q178310) |
+    | FAAM UUID | label    | description    | aliases      | Wikidata QID                                   |
+    | :-------: | :------: | :------------: | :----------: | :--------------------------------------------: |
+    | BqcksJYr  | Petergof | city in Russia | Petrodvorets | [Petergof](http://wikidata.org/entity/Q178310) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BqcksJYr.html" height="800" width="1200" title="BqcksJYr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BqcksJYr" height="800" width="1200" title="BqcksJYr"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: evCwHyYF
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/evCwHyYF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/evCwHyYF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/evCwHyYF.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/evCwHyYF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/evCwHyYF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/evCwHyYF.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description                    | Wikidata QID                                                  |
-    | :-------: | :---------------: | :---------------: | :----------------------------: | :-----------------------------------------------------------: |
-    | evCwHyYF  | Francesco Guerini | Francesco Guerini | Italian violinist and composer | [Francesco Guerini](http://wwww.wikidata.org/entity/Q3750094) |
+    | FAAM UUID | label             | aliases           | description                    | Wikidata QID                                             |
+    | :-------: | :---------------: | :---------------: | :----------------------------: | :------------------------------------------------------: |
+    | evCwHyYF  | Francesco Guerini | Francesco Guerini | Italian violinist and composer | [Francesco Guerini](http://wikidata.org/entity/Q3750094) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/evCwHyYF.html" height="800" width="1200" title="evCwHyYF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/evCwHyYF" height="800" width="1200" title="evCwHyYF"></iframe>
 
 ## Identifiers
 

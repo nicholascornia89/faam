@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vg4pmmLb
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                         | aliases    | Wikidata QID                                             |
-    | :-------: | :----------: | :-----------------------------------------------------------------: | :--------: | :------------------------------------------------------: |
-    | Vg4pmmLb  | Stradivarius | string instruments built by Stradivari family, particularly Antonio | Stradivari | [Stradivarius](http://wwww.wikidata.org/entity/Q1068162) |
+    | FAAM UUID | label        | description                                                         | aliases    | Wikidata QID                                        |
+    | :-------: | :----------: | :-----------------------------------------------------------------: | :--------: | :-------------------------------------------------: |
+    | Vg4pmmLb  | Stradivarius | string instruments built by Stradivari family, particularly Antonio | Stradivari | [Stradivarius](http://wikidata.org/entity/Q1068162) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Vg4pmmLb.html" height="800" width="1200" title="Vg4pmmLb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vg4pmmLb" height="800" width="1200" title="Vg4pmmLb"></iframe>
 
 ## Cross-references
 

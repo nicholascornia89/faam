@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bTS8wpNY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bTS8wpNY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bTS8wpNY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bTS8wpNY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bTS8wpNY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bTS8wpNY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bTS8wpNY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases | description                              | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-----: | :--------------------------------------: | :------------------------------------------------------------------: |
-    | bTS8wpNY  | Giovanni Battista Bassani |         | Italian composer, violinist and organist | [Giovanni Battista Bassani](http://wwww.wikidata.org/entity/Q465565) |
+    | FAAM UUID | label                     | aliases | description                              | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-----: | :--------------------------------------: | :-------------------------------------------------------------: |
+    | bTS8wpNY  | Giovanni Battista Bassani |         | Italian composer, violinist and organist | [Giovanni Battista Bassani](http://wikidata.org/entity/Q465565) |
 
 <br><br><br>
 
@@ -49,13 +53,13 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./Gmyihe9r.md)
+	- [opera composer](./Gmyihe9r.md)
 
 	- [organist](./ZhptKYF3.md)
 
 	- [violinist](./9CVVGZdo.md)
 
-	- [](./kdzVcbUL.md)
+	- [church musician](./kdzVcbUL.md)
 
 	- [composer](./5aTYuVxp.md)
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/bTS8wpNY.html" height="800" width="1200" title="bTS8wpNY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bTS8wpNY" height="800" width="1200" title="bTS8wpNY"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Arcangelo Corelli](./QyGsVBr2.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arcangelo_Corelli,_portrait_by_Hugh_Howard_(1697)_-_2.jpg){align=left width="150" height="150"} 
+
+	Italian violinist and composer
+
+</div>

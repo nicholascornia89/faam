@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UxptXrBC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                    | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :----------------------------: | :-----: | :-----------------------------------------------: |
-    | UxptXrBC  | Łańcut | city and urban gmina of Poland |         | [Łańcut](http://wwww.wikidata.org/entity/Q345331) |
+    | FAAM UUID | label  | description                    | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :----------------------------: | :-----: | :------------------------------------------: |
+    | UxptXrBC  | Łańcut | city and urban gmina of Poland |         | [Łańcut](http://wikidata.org/entity/Q345331) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/UxptXrBC.html" height="800" width="1200" title="UxptXrBC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UxptXrBC" height="800" width="1200" title="UxptXrBC"></iframe>
 
 ## Identifiers
 

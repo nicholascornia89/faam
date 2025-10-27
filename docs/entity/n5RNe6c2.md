@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: n5RNe6c2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                    | aliases | Wikidata QID                                               |
-    | :-------: | :-------------: | :----------------------------: | :-----: | :--------------------------------------------------------: |
-    | n5RNe6c2  | Wiener Neustadt | city in Lower Austria, Austria |         | [Wiener Neustadt](http://wwww.wikidata.org/entity/Q131612) |
+    | FAAM UUID | label           | description                    | aliases | Wikidata QID                                          |
+    | :-------: | :-------------: | :----------------------------: | :-----: | :---------------------------------------------------: |
+    | n5RNe6c2  | Wiener Neustadt | city in Lower Austria, Austria |         | [Wiener Neustadt](http://wikidata.org/entity/Q131612) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/n5RNe6c2.html" height="800" width="1200" title="n5RNe6c2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/n5RNe6c2" height="800" width="1200" title="n5RNe6c2"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: b3G9FpyA
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901514759/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/b3G9FpyA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/b3G9FpyA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/b3G9FpyA.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901514759/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/b3G9FpyA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/b3G9FpyA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/b3G9FpyA.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901514759.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901514759.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                 | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | b3G9FpyA  | KCA-030901514759      | Fantasia: piano-forte | [external URL](DawBtzdU) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                 | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | b3G9FpyA  | KCA-030901514759      | Fantasia: piano-forte | [external URL](https://anet.be/record/opacdkvc/c:lvd:6712527/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -71,10 +75,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/b3G9FpyA.html" height="800" width="1200" title="b3G9FpyA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/b3G9FpyA" height="800" width="1200" title="b3G9FpyA"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/b3G9FpyA.html" height="800" width="1200" title="b3G9FpyA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/b3G9FpyA" height="800" width="1200" title="b3G9FpyA"></iframe>

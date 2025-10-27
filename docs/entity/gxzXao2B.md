@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gxzXao2B
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | description | aliases | Wikidata QID                                                                   |
-    | :-------: | :-------------------------------: | :---------: | :-----: | :----------------------------------------------------------------------------: |
-    | gxzXao2B  | Liceo Statale Niccolò Forteguerri |             |         | [Liceo Statale Niccolò Forteguerri](http://wwww.wikidata.org/entity/Q28670170) |
+    | FAAM UUID | label                             | description | aliases | Wikidata QID                                                              |
+    | :-------: | :-------------------------------: | :---------: | :-----: | :-----------------------------------------------------------------------: |
+    | gxzXao2B  | Liceo Statale Niccolò Forteguerri |             |         | [Liceo Statale Niccolò Forteguerri](http://wikidata.org/entity/Q28670170) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/gxzXao2B.html" height="800" width="1200" title="gxzXao2B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gxzXao2B" height="800" width="1200" title="gxzXao2B"></iframe>
 
 ## Cross-references
 

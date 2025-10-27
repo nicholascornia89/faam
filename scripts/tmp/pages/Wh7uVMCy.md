@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Wh7uVMCy
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904862957/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Wh7uVMCy.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Wh7uVMCy.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Wh7uVMCy.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904862957/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Wh7uVMCy.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Wh7uVMCy.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Wh7uVMCy.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904862957.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904862957.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                              | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | Wh7uVMCy  | KCA-030904862957      | Notturno Op. 37, Nr. 1 : für Violine und Orchester | [external URL](cy2NFhfp) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                              | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | Wh7uVMCy  | KCA-030904862957      | Notturno Op. 37, Nr. 1 : für Violine und Orchester | [external URL](https://anet.be/record/opacdkvc/c:lvd:6763535/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -83,10 +87,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Wh7uVMCy.html" height="800" width="1200" title="Wh7uVMCy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Wh7uVMCy" height="800" width="1200" title="Wh7uVMCy"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Wh7uVMCy.html" height="800" width="1200" title="Wh7uVMCy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Wh7uVMCy" height="800" width="1200" title="Wh7uVMCy"></iframe>

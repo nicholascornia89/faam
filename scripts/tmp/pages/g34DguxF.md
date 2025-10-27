@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: g34DguxF
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                  | aliases              | Wikidata QID                                                     |
-    | :-------: | :------------------: | :--------------------------: | :------------------: | :--------------------------------------------------------------: |
-    | g34DguxF  | Southern Netherlands | historical region in Belgium | Catholic Netherlands | [Southern Netherlands](http://wwww.wikidata.org/entity/Q6581823) |
+    | FAAM UUID | label                | description                  | aliases              | Wikidata QID                                                |
+    | :-------: | :------------------: | :--------------------------: | :------------------: | :---------------------------------------------------------: |
+    | g34DguxF  | Southern Netherlands | historical region in Belgium | Catholic Netherlands | [Southern Netherlands](http://wikidata.org/entity/Q6581823) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/g34DguxF.html" height="800" width="1200" title="g34DguxF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/g34DguxF" height="800" width="1200" title="g34DguxF"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Jacobus de Kerle](./Ytsbp8Hr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Flemish composer
 

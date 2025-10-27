@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "b34o65NL", "label": "Janssen Symphony of Los Angeles", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./b34o65NL.md\u0027\u003eJanssen Symphony of Los Angeles\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eOrchestra founded by Werner Janssen in 1940\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "mMvimh8v", "label": "Los Angeles", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mMvimh8v.md\u0027\u003eLos Angeles\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003elargest city in California, United States\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "fiWxEeqn", "label": "United States of America", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fiWxEeqn.md\u0027\u003eUnited States of America\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry located primarily in North America\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "BacG3qJw", "label": "Werner Janssen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BacG3qJw.md\u0027\u003eWerner Janssen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAmerican conductor (1899-1990)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Werner_Janssen_(1937).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "CY69q29C", "label": "Danses concertantes : for chamber orchestra = Danses concertantes : f\u00fcr Kammerorchester", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CY69q29C.md\u0027\u003eDanses concertantes : for chamber orchestra = Danses concertantes : f\u00fcr Kammerorchester\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030904721377.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "b34o65NL", "to": "mMvimh8v", "width": 1}, {"from": "b34o65NL", "to": "fiWxEeqn", "width": 1}, {"from": "b34o65NL", "to": "BacG3qJw", "width": 1}, {"from": "b34o65NL", "to": "CY69q29C", "width": 10}, {"from": "fiWxEeqn", "to": "mMvimh8v", "width": 1}, {"from": "fiWxEeqn", "to": "BacG3qJw", "width": 1}, {"from": "mMvimh8v", "to": "BacG3qJw", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "CY69q29C", "label": "Danses concertantes : for chamber orchestra = Danses concertantes : f\u00fcr Kammerorchester", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CY69q29C\u0027\u003eDanses concertantes : for chamber orchestra = Danses concertantes : f\u00fcr Kammerorchester\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904721377.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "b34o65NL", "label": "Janssen Symphony of Los Angeles", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/b34o65NL\u0027\u003eJanssen Symphony of Los Angeles\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eOrchestra founded by Werner Janssen in 1940\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "BacG3qJw", "label": "Werner Janssen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BacG3qJw\u0027\u003eWerner Janssen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAmerican conductor (1899-1990)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Werner_Janssen_(1937).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "fiWxEeqn", "label": "United States of America", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fiWxEeqn\u0027\u003eUnited States of America\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry located primarily in North America\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "mMvimh8v", "label": "Los Angeles", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mMvimh8v\u0027\u003eLos Angeles\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003elargest city in California, United States\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "CY69q29C", "to": "b34o65NL", "width": 10}, {"from": "BacG3qJw", "to": "fiWxEeqn", "width": 1}, {"from": "BacG3qJw", "to": "b34o65NL", "width": 1}, {"from": "BacG3qJw", "to": "mMvimh8v", "width": 1}, {"from": "b34o65NL", "to": "mMvimh8v", "width": 1}, {"from": "b34o65NL", "to": "fiWxEeqn", "width": 1}, {"from": "fiWxEeqn", "to": "mMvimh8v", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

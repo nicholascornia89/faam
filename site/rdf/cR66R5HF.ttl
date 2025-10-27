@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cR66R5HF a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "historic kingdom on the British Isles (927–1649; 1660–1707)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q179876>,
+        "16004395"^^xsd:string,
+        "cR66R5HF"^^xsd:string ;
+    skos:altLabel "England"^^xsd:string,
+        "Kingdom of England"^^xsd:string ;
+    skos:prefLabel "Kingdom of England"^^xsd:string .
+

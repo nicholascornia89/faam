@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LFzQn7oX
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LFzQn7oX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LFzQn7oX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LFzQn7oX.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LFzQn7oX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LFzQn7oX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LFzQn7oX.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description                              | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----: | :--------------------------------------: | :------------------------------------------------------: |
-    | LFzQn7oX  | August Freyer |         | German organist and composer (1801–1883) | [August Freyer](http://wwww.wikidata.org/entity/Q125036) |
+    | FAAM UUID | label         | aliases | description                              | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----: | :--------------------------------------: | :-------------------------------------------------: |
+    | LFzQn7oX  | August Freyer |         | German organist and composer (1801–1883) | [August Freyer](http://wikidata.org/entity/Q125036) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/LFzQn7oX.html" height="800" width="1200" title="LFzQn7oX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LFzQn7oX" height="800" width="1200" title="LFzQn7oX"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Stanisław Moniuszko](./jeeeKFQ8.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Stanisłaŭ_Maniuška._Станіслаў_Манюшка_(T._Maleszewski,_1865).jpg){align=left width="150" height="150"} 
+
+	Polish composer (1819–1872)
+
+</div>

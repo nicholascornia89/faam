@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VWxfQNha
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-324059706/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/VWxfQNha.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/VWxfQNha.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/VWxfQNha.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-324059706/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/VWxfQNha.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/VWxfQNha.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/VWxfQNha.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-324059706.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-324059706.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                           | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :-------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | VWxfQNha  | BNF-324059706         | Théories complètes du chant / par M. Stéphen de La Madelaine... | [external URL](cSSAWxvC) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                           | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :-------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | VWxfQNha  | BNF-324059706         | Théories complètes du chant / par M. Stéphen de La Madelaine... | [external URL](http://catalogue.bnf.fr/ark:/12148/cb324059706) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -57,10 +61,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/VWxfQNha.html" height="800" width="1200" title="VWxfQNha"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VWxfQNha" height="800" width="1200" title="VWxfQNha"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/VWxfQNha.html" height="800" width="1200" title="VWxfQNha"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/VWxfQNha" height="800" width="1200" title="VWxfQNha"></iframe>

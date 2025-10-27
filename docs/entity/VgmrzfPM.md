@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VgmrzfPM
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                        | aliases                 | Wikidata QID                                                    |
-    | :-------: | :-------------------: | :--------------------------------: | :---------------------: | :-------------------------------------------------------------: |
-    | VgmrzfPM  | French Third Republic | nation of France from 1870 to 1940 | La Troisième République | [French Third Republic](http://wwww.wikidata.org/entity/Q70802) |
+    | FAAM UUID | label                 | description                        | aliases                 | Wikidata QID                                               |
+    | :-------: | :-------------------: | :--------------------------------: | :---------------------: | :--------------------------------------------------------: |
+    | VgmrzfPM  | French Third Republic | nation of France from 1870 to 1940 | La Troisième République | [French Third Republic](http://wikidata.org/entity/Q70802) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/VgmrzfPM.html" height="800" width="1200" title="VgmrzfPM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VgmrzfPM" height="800" width="1200" title="VgmrzfPM"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Jeanne Dalliès](./DzK8Nnk8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French harpist and musicologist
 

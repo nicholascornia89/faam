@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JadywWNZ
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076581699707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JadywWNZ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JadywWNZ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JadywWNZ.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076581699707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JadywWNZ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JadywWNZ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JadywWNZ.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991076581699707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076581699707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                 | permalink                | provenance                              |
-    | :-------: | :--------------------: | :-------------------: | :----------------------: | :-------------------------------------: |
-    | JadywWNZ  | BSB-991076581699707356 | Magnificat (in D-dur) | [external URL](7WfWytMV) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                 | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :-------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | JadywWNZ  | BSB-991076581699707356 | Magnificat (in D-dur) | [external URL](https://mdz-nbn-resolving.de/details:bsb11146327) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -97,10 +101,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/JadywWNZ.html" height="800" width="1200" title="JadywWNZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JadywWNZ" height="800" width="1200" title="JadywWNZ"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/JadywWNZ.html" height="800" width="1200" title="JadywWNZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/JadywWNZ" height="800" width="1200" title="JadywWNZ"></iframe>

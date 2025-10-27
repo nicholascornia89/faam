@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WxBiDK8u
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                    | aliases  | Wikidata QID                                          |
-    | :-------: | :---------: | :----------------------------: | :------: | :---------------------------------------------------: |
-    | WxBiDK8u  | Dendermonde | city in East Flanders, Belgium | Termonde | [Dendermonde](http://wwww.wikidata.org/entity/Q13122) |
+    | FAAM UUID | label       | description                    | aliases  | Wikidata QID                                     |
+    | :-------: | :---------: | :----------------------------: | :------: | :----------------------------------------------: |
+    | WxBiDK8u  | Dendermonde | city in East Flanders, Belgium | Termonde | [Dendermonde](http://wikidata.org/entity/Q13122) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/WxBiDK8u.html" height="800" width="1200" title="WxBiDK8u"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WxBiDK8u" height="800" width="1200" title="WxBiDK8u"></iframe>
 
 ## Identifiers
 

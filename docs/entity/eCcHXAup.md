@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eCcHXAup
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/eCcHXAup.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/eCcHXAup.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/eCcHXAup.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/eCcHXAup.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/eCcHXAup.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/eCcHXAup.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                    | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------------------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | eCcHXAup  | Commissie tot Keuring van Kerkelijk Muzikale Composities |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                                    | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------------------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | eCcHXAup  | Commissie tot Keuring van Kerkelijk Muzikale Composities |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/eCcHXAup.html" height="800" width="1200" title="eCcHXAup"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eCcHXAup" height="800" width="1200" title="eCcHXAup"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: agent
 
 -	__[Zes Latijnse lofgeVoiceen : 2 en 3 gelijke stemmen](./7rBoR88j.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903770292.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903770292.gif){align=left width="150" height="150"} 
 
 	
 

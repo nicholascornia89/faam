@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2B3iaaMF
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                                                              | aliases | Wikidata QID                                                                   |
-    | :-------: | :--------------------------------: | :----------------------------------------------------------------------: | :-----: | :----------------------------------------------------------------------------: |
-    | 2B3iaaMF  | former 7th arrondissement of Paris | one of the twelve administrative districts of Paris, France, before 1860 |         | [former 7th arrondissement of Paris](http://wwww.wikidata.org/entity/Q2845760) |
+    | FAAM UUID | label                              | description                                                              | aliases | Wikidata QID                                                              |
+    | :-------: | :--------------------------------: | :----------------------------------------------------------------------: | :-----: | :-----------------------------------------------------------------------: |
+    | 2B3iaaMF  | former 7th arrondissement of Paris | one of the twelve administrative districts of Paris, France, before 1860 |         | [former 7th arrondissement of Paris](http://wikidata.org/entity/Q2845760) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2B3iaaMF.html" height="800" width="1200" title="2B3iaaMF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2B3iaaMF" height="800" width="1200" title="2B3iaaMF"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Fromental Halévy](./NPPV2XtG.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
 
 	French composer
 

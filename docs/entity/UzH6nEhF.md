@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UzH6nEhF
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------------: | :-----: | :---------: | :----------------------------------: |
-    | UzH6nEhF  | Piano Concerto No.1, H 27 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                     | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------------: | :-----: | :---------: | :-----------------------------: |
+    | UzH6nEhF  | Piano Concerto No.1, H 27 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/UzH6nEhF.html" height="800" width="1200" title="UzH6nEhF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UzH6nEhF" height="800" width="1200" title="UzH6nEhF"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Premier Concerto : Pour le Piano avec Accompagnement d'Orchestre](./eJhL3ZZ3.md)__
 
-	![Image](../assets/images/thumbs/KCG-000344414.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000344414.gif){align=left width="150" height="150"} 
 
 	
 

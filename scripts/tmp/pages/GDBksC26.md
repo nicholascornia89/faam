@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GDBksC26
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GDBksC26.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GDBksC26.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GDBksC26.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GDBksC26.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GDBksC26.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GDBksC26.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Durand_musicien.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                                               | Wikidata QID                                            |
-    | :-------: | :----------: | :----------: | :-------------------------------------------------------: | :-----------------------------------------------------: |
-    | GDBksC26  | Émile Durand | Emile Durand | French musical theorist, teacher and composer (1830-1903) | [Émile Durand](http://wwww.wikidata.org/entity/Q275060) |
+    | FAAM UUID | label        | aliases      | description                                               | Wikidata QID                                       |
+    | :-------: | :----------: | :----------: | :-------------------------------------------------------: | :------------------------------------------------: |
+    | GDBksC26  | Émile Durand | Emile Durand | French musical theorist, teacher and composer (1830-1903) | [Émile Durand](http://wikidata.org/entity/Q275060) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/GDBksC26.html" height="800" width="1200" title="GDBksC26"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GDBksC26" height="800" width="1200" title="GDBksC26"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Gabriel Pierné](./2xdjPXtz.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henri_Constant_Gabriel_Pierné.jpg){align=left width="150" height="150"} 
+
+	French composer, conductor, and organist (1863–1937)
+
+</div>

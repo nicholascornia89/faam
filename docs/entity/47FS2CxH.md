@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 47FS2CxH
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904487243/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/47FS2CxH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/47FS2CxH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/47FS2CxH.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904487243/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/47FS2CxH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/47FS2CxH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/47FS2CxH.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904487243.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904487243.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title               | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 47FS2CxH  | KCA-030904487243      | Sinfonietta, op. 48 | [external URL](H9peVKU2) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title               | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 47FS2CxH  | KCA-030904487243      | Sinfonietta, op. 48 | [external URL](https://anet.be/record/opacdkvc/c:lvd:6751968/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -73,10 +77,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/47FS2CxH.html" height="800" width="1200" title="47FS2CxH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/47FS2CxH" height="800" width="1200" title="47FS2CxH"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/47FS2CxH.html" height="800" width="1200" title="47FS2CxH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/47FS2CxH" height="800" width="1200" title="47FS2CxH"></iframe>

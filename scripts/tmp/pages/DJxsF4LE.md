@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DJxsF4LE
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                          | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :------------------------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | DJxsF4LE  | Visp  | capital of the district of Visp in the canton of Valais, Switzerland | Visp VS | [Visp](http://wwww.wikidata.org/entity/Q64147) |
+    | FAAM UUID | label | description                                                          | aliases | Wikidata QID                              |
+    | :-------: | :---: | :------------------------------------------------------------------: | :-----: | :---------------------------------------: |
+    | DJxsF4LE  | Visp  | capital of the district of Visp in the canton of Valais, Switzerland | Visp VS | [Visp](http://wikidata.org/entity/Q64147) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/DJxsF4LE.html" height="800" width="1200" title="DJxsF4LE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DJxsF4LE" height="800" width="1200" title="DJxsF4LE"></iframe>
 
 ## Identifiers
 

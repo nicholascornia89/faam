@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vk8JV7ow
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | aliases                           | description                  | Wikidata QID                                              |
-    | :-------: | :------------------------------: | :-------------------------------: | :--------------------------: | :-------------------------------------------------------: |
-    | Vk8JV7ow  | Keyboard Sonata in A major, K.26 | Keyboard Sonata in A major, L.368 | sonata by Domenico Scarlatti | [Sonata K. 26](http://wwww.wikidata.org/entity/Q74594891) |
+    | FAAM UUID | label                            | aliases                           | description                  | Wikidata QID                                         |
+    | :-------: | :------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------: |
+    | Vk8JV7ow  | Keyboard Sonata in A major, K.26 | Keyboard Sonata in A major, L.368 | sonata by Domenico Scarlatti | [Sonata K. 26](http://wikidata.org/entity/Q74594891) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Vk8JV7ow.html" height="800" width="1200" title="Vk8JV7ow"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vk8JV7ow" height="800" width="1200" title="Vk8JV7ow"></iframe>
 
 ## Identifiers
 
@@ -71,19 +75,19 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[24 Stücke : für Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo.](./WWCbaaWA.md)__
 
-	![Image](../assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Clavecinistes de 1637 à 1790 : en trois volumes musique / [édité par] Amédée Méreaux.](./c3pcMa2E.md)__
 
-	![Image](../assets/images/thumbs/SML-18890.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18890.gif){align=left width="150" height="150"} 
 
 	
 

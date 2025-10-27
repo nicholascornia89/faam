@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fJWmWr3M
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                  | aliases | Wikidata QID                                               |
-    | :-------: | :-----------: | :------------------------------------------: | :-----: | :--------------------------------------------------------: |
-    | fJWmWr3M  | 10 rue Hérold | house in 1st arrondissement of Paris, France |         | [10 rue Hérold](http://wwww.wikidata.org/entity/Q19832870) |
+    | FAAM UUID | label         | description                                  | aliases | Wikidata QID                                          |
+    | :-------: | :-----------: | :------------------------------------------: | :-----: | :---------------------------------------------------: |
+    | fJWmWr3M  | 10 rue Hérold | house in 1st arrondissement of Paris, France |         | [10 rue Hérold](http://wikidata.org/entity/Q19832870) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fJWmWr3M.html" height="800" width="1200" title="fJWmWr3M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fJWmWr3M" height="800" width="1200" title="fJWmWr3M"></iframe>
 
 ## Identifiers
 

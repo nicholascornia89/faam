@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TonYSRCv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                                                       | aliases | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :---------------------------------------------------------------: | :-----: | :--------------------------------------------------------------------: |
-    | TonYSRCv  | 1st arrondissement of Paris | one of the 20 arrondissements (administrative districts) of Paris | 75001   | [1st arrondissement of Paris](http://wwww.wikidata.org/entity/Q161741) |
+    | FAAM UUID | label                       | description                                                       | aliases | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :---------------------------------------------------------------: | :-----: | :---------------------------------------------------------------: |
+    | TonYSRCv  | 1st arrondissement of Paris | one of the 20 arrondissements (administrative districts) of Paris | 75001   | [1st arrondissement of Paris](http://wikidata.org/entity/Q161741) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TonYSRCv.html" height="800" width="1200" title="TonYSRCv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TonYSRCv" height="800" width="1200" title="TonYSRCv"></iframe>
 
 ## Identifiers
 

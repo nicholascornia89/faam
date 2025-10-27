@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8fY2Pnyj
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                     | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :-----------------------------: | :-----: | :-----------------------------------------------: |
-    | 8fY2Pnyj  | Ferrara | comune in Emilia-Romagna, Italy |         | [Ferrara](http://wwww.wikidata.org/entity/Q13362) |
+    | FAAM UUID | label   | description                     | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :-----------------------------: | :-----: | :------------------------------------------: |
+    | 8fY2Pnyj  | Ferrara | comune in Emilia-Romagna, Italy |         | [Ferrara](http://wikidata.org/entity/Q13362) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8fY2Pnyj.html" height="800" width="1200" title="8fY2Pnyj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8fY2Pnyj" height="800" width="1200" title="8fY2Pnyj"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: city
 
 -	__[Luzzasco Luzzaschi](./XudjntwM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and organist
 
 -	__[Luzzasco Luzzaschi](./XudjntwM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and organist
 

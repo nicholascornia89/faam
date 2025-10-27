@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iX5H3tTM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/iX5H3tTM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/iX5H3tTM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/iX5H3tTM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/iX5H3tTM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/iX5H3tTM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/iX5H3tTM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Auguste_Franchomme.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases                   | description                 | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----------------------: | :-------------------------: | :-----------------------------------------------------------: |
-    | iX5H3tTM  | Auguste Franchomme | Auguste-Joseph Franchomme | French musician (1808-1884) | [Auguste Franchomme](http://wwww.wikidata.org/entity/Q517132) |
+    | FAAM UUID | label              | aliases                   | description                 | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----------------------: | :-------------------------: | :------------------------------------------------------: |
+    | iX5H3tTM  | Auguste Franchomme | Auguste-Joseph Franchomme | French musician (1808-1884) | [Auguste Franchomme](http://wikidata.org/entity/Q517132) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/iX5H3tTM.html" height="800" width="1200" title="iX5H3tTM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iX5H3tTM" height="800" width="1200" title="iX5H3tTM"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Alfred Bruneau](./8TovrbgU.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alfred_Bruneau.jpg){align=left width="150" height="150"} 
+
+	French composer (1857-1934)
+
+</div>

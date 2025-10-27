@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2zrvDFGK
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases               | description                     | Wikidata QID                                                        |
-    | :-------: | :--------------------: | :-------------------: | :-----------------------------: | :-----------------------------------------------------------------: |
-    | 2zrvDFGK  | Grand Solo No.5, Op.79 | Grand Solo No.5 Op.79 | composition by Jean-Louis Tulou | [Grand Solo No.5 Op.79](http://wwww.wikidata.org/entity/Q124349397) |
+    | FAAM UUID | label                  | aliases               | description                     | Wikidata QID                                                   |
+    | :-------: | :--------------------: | :-------------------: | :-----------------------------: | :------------------------------------------------------------: |
+    | 2zrvDFGK  | Grand Solo No.5, Op.79 | Grand Solo No.5 Op.79 | composition by Jean-Louis Tulou | [Grand Solo No.5 Op.79](http://wikidata.org/entity/Q124349397) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/2zrvDFGK.html" height="800" width="1200" title="2zrvDFGK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2zrvDFGK" height="800" width="1200" title="2zrvDFGK"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[5me. Grand Solo : Pour le Flute avec Acct. de deux violons alto et basse ou Piano : Composé pour Les Concerts du Conservatoire : Op: 79.](./3jCeVXeu.md)__
 
-	![Image](../assets/images/thumbs/KCG-000370132.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000370132.gif){align=left width="150" height="150"} 
 
 	
 

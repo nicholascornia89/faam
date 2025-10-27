@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YX7LjaDe a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "secondary school in the Belgian city of Bruges"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2663876>,
+        "16004761"^^xsd:string,
+        "YX7LjaDe"^^xsd:string ;
+    schema1:location faamentity:KgyiaBt3,
+        faamentity:QRuTEdwa ;
+    skos:altLabel "Duinencollege"^^xsd:string,
+        "Sint-Lodewijkscollege"^^xsd:string,
+        "Sint-Lodewijkscollege (Brugge)"^^xsd:string ;
+    skos:prefLabel "Sint-Lodewijkscollege"^^xsd:string .
+

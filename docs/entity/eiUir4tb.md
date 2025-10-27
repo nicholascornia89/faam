@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eiUir4tb
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                  | aliases    | Wikidata QID                                              |
-    | :-------: | :-----------: | :------------------------------------------: | :--------: | :-------------------------------------------------------: |
-    | eiUir4tb  | ma non troppo | musical symbol indicating "but not too much" | non troppo | [ma non troppo](http://wwww.wikidata.org/entity/Q2517964) |
+    | FAAM UUID | label         | description                                  | aliases    | Wikidata QID                                         |
+    | :-------: | :-----------: | :------------------------------------------: | :--------: | :--------------------------------------------------: |
+    | eiUir4tb  | ma non troppo | musical symbol indicating "but not too much" | non troppo | [ma non troppo](http://wikidata.org/entity/Q2517964) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/eiUir4tb.html" height="800" width="1200" title="eiUir4tb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eiUir4tb" height="800" width="1200" title="eiUir4tb"></iframe>
 
 ## Cross-references
 

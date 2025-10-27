@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NFK6SYzn
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NFK6SYzn.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NFK6SYzn.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NFK6SYzn.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NFK6SYzn.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NFK6SYzn.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NFK6SYzn.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases            | description | Wikidata QID                                                   |
-    | :-------: | :---------------: | :----------------: | :---------: | :------------------------------------------------------------: |
-    | NFK6SYzn  | Theodor Michaelis | Theodore Michaelis |             | [Theodor Michaelis](http://wwww.wikidata.org/entity/Q50161551) |
+    | FAAM UUID | label             | aliases            | description | Wikidata QID                                              |
+    | :-------: | :---------------: | :----------------: | :---------: | :-------------------------------------------------------: |
+    | NFK6SYzn  | Theodor Michaelis | Theodore Michaelis |             | [Theodor Michaelis](http://wikidata.org/entity/Q50161551) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NFK6SYzn.html" height="800" width="1200" title="NFK6SYzn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NFK6SYzn" height="800" width="1200" title="NFK6SYzn"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: agent
 
 -	__[La Patrouille Turque - Op. 83](./CRd75CMT.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143703p13.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143703p13.gif){align=left width="150" height="150"} 
 
 	
 

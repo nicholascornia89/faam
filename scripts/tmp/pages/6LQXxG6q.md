@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6LQXxG6q
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                          | aliases | Wikidata QID                                                           |
-    | :-------: | :-----------------------: | :----------------------------------: | :-----: | :--------------------------------------------------------------------: |
-    | 6LQXxG6q  | Fondation Lambert Darchis | Belgian foundation (created in 1699) |         | [Fondation Lambert Darchis](http://wwww.wikidata.org/entity/Q19974113) |
+    | FAAM UUID | label                     | description                          | aliases | Wikidata QID                                                      |
+    | :-------: | :-----------------------: | :----------------------------------: | :-----: | :---------------------------------------------------------------: |
+    | 6LQXxG6q  | Fondation Lambert Darchis | Belgian foundation (created in 1699) |         | [Fondation Lambert Darchis](http://wikidata.org/entity/Q19974113) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/6LQXxG6q.html" height="800" width="1200" title="6LQXxG6q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6LQXxG6q" height="800" width="1200" title="6LQXxG6q"></iframe>
 
 ## Cross-references
 

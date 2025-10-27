@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fUJqdffy
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description    | aliases | Wikidata QID                                                |
-    | :-------: | :--------------: | :------------: | :-----: | :---------------------------------------------------------: |
-    | fUJqdffy  | Crown of Castile | former country | Castile | [Crown of Castile](http://wwww.wikidata.org/entity/Q217196) |
+    | FAAM UUID | label            | description    | aliases | Wikidata QID                                           |
+    | :-------: | :--------------: | :------------: | :-----: | :----------------------------------------------------: |
+    | fUJqdffy  | Crown of Castile | former country | Castile | [Crown of Castile](http://wikidata.org/entity/Q217196) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/fUJqdffy.html" height="800" width="1200" title="fUJqdffy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fUJqdffy" height="800" width="1200" title="fUJqdffy"></iframe>
 
 ## Identifiers
 
@@ -49,7 +53,7 @@ tags: country
 
 -	__[Pedro Fernández de Castilleja](./fApHxzGr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

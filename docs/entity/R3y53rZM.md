@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: R3y53rZM
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000355794/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/R3y53rZM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/R3y53rZM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/R3y53rZM.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000355794/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/R3y53rZM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/R3y53rZM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/R3y53rZM.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000355794.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000355794.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title     | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-------: | :----------------------: | :------------------------------------------------: |
-    | R3y53rZM  | KCG-000355794         | Psaume 18 | [external URL](E4rhHet3) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title     | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | R3y53rZM  | KCG-000355794         | Psaume 18 | [external URL](https://catalogus.hogent.be/catalog/hog01:000355794) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ===  "note" 
 
@@ -78,10 +82,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/R3y53rZM.html" height="800" width="1200" title="R3y53rZM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/R3y53rZM" height="800" width="1200" title="R3y53rZM"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/R3y53rZM.html" height="800" width="1200" title="R3y53rZM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/R3y53rZM" height="800" width="1200" title="R3y53rZM"></iframe>

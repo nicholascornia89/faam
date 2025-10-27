@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Wwj5wpVZ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Wwj5wpVZ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Wwj5wpVZ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Wwj5wpVZ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Wwj5wpVZ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Wwj5wpVZ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Wwj5wpVZ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lefébure-Wély-young.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases                          | description                              | Wikidata QID                                                    |
-    | :-------: | :------------------: | :------------------------------: | :--------------------------------------: | :-------------------------------------------------------------: |
-    | Wwj5wpVZ  | Alfred Lefébure-Wély | Louis James Alfred Lefebure-Wely | French composer and organist (1817–1869) | [Alfred Lefébure-Wély](http://wwww.wikidata.org/entity/Q546919) |
+    | FAAM UUID | label                | aliases                          | description                              | Wikidata QID                                               |
+    | :-------: | :------------------: | :------------------------------: | :--------------------------------------: | :--------------------------------------------------------: |
+    | Wwj5wpVZ  | Alfred Lefébure-Wély | Louis James Alfred Lefebure-Wely | French composer and organist (1817–1869) | [Alfred Lefébure-Wély](http://wikidata.org/entity/Q546919) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Wwj5wpVZ.html" height="800" width="1200" title="Wwj5wpVZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Wwj5wpVZ" height="800" width="1200" title="Wwj5wpVZ"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,11 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Pietà, Signore](./iv7gLUFk.md)__
+
+	aria; often attributed to Alessandro Stradella
+
+</div>

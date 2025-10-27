@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: egm3S8BS
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/egm3S8BS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/egm3S8BS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/egm3S8BS.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/egm3S8BS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/egm3S8BS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/egm3S8BS.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description     | Wikidata QID                                               |
-    | :-------: | :--------------: | :--------------: | :-------------: | :--------------------------------------------------------: |
-    | egm3S8BS  | Clément Janequin | Clement Janequin | French composer | [Clément Janequin](http://wwww.wikidata.org/entity/Q71526) |
+    | FAAM UUID | label            | aliases          | description     | Wikidata QID                                          |
+    | :-------: | :--------------: | :--------------: | :-------------: | :---------------------------------------------------: |
+    | egm3S8BS  | Clément Janequin | Clement Janequin | French composer | [Clément Janequin](http://wikidata.org/entity/Q71526) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/egm3S8BS.html" height="800" width="1200" title="egm3S8BS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/egm3S8BS" height="800" width="1200" title="egm3S8BS"></iframe>
 
 ## Identifiers
 

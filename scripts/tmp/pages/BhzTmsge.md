@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BhzTmsge
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BhzTmsge.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BhzTmsge.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BhzTmsge.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BhzTmsge.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BhzTmsge.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BhzTmsge.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Franz_Wüllner.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                               | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :---------------------------------------: | :------------------------------------------------------: |
-    | BhzTmsge  | Franz Wüllner | Franz Wüllner | German composer and conductor (1832–1902) | [Franz Wüllner](http://wwww.wikidata.org/entity/Q819749) |
+    | FAAM UUID | label         | aliases       | description                               | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :---------------------------------------: | :-------------------------------------------------: |
+    | BhzTmsge  | Franz Wüllner | Franz Wüllner | German composer and conductor (1832–1902) | [Franz Wüllner](http://wikidata.org/entity/Q819749) |
 
 <br><br><br>
 
@@ -67,13 +71,13 @@ tags: agent
 
 	- [Hochschule für Musik Carl Maria von Weber](./EYwyMZ7c.md)
 
-	- [](./L8H9Ajyr.md)
+	- [Hochschule für Musik und Tanz Köln](./L8H9Ajyr.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BhzTmsge.html" height="800" width="1200" title="BhzTmsge"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BhzTmsge" height="800" width="1200" title="BhzTmsge"></iframe>
 
 ## Identifiers
 
@@ -99,13 +103,39 @@ tags: agent
 
 -	__[Miserere : (Psalm 50) ; für Doppelchor u. Soli ; op. 26](./P3PA2yD6.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078976969707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078976969707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[3 Psalmen : für Doppelchor](./FK7nUCLe.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078508549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078508549707356.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Hans von Koessler](./K8BPKbk5.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Koessler.jpg){align=left width="150" height="150"} 
+
+	German composer (1853–1926)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Ach, Herr, straf mich nicht, SWV 24](./hBgFgCGz.md)__
+
+	
+
+-	__[Aus der Tiefe, SWV 25](./Hd5mxSyD.md)__
+
+	
+
+-	__[Singet dem Herrn ein neues Lied, SWV 35](./LPqkQpTY.md)__
 
 	
 

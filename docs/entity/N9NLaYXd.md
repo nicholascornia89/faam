@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: N9NLaYXd
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description       | aliases | Wikidata QID                                                 |
-    | :-------: | :--------------: | :---------------: | :-----: | :----------------------------------------------------------: |
-    | N9NLaYXd  | Kingdom of Spain | from 1700 to 1873 | Spain   | [Kingdom of Spain](http://wwww.wikidata.org/entity/Q3399982) |
+    | FAAM UUID | label            | description       | aliases | Wikidata QID                                            |
+    | :-------: | :--------------: | :---------------: | :-----: | :-----------------------------------------------------: |
+    | N9NLaYXd  | Kingdom of Spain | from 1700 to 1873 | Spain   | [Kingdom of Spain](http://wikidata.org/entity/Q3399982) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/N9NLaYXd.html" height="800" width="1200" title="N9NLaYXd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/N9NLaYXd" height="800" width="1200" title="N9NLaYXd"></iframe>
 
 ## Identifiers
 

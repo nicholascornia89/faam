@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jzSuLNvo
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                              | aliases              | Wikidata QID                                                    |
-    | :-------: | :------------------: | :--------------------------------------: | :------------------: | :-------------------------------------------------------------: |
-    | jzSuLNvo  | Archduchy of Austria | fief of the Holy Roman Empire, 1453–1806 | Archduchy of Austria | [Archduchy of Austria](http://wwww.wikidata.org/entity/Q699964) |
+    | FAAM UUID | label                | description                              | aliases              | Wikidata QID                                               |
+    | :-------: | :------------------: | :--------------------------------------: | :------------------: | :--------------------------------------------------------: |
+    | jzSuLNvo  | Archduchy of Austria | fief of the Holy Roman Empire, 1453–1806 | Archduchy of Austria | [Archduchy of Austria](http://wikidata.org/entity/Q699964) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/jzSuLNvo.html" height="800" width="1200" title="jzSuLNvo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jzSuLNvo" height="800" width="1200" title="jzSuLNvo"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: country
 
 -	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
 
 	Austrian composer of the Classical period (1756–1791)
 
 -	__[Franz Alexander Pössinger](./ZchmW76w.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 

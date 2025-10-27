@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: F8KZBxxj
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/F8KZBxxj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/F8KZBxxj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/F8KZBxxj.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/F8KZBxxj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/F8KZBxxj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/F8KZBxxj.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Girolamo_Crescentini.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases            | description             | Wikidata QID                                                    |
-    | :-------: | :------------------: | :----------------: | :---------------------: | :-------------------------------------------------------------: |
-    | F8KZBxxj  | Girolamo Crescentini | Jerôme Crescentini | Italian singer castrato | [Girolamo Crescentini](http://wwww.wikidata.org/entity/Q552124) |
+    | FAAM UUID | label                | aliases            | description             | Wikidata QID                                               |
+    | :-------: | :------------------: | :----------------: | :---------------------: | :--------------------------------------------------------: |
+    | F8KZBxxj  | Girolamo Crescentini | Jerôme Crescentini | Italian singer castrato | [Girolamo Crescentini](http://wikidata.org/entity/Q552124) |
 
 <br><br><br>
 
@@ -59,9 +63,9 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./hXHpzrob.md)
+	- [sopranist](./hXHpzrob.md)
 
-	- [](./HrJb4zkG.md)
+	- [maestro](./HrJb4zkG.md)
 
 	- [singer](./oJ9qmRVq.md)
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/F8KZBxxj.html" height="800" width="1200" title="F8KZBxxj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/F8KZBxxj" height="800" width="1200" title="F8KZBxxj"></iframe>
 
 ## Identifiers
 
@@ -95,7 +99,7 @@ tags: agent
 
 -	__[Recueil d'Exercices pour la vocalisation musicale avec un discours préliminaire par Jérôme Crescentini](./FPwGzzwB.md)__
 
-	![Image](../assets/images/thumbs/BNF-14784000j.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-14784000j.gif){align=left width="150" height="150"} 
 
 	
 

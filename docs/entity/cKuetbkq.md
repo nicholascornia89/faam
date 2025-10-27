@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cKuetbkq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                              | aliases | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :--------------------------------------: | :-----: | :------------------------------------------------------------------: |
-    | cKuetbkq  | Waltersdorf (Großschönau) | district of Großschönau, Saxony, Germany |         | [Waltersdorf (Großschönau)](http://wwww.wikidata.org/entity/Q878270) |
+    | FAAM UUID | label                     | description                              | aliases | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :--------------------------------------: | :-----: | :-------------------------------------------------------------: |
+    | cKuetbkq  | Waltersdorf (Großschönau) | district of Großschönau, Saxony, Germany |         | [Waltersdorf (Großschönau)](http://wikidata.org/entity/Q878270) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cKuetbkq.html" height="800" width="1200" title="cKuetbkq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cKuetbkq" height="800" width="1200" title="cKuetbkq"></iframe>
 
 ## Identifiers
 

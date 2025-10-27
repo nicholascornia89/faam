@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9tdYnPBe
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                           | aliases           | Wikidata QID                                        |
-    | :-------: | :------: | :-----------------------------------: | :---------------: | :-------------------------------------------------: |
-    | 9tdYnPBe  | mandolin | musical instrument in the lute family | Brescian mandolin | [mandolin](http://wwww.wikidata.org/entity/Q302497) |
+    | FAAM UUID | label    | description                           | aliases           | Wikidata QID                                   |
+    | :-------: | :------: | :-----------------------------------: | :---------------: | :--------------------------------------------: |
+    | 9tdYnPBe  | mandolin | musical instrument in the lute family | Brescian mandolin | [mandolin](http://wikidata.org/entity/Q302497) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./EWgeXWFV.md)
+	- [necked bowl lutes sounded by plectrum](./EWgeXWFV.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/9tdYnPBe.html" height="800" width="1200" title="9tdYnPBe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9tdYnPBe" height="800" width="1200" title="9tdYnPBe"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: musical_instrument
 
 -	__[Jan Křtitel Kuchař](./oBuqf8Ur.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech harpsichordist, composer and organist
 

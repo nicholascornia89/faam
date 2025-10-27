@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ipAp8YUV
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                                             | aliases                              | Wikidata QID                                                              |
-    | :-------: | :--------------------------: | :-----------------------------------------------------: | :----------------------------------: | :-----------------------------------------------------------------------: |
-    | ipAp8YUV  | Hospitaller-controlled Malta | vassal state of the Kingdom of Sicily from 1530 to 1798 | Monastic State of the Order of Malta | [Hospitaller-controlled Malta](http://wwww.wikidata.org/entity/Q97464297) |
+    | FAAM UUID | label                        | description                                             | aliases                              | Wikidata QID                                                         |
+    | :-------: | :--------------------------: | :-----------------------------------------------------: | :----------------------------------: | :------------------------------------------------------------------: |
+    | ipAp8YUV  | Hospitaller-controlled Malta | vassal state of the Kingdom of Sicily from 1530 to 1798 | Monastic State of the Order of Malta | [Hospitaller-controlled Malta](http://wikidata.org/entity/Q97464297) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/ipAp8YUV.html" height="800" width="1200" title="ipAp8YUV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ipAp8YUV" height="800" width="1200" title="ipAp8YUV"></iframe>
 
 ## Identifiers
 
@@ -43,13 +47,13 @@ tags: country
 
 -	__[Girolamo Abos](./9C5ZHtsW.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Maltese-Italian composer (1715–1760)
 
 -	__[Michelangelo Vella](./85Zxus9X.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Maltese composer and organist (1710-1792)
 

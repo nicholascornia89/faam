@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TTiDpPMo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description             | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :---------------------: | :-----: | :-----------------------------------------------: |
-    | TTiDpPMo  | Trélon | commune in Nord, France |         | [Trélon](http://wwww.wikidata.org/entity/Q663569) |
+    | FAAM UUID | label  | description             | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :---------------------: | :-----: | :------------------------------------------: |
+    | TTiDpPMo  | Trélon | commune in Nord, France |         | [Trélon](http://wikidata.org/entity/Q663569) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TTiDpPMo.html" height="800" width="1200" title="TTiDpPMo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TTiDpPMo" height="800" width="1200" title="TTiDpPMo"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Paul de Maleingreau](./7qDtgfx5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French/Belgian organist (1887-1956)
 

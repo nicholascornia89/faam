@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dNidfqfQ
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description        | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :----------------: | :-----: | :---------------------------------------------: |
-    | dNidfqfQ  | lute  | musical instrument | luth    | [lute](http://wwww.wikidata.org/entity/Q180733) |
+    | FAAM UUID | label | description        | aliases | Wikidata QID                               |
+    | :-------: | :---: | :----------------: | :-----: | :----------------------------------------: |
+    | dNidfqfQ  | lute  | musical instrument | luth    | [lute](http://wikidata.org/entity/Q180733) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./jQm7fsD8.md)
+	- [plucked string necked bowl lute](./jQm7fsD8.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/dNidfqfQ.html" height="800" width="1200" title="dNidfqfQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dNidfqfQ" height="800" width="1200" title="dNidfqfQ"></iframe>
 
 ## Cross-references
 
@@ -47,7 +51,7 @@ tags: musical_instrument
 
 -	__[Robert Allen Spencer](./nTmL95bR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	UK lutenist (1932-1997)
 
@@ -65,7 +69,7 @@ tags: musical_instrument
 
 -	__[Walter Gerwig](./daYt6piq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German lutenist and composer (1899–1966)
 

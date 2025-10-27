@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: edGGSjxp
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description            | Wikidata QID                                                  |
-    | :-------: | :---------------: | :---------------: | :--------------------: | :-----------------------------------------------------------: |
-    | edGGSjxp  | Giulietta e Romeo | Giulietta e Romeo | opera by Nicola Vaccai | [Giulietta e Romeo](http://wwww.wikidata.org/entity/Q3769464) |
+    | FAAM UUID | label             | aliases           | description            | Wikidata QID                                             |
+    | :-------: | :---------------: | :---------------: | :--------------------: | :------------------------------------------------------: |
+    | edGGSjxp  | Giulietta e Romeo | Giulietta e Romeo | opera by Nicola Vaccai | [Giulietta e Romeo](http://wikidata.org/entity/Q3769464) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/edGGSjxp.html" height="800" width="1200" title="edGGSjxp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/edGGSjxp" height="800" width="1200" title="edGGSjxp"></iframe>
 
 ## Identifiers
 

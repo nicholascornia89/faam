@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3XCRxG4o
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                        | aliases          | Wikidata QID                                             |
-    | :-------: | :-----------: | :--------------------------------: | :--------------: | :------------------------------------------------------: |
-    | 3XCRxG4o  | Saxe-Eisenach | duchy in Central Europe until 1809 | Sachsen-Eisenach | [Saxe-Eisenach](http://wwww.wikidata.org/entity/Q696651) |
+    | FAAM UUID | label         | description                        | aliases          | Wikidata QID                                        |
+    | :-------: | :-----------: | :--------------------------------: | :--------------: | :-------------------------------------------------: |
+    | 3XCRxG4o  | Saxe-Eisenach | duchy in Central Europe until 1809 | Sachsen-Eisenach | [Saxe-Eisenach](http://wikidata.org/entity/Q696651) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/3XCRxG4o.html" height="800" width="1200" title="3XCRxG4o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3XCRxG4o" height="800" width="1200" title="3XCRxG4o"></iframe>
 
 ## Identifiers
 

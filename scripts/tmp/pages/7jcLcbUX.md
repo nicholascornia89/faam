@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7jcLcbUX
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                     | aliases | Wikidata QID                                           |
-    | :-------: | :---------: | :-------------------------------------------------------------: | :-----: | :----------------------------------------------------: |
-    | 7jcLcbUX  | Westminster | area of the City of Westminster in the London Region in England |         | [Westminster](http://wwww.wikidata.org/entity/Q189960) |
+    | FAAM UUID | label       | description                                                     | aliases | Wikidata QID                                      |
+    | :-------: | :---------: | :-------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
+    | 7jcLcbUX  | Westminster | area of the City of Westminster in the London Region in England |         | [Westminster](http://wikidata.org/entity/Q189960) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7jcLcbUX.html" height="800" width="1200" title="7jcLcbUX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7jcLcbUX" height="800" width="1200" title="7jcLcbUX"></iframe>
 
 ## Identifiers
 

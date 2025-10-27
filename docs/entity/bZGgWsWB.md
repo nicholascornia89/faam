@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bZGgWsWB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :------------------------: | :-----: | :------------------------------------------------: |
-    | bZGgWsWB  | Schleiz | town in Thuringia, Germany |         | [Schleiz](http://wwww.wikidata.org/entity/Q506738) |
+    | FAAM UUID | label   | description                | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :------------------------: | :-----: | :-------------------------------------------: |
+    | bZGgWsWB  | Schleiz | town in Thuringia, Germany |         | [Schleiz](http://wikidata.org/entity/Q506738) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bZGgWsWB.html" height="800" width="1200" title="bZGgWsWB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bZGgWsWB" height="800" width="1200" title="bZGgWsWB"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[August Neithardt](./HtKwZwuW.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1b/August_Neithardt.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August_Neithardt.jpg){align=left width="150" height="150"} 
 
 	German composer (1793-1861)
 

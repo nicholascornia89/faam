@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eej5SpMx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                        | aliases             | Wikidata QID                                        |
-    | :-------: | :--------: | :--------------------------------: | :-----------------: | :-------------------------------------------------: |
-    | eej5SpMx  | Birmingham | city in the West Midlands, England | Birmingham, England | [Birmingham](http://wwww.wikidata.org/entity/Q2256) |
+    | FAAM UUID | label      | description                        | aliases             | Wikidata QID                                   |
+    | :-------: | :--------: | :--------------------------------: | :-----------------: | :--------------------------------------------: |
+    | eej5SpMx  | Birmingham | city in the West Midlands, England | Birmingham, England | [Birmingham](http://wikidata.org/entity/Q2256) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/eej5SpMx.html" height="800" width="1200" title="eej5SpMx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eej5SpMx" height="800" width="1200" title="eej5SpMx"></iframe>
 
 ## Identifiers
 

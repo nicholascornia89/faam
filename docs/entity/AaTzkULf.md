@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AaTzkULf
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description      | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :--------------: | :-----: | :---------------------------------------------: |
-    | AaTzkULf  | Ascq  | human settlement |         | [Ascq](http://wwww.wikidata.org/entity/Q723363) |
+    | FAAM UUID | label | description      | aliases | Wikidata QID                               |
+    | :-------: | :---: | :--------------: | :-----: | :----------------------------------------: |
+    | AaTzkULf  | Ascq  | human settlement |         | [Ascq](http://wikidata.org/entity/Q723363) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/AaTzkULf.html" height="800" width="1200" title="AaTzkULf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AaTzkULf" height="800" width="1200" title="AaTzkULf"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3jCeVXeu
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000370132/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3jCeVXeu.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3jCeVXeu.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3jCeVXeu.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000370132/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3jCeVXeu.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3jCeVXeu.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3jCeVXeu.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000370132.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000370132.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                    | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | 3jCeVXeu  | KCG-000370132         | 5me. Grand Solo : Pour le Flute avec Acct. de deux violons alto et basse ou Piano : Composé pour Les Concerts du Conservatoire : Op: 79. | [external URL](EqtAuzbH) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                    | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | 3jCeVXeu  | KCG-000370132         | 5me. Grand Solo : Pour le Flute avec Acct. de deux violons alto et basse ou Piano : Composé pour Les Concerts du Conservatoire : Op: 79. | [external URL](https://catalogus.hogent.be/catalog/hog01:000370132) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -76,10 +80,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/3jCeVXeu.html" height="800" width="1200" title="3jCeVXeu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3jCeVXeu" height="800" width="1200" title="3jCeVXeu"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/3jCeVXeu.html" height="800" width="1200" title="3jCeVXeu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/3jCeVXeu" height="800" width="1200" title="3jCeVXeu"></iframe>

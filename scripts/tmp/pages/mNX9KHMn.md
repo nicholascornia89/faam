@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mNX9KHMn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                            | aliases         | Wikidata QID                                       |
-    | :-------: | :-------: | :------------------------------------: | :-------------: | :------------------------------------------------: |
-    | mNX9KHMn  | Innsbruck | capital of the state of Tyrol, Austria | Innsbruck Stadt | [Innsbruck](http://wwww.wikidata.org/entity/Q1735) |
+    | FAAM UUID | label     | description                            | aliases         | Wikidata QID                                  |
+    | :-------: | :-------: | :------------------------------------: | :-------------: | :-------------------------------------------: |
+    | mNX9KHMn  | Innsbruck | capital of the state of Tyrol, Austria | Innsbruck Stadt | [Innsbruck](http://wikidata.org/entity/Q1735) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/mNX9KHMn.html" height="800" width="1200" title="mNX9KHMn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mNX9KHMn" height="800" width="1200" title="mNX9KHMn"></iframe>
 
 ## Identifiers
 

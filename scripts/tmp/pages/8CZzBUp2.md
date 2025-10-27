@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8CZzBUp2
 
 tags: holding_institution
@@ -19,9 +23,9 @@ tags: holding_institution
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                              | aliases                     | Wikidata QID                                                            | abbreviation |
-    | :-------: | :-------------------------: | :--------------------------------------: | :-------------------------: | :---------------------------------------------------------------------: | :----------: |
-    | 8CZzBUp2  | Werner Icking Music Archive | Web archive of public domain sheet music | Werner Icking Music Archive | [Werner Icking Music Archive](http://wwww.wikidata.org/entity/Q1811670) | WIA          |
+    | FAAM UUID | label                       | description                              | aliases                     | Wikidata QID                                                       | abbreviation |
+    | :-------: | :-------------------------: | :--------------------------------------: | :-------------------------: | :----------------------------------------------------------------: | :----------: |
+    | 8CZzBUp2  | Werner Icking Music Archive | Web archive of public domain sheet music | Werner Icking Music Archive | [Werner Icking Music Archive](http://wikidata.org/entity/Q1811670) | WIA          |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: holding_institution
 
 ---
 
-<iframe src="../network/8CZzBUp2.html" height="800" width="1200" title="8CZzBUp2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8CZzBUp2" height="800" width="1200" title="8CZzBUp2"></iframe>
 
 ## Cross-references
 

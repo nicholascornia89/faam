@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8DTbXPrY
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description    | aliases | Wikidata QID                                          |
-    | :-------: | :-------: | :------------: | :-----: | :---------------------------------------------------: |
-    | 8DTbXPrY  | character | symbol or sign | sign    | [character](http://wwww.wikidata.org/entity/Q3241972) |
+    | FAAM UUID | label     | description    | aliases | Wikidata QID                                     |
+    | :-------: | :-------: | :------------: | :-----: | :----------------------------------------------: |
+    | 8DTbXPrY  | character | symbol or sign | sign    | [character](http://wikidata.org/entity/Q3241972) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/8DTbXPrY.html" height="800" width="1200" title="8DTbXPrY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8DTbXPrY" height="800" width="1200" title="8DTbXPrY"></iframe>
 
 ## Cross-references
 

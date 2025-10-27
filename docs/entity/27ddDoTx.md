@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 27ddDoTx
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/27ddDoTx.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/27ddDoTx.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/27ddDoTx.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/27ddDoTx.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/27ddDoTx.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/27ddDoTx.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nicola_Matteis,_by_Godfrey_Kneller.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description      | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :--------------: | :-------------------------------------------------------: |
-    | 27ddDoTx  | Nicola Matteis | Nicola Matteis | Italian composer | [Nicola Matteis](http://wwww.wikidata.org/entity/Q952236) |
+    | FAAM UUID | label          | aliases        | description      | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :--------------: | :--------------------------------------------------: |
+    | 27ddDoTx  | Nicola Matteis | Nicola Matteis | Italian composer | [Nicola Matteis](http://wikidata.org/entity/Q952236) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/27ddDoTx.html" height="800" width="1200" title="27ddDoTx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/27ddDoTx" height="800" width="1200" title="27ddDoTx"></iframe>
 
 ## Identifiers
 

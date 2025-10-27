@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2AvU6t2f
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                          | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :--------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | 2AvU6t2f  | Kislovodsk | spa city in Stavropol Krai in North Caucasus, Russia |         | [Kislovodsk](http://wwww.wikidata.org/entity/Q153676) |
+    | FAAM UUID | label      | description                                          | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :--------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | 2AvU6t2f  | Kislovodsk | spa city in Stavropol Krai in North Caucasus, Russia |         | [Kislovodsk](http://wikidata.org/entity/Q153676) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2AvU6t2f.html" height="800" width="1200" title="2AvU6t2f"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2AvU6t2f" height="800" width="1200" title="2AvU6t2f"></iframe>
 
 ## Identifiers
 

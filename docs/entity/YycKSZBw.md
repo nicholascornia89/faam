@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YycKSZBw
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/YycKSZBw.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/YycKSZBw.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/YycKSZBw.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/YycKSZBw.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/YycKSZBw.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/YycKSZBw.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pierre_Lafitte_photo.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                                 | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :-----------------------------------------: | :--------------------------------------------------------: |
-    | YycKSZBw  | Pierre Lafitte | Pierre Lafitte | French journalist and publisher (1872-1938) | [Pierre Lafitte](http://wwww.wikidata.org/entity/Q3385724) |
+    | FAAM UUID | label          | aliases        | description                                 | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :-----------------------------------------: | :---------------------------------------------------: |
+    | YycKSZBw  | Pierre Lafitte | Pierre Lafitte | French journalist and publisher (1872-1938) | [Pierre Lafitte](http://wikidata.org/entity/Q3385724) |
 
 <br><br><br>
 
@@ -53,17 +57,17 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./kcEUSSEg.md)
+	- [La Petite Gironde](./kcEUSSEg.md)
 
-	- [](./iHL4BiFE.md)
+	- [L'Écho de Paris](./iHL4BiFE.md)
 
-	- [](./nfB2afwi.md)
+	- [La Vie au grand air](./nfB2afwi.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/YycKSZBw.html" height="800" width="1200" title="YycKSZBw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YycKSZBw" height="800" width="1200" title="YycKSZBw"></iframe>
 
 ## Identifiers
 
@@ -81,13 +85,13 @@ tags: agent
 
 -	__[Album Musica N. 31](./W7vQ5NdU.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143703p9.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143703p9.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Album Musica N. 30](./G8YiQjSJ.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143703p10.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143703p10.gif){align=left width="150" height="150"} 
 
 	
 

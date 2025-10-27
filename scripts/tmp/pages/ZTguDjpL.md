@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZTguDjpL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ZTguDjpL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ZTguDjpL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ZTguDjpL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ZTguDjpL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ZTguDjpL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ZTguDjpL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hippolyte_Monpou_(1804-1841)_--_Caricatures_et_dessins_humoristiques.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                         | description                              | Wikidata QID                                                 |
-    | :-------: | :--------------: | :-----------------------------: | :--------------------------------------: | :----------------------------------------------------------: |
-    | ZTguDjpL  | Hippolyte Monpou | François Louis Hippolyte Monpou | French composer and organist (1804–1841) | [Hippolyte Monpou](http://wwww.wikidata.org/entity/Q3136089) |
+    | FAAM UUID | label            | aliases                         | description                              | Wikidata QID                                            |
+    | :-------: | :--------------: | :-----------------------------: | :--------------------------------------: | :-----------------------------------------------------: |
+    | ZTguDjpL  | Hippolyte Monpou | François Louis Hippolyte Monpou | French composer and organist (1804–1841) | [Hippolyte Monpou](http://wikidata.org/entity/Q3136089) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ZTguDjpL.html" height="800" width="1200" title="ZTguDjpL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZTguDjpL" height="800" width="1200" title="ZTguDjpL"></iframe>
 
 ## Identifiers
 

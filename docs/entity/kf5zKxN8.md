@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kf5zKxN8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description               | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------------------: | :-----: | :------------------------------------------------: |
-    | kf5zKxN8  | Pamiers | commune in Ariège, France | Pàmias  | [Pamiers](http://wwww.wikidata.org/entity/Q209834) |
+    | FAAM UUID | label   | description               | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------------------: | :-----: | :-------------------------------------------: |
+    | kf5zKxN8  | Pamiers | commune in Ariège, France | Pàmias  | [Pamiers](http://wikidata.org/entity/Q209834) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/kf5zKxN8.html" height="800" width="1200" title="kf5zKxN8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kf5zKxN8" height="800" width="1200" title="kf5zKxN8"></iframe>
 
 ## Identifiers
 

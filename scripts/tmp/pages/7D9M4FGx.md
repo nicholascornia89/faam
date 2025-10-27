@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7D9M4FGx
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7D9M4FGx.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7D9M4FGx.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7D9M4FGx.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7D9M4FGx.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7D9M4FGx.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7D9M4FGx.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                   | description                | Wikidata QID                                                 |
-    | :-------: | :--------------: | :-----------------------: | :------------------------: | :----------------------------------------------------------: |
-    | 7D9M4FGx  | Domenico Freschi | Giovanni Domenico Freschi | opera composer (1634-1710) | [Domenico Freschi](http://wwww.wikidata.org/entity/Q3713043) |
+    | FAAM UUID | label            | aliases                   | description                | Wikidata QID                                            |
+    | :-------: | :--------------: | :-----------------------: | :------------------------: | :-----------------------------------------------------: |
+    | 7D9M4FGx  | Domenico Freschi | Giovanni Domenico Freschi | opera composer (1634-1710) | [Domenico Freschi](http://wikidata.org/entity/Q3713043) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/7D9M4FGx.html" height="800" width="1200" title="7D9M4FGx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7D9M4FGx" height="800" width="1200" title="7D9M4FGx"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Antonio Riccieri](./PuGAQNHr.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	
+
+</div>

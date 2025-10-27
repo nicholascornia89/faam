@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VpDWgsTc
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/VpDWgsTc.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/VpDWgsTc.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/VpDWgsTc.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/VpDWgsTc.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/VpDWgsTc.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/VpDWgsTc.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases                  | description      | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :----------------------: | :--------------: | :------------------------------------------------------------------: |
-    | VpDWgsTc  | Giovanni Battista Casali | Giovanni Battista Casali | Italian composer | [Giovanni Battista Casali](http://wwww.wikidata.org/entity/Q1525836) |
+    | FAAM UUID | label                    | aliases                  | description      | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :----------------------: | :--------------: | :-------------------------------------------------------------: |
+    | VpDWgsTc  | Giovanni Battista Casali | Giovanni Battista Casali | Italian composer | [Giovanni Battista Casali](http://wikidata.org/entity/Q1525836) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/VpDWgsTc.html" height="800" width="1200" title="VpDWgsTc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VpDWgsTc" height="800" width="1200" title="VpDWgsTc"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,41 @@ tags: agent
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[André Grétry](./DpgviBL9.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/André_Ernest_Modeste_Grétry_(cropped).jpg){align=left width="150" height="150"} 
+
+	composer from present-day Belgium (1741–1813)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Ave Maria](./8HVkQQMb.md)__
+
+	
+
+-	__[Exaltabo](./Zw8QhAWw.md)__
+
+	
+
+-	__[Confitebor](./KXZX5V53.md)__
+
+	
+
+-	__[Improperium expectavit](./Zo8kPK9Q.md)__
+
+	
+
+-	__[Missa in G major IGC4](./NLgGVEH5.md)__
 
 	
 

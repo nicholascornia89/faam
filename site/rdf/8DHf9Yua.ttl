@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8DHf9Yua a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1821-01-24"^^xsd:string ;
+    schema1:birthPlace faamentity:eSyyXNok ;
+    schema1:deathDate "1905-01-22"^^xsd:string ;
+    schema1:deathPlace faamentity:4GU7NjmQ ;
+    schema1:description "German librarian, publisher and musicologist (1821–1905)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1758336>,
+        "16002672"^^xsd:string,
+        "8DHf9Yua"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a ;
+    skos:altLabel "Alfred Dörffel"^^xsd:string ;
+    skos:prefLabel "Alfred Dörffel"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:51955714 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/16141> ;
+    wd:P839 <https://imslp.org/wiki/Category:Dörffel,_Alfred> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:MwhmFC4w,
+        faamentity:avB62pGy .
+

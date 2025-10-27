@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2E2PNYtF
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                        | aliases | Wikidata QID                                          |
-    | :-------: | :-------: | :------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | 2E2PNYtF  | precentor | ecclesiastical title, who helps facilitate worship | chantre | [precentor](http://wwww.wikidata.org/entity/Q1031332) |
+    | FAAM UUID | label     | description                                        | aliases | Wikidata QID                                     |
+    | :-------: | :-------: | :------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | 2E2PNYtF  | precentor | ecclesiastical title, who helps facilitate worship | chantre | [precentor](http://wikidata.org/entity/Q1031332) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/2E2PNYtF.html" height="800" width="1200" title="2E2PNYtF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2E2PNYtF" height="800" width="1200" title="2E2PNYtF"></iframe>
 
 ## Cross-references
 

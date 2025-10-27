@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TqmirwYM
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502045/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/TqmirwYM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/TqmirwYM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/TqmirwYM.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502045/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/TqmirwYM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/TqmirwYM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/TqmirwYM.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502045.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502045.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                     | permalink                | provenance                              |
-    | :-------: | :-------------------: | :---------------------------------------: | :----------------------: | :-------------------------------------: |
-    | TqmirwYM  | DPF-202502045         | Supplément à la Musica sacra, 1886-87 N.8 | [external URL](QyAptNqX) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                     | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :---------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | TqmirwYM  | DPF-202502045         | Supplément à la Musica sacra, 1886-87 N.8 | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -100,10 +104,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/TqmirwYM.html" height="800" width="1200" title="TqmirwYM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TqmirwYM" height="800" width="1200" title="TqmirwYM"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/TqmirwYM.html" height="800" width="1200" title="TqmirwYM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/TqmirwYM" height="800" width="1200" title="TqmirwYM"></iframe>

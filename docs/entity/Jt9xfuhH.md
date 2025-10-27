@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Jt9xfuhH
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                          | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :------------------------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | Jt9xfuhH  | Pau   | city and commune in Pyrénées-Atlantiques, Nouvelle-Aquitaine, France | Paue    | [Pau](http://wwww.wikidata.org/entity/Q132671) |
+    | FAAM UUID | label | description                                                          | aliases | Wikidata QID                              |
+    | :-------: | :---: | :------------------------------------------------------------------: | :-----: | :---------------------------------------: |
+    | Jt9xfuhH  | Pau   | city and commune in Pyrénées-Atlantiques, Nouvelle-Aquitaine, France | Paue    | [Pau](http://wikidata.org/entity/Q132671) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Jt9xfuhH.html" height="800" width="1200" title="Jt9xfuhH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Jt9xfuhH" height="800" width="1200" title="Jt9xfuhH"></iframe>
 
 ## Identifiers
 

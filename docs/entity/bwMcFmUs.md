@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bwMcFmUs
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description              | aliases             | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :----------------------: | :-----------------: | :------------------------------------------------------------: |
-    | bwMcFmUs  | La Côte-Saint-André | commune in Isère, France | La Cote-Saint-Andre | [La Côte-Saint-André](http://wwww.wikidata.org/entity/Q864123) |
+    | FAAM UUID | label               | description              | aliases             | Wikidata QID                                              |
+    | :-------: | :-----------------: | :----------------------: | :-----------------: | :-------------------------------------------------------: |
+    | bwMcFmUs  | La Côte-Saint-André | commune in Isère, France | La Cote-Saint-Andre | [La Côte-Saint-André](http://wikidata.org/entity/Q864123) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bwMcFmUs.html" height="800" width="1200" title="bwMcFmUs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bwMcFmUs" height="800" width="1200" title="bwMcFmUs"></iframe>
 
 ## Identifiers
 

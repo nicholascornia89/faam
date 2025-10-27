@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AgqVHBTT
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                              | aliases            | Wikidata QID                                         |
-    | :-------: | :-------: | :----------------------------------------------------------------------: | :----------------: | :--------------------------------------------------: |
-    | AgqVHBTT  | Lafayette | city in and the county seat of Tippecanoe County, Indiana, United States | Lafayette, Indiana | [Lafayette](http://wwww.wikidata.org/entity/Q638187) |
+    | FAAM UUID | label     | description                                                              | aliases            | Wikidata QID                                    |
+    | :-------: | :-------: | :----------------------------------------------------------------------: | :----------------: | :---------------------------------------------: |
+    | AgqVHBTT  | Lafayette | city in and the county seat of Tippecanoe County, Indiana, United States | Lafayette, Indiana | [Lafayette](http://wikidata.org/entity/Q638187) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/AgqVHBTT.html" height="800" width="1200" title="AgqVHBTT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AgqVHBTT" height="800" width="1200" title="AgqVHBTT"></iframe>
 
 ## Identifiers
 

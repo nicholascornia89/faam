@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iVwngdrW
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/iVwngdrW.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/iVwngdrW.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/iVwngdrW.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/iVwngdrW.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/iVwngdrW.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/iVwngdrW.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ca'_Rezzonico_Sala_dei_pastelli_-_Ritratto_di_Faustina_Bordoni_Hasse_-_Rosalba_Carriera_-_47x35.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description              | Wikidata QID                                                |
-    | :-------: | :--------------: | :--------------: | :----------------------: | :---------------------------------------------------------: |
-    | iVwngdrW  | Faustina Bordoni | Faustina Bordoni | opera singer (1697-1781) | [Faustina Bordoni](http://wwww.wikidata.org/entity/Q267651) |
+    | FAAM UUID | label            | aliases          | description              | Wikidata QID                                           |
+    | :-------: | :--------------: | :--------------: | :----------------------: | :----------------------------------------------------: |
+    | iVwngdrW  | Faustina Bordoni | Faustina Bordoni | opera singer (1697-1781) | [Faustina Bordoni](http://wikidata.org/entity/Q267651) |
 
 <br><br><br>
 
@@ -49,13 +53,13 @@ tags: agent
 
 	- [opera singer](./9giCtFiy.md)
 
-	- [](./E57MkHSb.md)
+	- [stage actor](./E57MkHSb.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/iVwngdrW.html" height="800" width="1200" title="iVwngdrW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iVwngdrW" height="800" width="1200" title="iVwngdrW"></iframe>
 
 ## Identifiers
 

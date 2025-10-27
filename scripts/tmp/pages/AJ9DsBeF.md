@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AJ9DsBeF
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                           | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :-------------------------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | AJ9DsBeF  | Pskov | city and administrative center of Pskov Oblast in northwestern Russia | Psków   | [Pskov](http://wwww.wikidata.org/entity/Q2214) |
+    | FAAM UUID | label | description                                                           | aliases | Wikidata QID                              |
+    | :-------: | :---: | :-------------------------------------------------------------------: | :-----: | :---------------------------------------: |
+    | AJ9DsBeF  | Pskov | city and administrative center of Pskov Oblast in northwestern Russia | Psków   | [Pskov](http://wikidata.org/entity/Q2214) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/AJ9DsBeF.html" height="800" width="1200" title="AJ9DsBeF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AJ9DsBeF" height="800" width="1200" title="AJ9DsBeF"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Modest Petrovich Mussorgsky](./eqc4UJfy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3d/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
 
 	Russian composer (1839–1881)
 

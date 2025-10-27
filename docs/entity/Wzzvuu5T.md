@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Wzzvuu5T
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description             | aliases        | Wikidata QID                                               |
-    | :-------: | :------------: | :---------------------: | :------------: | :--------------------------------------------------------: |
-    | Wzzvuu5T  | rue La Fayette | street in Paris, France | Rue La Fayette | [rue La Fayette](http://wwww.wikidata.org/entity/Q3448685) |
+    | FAAM UUID | label          | description             | aliases        | Wikidata QID                                          |
+    | :-------: | :------------: | :---------------------: | :------------: | :---------------------------------------------------: |
+    | Wzzvuu5T  | rue La Fayette | street in Paris, France | Rue La Fayette | [rue La Fayette](http://wikidata.org/entity/Q3448685) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Wzzvuu5T.html" height="800" width="1200" title="Wzzvuu5T"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Wzzvuu5T" height="800" width="1200" title="Wzzvuu5T"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CBAqGowo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                  | aliases | Wikidata QID                                  |
-    | :-------: | :----: | :------------------------------------------: | :-----: | :-------------------------------------------: |
-    | CBAqGowo  | Milano | Italian commune and capital city of Lombardy | Milan   | [Milan](http://wwww.wikidata.org/entity/Q490) |
+    | FAAM UUID | label  | description                                  | aliases | Wikidata QID                             |
+    | :-------: | :----: | :------------------------------------------: | :-----: | :--------------------------------------: |
+    | CBAqGowo  | Milano | Italian commune and capital city of Lombardy | Milan   | [Milan](http://wikidata.org/entity/Q490) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CBAqGowo.html" height="800" width="1200" title="CBAqGowo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CBAqGowo" height="800" width="1200" title="CBAqGowo"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: city
 
 -	__[Gaston Knosp](./jqZT8vAB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Knosp, Gaston, 1874-1942
 
 -	__[Giovanni Battista Lampugnani](./iwTGMidi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1708-1788)
 
@@ -79,7 +83,7 @@ tags: city
 
 -	__[Romualdo Fantuzzi](./bJbJz9Uk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	publisher (1862-1939)
 
@@ -97,13 +101,13 @@ tags: city
 
 -	__[Giuseppe Verdi](./nhPsm7TZ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/19/Verdi_by_Giovanni_Boldini.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Verdi_by_Giovanni_Boldini.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1813–1901)
 
 -	__[Giovanni Battista Lampugnani](./iwTGMidi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1708-1788)
 
@@ -115,7 +119,7 @@ tags: city
 
 -	__[Alfredo Soffredini](./QChw63qm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -127,7 +131,7 @@ tags: city
 
 -	__[Pietro Ray](./XDUjMRo5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and music teacher
 
@@ -139,7 +143,7 @@ tags: city
 
 -	__[Vincenzo Lavigna](./biGnSXZs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

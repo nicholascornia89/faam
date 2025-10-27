@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HVonixyH
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description           | aliases                | Wikidata QID                                            |
-    | :-------: | :----------: | :-------------------: | :--------------------: | :-----------------------------------------------------: |
-    | HVonixyH  | Amar Quartet | German string quartet | Amar-Hindemith Quartet | [Amar Quartet](http://wwww.wikidata.org/entity/Q454631) |
+    | FAAM UUID | label        | description           | aliases                | Wikidata QID                                       |
+    | :-------: | :----------: | :-------------------: | :--------------------: | :------------------------------------------------: |
+    | HVonixyH  | Amar Quartet | German string quartet | Amar-Hindemith Quartet | [Amar Quartet](http://wikidata.org/entity/Q454631) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/HVonixyH.html" height="800" width="1200" title="HVonixyH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HVonixyH" height="800" width="1200" title="HVonixyH"></iframe>
 
 ## Cross-references
 

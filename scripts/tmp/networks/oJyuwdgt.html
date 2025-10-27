@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "96zMohM3", "label": "Maria Yudina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./96zMohM3.md\u0027\u003eMaria Yudina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSoviet pianist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Maria_Yudina.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aJeJBesD.md\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PyGNLcfw", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PyGNLcfw.md\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "oJyuwdgt", "label": "J\u0101zeps V\u012btols", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oJyuwdgt.md\u0027\u003eJ\u0101zeps V\u012btols\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eLatvian composer (1863-1948)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "VwZmF2Uv", "label": "Saint Petersburg Conservatory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./VwZmF2Uv.md\u0027\u003eSaint Petersburg Conservatory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic school in Saint Petersburg\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ku2dT5kg", "label": "male", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ku2dT5kg.md\u0027\u003emale\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eto be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8cygiHEB", "label": "organ", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8cygiHEB.md\u0027\u003eorgan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "96zMohM3", "to": "aJeJBesD", "width": 1}, {"from": "96zMohM3", "to": "PyGNLcfw", "width": 1}, {"from": "96zMohM3", "to": "oJyuwdgt", "width": 1}, {"from": "96zMohM3", "to": "VwZmF2Uv", "width": 1}, {"from": "aJeJBesD", "to": "oJyuwdgt", "width": 1}, {"from": "VwZmF2Uv", "to": "oJyuwdgt", "width": 1}, {"from": "ku2dT5kg", "to": "oJyuwdgt", "width": 10}, {"from": "PyGNLcfw", "to": "oJyuwdgt", "width": 1}, {"from": "oJyuwdgt", "to": "8cygiHEB", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "oJyuwdgt", "label": "J\u0101zeps V\u012btols", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/oJyuwdgt\u0027\u003eJ\u0101zeps V\u012btols\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eLatvian composer (1863-1948)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "96zMohM3", "label": "Maria Yudina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/96zMohM3\u0027\u003eMaria Yudina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSoviet pianist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Maria_Yudina.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aJeJBesD\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ku2dT5kg", "label": "male", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ku2dT5kg\u0027\u003emale\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eto be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PyGNLcfw", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PyGNLcfw\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8cygiHEB", "label": "organ", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8cygiHEB\u0027\u003eorgan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "VwZmF2Uv", "label": "Saint Petersburg Conservatory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/VwZmF2Uv\u0027\u003eSaint Petersburg Conservatory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic school in Saint Petersburg\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "oJyuwdgt", "to": "96zMohM3", "width": 1}, {"from": "oJyuwdgt", "to": "aJeJBesD", "width": 1}, {"from": "oJyuwdgt", "to": "ku2dT5kg", "width": 10}, {"from": "oJyuwdgt", "to": "PyGNLcfw", "width": 1}, {"from": "oJyuwdgt", "to": "8cygiHEB", "width": 1}, {"from": "oJyuwdgt", "to": "VwZmF2Uv", "width": 1}, {"from": "VwZmF2Uv", "to": "96zMohM3", "width": 1}, {"from": "PyGNLcfw", "to": "96zMohM3", "width": 1}, {"from": "aJeJBesD", "to": "96zMohM3", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

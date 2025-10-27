@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: P5SkNTZx
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                                  | aliases               | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :------------------------------------------: | :-------------------: | :-----------------------------------------------------------------: |
-    | P5SkNTZx  | University of St Andrews | university in St Andrews, Fife, Scotland, UK | St Andrews University | [University of St Andrews](http://wwww.wikidata.org/entity/Q216273) |
+    | FAAM UUID | label                    | description                                  | aliases               | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :------------------------------------------: | :-------------------: | :------------------------------------------------------------: |
+    | P5SkNTZx  | University of St Andrews | university in St Andrews, Fife, Scotland, UK | St Andrews University | [University of St Andrews](http://wikidata.org/entity/Q216273) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/P5SkNTZx.html" height="800" width="1200" title="P5SkNTZx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/P5SkNTZx" height="800" width="1200" title="P5SkNTZx"></iframe>
 
 ## Cross-references
 
@@ -53,13 +57,13 @@ tags: music_organization
 
 -	__[John Major](./iYvVho7R.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Scottish philosopher
 
 -	__[John Major](./iYvVho7R.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Scottish philosopher
 

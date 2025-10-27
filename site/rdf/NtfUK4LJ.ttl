@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NtfUK4LJ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Austrian composer, cellist and pianist (1874-1939)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q434601>,
+        "0"^^xsd:string,
+        "NtfUK4LJ"^^xsd:string ;
+    skos:prefLabel "Franz Schmidt"^^xsd:string ;
+    wd:P108 faamentity:DRRhn6P7 ;
+    wd:P1303 faamentity:2nFJpnZ8,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:9891919 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/51006288> ;
+    wd:P839 <https://imslp.org/wiki/Category:Schmidt,_Franz> .
+

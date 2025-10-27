@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6PcXdHQv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description            | aliases     | Wikidata QID                                               |
-    | :-------: | :-------------: | :--------------------: | :---------: | :--------------------------------------------------------: |
-    | 6PcXdHQv  | Bourg-en-Bresse | commune in Ain, France | Bourg-Épuré | [Bourg-en-Bresse](http://wwww.wikidata.org/entity/Q133069) |
+    | FAAM UUID | label           | description            | aliases     | Wikidata QID                                          |
+    | :-------: | :-------------: | :--------------------: | :---------: | :---------------------------------------------------: |
+    | 6PcXdHQv  | Bourg-en-Bresse | commune in Ain, France | Bourg-Épuré | [Bourg-en-Bresse](http://wikidata.org/entity/Q133069) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/6PcXdHQv.html" height="800" width="1200" title="6PcXdHQv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6PcXdHQv" height="800" width="1200" title="6PcXdHQv"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Louis-François Chaft](./KEsfoE9o.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

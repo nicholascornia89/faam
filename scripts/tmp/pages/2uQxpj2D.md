@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2uQxpj2D
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description            | aliases                    | Wikidata QID                                                             |
-    | :-------: | :------------------------: | :--------------------: | :------------------------: | :----------------------------------------------------------------------: |
-    | 2uQxpj2D  | Vienna State Opera company | Austrian opera company | Vienna State Opera company | [Vienna State Opera company](http://wwww.wikidata.org/entity/Q113044719) |
+    | FAAM UUID | label                      | description            | aliases                    | Wikidata QID                                                        |
+    | :-------: | :------------------------: | :--------------------: | :------------------------: | :-----------------------------------------------------------------: |
+    | 2uQxpj2D  | Vienna State Opera company | Austrian opera company | Vienna State Opera company | [Vienna State Opera company](http://wikidata.org/entity/Q113044719) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/2uQxpj2D.html" height="800" width="1200" title="2uQxpj2D"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2uQxpj2D" height="800" width="1200" title="2uQxpj2D"></iframe>
 
 ## Cross-references
 

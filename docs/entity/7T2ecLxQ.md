@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7T2ecLxQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7T2ecLxQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7T2ecLxQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7T2ecLxQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7T2ecLxQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7T2ecLxQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7T2ecLxQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Maurice_Kufferath.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description                                                              | Wikidata QID                                                  |
-    | :-------: | :---------------: | :---------------: | :----------------------------------------------------------------------: | :-----------------------------------------------------------: |
-    | 7T2ecLxQ  | Maurice Kufferath | Maurice Kufferath | Belgian conductor, musicologist, music critic and librettist (1852-1919) | [Maurice Kufferath](http://wwww.wikidata.org/entity/Q3300983) |
+    | FAAM UUID | label             | aliases           | description                                                              | Wikidata QID                                             |
+    | :-------: | :---------------: | :---------------: | :----------------------------------------------------------------------: | :------------------------------------------------------: |
+    | 7T2ecLxQ  | Maurice Kufferath | Maurice Kufferath | Belgian conductor, musicologist, music critic and librettist (1852-1919) | [Maurice Kufferath](http://wikidata.org/entity/Q3300983) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/7T2ecLxQ.html" height="800" width="1200" title="7T2ecLxQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7T2ecLxQ" height="800" width="1200" title="7T2ecLxQ"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein](./heTepEsp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
 
 	
 

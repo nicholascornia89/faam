@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5PuKvYa3", "label": "Jules Massenet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5PuKvYa3.md\u0027\u003eJules Massenet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1842\u20131912)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jules_Massenet_by_Eug\u00e8ne_Pirou,_edit_(cropped).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "CD9EEBCh", "label": "Manon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CD9EEBCh.md\u0027\u003eManon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Jules Massenet\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZM3a6gAC", "label": "Manon Lescaut", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZM3a6gAC.md\u0027\u003eManon Lescaut\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003enovel by Abb\u00e9 Pr\u00e9vost\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7AXGCpck.md\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "8387qD3M", "label": "Manon : op\u00e9ra de J. Massenet: grande mosa\u00efque en 2 parties", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8387qD3M.md\u0027\u003eManon : op\u00e9ra de J. Massenet: grande mosa\u00efque en 2 parties\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030904722326.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Zt3RZjvH", "label": "\u00c9mile Tavan", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Zt3RZjvH.md\u0027\u003e\u00c9mile Tavan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "5PuKvYa3", "to": "CD9EEBCh", "width": 10}, {"from": "ZM3a6gAC", "to": "CD9EEBCh", "width": 10}, {"from": "7AXGCpck", "to": "CD9EEBCh", "width": 10}, {"from": "7AXGCpck", "to": "8387qD3M", "width": 10}, {"from": "Zt3RZjvH", "to": "CD9EEBCh", "width": 10}, {"from": "8387qD3M", "to": "CD9EEBCh", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7AXGCpck\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "CD9EEBCh", "label": "Manon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CD9EEBCh\u0027\u003eManon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Jules Massenet\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "8387qD3M", "label": "Manon : op\u00e9ra de J. Massenet: grande mosa\u00efque en 2 parties", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8387qD3M\u0027\u003eManon : op\u00e9ra de J. Massenet: grande mosa\u00efque en 2 parties\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904722326.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZM3a6gAC", "label": "Manon Lescaut", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZM3a6gAC\u0027\u003eManon Lescaut\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003enovel by Abb\u00e9 Pr\u00e9vost\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Zt3RZjvH", "label": "\u00c9mile Tavan", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Zt3RZjvH\u0027\u003e\u00c9mile Tavan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5PuKvYa3", "label": "Jules Massenet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5PuKvYa3\u0027\u003eJules Massenet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1842\u20131912)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jules_Massenet_by_Eug\u00e8ne_Pirou,_edit_(cropped).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "7AXGCpck", "to": "CD9EEBCh", "width": 10}, {"from": "7AXGCpck", "to": "8387qD3M", "width": 10}, {"from": "ZM3a6gAC", "to": "CD9EEBCh", "width": 10}, {"from": "8387qD3M", "to": "CD9EEBCh", "width": 10}, {"from": "Zt3RZjvH", "to": "CD9EEBCh", "width": 10}, {"from": "CD9EEBCh", "to": "5PuKvYa3", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MURquAr4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                     | aliases | Wikidata QID                                         |
-    | :-------: | :-----: | :-----------------------------: | :-----: | :--------------------------------------------------: |
-    | MURquAr4  | Auteuil | former commune in Seine, France |         | [Auteuil](http://wwww.wikidata.org/entity/Q18199480) |
+    | FAAM UUID | label   | description                     | aliases | Wikidata QID                                    |
+    | :-------: | :-----: | :-----------------------------: | :-----: | :---------------------------------------------: |
+    | MURquAr4  | Auteuil | former commune in Seine, France |         | [Auteuil](http://wikidata.org/entity/Q18199480) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/MURquAr4.html" height="800" width="1200" title="MURquAr4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MURquAr4" height="800" width="1200" title="MURquAr4"></iframe>
 
 ## Identifiers
 

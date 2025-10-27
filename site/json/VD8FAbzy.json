@@ -1,0 +1,88 @@
+{
+  "id": "VD8FAbzy",
+  "uuid_num": 53163242208313,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "biologist"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "scientist studying living organisms"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q864503",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "biologist"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "occupation"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "VD8FAbzy"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "gKnQ6ydt",
+        "type": "item",
+        "label": "Hans Adolf Eduard Driesch",
+        "description": "German philosopher and biologist (1867 - 1941)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Driesch1.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VD8FAbzy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VD8FAbzy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VD8FAbzy.csv"
+      }
+    ]
+  }
+}

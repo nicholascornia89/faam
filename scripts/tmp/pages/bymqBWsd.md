@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bymqBWsd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                 | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :-------------------------: | :-----: | :------------------------------------------------: |
-    | bymqBWsd  | Shiraz | city in Fars Province, Iran |         | [Shiraz](http://wwww.wikidata.org/entity/Q6397066) |
+    | FAAM UUID | label  | description                 | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :-------------------------: | :-----: | :-------------------------------------------: |
+    | bymqBWsd  | Shiraz | city in Fars Province, Iran |         | [Shiraz](http://wikidata.org/entity/Q6397066) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Iran](http://www.wikidata.org/entity/Q794)
+	- [Iran](Q794)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/bymqBWsd.html" height="800" width="1200" title="bymqBWsd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bymqBWsd" height="800" width="1200" title="bymqBWsd"></iframe>
 
 ## Identifiers
 

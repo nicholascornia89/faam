@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TLbNgxFk
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/TLbNgxFk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/TLbNgxFk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/TLbNgxFk.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/TLbNgxFk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/TLbNgxFk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/TLbNgxFk.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Théophile-Adolphe_Manoury.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases           | description     | Wikidata QID                                                           |
-    | :-------: | :-----------------------: | :---------------: | :-------------: | :--------------------------------------------------------------------: |
-    | TLbNgxFk  | Théophile-Adolphe Manoury | Théophile Manoury | French baritone | [Théophile-Adolphe Manoury](http://wwww.wikidata.org/entity/Q55832796) |
+    | FAAM UUID | label                     | aliases           | description     | Wikidata QID                                                      |
+    | :-------: | :-----------------------: | :---------------: | :-------------: | :---------------------------------------------------------------: |
+    | TLbNgxFk  | Théophile-Adolphe Manoury | Théophile Manoury | French baritone | [Théophile-Adolphe Manoury](http://wikidata.org/entity/Q55832796) |
 
 <br><br><br>
 
@@ -53,13 +57,13 @@ tags: agent
 
 	- [opera singer](./9giCtFiy.md)
 
-	- [](./gPszdmNe.md)
+	- [professor](./gPszdmNe.md)
 
 	- [teacher](./QBx3kSJW.md)
 
 ??? quote "employer" 
 
-	- [](./V4FJ3BBH.md)
+	- [National Conservatory of Music of America](./V4FJ3BBH.md)
 
 	- [Conservatoire de Paris](./mNynReve.md)
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/TLbNgxFk.html" height="800" width="1200" title="TLbNgxFk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TLbNgxFk" height="800" width="1200" title="TLbNgxFk"></iframe>
 
 ## Identifiers
 
@@ -89,7 +93,7 @@ tags: agent
 
 -	__[Le chant: méthode pratique et rapide: en 24 exercices pour la pose, le développement et l'assouplissement de la voix, suivis de 15 vocalises: édition pour ténor ou soprano](./MMTY2D9L.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902145678.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902145678.gif){align=left width="150" height="150"} 
 
 	
 

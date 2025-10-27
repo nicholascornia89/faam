@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PmtZUgL2
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                                                              | aliases         | Wikidata QID                                                   |
-    | :-------: | :------------------: | :----------------------------------------------------------------------: | :-------------: | :------------------------------------------------------------: |
-    | PmtZUgL2  | Grand Duchy of Hesse | member state of the German Confederation & the German Empire (1806–1918) | Hesse-Darmstadt | [Grand Duchy of Hesse](http://wwww.wikidata.org/entity/Q20135) |
+    | FAAM UUID | label                | description                                                              | aliases         | Wikidata QID                                              |
+    | :-------: | :------------------: | :----------------------------------------------------------------------: | :-------------: | :-------------------------------------------------------: |
+    | PmtZUgL2  | Grand Duchy of Hesse | member state of the German Confederation & the German Empire (1806–1918) | Hesse-Darmstadt | [Grand Duchy of Hesse](http://wikidata.org/entity/Q20135) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/PmtZUgL2.html" height="800" width="1200" title="PmtZUgL2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PmtZUgL2" height="800" width="1200" title="PmtZUgL2"></iframe>
 
 ## Identifiers
 

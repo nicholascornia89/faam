@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Avdx8mhj
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description    | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :------------: | :-----: | :--------------------------------------------: |
-    | Avdx8mhj  | Nola  | Italian comune |         | [Nola](http://wwww.wikidata.org/entity/Q72288) |
+    | FAAM UUID | label | description    | aliases | Wikidata QID                              |
+    | :-------: | :---: | :------------: | :-----: | :---------------------------------------: |
+    | Avdx8mhj  | Nola  | Italian comune |         | [Nola](http://wikidata.org/entity/Q72288) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Avdx8mhj.html" height="800" width="1200" title="Avdx8mhj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Avdx8mhj" height="800" width="1200" title="Avdx8mhj"></iframe>
 
 ## Identifiers
 

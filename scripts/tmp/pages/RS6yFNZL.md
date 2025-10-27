@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RS6yFNZL
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | aliases | description | Wikidata QID                         |
-    | :-------: | :--------------------------: | :-----: | :---------: | :----------------------------------: |
-    | RS6yFNZL  | Popule meus, quid feci tibi? |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                        | aliases | description | Wikidata QID                    |
+    | :-------: | :--------------------------: | :-----: | :---------: | :-----------------------------: |
+    | RS6yFNZL  | Popule meus, quid feci tibi? |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/RS6yFNZL.html" height="800" width="1200" title="RS6yFNZL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RS6yFNZL" height="800" width="1200" title="RS6yFNZL"></iframe>
 
 ## Identifiers
 
@@ -65,19 +69,19 @@ tags: musical_work
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
 
 	
 

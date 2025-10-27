@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: G3jggNhP
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/G3jggNhP.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/G3jggNhP.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/G3jggNhP.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/G3jggNhP.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/G3jggNhP.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/G3jggNhP.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Schussenried_Chorherr_Wilhelm_Hanser_1792.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description | Wikidata QID                                                |
-    | :-------: | :------------: | :-----: | :---------: | :---------------------------------------------------------: |
-    | G3jggNhP  | Wilhelm Hanser |         |             | [Wilhelm Hanser](http://wwww.wikidata.org/entity/Q19544736) |
+    | FAAM UUID | label          | aliases | description | Wikidata QID                                           |
+    | :-------: | :------------: | :-----: | :---------: | :----------------------------------------------------: |
+    | G3jggNhP  | Wilhelm Hanser |         |             | [Wilhelm Hanser](http://wikidata.org/entity/Q19544736) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/G3jggNhP.html" height="800" width="1200" title="G3jggNhP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/G3jggNhP" height="800" width="1200" title="G3jggNhP"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Étienne Méhul](./MwNG8YD2.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Méhul.jpg){align=left width="150" height="150"} 
+
+	French composer (1763–1817)
+
+-	__[Georges Scheyermann](./NAViPikx.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French composer
+
+</div>

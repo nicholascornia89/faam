@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BnwWc34X
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description        | aliases                 | Wikidata QID                                                             |
-    | :-------: | :------------------------: | :----------------: | :---------------------: | :----------------------------------------------------------------------: |
-    | BnwWc34X  | type of musical instrument | Wikidata metaclass | musical instrument type | [type of musical instrument](http://wwww.wikidata.org/entity/Q110295396) |
+    | FAAM UUID | label                      | description        | aliases                 | Wikidata QID                                                        |
+    | :-------: | :------------------------: | :----------------: | :---------------------: | :-----------------------------------------------------------------: |
+    | BnwWc34X  | type of musical instrument | Wikidata metaclass | musical instrument type | [type of musical instrument](http://wikidata.org/entity/Q110295396) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/BnwWc34X.html" height="800" width="1200" title="BnwWc34X"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BnwWc34X" height="800" width="1200" title="BnwWc34X"></iframe>
 
 ## Cross-references
 

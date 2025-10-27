@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KWjNoJvm
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description               | aliases             | Wikidata QID                                   |
-    | :-------: | :-----: | :-----------------------: | :-----------------: | :--------------------------------------------: |
-    | KWjNoJvm  | Austria | country in Central Europe | Republic of Austria | [Austria](http://wwww.wikidata.org/entity/Q40) |
+    | FAAM UUID | label   | description               | aliases             | Wikidata QID                              |
+    | :-------: | :-----: | :-----------------------: | :-----------------: | :---------------------------------------: |
+    | KWjNoJvm  | Austria | country in Central Europe | Republic of Austria | [Austria](http://wikidata.org/entity/Q40) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/KWjNoJvm.html" height="800" width="1200" title="KWjNoJvm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KWjNoJvm" height="800" width="1200" title="KWjNoJvm"></iframe>
 
 ## Identifiers
 
@@ -143,7 +147,7 @@ tags: country
 
 -	__[Josef Mertin](./83TCj66i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian musician, organ builder and pioneer of early music
 

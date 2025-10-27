@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HNeP5iCN
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000359822/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HNeP5iCN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HNeP5iCN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HNeP5iCN.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000359822/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HNeP5iCN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HNeP5iCN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HNeP5iCN.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000359822.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000359822.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                             | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | HNeP5iCN  | KCG-000359822         | Souvenirs Dramatiques : Arrangés en Trios pour Piano, Flûte et Violoncelle : 4e Don Jaun : Op. 86 | [external URL](QGRAMUu8) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                             | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | HNeP5iCN  | KCG-000359822         | Souvenirs Dramatiques : Arrangés en Trios pour Piano, Flûte et Violoncelle : 4e Don Jaun : Op. 86 | [external URL](https://catalogus.hogent.be/catalog/hog01:000359822) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ===  "sections" 
 
@@ -129,10 +133,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/HNeP5iCN.html" height="800" width="1200" title="HNeP5iCN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HNeP5iCN" height="800" width="1200" title="HNeP5iCN"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/HNeP5iCN.html" height="800" width="1200" title="HNeP5iCN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/HNeP5iCN" height="800" width="1200" title="HNeP5iCN"></iframe>

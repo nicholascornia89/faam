@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3hFq5U5X
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description     | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------: | :-----: | :------------------------------------------------: |
-    | 3hFq5U5X  | Benešov | town in Czechia |         | [Benešov](http://wwww.wikidata.org/entity/Q470394) |
+    | FAAM UUID | label   | description     | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------: | :-----: | :-------------------------------------------: |
+    | 3hFq5U5X  | Benešov | town in Czechia |         | [Benešov](http://wikidata.org/entity/Q470394) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3hFq5U5X.html" height="800" width="1200" title="3hFq5U5X"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3hFq5U5X" height="800" width="1200" title="3hFq5U5X"></iframe>
 
 ## Identifiers
 

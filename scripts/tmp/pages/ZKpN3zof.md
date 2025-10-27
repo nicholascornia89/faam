@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZKpN3zof
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                 | aliases               | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :-----------------------------------------: | :-------------------: | :---------------------------------------------------------------: |
-    | ZKpN3zof  | Grand Duchy of Tuscany | former Italian state (1569–1801; 1815–1859) | Granducato di Toscana | [Grand Duchy of Tuscany](http://wwww.wikidata.org/entity/Q154849) |
+    | FAAM UUID | label                  | description                                 | aliases               | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :-----------------------------------------: | :-------------------: | :----------------------------------------------------------: |
+    | ZKpN3zof  | Grand Duchy of Tuscany | former Italian state (1569–1801; 1815–1859) | Granducato di Toscana | [Grand Duchy of Tuscany](http://wikidata.org/entity/Q154849) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/ZKpN3zof.html" height="800" width="1200" title="ZKpN3zof"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZKpN3zof" height="800" width="1200" title="ZKpN3zof"></iframe>
 
 ## Identifiers
 
@@ -61,19 +65,19 @@ tags: country
 
 -	__[Giovanni Carlo Maria Clari](./WWHbpWws.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Alessandro Felici](./5KdUXuXV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1742-1772)
 
 -	__[Giuseppe Cambini](./5yDGjqgE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician (1746-1825)
 

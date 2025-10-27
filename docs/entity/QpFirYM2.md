@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QpFirYM2
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                         | aliases | Wikidata QID                                            |
-    | :-------: | :-----------: | :-------------------------------------------------: | :-----: | :-----------------------------------------------------: |
-    | QpFirYM2  | queen regnant | female monarch who rules a country in her own right | queen   | [queen regnant](http://wwww.wikidata.org/entity/Q19643) |
+    | FAAM UUID | label         | description                                         | aliases | Wikidata QID                                       |
+    | :-------: | :-----------: | :-------------------------------------------------: | :-----: | :------------------------------------------------: |
+    | QpFirYM2  | queen regnant | female monarch who rules a country in her own right | queen   | [queen regnant](http://wikidata.org/entity/Q19643) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/QpFirYM2.html" height="800" width="1200" title="QpFirYM2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QpFirYM2" height="800" width="1200" title="QpFirYM2"></iframe>
 
 ## Cross-references
 

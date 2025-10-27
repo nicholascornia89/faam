@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GQvqHUea
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                  | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | GQvqHUea  | accent | emphasis placed on a particular musical note | accent  | [accent](http://wwww.wikidata.org/entity/Q424494) |
+    | FAAM UUID | label  | description                                  | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :------------------------------------------: | :-----: | :------------------------------------------: |
+    | GQvqHUea  | accent | emphasis placed on a particular musical note | accent  | [accent](http://wikidata.org/entity/Q424494) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/GQvqHUea.html" height="800" width="1200" title="GQvqHUea"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GQvqHUea" height="800" width="1200" title="GQvqHUea"></iframe>
 
 ## Cross-references
 

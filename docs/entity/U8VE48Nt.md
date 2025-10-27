@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: U8VE48Nt
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                                             | aliases | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :-----------------------------------------------------: | :-----: | :--------------------------------------------------------------------: |
-    | U8VE48Nt  | 6th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [6th arrondissement of Paris](http://wwww.wikidata.org/entity/Q245546) |
+    | FAAM UUID | label                       | description                                             | aliases | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :-----------------------------------------------------: | :-----: | :---------------------------------------------------------------: |
+    | U8VE48Nt  | 6th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [6th arrondissement of Paris](http://wikidata.org/entity/Q245546) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/U8VE48Nt.html" height="800" width="1200" title="U8VE48Nt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/U8VE48Nt" height="800" width="1200" title="U8VE48Nt"></iframe>
 
 ## Identifiers
 

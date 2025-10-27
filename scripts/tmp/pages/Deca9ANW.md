@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Deca9ANW
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502009/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Deca9ANW.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Deca9ANW.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Deca9ANW.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502009/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Deca9ANW.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Deca9ANW.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Deca9ANW.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502009.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502009.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                           | permalink                | provenance                              |
-    | :-------: | :-------------------: | :-------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | Deca9ANW  | DPF-202502009         | Missa Jesu Bone Pastor. Ad duas voces aequales organo comitante | [external URL](6fQyHcwz) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                           | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :-------------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | Deca9ANW  | DPF-202502009         | Missa Jesu Bone Pastor. Ad duas voces aequales organo comitante | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -108,10 +112,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Deca9ANW.html" height="800" width="1200" title="Deca9ANW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Deca9ANW" height="800" width="1200" title="Deca9ANW"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Deca9ANW.html" height="800" width="1200" title="Deca9ANW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Deca9ANW" height="800" width="1200" title="Deca9ANW"></iframe>

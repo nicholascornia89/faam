@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VbnzDANi
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                    | aliases        | Wikidata QID                                            |
-    | :-------: | :--------: | :----------------------------: | :------------: | :-----------------------------------------------------: |
-    | VbnzDANi  | bassoonist | musician who plays the bassoon | bassoon player | [bassoonist](http://wwww.wikidata.org/entity/Q12310971) |
+    | FAAM UUID | label      | description                    | aliases        | Wikidata QID                                       |
+    | :-------: | :--------: | :----------------------------: | :------------: | :------------------------------------------------: |
+    | VbnzDANi  | bassoonist | musician who plays the bassoon | bassoon player | [bassoonist](http://wikidata.org/entity/Q12310971) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/VbnzDANi.html" height="800" width="1200" title="VbnzDANi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VbnzDANi" height="800" width="1200" title="VbnzDANi"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[François-René Gebauer](./fMmiNPr6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French bassoonist and composer
 
@@ -49,13 +53,13 @@ tags: occupation
 
 -	__[Wenzel Neukirchner](./RNYjxmKE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	(1805-1889)
 
 -	__[August Mittag](./eMp37r9z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	* 25.12.1795 Kreischa bei Dresden/D, † 21.11.1867 Wien. Fagottist, Pianist, Pädagoge.
 

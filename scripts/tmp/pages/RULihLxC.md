@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RULihLxC
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases              | description              | Wikidata QID                                            |
-    | :-------: | :-----------: | :------------------: | :----------------------: | :-----------------------------------------------------: |
-    | RULihLxC  | Paradise Lost | Paradise Lost (1667) | epic poem by John Milton | [Paradise Lost](http://wwww.wikidata.org/entity/Q28754) |
+    | FAAM UUID | label         | aliases              | description              | Wikidata QID                                       |
+    | :-------: | :-----------: | :------------------: | :----------------------: | :------------------------------------------------: |
+    | RULihLxC  | Paradise Lost | Paradise Lost (1667) | epic poem by John Milton | [Paradise Lost](http://wikidata.org/entity/Q28754) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/RULihLxC.html" height="800" width="1200" title="RULihLxC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RULihLxC" height="800" width="1200" title="RULihLxC"></iframe>
 
 ## Identifiers
 

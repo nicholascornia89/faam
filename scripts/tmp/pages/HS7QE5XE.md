@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HS7QE5XE
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902126942/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HS7QE5XE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HS7QE5XE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HS7QE5XE.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902126942/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HS7QE5XE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HS7QE5XE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HS7QE5XE.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902126942.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902126942.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                            | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | HS7QE5XE  | KCA-030902126942      | Fantasia: voor Viola met klavier | [external URL](hJoKsjEm) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                            | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | HS7QE5XE  | KCA-030902126942      | Fantasia: voor Viola met klavier | [external URL](https://anet.be/record/opacdkvc/c:lvd:6722793/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/HS7QE5XE.html" height="800" width="1200" title="HS7QE5XE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HS7QE5XE" height="800" width="1200" title="HS7QE5XE"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/HS7QE5XE.html" height="800" width="1200" title="HS7QE5XE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/HS7QE5XE" height="800" width="1200" title="HS7QE5XE"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ncU66Vrg
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ncU66Vrg.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ncU66Vrg.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ncU66Vrg.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ncU66Vrg.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ncU66Vrg.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ncU66Vrg.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases               | description                 | Wikidata QID                                                       |
-    | :-------: | :-------------------: | :-------------------: | :-------------------------: | :----------------------------------------------------------------: |
-    | ncU66Vrg  | Georges Schonenberger | Georges Schonenberger | music publisher (1807-1856) | [Georges Schonenberger](http://wwww.wikidata.org/entity/Q22283317) |
+    | FAAM UUID | label                 | aliases               | description                 | Wikidata QID                                                  |
+    | :-------: | :-------------------: | :-------------------: | :-------------------------: | :-----------------------------------------------------------: |
+    | ncU66Vrg  | Georges Schonenberger | Georges Schonenberger | music publisher (1807-1856) | [Georges Schonenberger](http://wikidata.org/entity/Q22283317) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ncU66Vrg.html" height="800" width="1200" title="ncU66Vrg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ncU66Vrg" height="800" width="1200" title="ncU66Vrg"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: agent
 
 -	__[Ecole du violon, Méthode complète et progressive à l'usage du Conservatoire](./iBZ5XdH6.md)__
 
-	![Image](../assets/images/thumbs/BNF-42810019r.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42810019r.gif){align=left width="150" height="150"} 
 
 	
 

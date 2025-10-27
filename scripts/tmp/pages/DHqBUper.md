@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DHqBUper
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description    | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :------------: | :-----: | :----------------------------------------------: |
-    | DHqBUper  | Savona | Italian comune |         | [Savona](http://wwww.wikidata.org/entity/Q13320) |
+    | FAAM UUID | label  | description    | aliases | Wikidata QID                                |
+    | :-------: | :----: | :------------: | :-----: | :-----------------------------------------: |
+    | DHqBUper  | Savona | Italian comune |         | [Savona](http://wikidata.org/entity/Q13320) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/DHqBUper.html" height="800" width="1200" title="DHqBUper"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DHqBUper" height="800" width="1200" title="DHqBUper"></iframe>
 
 ## Identifiers
 

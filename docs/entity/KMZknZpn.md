@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KMZknZpn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                            | aliases | Wikidata QID                                              |
-    | :-------: | :------------: | :----------------------------------------------------: | :-----: | :-------------------------------------------------------: |
-    | KMZknZpn  | Klosterneuburg | municipality in Tulln District, Lower Austria, Austria | Kloburg | [Klosterneuburg](http://wwww.wikidata.org/entity/Q487522) |
+    | FAAM UUID | label          | description                                            | aliases | Wikidata QID                                         |
+    | :-------: | :------------: | :----------------------------------------------------: | :-----: | :--------------------------------------------------: |
+    | KMZknZpn  | Klosterneuburg | municipality in Tulln District, Lower Austria, Austria | Kloburg | [Klosterneuburg](http://wikidata.org/entity/Q487522) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/KMZknZpn.html" height="800" width="1200" title="KMZknZpn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KMZknZpn" height="800" width="1200" title="KMZknZpn"></iframe>
 
 ## Identifiers
 

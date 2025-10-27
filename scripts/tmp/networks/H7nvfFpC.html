@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8E5UBj64", "label": "Issay Barmas", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8E5UBj64.md\u0027\u003eIssay Barmas\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian-German violinist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/50/Issay_Barmas.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "H7nvfFpC", "label": "Odesa", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./H7nvfFpC.md\u0027\u003eOdesa\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in southwestern Ukraine, administrative center of Odesa Oblast and Odesa Raion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "DEbEnXwM", "label": "Russian Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DEbEnXwM.md\u0027\u003eRussian Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer empire in Eurasia and North America (1721\u20131917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nBH47pQe", "label": "Ignaz Amadeus Tedesco", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nBH47pQe.md\u0027\u003eIgnaz Amadeus Tedesco\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCzech pianist (1817-1882)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/IgnazTedesco.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "8E5UBj64", "to": "H7nvfFpC", "width": 10}, {"from": "H7nvfFpC", "to": "DEbEnXwM", "width": 10}, {"from": "H7nvfFpC", "to": "nBH47pQe", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "DEbEnXwM", "label": "Russian Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DEbEnXwM\u0027\u003eRussian Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer empire in Eurasia and North America (1721\u20131917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "H7nvfFpC", "label": "Odesa", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/H7nvfFpC\u0027\u003eOdesa\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in southwestern Ukraine, administrative center of Odesa Oblast and Odesa Raion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8E5UBj64", "label": "Issay Barmas", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8E5UBj64\u0027\u003eIssay Barmas\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian-German violinist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/50/Issay_Barmas.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nBH47pQe", "label": "Ignaz Amadeus Tedesco", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/nBH47pQe\u0027\u003eIgnaz Amadeus Tedesco\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCzech pianist (1817-1882)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/IgnazTedesco.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "DEbEnXwM", "to": "H7nvfFpC", "width": 10}, {"from": "8E5UBj64", "to": "H7nvfFpC", "width": 10}, {"from": "nBH47pQe", "to": "H7nvfFpC", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

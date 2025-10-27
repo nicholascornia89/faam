@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mT6Jf8WQ
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                             | aliases   | Wikidata QID                                           |
-    | :-------: | :----------: | :-----------------------------------------------------: | :-------: | :----------------------------------------------------: |
-    | mT6Jf8WQ  | screenwriter | writer who writes for films, TV shows, comics and games | scenarist | [screenwriter](http://wwww.wikidata.org/entity/Q28389) |
+    | FAAM UUID | label        | description                                             | aliases   | Wikidata QID                                      |
+    | :-------: | :----------: | :-----------------------------------------------------: | :-------: | :-----------------------------------------------: |
+    | mT6Jf8WQ  | screenwriter | writer who writes for films, TV shows, comics and games | scenarist | [screenwriter](http://wikidata.org/entity/Q28389) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/mT6Jf8WQ.html" height="800" width="1200" title="mT6Jf8WQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mT6Jf8WQ" height="800" width="1200" title="mT6Jf8WQ"></iframe>
 
 ## Cross-references
 

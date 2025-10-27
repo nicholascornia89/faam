@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KQYeWCdx
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KQYeWCdx.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KQYeWCdx.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KQYeWCdx.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KQYeWCdx.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KQYeWCdx.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KQYeWCdx.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                 | Wikidata QID                                            |
-    | :-------: | :----------: | :----------: | :-------------------------: | :-----------------------------------------------------: |
-    | KQYeWCdx  | Franz Kullak | Franz Kullak | German composer (1844-1913) | [Franz Kullak](http://wwww.wikidata.org/entity/Q882091) |
+    | FAAM UUID | label        | aliases      | description                 | Wikidata QID                                       |
+    | :-------: | :----------: | :----------: | :-------------------------: | :------------------------------------------------: |
+    | KQYeWCdx  | Franz Kullak | Franz Kullak | German composer (1844-1913) | [Franz Kullak](http://wikidata.org/entity/Q882091) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KQYeWCdx.html" height="800" width="1200" title="KQYeWCdx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KQYeWCdx" height="800" width="1200" title="KQYeWCdx"></iframe>
 
 ## Identifiers
 
@@ -89,7 +93,15 @@ tags: agent
 
 -	__[Fantasie für Pianoforte, Orchester und Chor, op. 80](./ZAbJ9Lcf.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903242334.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903242334.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Choral Fantasy, Op.80](./RUMoSRYx.md)__
 
 	
 

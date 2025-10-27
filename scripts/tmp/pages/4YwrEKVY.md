@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4YwrEKVY
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                                 | aliases | Wikidata QID                                                       |
-    | :-------: | :---------------------: | :-----------------------------------------: | :-----: | :----------------------------------------------------------------: |
-    | 4YwrEKVY  | University of Amsterdam | public university in Amsterdam, Netherlands | UvA     | [University of Amsterdam](http://wwww.wikidata.org/entity/Q214341) |
+    | FAAM UUID | label                   | description                                 | aliases | Wikidata QID                                                  |
+    | :-------: | :---------------------: | :-----------------------------------------: | :-----: | :-----------------------------------------------------------: |
+    | 4YwrEKVY  | University of Amsterdam | public university in Amsterdam, Netherlands | UvA     | [University of Amsterdam](http://wikidata.org/entity/Q214341) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./8mNP23J2.md)
+	[Amsterdam](./8mNP23J2.md)
 
 !!! quote "country" 
 
-	[](./BWX2VNz4.md)
+	[Netherlands](./BWX2VNz4.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4YwrEKVY.html" height="800" width="1200" title="4YwrEKVY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4YwrEKVY" height="800" width="1200" title="4YwrEKVY"></iframe>
 
 ## Cross-references
 

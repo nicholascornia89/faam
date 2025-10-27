@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nt6iNeSy
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                                                               | aliases                      | Wikidata QID                                                           |
-    | :-------: | :-----------------------: | :-----------------------------------------------------------------------: | :--------------------------: | :--------------------------------------------------------------------: |
-    | nt6iNeSy  | Kazan Imperial University | one of the twelve Imperial Universities of the Russian Empire (1805-1917) | Imperial University in Kazan | [Kazan Imperial University](http://wwww.wikidata.org/entity/Q28482293) |
+    | FAAM UUID | label                     | description                                                               | aliases                      | Wikidata QID                                                      |
+    | :-------: | :-----------------------: | :-----------------------------------------------------------------------: | :--------------------------: | :---------------------------------------------------------------: |
+    | nt6iNeSy  | Kazan Imperial University | one of the twelve Imperial Universities of the Russian Empire (1805-1917) | Imperial University in Kazan | [Kazan Imperial University](http://wikidata.org/entity/Q28482293) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/nt6iNeSy.html" height="800" width="1200" title="nt6iNeSy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nt6iNeSy" height="800" width="1200" title="nt6iNeSy"></iframe>
 
 ## Cross-references
 
@@ -53,13 +57,13 @@ tags: music_organization
 
 -	__[Nikolai Ivanovich Lobachevsky](./UECthgZn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian mathematician (1792–1856)
 
 -	__[Ivan Mikhailovich Simonov](./CuEsY7FX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian astronomer (1794-1855)
 

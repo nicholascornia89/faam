@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XDZabHUJ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases             | description                 | Wikidata QID                                             |
-    | :-------: | :-------------: | :-----------------: | :-------------------------: | :------------------------------------------------------: |
-    | XDZabHUJ  | Book of Genesis | The Book of Genesis | the first book of the Bible | [Book of Genesis](http://wwww.wikidata.org/entity/Q9184) |
+    | FAAM UUID | label           | aliases             | description                 | Wikidata QID                                        |
+    | :-------: | :-------------: | :-----------------: | :-------------------------: | :-------------------------------------------------: |
+    | XDZabHUJ  | Book of Genesis | The Book of Genesis | the first book of the Bible | [Book of Genesis](http://wikidata.org/entity/Q9184) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/XDZabHUJ.html" height="800" width="1200" title="XDZabHUJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XDZabHUJ" height="800" width="1200" title="XDZabHUJ"></iframe>
 
 ## Identifiers
 

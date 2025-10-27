@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iv7gLUFk
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                                    | Wikidata QID                                                |
-    | :-------: | :------------: | :------------: | :--------------------------------------------: | :---------------------------------------------------------: |
-    | iv7gLUFk  | Pietà, Signore | Aria di chiesa | aria; often attributed to Alessandro Stradella | [Pietà, Signore](http://wwww.wikidata.org/entity/Q11499275) |
+    | FAAM UUID | label          | aliases        | description                                    | Wikidata QID                                           |
+    | :-------: | :------------: | :------------: | :--------------------------------------------: | :----------------------------------------------------: |
+    | iv7gLUFk  | Pietà, Signore | Aria di chiesa | aria; often attributed to Alessandro Stradella | [Pietà, Signore](http://wikidata.org/entity/Q11499275) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/iv7gLUFk.html" height="800" width="1200" title="iv7gLUFk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iv7gLUFk" height="800" width="1200" title="iv7gLUFk"></iframe>
 
 ## Identifiers
 
@@ -67,25 +71,25 @@ tags: musical_work
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Air d'église : du célèbre chanteur Stradella : avec accompt. de piano](./fAttk68M.md)__
 
-	![Image](../assets/images/thumbs/KCG-000345408.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345408.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)](./cDShRWzG.md)__
 
-	![Image](../assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)](./cDShRWzG.md)__
 
-	![Image](../assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-430904883.gif){align=left width="150" height="150"} 
 
 	
 

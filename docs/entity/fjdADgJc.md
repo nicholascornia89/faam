@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fjdADgJc
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                | aliases | Wikidata QID                                                   |
-    | :-------: | :----------------: | :------------------------: | :-----: | :------------------------------------------------------------: |
-    | fjdADgJc  | College of Guienne | school in Bordeaux, France |         | [College of Guienne](http://wwww.wikidata.org/entity/Q2983766) |
+    | FAAM UUID | label              | description                | aliases | Wikidata QID                                              |
+    | :-------: | :----------------: | :------------------------: | :-----: | :-------------------------------------------------------: |
+    | fjdADgJc  | College of Guienne | school in Bordeaux, France |         | [College of Guienne](http://wikidata.org/entity/Q2983766) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/fjdADgJc.html" height="800" width="1200" title="fjdADgJc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fjdADgJc" height="800" width="1200" title="fjdADgJc"></iframe>
 
 ## Cross-references
 

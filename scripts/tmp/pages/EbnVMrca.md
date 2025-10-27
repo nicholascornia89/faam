@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EbnVMrca
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                | aliases | Wikidata QID                                      |
-    | :-------: | :---: | :------------------------: | :-----: | :-----------------------------------------------: |
-    | EbnVMrca  | Weert | section of Bornem, Belgium |         | [Weert](http://wwww.wikidata.org/entity/Q1904383) |
+    | FAAM UUID | label | description                | aliases | Wikidata QID                                 |
+    | :-------: | :---: | :------------------------: | :-----: | :------------------------------------------: |
+    | EbnVMrca  | Weert | section of Bornem, Belgium |         | [Weert](http://wikidata.org/entity/Q1904383) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/EbnVMrca.html" height="800" width="1200" title="EbnVMrca"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EbnVMrca" height="800" width="1200" title="EbnVMrca"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Guido Persoons](./4nFtWCPy.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musicologist (1931-2014)
 

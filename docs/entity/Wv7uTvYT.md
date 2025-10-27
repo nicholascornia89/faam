@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Wv7uTvYT
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                   | description                                                  | aliases | Wikidata QID                                                                        |
-    | :-------: | :-------------------------------------: | :----------------------------------------------------------: | :-----: | :---------------------------------------------------------------------------------: |
-    | Wv7uTvYT  | Massachusetts College of Art and Design | academic institution in Boston, Massachusetts, United States | MassArt | [Massachusetts College of Art and Design](http://wwww.wikidata.org/entity/Q4381563) |
+    | FAAM UUID | label                                   | description                                                  | aliases | Wikidata QID                                                                   |
+    | :-------: | :-------------------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------------------------: |
+    | Wv7uTvYT  | Massachusetts College of Art and Design | academic institution in Boston, Massachusetts, United States | MassArt | [Massachusetts College of Art and Design](http://wikidata.org/entity/Q4381563) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Wv7uTvYT.html" height="800" width="1200" title="Wv7uTvYT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Wv7uTvYT" height="800" width="1200" title="Wv7uTvYT"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Walter Piston](./hgkK9LyH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer (1894–1976)
 

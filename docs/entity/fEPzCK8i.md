@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fEPzCK8i
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502048/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fEPzCK8i.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fEPzCK8i.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fEPzCK8i.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502048/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fEPzCK8i.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fEPzCK8i.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fEPzCK8i.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502048.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502048.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                       | permalink                | provenance                              |
-    | :-------: | :-------------------: | :---------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | fEPzCK8i  | DPF-202502048         | Alleluia. de Commune plurimorum Martyrum. Tempore Paschali. | [external URL](j3tnVzW5) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                       | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :---------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | fEPzCK8i  | DPF-202502048         | Alleluia. de Commune plurimorum Martyrum. Tempore Paschali. | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -92,10 +96,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/fEPzCK8i.html" height="800" width="1200" title="fEPzCK8i"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fEPzCK8i" height="800" width="1200" title="fEPzCK8i"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/fEPzCK8i.html" height="800" width="1200" title="fEPzCK8i"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/fEPzCK8i" height="800" width="1200" title="fEPzCK8i"></iframe>

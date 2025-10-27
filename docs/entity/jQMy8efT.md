@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jQMy8efT
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description             | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :---------------------: | :-----: | :-----------------------------------------------: |
-    | jQMy8efT  | Meerane | town in Saxony, Germany |         | [Meerane](http://wwww.wikidata.org/entity/Q20083) |
+    | FAAM UUID | label   | description             | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :---------------------: | :-----: | :------------------------------------------: |
+    | jQMy8efT  | Meerane | town in Saxony, Germany |         | [Meerane](http://wikidata.org/entity/Q20083) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jQMy8efT.html" height="800" width="1200" title="jQMy8efT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jQMy8efT" height="800" width="1200" title="jQMy8efT"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9U8LuxuX
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                       | aliases         | Wikidata QID                                                          |
-    | :-------: | :-----------------------: | :-------------------------------: | :-------------: | :-------------------------------------------------------------------: |
-    | 9U8LuxuX  | Klein Seminarie Roeselare | Roeselare, West Flanders, Belgium | Klein Seminarie | [Klein Seminarie Roeselare](http://wwww.wikidata.org/entity/Q1867263) |
+    | FAAM UUID | label                     | description                       | aliases         | Wikidata QID                                                     |
+    | :-------: | :-----------------------: | :-------------------------------: | :-------------: | :--------------------------------------------------------------: |
+    | 9U8LuxuX  | Klein Seminarie Roeselare | Roeselare, West Flanders, Belgium | Klein Seminarie | [Klein Seminarie Roeselare](http://wikidata.org/entity/Q1867263) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./GnLR7wCv.md)
+	[Roeselare](./GnLR7wCv.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/9U8LuxuX.html" height="800" width="1200" title="9U8LuxuX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9U8LuxuX" height="800" width="1200" title="9U8LuxuX"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: music_organization
 
 -	__[Edward Gailliard](./cxiva6NZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian historian, linguist, publisher and archivist (1841-1922)
 
@@ -81,7 +85,7 @@ tags: music_organization
 
 -	__[Pieter Benoit](./i6yQPw7F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian priest and teacher (1820-1892)
 

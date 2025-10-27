@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Mbv7BGvE
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description     | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :-------------: | :-----: | :----------------------------------------------: |
-    | Mbv7BGvE  | Malta | island of Malta |         | [Malta](http://wwww.wikidata.org/entity/Q193896) |
+    | FAAM UUID | label | description     | aliases | Wikidata QID                                |
+    | :-------: | :---: | :-------------: | :-----: | :-----------------------------------------: |
+    | Mbv7BGvE  | Malta | island of Malta |         | [Malta](http://wikidata.org/entity/Q193896) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Mbv7BGvE.html" height="800" width="1200" title="Mbv7BGvE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Mbv7BGvE" height="800" width="1200" title="Mbv7BGvE"></iframe>
 
 ## Identifiers
 

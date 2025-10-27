@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4Mi2LPbK
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/4Mi2LPbK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/4Mi2LPbK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/4Mi2LPbK.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/4Mi2LPbK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/4Mi2LPbK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/4Mi2LPbK.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases    | description             | Wikidata QID                                                |
-    | :-------: | :-------------: | :--------: | :---------------------: | :---------------------------------------------------------: |
-    | 4Mi2LPbK  | Noel Bauldeweyn | Bauldewijn | Franco-Flemish composer | [Noel Bauldeweyn](http://wwww.wikidata.org/entity/Q1448940) |
+    | FAAM UUID | label           | aliases    | description             | Wikidata QID                                           |
+    | :-------: | :-------------: | :--------: | :---------------------: | :----------------------------------------------------: |
+    | 4Mi2LPbK  | Noel Bauldeweyn | Bauldewijn | Franco-Flemish composer | [Noel Bauldeweyn](http://wikidata.org/entity/Q1448940) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/4Mi2LPbK.html" height="800" width="1200" title="4Mi2LPbK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4Mi2LPbK" height="800" width="1200" title="4Mi2LPbK"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,11 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Ave Christe immolate, NJE 21.1](./7svCPHqp.md)__
+
+	
+
+</div>

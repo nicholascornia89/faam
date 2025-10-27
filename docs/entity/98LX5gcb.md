@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 98LX5gcb
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases             | description                | Wikidata QID                                          |
-    | :-------: | :--------: | :-----------------: | :------------------------: | :---------------------------------------------------: |
-    | 98LX5gcb  | Semiramide | Rossini: Semiramide | opera by Gioachino Rossini | [Semiramide](http://wwww.wikidata.org/entity/Q900744) |
+    | FAAM UUID | label      | aliases             | description                | Wikidata QID                                     |
+    | :-------: | :--------: | :-----------------: | :------------------------: | :----------------------------------------------: |
+    | 98LX5gcb  | Semiramide | Rossini: Semiramide | opera by Gioachino Rossini | [Semiramide](http://wikidata.org/entity/Q900744) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/98LX5gcb.html" height="800" width="1200" title="98LX5gcb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/98LX5gcb" height="800" width="1200" title="98LX5gcb"></iframe>
 
 ## Identifiers
 
@@ -63,13 +67,13 @@ tags: musical_work
 
 -	__[Semiramide : duo "Serbami ognor" (Semiramide en Arsace) (I, 8).](./EQmWnhpj.md)__
 
-	![Image](../assets/images/thumbs/KCG-000365036.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000365036.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Convoluut : Valentine Degive-Ledelier](./diiKf2Tw.md)__
 
-	![Image](../assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
 
 	
 

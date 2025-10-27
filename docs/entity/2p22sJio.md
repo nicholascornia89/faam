@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2p22sJio
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description               | aliases | Wikidata QID                                                   |
-    | :-------: | :---------------: | :-----------------------: | :-----: | :------------------------------------------------------------: |
-    | 2p22sJio  | Free Music School | musical academy in Russia |         | [Free Music School](http://wwww.wikidata.org/entity/Q11567401) |
+    | FAAM UUID | label             | description               | aliases | Wikidata QID                                              |
+    | :-------: | :---------------: | :-----------------------: | :-----: | :-------------------------------------------------------: |
+    | 2p22sJio  | Free Music School | musical academy in Russia |         | [Free Music School](http://wikidata.org/entity/Q11567401) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/2p22sJio.html" height="800" width="1200" title="2p22sJio"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2p22sJio" height="800" width="1200" title="2p22sJio"></iframe>
 
 ## Cross-references
 

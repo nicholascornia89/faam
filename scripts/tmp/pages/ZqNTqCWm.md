@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZqNTqCWm
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                                             | aliases                     | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-------------------------: | :---------------------------------------------------------------------: |
-    | ZqNTqCWm  | 11th arrondissement of Paris | one of the 20 administrative districts of Paris, France | 11e arrondissement de Paris | [11th arrondissement of Paris](http://wwww.wikidata.org/entity/Q169293) |
+    | FAAM UUID | label                        | description                                             | aliases                     | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-------------------------: | :----------------------------------------------------------------: |
+    | ZqNTqCWm  | 11th arrondissement of Paris | one of the 20 administrative districts of Paris, France | 11e arrondissement de Paris | [11th arrondissement of Paris](http://wikidata.org/entity/Q169293) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ZqNTqCWm.html" height="800" width="1200" title="ZqNTqCWm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZqNTqCWm" height="800" width="1200" title="ZqNTqCWm"></iframe>
 
 ## Identifiers
 

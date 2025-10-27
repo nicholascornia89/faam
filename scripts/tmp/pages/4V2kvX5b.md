@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4V2kvX5b
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                           | aliases  | Wikidata QID                                      |
-    | :-------: | :------: | :-----------------------------------: | :------: | :-----------------------------------------------: |
-    | 4V2kvX5b  | New York | state of the United States of America | New York | [New York](http://wwww.wikidata.org/entity/Q1384) |
+    | FAAM UUID | label    | description                           | aliases  | Wikidata QID                                 |
+    | :-------: | :------: | :-----------------------------------: | :------: | :------------------------------------------: |
+    | 4V2kvX5b  | New York | state of the United States of America | New York | [New York](http://wikidata.org/entity/Q1384) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4V2kvX5b.html" height="800" width="1200" title="4V2kvX5b"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4V2kvX5b" height="800" width="1200" title="4V2kvX5b"></iframe>
 
 ## Identifiers
 

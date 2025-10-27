@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZxqHwDys
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                                | aliases           | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :----------------------------------------: | :---------------: | :------------------------------------------------------------: |
-    | ZxqHwDys  | Kingdom of Sardinia | state in Southern Europe from 1324 to 1861 | Piedmont-Sardinia | [Kingdom of Sardinia](http://wwww.wikidata.org/entity/Q165154) |
+    | FAAM UUID | label               | description                                | aliases           | Wikidata QID                                              |
+    | :-------: | :-----------------: | :----------------------------------------: | :---------------: | :-------------------------------------------------------: |
+    | ZxqHwDys  | Kingdom of Sardinia | state in Southern Europe from 1324 to 1861 | Piedmont-Sardinia | [Kingdom of Sardinia](http://wikidata.org/entity/Q165154) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/ZxqHwDys.html" height="800" width="1200" title="ZxqHwDys"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZxqHwDys" height="800" width="1200" title="ZxqHwDys"></iframe>
 
 ## Identifiers
 

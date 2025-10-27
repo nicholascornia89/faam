@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: J8QiZLMQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/J8QiZLMQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/J8QiZLMQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/J8QiZLMQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/J8QiZLMQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/J8QiZLMQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/J8QiZLMQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----: | :---------: | :-------------------------------------------------------: |
-    | J8QiZLMQ  | Karel Stecker |         |             | [Karel Stecker](http://wwww.wikidata.org/entity/Q3646534) |
+    | FAAM UUID | label         | aliases | description | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----: | :---------: | :--------------------------------------------------: |
+    | J8QiZLMQ  | Karel Stecker |         |             | [Karel Stecker](http://wikidata.org/entity/Q3646534) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/J8QiZLMQ.html" height="800" width="1200" title="J8QiZLMQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/J8QiZLMQ" height="800" width="1200" title="J8QiZLMQ"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Josef Suk](./FtmMkvtb.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josef_Suk(1).jpg){align=left width="150" height="150"} 
+
+	Czech composer and violinist (1874-1935)
+
+</div>

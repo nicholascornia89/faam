@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JWM648AD
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000742404/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JWM648AD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JWM648AD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JWM648AD.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000742404/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JWM648AD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JWM648AD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JWM648AD.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000742404.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000742404.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :----------------------------------: | :----------------------: | :------------------------------------------------: |
-    | JWM648AD  | KCG-000742404         | Le Chalet : Opéra-comique en un acte | [external URL](amkJ6EBs) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :----------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | JWM648AD  | KCG-000742404         | Le Chalet : Opéra-comique en un acte | [external URL](https://catalogus.hogent.be/catalog/hog01:000742404) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ===  "note" 
 
@@ -83,10 +87,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/JWM648AD.html" height="800" width="1200" title="JWM648AD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JWM648AD" height="800" width="1200" title="JWM648AD"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/JWM648AD.html" height="800" width="1200" title="JWM648AD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/JWM648AD" height="800" width="1200" title="JWM648AD"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: W9kRJg9S
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                     | aliases          | Wikidata QID                                      |
-    | :-------: | :------: | :-------------------------------------------------------------: | :--------------: | :-----------------------------------------------: |
-    | W9kRJg9S  | Portland | city and county seat of Multnomah County, Oregon, United States | Portland, Oregon | [Portland](http://wwww.wikidata.org/entity/Q6106) |
+    | FAAM UUID | label    | description                                                     | aliases          | Wikidata QID                                 |
+    | :-------: | :------: | :-------------------------------------------------------------: | :--------------: | :------------------------------------------: |
+    | W9kRJg9S  | Portland | city and county seat of Multnomah County, Oregon, United States | Portland, Oregon | [Portland](http://wikidata.org/entity/Q6106) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/W9kRJg9S.html" height="800" width="1200" title="W9kRJg9S"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/W9kRJg9S" height="800" width="1200" title="W9kRJg9S"></iframe>
 
 ## Identifiers
 

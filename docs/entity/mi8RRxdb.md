@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mi8RRxdb
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mi8RRxdb.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mi8RRxdb.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mi8RRxdb.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mi8RRxdb.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mi8RRxdb.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mi8RRxdb.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description      | Wikidata QID                                               |
-    | :-------: | :------------: | :-----: | :--------------: | :--------------------------------------------------------: |
-    | mi8RRxdb  | Pietro Rovelli |         | Italian composer | [Pietro Rovelli](http://wwww.wikidata.org/entity/Q2094485) |
+    | FAAM UUID | label          | aliases | description      | Wikidata QID                                          |
+    | :-------: | :------------: | :-----: | :--------------: | :---------------------------------------------------: |
+    | mi8RRxdb  | Pietro Rovelli |         | Italian composer | [Pietro Rovelli](http://wikidata.org/entity/Q2094485) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/mi8RRxdb.html" height="800" width="1200" title="mi8RRxdb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mi8RRxdb" height="800" width="1200" title="mi8RRxdb"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Bernhard Molique](./FM4yWajx.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Molique_passport.jpg){align=left width="150" height="150"} 
+
+	German violinist and composer (1802-1869)
+
+</div>

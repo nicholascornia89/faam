@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: R9wV9cS6
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                   | aliases | Wikidata QID                                           |
-    | :-------: | :--------: | :---------------------------: | :-----: | :----------------------------------------------------: |
-    | R9wV9cS6  | Koudekerke | village in Veere, Netherlands |         | [Koudekerke](http://wwww.wikidata.org/entity/Q1785561) |
+    | FAAM UUID | label      | description                   | aliases | Wikidata QID                                      |
+    | :-------: | :--------: | :---------------------------: | :-----: | :-----------------------------------------------: |
+    | R9wV9cS6  | Koudekerke | village in Veere, Netherlands |         | [Koudekerke](http://wikidata.org/entity/Q1785561) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/R9wV9cS6.html" height="800" width="1200" title="R9wV9cS6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/R9wV9cS6" height="800" width="1200" title="R9wV9cS6"></iframe>
 
 ## Identifiers
 

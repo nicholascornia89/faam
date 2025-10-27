@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: d6k8Jy2L
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/d6k8Jy2L.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/d6k8Jy2L.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/d6k8Jy2L.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/d6k8Jy2L.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/d6k8Jy2L.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/d6k8Jy2L.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Ghys_1834.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description                   | Wikidata QID                                            |
-    | :-------: | :---------: | :---------: | :---------------------------: | :-----------------------------------------------------: |
-    | d6k8Jy2L  | Joseph Ghys | Joseph Ghys | Belgian violinist (1801–1848) | [Joseph Ghys](http://wwww.wikidata.org/entity/Q3185009) |
+    | FAAM UUID | label       | aliases     | description                   | Wikidata QID                                       |
+    | :-------: | :---------: | :---------: | :---------------------------: | :------------------------------------------------: |
+    | d6k8Jy2L  | Joseph Ghys | Joseph Ghys | Belgian violinist (1801–1848) | [Joseph Ghys](http://wikidata.org/entity/Q3185009) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/d6k8Jy2L.html" height="800" width="1200" title="d6k8Jy2L"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/d6k8Jy2L" height="800" width="1200" title="d6k8Jy2L"></iframe>
 
 ## Identifiers
 
@@ -87,8 +91,20 @@ tags: agent
 
 -	__[Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys](./V6P9ruNu.md)__
 
-	![Image](../assets/images/thumbs/KCG-000353033.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000353033.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Variations concertantes et Faciles, Op. 18](./EDypzUCA.md)__
+
+	
+
+-	__[Andronico](./2FkhZAqS.md)__
+
+	opera by Saverio Mercadante
 
 </div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MJgZj7MG
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                  | aliases        | Wikidata QID                                  |
-    | :-------: | :----: | :------------------------------------------: | :------------: | :-------------------------------------------: |
-    | MJgZj7MG  | Zurich | capital of the canton of Zurich, Switzerland | City of Zurich | [Zurich](http://wwww.wikidata.org/entity/Q72) |
+    | FAAM UUID | label  | description                                  | aliases        | Wikidata QID                             |
+    | :-------: | :----: | :------------------------------------------: | :------------: | :--------------------------------------: |
+    | MJgZj7MG  | Zurich | capital of the canton of Zurich, Switzerland | City of Zurich | [Zurich](http://wikidata.org/entity/Q72) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/MJgZj7MG.html" height="800" width="1200" title="MJgZj7MG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MJgZj7MG" height="800" width="1200" title="MJgZj7MG"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Vasily Bessel](./KLcqFTj4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian publisher (1843–1907)
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Willy Burkhard](./3ruAHmoN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss composer (1900–1955)
 

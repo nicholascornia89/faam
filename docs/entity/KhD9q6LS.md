@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KhD9q6LS
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                | description           | aliases | Wikidata QID                                    |
-    | :-------: | :----------------------------------: | :-------------------: | :-----: | :---------------------------------------------: |
-    | KhD9q6LS  | St. Petersburg Noble Boarding School | St. Petersburg school |         | [S](http://wwww.wikidata.org/entity/Q135091860) |
+    | FAAM UUID | label                                | description           | aliases | Wikidata QID                               |
+    | :-------: | :----------------------------------: | :-------------------: | :-----: | :----------------------------------------: |
+    | KhD9q6LS  | St. Petersburg Noble Boarding School | St. Petersburg school |         | [S](http://wikidata.org/entity/Q135091860) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./ZpwbPoZj.md)
+	[Saint Petersburg](./ZpwbPoZj.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/KhD9q6LS.html" height="800" width="1200" title="KhD9q6LS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KhD9q6LS" height="800" width="1200" title="KhD9q6LS"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Mikhail Glinka](./jZ54gutD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e8/Glinka_1856.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Glinka_1856.jpg){align=left width="150" height="150"} 
 
 	Russian composer
 

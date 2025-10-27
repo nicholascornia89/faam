@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4YzWbco5
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                    | aliases     | Wikidata QID                                    |
-    | :-------: | :---: | :----------------------------: | :---------: | :---------------------------------------------: |
-    | 4YzWbco5  | tenor | voice type, male singing voice | tenor voice | [tenor](http://wwww.wikidata.org/entity/Q27914) |
+    | FAAM UUID | label | description                    | aliases     | Wikidata QID                               |
+    | :-------: | :---: | :----------------------------: | :---------: | :----------------------------------------: |
+    | 4YzWbco5  | tenor | voice type, male singing voice | tenor voice | [tenor](http://wikidata.org/entity/Q27914) |
 
 <br><br><br>
 
@@ -31,23 +35,23 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./gEbdzQmD.md)
+	- [high voice](./gEbdzQmD.md)
 
 	- [singer](./oJ9qmRVq.md)
 
-	- [](./hrmxqtDZ.md)
+	- [male singing voice](./hrmxqtDZ.md)
 
 !!! quote "instance of" 
 
-	- [](./g3FMFoiZ.md)
+	- [voice type](./g3FMFoiZ.md)
 
-	- [](./43UCrS3D.md)
+	- [profession](./43UCrS3D.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4YzWbco5.html" height="800" width="1200" title="4YzWbco5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4YzWbco5" height="800" width="1200" title="4YzWbco5"></iframe>
 
 ## Cross-references
 
@@ -57,67 +61,67 @@ tags: musical_instrument
 
 -	__[Hymne au roi (des belges) : air de concert : tenor ou mez. sop.](./C7d2FYyC.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902584041.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902584041.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Air pour la Voix de Tenore (ou haute-Contre) : Tiré de l'opéra de Joseph en Egypte (Vainement Pharaon)](./KXKKn8zV.md)__
 
-	![Image](../assets/images/thumbs/KCG-000356691.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000356691.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Trois Quatuors : pour Soprano, Contralte, Tenor & Basse](./oQXzQeSL.md)__
 
-	![Image](../assets/images/thumbs/KCG-000338557.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000338557.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[CANTATE N°45 : Es ist dir gesagt, Mensch, was gut ist](./EXeDLbH8.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331832.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331832.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Chanson Persane](./9sfyFarD.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903591359.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903591359.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[9 Tenor-Arien : aus versch. Cantaten ; mit Begl. d. Pianoforte](./gex3sqyu.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ach wie flüchtig, ach wie nichtig](./Z7tWxQzj.md)__
 
-	![Image](../assets/images/thumbs/BSB-991106268029707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991106268029707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Passionsmusik : nach dem Evangelisten Matthäus](./LGixSzgF.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076581989707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076581989707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Gott fähret auf mit Jauchzen](./M6Wy5S4B.md)__
 
-	![Image](../assets/images/thumbs/BSB-991106266939707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991106266939707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Magnificat (in D-dur)](./JadywWNZ.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076581699707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076581699707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le chant: méthode pratique et rapide: en 24 exercices pour la pose, le développement et l'assouplissement de la voix, suivis de 15 vocalises: édition pour ténor ou soprano](./MMTY2D9L.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902145678.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902145678.gif){align=left width="150" height="150"} 
 
 	
 

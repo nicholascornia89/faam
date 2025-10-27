@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XYjq49o8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                                                          | aliases | Wikidata QID                                                                   |
-    | :-------: | :--------------------------------: | :------------------------------------------------------------------: | :-----: | :----------------------------------------------------------------------------: |
-    | XYjq49o8  | former 2nd arrondissement of Paris | one of the 12 administrative districts of Paris, France, before 1860 |         | [former 2nd arrondissement of Paris](http://wwww.wikidata.org/entity/Q2845753) |
+    | FAAM UUID | label                              | description                                                          | aliases | Wikidata QID                                                              |
+    | :-------: | :--------------------------------: | :------------------------------------------------------------------: | :-----: | :-----------------------------------------------------------------------: |
+    | XYjq49o8  | former 2nd arrondissement of Paris | one of the 12 administrative districts of Paris, France, before 1860 |         | [former 2nd arrondissement of Paris](http://wikidata.org/entity/Q2845753) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/XYjq49o8.html" height="800" width="1200" title="XYjq49o8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XYjq49o8" height="800" width="1200" title="XYjq49o8"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Charles-Wilfrid de Bériot](./Mj6zznNc.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e2/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg){align=left width="150" height="150"} 
 
 	French pianist and composer (1833-1914)
 
@@ -75,7 +79,7 @@ tags: city
 
 -	__[Adolphe Adam](./Y7stG82h.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Adolphe_Adam.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolphe_Adam.jpg){align=left width="150" height="150"} 
 
 	French composer (1803–1856)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ASGoypux
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                               | aliases           | Wikidata QID                                                  |
-    | :-------: | :---------------: | :---------------------------------------: | :---------------: | :-----------------------------------------------------------: |
-    | ASGoypux  | Naval Cadet Corps | cadet academy in Saint Petersburg, Russia | Naval Cadet Corps | [Naval Cadet Corps](http://wwww.wikidata.org/entity/Q2379681) |
+    | FAAM UUID | label             | description                               | aliases           | Wikidata QID                                             |
+    | :-------: | :---------------: | :---------------------------------------: | :---------------: | :------------------------------------------------------: |
+    | ASGoypux  | Naval Cadet Corps | cadet academy in Saint Petersburg, Russia | Naval Cadet Corps | [Naval Cadet Corps](http://wikidata.org/entity/Q2379681) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./ZpwbPoZj.md)
+	[Saint Petersburg](./ZpwbPoZj.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/ASGoypux.html" height="800" width="1200" title="ASGoypux"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ASGoypux" height="800" width="1200" title="ASGoypux"></iframe>
 
 ## Cross-references
 

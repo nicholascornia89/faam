@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Qc5Nkbjo
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Qc5Nkbjo.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Qc5Nkbjo.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Qc5Nkbjo.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Qc5Nkbjo.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Qc5Nkbjo.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Qc5Nkbjo.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/WFGNicolai.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases          | description                                                            | Wikidata QID                                               |
-    | :-------: | :------------: | :--------------: | :--------------------------------------------------------------------: | :--------------------------------------------------------: |
-    | Qc5Nkbjo  | Willem Nicolaï | W. F. G. Nicolaï | Dutch conductor, composer, musicologist and music educator (1829–1896) | [Willem Nicolaï](http://wwww.wikidata.org/entity/Q2105585) |
+    | FAAM UUID | label          | aliases          | description                                                            | Wikidata QID                                          |
+    | :-------: | :------------: | :--------------: | :--------------------------------------------------------------------: | :---------------------------------------------------: |
+    | Qc5Nkbjo  | Willem Nicolaï | W. F. G. Nicolaï | Dutch conductor, composer, musicologist and music educator (1829–1896) | [Willem Nicolaï](http://wikidata.org/entity/Q2105585) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Qc5Nkbjo.html" height="800" width="1200" title="Qc5Nkbjo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Qc5Nkbjo" height="800" width="1200" title="Qc5Nkbjo"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Marius van 't Kruijs](./KyANmEGx.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Onze_Musici_(1911)_-_Marius_van_'t_Kruijs.jpg){align=left width="150" height="150"} 
+
+	Dutch composer (1861–1919)
+
+-	__[Cornélie van Zanten](./HxMjq5go.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Onze_Musici_(1911)_-_Cornélie_van_Zanten.jpg){align=left width="150" height="150"} 
+
+	Dutch opera singer (1855–1946)
+
+</div>

@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DDH7fEFM", "label": "Anonymous", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DDH7fEFM.md\u0027\u003eAnonymous\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eWikimedia disambiguation page\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gjJk8Rkj", "label": "Ricercari sopra li tuoni", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gjJk8Rkj.md\u0027\u003eRicercari sopra li tuoni\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecollection of ricercari attributed to Giovanni Pierluigi da Palestrina\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gMpSya7p", "label": "Alexandre-\u00c9tienne Choron", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gMpSya7p.md\u0027\u003eAlexandre-\u00c9tienne Choron\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician (1771-1834)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexandre-\u00c9tienne_Choron.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "8h6APj7b", "label": "Collection des pi\u00e8ces de musique r\u00e9ligieuse: qui s\u0027ex\u00e9cutent tous les ans \u00e0 Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8h6APj7b.md\u0027\u003eCollection des pi\u00e8ces de musique r\u00e9ligieuse: qui s\u0027ex\u00e9cutent tous les ans \u00e0 Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BSB-991076911629707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nHfR4BAi", "label": "Giovanni Pierluigi da Palestrina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nHfR4BAi.md\u0027\u003eGiovanni Pierluigi da Palestrina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Renaissance composer (c. 1525\u20131594)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Pierluigi_da_Palestrina.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Q75EuSm4", "label": "ricercar", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Q75EuSm4.md\u0027\u003ericercar\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition exploring a motif or developing an etude\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "DDH7fEFM", "to": "gjJk8Rkj", "width": 10}, {"from": "gMpSya7p", "to": "gjJk8Rkj", "width": 10}, {"from": "8h6APj7b", "to": "gjJk8Rkj", "width": 10}, {"from": "nHfR4BAi", "to": "gjJk8Rkj", "width": 10}, {"from": "gjJk8Rkj", "to": "Q75EuSm4", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nHfR4BAi", "label": "Giovanni Pierluigi da Palestrina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/nHfR4BAi\u0027\u003eGiovanni Pierluigi da Palestrina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Renaissance composer (c. 1525\u20131594)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Pierluigi_da_Palestrina.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gjJk8Rkj", "label": "Ricercari sopra li tuoni", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gjJk8Rkj\u0027\u003eRicercari sopra li tuoni\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecollection of ricercari attributed to Giovanni Pierluigi da Palestrina\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gMpSya7p", "label": "Alexandre-\u00c9tienne Choron", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gMpSya7p\u0027\u003eAlexandre-\u00c9tienne Choron\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician (1771-1834)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexandre-\u00c9tienne_Choron.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "8h6APj7b", "label": "Collection des pi\u00e8ces de musique r\u00e9ligieuse: qui s\u0027ex\u00e9cutent tous les ans \u00e0 Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8h6APj7b\u0027\u003eCollection des pi\u00e8ces de musique r\u00e9ligieuse: qui s\u0027ex\u00e9cutent tous les ans \u00e0 Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991076911629707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Q75EuSm4", "label": "ricercar", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Q75EuSm4\u0027\u003ericercar\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition exploring a motif or developing an etude\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DDH7fEFM", "label": "Anonymous", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DDH7fEFM\u0027\u003eAnonymous\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eWikimedia disambiguation page\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "nHfR4BAi", "to": "gjJk8Rkj", "width": 10}, {"from": "gMpSya7p", "to": "gjJk8Rkj", "width": 10}, {"from": "8h6APj7b", "to": "gjJk8Rkj", "width": 10}, {"from": "gjJk8Rkj", "to": "Q75EuSm4", "width": 10}, {"from": "gjJk8Rkj", "to": "DDH7fEFM", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

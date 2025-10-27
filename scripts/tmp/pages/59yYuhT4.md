@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 59yYuhT4
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases       | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-----------: | :--------------------------: | :--------------------------------------------------------: |
-    | 59yYuhT4  | Keyboard Sonata in D minor, K.120 | Sonata K. 120 | sonata by Domenico Scarlatti | [Sonata K. 120](http://wwww.wikidata.org/entity/Q67199934) |
+    | FAAM UUID | label                             | aliases       | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-----------: | :--------------------------: | :---------------------------------------------------: |
+    | 59yYuhT4  | Keyboard Sonata in D minor, K.120 | Sonata K. 120 | sonata by Domenico Scarlatti | [Sonata K. 120](http://wikidata.org/entity/Q67199934) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/59yYuhT4.html" height="800" width="1200" title="59yYuhT4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/59yYuhT4" height="800" width="1200" title="59yYuhT4"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: b7wEcknU
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | description             | aliases | Wikidata QID                                                                  |
-    | :-------: | :-------------------------------: | :---------------------: | :-----: | :---------------------------------------------------------------------------: |
-    | b7wEcknU  | rue Catherine-de-La-Rochefoucauld | street in Paris, France |         | [rue Catherine-de-La-Rochefoucauld](http://wwww.wikidata.org/entity/Q3450790) |
+    | FAAM UUID | label                             | description             | aliases | Wikidata QID                                                             |
+    | :-------: | :-------------------------------: | :---------------------: | :-----: | :----------------------------------------------------------------------: |
+    | b7wEcknU  | rue Catherine-de-La-Rochefoucauld | street in Paris, France |         | [rue Catherine-de-La-Rochefoucauld](http://wikidata.org/entity/Q3450790) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/b7wEcknU.html" height="800" width="1200" title="b7wEcknU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/b7wEcknU" height="800" width="1200" title="b7wEcknU"></iframe>
 
 ## Identifiers
 

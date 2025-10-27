@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NwiqRLEM
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                 | aliases     | Wikidata QID                                          |
-    | :-------: | :------: | :-------------------------: | :---------: | :---------------------------------------------------: |
-    | NwiqRLEM  | lutenist | musician who plays the lute | lute player | [lutenist](http://wwww.wikidata.org/entity/Q21166956) |
+    | FAAM UUID | label    | description                 | aliases     | Wikidata QID                                     |
+    | :-------: | :------: | :-------------------------: | :---------: | :----------------------------------------------: |
+    | NwiqRLEM  | lutenist | musician who plays the lute | lute player | [lutenist](http://wikidata.org/entity/Q21166956) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/NwiqRLEM.html" height="800" width="1200" title="NwiqRLEM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NwiqRLEM" height="800" width="1200" title="NwiqRLEM"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Robert Allen Spencer](./nTmL95bR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	UK lutenist (1932-1997)
 
@@ -49,7 +53,7 @@ tags: occupation
 
 -	__[Walter Gerwig](./daYt6piq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German lutenist and composer (1899–1966)
 

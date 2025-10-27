@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3hWfto8B
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                               | aliases             | Wikidata QID                                      |
-    | :-------: | :------: | :---------------------------------------: | :-----------------: | :-----------------------------------------------: |
-    | 3hWfto8B  | Cagliari | Italian municipality, capital of Sardinia | Casteddu de Càlaris | [Cagliari](http://wwww.wikidata.org/entity/Q1897) |
+    | FAAM UUID | label    | description                               | aliases             | Wikidata QID                                 |
+    | :-------: | :------: | :---------------------------------------: | :-----------------: | :------------------------------------------: |
+    | 3hWfto8B  | Cagliari | Italian municipality, capital of Sardinia | Casteddu de Càlaris | [Cagliari](http://wikidata.org/entity/Q1897) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3hWfto8B.html" height="800" width="1200" title="3hWfto8B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3hWfto8B" height="800" width="1200" title="3hWfto8B"></iframe>
 
 ## Identifiers
 

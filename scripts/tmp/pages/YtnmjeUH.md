@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YtnmjeUH
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description | aliases         | Wikidata QID                                               |
-    | :-------: | :-----------: | :---------: | :-------------: | :--------------------------------------------------------: |
-    | YtnmjeUH  | piano teacher | occupation  | piano pedagogue | [piano teacher](http://wwww.wikidata.org/entity/Q17303149) |
+    | FAAM UUID | label         | description | aliases         | Wikidata QID                                          |
+    | :-------: | :-----------: | :---------: | :-------------: | :---------------------------------------------------: |
+    | YtnmjeUH  | piano teacher | occupation  | piano pedagogue | [piano teacher](http://wikidata.org/entity/Q17303149) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/YtnmjeUH.html" height="800" width="1200" title="YtnmjeUH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YtnmjeUH" height="800" width="1200" title="YtnmjeUH"></iframe>
 
 ## Cross-references
 

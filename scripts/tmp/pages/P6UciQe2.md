@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: P6UciQe2
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | aliases               | description               | Wikidata QID                                                      |
-    | :-------: | :------------------------------------: | :-------------------: | :-----------------------: | :---------------------------------------------------------------: |
-    | P6UciQe2  | Violin Concerto No.4 in D major, K.218 | Violin Concerto No. 4 | violin concerto by Mozart | [Violin Concerto No. 4](http://wwww.wikidata.org/entity/Q1179589) |
+    | FAAM UUID | label                                  | aliases               | description               | Wikidata QID                                                 |
+    | :-------: | :------------------------------------: | :-------------------: | :-----------------------: | :----------------------------------------------------------: |
+    | P6UciQe2  | Violin Concerto No.4 in D major, K.218 | Violin Concerto No. 4 | violin concerto by Mozart | [Violin Concerto No. 4](http://wikidata.org/entity/Q1179589) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/P6UciQe2.html" height="800" width="1200" title="P6UciQe2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/P6UciQe2" height="800" width="1200" title="P6UciQe2"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Concert in D-dur : für d. Violine ; KV 218 ; op. 121](./9o9xj5Gw.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078005629707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078005629707356.gif){align=left width="150" height="150"} 
 
 	
 

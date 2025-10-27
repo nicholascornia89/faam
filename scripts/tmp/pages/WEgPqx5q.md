@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WEgPqx5q
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WEgPqx5q.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WEgPqx5q.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WEgPqx5q.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WEgPqx5q.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WEgPqx5q.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WEgPqx5q.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/John_Blow_1687.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description      | Wikidata QID                                         |
-    | :-------: | :-------: | :-------: | :--------------: | :--------------------------------------------------: |
-    | WEgPqx5q  | John Blow | John Blow | English composer | [John Blow](http://wwww.wikidata.org/entity/Q311110) |
+    | FAAM UUID | label     | aliases   | description      | Wikidata QID                                    |
+    | :-------: | :-------: | :-------: | :--------------: | :---------------------------------------------: |
+    | WEgPqx5q  | John Blow | John Blow | English composer | [John Blow](http://wikidata.org/entity/Q311110) |
 
 <br><br><br>
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/WEgPqx5q.html" height="800" width="1200" title="WEgPqx5q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WEgPqx5q" height="800" width="1200" title="WEgPqx5q"></iframe>
 
 ## Identifiers
 
@@ -93,8 +97,18 @@ tags: agent
 
 -	__[Old English composers for the virginals & harpsichord : a collection of preludes, galliards, pavanes, grounds, chaconnes, suites, overtures, sonatas, etc. selected from the works of / William Byrde, John Bull, Orlando Gibbons, John Blow, Henry Purcell and Thomas Augustine Arne ; revised & edited by E. Pauer ; with biographical notices by W. A. Barrett.](./FEppMQbX.md)__
 
-	![Image](../assets/images/thumbs/SML-18937.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18937.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Henry Purcell](./MUYzJ4yk.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henry_Purcell_by_John_Closterman.jpg){align=left width="150" height="150"} 
+
+	English composer (1659–1695)
 
 </div>

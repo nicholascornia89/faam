@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XS2SS3Y7
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XS2SS3Y7.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XS2SS3Y7.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XS2SS3Y7.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XS2SS3Y7.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XS2SS3Y7.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XS2SS3Y7.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Romberg.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                   | description                 | Wikidata QID                                                |
-    | :-------: | :--------------: | :-----------------------: | :-------------------------: | :---------------------------------------------------------: |
-    | XS2SS3Y7  | Bernhard Romberg | Bernhard Heinrich Romberg | German cellist and composer | [Bernhard Romberg](http://wwww.wikidata.org/entity/Q213914) |
+    | FAAM UUID | label            | aliases                   | description                 | Wikidata QID                                           |
+    | :-------: | :--------------: | :-----------------------: | :-------------------------: | :----------------------------------------------------: |
+    | XS2SS3Y7  | Bernhard Romberg | Bernhard Heinrich Romberg | German cellist and composer | [Bernhard Romberg](http://wikidata.org/entity/Q213914) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/XS2SS3Y7.html" height="800" width="1200" title="XS2SS3Y7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XS2SS3Y7" height="800" width="1200" title="XS2SS3Y7"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[Trois Trios : d'une Difficulté Progressive pour le Violoncelle, Viola et Violoncelle : Oeuv. 38](./h3ypGMr9.md)__
 
-	![Image](../assets/images/thumbs/KCG-000735370.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735370.gif){align=left width="150" height="150"} 
 
 	
 

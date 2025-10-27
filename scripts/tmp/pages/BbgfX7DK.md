@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BbgfX7DK
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BbgfX7DK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BbgfX7DK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BbgfX7DK.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BbgfX7DK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BbgfX7DK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BbgfX7DK.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                                                                 | Wikidata QID                                          |
-    | :-------: | :----------: | :----------: | :-------------------------------------------------------------------------: | :---------------------------------------------------: |
-    | BbgfX7DK  | Ivo de Vento | Ivo de Vento | Franco-Flemish composer, organist and Kapellmeister of the High Renaissance | [Ivo Vento](http://wwww.wikidata.org/entity/Q1675812) |
+    | FAAM UUID | label        | aliases      | description                                                                 | Wikidata QID                                     |
+    | :-------: | :----------: | :----------: | :-------------------------------------------------------------------------: | :----------------------------------------------: |
+    | BbgfX7DK  | Ivo de Vento | Ivo de Vento | Franco-Flemish composer, organist and Kapellmeister of the High Renaissance | [Ivo Vento](http://wikidata.org/entity/Q1675812) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/BbgfX7DK.html" height="800" width="1200" title="BbgfX7DK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BbgfX7DK" height="800" width="1200" title="BbgfX7DK"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,15 @@ tags: agent
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Factum est silentium](./Rf5Yq9mQ.md)__
 
 	
 

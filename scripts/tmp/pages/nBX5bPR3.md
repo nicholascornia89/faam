@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nBX5bPR3
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                                                              | aliases | Wikidata QID                                                                   |
-    | :-------: | :--------------------------------: | :----------------------------------------------------------------------: | :-----: | :----------------------------------------------------------------------------: |
-    | nBX5bPR3  | former 4th arrondissement of Paris | one of the twelve administrative districts of Paris, France, before 1860 |         | [former 4th arrondissement of Paris](http://wwww.wikidata.org/entity/Q2845755) |
+    | FAAM UUID | label                              | description                                                              | aliases | Wikidata QID                                                              |
+    | :-------: | :--------------------------------: | :----------------------------------------------------------------------: | :-----: | :-----------------------------------------------------------------------: |
+    | nBX5bPR3  | former 4th arrondissement of Paris | one of the twelve administrative districts of Paris, France, before 1860 |         | [former 4th arrondissement of Paris](http://wikidata.org/entity/Q2845755) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nBX5bPR3.html" height="800" width="1200" title="nBX5bPR3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nBX5bPR3" height="800" width="1200" title="nBX5bPR3"></iframe>
 
 ## Identifiers
 

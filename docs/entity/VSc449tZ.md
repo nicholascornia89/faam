@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VSc449tZ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases    | description                  | Wikidata QID                                          |
-    | :-------: | :--------: | :--------: | :--------------------------: | :---------------------------------------------------: |
-    | VSc449tZ  | Ysengrimus | Isengrimus | Latin series of beast fables | [Ysengrimus](http://wwww.wikidata.org/entity/Q374595) |
+    | FAAM UUID | label      | aliases    | description                  | Wikidata QID                                     |
+    | :-------: | :--------: | :--------: | :--------------------------: | :----------------------------------------------: |
+    | VSc449tZ  | Ysengrimus | Isengrimus | Latin series of beast fables | [Ysengrimus](http://wikidata.org/entity/Q374595) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/VSc449tZ.html" height="800" width="1200" title="VSc449tZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VSc449tZ" height="800" width="1200" title="VSc449tZ"></iframe>
 
 ## Identifiers
 

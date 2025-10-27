@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TpKbLAmY
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                | aliases       | Wikidata QID                                      |
-    | :-------: | :----: | :----------------------------------------: | :-----------: | :-----------------------------------------------: |
-    | TpKbLAmY  | parson | presbyter of a Christian parish in general | parish priest | [parson](http://wwww.wikidata.org/entity/Q955464) |
+    | FAAM UUID | label  | description                                | aliases       | Wikidata QID                                 |
+    | :-------: | :----: | :----------------------------------------: | :-----------: | :------------------------------------------: |
+    | TpKbLAmY  | parson | presbyter of a Christian parish in general | parish priest | [parson](http://wikidata.org/entity/Q955464) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/TpKbLAmY.html" height="800" width="1200" title="TpKbLAmY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TpKbLAmY" height="800" width="1200" title="TpKbLAmY"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Pieter Benoit](./i6yQPw7F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian priest and teacher (1820-1892)
 

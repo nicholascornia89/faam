@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7C5hWiKN
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------: | :-----: | :---------: | :----------------------------------: |
-    | 7C5hWiKN  | Regali ex progenie |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label              | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------: | :-----: | :---------: | :-----------------------------: |
+    | 7C5hWiKN  | Regali ex progenie |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/7C5hWiKN.html" height="800" width="1200" title="7C5hWiKN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7C5hWiKN" height="800" width="1200" title="7C5hWiKN"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Musica divina: sive thesaurus concentuum selectissimorum omni cultui divino totius anni juxta ritum sanctae ecclesiae catholicae inservientium: ab excellentissimis superioris aevi musicis numeris harmonicis compositorum. 2,3: Liber motettorum, Sectio III](./SQVug9ib.md)__
 
-	![Image](../assets/images/thumbs/BSB-991062688259707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991062688259707356.gif){align=left width="150" height="150"} 
 
 	
 

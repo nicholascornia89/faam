@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Q8R6Cvdd
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                   | description         | aliases           | Wikidata QID                                                                                          |
-    | :-------: | :-----------------------------------------------------: | :-----------------: | :---------------: | :---------------------------------------------------------------------------------------------------: |
-    | Q8R6Cvdd  | Scuola Normale Superiore. Classe di Lettere e Filosofia | academic department | Classe di Lettere | [Scuola Normale Superiore. Classe di Lettere e Filosofia](http://wwww.wikidata.org/entity/Q114415725) |
+    | FAAM UUID | label                                                   | description         | aliases           | Wikidata QID                                                                                     |
+    | :-------: | :-----------------------------------------------------: | :-----------------: | :---------------: | :----------------------------------------------------------------------------------------------: |
+    | Q8R6Cvdd  | Scuola Normale Superiore. Classe di Lettere e Filosofia | academic department | Classe di Lettere | [Scuola Normale Superiore. Classe di Lettere e Filosofia](http://wikidata.org/entity/Q114415725) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Q8R6Cvdd.html" height="800" width="1200" title="Q8R6Cvdd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Q8R6Cvdd" height="800" width="1200" title="Q8R6Cvdd"></iframe>
 
 ## Cross-references
 

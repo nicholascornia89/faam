@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5ACxU9Sm
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                                | aliases           | Wikidata QID                                                          |
-    | :-------: | :------------------------: | :----------------------------------------: | :---------------: | :-------------------------------------------------------------------: |
-    | 5ACxU9Sm  | Prince-Bishopric of Lübeck | state of the Holy Roman Empire (1180–1803) | Diocese of Lübeck | [Prince-Bishopric of Lübeck](http://wwww.wikidata.org/entity/Q527527) |
+    | FAAM UUID | label                      | description                                | aliases           | Wikidata QID                                                     |
+    | :-------: | :------------------------: | :----------------------------------------: | :---------------: | :--------------------------------------------------------------: |
+    | 5ACxU9Sm  | Prince-Bishopric of Lübeck | state of the Holy Roman Empire (1180–1803) | Diocese of Lübeck | [Prince-Bishopric of Lübeck](http://wikidata.org/entity/Q527527) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/5ACxU9Sm.html" height="800" width="1200" title="5ACxU9Sm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5ACxU9Sm" height="800" width="1200" title="5ACxU9Sm"></iframe>
 
 ## Identifiers
 

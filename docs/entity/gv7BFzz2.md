@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gv7BFzz2
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502049/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/gv7BFzz2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/gv7BFzz2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/gv7BFzz2.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502049/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/gv7BFzz2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/gv7BFzz2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/gv7BFzz2.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502049.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502049.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title         | permalink                | provenance                              |
-    | :-------: | :-------------------: | :-----------: | :----------------------: | :-------------------------------------: |
-    | gv7BFzz2  | DPF-202502049         | Salve Regina. | [external URL](m9rNaSAR) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title         | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :-----------: | :---------------------------: | :-------------------------------------: |
+    | gv7BFzz2  | DPF-202502049         | Salve Regina. | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/gv7BFzz2.html" height="800" width="1200" title="gv7BFzz2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gv7BFzz2" height="800" width="1200" title="gv7BFzz2"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/gv7BFzz2.html" height="800" width="1200" title="gv7BFzz2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/gv7BFzz2" height="800" width="1200" title="gv7BFzz2"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: atPgtkXM
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | description                                  | aliases | Wikidata QID                                                                      |
-    | :-------: | :-----------------------------------: | :------------------------------------------: | :-----: | :-------------------------------------------------------------------------------: |
-    | atPgtkXM  | The Second Saint Petersburg Gymnasium | gymnasium school in Saint Petersburg, Russia |         | [The Second Saint Petersburg Gymnasium](http://wwww.wikidata.org/entity/Q4127845) |
+    | FAAM UUID | label                                 | description                                  | aliases | Wikidata QID                                                                 |
+    | :-------: | :-----------------------------------: | :------------------------------------------: | :-----: | :--------------------------------------------------------------------------: |
+    | atPgtkXM  | The Second Saint Petersburg Gymnasium | gymnasium school in Saint Petersburg, Russia |         | [The Second Saint Petersburg Gymnasium](http://wikidata.org/entity/Q4127845) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./ZpwbPoZj.md)
+	[Saint Petersburg](./ZpwbPoZj.md)
 
 !!! quote "country" 
 
@@ -45,7 +49,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/atPgtkXM.html" height="800" width="1200" title="atPgtkXM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/atPgtkXM" height="800" width="1200" title="atPgtkXM"></iframe>
 
 ## Cross-references
 

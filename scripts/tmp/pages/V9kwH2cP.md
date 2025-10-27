@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: V9kwH2cP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                               | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :---------------------------------------: | :-----: | :----------------------------------------------: |
-    | V9kwH2cP  | Grimma | town in the Free State of Saxony, Germany |         | [Grimma](http://wwww.wikidata.org/entity/Q10780) |
+    | FAAM UUID | label  | description                               | aliases | Wikidata QID                                |
+    | :-------: | :----: | :---------------------------------------: | :-----: | :-----------------------------------------: |
+    | V9kwH2cP  | Grimma | town in the Free State of Saxony, Germany |         | [Grimma](http://wikidata.org/entity/Q10780) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/V9kwH2cP.html" height="800" width="1200" title="V9kwH2cP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/V9kwH2cP" height="800" width="1200" title="V9kwH2cP"></iframe>
 
 ## Identifiers
 

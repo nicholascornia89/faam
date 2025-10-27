@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6zMfY2ZT a rdfs:Resource ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1872-05-27"^^xsd:string ;
+    schema1:birthPlace faamentity:jDhrg8SX ;
+    schema1:deathDate "1927-09-03"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "Czech-born French music publisher (1872-1927)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q55678712>,
+        "16002444"^^xsd:string,
+        "6zMfY2ZT"^^xsd:string ;
+    skos:altLabel "Max Eschig"^^xsd:string,
+        "Maximilian Eschig"^^xsd:string ;
+    skos:prefLabel "Maximilian Eschig"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:32265449 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30072754> ;
+    schema:hasOccupation faamentity:MwhmFC4w .
+

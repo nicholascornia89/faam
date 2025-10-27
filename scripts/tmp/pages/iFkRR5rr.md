@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iFkRR5rr
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SLD-512657440/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/iFkRR5rr.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/iFkRR5rr.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/iFkRR5rr.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SLD-512657440/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/iFkRR5rr.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/iFkRR5rr.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/iFkRR5rr.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SLD-512657440.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SLD-512657440.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                              | permalink                | provenance                           |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------: | :----------------------: | :----------------------------------: |
-    | iFkRR5rr  | SLD-512657440         | La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia | [external URL](UJ57Ew5y) | [Saxon State Library](./FcNNEYgX.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                              | permalink                                                                | provenance                           |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------: | :----------------------------------: |
+    | iFkRR5rr  | SLD-512657440         | La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia | [external URL](https://digital.slub-dresden.de/werkansicht/dlf/302355/1) | [Saxon State Library](./FcNNEYgX.md) |
 
 ## Statements
 
@@ -113,10 +117,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/iFkRR5rr.html" height="800" width="1200" title="iFkRR5rr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iFkRR5rr" height="800" width="1200" title="iFkRR5rr"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/iFkRR5rr.html" height="800" width="1200" title="iFkRR5rr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/iFkRR5rr" height="800" width="1200" title="iFkRR5rr"></iframe>

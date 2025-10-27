@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Dro5DwZo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description    | aliases | Wikidata QID                                    |
-    | :-------: | :----: | :------------: | :-----: | :---------------------------------------------: |
-    | Dro5DwZo  | Empoli | Italian comune |         | [Empoli](http://wwww.wikidata.org/entity/Q6697) |
+    | FAAM UUID | label  | description    | aliases | Wikidata QID                               |
+    | :-------: | :----: | :------------: | :-----: | :----------------------------------------: |
+    | Dro5DwZo  | Empoli | Italian comune |         | [Empoli](http://wikidata.org/entity/Q6697) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Dro5DwZo.html" height="800" width="1200" title="Dro5DwZo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Dro5DwZo" height="800" width="1200" title="Dro5DwZo"></iframe>
 
 ## Identifiers
 

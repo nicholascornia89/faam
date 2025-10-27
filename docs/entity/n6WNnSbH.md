@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: n6WNnSbH
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                               | aliases                   | Wikidata QID                                         |
-    | :-------: | :-----------: | :-------------------------------------------------------: | :-----------------------: | :--------------------------------------------------: |
-    | n6WNnSbH  | San Francisco | consolidated city and county in California, United States | San Francisco, California | [San Francisco](http://wwww.wikidata.org/entity/Q62) |
+    | FAAM UUID | label         | description                                               | aliases                   | Wikidata QID                                    |
+    | :-------: | :-----------: | :-------------------------------------------------------: | :-----------------------: | :---------------------------------------------: |
+    | n6WNnSbH  | San Francisco | consolidated city and county in California, United States | San Francisco, California | [San Francisco](http://wikidata.org/entity/Q62) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/n6WNnSbH.html" height="800" width="1200" title="n6WNnSbH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/n6WNnSbH" height="800" width="1200" title="n6WNnSbH"></iframe>
 
 ## Identifiers
 

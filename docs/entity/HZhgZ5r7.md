@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HZhgZ5r7
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HZhgZ5r7.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HZhgZ5r7.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HZhgZ5r7.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HZhgZ5r7.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HZhgZ5r7.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HZhgZ5r7.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fr_Berr.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases       | description                                              | Wikidata QID                                               |
-    | :-------: | :------------: | :-----------: | :------------------------------------------------------: | :--------------------------------------------------------: |
-    | HZhgZ5r7  | Friedrich Berr | Frédéric Berr | German clarinettist, bassoonist and composer (1794–1838) | [Friedrich Berr](http://wwww.wikidata.org/entity/Q4085161) |
+    | FAAM UUID | label          | aliases       | description                                              | Wikidata QID                                          |
+    | :-------: | :------------: | :-----------: | :------------------------------------------------------: | :---------------------------------------------------: |
+    | HZhgZ5r7  | Friedrich Berr | Frédéric Berr | German clarinettist, bassoonist and composer (1794–1838) | [Friedrich Berr](http://wikidata.org/entity/Q4085161) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 	- [clarinetist](./TFAYYcQp.md)
 
-	- [](./VbnzDANi.md)
+	- [bassoonist](./VbnzDANi.md)
 
 ??? quote "employer" 
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/HZhgZ5r7.html" height="800" width="1200" title="HZhgZ5r7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HZhgZ5r7" height="800" width="1200" title="HZhgZ5r7"></iframe>
 
 ## Identifiers
 

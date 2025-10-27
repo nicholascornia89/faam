@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TtcwU9bJ
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description | aliases | Wikidata QID                                               |
-    | :-------: | :-----------: | :---------: | :-----: | :--------------------------------------------------------: |
-    | TtcwU9bJ  | Hlahol Prague |             |         | [Hlahol Prague](http://wwww.wikidata.org/entity/Q12019693) |
+    | FAAM UUID | label         | description | aliases | Wikidata QID                                          |
+    | :-------: | :-----------: | :---------: | :-----: | :---------------------------------------------------: |
+    | TtcwU9bJ  | Hlahol Prague |             |         | [Hlahol Prague](http://wikidata.org/entity/Q12019693) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./iR3nZ9nb.md)
+	[Prague](./iR3nZ9nb.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/TtcwU9bJ.html" height="800" width="1200" title="TtcwU9bJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TtcwU9bJ" height="800" width="1200" title="TtcwU9bJ"></iframe>
 
 ## Cross-references
 

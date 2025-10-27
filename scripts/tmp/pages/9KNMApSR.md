@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9KNMApSR
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                      | aliases                                              | Wikidata QID                                                          |
-    | :-------: | :-------------------------: | :------------------------------: | :--------------------------------------------------: | :-------------------------------------------------------------------: |
-    | 9KNMApSR  | Goethe University Frankfurt | university in Frankfurt, Germany | Johann Wolfgang Goethe-Universität Frankfurt am Main | [Goethe University Frankfurt](http://wwww.wikidata.org/entity/Q50662) |
+    | FAAM UUID | label                       | description                      | aliases                                              | Wikidata QID                                                     |
+    | :-------: | :-------------------------: | :------------------------------: | :--------------------------------------------------: | :--------------------------------------------------------------: |
+    | 9KNMApSR  | Goethe University Frankfurt | university in Frankfurt, Germany | Johann Wolfgang Goethe-Universität Frankfurt am Main | [Goethe University Frankfurt](http://wikidata.org/entity/Q50662) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/9KNMApSR.html" height="800" width="1200" title="9KNMApSR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9KNMApSR" height="800" width="1200" title="9KNMApSR"></iframe>
 
 ## Cross-references
 

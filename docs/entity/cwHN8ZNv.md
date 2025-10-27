@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cwHN8ZNv
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description               | aliases | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :-----------------------: | :-----: | :---------------------------------------------------------------------: |
-    | cwHN8ZNv  | Nunziatella military academy | military school in Naples |         | [Nunziatella military academy](http://wwww.wikidata.org/entity/Q718869) |
+    | FAAM UUID | label                        | description               | aliases | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :-----------------------: | :-----: | :----------------------------------------------------------------: |
+    | cwHN8ZNv  | Nunziatella military academy | military school in Naples |         | [Nunziatella military academy](http://wikidata.org/entity/Q718869) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/cwHN8ZNv.html" height="800" width="1200" title="cwHN8ZNv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cwHN8ZNv" height="800" width="1200" title="cwHN8ZNv"></iframe>
 
 ## Cross-references
 

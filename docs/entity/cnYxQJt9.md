@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cnYxQJt9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description   | aliases    | Wikidata QID                                     |
-    | :-------: | :----: | :-----------: | :--------: | :----------------------------------------------: |
-    | cnYxQJt9  | Żebbuġ | city in Malta | Haz-Zebbug | [Żebbuġ](http://wwww.wikidata.org/entity/Q44573) |
+    | FAAM UUID | label  | description   | aliases    | Wikidata QID                                |
+    | :-------: | :----: | :-----------: | :--------: | :-----------------------------------------: |
+    | cnYxQJt9  | Żebbuġ | city in Malta | Haz-Zebbug | [Żebbuġ](http://wikidata.org/entity/Q44573) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cnYxQJt9.html" height="800" width="1200" title="cnYxQJt9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cnYxQJt9" height="800" width="1200" title="cnYxQJt9"></iframe>
 
 ## Identifiers
 

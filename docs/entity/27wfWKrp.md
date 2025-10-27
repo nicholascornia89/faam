@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 27wfWKrp
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/27wfWKrp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/27wfWKrp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/27wfWKrp.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/27wfWKrp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/27wfWKrp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/27wfWKrp.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-----: | :---------: | :----------------------------------------------------------: |
-    | 27wfWKrp  | Jonathan Fentum |         |             | [Jonathan Fentum](http://wwww.wikidata.org/entity/Q94924841) |
+    | FAAM UUID | label           | aliases | description | Wikidata QID                                            |
+    | :-------: | :-------------: | :-----: | :---------: | :-----------------------------------------------------: |
+    | 27wfWKrp  | Jonathan Fentum |         |             | [Jonathan Fentum](http://wikidata.org/entity/Q94924841) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/27wfWKrp.html" height="800" width="1200" title="27wfWKrp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/27wfWKrp" height="800" width="1200" title="27wfWKrp"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: agent
 
 -	__[Musurgia vocalis: an essay on the history and theory of music, and on the qualities, capabilities, and management of the human voice.](./EomjUFQk.md)__
 
-	![Image](../assets/images/thumbs/UTL-976896233.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/UTL-976896233.gif){align=left width="150" height="150"} 
 
 	
 

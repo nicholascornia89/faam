@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "VQYpXFhd", "label": "musical instrument maker", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./VQYpXFhd.md\u0027\u003emusical instrument maker\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emanufacturer of musical instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jq6qS77b", "label": "Arnold Dolmetsch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jq6qS77b.md\u0027\u003eArnold Dolmetsch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician and instrument maker in England (1858-1940)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold_Dolmetsch.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HsBKvvFf", "label": "Iwan M\u00fcller", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HsBKvvFf.md\u0027\u003eIwan M\u00fcller\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian musician and composer (1786-1854)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Iwan_M\u00fcller.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NvWjU4r5", "label": "Victor-Charles Mahillon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NvWjU4r5.md\u0027\u003eVictor-Charles Mahillon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian musician and writer on musical topics (1841-1924)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Victor-Charles_Mahillon.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "VQYpXFhd", "to": "jq6qS77b", "width": 10}, {"from": "VQYpXFhd", "to": "HsBKvvFf", "width": 10}, {"from": "VQYpXFhd", "to": "NvWjU4r5", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jq6qS77b", "label": "Arnold Dolmetsch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jq6qS77b\u0027\u003eArnold Dolmetsch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician and instrument maker in England (1858-1940)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold_Dolmetsch.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "VQYpXFhd", "label": "musical instrument maker", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/VQYpXFhd\u0027\u003emusical instrument maker\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emanufacturer of musical instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NvWjU4r5", "label": "Victor-Charles Mahillon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NvWjU4r5\u0027\u003eVictor-Charles Mahillon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian musician and writer on musical topics (1841-1924)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Victor-Charles_Mahillon.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HsBKvvFf", "label": "Iwan M\u00fcller", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HsBKvvFf\u0027\u003eIwan M\u00fcller\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian musician and composer (1786-1854)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Iwan_M\u00fcller.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "jq6qS77b", "to": "VQYpXFhd", "width": 10}, {"from": "NvWjU4r5", "to": "VQYpXFhd", "width": 10}, {"from": "HsBKvvFf", "to": "VQYpXFhd", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: g6U2d6qZ
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                | aliases            | Wikidata QID                                                  |
-    | :-------: | :---------------: | :------------------------: | :----------------: | :-----------------------------------------------------------: |
-    | g6U2d6qZ  | musical parameter | measurable aspect in music | parameter of music | [musical parameter](http://wwww.wikidata.org/entity/Q1639408) |
+    | FAAM UUID | label             | description                | aliases            | Wikidata QID                                             |
+    | :-------: | :---------------: | :------------------------: | :----------------: | :------------------------------------------------------: |
+    | g6U2d6qZ  | musical parameter | measurable aspect in music | parameter of music | [musical parameter](http://wikidata.org/entity/Q1639408) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/g6U2d6qZ.html" height="800" width="1200" title="g6U2d6qZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/g6U2d6qZ" height="800" width="1200" title="g6U2d6qZ"></iframe>
 
 ## Cross-references
 

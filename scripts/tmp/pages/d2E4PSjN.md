@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: d2E4PSjN
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                          | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :----------------------------------: | :-----: | :---------------------------------------------: |
-    | d2E4PSjN  | monk  | member of a monastic religious order | monks   | [monk](http://wwww.wikidata.org/entity/Q733786) |
+    | FAAM UUID | label | description                          | aliases | Wikidata QID                               |
+    | :-------: | :---: | :----------------------------------: | :-----: | :----------------------------------------: |
+    | d2E4PSjN  | monk  | member of a monastic religious order | monks   | [monk](http://wikidata.org/entity/Q733786) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/d2E4PSjN.html" height="800" width="1200" title="d2E4PSjN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/d2E4PSjN" height="800" width="1200" title="d2E4PSjN"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RnHT6XXj
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------------: | :-----: | :---------: | :----------------------------------: |
-    | RnHT6XXj  | Missa Sancta No.2, Op.76 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                    | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------------: | :-----: | :---------: | :-----------------------------: |
+    | RnHT6XXj  | Missa Sancta No.2, Op.76 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/RnHT6XXj.html" height="800" width="1200" title="RnHT6XXj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RnHT6XXj" height="800" width="1200" title="RnHT6XXj"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: musical_work
 
 -	__[[Convoluut]](./b7q9UADS.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
 
 	
 

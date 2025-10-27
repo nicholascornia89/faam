@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aXoRioZ2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                         | aliases | Wikidata QID                                         |
-    | :-------: | :-----: | :-------------------------------------------------: | :-----: | :--------------------------------------------------: |
-    | aXoRioZ2  | Rovenna | settlement in the Italian municipality of Cernobbio |         | [Rovenna](http://wwww.wikidata.org/entity/Q48801156) |
+    | FAAM UUID | label   | description                                         | aliases | Wikidata QID                                    |
+    | :-------: | :-----: | :-------------------------------------------------: | :-----: | :---------------------------------------------: |
+    | aXoRioZ2  | Rovenna | settlement in the Italian municipality of Cernobbio |         | [Rovenna](http://wikidata.org/entity/Q48801156) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/aXoRioZ2.html" height="800" width="1200" title="aXoRioZ2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aXoRioZ2" height="800" width="1200" title="aXoRioZ2"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Lorenzo Perti](./QJcz28FB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian baroque composer
 

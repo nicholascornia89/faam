@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kKY7zLoa
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description | aliases         | Wikidata QID                                                 |
-    | :-------: | :-------------: | :---------: | :-------------: | :----------------------------------------------------------: |
-    | kKY7zLoa  | music historian | occupation  | music historian | [music historian](http://wwww.wikidata.org/entity/Q20198542) |
+    | FAAM UUID | label           | description | aliases         | Wikidata QID                                            |
+    | :-------: | :-------------: | :---------: | :-------------: | :-----------------------------------------------------: |
+    | kKY7zLoa  | music historian | occupation  | music historian | [music historian](http://wikidata.org/entity/Q20198542) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/kKY7zLoa.html" height="800" width="1200" title="kKY7zLoa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kKY7zLoa" height="800" width="1200" title="kKY7zLoa"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
@@ -55,7 +59,7 @@ tags: occupation
 
 -	__[Safford Cape](./R32ZWczF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American conductor (1906–1973)
 
@@ -73,13 +77,13 @@ tags: occupation
 
 -	__[Edward Francis Rimbault](./6SnvdCsi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English musicologist, composer, organist and book collector (1816–1876)
 
 -	__[Théophile Lemaire](./WYRYAR5J.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

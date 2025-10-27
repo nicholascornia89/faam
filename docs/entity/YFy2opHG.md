@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YFy2opHG
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/YFy2opHG.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/YFy2opHG.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/YFy2opHG.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/YFy2opHG.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/YFy2opHG.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/YFy2opHG.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joachim_Andersen.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases               | description                                        | Wikidata QID                                                |
-    | :-------: | :--------------: | :-------------------: | :------------------------------------------------: | :---------------------------------------------------------: |
-    | YFy2opHG  | Joachim Andersen | Carl Joachim Andersen | Danish flutist, conductor and composer (1847–1909) | [Joachim Andersen](http://wwww.wikidata.org/entity/Q785596) |
+    | FAAM UUID | label            | aliases               | description                                        | Wikidata QID                                           |
+    | :-------: | :--------------: | :-------------------: | :------------------------------------------------: | :----------------------------------------------------: |
+    | YFy2opHG  | Joachim Andersen | Carl Joachim Andersen | Danish flutist, conductor and composer (1847–1909) | [Joachim Andersen](http://wikidata.org/entity/Q785596) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/YFy2opHG.html" height="800" width="1200" title="YFy2opHG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YFy2opHG" height="800" width="1200" title="YFy2opHG"></iframe>
 
 ## Identifiers
 

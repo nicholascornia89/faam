@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iUUXAduQ
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                               | aliases      | Wikidata QID                                             |
-    | :-------: | :----------: | :---------------------------------------: | :----------: | :------------------------------------------------------: |
-    | iUUXAduQ  | Lycée Thiers | educational facility in Marseille, France | Lycee Thiers | [Lycée Thiers](http://wwww.wikidata.org/entity/Q3268957) |
+    | FAAM UUID | label        | description                               | aliases      | Wikidata QID                                        |
+    | :-------: | :----------: | :---------------------------------------: | :----------: | :-------------------------------------------------: |
+    | iUUXAduQ  | Lycée Thiers | educational facility in Marseille, France | Lycee Thiers | [Lycée Thiers](http://wikidata.org/entity/Q3268957) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./Qbg9wtnb.md)
+	[Marseille](./Qbg9wtnb.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/iUUXAduQ.html" height="800" width="1200" title="iUUXAduQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iUUXAduQ" height="800" width="1200" title="iUUXAduQ"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nwfQdMXJ
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                                                             | aliases | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------: | :-----: | :---------------------------------------------------------------: |
-    | nwfQdMXJ  | percussion instrument | group of musical instruments that is sounded by being struck or scraped |         | [percussion instrument](http://wwww.wikidata.org/entity/Q1661583) |
+    | FAAM UUID | label                 | description                                                             | aliases | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
+    | nwfQdMXJ  | percussion instrument | group of musical instruments that is sounded by being struck or scraped |         | [percussion instrument](http://wikidata.org/entity/Q1661583) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/nwfQdMXJ.html" height="800" width="1200" title="nwfQdMXJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nwfQdMXJ" height="800" width="1200" title="nwfQdMXJ"></iframe>
 
 ## Cross-references
 

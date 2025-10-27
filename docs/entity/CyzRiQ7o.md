@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CyzRiQ7o
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000333574/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/CyzRiQ7o.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/CyzRiQ7o.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/CyzRiQ7o.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000333574/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/CyzRiQ7o.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/CyzRiQ7o.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/CyzRiQ7o.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000333574.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333574.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                          | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | CyzRiQ7o  | KCG-000333574         | Première Symphonie en Ut majeur : à Grand Orchestre : Oeuv: 21 | [external URL](gaLrAUbu) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                          | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | CyzRiQ7o  | KCG-000333574         | Première Symphonie en Ut majeur : à Grand Orchestre : Oeuv: 21 | [external URL](https://catalogus.hogent.be/catalog/hog01:000333574) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -81,10 +85,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/CyzRiQ7o.html" height="800" width="1200" title="CyzRiQ7o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CyzRiQ7o" height="800" width="1200" title="CyzRiQ7o"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/CyzRiQ7o.html" height="800" width="1200" title="CyzRiQ7o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/CyzRiQ7o" height="800" width="1200" title="CyzRiQ7o"></iframe>

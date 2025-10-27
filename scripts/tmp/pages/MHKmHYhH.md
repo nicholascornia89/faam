@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MHKmHYhH
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | aliases | description                            | Wikidata QID                                                             |
-    | :-------: | :-----------------------------------: | :-----: | :------------------------------------: | :----------------------------------------------------------------------: |
-    | MHKmHYhH  | Chromatic Fantasia and Fugue, BWV 903 | BWV 903 | composition for keyboard by J. S. Bach | [Chromatic Fantasia and Fugue](http://wwww.wikidata.org/entity/Q1087598) |
+    | FAAM UUID | label                                 | aliases | description                            | Wikidata QID                                                        |
+    | :-------: | :-----------------------------------: | :-----: | :------------------------------------: | :-----------------------------------------------------------------: |
+    | MHKmHYhH  | Chromatic Fantasia and Fugue, BWV 903 | BWV 903 | composition for keyboard by J. S. Bach | [Chromatic Fantasia and Fugue](http://wikidata.org/entity/Q1087598) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/MHKmHYhH.html" height="800" width="1200" title="MHKmHYhH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MHKmHYhH" height="800" width="1200" title="MHKmHYhH"></iframe>
 
 ## Identifiers
 
@@ -63,13 +67,13 @@ tags: musical_work
 
 -	__[Fantaisie Chromatique et Fugue : BWV 903](./cVDimCi6.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331890.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331890.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Fantasia chromatica](./G6fDRy98.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076574139707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076574139707356.gif){align=left width="150" height="150"} 
 
 	
 

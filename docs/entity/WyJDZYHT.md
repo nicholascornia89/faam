@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WyJDZYHT
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description        | aliases                         | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :----------------: | :-----------------------------: | :-------------------------------------------------------------: |
-    | WyJDZYHT  | University of Siena | Italian university | Università degli studi di Siena | [University of Siena](http://wwww.wikidata.org/entity/Q1245999) |
+    | FAAM UUID | label               | description        | aliases                         | Wikidata QID                                               |
+    | :-------: | :-----------------: | :----------------: | :-----------------------------: | :--------------------------------------------------------: |
+    | WyJDZYHT  | University of Siena | Italian university | Università degli studi di Siena | [University of Siena](http://wikidata.org/entity/Q1245999) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./nX8fz8qz.md)
+	[Siena](./nX8fz8qz.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/WyJDZYHT.html" height="800" width="1200" title="WyJDZYHT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WyJDZYHT" height="800" width="1200" title="WyJDZYHT"></iframe>
 
 ## Cross-references
 

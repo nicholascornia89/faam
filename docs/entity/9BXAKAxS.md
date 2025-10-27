@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9BXAKAxS
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                               | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :-------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | 9BXAKAxS  | Žáky  | village in Kutná Hora District of Central Bohemian region |         | [Žáky](http://wwww.wikidata.org/entity/Q2187626) |
+    | FAAM UUID | label | description                                               | aliases | Wikidata QID                                |
+    | :-------: | :---: | :-------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | 9BXAKAxS  | Žáky  | village in Kutná Hora District of Central Bohemian region |         | [Žáky](http://wikidata.org/entity/Q2187626) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9BXAKAxS.html" height="800" width="1200" title="9BXAKAxS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9BXAKAxS" height="800" width="1200" title="9BXAKAxS"></iframe>
 
 ## Identifiers
 

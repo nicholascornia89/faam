@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LL5spm52
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                | description                        | aliases                        | Wikidata QID                                                                    |
-    | :-------: | :----------------------------------: | :--------------------------------: | :----------------------------: | :-----------------------------------------------------------------------------: |
-    | LL5spm52  | Accademia Nazionale di Santa Cecilia | musical institution in Rome, Italy | National Academy of St Cecilia | [Accademia Nazionale di Santa Cecilia](http://wwww.wikidata.org/entity/Q181410) |
+    | FAAM UUID | label                                | description                        | aliases                        | Wikidata QID                                                               |
+    | :-------: | :----------------------------------: | :--------------------------------: | :----------------------------: | :------------------------------------------------------------------------: |
+    | LL5spm52  | Accademia Nazionale di Santa Cecilia | musical institution in Rome, Italy | National Academy of St Cecilia | [Accademia Nazionale di Santa Cecilia](http://wikidata.org/entity/Q181410) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./D7zj8y2m.md)
+	[Rome](./D7zj8y2m.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/LL5spm52.html" height="800" width="1200" title="LL5spm52"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LL5spm52" height="800" width="1200" title="LL5spm52"></iframe>
 
 ## Cross-references
 
@@ -81,7 +85,7 @@ tags: music_organization
 
 -	__[Giulio Briccialdi](./KuMf3k3f.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
 
 	Italian musician (1818–1881)
 

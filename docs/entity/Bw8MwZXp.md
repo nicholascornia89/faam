@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Bw8MwZXp
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-17794/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Bw8MwZXp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Bw8MwZXp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Bw8MwZXp.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-17794/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Bw8MwZXp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Bw8MwZXp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Bw8MwZXp.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-17794.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-17794.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                         | permalink                | provenance                            |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | Bw8MwZXp  | SML-17794             | Classic keyboard music : an album of piano solos by great masters / edited by Emil von Sauer. | [external URL](cy2NFhfp) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                         | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | Bw8MwZXp  | SML-17794             | Classic keyboard music : an album of piano solos by great masters / edited by Emil von Sauer. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910353973405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -97,10 +101,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Bw8MwZXp.html" height="800" width="1200" title="Bw8MwZXp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Bw8MwZXp" height="800" width="1200" title="Bw8MwZXp"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Bw8MwZXp.html" height="800" width="1200" title="Bw8MwZXp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Bw8MwZXp" height="800" width="1200" title="Bw8MwZXp"></iframe>

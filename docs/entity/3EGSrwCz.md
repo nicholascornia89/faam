@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3EGSrwCz
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3EGSrwCz.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3EGSrwCz.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3EGSrwCz.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3EGSrwCz.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3EGSrwCz.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3EGSrwCz.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/af/FrankVanderStucken.png" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FrankVanderStucken.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases                         | description                                                           | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :-----------------------------: | :-------------------------------------------------------------------: | :---------------------------------------------------------------: |
-    | 3EGSrwCz  | Frank Van der Stucken | Frank Valentine Van der Stucken | Flemish-American violinist, conductor, composer and festival director | [Frank Van der Stucken](http://wwww.wikidata.org/entity/Q1444369) |
+    | FAAM UUID | label                 | aliases                         | description                                                           | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :-----------------------------: | :-------------------------------------------------------------------: | :----------------------------------------------------------: |
+    | 3EGSrwCz  | Frank Van der Stucken | Frank Valentine Van der Stucken | Flemish-American violinist, conductor, composer and festival director | [Frank Van der Stucken](http://wikidata.org/entity/Q1444369) |
 
 <br><br><br>
 
@@ -53,13 +57,13 @@ tags: agent
 
 	- [violinist](./9CVVGZdo.md)
 
-	- [](./34MddsAa.md)
+	- [event producer](./34MddsAa.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/3EGSrwCz.html" height="800" width="1200" title="3EGSrwCz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3EGSrwCz" height="800" width="1200" title="3EGSrwCz"></iframe>
 
 ## Identifiers
 
@@ -85,13 +89,21 @@ tags: agent
 
 -	__[Musik zu Shakespeare's "Sturm", Op. 8](./hb6X5ijb.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901696879.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901696879.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pagina d'amore: eine Episode für Orchester, Op. 10 / Stucken, van der, Frank. - Berlin, [1891]](./ieRaKzSU.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901697265.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901697265.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Pagina d'Amore, Op.10](./M2iWG9YX.md)__
 
 	
 

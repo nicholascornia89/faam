@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HTGMNJGB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description              | aliases              | Wikidata QID                                   |
-    | :-------: | :---: | :----------------------: | :------------------: | :--------------------------------------------: |
-    | HTGMNJGB  | Vaduz | capital of Liechtenstein | Vaduz, Liechtenstein | [Vaduz](http://wwww.wikidata.org/entity/Q1844) |
+    | FAAM UUID | label | description              | aliases              | Wikidata QID                              |
+    | :-------: | :---: | :----------------------: | :------------------: | :---------------------------------------: |
+    | HTGMNJGB  | Vaduz | capital of Liechtenstein | Vaduz, Liechtenstein | [Vaduz](http://wikidata.org/entity/Q1844) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HTGMNJGB.html" height="800" width="1200" title="HTGMNJGB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HTGMNJGB" height="800" width="1200" title="HTGMNJGB"></iframe>
 
 ## Identifiers
 

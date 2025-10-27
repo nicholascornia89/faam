@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PGdZxFhs
 
 tags: score_complexity
@@ -19,9 +23,9 @@ tags: score_complexity
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description | aliases | Wikidata QID                         |
-    | :-------: | :----------------: | :---------: | :-----: | :----------------------------------: |
-    | PGdZxFhs  | Digitally Engraved |             |         | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label              | description | aliases | Wikidata QID                    |
+    | :-------: | :----------------: | :---------: | :-----: | :-----------------------------: |
+    | PGdZxFhs  | Digitally Engraved |             |         | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: score_complexity
 
 ---
 
-<iframe src="../network/PGdZxFhs.html" height="800" width="1200" title="PGdZxFhs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PGdZxFhs" height="800" width="1200" title="PGdZxFhs"></iframe>
 
 ## Cross-references
 

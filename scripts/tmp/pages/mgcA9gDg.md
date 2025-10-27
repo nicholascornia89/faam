@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mgcA9gDg
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                       | aliases                  | Wikidata QID                                        |
-    | :-------: | :-------: | :-----------------------------------------------: | :----------------------: | :-------------------------------------------------: |
-    | mgcA9gDg  | Manhattan | borough of New York City, New York, United States | Manhattan, New York City | [Manhattan](http://wwww.wikidata.org/entity/Q11299) |
+    | FAAM UUID | label     | description                                       | aliases                  | Wikidata QID                                   |
+    | :-------: | :-------: | :-----------------------------------------------: | :----------------------: | :--------------------------------------------: |
+    | mgcA9gDg  | Manhattan | borough of New York City, New York, United States | Manhattan, New York City | [Manhattan](http://wikidata.org/entity/Q11299) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/mgcA9gDg.html" height="800" width="1200" title="mgcA9gDg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mgcA9gDg" height="800" width="1200" title="mgcA9gDg"></iframe>
 
 ## Identifiers
 

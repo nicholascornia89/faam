@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CtWjWjv8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                             | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :-----------------------------------------------------: | :-----: | :--------------------------------------------------: |
-    | CtWjWjv8  | Krušovice | village in Rakovník District of Central Bohemian region |         | [Krušovice](http://wwww.wikidata.org/entity/Q633660) |
+    | FAAM UUID | label     | description                                             | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :-----------------------------------------------------: | :-----: | :---------------------------------------------: |
+    | CtWjWjv8  | Krušovice | village in Rakovník District of Central Bohemian region |         | [Krušovice](http://wikidata.org/entity/Q633660) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CtWjWjv8.html" height="800" width="1200" title="CtWjWjv8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CtWjWjv8" height="800" width="1200" title="CtWjWjv8"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Wenzel Neukirchner](./RNYjxmKE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	(1805-1889)
 

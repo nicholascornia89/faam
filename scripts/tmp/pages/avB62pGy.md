@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: avB62pGy
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                           | aliases   | Wikidata QID                                         |
-    | :-------: | :-------: | :-----------------------------------------------------------------------------------: | :-------: | :--------------------------------------------------: |
-    | avB62pGy  | librarian | person who works professionally in a library, and is usually trained in librarianship | librarian | [librarian](http://wwww.wikidata.org/entity/Q182436) |
+    | FAAM UUID | label     | description                                                                           | aliases   | Wikidata QID                                    |
+    | :-------: | :-------: | :-----------------------------------------------------------------------------------: | :-------: | :---------------------------------------------: |
+    | avB62pGy  | librarian | person who works professionally in a library, and is usually trained in librarianship | librarian | [librarian](http://wikidata.org/entity/Q182436) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/avB62pGy.html" height="800" width="1200" title="avB62pGy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/avB62pGy" height="800" width="1200" title="avB62pGy"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
@@ -55,7 +59,7 @@ tags: occupation
 
 -	__[Edmund Fellowes](./Sfrz2XcR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British musician (1870–1951)
 
@@ -79,25 +83,25 @@ tags: occupation
 
 -	__[Alfred Wotquenne](./XwGbhihp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian music librarian (1867–1939)
 
 -	__[William Barclay Squire](./KBQKrrwD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/49/William_Barclay_Squire.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/William_Barclay_Squire.jpg){align=left width="150" height="150"} 
 
 	British musicologist, librarian and librettist (1855-1927)
 
 -	__[Alfred Dörffel](./8DHf9Yua.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German librarian, publisher and musicologist (1821–1905)
 
 -	__[Eugène Bacha](./k8bR5tuM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	librarian (1864-1934)
 

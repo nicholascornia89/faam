@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XsjPV59x
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                          | aliases | Wikidata QID                                                |
-    | :-------: | :--------------: | :--------------------------------------------------: | :-----: | :---------------------------------------------------------: |
-    | XsjPV59x  | Ixelles - Elsene | municipality in the Brussels-Capital Region, Belgium | Elsene  | [Ixelles - Elsene](http://wwww.wikidata.org/entity/Q208713) |
+    | FAAM UUID | label            | description                                          | aliases | Wikidata QID                                           |
+    | :-------: | :--------------: | :--------------------------------------------------: | :-----: | :----------------------------------------------------: |
+    | XsjPV59x  | Ixelles - Elsene | municipality in the Brussels-Capital Region, Belgium | Elsene  | [Ixelles - Elsene](http://wikidata.org/entity/Q208713) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/XsjPV59x.html" height="800" width="1200" title="XsjPV59x"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XsjPV59x" height="800" width="1200" title="XsjPV59x"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: city
 
 -	__[Gustave Michiels](./H7VpWypq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian conductor (1861-1911)
 
 -	__[Charles Renaud de Vilbac](./gC6LReJJ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and organist (1829–1884)
 
@@ -79,7 +83,7 @@ tags: city
 
 -	__[Raymond Herreman](./DYkLZpTt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian poet and journalist (1896–1971)
 

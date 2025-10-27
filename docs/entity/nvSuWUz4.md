@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nvSuWUz4
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nvSuWUz4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nvSuWUz4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nvSuWUz4.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nvSuWUz4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nvSuWUz4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nvSuWUz4.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases | description                  | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :-----: | :--------------------------: | :-------------------------------------------------------------: |
-    | nvSuWUz4  | Alessandro Speranza |         | Italian composer (1728-1797) | [Alessandro Speranza](http://wwww.wikidata.org/entity/Q3610323) |
+    | FAAM UUID | label               | aliases | description                  | Wikidata QID                                               |
+    | :-------: | :-----------------: | :-----: | :--------------------------: | :--------------------------------------------------------: |
+    | nvSuWUz4  | Alessandro Speranza |         | Italian composer (1728-1797) | [Alessandro Speranza](http://wikidata.org/entity/Q3610323) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/nvSuWUz4.html" height="800" width="1200" title="nvSuWUz4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nvSuWUz4" height="800" width="1200" title="nvSuWUz4"></iframe>
 
 ## Identifiers
 
@@ -66,3 +70,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Niccolò Antonio Zingarelli](./ixCUViLR.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nicola_Antonio_Zingarelli.jpg){align=left width="150" height="150"} 
+
+	Italian composer (1752–1837)
+
+</div>

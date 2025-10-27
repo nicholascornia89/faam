@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NETLpz9B
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NETLpz9B.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NETLpz9B.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NETLpz9B.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NETLpz9B.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NETLpz9B.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NETLpz9B.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolphe_Wouters.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                  | Wikidata QID                                                |
-    | :-------: | :-------------: | :-------------: | :--------------------------: | :---------------------------------------------------------: |
-    | NETLpz9B  | Adolphe Wouters | Adolphe Wouters | Belgian composer (1849–1924) | [Adolphe Wouters](http://wwww.wikidata.org/entity/Q2824924) |
+    | FAAM UUID | label           | aliases         | description                  | Wikidata QID                                           |
+    | :-------: | :-------------: | :-------------: | :--------------------------: | :----------------------------------------------------: |
+    | NETLpz9B  | Adolphe Wouters | Adolphe Wouters | Belgian composer (1849–1924) | [Adolphe Wouters](http://wikidata.org/entity/Q2824924) |
 
 <br><br><br>
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NETLpz9B.html" height="800" width="1200" title="NETLpz9B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NETLpz9B" height="800" width="1200" title="NETLpz9B"></iframe>
 
 ## Identifiers
 
@@ -95,26 +99,66 @@ tags: agent
 
 -	__[Le clavecin bien tempéré = Das wohltemperirte Clavier = The welltempered clavichord](./Zaq8UQVx.md)__
 
-	![Image](../assets/images/thumbs/KCA-03090507942.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090507942.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[[Convoluut]](./b7q9UADS.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pièces pour le Clavecin par Domenico Scarlatti](./9t8aicUA.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903514815.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903514815.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pièces pour le Clavecin par Domenico Scarlatti](./mb2dSRKt.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903514823.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903514823.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Keyboard Sonata in E major, K.20](./e7jMwfQy.md)__
+
+	sonata by Domenico Scarlatti
+
+-	__[Keyboard Sonata in D major, K.400](./Quc8drWz.md)__
+
+	sonata by Domenico Scarlatti
+
+-	__[Keyboard Sonata in C major, K.95](./bxvFoyt2.md)__
+
+	sonata by Domenico Scarlatti
+
+-	__[Keyboard Sonata in D major, K.33](./9iVmFoBa.md)__
+
+	sonata by Domenico Scarlatti
+
+-	__[Keyboard Sonata in G major, K.259](./c6PJKqJM.md)__
+
+	sonata by Domenico Scarlatti
+
+-	__[Keyboard Sonata in A major, K.113](./hwgDMQXJ.md)__
+
+	sonata by Domenico Scarlatti
+
+-	__[Keyboard Sonata in D major, K.430](./QrZt6tiH.md)__
+
+	sonata by Domenico Scarlatti
+
+-	__[Keyboard Sonata in G major, K.2](./VuSjJQzj.md)__
+
+	sonata by Domenico Scarlatti
+
+-	__[Keyboard Sonata in D minor, K.9](./JHg9MPVu.md)__
+
+	sonata by Domenico Scarlatti
 
 </div>

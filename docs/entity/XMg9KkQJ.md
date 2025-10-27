@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XMg9KkQJ
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                     | description                                               | aliases | Wikidata QID                                                                        |
-    | :-------: | :---------------------------------------: | :-------------------------------------------------------: | :-----: | :---------------------------------------------------------------------------------: |
-    | XMg9KkQJ  | Martin Luther University Halle-Wittenberg | university in the cities of Halle and Wittenberg, Germany | MLU     | [Martin Luther University Halle-Wittenberg](http://wwww.wikidata.org/entity/Q32120) |
+    | FAAM UUID | label                                     | description                                               | aliases | Wikidata QID                                                                   |
+    | :-------: | :---------------------------------------: | :-------------------------------------------------------: | :-----: | :----------------------------------------------------------------------------: |
+    | XMg9KkQJ  | Martin Luther University Halle-Wittenberg | university in the cities of Halle and Wittenberg, Germany | MLU     | [Martin Luther University Halle-Wittenberg](http://wikidata.org/entity/Q32120) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/XMg9KkQJ.html" height="800" width="1200" title="XMg9KkQJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XMg9KkQJ" height="800" width="1200" title="XMg9KkQJ"></iframe>
 
 ## Cross-references
 

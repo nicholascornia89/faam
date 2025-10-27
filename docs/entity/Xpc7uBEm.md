@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Xpc7uBEm
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                    | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :----------------------------: | :-----: | :--------------------------------------------------: |
-    | Xpc7uBEm  | Harelbeke | city in West Flanders, Belgium |         | [Harelbeke](http://wwww.wikidata.org/entity/Q478797) |
+    | FAAM UUID | label     | description                    | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :----------------------------: | :-----: | :---------------------------------------------: |
+    | Xpc7uBEm  | Harelbeke | city in West Flanders, Belgium |         | [Harelbeke](http://wikidata.org/entity/Q478797) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Xpc7uBEm.html" height="800" width="1200" title="Xpc7uBEm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Xpc7uBEm" height="800" width="1200" title="Xpc7uBEm"></iframe>
 
 ## Identifiers
 

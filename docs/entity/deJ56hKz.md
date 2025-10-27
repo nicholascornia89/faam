@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: deJ56hKz
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                            | description                                      | aliases                              | Wikidata QID                                                                                  |
-    | :-------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------: | :-------------------------------------------------------------------------------------------: |
-    | deJ56hKz  | Real Conservatorio Superior de Música de Granada | Real Conservatorio Superior de Música de Granada | Royal Higher Conservatory of Granada | [Real Conservatorio Superior de Música de Granada](http://wwww.wikidata.org/entity/Q20785329) |
+    | FAAM UUID | label                                            | description                                      | aliases                              | Wikidata QID                                                                             |
+    | :-------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------: | :--------------------------------------------------------------------------------------: |
+    | deJ56hKz  | Real Conservatorio Superior de Música de Granada | Real Conservatorio Superior de Música de Granada | Royal Higher Conservatory of Granada | [Real Conservatorio Superior de Música de Granada](http://wikidata.org/entity/Q20785329) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./coBYSJoh.md)
+	[Province of Granada](./coBYSJoh.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/deJ56hKz.html" height="800" width="1200" title="deJ56hKz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/deJ56hKz" height="800" width="1200" title="deJ56hKz"></iframe>
 
 ## Cross-references
 

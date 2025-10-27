@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aF8DdEwS
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                              | aliases           | Wikidata QID                                                |
-    | :-------: | :---------------: | :--------------------------------------: | :---------------: | :---------------------------------------------------------: |
-    | aF8DdEwS  | Alcalá de Henares | city of Spain in the Community of Madrid | Alcala de Henares | [Alcalá de Henares](http://wwww.wikidata.org/entity/Q46940) |
+    | FAAM UUID | label             | description                              | aliases           | Wikidata QID                                           |
+    | :-------: | :---------------: | :--------------------------------------: | :---------------: | :----------------------------------------------------: |
+    | aF8DdEwS  | Alcalá de Henares | city of Spain in the Community of Madrid | Alcala de Henares | [Alcalá de Henares](http://wikidata.org/entity/Q46940) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/aF8DdEwS.html" height="800" width="1200" title="aF8DdEwS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aF8DdEwS" height="800" width="1200" title="aF8DdEwS"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Ignacio Prieto](./eb7u4xWh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer and organist
 

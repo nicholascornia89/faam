@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eSNNRKyY
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                       | aliases                                   | description                     | Wikidata QID                                                                           |
-    | :-------: | :-----------------------------------------: | :---------------------------------------: | :-----------------------------: | :------------------------------------------------------------------------------------: |
-    | eSNNRKyY  | The Tragicall Historye of Romeus and Juliet | The Tragical History of Romeus and Juliet | narrative poem by Arthur Brooke | [The Tragicall Historye of Romeus and Juliet](http://wwww.wikidata.org/entity/Q531630) |
+    | FAAM UUID | label                                       | aliases                                   | description                     | Wikidata QID                                                                      |
+    | :-------: | :-----------------------------------------: | :---------------------------------------: | :-----------------------------: | :-------------------------------------------------------------------------------: |
+    | eSNNRKyY  | The Tragicall Historye of Romeus and Juliet | The Tragical History of Romeus and Juliet | narrative poem by Arthur Brooke | [The Tragicall Historye of Romeus and Juliet](http://wikidata.org/entity/Q531630) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/eSNNRKyY.html" height="800" width="1200" title="eSNNRKyY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eSNNRKyY" height="800" width="1200" title="eSNNRKyY"></iframe>
 
 ## Identifiers
 

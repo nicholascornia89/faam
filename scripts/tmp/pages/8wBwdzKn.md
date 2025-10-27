@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8wBwdzKn
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8wBwdzKn.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8wBwdzKn.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8wBwdzKn.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8wBwdzKn.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8wBwdzKn.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8wBwdzKn.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases             | description                    | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :-----------------: | :----------------------------: | :-------------------------------------------------------------: |
-    | 8wBwdzKn  | Domenico Dall'Oglio | Domenico Dall'Oglio | Italian violinist and composer | [Domenico Dall'Oglio](http://wwww.wikidata.org/entity/Q1237126) |
+    | FAAM UUID | label               | aliases             | description                    | Wikidata QID                                               |
+    | :-------: | :-----------------: | :-----------------: | :----------------------------: | :--------------------------------------------------------: |
+    | 8wBwdzKn  | Domenico Dall'Oglio | Domenico Dall'Oglio | Italian violinist and composer | [Domenico Dall'Oglio](http://wikidata.org/entity/Q1237126) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8wBwdzKn.html" height="800" width="1200" title="8wBwdzKn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8wBwdzKn" height="800" width="1200" title="8wBwdzKn"></iframe>
 
 ## Identifiers
 

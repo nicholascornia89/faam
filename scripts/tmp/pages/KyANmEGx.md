@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KyANmEGx
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KyANmEGx.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KyANmEGx.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KyANmEGx.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KyANmEGx.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KyANmEGx.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KyANmEGx.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Onze_Musici_(1911)_-_Marius_van_'t_Kruijs.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases                       | description                | Wikidata QID                                                     |
-    | :-------: | :------------------: | :---------------------------: | :------------------------: | :--------------------------------------------------------------: |
-    | KyANmEGx  | Marius van 't Kruijs | Marinus Hendrik van 't Kruijs | Dutch composer (1861–1919) | [Marius van 't Kruijs](http://wwww.wikidata.org/entity/Q2238279) |
+    | FAAM UUID | label                | aliases                       | description                | Wikidata QID                                                |
+    | :-------: | :------------------: | :---------------------------: | :------------------------: | :---------------------------------------------------------: |
+    | KyANmEGx  | Marius van 't Kruijs | Marinus Hendrik van 't Kruijs | Dutch composer (1861–1919) | [Marius van 't Kruijs](http://wikidata.org/entity/Q2238279) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KyANmEGx.html" height="800" width="1200" title="KyANmEGx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KyANmEGx" height="800" width="1200" title="KyANmEGx"></iframe>
 
 ## Identifiers
 
@@ -81,8 +85,16 @@ tags: agent
 
 -	__[Souterliedekens uit de XVIe eeuw](./heze5DXq.md)__
 
-	![Image](../assets/images/thumbs/KCA-KM59827.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KM59827.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Souterliedekens](./8a5T7rJE.md)__
+
+	song
 
 </div>

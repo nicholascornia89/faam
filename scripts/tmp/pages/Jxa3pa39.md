@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Jxa3pa39
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Jxa3pa39.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Jxa3pa39.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Jxa3pa39.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Jxa3pa39.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Jxa3pa39.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Jxa3pa39.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pietro_Alessandro_Guglielmi.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases | description                        | Wikidata QID                                                            |
-    | :-------: | :-------------------------: | :-----: | :--------------------------------: | :---------------------------------------------------------------------: |
-    | Jxa3pa39  | Pietro Alessandro Guglielmi |         | Italian opera composer (1728–1804) | [Pietro Alessandro Guglielmi](http://wwww.wikidata.org/entity/Q2094389) |
+    | FAAM UUID | label                       | aliases | description                        | Wikidata QID                                                       |
+    | :-------: | :-------------------------: | :-----: | :--------------------------------: | :----------------------------------------------------------------: |
+    | Jxa3pa39  | Pietro Alessandro Guglielmi |         | Italian opera composer (1728–1804) | [Pietro Alessandro Guglielmi](http://wikidata.org/entity/Q2094389) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Jxa3pa39.html" height="800" width="1200" title="Jxa3pa39"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Jxa3pa39" height="800" width="1200" title="Jxa3pa39"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Nicolas Isouard](./5agBK3vj.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nicolas_Isouard_par_Ducarme.jpg){align=left width="150" height="150"} 
+
+	Maltese composer (1773–1818)
+
+</div>

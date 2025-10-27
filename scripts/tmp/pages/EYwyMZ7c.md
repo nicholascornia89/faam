@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EYwyMZ7c
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                     | description                                | aliases                               | Wikidata QID                                                                         |
-    | :-------: | :---------------------------------------: | :----------------------------------------: | :-----------------------------------: | :----------------------------------------------------------------------------------: |
-    | EYwyMZ7c  | Hochschule für Musik Carl Maria von Weber | education organization in Dresden, Germany | Carl Maria von Weber College of Music | [Hochschule für Musik Carl Maria von Weber](http://wwww.wikidata.org/entity/Q468181) |
+    | FAAM UUID | label                                     | description                                | aliases                               | Wikidata QID                                                                    |
+    | :-------: | :---------------------------------------: | :----------------------------------------: | :-----------------------------------: | :-----------------------------------------------------------------------------: |
+    | EYwyMZ7c  | Hochschule für Musik Carl Maria von Weber | education organization in Dresden, Germany | Carl Maria von Weber College of Music | [Hochschule für Musik Carl Maria von Weber](http://wikidata.org/entity/Q468181) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/EYwyMZ7c.html" height="800" width="1200" title="EYwyMZ7c"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EYwyMZ7c" height="800" width="1200" title="EYwyMZ7c"></iframe>
 
 ## Cross-references
 
@@ -63,7 +67,7 @@ tags: music_organization
 
 -	__[Carl David Stegmann](./CQvP5Hos.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German opera singer, harpsichordist, conductor and composer
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ljiz7Pro
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description             | aliases | Wikidata QID                                                 |
-    | :-------: | :--------------: | :---------------------: | :-----: | :----------------------------------------------------------: |
-    | Ljiz7Pro  | rue de Ventadour | street in Paris, France |         | [rue de Ventadour](http://wwww.wikidata.org/entity/Q3451124) |
+    | FAAM UUID | label            | description             | aliases | Wikidata QID                                            |
+    | :-------: | :--------------: | :---------------------: | :-----: | :-----------------------------------------------------: |
+    | Ljiz7Pro  | rue de Ventadour | street in Paris, France |         | [rue de Ventadour](http://wikidata.org/entity/Q3451124) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Ljiz7Pro.html" height="800" width="1200" title="Ljiz7Pro"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ljiz7Pro" height="800" width="1200" title="Ljiz7Pro"></iframe>
 
 ## Identifiers
 

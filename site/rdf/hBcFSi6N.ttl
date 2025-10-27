@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hBcFSi6N a rdfs:Resource ;
+    faamprop:role faamentity:9QaFAsRL,
+        faamentity:oMERLdSN ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:SGA8i9nK ;
+    schema1:birthDate "1915"^^xsd:string ;
+    schema1:birthPlace faamentity:AkFJMLpt ;
+    schema1:deathDate "2006"^^xsd:string ;
+    schema1:deathPlace faamentity:kVTGUsJ5 ;
+    schema1:description "Belgian mezzo soprano"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q127268992>,
+        "16002818"^^xsd:string,
+        "hBcFSi6N"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3,
+        faamentity:UjV2U7Sh,
+        faamentity:mV38LJ7u ;
+    skos:altLabel "Francine Lepage"^^xsd:string ;
+    skos:prefLabel "Francine Lepage"^^xsd:string ;
+    wd:P1303 faamentity:NFAxdnVA,
+        faamentity:WAgLcNUe ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:oJ9qmRVq .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TW9BVMNB
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                                           | Wikidata QID                                                  |
-    | :-------: | :--------------: | :--------------: | :---------------------------------------------------: | :-----------------------------------------------------------: |
-    | TW9BVMNB  | Berceuse, Op. 16 | Berceuse, Op. 16 | composition for violin and and piano by Gabriel Fauré | [Berceuse, Op. 16](http://wwww.wikidata.org/entity/Q55605233) |
+    | FAAM UUID | label            | aliases          | description                                           | Wikidata QID                                             |
+    | :-------: | :--------------: | :--------------: | :---------------------------------------------------: | :------------------------------------------------------: |
+    | TW9BVMNB  | Berceuse, Op. 16 | Berceuse, Op. 16 | composition for violin and and piano by Gabriel Fauré | [Berceuse, Op. 16](http://wikidata.org/entity/Q55605233) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/TW9BVMNB.html" height="800" width="1200" title="TW9BVMNB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TW9BVMNB" height="800" width="1200" title="TW9BVMNB"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: G57AFsLJ
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                   | aliases              | Wikidata QID                                    |
-    | :-------: | :---: | :-------------------------------------------: | :------------------: | :---------------------------------------------: |
-    | G57AFsLJ  | sound | vibration that propagates as an acoustic wave | acoustic oscillation | [sound](http://wwww.wikidata.org/entity/Q11461) |
+    | FAAM UUID | label | description                                   | aliases              | Wikidata QID                               |
+    | :-------: | :---: | :-------------------------------------------: | :------------------: | :----------------------------------------: |
+    | G57AFsLJ  | sound | vibration that propagates as an acoustic wave | acoustic oscillation | [sound](http://wikidata.org/entity/Q11461) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/G57AFsLJ.html" height="800" width="1200" title="G57AFsLJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/G57AFsLJ" height="800" width="1200" title="G57AFsLJ"></iframe>
 
 ## Cross-references
 

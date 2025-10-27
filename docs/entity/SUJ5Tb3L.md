@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SUJ5Tb3L
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description                           | aliases | Wikidata QID                                                                |
-    | :-------: | :----------------------------: | :-----------------------------------: | :-----: | :-------------------------------------------------------------------------: |
-    | SUJ5Tb3L  | Collège Louis-le-Grand (Paris) | school founded in 1563, Paris, France |         | [Collège Louis-le-Grand (Paris)](http://wwww.wikidata.org/entity/Q21708235) |
+    | FAAM UUID | label                          | description                           | aliases | Wikidata QID                                                           |
+    | :-------: | :----------------------------: | :-----------------------------------: | :-----: | :--------------------------------------------------------------------: |
+    | SUJ5Tb3L  | Collège Louis-le-Grand (Paris) | school founded in 1563, Paris, France |         | [Collège Louis-le-Grand (Paris)](http://wikidata.org/entity/Q21708235) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./HWqLQfxD.md)
+	[5th arrondissement of Paris](./HWqLQfxD.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/SUJ5Tb3L.html" height="800" width="1200" title="SUJ5Tb3L"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SUJ5Tb3L" height="800" width="1200" title="SUJ5Tb3L"></iframe>
 
 ## Cross-references
 

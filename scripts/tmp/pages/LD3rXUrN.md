@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LD3rXUrN
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LD3rXUrN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LD3rXUrN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LD3rXUrN.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LD3rXUrN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LD3rXUrN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LD3rXUrN.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases | description                                   | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :-----: | :-------------------------------------------: | :--------------------------------------------------------------: |
-    | LD3rXUrN  | Armand-Louis Couperin |         | French composer, organist, and harpsichordist | [Armand-Louis Couperin](http://wwww.wikidata.org/entity/Q582947) |
+    | FAAM UUID | label                 | aliases | description                                   | Wikidata QID                                                |
+    | :-------: | :-------------------: | :-----: | :-------------------------------------------: | :---------------------------------------------------------: |
+    | LD3rXUrN  | Armand-Louis Couperin |         | French composer, organist, and harpsichordist | [Armand-Louis Couperin](http://wikidata.org/entity/Q582947) |
 
 <br><br><br>
 
@@ -47,13 +51,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [Notre-Dame de Paris](http://www.wikidata.org/entity/Q2981)
+	- [Notre-Dame de Paris](Q2981)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/LD3rXUrN.html" height="800" width="1200" title="LD3rXUrN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LD3rXUrN" height="800" width="1200" title="LD3rXUrN"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Charles Broche](./HgJnPxQ7.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/CharlesBroche.jpg){align=left width="150" height="150"} 
+
+	French composer (1752-1803)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Z6CjfM5F
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Z6CjfM5F.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Z6CjfM5F.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Z6CjfM5F.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Z6CjfM5F.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Z6CjfM5F.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Z6CjfM5F.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Salle_du_Cercle_Artistique_et_Littéraire_-_Une_séance_par_Charles_Bouvet,_violoniste,_Tg_lhdc_25_02_(cropped).tiff" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                     | description         | Wikidata QID                                                |
-    | :-------: | :------------: | :-------------------------: | :-----------------: | :---------------------------------------------------------: |
-    | Z6CjfM5F  | Charles Bouvet | Charles René Clément Bouvet | French musicologist | [Charles Bouvet](http://wwww.wikidata.org/entity/Q21600966) |
+    | FAAM UUID | label          | aliases                     | description         | Wikidata QID                                           |
+    | :-------: | :------------: | :-------------------------: | :-----------------: | :----------------------------------------------------: |
+    | Z6CjfM5F  | Charles Bouvet | Charles René Clément Bouvet | French musicologist | [Charles Bouvet](http://wikidata.org/entity/Q21600966) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./fDqtTBeV.md)
+	- [archivist](./fDqtTBeV.md)
 
 	- [violinist](./9CVVGZdo.md)
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Z6CjfM5F.html" height="800" width="1200" title="Z6CjfM5F"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Z6CjfM5F" height="800" width="1200" title="Z6CjfM5F"></iframe>
 
 ## Identifiers
 
@@ -91,7 +95,7 @@ tags: agent
 
 -	__[3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano](./cq9RrJ9Y.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
 
 	
 

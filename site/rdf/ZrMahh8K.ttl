@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZrMahh8K a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1753-06-08"^^xsd:string ;
+    schema1:birthPlace faamentity:EsKaWDS4 ;
+    schema1:deathDate "1809-11-27"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French musician and composer of comic operas (Muret 1753 - Paris 1809)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q952520>,
+        "15996181"^^xsd:string,
+        "ZrMahh8K"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Nicolas Alayrac"^^xsd:string,
+        "Nicolas Dalayrac"^^xsd:string,
+        "Nicolas d'Alayrac"^^xsd:string ;
+    skos:prefLabel "Nicolas Dalayrac"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:14869144 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/27764> ;
+    wd:P839 <https://imslp.org/wiki/Category:Dalayrac,_Nicolas> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:VVp4w8zT,
+        faamentity:cuxAGzGF .
+

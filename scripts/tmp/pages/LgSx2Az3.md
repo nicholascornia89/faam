@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LgSx2Az3
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LgSx2Az3.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LgSx2Az3.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LgSx2Az3.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LgSx2Az3.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LgSx2Az3.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LgSx2Az3.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Prince_of_Wales_(on_front)_Felix_Borowski_(on_back),_Treasury_Dept._(.)_Committee_LCCN2016824636.tif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description       | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :---------------: | :--------------------------------------------------------: |
-    | LgSx2Az3  | Felix Borowski | Felix Borowski | American composer | [Felix Borowski](http://wwww.wikidata.org/entity/Q5442146) |
+    | FAAM UUID | label          | aliases        | description       | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :---------------: | :---------------------------------------------------: |
+    | LgSx2Az3  | Felix Borowski | Felix Borowski | American composer | [Felix Borowski](http://wikidata.org/entity/Q5442146) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 	- [music teacher](./L7DPWnnr.md)
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/LgSx2Az3.html" height="800" width="1200" title="LgSx2Az3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LgSx2Az3" height="800" width="1200" title="LgSx2Az3"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,7 @@ tags: agent
 
 -	__[Gavotte](./nwphaY5b.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p64.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p64.gif){align=left width="150" height="150"} 
 
 	
 

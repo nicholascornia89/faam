@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RhJu8Rh4
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RhJu8Rh4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RhJu8Rh4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RhJu8Rh4.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RhJu8Rh4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RhJu8Rh4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RhJu8Rh4.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases | description      | Wikidata QID                                                     |
-    | :-------: | :-----------------: | :-----: | :--------------: | :--------------------------------------------------------------: |
-    | RhJu8Rh4  | Jaume Balius i Vila |         | Spanish composer | [Jaume Balius i Vila](http://wwww.wikidata.org/entity/Q11927234) |
+    | FAAM UUID | label               | aliases | description      | Wikidata QID                                                |
+    | :-------: | :-----------------: | :-----: | :--------------: | :---------------------------------------------------------: |
+    | RhJu8Rh4  | Jaume Balius i Vila |         | Spanish composer | [Jaume Balius i Vila](http://wikidata.org/entity/Q11927234) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/RhJu8Rh4.html" height="800" width="1200" title="RhJu8Rh4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RhJu8Rh4" height="800" width="1200" title="RhJu8Rh4"></iframe>
 
 ## Identifiers
 
@@ -62,3 +66,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Josep Pons](./XvhjzvcS.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Spanish composer (1770-1818)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: a4zMCgWQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/a4zMCgWQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/a4zMCgWQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/a4zMCgWQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/a4zMCgWQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/a4zMCgWQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/a4zMCgWQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis_Abbiate.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                 | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :-------------------------: | :------------------------------------------------------: |
-    | a4zMCgWQ  | Luigi Abbiate | Luigi Abbiate | French composer (1866–1933) | [Luigi Abbiate](http://wwww.wikidata.org/entity/Q548597) |
+    | FAAM UUID | label         | aliases       | description                 | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :-------------------------: | :-------------------------------------------------: |
+    | a4zMCgWQ  | Luigi Abbiate | Luigi Abbiate | French composer (1866–1933) | [Luigi Abbiate](http://wikidata.org/entity/Q548597) |
 
 <br><br><br>
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/a4zMCgWQ.html" height="800" width="1200" title="a4zMCgWQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/a4zMCgWQ" height="800" width="1200" title="a4zMCgWQ"></iframe>
 
 ## Identifiers
 
@@ -93,7 +97,7 @@ tags: agent
 
 -	__[Nouvelle méthode de violoncelle, théorique et pratique, en trois parties, contenant de nombreuses photographies explicatives, des extraits et des cadences des concertos les plus connus, et suivie d'une étude symphonique par l'auteur](./bawZEH7M.md)__
 
-	![Image](../assets/images/thumbs/BNF-42807018w.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42807018w.gif){align=left width="150" height="150"} 
 
 	
 

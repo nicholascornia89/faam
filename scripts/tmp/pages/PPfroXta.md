@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PPfroXta
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description          | aliases              | Wikidata QID                                                    |
-    | :-------: | :------------------: | :------------------: | :------------------: | :-------------------------------------------------------------: |
-    | PPfroXta  | Budapest District XI | district in Budapest | Budapest District 11 | [Budapest District XI](http://wwww.wikidata.org/entity/Q330026) |
+    | FAAM UUID | label                | description          | aliases              | Wikidata QID                                               |
+    | :-------: | :------------------: | :------------------: | :------------------: | :--------------------------------------------------------: |
+    | PPfroXta  | Budapest District XI | district in Budapest | Budapest District 11 | [Budapest District XI](http://wikidata.org/entity/Q330026) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/PPfroXta.html" height="800" width="1200" title="PPfroXta"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PPfroXta" height="800" width="1200" title="PPfroXta"></iframe>
 
 ## Identifiers
 

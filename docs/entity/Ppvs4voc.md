@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ppvs4voc
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                          | aliases         | Wikidata QID                                             |
-    | :-------: | :------------: | :----------------------------------: | :-------------: | :------------------------------------------------------: |
-    | Ppvs4voc  | Czechoslovakia | country in Central Europe, 1918–1992 | Czecho-Slovakia | [Czechoslovakia](http://wwww.wikidata.org/entity/Q33946) |
+    | FAAM UUID | label          | description                          | aliases         | Wikidata QID                                        |
+    | :-------: | :------------: | :----------------------------------: | :-------------: | :-------------------------------------------------: |
+    | Ppvs4voc  | Czechoslovakia | country in Central Europe, 1918–1992 | Czecho-Slovakia | [Czechoslovakia](http://wikidata.org/entity/Q33946) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/Ppvs4voc.html" height="800" width="1200" title="Ppvs4voc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ppvs4voc" height="800" width="1200" title="Ppvs4voc"></iframe>
 
 ## Identifiers
 

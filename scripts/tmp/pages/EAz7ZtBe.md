@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EAz7ZtBe
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description             | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :---------------------: | :-----: | :------------------------------------------------: |
-    | EAz7ZtBe  | Nußdorf | municipality of Germany |         | [Nußdorf](http://wwww.wikidata.org/entity/Q251127) |
+    | FAAM UUID | label   | description             | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :---------------------: | :-----: | :-------------------------------------------: |
+    | EAz7ZtBe  | Nußdorf | municipality of Germany |         | [Nußdorf](http://wikidata.org/entity/Q251127) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/EAz7ZtBe.html" height="800" width="1200" title="EAz7ZtBe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EAz7ZtBe" height="800" width="1200" title="EAz7ZtBe"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Karl Schwencke](./EjvQ4EcD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c3/PPN663943914_Carl_Schwencke_%281853%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/PPN663943914_Carl_Schwencke_%281853%29.jpg){align=left width="150" height="150"} 
 
 	German pianist and composer
 

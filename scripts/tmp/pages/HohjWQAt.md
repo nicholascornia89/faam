@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HohjWQAt
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description | aliases | Wikidata QID                         |
-    | :-------: | :------------: | :---------: | :-----: | :----------------------------------: |
-    | HohjWQAt  | Instrument Cue |             |         | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label          | description | aliases | Wikidata QID                    |
+    | :-------: | :------------: | :---------: | :-----: | :-----------------------------: |
+    | HohjWQAt  | Instrument Cue |             |         | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/HohjWQAt.html" height="800" width="1200" title="HohjWQAt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HohjWQAt" height="800" width="1200" title="HohjWQAt"></iframe>
 
 ## Cross-references
 
@@ -51,79 +55,79 @@ tags: annotation_type
 
 -	__[Alva's intocht](./jsJJrX6a.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902126769.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902126769.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Charlotte Corday: drame: ouverture](./LZaVNfFf.md)__
 
-	![Image](../assets/images/thumbs/KCA-030900746162.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030900746162.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Amazones: polka](./DotjPHwY.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901842382.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901842382.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Erstes Concert für Pianoforte und Orchester (S. 124)](./ACbdo5Jg.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904562375.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904562375.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concerto (en RE mineur) : pour Piano avec Accompagnement d'Orchestre ou de Quatuor : Op: 40](./PoGNkuM3.md)__
 
-	![Image](../assets/images/thumbs/KCG-000356805.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000356805.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate : für Pianoforte und Horn, oder Violine oder Violoncell, op. 17](./YPkkArSq.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904770184.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904770184.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alladin en de wonderlamp](./KwxaGLh6.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904190086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904190086.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sinfonietta, op. 48](./YTvrHinn.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904487219.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904487219.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Der Golem: Musikdrama in drei Akten](./7on5FraR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901706215.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901706215.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[CONCERTO N°8 in D uitgave voor Violin en piano](./Ntrb34h5.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334484.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334484.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Villanelle : pour Flûte (ou Hautbois) et Violoncelle : Op. 12](./Pdpnxx5P.md)__
 
-	![Image](../assets/images/thumbs/KCG-000735537.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735537.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Andante e scherzo capriccioso, op. 16](./AWoQ5Jp7.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076933339707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076933339707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[O Beata Mater. pour Solo et 4 voix mixtes ou 4 voix égales.](./eVrh9xUE.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502042.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502042.gif){align=left width="150" height="150"} 
 
 	
 

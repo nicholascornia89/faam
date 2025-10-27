@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LoUFQ6jY
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000345131/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LoUFQ6jY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LoUFQ6jY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LoUFQ6jY.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000345131/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LoUFQ6jY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LoUFQ6jY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LoUFQ6jY.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000345131.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345131.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                            | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | LoUFQ6jY  | KCG-000345131         | Les délices de l'opéra : rondos, fantaisies, mosaïque et variations sur des thêmes favorits des opéras modernes: pour la flûte avec accompagnement de pianoforte | [external URL](FzuLDZCr) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                            | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | LoUFQ6jY  | KCG-000345131         | Les délices de l'opéra : rondos, fantaisies, mosaïque et variations sur des thêmes favorits des opéras modernes: pour la flûte avec accompagnement de pianoforte | [external URL](https://catalogus.hogent.be/catalog/hog01:000345131) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -81,10 +85,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/LoUFQ6jY.html" height="800" width="1200" title="LoUFQ6jY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LoUFQ6jY" height="800" width="1200" title="LoUFQ6jY"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/LoUFQ6jY.html" height="800" width="1200" title="LoUFQ6jY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/LoUFQ6jY" height="800" width="1200" title="LoUFQ6jY"></iframe>

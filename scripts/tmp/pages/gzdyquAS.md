@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gzdyquAS
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description          | aliases | Wikidata QID                                              |
-    | :-------: | :----------: | :------------------: | :-----: | :-------------------------------------------------------: |
-    | gzdyquAS  | Le Ménestrel | French music journal |         | [Le Ménestrel](http://wwww.wikidata.org/entity/Q15141465) |
+    | FAAM UUID | label        | description          | aliases | Wikidata QID                                         |
+    | :-------: | :----------: | :------------------: | :-----: | :--------------------------------------------------: |
+    | gzdyquAS  | Le Ménestrel | French music journal |         | [Le Ménestrel](http://wikidata.org/entity/Q15141465) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/gzdyquAS.html" height="800" width="1200" title="gzdyquAS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gzdyquAS" height="800" width="1200" title="gzdyquAS"></iframe>
 
 ## Cross-references
 

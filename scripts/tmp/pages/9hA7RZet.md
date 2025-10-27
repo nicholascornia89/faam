@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9hA7RZet
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                       | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :---------------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | 9hA7RZet  | Brand | municipality in the district of Tirschenreuth in Bavaria, Germany |         | [Brand](http://wwww.wikidata.org/entity/Q705752) |
+    | FAAM UUID | label | description                                                       | aliases | Wikidata QID                                |
+    | :-------: | :---: | :---------------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | 9hA7RZet  | Brand | municipality in the district of Tirschenreuth in Bavaria, Germany |         | [Brand](http://wikidata.org/entity/Q705752) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9hA7RZet.html" height="800" width="1200" title="9hA7RZet"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9hA7RZet" height="800" width="1200" title="9hA7RZet"></iframe>
 
 ## Identifiers
 

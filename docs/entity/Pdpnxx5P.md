@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Pdpnxx5P
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000735537/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Pdpnxx5P.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Pdpnxx5P.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Pdpnxx5P.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000735537/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Pdpnxx5P.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Pdpnxx5P.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Pdpnxx5P.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000735537.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735537.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                         | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-----------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | Pdpnxx5P  | KCG-000735537         | Villanelle : pour Flûte (ou Hautbois) et Violoncelle : Op. 12 | [external URL](6fQyHcwz) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                         | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-----------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | Pdpnxx5P  | KCG-000735537         | Villanelle : pour Flûte (ou Hautbois) et Violoncelle : Op. 12 | [external URL](https://catalogus.hogent.be/catalog/hog01:000735537) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -72,10 +76,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Pdpnxx5P.html" height="800" width="1200" title="Pdpnxx5P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Pdpnxx5P" height="800" width="1200" title="Pdpnxx5P"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Pdpnxx5P.html" height="800" width="1200" title="Pdpnxx5P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Pdpnxx5P" height="800" width="1200" title="Pdpnxx5P"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7nfDcKvD
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------------------------------: | :-----: | :------------------------------------------------: |
-    | 7nfDcKvD  | Busseto | Italian comune in the province of Parma |         | [Busseto](http://wwww.wikidata.org/entity/Q100772) |
+    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------------------------------: | :-----: | :-------------------------------------------: |
+    | 7nfDcKvD  | Busseto | Italian comune in the province of Parma |         | [Busseto](http://wikidata.org/entity/Q100772) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7nfDcKvD.html" height="800" width="1200" title="7nfDcKvD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7nfDcKvD" height="800" width="1200" title="7nfDcKvD"></iframe>
 
 ## Identifiers
 

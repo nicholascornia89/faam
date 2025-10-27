@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: j3uWLALG
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                             | aliases       | Wikidata QID                                         |
-    | :-------: | :------: | :-------------------------------------: | :-----------: | :--------------------------------------------------: |
-    | j3uWLALG  | New York | most populous city in the United States | New York City | [New York City](http://wwww.wikidata.org/entity/Q60) |
+    | FAAM UUID | label    | description                             | aliases       | Wikidata QID                                    |
+    | :-------: | :------: | :-------------------------------------: | :-----------: | :---------------------------------------------: |
+    | j3uWLALG  | New York | most populous city in the United States | New York City | [New York City](http://wikidata.org/entity/Q60) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/j3uWLALG.html" height="800" width="1200" title="j3uWLALG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/j3uWLALG" height="800" width="1200" title="j3uWLALG"></iframe>
 
 ## Identifiers
 
@@ -97,7 +101,7 @@ tags: city
 
 -	__[Vittorio Rieti](./6kUvgnUj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1898–1994)
 

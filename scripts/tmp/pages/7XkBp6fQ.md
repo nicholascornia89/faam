@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7XkBp6fQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description             | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :---------------------: | :-----: | :-------------------------------------------------: |
-    | 7XkBp6fQ  | Wasungen | municipality of Germany |         | [Wasungen](http://wwww.wikidata.org/entity/Q546530) |
+    | FAAM UUID | label    | description             | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :---------------------: | :-----: | :--------------------------------------------: |
+    | 7XkBp6fQ  | Wasungen | municipality of Germany |         | [Wasungen](http://wikidata.org/entity/Q546530) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7XkBp6fQ.html" height="800" width="1200" title="7XkBp6fQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7XkBp6fQ" height="800" width="1200" title="7XkBp6fQ"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Melchior Vulpis](./JaEP5Aa7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German singer and composer (1570–1615)
 

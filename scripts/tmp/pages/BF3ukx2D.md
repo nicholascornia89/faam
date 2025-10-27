@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BF3ukx2D
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                     | aliases   | Wikidata QID                                         |
-    | :-------: | :-------: | :-----------------------------: | :-------: | :--------------------------------------------------: |
-    | BF3ukx2D  | glissando | glide from one pitch to another | glissando | [glissando](http://wwww.wikidata.org/entity/Q471744) |
+    | FAAM UUID | label     | description                     | aliases   | Wikidata QID                                    |
+    | :-------: | :-------: | :-----------------------------: | :-------: | :---------------------------------------------: |
+    | BF3ukx2D  | glissando | glide from one pitch to another | glissando | [glissando](http://wikidata.org/entity/Q471744) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/BF3ukx2D.html" height="800" width="1200" title="BF3ukx2D"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BF3ukx2D" height="800" width="1200" title="BF3ukx2D"></iframe>
 
 ## Cross-references
 
@@ -59,13 +63,13 @@ tags: annotation_type
 
 -	__[Reinaert de Vos Reinaert de Vos](./HXSqT8WK.md)__
 
-	![Image](../assets/images/thumbs/LHA-200037.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/LHA-200037.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tramway. Galop Brillant. - Op. 37](./Rb2G3eQy.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p17.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p17.gif){align=left width="150" height="150"} 
 
 	
 

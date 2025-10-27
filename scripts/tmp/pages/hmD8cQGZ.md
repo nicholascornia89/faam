@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hmD8cQGZ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hmD8cQGZ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hmD8cQGZ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hmD8cQGZ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hmD8cQGZ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hmD8cQGZ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hmD8cQGZ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Elisabeth_CHOJNACKA_1972.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases            | description                       | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :----------------: | :-------------------------------: | :-------------------------------------------------------------: |
-    | hmD8cQGZ  | Elisabeth Chojnacka | Elżbieta Chojnacka | Polish harpsichordist (1939–2017) | [Elisabeth Chojnacka](http://wwww.wikidata.org/entity/Q2574241) |
+    | FAAM UUID | label               | aliases            | description                       | Wikidata QID                                               |
+    | :-------: | :-----------------: | :----------------: | :-------------------------------: | :--------------------------------------------------------: |
+    | hmD8cQGZ  | Elisabeth Chojnacka | Elżbieta Chojnacka | Polish harpsichordist (1939–2017) | [Elisabeth Chojnacka](http://wikidata.org/entity/Q2574241) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/hmD8cQGZ.html" height="800" width="1200" title="hmD8cQGZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hmD8cQGZ" height="800" width="1200" title="hmD8cQGZ"></iframe>
 
 ## Identifiers
 

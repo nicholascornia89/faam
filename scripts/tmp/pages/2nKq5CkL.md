@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2nKq5CkL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2nKq5CkL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2nKq5CkL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2nKq5CkL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2nKq5CkL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2nKq5CkL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2nKq5CkL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ethelbert_Nevin_in_high_collar.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                    | description                               | Wikidata QID                                                |
-    | :-------: | :-------------: | :------------------------: | :---------------------------------------: | :---------------------------------------------------------: |
-    | 2nKq5CkL  | Ethelbert Nevin | Ethelbert Woodbridge Nevin | American pianist and composer (1862-1901) | [Ethelbert Nevin](http://wwww.wikidata.org/entity/Q1271100) |
+    | FAAM UUID | label           | aliases                    | description                               | Wikidata QID                                           |
+    | :-------: | :-------------: | :------------------------: | :---------------------------------------: | :----------------------------------------------------: |
+    | 2nKq5CkL  | Ethelbert Nevin | Ethelbert Woodbridge Nevin | American pianist and composer (1862-1901) | [Ethelbert Nevin](http://wikidata.org/entity/Q1271100) |
 
 <br><br><br>
 
@@ -53,13 +57,13 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./f4jREoS5.md)
+	- [University of Pittsburgh](./f4jREoS5.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/2nKq5CkL.html" height="800" width="1200" title="2nKq5CkL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2nKq5CkL" height="800" width="1200" title="2nKq5CkL"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Barchetta. Op. 21 N. 3](./6HL8ZmWM.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p52.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p52.gif){align=left width="150" height="150"} 
 
 	
 

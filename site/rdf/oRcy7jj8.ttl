@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oRcy7jj8 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1749-05-05"^^xsd:string ;
+    schema1:birthPlace faamentity:BHHwjkB4 ;
+    schema1:deathDate "1794-07-17"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French composer (1749–1794)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1684863>,
+        "15996153"^^xsd:string,
+        "oRcy7jj8"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Jean-Frederic Edelmann"^^xsd:string,
+        "Jean-Frédéric Edelmann"^^xsd:string ;
+    skos:prefLabel "Jean-Frédéric Edelmann"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:71584210 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/35814> ;
+    wd:P839 <https://imslp.org/wiki/Category:Edelmann,_Jean-Frédéric> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:hMYL5Z9b .
+

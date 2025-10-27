@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QtWStRSk
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000333898/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/QtWStRSk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/QtWStRSk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/QtWStRSk.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000333898/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/QtWStRSk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/QtWStRSk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/QtWStRSk.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000333898.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333898.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                               | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | QtWStRSk  | KCG-000333898         | Il Pirato : Ouverture à Grand Orchestre de l' Opéra | [external URL](7qCCArxX) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                               | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | QtWStRSk  | KCG-000333898         | Il Pirato : Ouverture à Grand Orchestre de l' Opéra | [external URL](https://catalogus.hogent.be/catalog/hog01:000333898) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -86,10 +90,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/QtWStRSk.html" height="800" width="1200" title="QtWStRSk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QtWStRSk" height="800" width="1200" title="QtWStRSk"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/QtWStRSk.html" height="800" width="1200" title="QtWStRSk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/QtWStRSk" height="800" width="1200" title="QtWStRSk"></iframe>

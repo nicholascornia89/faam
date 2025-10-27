@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KLcqFTj4
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KLcqFTj4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KLcqFTj4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KLcqFTj4.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KLcqFTj4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KLcqFTj4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KLcqFTj4.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                   | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----------: | :---------------------------: | :-------------------------------------------------------: |
-    | KLcqFTj4  | Vasily Bessel | Vasily Bessel | Russian publisher (1843–1907) | [Vasily Bessel](http://wwww.wikidata.org/entity/Q4085791) |
+    | FAAM UUID | label         | aliases       | description                   | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----------: | :---------------------------: | :--------------------------------------------------: |
+    | KLcqFTj4  | Vasily Bessel | Vasily Bessel | Russian publisher (1843–1907) | [Vasily Bessel](http://wikidata.org/entity/Q4085791) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KLcqFTj4.html" height="800" width="1200" title="KLcqFTj4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KLcqFTj4" height="800" width="1200" title="KLcqFTj4"></iframe>
 
 ## Identifiers
 
@@ -77,13 +81,13 @@ tags: agent
 
 -	__[Le chef d'armée = Il condotierro](./aGSrytRN.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902499422.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902499422.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le chef d'armée = Il condotierro](./LerwzdwB.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902642195.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902642195.gif){align=left width="150" height="150"} 
 
 	
 

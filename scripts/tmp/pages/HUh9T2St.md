@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HUh9T2St
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                                                                    | aliases               | Wikidata QID                                                   |
-    | :-------: | :------------------: | :----------------------------------------------------------------------------: | :-------------------: | :------------------------------------------------------------: |
-    | HUh9T2St  | Princeton University | private Ivy League research university in Princeton, New Jersey, United States | College of New Jersey | [Princeton University](http://wwww.wikidata.org/entity/Q21578) |
+    | FAAM UUID | label                | description                                                                    | aliases               | Wikidata QID                                              |
+    | :-------: | :------------------: | :----------------------------------------------------------------------------: | :-------------------: | :-------------------------------------------------------: |
+    | HUh9T2St  | Princeton University | private Ivy League research university in Princeton, New Jersey, United States | College of New Jersey | [Princeton University](http://wikidata.org/entity/Q21578) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./gu9kSJDg.md)
+	[Princeton](./gu9kSJDg.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/HUh9T2St.html" height="800" width="1200" title="HUh9T2St"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HUh9T2St" height="800" width="1200" title="HUh9T2St"></iframe>
 
 ## Cross-references
 

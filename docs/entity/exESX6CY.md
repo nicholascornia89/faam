@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: exESX6CY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                           | aliases          | Wikidata QID                                      |
-    | :-------: | :------: | :-----------------------------------: | :--------------: | :-----------------------------------------------: |
-    | exESX6CY  | Vladimir | city in the center of European Russia | Vladimir, Russia | [Vladimir](http://wwww.wikidata.org/entity/Q2684) |
+    | FAAM UUID | label    | description                           | aliases          | Wikidata QID                                 |
+    | :-------: | :------: | :-----------------------------------: | :--------------: | :------------------------------------------: |
+    | exESX6CY  | Vladimir | city in the center of European Russia | Vladimir, Russia | [Vladimir](http://wikidata.org/entity/Q2684) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/exESX6CY.html" height="800" width="1200" title="exESX6CY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/exESX6CY" height="800" width="1200" title="exESX6CY"></iframe>
 
 ## Identifiers
 

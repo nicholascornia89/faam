@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZxQvWKbx
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description               | aliases         | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------------------: | :-------------: | :----------------------------------------------------------: |
-    | ZxQvWKbx  | Kingdom of Naples | Italian state (1282–1816) | Regno di Napoli | [Kingdom of Naples](http://wwww.wikidata.org/entity/Q173065) |
+    | FAAM UUID | label             | description               | aliases         | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------------------: | :-------------: | :-----------------------------------------------------: |
+    | ZxQvWKbx  | Kingdom of Naples | Italian state (1282–1816) | Regno di Napoli | [Kingdom of Naples](http://wikidata.org/entity/Q173065) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/ZxQvWKbx.html" height="800" width="1200" title="ZxQvWKbx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZxQvWKbx" height="800" width="1200" title="ZxQvWKbx"></iframe>
 
 ## Identifiers
 
@@ -91,7 +95,7 @@ tags: country
 
 -	__[Gaetano Greco](./mQyL4vmZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -103,7 +107,7 @@ tags: country
 
 -	__[Vincenzo Lavigna](./biGnSXZs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

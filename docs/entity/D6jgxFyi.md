@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: D6jgxFyi
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/D6jgxFyi.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/D6jgxFyi.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/D6jgxFyi.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/D6jgxFyi.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/D6jgxFyi.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/D6jgxFyi.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases      | description                             | Wikidata QID                                                  |
-    | :-------: | :-----------------: | :----------: | :-------------------------------------: | :-----------------------------------------------------------: |
-    | D6jgxFyi  | Dmitri Shostakovich | Shostakovich | Soviet composer and pianist (1906-1975) | [Dmitri Shostakovich](http://wwww.wikidata.org/entity/Q80135) |
+    | FAAM UUID | label               | aliases      | description                             | Wikidata QID                                             |
+    | :-------: | :-----------------: | :----------: | :-------------------------------------: | :------------------------------------------------------: |
+    | D6jgxFyi  | Dmitri Shostakovich | Shostakovich | Soviet composer and pianist (1906-1975) | [Dmitri Shostakovich](http://wikidata.org/entity/Q80135) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 	- [politician](./7gohDEi3.md)
 
-	- [](./BQe6uNXU.md)
+	- [jazz musician](./BQe6uNXU.md)
 
 	- [university teacher](./XWcaJQty.md)
 
@@ -65,9 +69,9 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./3oCGxSqq.md)
+	- [director](./3oCGxSqq.md)
 
-	- [](./mT6Jf8WQ.md)
+	- [screenwriter](./mT6Jf8WQ.md)
 
 ??? quote "educated at" 
 
@@ -87,7 +91,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/D6jgxFyi.html" height="800" width="1200" title="D6jgxFyi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/D6jgxFyi" height="800" width="1200" title="D6jgxFyi"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kagA9fDb
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902700829/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kagA9fDb.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kagA9fDb.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kagA9fDb.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902700829/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kagA9fDb.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kagA9fDb.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kagA9fDb.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902700829.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902700829.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title      | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------: | :----------------------: | :-----------------------------------------------------------: |
-    | kagA9fDb  | KCA-030902700829      | Drie Songs | [external URL](D6RjeTWv) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title      | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :--------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | kagA9fDb  | KCA-030902700829      | Drie Songs | [external URL](https://anet.be/record/opacdkvc/c:lvd:12863039/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -76,10 +80,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/kagA9fDb.html" height="800" width="1200" title="kagA9fDb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kagA9fDb" height="800" width="1200" title="kagA9fDb"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/kagA9fDb.html" height="800" width="1200" title="kagA9fDb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/kagA9fDb" height="800" width="1200" title="kagA9fDb"></iframe>

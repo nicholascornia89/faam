@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DNdvjXZe
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                                                                   | aliases                           | Wikidata QID                                                                    |
-    | :-------: | :--------------------------------: | :---------------------------------------------------------------------------: | :-------------------------------: | :-----------------------------------------------------------------------------: |
-    | DNdvjXZe  | necked, flat-backed, plucked lutes | family in Guizzi's classification of musical instruments and Hornbostel–Sachs | necked box lutes with finger play | [necked, flat-backed, plucked lutes](http://wwww.wikidata.org/entity/Q57306162) |
+    | FAAM UUID | label                              | description                                                                   | aliases                           | Wikidata QID                                                               |
+    | :-------: | :--------------------------------: | :---------------------------------------------------------------------------: | :-------------------------------: | :------------------------------------------------------------------------: |
+    | DNdvjXZe  | necked, flat-backed, plucked lutes | family in Guizzi's classification of musical instruments and Hornbostel–Sachs | necked box lutes with finger play | [necked, flat-backed, plucked lutes](http://wikidata.org/entity/Q57306162) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/DNdvjXZe.html" height="800" width="1200" title="DNdvjXZe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DNdvjXZe" height="800" width="1200" title="DNdvjXZe"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: j2gE8Lb4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                                                            | aliases | Wikidata QID                                            |
-    | :-------: | :-------------: | :------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------------: |
-    | j2gE8Lb4  | Nizhny Novgorod | capital of the Nizhny Novgorod Oblast and the Volga Federal District in central Russia | Gorky   | [Nizhny Novgorod](http://wwww.wikidata.org/entity/Q891) |
+    | FAAM UUID | label           | description                                                                            | aliases | Wikidata QID                                       |
+    | :-------: | :-------------: | :------------------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
+    | j2gE8Lb4  | Nizhny Novgorod | capital of the Nizhny Novgorod Oblast and the Volga Federal District in central Russia | Gorky   | [Nizhny Novgorod](http://wikidata.org/entity/Q891) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/j2gE8Lb4.html" height="800" width="1200" title="j2gE8Lb4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/j2gE8Lb4" height="800" width="1200" title="j2gE8Lb4"></iframe>
 
 ## Identifiers
 

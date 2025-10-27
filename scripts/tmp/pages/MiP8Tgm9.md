@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MiP8Tgm9
 
 tags: holding_institution
@@ -19,9 +23,9 @@ tags: holding_institution
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                                              | aliases | Wikidata QID                                                 | abbreviation |
-    | :-------: | :-------------------------: | :------------------------------------------------------: | :-----: | :----------------------------------------------------------: | :----------: |
-    | MiP8Tgm9  | Baylor University Libraries | private Baptist university in Waco, Texas, United States | Baylor  | [Baylor University](http://wwww.wikidata.org/entity/Q812573) | BUL          |
+    | FAAM UUID | label                       | description                                              | aliases | Wikidata QID                                            | abbreviation |
+    | :-------: | :-------------------------: | :------------------------------------------------------: | :-----: | :-----------------------------------------------------: | :----------: |
+    | MiP8Tgm9  | Baylor University Libraries | private Baptist university in Waco, Texas, United States | Baylor  | [Baylor University](http://wikidata.org/entity/Q812573) | BUL          |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: holding_institution
 
 ---
 
-<iframe src="../network/MiP8Tgm9.html" height="800" width="1200" title="MiP8Tgm9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MiP8Tgm9" height="800" width="1200" title="MiP8Tgm9"></iframe>
 
 ## Cross-references
 
@@ -61,7 +65,7 @@ tags: holding_institution
 
 -	__[Bassini's art of singing : an analytical, physiological and practical system for the cultivation of the voice](./P3aLfgtb.md)__
 
-	![Image](../assets/images/thumbs/BUL-ml-rare-sco_mt845-b36-a79-1857.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BUL-ml-rare-sco_mt845-b36-a79-1857.gif){align=left width="150" height="150"} 
 
 	
 

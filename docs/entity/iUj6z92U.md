@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iUj6z92U
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                   | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :---------------------------: | :-----: | :-------------------------------------------------: |
-    | iUj6z92U  | Pontoise | commune in Val-d'Oise, France |         | [Pontoise](http://wwww.wikidata.org/entity/Q201352) |
+    | FAAM UUID | label    | description                   | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :---------------------------: | :-----: | :--------------------------------------------: |
+    | iUj6z92U  | Pontoise | commune in Val-d'Oise, France |         | [Pontoise](http://wikidata.org/entity/Q201352) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/iUj6z92U.html" height="800" width="1200" title="iUj6z92U"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iUj6z92U" height="800" width="1200" title="iUj6z92U"></iframe>
 
 ## Identifiers
 

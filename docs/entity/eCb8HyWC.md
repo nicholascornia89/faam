@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eCb8HyWC
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/eCb8HyWC.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/eCb8HyWC.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/eCb8HyWC.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/eCb8HyWC.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/eCb8HyWC.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/eCb8HyWC.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FrancescoBasily.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases | description                    | Wikidata QID                                                 |
-    | :-------: | :--------------: | :-----: | :----------------------------: | :----------------------------------------------------------: |
-    | eCb8HyWC  | Francesco Basili |         | Italian composer and conductor | [Francesco Basili](http://wwww.wikidata.org/entity/Q3749608) |
+    | FAAM UUID | label            | aliases | description                    | Wikidata QID                                            |
+    | :-------: | :--------------: | :-----: | :----------------------------: | :-----------------------------------------------------: |
+    | eCb8HyWC  | Francesco Basili |         | Italian composer and conductor | [Francesco Basili](http://wikidata.org/entity/Q3749608) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/eCb8HyWC.html" height="800" width="1200" title="eCb8HyWC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eCb8HyWC" height="800" width="1200" title="eCb8HyWC"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Mikhail Glinka](./jZ54gutD.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Glinka_1856.jpg){align=left width="150" height="150"} 
+
+	Russian composer
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Yrqr9knc
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description       | aliases               | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :---------------: | :-------------------: | :--------------------------------------------------------------: |
-    | Yrqr9knc  | University of Wrocław | Polish university | University of Breslau | [University of Wrocław](http://wwww.wikidata.org/entity/Q315658) |
+    | FAAM UUID | label                 | description       | aliases               | Wikidata QID                                                |
+    | :-------: | :-------------------: | :---------------: | :-------------------: | :---------------------------------------------------------: |
+    | Yrqr9knc  | University of Wrocław | Polish university | University of Breslau | [University of Wrocław](http://wikidata.org/entity/Q315658) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Yrqr9knc.html" height="800" width="1200" title="Yrqr9knc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Yrqr9knc" height="800" width="1200" title="Yrqr9knc"></iframe>
 
 ## Cross-references
 

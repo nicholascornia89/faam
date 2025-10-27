@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BDEHMF3b
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                        | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :--------------------------------: | :-----: | :----------------------------------------------: |
-    | BDEHMF3b  | Hiis  | commune in Hautes-Pyrénées, France |         | [Hiis](http://wwww.wikidata.org/entity/Q1341160) |
+    | FAAM UUID | label | description                        | aliases | Wikidata QID                                |
+    | :-------: | :---: | :--------------------------------: | :-----: | :-----------------------------------------: |
+    | BDEHMF3b  | Hiis  | commune in Hautes-Pyrénées, France |         | [Hiis](http://wikidata.org/entity/Q1341160) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BDEHMF3b.html" height="800" width="1200" title="BDEHMF3b"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BDEHMF3b" height="800" width="1200" title="BDEHMF3b"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Charles Philippe Lafont](./4EtCMgqU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/4d/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg){align=left width="150" height="150"} 
 
 	French violinist and composer (1781–1839)
 

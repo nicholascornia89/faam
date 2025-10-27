@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AcFWzeQH
 
 tags: role
@@ -19,9 +23,9 @@ tags: role
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                             | aliases         | Wikidata QID                                         |
-    | :-------: | :-------: | :-----------------------------------------------------: | :-------------: | :--------------------------------------------------: |
-    | AcFWzeQH  | conductor | person who directs a musical group during a performance | music directors | [conductor](http://wwww.wikidata.org/entity/Q158852) |
+    | FAAM UUID | label     | description                                             | aliases         | Wikidata QID                                    |
+    | :-------: | :-------: | :-----------------------------------------------------: | :-------------: | :---------------------------------------------: |
+    | AcFWzeQH  | conductor | person who directs a musical group during a performance | music directors | [conductor](http://wikidata.org/entity/Q158852) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: role
 
 ---
 
-<iframe src="../network/AcFWzeQH.html" height="800" width="1200" title="AcFWzeQH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AcFWzeQH" height="800" width="1200" title="AcFWzeQH"></iframe>
 
 ## Cross-references
 
@@ -365,19 +369,19 @@ tags: role
 
 -	__[Hélène Dinsart](./GgyGnGfG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and music educator
 
 -	__[Maurice Abravanel](./MjskrVov.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Ottoman-American Jewish conductor
 
 -	__[Charles Ots](./kPnk2SZm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and music teacher
 
@@ -389,25 +393,25 @@ tags: role
 
 -	__[Karel Miry](./NwoWGVoL.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3e/Gustave_Vanaise_-_Portrait_of_the_Composer_Charles_Miry_-_1913-X_-_Museum_of_Fine_Arts_Ghent_%28MSK%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustave_Vanaise_-_Portrait_of_the_Composer_Charles_Miry_-_1913-X_-_Museum_of_Fine_Arts_Ghent_%28MSK%29.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1823-1889)
 
 -	__[Jan Lelis](./AgJN7zK2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Émile Wambach](./AedSA8fV.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Emile_Wambach_1913.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Wambach_1913.jpg){align=left width="150" height="150"} 
 
 	Belgian conductor, composer, musicologist and music educator (1854-1924)
 
 -	__[Edouard de Somere](./encB2LWu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

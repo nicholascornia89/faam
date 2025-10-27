@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UG4pcEUv
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                                        | aliases | Wikidata QID                                          |
-    | :-------: | :-------: | :------------------------------------------------------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | UG4pcEUv  | flat sign | musical sign (accidental) lowering the pitch of a note by one chromatic semitone (factor 2^(1/12)) | ♭       | [flat sign](http://wwww.wikidata.org/entity/Q7001368) |
+    | FAAM UUID | label     | description                                                                                        | aliases | Wikidata QID                                     |
+    | :-------: | :-------: | :------------------------------------------------------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | UG4pcEUv  | flat sign | musical sign (accidental) lowering the pitch of a note by one chromatic semitone (factor 2^(1/12)) | ♭       | [flat sign](http://wikidata.org/entity/Q7001368) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/UG4pcEUv.html" height="800" width="1200" title="UG4pcEUv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UG4pcEUv" height="800" width="1200" title="UG4pcEUv"></iframe>
 
 ## Cross-references
 

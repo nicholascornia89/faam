@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NzskaK6T
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                  | aliases               | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :--------------------------: | :-------------------: | :--------------------------------------------------------------: |
-    | NzskaK6T  | University of Bologna | university in Bologna, Italy | Università di Bologna | [University of Bologna](http://wwww.wikidata.org/entity/Q131262) |
+    | FAAM UUID | label                 | description                  | aliases               | Wikidata QID                                                |
+    | :-------: | :-------------------: | :--------------------------: | :-------------------: | :---------------------------------------------------------: |
+    | NzskaK6T  | University of Bologna | university in Bologna, Italy | Università di Bologna | [University of Bologna](http://wikidata.org/entity/Q131262) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/NzskaK6T.html" height="800" width="1200" title="NzskaK6T"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NzskaK6T" height="800" width="1200" title="NzskaK6T"></iframe>
 
 ## Cross-references
 

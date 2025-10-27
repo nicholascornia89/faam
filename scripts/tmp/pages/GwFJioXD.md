@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GwFJioXD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GwFJioXD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GwFJioXD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GwFJioXD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GwFJioXD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GwFJioXD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GwFJioXD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Demersseman.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                   | description                             | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------------------: | :-------------------------------------: | :----------------------------------------------------------: |
-    | GwFJioXD  | Jules Demersseman | Jules Auguste Demersseman | French composer and flutist (1833-1866) | [Jules Demersseman](http://wwww.wikidata.org/entity/Q721362) |
+    | FAAM UUID | label             | aliases                   | description                             | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------------------: | :-------------------------------------: | :-----------------------------------------------------: |
+    | GwFJioXD  | Jules Demersseman | Jules Auguste Demersseman | French composer and flutist (1833-1866) | [Jules Demersseman](http://wikidata.org/entity/Q721362) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/GwFJioXD.html" height="800" width="1200" title="GwFJioXD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GwFJioXD" height="800" width="1200" title="GwFJioXD"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,15 @@ tags: agent
 
 -	__[CAVATINE voor trombone met begeleiding van piano](./NLkeX3pr.md)__
 
-	![Image](../assets/images/thumbs/KCG-000341817.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000341817.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Cavatine, Op.47](./Di7eaYCh.md)__
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QEpV8SNM
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                 | aliases  | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------------------------------------: | :------: | :------------------------------------------------: |
-    | QEpV8SNM  | chemist | scientist trained in the study of chemistry | chemists | [chemist](http://wwww.wikidata.org/entity/Q593644) |
+    | FAAM UUID | label   | description                                 | aliases  | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------------------------------------: | :------: | :-------------------------------------------: |
+    | QEpV8SNM  | chemist | scientist trained in the study of chemistry | chemists | [chemist](http://wikidata.org/entity/Q593644) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/QEpV8SNM.html" height="800" width="1200" title="QEpV8SNM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QEpV8SNM" height="800" width="1200" title="QEpV8SNM"></iframe>
 
 ## Cross-references
 

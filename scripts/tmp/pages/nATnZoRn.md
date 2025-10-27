@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nATnZoRn
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :----------------------------------------: | :-----: | :-----------------------------------------------: |
-    | nATnZoRn  | timbre | quality of a musical note or sound or tone | timbre  | [timbre](http://wwww.wikidata.org/entity/Q176501) |
+    | FAAM UUID | label  | description                                | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :----------------------------------------: | :-----: | :------------------------------------------: |
+    | nATnZoRn  | timbre | quality of a musical note or sound or tone | timbre  | [timbre](http://wikidata.org/entity/Q176501) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/nATnZoRn.html" height="800" width="1200" title="nATnZoRn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nATnZoRn" height="800" width="1200" title="nATnZoRn"></iframe>
 
 ## Cross-references
 

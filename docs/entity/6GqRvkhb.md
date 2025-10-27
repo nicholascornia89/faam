@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6GqRvkhb
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                              | aliases   | Wikidata QID                                           |
-    | :-------: | :---------: | :----------------------------------------------------------------------: | :-------: | :----------------------------------------------------: |
-    | 6GqRvkhb  | family name | part of a naming scheme for individuals, used in many cultures worldwide | last name | [family name](http://wwww.wikidata.org/entity/Q101352) |
+    | FAAM UUID | label       | description                                                              | aliases   | Wikidata QID                                      |
+    | :-------: | :---------: | :----------------------------------------------------------------------: | :-------: | :-----------------------------------------------: |
+    | 6GqRvkhb  | family name | part of a naming scheme for individuals, used in many cultures worldwide | last name | [family name](http://wikidata.org/entity/Q101352) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/6GqRvkhb.html" height="800" width="1200" title="6GqRvkhb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6GqRvkhb" height="800" width="1200" title="6GqRvkhb"></iframe>
 
 ## Cross-references
 

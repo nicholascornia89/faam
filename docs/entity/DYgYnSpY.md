@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DYgYnSpY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DYgYnSpY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DYgYnSpY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DYgYnSpY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DYgYnSpY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DYgYnSpY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DYgYnSpY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/RichardWagner.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                | description                 | Wikidata QID                                            |
-    | :-------: | :------------: | :--------------------: | :-------------------------: | :-----------------------------------------------------: |
-    | DYgYnSpY  | Richard Wagner | Wilhelm Richard Wagner | German composer (1813–1883) | [Richard Wagner](http://wwww.wikidata.org/entity/Q1511) |
+    | FAAM UUID | label          | aliases                | description                 | Wikidata QID                                       |
+    | :-------: | :------------: | :--------------------: | :-------------------------: | :------------------------------------------------: |
+    | DYgYnSpY  | Richard Wagner | Wilhelm Richard Wagner | German composer (1813–1883) | [Richard Wagner](http://wikidata.org/entity/Q1511) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [conductor](./TDF2knmi.md)
 
-	- [](./NdvmaeTr.md)
+	- [essayist](./NdvmaeTr.md)
 
 	- [theatrical director](./fJEZmAGU.md)
 
@@ -63,9 +67,9 @@ tags: agent
 
 	- [pianist](./T6nAVeGM.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
-	- [](./TrcsWua6.md)
+	- [diarist](./TrcsWua6.md)
 
 	- [writer](./YrCfZ8vh.md)
 
@@ -85,7 +89,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DYgYnSpY.html" height="800" width="1200" title="DYgYnSpY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DYgYnSpY" height="800" width="1200" title="DYgYnSpY"></iframe>
 
 ## Identifiers
 
@@ -111,8 +115,16 @@ tags: agent
 
 -	__[Stabat mater: Motette für zwei Chöre a capella](./GLj3FFJS.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078132959707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078132959707356.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Stabat Mater, IGP 90](./4cGZC6bC.md)__
+
+	composition by Giovanni Pierluigi da Palestrina
 
 </div>

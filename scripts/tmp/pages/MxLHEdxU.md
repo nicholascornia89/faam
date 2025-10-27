@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MxLHEdxU
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                       | aliases    | Wikidata QID                                           |
-    | :-------: | :--------: | :-------------------------------: | :--------: | :----------------------------------------------------: |
-    | MxLHEdxU  | villanella | light Italian secular vocal music | villanelle | [villanella](http://wwww.wikidata.org/entity/Q2273147) |
+    | FAAM UUID | label      | description                       | aliases    | Wikidata QID                                      |
+    | :-------: | :--------: | :-------------------------------: | :--------: | :-----------------------------------------------: |
+    | MxLHEdxU  | villanella | light Italian secular vocal music | villanelle | [villanella](http://wikidata.org/entity/Q2273147) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/MxLHEdxU.html" height="800" width="1200" title="MxLHEdxU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MxLHEdxU" height="800" width="1200" title="MxLHEdxU"></iframe>
 
 ## Cross-references
 

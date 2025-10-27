@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Y9TFq2VL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description              | aliases                   | Wikidata QID                                      |
-    | :-------: | :------: | :----------------------: | :-----------------------: | :-----------------------------------------------: |
-    | Y9TFq2VL  | Augsburg | city in Bavaria, Germany | Kreisfreie Stadt Augsburg | [Augsburg](http://wwww.wikidata.org/entity/Q2749) |
+    | FAAM UUID | label    | description              | aliases                   | Wikidata QID                                 |
+    | :-------: | :------: | :----------------------: | :-----------------------: | :------------------------------------------: |
+    | Y9TFq2VL  | Augsburg | city in Bavaria, Germany | Kreisfreie Stadt Augsburg | [Augsburg](http://wikidata.org/entity/Q2749) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Y9TFq2VL.html" height="800" width="1200" title="Y9TFq2VL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Y9TFq2VL" height="800" width="1200" title="Y9TFq2VL"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Gregor Aichinger](./74hb67jd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 

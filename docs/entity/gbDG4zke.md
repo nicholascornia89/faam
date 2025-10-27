@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gbDG4zke
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/gbDG4zke.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/gbDG4zke.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/gbDG4zke.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/gbDG4zke.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/gbDG4zke.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/gbDG4zke.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Libro_de...memorables_varones,_1886_"Francisco_Guerrero"._(3816814223).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description                         | Wikidata QID                                                  |
-    | :-------: | :----------------: | :----------------: | :---------------------------------: | :-----------------------------------------------------------: |
-    | gbDG4zke  | Francisco Guerrero | Francisco Guerrero | Spanish composer of the Renaissance | [Francisco Guerrero](http://wwww.wikidata.org/entity/Q470568) |
+    | FAAM UUID | label              | aliases            | description                         | Wikidata QID                                             |
+    | :-------: | :----------------: | :----------------: | :---------------------------------: | :------------------------------------------------------: |
+    | gbDG4zke  | Francisco Guerrero | Francisco Guerrero | Spanish composer of the Renaissance | [Francisco Guerrero](http://wikidata.org/entity/Q470568) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/gbDG4zke.html" height="800" width="1200" title="gbDG4zke"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gbDG4zke" height="800" width="1200" title="gbDG4zke"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,19 @@ tags: agent
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Ave Virgo Sanctissima](./SubDvRy6.md)__
+
+	
+
+-	__[Missa Puer qui natus est nobis](./iDKoxyCd.md)__
 
 	
 

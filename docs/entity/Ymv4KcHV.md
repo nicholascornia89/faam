@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ymv4KcHV
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Ymv4KcHV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Ymv4KcHV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Ymv4KcHV.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Ymv4KcHV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Ymv4KcHV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Ymv4KcHV.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | aliases | description      | Wikidata QID                                                           |
-    | :-------: | :------------------------: | :-----: | :--------------: | :--------------------------------------------------------------------: |
-    | Ymv4KcHV  | Giovanni Battista Costanzi |         | Italian composer | [Giovanni Battista Costanzi](http://wwww.wikidata.org/entity/Q1525849) |
+    | FAAM UUID | label                      | aliases | description      | Wikidata QID                                                      |
+    | :-------: | :------------------------: | :-----: | :--------------: | :---------------------------------------------------------------: |
+    | Ymv4KcHV  | Giovanni Battista Costanzi |         | Italian composer | [Giovanni Battista Costanzi](http://wikidata.org/entity/Q1525849) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Ymv4KcHV.html" height="800" width="1200" title="Ymv4KcHV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ymv4KcHV" height="800" width="1200" title="Ymv4KcHV"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Luigi Boccherini](./F3VbzW4A.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/LBoccherini.jpg){align=left width="150" height="150"} 
+
+	Italian composer and cellist (1743–1805)
+
+</div>

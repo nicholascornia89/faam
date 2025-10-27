@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ToszJnaz
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                    | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :----------------------------: | :-----: | :-----------------------------------------------------: |
-    | ToszJnaz  | Saint-Dizier | commune in Haute-Marne, France |         | [Saint-Dizier](http://wwww.wikidata.org/entity/Q208310) |
+    | FAAM UUID | label        | description                    | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :----------------------------: | :-----: | :------------------------------------------------: |
+    | ToszJnaz  | Saint-Dizier | commune in Haute-Marne, France |         | [Saint-Dizier](http://wikidata.org/entity/Q208310) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ToszJnaz.html" height="800" width="1200" title="ToszJnaz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ToszJnaz" height="800" width="1200" title="ToszJnaz"></iframe>
 
 ## Identifiers
 

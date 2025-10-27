@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hBQw3Ynu
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                  | aliases | Wikidata QID                                                                    |
-    | :-------: | :--------------------------------: | :--------------------------: | :-----: | :-----------------------------------------------------------------------------: |
-    | hBQw3Ynu  | necked box lutes played with a bow | class of musical instruments |         | [necked box lutes played with a bow](http://wwww.wikidata.org/entity/Q57050725) |
+    | FAAM UUID | label                              | description                  | aliases | Wikidata QID                                                               |
+    | :-------: | :--------------------------------: | :--------------------------: | :-----: | :------------------------------------------------------------------------: |
+    | hBQw3Ynu  | necked box lutes played with a bow | class of musical instruments |         | [necked box lutes played with a bow](http://wikidata.org/entity/Q57050725) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/hBQw3Ynu.html" height="800" width="1200" title="hBQw3Ynu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hBQw3Ynu" height="800" width="1200" title="hBQw3Ynu"></iframe>
 
 ## Cross-references
 

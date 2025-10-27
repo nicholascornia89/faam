@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dirajtns
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description | aliases                  | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :---------: | :----------------------: | :---------------------------------------------------------------: |
-    | dirajtns  | information scientist | profession  | information professional | [information scientist](http://wwww.wikidata.org/entity/Q1265807) |
+    | FAAM UUID | label                 | description | aliases                  | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :---------: | :----------------------: | :----------------------------------------------------------: |
+    | dirajtns  | information scientist | profession  | information professional | [information scientist](http://wikidata.org/entity/Q1265807) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/dirajtns.html" height="800" width="1200" title="dirajtns"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dirajtns" height="800" width="1200" title="dirajtns"></iframe>
 
 ## Cross-references
 

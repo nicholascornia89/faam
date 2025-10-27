@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: W6v4tLWs
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/W6v4tLWs.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/W6v4tLWs.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/W6v4tLWs.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/W6v4tLWs.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/W6v4tLWs.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/W6v4tLWs.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description                      | Wikidata QID                                                    |
-    | :-------: | :---------------: | :---------------: | :------------------------------: | :-------------------------------------------------------------: |
-    | W6v4tLWs  | Edwin Ashdown Ltd | Edwin Ashdown Ltd | English music publishing company | [Edwin Ashdown Ltd](http://wwww.wikidata.org/entity/Q124846558) |
+    | FAAM UUID | label             | aliases           | description                      | Wikidata QID                                               |
+    | :-------: | :---------------: | :---------------: | :------------------------------: | :--------------------------------------------------------: |
+    | W6v4tLWs  | Edwin Ashdown Ltd | Edwin Ashdown Ltd | English music publishing company | [Edwin Ashdown Ltd](http://wikidata.org/entity/Q124846558) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/W6v4tLWs.html" height="800" width="1200" title="W6v4tLWs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/W6v4tLWs" height="800" width="1200" title="W6v4tLWs"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: agent
 
 -	__[Wohltemperirtes Clavier: the forty-eight preludes & fugues](./aaeLdTWS.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902190062.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902190062.gif){align=left width="150" height="150"} 
 
 	
 

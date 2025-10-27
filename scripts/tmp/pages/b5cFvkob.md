@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: b5cFvkob
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-430193363/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/b5cFvkob.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/b5cFvkob.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/b5cFvkob.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-430193363/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/b5cFvkob.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/b5cFvkob.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/b5cFvkob.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-430193363.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-430193363.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                  | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | b5cFvkob  | BNF-430193363         | Méthode de chant : composée pour ses élèves (2e édition) / par José Melchior Gomis,... | [external URL](SRaiiKJr) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                  | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | b5cFvkob  | BNF-430193363         | Méthode de chant : composée pour ses élèves (2e édition) / par José Melchior Gomis,... | [external URL](http://catalogue.bnf.fr/ark:/12148/cb430193363) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -74,10 +78,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/b5cFvkob.html" height="800" width="1200" title="b5cFvkob"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/b5cFvkob" height="800" width="1200" title="b5cFvkob"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/b5cFvkob.html" height="800" width="1200" title="b5cFvkob"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/b5cFvkob" height="800" width="1200" title="b5cFvkob"></iframe>

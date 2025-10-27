@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: njMhPb36
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                   | aliases                              | description                                 | Wikidata QID                                                                           |
-    | :-------: | :-------------------------------------: | :----------------------------------: | :-----------------------------------------: | :------------------------------------------------------------------------------------: |
-    | njMhPb36  | Violin Concerto in E-flat major, RV 252 | Violin concerto in E♭ major (RV 252) | violin concerto composed by Antonio Vivaldi | [Violin concerto in E-flat major (RV 252)](http://wwww.wikidata.org/entity/Q115651064) |
+    | FAAM UUID | label                                   | aliases                              | description                                 | Wikidata QID                                                                      |
+    | :-------: | :-------------------------------------: | :----------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------: |
+    | njMhPb36  | Violin Concerto in E-flat major, RV 252 | Violin concerto in E♭ major (RV 252) | violin concerto composed by Antonio Vivaldi | [Violin concerto in E-flat major (RV 252)](http://wikidata.org/entity/Q115651064) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/njMhPb36.html" height="800" width="1200" title="njMhPb36"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/njMhPb36" height="800" width="1200" title="njMhPb36"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[24. | Concerto | a Viol. conc., 2 Viol., Viola, Violoncello e Basso | del Sig. Vivaldi.](./Hefc4dEz.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA15.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA15.gif){align=left width="150" height="150"} 
 
 	
 

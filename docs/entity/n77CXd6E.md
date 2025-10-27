@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: n77CXd6E
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description | aliases | Wikidata QID                                                               |
-    | :-------: | :--------------------------: | :---------: | :-----: | :------------------------------------------------------------------------: |
-    | n77CXd6E  | Sint-Jozefsinstituut Torhout |             |         | [Sint-Jozefsinstituut Torhout](http://wwww.wikidata.org/entity/Q119767161) |
+    | FAAM UUID | label                        | description | aliases | Wikidata QID                                                          |
+    | :-------: | :--------------------------: | :---------: | :-----: | :-------------------------------------------------------------------: |
+    | n77CXd6E  | Sint-Jozefsinstituut Torhout |             |         | [Sint-Jozefsinstituut Torhout](http://wikidata.org/entity/Q119767161) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./NQxGwfmZ.md)
+	[Torhout](./NQxGwfmZ.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/n77CXd6E.html" height="800" width="1200" title="n77CXd6E"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/n77CXd6E" height="800" width="1200" title="n77CXd6E"></iframe>
 
 ## Cross-references
 

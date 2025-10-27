@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8id9Fcsj
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                        | aliases | Wikidata QID                                      |
-    | :-------: | :------: | :------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | 8id9Fcsj  | Bordeaux | city and commune in Gironde, New Aquitaine, France | Bordèu  | [Bordeaux](http://wwww.wikidata.org/entity/Q1479) |
+    | FAAM UUID | label    | description                                        | aliases | Wikidata QID                                 |
+    | :-------: | :------: | :------------------------------------------------: | :-----: | :------------------------------------------: |
+    | 8id9Fcsj  | Bordeaux | city and commune in Gironde, New Aquitaine, France | Bordèu  | [Bordeaux](http://wikidata.org/entity/Q1479) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8id9Fcsj.html" height="800" width="1200" title="8id9Fcsj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8id9Fcsj" height="800" width="1200" title="8id9Fcsj"></iframe>
 
 ## Identifiers
 
@@ -91,7 +95,7 @@ tags: city
 
 -	__[Antoine Guillot de Sainbris](./T685miNq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French violist
 
@@ -103,13 +107,13 @@ tags: city
 
 -	__[Henri Expert](./UfxMztgE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French writer and musicologist (1863–1952)
 
 -	__[Émile Barateau](./EorjjYHP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	penman, poet, lyricist (1792-1870)
 
@@ -121,13 +125,13 @@ tags: city
 
 -	__[Bernard Crocé-Spinelli](./KES8pkUZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and music educator (1871–1932)
 
 -	__[Pierre Leduc](./aJyV3DsH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French music publisher (1755-1826)
 

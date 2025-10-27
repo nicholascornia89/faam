@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Bp7CiVTB
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                          | aliases                                        | description                             | Wikidata QID                                                                               |
-    | :-------: | :--------------------------------------------: | :--------------------------------------------: | :-------------------------------------: | :----------------------------------------------------------------------------------------: |
-    | Bp7CiVTB  | Es ist dir gesagt, Mensch, was gut ist, BWV 45 | Es ist dir gesagt, Mensch, was gut ist, BWV 45 | church cantata by Johann Sebastian Bach | [Es ist dir gesagt, Mensch, was gut ist, BWV 45](http://wwww.wikidata.org/entity/Q1366469) |
+    | FAAM UUID | label                                          | aliases                                        | description                             | Wikidata QID                                                                          |
+    | :-------: | :--------------------------------------------: | :--------------------------------------------: | :-------------------------------------: | :-----------------------------------------------------------------------------------: |
+    | Bp7CiVTB  | Es ist dir gesagt, Mensch, was gut ist, BWV 45 | Es ist dir gesagt, Mensch, was gut ist, BWV 45 | church cantata by Johann Sebastian Bach | [Es ist dir gesagt, Mensch, was gut ist, BWV 45](http://wikidata.org/entity/Q1366469) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Bp7CiVTB.html" height="800" width="1200" title="Bp7CiVTB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Bp7CiVTB" height="800" width="1200" title="Bp7CiVTB"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[CANTATE N°45 : Es ist dir gesagt, Mensch, was gut ist](./EXeDLbH8.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331832.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331832.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 48yUL6Ge
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/48yUL6Ge.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/48yUL6Ge.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/48yUL6Ge.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/48yUL6Ge.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/48yUL6Ge.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/48yUL6Ge.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Paul_Hindemith_1923.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                 | Wikidata QID                                             |
-    | :-------: | :------------: | :------------: | :-------------------------: | :------------------------------------------------------: |
-    | 48yUL6Ge  | Paul Hindemith | Paul Hindemith | German composer (1895–1963) | [Paul Hindemith](http://wwww.wikidata.org/entity/Q57244) |
+    | FAAM UUID | label          | aliases        | description                 | Wikidata QID                                        |
+    | :-------: | :------------: | :------------: | :-------------------------: | :-------------------------------------------------: |
+    | 48yUL6Ge  | Paul Hindemith | Paul Hindemith | German composer (1895–1963) | [Paul Hindemith](http://wikidata.org/entity/Q57244) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 	- [conductor](./TDF2knmi.md)
 
-	- [](./RZGiFfU2.md)
+	- [professor of music composition](./RZGiFfU2.md)
 
 	- [musicologist](./49CMncTw.md)
 
@@ -63,7 +67,7 @@ tags: agent
 
 	- [music theorist](./HkbL2euD.md)
 
-	- [](./Z3zCJvmg.md)
+	- [viola d'amore player](./Z3zCJvmg.md)
 
 	- [university teacher](./XWcaJQty.md)
 
@@ -81,7 +85,7 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./oUawCngd.md)
+	- [Hoch Conservatory](./oUawCngd.md)
 
 ??? quote "employer" 
 
@@ -101,7 +105,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/48yUL6Ge.html" height="800" width="1200" title="48yUL6Ge"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/48yUL6Ge" height="800" width="1200" title="48yUL6Ge"></iframe>
 
 ## Identifiers
 

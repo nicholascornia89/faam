@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UVrhQznW
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UVrhQznW.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UVrhQznW.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UVrhQznW.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UVrhQznW.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UVrhQznW.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UVrhQznW.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joachim_Andersen.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases               | description                                        | Wikidata QID                                                |
-    | :-------: | :--------------: | :-------------------: | :------------------------------------------------: | :---------------------------------------------------------: |
-    | UVrhQznW  | Joachim Andersen | Carl Joachim Andersen | Danish flutist, conductor and composer (1847–1909) | [Joachim Andersen](http://wwww.wikidata.org/entity/Q785596) |
+    | FAAM UUID | label            | aliases               | description                                        | Wikidata QID                                           |
+    | :-------: | :--------------: | :-------------------: | :------------------------------------------------: | :----------------------------------------------------: |
+    | UVrhQznW  | Joachim Andersen | Carl Joachim Andersen | Danish flutist, conductor and composer (1847–1909) | [Joachim Andersen](http://wikidata.org/entity/Q785596) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/UVrhQznW.html" height="800" width="1200" title="UVrhQznW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UVrhQznW" height="800" width="1200" title="UVrhQznW"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,15 @@ tags: agent
 
 -	__[Fantaisie caractéristique : pour flûte : op. 16](./nuxEdyt8.md)__
 
-	![Image](../assets/images/thumbs/KCG-000329401.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000329401.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Fantaisie caractéristique, Op.16](./MdNmE4R2.md)__
 
 	
 

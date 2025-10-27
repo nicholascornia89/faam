@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FGdRr8b2
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                     | aliases                    | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :---------------------------------------------: | :------------------------: | :---------------------------------------------------------------: |
-    | FGdRr8b2  | Philadelphia Orchestra | American symphony orchestra in Philadelphia, PA | The Philadelphia Orchestra | [Philadelphia Orchestra](http://wwww.wikidata.org/entity/Q659181) |
+    | FAAM UUID | label                  | description                                     | aliases                    | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :---------------------------------------------: | :------------------------: | :----------------------------------------------------------: |
+    | FGdRr8b2  | Philadelphia Orchestra | American symphony orchestra in Philadelphia, PA | The Philadelphia Orchestra | [Philadelphia Orchestra](http://wikidata.org/entity/Q659181) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/FGdRr8b2.html" height="800" width="1200" title="FGdRr8b2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FGdRr8b2" height="800" width="1200" title="FGdRr8b2"></iframe>
 
 ## Cross-references
 

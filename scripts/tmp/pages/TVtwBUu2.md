@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TVtwBUu2
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                    | aliases      | Wikidata QID                                             |
-    | :-------: | :----------: | :--------------------------------------------: | :----------: | :------------------------------------------------------: |
-    | TVtwBUu2  | Rugby School | private school in Rugby, Warwickshire, England | Rugby School | [Rugby School](http://wwww.wikidata.org/entity/Q1143281) |
+    | FAAM UUID | label        | description                                    | aliases      | Wikidata QID                                        |
+    | :-------: | :----------: | :--------------------------------------------: | :----------: | :-------------------------------------------------: |
+    | TVtwBUu2  | Rugby School | private school in Rugby, Warwickshire, England | Rugby School | [Rugby School](http://wikidata.org/entity/Q1143281) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./iUqWRTFE.md)
+	[Warwickshire](./iUqWRTFE.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/TVtwBUu2.html" height="800" width="1200" title="TVtwBUu2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TVtwBUu2" height="800" width="1200" title="TVtwBUu2"></iframe>
 
 ## Cross-references
 

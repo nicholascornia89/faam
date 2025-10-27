@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EDFn3ZJS
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                     | aliases                   | Wikidata QID                                     |
-    | :-------: | :----: | :-------------------------------------------------------------: | :-----------------------: | :----------------------------------------------: |
-    | EDFn3ZJS  | Denver | consolidated city-county and capital of Colorado, United States | City and County of Denver | [Denver](http://wwww.wikidata.org/entity/Q16554) |
+    | FAAM UUID | label  | description                                                     | aliases                   | Wikidata QID                                |
+    | :-------: | :----: | :-------------------------------------------------------------: | :-----------------------: | :-----------------------------------------: |
+    | EDFn3ZJS  | Denver | consolidated city-county and capital of Colorado, United States | City and County of Denver | [Denver](http://wikidata.org/entity/Q16554) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/EDFn3ZJS.html" height="800" width="1200" title="EDFn3ZJS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EDFn3ZJS" height="800" width="1200" title="EDFn3ZJS"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Safford Cape](./R32ZWczF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American conductor (1906–1973)
 

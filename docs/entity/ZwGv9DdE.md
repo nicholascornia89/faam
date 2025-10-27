@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZwGv9DdE
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                                             | aliases | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-----: | :---------------------------------------------------------------------: |
-    | ZwGv9DdE  | 12th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [12th arrondissement of Paris](http://wwww.wikidata.org/entity/Q171689) |
+    | FAAM UUID | label                        | description                                             | aliases | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-----: | :----------------------------------------------------------------: |
+    | ZwGv9DdE  | 12th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [12th arrondissement of Paris](http://wikidata.org/entity/Q171689) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ZwGv9DdE.html" height="800" width="1200" title="ZwGv9DdE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZwGv9DdE" height="800" width="1200" title="ZwGv9DdE"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Émile Köhler](./epp5mCRz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

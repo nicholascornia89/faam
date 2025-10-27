@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CUN9XcXb
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                                                          | aliases           | Wikidata QID                                     |
-    | :-------: | :-----: | :--------------------------------------------------------------------------------------------------: | :---------------: | :----------------------------------------------: |
-    | CUN9XcXb  | Chicago | city and county seat of Cook County, and largest city in State of Illinois, United States of America | Chicago, Illinois | [Chicago](http://wwww.wikidata.org/entity/Q1297) |
+    | FAAM UUID | label   | description                                                                                          | aliases           | Wikidata QID                                |
+    | :-------: | :-----: | :--------------------------------------------------------------------------------------------------: | :---------------: | :-----------------------------------------: |
+    | CUN9XcXb  | Chicago | city and county seat of Cook County, and largest city in State of Illinois, United States of America | Chicago, Illinois | [Chicago](http://wikidata.org/entity/Q1297) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CUN9XcXb.html" height="800" width="1200" title="CUN9XcXb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CUN9XcXb" height="800" width="1200" title="CUN9XcXb"></iframe>
 
 ## Identifiers
 

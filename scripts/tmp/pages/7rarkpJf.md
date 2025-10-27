@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7rarkpJf
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BSB-991082014769707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7rarkpJf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7rarkpJf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7rarkpJf.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BSB-991082014769707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7rarkpJf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7rarkpJf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7rarkpJf.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991082014769707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991082014769707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                                                                                    | permalink                | provenance                              |
-    | :-------: | :--------------------: | :------------------------------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | 7rarkpJf  | BSB-991082014769707356 | Zur Wiederbelebung der Mozart'schen Clavier-Concerte: Ein Wort der Anregung an die clavierspielende Welt | [external URL](48ukXYmB) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                                                                                    | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | 7rarkpJf  | BSB-991082014769707356 | Zur Wiederbelebung der Mozart'schen Clavier-Concerte: Ein Wort der Anregung an die clavierspielende Welt | [external URL](https://mdz-nbn-resolving.de/details:bsb11557274) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -58,10 +62,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/7rarkpJf.html" height="800" width="1200" title="7rarkpJf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7rarkpJf" height="800" width="1200" title="7rarkpJf"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/7rarkpJf.html" height="800" width="1200" title="7rarkpJf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/7rarkpJf" height="800" width="1200" title="7rarkpJf"></iframe>

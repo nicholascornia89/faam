@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BYQnQdSz
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BYQnQdSz.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BYQnQdSz.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BYQnQdSz.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BYQnQdSz.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BYQnQdSz.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BYQnQdSz.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludwig_Berger.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                     | description                 | Wikidata QID                                             |
-    | :-------: | :-----------: | :-------------------------: | :-------------------------: | :------------------------------------------------------: |
-    | BYQnQdSz  | Ludwig Berger | Carl Ludwig Heinrich Berger | German pianist and composer | [Ludwig Berger](http://wwww.wikidata.org/entity/Q452414) |
+    | FAAM UUID | label         | aliases                     | description                 | Wikidata QID                                        |
+    | :-------: | :-----------: | :-------------------------: | :-------------------------: | :-------------------------------------------------: |
+    | BYQnQdSz  | Ludwig Berger | Carl Ludwig Heinrich Berger | German pianist and composer | [Ludwig Berger](http://wikidata.org/entity/Q452414) |
 
 <br><br><br>
 
@@ -55,13 +59,13 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./irJHKwbj.md)
+	- [Alma Mater Viadrina](./irJHKwbj.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BYQnQdSz.html" height="800" width="1200" title="BYQnQdSz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BYQnQdSz" height="800" width="1200" title="BYQnQdSz"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,25 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Felix Mendelssohn](./h7iqGs87.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felix_Mendelssohn_Bartholdy.jpg){align=left width="150" height="150"} 
+
+	German composer, pianist, organist and conductor of Jewish descent (1809–1847)
+
+-	__[Heinrich Dorn](./M99CQ2qt.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Heinrich-Dorn.jpg){align=left width="150" height="150"} 
+
+	German composer and conductor (1804–1892)
+
+-	__[Wilhelm Taubert](./E9WQfMRT.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eduard_Magnus_Bildnis_Wilhelm_Taubert.jpg){align=left width="150" height="150"} 
+
+	German pianist, composer and conductor (1811-1891)
+
+</div>

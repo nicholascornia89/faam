@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KSGMZQ7A
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000349198/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KSGMZQ7A.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KSGMZQ7A.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KSGMZQ7A.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000349198/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KSGMZQ7A.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KSGMZQ7A.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KSGMZQ7A.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000349198.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000349198.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title             | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :---------------: | :----------------------: | :------------------------------------------------: |
-    | KSGMZQ7A  | KCG-000349198         | Le Pré aux Clercs | [external URL](3TH8dCwg) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title             | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :---------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | KSGMZQ7A  | KCG-000349198         | Le Pré aux Clercs | [external URL](https://catalogus.hogent.be/catalog/hog01:000349198) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -99,10 +103,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/KSGMZQ7A.html" height="800" width="1200" title="KSGMZQ7A"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KSGMZQ7A" height="800" width="1200" title="KSGMZQ7A"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/KSGMZQ7A.html" height="800" width="1200" title="KSGMZQ7A"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/KSGMZQ7A" height="800" width="1200" title="KSGMZQ7A"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EsKaWDS4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                      | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :------------------------------: | :-----: | :----------------------------------------------: |
-    | EsKaWDS4  | Muret | commune in Haute-Garonne, France | Murèth  | [Muret](http://wwww.wikidata.org/entity/Q207593) |
+    | FAAM UUID | label | description                      | aliases | Wikidata QID                                |
+    | :-------: | :---: | :------------------------------: | :-----: | :-----------------------------------------: |
+    | EsKaWDS4  | Muret | commune in Haute-Garonne, France | Murèth  | [Muret](http://wikidata.org/entity/Q207593) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/EsKaWDS4.html" height="800" width="1200" title="EsKaWDS4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EsKaWDS4" height="800" width="1200" title="EsKaWDS4"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Jacques-Jules Bouffil](./9w96fD4i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Jacques-Jules Bouffil](./DKrwNAM8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 

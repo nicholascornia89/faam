@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BvkyMZrf
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BvkyMZrf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BvkyMZrf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BvkyMZrf.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BvkyMZrf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BvkyMZrf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BvkyMZrf.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                    | Wikidata QID                                               |
-    | :-------: | :-----------: | :-----------: | :----------------------------: | :--------------------------------------------------------: |
-    | BvkyMZrf  | Théo Charlier | Theo Charlier | Belgian composer (1868 - 1944) | [Théo Charlier](http://wwww.wikidata.org/entity/Q60056037) |
+    | FAAM UUID | label         | aliases       | description                    | Wikidata QID                                          |
+    | :-------: | :-----------: | :-----------: | :----------------------------: | :---------------------------------------------------: |
+    | BvkyMZrf  | Théo Charlier | Theo Charlier | Belgian composer (1868 - 1944) | [Théo Charlier](http://wikidata.org/entity/Q60056037) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/BvkyMZrf.html" height="800" width="1200" title="BvkyMZrf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BvkyMZrf" height="800" width="1200" title="BvkyMZrf"></iframe>
 
 ## Identifiers
 

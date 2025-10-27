@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KyXhycd6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KyXhycd6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KyXhycd6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KyXhycd6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KyXhycd6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KyXhycd6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KyXhycd6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description     | Wikidata QID                                                       |
-    | :-------: | :------------------: | :------------------: | :-------------: | :----------------------------------------------------------------: |
-    | KyXhycd6  | Louis-Antoine Dubost | Louis-Antoine Dubost | French composer | [Louis-Antoine Dubost](http://wwww.wikidata.org/entity/Q104183021) |
+    | FAAM UUID | label                | aliases              | description     | Wikidata QID                                                  |
+    | :-------: | :------------------: | :------------------: | :-------------: | :-----------------------------------------------------------: |
+    | KyXhycd6  | Louis-Antoine Dubost | Louis-Antoine Dubost | French composer | [Louis-Antoine Dubost](http://wikidata.org/entity/Q104183021) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KyXhycd6.html" height="800" width="1200" title="KyXhycd6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KyXhycd6" height="800" width="1200" title="KyXhycd6"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: agent
 
 -	__[Doux entretien. Boston](./SDmkdyAG.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p12.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p12.gif){align=left width="150" height="150"} 
 
 	
 

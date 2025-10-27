@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6wQB3rwq
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description             | aliases                       | Wikidata QID                                               |
-    | :-------: | :-----------: | :---------------------: | :---------------------------: | :--------------------------------------------------------: |
-    | 6wQB3rwq  | art collector | person who collects art | collecting art and old things | [art collector](http://wwww.wikidata.org/entity/Q10732476) |
+    | FAAM UUID | label         | description             | aliases                       | Wikidata QID                                          |
+    | :-------: | :-----------: | :---------------------: | :---------------------------: | :---------------------------------------------------: |
+    | 6wQB3rwq  | art collector | person who collects art | collecting art and old things | [art collector](http://wikidata.org/entity/Q10732476) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/6wQB3rwq.html" height="800" width="1200" title="6wQB3rwq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6wQB3rwq" height="800" width="1200" title="6wQB3rwq"></iframe>
 
 ## Cross-references
 

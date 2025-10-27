@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nCmayBbg
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nCmayBbg.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nCmayBbg.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nCmayBbg.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nCmayBbg.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nCmayBbg.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nCmayBbg.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nadia_Boulanger_1925_colorized.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description                                         | Wikidata QID                                               |
-    | :-------: | :-------------: | :-----: | :-------------------------------------------------: | :--------------------------------------------------------: |
-    | nCmayBbg  | Nadia Boulanger |         | French musician, conductor, and teacher (1887-1979) | [Nadia Boulanger](http://wwww.wikidata.org/entity/Q140619) |
+    | FAAM UUID | label           | aliases | description                                         | Wikidata QID                                          |
+    | :-------: | :-------------: | :-----: | :-------------------------------------------------: | :---------------------------------------------------: |
+    | nCmayBbg  | Nadia Boulanger |         | French musician, conductor, and teacher (1887-1979) | [Nadia Boulanger](http://wikidata.org/entity/Q140619) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [music teacher](./L7DPWnnr.md)
 
@@ -71,7 +75,7 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./d7ivsT2f.md)
+	- [Fontainebleau Schools](./d7ivsT2f.md)
 
 	- [Conservatoire de Paris](./mNynReve.md)
 
@@ -79,7 +83,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/nCmayBbg.html" height="800" width="1200" title="nCmayBbg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nCmayBbg" height="800" width="1200" title="nCmayBbg"></iframe>
 
 ## Identifiers
 
@@ -100,3 +104,31 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Walter Piston](./hgkK9LyH.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	American composer (1894–1976)
+
+-	__[George Gershwin](./VRLTws8M.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/George_Gershwin_1937.jpg){align=left width="150" height="150"} 
+
+	American composer and pianist (1898–1937)
+
+-	__[George Gershwin](./fn2MuUnv.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/George_Gershwin_1937.jpg){align=left width="150" height="150"} 
+
+	American composer and pianist (1898–1937)
+
+-	__[Jacques Ibert](./UtCQwJAp.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ibert_Jacques_Photo1938.jpg){align=left width="150" height="150"} 
+
+	French composer
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TVjiPeUB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                      | aliases | Wikidata QID                                               |
-    | :-------: | :--------------: | :------------------------------: | :-----: | :--------------------------------------------------------: |
-    | TVjiPeUB  | Northamptonshire | ceremonial county in England, UK |         | [Northamptonshire](http://wwww.wikidata.org/entity/Q23115) |
+    | FAAM UUID | label            | description                      | aliases | Wikidata QID                                          |
+    | :-------: | :--------------: | :------------------------------: | :-----: | :---------------------------------------------------: |
+    | TVjiPeUB  | Northamptonshire | ceremonial county in England, UK |         | [Northamptonshire](http://wikidata.org/entity/Q23115) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TVjiPeUB.html" height="800" width="1200" title="TVjiPeUB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TVjiPeUB" height="800" width="1200" title="TVjiPeUB"></iframe>
 
 ## Identifiers
 

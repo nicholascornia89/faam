@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PoGNkuM3
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000356805/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PoGNkuM3.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PoGNkuM3.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PoGNkuM3.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000356805/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PoGNkuM3.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PoGNkuM3.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PoGNkuM3.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000356805.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000356805.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                       | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | PoGNkuM3  | KCG-000356805         | Concerto (en RE mineur) : pour Piano avec Accompagnement d'Orchestre ou de Quatuor : Op: 40 | [external URL](m9rNaSAR) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                       | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | PoGNkuM3  | KCG-000356805         | Concerto (en RE mineur) : pour Piano avec Accompagnement d'Orchestre ou de Quatuor : Op: 40 | [external URL](https://catalogus.hogent.be/catalog/hog01:000356805) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -89,10 +93,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/PoGNkuM3.html" height="800" width="1200" title="PoGNkuM3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PoGNkuM3" height="800" width="1200" title="PoGNkuM3"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/PoGNkuM3.html" height="800" width="1200" title="PoGNkuM3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/PoGNkuM3" height="800" width="1200" title="PoGNkuM3"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kNyhurbb
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kNyhurbb.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kNyhurbb.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kNyhurbb.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kNyhurbb.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kNyhurbb.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kNyhurbb.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rubin_Goldmark.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description                                         | Wikidata QID                                              |
-    | :-------: | :------------: | :-----: | :-------------------------------------------------: | :-------------------------------------------------------: |
-    | kNyhurbb  | Rubin Goldmark |         | American composer, pianist and educator (1872-1936) | [Rubin Goldmark](http://wwww.wikidata.org/entity/Q713765) |
+    | FAAM UUID | label          | aliases | description                                         | Wikidata QID                                         |
+    | :-------: | :------------: | :-----: | :-------------------------------------------------: | :--------------------------------------------------: |
+    | kNyhurbb  | Rubin Goldmark |         | American composer, pianist and educator (1872-1936) | [Rubin Goldmark](http://wikidata.org/entity/Q713765) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/kNyhurbb.html" height="800" width="1200" title="kNyhurbb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kNyhurbb" height="800" width="1200" title="kNyhurbb"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[George Gershwin](./VRLTws8M.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/George_Gershwin_1937.jpg){align=left width="150" height="150"} 
+
+	American composer and pianist (1898–1937)
+
+-	__[George Gershwin](./fn2MuUnv.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/George_Gershwin_1937.jpg){align=left width="150" height="150"} 
+
+	American composer and pianist (1898–1937)
+
+</div>

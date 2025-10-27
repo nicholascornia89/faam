@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7UGJWsQF
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                              | aliases     | Wikidata QID                                        |
-    | :-------: | :---------: | :------------------------------------------------------: | :---------: | :-------------------------------------------------: |
-    | 7UGJWsQF  | Marian hymn | a theatrical work that uses ballet dancing (not a genre) | ballet work | [ballet](http://wwww.wikidata.org/entity/Q15079786) |
+    | FAAM UUID | label       | description                                              | aliases     | Wikidata QID                                   |
+    | :-------: | :---------: | :------------------------------------------------------: | :---------: | :--------------------------------------------: |
+    | 7UGJWsQF  | Marian hymn | a theatrical work that uses ballet dancing (not a genre) | ballet work | [ballet](http://wikidata.org/entity/Q15079786) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/7UGJWsQF.html" height="800" width="1200" title="7UGJWsQF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7UGJWsQF" height="800" width="1200" title="7UGJWsQF"></iframe>
 
 ## Cross-references
 
@@ -39,85 +43,85 @@ tags: keyword
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)](./4MMhcBUy.md)__
 
-	![Image](../assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia](./iFkRR5rr.md)__
 
-	![Image](../assets/images/thumbs/SLD-512657440.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SLD-512657440.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Stabat mater: Motette für zwei Chöre a capella](./GLj3FFJS.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078132959707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078132959707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ave Maria. Ad duas voces aequales comitante organo](./eYfpVzbV.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502022.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502022.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Antiphonae. In honorem Beatae Mariae Virginis. Op. 32](./3HpJci6a.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502026.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502026.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Duo cantus mariani. Ad quatuor voces inaequales comitante organo](./HGZxDd67.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502031.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502031.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Immaculata conceptio est hodie](./FWVj4rwe.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502032.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502032.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Electa mea. Responsorium ex officio Imm. Conc. B.M.V.](./eXXjBXZ7.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502033.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502033.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sicut cedrus. Responsorium II Nocturni in officio B.M. Virginis.](./gVQShzKe.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502034.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502034.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Supplément à la Musica sacra, 1887-88 N.1](./SVrADgnM.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502040.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502040.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[O Beata Mater. pour Solo et 4 voix mixtes ou 4 voix égales.](./JaMgbGM3.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502041.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502041.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[O Beata Mater. pour Solo et 4 voix mixtes ou 4 voix égales.](./eVrh9xUE.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502042.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502042.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Quarte Antiennes de la Ste Vierge. pour deux voix égales et orgue.](./2RMXJBjC.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502043.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502043.gif){align=left width="150" height="150"} 
 
 	
 

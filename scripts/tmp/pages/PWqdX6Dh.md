@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PWqdX6Dh
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases | description | Wikidata QID                         |
-    | :-------: | :---------------------: | :-----: | :---------: | :----------------------------------: |
-    | PWqdX6Dh  | Thorough-Bass Made Easy |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                   | aliases | description | Wikidata QID                    |
+    | :-------: | :---------------------: | :-----: | :---------: | :-----------------------------: |
+    | PWqdX6Dh  | Thorough-Bass Made Easy |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/PWqdX6Dh.html" height="800" width="1200" title="PWqdX6Dh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PWqdX6Dh" height="800" width="1200" title="PWqdX6Dh"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Thorough-Bass Made Easy](./jn82yUTV.md)__
 
-	![Image](../assets/images/thumbs/ORP-20145655.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20145655.gif){align=left width="150" height="150"} 
 
 	
 

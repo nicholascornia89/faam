@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: B2uxVJLf
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description               | aliases | Wikidata QID                                  |
-    | :-------: | :----: | :-----------------------: | :-----: | :-------------------------------------------: |
-    | B2uxVJLf  | Torino | city and commune in Italy | Turin   | [Turin](http://wwww.wikidata.org/entity/Q495) |
+    | FAAM UUID | label  | description               | aliases | Wikidata QID                             |
+    | :-------: | :----: | :-----------------------: | :-----: | :--------------------------------------: |
+    | B2uxVJLf  | Torino | city and commune in Italy | Turin   | [Turin](http://wikidata.org/entity/Q495) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/B2uxVJLf.html" height="800" width="1200" title="B2uxVJLf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/B2uxVJLf" height="800" width="1200" title="B2uxVJLf"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Francesco Bianchi](./Bo63mcxB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -103,7 +107,7 @@ tags: city
 
 -	__[Giuseppe Capitani di Vincenzo](./RN3tbWbS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and pianist (1843-1890)
 
@@ -115,13 +119,13 @@ tags: city
 
 -	__[Salvatore Lanzetti](./3KAmatqN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian cello player and composer
 
 -	__[Alessandro Besozzi](./h64cbr2z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

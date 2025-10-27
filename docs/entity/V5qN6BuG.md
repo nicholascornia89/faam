@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: V5qN6BuG
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description              | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :----------------------: | :-----: | :-----------------------------------------------------: |
-    | V5qN6BuG  | Innere Stadt | first district of Vienna |         | [Innere Stadt](http://wwww.wikidata.org/entity/Q267329) |
+    | FAAM UUID | label        | description              | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :----------------------: | :-----: | :------------------------------------------------: |
+    | V5qN6BuG  | Innere Stadt | first district of Vienna |         | [Innere Stadt](http://wikidata.org/entity/Q267329) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/V5qN6BuG.html" height="800" width="1200" title="V5qN6BuG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/V5qN6BuG" height="800" width="1200" title="V5qN6BuG"></iframe>
 
 ## Identifiers
 

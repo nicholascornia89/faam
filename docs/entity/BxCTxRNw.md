@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BxCTxRNw
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                                   | aliases                     | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :-------------------------------------------: | :-------------------------: | :--------------------------------------------------------------------: |
-    | BxCTxRNw  | Schola Cantorum Basiliensis | Swiss college of early music, founded in 1933 | Schola Cantorum Basiliensis | [Schola Cantorum Basiliensis](http://wwww.wikidata.org/entity/Q665530) |
+    | FAAM UUID | label                       | description                                   | aliases                     | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :-------------------------------------------: | :-------------------------: | :---------------------------------------------------------------: |
+    | BxCTxRNw  | Schola Cantorum Basiliensis | Swiss college of early music, founded in 1933 | Schola Cantorum Basiliensis | [Schola Cantorum Basiliensis](http://wikidata.org/entity/Q665530) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/BxCTxRNw.html" height="800" width="1200" title="BxCTxRNw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BxCTxRNw" height="800" width="1200" title="BxCTxRNw"></iframe>
 
 ## Cross-references
 
@@ -47,7 +51,7 @@ tags: music_organization
 
 -	__[Wanda Landowska](./ANygk75M.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
 
 	(1879-1959) Polish-French harpsichordist
 

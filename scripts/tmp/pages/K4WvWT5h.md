@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: K4WvWT5h
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------------------: | :-----: | :---------: | :----------------------------------: |
-    | K4WvWT5h  | Missa Quaeramus cum pastoribus |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                          | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------------------: | :-----: | :---------: | :-----------------------------: |
+    | K4WvWT5h  | Missa Quaeramus cum pastoribus |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/K4WvWT5h.html" height="800" width="1200" title="K4WvWT5h"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/K4WvWT5h" height="800" width="1200" title="K4WvWT5h"></iframe>
 
 ## Identifiers
 
@@ -63,13 +67,13 @@ tags: musical_work
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TNPjayZT
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                       | aliases     | Wikidata QID                                             |
-    | :-------: | :---------: | :-------------------------------: | :---------: | :------------------------------------------------------: |
-    | TNPjayZT  | Radio Basel | radio (?) from Basel, Switzerland | Radio Basel | [Radio Basel](http://wwww.wikidata.org/entity/Q29935764) |
+    | FAAM UUID | label       | description                       | aliases     | Wikidata QID                                        |
+    | :-------: | :---------: | :-------------------------------: | :---------: | :-------------------------------------------------: |
+    | TNPjayZT  | Radio Basel | radio (?) from Basel, Switzerland | Radio Basel | [Radio Basel](http://wikidata.org/entity/Q29935764) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./5FxHYswx.md)
+	[Basel](./5FxHYswx.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/TNPjayZT.html" height="800" width="1200" title="TNPjayZT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TNPjayZT" height="800" width="1200" title="TNPjayZT"></iframe>
 
 ## Cross-references
 

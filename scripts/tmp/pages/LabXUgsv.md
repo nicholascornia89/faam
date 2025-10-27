@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LabXUgsv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LabXUgsv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LabXUgsv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LabXUgsv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LabXUgsv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LabXUgsv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LabXUgsv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description      | Wikidata QID                                              |
-    | :-------: | :------------: | :-----: | :--------------: | :-------------------------------------------------------: |
-    | LabXUgsv  | Antonio Boroni |         | Italian composer | [Antonio Boroni](http://wwww.wikidata.org/entity/Q600955) |
+    | FAAM UUID | label          | aliases | description      | Wikidata QID                                         |
+    | :-------: | :------------: | :-----: | :--------------: | :--------------------------------------------------: |
+    | LabXUgsv  | Antonio Boroni |         | Italian composer | [Antonio Boroni](http://wikidata.org/entity/Q600955) |
 
 <br><br><br>
 
@@ -47,17 +51,17 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./5eUMkMxY.md)
+	- [bandleader](./5eUMkMxY.md)
 
 ??? quote "employer" 
 
-	- [](./HF5Ajps2.md)
+	- [Karlsschule Stuttgart](./HF5Ajps2.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/LabXUgsv.html" height="800" width="1200" title="LabXUgsv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LabXUgsv" height="800" width="1200" title="LabXUgsv"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Muzio Clementi](./YwdYGCWW.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Muzio_Clementi.jpg){align=left width="150" height="150"} 
+
+	Italian-born English composer, pianist, pedagogue, conductor, music publisher, editor, and piano manufacturer
+
+</div>

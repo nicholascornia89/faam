@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9LMwaNjq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description    | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :------------: | :-----: | :------------------------------------------------: |
-    | 9LMwaNjq  | Ciminna | Italian comune |         | [Ciminna](http://wwww.wikidata.org/entity/Q491383) |
+    | FAAM UUID | label   | description    | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :------------: | :-----: | :-------------------------------------------: |
+    | 9LMwaNjq  | Ciminna | Italian comune |         | [Ciminna](http://wikidata.org/entity/Q491383) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9LMwaNjq.html" height="800" width="1200" title="9LMwaNjq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9LMwaNjq" height="800" width="1200" title="9LMwaNjq"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Vincenzo Amato](./aHRriDRP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

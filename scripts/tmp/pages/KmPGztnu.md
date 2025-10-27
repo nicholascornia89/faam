@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KmPGztnu
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                  | aliases                                              | Wikidata QID                                           |
-    | :-------: | :------------: | :--------------------------: | :--------------------------------------------------: | :----------------------------------------------------: |
-    | KmPGztnu  | United Kingdom | country in north-west Europe | United Kingdom of Great Britain and Northern Ireland | [United Kingdom](http://wwww.wikidata.org/entity/Q145) |
+    | FAAM UUID | label          | description                  | aliases                                              | Wikidata QID                                      |
+    | :-------: | :------------: | :--------------------------: | :--------------------------------------------------: | :-----------------------------------------------: |
+    | KmPGztnu  | United Kingdom | country in north-west Europe | United Kingdom of Great Britain and Northern Ireland | [United Kingdom](http://wikidata.org/entity/Q145) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/KmPGztnu.html" height="800" width="1200" title="KmPGztnu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KmPGztnu" height="800" width="1200" title="KmPGztnu"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: country
 
 -	__[Robert Allen Spencer](./nTmL95bR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	UK lutenist (1932-1997)
 
@@ -101,7 +105,7 @@ tags: country
 
 -	__[Gustav Holst](./KpakAMdR.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/01/Gustav_Holst.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Holst.jpg){align=left width="150" height="150"} 
 
 	British composer
 
@@ -113,19 +117,19 @@ tags: country
 
 -	__[Alfred Moffat](./gGDDnuWi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Scottish musician and composer
 
 -	__[Thomas Dunhill](./Vp4ucERe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British composer
 
 -	__[Edmund Fellowes](./Sfrz2XcR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British musician (1870–1951)
 
@@ -149,7 +153,7 @@ tags: country
 
 -	__[Orlando Morgan](./Ne3VPM3y.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English music teacher, composer and musicologist
 
@@ -179,7 +183,7 @@ tags: country
 
 -	__[Maria Anfossi](./CEjchGw4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian singer and music teacher
 
@@ -191,19 +195,19 @@ tags: country
 
 -	__[Violet Gordon-Woodhouse](./b2nGBPKP.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/00/Violet_Gordon_Woodhouse_circa_1900.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Violet_Gordon_Woodhouse_circa_1900.jpg){align=left width="150" height="150"} 
 
 	British harpsichordist and clavichordist (1872–1948)
 
 -	__[Henry Playford](./ebhZpZbu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English music publisher
 
 -	__[Jonathan Fentum](./27wfWKrp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -215,13 +219,13 @@ tags: country
 
 -	__[Chappell & Co.](./WcAqRjDY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English music publisher and piano manufacturer
 
 -	__[Novello & Co](./WPQvKy8d.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	music publisher
 
@@ -233,7 +237,7 @@ tags: country
 
 -	__[Bosworth Music](./gDJSYobS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	publishing imprint
 
@@ -280,6 +284,10 @@ tags: country
 -	__[Edinburgh](./neyfxrfu.md)__
 
 	capital city of Scotland, UK
+
+-	__[London](./96rVh94r.md)__
+
+	capital and largest city of England and the United Kingdom
 
 -	__[Somerset](./BYi7Lpof.md)__
 
@@ -360,10 +368,6 @@ tags: country
 -	__[City of London](./CsTXBZxd.md)__
 
 	city, ceremonial county and local government district that contains the historic center and the primary central business district in the London Region in England, UK
-
--	__[London](./96rVh94r.md)__
-
-	capital and largest city of England and the United Kingdom
 
 -	__[Royal Borough of Kensington and Chelsea](./2VfgbeWV.md)__
 

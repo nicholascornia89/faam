@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZkWK6BnV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                              | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :--------------------------------------: | :-----: | :---------------------------------------------------: |
-    | ZkWK6BnV  | Borgerhout | district of the City of Antwerp, Belgium |         | [Borgerhout](http://wwww.wikidata.org/entity/Q834850) |
+    | FAAM UUID | label      | description                              | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :--------------------------------------: | :-----: | :----------------------------------------------: |
+    | ZkWK6BnV  | Borgerhout | district of the City of Antwerp, Belgium |         | [Borgerhout](http://wikidata.org/entity/Q834850) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ZkWK6BnV.html" height="800" width="1200" title="ZkWK6BnV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZkWK6BnV" height="800" width="1200" title="ZkWK6BnV"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Guido Persoons](./4nFtWCPy.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musicologist (1931-2014)
 
 -	__[Renier van der Velden](./9JxDrbSP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	(b Antwerp, Jan 14, 1910; d Antwerp, Jan 19, 1993). Belgian composer. He studied at the Antwerp Conservatory, but was mainly self-taught as a composer. In 1945 he was appointed music producer at the Antwerp radio studios, and was principal music prod
 

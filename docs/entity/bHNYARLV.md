@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bHNYARLV
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bHNYARLV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bHNYARLV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bHNYARLV.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bHNYARLV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bHNYARLV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bHNYARLV.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait_du_corniste_Frédéric_Nicolas_Duvernoy_(1765-1838).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases                   | description                                 | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-----------------------: | :-----------------------------------------: | :------------------------------------------------------------------: |
-    | bHNYARLV  | Frédéric Nicolas Duvernoy | Frederic Nicolas Duvernoy | composer and French horn player (1765-1838) | [Frédéric Nicolas Duvernoy](http://wwww.wikidata.org/entity/Q443012) |
+    | FAAM UUID | label                     | aliases                   | description                                 | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-----------------------: | :-----------------------------------------: | :-------------------------------------------------------------: |
+    | bHNYARLV  | Frédéric Nicolas Duvernoy | Frederic Nicolas Duvernoy | composer and French horn player (1765-1838) | [Frédéric Nicolas Duvernoy](http://wikidata.org/entity/Q443012) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./gPszdmNe.md)
+	- [professor](./gPszdmNe.md)
 
 	- [horn player](./4oDTHpMV.md)
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/bHNYARLV.html" height="800" width="1200" title="bHNYARLV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bHNYARLV" height="800" width="1200" title="bHNYARLV"></iframe>
 
 ## Identifiers
 
@@ -86,3 +90,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Martin-Joseph Mengal](./jWznwcYU.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Martin-Joseph_Mengal.jpg){align=left width="150" height="150"} 
+
+	Belgian composer
+
+</div>

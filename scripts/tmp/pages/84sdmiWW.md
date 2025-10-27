@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 84sdmiWW
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                | aliases              | Wikidata QID                                                     |
-    | :-------: | :------------------: | :------------------------: | :------------------: | :--------------------------------------------------------------: |
-    | 84sdmiWW  | Saint Peter's School | secondary school in Russia | Saint Peter's School | [Saint Peter's School](http://wwww.wikidata.org/entity/Q2388897) |
+    | FAAM UUID | label                | description                | aliases              | Wikidata QID                                                |
+    | :-------: | :------------------: | :------------------------: | :------------------: | :---------------------------------------------------------: |
+    | 84sdmiWW  | Saint Peter's School | secondary school in Russia | Saint Peter's School | [Saint Peter's School](http://wikidata.org/entity/Q2388897) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./YesoVYT6.md)
+	[Tsentralny District](./YesoVYT6.md)
 
 !!! quote "country" 
 
@@ -41,13 +45,13 @@ tags: music_organization
 
 	[Soviet Union](./c4DdDGWx.md)
 
-	[](./bBRoxYDx.md)
+	[Tsardom of Russia](./bBRoxYDx.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/84sdmiWW.html" height="800" width="1200" title="84sdmiWW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/84sdmiWW" height="800" width="1200" title="84sdmiWW"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: music_organization
 
 -	__[Modest Petrovich Mussorgsky](./eqc4UJfy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3d/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
 
 	Russian composer (1839–1881)
 

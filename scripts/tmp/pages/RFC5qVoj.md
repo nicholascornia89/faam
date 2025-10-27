@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RFC5qVoj
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20140284e/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RFC5qVoj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RFC5qVoj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RFC5qVoj.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20140284e/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RFC5qVoj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RFC5qVoj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RFC5qVoj.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20140284e.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20140284e.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                             | permalink                | provenance                         |
-    | :-------: | :-------------------: | :-----------------------------------------------: | :----------------------: | :--------------------------------: |
-    | RFC5qVoj  | ORP-20140284e         | Der LXXXXVste Psalm für Chor und Orchester op. 46 | [external URL](RkZNQ7Ju) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                             | permalink                                                                                           | provenance                         |
+    | :-------: | :-------------------: | :-----------------------------------------------: | :-------------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | RFC5qVoj  | ORP-20140284e         | Der LXXXXVste Psalm für Chor und Orchester op. 46 | [external URL](https://koha.orpheusinstituut.be/cgi-bin/koha/catalogue/detail.pl?biblionumber=4925) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ## Statements
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/RFC5qVoj.html" height="800" width="1200" title="RFC5qVoj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RFC5qVoj" height="800" width="1200" title="RFC5qVoj"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/RFC5qVoj.html" height="800" width="1200" title="RFC5qVoj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/RFC5qVoj" height="800" width="1200" title="RFC5qVoj"></iframe>

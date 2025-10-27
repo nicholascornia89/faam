@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GWuKPdtn
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904702856/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GWuKPdtn.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GWuKPdtn.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GWuKPdtn.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904702856/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GWuKPdtn.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GWuKPdtn.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GWuKPdtn.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904702856.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702856.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :----------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | GWuKPdtn  | KCA-030904702856      | Ungarische Rhapsodie no. 2 : cadenza | [external URL](EqtAuzbH) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :----------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | GWuKPdtn  | KCA-030904702856      | Ungarische Rhapsodie no. 2 : cadenza | [external URL](https://anet.be/record/opacdkvc/c:lvd:15321614/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "note" 
 
@@ -98,10 +102,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/GWuKPdtn.html" height="800" width="1200" title="GWuKPdtn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GWuKPdtn" height="800" width="1200" title="GWuKPdtn"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/GWuKPdtn.html" height="800" width="1200" title="GWuKPdtn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/GWuKPdtn" height="800" width="1200" title="GWuKPdtn"></iframe>

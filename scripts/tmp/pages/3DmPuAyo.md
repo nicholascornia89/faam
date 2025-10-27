@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3DmPuAyo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description  | aliases      | Wikidata QID                                   |
-    | :-------: | :---: | :----------: | :----------: | :--------------------------------------------: |
-    | 3DmPuAyo  | Genoa | Italian city | Genoa, Italy | [Genoa](http://wwww.wikidata.org/entity/Q1449) |
+    | FAAM UUID | label | description  | aliases      | Wikidata QID                              |
+    | :-------: | :---: | :----------: | :----------: | :---------------------------------------: |
+    | 3DmPuAyo  | Genoa | Italian city | Genoa, Italy | [Genoa](http://wikidata.org/entity/Q1449) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3DmPuAyo.html" height="800" width="1200" title="3DmPuAyo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3DmPuAyo" height="800" width="1200" title="3DmPuAyo"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Vincenzo Gambaro](./RJrp7LF2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

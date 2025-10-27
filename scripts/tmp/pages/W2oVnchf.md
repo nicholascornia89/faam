@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: W2oVnchf
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                    | aliases | Wikidata QID                                                  |
-    | :-------: | :---------------: | :----------------------------: | :-----: | :-----------------------------------------------------------: |
-    | W2oVnchf  | Rue des Récollets | thoroughfare in Liège, Belgium |         | [Rue des Récollets](http://wwww.wikidata.org/entity/Q3452020) |
+    | FAAM UUID | label             | description                    | aliases | Wikidata QID                                             |
+    | :-------: | :---------------: | :----------------------------: | :-----: | :------------------------------------------------------: |
+    | W2oVnchf  | Rue des Récollets | thoroughfare in Liège, Belgium |         | [Rue des Récollets](http://wikidata.org/entity/Q3452020) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/W2oVnchf.html" height="800" width="1200" title="W2oVnchf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/W2oVnchf" height="800" width="1200" title="W2oVnchf"></iframe>
 
 ## Identifiers
 

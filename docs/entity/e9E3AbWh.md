@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: e9E3AbWh
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                                          | aliases     | Wikidata QID                                                          |
-    | :-------: | :------------------------: | :--------------------------------------------------: | :---------: | :-------------------------------------------------------------------: |
-    | e9E3AbWh  | Saint-Gilles - Sint-Gillis | municipality in the Brussels-Capital Region, Belgium | Sint-Gillis | [Saint-Gilles - Sint-Gillis](http://wwww.wikidata.org/entity/Q237674) |
+    | FAAM UUID | label                      | description                                          | aliases     | Wikidata QID                                                     |
+    | :-------: | :------------------------: | :--------------------------------------------------: | :---------: | :--------------------------------------------------------------: |
+    | e9E3AbWh  | Saint-Gilles - Sint-Gillis | municipality in the Brussels-Capital Region, Belgium | Sint-Gillis | [Saint-Gilles - Sint-Gillis](http://wikidata.org/entity/Q237674) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/e9E3AbWh.html" height="800" width="1200" title="e9E3AbWh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/e9E3AbWh" height="800" width="1200" title="e9E3AbWh"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Aimée Van de Wiele](./Qj6RwzVa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, musicologist and music educator (1907–1991)
 

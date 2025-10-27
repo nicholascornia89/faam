@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SzBL7Li4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description               | aliases                  | Wikidata QID                                                   |
-    | :-------: | :--------------: | :-----------------------: | :----------------------: | :------------------------------------------------------------: |
-    | SzBL7Li4  | Rauhensteingasse | street in Vienna, Austria | Rauhensteingasse, Vienna | [Rauhensteingasse](http://wwww.wikidata.org/entity/Q106194288) |
+    | FAAM UUID | label            | description               | aliases                  | Wikidata QID                                              |
+    | :-------: | :--------------: | :-----------------------: | :----------------------: | :-------------------------------------------------------: |
+    | SzBL7Li4  | Rauhensteingasse | street in Vienna, Austria | Rauhensteingasse, Vienna | [Rauhensteingasse](http://wikidata.org/entity/Q106194288) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/SzBL7Li4.html" height="800" width="1200" title="SzBL7Li4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SzBL7Li4" height="800" width="1200" title="SzBL7Li4"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
 
 	Austrian composer of the Classical period (1756–1791)
 

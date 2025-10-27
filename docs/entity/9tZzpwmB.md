@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9tZzpwmB
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                          | aliases    | Wikidata QID                                          |
-    | :-------: | :--------: | :----------------------------------: | :--------: | :---------------------------------------------------: |
-    | 9tZzpwmB  | clavichord | stringed keyboard musical instrument | clavichord | [clavichord](http://wwww.wikidata.org/entity/Q191823) |
+    | FAAM UUID | label      | description                          | aliases    | Wikidata QID                                     |
+    | :-------: | :--------: | :----------------------------------: | :--------: | :----------------------------------------------: |
+    | 9tZzpwmB  | clavichord | stringed keyboard musical instrument | clavichord | [clavichord](http://wikidata.org/entity/Q191823) |
 
 <br><br><br>
 
@@ -31,23 +35,23 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./E2Sb746q.md)
+	- [musical instrument](./E2Sb746q.md)
 
-	- [](./6TY5Zuvd.md)
+	- [true board zithers with resonator box](./6TY5Zuvd.md)
 
-	- [](./fvXzxcgy.md)
+	- [struck string instrument](./fvXzxcgy.md)
 
 	- [keyboard instrument](./L9szjsBt.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/9tZzpwmB.html" height="800" width="1200" title="9tZzpwmB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9tZzpwmB" height="800" width="1200" title="9tZzpwmB"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: musical_instrument
 
 -	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
 
 	Austrian composer of the Classical period (1756–1791)
 
@@ -69,7 +73,7 @@ tags: musical_instrument
 
 -	__[Violet Gordon-Woodhouse](./b2nGBPKP.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/00/Violet_Gordon_Woodhouse_circa_1900.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Violet_Gordon_Woodhouse_circa_1900.jpg){align=left width="150" height="150"} 
 
 	British harpsichordist and clavichordist (1872–1948)
 

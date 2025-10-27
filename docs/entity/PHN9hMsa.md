@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PHN9hMsa
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description              | aliases     | Wikidata QID                                            |
-    | :-------: | :-----------: | :----------------------: | :---------: | :-----------------------------------------------------: |
-    | PHN9hMsa  | Saint-Étienne | commune in Loire, France | St. Etienne | [Saint-Étienne](http://wwww.wikidata.org/entity/Q42716) |
+    | FAAM UUID | label         | description              | aliases     | Wikidata QID                                       |
+    | :-------: | :-----------: | :----------------------: | :---------: | :------------------------------------------------: |
+    | PHN9hMsa  | Saint-Étienne | commune in Loire, France | St. Etienne | [Saint-Étienne](http://wikidata.org/entity/Q42716) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/PHN9hMsa.html" height="800" width="1200" title="PHN9hMsa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PHN9hMsa" height="800" width="1200" title="PHN9hMsa"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Jean-Baptiste Thibaut](./PmGtP6Kh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French theologian (1872-1937)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: msg4Ys3v
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                    | aliases       | Wikidata QID                                             |
-    | :-------: | :-----------: | :----------------------------: | :-----------: | :------------------------------------------------------: |
-    | msg4Ys3v  | Opéra-Comique | opera company in Paris, France | Opera-Comique | [Opéra-Comique](http://wwww.wikidata.org/entity/Q872222) |
+    | FAAM UUID | label         | description                    | aliases       | Wikidata QID                                        |
+    | :-------: | :-----------: | :----------------------------: | :-----------: | :-------------------------------------------------: |
+    | msg4Ys3v  | Opéra-Comique | opera company in Paris, France | Opera-Comique | [Opéra-Comique](http://wikidata.org/entity/Q872222) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/msg4Ys3v.html" height="800" width="1200" title="msg4Ys3v"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/msg4Ys3v" height="800" width="1200" title="msg4Ys3v"></iframe>
 
 ## Cross-references
 

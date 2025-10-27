@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Cx5HEx8r a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1856-06-08"^^xsd:string ;
+    schema1:birthPlace faamentity:NgC5aAC5 ;
+    schema1:deathDate "1924-01-09"^^xsd:string ;
+    schema1:deathPlace faamentity:FzyWhUYQ ;
+    schema1:description "French choreographer and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q16855465>,
+        "16005350"^^xsd:string,
+        "Cx5HEx8r"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Antoine Banès"^^xsd:string ;
+    skos:prefLabel "Antoine Banès"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:64272899 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Banès,_Antoine> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:kTo2uTWZ .
+

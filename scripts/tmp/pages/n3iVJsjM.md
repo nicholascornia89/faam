@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: n3iVJsjM
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                  | aliases | Wikidata QID                                              |
-    | :-------: | :-------------: | :--------------------------: | :-----: | :-------------------------------------------------------: |
-    | n3iVJsjM  | Nottinghamshire | ceremonial county of England | Notts   | [Nottinghamshire](http://wwww.wikidata.org/entity/Q23092) |
+    | FAAM UUID | label           | description                  | aliases | Wikidata QID                                         |
+    | :-------: | :-------------: | :--------------------------: | :-----: | :--------------------------------------------------: |
+    | n3iVJsjM  | Nottinghamshire | ceremonial county of England | Notts   | [Nottinghamshire](http://wikidata.org/entity/Q23092) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/n3iVJsjM.html" height="800" width="1200" title="n3iVJsjM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/n3iVJsjM" height="800" width="1200" title="n3iVJsjM"></iframe>
 
 ## Identifiers
 

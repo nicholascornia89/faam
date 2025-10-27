@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6eZ98ERo
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901761509/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6eZ98ERo.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6eZ98ERo.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6eZ98ERo.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901761509/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6eZ98ERo.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6eZ98ERo.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6eZ98ERo.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901761509.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901761509.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                           | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 6eZ98ERo  | KCA-030901761509      | Alma redemptoris mater : antienne à 4 voix à la Très Sainte Vierge : pour le temps de l'avent à la purification | [external URL](2qoBxv5j) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                           | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 6eZ98ERo  | KCA-030901761509      | Alma redemptoris mater : antienne à 4 voix à la Très Sainte Vierge : pour le temps de l'avent à la purification | [external URL](https://anet.be/record/opacdkvc/c:lvd:7048592/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -94,10 +98,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/6eZ98ERo.html" height="800" width="1200" title="6eZ98ERo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6eZ98ERo" height="800" width="1200" title="6eZ98ERo"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/6eZ98ERo.html" height="800" width="1200" title="6eZ98ERo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/6eZ98ERo" height="800" width="1200" title="6eZ98ERo"></iframe>

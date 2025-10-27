@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TdLhHa5t
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                         | aliases | Wikidata QID                                           |
-    | :-------: | :-------: | :---------------------------------: | :-----: | :----------------------------------------------------: |
-    | TdLhHa5t  | Oudewater | human settlement in the Netherlands |         | [Oudewater](http://wwww.wikidata.org/entity/Q33470616) |
+    | FAAM UUID | label     | description                         | aliases | Wikidata QID                                      |
+    | :-------: | :-------: | :---------------------------------: | :-----: | :-----------------------------------------------: |
+    | TdLhHa5t  | Oudewater | human settlement in the Netherlands |         | [Oudewater](http://wikidata.org/entity/Q33470616) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TdLhHa5t.html" height="800" width="1200" title="TdLhHa5t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TdLhHa5t" height="800" width="1200" title="TdLhHa5t"></iframe>
 
 ## Identifiers
 

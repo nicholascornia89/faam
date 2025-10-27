@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DcPNiRN6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DcPNiRN6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DcPNiRN6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DcPNiRN6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DcPNiRN6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DcPNiRN6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DcPNiRN6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Perosi.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :--------------------------: | :-------------------------------------------------------: |
-    | DcPNiRN6  | Lorenzo Perosi | Lorenzo Perosi | Italian composer (1872–1956) | [Lorenzo Perosi](http://wwww.wikidata.org/entity/Q590512) |
+    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :--------------------------: | :--------------------------------------------------: |
+    | DcPNiRN6  | Lorenzo Perosi | Lorenzo Perosi | Italian composer (1872–1956) | [Lorenzo Perosi](http://wikidata.org/entity/Q590512) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DcPNiRN6.html" height="800" width="1200" title="DcPNiRN6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DcPNiRN6" height="800" width="1200" title="DcPNiRN6"></iframe>
 
 ## Identifiers
 

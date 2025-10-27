@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8ziidhix
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8ziidhix.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8ziidhix.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8ziidhix.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8ziidhix.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8ziidhix.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8ziidhix.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases             | description | Wikidata QID                                                   |
-    | :-------: | :--------------: | :-----------------: | :---------: | :------------------------------------------------------------: |
-    | 8ziidhix  | Henry de Puymaly | F. Henry de Puymaly | French poet | [Henry de Puymaly](http://wwww.wikidata.org/entity/Q122581609) |
+    | FAAM UUID | label            | aliases             | description | Wikidata QID                                              |
+    | :-------: | :--------------: | :-----------------: | :---------: | :-------------------------------------------------------: |
+    | 8ziidhix  | Henry de Puymaly | F. Henry de Puymaly | French poet | [Henry de Puymaly](http://wikidata.org/entity/Q122581609) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8ziidhix.html" height="800" width="1200" title="8ziidhix"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8ziidhix" height="800" width="1200" title="8ziidhix"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: agent
 
 -	__[Hymne au roi (des belges) : air de concert : tenor ou mez. sop.](./C7d2FYyC.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902584041.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902584041.gif){align=left width="150" height="150"} 
 
 	
 

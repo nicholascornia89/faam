@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: juaA5CtZ
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                                                      | aliases | Wikidata QID                                                         |
-    | :-------: | :------------------------: | :--------------------------------------------------------------: | :-----: | :------------------------------------------------------------------: |
-    | juaA5CtZ  | German Democratic Republic | 1949–1990 country in central Europe, unified into modern Germany | GDR     | [German Democratic Republic](http://wwww.wikidata.org/entity/Q16957) |
+    | FAAM UUID | label                      | description                                                      | aliases | Wikidata QID                                                    |
+    | :-------: | :------------------------: | :--------------------------------------------------------------: | :-----: | :-------------------------------------------------------------: |
+    | juaA5CtZ  | German Democratic Republic | 1949–1990 country in central Europe, unified into modern Germany | GDR     | [German Democratic Republic](http://wikidata.org/entity/Q16957) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/juaA5CtZ.html" height="800" width="1200" title="juaA5CtZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/juaA5CtZ" height="800" width="1200" title="juaA5CtZ"></iframe>
 
 ## Identifiers
 

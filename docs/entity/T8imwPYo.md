@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: T8imwPYo
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                             | aliases       | Wikidata QID                                              |
-    | :-------: | :------------: | :-------------------------------------: | :-----------: | :-------------------------------------------------------: |
-    | T8imwPYo  | music of Spain | overview of musical traditions in Spain | Spanish music | [music of Spain](http://wwww.wikidata.org/entity/Q964987) |
+    | FAAM UUID | label          | description                             | aliases       | Wikidata QID                                         |
+    | :-------: | :------------: | :-------------------------------------: | :-----------: | :--------------------------------------------------: |
+    | T8imwPYo  | music of Spain | overview of musical traditions in Spain | Spanish music | [music of Spain](http://wikidata.org/entity/Q964987) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/T8imwPYo.html" height="800" width="1200" title="T8imwPYo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/T8imwPYo" height="800" width="1200" title="T8imwPYo"></iframe>
 
 ## Cross-references
 
@@ -39,19 +43,19 @@ tags: keyword
 
 -	__[Fantaisie en Trio : Sur un Air Espagnol : Composée pour Piano haut-bois & Basson](./7YSFtSr4.md)__
 
-	![Image](../assets/images/thumbs/KCG-000337150.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000337150.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alborada del gracioso](./ipCwmsxc.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903088141.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903088141.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alborada del gracioso](./87ghipnH.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902377727.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902377727.gif){align=left width="150" height="150"} 
 
 	
 

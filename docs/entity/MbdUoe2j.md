@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MbdUoe2j
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | aliases                         | description                            | Wikidata QID                                                                |
-    | :-------: | :-----------------------------------: | :-----------------------------: | :------------------------------------: | :-------------------------------------------------------------------------: |
-    | MbdUoe2j  | Pavane pour une infante défunte, M.19 | Pavane pour une infante défunte | composition for piano by Maurice Ravel | [Pavane pour une infante défunte](http://wwww.wikidata.org/entity/Q2271923) |
+    | FAAM UUID | label                                 | aliases                         | description                            | Wikidata QID                                                           |
+    | :-------: | :-----------------------------------: | :-----------------------------: | :------------------------------------: | :--------------------------------------------------------------------: |
+    | MbdUoe2j  | Pavane pour une infante défunte, M.19 | Pavane pour une infante défunte | composition for piano by Maurice Ravel | [Pavane pour une infante défunte](http://wikidata.org/entity/Q2271923) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/MbdUoe2j.html" height="800" width="1200" title="MbdUoe2j"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MbdUoe2j" height="800" width="1200" title="MbdUoe2j"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Pavane : pour une infante défunte : pour piano](./PjTHiJNq.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902737524.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902737524.gif){align=left width="150" height="150"} 
 
 	
 

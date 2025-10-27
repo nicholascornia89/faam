@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4gRyjpMr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                          | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :----------------------------------: | :-----: | :----------------------------------------------: |
-    | 4gRyjpMr  | Burano | island in the Venetian Lagoon, Italy |         | [Burano](http://wwww.wikidata.org/entity/Q52439) |
+    | FAAM UUID | label  | description                          | aliases | Wikidata QID                                |
+    | :-------: | :----: | :----------------------------------: | :-----: | :-----------------------------------------: |
+    | 4gRyjpMr  | Burano | island in the Venetian Lagoon, Italy |         | [Burano](http://wikidata.org/entity/Q52439) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4gRyjpMr.html" height="800" width="1200" title="4gRyjpMr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4gRyjpMr" height="800" width="1200" title="4gRyjpMr"></iframe>
 
 ## Identifiers
 

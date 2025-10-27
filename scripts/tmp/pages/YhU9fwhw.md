@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YhU9fwhw
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                                                  | aliases | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------------------: |
-    | YhU9fwhw  | Sankt Georgen im Attergau | municipality in Vöcklabruck District, Upper Austria, Austria |         | [Sankt Georgen im Attergau](http://wwww.wikidata.org/entity/Q680468) |
+    | FAAM UUID | label                     | description                                                  | aliases | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :----------------------------------------------------------: | :-----: | :-------------------------------------------------------------: |
+    | YhU9fwhw  | Sankt Georgen im Attergau | municipality in Vöcklabruck District, Upper Austria, Austria |         | [Sankt Georgen im Attergau](http://wikidata.org/entity/Q680468) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YhU9fwhw.html" height="800" width="1200" title="YhU9fwhw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YhU9fwhw" height="800" width="1200" title="YhU9fwhw"></iframe>
 
 ## Identifiers
 

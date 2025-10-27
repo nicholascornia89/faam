@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: a3XFSh3H
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/a3XFSh3H.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/a3XFSh3H.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/a3XFSh3H.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/a3XFSh3H.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/a3XFSh3H.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/a3XFSh3H.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-----: | :---------: | :----------------------------------------------------------: |
-    | a3XFSh3H  | Gustave Legouix |         |             | [Gustave Legouix](http://wwww.wikidata.org/entity/Q99031987) |
+    | FAAM UUID | label           | aliases | description | Wikidata QID                                            |
+    | :-------: | :-------------: | :-----: | :---------: | :-----------------------------------------------------: |
+    | a3XFSh3H  | Gustave Legouix |         |             | [Gustave Legouix](http://wikidata.org/entity/Q99031987) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/a3XFSh3H.html" height="800" width="1200" title="a3XFSh3H"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/a3XFSh3H" height="800" width="1200" title="a3XFSh3H"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: agent
 
 -	__[Grand duo brillant op.20: pour violon et violoncelle](./CyAhNHDj.md)__
 
-	![Image](../assets/images/thumbs/KCA-SD109991.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-SD109991.gif){align=left width="150" height="150"} 
 
 	
 

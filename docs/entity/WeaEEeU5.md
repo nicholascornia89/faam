@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WeaEEeU5
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                               | aliases       | Wikidata QID                                           |
-    | :-------: | :---: | :---------------------------------------: | :-----------: | :----------------------------------------------------: |
-    | WeaEEeU5  | Halle | city in the German state of Saxony-Anhalt | Halle (Saale) | [Halle (Saale)](http://wwww.wikidata.org/entity/Q2814) |
+    | FAAM UUID | label | description                               | aliases       | Wikidata QID                                      |
+    | :-------: | :---: | :---------------------------------------: | :-----------: | :-----------------------------------------------: |
+    | WeaEEeU5  | Halle | city in the German state of Saxony-Anhalt | Halle (Saale) | [Halle (Saale)](http://wikidata.org/entity/Q2814) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/WeaEEeU5.html" height="800" width="1200" title="WeaEEeU5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WeaEEeU5" height="800" width="1200" title="WeaEEeU5"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: city
 
 -	__[Friedrich Whistling](./a6WmY75X.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German music publisher
 
@@ -85,7 +89,7 @@ tags: city
 
 -	__[Friedrich Wilhelm Zachow](./9SNg4hjN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 

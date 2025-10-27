@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gZhauet7
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases             | description                   | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :-----------------: | :---------------------------: | :-------------------------------------------------------------: |
-    | gZhauet7  | Hippolyte et Aricie | Hippolyte et Aricie | opera by Jean-Philippe Rameau | [Hippolyte et Aricie](http://wwww.wikidata.org/entity/Q1376211) |
+    | FAAM UUID | label               | aliases             | description                   | Wikidata QID                                               |
+    | :-------: | :-----------------: | :-----------------: | :---------------------------: | :--------------------------------------------------------: |
+    | gZhauet7  | Hippolyte et Aricie | Hippolyte et Aricie | opera by Jean-Philippe Rameau | [Hippolyte et Aricie](http://wikidata.org/entity/Q1376211) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./WjbqsK8A.md)
+	- [Phèdre](./WjbqsK8A.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/gZhauet7.html" height="800" width="1200" title="gZhauet7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gZhauet7" height="800" width="1200" title="gZhauet7"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: musical_work
 
 -	__[Échos du temps passé.](./eiDYWXvf.md)__
 
-	![Image](../assets/images/thumbs/UTL-978130914.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/UTL-978130914.gif){align=left width="150" height="150"} 
 
 	
 

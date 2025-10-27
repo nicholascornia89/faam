@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:o5HxTGRV a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "university in Italy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q820887>,
+        "15991060"^^xsd:string,
+        "o5HxTGRV"^^xsd:string ;
+    schema1:location faamentity:Wk99hCAF,
+        faamentity:fj46nffV ;
+    skos:altLabel "UNIFI"^^xsd:string,
+        "UniFI"^^xsd:string,
+        "Universita degli studi di Firenze"^^xsd:string,
+        "University of Florence"^^xsd:string,
+        "Università degli studi di Firenze"^^xsd:string,
+        "unifi.it"^^xsd:string ;
+    skos:prefLabel "University of Florence"^^xsd:string .
+

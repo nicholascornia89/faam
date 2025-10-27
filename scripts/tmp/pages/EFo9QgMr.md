@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EFo9QgMr
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EFo9QgMr.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EFo9QgMr.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EFo9QgMr.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EFo9QgMr.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EFo9QgMr.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EFo9QgMr.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases                         | description                                     | Wikidata QID                                                   |
-    | :-------: | :----------------: | :-----------------------------: | :---------------------------------------------: | :------------------------------------------------------------: |
-    | EFo9QgMr  | Stanislas Verroust | Louis Stanislas Xavier Verroust | French composer, teacher and oboist (1814-1863) | [Stanislas Verroust](http://wwww.wikidata.org/entity/Q3496711) |
+    | FAAM UUID | label              | aliases                         | description                                     | Wikidata QID                                              |
+    | :-------: | :----------------: | :-----------------------------: | :---------------------------------------------: | :-------------------------------------------------------: |
+    | EFo9QgMr  | Stanislas Verroust | Louis Stanislas Xavier Verroust | French composer, teacher and oboist (1814-1863) | [Stanislas Verroust](http://wikidata.org/entity/Q3496711) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./FPRyBmX6.md)
+	- [oboist](./FPRyBmX6.md)
 
 	- [composer](./5aTYuVxp.md)
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/EFo9QgMr.html" height="800" width="1200" title="EFo9QgMr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EFo9QgMr" height="800" width="1200" title="EFo9QgMr"></iframe>
 
 ## Identifiers
 

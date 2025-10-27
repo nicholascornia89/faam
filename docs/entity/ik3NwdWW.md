@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ik3NwdWW
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                                 | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :-------------------------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | ik3NwdWW  | motet | one of the most important forms of polyphonic music from about 1220 to 1750 | motet   | [motet](http://wwww.wikidata.org/entity/Q188285) |
+    | FAAM UUID | label | description                                                                 | aliases | Wikidata QID                                |
+    | :-------: | :---: | :-------------------------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | ik3NwdWW  | motet | one of the most important forms of polyphonic music from about 1220 to 1750 | motet   | [motet](http://wikidata.org/entity/Q188285) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/ik3NwdWW.html" height="800" width="1200" title="ik3NwdWW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ik3NwdWW" height="800" width="1200" title="ik3NwdWW"></iframe>
 
 ## Cross-references
 
@@ -39,277 +43,277 @@ tags: keyword
 
 -	__[Zes Latijnse lofgeVoiceen : 2 en 3 gelijke stemmen](./7rBoR88j.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903770292.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903770292.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Dominus conserveteum : à 4 voix](./Vi4x7qtG.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904383624.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904383624.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[In nomine Jesu: baryton](./RhwDsWwR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902519450.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902519450.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[In nomine Jesu: baryton](./YToRHGts.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902606158.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902606158.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Psaume 18](./R3y53rZM.md)__
 
-	![Image](../assets/images/thumbs/KCG-000355794.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000355794.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alma redemptoris mater : antienne à 4 voix à la Très Sainte Vierge : pour le temps de l'avent à la purification](./6eZ98ERo.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901761509.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901761509.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)](./4MMhcBUy.md)__
 
-	![Image](../assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia](./iFkRR5rr.md)__
 
-	![Image](../assets/images/thumbs/SLD-512657440.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SLD-512657440.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne : executés aux concerts de la Sociéte de musique vocale religieuse et classique fondée a Paris en 1843 [...] sous la direction de Mr. le Prince de la Moskowa. [Deuxième volume, Nr 8-20]](./Mdtc39Ji.md)__
 
-	![Image](../assets/images/thumbs/KMN-100549.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KMN-100549.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Liber motettorum. 3: Nr. XVII - XXIV](./dvhNVzZ2.md)__
 
-	![Image](../assets/images/thumbs/BSB-991099188989707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991099188989707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Musica divina: sive thesaurus concentuum selectissimorum omni cultui divino totius anni juxta ritum sanctae ecclesiae catholicae inservientium: ab excellentissimis superioris aevi musicis numeris harmonicis compositorum. 2,3: Liber motettorum, Sectio III](./SQVug9ib.md)__
 
-	![Image](../assets/images/thumbs/BSB-991062688259707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991062688259707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Stabat mater: Motette für zwei Chöre a capella](./GLj3FFJS.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078132959707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078132959707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Philippi de Monte. Motetum "O bone Jesu" tripartitum](./YpMGRYt3.md)__
 
-	![Image](../assets/images/thumbs/KCG-39.OP.OM.deMonte24.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-39.OP.OM.deMonte24.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893](./SGrwmsQj.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[[Convoluut]](./4bA7mJfo.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902645172.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902645172.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne. [Huitième volume] [Música notada] :exécutés aux concerts de la Société de Musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage de Mesdames La Mle. Duchesse d'Albufera ... et sous la Direction de Mr. Le Prince de la Moskowa](./PwXQpZ3V.md)__
 
-	![Image](../assets/images/thumbs/BNE-bdh0000161243.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNE-bdh0000161243.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne. [Septième volume] [Música notada] :exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage de Mesdames La Mle. Duchesse d'Albufera ... et sous la Direction de Mr. Le Prince de la Moskowa](./4ejLY7JX.md)__
 
-	![Image](../assets/images/thumbs/BNE-bdh0000161242.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNE-bdh0000161242.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne. [Sixième volume] [Música notada] :exécutés aux concerts de la Société de musique vocale, religieuse et classique, fondée à Paris en 1843 sous le patronage de Mesdames La Mle. Duchesse d'Albufera ... et sous la direction de Mr. Le Prince de la Moskowa](./eSVbkG3u.md)__
 
-	![Image](../assets/images/thumbs/BNE-bdh0000161241.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNE-bdh0000161241.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne. [onzième volume] [Música notada] :exécutés aux concerts de la Société de Musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage des Mesdames la Mle. Duchesse d'Albufera ... et sous la direction de M. Le Prince de la Moskova](./ALRvk7kh.md)__
 
-	![Image](../assets/images/thumbs/BNE-bdh0000161254.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNE-bdh0000161254.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne. [Quatrième volume] [Música notada] :exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage de Mesdames La Mle. Duchesse d'Albufera ... et sous la Direction de Mr. Le Prince de la Moskowa](./gRZFBjKu.md)__
 
-	![Image](../assets/images/thumbs/BNE-bdh0000138923.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNE-bdh0000138923.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne. [Cinquième volume] [Música notada] :exécutés aux concerts de la Société de Musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage de Mesdames La Mle. Duchesse d'Albufera ... et sous la Direction de Mr. Le Prince de la Moskowa](./nyaytsgt.md)__
 
-	![Image](../assets/images/thumbs/BNE-bdh0000138940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNE-bdh0000138940.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Magnificat (in D-dur)](./JadywWNZ.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076581699707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076581699707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tota Pulchra Es. 3 voces aequalium, organo ad libitum](./o7NY8qkU.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502002.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502002.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quatuor motetta ad laudes Vesperatinas. Duabis vocius comitante organo](./KMXPXePm.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502011.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502011.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Duo motetta (Tota pulchra es - Regina coeli). Ad tres voces aequales comitante organo](./WDxpPhMm.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502015.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502015.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ave verum. Ad duas voces aequales comitante organo](./b3Rxq29c.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502016.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502016.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[In honorem Coredemptricis Generis Humani. 1. Magnificat (ad 2 voc. aeq. et org.). 2. Stabat Mater (ad 3 voc. aeq. et org.). Op. 113 & 114](./FEyVibzQ.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502017.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502017.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pie Pellicane. Tota pulcra. Laudate pueri. Ad duas voces aequales comitante organo. Op. 135-136](./4SDNDRGF.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502018.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502018.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tria motetta 1 vocis comitante organo](./X2Visdqe.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502019.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502019.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Duo motetta (Ave verum - Sub tuum). Ad tres voces aequales cum organo ad libitum](./39h8BH9C.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502020.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502020.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tria motetta ad Benedictionem Sanctissimi Sacramenti. Ave verum. Ave Maria. Tantum ergo](./cNsCgtEs.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502021.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502021.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ave Maria. Ad duas voces aequales comitante organo](./eYfpVzbV.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502022.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502022.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Luades ac gratiae. Motettum in hon. Smi Sacramenti, ad duas voces aequales comitante organo](./YoEYiiiA.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502023.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502023.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Antiphonae. In honorem Beatae Mariae Virginis. Op. 32](./3HpJci6a.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502026.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502026.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tria Cantica Sacra. Comitante organo](./oAwFJ9Nx.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502028.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502028.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Duo cantus mariani. Ad quatuor voces inaequales comitante organo](./HGZxDd67.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502031.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502031.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Memorare. 3 vocum aequalium, organo ad libitum](./br2GPo6g.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502036.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502036.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Audi Filia. Motet à 4 voix mixtes pour la fête d'une vierge.](./YUmVZKqo.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502037.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502037.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alleluia. Op. 23](./MBuqiqwv.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502038.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502038.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Quarte Antiennes de la Ste Vierge. pour deux voix égales et orgue.](./2RMXJBjC.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502043.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502043.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Jesu dulcis memoria](./Q6CvinVf.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502044.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502044.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Homo quidam. puor trois voix mixtes et orgue.](./Jphw9LHb.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502047.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502047.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tota Pulchra Es. Motet en l'honneur de la T.S. Vierge. à 3 voix égales et orgue.](./agEGZJpx.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502051.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502051.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Immaculata conceptio est. Motet en 'honneur de la T.S. Vierge. à 3 voix égales et orgue.](./UAJmUH8x.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502052.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502052.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Diffusa est gratia. Motet en 'honneur de la T.S. Vierge. à 3 voix égales et orgue.](./4A7CXbtq.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502053.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502053.gif){align=left width="150" height="150"} 
 
 	
 

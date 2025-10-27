@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MVLRXXFR a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "any unspecified or undetermined member of the clarinet family"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q8343>,
+        "15990800"^^xsd:string,
+        "MVLRXXFR"^^xsd:string ;
+    skos:altLabel "clarinet"^^xsd:string ;
+    skos:prefLabel "clarinet"^^xsd:string ;
+    wd:P279 faamentity:Pb3iQSY7,
+        faamentity:jR8uTqhp ;
+    wd:P31 faamentity:BnwWc34X,
+        faamentity:dSq7JTyF .
+

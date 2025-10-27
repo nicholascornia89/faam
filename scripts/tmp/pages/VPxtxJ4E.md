@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VPxtxJ4E
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases     | description                                      | Wikidata QID                                                        |
-    | :-------: | :--------------------: | :---------: | :----------------------------------------------: | :-----------------------------------------------------------------: |
-    | VPxtxJ4E  | Twelve Little Preludes | BWV 924–930 | 19th-century compilation of short musical pieces | [Twelve Little Preludes](http://wwww.wikidata.org/entity/Q27957934) |
+    | FAAM UUID | label                  | aliases     | description                                      | Wikidata QID                                                   |
+    | :-------: | :--------------------: | :---------: | :----------------------------------------------: | :------------------------------------------------------------: |
+    | VPxtxJ4E  | Twelve Little Preludes | BWV 924–930 | 19th-century compilation of short musical pieces | [Twelve Little Preludes](http://wikidata.org/entity/Q27957934) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/VPxtxJ4E.html" height="800" width="1200" title="VPxtxJ4E"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VPxtxJ4E" height="800" width="1200" title="VPxtxJ4E"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[12 petits préludes : pour piano à 2 mains = 12 kleine preluden : voor piano met 2 handen](./Jg3RV97U.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903238001.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903238001.gif){align=left width="150" height="150"} 
 
 	
 

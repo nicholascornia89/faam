@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gGDDnuWi", "label": "Alfred Moffat", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gGDDnuWi.md\u0027\u003eAlfred Moffat\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish musician and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KmPGztnu", "label": "United Kingdom", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KmPGztnu.md\u0027\u003eUnited Kingdom\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in north-west Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "neyfxrfu", "label": "Edinburgh", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./neyfxrfu.md\u0027\u003eEdinburgh\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city of Scotland, UK\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bDoAvKvc", "label": "Blackwood \u0026 Sons", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bDoAvKvc.md\u0027\u003eBlackwood \u0026 Sons\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish publishing house\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Blackwood\u0027s_Edinburgh_Magazine_XXV_1829.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2qSrGT5p", "label": "Niccolo Pasquali", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2qSrGT5p.md\u0027\u003eNiccolo Pasquali\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian music theorist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fnwvXE54", "label": "George Buchanan", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fnwvXE54.md\u0027\u003eGeorge Buchanan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish historian and humanist scholar; (1506-1582)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anonymous_-_George_Buchanan_(Se\u00f2ras_Bochanan),_1506_-_1582._Historian,_poet_and_reformer_-_PG_2678_-_National_Galleries_of_Scotland.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "gGDDnuWi", "to": "KmPGztnu", "width": 10}, {"from": "gGDDnuWi", "to": "neyfxrfu", "width": 10}, {"from": "KmPGztnu", "to": "neyfxrfu", "width": 10}, {"from": "KmPGztnu", "to": "bDoAvKvc", "width": 10}, {"from": "neyfxrfu", "to": "2qSrGT5p", "width": 10}, {"from": "neyfxrfu", "to": "fnwvXE54", "width": 10}, {"from": "neyfxrfu", "to": "bDoAvKvc", "width": 5}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KmPGztnu", "label": "United Kingdom", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KmPGztnu\u0027\u003eUnited Kingdom\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in north-west Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "neyfxrfu", "label": "Edinburgh", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/neyfxrfu\u0027\u003eEdinburgh\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city of Scotland, UK\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gGDDnuWi", "label": "Alfred Moffat", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gGDDnuWi\u0027\u003eAlfred Moffat\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish musician and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bDoAvKvc", "label": "Blackwood \u0026 Sons", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bDoAvKvc\u0027\u003eBlackwood \u0026 Sons\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish publishing house\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Blackwood\u0027s_Edinburgh_Magazine_XXV_1829.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fnwvXE54", "label": "George Buchanan", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fnwvXE54\u0027\u003eGeorge Buchanan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish historian and humanist scholar; (1506-1582)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anonymous_-_George_Buchanan_(Se\u00f2ras_Bochanan),_1506_-_1582._Historian,_poet_and_reformer_-_PG_2678_-_National_Galleries_of_Scotland.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2qSrGT5p", "label": "Niccolo Pasquali", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2qSrGT5p\u0027\u003eNiccolo Pasquali\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian music theorist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "KmPGztnu", "to": "neyfxrfu", "width": 10}, {"from": "KmPGztnu", "to": "gGDDnuWi", "width": 10}, {"from": "KmPGztnu", "to": "bDoAvKvc", "width": 10}, {"from": "fnwvXE54", "to": "neyfxrfu", "width": 10}, {"from": "gGDDnuWi", "to": "neyfxrfu", "width": 10}, {"from": "bDoAvKvc", "to": "neyfxrfu", "width": 5}, {"from": "neyfxrfu", "to": "2qSrGT5p", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

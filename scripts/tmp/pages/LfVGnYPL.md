@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LfVGnYPL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LfVGnYPL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LfVGnYPL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LfVGnYPL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LfVGnYPL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LfVGnYPL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LfVGnYPL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description     | Wikidata QID                                                  |
-    | :-------: | :-------------: | :-------------: | :-------------: | :-----------------------------------------------------------: |
-    | LfVGnYPL  | Alexandre Scola | Alexandre Scola | French composer | [Alexandre Scola](http://wwww.wikidata.org/entity/Q126896703) |
+    | FAAM UUID | label           | aliases         | description     | Wikidata QID                                             |
+    | :-------: | :-------------: | :-------------: | :-------------: | :------------------------------------------------------: |
+    | LfVGnYPL  | Alexandre Scola | Alexandre Scola | French composer | [Alexandre Scola](http://wikidata.org/entity/Q126896703) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/LfVGnYPL.html" height="800" width="1200" title="LfVGnYPL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LfVGnYPL" height="800" width="1200" title="LfVGnYPL"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: agent
 
 -	__[Ninon](./DcW9inHf.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p43.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p43.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iqQKEw9R
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/iqQKEw9R.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/iqQKEw9R.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/iqQKEw9R.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/iqQKEw9R.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/iqQKEw9R.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/iqQKEw9R.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases | description                                | Wikidata QID                                                       |
-    | :-------: | :----------------------: | :-----: | :----------------------------------------: | :----------------------------------------------------------------: |
-    | iqQKEw9R  | Friedrich Wilhelm Berner |         | German musician, composer and musicologist | [Friedrich Wilhelm Berner](http://wwww.wikidata.org/entity/Q96776) |
+    | FAAM UUID | label                    | aliases | description                                | Wikidata QID                                                  |
+    | :-------: | :----------------------: | :-----: | :----------------------------------------: | :-----------------------------------------------------------: |
+    | iqQKEw9R  | Friedrich Wilhelm Berner |         | German musician, composer and musicologist | [Friedrich Wilhelm Berner](http://wikidata.org/entity/Q96776) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/iqQKEw9R.html" height="800" width="1200" title="iqQKEw9R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iqQKEw9R" height="800" width="1200" title="iqQKEw9R"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Adolph Friedrich Hesse](./HHFWHpwD.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolf_Hesse.jpg){align=left width="150" height="150"} 
+
+	German organist and composer (1809-1863)
+
+</div>

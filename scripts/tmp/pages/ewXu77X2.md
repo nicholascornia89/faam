@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ewXu77X2
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000349274/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ewXu77X2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ewXu77X2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ewXu77X2.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000349274/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ewXu77X2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ewXu77X2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ewXu77X2.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000349274.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000349274.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                 | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | ewXu77X2  | KCG-000349274         | Variations : sur le trio favori Du Pré aux Clercs : voor piano enOrchestra : Opus 76. | [external URL](9tkKrhbM) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                 | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | ewXu77X2  | KCG-000349274         | Variations : sur le trio favori Du Pré aux Clercs : voor piano enOrchestra : Opus 76. | [external URL](https://catalogus.hogent.be/catalog/hog01:000349274) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/ewXu77X2.html" height="800" width="1200" title="ewXu77X2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ewXu77X2" height="800" width="1200" title="ewXu77X2"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/ewXu77X2.html" height="800" width="1200" title="ewXu77X2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/ewXu77X2" height="800" width="1200" title="ewXu77X2"></iframe>

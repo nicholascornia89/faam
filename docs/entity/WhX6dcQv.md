@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WhX6dcQv
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20134135/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WhX6dcQv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WhX6dcQv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WhX6dcQv.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20134135/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WhX6dcQv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WhX6dcQv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WhX6dcQv.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20134135.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20134135.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                               | permalink                | provenance                         |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :--------------------------------: |
-    | WhX6dcQv  | ORP-20134135          | Harmonia Sacra or Divine Hymns and Dialogues : with a Thorow Bass for the Theorbo-Lute, Bass Viol, Harpsichord, or Organ. vols. 1-2 | [external URL](eSzqVmee) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                               | permalink                                                                                           | provenance                         |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | WhX6dcQv  | ORP-20134135          | Harmonia Sacra or Divine Hymns and Dialogues : with a Thorow Bass for the Theorbo-Lute, Bass Viol, Harpsichord, or Organ. vols. 1-2 | [external URL](https://koha.orpheusinstituut.be/cgi-bin/koha/catalogue/detail.pl?biblionumber=1637) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "note" 
 
@@ -91,10 +95,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/WhX6dcQv.html" height="800" width="1200" title="WhX6dcQv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WhX6dcQv" height="800" width="1200" title="WhX6dcQv"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/WhX6dcQv.html" height="800" width="1200" title="WhX6dcQv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/WhX6dcQv" height="800" width="1200" title="WhX6dcQv"></iframe>

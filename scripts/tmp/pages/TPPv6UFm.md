@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TPPv6UFm
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description    | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :------------: | :-----: | :-----------------------------------------------: |
-    | TPPv6UFm  | Amantea | Italian comune |         | [Amantea](http://wwww.wikidata.org/entity/Q53827) |
+    | FAAM UUID | label   | description    | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :------------: | :-----: | :------------------------------------------: |
+    | TPPv6UFm  | Amantea | Italian comune |         | [Amantea](http://wikidata.org/entity/Q53827) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TPPv6UFm.html" height="800" width="1200" title="TPPv6UFm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TPPv6UFm" height="800" width="1200" title="TPPv6UFm"></iframe>
 
 ## Identifiers
 

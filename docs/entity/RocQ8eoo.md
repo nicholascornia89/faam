@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RocQ8eoo
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                                      | aliases  | Wikidata QID                                      |
-    | :-------: | :-----: | :------------------------------------------------------------------------------: | :------: | :-----------------------------------------------: |
-    | RocQ8eoo  | Prussia | common term for the Duchy, the Kingdom and the Free State of Prussia (1525–1947) | Preussen | [Prussia](http://wwww.wikidata.org/entity/Q38872) |
+    | FAAM UUID | label   | description                                                                      | aliases  | Wikidata QID                                 |
+    | :-------: | :-----: | :------------------------------------------------------------------------------: | :------: | :------------------------------------------: |
+    | RocQ8eoo  | Prussia | common term for the Duchy, the Kingdom and the Free State of Prussia (1525–1947) | Preussen | [Prussia](http://wikidata.org/entity/Q38872) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/RocQ8eoo.html" height="800" width="1200" title="RocQ8eoo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RocQ8eoo" height="800" width="1200" title="RocQ8eoo"></iframe>
 
 ## Identifiers
 

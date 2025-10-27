@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aPSw7Qx2
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | description               | aliases | Wikidata QID                                                                        |
-    | :-------: | :-----------------------------------: | :-----------------------: | :-----: | :---------------------------------------------------------------------------------: |
-    | aPSw7Qx2  | Episcopal College Our-Lady Ter Duinen | catholic school in Bruges |         | [Episcopal College Our-Lady Ter Duinen](http://wwww.wikidata.org/entity/Q118351827) |
+    | FAAM UUID | label                                 | description               | aliases | Wikidata QID                                                                   |
+    | :-------: | :-----------------------------------: | :-----------------------: | :-----: | :----------------------------------------------------------------------------: |
+    | aPSw7Qx2  | Episcopal College Our-Lady Ter Duinen | catholic school in Bruges |         | [Episcopal College Our-Lady Ter Duinen](http://wikidata.org/entity/Q118351827) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/aPSw7Qx2.html" height="800" width="1200" title="aPSw7Qx2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aPSw7Qx2" height="800" width="1200" title="aPSw7Qx2"></iframe>
 
 ## Cross-references
 
@@ -47,7 +51,7 @@ tags: music_organization
 
 -	__[Pieter Benoit](./i6yQPw7F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian priest and teacher (1820-1892)
 

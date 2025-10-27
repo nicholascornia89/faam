@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7Gk2ghcA
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                   | aliases | Wikidata QID                                                |
-    | :-------: | :----------------: | :-------------------------------------------: | :-----: | :---------------------------------------------------------: |
-    | 7Gk2ghcA  | Brive-la-Gaillarde | French commune in Corrèze, Nouvelle-Aquitaine | Brive   | [Brive-la-Gaillarde](http://wwww.wikidata.org/entity/Q6393) |
+    | FAAM UUID | label              | description                                   | aliases | Wikidata QID                                           |
+    | :-------: | :----------------: | :-------------------------------------------: | :-----: | :----------------------------------------------------: |
+    | 7Gk2ghcA  | Brive-la-Gaillarde | French commune in Corrèze, Nouvelle-Aquitaine | Brive   | [Brive-la-Gaillarde](http://wikidata.org/entity/Q6393) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7Gk2ghcA.html" height="800" width="1200" title="7Gk2ghcA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7Gk2ghcA" height="800" width="1200" title="7Gk2ghcA"></iframe>
 
 ## Identifiers
 

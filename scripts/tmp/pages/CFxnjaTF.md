@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CFxnjaTF
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description | aliases | Wikidata QID                                               |
-    | :-------: | :------------: | :---------: | :-----: | :--------------------------------------------------------: |
-    | CFxnjaTF  | Kielinstrument |             |         | [Kielinstrument](http://wwww.wikidata.org/entity/Q1740992) |
+    | FAAM UUID | label          | description | aliases | Wikidata QID                                          |
+    | :-------: | :------------: | :---------: | :-----: | :---------------------------------------------------: |
+    | CFxnjaTF  | Kielinstrument |             |         | [Kielinstrument](http://wikidata.org/entity/Q1740992) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/CFxnjaTF.html" height="800" width="1200" title="CFxnjaTF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CFxnjaTF" height="800" width="1200" title="CFxnjaTF"></iframe>
 
 ## Cross-references
 

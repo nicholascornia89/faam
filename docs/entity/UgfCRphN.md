@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UgfCRphN
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UgfCRphN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UgfCRphN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UgfCRphN.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UgfCRphN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UgfCRphN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UgfCRphN.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Vital_Jammes.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                  | description                     | Wikidata QID                                                  |
-    | :-------: | :---------------: | :----------------------: | :-----------------------------: | :-----------------------------------------------------------: |
-    | UgfCRphN  | Jean-Vital Jammes | Jean-Vital Ismaël Jammes | French opera singer (1825–1893) | [Jean-Vital Jammes](http://wwww.wikidata.org/entity/Q3155418) |
+    | FAAM UUID | label             | aliases                  | description                     | Wikidata QID                                             |
+    | :-------: | :---------------: | :----------------------: | :-----------------------------: | :------------------------------------------------------: |
+    | UgfCRphN  | Jean-Vital Jammes | Jean-Vital Ismaël Jammes | French opera singer (1825–1893) | [Jean-Vital Jammes](http://wikidata.org/entity/Q3155418) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/UgfCRphN.html" height="800" width="1200" title="UgfCRphN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UgfCRphN" height="800" width="1200" title="UgfCRphN"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Théophile-Adolphe Manoury](./TLbNgxFk.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Théophile-Adolphe_Manoury.png){align=left width="150" height="150"} 
+
+	French baritone
+
+</div>

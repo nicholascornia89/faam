@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JNXXkGXS
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                             | aliases      | Wikidata QID                                          |
-    | :-------: | :------: | :-------------------------------------: | :----------: | :---------------------------------------------------: |
-    | JNXXkGXS  | theorist | person who develops theories in a field | theoretician | [theorist](http://wwww.wikidata.org/entity/Q18931911) |
+    | FAAM UUID | label    | description                             | aliases      | Wikidata QID                                     |
+    | :-------: | :------: | :-------------------------------------: | :----------: | :----------------------------------------------: |
+    | JNXXkGXS  | theorist | person who develops theories in a field | theoretician | [theorist](http://wikidata.org/entity/Q18931911) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/JNXXkGXS.html" height="800" width="1200" title="JNXXkGXS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JNXXkGXS" height="800" width="1200" title="JNXXkGXS"></iframe>
 
 ## Cross-references
 
@@ -55,7 +59,7 @@ tags: occupation
 
 -	__[Pietro Ray](./XDUjMRo5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and music teacher
 

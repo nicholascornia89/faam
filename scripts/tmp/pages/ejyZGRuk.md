@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ejyZGRuk
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-03090274817/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ejyZGRuk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ejyZGRuk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ejyZGRuk.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-03090274817/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ejyZGRuk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ejyZGRuk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ejyZGRuk.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-03090274817.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090274817.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                             | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | ejyZGRuk  | KCA-03090274817       | Impromptu : pour la harpe, op. 86 | [external URL](EXzrp8XT) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                             | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | ejyZGRuk  | KCA-03090274817       | Impromptu : pour la harpe, op. 86 | [external URL](https://anet.be/record/opacdkvc/c:lvd:6737713/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -98,10 +102,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/ejyZGRuk.html" height="800" width="1200" title="ejyZGRuk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ejyZGRuk" height="800" width="1200" title="ejyZGRuk"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/ejyZGRuk.html" height="800" width="1200" title="ejyZGRuk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/ejyZGRuk" height="800" width="1200" title="ejyZGRuk"></iframe>

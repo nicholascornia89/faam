@@ -42,20 +42,20 @@ faamentity:9EMYVMR2 a rdf:subject,
 
 schema1:contributor a rdf:predicate .
 
-"9EMYVMR2-37aaf3cb-df70-4b4f-bdef-fd3eaee3d660"^^xsd:string a rdf:Statement ;
+"9EMYVMR2-11c2962a-c973-4675-abe6-da3024bd45e5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"9EMYVMR2-538b8d75-c040-4600-8794-04b6c431f519"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"9EMYVMR2-836a8564-6811-49d2-8996-05b450102297"^^xsd:string a rdf:Statement ;
     crm:P4_has_time-span "08-1883"^^xsd:string ;
     faamprop:role faamentity:6UPEJgTQ ;
     schema1:location faamentity:PNeLQZnK .
 
-"9EMYVMR2-51ec7feb-3849-4fb8-97d2-a7aa87a4148d"^^xsd:string a rdf:Statement ;
+"9EMYVMR2-8dfd55c9-efed-486e-a1c4-d1cd83d669be"^^xsd:string a rdf:Statement ;
     faamprop:role faamentity:YvQmwaaW .
-
-"9EMYVMR2-c5ab0af3-add6-4e20-a316-e4553613e046"^^xsd:string a rdf:Statement ;
-    faamprop:role faamentity:oMERLdSN .
-
-"9EMYVMR2-cbb6e252-282b-4dd7-b242-14a4d2d45e2b"^^xsd:string a rdf:Statement ;
-    faamprop:role faamentity:7tdgMgre ;
-    schema1:location faamentity:4GU7NjmQ .
 
 faamentity:GecAsFfL a rdf:object .
 

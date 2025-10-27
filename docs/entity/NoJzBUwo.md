@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NoJzBUwo
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NoJzBUwo.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NoJzBUwo.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NoJzBUwo.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NoJzBUwo.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NoJzBUwo.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NoJzBUwo.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Moreau_by_Mlle_Athalante.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                  | description         | Wikidata QID                                               |
-    | :-------: | :-----------: | :----------------------: | :-----------------: | :--------------------------------------------------------: |
-    | NoJzBUwo  | Moreau-Sainti | François Théodore Moreau | French opera singer | [Moreau-Sainti](http://wwww.wikidata.org/entity/Q56189649) |
+    | FAAM UUID | label         | aliases                  | description         | Wikidata QID                                          |
+    | :-------: | :-----------: | :----------------------: | :-----------------: | :---------------------------------------------------: |
+    | NoJzBUwo  | Moreau-Sainti | François Théodore Moreau | French opera singer | [Moreau-Sainti](http://wikidata.org/entity/Q56189649) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NoJzBUwo.html" height="800" width="1200" title="NoJzBUwo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NoJzBUwo" height="800" width="1200" title="NoJzBUwo"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Jean-Baptiste Faure](./F3FTYzLJ.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Baptiste_Faure_as_Hamlet_by_Charles_Reutlinger.jpg){align=left width="150" height="150"} 
+
+	French baritone and composer
+
+</div>

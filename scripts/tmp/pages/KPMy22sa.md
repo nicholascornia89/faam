@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KPMy22sa
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | aliases | description                           | Wikidata QID                                       |
-    | :-------: | :----: | :-----: | :-----------------------------------: | :------------------------------------------------: |
-    | KPMy22sa  | Oberon | Oberon  | epic poem by Christoph Martin Wieland | [Oberon](http://wwww.wikidata.org/entity/Q1431054) |
+    | FAAM UUID | label  | aliases | description                           | Wikidata QID                                  |
+    | :-------: | :----: | :-----: | :-----------------------------------: | :-------------------------------------------: |
+    | KPMy22sa  | Oberon | Oberon  | epic poem by Christoph Martin Wieland | [Oberon](http://wikidata.org/entity/Q1431054) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/KPMy22sa.html" height="800" width="1200" title="KPMy22sa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KPMy22sa" height="800" width="1200" title="KPMy22sa"></iframe>
 
 ## Identifiers
 

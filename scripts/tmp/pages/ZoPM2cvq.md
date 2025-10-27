@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZoPM2cvq
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                                    | aliases      | Wikidata QID                                                  |
-    | :-------: | :---------------: | :----------------------------------------------------------------------------: | :----------: | :-----------------------------------------------------------: |
-    | ZoPM2cvq  | collection volume | book composed of separately printed works that are subsequently bound together | nonce-volume | [collection volume](http://wwww.wikidata.org/entity/Q4230425) |
+    | FAAM UUID | label             | description                                                                    | aliases      | Wikidata QID                                             |
+    | :-------: | :---------------: | :----------------------------------------------------------------------------: | :----------: | :------------------------------------------------------: |
+    | ZoPM2cvq  | collection volume | book composed of separately printed works that are subsequently bound together | nonce-volume | [collection volume](http://wikidata.org/entity/Q4230425) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/ZoPM2cvq.html" height="800" width="1200" title="ZoPM2cvq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZoPM2cvq" height="800" width="1200" title="ZoPM2cvq"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Convoluut : werken voor piano.](./P4Dx2A8T.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902146890.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902146890.gif){align=left width="150" height="150"} 
 
 	
 

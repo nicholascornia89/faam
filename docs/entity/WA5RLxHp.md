@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WA5RLxHp
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                         | aliases                                        | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-------------------------------------------------: | :--------------------------------------------: | :-----------------------------------------------------------: |
-    | WA5RLxHp  | University of Bonn | public research university located in Bonn, Germany | Rheinische Friedrich-Wilhelms-Universität Bonn | [University of Bonn](http://wwww.wikidata.org/entity/Q152171) |
+    | FAAM UUID | label              | description                                         | aliases                                        | Wikidata QID                                             |
+    | :-------: | :----------------: | :-------------------------------------------------: | :--------------------------------------------: | :------------------------------------------------------: |
+    | WA5RLxHp  | University of Bonn | public research university located in Bonn, Germany | Rheinische Friedrich-Wilhelms-Universität Bonn | [University of Bonn](http://wikidata.org/entity/Q152171) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 	[Bonn](./G8KijfkK.md)
 
-	[](./gyvHzV66.md)
+	[North Rhine-Westphalia](./gyvHzV66.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/WA5RLxHp.html" height="800" width="1200" title="WA5RLxHp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WA5RLxHp" height="800" width="1200" title="WA5RLxHp"></iframe>
 
 ## Cross-references
 

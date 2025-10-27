@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KwxaGLh6
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904190086/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KwxaGLh6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KwxaGLh6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KwxaGLh6.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904190086/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KwxaGLh6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KwxaGLh6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KwxaGLh6.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904190086.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904190086.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                    | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :----------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | KwxaGLh6  | KCA-030904190086      | Alladin en de wonderlamp | [external URL](mkCY9LDD) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                    | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :----------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | KwxaGLh6  | KCA-030904190086      | Alladin en de wonderlamp | [external URL](https://anet.be/record/opacdkvc/c:lvd:14792105/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -86,10 +90,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/KwxaGLh6.html" height="800" width="1200" title="KwxaGLh6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KwxaGLh6" height="800" width="1200" title="KwxaGLh6"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/KwxaGLh6.html" height="800" width="1200" title="KwxaGLh6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/KwxaGLh6" height="800" width="1200" title="KwxaGLh6"></iframe>

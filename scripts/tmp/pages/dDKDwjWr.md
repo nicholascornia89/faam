@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dDKDwjWr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                         | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :---------------------------------: | :-----: | :---------------------------------------------------: |
-    | dDKDwjWr  | Scunthorpe | town in North Lincolnshire, England |         | [Scunthorpe](http://wwww.wikidata.org/entity/Q913386) |
+    | FAAM UUID | label      | description                         | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :---------------------------------: | :-----: | :----------------------------------------------: |
+    | dDKDwjWr  | Scunthorpe | town in North Lincolnshire, England |         | [Scunthorpe](http://wikidata.org/entity/Q913386) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dDKDwjWr.html" height="800" width="1200" title="dDKDwjWr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dDKDwjWr" height="800" width="1200" title="dDKDwjWr"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Thomas Dunhill](./Vp4ucERe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British composer
 

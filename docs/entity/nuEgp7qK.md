@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nuEgp7qK
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                          | aliases      | Wikidata QID                                       |
-    | :-------: | :-----: | :----------------------------------: | :----------: | :------------------------------------------------: |
-    | nuEgp7qK  | violist | person who plays the viola (braccio) | viola player | [violist](http://wwww.wikidata.org/entity/Q899758) |
+    | FAAM UUID | label   | description                          | aliases      | Wikidata QID                                  |
+    | :-------: | :-----: | :----------------------------------: | :----------: | :-------------------------------------------: |
+    | nuEgp7qK  | violist | person who plays the viola (braccio) | viola player | [violist](http://wikidata.org/entity/Q899758) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/nuEgp7qK.html" height="800" width="1200" title="nuEgp7qK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nuEgp7qK" height="800" width="1200" title="nuEgp7qK"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Ernst Wilhelm Fritsch](./UeTdWiXH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1840-1902)
 
@@ -73,7 +77,7 @@ tags: occupation
 
 -	__[Jean Rogister](./YAikRAxA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1879-1964)
 
@@ -85,13 +89,13 @@ tags: occupation
 
 -	__[Antoine Guillot de Sainbris](./T685miNq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French violist
 
 -	__[Charles Philippe Lafont](./4EtCMgqU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/4d/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg){align=left width="150" height="150"} 
 
 	French violinist and composer (1781–1839)
 

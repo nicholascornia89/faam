@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jtSKEEJD
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                              | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :----------------------------------------------------------------------: | :-----: | :-------------------------------------------------: |
-    | jtSKEEJD  | Prague 1 | administrative district, municipal district and municipal part of Prague | Praha 1 | [Prague 1](http://wwww.wikidata.org/entity/Q973974) |
+    | FAAM UUID | label    | description                                                              | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :----------------------------------------------------------------------: | :-----: | :--------------------------------------------: |
+    | jtSKEEJD  | Prague 1 | administrative district, municipal district and municipal part of Prague | Praha 1 | [Prague 1](http://wikidata.org/entity/Q973974) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jtSKEEJD.html" height="800" width="1200" title="jtSKEEJD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jtSKEEJD" height="800" width="1200" title="jtSKEEJD"></iframe>
 
 ## Identifiers
 

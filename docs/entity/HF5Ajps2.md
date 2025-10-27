@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HF5Ajps2
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                                                                                | aliases          | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------: | :--------------: | :--------------------------------------------------------------: |
-    | HF5Ajps2  | Karlsschule Stuttgart | former Military Academy and Fine Arts Academy in Gerlingen and later Stuttgart (1770-1794) | Hohe Karlsschule | [Karlsschule Stuttgart](http://wwww.wikidata.org/entity/Q884150) |
+    | FAAM UUID | label                 | description                                                                                | aliases          | Wikidata QID                                                |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------: | :--------------: | :---------------------------------------------------------: |
+    | HF5Ajps2  | Karlsschule Stuttgart | former Military Academy and Fine Arts Academy in Gerlingen and later Stuttgart (1770-1794) | Hohe Karlsschule | [Karlsschule Stuttgart](http://wikidata.org/entity/Q884150) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/HF5Ajps2.html" height="800" width="1200" title="HF5Ajps2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HF5Ajps2" height="800" width="1200" title="HF5Ajps2"></iframe>
 
 ## Cross-references
 
@@ -47,7 +51,7 @@ tags: music_organization
 
 -	__[Antonio Boroni](./LabXUgsv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

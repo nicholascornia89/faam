@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: egpA6QR2
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                | aliases | Wikidata QID                                          |
-    | :-------: | :-------: | :------------------------: | :-----: | :---------------------------------------------------: |
-    | egpA6QR2  | religious | member of a Catholic order | regular | [religious](http://wwww.wikidata.org/entity/Q2566598) |
+    | FAAM UUID | label     | description                | aliases | Wikidata QID                                     |
+    | :-------: | :-------: | :------------------------: | :-----: | :----------------------------------------------: |
+    | egpA6QR2  | religious | member of a Catholic order | regular | [religious](http://wikidata.org/entity/Q2566598) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/egpA6QR2.html" height="800" width="1200" title="egpA6QR2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/egpA6QR2" height="800" width="1200" title="egpA6QR2"></iframe>
 
 ## Cross-references
 

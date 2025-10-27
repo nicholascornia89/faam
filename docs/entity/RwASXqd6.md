@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RwASXqd6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RwASXqd6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RwASXqd6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RwASXqd6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RwASXqd6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RwASXqd6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RwASXqd6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferdinand_Hiller2.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases              | description                               | Wikidata QID                                                |
-    | :-------: | :--------------: | :------------------: | :---------------------------------------: | :---------------------------------------------------------: |
-    | RwASXqd6  | Ferdinand Hiller | Ferdinand von Hiller | German composer and conductor (1811–1885) | [Ferdinand Hiller](http://wwww.wikidata.org/entity/Q213530) |
+    | FAAM UUID | label            | aliases              | description                               | Wikidata QID                                           |
+    | :-------: | :--------------: | :------------------: | :---------------------------------------: | :----------------------------------------------------: |
+    | RwASXqd6  | Ferdinand Hiller | Ferdinand von Hiller | German composer and conductor (1811–1885) | [Ferdinand Hiller](http://wikidata.org/entity/Q213530) |
 
 <br><br><br>
 
@@ -55,17 +59,17 @@ tags: agent
 
 	- [university teacher](./XWcaJQty.md)
 
-	- [](./6KMog4yD.md)
+	- [critic](./6KMog4yD.md)
 
 ??? quote "employer" 
 
-	- [](./L8H9Ajyr.md)
+	- [Hochschule für Musik und Tanz Köln](./L8H9Ajyr.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/RwASXqd6.html" height="800" width="1200" title="RwASXqd6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RwASXqd6" height="800" width="1200" title="RwASXqd6"></iframe>
 
 ## Identifiers
 
@@ -86,3 +90,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Max Bruch](./gwmSxNpA.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Max_bruch.jpg){align=left width="150" height="150"} 
+
+	German romantic composer and conductor (1838-1920)
+
+-	__[Eduard Franck](./RruLS8iV.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eduard_Franck.png){align=left width="150" height="150"} 
+
+	German composer (1817-1893)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CUtvwUDL
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description         | aliases   | Wikidata QID                                          |
-    | :-------: | :-------: | :-----------------: | :-------: | :---------------------------------------------------: |
-    | CUtvwUDL  | flageolet | woodwind instrument | flageolet | [flageolet](http://wwww.wikidata.org/entity/Q1001877) |
+    | FAAM UUID | label     | description         | aliases   | Wikidata QID                                     |
+    | :-------: | :-------: | :-----------------: | :-------: | :----------------------------------------------: |
+    | CUtvwUDL  | flageolet | woodwind instrument | flageolet | [flageolet](http://wikidata.org/entity/Q1001877) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./kZcB8GoA.md)
+	- [open flutes with internal duct with fingerholes](./kZcB8GoA.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/CUtvwUDL.html" height="800" width="1200" title="CUtvwUDL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CUtvwUDL" height="800" width="1200" title="CUtvwUDL"></iframe>
 
 ## Cross-references
 

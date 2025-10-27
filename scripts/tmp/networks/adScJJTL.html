@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "adScJJTL", "label": "Opera Ballet Vlaanderen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./adScJJTL.md\u0027\u003eOpera Ballet Vlaanderen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish organization organizing opera and ballet performances\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "bSzLPudk", "label": "Antwerpen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bSzLPudk.md\u0027\u003eAntwerpen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the province of Antwerp, Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "AYShtw7v", "label": "Gent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AYShtw7v.md\u0027\u003eGent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in the province of East Flanders, Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KgyiaBt3", "label": "Belgium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KgyiaBt3.md\u0027\u003eBelgium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in western Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7M5wmsyu", "label": "August Verbesselt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7M5wmsyu.md\u0027\u003eAugust Verbesselt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer and flute player, 1919\u20132012\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "adScJJTL", "to": "bSzLPudk", "width": 1}, {"from": "adScJJTL", "to": "AYShtw7v", "width": 1}, {"from": "adScJJTL", "to": "KgyiaBt3", "width": 1}, {"from": "adScJJTL", "to": "7M5wmsyu", "width": 10}, {"from": "AYShtw7v", "to": "KgyiaBt3", "width": 1}, {"from": "7M5wmsyu", "to": "KgyiaBt3", "width": 1}, {"from": "KgyiaBt3", "to": "bSzLPudk", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "AYShtw7v", "label": "Gent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AYShtw7v\u0027\u003eGent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in the province of East Flanders, Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KgyiaBt3", "label": "Belgium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KgyiaBt3\u0027\u003eBelgium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in western Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "adScJJTL", "label": "Opera Ballet Vlaanderen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/adScJJTL\u0027\u003eOpera Ballet Vlaanderen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish organization organizing opera and ballet performances\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7M5wmsyu", "label": "August Verbesselt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7M5wmsyu\u0027\u003eAugust Verbesselt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer and flute player, 1919\u20132012\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "bSzLPudk", "label": "Antwerpen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bSzLPudk\u0027\u003eAntwerpen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the province of Antwerp, Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "AYShtw7v", "to": "KgyiaBt3", "width": 1}, {"from": "AYShtw7v", "to": "adScJJTL", "width": 1}, {"from": "7M5wmsyu", "to": "KgyiaBt3", "width": 1}, {"from": "7M5wmsyu", "to": "adScJJTL", "width": 10}, {"from": "bSzLPudk", "to": "KgyiaBt3", "width": 1}, {"from": "bSzLPudk", "to": "adScJJTL", "width": 1}, {"from": "KgyiaBt3", "to": "adScJJTL", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

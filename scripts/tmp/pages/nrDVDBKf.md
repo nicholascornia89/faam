@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nrDVDBKf
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                        | aliases         | Wikidata QID                                         |
-    | :-------: | :-------: | :----------------------------------------------------------------: | :-------------: | :--------------------------------------------------: |
-    | nrDVDBKf  | historian | scholar who deals with the exploration and presentation of history | historiographer | [historian](http://wwww.wikidata.org/entity/Q201788) |
+    | FAAM UUID | label     | description                                                        | aliases         | Wikidata QID                                    |
+    | :-------: | :-------: | :----------------------------------------------------------------: | :-------------: | :---------------------------------------------: |
+    | nrDVDBKf  | historian | scholar who deals with the exploration and presentation of history | historiographer | [historian](http://wikidata.org/entity/Q201788) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/nrDVDBKf.html" height="800" width="1200" title="nrDVDBKf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nrDVDBKf" height="800" width="1200" title="nrDVDBKf"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Eugène Talbot](./VaLifJKc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French classicist and translator (1814–1894)
 
@@ -73,19 +77,19 @@ tags: occupation
 
 -	__[Xavier de Courville](./JuC9KczB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French writer and historian (1894-1984)
 
 -	__[Édouard Fournier](./W8EkVxFo.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
 
 	French historian, writer, bibliographer and librarian (1819-1880)
 
 -	__[Giuseppe Sigismondo](./ff6YAvgf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian historian and musician
 

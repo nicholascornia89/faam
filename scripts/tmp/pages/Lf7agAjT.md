@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Lf7agAjT
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Lf7agAjT.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Lf7agAjT.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Lf7agAjT.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Lf7agAjT.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Lf7agAjT.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Lf7agAjT.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                | description                 | Wikidata QID                                                        |
-    | :-------: | :------------: | :--------------------: | :-------------------------: | :-----------------------------------------------------------------: |
-    | Lf7agAjT  | Rouart Lerolle | Rouart, Lerolle et Cie | past French music publisher | [Rouart, Lerolle & Cie](http://wwww.wikidata.org/entity/Q105063985) |
+    | FAAM UUID | label          | aliases                | description                 | Wikidata QID                                                   |
+    | :-------: | :------------: | :--------------------: | :-------------------------: | :------------------------------------------------------------: |
+    | Lf7agAjT  | Rouart Lerolle | Rouart, Lerolle et Cie | past French music publisher | [Rouart, Lerolle & Cie](http://wikidata.org/entity/Q105063985) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Lf7agAjT.html" height="800" width="1200" title="Lf7agAjT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Lf7agAjT" height="800" width="1200" title="Lf7agAjT"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: agent
 
 -	__[Mon art du chant, trad. par E. Naegely](./PENUutfp.md)__
 
-	![Image](../assets/images/thumbs/BNF-b387186265.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-b387186265.gif){align=left width="150" height="150"} 
 
 	
 

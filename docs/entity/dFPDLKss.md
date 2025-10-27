@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dFPDLKss
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/dFPDLKss.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/dFPDLKss.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/dFPDLKss.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/dFPDLKss.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/dFPDLKss.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/dFPDLKss.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases         | description                    | Wikidata QID                                              |
-    | :-------: | :-----------: | :-------------: | :----------------------------: | :-------------------------------------------------------: |
-    | dFPDLKss  | Pasquale Bini | Pasqualino Bini | Italian violinist and composer | [Pasquale Bini](http://wwww.wikidata.org/entity/Q2055672) |
+    | FAAM UUID | label         | aliases         | description                    | Wikidata QID                                         |
+    | :-------: | :-----------: | :-------------: | :----------------------------: | :--------------------------------------------------: |
+    | dFPDLKss  | Pasquale Bini | Pasqualino Bini | Italian violinist and composer | [Pasquale Bini](http://wikidata.org/entity/Q2055672) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/dFPDLKss.html" height="800" width="1200" title="dFPDLKss"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dFPDLKss" height="800" width="1200" title="dFPDLKss"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Gaetano Pugnani](./7Y2Qaopo.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gaetano_Pugnani_(1754).jpg){align=left width="150" height="150"} 
+
+	Italian violinist and composer
+
+</div>

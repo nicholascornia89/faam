@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5dGBcQ2o
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description | aliases                     | Wikidata QID                                                            |
-    | :-------: | :-------------------------: | :---------: | :-------------------------: | :---------------------------------------------------------------------: |
-    | 5dGBcQ2o  | Shanghai Symphony Orchestra | orchestra   | Shanghai Symphony Orchestra | [Shanghai Symphony Orchestra](http://wwww.wikidata.org/entity/Q3355350) |
+    | FAAM UUID | label                       | description | aliases                     | Wikidata QID                                                       |
+    | :-------: | :-------------------------: | :---------: | :-------------------------: | :----------------------------------------------------------------: |
+    | 5dGBcQ2o  | Shanghai Symphony Orchestra | orchestra   | Shanghai Symphony Orchestra | [Shanghai Symphony Orchestra](http://wikidata.org/entity/Q3355350) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: music_organization
 
 !!! quote "country" 
 
-	[](./SpaNxkkd.md)
+	[People's Republic of China](./SpaNxkkd.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/5dGBcQ2o.html" height="800" width="1200" title="5dGBcQ2o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5dGBcQ2o" height="800" width="1200" title="5dGBcQ2o"></iframe>
 
 ## Cross-references
 
@@ -47,7 +51,7 @@ tags: music_organization
 
 -	__[Jean Rémusat](./fuX5W9ho.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French flautist, composer and conductor
 

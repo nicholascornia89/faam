@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CFfbkr9h
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                  | aliases                          | Wikidata QID                                            |
-    | :-------: | :--------------: | :------------------------------------------: | :------------------------------: | :-----------------------------------------------------: |
-    | CFfbkr9h  | Washington, D.C. | capital city of the United States of America | Washington, District of Columbia | [Washington, D.C.](http://wwww.wikidata.org/entity/Q61) |
+    | FAAM UUID | label            | description                                  | aliases                          | Wikidata QID                                       |
+    | :-------: | :--------------: | :------------------------------------------: | :------------------------------: | :------------------------------------------------: |
+    | CFfbkr9h  | Washington, D.C. | capital city of the United States of America | Washington, District of Columbia | [Washington, D.C.](http://wikidata.org/entity/Q61) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CFfbkr9h.html" height="800" width="1200" title="CFfbkr9h"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CFfbkr9h" height="800" width="1200" title="CFfbkr9h"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Henry Clough-Leighter](./Noe7Aw8w.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer and editor (1874-1956)
 

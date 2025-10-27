@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QPMQsN25
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                       | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :-------------------------------: | :-----: | :--------------------------------------------------: |
-    | QPMQsN25  | Killearn | village in Stirling, Scotland, UK |         | [Killearn](http://wwww.wikidata.org/entity/Q1010543) |
+    | FAAM UUID | label    | description                       | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :-------------------------------: | :-----: | :---------------------------------------------: |
+    | QPMQsN25  | Killearn | village in Stirling, Scotland, UK |         | [Killearn](http://wikidata.org/entity/Q1010543) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/QPMQsN25.html" height="800" width="1200" title="QPMQsN25"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QPMQsN25" height="800" width="1200" title="QPMQsN25"></iframe>
 
 ## Identifiers
 

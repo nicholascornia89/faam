@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AkFJMLpt
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                            | aliases | Wikidata QID                                        |
-    | :-------: | :-------: | :------------------------------------: | :-----: | :-------------------------------------------------: |
-    | AkFJMLpt  | Rotterdam | city in South Holland, the Netherlands | R'dam   | [Rotterdam](http://wwww.wikidata.org/entity/Q34370) |
+    | FAAM UUID | label     | description                            | aliases | Wikidata QID                                   |
+    | :-------: | :-------: | :------------------------------------: | :-----: | :--------------------------------------------: |
+    | AkFJMLpt  | Rotterdam | city in South Holland, the Netherlands | R'dam   | [Rotterdam](http://wikidata.org/entity/Q34370) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/AkFJMLpt.html" height="800" width="1200" title="AkFJMLpt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AkFJMLpt" height="800" width="1200" title="AkFJMLpt"></iframe>
 
 ## Identifiers
 
@@ -61,25 +65,25 @@ tags: city
 
 -	__[Francine Lepage](./hBcFSi6N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian mezzo soprano
 
 -	__[Jan Hendrik Paling](./Z4Mej9De.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician and piano builder (1796-1879)
 
 -	__[Karel Candael](./9dCiGXXo.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, music teacher, and conductor (1883-1948)
 
 -	__[Karel Candael](./Ei655ntR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, music teacher, and conductor (1883-1948)
 

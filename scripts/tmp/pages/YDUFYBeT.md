@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YDUFYBeT
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | aliases | description | Wikidata QID                         |
-    | :-------: | :---------------------------: | :-----: | :---------: | :----------------------------------: |
-    | YDUFYBeT  | Souvenirs Dramatiques, Op. 86 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                         | aliases | description | Wikidata QID                    |
+    | :-------: | :---------------------------: | :-----: | :---------: | :-----------------------------: |
+    | YDUFYBeT  | Souvenirs Dramatiques, Op. 86 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/YDUFYBeT.html" height="800" width="1200" title="YDUFYBeT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YDUFYBeT" height="800" width="1200" title="YDUFYBeT"></iframe>
 
 ## Identifiers
 
@@ -63,13 +67,13 @@ tags: musical_work
 
 -	__[Souvenirs Dramatiques : Arrangés en Trios pour Piano, Flûte et Violoncelle : 4e Don Jaun : Op. 86](./HNeP5iCN.md)__
 
-	![Image](../assets/images/thumbs/KCG-000359822.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000359822.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Souvenirs Dramatiques : Arrangés en Quatuors pour Piano, 2 Violons et Violoncelle : 18e La Flûte enchantée](./eEC74fNj.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750767.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750767.gif){align=left width="150" height="150"} 
 
 	
 

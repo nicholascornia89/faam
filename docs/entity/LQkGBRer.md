@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LQkGBRer
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                     | Wikidata QID                                                   |
-    | :-------: | :--------------: | :--------------: | :-----------------------------: | :------------------------------------------------------------: |
-    | LQkGBRer  | L'Angelus, Op.46 | L'Angelus Op. 46 | composition by Jean-Louis Tulou | [L'Angelus Op. 46](http://wwww.wikidata.org/entity/Q124349637) |
+    | FAAM UUID | label            | aliases          | description                     | Wikidata QID                                              |
+    | :-------: | :--------------: | :--------------: | :-----------------------------: | :-------------------------------------------------------: |
+    | LQkGBRer  | L'Angelus, Op.46 | L'Angelus Op. 46 | composition by Jean-Louis Tulou | [L'Angelus Op. 46](http://wikidata.org/entity/Q124349637) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/LQkGBRer.html" height="800" width="1200" title="LQkGBRer"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LQkGBRer" height="800" width="1200" title="LQkGBRer"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[L'Angelus : Fantaisie : pour La Flûte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors obligés et deux Bassons, (ou du Piano Forte) : Op. 46.](./WJoMSgs5.md)__
 
-	![Image](../assets/images/thumbs/KCG-000370115.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000370115.gif){align=left width="150" height="150"} 
 
 	
 

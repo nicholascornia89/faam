@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9CUwP2xx a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1756-05-13"^^xsd:string,
+        "1757-08-02"^^xsd:string ;
+    schema1:birthPlace faamentity:9T3QtrPs ;
+    schema1:deathDate "1842-02-21"^^xsd:string ;
+    schema1:deathPlace faamentity:44272D3z ;
+    schema1:description "Polish pianist, composer of Czech origin; Frédéric Chopin's piano teacher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q443519>,
+        "0"^^xsd:string,
+        "9CUwP2xx"^^xsd:string ;
+    schema1:nationality faamentity:DEbEnXwM,
+        faamentity:hxSVng2V ;
+    skos:altLabel "Adalbert Żywny"^^xsd:string,
+        "Vojtěch Živný"^^xsd:string,
+        "Wojciech Zywny"^^xsd:string ;
+    skos:prefLabel "Wojciech Żywny"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:170176383 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/41010718> ;
+    wd:P737 faamentity:oBuqf8Ur ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:YtnmjeUH .
+

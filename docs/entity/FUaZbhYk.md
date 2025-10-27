@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FUaZbhYk
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description                                    | Wikidata QID                                       |
-    | :-------: | :-----------: | :-----: | :--------------------------------------------: | :------------------------------------------------: |
-    | FUaZbhYk  | Miroirs, M.43 | Miroirs | musical composition for piano by Maurice Ravel | [Miroirs](http://wwww.wikidata.org/entity/Q770354) |
+    | FAAM UUID | label         | aliases | description                                    | Wikidata QID                                  |
+    | :-------: | :-----------: | :-----: | :--------------------------------------------: | :-------------------------------------------: |
+    | FUaZbhYk  | Miroirs, M.43 | Miroirs | musical composition for piano by Maurice Ravel | [Miroirs](http://wikidata.org/entity/Q770354) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/FUaZbhYk.html" height="800" width="1200" title="FUaZbhYk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FUaZbhYk" height="800" width="1200" title="FUaZbhYk"></iframe>
 
 ## Identifiers
 
@@ -63,13 +67,13 @@ tags: musical_work
 
 -	__[Alborada del gracioso](./ipCwmsxc.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903088141.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903088141.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alborada del gracioso](./87ghipnH.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902377727.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902377727.gif){align=left width="150" height="150"} 
 
 	
 

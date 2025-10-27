@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nfB2afwi
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description | aliases | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :---------: | :-----: | :-------------------------------------------------------------: |
-    | nfB2afwi  | La Vie au grand air |             |         | [La Vie au grand air](http://wwww.wikidata.org/entity/Q3213581) |
+    | FAAM UUID | label               | description | aliases | Wikidata QID                                               |
+    | :-------: | :-----------------: | :---------: | :-----: | :--------------------------------------------------------: |
+    | nfB2afwi  | La Vie au grand air |             |         | [La Vie au grand air](http://wikidata.org/entity/Q3213581) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/nfB2afwi.html" height="800" width="1200" title="nfB2afwi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nfB2afwi" height="800" width="1200" title="nfB2afwi"></iframe>
 
 ## Cross-references
 

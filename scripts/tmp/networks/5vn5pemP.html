@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LM3zhFco", "label": "Weihnachtsoratorium, BWV 248", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LM3zhFco.md\u0027\u003eWeihnachtsoratorium, BWV 248\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eoratorio by Johann Sebastian Bach\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "5vn5pemP", "label": "oratorio", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5vn5pemP.md\u0027\u003eoratorio\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003elarge musical composition including an orchestra, a choir, and soloists\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "LGixSzgF", "label": "Passionsmusik : nach dem Evangelisten Matth\u00e4us", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LGixSzgF.md\u0027\u003ePassionsmusik : nach dem Evangelisten Matth\u00e4us\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BSB-991076581989707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LKJwd8KR", "label": "Die Sch\u00f6pfung, Hob.XXI:2", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LKJwd8KR.md\u0027\u003eDie Sch\u00f6pfung, Hob.XXI:2\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eoratorio composed by Joseph Haydn\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "V6dv6W8x", "label": "Air de La Cr\u00e9ation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./V6dv6W8x.md\u0027\u003eAir de La Cr\u00e9ation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000348660.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "3JmWTaYG", "label": "Messiah", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3JmWTaYG.md\u0027\u003eMessiah\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e1741 sacred oratorio by Handel\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "fAttk68M", "label": "Air d\u0027\u00e9glise : du c\u00e9l\u00e8bre chanteur Stradella : avec accompt. de piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fAttk68M.md\u0027\u003eAir d\u0027\u00e9glise : du c\u00e9l\u00e8bre chanteur Stradella : avec accompt. de piano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000345408.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "LM3zhFco", "to": "5vn5pemP", "width": 1}, {"from": "LGixSzgF", "to": "5vn5pemP", "width": 10}, {"from": "LKJwd8KR", "to": "5vn5pemP", "width": 1}, {"from": "LKJwd8KR", "to": "V6dv6W8x", "width": 1}, {"from": "5vn5pemP", "to": "3JmWTaYG", "width": 1}, {"from": "5vn5pemP", "to": "V6dv6W8x", "width": 1}, {"from": "5vn5pemP", "to": "fAttk68M", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "fAttk68M", "label": "Air d\u0027\u00e9glise : du c\u00e9l\u00e8bre chanteur Stradella : avec accompt. de piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fAttk68M\u0027\u003eAir d\u0027\u00e9glise : du c\u00e9l\u00e8bre chanteur Stradella : avec accompt. de piano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000345408.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "5vn5pemP", "label": "oratorio", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5vn5pemP\u0027\u003eoratorio\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003elarge musical composition including an orchestra, a choir, and soloists\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "LGixSzgF", "label": "Passionsmusik : nach dem Evangelisten Matth\u00e4us", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LGixSzgF\u0027\u003ePassionsmusik : nach dem Evangelisten Matth\u00e4us\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991076581989707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "V6dv6W8x", "label": "Air de La Cr\u00e9ation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/V6dv6W8x\u0027\u003eAir de La Cr\u00e9ation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000348660.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LKJwd8KR", "label": "Die Sch\u00f6pfung, Hob.XXI:2", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LKJwd8KR\u0027\u003eDie Sch\u00f6pfung, Hob.XXI:2\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eoratorio composed by Joseph Haydn\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LM3zhFco", "label": "Weihnachtsoratorium, BWV 248", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LM3zhFco\u0027\u003eWeihnachtsoratorium, BWV 248\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eoratorio by Johann Sebastian Bach\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "3JmWTaYG", "label": "Messiah", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3JmWTaYG\u0027\u003eMessiah\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e1741 sacred oratorio by Handel\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "fAttk68M", "to": "5vn5pemP", "width": 10}, {"from": "LGixSzgF", "to": "5vn5pemP", "width": 10}, {"from": "V6dv6W8x", "to": "5vn5pemP", "width": 1}, {"from": "V6dv6W8x", "to": "LKJwd8KR", "width": 1}, {"from": "5vn5pemP", "to": "LM3zhFco", "width": 1}, {"from": "5vn5pemP", "to": "3JmWTaYG", "width": 1}, {"from": "5vn5pemP", "to": "LKJwd8KR", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

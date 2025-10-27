@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6Xu4rccf
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases          | description                                | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :--------------: | :----------------------------------------: | :---------------------------------------------------------------: |
-    | 6Xu4rccf  | Le maître de chapelle | The Music Master | opéra comique in two acts by Fernando Paer | [Le maître de chapelle](http://wwww.wikidata.org/entity/Q6508060) |
+    | FAAM UUID | label                 | aliases          | description                                | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :--------------: | :----------------------------------------: | :----------------------------------------------------------: |
+    | 6Xu4rccf  | Le maître de chapelle | The Music Master | opéra comique in two acts by Fernando Paer | [Le maître de chapelle](http://wikidata.org/entity/Q6508060) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/6Xu4rccf.html" height="800" width="1200" title="6Xu4rccf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6Xu4rccf" height="800" width="1200" title="6Xu4rccf"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[LE MAÎTRE DE CHAPELLE ou LE SOUPER IMPRÉVU. No. 2. Grande scène : Ah! quel plaisir de pressentir sa gloire!](./LwEejcZj.md)__
 
-	![Image](../assets/images/thumbs/KCG-000122135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000122135.gif){align=left width="150" height="150"} 
 
 	
 

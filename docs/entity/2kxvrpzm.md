@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2kxvrpzm
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                   | aliases        | Wikidata QID                                     |
-    | :-------: | :---: | :-----------------------------------------------------------: | :------------: | :----------------------------------------------: |
-    | 2kxvrpzm  | pitch | perceptual property in music ordering sounds from low to high | pitch in music | [pitch](http://wwww.wikidata.org/entity/Q118819) |
+    | FAAM UUID | label | description                                                   | aliases        | Wikidata QID                                |
+    | :-------: | :---: | :-----------------------------------------------------------: | :------------: | :-----------------------------------------: |
+    | 2kxvrpzm  | pitch | perceptual property in music ordering sounds from low to high | pitch in music | [pitch](http://wikidata.org/entity/Q118819) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/2kxvrpzm.html" height="800" width="1200" title="2kxvrpzm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2kxvrpzm" height="800" width="1200" title="2kxvrpzm"></iframe>
 
 ## Cross-references
 

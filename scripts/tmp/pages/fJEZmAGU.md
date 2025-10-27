@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fJEZmAGU
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                                            | aliases        | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :----------------------------------------------------: | :------------: | :-------------------------------------------------------------: |
-    | fJEZmAGU  | theatrical director | person overseeing the mounting of a theatre production | stage director | [theatrical director](http://wwww.wikidata.org/entity/Q3387717) |
+    | FAAM UUID | label               | description                                            | aliases        | Wikidata QID                                               |
+    | :-------: | :-----------------: | :----------------------------------------------------: | :------------: | :--------------------------------------------------------: |
+    | fJEZmAGU  | theatrical director | person overseeing the mounting of a theatre production | stage director | [theatrical director](http://wikidata.org/entity/Q3387717) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/fJEZmAGU.html" height="800" width="1200" title="fJEZmAGU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fJEZmAGU" height="800" width="1200" title="fJEZmAGU"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Charles Laffillé](./V4Z9quf2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, poet and theatre director
 
@@ -49,7 +53,7 @@ tags: occupation
 
 -	__[Xavier de Courville](./JuC9KczB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French writer and historian (1894-1984)
 
@@ -61,7 +65,7 @@ tags: occupation
 
 -	__[Anton van de Velde](./3VXUQ7ER.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/aa/Anton_van_de_Velde.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_van_de_Velde.jpg){align=left width="150" height="150"} 
 
 	Belgian playwright, writer and theatre director (1895–1983)
 

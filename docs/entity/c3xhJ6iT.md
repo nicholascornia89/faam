@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c3xhJ6iT
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | aliases                      | description               | Wikidata QID                                                             |
-    | :-------: | :--------------------------: | :--------------------------: | :-----------------------: | :----------------------------------------------------------------------: |
-    | c3xhJ6iT  | L'art de toucher le clavecin | L'art de toucher le clavecin | book by François Couperin | [L'art de toucher le clavecin](http://wwww.wikidata.org/entity/Q3817964) |
+    | FAAM UUID | label                        | aliases                      | description               | Wikidata QID                                                        |
+    | :-------: | :--------------------------: | :--------------------------: | :-----------------------: | :-----------------------------------------------------------------: |
+    | c3xhJ6iT  | L'art de toucher le clavecin | L'art de toucher le clavecin | book by François Couperin | [L'art de toucher le clavecin](http://wikidata.org/entity/Q3817964) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/c3xhJ6iT.html" height="800" width="1200" title="c3xhJ6iT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c3xhJ6iT" height="800" width="1200" title="c3xhJ6iT"></iframe>
 
 ## Identifiers
 
@@ -65,19 +69,19 @@ tags: musical_work
 
 -	__[Couperin's Werke. 1,1: Clavierstücke : livre I](./Pi4MYEds.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076926199707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076926199707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Couperin's Werke / Teil 2 / hrsg. von Johannes Brahms](./3DRpRYCp.md)__
 
-	![Image](../assets/images/thumbs/SUH-819290521.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SUH-819290521.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Couperin's Werke / Teil 1 / hrsg. von Johannes Brahms](./4mkChNN8.md)__
 
-	![Image](../assets/images/thumbs/SUH-819290386.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SUH-819290386.gif){align=left width="150" height="150"} 
 
 	
 

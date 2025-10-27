@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PuXct9sz
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                                                          | aliases                                    | Wikidata QID                                                 |
-    | :-------: | :---------------: | :--------------------------------------------------------------------------------------------------: | :----------------------------------------: | :----------------------------------------------------------: |
-    | PuXct9sz  | Emperor Rudolf II | Holy Roman Emperor, King of Hungary and Croatia, King of Bohemia and Archduke of Austria (1552-1612) | Kaiser Rudolf II. Heiliges Römisches Reich | [Emperor Rudolf II](http://wwww.wikidata.org/entity/Q150586) |
+    | FAAM UUID | label             | description                                                                                          | aliases                                    | Wikidata QID                                            |
+    | :-------: | :---------------: | :--------------------------------------------------------------------------------------------------: | :----------------------------------------: | :-----------------------------------------------------: |
+    | PuXct9sz  | Emperor Rudolf II | Holy Roman Emperor, King of Hungary and Croatia, King of Bohemia and Archduke of Austria (1552-1612) | Kaiser Rudolf II. Heiliges Römisches Reich | [Emperor Rudolf II](http://wikidata.org/entity/Q150586) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/PuXct9sz.html" height="800" width="1200" title="PuXct9sz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PuXct9sz" height="800" width="1200" title="PuXct9sz"></iframe>
 
 ## Cross-references
 

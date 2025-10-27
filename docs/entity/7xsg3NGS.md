@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7xsg3NGS
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                  | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :--------------------------: | :-----: | :--------------------------------------------: |
-    | 7xsg3NGS  | Dijon | commune in Côte-d'Or, France |         | [Dijon](http://wwww.wikidata.org/entity/Q7003) |
+    | FAAM UUID | label | description                  | aliases | Wikidata QID                              |
+    | :-------: | :---: | :--------------------------: | :-----: | :---------------------------------------: |
+    | 7xsg3NGS  | Dijon | commune in Côte-d'Or, France |         | [Dijon](http://wikidata.org/entity/Q7003) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7xsg3NGS.html" height="800" width="1200" title="7xsg3NGS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7xsg3NGS" height="800" width="1200" title="7xsg3NGS"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: city
 
 -	__[Louis Dumas](./Cnqz9txA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1877-1952)
 

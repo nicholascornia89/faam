@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: b9M6ygiA
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                  | aliases                    | Wikidata QID                                                       |
-    | :-------: | :---------------------: | :--------------------------: | :------------------------: | :----------------------------------------------------------------: |
-    | b9M6ygiA  | St. John's Co-Cathedral | cathedral in Valletta, Malta | Kon-Katidral ta' San Ġwann | [St. John's Co-Cathedral](http://wwww.wikidata.org/entity/Q613619) |
+    | FAAM UUID | label                   | description                  | aliases                    | Wikidata QID                                                  |
+    | :-------: | :---------------------: | :--------------------------: | :------------------------: | :-----------------------------------------------------------: |
+    | b9M6ygiA  | St. John's Co-Cathedral | cathedral in Valletta, Malta | Kon-Katidral ta' San Ġwann | [St. John's Co-Cathedral](http://wikidata.org/entity/Q613619) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/b9M6ygiA.html" height="800" width="1200" title="b9M6ygiA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/b9M6ygiA" height="800" width="1200" title="b9M6ygiA"></iframe>
 
 ## Cross-references
 

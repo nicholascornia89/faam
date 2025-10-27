@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VPpfnfBz
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                     | aliases                                                     | description           | Wikidata QID                                                                           |
-    | :-------: | :---------------------------------------: | :---------------------------------------------------------: | :-------------------: | :------------------------------------------------------------------------------------: |
-    | VPpfnfBz  | Nocturne No. 11 in G minor, Op. 37, No. 1 | Nocturne no. 11 in G minor, op. 37 no. 1: Andante sostenuto | composition by Chopin | [Nocturne No. 11 in G minor, Op. 37, No. 1](http://wwww.wikidata.org/entity/Q11431256) |
+    | FAAM UUID | label                                     | aliases                                                     | description           | Wikidata QID                                                                      |
+    | :-------: | :---------------------------------------: | :---------------------------------------------------------: | :-------------------: | :-------------------------------------------------------------------------------: |
+    | VPpfnfBz  | Nocturne No. 11 in G minor, Op. 37, No. 1 | Nocturne no. 11 in G minor, op. 37 no. 1: Andante sostenuto | composition by Chopin | [Nocturne No. 11 in G minor, Op. 37, No. 1](http://wikidata.org/entity/Q11431256) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/VPpfnfBz.html" height="800" width="1200" title="VPpfnfBz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VPpfnfBz" height="800" width="1200" title="VPpfnfBz"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Notturno Op. 37, Nr. 1 : für Violine und Orchester](./Wh7uVMCy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904862957.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904862957.gif){align=left width="150" height="150"} 
 
 	
 

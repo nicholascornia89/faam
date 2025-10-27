@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Bwqn3dni
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                     | aliases | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------------------------: | :-----: | :----------------------------------------------------------: |
-    | Bwqn3dni  | Kingdom of Saxony | former German state (1806-1918) | Saxony  | [Kingdom of Saxony](http://wwww.wikidata.org/entity/Q153015) |
+    | FAAM UUID | label             | description                     | aliases | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------------------------: | :-----: | :-----------------------------------------------------: |
+    | Bwqn3dni  | Kingdom of Saxony | former German state (1806-1918) | Saxony  | [Kingdom of Saxony](http://wikidata.org/entity/Q153015) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/Bwqn3dni.html" height="800" width="1200" title="Bwqn3dni"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Bwqn3dni" height="800" width="1200" title="Bwqn3dni"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: country
 
 -	__[Hans von Bülow](./AaF6WQEA.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Hans_von_buelow.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans_von_buelow.jpg){align=left width="150" height="150"} 
 
 	German conductor and pianist (1830–1894)
 
@@ -91,7 +95,7 @@ tags: country
 
 -	__[Carl Merseburger](./GyJBKL3i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist, music writer and music publisher
 
@@ -103,7 +107,7 @@ tags: country
 
 -	__[Christian Theodor Weinlig](./U4mMJgcK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and conductor
 

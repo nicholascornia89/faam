@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: A6E3RE9c
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/A6E3RE9c.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/A6E3RE9c.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/A6E3RE9c.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/A6E3RE9c.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/A6E3RE9c.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/A6E3RE9c.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wilhelm_Popp.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases                    | description                  | Wikidata QID                                            |
-    | :-------: | :----------: | :------------------------: | :--------------------------: | :-----------------------------------------------------: |
-    | A6E3RE9c  | Wilhelm Popp | Wilhelm Albrecht Otto Popp | German composer and flutist. | [Wilhelm Popp](http://wwww.wikidata.org/entity/Q324692) |
+    | FAAM UUID | label        | aliases                    | description                  | Wikidata QID                                       |
+    | :-------: | :----------: | :------------------------: | :--------------------------: | :------------------------------------------------: |
+    | A6E3RE9c  | Wilhelm Popp | Wilhelm Albrecht Otto Popp | German composer and flutist. | [Wilhelm Popp](http://wikidata.org/entity/Q324692) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/A6E3RE9c.html" height="800" width="1200" title="A6E3RE9c"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/A6E3RE9c" height="800" width="1200" title="A6E3RE9c"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,7 @@ tags: agent
 
 -	__[Vorbereitungs-Schule zum Erlernen des Flötenspiels. Op. 359](./4eAHNgy2.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143701p15.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143701p15.gif){align=left width="150" height="150"} 
 
 	
 

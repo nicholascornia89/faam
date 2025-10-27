@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6Uf4nC8s
 
 tags: holding_institution
@@ -19,9 +23,9 @@ tags: holding_institution
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | description                                       | aliases | Wikidata QID                                                             | abbreviation |
-    | :-------: | :---------------------------: | :-----------------------------------------------: | :-----: | :----------------------------------------------------------------------: | :----------: |
-    | 6Uf4nC8s  | National Library of Australia | national reference library in Canberra, Australia | NLA     | [National Library of Australia](http://wwww.wikidata.org/entity/Q623578) | NLA          |
+    | FAAM UUID | label                         | description                                       | aliases | Wikidata QID                                                        | abbreviation |
+    | :-------: | :---------------------------: | :-----------------------------------------------: | :-----: | :-----------------------------------------------------------------: | :----------: |
+    | 6Uf4nC8s  | National Library of Australia | national reference library in Canberra, Australia | NLA     | [National Library of Australia](http://wikidata.org/entity/Q623578) | NLA          |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: holding_institution
 
 ---
 
-<iframe src="../network/6Uf4nC8s.html" height="800" width="1200" title="6Uf4nC8s"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6Uf4nC8s" height="800" width="1200" title="6Uf4nC8s"></iframe>
 
 ## Cross-references
 
@@ -61,7 +65,7 @@ tags: holding_institution
 
 -	__[Melba method / by Dame Nellie Melba](./V9WRQNdU.md)__
 
-	![Image](../assets/images/thumbs/NLA-1340307.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/NLA-1340307.gif){align=left width="150" height="150"} 
 
 	
 

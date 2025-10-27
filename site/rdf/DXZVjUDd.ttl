@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DXZVjUDd a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:YWvFQ75E ;
+    schema1:description "composition by Gioachino Rossini"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q778788>,
+        "16004152"^^xsd:string,
+        "DXZVjUDd"^^xsd:string ;
+    skos:altLabel "Stabat Mater"^^xsd:string ;
+    skos:prefLabel "Stabat Mater"^^xsd:string ;
+    wd:P214 viaf:180040764 ;
+    wd:P7937 faamentity:BdJHjaCE,
+        faamentity:QELJUJBf,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Stabat_Mater_(Rossini,_Gioacchino)> .
+

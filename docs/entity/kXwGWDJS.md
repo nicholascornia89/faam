@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kXwGWDJS
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                    | aliases                | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :----------------------------: | :--------------------: | :---------------------------------------------------------------: |
-    | kXwGWDJS  | Akademisches Gymnasium | high school building in Vienna | Akademisches Gymnasium | [Akademisches Gymnasium](http://wwww.wikidata.org/entity/Q414936) |
+    | FAAM UUID | label                  | description                    | aliases                | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :----------------------------: | :--------------------: | :----------------------------------------------------------: |
+    | kXwGWDJS  | Akademisches Gymnasium | high school building in Vienna | Akademisches Gymnasium | [Akademisches Gymnasium](http://wikidata.org/entity/Q414936) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 	[Vienna](./UvT8FR5N.md)
 
-	[](./V5qN6BuG.md)
+	[Innere Stadt](./V5qN6BuG.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/kXwGWDJS.html" height="800" width="1200" title="kXwGWDJS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kXwGWDJS" height="800" width="1200" title="kXwGWDJS"></iframe>
 
 ## Cross-references
 

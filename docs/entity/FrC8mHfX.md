@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FrC8mHfX
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                  | aliases | Wikidata QID                                              |
-    | :-------: | :-------------: | :------------------------------------------: | :-----: | :-------------------------------------------------------: |
-    | FrC8mHfX  | Yale University | private university in New Haven, Connecticut | Yale    | [Yale University](http://wwww.wikidata.org/entity/Q49112) |
+    | FAAM UUID | label           | description                                  | aliases | Wikidata QID                                         |
+    | :-------: | :-------------: | :------------------------------------------: | :-----: | :--------------------------------------------------: |
+    | FrC8mHfX  | Yale University | private university in New Haven, Connecticut | Yale    | [Yale University](http://wikidata.org/entity/Q49112) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./WifMcmzL.md)
+	[New Haven](./WifMcmzL.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/FrC8mHfX.html" height="800" width="1200" title="FrC8mHfX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FrC8mHfX" height="800" width="1200" title="FrC8mHfX"></iframe>
 
 ## Cross-references
 

@@ -1,0 +1,98 @@
+{
+  "id": "TrcsWua6",
+  "uuid_num": 50539646924695,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "diarist"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "person who writes a personal journal"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "diarists"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q18939491",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "diarist"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "occupation"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "TrcsWua6"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "DYgYnSpY",
+        "type": "item",
+        "label": "Richard Wagner",
+        "description": "German composer (1813–1883)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "RichardWagner.jpg"
+        }
+      },
+      {
+        "id": "WmRXBH5x",
+        "type": "item",
+        "label": "Ignaz Moscheles",
+        "description": "Bohemian conductor, music educator, composer and pianist (1794–1870)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ignaz_Moscheles.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TrcsWua6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TrcsWua6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TrcsWua6.csv"
+      }
+    ]
+  }
+}

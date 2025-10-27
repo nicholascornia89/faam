@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QnFrn2PM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/QnFrn2PM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/QnFrn2PM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/QnFrn2PM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/QnFrn2PM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/QnFrn2PM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/QnFrn2PM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Société_des_Instruments_anciens,_fondée_par_Casadesus.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                 | description                                                              | Wikidata QID                                                |
-    | :-------: | :-------------: | :---------------------: | :----------------------------------------------------------------------: | :---------------------------------------------------------: |
-    | QnFrn2PM  | Henri Casadesus | Henri-Gustave Casadesus | violist, viola d'amore player, composer, and music publisher (1879-1947) | [Henri Casadesus](http://wwww.wikidata.org/entity/Q1197441) |
+    | FAAM UUID | label           | aliases                 | description                                                              | Wikidata QID                                           |
+    | :-------: | :-------------: | :---------------------: | :----------------------------------------------------------------------: | :----------------------------------------------------: |
+    | QnFrn2PM  | Henri Casadesus | Henri-Gustave Casadesus | violist, viola d'amore player, composer, and music publisher (1879-1947) | [Henri Casadesus](http://wikidata.org/entity/Q1197441) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./Z3zCJvmg.md)
+	- [viola d'amore player](./Z3zCJvmg.md)
 
 	- [violist](./nuEgp7qK.md)
 
@@ -71,7 +75,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/QnFrn2PM.html" height="800" width="1200" title="QnFrn2PM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QnFrn2PM" height="800" width="1200" title="QnFrn2PM"></iframe>
 
 ## Identifiers
 

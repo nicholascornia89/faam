@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9TePw2GP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                           | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :---------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | 9TePw2GP  | Parma | city in the northern Italian region of Emilia-Romagna |         | [Parma](http://wwww.wikidata.org/entity/Q2683) |
+    | FAAM UUID | label | description                                           | aliases | Wikidata QID                              |
+    | :-------: | :---: | :---------------------------------------------------: | :-----: | :---------------------------------------: |
+    | 9TePw2GP  | Parma | city in the northern Italian region of Emilia-Romagna |         | [Parma](http://wikidata.org/entity/Q2683) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9TePw2GP.html" height="800" width="1200" title="9TePw2GP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9TePw2GP" height="800" width="1200" title="9TePw2GP"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Romualdo Fantuzzi](./bJbJz9Uk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	publisher (1862-1939)
 
 -	__[Fortunato Chelleri](./MJqDk4yg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian-German Kapellmeister and composer
 
@@ -79,7 +83,7 @@ tags: city
 
 -	__[Alessandro Besozzi](./h64cbr2z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

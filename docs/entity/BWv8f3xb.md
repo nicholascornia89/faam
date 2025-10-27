@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BWv8f3xb
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | aliases                                 | description                  | Wikidata QID                                              |
-    | :-------: | :------------------------------------: | :-------------------------------------: | :--------------------------: | :-------------------------------------------------------: |
-    | BWv8f3xb  | Keyboard Sonata in F-sharp minor, K.25 | Keyboard Sonata in F-sharp minor, L.481 | sonata by Domenico Scarlatti | [Sonata K. 25](http://wwww.wikidata.org/entity/Q67199899) |
+    | FAAM UUID | label                                  | aliases                                 | description                  | Wikidata QID                                         |
+    | :-------: | :------------------------------------: | :-------------------------------------: | :--------------------------: | :--------------------------------------------------: |
+    | BWv8f3xb  | Keyboard Sonata in F-sharp minor, K.25 | Keyboard Sonata in F-sharp minor, L.481 | sonata by Domenico Scarlatti | [Sonata K. 25](http://wikidata.org/entity/Q67199899) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/BWv8f3xb.html" height="800" width="1200" title="BWv8f3xb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BWv8f3xb" height="800" width="1200" title="BWv8f3xb"></iframe>
 
 ## Identifiers
 
@@ -73,19 +77,19 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[24 Stücke : für Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo.](./WWCbaaWA.md)__
 
-	![Image](../assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[29 sonatas](./B7PgUtbR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
 
 	
 

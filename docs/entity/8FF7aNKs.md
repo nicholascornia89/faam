@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8FF7aNKs
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8FF7aNKs.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8FF7aNKs.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8FF7aNKs.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8FF7aNKs.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8FF7aNKs.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8FF7aNKs.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hermann_Unger.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases              | description     | Wikidata QID                                                      |
-    | :-------: | :-----------: | :------------------: | :-------------: | :---------------------------------------------------------------: |
-    | 8FF7aNKs  | Hermann Unger | Gustav Hermann Unger | German composer | [Gustav Hermann Unger](http://wwww.wikidata.org/entity/Q20002835) |
+    | FAAM UUID | label         | aliases              | description     | Wikidata QID                                                 |
+    | :-------: | :-----------: | :------------------: | :-------------: | :----------------------------------------------------------: |
+    | 8FF7aNKs  | Hermann Unger | Gustav Hermann Unger | German composer | [Gustav Hermann Unger](http://wikidata.org/entity/Q20002835) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8FF7aNKs.html" height="800" width="1200" title="8FF7aNKs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8FF7aNKs" height="800" width="1200" title="8FF7aNKs"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,7 @@ tags: agent
 
 -	__[Kammersuite : für Streichorchester oder Streichquartett, op. 69](./2FmAPKHr.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902813853.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902813853.gif){align=left width="150" height="150"} 
 
 	
 

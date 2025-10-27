@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Bk3pdD3B
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                                               | aliases     | Wikidata QID                                            |
-    | :-------: | :----------: | :-------------------------------------------------------------------------------------------------------: | :---------: | :-----------------------------------------------------: |
-    | Bk3pdD3B  | Papal States | territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870 | Papal State | [Papal States](http://wwww.wikidata.org/entity/Q170174) |
+    | FAAM UUID | label        | description                                                                                               | aliases     | Wikidata QID                                       |
+    | :-------: | :----------: | :-------------------------------------------------------------------------------------------------------: | :---------: | :------------------------------------------------: |
+    | Bk3pdD3B  | Papal States | territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870 | Papal State | [Papal States](http://wikidata.org/entity/Q170174) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/Bk3pdD3B.html" height="800" width="1200" title="Bk3pdD3B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Bk3pdD3B" height="800" width="1200" title="Bk3pdD3B"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: country
 
 -	__[Orazio Benevoli](./g84jRUjK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1605-1672)
 
 -	__[Pompeo Canniciari](./FEMWybwN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -73,13 +77,13 @@ tags: country
 
 -	__[Gioachino Rossini](./YWvFQ75E.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Composer_Rossini_G_1865_by_Carjat.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1792–1868)
 
 -	__[Giacomo Carissimi](./AmY4DwdD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1605–1674)
 
@@ -91,7 +95,7 @@ tags: country
 
 -	__[Giovanni Briccio](./BGgBiHmg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian painter, playwright and musician (1579-1645)
 
@@ -133,13 +137,13 @@ tags: country
 
 -	__[Pompeo Natali](./EE6RjZNR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian priest and composer
 
 -	__[Tommaso Predieri](./6PsM6xGh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer of the baroque era
 

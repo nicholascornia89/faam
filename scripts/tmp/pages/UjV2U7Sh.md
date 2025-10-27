@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UjV2U7Sh
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                                                  | aliases     | Wikidata QID                                                         |
-    | :-------: | :------------------------: | :----------------------------------------------------------: | :---------: | :------------------------------------------------------------------: |
-    | UjV2U7Sh  | Kingdom of the Netherlands | transcontinental sovereign state and constitutional monarchy | Netherlands | [Kingdom of the Netherlands](http://wwww.wikidata.org/entity/Q29999) |
+    | FAAM UUID | label                      | description                                                  | aliases     | Wikidata QID                                                    |
+    | :-------: | :------------------------: | :----------------------------------------------------------: | :---------: | :-------------------------------------------------------------: |
+    | UjV2U7Sh  | Kingdom of the Netherlands | transcontinental sovereign state and constitutional monarchy | Netherlands | [Kingdom of the Netherlands](http://wikidata.org/entity/Q29999) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/UjV2U7Sh.html" height="800" width="1200" title="UjV2U7Sh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UjV2U7Sh" height="800" width="1200" title="UjV2U7Sh"></iframe>
 
 ## Identifiers
 
@@ -43,13 +47,13 @@ tags: country
 
 -	__[Mario van Overeem](./GzWH52Di.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch composer and music educator
 
 -	__[Jan Hendrik Paling](./Z4Mej9De.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician and piano builder (1796-1879)
 
@@ -67,7 +71,7 @@ tags: country
 
 -	__[Francine Lepage](./hBcFSi6N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian mezzo soprano
 
@@ -79,7 +83,7 @@ tags: country
 
 -	__[Ludwig Plattner](./66pdprvL.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch music publisher of German origins
 
@@ -91,25 +95,25 @@ tags: country
 
 -	__[Correspondance musicale](./mkSw8Mik.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Music publishing company based on The Hague, Netherlands
 
 -	__[Wilhelm Franz Lichtenauer](./8mQfxw3N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch music publishing company
 
 -	__[Johannes Verhulst](./bsgJz3jr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch composer and conductor (1816–1891)
 
 -	__[Joannes Brans](./WFtzHq9o.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch teacher and Belgian school director and inspector
 

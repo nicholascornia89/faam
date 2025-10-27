@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GWi2pxMk
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                                                                         | aliases  | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :---------------------------------------------------------------------------------: | :------: | :------------------------------------------------------------: |
-    | GWi2pxMk  | Kingdom of Scotland | historic sovereign kingdom on the British Isles from the 9th century and up to 1707 | Scotland | [Kingdom of Scotland](http://wwww.wikidata.org/entity/Q230791) |
+    | FAAM UUID | label               | description                                                                         | aliases  | Wikidata QID                                              |
+    | :-------: | :-----------------: | :---------------------------------------------------------------------------------: | :------: | :-------------------------------------------------------: |
+    | GWi2pxMk  | Kingdom of Scotland | historic sovereign kingdom on the British Isles from the 9th century and up to 1707 | Scotland | [Kingdom of Scotland](http://wikidata.org/entity/Q230791) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/GWi2pxMk.html" height="800" width="1200" title="GWi2pxMk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GWi2pxMk" height="800" width="1200" title="GWi2pxMk"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aqYPswpD
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                             | Wikidata QID                                                                 |
-    | :-------: | :-------------------------------: | :-------------------------------: | :-------------------------------------: | :--------------------------------------------------------------------------: |
-    | aqYPswpD  | O Ewigkeit, du Donnerwort, BWV 60 | O Ewigkeit, du Donnerwort, BWV 60 | church cantata by Johann Sebastian Bach | [O Ewigkeit, du Donnerwort, BWV 60](http://wwww.wikidata.org/entity/Q288433) |
+    | FAAM UUID | label                             | aliases                           | description                             | Wikidata QID                                                            |
+    | :-------: | :-------------------------------: | :-------------------------------: | :-------------------------------------: | :---------------------------------------------------------------------: |
+    | aqYPswpD  | O Ewigkeit, du Donnerwort, BWV 60 | O Ewigkeit, du Donnerwort, BWV 60 | church cantata by Johann Sebastian Bach | [O Ewigkeit, du Donnerwort, BWV 60](http://wikidata.org/entity/Q288433) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/aqYPswpD.html" height="800" width="1200" title="aqYPswpD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aqYPswpD" height="800" width="1200" title="aqYPswpD"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Kantate Nr. 60. O Ewigkeit, du Donnerwort](./gyZdimpE.md)__
 
-	![Image](../assets/images/thumbs/ORP-20140284b.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20140284b.gif){align=left width="150" height="150"} 
 
 	
 

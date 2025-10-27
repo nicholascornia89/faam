@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aC8eXrrE
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                           | aliases                  | Wikidata QID                                                  |
-    | :-------: | :--------------: | :-----------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | aC8eXrrE  | literary scholar | specialist in the study of literature | specialist in literature | [literary scholar](http://wwww.wikidata.org/entity/Q17167049) |
+    | FAAM UUID | label            | description                           | aliases                  | Wikidata QID                                             |
+    | :-------: | :--------------: | :-----------------------------------: | :----------------------: | :------------------------------------------------------: |
+    | aC8eXrrE  | literary scholar | specialist in the study of literature | specialist in literature | [literary scholar](http://wikidata.org/entity/Q17167049) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/aC8eXrrE.html" height="800" width="1200" title="aC8eXrrE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aC8eXrrE" height="800" width="1200" title="aC8eXrrE"></iframe>
 
 ## Cross-references
 

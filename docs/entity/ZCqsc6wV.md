@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZCqsc6wV
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ZCqsc6wV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ZCqsc6wV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ZCqsc6wV.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ZCqsc6wV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ZCqsc6wV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ZCqsc6wV.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description           | Wikidata QID                                                  |
-    | :-------: | :-------------: | :-------------: | :-------------------: | :-----------------------------------------------------------: |
-    | ZCqsc6wV  | Fernand Pollain | Fernand Pollain | 7 October 1879 — 1955 | [Fernand Pollain](http://wwww.wikidata.org/entity/Q110222852) |
+    | FAAM UUID | label           | aliases         | description           | Wikidata QID                                             |
+    | :-------: | :-------------: | :-------------: | :-------------------: | :------------------------------------------------------: |
+    | ZCqsc6wV  | Fernand Pollain | Fernand Pollain | 7 October 1879 — 1955 | [Fernand Pollain](http://wikidata.org/entity/Q110222852) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ZCqsc6wV.html" height="800" width="1200" title="ZCqsc6wV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZCqsc6wV" height="800" width="1200" title="ZCqsc6wV"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: agent
 
 -	__[6 suites : pour violoncelle seul](./Ma63qXHW.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901199361.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901199361.gif){align=left width="150" height="150"} 
 
 	
 

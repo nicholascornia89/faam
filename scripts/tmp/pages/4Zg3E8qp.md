@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4Zg3E8qp
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                                 |
-    | :-------: | :------------: | :------------: | :--------------------------: | :----------------------------------------------------------: |
-    | 4Zg3E8qp  | Le Mauvais-œil | Le Mauvais Œil | opéra-comique by Loïsa Puget | [Le Mauvais-œil](http://wwww.wikidata.org/entity/Q111287791) |
+    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                            |
+    | :-------: | :------------: | :------------: | :--------------------------: | :-----------------------------------------------------: |
+    | 4Zg3E8qp  | Le Mauvais-œil | Le Mauvais Œil | opéra-comique by Loïsa Puget | [Le Mauvais-œil](http://wikidata.org/entity/Q111287791) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/4Zg3E8qp.html" height="800" width="1200" title="4Zg3E8qp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4Zg3E8qp" height="800" width="1200" title="4Zg3E8qp"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:](./JHJZeU8t.md)__
 
-	![Image](../assets/images/thumbs/KCG-000344649.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000344649.gif){align=left width="150" height="150"} 
 
 	
 

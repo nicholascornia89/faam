@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Mqyssbcs
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Mqyssbcs.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Mqyssbcs.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Mqyssbcs.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Mqyssbcs.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Mqyssbcs.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Mqyssbcs.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Machaut.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description                                      | Wikidata QID                                                    |
-    | :-------: | :------------------: | :------------------: | :----------------------------------------------: | :-------------------------------------------------------------: |
-    | Mqyssbcs  | Guillaume de Machaut | Guillaume de Machaut | Medieval French composer and poet (c. 1300–1377) | [Guillaume de Machaut](http://wwww.wikidata.org/entity/Q200580) |
+    | FAAM UUID | label                | aliases              | description                                      | Wikidata QID                                               |
+    | :-------: | :------------------: | :------------------: | :----------------------------------------------: | :--------------------------------------------------------: |
+    | Mqyssbcs  | Guillaume de Machaut | Guillaume de Machaut | Medieval French composer and poet (c. 1300–1377) | [Guillaume de Machaut](http://wikidata.org/entity/Q200580) |
 
 <br><br><br>
 
@@ -49,13 +53,13 @@ tags: agent
 
 	- [writer](./YrCfZ8vh.md)
 
-	- [](./YznTcR3V.md)
+	- [songwriter](./YznTcR3V.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Mqyssbcs.html" height="800" width="1200" title="Mqyssbcs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Mqyssbcs" height="800" width="1200" title="Mqyssbcs"></iframe>
 
 ## Identifiers
 
@@ -81,8 +85,16 @@ tags: agent
 
 -	__[Messe Notre-Dame a quatre voix de Giullaume de Machault](./KvqygJch.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901356052.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901356052.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Messe de Nostre Dame](./FfVbS6CB.md)__
+
+	mass setting composed by Guillaume de Machaut
 
 </div>

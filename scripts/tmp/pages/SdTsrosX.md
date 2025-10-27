@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SdTsrosX
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                    | aliases        | Wikidata QID                                           |
-    | :-------: | :-------: | :----------------------------: | :------------: | :----------------------------------------------------: |
-    | SdTsrosX  | trumpeter | musician who plays the trumpet | trumpet player | [trumpeter](http://wwww.wikidata.org/entity/Q12377274) |
+    | FAAM UUID | label     | description                    | aliases        | Wikidata QID                                      |
+    | :-------: | :-------: | :----------------------------: | :------------: | :-----------------------------------------------: |
+    | SdTsrosX  | trumpeter | musician who plays the trumpet | trumpet player | [trumpeter](http://wikidata.org/entity/Q12377274) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/SdTsrosX.html" height="800" width="1200" title="SdTsrosX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SdTsrosX" height="800" width="1200" title="SdTsrosX"></iframe>
 
 ## Cross-references
 
@@ -49,13 +53,13 @@ tags: occupation
 
 -	__[Théo Charlier](./BvkyMZrf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1868 - 1944)
 
 -	__[C. Sauveur](./YC8uM4xD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eME3yXnk", "label": "Festpra\u00ebludium, Op. 38", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eME3yXnk.md\u0027\u003eFestpra\u00ebludium, Op. 38\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LCBnZLoP", "label": "chorale prelude", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LCBnZLoP.md\u0027\u003echorale prelude\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition for organ based on a chorale melody\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MdFCS4qM", "label": "Lambrecht Baumert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MdFCS4qM.md\u0027\u003eLambrecht Baumert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QvKjp2ZU", "label": "Ein feste Burg ist unser Gott, BWV 80", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QvKjp2ZU.md\u0027\u003eEin feste Burg ist unser Gott, BWV 80\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003echorale cantata by Johann Sebastian Bach\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "GecAsFfL", "label": "Johann Sebastian Bach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GecAsFfL.md\u0027\u003eJohann Sebastian Bach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1685\u20131750)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Sebastian_Bach.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WnZM3HzT", "label": "Ein\u0027 feste Burg ist unser Gott", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WnZM3HzT.md\u0027\u003eEin\u0027 feste Burg ist unser Gott\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehymn by Martin Luther\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "eME3yXnk", "to": "LCBnZLoP", "width": 1}, {"from": "eME3yXnk", "to": "MdFCS4qM", "width": 1}, {"from": "eME3yXnk", "to": "QvKjp2ZU", "width": 1}, {"from": "QvKjp2ZU", "to": "LCBnZLoP", "width": 1}, {"from": "QvKjp2ZU", "to": "GecAsFfL", "width": 10}, {"from": "QvKjp2ZU", "to": "MdFCS4qM", "width": 1}, {"from": "QvKjp2ZU", "to": "WnZM3HzT", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WnZM3HzT", "label": "Ein\u0027 feste Burg ist unser Gott", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WnZM3HzT\u0027\u003eEin\u0027 feste Burg ist unser Gott\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehymn by Martin Luther\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QvKjp2ZU", "label": "Ein feste Burg ist unser Gott, BWV 80", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QvKjp2ZU\u0027\u003eEin feste Burg ist unser Gott, BWV 80\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003echorale cantata by Johann Sebastian Bach\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eME3yXnk", "label": "Festpra\u00ebludium, Op. 38", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eME3yXnk\u0027\u003eFestpra\u00ebludium, Op. 38\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LCBnZLoP", "label": "chorale prelude", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LCBnZLoP\u0027\u003echorale prelude\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition for organ based on a chorale melody\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "GecAsFfL", "label": "Johann Sebastian Bach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GecAsFfL\u0027\u003eJohann Sebastian Bach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1685\u20131750)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Sebastian_Bach.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MdFCS4qM", "label": "Lambrecht Baumert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MdFCS4qM\u0027\u003eLambrecht Baumert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "WnZM3HzT", "to": "QvKjp2ZU", "width": 10}, {"from": "QvKjp2ZU", "to": "eME3yXnk", "width": 1}, {"from": "QvKjp2ZU", "to": "LCBnZLoP", "width": 1}, {"from": "QvKjp2ZU", "to": "GecAsFfL", "width": 10}, {"from": "QvKjp2ZU", "to": "MdFCS4qM", "width": 1}, {"from": "MdFCS4qM", "to": "eME3yXnk", "width": 1}, {"from": "eME3yXnk", "to": "LCBnZLoP", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: J7Jn2tJp
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description          | aliases   | Wikidata QID                                          |
-    | :-------: | :-------: | :------------------: | :-------: | :---------------------------------------------------: |
-    | J7Jn2tJp  | sovereign | leader of a monarchy | potentate | [sovereign](http://wwww.wikidata.org/entity/Q2304859) |
+    | FAAM UUID | label     | description          | aliases   | Wikidata QID                                     |
+    | :-------: | :-------: | :------------------: | :-------: | :----------------------------------------------: |
+    | J7Jn2tJp  | sovereign | leader of a monarchy | potentate | [sovereign](http://wikidata.org/entity/Q2304859) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/J7Jn2tJp.html" height="800" width="1200" title="J7Jn2tJp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/J7Jn2tJp" height="800" width="1200" title="J7Jn2tJp"></iframe>
 
 ## Cross-references
 

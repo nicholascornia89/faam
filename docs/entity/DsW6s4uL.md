@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DsW6s4uL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DsW6s4uL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DsW6s4uL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DsW6s4uL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DsW6s4uL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DsW6s4uL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DsW6s4uL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases                  | description                                        | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :----------------------: | :------------------------------------------------: | :----------------------------------------------------------------: |
-    | DsW6s4uL  | Francesc Juncà i Carol | Francesc Joncar i Querol | Catalan conductor, composer and priest (1742-1833) | [Francesc Juncà i Carol](http://wwww.wikidata.org/entity/Q8962463) |
+    | FAAM UUID | label                  | aliases                  | description                                        | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :----------------------: | :------------------------------------------------: | :-----------------------------------------------------------: |
+    | DsW6s4uL  | Francesc Juncà i Carol | Francesc Joncar i Querol | Catalan conductor, composer and priest (1742-1833) | [Francesc Juncà i Carol](http://wikidata.org/entity/Q8962463) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DsW6s4uL.html" height="800" width="1200" title="DsW6s4uL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DsW6s4uL" height="800" width="1200" title="DsW6s4uL"></iframe>
 
 ## Identifiers
 
@@ -58,3 +62,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Josep Pons](./XvhjzvcS.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Spanish composer (1770-1818)
+
+</div>

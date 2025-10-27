@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3HuQsR4z
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3HuQsR4z.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3HuQsR4z.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3HuQsR4z.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3HuQsR4z.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3HuQsR4z.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3HuQsR4z.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases            | description                                                    | Wikidata QID                                                            |
-    | :-------: | :-----------------------: | :----------------: | :------------------------------------------------------------: | :---------------------------------------------------------------------: |
-    | 3HuQsR4z  | Pierre Joseph D'Hollander | Petrus D'Hollander | priest, theologian, professor and honorary canon (1804 - 1866) | [Pierre Joseph D'Hollander](http://wwww.wikidata.org/entity/Q125865575) |
+    | FAAM UUID | label                     | aliases            | description                                                    | Wikidata QID                                                       |
+    | :-------: | :-----------------------: | :----------------: | :------------------------------------------------------------: | :----------------------------------------------------------------: |
+    | 3HuQsR4z  | Pierre Joseph D'Hollander | Petrus D'Hollander | priest, theologian, professor and honorary canon (1804 - 1866) | [Pierre Joseph D'Hollander](http://wikidata.org/entity/Q125865575) |
 
 <br><br><br>
 
@@ -45,9 +49,9 @@ tags: agent
 
 	- [Catholic priest](./eUa7qYMN.md)
 
-	- [](./44m57Ax2.md)
+	- [theologian](./44m57Ax2.md)
 
-	- [](./gPszdmNe.md)
+	- [professor](./gPszdmNe.md)
 
 ??? quote "educated at" 
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/3HuQsR4z.html" height="800" width="1200" title="3HuQsR4z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3HuQsR4z" height="800" width="1200" title="3HuQsR4z"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Guido Gezelle](./Rz4AdCV3.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Guido_Gezelle.jpg){align=left width="150" height="150"} 
+
+	Belgian poet, journalist, teacher, monastery director and priest (1830–1899)
+
+</div>

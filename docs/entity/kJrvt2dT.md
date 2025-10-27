@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kJrvt2dT
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------: | :-----: | :---------: | :----------------------------------: |
-    | kJrvt2dT  | La verginella |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label         | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------: | :-----: | :---------: | :-----------------------------: |
+    | kJrvt2dT  | La verginella |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/kJrvt2dT.html" height="800" width="1200" title="kJrvt2dT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kJrvt2dT" height="800" width="1200" title="kJrvt2dT"></iframe>
 
 ## Identifiers
 

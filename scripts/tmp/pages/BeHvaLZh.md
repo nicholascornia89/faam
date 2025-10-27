@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BeHvaLZh
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | description                                        | aliases                                        | Wikidata QID                                                                      |
-    | :-------: | :------------------------------------: | :------------------------------------------------: | :--------------------------------------------: | :-------------------------------------------------------------------------------: |
-    | BeHvaLZh  | University of Music and Theatre Munich | institution of higher education in Munich, Germany | University of Music and Performing Arts Munich | [University of Music and Theatre Munich](http://wwww.wikidata.org/entity/Q657167) |
+    | FAAM UUID | label                                  | description                                        | aliases                                        | Wikidata QID                                                                 |
+    | :-------: | :------------------------------------: | :------------------------------------------------: | :--------------------------------------------: | :--------------------------------------------------------------------------: |
+    | BeHvaLZh  | University of Music and Theatre Munich | institution of higher education in Munich, Germany | University of Music and Performing Arts Munich | [University of Music and Theatre Munich](http://wikidata.org/entity/Q657167) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/BeHvaLZh.html" height="800" width="1200" title="BeHvaLZh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BeHvaLZh" height="800" width="1200" title="BeHvaLZh"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mSRjqdyx
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                  | aliases | Wikidata QID                                              |
-    | :-------: | :------------: | :------------------------------------------: | :-----: | :-------------------------------------------------------: |
-    | mSRjqdyx  | Duchy of Milan | former duchy in Italy (1395–1447; 1450–1796) |         | [Duchy of Milan](http://wwww.wikidata.org/entity/Q153529) |
+    | FAAM UUID | label          | description                                  | aliases | Wikidata QID                                         |
+    | :-------: | :------------: | :------------------------------------------: | :-----: | :--------------------------------------------------: |
+    | mSRjqdyx  | Duchy of Milan | former duchy in Italy (1395–1447; 1450–1796) |         | [Duchy of Milan](http://wikidata.org/entity/Q153529) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/mSRjqdyx.html" height="800" width="1200" title="mSRjqdyx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mSRjqdyx" height="800" width="1200" title="mSRjqdyx"></iframe>
 
 ## Identifiers
 
@@ -49,7 +53,7 @@ tags: country
 
 -	__[Marc'Antonio Ingegneri](./DMSLG6R2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

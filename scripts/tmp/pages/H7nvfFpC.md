@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: H7nvfFpC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                                         | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :---------------------------------------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | H7nvfFpC  | Odesa | city in southwestern Ukraine, administrative center of Odesa Oblast and Odesa Raion | Odessa  | [Odesa](http://wwww.wikidata.org/entity/Q1874) |
+    | FAAM UUID | label | description                                                                         | aliases | Wikidata QID                              |
+    | :-------: | :---: | :---------------------------------------------------------------------------------: | :-----: | :---------------------------------------: |
+    | H7nvfFpC  | Odesa | city in southwestern Ukraine, administrative center of Odesa Oblast and Odesa Raion | Odessa  | [Odesa](http://wikidata.org/entity/Q1874) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/H7nvfFpC.html" height="800" width="1200" title="H7nvfFpC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/H7nvfFpC" height="800" width="1200" title="H7nvfFpC"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Issay Barmas](./8E5UBj64.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/50/Issay_Barmas.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Issay_Barmas.jpg){align=left width="150" height="150"} 
 
 	Russian-German violinist
 

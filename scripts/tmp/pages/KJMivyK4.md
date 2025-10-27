@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KJMivyK4
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KJMivyK4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KJMivyK4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KJMivyK4.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KJMivyK4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KJMivyK4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KJMivyK4.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Frans_Brüggen_(1969).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                                                       | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :---------------------------------------------------------------: | :------------------------------------------------------: |
-    | KJMivyK4  | Frans Brüggen | Frans Brüggen | Dutch conductor, recorder player and baroque flautist (1934–2014) | [Frans Brüggen](http://wwww.wikidata.org/entity/Q711810) |
+    | FAAM UUID | label         | aliases       | description                                                       | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :---------------------------------------------------------------: | :-------------------------------------------------: |
+    | KJMivyK4  | Frans Brüggen | Frans Brüggen | Dutch conductor, recorder player and baroque flautist (1934–2014) | [Frans Brüggen](http://wikidata.org/entity/Q711810) |
 
 <br><br><br>
 
@@ -75,7 +79,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KJMivyK4.html" height="800" width="1200" title="KJMivyK4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KJMivyK4" height="800" width="1200" title="KJMivyK4"></iframe>
 
 ## Identifiers
 

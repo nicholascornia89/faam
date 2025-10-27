@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fYDgaXWA
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                           | aliases                  | Wikidata QID                                              |
-    | :-------: | :-----------: | :---------------------------------------------------: | :----------------------: | :-------------------------------------------------------: |
-    | fYDgaXWA  | Nether Wallop | village and civil parish in Hampshire, United Kingdom | Nether Wallop, Hampshire | [Nether Wallop](http://wwww.wikidata.org/entity/Q6998989) |
+    | FAAM UUID | label         | description                                           | aliases                  | Wikidata QID                                         |
+    | :-------: | :-----------: | :---------------------------------------------------: | :----------------------: | :--------------------------------------------------: |
+    | fYDgaXWA  | Nether Wallop | village and civil parish in Hampshire, United Kingdom | Nether Wallop, Hampshire | [Nether Wallop](http://wikidata.org/entity/Q6998989) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fYDgaXWA.html" height="800" width="1200" title="fYDgaXWA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fYDgaXWA" height="800" width="1200" title="fYDgaXWA"></iframe>
 
 ## Identifiers
 

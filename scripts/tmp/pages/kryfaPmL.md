@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kryfaPmL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                     | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :-----------------------------: | :-----: | :---------------------------------------------: |
-    | kryfaPmL  | Gijón | municipality in Asturias, Spain | Gijon   | [Gijón](http://wwww.wikidata.org/entity/Q12273) |
+    | FAAM UUID | label | description                     | aliases | Wikidata QID                               |
+    | :-------: | :---: | :-----------------------------: | :-----: | :----------------------------------------: |
+    | kryfaPmL  | Gijón | municipality in Asturias, Spain | Gijon   | [Gijón](http://wikidata.org/entity/Q12273) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/kryfaPmL.html" height="800" width="1200" title="kryfaPmL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kryfaPmL" height="800" width="1200" title="kryfaPmL"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Ignacio Prieto](./eb7u4xWh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer and organist
 

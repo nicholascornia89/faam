@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Jp5uD2fL
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description | Wikidata QID                         |
-    | :-------: | :----------: | :-----: | :---------: | :----------------------------------: |
-    | Jp5uD2fL  | Regina coeli |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label        | aliases | description | Wikidata QID                    |
+    | :-------: | :----------: | :-----: | :---------: | :-----------------------------: |
+    | Jp5uD2fL  | Regina coeli |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Jp5uD2fL.html" height="800" width="1200" title="Jp5uD2fL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Jp5uD2fL" height="800" width="1200" title="Jp5uD2fL"></iframe>
 
 ## Identifiers
 
@@ -65,13 +69,13 @@ tags: musical_work
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893](./SGrwmsQj.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893](./SGrwmsQj.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
 
 	
 

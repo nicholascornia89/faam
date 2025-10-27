@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MzWPHPH5
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | MzWPHPH5  | Keyboard Sonata in A major, K.212 | Keyboard Sonata in A major, L.135 | sonata by Domenico Scarlatti | [Sonata K. 212](http://wwww.wikidata.org/entity/Q67322076) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | MzWPHPH5  | Keyboard Sonata in A major, K.212 | Keyboard Sonata in A major, L.135 | sonata by Domenico Scarlatti | [Sonata K. 212](http://wikidata.org/entity/Q67322076) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/MzWPHPH5.html" height="800" width="1200" title="MzWPHPH5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MzWPHPH5" height="800" width="1200" title="MzWPHPH5"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oPXgGhcD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/oPXgGhcD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/oPXgGhcD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/oPXgGhcD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/oPXgGhcD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/oPXgGhcD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/oPXgGhcD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/AntonSchindler.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases               | description                                                                    | Wikidata QID                                              |
-    | :-------: | :-------------: | :-------------------: | :----------------------------------------------------------------------------: | :-------------------------------------------------------: |
-    | oPXgGhcD  | Anton Schindler | Anton Felix Schindler | Associate, secretary, and early biographer of Ludwig van Beethoven (1795-1864) | [Anton Schindler](http://wwww.wikidata.org/entity/Q64862) |
+    | FAAM UUID | label           | aliases               | description                                                                    | Wikidata QID                                         |
+    | :-------: | :-------------: | :-------------------: | :----------------------------------------------------------------------------: | :--------------------------------------------------: |
+    | oPXgGhcD  | Anton Schindler | Anton Felix Schindler | Associate, secretary, and early biographer of Ludwig van Beethoven (1795-1864) | [Anton Schindler](http://wikidata.org/entity/Q64862) |
 
 <br><br><br>
 
@@ -55,11 +59,11 @@ tags: agent
 
 	- [music historian](./kKY7zLoa.md)
 
-	- [](./jdtaivHs.md)
+	- [biographer](./jdtaivHs.md)
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./HiywuUEM.md)
+	- [non-fiction writer](./HiywuUEM.md)
 
 	- [violinist](./9CVVGZdo.md)
 
@@ -71,13 +75,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./jvy73i8J.md)
+	- [Theater Aachen](./jvy73i8J.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/oPXgGhcD.html" height="800" width="1200" title="oPXgGhcD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oPXgGhcD" height="800" width="1200" title="oPXgGhcD"></iframe>
 
 ## Identifiers
 
@@ -98,3 +102,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Franz Wüllner](./BhzTmsge.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Franz_Wüllner.jpg){align=left width="150" height="150"} 
+
+	German composer and conductor (1832–1902)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: o7NY8qkU
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502002/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/o7NY8qkU.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/o7NY8qkU.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/o7NY8qkU.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502002/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/o7NY8qkU.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/o7NY8qkU.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/o7NY8qkU.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502002.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502002.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                 | permalink                | provenance                              |
-    | :-------: | :-------------------: | :---------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | o7NY8qkU  | DPF-202502002         | Tota Pulchra Es. 3 voces aequalium, organo ad libitum | [external URL](mkCY9LDD) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                 | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :---------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | o7NY8qkU  | DPF-202502002         | Tota Pulchra Es. 3 voces aequalium, organo ad libitum | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ## Statements
 
@@ -85,10 +89,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/o7NY8qkU.html" height="800" width="1200" title="o7NY8qkU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/o7NY8qkU" height="800" width="1200" title="o7NY8qkU"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/o7NY8qkU.html" height="800" width="1200" title="o7NY8qkU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/o7NY8qkU" height="800" width="1200" title="o7NY8qkU"></iframe>

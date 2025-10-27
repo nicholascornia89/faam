@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EUiebCku
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                         | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :---------------------------------: | :-----: | :------------------------------------------------: |
-    | EUiebCku  | Clusone | town and commune in Lombardy, Italy |         | [Clusone](http://wwww.wikidata.org/entity/Q100388) |
+    | FAAM UUID | label   | description                         | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :---------------------------------: | :-----: | :-------------------------------------------: |
+    | EUiebCku  | Clusone | town and commune in Lombardy, Italy |         | [Clusone](http://wikidata.org/entity/Q100388) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/EUiebCku.html" height="800" width="1200" title="EUiebCku"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EUiebCku" height="800" width="1200" title="EUiebCku"></iframe>
 
 ## Identifiers
 

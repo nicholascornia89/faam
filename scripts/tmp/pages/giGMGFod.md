@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: giGMGFod
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/giGMGFod.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/giGMGFod.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/giGMGFod.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/giGMGFod.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/giGMGFod.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/giGMGFod.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bessems.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases      | description                                                          | Wikidata QID                                                |
-    | :-------: | :-------------: | :----------: | :------------------------------------------------------------------: | :---------------------------------------------------------: |
-    | giGMGFod  | Antoine Bessems | Ante Bessems | b. 1806, Antwerp, d. 1868, Paris; violinist and composer (1809–1868) | [Antoine Bessems](http://wwww.wikidata.org/entity/Q4085790) |
+    | FAAM UUID | label           | aliases      | description                                                          | Wikidata QID                                           |
+    | :-------: | :-------------: | :----------: | :------------------------------------------------------------------: | :----------------------------------------------------: |
+    | giGMGFod  | Antoine Bessems | Ante Bessems | b. 1806, Antwerp, d. 1868, Paris; violinist and composer (1809–1868) | [Antoine Bessems](http://wikidata.org/entity/Q4085790) |
 
 <br><br><br>
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/giGMGFod.html" height="800" width="1200" title="giGMGFod"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/giGMGFod" height="800" width="1200" title="giGMGFod"></iframe>
 
 ## Identifiers
 
@@ -93,13 +97,13 @@ tags: agent
 
 -	__[Grand duo brillant op.20: pour violon et violoncelle](./CyAhNHDj.md)__
 
-	![Image](../assets/images/thumbs/KCA-SD109991.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-SD109991.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Grand trio pour violon, alto et violoncelle](./nTAx3eUj.md)__
 
-	![Image](../assets/images/thumbs/KCA-KMT175228.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KMT175228.gif){align=left width="150" height="150"} 
 
 	
 

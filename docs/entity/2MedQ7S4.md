@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2MedQ7S4
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2MedQ7S4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2MedQ7S4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2MedQ7S4.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2MedQ7S4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2MedQ7S4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2MedQ7S4.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Villiers_Stanford_c1894bw.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases                       | description                                              | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :---------------------------: | :------------------------------------------------------: | :------------------------------------------------------------------: |
-    | 2MedQ7S4  | Charles Villiers Stanford | Sir Charles Villiers Stanford | Irish composer, music teacher, and conductor (1852–1924) | [Charles Villiers Stanford](http://wwww.wikidata.org/entity/Q368264) |
+    | FAAM UUID | label                     | aliases                       | description                                              | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :---------------------------: | :------------------------------------------------------: | :-------------------------------------------------------------: |
+    | 2MedQ7S4  | Charles Villiers Stanford | Sir Charles Villiers Stanford | Irish composer, music teacher, and conductor (1852–1924) | [Charles Villiers Stanford](http://wikidata.org/entity/Q368264) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 	- [Trinity College](./XGH3sNKk.md)
 
-	- [](./D78c6VTN.md)
+	- [Queens' College](./D78c6VTN.md)
 
 ??? quote "employer" 
 
@@ -71,7 +75,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/2MedQ7S4.html" height="800" width="1200" title="2MedQ7S4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2MedQ7S4" height="800" width="1200" title="2MedQ7S4"></iframe>
 
 ## Identifiers
 
@@ -96,3 +100,25 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Gustav Holst](./KpakAMdR.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Holst.jpg){align=left width="150" height="150"} 
+
+	British composer
+
+-	__[Leopold Stokowski](./Dwap6GR3.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Stokowski_LOC_26447u.jpg){align=left width="150" height="150"} 
+
+	British-born American conductor (1882–1977)
+
+-	__[Walford Davies](./ZqNc4R6J.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Walford_Davies_001.jpg){align=left width="150" height="150"} 
+
+	British composer (1869–1941)
+
+</div>

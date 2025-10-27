@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Me3crQkt
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                      | aliases | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :------------------------------: | :-----: | :--------------------------------------------------------------------: |
-    | Me3crQkt  | 8th arrondissement of Paris | administrative district of Paris | Paris 8 | [8th arrondissement of Paris](http://wwww.wikidata.org/entity/Q270230) |
+    | FAAM UUID | label                       | description                      | aliases | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :------------------------------: | :-----: | :---------------------------------------------------------------: |
+    | Me3crQkt  | 8th arrondissement of Paris | administrative district of Paris | Paris 8 | [8th arrondissement of Paris](http://wikidata.org/entity/Q270230) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Me3crQkt.html" height="800" width="1200" title="Me3crQkt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Me3crQkt" height="800" width="1200" title="Me3crQkt"></iframe>
 
 ## Identifiers
 

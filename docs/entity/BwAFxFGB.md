@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BwAFxFGB
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description | aliases | Wikidata QID                                                        |
-    | :-------: | :-------------------: | :---------: | :-----: | :-----------------------------------------------------------------: |
-    | BwAFxFGB  | independent publisher |             |         | [independent publisher](http://wwww.wikidata.org/entity/Q115793211) |
+    | FAAM UUID | label                 | description | aliases | Wikidata QID                                                   |
+    | :-------: | :-------------------: | :---------: | :-----: | :------------------------------------------------------------: |
+    | BwAFxFGB  | independent publisher |             |         | [independent publisher](http://wikidata.org/entity/Q115793211) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BwAFxFGB.html" height="800" width="1200" title="BwAFxFGB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BwAFxFGB" height="800" width="1200" title="BwAFxFGB"></iframe>
 
 ## Cross-references
 

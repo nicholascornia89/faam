@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TGoAww9C
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/TGoAww9C.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/TGoAww9C.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/TGoAww9C.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/TGoAww9C.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/TGoAww9C.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/TGoAww9C.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | aliases              | description                                        | Wikidata QID                                                               |
-    | :-------: | :--------------------------: | :------------------: | :------------------------------------------------: | :------------------------------------------------------------------------: |
-    | TGoAww9C  | Composer's Music Corporation | Composers' Music Co. | a publishing venture to feature American composers | [Composers' Music Corporation](http://wwww.wikidata.org/entity/Q126963009) |
+    | FAAM UUID | label                        | aliases              | description                                        | Wikidata QID                                                          |
+    | :-------: | :--------------------------: | :------------------: | :------------------------------------------------: | :-------------------------------------------------------------------: |
+    | TGoAww9C  | Composer's Music Corporation | Composers' Music Co. | a publishing venture to feature American composers | [Composers' Music Corporation](http://wikidata.org/entity/Q126963009) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/TGoAww9C.html" height="800" width="1200" title="TGoAww9C"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TGoAww9C" height="800" width="1200" title="TGoAww9C"></iframe>
 
 ## Identifiers
 
@@ -63,19 +67,19 @@ tags: agent
 
 -	__[Melancholia](./JY3gWnbx.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904518203.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904518203.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pastorale](./SMLfD4pe.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904499578.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904499578.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Impromptu](./YhJ7ctQm.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904518351.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904518351.gif){align=left width="150" height="150"} 
 
 	
 

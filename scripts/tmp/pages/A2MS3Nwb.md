@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: A2MS3Nwb
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                  | aliases    | Wikidata QID                                                |
-    | :-------: | :------------: | :----------------------------------------------------------: | :--------: | :---------------------------------------------------------: |
-    | A2MS3Nwb  | transformation | process involving change into a qualitatively different form | conversion | [transformation](http://wwww.wikidata.org/entity/Q65757353) |
+    | FAAM UUID | label          | description                                                  | aliases    | Wikidata QID                                           |
+    | :-------: | :------------: | :----------------------------------------------------------: | :--------: | :----------------------------------------------------: |
+    | A2MS3Nwb  | transformation | process involving change into a qualitatively different form | conversion | [transformation](http://wikidata.org/entity/Q65757353) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/A2MS3Nwb.html" height="800" width="1200" title="A2MS3Nwb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/A2MS3Nwb" height="800" width="1200" title="A2MS3Nwb"></iframe>
 
 ## Cross-references
 

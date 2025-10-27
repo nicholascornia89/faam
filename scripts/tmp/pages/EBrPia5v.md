@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EBrPia5v
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EBrPia5v.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EBrPia5v.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EBrPia5v.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EBrPia5v.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EBrPia5v.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EBrPia5v.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                           | Wikidata QID                                               |
-    | :-------: | :----------: | :----------: | :-----------------------------------: | :--------------------------------------------------------: |
-    | EBrPia5v  | Leo De Barse | Leo De Barse | Belgian horn player and music teacher | [Leo De Barse](http://wwww.wikidata.org/entity/Q125489262) |
+    | FAAM UUID | label        | aliases      | description                           | Wikidata QID                                          |
+    | :-------: | :----------: | :----------: | :-----------------------------------: | :---------------------------------------------------: |
+    | EBrPia5v  | Leo De Barse | Leo De Barse | Belgian horn player and music teacher | [Leo De Barse](http://wikidata.org/entity/Q125489262) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/EBrPia5v.html" height="800" width="1200" title="EBrPia5v"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EBrPia5v" height="800" width="1200" title="EBrPia5v"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: agent
 
 -	__[Sonate : für Pianoforte und Horn, oder Violine oder Violoncell, op. 17](./YPkkArSq.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904770184.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904770184.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HyU2Z63V
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HyU2Z63V.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HyU2Z63V.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HyU2Z63V.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HyU2Z63V.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HyU2Z63V.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HyU2Z63V.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases                  | description                        | Wikidata QID                                                  |
-    | :-------: | :-----------------: | :----------------------: | :--------------------------------: | :-----------------------------------------------------------: |
-    | HyU2Z63V  | Maurice Schlesinger | Moritz Adolf Schlesinger | German music publisher (1798–1871) | [Maurice Schlesinger](http://wwww.wikidata.org/entity/Q70457) |
+    | FAAM UUID | label               | aliases                  | description                        | Wikidata QID                                             |
+    | :-------: | :-----------------: | :----------------------: | :--------------------------------: | :------------------------------------------------------: |
+    | HyU2Z63V  | Maurice Schlesinger | Moritz Adolf Schlesinger | German music publisher (1798–1871) | [Maurice Schlesinger](http://wikidata.org/entity/Q70457) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/HyU2Z63V.html" height="800" width="1200" title="HyU2Z63V"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HyU2Z63V" height="800" width="1200" title="HyU2Z63V"></iframe>
 
 ## Identifiers
 
@@ -77,13 +81,13 @@ tags: agent
 
 -	__[La Romanesca : fameux Air de Danse du XVI.e siècle : transcrit pour Piano d'après la Partition originale](./YjKUh4GE.md)__
 
-	![Image](../assets/images/thumbs/KCG-000369479.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000369479.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Fantasia chromatica](./G6fDRy98.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076574139707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076574139707356.gif){align=left width="150" height="150"} 
 
 	
 

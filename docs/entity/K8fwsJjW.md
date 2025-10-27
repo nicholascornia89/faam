@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: K8fwsJjW
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/K8fwsJjW.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/K8fwsJjW.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/K8fwsJjW.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/K8fwsJjW.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/K8fwsJjW.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/K8fwsJjW.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Conrad_Beck_1961.jpeg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases            | description                | Wikidata QID                                           |
-    | :-------: | :---------: | :----------------: | :------------------------: | :----------------------------------------------------: |
-    | K8fwsJjW  | Conrad Beck | Conrad Arthur Beck | Swiss composer (1901-1989) | [Conrad Beck](http://wwww.wikidata.org/entity/Q671783) |
+    | FAAM UUID | label       | aliases            | description                | Wikidata QID                                      |
+    | :-------: | :---------: | :----------------: | :------------------------: | :-----------------------------------------------: |
+    | K8fwsJjW  | Conrad Beck | Conrad Arthur Beck | Swiss composer (1901-1989) | [Conrad Beck](http://wikidata.org/entity/Q671783) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/K8fwsJjW.html" height="800" width="1200" title="K8fwsJjW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/K8fwsJjW" height="800" width="1200" title="K8fwsJjW"></iframe>
 
 ## Identifiers
 

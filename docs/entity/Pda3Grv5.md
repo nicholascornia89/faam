@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Pda3Grv5
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Pda3Grv5.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Pda3Grv5.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Pda3Grv5.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Pda3Grv5.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Pda3Grv5.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Pda3Grv5.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait_of_Oscar_Chilesotti,_musicologist_(1848-1916)_-_Archivio_Storico_Ricordi_ICON010793_B.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                      | Wikidata QID                                                 |
-    | :-------: | :--------------: | :--------------: | :------------------------------: | :----------------------------------------------------------: |
-    | Pda3Grv5  | Oscar Chilesotti | Oscar Chilesotti | Italian musicologist (1848-1916) | [Oscar Chilesotti](http://wwww.wikidata.org/entity/Q3886400) |
+    | FAAM UUID | label            | aliases          | description                      | Wikidata QID                                            |
+    | :-------: | :--------------: | :--------------: | :------------------------------: | :-----------------------------------------------------: |
+    | Pda3Grv5  | Oscar Chilesotti | Oscar Chilesotti | Italian musicologist (1848-1916) | [Oscar Chilesotti](http://wikidata.org/entity/Q3886400) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Pda3Grv5.html" height="800" width="1200" title="Pda3Grv5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Pda3Grv5" height="800" width="1200" title="Pda3Grv5"></iframe>
 
 ## Identifiers
 

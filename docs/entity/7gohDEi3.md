@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7gohDEi3
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                       | aliases          | Wikidata QID                                         |
-    | :-------: | :--------: | :-----------------------------------------------: | :--------------: | :--------------------------------------------------: |
-    | 7gohDEi3  | politician | person who holds or seeks positions in government | political leader | [politician](http://wwww.wikidata.org/entity/Q82955) |
+    | FAAM UUID | label      | description                                       | aliases          | Wikidata QID                                    |
+    | :-------: | :--------: | :-----------------------------------------------: | :--------------: | :---------------------------------------------: |
+    | 7gohDEi3  | politician | person who holds or seeks positions in government | political leader | [politician](http://wikidata.org/entity/Q82955) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/7gohDEi3.html" height="800" width="1200" title="7gohDEi3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7gohDEi3" height="800" width="1200" title="7gohDEi3"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Remi Ghesquiere](./5FzPNxhE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	sacristan, teacher, organist, composer, poet and politician from Belgium (1866-1964)
 
@@ -85,7 +89,7 @@ tags: occupation
 
 -	__[Giuseppe Verdi](./nhPsm7TZ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/19/Verdi_by_Giovanni_Boldini.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Verdi_by_Giovanni_Boldini.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1813–1901)
 

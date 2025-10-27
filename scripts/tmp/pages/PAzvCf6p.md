@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PAzvCf6p
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000337038/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PAzvCf6p.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PAzvCf6p.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PAzvCf6p.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000337038/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PAzvCf6p.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PAzvCf6p.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PAzvCf6p.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000337038.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000337038.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                       | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | PAzvCf6p  | KCG-000337038         | Potpourri : pour la Flûte avec Accompagt de Piano sur des motifs de l'opéra I Montecchi ed I capuletti de Bellini : Op: 55. | [external URL](HohjWQAt) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                       | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | PAzvCf6p  | KCG-000337038         | Potpourri : pour la Flûte avec Accompagt de Piano sur des motifs de l'opéra I Montecchi ed I capuletti de Bellini : Op: 55. | [external URL](https://catalogus.hogent.be/catalog/hog01:000337038) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -87,10 +91,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/PAzvCf6p.html" height="800" width="1200" title="PAzvCf6p"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PAzvCf6p" height="800" width="1200" title="PAzvCf6p"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/PAzvCf6p.html" height="800" width="1200" title="PAzvCf6p"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/PAzvCf6p" height="800" width="1200" title="PAzvCf6p"></iframe>

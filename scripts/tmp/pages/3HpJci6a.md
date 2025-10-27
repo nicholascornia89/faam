@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3HpJci6a
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502026/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3HpJci6a.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3HpJci6a.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3HpJci6a.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502026/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3HpJci6a.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3HpJci6a.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3HpJci6a.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502026.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502026.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                 | permalink                | provenance                              |
-    | :-------: | :-------------------: | :---------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | 3HpJci6a  | DPF-202502026         | Antiphonae. In honorem Beatae Mariae Virginis. Op. 32 | [external URL](EgkVbUEo) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                 | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :---------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | 3HpJci6a  | DPF-202502026         | Antiphonae. In honorem Beatae Mariae Virginis. Op. 32 | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -94,10 +98,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/3HpJci6a.html" height="800" width="1200" title="3HpJci6a"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3HpJci6a" height="800" width="1200" title="3HpJci6a"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/3HpJci6a.html" height="800" width="1200" title="3HpJci6a"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/3HpJci6a" height="800" width="1200" title="3HpJci6a"></iframe>

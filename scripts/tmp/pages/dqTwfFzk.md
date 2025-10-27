@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dqTwfFzk
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                           | aliases                           | description                  | Wikidata QID                                             |
-    | :-------: | :-----------------------------: | :-------------------------------: | :--------------------------: | :------------------------------------------------------: |
-    | dqTwfFzk  | Keyboard Sonata in G minor, K.8 | Keyboard Sonata in G minor, L.488 | sonata by Domenico Scarlatti | [Sonata K. 8](http://wwww.wikidata.org/entity/Q74594907) |
+    | FAAM UUID | label                           | aliases                           | description                  | Wikidata QID                                        |
+    | :-------: | :-----------------------------: | :-------------------------------: | :--------------------------: | :-------------------------------------------------: |
+    | dqTwfFzk  | Keyboard Sonata in G minor, K.8 | Keyboard Sonata in G minor, L.488 | sonata by Domenico Scarlatti | [Sonata K. 8](http://wikidata.org/entity/Q74594907) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/dqTwfFzk.html" height="800" width="1200" title="dqTwfFzk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dqTwfFzk" height="800" width="1200" title="dqTwfFzk"></iframe>
 
 ## Identifiers
 
@@ -79,37 +83,37 @@ tags: musical_work
 
 -	__[18 ausgewählte Klavierstücke](./J4gd8QWV.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 8 (sarabande) / Domenico Scarlatti... ; révision par Vincent d'Indy](./AwC94Gkb.md)__
 
-	![Image](../assets/images/thumbs/BNF-43257952p.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43257952p.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Early Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito.](./icedGMzA.md)__
 
-	![Image](../assets/images/thumbs/SML-22563.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22563.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[18 ausgewählte Klavierstücke](./J4gd8QWV.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

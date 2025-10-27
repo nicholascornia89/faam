@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Js8pCRJz
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000339398/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Js8pCRJz.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Js8pCRJz.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Js8pCRJz.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000339398/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Js8pCRJz.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Js8pCRJz.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Js8pCRJz.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000339398.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339398.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                  | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :----------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | Js8pCRJz  | KCG-000339398         | Concerto N° 1 in e : voor piano enOrchestra : Opus 11. | [external URL](2qoBxv5j) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                  | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :----------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | Js8pCRJz  | KCG-000339398         | Concerto N° 1 in e : voor piano enOrchestra : Opus 11. | [external URL](https://catalogus.hogent.be/catalog/hog01:000339398) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -83,10 +87,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Js8pCRJz.html" height="800" width="1200" title="Js8pCRJz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Js8pCRJz" height="800" width="1200" title="Js8pCRJz"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Js8pCRJz.html" height="800" width="1200" title="Js8pCRJz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Js8pCRJz" height="800" width="1200" title="Js8pCRJz"></iframe>

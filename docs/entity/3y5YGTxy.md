@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3y5YGTxy
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                               | aliases                    | Wikidata QID                                                 |
-    | :-------: | :--------------: | :---------------------------------------: | :------------------------: | :----------------------------------------------------------: |
-    | 3y5YGTxy  | Lower Broadheath | village in Worcestershire, United Kingdom | Broadheath, Worcestershire | [Lower Broadheath](http://wwww.wikidata.org/entity/Q2423318) |
+    | FAAM UUID | label            | description                               | aliases                    | Wikidata QID                                            |
+    | :-------: | :--------------: | :---------------------------------------: | :------------------------: | :-----------------------------------------------------: |
+    | 3y5YGTxy  | Lower Broadheath | village in Worcestershire, United Kingdom | Broadheath, Worcestershire | [Lower Broadheath](http://wikidata.org/entity/Q2423318) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3y5YGTxy.html" height="800" width="1200" title="3y5YGTxy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3y5YGTxy" height="800" width="1200" title="3y5YGTxy"></iframe>
 
 ## Identifiers
 

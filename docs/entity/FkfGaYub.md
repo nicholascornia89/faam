@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FkfGaYub
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FkfGaYub.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FkfGaYub.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FkfGaYub.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FkfGaYub.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FkfGaYub.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FkfGaYub.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------: | :-----: | :---------: | :----------------------------------: |
-    | FkfGaYub  | Hubert Jongen |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label         | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------: | :-----: | :---------: | :-----------------------------: |
+    | FkfGaYub  | Hubert Jongen |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/FkfGaYub.html" height="800" width="1200" title="FkfGaYub"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FkfGaYub" height="800" width="1200" title="FkfGaYub"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: agent
 
 -	__[Grelots-ripple : mazurka pour piano, op. 26](./mMPEpXdC.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904384622.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904384622.gif){align=left width="150" height="150"} 
 
 	
 

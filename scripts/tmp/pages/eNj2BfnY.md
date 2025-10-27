@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eNj2BfnY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/eNj2BfnY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/eNj2BfnY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/eNj2BfnY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/eNj2BfnY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/eNj2BfnY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/eNj2BfnY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description                                | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----: | :----------------------------------------: | :------------------------------------------------------: |
-    | eNj2BfnY  | Aloys Schmitt |         | German composer, pianist and music teacher | [Aloys Schmitt](http://wwww.wikidata.org/entity/Q527514) |
+    | FAAM UUID | label         | aliases | description                                | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----: | :----------------------------------------: | :-------------------------------------------------: |
+    | eNj2BfnY  | Aloys Schmitt |         | German composer, pianist and music teacher | [Aloys Schmitt](http://wikidata.org/entity/Q527514) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/eNj2BfnY.html" height="800" width="1200" title="eNj2BfnY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eNj2BfnY" height="800" width="1200" title="eNj2BfnY"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Ferdinand Hiller](./RwASXqd6.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferdinand_Hiller2.jpg){align=left width="150" height="150"} 
+
+	German composer and conductor (1811–1885)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YbVtaBnQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/YbVtaBnQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/YbVtaBnQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/YbVtaBnQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/YbVtaBnQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/YbVtaBnQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/YbVtaBnQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases                   | description                              | Wikidata QID                                            |
-    | :-------: | :----------: | :-----------------------: | :--------------------------------------: | :-----------------------------------------------------: |
-    | YbVtaBnQ  | Louis Vierne | Louis Victor Jules Vierne | French organist and composer (1870–1937) | [Louis Vierne](http://wwww.wikidata.org/entity/Q299669) |
+    | FAAM UUID | label        | aliases                   | description                              | Wikidata QID                                       |
+    | :-------: | :----------: | :-----------------------: | :--------------------------------------: | :------------------------------------------------: |
+    | YbVtaBnQ  | Louis Vierne | Louis Victor Jules Vierne | French organist and composer (1870–1937) | [Louis Vierne](http://wikidata.org/entity/Q299669) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/YbVtaBnQ.html" height="800" width="1200" title="YbVtaBnQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YbVtaBnQ" height="800" width="1200" title="YbVtaBnQ"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Omer Létourneau](./VZbaoske.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Omer_Létourneau.jpg){align=left width="150" height="150"} 
+
+	Canadian musician (1891-1983)
+
+-	__[Nadia Boulanger](./nCmayBbg.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nadia_Boulanger_1925_colorized.jpg){align=left width="150" height="150"} 
+
+	French musician, conductor, and teacher (1887-1979)
+
+</div>

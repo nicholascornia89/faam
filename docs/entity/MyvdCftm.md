@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MyvdCftm
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                       | description                                          | aliases             | Wikidata QID                                                                           |
-    | :-------: | :-----------------------------------------: | :--------------------------------------------------: | :-----------------: | :------------------------------------------------------------------------------------: |
-    | MyvdCftm  | Saint-Josse-ten-Noode - Sint-Joost-ten-Node | municipality in the Brussels-Capital Region, Belgium | Sint-Joost-ten-Node | [Saint-Josse-ten-Noode - Sint-Joost-ten-Node](http://wwww.wikidata.org/entity/Q272243) |
+    | FAAM UUID | label                                       | description                                          | aliases             | Wikidata QID                                                                      |
+    | :-------: | :-----------------------------------------: | :--------------------------------------------------: | :-----------------: | :-------------------------------------------------------------------------------: |
+    | MyvdCftm  | Saint-Josse-ten-Noode - Sint-Joost-ten-Node | municipality in the Brussels-Capital Region, Belgium | Sint-Joost-ten-Node | [Saint-Josse-ten-Noode - Sint-Joost-ten-Node](http://wikidata.org/entity/Q272243) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/MyvdCftm.html" height="800" width="1200" title="MyvdCftm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MyvdCftm" height="800" width="1200" title="MyvdCftm"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Léopold Bourotte](./FxU5NEib.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

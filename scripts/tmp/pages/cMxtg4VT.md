@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cMxtg4VT
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description | aliases | Wikidata QID                                                  |
-    | :-------: | :---------------: | :---------: | :-----: | :-----------------------------------------------------------: |
-    | cMxtg4VT  | Bergamo Cathedral | cathedral   |         | [Bergamo Cathedral](http://wwww.wikidata.org/entity/Q1081902) |
+    | FAAM UUID | label             | description | aliases | Wikidata QID                                             |
+    | :-------: | :---------------: | :---------: | :-----: | :------------------------------------------------------: |
+    | cMxtg4VT  | Bergamo Cathedral | cathedral   |         | [Bergamo Cathedral](http://wikidata.org/entity/Q1081902) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/cMxtg4VT.html" height="800" width="1200" title="cMxtg4VT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cMxtg4VT" height="800" width="1200" title="cMxtg4VT"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bHKpsKwT
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description    | aliases  | Wikidata QID                                       |
-    | :-------: | :-----: | :------------: | :------: | :------------------------------------------------: |
-    | bHKpsKwT  | Grodków | city of Poland | Grottkau | [Grodków](http://wwww.wikidata.org/entity/Q941844) |
+    | FAAM UUID | label   | description    | aliases  | Wikidata QID                                  |
+    | :-------: | :-----: | :------------: | :------: | :-------------------------------------------: |
+    | bHKpsKwT  | Grodków | city of Poland | Grottkau | [Grodków](http://wikidata.org/entity/Q941844) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bHKpsKwT.html" height="800" width="1200" title="bHKpsKwT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bHKpsKwT" height="800" width="1200" title="bHKpsKwT"></iframe>
 
 ## Identifiers
 

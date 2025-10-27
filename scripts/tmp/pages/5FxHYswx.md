@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5FxHYswx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                      | aliases | Wikidata QID                                 |
-    | :-------: | :---: | :------------------------------: | :-----: | :------------------------------------------: |
-    | 5FxHYswx  | Basel | city on the Rhine in Switzerland | Basle   | [Basel](http://wwww.wikidata.org/entity/Q78) |
+    | FAAM UUID | label | description                      | aliases | Wikidata QID                            |
+    | :-------: | :---: | :------------------------------: | :-----: | :-------------------------------------: |
+    | 5FxHYswx  | Basel | city on the Rhine in Switzerland | Basle   | [Basel](http://wikidata.org/entity/Q78) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/5FxHYswx.html" height="800" width="1200" title="5FxHYswx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5FxHYswx" height="800" width="1200" title="5FxHYswx"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Antoinette Vischer](./7vm6nMLX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss harpsichordist
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Albert Fuchs](./4U9xMGUe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	composer (1858-1910)
 
@@ -85,13 +89,13 @@ tags: city
 
 -	__[Ernst Ferand](./D5YqeXET.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Hungarian musicologist (1887-1972)
 
 -	__[Antoinette Vischer](./7vm6nMLX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss harpsichordist
 

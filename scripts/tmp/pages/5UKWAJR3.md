@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5UKWAJR3
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                         | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------------------------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | 5UKWAJR3  | Grande Sonate brillante pour le Pianoforte et Guitare, Op.102 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                                         | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------------------------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | 5UKWAJR3  | Grande Sonate brillante pour le Pianoforte et Guitare, Op.102 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/5UKWAJR3.html" height="800" width="1200" title="5UKWAJR3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5UKWAJR3" height="800" width="1200" title="5UKWAJR3"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Grande Sonate brillante : für Gitarre und Klavier, op. 102](./B3B8jgZK.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901582434.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901582434.gif){align=left width="150" height="150"} 
 
 	
 

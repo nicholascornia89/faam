@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AzPHH8yg
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902419669/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/AzPHH8yg.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/AzPHH8yg.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/AzPHH8yg.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902419669/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/AzPHH8yg.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/AzPHH8yg.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/AzPHH8yg.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902419669.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902419669.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                     | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | AzPHH8yg  | KCA-030902419669      | Fantaisie: pour orchestre | [external URL](3TH8dCwg) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                     | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | AzPHH8yg  | KCA-030902419669      | Fantaisie: pour orchestre | [external URL](https://anet.be/record/opacdkvc/c:lvd:12910262/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -94,10 +98,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/AzPHH8yg.html" height="800" width="1200" title="AzPHH8yg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AzPHH8yg" height="800" width="1200" title="AzPHH8yg"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/AzPHH8yg.html" height="800" width="1200" title="AzPHH8yg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/AzPHH8yg" height="800" width="1200" title="AzPHH8yg"></iframe>

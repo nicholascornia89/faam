@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dch8TF2x
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description    | aliases          | Wikidata QID                                                |
-    | :-------: | :--------------: | :------------: | :--------------: | :---------------------------------------------------------: |
-    | dch8TF2x  | Duchy of Ferrara | former country | Duchy of Ferrara | [Duchy of Ferrara](http://wwww.wikidata.org/entity/Q693570) |
+    | FAAM UUID | label            | description    | aliases          | Wikidata QID                                           |
+    | :-------: | :--------------: | :------------: | :--------------: | :----------------------------------------------------: |
+    | dch8TF2x  | Duchy of Ferrara | former country | Duchy of Ferrara | [Duchy of Ferrara](http://wikidata.org/entity/Q693570) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/dch8TF2x.html" height="800" width="1200" title="dch8TF2x"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dch8TF2x" height="800" width="1200" title="dch8TF2x"></iframe>
 
 ## Identifiers
 

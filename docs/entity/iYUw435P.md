@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iYUw435P
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description     | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :-------------: | :-----: | :-------------------------------------------------: |
-    | iYUw435P  | Litomyšl | town in Czechia |         | [Litomyšl](http://wwww.wikidata.org/entity/Q722732) |
+    | FAAM UUID | label    | description     | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :-------------: | :-----: | :--------------------------------------------: |
+    | iYUw435P  | Litomyšl | town in Czechia |         | [Litomyšl](http://wikidata.org/entity/Q722732) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/iYUw435P.html" height="800" width="1200" title="iYUw435P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iYUw435P" height="800" width="1200" title="iYUw435P"></iframe>
 
 ## Identifiers
 

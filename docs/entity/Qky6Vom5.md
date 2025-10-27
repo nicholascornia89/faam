@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Qky6Vom5
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description | Wikidata QID                         |
-    | :-------: | :----------: | :-----: | :---------: | :----------------------------------: |
-    | Qky6Vom5  | Salve Regina |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label        | aliases | description | Wikidata QID                    |
+    | :-------: | :----------: | :-----: | :---------: | :-----------------------------: |
+    | Qky6Vom5  | Salve Regina |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Qky6Vom5.html" height="800" width="1200" title="Qky6Vom5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Qky6Vom5" height="800" width="1200" title="Qky6Vom5"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XS7wpMYC
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000353031/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XS7wpMYC.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XS7wpMYC.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XS7wpMYC.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000353031/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XS7wpMYC.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XS7wpMYC.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XS7wpMYC.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000353031.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000353031.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                    | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | XS7wpMYC  | KCG-000353031         | Rondoletto brillant et facile : sur l'Aragonaise du Domino noir, musique de F. Auber, arrange pour la flute avec accompagnement de piano | [external URL](7XBG3iZJ) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                    | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | XS7wpMYC  | KCG-000353031         | Rondoletto brillant et facile : sur l'Aragonaise du Domino noir, musique de F. Auber, arrange pour la flute avec accompagnement de piano | [external URL](https://catalogus.hogent.be/catalog/hog01:000353031) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -75,10 +79,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/XS7wpMYC.html" height="800" width="1200" title="XS7wpMYC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XS7wpMYC" height="800" width="1200" title="XS7wpMYC"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/XS7wpMYC.html" height="800" width="1200" title="XS7wpMYC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/XS7wpMYC" height="800" width="1200" title="XS7wpMYC"></iframe>

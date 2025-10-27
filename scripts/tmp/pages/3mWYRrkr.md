@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3mWYRrkr
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------------: | :-----: | :---------: | :----------------------------------: |
-    | 3mWYRrkr  | Pianoforte-Schule, Op.500 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                     | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------------: | :-----: | :---------: | :-----------------------------: |
+    | 3mWYRrkr  | Pianoforte-Schule, Op.500 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/3mWYRrkr.html" height="800" width="1200" title="3mWYRrkr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3mWYRrkr" height="800" width="1200" title="3mWYRrkr"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: musical_work
 
 -	__[Vollständige theoretisch-practische Pianoforte-Schule op. 500. Von dem ersten Anfange bis zur höchsten Ausbildung fortschreitend](./QZgTTyck.md)__
 
-	![Image](../assets/images/thumbs/ORP-20137318.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20137318.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Vollständige theoretisch-practische Pianoforte-Schule: von dem ersten Anfange bis zur höchsten Ausbildung fortschreitend und mit allen nöthigen zu diesem Zwecke eigends componirten zahlreichen Beispielen. 1](./8XRHbdbi.md)__
 
-	![Image](../assets/images/thumbs/BSB-991122653899707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991122653899707356.gif){align=left width="150" height="150"} 
 
 	
 

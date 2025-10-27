@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CcZ9kw6x
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-03090399482/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/CcZ9kw6x.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/CcZ9kw6x.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/CcZ9kw6x.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-03090399482/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/CcZ9kw6x.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/CcZ9kw6x.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/CcZ9kw6x.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-03090399482.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090399482.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                      | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | CcZ9kw6x  | KCA-03090399482       | Symfonisch gedicht voor Flute en Orchestra : dwaallichten - melancholia - dwaallichtendans | [external URL](TK9UAG2p) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                      | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | CcZ9kw6x  | KCA-03090399482       | Symfonisch gedicht voor Flute en Orchestra : dwaallichten - melancholia - dwaallichtendans | [external URL](https://anet.be/record/opacdkvc/c:lvd:14735622/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -88,10 +92,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/CcZ9kw6x.html" height="800" width="1200" title="CcZ9kw6x"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CcZ9kw6x" height="800" width="1200" title="CcZ9kw6x"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/CcZ9kw6x.html" height="800" width="1200" title="CcZ9kw6x"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/CcZ9kw6x" height="800" width="1200" title="CcZ9kw6x"></iframe>

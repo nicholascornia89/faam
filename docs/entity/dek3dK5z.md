@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dek3dK5z
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/dek3dK5z.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/dek3dK5z.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/dek3dK5z.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/dek3dK5z.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/dek3dK5z.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/dek3dK5z.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases                   | description      | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-----------------------: | :--------------: | :------------------------------------------------------------------: |
-    | dek3dK5z  | Giovanni Benedetto Platti | Giovanni Benedetto Platti | Italian composer | [Giovanni Benedetto Platti](http://wwww.wikidata.org/entity/Q262427) |
+    | FAAM UUID | label                     | aliases                   | description      | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-----------------------: | :--------------: | :-------------------------------------------------------------: |
+    | dek3dK5z  | Giovanni Benedetto Platti | Giovanni Benedetto Platti | Italian composer | [Giovanni Benedetto Platti](http://wikidata.org/entity/Q262427) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./FPRyBmX6.md)
+	- [oboist](./FPRyBmX6.md)
 
 	- [violinist](./9CVVGZdo.md)
 
@@ -71,7 +75,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/dek3dK5z.html" height="800" width="1200" title="dek3dK5z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dek3dK5z" height="800" width="1200" title="dek3dK5z"></iframe>
 
 ## Identifiers
 

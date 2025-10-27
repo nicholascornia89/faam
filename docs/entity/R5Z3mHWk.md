@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: R5Z3mHWk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description               | aliases | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------------------: | :-----: | :------------------------------------------------------: |
-    | R5Z3mHWk  | Aix-les-Bains | commune in Savoie, France |         | [Aix-les-Bains](http://wwww.wikidata.org/entity/Q181955) |
+    | FAAM UUID | label         | description               | aliases | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------------------: | :-----: | :-------------------------------------------------: |
+    | R5Z3mHWk  | Aix-les-Bains | commune in Savoie, France |         | [Aix-les-Bains](http://wikidata.org/entity/Q181955) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/R5Z3mHWk.html" height="800" width="1200" title="R5Z3mHWk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/R5Z3mHWk" height="800" width="1200" title="R5Z3mHWk"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GfcsqPhn
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                     | aliases         | Wikidata QID                                               |
-    | :-------: | :-------------: | :---------------------------------------------: | :-------------: | :--------------------------------------------------------: |
-    | GfcsqPhn  | transliteration | conversion of a text from one script to another | transliteration | [transliteration](http://wwww.wikidata.org/entity/Q134550) |
+    | FAAM UUID | label           | description                                     | aliases         | Wikidata QID                                          |
+    | :-------: | :-------------: | :---------------------------------------------: | :-------------: | :---------------------------------------------------: |
+    | GfcsqPhn  | transliteration | conversion of a text from one script to another | transliteration | [transliteration](http://wikidata.org/entity/Q134550) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/GfcsqPhn.html" height="800" width="1200" title="GfcsqPhn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GfcsqPhn" height="800" width="1200" title="GfcsqPhn"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: annotation_type
 
 -	__[Faun und Schäferin: liedercyklus für Gesang und Klavier, op. 2 = Le faune et la bergère: suite pour chant et piano, opus 2](./XRgokHR3.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902642138.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902642138.gif){align=left width="150" height="150"} 
 
 	
 

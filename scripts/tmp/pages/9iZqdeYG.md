@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9iZqdeYG
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description              | aliases        | Wikidata QID                                                 |
-    | :-------: | :---------------: | :----------------------: | :------------: | :----------------------------------------------------------: |
-    | 9iZqdeYG  | Wasserburg am Inn | town in Bavaria, Germany | Wasserburg/Inn | [Wasserburg am Inn](http://wwww.wikidata.org/entity/Q259617) |
+    | FAAM UUID | label             | description              | aliases        | Wikidata QID                                            |
+    | :-------: | :---------------: | :----------------------: | :------------: | :-----------------------------------------------------: |
+    | 9iZqdeYG  | Wasserburg am Inn | town in Bavaria, Germany | Wasserburg/Inn | [Wasserburg am Inn](http://wikidata.org/entity/Q259617) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9iZqdeYG.html" height="800" width="1200" title="9iZqdeYG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9iZqdeYG" height="800" width="1200" title="9iZqdeYG"></iframe>
 
 ## Identifiers
 

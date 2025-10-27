@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Utc7ozYb
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Utc7ozYb.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Utc7ozYb.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Utc7ozYb.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Utc7ozYb.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Utc7ozYb.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Utc7ozYb.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Battista_Pergolesi.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases                  | description                                          | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :----------------------: | :--------------------------------------------------: | :--------------------------------------------------------------------: |
-    | Utc7ozYb  | Giovanni Battista Pergolesi | Giovanni Battista Draghi | Italian composer, violinist and organist (1710–1736) | [Giovanni Battista Pergolesi](http://wwww.wikidata.org/entity/Q185312) |
+    | FAAM UUID | label                       | aliases                  | description                                          | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :----------------------: | :--------------------------------------------------: | :---------------------------------------------------------------: |
+    | Utc7ozYb  | Giovanni Battista Pergolesi | Giovanni Battista Draghi | Italian composer, violinist and organist (1710–1736) | [Giovanni Battista Pergolesi](http://wikidata.org/entity/Q185312) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Utc7ozYb.html" height="800" width="1200" title="Utc7ozYb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Utc7ozYb" height="800" width="1200" title="Utc7ozYb"></iframe>
 
 ## Identifiers
 

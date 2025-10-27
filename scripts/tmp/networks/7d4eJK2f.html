@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7d4eJK2f", "label": "Pleni sunt coeli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7d4eJK2f.md\u0027\u003ePleni sunt coeli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emass fragment by Giovanni Pierluigi da Palestrina\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "kNneakGU", "label": "mass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kNneakGU.md\u0027\u003emass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of sacred musical composition that sets the Mass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "4MMhcBUy", "label": "Recueil des morceaux de musique ancienne ex\u00e9cut\u00e9s aux concerts de la Soci\u00e9t\u00e9 de musique vocale religieuse et classique, fond\u00e9e \u00e0 Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4MMhcBUy.md\u0027\u003eRecueil des morceaux de musique ancienne ex\u00e9cut\u00e9s aux concerts de la Soci\u00e9t\u00e9 de musique vocale religieuse et classique, fond\u00e9e \u00e0 Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-43090486d.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "7d4eJK2f", "to": "kNneakGU", "width": 10}, {"from": "7d4eJK2f", "to": "4MMhcBUy", "width": 10}, {"from": "kNneakGU", "to": "4MMhcBUy", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "4MMhcBUy", "label": "Recueil des morceaux de musique ancienne ex\u00e9cut\u00e9s aux concerts de la Soci\u00e9t\u00e9 de musique vocale religieuse et classique, fond\u00e9e \u00e0 Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4MMhcBUy\u0027\u003eRecueil des morceaux de musique ancienne ex\u00e9cut\u00e9s aux concerts de la Soci\u00e9t\u00e9 de musique vocale religieuse et classique, fond\u00e9e \u00e0 Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BNF-43090486d.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7d4eJK2f", "label": "Pleni sunt coeli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7d4eJK2f\u0027\u003ePleni sunt coeli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emass fragment by Giovanni Pierluigi da Palestrina\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "kNneakGU", "label": "mass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kNneakGU\u0027\u003emass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of sacred musical composition that sets the Mass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "4MMhcBUy", "to": "7d4eJK2f", "width": 10}, {"from": "4MMhcBUy", "to": "kNneakGU", "width": 1}, {"from": "kNneakGU", "to": "7d4eJK2f", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

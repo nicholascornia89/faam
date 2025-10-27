@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UUqcdqAT
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                       | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :-------------------------------: | :-----: | :---------------------------------------------: |
-    | UUqcdqAT  | Opole | city with powiat rights of Poland | Oppeln  | [Opole](http://wwww.wikidata.org/entity/Q92212) |
+    | FAAM UUID | label | description                       | aliases | Wikidata QID                               |
+    | :-------: | :---: | :-------------------------------: | :-----: | :----------------------------------------: |
+    | UUqcdqAT  | Opole | city with powiat rights of Poland | Oppeln  | [Opole](http://wikidata.org/entity/Q92212) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/UUqcdqAT.html" height="800" width="1200" title="UUqcdqAT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UUqcdqAT" height="800" width="1200" title="UUqcdqAT"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Hugo Ulrich](./7bN7WGVq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German Romantic composer
 

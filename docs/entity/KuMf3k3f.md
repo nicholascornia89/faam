@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KuMf3k3f
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KuMf3k3f.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KuMf3k3f.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KuMf3k3f.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KuMf3k3f.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KuMf3k3f.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KuMf3k3f.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description                  | Wikidata QID                                                 |
-    | :-------: | :---------------: | :---------------: | :--------------------------: | :----------------------------------------------------------: |
-    | KuMf3k3f  | Giulio Briccialdi | Giulio Briccialdi | Italian musician (1818–1881) | [Giulio Briccialdi](http://wwww.wikidata.org/entity/Q930527) |
+    | FAAM UUID | label             | aliases           | description                  | Wikidata QID                                            |
+    | :-------: | :---------------: | :---------------: | :--------------------------: | :-----------------------------------------------------: |
+    | KuMf3k3f  | Giulio Briccialdi | Giulio Briccialdi | Italian musician (1818–1881) | [Giulio Briccialdi](http://wikidata.org/entity/Q930527) |
 
 <br><br><br>
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KuMf3k3f.html" height="800" width="1200" title="KuMf3k3f"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KuMf3k3f" height="800" width="1200" title="KuMf3k3f"></iframe>
 
 ## Identifiers
 
@@ -93,8 +97,20 @@ tags: agent
 
 -	__[Potpourri : pour la Flûte avec Accompagt de Piano sur des motifs de l'opéra I Montecchi ed I capuletti de Bellini : Op: 55.](./PAzvCf6p.md)__
 
-	![Image](../assets/images/thumbs/KCG-000337038.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000337038.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Potpourri, Op.55](./MasDcY5m.md)__
+
+	
+
+-	__[I Capuleti e i Montecchi](./UWuzhp4p.md)__
+
+	opera by Vincenzo Bellini
 
 </div>

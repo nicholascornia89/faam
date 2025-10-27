@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7AXGCpck.md\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "j7QvGcV9", "label": "Le Capitaine Fracasse", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./j7QvGcV9.md\u0027\u003eLe Capitaine Fracasse\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomic opera\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6fNCgBTJ", "label": "Emile Pessard", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6fNCgBTJ.md\u0027\u003eEmile Pessard\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\u00c9mile_Pessard_by_Nadar.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "2BArFkGf", "label": "Pr\u00e9lude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Fl\u00fbte, Hautbois, Clarinette, Cor et Basson", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2BArFkGf.md\u0027\u003ePr\u00e9lude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Fl\u00fbte, Hautbois, Clarinette, Cor et Basson\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000735722.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "3SXZtwXb", "label": "comic opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3SXZtwXb.md\u0027\u003ecomic opera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera genre\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "7AXGCpck", "to": "j7QvGcV9", "width": 10}, {"from": "7AXGCpck", "to": "6fNCgBTJ", "width": 10}, {"from": "7AXGCpck", "to": "2BArFkGf", "width": 10}, {"from": "6fNCgBTJ", "to": "j7QvGcV9", "width": 10}, {"from": "j7QvGcV9", "to": "3SXZtwXb", "width": 10}, {"from": "j7QvGcV9", "to": "2BArFkGf", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7AXGCpck\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "j7QvGcV9", "label": "Le Capitaine Fracasse", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/j7QvGcV9\u0027\u003eLe Capitaine Fracasse\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomic opera\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6fNCgBTJ", "label": "Emile Pessard", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6fNCgBTJ\u0027\u003eEmile Pessard\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\u00c9mile_Pessard_by_Nadar.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "2BArFkGf", "label": "Pr\u00e9lude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Fl\u00fbte, Hautbois, Clarinette, Cor et Basson", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2BArFkGf\u0027\u003ePr\u00e9lude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Fl\u00fbte, Hautbois, Clarinette, Cor et Basson\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000735722.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "3SXZtwXb", "label": "comic opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3SXZtwXb\u0027\u003ecomic opera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera genre\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "7AXGCpck", "to": "j7QvGcV9", "width": 10}, {"from": "7AXGCpck", "to": "6fNCgBTJ", "width": 10}, {"from": "7AXGCpck", "to": "2BArFkGf", "width": 10}, {"from": "j7QvGcV9", "to": "3SXZtwXb", "width": 10}, {"from": "j7QvGcV9", "to": "6fNCgBTJ", "width": 10}, {"from": "j7QvGcV9", "to": "2BArFkGf", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

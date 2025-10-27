@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WKmJLMCL
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                 | aliases           | Wikidata QID                                               |
-    | :-------: | :-----------: | :-----------------------------------------: | :---------------: | :--------------------------------------------------------: |
-    | WKmJLMCL  | lexicographer | writer, editor, or compiler of dictionaries | dictionary writer | [lexicographer](http://wwww.wikidata.org/entity/Q14972848) |
+    | FAAM UUID | label         | description                                 | aliases           | Wikidata QID                                          |
+    | :-------: | :-----------: | :-----------------------------------------: | :---------------: | :---------------------------------------------------: |
+    | WKmJLMCL  | lexicographer | writer, editor, or compiler of dictionaries | dictionary writer | [lexicographer](http://wikidata.org/entity/Q14972848) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/WKmJLMCL.html" height="800" width="1200" title="WKmJLMCL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WKmJLMCL" height="800" width="1200" title="WKmJLMCL"></iframe>
 
 ## Cross-references
 

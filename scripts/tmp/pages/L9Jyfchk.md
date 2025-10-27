@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: L9Jyfchk
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502006/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/L9Jyfchk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/L9Jyfchk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/L9Jyfchk.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502006/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/L9Jyfchk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/L9Jyfchk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/L9Jyfchk.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502006.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502006.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                         | permalink                | provenance                              |
-    | :-------: | :-------------------: | :-------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | L9Jyfchk  | DPF-202502006         | Missa ad tres voces aequales comitante organo | [external URL](QyAptNqX) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                         | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :-------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | L9Jyfchk  | DPF-202502006         | Missa ad tres voces aequales comitante organo | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -100,10 +104,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/L9Jyfchk.html" height="800" width="1200" title="L9Jyfchk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/L9Jyfchk" height="800" width="1200" title="L9Jyfchk"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/L9Jyfchk.html" height="800" width="1200" title="L9Jyfchk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/L9Jyfchk" height="800" width="1200" title="L9Jyfchk"></iframe>

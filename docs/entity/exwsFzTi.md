@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: exwsFzTi
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases  | description                                      | Wikidata QID                                                       |
-    | :-------: | :-------------------: | :------: | :----------------------------------------------: | :----------------------------------------------------------------: |
-    | exwsFzTi  | Van den vos Reynaerde | Reinaert | the Middle Dutch version of the story of Reynard | [Van den vos Reynaerde](http://wwww.wikidata.org/entity/Q19310739) |
+    | FAAM UUID | label                 | aliases  | description                                      | Wikidata QID                                                  |
+    | :-------: | :-------------------: | :------: | :----------------------------------------------: | :-----------------------------------------------------------: |
+    | exwsFzTi  | Van den vos Reynaerde | Reinaert | the Middle Dutch version of the story of Reynard | [Van den vos Reynaerde](http://wikidata.org/entity/Q19310739) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./VSc449tZ.md)
+	- [Ysengrimus](./VSc449tZ.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/exwsFzTi.html" height="800" width="1200" title="exwsFzTi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/exwsFzTi" height="800" width="1200" title="exwsFzTi"></iframe>
 
 ## Identifiers
 

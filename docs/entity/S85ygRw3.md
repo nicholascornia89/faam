@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: S85ygRw3
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | S85ygRw3  | Keyboard Sonata in C major, K.460 | Keyboard Sonata in C major, L.324 | sonata by Domenico Scarlatti | [Sonata K. 460](http://wwww.wikidata.org/entity/Q74594743) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | S85ygRw3  | Keyboard Sonata in C major, K.460 | Keyboard Sonata in C major, L.324 | sonata by Domenico Scarlatti | [Sonata K. 460](http://wikidata.org/entity/Q74594743) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/S85ygRw3.html" height="800" width="1200" title="S85ygRw3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/S85ygRw3" height="800" width="1200" title="S85ygRw3"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

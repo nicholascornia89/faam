@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jzuVKd9W
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/jzuVKd9W.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/jzuVKd9W.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/jzuVKd9W.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/jzuVKd9W.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/jzuVKd9W.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/jzuVKd9W.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giuseppe_Concone_by_Marie-Alexandre_Alophe.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                           | description                                     | Wikidata QID                                                |
-    | :-------: | :--------------: | :-------------------------------: | :---------------------------------------------: | :---------------------------------------------------------: |
-    | jzuVKd9W  | Giuseppe Concone | Paolo Giuseppe Gioacchino Concone | Italian composer and music educator (1801-1861) | [Giuseppe Concone](http://wwww.wikidata.org/entity/Q709173) |
+    | FAAM UUID | label            | aliases                           | description                                     | Wikidata QID                                           |
+    | :-------: | :--------------: | :-------------------------------: | :---------------------------------------------: | :----------------------------------------------------: |
+    | jzuVKd9W  | Giuseppe Concone | Paolo Giuseppe Gioacchino Concone | Italian composer and music educator (1801-1861) | [Giuseppe Concone](http://wikidata.org/entity/Q709173) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/jzuVKd9W.html" height="800" width="1200" title="jzuVKd9W"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jzuVKd9W" height="800" width="1200" title="jzuVKd9W"></iframe>
 
 ## Identifiers
 
@@ -79,13 +83,21 @@ tags: agent
 
 -	__[Ivanhoe: N.7 Romance de Rebecca: Pour Mezzo Soprano: (Longtempts brisé)](./XG63Jdar.md)__
 
-	![Image](../assets/images/thumbs/KCG-000322330.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000322330.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Il cavaliere e l'eremita : (No. 5 d'Ivanhoe, paroles françaises de Belanger) : duetto per baritono e basso = (Le chevalier et l'heremit)](./Ko8hPPyn.md)__
 
-	![Image](../assets/images/thumbs/BSB-991144119456307356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991144119456307356.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Walter Scott lyrique](./a6Jz8RDd.md)__
 
 	
 

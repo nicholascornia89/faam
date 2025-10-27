@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mcTtoyTt
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                 | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :-------------------------: | :-----: | :------------------------------------------------: |
-    | mcTtoyTt  | presto | indication of musical tempo | presto  | [presto](http://wwww.wikidata.org/entity/Q2096748) |
+    | FAAM UUID | label  | description                 | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :-------------------------: | :-----: | :-------------------------------------------: |
+    | mcTtoyTt  | presto | indication of musical tempo | presto  | [presto](http://wikidata.org/entity/Q2096748) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/mcTtoyTt.html" height="800" width="1200" title="mcTtoyTt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mcTtoyTt" height="800" width="1200" title="mcTtoyTt"></iframe>
 
 ## Cross-references
 

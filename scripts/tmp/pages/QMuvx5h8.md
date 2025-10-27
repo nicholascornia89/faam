@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QMuvx5h8
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                                                         | aliases        | Wikidata QID                                             |
-    | :-------: | :----------: | :-----------------------------------------------------------------------------------------------------------------: | :------------: | :------------------------------------------------------: |
-    | QMuvx5h8  | scenographer | designers of all visual aspects of a stage production, including scenery, properties, lighting, costume, and makeup | stage designer | [scenographer](http://wwww.wikidata.org/entity/Q2707485) |
+    | FAAM UUID | label        | description                                                                                                         | aliases        | Wikidata QID                                        |
+    | :-------: | :----------: | :-----------------------------------------------------------------------------------------------------------------: | :------------: | :-------------------------------------------------: |
+    | QMuvx5h8  | scenographer | designers of all visual aspects of a stage production, including scenery, properties, lighting, costume, and makeup | stage designer | [scenographer](http://wikidata.org/entity/Q2707485) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/QMuvx5h8.html" height="800" width="1200" title="QMuvx5h8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QMuvx5h8" height="800" width="1200" title="QMuvx5h8"></iframe>
 
 ## Cross-references
 

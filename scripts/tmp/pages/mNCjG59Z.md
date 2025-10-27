@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mNCjG59Z
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description              | aliases              | Wikidata QID                                                    |
-    | :-------: | :----------------: | :----------------------: | :------------------: | :-------------------------------------------------------------: |
-    | mNCjG59Z  | Republic of Geneva | former country in Europe | République de Genève | [Republic of Geneva](http://wwww.wikidata.org/entity/Q23366230) |
+    | FAAM UUID | label              | description              | aliases              | Wikidata QID                                               |
+    | :-------: | :----------------: | :----------------------: | :------------------: | :--------------------------------------------------------: |
+    | mNCjG59Z  | Republic of Geneva | former country in Europe | République de Genève | [Republic of Geneva](http://wikidata.org/entity/Q23366230) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/mNCjG59Z.html" height="800" width="1200" title="mNCjG59Z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mNCjG59Z" height="800" width="1200" title="mNCjG59Z"></iframe>
 
 ## Identifiers
 

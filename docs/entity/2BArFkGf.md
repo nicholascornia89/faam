@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2BArFkGf
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000735722/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2BArFkGf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2BArFkGf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2BArFkGf.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000735722/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2BArFkGf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2BArFkGf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2BArFkGf.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000735722.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735722.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                          | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | 2BArFkGf  | KCG-000735722         | Prélude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Flûte, Hautbois, Clarinette, Cor et Basson | [external URL](7WfWytMV) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                          | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | 2BArFkGf  | KCG-000735722         | Prélude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Flûte, Hautbois, Clarinette, Cor et Basson | [external URL](https://catalogus.hogent.be/catalog/hog01:000735722) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -105,10 +109,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/2BArFkGf.html" height="800" width="1200" title="2BArFkGf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2BArFkGf" height="800" width="1200" title="2BArFkGf"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/2BArFkGf.html" height="800" width="1200" title="2BArFkGf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/2BArFkGf" height="800" width="1200" title="2BArFkGf"></iframe>

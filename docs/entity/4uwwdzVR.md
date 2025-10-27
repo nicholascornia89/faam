@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4uwwdzVR
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/tree/main/raw-images/BSB-991076922529707356/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/4uwwdzVR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/4uwwdzVR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/4uwwdzVR.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/tree/main/raw-images/BSB-991076922529707356/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/4uwwdzVR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/4uwwdzVR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/4uwwdzVR.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991076922529707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076922529707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                                                                                               | permalink                | provenance                              |
-    | :-------: | :--------------------: | :-----------------------------------------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | 4uwwdzVR  | BSB-991076922529707356 | Drei Psalmlieder: für gem. 4stg. Chor zu Tonstücken von Johann Sebastian Bach gedichtet u. d. Chorgesang dargeboten | [external URL](eqaR2nEP) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                                                                                               | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :-----------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | 4uwwdzVR  | BSB-991076922529707356 | Drei Psalmlieder: für gem. 4stg. Chor zu Tonstücken von Johann Sebastian Bach gedichtet u. d. Chorgesang dargeboten | [external URL](https://mdz-nbn-resolving.de/details:bsb11144414) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ===  "note" 
 
@@ -77,10 +81,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/4uwwdzVR.html" height="800" width="1200" title="4uwwdzVR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4uwwdzVR" height="800" width="1200" title="4uwwdzVR"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/4uwwdzVR.html" height="800" width="1200" title="4uwwdzVR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/4uwwdzVR" height="800" width="1200" title="4uwwdzVR"></iframe>

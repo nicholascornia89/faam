@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4XknngxC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description   | aliases               | Wikidata QID                                      |
-    | :-------: | :--------: | :-----------: | :-------------------: | :-----------------------------------------------: |
-    | 4XknngxC  | Alexandria | city in Egypt | Mediterranean's Bride | [Alexandria](http://wwww.wikidata.org/entity/Q87) |
+    | FAAM UUID | label      | description   | aliases               | Wikidata QID                                 |
+    | :-------: | :--------: | :-----------: | :-------------------: | :------------------------------------------: |
+    | 4XknngxC  | Alexandria | city in Egypt | Mediterranean's Bride | [Alexandria](http://wikidata.org/entity/Q87) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Egypt](http://www.wikidata.org/entity/Q79)
+	- [Egypt](Q79)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4XknngxC.html" height="800" width="1200" title="4XknngxC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4XknngxC" height="800" width="1200" title="4XknngxC"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Vittorio Rieti](./6kUvgnUj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1898–1994)
 

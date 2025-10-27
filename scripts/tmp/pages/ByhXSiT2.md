@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ByhXSiT2
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ByhXSiT2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ByhXSiT2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ByhXSiT2.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ByhXSiT2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ByhXSiT2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ByhXSiT2.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases             | description                                                  | Wikidata QID                                                      |
-    | :-------: | :---------------------: | :-----------------: | :----------------------------------------------------------: | :---------------------------------------------------------------: |
-    | ByhXSiT2  | Alexander von Zemlinsky | Alexander Zemlinsky | Austrian Jewish composer, conductor, and teacher (1871-1942) | [Alexander von Zemlinsky](http://wwww.wikidata.org/entity/Q78524) |
+    | FAAM UUID | label                   | aliases             | description                                                  | Wikidata QID                                                 |
+    | :-------: | :---------------------: | :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+    | ByhXSiT2  | Alexander von Zemlinsky | Alexander Zemlinsky | Austrian Jewish composer, conductor, and teacher (1871-1942) | [Alexander von Zemlinsky](http://wikidata.org/entity/Q78524) |
 
 <br><br><br>
 
@@ -43,17 +47,17 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [National Theatre](http://www.wikidata.org/entity/Q732697)
+	- [National Theatre](Q732697)
 
-	- [Divadlo 5. května](http://www.wikidata.org/entity/Q11812403)
+	- [Divadlo 5. května](Q11812403)
 
-	- [Nové německé divadlo](http://www.wikidata.org/entity/Q90889588)
+	- [Nové německé divadlo](Q90889588)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ByhXSiT2.html" height="800" width="1200" title="ByhXSiT2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ByhXSiT2" height="800" width="1200" title="ByhXSiT2"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Arnold Schoenberg](./dMyrQyHE.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold_schönberg_man_ray.jpg){align=left width="150" height="150"} 
+
+	Austrian-Jewish American composer (1874-1951)
+
+</div>

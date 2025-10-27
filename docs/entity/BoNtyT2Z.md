@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BoNtyT2Z
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | description                                                              | aliases | Wikidata QID                                                                    |
-    | :-------: | :---------------------------------: | :----------------------------------------------------------------------: | :-----: | :-----------------------------------------------------------------------------: |
-    | BoNtyT2Z  | former 10th arrondissement of Paris | one of the twelve administrative districts of Paris, France, before 1860 |         | [former 10th arrondissement of Paris](http://wwww.wikidata.org/entity/Q2845749) |
+    | FAAM UUID | label                               | description                                                              | aliases | Wikidata QID                                                               |
+    | :-------: | :---------------------------------: | :----------------------------------------------------------------------: | :-----: | :------------------------------------------------------------------------: |
+    | BoNtyT2Z  | former 10th arrondissement of Paris | one of the twelve administrative districts of Paris, France, before 1860 |         | [former 10th arrondissement of Paris](http://wikidata.org/entity/Q2845749) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BoNtyT2Z.html" height="800" width="1200" title="BoNtyT2Z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BoNtyT2Z" height="800" width="1200" title="BoNtyT2Z"></iframe>
 
 ## Identifiers
 

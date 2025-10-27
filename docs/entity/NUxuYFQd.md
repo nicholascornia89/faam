@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NUxuYFQd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                       | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :-----------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | NUxuYFQd  | Zeulenroda | quarter of Zeulenroda-Triebes, Thuringia, Germany |         | [Zeulenroda](http://wwww.wikidata.org/entity/Q196996) |
+    | FAAM UUID | label      | description                                       | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :-----------------------------------------------: | :-----: | :----------------------------------------------: |
+    | NUxuYFQd  | Zeulenroda | quarter of Zeulenroda-Triebes, Thuringia, Germany |         | [Zeulenroda](http://wikidata.org/entity/Q196996) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/NUxuYFQd.html" height="800" width="1200" title="NUxuYFQd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NUxuYFQd" height="800" width="1200" title="NUxuYFQd"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Gustav Schreck](./hKmhCVh7.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8d/Gustav_Schreck.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Schreck.jpg){align=left width="150" height="150"} 
 
 	German composer, music educator, and choirmaster (1849–1918)
 

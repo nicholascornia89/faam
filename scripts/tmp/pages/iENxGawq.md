@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iENxGawq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                   | aliases   | Wikidata QID                                        |
-    | :-------: | :------: | :---------------------------: | :-------: | :-------------------------------------------------: |
-    | iENxGawq  | Frymburk | market town in Czech Republic | Friedberg | [Frymburk](http://wwww.wikidata.org/entity/Q164536) |
+    | FAAM UUID | label    | description                   | aliases   | Wikidata QID                                   |
+    | :-------: | :------: | :---------------------------: | :-------: | :--------------------------------------------: |
+    | iENxGawq  | Frymburk | market town in Czech Republic | Friedberg | [Frymburk](http://wikidata.org/entity/Q164536) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/iENxGawq.html" height="800" width="1200" title="iENxGawq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iENxGawq" height="800" width="1200" title="iENxGawq"></iframe>
 
 ## Identifiers
 

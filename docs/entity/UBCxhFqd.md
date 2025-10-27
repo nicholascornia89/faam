@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UBCxhFqd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                    | aliases           | Wikidata QID                                    |
-    | :-------: | :---: | :----------------------------: | :---------------: | :---------------------------------------------: |
-    | UBCxhFqd  | Gray  | commune in Haute-Saône, France | Gray, Haute-Saône | [Gray](http://wwww.wikidata.org/entity/Q265332) |
+    | FAAM UUID | label | description                    | aliases           | Wikidata QID                               |
+    | :-------: | :---: | :----------------------------: | :---------------: | :----------------------------------------: |
+    | UBCxhFqd  | Gray  | commune in Haute-Saône, France | Gray, Haute-Saône | [Gray](http://wikidata.org/entity/Q265332) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/UBCxhFqd.html" height="800" width="1200" title="UBCxhFqd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UBCxhFqd" height="800" width="1200" title="UBCxhFqd"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aML9Y4Xf
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/aML9Y4Xf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/aML9Y4Xf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/aML9Y4Xf.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/aML9Y4Xf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/aML9Y4Xf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/aML9Y4Xf.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Manuel_Garcia_as_Otello_in_Paris_from_Gallica.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                  | description                                               | Wikidata QID                                             |
-    | :-------: | :-----------: | :----------------------: | :-------------------------------------------------------: | :------------------------------------------------------: |
-    | aML9Y4Xf  | Manuel García | Manuel García the Senior | Spanish opera singer, composer and impresario (1775-1832) | [Manuel García](http://wwww.wikidata.org/entity/Q704645) |
+    | FAAM UUID | label         | aliases                  | description                                               | Wikidata QID                                        |
+    | :-------: | :-----------: | :----------------------: | :-------------------------------------------------------: | :-------------------------------------------------: |
+    | aML9Y4Xf  | Manuel García | Manuel García the Senior | Spanish opera singer, composer and impresario (1775-1832) | [Manuel García](http://wikidata.org/entity/Q704645) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/aML9Y4Xf.html" height="800" width="1200" title="aML9Y4Xf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aML9Y4Xf" height="800" width="1200" title="aML9Y4Xf"></iframe>
 
 ## Identifiers
 
@@ -85,25 +89,25 @@ tags: agent
 
 -	__[Ecole de Garcia, Traité complet de l'art du chant par Manuel Garcia fils. 1ère partie](./RLHeXaY4.md)__
 
-	![Image](../assets/images/thumbs/BNF-43004209h.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43004209h.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ecole de Garcia, Traité complet de l'art du chant par Manuel Garcia fils. 1ère partie](./RLHeXaY4.md)__
 
-	![Image](../assets/images/thumbs/BNF-43004209h.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43004209h.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ecole de Garcia. Traité complet de l'art du chant en 2 parties](./54gdGXmo.md)__
 
-	![Image](../assets/images/thumbs/BNF-43004210q.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43004210q.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ecole de Garcia. Traité complet de l'art du chant en 2 parties](./54gdGXmo.md)__
 
-	![Image](../assets/images/thumbs/BNF-43004210q.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43004210q.gif){align=left width="150" height="150"} 
 
 	
 

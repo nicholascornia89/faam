@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JBXSgTmB a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "public university in Berkeley, California, USA"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q168756>,
+        "0"^^xsd:string,
+        "JBXSgTmB"^^xsd:string ;
+    schema1:location faamentity:fiWxEeqn ;
+    skos:altLabel "Berkeley"^^xsd:string,
+        "Berkeley University"^^xsd:string,
+        "Cal"^^xsd:string,
+        "Cal-Berkeley"^^xsd:string,
+        "U.C. Berkeley"^^xsd:string,
+        "UC Berkeley"^^xsd:string,
+        "UCB"^^xsd:string,
+        "Univ. of California Berkeley"^^xsd:string,
+        "University of California Berkeley"^^xsd:string,
+        "University of California at Berkeley"^^xsd:string,
+        "University of California–Berkeley"^^xsd:string,
+        "berkeley.edu"^^xsd:string ;
+    skos:prefLabel "University of California, Berkeley"^^xsd:string .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FAnQpxHD
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | aliases  | description               | Wikidata QID                                        |
-    | :-------: | :------: | :------: | :-----------------------: | :-------------------------------------------------: |
-    | FAnQpxHD  | Georgics | Verg. G. | Series of poems by Virgil | [Georgics](http://wwww.wikidata.org/entity/Q674439) |
+    | FAAM UUID | label    | aliases  | description               | Wikidata QID                                   |
+    | :-------: | :------: | :------: | :-----------------------: | :--------------------------------------------: |
+    | FAnQpxHD  | Georgics | Verg. G. | Series of poems by Virgil | [Georgics](http://wikidata.org/entity/Q674439) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/FAnQpxHD.html" height="800" width="1200" title="FAnQpxHD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FAnQpxHD" height="800" width="1200" title="FAnQpxHD"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ai8ByuFL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                       | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------------------------: | :-----: | :------------------------------------------------: |
-    | ai8ByuFL  | Puteaux | commune in Hauts-de-Seine, France |         | [Puteaux](http://wwww.wikidata.org/entity/Q234743) |
+    | FAAM UUID | label   | description                       | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------------------------: | :-----: | :-------------------------------------------: |
+    | ai8ByuFL  | Puteaux | commune in Hauts-de-Seine, France |         | [Puteaux](http://wikidata.org/entity/Q234743) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ai8ByuFL.html" height="800" width="1200" title="ai8ByuFL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ai8ByuFL" height="800" width="1200" title="ai8ByuFL"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Vincenzo Bellini](./FzuLDZCr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6f/Lucchini-Bellini.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lucchini-Bellini.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1801–1835)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jRPz5KUj
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                 | aliases         | Wikidata QID                                         |
-    | :-------: | :------: | :-------------------------: | :-------------: | :--------------------------------------------------: |
-    | jRPz5KUj  | botanist | person who practices botany | plant scientist | [botanist](http://wwww.wikidata.org/entity/Q2374149) |
+    | FAAM UUID | label    | description                 | aliases         | Wikidata QID                                    |
+    | :-------: | :------: | :-------------------------: | :-------------: | :---------------------------------------------: |
+    | jRPz5KUj  | botanist | person who practices botany | plant scientist | [botanist](http://wikidata.org/entity/Q2374149) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/jRPz5KUj.html" height="800" width="1200" title="jRPz5KUj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jRPz5KUj" height="800" width="1200" title="jRPz5KUj"></iframe>
 
 ## Cross-references
 

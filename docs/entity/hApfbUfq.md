@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hApfbUfq
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description        | aliases                   | Wikidata QID                                      |
-    | :-------: | :-------: | :----------------: | :-----------------------: | :-----------------------------------------------: |
-    | hApfbUfq  | Australia | country in Oceania | Commonwealth of Australia | [Australia](http://wwww.wikidata.org/entity/Q408) |
+    | FAAM UUID | label     | description        | aliases                   | Wikidata QID                                 |
+    | :-------: | :-------: | :----------------: | :-----------------------: | :------------------------------------------: |
+    | hApfbUfq  | Australia | country in Oceania | Commonwealth of Australia | [Australia](http://wikidata.org/entity/Q408) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/hApfbUfq.html" height="800" width="1200" title="hApfbUfq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hApfbUfq" height="800" width="1200" title="hApfbUfq"></iframe>
 
 ## Identifiers
 

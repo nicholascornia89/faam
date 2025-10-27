@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Bt83smaN
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                      | aliases                      | Wikidata QID                                                   |
-    | :-------: | :----------------: | :------------------------------: | :--------------------------: | :------------------------------------------------------------: |
-    | Bt83smaN  | Milan Conservatory | college of music in Milan, Italy | Conservatorio Giuseppe Verdi | [Milan Conservatory](http://wwww.wikidata.org/entity/Q2045972) |
+    | FAAM UUID | label              | description                      | aliases                      | Wikidata QID                                              |
+    | :-------: | :----------------: | :------------------------------: | :--------------------------: | :-------------------------------------------------------: |
+    | Bt83smaN  | Milan Conservatory | college of music in Milan, Italy | Conservatorio Giuseppe Verdi | [Milan Conservatory](http://wikidata.org/entity/Q2045972) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Bt83smaN.html" height="800" width="1200" title="Bt83smaN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Bt83smaN" height="800" width="1200" title="Bt83smaN"></iframe>
 
 ## Cross-references
 
@@ -69,7 +73,7 @@ tags: music_organization
 
 -	__[Michele Saladino](./7PfNF8jZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1835-1912)
 
@@ -81,13 +85,13 @@ tags: music_organization
 
 -	__[Alberto Mazzucato](./5yjTbLzv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and music critic (1813–1877)
 
 -	__[Polibio Fumagalli](./3hE2YX5J.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and music educator (1830-1900)
 

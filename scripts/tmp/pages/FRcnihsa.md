@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FRcnihsa
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FRcnihsa.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FRcnihsa.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FRcnihsa.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FRcnihsa.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FRcnihsa.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FRcnihsa.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolf_Bernhard_Marx.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases    | description                                  | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :--------: | :------------------------------------------: | :------------------------------------------------------------: |
-    | FRcnihsa  | Adolf Bernhard Marx | A. B. Marx | German composer and musicologist (1795–1866) | [Adolf Bernhard Marx](http://wwww.wikidata.org/entity/Q360945) |
+    | FAAM UUID | label               | aliases    | description                                  | Wikidata QID                                              |
+    | :-------: | :-----------------: | :--------: | :------------------------------------------: | :-------------------------------------------------------: |
+    | FRcnihsa  | Adolf Bernhard Marx | A. B. Marx | German composer and musicologist (1795–1866) | [Adolf Bernhard Marx](http://wikidata.org/entity/Q360945) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/FRcnihsa.html" height="800" width="1200" title="FRcnihsa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FRcnihsa" height="800" width="1200" title="FRcnihsa"></iframe>
 
 ## Identifiers
 
@@ -89,7 +93,7 @@ tags: agent
 
 -	__[Die alte Musiklehre im Streit mit unserer Zeit](./nq795uEn.md)__
 
-	![Image](../assets/images/thumbs/BSB-991125040489707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991125040489707356.gif){align=left width="150" height="150"} 
 
 	
 

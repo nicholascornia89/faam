@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: icKJKziD
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                             | aliases | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :-------------------------------------: | :-----: | :-----------------------------------------------------------------: |
-    | icKJKziD  | London Borough of Harrow | borough in the London Region in England | Harrow  | [London Borough of Harrow](http://wwww.wikidata.org/entity/Q210476) |
+    | FAAM UUID | label                    | description                             | aliases | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :-------------------------------------: | :-----: | :------------------------------------------------------------: |
+    | icKJKziD  | London Borough of Harrow | borough in the London Region in England | Harrow  | [London Borough of Harrow](http://wikidata.org/entity/Q210476) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/icKJKziD.html" height="800" width="1200" title="icKJKziD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/icKJKziD" height="800" width="1200" title="icKJKziD"></iframe>
 
 ## Identifiers
 

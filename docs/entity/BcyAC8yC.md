@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BcyAC8yC
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | description         | aliases | Wikidata QID                                                                 |
-    | :-------: | :-------------------------------: | :-----------------: | :-----: | :--------------------------------------------------------------------------: |
-    | BcyAC8yC  | Saint Petersburg – Warsaw Railway | former railway line |         | [Saint Petersburg – Warsaw Railway](http://wwww.wikidata.org/entity/Q740103) |
+    | FAAM UUID | label                             | description         | aliases | Wikidata QID                                                            |
+    | :-------: | :-------------------------------: | :-----------------: | :-----: | :---------------------------------------------------------------------: |
+    | BcyAC8yC  | Saint Petersburg – Warsaw Railway | former railway line |         | [Saint Petersburg – Warsaw Railway](http://wikidata.org/entity/Q740103) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/BcyAC8yC.html" height="800" width="1200" title="BcyAC8yC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BcyAC8yC" height="800" width="1200" title="BcyAC8yC"></iframe>
 
 ## Cross-references
 

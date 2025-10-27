@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Wd8DrrAo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                           | aliases               | Wikidata QID                                       |
-    | :-------: | :--------: | :---------------------------------------------------: | :-------------------: | :------------------------------------------------: |
-    | Wd8DrrAo  | Versailles | French city and commune in Yvelines, in Île-de-France | Berceau-de-la-Liberté | [Versailles](http://wwww.wikidata.org/entity/Q621) |
+    | FAAM UUID | label      | description                                           | aliases               | Wikidata QID                                  |
+    | :-------: | :--------: | :---------------------------------------------------: | :-------------------: | :-------------------------------------------: |
+    | Wd8DrrAo  | Versailles | French city and commune in Yvelines, in Île-de-France | Berceau-de-la-Liberté | [Versailles](http://wikidata.org/entity/Q621) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Wd8DrrAo.html" height="800" width="1200" title="Wd8DrrAo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Wd8DrrAo" height="800" width="1200" title="Wd8DrrAo"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: city
 
 -	__[Elisa Bosch](./YkKD2dJ6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[François-René Gebauer](./fMmiNPr6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French bassoonist and composer
 
@@ -103,19 +107,19 @@ tags: city
 
 -	__[André Campra](./jyGKpuHY.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Andr%C3%A9_Campra.jpg/585px-Andr%C3%A9_Campra.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/585px-Andr%C3%A9_Campra.jpg){align=left width="150" height="150"} 
 
 	French composer and conductor (1660-1744)
 
 -	__[Antoine Guillot de Sainbris](./T685miNq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French violist
 
 -	__[Anton Stamitz](./N2MmbiCx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 

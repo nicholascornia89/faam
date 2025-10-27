@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QELJUJBf
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                          | aliases        | Wikidata QID                                                |
-    | :-------: | :------------: | :------------------------------------------------------------------: | :------------: | :---------------------------------------------------------: |
-    | QELJUJBf  | church cantata | type of cantata intended to be performed during a liturgical service | sacred cantata | [church cantata](http://wwww.wikidata.org/entity/Q11499279) |
+    | FAAM UUID | label          | description                                                          | aliases        | Wikidata QID                                           |
+    | :-------: | :------------: | :------------------------------------------------------------------: | :------------: | :----------------------------------------------------: |
+    | QELJUJBf  | church cantata | type of cantata intended to be performed during a liturgical service | sacred cantata | [church cantata](http://wikidata.org/entity/Q11499279) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/QELJUJBf.html" height="800" width="1200" title="QELJUJBf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QELJUJBf" height="800" width="1200" title="QELJUJBf"></iframe>
 
 ## Cross-references
 
@@ -39,55 +43,55 @@ tags: keyword
 
 -	__[Concert aria : kerstnacht = Air de concert : nuit de Noël](./99LzWhLY.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902594008.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902594008.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[CANTATE N°45 : Es ist dir gesagt, Mensch, was gut ist](./EXeDLbH8.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331832.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331832.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Kantate Nr. 60. O Ewigkeit, du Donnerwort](./gyZdimpE.md)__
 
-	![Image](../assets/images/thumbs/ORP-20140284b.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20140284b.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Harmonia Sacra or Divine Hymns and Dialogues : with a Thorow Bass for the Theorbo-Lute, Bass Viol, Harpsichord, or Organ. vols. 1-2](./WhX6dcQv.md)__
 
-	![Image](../assets/images/thumbs/ORP-20134135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20134135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[9 Tenor-Arien : aus versch. Cantaten ; mit Begl. d. Pianoforte](./gex3sqyu.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ach wie flüchtig, ach wie nichtig](./Z7tWxQzj.md)__
 
-	![Image](../assets/images/thumbs/BSB-991106268029707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991106268029707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Gott fähret auf mit Jauchzen](./M6Wy5S4B.md)__
 
-	![Image](../assets/images/thumbs/BSB-991106266939707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991106266939707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonata n. 23 in Mi : per pianoforte](./Ctg6WJxF.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904673867.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904673867.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La Sonate pathétique de L. van Beethoven, op. 13. Edition rythmée et annotée par Mathis Lussy, (oeuvre posthume)](./fgSBHH5P.md)__
 
-	![Image](../assets/images/thumbs/BNF-13908155m.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-13908155m.gif){align=left width="150" height="150"} 
 
 	
 
@@ -97,7 +101,7 @@ tags: keyword
 
 -	__[Giacomo Carissimi](./AmY4DwdD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1605–1674)
 

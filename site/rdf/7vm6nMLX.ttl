@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7vm6nMLX a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1909-02-13"^^xsd:string ;
+    schema1:birthPlace faamentity:5FxHYswx ;
+    schema1:deathDate "1973-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:5FxHYswx ;
+    schema1:description "Swiss harpsichordist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q56000763>,
+        "15996159"^^xsd:string,
+        "7vm6nMLX"^^xsd:string ;
+    schema1:nationality faamentity:oHTSDFRc ;
+    skos:altLabel "Antoinette Vischer"^^xsd:string ;
+    skos:prefLabel "Antoinette Vischer"^^xsd:string ;
+    wd:P1303 faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:74039167 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30113903> ;
+    wd:P737 faamentity:ANygk75M ;
+    schema:hasOccupation faamentity:hMYL5Z9b .
+

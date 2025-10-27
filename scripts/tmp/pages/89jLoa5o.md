@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 89jLoa5o
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                    | aliases | Wikidata QID                                                 |
-    | :-------: | :----------------: | :--------------------------------------------: | :-----: | :----------------------------------------------------------: |
-    | 89jLoa5o  | Harvard University | private university in Cambridge, Massachusetts | Harvard | [Harvard University](http://wwww.wikidata.org/entity/Q13371) |
+    | FAAM UUID | label              | description                                    | aliases | Wikidata QID                                            |
+    | :-------: | :----------------: | :--------------------------------------------: | :-----: | :-----------------------------------------------------: |
+    | 89jLoa5o  | Harvard University | private university in Cambridge, Massachusetts | Harvard | [Harvard University](http://wikidata.org/entity/Q13371) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./hfVLTcNb.md)
+	[Cambridge](./hfVLTcNb.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/89jLoa5o.html" height="800" width="1200" title="89jLoa5o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/89jLoa5o" height="800" width="1200" title="89jLoa5o"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: music_organization
 
 -	__[Walter Piston](./hgkK9LyH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer (1894–1976)
 
@@ -75,7 +79,7 @@ tags: music_organization
 
 -	__[Walter Piston](./hgkK9LyH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer (1894–1976)
 

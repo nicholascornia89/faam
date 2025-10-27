@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Rs5eQCdV
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                         | aliases                    | Wikidata QID                                                 |
-    | :-------: | :----------------: | :-------------------------------------------------: | :------------------------: | :----------------------------------------------------------: |
-    | Rs5eQCdV  | Charles University | oldest and largest university in the Czech Republic | Univerzita Karlova v Praze | [Charles University](http://wwww.wikidata.org/entity/Q31519) |
+    | FAAM UUID | label              | description                                         | aliases                    | Wikidata QID                                            |
+    | :-------: | :----------------: | :-------------------------------------------------: | :------------------------: | :-----------------------------------------------------: |
+    | Rs5eQCdV  | Charles University | oldest and largest university in the Czech Republic | Univerzita Karlova v Praze | [Charles University](http://wikidata.org/entity/Q31519) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./iR3nZ9nb.md)
+	[Prague](./iR3nZ9nb.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Rs5eQCdV.html" height="800" width="1200" title="Rs5eQCdV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Rs5eQCdV" height="800" width="1200" title="Rs5eQCdV"></iframe>
 
 ## Cross-references
 

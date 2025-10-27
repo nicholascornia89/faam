@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LD9TSxJM
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description              | aliases | Wikidata QID                                       |
-    | :-------: | :------: | :----------------------: | :-----: | :------------------------------------------------: |
-    | LD9TSxJM  | Besançon | commune in Doubs, France | Besac   | [Besançon](http://wwww.wikidata.org/entity/Q37776) |
+    | FAAM UUID | label    | description              | aliases | Wikidata QID                                  |
+    | :-------: | :------: | :----------------------: | :-----: | :-------------------------------------------: |
+    | LD9TSxJM  | Besançon | commune in Doubs, France | Besac   | [Besançon](http://wikidata.org/entity/Q37776) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LD9TSxJM.html" height="800" width="1200" title="LD9TSxJM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LD9TSxJM" height="800" width="1200" title="LD9TSxJM"></iframe>
 
 ## Identifiers
 

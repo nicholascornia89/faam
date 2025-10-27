@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "fDqtTBeV", "label": "archivist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fDqtTBeV.md\u0027\u003earchivist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprofessional who assesses, collects, organizes, preserves, maintains control over, and provides access to information determined to have long-term value\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UnPqhMAn", "label": "Ludovico Antonio Muratori", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UnPqhMAn.md\u0027\u003eLudovico Antonio Muratori\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian priest, writer, librarian, historian and diplomat\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludovico_Antonio_Muratori.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Z6CjfM5F", "label": "Charles Bouvet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Z6CjfM5F.md\u0027\u003eCharles Bouvet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musicologist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Salle_du_Cercle_Artistique_et_Litt\u00e9raire_-_Une_s\u00e9ance_par_Charles_Bouvet,_violoniste,_Tg_lhdc_25_02_(cropped).tiff\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "fDqtTBeV", "to": "UnPqhMAn", "width": 10}, {"from": "fDqtTBeV", "to": "Z6CjfM5F", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UnPqhMAn", "label": "Ludovico Antonio Muratori", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UnPqhMAn\u0027\u003eLudovico Antonio Muratori\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian priest, writer, librarian, historian and diplomat\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludovico_Antonio_Muratori.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "fDqtTBeV", "label": "archivist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fDqtTBeV\u0027\u003earchivist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprofessional who assesses, collects, organizes, preserves, maintains control over, and provides access to information determined to have long-term value\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Z6CjfM5F", "label": "Charles Bouvet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Z6CjfM5F\u0027\u003eCharles Bouvet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musicologist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Salle_du_Cercle_Artistique_et_Litt\u00e9raire_-_Une_s\u00e9ance_par_Charles_Bouvet,_violoniste,_Tg_lhdc_25_02_(cropped).tiff\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "UnPqhMAn", "to": "fDqtTBeV", "width": 10}, {"from": "Z6CjfM5F", "to": "fDqtTBeV", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

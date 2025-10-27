@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: K94zCrpZ
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                          | aliases    | Wikidata QID                                   |
-    | :-------: | :---: | :----------------------------------: | :--------: | :--------------------------------------------: |
-    | K94zCrpZ  | bass  | type of classical male singing voice | bass voice | [bass](http://wwww.wikidata.org/entity/Q27911) |
+    | FAAM UUID | label | description                          | aliases    | Wikidata QID                              |
+    | :-------: | :---: | :----------------------------------: | :--------: | :---------------------------------------: |
+    | K94zCrpZ  | bass  | type of classical male singing voice | bass voice | [bass](http://wikidata.org/entity/Q27911) |
 
 <br><br><br>
 
@@ -33,17 +37,17 @@ tags: musical_instrument
 
 	- [voice](./NFAxdnVA.md)
 
-	- [](./hrmxqtDZ.md)
+	- [male singing voice](./hrmxqtDZ.md)
 
 !!! quote "instance of" 
 
-	- [](./g3FMFoiZ.md)
+	- [voice type](./g3FMFoiZ.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/K94zCrpZ.html" height="800" width="1200" title="K94zCrpZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/K94zCrpZ" height="800" width="1200" title="K94zCrpZ"></iframe>
 
 ## Cross-references
 
@@ -53,43 +57,43 @@ tags: musical_instrument
 
 -	__[Trois Quatuors : pour Soprano, Contralte, Tenor & Basse](./oQXzQeSL.md)__
 
-	![Image](../assets/images/thumbs/KCG-000338557.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000338557.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Air de La Création](./V6dv6W8x.md)__
 
-	![Image](../assets/images/thumbs/KCG-000348660.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000348660.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ach wie flüchtig, ach wie nichtig](./Z7tWxQzj.md)__
 
-	![Image](../assets/images/thumbs/BSB-991106268029707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991106268029707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Passionsmusik : nach dem Evangelisten Matthäus](./LGixSzgF.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076581989707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076581989707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Gott fähret auf mit Jauchzen](./M6Wy5S4B.md)__
 
-	![Image](../assets/images/thumbs/BSB-991106266939707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991106266939707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Magnificat (in D-dur)](./JadywWNZ.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076581699707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076581699707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Il cavaliere e l'eremita : (No. 5 d'Ivanhoe, paroles françaises de Belanger) : duetto per baritono e basso = (Le chevalier et l'heremit)](./Ko8hPPyn.md)__
 
-	![Image](../assets/images/thumbs/BSB-991144119456307356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991144119456307356.gif){align=left width="150" height="150"} 
 
 	
 

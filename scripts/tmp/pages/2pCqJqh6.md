@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2pCqJqh6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2pCqJqh6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2pCqJqh6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2pCqJqh6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2pCqJqh6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2pCqJqh6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2pCqJqh6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                           | description                       | Wikidata QID                                                  |
-    | :-------: | :---------------: | :-------------------------------: | :-------------------------------: | :-----------------------------------------------------------: |
-    | 2pCqJqh6  | Rudolf von Ficker | Rudolf Ritter Ficker von Feldhaus | Austrian musicologist (1886–1954) | [Rudolf von Ficker](http://wwww.wikidata.org/entity/Q2174235) |
+    | FAAM UUID | label             | aliases                           | description                       | Wikidata QID                                             |
+    | :-------: | :---------------: | :-------------------------------: | :-------------------------------: | :------------------------------------------------------: |
+    | 2pCqJqh6  | Rudolf von Ficker | Rudolf Ritter Ficker von Feldhaus | Austrian musicologist (1886–1954) | [Rudolf von Ficker](http://wikidata.org/entity/Q2174235) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [University of Innsbruck](http://www.wikidata.org/entity/Q875788)
+	- [University of Innsbruck](Q875788)
 
 	- [Ludwig Maximilian University of Munich](./o3myxgaX.md)
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/2pCqJqh6.html" height="800" width="1200" title="2pCqJqh6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2pCqJqh6" height="800" width="1200" title="2pCqJqh6"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Josef Mertin](./83TCj66i.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Austrian musician, organ builder and pioneer of early music
+
+</div>

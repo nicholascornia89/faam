@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HtYrT7vt
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description    | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :------------: | :-----: | :--------------------------------------------------: |
-    | HtYrT7vt  | Caprarola | Italian comune |         | [Caprarola](http://wwww.wikidata.org/entity/Q160262) |
+    | FAAM UUID | label     | description    | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :------------: | :-----: | :---------------------------------------------: |
+    | HtYrT7vt  | Caprarola | Italian comune |         | [Caprarola](http://wikidata.org/entity/Q160262) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HtYrT7vt.html" height="800" width="1200" title="HtYrT7vt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HtYrT7vt" height="800" width="1200" title="HtYrT7vt"></iframe>
 
 ## Identifiers
 

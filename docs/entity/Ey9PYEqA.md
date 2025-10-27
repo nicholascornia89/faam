@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ey9PYEqA
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                            | aliases  | Wikidata QID                                             |
-    | :-------: | :-----------: | :----------------------------------------------------: | :------: | :------------------------------------------------------: |
-    | Ey9PYEqA  | editing staff | employee who takes on editorial tasks within the media | redactor | [editing staff](http://wwww.wikidata.org/entity/Q876864) |
+    | FAAM UUID | label         | description                                            | aliases  | Wikidata QID                                        |
+    | :-------: | :-----------: | :----------------------------------------------------: | :------: | :-------------------------------------------------: |
+    | Ey9PYEqA  | editing staff | employee who takes on editorial tasks within the media | redactor | [editing staff](http://wikidata.org/entity/Q876864) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Ey9PYEqA.html" height="800" width="1200" title="Ey9PYEqA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ey9PYEqA" height="800" width="1200" title="Ey9PYEqA"></iframe>
 
 ## Cross-references
 

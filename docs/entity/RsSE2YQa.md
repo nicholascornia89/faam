@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RsSE2YQa
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076960579707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RsSE2YQa.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RsSE2YQa.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RsSE2YQa.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076960579707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RsSE2YQa.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RsSE2YQa.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RsSE2YQa.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991076960579707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076960579707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                         | permalink                | provenance                              |
-    | :-------: | :--------------------: | :-------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | RsSE2YQa  | BSB-991076960579707356 | Introduction et variations sur un thème Russe | [external URL](UJ57Ew5y) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                         | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :-------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | RsSE2YQa  | BSB-991076960579707356 | Introduction et variations sur un thème Russe | [external URL](https://mdz-nbn-resolving.de/details:bsb11145186) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -88,10 +92,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/RsSE2YQa.html" height="800" width="1200" title="RsSE2YQa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RsSE2YQa" height="800" width="1200" title="RsSE2YQa"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/RsSE2YQa.html" height="800" width="1200" title="RsSE2YQa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/RsSE2YQa" height="800" width="1200" title="RsSE2YQa"></iframe>

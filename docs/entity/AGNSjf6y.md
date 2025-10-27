@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AGNSjf6y
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/AGNSjf6y.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/AGNSjf6y.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/AGNSjf6y.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/AGNSjf6y.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/AGNSjf6y.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/AGNSjf6y.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Marianne_Scharwenka-Stresow.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases          | description                 | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :--------------: | :-------------------------: | :-------------------------------------------------------------: |
-    | AGNSjf6y  | Marianne Scharwenka | Marianne Stresow | German musician (1856–1918) | [Marianne Scharwenka](http://wwww.wikidata.org/entity/Q6762261) |
+    | FAAM UUID | label               | aliases          | description                 | Wikidata QID                                               |
+    | :-------: | :-----------------: | :--------------: | :-------------------------: | :--------------------------------------------------------: |
+    | AGNSjf6y  | Marianne Scharwenka | Marianne Stresow | German musician (1856–1918) | [Marianne Scharwenka](http://wikidata.org/entity/Q6762261) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/AGNSjf6y.html" height="800" width="1200" title="AGNSjf6y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AGNSjf6y" height="800" width="1200" title="AGNSjf6y"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,7 @@ tags: agent
 
 -	__[Violinstudien für Technik und Vortrag : (im Anschluß an Kreutzer's Etuden) ; op. 6](./DHC2sw3P.md)__
 
-	![Image](../assets/images/thumbs/BSB-991018741429707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991018741429707356.gif){align=left width="150" height="150"} 
 
 	
 

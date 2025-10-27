@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jvzfZrxy
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description     | aliases    | Wikidata QID                                          |
-    | :-------: | :--------: | :-------------: | :--------: | :---------------------------------------------------: |
-    | jvzfZrxy  | Békéscsaba | city in Hungary | Bekescsaba | [Békéscsaba](http://wwww.wikidata.org/entity/Q178878) |
+    | FAAM UUID | label      | description     | aliases    | Wikidata QID                                     |
+    | :-------: | :--------: | :-------------: | :--------: | :----------------------------------------------: |
+    | jvzfZrxy  | Békéscsaba | city in Hungary | Bekescsaba | [Békéscsaba](http://wikidata.org/entity/Q178878) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jvzfZrxy.html" height="800" width="1200" title="jvzfZrxy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jvzfZrxy" height="800" width="1200" title="jvzfZrxy"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Dezső Lederer](./oQgvGTVH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Hungarian-French violinist, composer (1858–1921)
 

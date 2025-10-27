@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: efBz2b3s
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                        | aliases | Wikidata QID                                   |
-    | :-------: | :------: | :--------------------------------: | :-----: | :--------------------------------------------: |
-    | efBz2b3s  | Erasbach | church village in Upper Palatinate |         | [E](http://wwww.wikidata.org/entity/Q23894249) |
+    | FAAM UUID | label    | description                        | aliases | Wikidata QID                              |
+    | :-------: | :------: | :--------------------------------: | :-----: | :---------------------------------------: |
+    | efBz2b3s  | Erasbach | church village in Upper Palatinate |         | [E](http://wikidata.org/entity/Q23894249) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/efBz2b3s.html" height="800" width="1200" title="efBz2b3s"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/efBz2b3s" height="800" width="1200" title="efBz2b3s"></iframe>
 
 ## Identifiers
 

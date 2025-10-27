@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Q8MBQBw7
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                        | aliases | Wikidata QID                                          |
-    | :-------: | :---------: | :--------------------------------: | :-----: | :---------------------------------------------------: |
-    | Q8MBQBw7  | harpsichord | plucked-string keyboard instrument | cembalo | [harpsichord](http://wwww.wikidata.org/entity/Q81982) |
+    | FAAM UUID | label       | description                        | aliases | Wikidata QID                                     |
+    | :-------: | :---------: | :--------------------------------: | :-----: | :----------------------------------------------: |
+    | Q8MBQBw7  | harpsichord | plucked-string keyboard instrument | cembalo | [harpsichord](http://wikidata.org/entity/Q81982) |
 
 <br><br><br>
 
@@ -33,21 +37,21 @@ tags: musical_instrument
 
 	- [keyboard instrument](./L9szjsBt.md)
 
-	- [](./V3aYUudh.md)
+	- [plucked string instrument](./V3aYUudh.md)
 
-	- [](./6TY5Zuvd.md)
+	- [true board zithers with resonator box](./6TY5Zuvd.md)
 
-	- [](./CFxnjaTF.md)
+	- [Kielinstrument](./CFxnjaTF.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Q8MBQBw7.html" height="800" width="1200" title="Q8MBQBw7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Q8MBQBw7" height="800" width="1200" title="Q8MBQBw7"></iframe>
 
 ## Cross-references
 
@@ -57,103 +61,103 @@ tags: musical_instrument
 
 -	__[Andromeda](./FWefKWHV.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902126678.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902126678.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Andante: per clavicembalo](./RW4rqc6J.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901519410.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901519410.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Chacone grave](./nduQSaHV.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902707238.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902707238.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Suite pour luth : Transcrite pour clavecin](./k5278NpL.md)__
 
-	![Image](../assets/images/thumbs/KCG-000332208.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000332208.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[A | Collection of Lessons | for the Harpsicord | or Piano et Forte | Composed by | Ferdinando Tenducci | Dedicated to the Right Hon.ble | Lady Hope](./KuGVAhXq.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA76.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA76.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Six Sonates | pour le Clavecin | Op. V | Pellegrino](./aXx5FB6o.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA77.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA77.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[(Preludio) circa 1740](./GQu52k9o.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA106.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA106.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sei Sonate da Cimbalo | Del Sig:re Alessandro Felici | di Firenze](./VGMUVoRw.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsB27.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsB27.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Six Sonatas : for the Harpsichord or Piano Forte with an Accompanyment for a German Flûte or Violin : Op. II](./nJai3Wij.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[D'Azémia : Ouverture : Arrangée Pour le Clavecin ou Forte-Piano, Avec Accompagnement de Violon ad libitum](./U4gmyGDo.md)__
 
-	![Image](../assets/images/thumbs/KCG-000340932.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000340932.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ouverture d'Iphigenie [en Aulide] : Arrangée pour clavecin ou forte-piano](./Hyve2CJo.md)__
 
-	![Image](../assets/images/thumbs/ORP-26137450b.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-26137450b.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tempête d'Iphigénie en Tauride : Avec les Airs de Ballet De M. le Chevalier Gluck En Quatuor : Arrangée pour le Clavecin, ou le Forte Piano, Avec Accompagnement, de Violon Alto, et Violoncelle, Ad Libitum](./Zjww66hb.md)__
 
-	![Image](../assets/images/thumbs/KCG-000345536.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345536.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Couperin's Werke. 1,1: Clavierstücke : livre I](./Pi4MYEds.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076926199707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076926199707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Couperin's Werke / Teil 2 / hrsg. von Johannes Brahms](./3DRpRYCp.md)__
 
-	![Image](../assets/images/thumbs/SUH-819290521.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SUH-819290521.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Couperin's Werke / Teil 1 / hrsg. von Johannes Brahms](./4mkChNN8.md)__
 
-	![Image](../assets/images/thumbs/SUH-819290386.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SUH-819290386.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano](./cq9RrJ9Y.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[François Couperin: Musik für cembalo](./eTHnUDJZ.md)__
 
-	![Image](../assets/images/thumbs/KCA-VU15216.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-VU15216.gif){align=left width="150" height="150"} 
 
 	
 
@@ -211,19 +215,19 @@ tags: musical_instrument
 
 -	__[Wanda Landowska](./ANygk75M.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
 
 	(1879-1959) Polish-French harpsichordist
 
 -	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
 
 	Austrian composer of the Classical period (1756–1791)
 
 -	__[Antonio Vivaldi](./GSqAPxLN.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vivaldi.jpg){align=left width="150" height="150"} 
 
 	Italian composer and violinist (1678-1741)
 
@@ -247,7 +251,7 @@ tags: musical_instrument
 
 -	__[Alessandro Felici](./5KdUXuXV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1742-1772)
 
@@ -259,7 +263,7 @@ tags: musical_instrument
 
 -	__[Giovanni Benedetto Platti](./dek3dK5z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -277,31 +281,31 @@ tags: musical_instrument
 
 -	__[Giovanni Battista Pescetti](./o7WPMz42.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Violet Gordon-Woodhouse](./b2nGBPKP.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/00/Violet_Gordon_Woodhouse_circa_1900.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Violet_Gordon_Woodhouse_circa_1900.jpg){align=left width="150" height="150"} 
 
 	British harpsichordist and clavichordist (1872–1948)
 
 -	__[Nicolas Lebègue](./EzfSNmgD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist, harpsichordist and composer
 
 -	__[Paul Brunold](./8tdvhwo3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Antoinette Vischer](./7vm6nMLX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss harpsichordist
 
@@ -313,25 +317,25 @@ tags: musical_instrument
 
 -	__[Vincenzo Manfredini](./NydN9SPX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician
 
 -	__[Giovanni Battista Lampugnani](./iwTGMidi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1708-1788)
 
 -	__[Gaetano Greco](./mQyL4vmZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Aimée Van de Wiele](./Qj6RwzVa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, musicologist and music educator (1907–1991)
 
@@ -343,7 +347,7 @@ tags: musical_instrument
 
 -	__[Vincenzo Lavigna](./biGnSXZs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -355,7 +359,7 @@ tags: musical_instrument
 
 -	__[Jacques Champion de Chambonnières](./kj9NbWjb.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and harpsichordist
 
@@ -367,13 +371,13 @@ tags: musical_instrument
 
 -	__[Johann Trier](./F6268aFg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist
 
 -	__[Carl Friedrich Christian Fasch](./WB4nMQZ8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1736-1800)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c8GX24Bh
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases | description | Wikidata QID                         |
-    | :-------: | :-------------------------: | :-----: | :---------: | :----------------------------------: |
-    | c8GX24Bh  | Missa O regem celi, IGP 470 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                       | aliases | description | Wikidata QID                    |
+    | :-------: | :-------------------------: | :-----: | :---------: | :-----------------------------: |
+    | c8GX24Bh  | Missa O regem celi, IGP 470 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/c8GX24Bh.html" height="800" width="1200" title="c8GX24Bh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c8GX24Bh" height="800" width="1200" title="c8GX24Bh"></iframe>
 
 ## Identifiers
 
@@ -69,13 +73,13 @@ tags: musical_work
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893](./SGrwmsQj.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893](./SGrwmsQj.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7617.gif){align=left width="150" height="150"} 
 
 	
 

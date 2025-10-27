@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RDVpgoKa
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901506086/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RDVpgoKa.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RDVpgoKa.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RDVpgoKa.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901506086/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RDVpgoKa.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RDVpgoKa.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RDVpgoKa.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901506086.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901506086.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                    | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | RDVpgoKa  | KCA-030901506086      | Quatrième fantasia (fantastique), op. 20 | [external URL](2qoBxv5j) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                    | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | RDVpgoKa  | KCA-030901506086      | Quatrième fantasia (fantastique), op. 20 | [external URL](https://anet.be/record/opacdkvc/c:lvd:7082748/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -111,10 +115,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/RDVpgoKa.html" height="800" width="1200" title="RDVpgoKa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RDVpgoKa" height="800" width="1200" title="RDVpgoKa"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/RDVpgoKa.html" height="800" width="1200" title="RDVpgoKa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/RDVpgoKa" height="800" width="1200" title="RDVpgoKa"></iframe>

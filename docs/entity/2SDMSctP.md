@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2SDMSctP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description            | aliases | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :--------------------: | :-----: | :--------------------------------------------------------------: |
-    | 2SDMSctP  | Rayol-Canadel-sur-Mer | commune in Var, France |         | [Rayol-Canadel-sur-Mer](http://wwww.wikidata.org/entity/Q840240) |
+    | FAAM UUID | label                 | description            | aliases | Wikidata QID                                                |
+    | :-------: | :-------------------: | :--------------------: | :-----: | :---------------------------------------------------------: |
+    | 2SDMSctP  | Rayol-Canadel-sur-Mer | commune in Var, France |         | [Rayol-Canadel-sur-Mer](http://wikidata.org/entity/Q840240) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2SDMSctP.html" height="800" width="1200" title="2SDMSctP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2SDMSctP" height="800" width="1200" title="2SDMSctP"></iframe>
 
 ## Identifiers
 

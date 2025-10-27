@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 29vT9zwQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description             | aliases   | Wikidata QID                                          |
-    | :-------: | :---------: | :---------------------: | :-------: | :---------------------------------------------------: |
-    | 29vT9zwQ  | Yevpatoriia | city in Crimea, Ukraine | Eupatoria | [Yevpatoriia](http://wwww.wikidata.org/entity/Q33345) |
+    | FAAM UUID | label       | description             | aliases   | Wikidata QID                                     |
+    | :-------: | :---------: | :---------------------: | :-------: | :----------------------------------------------: |
+    | 29vT9zwQ  | Yevpatoriia | city in Crimea, Ukraine | Eupatoria | [Yevpatoriia](http://wikidata.org/entity/Q33345) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Crimean Khanate](http://www.wikidata.org/entity/Q160440)
+	- [Crimean Khanate](Q160440)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/29vT9zwQ.html" height="800" width="1200" title="29vT9zwQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/29vT9zwQ" height="800" width="1200" title="29vT9zwQ"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Wassili Kalafati](./3qxHzY3Z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian composer and pedagogue (1869–1942)
 

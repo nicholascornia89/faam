@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bXcP482A
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/BSL-848545451/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bXcP482A.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bXcP482A.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bXcP482A.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/BSL-848545451/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bXcP482A.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bXcP482A.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bXcP482A.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSL-848545451.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSL-848545451.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                               | permalink                | provenance                            |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | bXcP482A  | BSL-848545451         | Das System der großen Gesangschule des Bernacchi von Bologna : nebst klassischen, bisher ungedruckten Singübungen von Meistern aus derselben Schule | [external URL](WcAqRjDY) | [Berlin State Library](./2DsweKwv.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                               | permalink                                            | provenance                            |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------: | :-----------------------------------: |
+    | bXcP482A  | BSL-848545451         | Das System der großen Gesangschule des Bernacchi von Bologna : nebst klassischen, bisher ungedruckten Singübungen von Meistern aus derselben Schule | [external URL](https://stabikat.de/Record/848545451) | [Berlin State Library](./2DsweKwv.md) |
 
 ## Statements
 
@@ -64,10 +68,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/bXcP482A.html" height="800" width="1200" title="bXcP482A"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bXcP482A" height="800" width="1200" title="bXcP482A"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/bXcP482A.html" height="800" width="1200" title="bXcP482A"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/bXcP482A" height="800" width="1200" title="bXcP482A"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GiP4KoyR
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | aliases             | description                                   | Wikidata QID                                                    |
-    | :-------: | :----------------------------: | :-----------------: | :-------------------------------------------: | :-------------------------------------------------------------: |
-    | GiP4KoyR  | Violin Sonata No.1, Op.12 No.1 | Violin Sonata No. 1 | composition for violin and piano by Beethoven | [Violin Sonata No. 1](http://wwww.wikidata.org/entity/Q1635731) |
+    | FAAM UUID | label                          | aliases             | description                                   | Wikidata QID                                               |
+    | :-------: | :----------------------------: | :-----------------: | :-------------------------------------------: | :--------------------------------------------------------: |
+    | GiP4KoyR  | Violin Sonata No.1, Op.12 No.1 | Violin Sonata No. 1 | composition for violin and piano by Beethoven | [Violin Sonata No. 1](http://wikidata.org/entity/Q1635731) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/GiP4KoyR.html" height="800" width="1200" title="GiP4KoyR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GiP4KoyR" height="800" width="1200" title="GiP4KoyR"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sonates pour piano et violon / L. van Beethoven ; nouvelle édition complète par Carl Reinecke ; la partie de violon arrangée par Friedrich Hermann](./2h4QWJrH.md)__
 
-	![Image](../assets/images/thumbs/BNF-42599226w.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42599226w.gif){align=left width="150" height="150"} 
 
 	
 

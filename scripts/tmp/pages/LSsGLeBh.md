@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LSsGLeBh
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LSsGLeBh.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LSsGLeBh.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LSsGLeBh.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LSsGLeBh.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LSsGLeBh.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LSsGLeBh.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Koechlin_1.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                       | description                                  | Wikidata QID                                               |
-    | :-------: | :--------------: | :---------------------------: | :------------------------------------------: | :--------------------------------------------------------: |
-    | LSsGLeBh  | Charles Koechlin | Charles Louis Eugène Koechlin | French composer, teacher and writer on music | [Charles Koechlin](http://wwww.wikidata.org/entity/Q72543) |
+    | FAAM UUID | label            | aliases                       | description                                  | Wikidata QID                                          |
+    | :-------: | :--------------: | :---------------------------: | :------------------------------------------: | :---------------------------------------------------: |
+    | LSsGLeBh  | Charles Koechlin | Charles Louis Eugène Koechlin | French composer, teacher and writer on music | [Charles Koechlin](http://wikidata.org/entity/Q72543) |
 
 <br><br><br>
 
@@ -53,17 +57,17 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./gR7Q7sDz.md)
+	- [École polytechnique](./gR7Q7sDz.md)
 
 	- [Conservatoire de Paris](./mNynReve.md)
 
-	- [](./Y4EwuMLr.md)
+	- [Lycée Chaptal](./Y4EwuMLr.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/LSsGLeBh.html" height="800" width="1200" title="LSsGLeBh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LSsGLeBh" height="800" width="1200" title="LSsGLeBh"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Mélanie Bonis](./RymqrzdX.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mel_Bonis_à_l'âge_de_19_ans,_par_Charles_Corbineau.jpg){align=left width="150" height="150"} 
+
+	French composer (1858-1937)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5E9hgnEC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                    | aliases                  | Wikidata QID                                    |
-    | :-------: | :----: | :--------------------------------------------: | :----------------------: | :---------------------------------------------: |
-    | 5E9hgnEC  | Lübeck | city in Schleswig-Holstein in northern Germany | Hanseatic City of Lübeck | [Lübeck](http://wwww.wikidata.org/entity/Q2843) |
+    | FAAM UUID | label  | description                                    | aliases                  | Wikidata QID                               |
+    | :-------: | :----: | :--------------------------------------------: | :----------------------: | :----------------------------------------: |
+    | 5E9hgnEC  | Lübeck | city in Schleswig-Holstein in northern Germany | Hanseatic City of Lübeck | [Lübeck](http://wikidata.org/entity/Q2843) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/5E9hgnEC.html" height="800" width="1200" title="5E9hgnEC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5E9hgnEC" height="800" width="1200" title="5E9hgnEC"></iframe>
 
 ## Identifiers
 

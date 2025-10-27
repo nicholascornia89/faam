@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PuX8Ceos
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PuX8Ceos.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PuX8Ceos.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PuX8Ceos.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PuX8Ceos.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PuX8Ceos.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PuX8Ceos.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                 | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :-------------------------: | :--------------------------------------------------------: |
-    | PuX8Ceos  | Gustave Sandré | Gustave Sandre | French composer (1843–1916) | [Gustave Sandré](http://wwww.wikidata.org/entity/Q4407549) |
+    | FAAM UUID | label          | aliases        | description                 | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :-------------------------: | :---------------------------------------------------: |
+    | PuX8Ceos  | Gustave Sandré | Gustave Sandre | French composer (1843–1916) | [Gustave Sandré](http://wikidata.org/entity/Q4407549) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/PuX8Ceos.html" height="800" width="1200" title="PuX8Ceos"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PuX8Ceos" height="800" width="1200" title="PuX8Ceos"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: agent
 
 -	__[Landler](./nFBdFXWX.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p47.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p47.gif){align=left width="150" height="150"} 
 
 	
 

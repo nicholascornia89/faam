@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fjdYiwtD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fjdYiwtD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fjdYiwtD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fjdYiwtD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fjdYiwtD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fjdYiwtD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fjdYiwtD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Antonio_Francesco_Gaetano_Saverio_Pacini.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                                  | description                  | Wikidata QID                                                |
-    | :-------: | :------------: | :--------------------------------------: | :--------------------------: | :---------------------------------------------------------: |
-    | fjdYiwtD  | Antonio Pacini | Antonio Francesco Gaetano Saverio Pacini | Italian composer (1778-1866) | [Antonio Pacini](http://wwww.wikidata.org/entity/Q11906046) |
+    | FAAM UUID | label          | aliases                                  | description                  | Wikidata QID                                           |
+    | :-------: | :------------: | :--------------------------------------: | :--------------------------: | :----------------------------------------------------: |
+    | fjdYiwtD  | Antonio Pacini | Antonio Francesco Gaetano Saverio Pacini | Italian composer (1778-1866) | [Antonio Pacini](http://wikidata.org/entity/Q11906046) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/fjdYiwtD.html" height="800" width="1200" title="fjdYiwtD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fjdYiwtD" height="800" width="1200" title="fjdYiwtD"></iframe>
 
 ## Identifiers
 

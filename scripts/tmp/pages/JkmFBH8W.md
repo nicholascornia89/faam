@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JkmFBH8W
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                                                               | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :-------------------------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | JkmFBH8W  | Silesia | region of Central Europe now located mostly in Poland, with small parts in the Czech Republic and Germany |         | [Silesia](http://wwww.wikidata.org/entity/Q81720) |
+    | FAAM UUID | label   | description                                                                                               | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :-------------------------------------------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | JkmFBH8W  | Silesia | region of Central Europe now located mostly in Poland, with small parts in the Czech Republic and Germany |         | [Silesia](http://wikidata.org/entity/Q81720) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/JkmFBH8W.html" height="800" width="1200" title="JkmFBH8W"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JkmFBH8W" height="800" width="1200" title="JkmFBH8W"></iframe>
 
 ## Identifiers
 

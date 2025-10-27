@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RF3fhSei
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases         | description         | Wikidata QID                                               |
-    | :-------: | :------------: | :-------------: | :-----------------: | :--------------------------------------------------------: |
-    | RF3fhSei  | Lucrèce Borgia | Lucrezia Borgia | play by Victor Hugo | [Lucrèce Borgia](http://wwww.wikidata.org/entity/Q3265982) |
+    | FAAM UUID | label          | aliases         | description         | Wikidata QID                                          |
+    | :-------: | :------------: | :-------------: | :-----------------: | :---------------------------------------------------: |
+    | RF3fhSei  | Lucrèce Borgia | Lucrezia Borgia | play by Victor Hugo | [Lucrèce Borgia](http://wikidata.org/entity/Q3265982) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/RF3fhSei.html" height="800" width="1200" title="RF3fhSei"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RF3fhSei" height="800" width="1200" title="RF3fhSei"></iframe>
 
 ## Identifiers
 

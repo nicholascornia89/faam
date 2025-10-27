@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QrZt6tiH
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | QrZt6tiH  | Keyboard Sonata in D major, K.430 | Keyboard Sonata in D major, L.463 | sonata by Domenico Scarlatti | [Sonata K. 430](http://wwww.wikidata.org/entity/Q67200001) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | QrZt6tiH  | Keyboard Sonata in D major, K.430 | Keyboard Sonata in D major, L.463 | sonata by Domenico Scarlatti | [Sonata K. 430](http://wikidata.org/entity/Q67200001) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/QrZt6tiH.html" height="800" width="1200" title="QrZt6tiH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QrZt6tiH" height="800" width="1200" title="QrZt6tiH"></iframe>
 
 ## Identifiers
 
@@ -79,43 +83,43 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Compositions pour piano / de Dom. Scarlatti ; revues et doigtées par Louis Köhler.](./EfhvbVmR.md)__
 
-	![Image](../assets/images/thumbs/SML-29805.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-29805.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[24 Stücke : für Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo.](./WWCbaaWA.md)__
 
-	![Image](../assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Early Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito.](./icedGMzA.md)__
 
-	![Image](../assets/images/thumbs/SML-22563.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22563.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Early keyboard music; a collection of pieces written for the virginal, spinet, harpsichord, and clavichord. / Edited by Louis Oesterle.](./7j5F7bbp.md)__
 
-	![Image](../assets/images/thumbs/SML-22768.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22768.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pièces pour le Clavecin par Domenico Scarlatti](./mb2dSRKt.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903514823.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903514823.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[29 sonatas](./B7PgUtbR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
 
 	
 

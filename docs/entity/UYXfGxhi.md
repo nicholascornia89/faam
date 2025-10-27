@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UYXfGxhi
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-19147/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UYXfGxhi.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UYXfGxhi.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UYXfGxhi.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-19147/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UYXfGxhi.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UYXfGxhi.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UYXfGxhi.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-19147.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-19147.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                           | permalink                | provenance                            |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | UYXfGxhi  | SML-19147             | Pastorale / Domenico Scarlatti ; arranged for concert-use by Carl Tausig ; edited and fingered by G. Buonamici. | [external URL](kxAqh9HR) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                           | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | UYXfGxhi  | SML-19147             | Pastorale / Domenico Scarlatti ; arranged for concert-use by Carl Tausig ; edited and fingered by G. Buonamici. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910564653405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -98,10 +102,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/UYXfGxhi.html" height="800" width="1200" title="UYXfGxhi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UYXfGxhi" height="800" width="1200" title="UYXfGxhi"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/UYXfGxhi.html" height="800" width="1200" title="UYXfGxhi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/UYXfGxhi" height="800" width="1200" title="UYXfGxhi"></iframe>

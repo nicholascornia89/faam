@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hXDHrCXH
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | hXDHrCXH  | Keyboard Sonata in F minor, K.519 | Keyboard Sonata in F minor, K.475 | sonata by Domenico Scarlatti | [Sonata K. 519](http://wwww.wikidata.org/entity/Q74594764) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | hXDHrCXH  | Keyboard Sonata in F minor, K.519 | Keyboard Sonata in F minor, K.475 | sonata by Domenico Scarlatti | [Sonata K. 519](http://wikidata.org/entity/Q74594764) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/hXDHrCXH.html" height="800" width="1200" title="hXDHrCXH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hXDHrCXH" height="800" width="1200" title="hXDHrCXH"></iframe>
 
 ## Identifiers
 
@@ -73,13 +77,13 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[24 Stücke : für Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo.](./WWCbaaWA.md)__
 
-	![Image](../assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
 
 	
 

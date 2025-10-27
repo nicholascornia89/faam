@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JnHemjk2
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JnHemjk2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JnHemjk2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JnHemjk2.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JnHemjk2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JnHemjk2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JnHemjk2.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean_Ferry_Rebel.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                           | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------: | :-----------------------------------: | :--------------------------------------------------------: |
-    | JnHemjk2  | Jean-Féry Rebel | Jean-Fery Rebel | French Baroque composer and violinist | [Jean-Féry Rebel](http://wwww.wikidata.org/entity/Q954589) |
+    | FAAM UUID | label           | aliases         | description                           | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------: | :-----------------------------------: | :---------------------------------------------------: |
+    | JnHemjk2  | Jean-Féry Rebel | Jean-Fery Rebel | French Baroque composer and violinist | [Jean-Féry Rebel](http://wikidata.org/entity/Q954589) |
 
 <br><br><br>
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/JnHemjk2.html" height="800" width="1200" title="JnHemjk2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JnHemjk2" height="800" width="1200" title="JnHemjk2"></iframe>
 
 ## Identifiers
 
@@ -93,7 +97,7 @@ tags: agent
 
 -	__[Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.](./HrioxeJc.md)__
 
-	![Image](../assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mck2GKeN
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                  | aliases      | Wikidata QID                                                      |
-    | :-------: | :------------------: | :--------------------------: | :----------: | :---------------------------------------------------------------: |
-    | mck2GKeN  | struck membranophone | class of musical instruments | struck drums | [struck membranophone](http://wwww.wikidata.org/entity/Q19588483) |
+    | FAAM UUID | label                | description                  | aliases      | Wikidata QID                                                 |
+    | :-------: | :------------------: | :--------------------------: | :----------: | :----------------------------------------------------------: |
+    | mck2GKeN  | struck membranophone | class of musical instruments | struck drums | [struck membranophone](http://wikidata.org/entity/Q19588483) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/mck2GKeN.html" height="800" width="1200" title="mck2GKeN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mck2GKeN" height="800" width="1200" title="mck2GKeN"></iframe>
 
 ## Cross-references
 

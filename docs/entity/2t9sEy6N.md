@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2t9sEy6N
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                    | Wikidata QID                                                |
-    | :-------: | :-----------: | :-----------: | :----------------------------: | :---------------------------------------------------------: |
-    | 2t9sEy6N  | Les templiers | Les templiers | Opera by Henry Charles Litolff | [Les templiers](http://wwww.wikidata.org/entity/Q130977992) |
+    | FAAM UUID | label         | aliases       | description                    | Wikidata QID                                           |
+    | :-------: | :-----------: | :-----------: | :----------------------------: | :----------------------------------------------------: |
+    | 2t9sEy6N  | Les templiers | Les templiers | Opera by Henry Charles Litolff | [Les templiers](http://wikidata.org/entity/Q130977992) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/2t9sEy6N.html" height="800" width="1200" title="2t9sEy6N"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2t9sEy6N" height="800" width="1200" title="2t9sEy6N"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Les templiers : opéra en 5 actes](./8M7WteGe.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903458518.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903458518.gif){align=left width="150" height="150"} 
 
 	
 

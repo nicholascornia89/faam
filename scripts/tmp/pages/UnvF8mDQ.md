@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UnvF8mDQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UnvF8mDQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UnvF8mDQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UnvF8mDQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UnvF8mDQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UnvF8mDQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UnvF8mDQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases | description      | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :-----: | :--------------: | :---------------------------------------------------------------: |
-    | UnvF8mDQ  | Antonio Maria Abbatini |         | Italian composer | [Antonio Maria Abbatini](http://wwww.wikidata.org/entity/Q550788) |
+    | FAAM UUID | label                  | aliases | description      | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :-----: | :--------------: | :----------------------------------------------------------: |
+    | UnvF8mDQ  | Antonio Maria Abbatini |         | Italian composer | [Antonio Maria Abbatini](http://wikidata.org/entity/Q550788) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/UnvF8mDQ.html" height="800" width="1200" title="UnvF8mDQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UnvF8mDQ" height="800" width="1200" title="UnvF8mDQ"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,25 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Paolo Colonna](./LgaHtMPL.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Paolo_Colonna.jpg){align=left width="150" height="150"} 
+
+	Italian composer
+
+-	__[Giuseppe Corsi](./42oEhvwr.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer and priest
+
+-	__[Antonio Cesti](./ecu6SJkK.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer, singer and organist (1623-1669)
+
+</div>

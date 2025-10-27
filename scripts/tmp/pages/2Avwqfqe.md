@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2Avwqfqe
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------: | :-----: | :---------: | :----------------------------------: |
-    | 2Avwqfqe  | Stanco di pascolar |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label              | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------: | :-----: | :---------: | :-----------------------------: |
+    | 2Avwqfqe  | Stanco di pascolar |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/2Avwqfqe.html" height="800" width="1200" title="2Avwqfqe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2Avwqfqe" height="800" width="1200" title="2Avwqfqe"></iframe>
 
 ## Identifiers
 

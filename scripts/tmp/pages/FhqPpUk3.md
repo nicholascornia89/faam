@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FhqPpUk3
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                                                         | aliases | Wikidata QID                                                         |
-    | :-------: | :---------------------: | :-----------------------------------------------------------------: | :-----: | :------------------------------------------------------------------: |
-    | FhqPpUk3  | collector of folk music | profession; person collecting folk music in a professional capacity |         | [collector of folk music](http://wwww.wikidata.org/entity/Q25162544) |
+    | FAAM UUID | label                   | description                                                         | aliases | Wikidata QID                                                    |
+    | :-------: | :---------------------: | :-----------------------------------------------------------------: | :-----: | :-------------------------------------------------------------: |
+    | FhqPpUk3  | collector of folk music | profession; person collecting folk music in a professional capacity |         | [collector of folk music](http://wikidata.org/entity/Q25162544) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FhqPpUk3.html" height="800" width="1200" title="FhqPpUk3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FhqPpUk3" height="800" width="1200" title="FhqPpUk3"></iframe>
 
 ## Cross-references
 

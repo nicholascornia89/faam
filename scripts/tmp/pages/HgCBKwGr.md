@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HgCBKwGr
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | HgCBKwGr  | Keyboard Sonata in F major, K.275 | Keyboard Sonata in F major, L.328 | sonata by Domenico Scarlatti | [Sonata K. 275](http://wwww.wikidata.org/entity/Q74594796) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | HgCBKwGr  | Keyboard Sonata in F major, K.275 | Keyboard Sonata in F major, L.328 | sonata by Domenico Scarlatti | [Sonata K. 275](http://wikidata.org/entity/Q74594796) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/HgCBKwGr.html" height="800" width="1200" title="HgCBKwGr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HgCBKwGr" height="800" width="1200" title="HgCBKwGr"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

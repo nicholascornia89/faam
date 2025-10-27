@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RUL9uZV5
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                          | aliases | Wikidata QID                                                                   |
-    | :-------: | :--------------------------------: | :----------------------------------: | :-----: | :----------------------------------------------------------------------------: |
-    | RUL9uZV5  | St George's School, Windsor Castle | school in Windsor and Maidenhead, UK |         | [St George's School, Windsor Castle](http://wwww.wikidata.org/entity/Q7593194) |
+    | FAAM UUID | label                              | description                          | aliases | Wikidata QID                                                              |
+    | :-------: | :--------------------------------: | :----------------------------------: | :-----: | :-----------------------------------------------------------------------: |
+    | RUL9uZV5  | St George's School, Windsor Castle | school in Windsor and Maidenhead, UK |         | [St George's School, Windsor Castle](http://wikidata.org/entity/Q7593194) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/RUL9uZV5.html" height="800" width="1200" title="RUL9uZV5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RUL9uZV5" height="800" width="1200" title="RUL9uZV5"></iframe>
 
 ## Cross-references
 

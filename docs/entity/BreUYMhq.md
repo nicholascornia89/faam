@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BreUYMhq
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                                                                         | aliases | Wikidata QID                                                |
-    | :-------: | :------------: | :-----------------------------------------------------------------------------------------------------------------: | :-----: | :---------------------------------------------------------: |
-    | BreUYMhq  | scholarly work | work that reports the result of study and analysis of a topic using scholarly methods, including non-academic works |         | [scholarly work](http://wwww.wikidata.org/entity/Q55915575) |
+    | FAAM UUID | label          | description                                                                                                         | aliases | Wikidata QID                                           |
+    | :-------: | :------------: | :-----------------------------------------------------------------------------------------------------------------: | :-----: | :----------------------------------------------------: |
+    | BreUYMhq  | scholarly work | work that reports the result of study and analysis of a topic using scholarly methods, including non-academic works |         | [scholarly work](http://wikidata.org/entity/Q55915575) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/BreUYMhq.html" height="800" width="1200" title="BreUYMhq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BreUYMhq" height="800" width="1200" title="BreUYMhq"></iframe>
 
 ## Cross-references
 

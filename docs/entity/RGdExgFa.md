@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RGdExgFa
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RGdExgFa.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RGdExgFa.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RGdExgFa.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RGdExgFa.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RGdExgFa.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RGdExgFa.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Menter_Litho.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description                                   | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----: | :-------------------------------------------: | :------------------------------------------------------: |
-    | RGdExgFa  | Joseph Menter |         | German cellist and music educator (1808-1856) | [Joseph Menter](http://wwww.wikidata.org/entity/Q110192) |
+    | FAAM UUID | label         | aliases | description                                   | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----: | :-------------------------------------------: | :-------------------------------------------------: |
+    | RGdExgFa  | Joseph Menter |         | German cellist and music educator (1808-1856) | [Joseph Menter](http://wikidata.org/entity/Q110192) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/RGdExgFa.html" height="800" width="1200" title="RGdExgFa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RGdExgFa" height="800" width="1200" title="RGdExgFa"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Georg Goltermann](./aQfbT97p.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	German cellist, conductor, and composer (1824–1898)
+
+</div>

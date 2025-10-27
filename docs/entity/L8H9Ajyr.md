@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: L8H9Ajyr
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                       | aliases                     | Wikidata QID                                                                 |
-    | :-------: | :--------------------------------: | :-------------------------------: | :-------------------------: | :--------------------------------------------------------------------------: |
-    | L8H9Ajyr  | Hochschule für Musik und Tanz Köln | music college in Cologne, Germany | Cologne University of Music | [Hochschule für Musik und Tanz Köln](http://wwww.wikidata.org/entity/Q55021) |
+    | FAAM UUID | label                              | description                       | aliases                     | Wikidata QID                                                            |
+    | :-------: | :--------------------------------: | :-------------------------------: | :-------------------------: | :---------------------------------------------------------------------: |
+    | L8H9Ajyr  | Hochschule für Musik und Tanz Köln | music college in Cologne, Germany | Cologne University of Music | [Hochschule für Musik und Tanz Köln](http://wikidata.org/entity/Q55021) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./98sqJAwy.md)
+	[Altstadt-Nord](./98sqJAwy.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/L8H9Ajyr.html" height="800" width="1200" title="L8H9Ajyr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/L8H9Ajyr" height="800" width="1200" title="L8H9Ajyr"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VF38KfkE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/VF38KfkE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/VF38KfkE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/VF38KfkE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/VF38KfkE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/VF38KfkE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/VF38KfkE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                      | Wikidata QID                                                  |
-    | :-------: | :-------------: | :-------------: | :------------------------------: | :-----------------------------------------------------------: |
-    | VF38KfkE  | Jakob Quadflieg | Jakob Quadflieg | German composer and musicologist | [Jakob Quadflieg](http://wwww.wikidata.org/entity/Q110222877) |
+    | FAAM UUID | label           | aliases         | description                      | Wikidata QID                                             |
+    | :-------: | :-------------: | :-------------: | :------------------------------: | :------------------------------------------------------: |
+    | VF38KfkE  | Jakob Quadflieg | Jakob Quadflieg | German composer and musicologist | [Jakob Quadflieg](http://wikidata.org/entity/Q110222877) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/VF38KfkE.html" height="800" width="1200" title="VF38KfkE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VF38KfkE" height="800" width="1200" title="VF38KfkE"></iframe>
 
 ## Identifiers
 
@@ -77,8 +81,16 @@ tags: agent
 
 -	__[Missa Tu es Petrus : für 6stg. gemischten Chor](./TJf4MVzx.md)__
 
-	![Image](../assets/images/thumbs/BSB-991062854279707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991062854279707356.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Tu es Petrus, IGP 97](./2bLETYjG.md)__
+
+	Parody mass by Giovanni Pierluigi da Palestrina
 
 </div>

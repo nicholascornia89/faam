@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PNeLQZnK
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                          | aliases | Wikidata QID                                  |
-    | :-------: | :----: | :--------------------------------------------------: | :-----: | :-------------------------------------------: |
-    | PNeLQZnK  | Berlin | federated state, capital and largest city of Germany | Berlin  | [Berlin](http://wwww.wikidata.org/entity/Q64) |
+    | FAAM UUID | label  | description                                          | aliases | Wikidata QID                             |
+    | :-------: | :----: | :--------------------------------------------------: | :-----: | :--------------------------------------: |
+    | PNeLQZnK  | Berlin | federated state, capital and largest city of Germany | Berlin  | [Berlin](http://wikidata.org/entity/Q64) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/PNeLQZnK.html" height="800" width="1200" title="PNeLQZnK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PNeLQZnK" height="800" width="1200" title="PNeLQZnK"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Louis-César Desormes](./bZGZXYMA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and conductor
 
 -	__[Hans Bischoff](./QEgbnuJC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German entomologist (1889–1960)
 
@@ -73,13 +77,13 @@ tags: city
 
 -	__[Franz Kullak](./KQYeWCdx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1844-1913)
 
 -	__[Maurice Schlesinger](./HyU2Z63V.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German music publisher (1798–1871)
 
@@ -157,13 +161,13 @@ tags: city
 
 -	__[Friedrich Gernsheim](./brm7iEdB.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/83/Friedrich_Gernsheim_%28BerlLeben_1906-07%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Gernsheim_%28BerlLeben_1906-07%29.jpg){align=left width="150" height="150"} 
 
 	German composer, conductor, pianist and teacher (1839–1916)
 
 -	__[Andreas Moser](./chVHcWVu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German violinist and musicologist (1859-1925)
 
@@ -181,7 +185,7 @@ tags: city
 
 -	__[Hans Bischoff](./QEgbnuJC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German entomologist (1889–1960)
 
@@ -199,31 +203,31 @@ tags: city
 
 -	__[Franz Kullak](./KQYeWCdx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1844-1913)
 
 -	__[Mikhail Glinka](./jZ54gutD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e8/Glinka_1856.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Glinka_1856.jpg){align=left width="150" height="150"} 
 
 	Russian composer
 
 -	__[August Neithardt](./HtKwZwuW.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1b/August_Neithardt.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August_Neithardt.jpg){align=left width="150" height="150"} 
 
 	German composer (1793-1861)
 
 -	__[Heinrich Ehrlich](./RatUUATc.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e2/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg){align=left width="150" height="150"} 
 
 	pianist and composer (1822-1899)
 
 -	__[Hugo Ulrich](./7bN7WGVq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German Romantic composer
 
@@ -235,7 +239,7 @@ tags: city
 
 -	__[Franz Commer](./cQjSTbFf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1813-1887)
 
@@ -313,13 +317,13 @@ tags: city
 
 -	__[Franz Lauska](./MaUbEzxG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Moravian piano teach and composer
 
 -	__[Albrecht Agthe](./kjYoQose.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German music teacher and composer (1790–1873)
 
@@ -337,7 +341,7 @@ tags: city
 
 -	__[Franz Tausch](./kypLEwJs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	clarinetist and composer (1762-1817)
 

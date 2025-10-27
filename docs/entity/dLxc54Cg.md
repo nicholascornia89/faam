@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dLxc54Cg
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description | aliases      | Wikidata QID                                                      |
-    | :-------: | :------------------: | :---------: | :----------: | :---------------------------------------------------------------: |
-    | dLxc54Cg  | female singing voice | voice type  | female voice | [female singing voice](http://wwww.wikidata.org/entity/Q54285818) |
+    | FAAM UUID | label                | description | aliases      | Wikidata QID                                                 |
+    | :-------: | :------------------: | :---------: | :----------: | :----------------------------------------------------------: |
+    | dLxc54Cg  | female singing voice | voice type  | female voice | [female singing voice](http://wikidata.org/entity/Q54285818) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/dLxc54Cg.html" height="800" width="1200" title="dLxc54Cg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dLxc54Cg" height="800" width="1200" title="dLxc54Cg"></iframe>
 
 ## Cross-references
 

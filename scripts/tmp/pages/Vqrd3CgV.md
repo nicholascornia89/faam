@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vqrd3CgV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                 | aliases | Wikidata QID                                       |
-    | :-------: | :-------: | :-------------------------: | :-----: | :------------------------------------------------: |
-    | Vqrd3CgV  | Bergedorf | quarter of Hamburg, Germany |         | [Bergedorf](http://wwww.wikidata.org/entity/Q2384) |
+    | FAAM UUID | label     | description                 | aliases | Wikidata QID                                  |
+    | :-------: | :-------: | :-------------------------: | :-----: | :-------------------------------------------: |
+    | Vqrd3CgV  | Bergedorf | quarter of Hamburg, Germany |         | [Bergedorf](http://wikidata.org/entity/Q2384) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Vqrd3CgV.html" height="800" width="1200" title="Vqrd3CgV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vqrd3CgV" height="800" width="1200" title="Vqrd3CgV"></iframe>
 
 ## Identifiers
 

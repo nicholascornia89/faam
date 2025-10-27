@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: N4s6hsD5
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                          |
-    | :-------: | :-------: | :-----------------------------: | :-----: | :---------------------------------------------------: |
-    | N4s6hsD5  | Chudenice | městys in Plzeň, Czech Republic |         | [Chudenice](http://wwww.wikidata.org/entity/Q2503857) |
+    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                     |
+    | :-------: | :-------: | :-----------------------------: | :-----: | :----------------------------------------------: |
+    | N4s6hsD5  | Chudenice | městys in Plzeň, Czech Republic |         | [Chudenice](http://wikidata.org/entity/Q2503857) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/N4s6hsD5.html" height="800" width="1200" title="N4s6hsD5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/N4s6hsD5" height="800" width="1200" title="N4s6hsD5"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Josef Reicha](./KeExYuiF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech composer and violoncellist
 

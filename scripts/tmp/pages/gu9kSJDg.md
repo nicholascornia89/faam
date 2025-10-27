@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gu9kSJDg
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                              | aliases               | Wikidata QID                                         |
-    | :-------: | :-------: | :------------------------------------------------------: | :-------------------: | :--------------------------------------------------: |
-    | gu9kSJDg  | Princeton | municipality in Mercer County, New Jersey, United States | Princeton, New Jersey | [Princeton](http://wwww.wikidata.org/entity/Q138518) |
+    | FAAM UUID | label     | description                                              | aliases               | Wikidata QID                                    |
+    | :-------: | :-------: | :------------------------------------------------------: | :-------------------: | :---------------------------------------------: |
+    | gu9kSJDg  | Princeton | municipality in Mercer County, New Jersey, United States | Princeton, New Jersey | [Princeton](http://wikidata.org/entity/Q138518) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gu9kSJDg.html" height="800" width="1200" title="gu9kSJDg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gu9kSJDg" height="800" width="1200" title="gu9kSJDg"></iframe>
 
 ## Identifiers
 

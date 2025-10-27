@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "dQpy5hbT", "label": "Henri Vieuxtemps", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./dQpy5hbT.md\u0027\u003eHenri Vieuxtemps\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian violinist and composer (1820-1881)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KgyiaBt3", "label": "Belgium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KgyiaBt3.md\u0027\u003eBelgium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in western Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "isEdM7zC", "label": "Verviers", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./isEdM7zC.md\u0027\u003eVerviers\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Wallonia, Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "XmTsMFTz", "label": "Albert Dupuis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./XmTsMFTz.md\u0027\u003eAlbert Dupuis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1877-1967)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dupuis.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fTh7NUtj", "label": "Joseph Dupont", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fTh7NUtj.md\u0027\u003eJoseph Dupont\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian musician (1838-1899)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Dupont.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FkfGaYub", "label": "Hubert Jongen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FkfGaYub.md\u0027\u003eHubert Jongen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "dQpy5hbT", "to": "KgyiaBt3", "width": 10}, {"from": "dQpy5hbT", "to": "isEdM7zC", "width": 10}, {"from": "XmTsMFTz", "to": "KgyiaBt3", "width": 10}, {"from": "XmTsMFTz", "to": "isEdM7zC", "width": 10}, {"from": "fTh7NUtj", "to": "KgyiaBt3", "width": 10}, {"from": "fTh7NUtj", "to": "isEdM7zC", "width": 10}, {"from": "KgyiaBt3", "to": "isEdM7zC", "width": 10}, {"from": "KgyiaBt3", "to": "FkfGaYub", "width": 10}, {"from": "FkfGaYub", "to": "isEdM7zC", "width": 5}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fTh7NUtj", "label": "Joseph Dupont", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fTh7NUtj\u0027\u003eJoseph Dupont\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian musician (1838-1899)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Dupont.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KgyiaBt3", "label": "Belgium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KgyiaBt3\u0027\u003eBelgium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in western Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "isEdM7zC", "label": "Verviers", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/isEdM7zC\u0027\u003eVerviers\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Wallonia, Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "XmTsMFTz", "label": "Albert Dupuis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XmTsMFTz\u0027\u003eAlbert Dupuis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1877-1967)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dupuis.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "dQpy5hbT", "label": "Henri Vieuxtemps", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dQpy5hbT\u0027\u003eHenri Vieuxtemps\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian violinist and composer (1820-1881)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FkfGaYub", "label": "Hubert Jongen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FkfGaYub\u0027\u003eHubert Jongen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "fTh7NUtj", "to": "KgyiaBt3", "width": 10}, {"from": "fTh7NUtj", "to": "isEdM7zC", "width": 10}, {"from": "XmTsMFTz", "to": "KgyiaBt3", "width": 10}, {"from": "XmTsMFTz", "to": "isEdM7zC", "width": 10}, {"from": "dQpy5hbT", "to": "KgyiaBt3", "width": 10}, {"from": "dQpy5hbT", "to": "isEdM7zC", "width": 10}, {"from": "FkfGaYub", "to": "KgyiaBt3", "width": 10}, {"from": "FkfGaYub", "to": "isEdM7zC", "width": 5}, {"from": "KgyiaBt3", "to": "isEdM7zC", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

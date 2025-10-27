@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jeeeKFQ8
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/jeeeKFQ8.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/jeeeKFQ8.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/jeeeKFQ8.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/jeeeKFQ8.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/jeeeKFQ8.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/jeeeKFQ8.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Stanisłaŭ_Maniuška._Станіслаў_Манюшка_(T._Maleszewski,_1865).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases | description                 | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-----: | :-------------------------: | :------------------------------------------------------------: |
-    | jeeeKFQ8  | Stanisław Moniuszko |         | Polish composer (1819–1872) | [Stanisław Moniuszko](http://wwww.wikidata.org/entity/Q217613) |
+    | FAAM UUID | label               | aliases | description                 | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-----: | :-------------------------: | :-------------------------------------------------------: |
+    | jeeeKFQ8  | Stanisław Moniuszko |         | Polish composer (1819–1872) | [Stanisław Moniuszko](http://wikidata.org/entity/Q217613) |
 
 <br><br><br>
 
@@ -59,11 +63,11 @@ tags: agent
 
 	- [university teacher](./XWcaJQty.md)
 
-	- [](./c5ZKjhf7.md)
+	- [music teacher](./c5ZKjhf7.md)
 
 ??? quote "educated at" 
 
-	- [](./Y62HourG.md)
+	- [Minsk men's gymnasium](./Y62HourG.md)
 
 ??? quote "employer" 
 
@@ -73,7 +77,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/jeeeKFQ8.html" height="800" width="1200" title="jeeeKFQ8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jeeeKFQ8" height="800" width="1200" title="jeeeKFQ8"></iframe>
 
 ## Identifiers
 
@@ -94,3 +98,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[César Cui](./ez5MUfiE.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cui_CuiIP_Frontispiece_600.jpg){align=left width="150" height="150"} 
+
+	Russian composer and army officer
+
+</div>

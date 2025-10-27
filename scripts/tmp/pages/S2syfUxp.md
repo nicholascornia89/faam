@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: S2syfUxp
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                         | aliases | Wikidata QID                                      |
-    | :-------: | :------: | :-------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | S2syfUxp  | Toulouse | French commune and city in Haute-Garonne, Occitania | Tolosa  | [Toulouse](http://wwww.wikidata.org/entity/Q7880) |
+    | FAAM UUID | label    | description                                         | aliases | Wikidata QID                                 |
+    | :-------: | :------: | :-------------------------------------------------: | :-----: | :------------------------------------------: |
+    | S2syfUxp  | Toulouse | French commune and city in Haute-Garonne, Occitania | Tolosa  | [Toulouse](http://wikidata.org/entity/Q7880) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/S2syfUxp.html" height="800" width="1200" title="S2syfUxp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/S2syfUxp" height="800" width="1200" title="S2syfUxp"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Charles-Laurent Rhein](./jjZYuf95.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French pianist and composer
 
@@ -73,13 +77,13 @@ tags: city
 
 -	__[Jacques-Jules Bouffil](./9w96fD4i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 
 -	__[Jacques-Jules Bouffil](./DKrwNAM8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 

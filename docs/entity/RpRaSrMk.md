@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RpRaSrMk
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases | description | Wikidata QID                                                        |
-    | :-------: | :-------------------: | :-----: | :---------: | :-----------------------------------------------------------------: |
-    | RpRaSrMk  | Impromptu No.6, Op.86 |         |             | [Impromptu No.6, Op.86](http://wwww.wikidata.org/entity/Q124767360) |
+    | FAAM UUID | label                 | aliases | description | Wikidata QID                                                   |
+    | :-------: | :-------------------: | :-----: | :---------: | :------------------------------------------------------------: |
+    | RpRaSrMk  | Impromptu No.6, Op.86 |         |             | [Impromptu No.6, Op.86](http://wikidata.org/entity/Q124767360) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/RpRaSrMk.html" height="800" width="1200" title="RpRaSrMk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RpRaSrMk" height="800" width="1200" title="RpRaSrMk"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Impromptu : pour la harpe, op. 86](./ejyZGRuk.md)__
 
-	![Image](../assets/images/thumbs/KCA-03090274817.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090274817.gif){align=left width="150" height="150"} 
 
 	
 

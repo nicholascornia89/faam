@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Uf655iQV
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description | Wikidata QID                         |
-    | :-------: | :------------: | :-----: | :---------: | :----------------------------------: |
-    | Uf655iQV  | Harmonia Sacra |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label          | aliases | description | Wikidata QID                    |
+    | :-------: | :------------: | :-----: | :---------: | :-----------------------------: |
+    | Uf655iQV  | Harmonia Sacra |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Uf655iQV.html" height="800" width="1200" title="Uf655iQV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Uf655iQV" height="800" width="1200" title="Uf655iQV"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Harmonia Sacra or Divine Hymns and Dialogues : with a Thorow Bass for the Theorbo-Lute, Bass Viol, Harpsichord, or Organ. vols. 1-2](./WhX6dcQv.md)__
 
-	![Image](../assets/images/thumbs/ORP-20134135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20134135.gif){align=left width="150" height="150"} 
 
 	
 

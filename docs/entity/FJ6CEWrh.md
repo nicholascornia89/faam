@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FJ6CEWrh
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FJ6CEWrh.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FJ6CEWrh.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FJ6CEWrh.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FJ6CEWrh.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FJ6CEWrh.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FJ6CEWrh.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description     | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----------: | :-------------: | :-------------------------------------------------------: |
-    | FJ6CEWrh  | Nicolas Séjan | Nicolas Sejan | French organist | [Nicolas Séjan](http://wwww.wikidata.org/entity/Q3340807) |
+    | FAAM UUID | label         | aliases       | description     | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----------: | :-------------: | :--------------------------------------------------: |
+    | FJ6CEWrh  | Nicolas Séjan | Nicolas Sejan | French organist | [Nicolas Séjan](http://wikidata.org/entity/Q3340807) |
 
 <br><br><br>
 
@@ -47,13 +51,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [Notre-Dame de Paris](http://www.wikidata.org/entity/Q2981)
+	- [Notre-Dame de Paris](Q2981)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FJ6CEWrh.html" height="800" width="1200" title="FJ6CEWrh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FJ6CEWrh" height="800" width="1200" title="FJ6CEWrh"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Charles Broche](./HgJnPxQ7.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/CharlesBroche.jpg){align=left width="150" height="150"} 
+
+	French composer (1752-1803)
+
+</div>

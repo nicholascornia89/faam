@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nFRxeXYZ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                     | aliases                    | Wikidata QID                                         |
-    | :-------: | :--------: | :-----------------------------: | :------------------------: | :--------------------------------------------------: |
-    | nFRxeXYZ  | Canterbury | cathedral city in Kent, England | Canterbury, United Kingdom | [Canterbury](http://wwww.wikidata.org/entity/Q29303) |
+    | FAAM UUID | label      | description                     | aliases                    | Wikidata QID                                    |
+    | :-------: | :--------: | :-----------------------------: | :------------------------: | :---------------------------------------------: |
+    | nFRxeXYZ  | Canterbury | cathedral city in Kent, England | Canterbury, United Kingdom | [Canterbury](http://wikidata.org/entity/Q29303) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nFRxeXYZ.html" height="800" width="1200" title="nFRxeXYZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nFRxeXYZ" height="800" width="1200" title="nFRxeXYZ"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Tk8r8exg
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases             | description                     | Wikidata QID                                                      |
-    | :-------: | :-----------------: | :-----------------: | :-----------------------------: | :---------------------------------------------------------------: |
-    | Tk8r8exg  | Ecce Dominus veniet | Ecce Dominus veniet | motet by Tomás Luis de Victoria | [Ecce Dominus veniet](http://wwww.wikidata.org/entity/Q124358564) |
+    | FAAM UUID | label               | aliases             | description                     | Wikidata QID                                                 |
+    | :-------: | :-----------------: | :-----------------: | :-----------------------------: | :----------------------------------------------------------: |
+    | Tk8r8exg  | Ecce Dominus veniet | Ecce Dominus veniet | motet by Tomás Luis de Victoria | [Ecce Dominus veniet](http://wikidata.org/entity/Q124358564) |
 
 <br><br><br>
 
@@ -39,7 +43,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Tk8r8exg.html" height="800" width="1200" title="Tk8r8exg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Tk8r8exg" height="800" width="1200" title="Tk8r8exg"></iframe>
 
 ## Identifiers
 
@@ -53,7 +57,7 @@ tags: musical_work
 
 -	__[Liber motettorum. 3: Nr. XVII - XXIV](./dvhNVzZ2.md)__
 
-	![Image](../assets/images/thumbs/BSB-991099188989707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991099188989707356.gif){align=left width="150" height="150"} 
 
 	
 

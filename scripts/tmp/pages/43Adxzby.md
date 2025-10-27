@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 43Adxzby
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                       | aliases                                | description                                 | Wikidata QID                                                                       |
-    | :-------: | :---------------------------------------------------------: | :------------------------------------: | :-----------------------------------------: | :--------------------------------------------------------------------------------: |
-    | 43Adxzby  | 3 Sonatas for Viola da Gamba and Harpsichord, BWV 1027-1029 | Viola da Gamba Sonatas (BWV 1027-1029) | Sonatas for bass viol composed by J.S. Bach | [Viola da Gamba Sonatas (BWV 1027-1029)](http://wwww.wikidata.org/entity/Q1492892) |
+    | FAAM UUID | label                                                       | aliases                                | description                                 | Wikidata QID                                                                  |
+    | :-------: | :---------------------------------------------------------: | :------------------------------------: | :-----------------------------------------: | :---------------------------------------------------------------------------: |
+    | 43Adxzby  | 3 Sonatas for Viola da Gamba and Harpsichord, BWV 1027-1029 | Viola da Gamba Sonatas (BWV 1027-1029) | Sonatas for bass viol composed by J.S. Bach | [Viola da Gamba Sonatas (BWV 1027-1029)](http://wikidata.org/entity/Q1492892) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/43Adxzby.html" height="800" width="1200" title="43Adxzby"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/43Adxzby" height="800" width="1200" title="43Adxzby"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Trois Sonates pour piano et viola da gamba ou violoncelle, composées par J. Seb. Bach. Edition nouvelle, revue, doigtée et enrichie de notes sur l'exécution par Fr. Grützmacher](./bnx7Dvt2.md)__
 
-	![Image](../assets/images/thumbs/BNF-42826443c.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42826443c.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: g8Zgp4tQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/g8Zgp4tQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/g8Zgp4tQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/g8Zgp4tQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/g8Zgp4tQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/g8Zgp4tQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/g8Zgp4tQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description      | Wikidata QID                                                |
-    | :-------: | :-----------: | :-----------: | :--------------: | :---------------------------------------------------------: |
-    | g8Zgp4tQ  | Esteban Martí | Esteban Martí | Spanish composer | [Esteban Martí](http://wwww.wikidata.org/entity/Q112436346) |
+    | FAAM UUID | label         | aliases       | description      | Wikidata QID                                           |
+    | :-------: | :-----------: | :-----------: | :--------------: | :----------------------------------------------------: |
+    | g8Zgp4tQ  | Esteban Martí | Esteban Martí | Spanish composer | [Esteban Martí](http://wikidata.org/entity/Q112436346) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/g8Zgp4tQ.html" height="800" width="1200" title="g8Zgp4tQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/g8Zgp4tQ" height="800" width="1200" title="g8Zgp4tQ"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: agent
 
 -	__[Bonjour Pierrette](./4gqxB2fN.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p10.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p10.gif){align=left width="150" height="150"} 
 
 	
 

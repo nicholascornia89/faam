@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Gp5SCNZR
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description | aliases | Wikidata QID                         |
-    | :-------: | :---------: | :---------: | :-----: | :----------------------------------: |
-    | Gp5SCNZR  | dashed line |             |         | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label       | description | aliases | Wikidata QID                    |
+    | :-------: | :---------: | :---------: | :-----: | :-----------------------------: |
+    | Gp5SCNZR  | dashed line |             |         | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/Gp5SCNZR.html" height="800" width="1200" title="Gp5SCNZR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Gp5SCNZR" height="800" width="1200" title="Gp5SCNZR"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: annotation_type
 
 -	__[Ungarische Rhapsodie no. 2 : cadenza](./GWuKPdtn.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904702856.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702856.gif){align=left width="150" height="150"} 
 
 	
 

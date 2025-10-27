@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BCNdTNFh
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                   | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :---------------------------: | :-----: | :--------------------------------------------------: |
-    | BCNdTNFh  | Hanzinne | section of Florennes, Belgium |         | [Hanzinne](http://wwww.wikidata.org/entity/Q2282694) |
+    | FAAM UUID | label    | description                   | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :---------------------------: | :-----: | :---------------------------------------------: |
+    | BCNdTNFh  | Hanzinne | section of Florennes, Belgium |         | [Hanzinne](http://wikidata.org/entity/Q2282694) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BCNdTNFh.html" height="800" width="1200" title="BCNdTNFh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BCNdTNFh" height="800" width="1200" title="BCNdTNFh"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Jean-Baptiste-Joseph Tolbecque](./9FCtqmNH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer, violinist and conductor
 

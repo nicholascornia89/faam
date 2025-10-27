@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WU3jYeSi
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description                       | Wikidata QID                                                   |
-    | :-------: | :----------------: | :----------------: | :-------------------------------: | :------------------------------------------------------------: |
-    | WU3jYeSi  | La reine de Chypre | La reine de Chypre | opera by Jacques Fromental Halévy | [La reine de Chypre](http://wwww.wikidata.org/entity/Q3185464) |
+    | FAAM UUID | label              | aliases            | description                       | Wikidata QID                                              |
+    | :-------: | :----------------: | :----------------: | :-------------------------------: | :-------------------------------------------------------: |
+    | WU3jYeSi  | La reine de Chypre | La reine de Chypre | opera by Jacques Fromental Halévy | [La reine de Chypre](http://wikidata.org/entity/Q3185464) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/WU3jYeSi.html" height="800" width="1200" title="WU3jYeSi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WU3jYeSi" height="800" width="1200" title="WU3jYeSi"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Convoluut : Valentine Degive-Ledelier](./diiKf2Tw.md)__
 
-	![Image](../assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NxHGZqdj
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                                                                 | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :-------------------------------------------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------------: |
-    | NxHGZqdj  | natural sign | musical sign (accidental) cancelling previous accidentals returning the frequency of the note to the natural/original value | ♮       | [natural sign](http://wwww.wikidata.org/entity/Q747691) |
+    | FAAM UUID | label        | description                                                                                                                 | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :-------------------------------------------------------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
+    | NxHGZqdj  | natural sign | musical sign (accidental) cancelling previous accidentals returning the frequency of the note to the natural/original value | ♮       | [natural sign](http://wikidata.org/entity/Q747691) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/NxHGZqdj.html" height="800" width="1200" title="NxHGZqdj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NxHGZqdj" height="800" width="1200" title="NxHGZqdj"></iframe>
 
 ## Cross-references
 

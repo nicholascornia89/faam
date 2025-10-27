@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QRuTEdwa
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                    | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :----------------------------: | :-----: | :----------------------------------------------: |
-    | QRuTEdwa  | Brugge | city in West Flanders, Belgium | Bruges  | [Bruges](http://wwww.wikidata.org/entity/Q12994) |
+    | FAAM UUID | label  | description                    | aliases | Wikidata QID                                |
+    | :-------: | :----: | :----------------------------: | :-----: | :-----------------------------------------: |
+    | QRuTEdwa  | Brugge | city in West Flanders, Belgium | Bruges  | [Bruges](http://wikidata.org/entity/Q12994) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/QRuTEdwa.html" height="800" width="1200" title="QRuTEdwa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QRuTEdwa" height="800" width="1200" title="QRuTEdwa"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Oscar Depuydt](./JvEdXjs7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian organist (1858–1925)
 
 -	__[Edward Gailliard](./cxiva6NZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian historian, linguist, publisher and archivist (1841-1922)
 
@@ -85,7 +89,7 @@ tags: city
 
 -	__[Edward Gailliard](./cxiva6NZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian historian, linguist, publisher and archivist (1841-1922)
 
@@ -103,13 +107,13 @@ tags: city
 
 -	__[Georges Antoine](./F5XuWprz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1892-1918)
 
 -	__[Jean Richafort](./2W6wHMmr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Franco-Flemish composer
 
@@ -121,13 +125,13 @@ tags: city
 
 -	__[Joannes Brans](./WFtzHq9o.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch teacher and Belgian school director and inspector
 
 -	__[Pierre Joseph D'Hollander](./3HuQsR4z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	priest, theologian, professor and honorary canon (1804 - 1866)
 

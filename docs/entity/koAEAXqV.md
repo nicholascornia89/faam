@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: koAEAXqV
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description | aliases | Wikidata QID                                                                |
-    | :-------: | :----------------------------: | :---------: | :-----: | :-------------------------------------------------------------------------: |
-    | koAEAXqV  | Akademické gymnázium Štěpánská |             |         | [Akademické gymnázium Štěpánská](http://wwww.wikidata.org/entity/Q10726782) |
+    | FAAM UUID | label                          | description | aliases | Wikidata QID                                                           |
+    | :-------: | :----------------------------: | :---------: | :-----: | :--------------------------------------------------------------------: |
+    | koAEAXqV  | Akademické gymnázium Štěpánská |             |         | [Akademické gymnázium Štěpánská](http://wikidata.org/entity/Q10726782) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./jtSKEEJD.md)
+	[Prague 1](./jtSKEEJD.md)
 
-	[](./aZfe8VLF.md)
+	[New Town](./aZfe8VLF.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/koAEAXqV.html" height="800" width="1200" title="koAEAXqV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/koAEAXqV" height="800" width="1200" title="koAEAXqV"></iframe>
 
 ## Cross-references
 

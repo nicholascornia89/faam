@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:k4AcFQqP a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Russian professional musical institution since 1479"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q586283>,
+        "0"^^xsd:string,
+        "k4AcFQqP"^^xsd:string ;
+    schema1:location faamentity:3iEGZFo6 ;
+    skos:prefLabel "Saint Petersburg Court Capella"^^xsd:string .
+

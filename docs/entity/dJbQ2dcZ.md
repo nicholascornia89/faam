@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dJbQ2dcZ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | dJbQ2dcZ  | Keyboard Sonata in F major, K.468 | Keyboard Sonata in F major, L.226 | sonata by Domenico Scarlatti | [Sonata K. 468](http://wwww.wikidata.org/entity/Q78243853) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | dJbQ2dcZ  | Keyboard Sonata in F major, K.468 | Keyboard Sonata in F major, L.226 | sonata by Domenico Scarlatti | [Sonata K. 468](http://wikidata.org/entity/Q78243853) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/dJbQ2dcZ.html" height="800" width="1200" title="dJbQ2dcZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dJbQ2dcZ" height="800" width="1200" title="dJbQ2dcZ"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

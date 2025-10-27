@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fNgrAref
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                           | aliases            | Wikidata QID                                             |
-    | :-------: | :----------: | :-------------------------------------------------------------------: | :----------------: | :------------------------------------------------------: |
-    | fNgrAref  | Ludza County | former subdivision of Latvia, Poland–Lithuania and the Russian Empire | Ljutsinskij County | [Ludza County](http://wwww.wikidata.org/entity/Q4272433) |
+    | FAAM UUID | label        | description                                                           | aliases            | Wikidata QID                                        |
+    | :-------: | :----------: | :-------------------------------------------------------------------: | :----------------: | :-------------------------------------------------: |
+    | fNgrAref  | Ludza County | former subdivision of Latvia, Poland–Lithuania and the Russian Empire | Ljutsinskij County | [Ludza County](http://wikidata.org/entity/Q4272433) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fNgrAref.html" height="800" width="1200" title="fNgrAref"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fNgrAref" height="800" width="1200" title="fNgrAref"></iframe>
 
 ## Identifiers
 

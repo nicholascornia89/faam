@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2uRxtWe8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                           | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :---------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | 2uRxtWe8  | Kublov | village in Beroun District of Central Bohemian region |         | [Kublov](http://wwww.wikidata.org/entity/Q2318894) |
+    | FAAM UUID | label  | description                                           | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :---------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | 2uRxtWe8  | Kublov | village in Beroun District of Central Bohemian region |         | [Kublov](http://wikidata.org/entity/Q2318894) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2uRxtWe8.html" height="800" width="1200" title="2uRxtWe8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2uRxtWe8" height="800" width="1200" title="2uRxtWe8"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EYyZe39q
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EYyZe39q.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EYyZe39q.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EYyZe39q.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EYyZe39q.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EYyZe39q.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EYyZe39q.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases         | description            | Wikidata QID                                                |
-    | :-------: | :------------: | :-------------: | :--------------------: | :---------------------------------------------------------: |
-    | EYyZe39q  | Édouard Gérard | E. Gérard & Cie | French music publisher | [Édouard Gérard](http://wwww.wikidata.org/entity/Q95234898) |
+    | FAAM UUID | label          | aliases         | description            | Wikidata QID                                           |
+    | :-------: | :------------: | :-------------: | :--------------------: | :----------------------------------------------------: |
+    | EYyZe39q  | Édouard Gérard | E. Gérard & Cie | French music publisher | [Édouard Gérard](http://wikidata.org/entity/Q95234898) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/EYyZe39q.html" height="800" width="1200" title="EYyZe39q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EYyZe39q" height="800" width="1200" title="EYyZe39q"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: agent
 
 -	__[1re Suite](./KDgkFQtz.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902415212.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902415212.gif){align=left width="150" height="150"} 
 
 	
 

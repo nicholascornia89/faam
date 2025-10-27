@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dJWjJo32 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:PXYCpRXf ;
+    schema1:description "sonata by Domenico Scarlatti"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q74594790>,
+        "16003937"^^xsd:string,
+        "dJWjJo32"^^xsd:string ;
+    skos:altLabel "Keyboard Sonata in B-flat major, L.497"^^xsd:string,
+        "Sonata K. 544"^^xsd:string ;
+    skos:prefLabel "Keyboard Sonata in B-flat major, K.544"^^xsd:string ;
+    wd:P214 viaf:293368810 ;
+    wd:P5202 faamentity:5gAsc3pE,
+        faamentity:agWvDDr6 ;
+    wd:P7937 faamentity:RtkoMT89 ;
+    wd:P839 <https://imslp.org/wiki/Keyboard_Sonata_in_B-flat_major,_K.544_(Scarlatti,_Domenico)> .
+

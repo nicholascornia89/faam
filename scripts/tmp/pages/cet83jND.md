@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cet83jND
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | aliases           | description                       | Wikidata QID                                                  |
-    | :-------: | :-----------------------------------: | :---------------: | :-------------------------------: | :-----------------------------------------------------------: |
-    | cet83jND  | Piano Sonata No. 8 in C Minor, Op. 13 | Sonata Pathétique | piano sonata written by Beethoven | [Piano Sonata No. 8](http://wwww.wikidata.org/entity/Q146113) |
+    | FAAM UUID | label                                 | aliases           | description                       | Wikidata QID                                             |
+    | :-------: | :-----------------------------------: | :---------------: | :-------------------------------: | :------------------------------------------------------: |
+    | cet83jND  | Piano Sonata No. 8 in C Minor, Op. 13 | Sonata Pathétique | piano sonata written by Beethoven | [Piano Sonata No. 8](http://wikidata.org/entity/Q146113) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/cet83jND.html" height="800" width="1200" title="cet83jND"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cet83jND" height="800" width="1200" title="cet83jND"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[La Sonate pathétique de L. van Beethoven, op. 13. Edition rythmée et annotée par Mathis Lussy, (oeuvre posthume)](./fgSBHH5P.md)__
 
-	![Image](../assets/images/thumbs/BNF-13908155m.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-13908155m.gif){align=left width="150" height="150"} 
 
 	
 

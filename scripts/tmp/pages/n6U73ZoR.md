@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: n6U73ZoR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                  | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :----------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | n6U73ZoR  | Kraków | capital city of Lesser Poland Voivodeship in southern Poland | Kraków  | [Kraków](http://wwww.wikidata.org/entity/Q31487) |
+    | FAAM UUID | label  | description                                                  | aliases | Wikidata QID                                |
+    | :-------: | :----: | :----------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | n6U73ZoR  | Kraków | capital city of Lesser Poland Voivodeship in southern Poland | Kraków  | [Kraków](http://wikidata.org/entity/Q31487) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/n6U73ZoR.html" height="800" width="1200" title="n6U73ZoR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/n6U73ZoR" height="800" width="1200" title="n6U73ZoR"></iframe>
 
 ## Identifiers
 

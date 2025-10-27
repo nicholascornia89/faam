@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XsemBD2v
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description    | aliases | Wikidata QID                                      |
-    | :-------: | :------: | :------------: | :-----: | :-----------------------------------------------: |
-    | XsemBD2v  | Vercelli | Italian comune |         | [Vercelli](http://wwww.wikidata.org/entity/Q5990) |
+    | FAAM UUID | label    | description    | aliases | Wikidata QID                                 |
+    | :-------: | :------: | :------------: | :-----: | :------------------------------------------: |
+    | XsemBD2v  | Vercelli | Italian comune |         | [Vercelli](http://wikidata.org/entity/Q5990) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/XsemBD2v.html" height="800" width="1200" title="XsemBD2v"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XsemBD2v" height="800" width="1200" title="XsemBD2v"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Pietro Heredia](./iB5gXbgh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

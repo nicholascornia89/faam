@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GSD2sZS2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                     | aliases     | Wikidata QID                                     |
-    | :-------: | :------: | :---------------------------------------------: | :---------: | :----------------------------------------------: |
-    | GSD2sZS2  | Lausanne | capital city of the canton of Vaud, Switzerland | Lausanne VD | [Lausanne](http://wwww.wikidata.org/entity/Q807) |
+    | FAAM UUID | label    | description                                     | aliases     | Wikidata QID                                |
+    | :-------: | :------: | :---------------------------------------------: | :---------: | :-----------------------------------------: |
+    | GSD2sZS2  | Lausanne | capital city of the canton of Vaud, Switzerland | Lausanne VD | [Lausanne](http://wikidata.org/entity/Q807) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/GSD2sZS2.html" height="800" width="1200" title="GSD2sZS2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GSD2sZS2" height="800" width="1200" title="GSD2sZS2"></iframe>
 
 ## Identifiers
 

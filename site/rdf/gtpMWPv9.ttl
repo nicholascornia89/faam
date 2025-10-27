@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gtpMWPv9 a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "Sep 1917 – Oct 1917 short-lived republic in Eurasia"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q139319>,
+        "0"^^xsd:string,
+        "gtpMWPv9"^^xsd:string ;
+    skos:altLabel "Republic of Russia"^^xsd:string ;
+    skos:prefLabel "Russian Republic"^^xsd:string .
+

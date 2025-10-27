@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jqYs4mTc
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                                      | aliases     | Wikidata QID                                                        |
-    | :-------: | :---------------------: | :----------------------------------------------: | :---------: | :-----------------------------------------------------------------: |
-    | jqYs4mTc  | Aberdeen Grammar School | state secondary school in Aberdeen, Scotland, UK | the Grammar | [Aberdeen Grammar School](http://wwww.wikidata.org/entity/Q4666924) |
+    | FAAM UUID | label                   | description                                      | aliases     | Wikidata QID                                                   |
+    | :-------: | :---------------------: | :----------------------------------------------: | :---------: | :------------------------------------------------------------: |
+    | jqYs4mTc  | Aberdeen Grammar School | state secondary school in Aberdeen, Scotland, UK | the Grammar | [Aberdeen Grammar School](http://wikidata.org/entity/Q4666924) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./ceok2AH2.md)
+	[Aberdeen City](./ceok2AH2.md)
 
-	[](./7vkUkRCU.md)
+	[Aberdeen](./7vkUkRCU.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/jqYs4mTc.html" height="800" width="1200" title="jqYs4mTc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jqYs4mTc" height="800" width="1200" title="jqYs4mTc"></iframe>
 
 ## Cross-references
 

@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "V6P9ruNu", "label": "Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./V6P9ruNu.md\u0027\u003eVariations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000353033.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7AXGCpck.md\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EDypzUCA", "label": "Variations concertantes et Faciles, Op. 18", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EDypzUCA.md\u0027\u003eVariations concertantes et Faciles, Op. 18\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2FkhZAqS", "label": "Andronico", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2FkhZAqS.md\u0027\u003eAndronico\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Saverio Mercadante\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "d6k8Jy2L", "label": "Joseph Ghys", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./d6k8Jy2L.md\u0027\u003eJoseph Ghys\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian violinist (1801\u20131848)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Ghys_1834.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kv4NyzvW", "label": "Saverio Mercadante", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kv4NyzvW.md\u0027\u003eSaverio Mercadante\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6c/Saverio_Mercadante_by_Andrea_Cefaly.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "V6P9ruNu", "to": "7AXGCpck", "width": 1}, {"from": "V6P9ruNu", "to": "EDypzUCA", "width": 1}, {"from": "V6P9ruNu", "to": "2FkhZAqS", "width": 1}, {"from": "EDypzUCA", "to": "7AXGCpck", "width": 1}, {"from": "EDypzUCA", "to": "d6k8Jy2L", "width": 1}, {"from": "EDypzUCA", "to": "2FkhZAqS", "width": 1}, {"from": "7AXGCpck", "to": "2FkhZAqS", "width": 1}, {"from": "2FkhZAqS", "to": "kv4NyzvW", "width": 10}, {"from": "2FkhZAqS", "to": "d6k8Jy2L", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7AXGCpck\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EDypzUCA", "label": "Variations concertantes et Faciles, Op. 18", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/EDypzUCA\u0027\u003eVariations concertantes et Faciles, Op. 18\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2FkhZAqS", "label": "Andronico", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2FkhZAqS\u0027\u003eAndronico\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Saverio Mercadante\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "V6P9ruNu", "label": "Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/V6P9ruNu\u0027\u003eVariations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000353033.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kv4NyzvW", "label": "Saverio Mercadante", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kv4NyzvW\u0027\u003eSaverio Mercadante\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6c/Saverio_Mercadante_by_Andrea_Cefaly.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "d6k8Jy2L", "label": "Joseph Ghys", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/d6k8Jy2L\u0027\u003eJoseph Ghys\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian violinist (1801\u20131848)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Ghys_1834.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "7AXGCpck", "to": "EDypzUCA", "width": 1}, {"from": "7AXGCpck", "to": "2FkhZAqS", "width": 1}, {"from": "7AXGCpck", "to": "V6P9ruNu", "width": 1}, {"from": "kv4NyzvW", "to": "2FkhZAqS", "width": 10}, {"from": "V6P9ruNu", "to": "EDypzUCA", "width": 1}, {"from": "V6P9ruNu", "to": "2FkhZAqS", "width": 1}, {"from": "2FkhZAqS", "to": "EDypzUCA", "width": 1}, {"from": "2FkhZAqS", "to": "d6k8Jy2L", "width": 1}, {"from": "EDypzUCA", "to": "d6k8Jy2L", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

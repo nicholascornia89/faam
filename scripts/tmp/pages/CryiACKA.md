@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CryiACKA
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                   | aliases           | Wikidata QID                                        |
-    | :-------: | :-------: | :---------------------------: | :---------------: | :-------------------------------------------------: |
-    | CryiACKA  | Hampstead | area of north London, England | Hampstead Village | [Hampstead](http://wwww.wikidata.org/entity/Q25610) |
+    | FAAM UUID | label     | description                   | aliases           | Wikidata QID                                   |
+    | :-------: | :-------: | :---------------------------: | :---------------: | :--------------------------------------------: |
+    | CryiACKA  | Hampstead | area of north London, England | Hampstead Village | [Hampstead](http://wikidata.org/entity/Q25610) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CryiACKA.html" height="800" width="1200" title="CryiACKA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CryiACKA" height="800" width="1200" title="CryiACKA"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Thomas Dunhill](./Vp4ucERe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British composer
 

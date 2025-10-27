@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nzNB9DtJ
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                | aliases                | Wikidata QID                                                        |
-    | :-------: | :--------------------: | :----------------------------------------: | :--------------------: | :-----------------------------------------------------------------: |
-    | nzNB9DtJ  | science fiction writer | person who writes works of science fiction | science fiction author | [science fiction writer](http://wwww.wikidata.org/entity/Q18844224) |
+    | FAAM UUID | label                  | description                                | aliases                | Wikidata QID                                                   |
+    | :-------: | :--------------------: | :----------------------------------------: | :--------------------: | :------------------------------------------------------------: |
+    | nzNB9DtJ  | science fiction writer | person who writes works of science fiction | science fiction author | [science fiction writer](http://wikidata.org/entity/Q18844224) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/nzNB9DtJ.html" height="800" width="1200" title="nzNB9DtJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nzNB9DtJ" height="800" width="1200" title="nzNB9DtJ"></iframe>
 
 ## Cross-references
 

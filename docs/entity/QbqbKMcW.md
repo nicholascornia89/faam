@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QbqbKMcW
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                               | aliases                       | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :---------------------------------------: | :---------------------------: | :------------------------------------------------------------------: |
-    | QbqbKMcW  | Boston Symphony Orchestra | American symphony orchestra in Boston, MA | The Boston Symphony Orchestra | [Boston Symphony Orchestra](http://wwww.wikidata.org/entity/Q864369) |
+    | FAAM UUID | label                     | description                               | aliases                       | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :---------------------------------------: | :---------------------------: | :-------------------------------------------------------------: |
+    | QbqbKMcW  | Boston Symphony Orchestra | American symphony orchestra in Boston, MA | The Boston Symphony Orchestra | [Boston Symphony Orchestra](http://wikidata.org/entity/Q864369) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/QbqbKMcW.html" height="800" width="1200" title="QbqbKMcW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QbqbKMcW" height="800" width="1200" title="QbqbKMcW"></iframe>
 
 ## Cross-references
 

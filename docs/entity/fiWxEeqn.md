@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fiWxEeqn
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                                | aliases    | Wikidata QID                                         |
-    | :-------: | :----------------------: | :----------------------------------------: | :--------: | :--------------------------------------------------: |
-    | fiWxEeqn  | United States of America | country located primarily in North America | the States | [United States](http://wwww.wikidata.org/entity/Q30) |
+    | FAAM UUID | label                    | description                                | aliases    | Wikidata QID                                    |
+    | :-------: | :----------------------: | :----------------------------------------: | :--------: | :---------------------------------------------: |
+    | fiWxEeqn  | United States of America | country located primarily in North America | the States | [United States](http://wikidata.org/entity/Q30) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/fiWxEeqn.html" height="800" width="1200" title="fiWxEeqn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fiWxEeqn" height="800" width="1200" title="fiWxEeqn"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: country
 
 -	__[Kerry Mills](./8a6hfSXp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American ragtime composer and music publishing executive (1869–1948)
 
@@ -89,7 +93,7 @@ tags: country
 
 -	__[Walter Piston](./hgkK9LyH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer (1894–1976)
 
@@ -131,7 +135,7 @@ tags: country
 
 -	__[Maurice Abravanel](./MjskrVov.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Ottoman-American Jewish conductor
 
@@ -143,19 +147,19 @@ tags: country
 
 -	__[Frank Van der Stucken](./3EGSrwCz.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/af/FrankVanderStucken.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FrankVanderStucken.png){align=left width="150" height="150"} 
 
 	Flemish-American violinist, conductor, composer and festival director
 
 -	__[Henry Clough-Leighter](./Noe7Aw8w.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer and editor (1874-1956)
 
 -	__[Edwin F. Kalmus](./JboPBZot.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American music publisher
 
@@ -167,13 +171,13 @@ tags: country
 
 -	__[G. Schirmer Inc.](./NmUZYjP7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American publisher of sheet music
 
 -	__[Oliver Ditson Company](./ZaG64Piz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American publisher of sheet music
 
@@ -197,7 +201,7 @@ tags: country
 
 -	__[Charles Lucien Lambert](./8Ei9ktbr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer (1828–1896)
 
@@ -209,7 +213,7 @@ tags: country
 
 -	__[Edward Kilenyi](./a7VLGgQh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American musician, teacher of George Gershwin
 

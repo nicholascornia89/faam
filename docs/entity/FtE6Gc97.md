@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FtE6Gc97
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/BSB-991018906949707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FtE6Gc97.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FtE6Gc97.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FtE6Gc97.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/BSB-991018906949707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FtE6Gc97.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FtE6Gc97.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FtE6Gc97.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991018906949707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991018906949707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                   | permalink                | provenance                              |
-    | :-------: | :--------------------: | :---------------------: | :----------------------: | :-------------------------------------: |
-    | FtE6Gc97  | BSB-991018906949707356 | Sonate für Violine solo | [external URL](amkJ6EBs) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                   | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :---------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | FtE6Gc97  | BSB-991018906949707356 | Sonate für Violine solo | [external URL](https://mdz-nbn-resolving.de/details:bsb11151710) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -100,10 +104,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/FtE6Gc97.html" height="800" width="1200" title="FtE6Gc97"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FtE6Gc97" height="800" width="1200" title="FtE6Gc97"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/FtE6Gc97.html" height="800" width="1200" title="FtE6Gc97"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/FtE6Gc97" height="800" width="1200" title="FtE6Gc97"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TUxGjWrn
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                | aliases             | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :------------------------: | :-----------------: | :------------------------------------------------------------: |
-    | TUxGjWrn  | Brandenburg-Prussia | former country (1618–1701) | Brandenburg-Prussia | [Brandenburg-Prussia](http://wwww.wikidata.org/entity/Q157367) |
+    | FAAM UUID | label               | description                | aliases             | Wikidata QID                                              |
+    | :-------: | :-----------------: | :------------------------: | :-----------------: | :-------------------------------------------------------: |
+    | TUxGjWrn  | Brandenburg-Prussia | former country (1618–1701) | Brandenburg-Prussia | [Brandenburg-Prussia](http://wikidata.org/entity/Q157367) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/TUxGjWrn.html" height="800" width="1200" title="TUxGjWrn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TUxGjWrn" height="800" width="1200" title="TUxGjWrn"></iframe>
 
 ## Identifiers
 

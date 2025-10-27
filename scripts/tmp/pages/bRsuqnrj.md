@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bRsuqnrj
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bRsuqnrj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bRsuqnrj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bRsuqnrj.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bRsuqnrj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bRsuqnrj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bRsuqnrj.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Petri_Egon.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases    | description                | Wikidata QID                                          |
-    | :-------: | :--------: | :--------: | :------------------------: | :---------------------------------------------------: |
-    | bRsuqnrj  | Egon Petri | Egon Petri | Dutch musician (1881-1962) | [Egon Petri](http://wwww.wikidata.org/entity/Q728822) |
+    | FAAM UUID | label      | aliases    | description                | Wikidata QID                                     |
+    | :-------: | :--------: | :--------: | :------------------------: | :----------------------------------------------: |
+    | bRsuqnrj  | Egon Petri | Egon Petri | Dutch musician (1881-1962) | [Egon Petri](http://wikidata.org/entity/Q728822) |
 
 <br><br><br>
 
@@ -71,7 +75,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/bRsuqnrj.html" height="800" width="1200" title="bRsuqnrj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bRsuqnrj" height="800" width="1200" title="bRsuqnrj"></iframe>
 
 ## Identifiers
 

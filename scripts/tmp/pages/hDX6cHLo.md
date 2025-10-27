@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hDX6cHLo
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                            | aliases        | Wikidata QID                                        |
-    | :-------: | :------: | :--------------------------------------------------------------------: | :------------: | :-------------------------------------------------: |
-    | hDX6cHLo  | castrato | type of male singer who is castrated in order to maintain a high voice | castrato voice | [castrato](http://wwww.wikidata.org/entity/Q210970) |
+    | FAAM UUID | label    | description                                                            | aliases        | Wikidata QID                                   |
+    | :-------: | :------: | :--------------------------------------------------------------------: | :------------: | :--------------------------------------------: |
+    | hDX6cHLo  | castrato | type of male singer who is castrated in order to maintain a high voice | castrato voice | [castrato](http://wikidata.org/entity/Q210970) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/hDX6cHLo.html" height="800" width="1200" title="hDX6cHLo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hDX6cHLo" height="800" width="1200" title="hDX6cHLo"></iframe>
 
 ## Cross-references
 
@@ -37,13 +41,13 @@ tags: occupation
 
 -	__[Marc'Antonio Sportonio](./LVCVPN7D.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian baroque musician
 
 -	__[Giovanni Antonio Riccieri](./PuGAQNHr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

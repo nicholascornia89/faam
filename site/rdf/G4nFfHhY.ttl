@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:G4nFfHhY a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:4xi2DgAF,
+        faamentity:nt6iNeSy ;
+    schema1:birthDate "1836-12-21"^^xsd:string,
+        "1836-12-31"^^xsd:string ;
+    schema1:birthPlace faamentity:j2gE8Lb4 ;
+    schema1:deathDate "1910-05-16"^^xsd:string ;
+    schema1:deathPlace faamentity:ZpwbPoZj ;
+    schema1:description "Russian composer, pianist, and conductor (1837-1910)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q185040>,
+        "0"^^xsd:string,
+        "G4nFfHhY"^^xsd:string ;
+    schema1:nationality faamentity:DEbEnXwM ;
+    skos:altLabel "Mily Alexeyevich Balakirev"^^xsd:string ;
+    skos:prefLabel "Mily Balakirev"^^xsd:string ;
+    wd:P108 faamentity:2p22sJio,
+        faamentity:BcyAC8yC,
+        faamentity:k4AcFQqP ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:61730949 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/50042395> ;
+    wd:P737 faamentity:Vovo9g7W ;
+    wd:P839 <https://imslp.org/wiki/Category:Balakirev,_Mily> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:bSHypyYG .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 63e4LXNv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                 | aliases           | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------------------: | :---------------: | :--------------------------------------------------------: |
-    | 63e4LXNv  | Mantes-la-Jolie | commune in Yvelines, France | Mantes-Gassicourt | [Mantes-la-Jolie](http://wwww.wikidata.org/entity/Q207253) |
+    | FAAM UUID | label           | description                 | aliases           | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------------------: | :---------------: | :---------------------------------------------------: |
+    | 63e4LXNv  | Mantes-la-Jolie | commune in Yvelines, France | Mantes-Gassicourt | [Mantes-la-Jolie](http://wikidata.org/entity/Q207253) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/63e4LXNv.html" height="800" width="1200" title="63e4LXNv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/63e4LXNv" height="800" width="1200" title="63e4LXNv"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Émile Tavan](./Zt3RZjvH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

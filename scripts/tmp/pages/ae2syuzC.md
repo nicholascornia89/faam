@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ae2syuzC
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ae2syuzC.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ae2syuzC.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ae2syuzC.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ae2syuzC.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ae2syuzC.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ae2syuzC.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description      | Wikidata QID                                                |
-    | :-------: | :-------------: | :-----: | :--------------: | :---------------------------------------------------------: |
-    | ae2syuzC  | Saverio Valente |         | Italian musician | [Saverio Valente](http://wwww.wikidata.org/entity/Q3951071) |
+    | FAAM UUID | label           | aliases | description      | Wikidata QID                                           |
+    | :-------: | :-------------: | :-----: | :--------------: | :----------------------------------------------------: |
+    | ae2syuzC  | Saverio Valente |         | Italian musician | [Saverio Valente](http://wikidata.org/entity/Q3951071) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ae2syuzC.html" height="800" width="1200" title="ae2syuzC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ae2syuzC" height="800" width="1200" title="ae2syuzC"></iframe>
 
 ## Identifiers
 
@@ -62,3 +66,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Vincenzo Lavigna](./biGnSXZs.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer
+
+</div>

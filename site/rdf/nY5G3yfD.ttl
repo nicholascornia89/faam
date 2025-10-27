@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nY5G3yfD a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "family of string instruments"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11351992>,
+        "0"^^xsd:string,
+        "nY5G3yfD"^^xsd:string ;
+    skos:altLabel "Viol family"^^xsd:string,
+        "gamba (family of viols)"^^xsd:string,
+        "viola da gamba (family of viols)"^^xsd:string,
+        "viols"^^xsd:string ;
+    skos:prefLabel "viol family"^^xsd:string .
+

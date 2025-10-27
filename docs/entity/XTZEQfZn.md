@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XTZEQfZn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description              | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :----------------------: | :-----: | :-----------------------------------------------: |
-    | XTZEQfZn  | Ansbach | town in Bavaria, Germany |         | [Ansbach](http://wwww.wikidata.org/entity/Q14859) |
+    | FAAM UUID | label   | description              | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :----------------------: | :-----: | :------------------------------------------: |
+    | XTZEQfZn  | Ansbach | town in Bavaria, Germany |         | [Ansbach](http://wikidata.org/entity/Q14859) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/XTZEQfZn.html" height="800" width="1200" title="XTZEQfZn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XTZEQfZn" height="800" width="1200" title="XTZEQfZn"></iframe>
 
 ## Identifiers
 

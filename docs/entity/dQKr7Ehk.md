@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dQKr7Ehk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                 | aliases | Wikidata QID                                           |
-    | :-------: | :--------: | :-------------------------: | :-----: | :----------------------------------------------------: |
-    | dQKr7Ehk  | Großmehlra | human settlement in Germany |         | [Großmehlra](http://wwww.wikidata.org/entity/Q1549451) |
+    | FAAM UUID | label      | description                 | aliases | Wikidata QID                                      |
+    | :-------: | :--------: | :-------------------------: | :-----: | :-----------------------------------------------: |
+    | dQKr7Ehk  | Großmehlra | human settlement in Germany |         | [Großmehlra](http://wikidata.org/entity/Q1549451) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dQKr7Ehk.html" height="800" width="1200" title="dQKr7Ehk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dQKr7Ehk" height="800" width="1200" title="dQKr7Ehk"></iframe>
 
 ## Identifiers
 

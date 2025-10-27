@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NhNGr5zu
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NhNGr5zu.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NhNGr5zu.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NhNGr5zu.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NhNGr5zu.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NhNGr5zu.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NhNGr5zu.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Picchi_Nobiltà_di_Dame.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                | description      | Wikidata QID                                                |
-    | :-------: | :-------------: | :--------------------: | :--------------: | :---------------------------------------------------------: |
-    | NhNGr5zu  | Giovanni Picchi | Giovanni Matteo Picchi | Italian composer | [Giovanni Picchi](http://wwww.wikidata.org/entity/Q1388720) |
+    | FAAM UUID | label           | aliases                | description      | Wikidata QID                                           |
+    | :-------: | :-------------: | :--------------------: | :--------------: | :----------------------------------------------------: |
+    | NhNGr5zu  | Giovanni Picchi | Giovanni Matteo Picchi | Italian composer | [Giovanni Picchi](http://wikidata.org/entity/Q1388720) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NhNGr5zu.html" height="800" width="1200" title="NhNGr5zu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NhNGr5zu" height="800" width="1200" title="NhNGr5zu"></iframe>
 
 ## Identifiers
 

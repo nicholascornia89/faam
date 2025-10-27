@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BwiWTb7j
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BwiWTb7j.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BwiWTb7j.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BwiWTb7j.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BwiWTb7j.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BwiWTb7j.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BwiWTb7j.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases    | description                    | Wikidata QID                                                   |
-    | :-------: | :---------------: | :--------: | :----------------------------: | :------------------------------------------------------------: |
-    | BwiWTb7j  | Jean Ancot junior | Jean Ancot | Belgian violinist and composer | [Jean Ancot junior](http://wwww.wikidata.org/entity/Q26239749) |
+    | FAAM UUID | label             | aliases    | description                    | Wikidata QID                                              |
+    | :-------: | :---------------: | :--------: | :----------------------------: | :-------------------------------------------------------: |
+    | BwiWTb7j  | Jean Ancot junior | Jean Ancot | Belgian violinist and composer | [Jean Ancot junior](http://wikidata.org/entity/Q26239749) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/BwiWTb7j.html" height="800" width="1200" title="BwiWTb7j"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BwiWTb7j" height="800" width="1200" title="BwiWTb7j"></iframe>
 
 ## Identifiers
 

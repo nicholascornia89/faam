@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: o6vFa3W2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :------------------------: | :-----: | :----------------------------------------------: |
-    | o6vFa3W2  | Ursel | section of Aalter, Belgium |         | [Ursel](http://wwww.wikidata.org/entity/Q116202) |
+    | FAAM UUID | label | description                | aliases | Wikidata QID                                |
+    | :-------: | :---: | :------------------------: | :-----: | :-----------------------------------------: |
+    | o6vFa3W2  | Ursel | section of Aalter, Belgium |         | [Ursel](http://wikidata.org/entity/Q116202) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/o6vFa3W2.html" height="800" width="1200" title="o6vFa3W2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/o6vFa3W2" height="800" width="1200" title="o6vFa3W2"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Cyriel Van den Abeele](./Kwixsiao.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1875-1946)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: heTepEsp
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCA-030902800223/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/heTepEsp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/heTepEsp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/heTepEsp.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCA-030902800223/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/heTepEsp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/heTepEsp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/heTepEsp.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902800223.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902800223.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                 | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | heTepEsp  | KCA-030902800223      | Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein | [external URL](2mb4qe86) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                 | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | heTepEsp  | KCA-030902800223      | Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein | [external URL](https://anet.be/record/opacdkvc/c:lvd:6733343/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -86,10 +90,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/heTepEsp.html" height="800" width="1200" title="heTepEsp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/heTepEsp" height="800" width="1200" title="heTepEsp"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/heTepEsp.html" height="800" width="1200" title="heTepEsp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/heTepEsp" height="800" width="1200" title="heTepEsp"></iframe>

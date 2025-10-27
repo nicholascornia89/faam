@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5KHPgpw3", "label": "Nikolai Zverev", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5KHPgpw3.md\u0027\u003eNikolai Zverev\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian classical pianist (1833\u20131893)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai-Zverev.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "DEbEnXwM", "label": "Russian Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DEbEnXwM.md\u0027\u003eRussian Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer empire in Eurasia and North America (1721\u20131917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "mKcoWQVS", "label": "Moscow State University", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mKcoWQVS.md\u0027\u003eMoscow State University\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic research university in Moscow, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7JHzNARd", "label": "Alexander Ossovsky", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7JHzNARd.md\u0027\u003eAlexander Ossovsky\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusicologist, Russian writer (1871-1957)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "c4DdDGWx", "label": "Soviet Union", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./c4DdDGWx.md\u0027\u003eSoviet Union\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer country in Eurasia (1922\u20131991)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "3iEGZFo6", "label": "Russia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3iEGZFo6.md\u0027\u003eRussia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Eastern Europe and Northern Asia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "5KHPgpw3", "to": "DEbEnXwM", "width": 1}, {"from": "5KHPgpw3", "to": "mKcoWQVS", "width": 10}, {"from": "7JHzNARd", "to": "DEbEnXwM", "width": 10}, {"from": "7JHzNARd", "to": "c4DdDGWx", "width": 10}, {"from": "7JHzNARd", "to": "mKcoWQVS", "width": 10}, {"from": "mKcoWQVS", "to": "3iEGZFo6", "width": 10}, {"from": "mKcoWQVS", "to": "c4DdDGWx", "width": 10}, {"from": "mKcoWQVS", "to": "DEbEnXwM", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "c4DdDGWx", "label": "Soviet Union", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/c4DdDGWx\u0027\u003eSoviet Union\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer country in Eurasia (1922\u20131991)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "mKcoWQVS", "label": "Moscow State University", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mKcoWQVS\u0027\u003eMoscow State University\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic research university in Moscow, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7JHzNARd", "label": "Alexander Ossovsky", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7JHzNARd\u0027\u003eAlexander Ossovsky\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusicologist, Russian writer (1871-1957)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "DEbEnXwM", "label": "Russian Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DEbEnXwM\u0027\u003eRussian Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer empire in Eurasia and North America (1721\u20131917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5KHPgpw3", "label": "Nikolai Zverev", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5KHPgpw3\u0027\u003eNikolai Zverev\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian classical pianist (1833\u20131893)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai-Zverev.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "3iEGZFo6", "label": "Russia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3iEGZFo6\u0027\u003eRussia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Eastern Europe and Northern Asia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "c4DdDGWx", "to": "mKcoWQVS", "width": 10}, {"from": "c4DdDGWx", "to": "7JHzNARd", "width": 10}, {"from": "7JHzNARd", "to": "DEbEnXwM", "width": 10}, {"from": "7JHzNARd", "to": "mKcoWQVS", "width": 10}, {"from": "5KHPgpw3", "to": "DEbEnXwM", "width": 1}, {"from": "5KHPgpw3", "to": "mKcoWQVS", "width": 10}, {"from": "DEbEnXwM", "to": "mKcoWQVS", "width": 10}, {"from": "mKcoWQVS", "to": "3iEGZFo6", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iCcNcTob
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases  | description                           | Wikidata QID                                                |
-    | :-------: | :----------------: | :------: | :-----------------------------------: | :---------------------------------------------------------: |
-    | iCcNcTob  | Die Kunst der Fuge | BWV 1080 | musical work by Johann Sebastian Bach | [The Art of Fugue](http://wwww.wikidata.org/entity/Q465878) |
+    | FAAM UUID | label              | aliases  | description                           | Wikidata QID                                           |
+    | :-------: | :----------------: | :------: | :-----------------------------------: | :----------------------------------------------------: |
+    | iCcNcTob  | Die Kunst der Fuge | BWV 1080 | musical work by Johann Sebastian Bach | [The Art of Fugue](http://wikidata.org/entity/Q465878) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/iCcNcTob.html" height="800" width="1200" title="iCcNcTob"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iCcNcTob" height="800" width="1200" title="iCcNcTob"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Die Kunst der Fuge = The art of fugue = L' art de la fugue](./hm7SbQfi.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901352994.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901352994.gif){align=left width="150" height="150"} 
 
 	
 

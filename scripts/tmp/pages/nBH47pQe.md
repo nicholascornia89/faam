@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nBH47pQe
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nBH47pQe.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nBH47pQe.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nBH47pQe.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nBH47pQe.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nBH47pQe.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nBH47pQe.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/IgnazTedesco.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases       | description               | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :-----------: | :-----------------------: | :---------------------------------------------------------------: |
-    | nBH47pQe  | Ignaz Amadeus Tedesco | Ignaz Tedesco | Czech pianist (1817-1882) | [Ignaz Amadeus Tedesco](http://wwww.wikidata.org/entity/Q4453717) |
+    | FAAM UUID | label                 | aliases       | description               | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :-----------: | :-----------------------: | :----------------------------------------------------------: |
+    | nBH47pQe  | Ignaz Amadeus Tedesco | Ignaz Tedesco | Czech pianist (1817-1882) | [Ignaz Amadeus Tedesco](http://wikidata.org/entity/Q4453717) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/nBH47pQe.html" height="800" width="1200" title="nBH47pQe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nBH47pQe" height="800" width="1200" title="nBH47pQe"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Julius Schulhoff](./JVRdqvpd.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Julius_Schulhoff.jpg){align=left width="150" height="150"} 
+
+	Austrian pianist and composer (1825-1898)
+
+</div>

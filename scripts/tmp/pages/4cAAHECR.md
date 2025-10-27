@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4cAAHECR
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | aliases | description | Wikidata QID                         |
-    | :-------: | :---------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | 4cAAHECR  | 6 Pieces for Cello and Piano, Op.26 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                               | aliases | description | Wikidata QID                    |
+    | :-------: | :---------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | 4cAAHECR  | 6 Pieces for Cello and Piano, Op.26 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/4cAAHECR.html" height="800" width="1200" title="4cAAHECR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4cAAHECR" height="800" width="1200" title="4cAAHECR"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: musical_work
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bQv4KuMJ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description    | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :------------: | :-----: | :-----------------------------------------------: |
-    | bQv4KuMJ  | Taranto | Italian comune | Taras   | [Taranto](http://wwww.wikidata.org/entity/Q13498) |
+    | FAAM UUID | label   | description    | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :------------: | :-----: | :------------------------------------------: |
+    | bQv4KuMJ  | Taranto | Italian comune | Taras   | [Taranto](http://wikidata.org/entity/Q13498) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bQv4KuMJ.html" height="800" width="1200" title="bQv4KuMJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bQv4KuMJ" height="800" width="1200" title="bQv4KuMJ"></iframe>
 
 ## Identifiers
 

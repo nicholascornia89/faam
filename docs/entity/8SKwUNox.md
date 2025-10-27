@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8SKwUNox
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | aliases                                | description                  | Wikidata QID                                               |
-    | :-------: | :------------------------------------: | :------------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | 8SKwUNox  | Keyboard Sonata in B-flat major, K.545 | Keyboard Sonata in B-flat major, L.500 | sonata by Domenico Scarlatti | [Sonata K. 545](http://wwww.wikidata.org/entity/Q67200028) |
+    | FAAM UUID | label                                  | aliases                                | description                  | Wikidata QID                                          |
+    | :-------: | :------------------------------------: | :------------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | 8SKwUNox  | Keyboard Sonata in B-flat major, K.545 | Keyboard Sonata in B-flat major, L.500 | sonata by Domenico Scarlatti | [Sonata K. 545](http://wikidata.org/entity/Q67200028) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/8SKwUNox.html" height="800" width="1200" title="8SKwUNox"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8SKwUNox" height="800" width="1200" title="8SKwUNox"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[24 Stücke : für Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo.](./WWCbaaWA.md)__
 
-	![Image](../assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
 
 	
 

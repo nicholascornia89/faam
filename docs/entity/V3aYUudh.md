@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: V3aYUudh
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description               | aliases             | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-----------------------: | :-----------------: | :------------------------------------------------------------------: |
-    | V3aYUudh  | plucked string instrument | type of string instrument | plucked instruments | [plucked string instrument](http://wwww.wikidata.org/entity/Q230262) |
+    | FAAM UUID | label                     | description               | aliases             | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-----------------------: | :-----------------: | :-------------------------------------------------------------: |
+    | V3aYUudh  | plucked string instrument | type of string instrument | plucked instruments | [plucked string instrument](http://wikidata.org/entity/Q230262) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/V3aYUudh.html" height="800" width="1200" title="V3aYUudh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/V3aYUudh" height="800" width="1200" title="V3aYUudh"></iframe>
 
 ## Cross-references
 

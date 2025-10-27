@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2gunk3ai
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                       | aliases      | Wikidata QID                                            |
-    | :-------: | :----------: | :-------------------------------: | :----------: | :-----------------------------------------------------: |
-    | 2gunk3ai  | countertenor | high classical male singing voice | contra tenor | [countertenor](http://wwww.wikidata.org/entity/Q223166) |
+    | FAAM UUID | label        | description                       | aliases      | Wikidata QID                                       |
+    | :-------: | :----------: | :-------------------------------: | :----------: | :------------------------------------------------: |
+    | 2gunk3ai  | countertenor | high classical male singing voice | contra tenor | [countertenor](http://wikidata.org/entity/Q223166) |
 
 <br><br><br>
 
@@ -31,19 +35,19 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./hrmxqtDZ.md)
+	- [male singing voice](./hrmxqtDZ.md)
 
 !!! quote "instance of" 
 
-	- [](./cKFoZAjy.md)
+	- [Fach](./cKFoZAjy.md)
 
-	- [](./g3FMFoiZ.md)
+	- [voice type](./g3FMFoiZ.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/2gunk3ai.html" height="800" width="1200" title="2gunk3ai"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2gunk3ai" height="800" width="1200" title="2gunk3ai"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: musical_instrument
 
 -	__[Giovanni Benedetto Platti](./dek3dK5z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

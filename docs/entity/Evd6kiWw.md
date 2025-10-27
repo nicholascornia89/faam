@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Evd6kiWw
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                               | aliases       | Wikidata QID                                              |
-    | :-------: | :-----------: | :-------------------------------------------------------: | :-----------: | :-------------------------------------------------------: |
-    | Evd6kiWw  | harmonization | music term; the chordal accompaniment to a line or melody | harmonisation | [harmonization](http://wwww.wikidata.org/entity/Q5659376) |
+    | FAAM UUID | label         | description                                               | aliases       | Wikidata QID                                         |
+    | :-------: | :-----------: | :-------------------------------------------------------: | :-----------: | :--------------------------------------------------: |
+    | Evd6kiWw  | harmonization | music term; the chordal accompaniment to a line or melody | harmonisation | [harmonization](http://wikidata.org/entity/Q5659376) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Evd6kiWw.html" height="800" width="1200" title="Evd6kiWw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Evd6kiWw" height="800" width="1200" title="Evd6kiWw"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Cours complet d'harmonie](./gqk5YWT2.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902962303.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902962303.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: S72kemb9
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                              | aliases | Wikidata QID                                    |
-    | :-------: | :------: | :------------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | S72kemb9  | Scotland | country in north-west Europe, part of the United Kingdom | Alba    | [Scotland](http://wwww.wikidata.org/entity/Q22) |
+    | FAAM UUID | label    | description                                              | aliases | Wikidata QID                               |
+    | :-------: | :------: | :------------------------------------------------------: | :-----: | :----------------------------------------: |
+    | S72kemb9  | Scotland | country in north-west Europe, part of the United Kingdom | Alba    | [Scotland](http://wikidata.org/entity/Q22) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/S72kemb9.html" height="800" width="1200" title="S72kemb9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/S72kemb9" height="800" width="1200" title="S72kemb9"></iframe>
 
 ## Identifiers
 

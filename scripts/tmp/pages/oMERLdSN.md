@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oMERLdSN
 
 tags: role
@@ -19,9 +23,9 @@ tags: role
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                                                                                   | aliases   | Wikidata QID                                                 |
-    | :-------: | :-------: | :-------------------------------------------------------------------------------------------------------------------------------------------: | :-------: | :----------------------------------------------------------: |
-    | oMERLdSN  | performer | artist who participates in performing arts in front of an audience: actors, comedians, dancers, magicians, circus artists, musicians, singers | performer | [performing artist](http://wwww.wikidata.org/entity/Q713200) |
+    | FAAM UUID | label     | description                                                                                                                                   | aliases   | Wikidata QID                                            |
+    | :-------: | :-------: | :-------------------------------------------------------------------------------------------------------------------------------------------: | :-------: | :-----------------------------------------------------: |
+    | oMERLdSN  | performer | artist who participates in performing arts in front of an audience: actors, comedians, dancers, magicians, circus artists, musicians, singers | performer | [performing artist](http://wikidata.org/entity/Q713200) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: role
 
 ---
 
-<iframe src="../network/oMERLdSN.html" height="800" width="1200" title="oMERLdSN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oMERLdSN" height="800" width="1200" title="oMERLdSN"></iframe>
 
 ## Cross-references
 
@@ -413,25 +417,25 @@ tags: role
 
 -	__[Julie Dorus-Gras](./cFRPbHXZ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/f/fa/JulieDorus-Gras.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/JulieDorus-Gras.jpg){align=left width="150" height="150"} 
 
 	singer (1805–1896)
 
 -	__[Jef Alpaerts](./LFJgDfLj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian cellist and composer
 
 -	__[Robert Allen Spencer](./nTmL95bR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	UK lutenist (1932-1997)
 
 -	__[Hélène Dinsart](./GgyGnGfG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and music educator
 
@@ -443,7 +447,7 @@ tags: role
 
 -	__[Francine Lepage](./hBcFSi6N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian mezzo soprano
 
@@ -455,79 +459,79 @@ tags: role
 
 -	__[Leo De Barse](./EBrPia5v.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian horn player and music teacher
 
 -	__[Rosalie Huyghe-Bosman](./3fWwPrfr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian operatic singer
 
 -	__[Valentine Degive-Ledelier](./9bug7VfA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian singer and music teacher
 
 -	__[Irma Van Dijck](./MvfpvWJh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian singer and music teacher
 
 -	__[Ferdinand David](./2LiJbewP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
-	Wikimedia disambiguation page
+	German musician (1810-1873)
 
 -	__[Elisa Verbrugghe](./TtGGECSj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[M. Ch. Houin](./V5nX7LRu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Mlle Clément](./Gfxp4t7o.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Gennevouise, L.A.J.](./YMXCcMXZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Edouard de Somere](./encB2LWu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Yvonne Van den Berghe](./J9qyNZCR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Léa Fauquel](./hXVVRcWL.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[C. Sauveur](./YC8uM4xD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

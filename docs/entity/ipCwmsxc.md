@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ipCwmsxc
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903088141/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ipCwmsxc.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ipCwmsxc.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ipCwmsxc.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903088141/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ipCwmsxc.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ipCwmsxc.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ipCwmsxc.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030903088141.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903088141.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                 | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | ipCwmsxc  | KCA-030903088141      | Alborada del gracioso | [external URL](j3tnVzW5) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                 | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | ipCwmsxc  | KCA-030903088141      | Alborada del gracioso | [external URL](https://anet.be/record/opacdkvc/c:lvd:6734639/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -91,10 +95,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/ipCwmsxc.html" height="800" width="1200" title="ipCwmsxc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ipCwmsxc" height="800" width="1200" title="ipCwmsxc"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/ipCwmsxc.html" height="800" width="1200" title="ipCwmsxc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/ipCwmsxc" height="800" width="1200" title="ipCwmsxc"></iframe>

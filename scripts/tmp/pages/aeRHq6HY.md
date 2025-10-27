@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aeRHq6HY
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                                                         | aliases      | Wikidata QID                                            |
-    | :-------: | :---------: | :-------------------------------------------------------------------------------------------------: | :----------: | :-----------------------------------------------------: |
-    | aeRHq6HY  | voice actor | person who provides voice-overs for a character in films, animation, video games, or in other media | voice artist | [voice actor](http://wwww.wikidata.org/entity/Q2405480) |
+    | FAAM UUID | label       | description                                                                                         | aliases      | Wikidata QID                                       |
+    | :-------: | :---------: | :-------------------------------------------------------------------------------------------------: | :----------: | :------------------------------------------------: |
+    | aeRHq6HY  | voice actor | person who provides voice-overs for a character in films, animation, video games, or in other media | voice artist | [voice actor](http://wikidata.org/entity/Q2405480) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/aeRHq6HY.html" height="800" width="1200" title="aeRHq6HY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aeRHq6HY" height="800" width="1200" title="aeRHq6HY"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QimxbfF6
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                           | description               | aliases                           | Wikidata QID                                                                               |
-    | :-------: | :---------------------------------------------: | :-----------------------: | :-------------------------------: | :----------------------------------------------------------------------------------------: |
-    | QimxbfF6  | École Normale de Musique de Paris Alfred Cortot | French music conservatory | École Normale de Musique de Paris | [École Normale de Musique de Paris Alfred Cortot](http://wwww.wikidata.org/entity/Q273482) |
+    | FAAM UUID | label                                           | description               | aliases                           | Wikidata QID                                                                          |
+    | :-------: | :---------------------------------------------: | :-----------------------: | :-------------------------------: | :-----------------------------------------------------------------------------------: |
+    | QimxbfF6  | École Normale de Musique de Paris Alfred Cortot | French music conservatory | École Normale de Musique de Paris | [École Normale de Musique de Paris Alfred Cortot](http://wikidata.org/entity/Q273482) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./4vRY7nEc.md)
+	[17th arrondissement of Paris](./4vRY7nEc.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/QimxbfF6.html" height="800" width="1200" title="QimxbfF6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QimxbfF6" height="800" width="1200" title="QimxbfF6"></iframe>
 
 ## Cross-references
 
@@ -63,7 +67,7 @@ tags: music_organization
 
 -	__[Wanda Landowska](./ANygk75M.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
 
 	(1879-1959) Polish-French harpsichordist
 

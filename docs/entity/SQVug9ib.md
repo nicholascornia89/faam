@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SQVug9ib
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991062688259707356/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/SQVug9ib.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/SQVug9ib.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/SQVug9ib.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991062688259707356/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/SQVug9ib.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/SQVug9ib.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/SQVug9ib.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991062688259707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991062688259707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                                                                                                                                                                                                                                          | permalink                | provenance                              |
-    | :-------: | :--------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | SQVug9ib  | BSB-991062688259707356 | Musica divina: sive thesaurus concentuum selectissimorum omni cultui divino totius anni juxta ritum sanctae ecclesiae catholicae inservientium: ab excellentissimis superioris aevi musicis numeris harmonicis compositorum. 2,3: Liber motettorum, Sectio III | [external URL](8N6k5W5i) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                                                                                                                                                                                                                                          | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | SQVug9ib  | BSB-991062688259707356 | Musica divina: sive thesaurus concentuum selectissimorum omni cultui divino totius anni juxta ritum sanctae ecclesiae catholicae inservientium: ab excellentissimis superioris aevi musicis numeris harmonicis compositorum. 2,3: Liber motettorum, Sectio III | [external URL](https://mdz-nbn-resolving.de/details:bsb11309928) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -123,10 +127,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/SQVug9ib.html" height="800" width="1200" title="SQVug9ib"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SQVug9ib" height="800" width="1200" title="SQVug9ib"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/SQVug9ib.html" height="800" width="1200" title="SQVug9ib"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/SQVug9ib" height="800" width="1200" title="SQVug9ib"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eEBUzcNC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                 | aliases | Wikidata QID                                          |
-    | :-------: | :------: | :-------------------------: | :-----: | :---------------------------------------------------: |
-    | eEBUzcNC  | Richmond | city in Victoria, Australia |         | [Richmond](http://wwww.wikidata.org/entity/Q98036053) |
+    | FAAM UUID | label    | description                 | aliases | Wikidata QID                                     |
+    | :-------: | :------: | :-------------------------: | :-----: | :----------------------------------------------: |
+    | eEBUzcNC  | Richmond | city in Victoria, Australia |         | [Richmond](http://wikidata.org/entity/Q98036053) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/eEBUzcNC.html" height="800" width="1200" title="eEBUzcNC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eEBUzcNC" height="800" width="1200" title="eEBUzcNC"></iframe>
 
 ## Identifiers
 

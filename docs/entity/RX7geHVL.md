@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RX7geHVL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RX7geHVL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RX7geHVL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RX7geHVL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RX7geHVL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RX7geHVL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RX7geHVL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giuseppe_Martucci_(1856).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description                  | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----: | :--------------------------: | :----------------------------------------------------------: |
-    | RX7geHVL  | Giuseppe Martucci |         | Italian musician (1856-1909) | [Giuseppe Martucci](http://wwww.wikidata.org/entity/Q769966) |
+    | FAAM UUID | label             | aliases | description                  | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----: | :--------------------------: | :-----------------------------------------------------: |
+    | RX7geHVL  | Giuseppe Martucci |         | Italian musician (1856-1909) | [Giuseppe Martucci](http://wikidata.org/entity/Q769966) |
 
 <br><br><br>
 
@@ -57,13 +61,13 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./GNcY5wsD.md)
+	- [San Pietro a Majella Conservatory of Music](./GNcY5wsD.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/RX7geHVL.html" height="800" width="1200" title="RX7geHVL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RX7geHVL" height="800" width="1200" title="RX7geHVL"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Ottorino Respighi](./Y32iiyWF.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ottorino_Respighi,_1927_(cropped).jpg){align=left width="150" height="150"} 
+
+	Italian composer, musicologist and conductor
+
+</div>

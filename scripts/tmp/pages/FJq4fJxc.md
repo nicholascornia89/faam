@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FJq4fJxc
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                  | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :--------------------------: | :-----: | :----------------------------------------------: |
-    | FJq4fJxc  | Namur | capital of Wallonia, Belgium | Namen   | [Namur](http://wwww.wikidata.org/entity/Q134121) |
+    | FAAM UUID | label | description                  | aliases | Wikidata QID                                |
+    | :-------: | :---: | :--------------------------: | :-----: | :-----------------------------------------: |
+    | FJq4fJxc  | Namur | capital of Wallonia, Belgium | Namen   | [Namur](http://wikidata.org/entity/Q134121) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/FJq4fJxc.html" height="800" width="1200" title="FJq4fJxc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FJq4fJxc" height="800" width="1200" title="FJq4fJxc"></iframe>
 
 ## Identifiers
 

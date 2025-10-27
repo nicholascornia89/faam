@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eYzmzjpc
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                           | aliases | Wikidata QID                                             |
-    | :-------: | :---------: | :---------------------------------------------------: | :-----: | :------------------------------------------------------: |
-    | eYzmzjpc  | chansonnier | type of poet songwriter, in France and Quebec, Canada |         | [chansonnier](http://wwww.wikidata.org/entity/Q13391399) |
+    | FAAM UUID | label       | description                                           | aliases | Wikidata QID                                        |
+    | :-------: | :---------: | :---------------------------------------------------: | :-----: | :-------------------------------------------------: |
+    | eYzmzjpc  | chansonnier | type of poet songwriter, in France and Quebec, Canada |         | [chansonnier](http://wikidata.org/entity/Q13391399) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/eYzmzjpc.html" height="800" width="1200" title="eYzmzjpc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eYzmzjpc" height="800" width="1200" title="eYzmzjpc"></iframe>
 
 ## Cross-references
 

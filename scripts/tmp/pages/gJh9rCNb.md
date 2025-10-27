@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gJh9rCNb
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                       | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :-------------------------------: | :-----: | :------------------------------------------------: |
-    | gJh9rCNb  | Chessy | commune in Seine-et-Marne, France |         | [Chessy](http://wwww.wikidata.org/entity/Q1076338) |
+    | FAAM UUID | label  | description                       | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :-------------------------------: | :-----: | :-------------------------------------------: |
+    | gJh9rCNb  | Chessy | commune in Seine-et-Marne, France |         | [Chessy](http://wikidata.org/entity/Q1076338) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gJh9rCNb.html" height="800" width="1200" title="gJh9rCNb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gJh9rCNb" height="800" width="1200" title="gJh9rCNb"></iframe>
 
 ## Identifiers
 

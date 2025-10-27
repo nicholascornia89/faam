@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BvLEtZDk
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                      | description                  | aliases | Wikidata QID                                                                                            |
-    | :-------: | :--------------------------------------------------------: | :--------------------------: | :-----: | :-----------------------------------------------------------------------------------------------------: |
-    | BvLEtZDk  | sets of open flutes with internal duct without fingerholes | class of musical instruments |         | [sets of open flutes with internal duct without fingerholes](http://wwww.wikidata.org/entity/Q55738684) |
+    | FAAM UUID | label                                                      | description                  | aliases | Wikidata QID                                                                                       |
+    | :-------: | :--------------------------------------------------------: | :--------------------------: | :-----: | :------------------------------------------------------------------------------------------------: |
+    | BvLEtZDk  | sets of open flutes with internal duct without fingerholes | class of musical instruments |         | [sets of open flutes with internal duct without fingerholes](http://wikidata.org/entity/Q55738684) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/BvLEtZDk.html" height="800" width="1200" title="BvLEtZDk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BvLEtZDk" height="800" width="1200" title="BvLEtZDk"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DzFR58ko
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DzFR58ko.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DzFR58ko.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DzFR58ko.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DzFR58ko.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DzFR58ko.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DzFR58ko.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                       | Wikidata QID                                               |
-    | :-------: | :----------: | :----------: | :-------------------------------: | :--------------------------------------------------------: |
-    | DzFR58ko  | Franz Görner | Franz Görner | German pianist and music arranger | [Franz Görner](http://wwww.wikidata.org/entity/Q126902744) |
+    | FAAM UUID | label        | aliases      | description                       | Wikidata QID                                          |
+    | :-------: | :----------: | :----------: | :-------------------------------: | :---------------------------------------------------: |
+    | DzFR58ko  | Franz Görner | Franz Görner | German pianist and music arranger | [Franz Görner](http://wikidata.org/entity/Q126902744) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/DzFR58ko.html" height="800" width="1200" title="DzFR58ko"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DzFR58ko" height="800" width="1200" title="DzFR58ko"></iframe>
 
 ## Identifiers
 

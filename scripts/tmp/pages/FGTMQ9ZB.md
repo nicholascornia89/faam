@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FGTMQ9ZB
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901604147/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FGTMQ9ZB.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FGTMQ9ZB.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FGTMQ9ZB.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901604147/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FGTMQ9ZB.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FGTMQ9ZB.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FGTMQ9ZB.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901604147.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901604147.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                   | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | FGTMQ9ZB  | KCA-030901604147      | Le billet de Marguerite | [external URL](2qoBxv5j) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                   | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :---------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | FGTMQ9ZB  | KCA-030901604147      | Le billet de Marguerite | [external URL](https://anet.be/record/opacdkvc/c:lvd:7012907/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -70,10 +74,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/FGTMQ9ZB.html" height="800" width="1200" title="FGTMQ9ZB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FGTMQ9ZB" height="800" width="1200" title="FGTMQ9ZB"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/FGTMQ9ZB.html" height="800" width="1200" title="FGTMQ9ZB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/FGTMQ9ZB" height="800" width="1200" title="FGTMQ9ZB"></iframe>

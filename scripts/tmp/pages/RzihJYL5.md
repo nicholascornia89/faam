@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RzihJYL5
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                               | aliases       | Wikidata QID                                             |
-    | :-------: | :------------: | :-----------------------------------------------------------------------: | :-----------: | :------------------------------------------------------: |
-    | RzihJYL5  | Ottoman Empire | multiethnic empire with the monarchs from the Ottoman dynasty (1299–1922) | Ottoman State | [Ottoman Empire](http://wwww.wikidata.org/entity/Q12560) |
+    | FAAM UUID | label          | description                                                               | aliases       | Wikidata QID                                        |
+    | :-------: | :------------: | :-----------------------------------------------------------------------: | :-----------: | :-------------------------------------------------: |
+    | RzihJYL5  | Ottoman Empire | multiethnic empire with the monarchs from the Ottoman dynasty (1299–1922) | Ottoman State | [Ottoman Empire](http://wikidata.org/entity/Q12560) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/RzihJYL5.html" height="800" width="1200" title="RzihJYL5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RzihJYL5" height="800" width="1200" title="RzihJYL5"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Maurice Abravanel](./MjskrVov.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Ottoman-American Jewish conductor
 

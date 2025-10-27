@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AfjP44UA
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description    | aliases                                  | Wikidata QID                                    |
-    | :-------: | :--------------------------: | :------------: | :--------------------------------------: | :---------------------------------------------: |
-    | AfjP44UA  | San Miniato lyceum-gymnasium | Italian school | Liceo ginnasio di San Miniato al Tedesco | [S](http://wwww.wikidata.org/entity/Q116455515) |
+    | FAAM UUID | label                        | description    | aliases                                  | Wikidata QID                               |
+    | :-------: | :--------------------------: | :------------: | :--------------------------------------: | :----------------------------------------: |
+    | AfjP44UA  | San Miniato lyceum-gymnasium | Italian school | Liceo ginnasio di San Miniato al Tedesco | [S](http://wikidata.org/entity/Q116455515) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/AfjP44UA.html" height="800" width="1200" title="AfjP44UA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AfjP44UA" height="800" width="1200" title="AfjP44UA"></iframe>
 
 ## Cross-references
 

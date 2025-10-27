@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jDhrg8SX
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description     | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :-------------: | :-----: | :----------------------------------------------: |
-    | jDhrg8SX  | Opava | city in Czechia |         | [Opava](http://wwww.wikidata.org/entity/Q156080) |
+    | FAAM UUID | label | description     | aliases | Wikidata QID                                |
+    | :-------: | :---: | :-------------: | :-----: | :-----------------------------------------: |
+    | jDhrg8SX  | Opava | city in Czechia |         | [Opava](http://wikidata.org/entity/Q156080) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jDhrg8SX.html" height="800" width="1200" title="jDhrg8SX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jDhrg8SX" height="800" width="1200" title="jDhrg8SX"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Maximilian Eschig](./6zMfY2ZT.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech-born French music publisher (1872-1927)
 

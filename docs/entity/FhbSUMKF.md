@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FhbSUMKF
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description | aliases | Wikidata QID                         |
-    | :-------: | :-------: | :---------: | :-----: | :----------------------------------: |
-    | FhbSUMKF  | passaggio |             |         | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label     | description | aliases | Wikidata QID                    |
+    | :-------: | :-------: | :---------: | :-----: | :-----------------------------: |
+    | FhbSUMKF  | passaggio |             |         | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/FhbSUMKF.html" height="800" width="1200" title="FhbSUMKF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FhbSUMKF" height="800" width="1200" title="FhbSUMKF"></iframe>
 
 ## Cross-references
 

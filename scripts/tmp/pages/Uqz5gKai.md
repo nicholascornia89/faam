@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Uqz5gKai
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description               | aliases    | Wikidata QID                                        |
-    | :-------: | :--------: | :-----------------------: | :--------: | :-------------------------------------------------: |
-    | Uqz5gKai  | Port Louis | capital city of Mauritius | Port-Louis | [Port Louis](http://wwww.wikidata.org/entity/Q3929) |
+    | FAAM UUID | label      | description               | aliases    | Wikidata QID                                   |
+    | :-------: | :--------: | :-----------------------: | :--------: | :--------------------------------------------: |
+    | Uqz5gKai  | Port Louis | capital city of Mauritius | Port-Louis | [Port Louis](http://wikidata.org/entity/Q3929) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Mauritius](http://www.wikidata.org/entity/Q1027)
+	- [Mauritius](Q1027)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Uqz5gKai.html" height="800" width="1200" title="Uqz5gKai"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Uqz5gKai" height="800" width="1200" title="Uqz5gKai"></iframe>
 
 ## Identifiers
 

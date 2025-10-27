@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PgtvMA6t
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PgtvMA6t.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PgtvMA6t.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PgtvMA6t.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PgtvMA6t.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PgtvMA6t.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PgtvMA6t.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Joachim.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                                            | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :----------------------------------------------------: | :-------------------------------------------------------: |
-    | PgtvMA6t  | Joseph Joachim | József Joachim | Hungarian violinist, composer, and teacher (1831–1907) | [Joseph Joachim](http://wwww.wikidata.org/entity/Q159976) |
+    | FAAM UUID | label          | aliases        | description                                            | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :----------------------------------------------------: | :--------------------------------------------------: |
+    | PgtvMA6t  | Joseph Joachim | József Joachim | Hungarian violinist, composer, and teacher (1831–1907) | [Joseph Joachim](http://wikidata.org/entity/Q159976) |
 
 <br><br><br>
 
@@ -73,13 +77,13 @@ tags: agent
 
 	- [Berlin University of the Arts](./KCuuJYaL.md)
 
-	- [](./BWLbwuDF.md)
+	- [Leipzig Gewandhaus Orchestra](./BWLbwuDF.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/PgtvMA6t.html" height="800" width="1200" title="PgtvMA6t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PgtvMA6t" height="800" width="1200" title="PgtvMA6t"></iframe>
 
 ## Identifiers
 
@@ -100,3 +104,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Andreas Moser](./chVHcWVu.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	German violinist and musicologist (1859-1925)
+
+</div>

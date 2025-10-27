@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3PbKbx4o
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :-----------------------------: | :-----: | :--------------------------------------------------: |
-    | 3PbKbx4o  | Ontinyent | municipality in Valencia, Spain |         | [Ontinyent](http://wwww.wikidata.org/entity/Q973641) |
+    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :-----------------------------: | :-----: | :---------------------------------------------: |
+    | 3PbKbx4o  | Ontinyent | municipality in Valencia, Spain |         | [Ontinyent](http://wikidata.org/entity/Q973641) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3PbKbx4o.html" height="800" width="1200" title="3PbKbx4o"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3PbKbx4o" height="800" width="1200" title="3PbKbx4o"></iframe>
 
 ## Identifiers
 

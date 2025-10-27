@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MDf8Dzi3
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description | aliases | Wikidata QID                         |
-    | :-------: | :-----------------------: | :---------: | :-----: | :----------------------------------: |
-    | MDf8Dzi3  | instrument reconstruction |             |         | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                     | description | aliases | Wikidata QID                    |
+    | :-------: | :-----------------------: | :---------: | :-----: | :-----------------------------: |
+    | MDf8Dzi3  | instrument reconstruction |             |         | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/MDf8Dzi3.html" height="800" width="1200" title="MDf8Dzi3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MDf8Dzi3" height="800" width="1200" title="MDf8Dzi3"></iframe>
 
 ## Cross-references
 
@@ -61,7 +65,7 @@ tags: annotation_type
 
 -	__[Finale Allegro Vivace del V Quartetto](./HDvLLFdX.md)__
 
-	![Image](../assets/images/thumbs/CBM-TORRMsA83.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA83.gif){align=left width="150" height="150"} 
 
 	
 

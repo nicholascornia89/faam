@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RQxYCFy5
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                                          | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :----------------------------------------------------------------------------------: | :-----: | :--------------------------------------------------: |
-    | RQxYCFy5  | Kamenice | small town (městys) in Jihlava District in the Vysočina Region of the Czech Republic |         | [Kamenice](http://wwww.wikidata.org/entity/Q2154120) |
+    | FAAM UUID | label    | description                                                                          | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :----------------------------------------------------------------------------------: | :-----: | :---------------------------------------------: |
+    | RQxYCFy5  | Kamenice | small town (městys) in Jihlava District in the Vysočina Region of the Czech Republic |         | [Kamenice](http://wikidata.org/entity/Q2154120) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/RQxYCFy5.html" height="800" width="1200" title="RQxYCFy5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RQxYCFy5" height="800" width="1200" title="RQxYCFy5"></iframe>
 
 ## Identifiers
 

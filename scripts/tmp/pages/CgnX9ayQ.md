@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CgnX9ayQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description    | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :------------: | :-----: | :-----------------------------------------------: |
-    | CgnX9ayQ  | Tivoli | Italian comune |         | [Tivoli](http://wwww.wikidata.org/entity/Q159605) |
+    | FAAM UUID | label  | description    | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :------------: | :-----: | :------------------------------------------: |
+    | CgnX9ayQ  | Tivoli | Italian comune |         | [Tivoli](http://wikidata.org/entity/Q159605) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CgnX9ayQ.html" height="800" width="1200" title="CgnX9ayQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CgnX9ayQ" height="800" width="1200" title="CgnX9ayQ"></iframe>
 
 ## Identifiers
 

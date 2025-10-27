@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PtG6ZcsQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PtG6ZcsQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PtG6ZcsQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PtG6ZcsQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PtG6ZcsQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PtG6ZcsQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PtG6ZcsQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                  | description     | Wikidata QID                                                   |
-    | :-------: | :---------------: | :----------------------: | :-------------: | :------------------------------------------------------------: |
-    | PtG6ZcsQ  | Antonin Aulagnier | Antonin Joseph Aulagnier | French composer | [Antonin Aulagnier](http://wwww.wikidata.org/entity/Q55836745) |
+    | FAAM UUID | label             | aliases                  | description     | Wikidata QID                                              |
+    | :-------: | :---------------: | :----------------------: | :-------------: | :-------------------------------------------------------: |
+    | PtG6ZcsQ  | Antonin Aulagnier | Antonin Joseph Aulagnier | French composer | [Antonin Aulagnier](http://wikidata.org/entity/Q55836745) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/PtG6ZcsQ.html" height="800" width="1200" title="PtG6ZcsQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PtG6ZcsQ" height="800" width="1200" title="PtG6ZcsQ"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: agent
 
 -	__[Nelly](./3ykY6Rfk.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p48.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p48.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hbk7HPJh
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hbk7HPJh.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hbk7HPJh.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hbk7HPJh.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hbk7HPJh.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hbk7HPJh.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hbk7HPJh.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Thomas_Augustine_Arne.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases              | description                   | Wikidata QID                                           |
-    | :-------: | :---------: | :------------------: | :---------------------------: | :----------------------------------------------------: |
-    | hbk7HPJh  | Thomas Arne | Thomas Augustus Arne | 18th-century British composer | [Thomas Arne](http://wwww.wikidata.org/entity/Q309709) |
+    | FAAM UUID | label       | aliases              | description                   | Wikidata QID                                      |
+    | :-------: | :---------: | :------------------: | :---------------------------: | :-----------------------------------------------: |
+    | hbk7HPJh  | Thomas Arne | Thomas Augustus Arne | 18th-century British composer | [Thomas Arne](http://wikidata.org/entity/Q309709) |
 
 <br><br><br>
 
@@ -53,17 +57,17 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./F6jyWvcL.md)
+	- [actor](./F6jyWvcL.md)
 
 ??? quote "educated at" 
 
-	- [](./WKxPpNMG.md)
+	- [Eton College](./WKxPpNMG.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/hbk7HPJh.html" height="800" width="1200" title="hbk7HPJh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hbk7HPJh" height="800" width="1200" title="hbk7HPJh"></iframe>
 
 ## Identifiers
 
@@ -89,7 +93,7 @@ tags: agent
 
 -	__[Old English composers for the virginals & harpsichord : a collection of preludes, galliards, pavanes, grounds, chaconnes, suites, overtures, sonatas, etc. selected from the works of / William Byrde, John Bull, Orlando Gibbons, John Blow, Henry Purcell and Thomas Augustine Arne ; revised & edited by E. Pauer ; with biographical notices by W. A. Barrett.](./FEppMQbX.md)__
 
-	![Image](../assets/images/thumbs/SML-18937.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18937.gif){align=left width="150" height="150"} 
 
 	
 

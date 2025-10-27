@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cmAu863q
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                 | aliases | Wikidata QID                                             |
-    | :-------: | :---------: | :-------------------------: | :-----: | :------------------------------------------------------: |
-    | cmAu863q  | Deutenkofen | human settlement in Germany |         | [Deutenkofen](http://wwww.wikidata.org/entity/Q15805356) |
+    | FAAM UUID | label       | description                 | aliases | Wikidata QID                                        |
+    | :-------: | :---------: | :-------------------------: | :-----: | :-------------------------------------------------: |
+    | cmAu863q  | Deutenkofen | human settlement in Germany |         | [Deutenkofen](http://wikidata.org/entity/Q15805356) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cmAu863q.html" height="800" width="1200" title="cmAu863q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cmAu863q" height="800" width="1200" title="cmAu863q"></iframe>
 
 ## Identifiers
 

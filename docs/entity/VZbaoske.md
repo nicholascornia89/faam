@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VZbaoske
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/VZbaoske.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/VZbaoske.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/VZbaoske.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/VZbaoske.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/VZbaoske.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/VZbaoske.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Omer_Létourneau.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                   | Wikidata QID                                                |
-    | :-------: | :-------------: | :-------------: | :---------------------------: | :---------------------------------------------------------: |
-    | VZbaoske  | Omer Létourneau | Omer Letourneau | Canadian musician (1891-1983) | [Omer Létourneau](http://wwww.wikidata.org/entity/Q2023310) |
+    | FAAM UUID | label           | aliases         | description                   | Wikidata QID                                           |
+    | :-------: | :-------------: | :-------------: | :---------------------------: | :----------------------------------------------------: |
+    | VZbaoske  | Omer Létourneau | Omer Letourneau | Canadian musician (1891-1983) | [Omer Létourneau](http://wikidata.org/entity/Q2023310) |
 
 <br><br><br>
 
@@ -61,13 +65,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./LQirCjAD.md)
+	- [Laval University](./LQirCjAD.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/VZbaoske.html" height="800" width="1200" title="VZbaoske"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VZbaoske" height="800" width="1200" title="VZbaoske"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Amédée Gastoué](./5rZmZPuR.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French composer and musicologist (1873–1943)
+
+</div>

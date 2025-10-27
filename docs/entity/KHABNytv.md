@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KHABNytv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KHABNytv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KHABNytv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KHABNytv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KHABNytv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KHABNytv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KHABNytv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cernohorsky.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | aliases                    | description                                                                    | Wikidata QID                                                          |
-    | :-------: | :------------------------: | :------------------------: | :----------------------------------------------------------------------------: | :-------------------------------------------------------------------: |
-    | KHABNytv  | Bohuslav Matěj Černohorský | Bohuslav Matej Cernohorsky | Czech music educator, composer, organist and Roman Catholic priest (1684-1742) | [Bohuslav Matěj Černohorský](http://wwww.wikidata.org/entity/Q890972) |
+    | FAAM UUID | label                      | aliases                    | description                                                                    | Wikidata QID                                                     |
+    | :-------: | :------------------------: | :------------------------: | :----------------------------------------------------------------------------: | :--------------------------------------------------------------: |
+    | KHABNytv  | Bohuslav Matěj Černohorský | Bohuslav Matej Cernohorsky | Czech music educator, composer, organist and Roman Catholic priest (1684-1742) | [Bohuslav Matěj Černohorský](http://wikidata.org/entity/Q890972) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [Catholic priest](./eUa7qYMN.md)
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KHABNytv.html" height="800" width="1200" title="KHABNytv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KHABNytv" height="800" width="1200" title="KHABNytv"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giuseppe Tartini](./icZbBdJS.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giuseppe_Tartini_(Tartini_House).jpg){align=left width="150" height="150"} 
+
+	Italian composer and violinist (1692-1770)
+
+</div>

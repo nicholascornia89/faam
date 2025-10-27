@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fsb4VmMa
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fsb4VmMa.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fsb4VmMa.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fsb4VmMa.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fsb4VmMa.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fsb4VmMa.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fsb4VmMa.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Georg_Albrechtsberger.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | aliases                       | description                                    | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :---------------------------: | :--------------------------------------------: | :---------------------------------------------------------------------: |
-    | fsb4VmMa  | Johann Georg Albrechtsberger | Johann George Albrechtsberger | Austrian music educator, composer and organist | [Johann Georg Albrechtsberger](http://wwww.wikidata.org/entity/Q314164) |
+    | FAAM UUID | label                        | aliases                       | description                                    | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :---------------------------: | :--------------------------------------------: | :----------------------------------------------------------------: |
+    | fsb4VmMa  | Johann Georg Albrechtsberger | Johann George Albrechtsberger | Austrian music educator, composer and organist | [Johann Georg Albrechtsberger](http://wikidata.org/entity/Q314164) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [musician](./bX2aWAhB.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [music theorist](./HkbL2euD.md)
 
@@ -63,13 +67,13 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./BhNduccY.md)
+	- [Stiftsgymnasium Melk](./BhNduccY.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/fsb4VmMa.html" height="800" width="1200" title="fsb4VmMa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fsb4VmMa" height="800" width="1200" title="fsb4VmMa"></iframe>
 
 ## Identifiers
 
@@ -90,3 +94,55 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Ignaz Moscheles](./WmRXBH5x.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ignaz_Moscheles.jpg){align=left width="150" height="150"} 
+
+	Bohemian conductor, music educator, composer and pianist (1794–1870)
+
+-	__[Anton Reicha](./SgJFWhdM.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg){align=left width="150" height="150"} 
+
+	Czech-born French composer
+
+-	__[Johann Nepomuk Hummel](./5MMa69Kf.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/JNHummel_2.jpg){align=left width="150" height="150"} 
+
+	Austrian composer and pianist
+
+-	__[Friedrich Kalkbrenner](./FGEPRAzo.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Kalkbrenner_1829.jpg){align=left width="150" height="150"} 
+
+	German-born French pianist, composer, piano teacher and piano manufacturer (1784-1849)
+
+-	__[Ludwig van Beethoven](./TZfafBBe.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Beethoven.jpg){align=left width="150" height="150"} 
+
+	German composer (1770–1827)
+
+-	__[Johann Peter Pixis](./fPqfRdZW.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August_Kneisel_nach_Cäcilie_Brand_-_Johann_Peter_Pixis_(Lithographie).jpg){align=left width="150" height="150"} 
+
+	German pianist and composer
+
+-	__[John Field](./Dp6ZykXE.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/John_field.jpg){align=left width="150" height="150"} 
+
+	Irish pianist, composer, and teacher
+
+-	__[Ignaz von Seyfried](./oX8hC5bT.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Seyfried.jpg){align=left width="150" height="150"} 
+
+	Austrian musician (1776–1841)
+
+</div>

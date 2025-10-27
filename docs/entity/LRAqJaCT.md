@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LRAqJaCT
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LRAqJaCT.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LRAqJaCT.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LRAqJaCT.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LRAqJaCT.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LRAqJaCT.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LRAqJaCT.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Otto_Dessoff.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases | description                               | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----: | :---------------------------------------: | :-----------------------------------------------------------: |
-    | LRAqJaCT  | Felix Otto Dessoff |         | German conductor and composer (1835-1892) | [Felix Otto Dessoff](http://wwww.wikidata.org/entity/Q569463) |
+    | FAAM UUID | label              | aliases | description                               | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----: | :---------------------------------------: | :------------------------------------------------------: |
+    | LRAqJaCT  | Felix Otto Dessoff |         | German conductor and composer (1835-1892) | [Felix Otto Dessoff](http://wikidata.org/entity/Q569463) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/LRAqJaCT.html" height="800" width="1200" title="LRAqJaCT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LRAqJaCT" height="800" width="1200" title="LRAqJaCT"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Felix Mottl](./ftRRiWWs.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felix_Mottl.jpg){align=left width="150" height="150"} 
+
+	Austrian conductor and composer (1856-1911)
+
+</div>

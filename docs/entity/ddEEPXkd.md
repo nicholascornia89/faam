@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ddEEPXkd
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                             | aliases                 | Wikidata QID                                              |
-    | :-------: | :------------: | :-------------------------------------: | :---------------------: | :-------------------------------------------------------: |
-    | ddEEPXkd  | string quartet | musical ensemble of four string players | string quartet ensemble | [string quartet](http://wwww.wikidata.org/entity/Q207338) |
+    | FAAM UUID | label          | description                             | aliases                 | Wikidata QID                                         |
+    | :-------: | :------------: | :-------------------------------------: | :---------------------: | :--------------------------------------------------: |
+    | ddEEPXkd  | string quartet | musical ensemble of four string players | string quartet ensemble | [string quartet](http://wikidata.org/entity/Q207338) |
 
 <br><br><br>
 
@@ -31,19 +35,19 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./NyLetkYE.md)
+	- [quartet](./NyLetkYE.md)
 
-	- [](./Uem7GaPm.md)
+	- [instrumental ensemble](./Uem7GaPm.md)
 
 !!! quote "instance of" 
 
-	- [](./EXxiFmBU.md)
+	- [type of musical group](./EXxiFmBU.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ddEEPXkd.html" height="800" width="1200" title="ddEEPXkd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ddEEPXkd" height="800" width="1200" title="ddEEPXkd"></iframe>
 
 ## Cross-references
 

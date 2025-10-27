@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fmnf9yk9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description   | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------: | :-----: | :------------------------------------------------: |
-    | fmnf9yk9  | Senglea | city in Malta | L-Isla  | [Senglea](http://wwww.wikidata.org/entity/Q846593) |
+    | FAAM UUID | label   | description   | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------: | :-----: | :-------------------------------------------: |
+    | fmnf9yk9  | Senglea | city in Malta | L-Isla  | [Senglea](http://wikidata.org/entity/Q846593) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fmnf9yk9.html" height="800" width="1200" title="fmnf9yk9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fmnf9yk9" height="800" width="1200" title="fmnf9yk9"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Michelangelo Vella](./85Zxus9X.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Maltese composer and organist (1710-1792)
 

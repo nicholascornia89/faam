@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CyAhNHDj
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-SD109991/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/CyAhNHDj.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/CyAhNHDj.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/CyAhNHDj.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-SD109991/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/CyAhNHDj.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/CyAhNHDj.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/CyAhNHDj.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-SD109991.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-SD109991.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | CyAhNHDj  | KCA-SD109991          | Grand duo brillant op.20: pour violon et violoncelle | [external URL](kxAqh9HR) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | CyAhNHDj  | KCA-SD109991          | Grand duo brillant op.20: pour violon et violoncelle | [external URL](https://anet.be/record/opacdkvc/c:lvd:6766150/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -91,10 +95,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/CyAhNHDj.html" height="800" width="1200" title="CyAhNHDj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CyAhNHDj" height="800" width="1200" title="CyAhNHDj"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/CyAhNHDj.html" height="800" width="1200" title="CyAhNHDj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/CyAhNHDj" height="800" width="1200" title="CyAhNHDj"></iframe>

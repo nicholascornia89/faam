@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jrkRKbbu
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                 | aliases    | Wikidata QID                                           |
-    | :-------: | :--------: | :-------------------------: | :--------: | :----------------------------------------------------: |
-    | jrkRKbbu  | canzonetta | Italian musical composition | canzonette | [canzonetta](http://wwww.wikidata.org/entity/Q1034045) |
+    | FAAM UUID | label      | description                 | aliases    | Wikidata QID                                      |
+    | :-------: | :--------: | :-------------------------: | :--------: | :-----------------------------------------------: |
+    | jrkRKbbu  | canzonetta | Italian musical composition | canzonette | [canzonetta](http://wikidata.org/entity/Q1034045) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/jrkRKbbu.html" height="800" width="1200" title="jrkRKbbu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jrkRKbbu" height="800" width="1200" title="jrkRKbbu"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Douze melodies italiennes : pour la flûte, avec accompagnement de piano: divisées en trois suites](./JuAQYsFX.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334547.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334547.gif){align=left width="150" height="150"} 
 
 	
 

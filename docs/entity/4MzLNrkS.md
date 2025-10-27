@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4MzLNrkS
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                         | aliases                | Wikidata QID                                         |
-    | :-------: | :--------: | :-------------------------------------------------: | :--------------------: | :--------------------------------------------------: |
-    | 4MzLNrkS  | Menlo Park | city in San Mateo County, California, United States | Menlo Park, California | [Menlo Park](http://wwww.wikidata.org/entity/Q74195) |
+    | FAAM UUID | label      | description                                         | aliases                | Wikidata QID                                    |
+    | :-------: | :--------: | :-------------------------------------------------: | :--------------------: | :---------------------------------------------: |
+    | 4MzLNrkS  | Menlo Park | city in San Mateo County, California, United States | Menlo Park, California | [Menlo Park](http://wikidata.org/entity/Q74195) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4MzLNrkS.html" height="800" width="1200" title="4MzLNrkS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4MzLNrkS" height="800" width="1200" title="4MzLNrkS"></iframe>
 
 ## Identifiers
 

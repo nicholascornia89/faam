@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: neFktRRX
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                  | aliases                     | Wikidata QID                                                |
-    | :-------: | :-------------: | :------------------------------------------: | :-------------------------: | :---------------------------------------------------------: |
-    | neFktRRX  | Bruges seminary | seminary for priesthood candidates in Bruges | Séminaire diocésain, Bruges | [Bruges seminary](http://wwww.wikidata.org/entity/Q2479554) |
+    | FAAM UUID | label           | description                                  | aliases                     | Wikidata QID                                           |
+    | :-------: | :-------------: | :------------------------------------------: | :-------------------------: | :----------------------------------------------------: |
+    | neFktRRX  | Bruges seminary | seminary for priesthood candidates in Bruges | Séminaire diocésain, Bruges | [Bruges seminary](http://wikidata.org/entity/Q2479554) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/neFktRRX.html" height="800" width="1200" title="neFktRRX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/neFktRRX" height="800" width="1200" title="neFktRRX"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Pierre Joseph D'Hollander](./3HuQsR4z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	priest, theologian, professor and honorary canon (1804 - 1866)
 
@@ -69,7 +73,7 @@ tags: music_organization
 
 -	__[Pieter Benoit](./i6yQPw7F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian priest and teacher (1820-1892)
 

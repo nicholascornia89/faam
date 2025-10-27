@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WmRXBH5x", "label": "Ignaz Moscheles", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WmRXBH5x.md\u0027\u003eIgnaz Moscheles\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBohemian conductor, music educator, composer and pianist (1794\u20131870)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ignaz_Moscheles.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GSGDAzGy", "label": "Piano Concerto No.3, Op.58/Op.60", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GSGDAzGy.md\u0027\u003ePiano Concerto No.3, Op.58/Op.60\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "iHeydB2F", "label": "piano concerto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iHeydB2F.md\u0027\u003epiano concerto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition for piano and orchestra\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "X8NxipyB", "label": "concerto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./X8NxipyB.md\u0027\u003econcerto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition usually in three parts\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "CvefvpXm", "label": "5 Concertos : pour Le Piano. avec Acct. d\u0027Orchestre ad libitum : N\u00b0 3 : Piano seul", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CvefvpXm.md\u0027\u003e5 Concertos : pour Le Piano. avec Acct. d\u0027Orchestre ad libitum : N\u00b0 3 : Piano seul\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000359470.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "2kSojYWh", "label": "Drittes Concert : (in G moll) f\u00fcr Pianoforte und Orchester : Opus 58", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2kSojYWh.md\u0027\u003eDrittes Concert : (in G moll) f\u00fcr Pianoforte und Orchester : Opus 58\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000740541.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "WmRXBH5x", "to": "GSGDAzGy", "width": 10}, {"from": "GSGDAzGy", "to": "iHeydB2F", "width": 10}, {"from": "GSGDAzGy", "to": "X8NxipyB", "width": 10}, {"from": "GSGDAzGy", "to": "CvefvpXm", "width": 10}, {"from": "GSGDAzGy", "to": "2kSojYWh", "width": 10}, {"from": "CvefvpXm", "to": "X8NxipyB", "width": 10}, {"from": "CvefvpXm", "to": "iHeydB2F", "width": 10}, {"from": "iHeydB2F", "to": "2kSojYWh", "width": 10}, {"from": "X8NxipyB", "to": "2kSojYWh", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "X8NxipyB", "label": "concerto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/X8NxipyB\u0027\u003econcerto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition usually in three parts\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GSGDAzGy", "label": "Piano Concerto No.3, Op.58/Op.60", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GSGDAzGy\u0027\u003ePiano Concerto No.3, Op.58/Op.60\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ePiano concerto composed by Ignaz Mocheles\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "CvefvpXm", "label": "5 Concertos : pour Le Piano. avec Acct. d\u0027Orchestre ad libitum : N\u00b0 3 : Piano seul", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CvefvpXm\u0027\u003e5 Concertos : pour Le Piano. avec Acct. d\u0027Orchestre ad libitum : N\u00b0 3 : Piano seul\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000359470.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "2kSojYWh", "label": "Drittes Concert : (in G moll) f\u00fcr Pianoforte und Orchester : Opus 58", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2kSojYWh\u0027\u003eDrittes Concert : (in G moll) f\u00fcr Pianoforte und Orchester : Opus 58\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000740541.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WmRXBH5x", "label": "Ignaz Moscheles", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WmRXBH5x\u0027\u003eIgnaz Moscheles\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBohemian conductor, music educator, composer and pianist (1794\u20131870)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ignaz_Moscheles.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "iHeydB2F", "label": "piano concerto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iHeydB2F\u0027\u003epiano concerto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition for piano and orchestra\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "X8NxipyB", "to": "GSGDAzGy", "width": 10}, {"from": "X8NxipyB", "to": "CvefvpXm", "width": 10}, {"from": "X8NxipyB", "to": "2kSojYWh", "width": 10}, {"from": "WmRXBH5x", "to": "GSGDAzGy", "width": 10}, {"from": "GSGDAzGy", "to": "iHeydB2F", "width": 10}, {"from": "GSGDAzGy", "to": "CvefvpXm", "width": 10}, {"from": "GSGDAzGy", "to": "2kSojYWh", "width": 10}, {"from": "CvefvpXm", "to": "iHeydB2F", "width": 10}, {"from": "2kSojYWh", "to": "iHeydB2F", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

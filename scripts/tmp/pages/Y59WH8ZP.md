@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Y59WH8ZP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description    | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :------------: | :-----: | :------------------------------------------------: |
-    | Y59WH8ZP  | Kuldīga | city in Latvia |         | [Kuldīga](http://wwww.wikidata.org/entity/Q155281) |
+    | FAAM UUID | label   | description    | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :------------: | :-----: | :-------------------------------------------: |
+    | Y59WH8ZP  | Kuldīga | city in Latvia |         | [Kuldīga](http://wikidata.org/entity/Q155281) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Latvia](http://www.wikidata.org/entity/Q211)
+	- [Latvia](Q211)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Y59WH8ZP.html" height="800" width="1200" title="Y59WH8ZP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Y59WH8ZP" height="800" width="1200" title="Y59WH8ZP"></iframe>
 
 ## Identifiers
 

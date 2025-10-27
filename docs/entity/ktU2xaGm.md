@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ktU2xaGm
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                 | aliases    | Wikidata QID                                        |
-    | :-------: | :------: | :-------------------------: | :--------: | :-------------------------------------------------: |
-    | ktU2xaGm  | recorder | woodwind musical instrument | beak flute | [recorder](http://wwww.wikidata.org/entity/Q187851) |
+    | FAAM UUID | label    | description                 | aliases    | Wikidata QID                                   |
+    | :-------: | :------: | :-------------------------: | :--------: | :--------------------------------------------: |
+    | ktU2xaGm  | recorder | woodwind musical instrument | beak flute | [recorder](http://wikidata.org/entity/Q187851) |
 
 <br><br><br>
 
@@ -31,19 +35,19 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./kZcB8GoA.md)
+	- [open flutes with internal duct with fingerholes](./kZcB8GoA.md)
 
-	- [](./JNeZcW8F.md)
+	- [duct flute](./JNeZcW8F.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ktU2xaGm.html" height="800" width="1200" title="ktU2xaGm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ktU2xaGm" height="800" width="1200" title="ktU2xaGm"></iframe>
 
 ## Cross-references
 
@@ -65,7 +69,7 @@ tags: musical_instrument
 
 -	__[Michael Vetter](./GU5zzTXD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1943-2013)
 
@@ -77,7 +81,7 @@ tags: musical_instrument
 
 -	__[Carl Dolmetsch](./T4A7duD6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English recorder player (1911–1997)
 

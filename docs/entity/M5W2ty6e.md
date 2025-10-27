@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M5W2ty6e
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                     | aliases         | Wikidata QID                                             |
-    | :-------: | :-------------: | :-----------------------------: | :-------------: | :------------------------------------------------------: |
-    | M5W2ty6e  | Veliky Novgorod | city in Novgorod Oblast, Russia | Nowgorod-Weliki | [Veliky Novgorod](http://wwww.wikidata.org/entity/Q2235) |
+    | FAAM UUID | label           | description                     | aliases         | Wikidata QID                                        |
+    | :-------: | :-------------: | :-----------------------------: | :-------------: | :-------------------------------------------------: |
+    | M5W2ty6e  | Veliky Novgorod | city in Novgorod Oblast, Russia | Nowgorod-Weliki | [Veliky Novgorod](http://wikidata.org/entity/Q2235) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/M5W2ty6e.html" height="800" width="1200" title="M5W2ty6e"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M5W2ty6e" height="800" width="1200" title="M5W2ty6e"></iframe>
 
 ## Identifiers
 

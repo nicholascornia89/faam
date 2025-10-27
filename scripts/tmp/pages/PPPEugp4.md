@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PPPEugp4
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                          | description        | aliases                   | Wikidata QID                                                                               |
-    | :-------: | :--------------------------------------------: | :----------------: | :-----------------------: | :----------------------------------------------------------------------------------------: |
-    | PPPEugp4  | Hacettepe University Ankara State Conservatory | State conservatory | Ankara State Conservatory | [Hacettepe University Ankara State Conservatory](http://wwww.wikidata.org/entity/Q4386612) |
+    | FAAM UUID | label                                          | description        | aliases                   | Wikidata QID                                                                          |
+    | :-------: | :--------------------------------------------: | :----------------: | :-----------------------: | :-----------------------------------------------------------------------------------: |
+    | PPPEugp4  | Hacettepe University Ankara State Conservatory | State conservatory | Ankara State Conservatory | [Hacettepe University Ankara State Conservatory](http://wikidata.org/entity/Q4386612) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: music_organization
 
 !!! quote "country" 
 
-	[](./DZNwWJie.md)
+	[Turkey](./DZNwWJie.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/PPPEugp4.html" height="800" width="1200" title="PPPEugp4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PPPEugp4" height="800" width="1200" title="PPPEugp4"></iframe>
 
 ## Cross-references
 

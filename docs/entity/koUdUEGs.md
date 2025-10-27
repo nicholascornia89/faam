@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: koUdUEGs
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                       | aliases               | Wikidata QID                                              |
-    | :-------: | :------------: | :---------------------------------------------------------------: | :-------------------: | :-------------------------------------------------------: |
-    | koUdUEGs  | Fredericksburg | city in and county seat of Gillespie County, Texas, United States | Fredericksburg, Texas | [Fredericksburg](http://wwww.wikidata.org/entity/Q973923) |
+    | FAAM UUID | label          | description                                                       | aliases               | Wikidata QID                                         |
+    | :-------: | :------------: | :---------------------------------------------------------------: | :-------------------: | :--------------------------------------------------: |
+    | koUdUEGs  | Fredericksburg | city in and county seat of Gillespie County, Texas, United States | Fredericksburg, Texas | [Fredericksburg](http://wikidata.org/entity/Q973923) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/koUdUEGs.html" height="800" width="1200" title="koUdUEGs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/koUdUEGs" height="800" width="1200" title="koUdUEGs"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Frank Van der Stucken](./3EGSrwCz.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/af/FrankVanderStucken.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FrankVanderStucken.png){align=left width="150" height="150"} 
 
 	Flemish-American violinist, conductor, composer and festival director
 

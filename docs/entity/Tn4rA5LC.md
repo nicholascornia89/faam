@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Tn4rA5LC
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                            | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :------------------------------------: | :-----: | :---------------------------------------------: |
-    | Tn4rA5LC  | bar   | time unit in rhythmic musical notation | measure | [bar](http://wwww.wikidata.org/entity/Q3240892) |
+    | FAAM UUID | label | description                            | aliases | Wikidata QID                               |
+    | :-------: | :---: | :------------------------------------: | :-----: | :----------------------------------------: |
+    | Tn4rA5LC  | bar   | time unit in rhythmic musical notation | measure | [bar](http://wikidata.org/entity/Q3240892) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: annotation_type
 
 !!! quote "subclass of" 
 
-	- [](./M2g4cXkE.md)
+	- [time interval](./M2g4cXkE.md)
 
 !!! quote "instance of" 
 
@@ -47,7 +51,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/Tn4rA5LC.html" height="800" width="1200" title="Tn4rA5LC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Tn4rA5LC" height="800" width="1200" title="Tn4rA5LC"></iframe>
 
 ## Cross-references
 

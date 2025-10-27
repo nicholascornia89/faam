@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EsvrW4mK
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/UTL-978107756/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EsvrW4mK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EsvrW4mK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EsvrW4mK.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/UTL-978107756/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EsvrW4mK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EsvrW4mK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EsvrW4mK.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/UTL-978107756.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/UTL-978107756.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                      | permalink                | provenance                                       |
-    | :-------: | :-------------------: | :--------------------------------------------------------: | :----------------------: | :----------------------------------------------: |
-    | EsvrW4mK  | UTL-978107756         | The English madrigal school : a guide to its practical use | [external URL](mMrUGL4h) | [University of Toronto Libraries](./DwfPL64F.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                      | permalink                                                                                                          | provenance                                       |
+    | :-------: | :-------------------: | :--------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------------: |
+    | EsvrW4mK  | UTL-978107756         | The English madrigal school : a guide to its practical use | [external URL](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106383021406196) | [University of Toronto Libraries](./DwfPL64F.md) |
 
 ## Statements
 
@@ -72,10 +76,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/EsvrW4mK.html" height="800" width="1200" title="EsvrW4mK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EsvrW4mK" height="800" width="1200" title="EsvrW4mK"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/EsvrW4mK.html" height="800" width="1200" title="EsvrW4mK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/EsvrW4mK" height="800" width="1200" title="EsvrW4mK"></iframe>

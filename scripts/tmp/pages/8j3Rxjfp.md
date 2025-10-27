@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8j3Rxjfp
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8j3Rxjfp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8j3Rxjfp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8j3Rxjfp.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8j3Rxjfp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8j3Rxjfp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8j3Rxjfp.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description                   | Wikidata QID                                               |
-    | :-------: | :-------------: | :-----: | :---------------------------: | :--------------------------------------------------------: |
-    | 8j3Rxjfp  | Marco Uccellini |         | Italian musician and composer | [Marco Uccellini](http://wwww.wikidata.org/entity/Q713218) |
+    | FAAM UUID | label           | aliases | description                   | Wikidata QID                                          |
+    | :-------: | :-------------: | :-----: | :---------------------------: | :---------------------------------------------------: |
+    | 8j3Rxjfp  | Marco Uccellini |         | Italian musician and composer | [Marco Uccellini](http://wikidata.org/entity/Q713218) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8j3Rxjfp.html" height="800" width="1200" title="8j3Rxjfp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8j3Rxjfp" height="800" width="1200" title="8j3Rxjfp"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Maria Bononcini](./Vu2kcv7w.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Maria_Bononcini.jpg){align=left width="150" height="150"} 
+
+	Italian violinist and composer (1642-1678)
+
+</div>

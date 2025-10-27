@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JUuCMm3W
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JUuCMm3W.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JUuCMm3W.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JUuCMm3W.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JUuCMm3W.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JUuCMm3W.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JUuCMm3W.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases | description                   | Wikidata QID                                           |
-    | :-------: | :---------: | :-----: | :---------------------------: | :----------------------------------------------------: |
-    | JUuCMm3W  | Josef Dachs |         | Austrian musician (1825–1896) | [Josef Dachs](http://wwww.wikidata.org/entity/Q679496) |
+    | FAAM UUID | label       | aliases | description                   | Wikidata QID                                      |
+    | :-------: | :---------: | :-----: | :---------------------------: | :-----------------------------------------------: |
+    | JUuCMm3W  | Josef Dachs |         | Austrian musician (1825–1896) | [Josef Dachs](http://wikidata.org/entity/Q679496) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/JUuCMm3W.html" height="800" width="1200" title="JUuCMm3W"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JUuCMm3W" height="800" width="1200" title="JUuCMm3W"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Anton Rubinstein](./VjdWmWeW.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_Rubinstein_by_J_Ganz.png){align=left width="150" height="150"} 
+
+	Russian pianist, composer and conductor (1829–1894)
+
+</div>

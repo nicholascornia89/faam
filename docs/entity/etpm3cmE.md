@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: etpm3cmE
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description            | aliases                | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :--------------------: | :--------------------: | :----------------------------------------------------------------: |
-    | etpm3cmE  | Wells Cathedral School | school in Somerset, UK | Wells Cathedral School | [Wells Cathedral School](http://wwww.wikidata.org/entity/Q7981628) |
+    | FAAM UUID | label                  | description            | aliases                | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :--------------------: | :--------------------: | :-----------------------------------------------------------: |
+    | etpm3cmE  | Wells Cathedral School | school in Somerset, UK | Wells Cathedral School | [Wells Cathedral School](http://wikidata.org/entity/Q7981628) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./BYi7Lpof.md)
+	[Somerset](./BYi7Lpof.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/etpm3cmE.html" height="800" width="1200" title="etpm3cmE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/etpm3cmE" height="800" width="1200" title="etpm3cmE"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[James Turle](./2DP7oN7d.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English organist and composer (1802-1882)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YCA6PuiY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                      | aliases        | Wikidata QID                                        |
-    | :-------: | :----: | :------------------------------: | :------------: | :-------------------------------------------------: |
-    | YCA6PuiY  | Oxford | district in Oxfordshire, England | City of Oxford | [Oxford](http://wwww.wikidata.org/entity/Q20986484) |
+    | FAAM UUID | label  | description                      | aliases        | Wikidata QID                                   |
+    | :-------: | :----: | :------------------------------: | :------------: | :--------------------------------------------: |
+    | YCA6PuiY  | Oxford | district in Oxfordshire, England | City of Oxford | [Oxford](http://wikidata.org/entity/Q20986484) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YCA6PuiY.html" height="800" width="1200" title="YCA6PuiY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YCA6PuiY" height="800" width="1200" title="YCA6PuiY"></iframe>
 
 ## Identifiers
 

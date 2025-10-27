@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LRzYjepa
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description             | Wikidata QID                                                    |
-    | :-------: | :---------------: | :---------------: | :---------------------: | :-------------------------------------------------------------: |
-    | LRzYjepa  | Confirma hoc Deus | Confirma hoc Deus | motet by Orlande Lassus | [Confirma hoc Deus](http://wwww.wikidata.org/entity/Q124358714) |
+    | FAAM UUID | label             | aliases           | description             | Wikidata QID                                               |
+    | :-------: | :---------------: | :---------------: | :---------------------: | :--------------------------------------------------------: |
+    | LRzYjepa  | Confirma hoc Deus | Confirma hoc Deus | motet by Orlande Lassus | [Confirma hoc Deus](http://wikidata.org/entity/Q124358714) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/LRzYjepa.html" height="800" width="1200" title="LRzYjepa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LRzYjepa" height="800" width="1200" title="LRzYjepa"></iframe>
 
 ## Identifiers
 
@@ -63,13 +67,13 @@ tags: musical_work
 
 -	__[Liber motettorum. 3: Nr. XVII - XXIV](./dvhNVzZ2.md)__
 
-	![Image](../assets/images/thumbs/BSB-991099188989707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991099188989707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
 
 	
 

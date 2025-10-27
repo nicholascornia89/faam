@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YKgWfkbb
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                               | aliases | Wikidata QID                                   |
-    | :-------: | :----: | :---------------------------------------: | :-----: | :--------------------------------------------: |
-    | YKgWfkbb  | Lisbon | municipality and capital city of Portugal | Lisboa  | [Lisbon](http://wwww.wikidata.org/entity/Q597) |
+    | FAAM UUID | label  | description                               | aliases | Wikidata QID                              |
+    | :-------: | :----: | :---------------------------------------: | :-----: | :---------------------------------------: |
+    | YKgWfkbb  | Lisbon | municipality and capital city of Portugal | Lisboa  | [Lisbon](http://wikidata.org/entity/Q597) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YKgWfkbb.html" height="800" width="1200" title="YKgWfkbb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YKgWfkbb" height="800" width="1200" title="YKgWfkbb"></iframe>
 
 ## Identifiers
 

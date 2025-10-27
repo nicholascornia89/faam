@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eeLsSgs5
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                        | description                          | aliases | Wikidata QID                                                                             |
-    | :-------: | :------------------------------------------: | :----------------------------------: | :-----: | :--------------------------------------------------------------------------------------: |
-    | eeLsSgs5  | Russian Socialist Federative Soviet Republic | 1918–1922 sovereign state in Eurasia | RFSR    | [Russian Socialist Federative Soviet Republic](http://wwww.wikidata.org/entity/Q2305208) |
+    | FAAM UUID | label                                        | description                          | aliases | Wikidata QID                                                                        |
+    | :-------: | :------------------------------------------: | :----------------------------------: | :-----: | :---------------------------------------------------------------------------------: |
+    | eeLsSgs5  | Russian Socialist Federative Soviet Republic | 1918–1922 sovereign state in Eurasia | RFSR    | [Russian Socialist Federative Soviet Republic](http://wikidata.org/entity/Q2305208) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/eeLsSgs5.html" height="800" width="1200" title="eeLsSgs5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eeLsSgs5" height="800" width="1200" title="eeLsSgs5"></iframe>
 
 ## Identifiers
 

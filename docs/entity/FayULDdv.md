@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FayULDdv
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases | description | Wikidata QID                         |
-    | :-------: | :---------: | :-----: | :---------: | :----------------------------------: |
-    | FayULDdv  | O bone Jesu |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label       | aliases | description | Wikidata QID                    |
+    | :-------: | :---------: | :-----: | :---------: | :-----------------------------: |
+    | FayULDdv  | O bone Jesu |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/FayULDdv.html" height="800" width="1200" title="FayULDdv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FayULDdv" height="800" width="1200" title="FayULDdv"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Philippi de Monte. Motetum "O bone Jesu" tripartitum](./YpMGRYt3.md)__
 
-	![Image](../assets/images/thumbs/KCG-39.OP.OM.deMonte24.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-39.OP.OM.deMonte24.gif){align=left width="150" height="150"} 
 
 	
 

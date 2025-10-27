@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mAzE5Nf7
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                           | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :-----------------------------------: | :-----: | :--------------------------------------------------: |
-    | mAzE5Nf7  | Hodimont | human settlement in Verviers, Belgium |         | [Hodimont](http://wwww.wikidata.org/entity/Q2393518) |
+    | FAAM UUID | label    | description                           | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :-----------------------------------: | :-----: | :---------------------------------------------: |
+    | mAzE5Nf7  | Hodimont | human settlement in Verviers, Belgium |         | [Hodimont](http://wikidata.org/entity/Q2393518) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/mAzE5Nf7.html" height="800" width="1200" title="mAzE5Nf7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mAzE5Nf7" height="800" width="1200" title="mAzE5Nf7"></iframe>
 
 ## Identifiers
 

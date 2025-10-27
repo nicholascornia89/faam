@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dovA3X2G
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                                                                       | aliases | Wikidata QID                                      |
-    | :-------: | :---: | :---------------------------------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | dovA3X2G  | Passy | neighborhood in Paris, France; originally a village on the outskirts of Paris, then a commune of Seine department |         | [Passy](http://wwww.wikidata.org/entity/Q1241308) |
+    | FAAM UUID | label | description                                                                                                       | aliases | Wikidata QID                                 |
+    | :-------: | :---: | :---------------------------------------------------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | dovA3X2G  | Passy | neighborhood in Paris, France; originally a village on the outskirts of Paris, then a commune of Seine department |         | [Passy](http://wikidata.org/entity/Q1241308) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dovA3X2G.html" height="800" width="1200" title="dovA3X2G"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dovA3X2G" height="800" width="1200" title="dovA3X2G"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: city
 
 -	__[Gioachino Rossini](./YWvFQ75E.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Composer_Rossini_G_1865_by_Carjat.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1792–1868)
 

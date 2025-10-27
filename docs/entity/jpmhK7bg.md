@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jpmhK7bg
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/jpmhK7bg.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/jpmhK7bg.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/jpmhK7bg.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/jpmhK7bg.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/jpmhK7bg.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/jpmhK7bg.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Lenepveu.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                    | description                 | Wikidata QID                                                |
-    | :-------: | :--------------: | :------------------------: | :-------------------------: | :---------------------------------------------------------: |
-    | jpmhK7bg  | Charles Lenepveu | Charles-Ferdinand Lenepveu | French composer (1840–1910) | [Charles Lenepveu](http://wwww.wikidata.org/entity/Q371459) |
+    | FAAM UUID | label            | aliases                    | description                 | Wikidata QID                                           |
+    | :-------: | :--------------: | :------------------------: | :-------------------------: | :----------------------------------------------------: |
+    | jpmhK7bg  | Charles Lenepveu | Charles-Ferdinand Lenepveu | French composer (1840–1910) | [Charles Lenepveu](http://wikidata.org/entity/Q371459) |
 
 <br><br><br>
 
@@ -47,13 +51,13 @@ tags: agent
 
 	- [university teacher](./XWcaJQty.md)
 
-	- [](./JNXXkGXS.md)
+	- [theorist](./JNXXkGXS.md)
 
 ??? quote "educated at" 
 
 	- [Conservatoire de Paris](./mNynReve.md)
 
-	- [](./6SDpLwXq.md)
+	- [Lycée Pierre-Corneille](./6SDpLwXq.md)
 
 ??? quote "employer" 
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/jpmhK7bg.html" height="800" width="1200" title="jpmhK7bg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jpmhK7bg" height="800" width="1200" title="jpmhK7bg"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Marcel Samuel-Rousseau](./8DqPNmjD.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Marcel_Samuel-Rousseau_(1930).jpg){align=left width="150" height="150"} 
+
+	French composer, organist and opera director (1882-1955)
+
+</div>

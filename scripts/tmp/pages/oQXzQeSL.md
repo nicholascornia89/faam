@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oQXzQeSL
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000338557/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/oQXzQeSL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/oQXzQeSL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/oQXzQeSL.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000338557/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/oQXzQeSL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/oQXzQeSL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/oQXzQeSL.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000338557.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000338557.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                   | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-----------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | oQXzQeSL  | KCG-000338557         | Trois Quatuors : pour Soprano, Contralte, Tenor & Basse | [external URL](UJ57Ew5y) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                   | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-----------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | oQXzQeSL  | KCG-000338557         | Trois Quatuors : pour Soprano, Contralte, Tenor & Basse | [external URL](https://catalogus.hogent.be/catalog/hog01:000338557) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ===  "sections" 
 
@@ -96,10 +100,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/oQXzQeSL.html" height="800" width="1200" title="oQXzQeSL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oQXzQeSL" height="800" width="1200" title="oQXzQeSL"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/oQXzQeSL.html" height="800" width="1200" title="oQXzQeSL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/oQXzQeSL" height="800" width="1200" title="oQXzQeSL"></iframe>

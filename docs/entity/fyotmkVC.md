@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fyotmkVC
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                      | description | aliases | Wikidata QID                                                                            |
-    | :-------: | :----------------------------------------: | :---------: | :-----: | :-------------------------------------------------------------------------------------: |
-    | fyotmkVC  | Moscow Imperial University, Faculty of Law |             |         | [Moscow Imperial University, Faculty of Law](http://wwww.wikidata.org/entity/Q50281959) |
+    | FAAM UUID | label                                      | description | aliases | Wikidata QID                                                                       |
+    | :-------: | :----------------------------------------: | :---------: | :-----: | :--------------------------------------------------------------------------------: |
+    | fyotmkVC  | Moscow Imperial University, Faculty of Law |             |         | [Moscow Imperial University, Faculty of Law](http://wikidata.org/entity/Q50281959) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/fyotmkVC.html" height="800" width="1200" title="fyotmkVC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fyotmkVC" height="800" width="1200" title="fyotmkVC"></iframe>
 
 ## Cross-references
 

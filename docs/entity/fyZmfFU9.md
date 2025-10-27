@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fyZmfFU9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                   | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------------------------------------: | :-----: | :------------------------------------------------: |
-    | fyZmfFU9  | Humenné | town in the Prešov Region in eastern Slovakia | Homenau | [Humenné](http://wwww.wikidata.org/entity/Q502264) |
+    | FAAM UUID | label   | description                                   | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------------------------------------: | :-----: | :-------------------------------------------: |
+    | fyZmfFU9  | Humenné | town in the Prešov Region in eastern Slovakia | Homenau | [Humenné](http://wikidata.org/entity/Q502264) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Slovakia](http://www.wikidata.org/entity/Q214)
+	- [Slovakia](Q214)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/fyZmfFU9.html" height="800" width="1200" title="fyZmfFU9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fyZmfFU9" height="800" width="1200" title="fyZmfFU9"></iframe>
 
 ## Identifiers
 

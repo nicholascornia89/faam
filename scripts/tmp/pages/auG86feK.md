@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: auG86feK
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | description                                                              | aliases                      | Wikidata QID                                                                     |
-    | :-------: | :---------------------------------: | :----------------------------------------------------------------------: | :--------------------------: | :------------------------------------------------------------------------------: |
-    | auG86feK  | Frederick William University Berlin | former university in Berlin, Germany; predecessor of Humboldt University | Universität unter den Linden | [Frederick William University Berlin](http://wwww.wikidata.org/entity/Q20266330) |
+    | FAAM UUID | label                               | description                                                              | aliases                      | Wikidata QID                                                                |
+    | :-------: | :---------------------------------: | :----------------------------------------------------------------------: | :--------------------------: | :-------------------------------------------------------------------------: |
+    | auG86feK  | Frederick William University Berlin | former university in Berlin, Germany; predecessor of Humboldt University | Universität unter den Linden | [Frederick William University Berlin](http://wikidata.org/entity/Q20266330) |
 
 <br><br><br>
 
@@ -35,7 +39,7 @@ tags: music_organization
 
 !!! quote "country" 
 
-	[](./RocQ8eoo.md)
+	[Prussia](./RocQ8eoo.md)
 
 	[German Reich](./LKYcvgWo.md)
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/auG86feK.html" height="800" width="1200" title="auG86feK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/auG86feK" height="800" width="1200" title="auG86feK"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DvxTj68s
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901426814/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/DvxTj68s.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/DvxTj68s.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/DvxTj68s.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901426814/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/DvxTj68s.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/DvxTj68s.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/DvxTj68s.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901426814.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901426814.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                   | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | DvxTj68s  | KCA-030901426814      | Het lied der heidebloem | [external URL](D6RjeTWv) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                   | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :---------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | DvxTj68s  | KCA-030901426814      | Het lied der heidebloem | [external URL](https://anet.be/record/opacdkvc/c:lvd:6778316/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "note" 
 
@@ -77,10 +81,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/DvxTj68s.html" height="800" width="1200" title="DvxTj68s"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DvxTj68s" height="800" width="1200" title="DvxTj68s"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/DvxTj68s.html" height="800" width="1200" title="DvxTj68s"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/DvxTj68s" height="800" width="1200" title="DvxTj68s"></iframe>

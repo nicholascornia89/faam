@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nUZcuEdf
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description | aliases     | Wikidata QID                                            |
-    | :-------: | :---------: | :---------: | :---------: | :-----------------------------------------------------: |
-    | nUZcuEdf  | Kreuzschule | school      | Kreuzschule | [Kreuzschule](http://wwww.wikidata.org/entity/Q1526368) |
+    | FAAM UUID | label       | description | aliases     | Wikidata QID                                       |
+    | :-------: | :---------: | :---------: | :---------: | :------------------------------------------------: |
+    | nUZcuEdf  | Kreuzschule | school      | Kreuzschule | [Kreuzschule](http://wikidata.org/entity/Q1526368) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/nUZcuEdf.html" height="800" width="1200" title="nUZcuEdf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nUZcuEdf" height="800" width="1200" title="nUZcuEdf"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Carl David Stegmann](./CQvP5Hos.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German opera singer, harpsichordist, conductor and composer
 

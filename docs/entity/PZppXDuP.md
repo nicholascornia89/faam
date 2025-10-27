@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PZppXDuP
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PZppXDuP.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PZppXDuP.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PZppXDuP.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PZppXDuP.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PZppXDuP.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PZppXDuP.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Isidore_de_Lara.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                             | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------: | :-------------------------------------: | :--------------------------------------------------------: |
-    | PZppXDuP  | Isidore de Lara | Isidore de Lara | English composer and singer (1858–1935) | [Isidore de Lara](http://wwww.wikidata.org/entity/Q971436) |
+    | FAAM UUID | label           | aliases         | description                             | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------: | :-------------------------------------: | :---------------------------------------------------: |
+    | PZppXDuP  | Isidore de Lara | Isidore de Lara | English composer and singer (1858–1935) | [Isidore de Lara](http://wikidata.org/entity/Q971436) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/PZppXDuP.html" height="800" width="1200" title="PZppXDuP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PZppXDuP" height="800" width="1200" title="PZppXDuP"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Sanga. La Chanson du Grain](./5cPt2kf9.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p92.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p92.gif){align=left width="150" height="150"} 
 
 	
 

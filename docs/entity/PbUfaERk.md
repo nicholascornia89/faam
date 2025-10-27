@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PbUfaERk
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PbUfaERk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PbUfaERk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PbUfaERk.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PbUfaERk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PbUfaERk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PbUfaERk.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description      | Wikidata QID                                             |
-    | :-------: | :---------: | :---------: | :--------------: | :------------------------------------------------------: |
-    | PbUfaERk  | Henry Weyts | Henry Weyts | Belgian composer | [Henry Weyts](http://wwww.wikidata.org/entity/Q98923082) |
+    | FAAM UUID | label       | aliases     | description      | Wikidata QID                                        |
+    | :-------: | :---------: | :---------: | :--------------: | :-------------------------------------------------: |
+    | PbUfaERk  | Henry Weyts | Henry Weyts | Belgian composer | [Henry Weyts](http://wikidata.org/entity/Q98923082) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/PbUfaERk.html" height="800" width="1200" title="PbUfaERk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PbUfaERk" height="800" width="1200" title="PbUfaERk"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: agent
 
 -	__[Fée d'amour : mazurka: extraite du ballet divertissement en un acte](./5djTxyK6.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904328777.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904328777.gif){align=left width="150" height="150"} 
 
 	
 

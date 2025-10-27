@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: i2w6M7XJ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/i2w6M7XJ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/i2w6M7XJ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/i2w6M7XJ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/i2w6M7XJ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/i2w6M7XJ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/i2w6M7XJ.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/25/Gabriele_D%27Annunzio_1922.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gabriele_D%27Annunzio_1922.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------: | :-----: | :---------: | :----------------------------------: |
-    | i2w6M7XJ  | Gabriele D'Annunzio |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label               | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------: | :-----: | :---------: | :-----------------------------: |
+    | i2w6M7XJ  | Gabriele D'Annunzio |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/i2w6M7XJ.html" height="800" width="1200" title="i2w6M7XJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/i2w6M7XJ" height="800" width="1200" title="i2w6M7XJ"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: agent
 
 -	__[Le martyre de Saint Sébastien : mystère en cinq actes](./Q9My2FwW.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902681235.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902681235.gif){align=left width="150" height="150"} 
 
 	
 

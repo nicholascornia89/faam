@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mxoUEEAx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description        | aliases  | Wikidata QID                                       |
-    | :-------: | :------: | :----------------: | :------: | :------------------------------------------------: |
-    | mxoUEEAx  | Chișinău | capital of Moldova | Chisinau | [Chișinău](http://wwww.wikidata.org/entity/Q21197) |
+    | FAAM UUID | label    | description        | aliases  | Wikidata QID                                  |
+    | :-------: | :------: | :----------------: | :------: | :-------------------------------------------: |
+    | mxoUEEAx  | Chișinău | capital of Moldova | Chisinau | [Chișinău](http://wikidata.org/entity/Q21197) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Moldova](http://www.wikidata.org/entity/Q217)
+	- [Moldova](Q217)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/mxoUEEAx.html" height="800" width="1200" title="mxoUEEAx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mxoUEEAx" height="800" width="1200" title="mxoUEEAx"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Alexander Ossovsky](./7JHzNARd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Musicologist, Russian writer (1871-1957)
 

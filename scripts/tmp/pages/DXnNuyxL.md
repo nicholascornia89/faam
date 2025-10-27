@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DXnNuyxL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description               | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------------------: | :-----: | :------------------------------------------------: |
-    | DXnNuyxL  | Tournai | city in Wallonia, Belgium | Tournai | [Tournai](http://wwww.wikidata.org/entity/Q173219) |
+    | FAAM UUID | label   | description               | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------------------: | :-----: | :-------------------------------------------: |
+    | DXnNuyxL  | Tournai | city in Wallonia, Belgium | Tournai | [Tournai](http://wikidata.org/entity/Q173219) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/DXnNuyxL.html" height="800" width="1200" title="DXnNuyxL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DXnNuyxL" height="800" width="1200" title="DXnNuyxL"></iframe>
 
 ## Identifiers
 

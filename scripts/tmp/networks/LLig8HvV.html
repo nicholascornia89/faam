@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KtzL5gXa", "label": "Sigiswald Kuijken", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KtzL5gXa.md\u0027\u003eSigiswald Kuijken\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sigiswald_Kuijken.JPG\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KgyiaBt3", "label": "Belgium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KgyiaBt3.md\u0027\u003eBelgium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in western Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "LLig8HvV", "label": "Dilbeek", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LLig8HvV.md\u0027\u003eDilbeek\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Flemish Brabant, Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hV7KQEV6", "label": "De Standaard", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./hV7KQEV6.md\u0027\u003eDe Standaard\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish daily newspaper published by Mediahuis\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "KtzL5gXa", "to": "KgyiaBt3", "width": 10}, {"from": "KtzL5gXa", "to": "LLig8HvV", "width": 10}, {"from": "KgyiaBt3", "to": "LLig8HvV", "width": 10}, {"from": "KgyiaBt3", "to": "hV7KQEV6", "width": 10}, {"from": "hV7KQEV6", "to": "LLig8HvV", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "LLig8HvV", "label": "Dilbeek", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LLig8HvV\u0027\u003eDilbeek\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Flemish Brabant, Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KgyiaBt3", "label": "Belgium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KgyiaBt3\u0027\u003eBelgium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in western Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hV7KQEV6", "label": "De Standaard", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hV7KQEV6\u0027\u003eDe Standaard\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish daily newspaper published by Mediahuis\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KtzL5gXa", "label": "Sigiswald Kuijken", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KtzL5gXa\u0027\u003eSigiswald Kuijken\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sigiswald_Kuijken.JPG\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "LLig8HvV", "to": "KgyiaBt3", "width": 10}, {"from": "LLig8HvV", "to": "hV7KQEV6", "width": 10}, {"from": "LLig8HvV", "to": "KtzL5gXa", "width": 10}, {"from": "KgyiaBt3", "to": "hV7KQEV6", "width": 10}, {"from": "KgyiaBt3", "to": "KtzL5gXa", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

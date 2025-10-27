@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kNa9W8vR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                          | aliases   | Wikidata QID                                         |
-    | :-------: | :--------: | :------------------------------------------------------------------: | :-------: | :--------------------------------------------------: |
-    | kNa9W8vR  | Villarreal | city in the province of Castellón, in the Valencian Community, Spain | Vila Real | [Villarreal](http://wwww.wikidata.org/entity/Q12292) |
+    | FAAM UUID | label      | description                                                          | aliases   | Wikidata QID                                    |
+    | :-------: | :--------: | :------------------------------------------------------------------: | :-------: | :---------------------------------------------: |
+    | kNa9W8vR  | Villarreal | city in the province of Castellón, in the Valencian Community, Spain | Vila Real | [Villarreal](http://wikidata.org/entity/Q12292) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/kNa9W8vR.html" height="800" width="1200" title="kNa9W8vR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kNa9W8vR" height="800" width="1200" title="kNa9W8vR"></iframe>
 
 ## Identifiers
 

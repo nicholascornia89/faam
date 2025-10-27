@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4T2uWaj3
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description               | aliases                 | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------------------: | :---------------------: | :------------------------------------------------------: |
-    | 4T2uWaj3  | Philippeville | city in Wallonia, Belgium | La Vedette-Républicaine | [Philippeville](http://wwww.wikidata.org/entity/Q650239) |
+    | FAAM UUID | label         | description               | aliases                 | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------------------: | :---------------------: | :-------------------------------------------------: |
+    | 4T2uWaj3  | Philippeville | city in Wallonia, Belgium | La Vedette-Républicaine | [Philippeville](http://wikidata.org/entity/Q650239) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4T2uWaj3.html" height="800" width="1200" title="4T2uWaj3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4T2uWaj3" height="800" width="1200" title="4T2uWaj3"></iframe>
 
 ## Identifiers
 

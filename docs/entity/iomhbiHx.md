@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iomhbiHx
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description              | aliases          | Wikidata QID                                     |
-    | :-------: | :-----: | :----------------------: | :--------------: | :----------------------------------------------: |
-    | iomhbiHx  | Brescia | Italian city in Lombardy | Lioness of Italy | [Brescia](http://wwww.wikidata.org/entity/Q6221) |
+    | FAAM UUID | label   | description              | aliases          | Wikidata QID                                |
+    | :-------: | :-----: | :----------------------: | :--------------: | :-----------------------------------------: |
+    | iomhbiHx  | Brescia | Italian city in Lombardy | Lioness of Italy | [Brescia](http://wikidata.org/entity/Q6221) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/iomhbiHx.html" height="800" width="1200" title="iomhbiHx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iomhbiHx" height="800" width="1200" title="iomhbiHx"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Biagio Marini](./5mEwdeZH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and composer
 
@@ -73,7 +77,7 @@ tags: city
 
 -	__[Giovanni Battista Vivaldi](./4cWGCPTD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist
 

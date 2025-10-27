@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WSAseG4G
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                 | aliases | Wikidata QID                                      |
-    | :-------: | :------------: | :-------------------------: | :-----: | :-----------------------------------------------: |
-    | WSAseG4G  | folia (follia) | type of musical composition | folia   | [folia](http://wwww.wikidata.org/entity/Q1164087) |
+    | FAAM UUID | label          | description                 | aliases | Wikidata QID                                 |
+    | :-------: | :------------: | :-------------------------: | :-----: | :------------------------------------------: |
+    | WSAseG4G  | folia (follia) | type of musical composition | folia   | [folia](http://wikidata.org/entity/Q1164087) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/WSAseG4G.html" height="800" width="1200" title="WSAseG4G"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WSAseG4G" height="800" width="1200" title="WSAseG4G"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Variations sur les "Folies d'Espagne", op. 45](./PoJBawN7.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904176952.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904176952.gif){align=left width="150" height="150"} 
 
 	
 

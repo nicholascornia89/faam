@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: awD7F2dQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                            | aliases                | Wikidata QID                                        |
-    | :-------: | :-------: | :----------------------------------------------------: | :--------------------: | :-------------------------------------------------: |
-    | awD7F2dQ  | Hollywood | neighborhood in Los Angeles, California, United States | Hollywood, Los Angeles | [Hollywood](http://wwww.wikidata.org/entity/Q34006) |
+    | FAAM UUID | label     | description                                            | aliases                | Wikidata QID                                   |
+    | :-------: | :-------: | :----------------------------------------------------: | :--------------------: | :--------------------------------------------: |
+    | awD7F2dQ  | Hollywood | neighborhood in Los Angeles, California, United States | Hollywood, Los Angeles | [Hollywood](http://wikidata.org/entity/Q34006) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/awD7F2dQ.html" height="800" width="1200" title="awD7F2dQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/awD7F2dQ" height="800" width="1200" title="awD7F2dQ"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BiuPhV5S
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description                 | Wikidata QID                                        |
-    | :-------: | :-------: | :-------: | :-------------------------: | :-------------------------------------------------: |
-    | BiuPhV5S  | Hail Mary | Ave Maria | traditional Catholic prayer | [Hail Mary](http://wwww.wikidata.org/entity/Q42203) |
+    | FAAM UUID | label     | aliases   | description                 | Wikidata QID                                   |
+    | :-------: | :-------: | :-------: | :-------------------------: | :--------------------------------------------: |
+    | BiuPhV5S  | Hail Mary | Ave Maria | traditional Catholic prayer | [Hail Mary](http://wikidata.org/entity/Q42203) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/BiuPhV5S.html" height="800" width="1200" title="BiuPhV5S"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BiuPhV5S" height="800" width="1200" title="BiuPhV5S"></iframe>
 
 ## Identifiers
 

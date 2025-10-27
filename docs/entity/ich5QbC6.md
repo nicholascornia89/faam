@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ich5QbC6
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                                                              | aliases | Wikidata QID                                                                   |
-    | :-------: | :--------------------------------: | :----------------------------------------------------------------------: | :-----: | :----------------------------------------------------------------------------: |
-    | ich5QbC6  | former 8th arrondissement of Paris | one of the twelve administrative districts of Paris, France, before 1860 |         | [former 8th arrondissement of Paris](http://wwww.wikidata.org/entity/Q2845761) |
+    | FAAM UUID | label                              | description                                                              | aliases | Wikidata QID                                                              |
+    | :-------: | :--------------------------------: | :----------------------------------------------------------------------: | :-----: | :-----------------------------------------------------------------------: |
+    | ich5QbC6  | former 8th arrondissement of Paris | one of the twelve administrative districts of Paris, France, before 1860 |         | [former 8th arrondissement of Paris](http://wikidata.org/entity/Q2845761) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ich5QbC6.html" height="800" width="1200" title="ich5QbC6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ich5QbC6" height="800" width="1200" title="ich5QbC6"></iframe>
 
 ## Identifiers
 

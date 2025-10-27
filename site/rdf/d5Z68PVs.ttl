@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:d5Z68PVs a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital and most populous city of the Netherlands"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q727>,
+        "0"^^xsd:string,
+        "d5Z68PVs"^^xsd:string ;
+    schema1:location faamentity:BWX2VNz4 ;
+    skos:altLabel "A'dam"^^xsd:string,
+        "Amsterdam, NL"^^xsd:string,
+        "Amsterdam, Netherlands"^^xsd:string,
+        "Amsterdam, North Holland"^^xsd:string,
+        "Mokum"^^xsd:string ;
+    skos:prefLabel "Amsterdam"^^xsd:string ;
+    wd:P1566 gn:2759794 .
+

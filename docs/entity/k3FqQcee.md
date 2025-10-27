@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: k3FqQcee
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                     | aliases | Wikidata QID                                                |
-    | :-------: | :-------------: | :-----------------------------: | :-----: | :---------------------------------------------------------: |
-    | k3FqQcee  | recorder player | musician who plays the recorder |         | [recorder player](http://wwww.wikidata.org/entity/Q3074722) |
+    | FAAM UUID | label           | description                     | aliases | Wikidata QID                                           |
+    | :-------: | :-------------: | :-----------------------------: | :-----: | :----------------------------------------------------: |
+    | k3FqQcee  | recorder player | musician who plays the recorder |         | [recorder player](http://wikidata.org/entity/Q3074722) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/k3FqQcee.html" height="800" width="1200" title="k3FqQcee"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/k3FqQcee" height="800" width="1200" title="k3FqQcee"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8vWb9eDu
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8vWb9eDu.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8vWb9eDu.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8vWb9eDu.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8vWb9eDu.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8vWb9eDu.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8vWb9eDu.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Blaise-Martin.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description         | Wikidata QID                                                   |
-    | :-------: | :----------------: | :----------------: | :-----------------: | :------------------------------------------------------------: |
-    | 8vWb9eDu  | Jean-Blaise Martin | Jean-Blaise Martin | French opera singer | [Jean-Blaise Martin](http://wwww.wikidata.org/entity/Q1439556) |
+    | FAAM UUID | label              | aliases            | description         | Wikidata QID                                              |
+    | :-------: | :----------------: | :----------------: | :-----------------: | :-------------------------------------------------------: |
+    | 8vWb9eDu  | Jean-Blaise Martin | Jean-Blaise Martin | French opera singer | [Jean-Blaise Martin](http://wikidata.org/entity/Q1439556) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8vWb9eDu.html" height="800" width="1200" title="8vWb9eDu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8vWb9eDu" height="800" width="1200" title="8vWb9eDu"></iframe>
 
 ## Identifiers
 
@@ -83,8 +87,18 @@ tags: agent
 
 -	__[LE MAÎTRE DE CHAPELLE ou LE SOUPER IMPRÉVU. No. 2. Grande scène : Ah! quel plaisir de pressentir sa gloire!](./LwEejcZj.md)__
 
-	![Image](../assets/images/thumbs/KCG-000122135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000122135.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Daniel François Esprit Auber](./Q9hzqiq3.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Postcard-1910_Daniel_Fransois_Auber.jpg){align=left width="150" height="150"} 
+
+	French composer (1782-1871)
 
 </div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bZcGr8iX
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bZcGr8iX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bZcGr8iX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bZcGr8iX.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bZcGr8iX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bZcGr8iX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bZcGr8iX.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giacomo_Tritto-opera_composer.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                                                 | description                  | Wikidata QID                                              |
-    | :-------: | :------------: | :-----------------------------------------------------: | :--------------------------: | :-------------------------------------------------------: |
-    | bZcGr8iX  | Giacomo Tritto | Giacomo Domenico Mario Antonio Pasquale Giuseppe Tritto | Italian composer (1733-1824) | [Giacomo Tritto](http://wwww.wikidata.org/entity/Q704792) |
+    | FAAM UUID | label          | aliases                                                 | description                  | Wikidata QID                                         |
+    | :-------: | :------------: | :-----------------------------------------------------: | :--------------------------: | :--------------------------------------------------: |
+    | bZcGr8iX  | Giacomo Tritto | Giacomo Domenico Mario Antonio Pasquale Giuseppe Tritto | Italian composer (1733-1824) | [Giacomo Tritto](http://wikidata.org/entity/Q704792) |
 
 <br><br><br>
 
@@ -49,13 +53,13 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./fG38Ux7e.md)
+	- [Music conservatories of Naples](./fG38Ux7e.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/bZcGr8iX.html" height="800" width="1200" title="bZcGr8iX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bZcGr8iX" height="800" width="1200" title="bZcGr8iX"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Saverio Mercadante](./kv4NyzvW.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Saverio_Mercadante_by_Andrea_Cefaly.jpg){align=left width="150" height="150"} 
+
+	Italian composer
+
+</div>

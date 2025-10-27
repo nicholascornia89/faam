@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XyUL654N
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description | aliases     | Wikidata QID                                              |
-    | :-------: | :----------: | :---------: | :---------: | :-------------------------------------------------------: |
-    | XyUL654N  | aesthetician | philosopher | ωραιολάτρης | [aesthetician](http://wwww.wikidata.org/entity/Q21550346) |
+    | FAAM UUID | label        | description | aliases     | Wikidata QID                                         |
+    | :-------: | :----------: | :---------: | :---------: | :--------------------------------------------------: |
+    | XyUL654N  | aesthetician | philosopher | ωραιολάτρης | [aesthetician](http://wikidata.org/entity/Q21550346) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/XyUL654N.html" height="800" width="1200" title="XyUL654N"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XyUL654N" height="800" width="1200" title="XyUL654N"></iframe>
 
 ## Cross-references
 

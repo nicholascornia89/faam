@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oVTANpLu
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description    | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :------------: | :-----: | :-----------------------------------------------: |
-    | oVTANpLu  | Bitonto | Italian comune |         | [Bitonto](http://wwww.wikidata.org/entity/Q19278) |
+    | FAAM UUID | label   | description    | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :------------: | :-----: | :------------------------------------------: |
+    | oVTANpLu  | Bitonto | Italian comune |         | [Bitonto](http://wikidata.org/entity/Q19278) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/oVTANpLu.html" height="800" width="1200" title="oVTANpLu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oVTANpLu" height="800" width="1200" title="oVTANpLu"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Tommaso Traetta](./8NZ5NFvg.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Tommaso_traetta.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tommaso_traetta.jpg){align=left width="150" height="150"} 
 
 	Italian composer
 

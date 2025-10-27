@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Yaqy4rQR a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:KcPMsWh8,
+        faamentity:dEBzFsDJ,
+        faamentity:mWRawpgj ;
+    schema1:birthDate "1868-08-23"^^xsd:string ;
+    schema1:birthPlace faamentity:4g8XzGFP ;
+    schema1:deathDate "1944-12-10"^^xsd:string ;
+    schema1:deathPlace faamentity:4g8XzGFP ;
+    schema1:description "Belgian author, librarian and anti-colonial thinker"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1868>,
+        "15995795"^^xsd:string,
+        "Yaqy4rQR"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Paul Marie Otlet"^^xsd:string,
+        "Paul Otlet"^^xsd:string ;
+    skos:prefLabel "Paul Otlet"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:54277595 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 <Q190894>,
+        <Q2512563>,
+        <Q26879> ;
+    schema:hasOccupation faamentity:AZ2LgTJN,
+        faamentity:MSqmiCXh,
+        faamentity:W4yL2jDA,
+        faamentity:YrCfZ8vh,
+        faamentity:ZR4bMGvs,
+        faamentity:avB62pGy,
+        faamentity:cuxAGzGF,
+        faamentity:dirajtns .
+

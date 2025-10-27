@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PYaeFADo
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                             | aliases | Wikidata QID                                               |
-    | :-------: | :-------------: | :-----------------------------------------------------: | :-----: | :--------------------------------------------------------: |
-    | PYaeFADo  | Austrian Empire | Central European multinational Empire from 1804 to 1867 | Austria | [Austrian Empire](http://wwww.wikidata.org/entity/Q131964) |
+    | FAAM UUID | label           | description                                             | aliases | Wikidata QID                                          |
+    | :-------: | :-------------: | :-----------------------------------------------------: | :-----: | :---------------------------------------------------: |
+    | PYaeFADo  | Austrian Empire | Central European multinational Empire from 1804 to 1867 | Austria | [Austrian Empire](http://wikidata.org/entity/Q131964) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/PYaeFADo.html" height="800" width="1200" title="PYaeFADo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PYaeFADo" height="800" width="1200" title="PYaeFADo"></iframe>
 
 ## Identifiers
 
@@ -109,7 +113,7 @@ tags: country
 
 -	__[Franz Alexander Pössinger](./ZchmW76w.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 
@@ -121,7 +125,7 @@ tags: country
 
 -	__[Ludwig van Beethoven](./TZfafBBe.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Beethoven.jpg){align=left width="150" height="150"} 
 
 	German composer (1770–1827)
 
@@ -151,7 +155,7 @@ tags: country
 
 -	__[Philipp Schmutzer](./2UtGp5td.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -169,7 +173,7 @@ tags: country
 
 -	__[Wilhelm Mayer](./AQUfsFjr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer and music teacher (1831-1898)
 
@@ -181,19 +185,19 @@ tags: country
 
 -	__[Anton Stamitz](./N2MmbiCx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
 -	__[Joseph Czerny](./fyTYpvN6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer (1785–1831)
 
 -	__[Joachim Hoffmann](./jSGZNT5H.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician
 

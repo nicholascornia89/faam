@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UzPrx8U2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                      | aliases                   | Wikidata QID                                                 |
-    | :-------: | :--------------: | :----------------------------------------------: | :-----------------------: | :----------------------------------------------------------: |
-    | UzPrx8U2  | Burton-in-Kendal | village and civil parish in Cumbria, England, UK | Burton-in-Kendal, Cumbria | [Burton-in-Kendal](http://wwww.wikidata.org/entity/Q2688279) |
+    | FAAM UUID | label            | description                                      | aliases                   | Wikidata QID                                            |
+    | :-------: | :--------------: | :----------------------------------------------: | :-----------------------: | :-----------------------------------------------------: |
+    | UzPrx8U2  | Burton-in-Kendal | village and civil parish in Cumbria, England, UK | Burton-in-Kendal, Cumbria | [Burton-in-Kendal](http://wikidata.org/entity/Q2688279) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/UzPrx8U2.html" height="800" width="1200" title="UzPrx8U2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UzPrx8U2" height="800" width="1200" title="UzPrx8U2"></iframe>
 
 ## Identifiers
 

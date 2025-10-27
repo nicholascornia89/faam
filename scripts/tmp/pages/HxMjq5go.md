@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HxMjq5go
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HxMjq5go.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HxMjq5go.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HxMjq5go.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HxMjq5go.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HxMjq5go.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HxMjq5go.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Onze_Musici_(1911)_-_Cornélie_van_Zanten.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases             | description                    | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-----------------: | :----------------------------: | :------------------------------------------------------------: |
-    | HxMjq5go  | Cornélie van Zanten | Cornelie van Zanten | Dutch opera singer (1855–1946) | [Cornélie van Zanten](http://wwww.wikidata.org/entity/Q452636) |
+    | FAAM UUID | label               | aliases             | description                    | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-----------------: | :----------------------------: | :-------------------------------------------------------: |
+    | HxMjq5go  | Cornélie van Zanten | Cornelie van Zanten | Dutch opera singer (1855–1946) | [Cornélie van Zanten](http://wikidata.org/entity/Q452636) |
 
 <br><br><br>
 
@@ -55,17 +59,17 @@ tags: agent
 
 	- [voice teacher](./LrBEtxcy.md)
 
-	- [](./HiywuUEM.md)
+	- [non-fiction writer](./HiywuUEM.md)
 
 ??? quote "educated at" 
 
-	- [](./L8H9Ajyr.md)
+	- [Hochschule für Musik und Tanz Köln](./L8H9Ajyr.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/HxMjq5go.html" height="800" width="1200" title="HxMjq5go"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HxMjq5go" height="800" width="1200" title="HxMjq5go"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[Hoogere techniek van den zang: paedagogische leidraad](./gehhzeCn.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902413456.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902413456.gif){align=left width="150" height="150"} 
 
 	
 

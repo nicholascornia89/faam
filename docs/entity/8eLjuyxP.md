@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8eLjuyxP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                  | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :--------------------------: | :-----: | :---------------------------------------------------: |
-    | 8eLjuyxP  | Bloomsbury | district in West End, London |         | [Bloomsbury](http://wwww.wikidata.org/entity/Q150120) |
+    | FAAM UUID | label      | description                  | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :--------------------------: | :-----: | :----------------------------------------------: |
+    | 8eLjuyxP  | Bloomsbury | district in West End, London |         | [Bloomsbury](http://wikidata.org/entity/Q150120) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8eLjuyxP.html" height="800" width="1200" title="8eLjuyxP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8eLjuyxP" height="800" width="1200" title="8eLjuyxP"></iframe>
 
 ## Identifiers
 

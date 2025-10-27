@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M9UFSqcc
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases                 | description                                                                                                                                                                                         | Wikidata QID                                                    |
-    | :-------: | :---------------------: | :---------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: |
-    | M9UFSqcc  | La Gerusalemme liberata | La Gerusalemme liberata | epic poem by the Italian poet Torquato Tasso first published in 1581; tells a mythified account of the First Crusade in which Christian knights led by Godfrey of Bouillon battle to take Jerusalem | [Jerusalem Delivered](http://wwww.wikidata.org/entity/Q1053313) |
+    | FAAM UUID | label                   | aliases                 | description                                                                                                                                                                                         | Wikidata QID                                               |
+    | :-------: | :---------------------: | :---------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------: |
+    | M9UFSqcc  | La Gerusalemme liberata | La Gerusalemme liberata | epic poem by the Italian poet Torquato Tasso first published in 1581; tells a mythified account of the First Crusade in which Christian knights led by Godfrey of Bouillon battle to take Jerusalem | [Jerusalem Delivered](http://wikidata.org/entity/Q1053313) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/M9UFSqcc.html" height="800" width="1200" title="M9UFSqcc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M9UFSqcc" height="800" width="1200" title="M9UFSqcc"></iframe>
 
 ## Identifiers
 

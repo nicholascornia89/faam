@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fKc63RzQ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases       | description                           | Wikidata QID                                                  |
-    | :-------: | :---------------: | :-----------: | :-----------------------------------: | :-----------------------------------------------------------: |
-    | fKc63RzQ  | La part du diable | Carlo Broschi | opera by Daniel François Esprit Auber | [La part du diable](http://wwww.wikidata.org/entity/Q8011943) |
+    | FAAM UUID | label             | aliases       | description                           | Wikidata QID                                             |
+    | :-------: | :---------------: | :-----------: | :-----------------------------------: | :------------------------------------------------------: |
+    | fKc63RzQ  | La part du diable | Carlo Broschi | opera by Daniel François Esprit Auber | [La part du diable](http://wikidata.org/entity/Q8011943) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/fKc63RzQ.html" height="800" width="1200" title="fKc63RzQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fKc63RzQ" height="800" width="1200" title="fKc63RzQ"></iframe>
 
 ## Identifiers
 

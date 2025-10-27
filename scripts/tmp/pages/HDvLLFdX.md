@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HDvLLFdX
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/CBM-TORRMsA83/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HDvLLFdX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HDvLLFdX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HDvLLFdX.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/CBM-TORRMsA83/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HDvLLFdX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HDvLLFdX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HDvLLFdX.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/CBM-TORRMsA83.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA83.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                 | permalink                | provenance                                                       |
-    | :-------: | :-------------------: | :-----------------------------------: | :----------------------: | :--------------------------------------------------------------: |
-    | HDvLLFdX  | CBM-TORRMsA83         | Finale Allegro Vivace del V Quartetto | [external URL](HKyA3Qzz) | [Biblioteca del Conservatorio Benedetto Marcello](./FqJJaJb7.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                 | permalink                                                                                                                                                                                 | provenance                                                       |
+    | :-------: | :-------------------: | :-----------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: |
+    | HDvLLFdX  | CBM-TORRMsA83         | Finale Allegro Vivace del V Quartetto | [external URL](https://polovea.sebina.it/SebinaOpac/resource/gmcambini-allegretto-con-spirito-del-vi-quartetto-per-due-violiniviola-e-basso-dedicato-a-se-monsieu/VEA01145042?locale=eng) | [Biblioteca del Conservatorio Benedetto Marcello](./FqJJaJb7.md) |
 
 ## Statements
 
@@ -72,10 +76,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/HDvLLFdX.html" height="800" width="1200" title="HDvLLFdX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HDvLLFdX" height="800" width="1200" title="HDvLLFdX"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/HDvLLFdX.html" height="800" width="1200" title="HDvLLFdX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/HDvLLFdX" height="800" width="1200" title="HDvLLFdX"></iframe>

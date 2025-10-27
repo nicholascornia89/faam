@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WQ7QSP5S
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                                 | aliases | Wikidata QID                                      |
-    | :-------: | :---: | :-------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | WQ7QSP5S  | craft | field of work that requires particular skills and knowledge of skilled work | trade   | [craft](http://wwww.wikidata.org/entity/Q2207288) |
+    | FAAM UUID | label | description                                                                 | aliases | Wikidata QID                                 |
+    | :-------: | :---: | :-------------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | WQ7QSP5S  | craft | field of work that requires particular skills and knowledge of skilled work | trade   | [craft](http://wikidata.org/entity/Q2207288) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/WQ7QSP5S.html" height="800" width="1200" title="WQ7QSP5S"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WQ7QSP5S" height="800" width="1200" title="WQ7QSP5S"></iframe>
 
 ## Cross-references
 

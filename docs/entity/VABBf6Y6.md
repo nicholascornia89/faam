@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VABBf6Y6
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                           | description | aliases | Wikidata QID                                                                 |
-    | :-------: | :-----------------------------: | :---------: | :-----: | :--------------------------------------------------------------------------: |
-    | VABBf6Y6  | Stedelijk Conservatorium Brugge |             |         | [Stedelijk Conservatorium Brugge](http://wwww.wikidata.org/entity/Q84961226) |
+    | FAAM UUID | label                           | description | aliases | Wikidata QID                                                            |
+    | :-------: | :-----------------------------: | :---------: | :-----: | :---------------------------------------------------------------------: |
+    | VABBf6Y6  | Stedelijk Conservatorium Brugge |             |         | [Stedelijk Conservatorium Brugge](http://wikidata.org/entity/Q84961226) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/VABBf6Y6.html" height="800" width="1200" title="VABBf6Y6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VABBf6Y6" height="800" width="1200" title="VABBf6Y6"></iframe>
 
 ## Cross-references
 

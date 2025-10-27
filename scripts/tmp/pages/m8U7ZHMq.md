@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: m8U7ZHMq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                                  | aliases | Wikidata QID                                                |
-    | :-------: | :-----------: | :----------------------------------------------------------: | :-----: | :---------------------------------------------------------: |
-    | m8U7ZHMq  | Villa Servais | villa of Adrien-François Servais in Halle, Flanders, Belgium |         | [Villa Servais](http://wwww.wikidata.org/entity/Q104035415) |
+    | FAAM UUID | label         | description                                                  | aliases | Wikidata QID                                           |
+    | :-------: | :-----------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------: |
+    | m8U7ZHMq  | Villa Servais | villa of Adrien-François Servais in Halle, Flanders, Belgium |         | [Villa Servais](http://wikidata.org/entity/Q104035415) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/m8U7ZHMq.html" height="800" width="1200" title="m8U7ZHMq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/m8U7ZHMq" height="800" width="1200" title="m8U7ZHMq"></iframe>
 
 ## Identifiers
 

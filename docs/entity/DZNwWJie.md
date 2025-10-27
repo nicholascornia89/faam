@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DZNwWJie
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                               | aliases | Wikidata QID                                  |
-    | :-------: | :----: | :---------------------------------------: | :-----: | :-------------------------------------------: |
-    | DZNwWJie  | Turkey | country in West Asia and Southeast Europe | Türkiye | [Turkey](http://wwww.wikidata.org/entity/Q43) |
+    | FAAM UUID | label  | description                               | aliases | Wikidata QID                             |
+    | :-------: | :----: | :---------------------------------------: | :-----: | :--------------------------------------: |
+    | DZNwWJie  | Turkey | country in West Asia and Southeast Europe | Türkiye | [Turkey](http://wikidata.org/entity/Q43) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/DZNwWJie.html" height="800" width="1200" title="DZNwWJie"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DZNwWJie" height="800" width="1200" title="DZNwWJie"></iframe>
 
 ## Identifiers
 

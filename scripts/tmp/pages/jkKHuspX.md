@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jkKHuspX
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description | aliases  | Wikidata QID                                        |
-    | :-------: | :------: | :---------: | :------: | :-------------------------------------------------: |
-    | jkKHuspX  | Psalm 95 | psalm       | Psalm 95 | [Psalm 95](http://wwww.wikidata.org/entity/Q917120) |
+    | FAAM UUID | label    | description | aliases  | Wikidata QID                                   |
+    | :-------: | :------: | :---------: | :------: | :--------------------------------------------: |
+    | jkKHuspX  | Psalm 95 | psalm       | Psalm 95 | [Psalm 95](http://wikidata.org/entity/Q917120) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/jkKHuspX.html" height="800" width="1200" title="jkKHuspX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jkKHuspX" height="800" width="1200" title="jkKHuspX"></iframe>
 
 ## Cross-references
 

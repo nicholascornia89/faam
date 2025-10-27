@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CD9EEBCh
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | aliases | description             | Wikidata QID                                     |
-    | :-------: | :---: | :-----: | :---------------------: | :----------------------------------------------: |
-    | CD9EEBCh  | Manon | Manon   | opera by Jules Massenet | [Manon](http://wwww.wikidata.org/entity/Q842063) |
+    | FAAM UUID | label | aliases | description             | Wikidata QID                                |
+    | :-------: | :---: | :-----: | :---------------------: | :-----------------------------------------: |
+    | CD9EEBCh  | Manon | Manon   | opera by Jules Massenet | [Manon](http://wikidata.org/entity/Q842063) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./ZM3a6gAC.md)
+	- [Manon Lescaut](./ZM3a6gAC.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/CD9EEBCh.html" height="800" width="1200" title="CD9EEBCh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CD9EEBCh" height="800" width="1200" title="CD9EEBCh"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: musical_work
 
 -	__[Manon : opéra de J. Massenet: grande mosaïque en 2 parties](./8387qD3M.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904722326.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904722326.gif){align=left width="150" height="150"} 
 
 	
 

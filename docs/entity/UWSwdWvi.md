@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UWSwdWvi
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902614640/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UWSwdWvi.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UWSwdWvi.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UWSwdWvi.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902614640/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UWSwdWvi.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UWSwdWvi.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UWSwdWvi.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902614640.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902614640.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | UWSwdWvi  | KCA-030902614640      | Le farfadet : opéra comique en un acte | [external URL](UMravioT) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | UWSwdWvi  | KCA-030902614640      | Le farfadet : opéra comique en un acte | [external URL](https://anet.be/record/opacdkvc/c:lvd:13205668/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -77,10 +81,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/UWSwdWvi.html" height="800" width="1200" title="UWSwdWvi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UWSwdWvi" height="800" width="1200" title="UWSwdWvi"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/UWSwdWvi.html" height="800" width="1200" title="UWSwdWvi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/UWSwdWvi" height="800" width="1200" title="UWSwdWvi"></iframe>

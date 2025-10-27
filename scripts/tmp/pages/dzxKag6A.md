@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dzxKag6A
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/dzxKag6A.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/dzxKag6A.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/dzxKag6A.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/dzxKag6A.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/dzxKag6A.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/dzxKag6A.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description | Wikidata QID                                                  |
-    | :-------: | :-------------: | :-----: | :---------: | :-----------------------------------------------------------: |
-    | dzxKag6A  | Edmond Waucampt |         |             | [Edmond Waucampt](http://wwww.wikidata.org/entity/Q110222845) |
+    | FAAM UUID | label           | aliases | description | Wikidata QID                                             |
+    | :-------: | :-------------: | :-----: | :---------: | :------------------------------------------------------: |
+    | dzxKag6A  | Edmond Waucampt |         |             | [Edmond Waucampt](http://wikidata.org/entity/Q110222845) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/dzxKag6A.html" height="800" width="1200" title="dzxKag6A"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dzxKag6A" height="800" width="1200" title="dzxKag6A"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: agent
 
 -	__[[Convoluut]](./b7q9UADS.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
 
 	
 

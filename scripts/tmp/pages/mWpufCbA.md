@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mWpufCbA
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                    | aliases | Wikidata QID                                                  |
-    | :-------: | :---------------: | :----------------------------: | :-----: | :-----------------------------------------------------------: |
-    | mWpufCbA  | Republic of Lucca | historical city-state in Italy |         | [Republic of Lucca](http://wwww.wikidata.org/entity/Q1235720) |
+    | FAAM UUID | label             | description                    | aliases | Wikidata QID                                             |
+    | :-------: | :---------------: | :----------------------------: | :-----: | :------------------------------------------------------: |
+    | mWpufCbA  | Republic of Lucca | historical city-state in Italy |         | [Republic of Lucca](http://wikidata.org/entity/Q1235720) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/mWpufCbA.html" height="800" width="1200" title="mWpufCbA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mWpufCbA" height="800" width="1200" title="mWpufCbA"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CGf6bUWt
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description               | aliases            | Wikidata QID                                  |
-    | :-------: | :----: | :-----------------------: | :----------------: | :-------------------------------------------: |
-    | CGf6bUWt  | Poland | country in Central Europe | Republic of Poland | [Poland](http://wwww.wikidata.org/entity/Q36) |
+    | FAAM UUID | label  | description               | aliases            | Wikidata QID                             |
+    | :-------: | :----: | :-----------------------: | :----------------: | :--------------------------------------: |
+    | CGf6bUWt  | Poland | country in Central Europe | Republic of Poland | [Poland](http://wikidata.org/entity/Q36) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/CGf6bUWt.html" height="800" width="1200" title="CGf6bUWt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CGf6bUWt" height="800" width="1200" title="CGf6bUWt"></iframe>
 
 ## Identifiers
 

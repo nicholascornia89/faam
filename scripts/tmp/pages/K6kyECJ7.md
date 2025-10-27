@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: K6kyECJ7
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                        | aliases      | Wikidata QID                                            |
-    | :-------: | :---------: | :------------------------------------------------: | :----------: | :-----------------------------------------------------: |
-    | K6kyECJ7  | medievalist | historian, scientist or expert in medieval studies | mediaevalist | [medievalist](http://wwww.wikidata.org/entity/Q3332711) |
+    | FAAM UUID | label       | description                                        | aliases      | Wikidata QID                                       |
+    | :-------: | :---------: | :------------------------------------------------: | :----------: | :------------------------------------------------: |
+    | K6kyECJ7  | medievalist | historian, scientist or expert in medieval studies | mediaevalist | [medievalist](http://wikidata.org/entity/Q3332711) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/K6kyECJ7.html" height="800" width="1200" title="K6kyECJ7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/K6kyECJ7" height="800" width="1200" title="K6kyECJ7"></iframe>
 
 ## Cross-references
 

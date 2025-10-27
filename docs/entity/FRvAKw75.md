@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FRvAKw75
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FRvAKw75.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FRvAKw75.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FRvAKw75.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FRvAKw75.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FRvAKw75.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FRvAKw75.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Moritz_Hauptmann.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                                             | Wikidata QID                                               |
-    | :-------: | :--------------: | :--------------: | :-----------------------------------------------------: | :--------------------------------------------------------: |
-    | FRvAKw75  | Moritz Hauptmann | Moritz Hauptmann | German music theorist, teacher and composer (1792–1868) | [Moritz Hauptmann](http://wwww.wikidata.org/entity/Q60908) |
+    | FAAM UUID | label            | aliases          | description                                             | Wikidata QID                                          |
+    | :-------: | :--------------: | :--------------: | :-----------------------------------------------------: | :---------------------------------------------------: |
+    | FRvAKw75  | Moritz Hauptmann | Moritz Hauptmann | German music theorist, teacher and composer (1792–1868) | [Moritz Hauptmann](http://wikidata.org/entity/Q60908) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/FRvAKw75.html" height="800" width="1200" title="FRvAKw75"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FRvAKw75" height="800" width="1200" title="FRvAKw75"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,43 @@ tags: agent
 
 -	__[12 canons : für 3 Sopranstimmen mit Begleitung des Pianoforte, op. 50](./cA8NtYcD.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902704540.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902704540.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Karl Davydov](./7FTvdvo6.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Davidov-Karl.jpg){align=left width="150" height="150"} 
+
+	Russian composer (1838–1889)
+
+-	__[August Wilhelmj](./ZBYUC5fa.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August_Wilhelmj.jpg){align=left width="150" height="150"} 
+
+	German violinist (1845–1908)
+
+-	__[Ferdinand David](./NdggfNk9.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferdinand_david.jpg){align=left width="150" height="150"} 
+
+	German musician (1810-1873)
+
+-	__[Felix Otto Dessoff](./LRAqJaCT.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Otto_Dessoff.jpg){align=left width="150" height="150"} 
+
+	German conductor and composer (1835-1892)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[12 Canons, Op.50](./DQUag5P8.md)__
 
 	
 

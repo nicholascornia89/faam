@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c7mRFMfo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                               | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :---------------------------------------: | :-----: | :---------------------------------------------: |
-    | c7mRFMfo  | Győr  | city in Győr-Moson-Sopron County, Hungary | Gyor    | [Győr](http://wwww.wikidata.org/entity/Q134494) |
+    | FAAM UUID | label | description                               | aliases | Wikidata QID                               |
+    | :-------: | :---: | :---------------------------------------: | :-----: | :----------------------------------------: |
+    | c7mRFMfo  | Győr  | city in Győr-Moson-Sopron County, Hungary | Gyor    | [Győr](http://wikidata.org/entity/Q134494) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/c7mRFMfo.html" height="800" width="1200" title="c7mRFMfo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c7mRFMfo" height="800" width="1200" title="c7mRFMfo"></iframe>
 
 ## Identifiers
 

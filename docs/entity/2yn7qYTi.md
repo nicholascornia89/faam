@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2yn7qYTi
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2yn7qYTi.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2yn7qYTi.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2yn7qYTi.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2yn7qYTi.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2yn7qYTi.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2yn7qYTi.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francesca_Cuzzoni_by_James_Caldwall.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description | Wikidata QID                                                 |
-    | :-------: | :---------------: | :---------------: | :---------: | :----------------------------------------------------------: |
-    | 2yn7qYTi  | Francesca Cuzzoni | Francesca Cuzzoni | singer      | [Francesca Cuzzoni](http://wwww.wikidata.org/entity/Q273664) |
+    | FAAM UUID | label             | aliases           | description | Wikidata QID                                            |
+    | :-------: | :---------------: | :---------------: | :---------: | :-----------------------------------------------------: |
+    | 2yn7qYTi  | Francesca Cuzzoni | Francesca Cuzzoni | singer      | [Francesca Cuzzoni](http://wikidata.org/entity/Q273664) |
 
 <br><br><br>
 
@@ -49,13 +53,13 @@ tags: agent
 
 	- [opera singer](./9giCtFiy.md)
 
-	- [](./E57MkHSb.md)
+	- [stage actor](./E57MkHSb.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/2yn7qYTi.html" height="800" width="1200" title="2yn7qYTi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2yn7qYTi" height="800" width="1200" title="2yn7qYTi"></iframe>
 
 ## Identifiers
 

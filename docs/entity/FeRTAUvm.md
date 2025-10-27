@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FeRTAUvm
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FeRTAUvm.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FeRTAUvm.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FeRTAUvm.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FeRTAUvm.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FeRTAUvm.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FeRTAUvm.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Henrik_Crusell_1826.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                 | description                                                      | Wikidata QID                                                |
-    | :-------: | :--------------: | :---------------------: | :--------------------------------------------------------------: | :---------------------------------------------------------: |
-    | FeRTAUvm  | Bernhard Crusell | Bernhard Henrik Crusell | Swedish-Finnish clarinetist, composer and translator (1775–1838) | [Bernhard Crusell](http://wwww.wikidata.org/entity/Q708911) |
+    | FAAM UUID | label            | aliases                 | description                                                      | Wikidata QID                                           |
+    | :-------: | :--------------: | :---------------------: | :--------------------------------------------------------------: | :----------------------------------------------------: |
+    | FeRTAUvm  | Bernhard Crusell | Bernhard Henrik Crusell | Swedish-Finnish clarinetist, composer and translator (1775–1838) | [Bernhard Crusell](http://wikidata.org/entity/Q708911) |
 
 <br><br><br>
 
@@ -57,13 +61,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./BzWe9XnY.md)
+	- [Kungliga Hovkapellet](./BzWe9XnY.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FeRTAUvm.html" height="800" width="1200" title="FeRTAUvm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FeRTAUvm" height="800" width="1200" title="FeRTAUvm"></iframe>
 
 ## Identifiers
 

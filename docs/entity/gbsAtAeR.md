@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gbsAtAeR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description    | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :------------: | :-----: | :----------------------------------------------: |
-    | gbsAtAeR  | Mozzo | Italian comune |         | [Mozzo](http://wwww.wikidata.org/entity/Q101264) |
+    | FAAM UUID | label | description    | aliases | Wikidata QID                                |
+    | :-------: | :---: | :------------: | :-----: | :-----------------------------------------: |
+    | gbsAtAeR  | Mozzo | Italian comune |         | [Mozzo](http://wikidata.org/entity/Q101264) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gbsAtAeR.html" height="800" width="1200" title="gbsAtAeR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gbsAtAeR" height="800" width="1200" title="gbsAtAeR"></iframe>
 
 ## Identifiers
 

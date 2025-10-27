@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "7P5LYwUf", "label": "M\u00e9thode de violon divis\u00e9e en 3 parties, op. 102", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7P5LYwUf.md\u0027\u003eM\u00e9thode de violon divis\u00e9e en 3 parties, op. 102\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-428466571.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4Jjg5FwX", "label": "string music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4Jjg5FwX.md\u0027\u003estring music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical form/genre\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LKEZbx72", "label": "method", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LKEZbx72.md\u0027\u003emethod\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic learning book; kind of textbook for a specified musical instrument or a selected problem of playing a certain instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "F5NrHRaK", "label": "M\u00e9thode de violon, Op. 102", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./F5NrHRaK.md\u0027\u003eM\u00e9thode de violon, Op. 102\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "7P5LYwUf", "to": "4Jjg5FwX", "width": 10}, {"from": "7P5LYwUf", "to": "LKEZbx72", "width": 10}, {"from": "7P5LYwUf", "to": "F5NrHRaK", "width": 10}, {"from": "F5NrHRaK", "to": "4Jjg5FwX", "width": 10}, {"from": "F5NrHRaK", "to": "LKEZbx72", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4Jjg5FwX", "label": "string music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4Jjg5FwX\u0027\u003estring music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical form/genre\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "F5NrHRaK", "label": "M\u00e9thode de violon, Op. 102", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/F5NrHRaK\u0027\u003eM\u00e9thode de violon, Op. 102\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "7P5LYwUf", "label": "M\u00e9thode de violon divis\u00e9e en 3 parties, op. 102", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7P5LYwUf\u0027\u003eM\u00e9thode de violon divis\u00e9e en 3 parties, op. 102\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BNF-428466571.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LKEZbx72", "label": "method", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LKEZbx72\u0027\u003emethod\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic learning book; kind of textbook for a specified musical instrument or a selected problem of playing a certain instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "4Jjg5FwX", "to": "F5NrHRaK", "width": 10}, {"from": "4Jjg5FwX", "to": "7P5LYwUf", "width": 10}, {"from": "LKEZbx72", "to": "F5NrHRaK", "width": 10}, {"from": "LKEZbx72", "to": "7P5LYwUf", "width": 10}, {"from": "F5NrHRaK", "to": "7P5LYwUf", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

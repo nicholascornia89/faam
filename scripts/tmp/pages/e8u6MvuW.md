@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: e8u6MvuW
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                   | aliases                     | Wikidata QID                                                            |
-    | :-------: | :-------------------------: | :---------------------------: | :-------------------------: | :---------------------------------------------------------------------: |
-    | e8u6MvuW  | Hochschule für Musik Berlin | Wikimedia disambiguation page | Hochschule für Musik Berlin | [Hochschule für Musik Berlin](http://wwww.wikidata.org/entity/Q1622200) |
+    | FAAM UUID | label                       | description                   | aliases                     | Wikidata QID                                                       |
+    | :-------: | :-------------------------: | :---------------------------: | :-------------------------: | :----------------------------------------------------------------: |
+    | e8u6MvuW  | Hochschule für Musik Berlin | Wikimedia disambiguation page | Hochschule für Musik Berlin | [Hochschule für Musik Berlin](http://wikidata.org/entity/Q1622200) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/e8u6MvuW.html" height="800" width="1200" title="e8u6MvuW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/e8u6MvuW" height="800" width="1200" title="e8u6MvuW"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 -	__[Andreas Moser](./chVHcWVu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German violinist and musicologist (1859-1925)
 

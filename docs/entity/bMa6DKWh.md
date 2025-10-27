@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bMa6DKWh
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :----------------------------------------: | :-----: | :---------------------------------------------------: |
-    | bMa6DKWh  | Bela Crkva | Town and municipality in Vojvodina, Serbia |         | [Bela Crkva](http://wwww.wikidata.org/entity/Q541470) |
+    | FAAM UUID | label      | description                                | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :----------------------------------------: | :-----: | :----------------------------------------------: |
+    | bMa6DKWh  | Bela Crkva | Town and municipality in Vojvodina, Serbia |         | [Bela Crkva](http://wikidata.org/entity/Q541470) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Serbia](http://www.wikidata.org/entity/Q403)
+	- [Serbia](Q403)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/bMa6DKWh.html" height="800" width="1200" title="bMa6DKWh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bMa6DKWh" height="800" width="1200" title="bMa6DKWh"></iframe>
 
 ## Identifiers
 

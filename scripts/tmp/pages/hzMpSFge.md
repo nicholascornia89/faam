@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hzMpSFge
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :-------------------------------------: | :-----: | :-----------------------------------------------: |
-    | hzMpSFge  | Bohemia | historical region in the Czech Republic | Bohemia | [Bohemia](http://wwww.wikidata.org/entity/Q39193) |
+    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :-------------------------------------: | :-----: | :------------------------------------------: |
+    | hzMpSFge  | Bohemia | historical region in the Czech Republic | Bohemia | [Bohemia](http://wikidata.org/entity/Q39193) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/hzMpSFge.html" height="800" width="1200" title="hzMpSFge"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hzMpSFge" height="800" width="1200" title="hzMpSFge"></iframe>
 
 ## Identifiers
 

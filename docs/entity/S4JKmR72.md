@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: S4JKmR72
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | aliases                                      | description                            | Wikidata QID                                      |
-    | :-------: | :-----: | :------------------------------------------: | :------------------------------------: | :-----------------------------------------------: |
-    | S4JKmR72  | Othello | The Tragedie of Othello, the Moore of Venice | theatrical play by William Shakespeare | [Othello](http://wwww.wikidata.org/entity/Q26833) |
+    | FAAM UUID | label   | aliases                                      | description                            | Wikidata QID                                 |
+    | :-------: | :-----: | :------------------------------------------: | :------------------------------------: | :------------------------------------------: |
+    | S4JKmR72  | Othello | The Tragedie of Othello, the Moore of Venice | theatrical play by William Shakespeare | [Othello](http://wikidata.org/entity/Q26833) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/S4JKmR72.html" height="800" width="1200" title="S4JKmR72"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/S4JKmR72" height="800" width="1200" title="S4JKmR72"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: h6XMiTJr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                                                            | aliases              | Wikidata QID                                                   |
-    | :-------: | :------------------: | :--------------------------------------------------------------------: | :------------------: | :------------------------------------------------------------: |
-    | h6XMiTJr  | Mühlhausen/Thuringia | district capital of the Unstrut Hainich District in Thuringia, Germany | Mühlhausen/Thüringen | [Mühlhausen/Thuringia](http://wwww.wikidata.org/entity/Q14925) |
+    | FAAM UUID | label                | description                                                            | aliases              | Wikidata QID                                              |
+    | :-------: | :------------------: | :--------------------------------------------------------------------: | :------------------: | :-------------------------------------------------------: |
+    | h6XMiTJr  | Mühlhausen/Thuringia | district capital of the Unstrut Hainich District in Thuringia, Germany | Mühlhausen/Thüringen | [Mühlhausen/Thuringia](http://wikidata.org/entity/Q14925) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/h6XMiTJr.html" height="800" width="1200" title="h6XMiTJr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/h6XMiTJr" height="800" width="1200" title="h6XMiTJr"></iframe>
 
 ## Identifiers
 

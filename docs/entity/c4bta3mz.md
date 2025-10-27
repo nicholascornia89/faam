@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c4bta3mz
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/c4bta3mz.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/c4bta3mz.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/c4bta3mz.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/c4bta3mz.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/c4bta3mz.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/c4bta3mz.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description      | Wikidata QID                                                  |
-    | :-------: | :---------------: | :---------------: | :--------------: | :-----------------------------------------------------------: |
-    | c4bta3mz  | Giovanni Tadolini | Giovanni Tadolini | Italian composer | [Giovanni Tadolini](http://wwww.wikidata.org/entity/Q5563995) |
+    | FAAM UUID | label             | aliases           | description      | Wikidata QID                                             |
+    | :-------: | :---------------: | :---------------: | :--------------: | :------------------------------------------------------: |
+    | c4bta3mz  | Giovanni Tadolini | Giovanni Tadolini | Italian composer | [Giovanni Tadolini](http://wikidata.org/entity/Q5563995) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./HrJb4zkG.md)
+	- [maestro](./HrJb4zkG.md)
 
 	- [teacher](./QBx3kSJW.md)
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/c4bta3mz.html" height="800" width="1200" title="c4bta3mz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c4bta3mz" height="800" width="1200" title="c4bta3mz"></iframe>
 
 ## Identifiers
 

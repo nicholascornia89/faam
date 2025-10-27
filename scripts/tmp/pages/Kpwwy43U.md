@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Kpwwy43U
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Kpwwy43U.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Kpwwy43U.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Kpwwy43U.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Kpwwy43U.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Kpwwy43U.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Kpwwy43U.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases | description                 | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :-----: | :-------------------------: | :----------------------------------------------------------------: |
-    | Kpwwy43U  | Michelangelo Gasparini |         | Italian composer and singer | [Michelangelo Gasparini](http://wwww.wikidata.org/entity/Q3856441) |
+    | FAAM UUID | label                  | aliases | description                 | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :-----: | :-------------------------: | :-----------------------------------------------------------: |
+    | Kpwwy43U  | Michelangelo Gasparini |         | Italian composer and singer | [Michelangelo Gasparini](http://wikidata.org/entity/Q3856441) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Kpwwy43U.html" height="800" width="1200" title="Kpwwy43U"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Kpwwy43U" height="800" width="1200" title="Kpwwy43U"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Faustina Bordoni](./iVwngdrW.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ca'_Rezzonico_Sala_dei_pastelli_-_Ritratto_di_Faustina_Bordoni_Hasse_-_Rosalba_Carriera_-_47x35.jpg){align=left width="150" height="150"} 
+
+	opera singer (1697-1781)
+
+</div>

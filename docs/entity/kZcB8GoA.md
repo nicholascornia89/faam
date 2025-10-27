@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kZcB8GoA
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                           | description                  | aliases | Wikidata QID                                                                                 |
-    | :-------: | :---------------------------------------------: | :--------------------------: | :-----: | :------------------------------------------------------------------------------------------: |
-    | kZcB8GoA  | open flutes with internal duct with fingerholes | class of musical instruments |         | [open flutes with internal duct with fingerholes](http://wwww.wikidata.org/entity/Q55738665) |
+    | FAAM UUID | label                                           | description                  | aliases | Wikidata QID                                                                            |
+    | :-------: | :---------------------------------------------: | :--------------------------: | :-----: | :-------------------------------------------------------------------------------------: |
+    | kZcB8GoA  | open flutes with internal duct with fingerholes | class of musical instruments |         | [open flutes with internal duct with fingerholes](http://wikidata.org/entity/Q55738665) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/kZcB8GoA.html" height="800" width="1200" title="kZcB8GoA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kZcB8GoA" height="800" width="1200" title="kZcB8GoA"></iframe>
 
 ## Cross-references
 

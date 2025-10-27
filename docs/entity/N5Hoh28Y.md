@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: N5Hoh28Y
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/N5Hoh28Y.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/N5Hoh28Y.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/N5Hoh28Y.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/N5Hoh28Y.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/N5Hoh28Y.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/N5Hoh28Y.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexandre-Guilmant.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases       | description                 | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----------: | :-------------------------: | :-----------------------------------------------------------: |
-    | N5Hoh28Y  | Alexandre Guilmant | Alex Guilmant | French composer (1837–1911) | [Alexandre Guilmant](http://wwww.wikidata.org/entity/Q350359) |
+    | FAAM UUID | label              | aliases       | description                 | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----------: | :-------------------------: | :------------------------------------------------------: |
+    | N5Hoh28Y  | Alexandre Guilmant | Alex Guilmant | French composer (1837–1911) | [Alexandre Guilmant](http://wikidata.org/entity/Q350359) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/N5Hoh28Y.html" height="800" width="1200" title="N5Hoh28Y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/N5Hoh28Y" height="800" width="1200" title="N5Hoh28Y"></iframe>
 
 ## Identifiers
 
@@ -89,26 +93,36 @@ tags: agent
 
 -	__[CANTATE N°45 : Es ist dir gesagt, Mensch, was gut ist](./EXeDLbH8.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331832.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331832.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Première messe à quatre voix solos et choeurs avec orchestre ou orgue : op. 6 / par Alexandre Guilmant](./KXn7q8My.md)__
 
-	![Image](../assets/images/thumbs/BNF-169895807.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-169895807.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Première messe à quatre voix solos et choeurs avec orchestre ou orgue : op. 6 / par Alexandre Guilmant](./KXn7q8My.md)__
 
-	![Image](../assets/images/thumbs/BNF-169895807.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-169895807.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pièces d'orgue](./LonMmkxh.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901172525.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901172525.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Marcel Dupré](./5YrR8BxV.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dupre.jpg){align=left width="150" height="150"} 
+
+	French organist and composer (1886–1971)
 
 </div>

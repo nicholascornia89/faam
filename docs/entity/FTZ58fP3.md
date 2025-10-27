@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FTZ58fP3
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000339397/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FTZ58fP3.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FTZ58fP3.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FTZ58fP3.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000339397/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FTZ58fP3.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FTZ58fP3.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FTZ58fP3.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000339397.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339397.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                  | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :----------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | FTZ58fP3  | KCG-000339397         | Concerto N° 1 in e : voor piano enOrchestra : Opus 11. | [external URL](2niWvJiL) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                  | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :----------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | FTZ58fP3  | KCG-000339397         | Concerto N° 1 in e : voor piano enOrchestra : Opus 11. | [external URL](https://catalogus.hogent.be/catalog/hog01:000339397) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -79,10 +83,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/FTZ58fP3.html" height="800" width="1200" title="FTZ58fP3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FTZ58fP3" height="800" width="1200" title="FTZ58fP3"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/FTZ58fP3.html" height="800" width="1200" title="FTZ58fP3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/FTZ58fP3" height="800" width="1200" title="FTZ58fP3"></iframe>

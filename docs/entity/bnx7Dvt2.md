@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bnx7Dvt2
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-42826443c/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bnx7Dvt2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bnx7Dvt2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bnx7Dvt2.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-42826443c/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bnx7Dvt2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bnx7Dvt2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bnx7Dvt2.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-42826443c.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42826443c.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                            | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | bnx7Dvt2  | BNF-42826443c         | Trois Sonates pour piano et viola da gamba ou violoncelle, composées par J. Seb. Bach. Edition nouvelle, revue, doigtée et enrichie de notes sur l'exécution par Fr. Grützmacher | [external URL](6fQyHcwz) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                            | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | bnx7Dvt2  | BNF-42826443c         | Trois Sonates pour piano et viola da gamba ou violoncelle, composées par J. Seb. Bach. Edition nouvelle, revue, doigtée et enrichie de notes sur l'exécution par Fr. Grützmacher | [external URL](http://catalogue.bnf.fr/ark:/12148/cb42826443c) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -97,10 +101,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/bnx7Dvt2.html" height="800" width="1200" title="bnx7Dvt2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bnx7Dvt2" height="800" width="1200" title="bnx7Dvt2"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/bnx7Dvt2.html" height="800" width="1200" title="bnx7Dvt2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/bnx7Dvt2" height="800" width="1200" title="bnx7Dvt2"></iframe>

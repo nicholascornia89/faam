@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LGixSzgF
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076581989707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LGixSzgF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LGixSzgF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LGixSzgF.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076581989707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LGixSzgF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LGixSzgF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LGixSzgF.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991076581989707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076581989707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                          | permalink                | provenance                              |
-    | :-------: | :--------------------: | :--------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | LGixSzgF  | BSB-991076581989707356 | Passionsmusik : nach dem Evangelisten Matthäus | [external URL](SRaiiKJr) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                          | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :--------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | LGixSzgF  | BSB-991076581989707356 | Passionsmusik : nach dem Evangelisten Matthäus | [external URL](https://mdz-nbn-resolving.de/details:bsb11134657) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -87,10 +91,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/LGixSzgF.html" height="800" width="1200" title="LGixSzgF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LGixSzgF" height="800" width="1200" title="LGixSzgF"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/LGixSzgF.html" height="800" width="1200" title="LGixSzgF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/LGixSzgF" height="800" width="1200" title="LGixSzgF"></iframe>

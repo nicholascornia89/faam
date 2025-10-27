@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iFQqgedU
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                                                                                                 | aliases | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
-    | iFQqgedU  | physical quantity | quantitative characterization of an aspect of a physical entity, phenomenon, event, process, transformation, relation, system, or substance |         | [physical quantity](http://wwww.wikidata.org/entity/Q107715) |
+    | FAAM UUID | label             | description                                                                                                                                 | aliases | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------------: |
+    | iFQqgedU  | physical quantity | quantitative characterization of an aspect of a physical entity, phenomenon, event, process, transformation, relation, system, or substance |         | [physical quantity](http://wikidata.org/entity/Q107715) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/iFQqgedU.html" height="800" width="1200" title="iFQqgedU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iFQqgedU" height="800" width="1200" title="iFQqgedU"></iframe>
 
 ## Cross-references
 

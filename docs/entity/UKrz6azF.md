@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UKrz6azF
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UKrz6azF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UKrz6azF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UKrz6azF.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UKrz6azF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UKrz6azF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UKrz6azF.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Delphin_Alard.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description                 | Wikidata QID                                                  |
-    | :-------: | :----------------: | :----------------: | :-------------------------: | :-----------------------------------------------------------: |
-    | UKrz6azF  | Jean-Delphin Alard | Jean-Delphin Alard | French musician (1815–1888) | [Jean-Delphin Alard](http://wwww.wikidata.org/entity/Q633796) |
+    | FAAM UUID | label              | aliases            | description                 | Wikidata QID                                             |
+    | :-------: | :----------------: | :----------------: | :-------------------------: | :------------------------------------------------------: |
+    | UKrz6azF  | Jean-Delphin Alard | Jean-Delphin Alard | French musician (1815–1888) | [Jean-Delphin Alard](http://wikidata.org/entity/Q633796) |
 
 <br><br><br>
 
@@ -71,7 +75,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/UKrz6azF.html" height="800" width="1200" title="UKrz6azF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UKrz6azF" height="800" width="1200" title="UKrz6azF"></iframe>
 
 ## Identifiers
 
@@ -97,7 +101,7 @@ tags: agent
 
 -	__[Ecole du violon, Méthode complète et progressive à l'usage du Conservatoire](./iBZ5XdH6.md)__
 
-	![Image](../assets/images/thumbs/BNF-42810019r.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42810019r.gif){align=left width="150" height="150"} 
 
 	
 

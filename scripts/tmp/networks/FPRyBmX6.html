@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "h64cbr2z", "label": "Alessandro Besozzi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./h64cbr2z.md\u0027\u003eAlessandro Besozzi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "FPRyBmX6", "label": "oboist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FPRyBmX6.md\u0027\u003eoboist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who plays oboe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "dek3dK5z", "label": "Giovanni Benedetto Platti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./dek3dK5z.md\u0027\u003eGiovanni Benedetto Platti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "EFo9QgMr", "label": "Stanislas Verroust", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EFo9QgMr.md\u0027\u003eStanislas Verroust\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, teacher and oboist (1814-1863)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7GsKtem6", "label": "Fr\u00e9d\u00e9ric Bonzon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7GsKtem6.md\u0027\u003eFr\u00e9d\u00e9ric Bonzon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch composer and oboist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SLJQN3cG", "label": "Henri Brod", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SLJQN3cG.md\u0027\u003eHenri Brod\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician (1799\u20131839)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WmzqRyzE", "label": "Ludwig Stassny", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WmzqRyzE.md\u0027\u003eLudwig Stassny\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e(1823-1883)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "h64cbr2z", "to": "FPRyBmX6", "width": 10}, {"from": "dek3dK5z", "to": "FPRyBmX6", "width": 10}, {"from": "FPRyBmX6", "to": "EFo9QgMr", "width": 10}, {"from": "FPRyBmX6", "to": "7GsKtem6", "width": 10}, {"from": "FPRyBmX6", "to": "SLJQN3cG", "width": 10}, {"from": "FPRyBmX6", "to": "WmzqRyzE", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WmzqRyzE", "label": "Ludwig Stassny", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WmzqRyzE\u0027\u003eLudwig Stassny\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e(1823-1883)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "FPRyBmX6", "label": "oboist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FPRyBmX6\u0027\u003eoboist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who plays oboe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "h64cbr2z", "label": "Alessandro Besozzi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/h64cbr2z\u0027\u003eAlessandro Besozzi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "dek3dK5z", "label": "Giovanni Benedetto Platti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dek3dK5z\u0027\u003eGiovanni Benedetto Platti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "EFo9QgMr", "label": "Stanislas Verroust", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/EFo9QgMr\u0027\u003eStanislas Verroust\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, teacher and oboist (1814-1863)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7GsKtem6", "label": "Fr\u00e9d\u00e9ric Bonzon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7GsKtem6\u0027\u003eFr\u00e9d\u00e9ric Bonzon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch composer and oboist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SLJQN3cG", "label": "Henri Brod", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SLJQN3cG\u0027\u003eHenri Brod\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician (1799\u20131839)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "WmzqRyzE", "to": "FPRyBmX6", "width": 10}, {"from": "h64cbr2z", "to": "FPRyBmX6", "width": 10}, {"from": "dek3dK5z", "to": "FPRyBmX6", "width": 10}, {"from": "FPRyBmX6", "to": "EFo9QgMr", "width": 10}, {"from": "FPRyBmX6", "to": "7GsKtem6", "width": 10}, {"from": "FPRyBmX6", "to": "SLJQN3cG", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

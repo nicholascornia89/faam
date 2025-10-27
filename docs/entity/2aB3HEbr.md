@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2aB3HEbr
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2aB3HEbr.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2aB3HEbr.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2aB3HEbr.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2aB3HEbr.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2aB3HEbr.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2aB3HEbr.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans_Bronsart_von_Schellendorff.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                           | aliases                        | description                 | Wikidata QID                                                              |
-    | :-------: | :-----------------------------: | :----------------------------: | :-------------------------: | :-----------------------------------------------------------------------: |
-    | 2aB3HEbr  | Hans Bronsart von Schellendorff | Hans Bronsart von Schellendorf | German composer (1830-1913) | [Hans Bronsart von Schellendorff](http://wwww.wikidata.org/entity/Q66163) |
+    | FAAM UUID | label                           | aliases                        | description                 | Wikidata QID                                                         |
+    | :-------: | :-----------------------------: | :----------------------------: | :-------------------------: | :------------------------------------------------------------------: |
+    | 2aB3HEbr  | Hans Bronsart von Schellendorff | Hans Bronsart von Schellendorf | German composer (1830-1913) | [Hans Bronsart von Schellendorff](http://wikidata.org/entity/Q66163) |
 
 <br><br><br>
 
@@ -59,17 +63,17 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./HEvY8fvF.md)
+	- [Hanover State Symphony Orchestra](./HEvY8fvF.md)
 
-	- [](./bNiuGkz8.md)
+	- [Hanover State Opera](./bNiuGkz8.md)
 
-	- [](./VmG6FMMo.md)
+	- [Hanover State Ballet](./VmG6FMMo.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/2aB3HEbr.html" height="800" width="1200" title="2aB3HEbr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2aB3HEbr" height="800" width="1200" title="2aB3HEbr"></iframe>
 
 ## Identifiers
 
@@ -90,3 +94,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Karl Heinrich Barth](./kaapaG6k.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/KHBarth.jpg){align=left width="150" height="150"} 
+
+	German musician (1847–1922)
+
+</div>

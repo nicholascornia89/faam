@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7qymy8cZ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                 | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :-----------------------------------------: | :-----: | :--------------------------------------------: |
-    | 7qymy8cZ  | Hanau | city in Main-Kinzig-Kreis in Hesse, Germany |         | [Hanau](http://wwww.wikidata.org/entity/Q3802) |
+    | FAAM UUID | label | description                                 | aliases | Wikidata QID                              |
+    | :-------: | :---: | :-----------------------------------------: | :-----: | :---------------------------------------: |
+    | 7qymy8cZ  | Hanau | city in Main-Kinzig-Kreis in Hesse, Germany |         | [Hanau](http://wikidata.org/entity/Q3802) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7qymy8cZ.html" height="800" width="1200" title="7qymy8cZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7qymy8cZ" height="800" width="1200" title="7qymy8cZ"></iframe>
 
 ## Identifiers
 

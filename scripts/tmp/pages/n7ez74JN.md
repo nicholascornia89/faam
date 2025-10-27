@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: n7ez74JN
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases               | description                        | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :-------------------: | :--------------------------------: | :--------------------------------------------------------------: |
-    | n7ez74JN  | The Barber of Seville | The Barber of Seville | French play by Pierre Beaumarchais | [The Barber of Seville](http://wwww.wikidata.org/entity/Q632743) |
+    | FAAM UUID | label                 | aliases               | description                        | Wikidata QID                                                |
+    | :-------: | :-------------------: | :-------------------: | :--------------------------------: | :---------------------------------------------------------: |
+    | n7ez74JN  | The Barber of Seville | The Barber of Seville | French play by Pierre Beaumarchais | [The Barber of Seville](http://wikidata.org/entity/Q632743) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/n7ez74JN.html" height="800" width="1200" title="n7ez74JN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/n7ez74JN" height="800" width="1200" title="n7ez74JN"></iframe>
 
 ## Identifiers
 

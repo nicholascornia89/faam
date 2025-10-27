@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LMnKWZg2
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                                          | aliases       | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :--------------------------------------------------: | :-----------: | :--------------------------------------------------------------: |
-    | LMnKWZg2  | western concert flute | transverse woodwind instrument made of metal or wood | concert flute | [Western concert flute](http://wwww.wikidata.org/entity/Q209554) |
+    | FAAM UUID | label                 | description                                          | aliases       | Wikidata QID                                                |
+    | :-------: | :-------------------: | :--------------------------------------------------: | :-----------: | :---------------------------------------------------------: |
+    | LMnKWZg2  | western concert flute | transverse woodwind instrument made of metal or wood | concert flute | [Western concert flute](http://wikidata.org/entity/Q209554) |
 
 <br><br><br>
 
@@ -31,21 +35,21 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./FSSEVqmR.md)
+	- [open side-blown flutes with fingerholes](./FSSEVqmR.md)
 
 	- [flute](./AdNoqEfD.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
-	- [](./Yjq47a2g.md)
+	- [transverse flute](./Yjq47a2g.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/LMnKWZg2.html" height="800" width="1200" title="LMnKWZg2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LMnKWZg2" height="800" width="1200" title="LMnKWZg2"></iframe>
 
 ## Cross-references
 
@@ -55,7 +59,7 @@ tags: musical_instrument
 
 -	__[August Verbesselt](./7M5wmsyu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and flute player, 1919–2012
 
@@ -67,7 +71,7 @@ tags: musical_instrument
 
 -	__[Giovanni Benedetto Platti](./dek3dK5z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LKEZbx72
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                                                                                    | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :----------------------------------------------------------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | LKEZbx72  | method | music learning book; kind of textbook for a specified musical instrument or a selected problem of playing a certain instrument | tutor   | [method](http://wwww.wikidata.org/entity/Q2250960) |
+    | FAAM UUID | label  | description                                                                                                                    | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :----------------------------------------------------------------------------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | LKEZbx72  | method | music learning book; kind of textbook for a specified musical instrument or a selected problem of playing a certain instrument | tutor   | [method](http://wikidata.org/entity/Q2250960) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/LKEZbx72.html" height="800" width="1200" title="LKEZbx72"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LKEZbx72" height="800" width="1200" title="LKEZbx72"></iframe>
 
 ## Cross-references
 
@@ -39,13 +43,13 @@ tags: keyword
 
 -	__[Méthode de violon divisée en 3 parties, op. 102](./7P5LYwUf.md)__
 
-	![Image](../assets/images/thumbs/BNF-428466571.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-428466571.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Vollständige theoretisch-practische Pianoforte-Schule op. 500. Von dem ersten Anfange bis zur höchsten Ausbildung fortschreitend](./QZgTTyck.md)__
 
-	![Image](../assets/images/thumbs/ORP-20137318.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20137318.gif){align=left width="150" height="150"} 
 
 	
 

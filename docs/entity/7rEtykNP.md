@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7rEtykNP
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | description                                              | aliases                   | Wikidata QID                                                                |
-    | :-------: | :-------------------------------: | :------------------------------------------------------: | :-----------------------: | :-------------------------------------------------------------------------: |
-    | 7rEtykNP  | Saint Petersburg State University | Russian federal state-owned higher education institution | St. Petersburg University | [Saint Petersburg State University](http://wwww.wikidata.org/entity/Q27621) |
+    | FAAM UUID | label                             | description                                              | aliases                   | Wikidata QID                                                           |
+    | :-------: | :-------------------------------: | :------------------------------------------------------: | :-----------------------: | :--------------------------------------------------------------------: |
+    | 7rEtykNP  | Saint Petersburg State University | Russian federal state-owned higher education institution | St. Petersburg University | [Saint Petersburg State University](http://wikidata.org/entity/Q27621) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./ZpwbPoZj.md)
+	[Saint Petersburg](./ZpwbPoZj.md)
 
 !!! quote "country" 
 
@@ -45,7 +49,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/7rEtykNP.html" height="800" width="1200" title="7rEtykNP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7rEtykNP" height="800" width="1200" title="7rEtykNP"></iframe>
 
 ## Cross-references
 

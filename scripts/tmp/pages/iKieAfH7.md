@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iKieAfH7
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/iKieAfH7.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/iKieAfH7.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/iKieAfH7.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/iKieAfH7.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/iKieAfH7.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/iKieAfH7.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Albert_Grisar.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                  | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----------: | :--------------------------: | :-------------------------------------------------------: |
-    | iKieAfH7  | Albert Grisar | Albert Grisar | Belgian composer (1808–1869) | [Albert Grisar](http://wwww.wikidata.org/entity/Q2003880) |
+    | FAAM UUID | label         | aliases       | description                  | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----------: | :--------------------------: | :--------------------------------------------------: |
+    | iKieAfH7  | Albert Grisar | Albert Grisar | Belgian composer (1808–1869) | [Albert Grisar](http://wikidata.org/entity/Q2003880) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/iKieAfH7.html" height="800" width="1200" title="iKieAfH7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iKieAfH7" height="800" width="1200" title="iKieAfH7"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SDDhsDDw
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/SDDhsDDw.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/SDDhsDDw.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/SDDhsDDw.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/SDDhsDDw.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/SDDhsDDw.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/SDDhsDDw.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                                            | description                       | Wikidata QID                                                                    |
-    | :-------: | :-------------------------------: | :------------------------------------------------: | :-------------------------------: | :-----------------------------------------------------------------------------: |
-    | SDDhsDDw  | Maatschappij der Nieuwe Concerten | De Maatschappij der Nieuwe Concerten van Antwerpen | Antwerp based concert association | [Maatschappij der Nieuwe Concerten](http://wwww.wikidata.org/entity/Q125423781) |
+    | FAAM UUID | label                             | aliases                                            | description                       | Wikidata QID                                                               |
+    | :-------: | :-------------------------------: | :------------------------------------------------: | :-------------------------------: | :------------------------------------------------------------------------: |
+    | SDDhsDDw  | Maatschappij der Nieuwe Concerten | De Maatschappij der Nieuwe Concerten van Antwerpen | Antwerp based concert association | [Maatschappij der Nieuwe Concerten](http://wikidata.org/entity/Q125423781) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/SDDhsDDw.html" height="800" width="1200" title="SDDhsDDw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SDDhsDDw" height="800" width="1200" title="SDDhsDDw"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: agent
 
 -	__[Orfeo](./X88EQe9Q.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901700127.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901700127.gif){align=left width="150" height="150"} 
 
 	
 

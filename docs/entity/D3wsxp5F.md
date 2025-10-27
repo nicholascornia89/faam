@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: D3wsxp5F
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                        | aliases             | Wikidata QID                                                 |
-    | :-------: | :----------------: | :--------------------------------: | :-----------------: | :----------------------------------------------------------: |
-    | D3wsxp5F  | Penitential Psalms | psalm expressive of sorrow for sin | psalm of confession | [penitential psalm](http://wwww.wikidata.org/entity/Q770987) |
+    | FAAM UUID | label              | description                        | aliases             | Wikidata QID                                            |
+    | :-------: | :----------------: | :--------------------------------: | :-----------------: | :-----------------------------------------------------: |
+    | D3wsxp5F  | Penitential Psalms | psalm expressive of sorrow for sin | psalm of confession | [penitential psalm](http://wikidata.org/entity/Q770987) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/D3wsxp5F.html" height="800" width="1200" title="D3wsxp5F"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/D3wsxp5F" height="800" width="1200" title="D3wsxp5F"></iframe>
 
 ## Cross-references
 

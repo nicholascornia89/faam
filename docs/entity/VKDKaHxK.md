@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VKDKaHxK
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                     | aliases                                   | description                             | Wikidata QID                                                                         |
-    | :-------: | :---------------------------------------: | :---------------------------------------: | :-------------------------------------: | :----------------------------------------------------------------------------------: |
-    | VKDKaHxK  | Wer Dank opfert, der preiset mich, BWV 17 | Wer Dank opfert, der preiset mich, BWV 17 | church cantata by Johann Sebastian Bach | [Wer Dank opfert, der preiset mich, BWV 17](http://wwww.wikidata.org/entity/Q131996) |
+    | FAAM UUID | label                                     | aliases                                   | description                             | Wikidata QID                                                                    |
+    | :-------: | :---------------------------------------: | :---------------------------------------: | :-------------------------------------: | :-----------------------------------------------------------------------------: |
+    | VKDKaHxK  | Wer Dank opfert, der preiset mich, BWV 17 | Wer Dank opfert, der preiset mich, BWV 17 | church cantata by Johann Sebastian Bach | [Wer Dank opfert, der preiset mich, BWV 17](http://wikidata.org/entity/Q131996) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/VKDKaHxK.html" height="800" width="1200" title="VKDKaHxK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VKDKaHxK" height="800" width="1200" title="VKDKaHxK"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[9 Tenor-Arien : aus versch. Cantaten ; mit Begl. d. Pianoforte](./gex3sqyu.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076576549707356.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7j5F7bbp
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-22768/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7j5F7bbp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7j5F7bbp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7j5F7bbp.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-22768/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7j5F7bbp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7j5F7bbp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7j5F7bbp.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-22768.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22768.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                   | permalink                | provenance                            |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | 7j5F7bbp  | SML-22768             | Early keyboard music; a collection of pieces written for the virginal, spinet, harpsichord, and clavichord. / Edited by Louis Oesterle. | [external URL](4DVjqtyz) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                   | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | 7j5F7bbp  | SML-22768             | Early keyboard music; a collection of pieces written for the virginal, spinet, harpsichord, and clavichord. / Edited by Louis Oesterle. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910344333405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -95,10 +99,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/7j5F7bbp.html" height="800" width="1200" title="7j5F7bbp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7j5F7bbp" height="800" width="1200" title="7j5F7bbp"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/7j5F7bbp.html" height="800" width="1200" title="7j5F7bbp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/7j5F7bbp" height="800" width="1200" title="7j5F7bbp"></iframe>

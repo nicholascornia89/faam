@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GcutmK87
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases | description | Wikidata QID                         |
-    | :-------: | :-------------------------: | :-----: | :---------: | :----------------------------------: |
-    | GcutmK87  | 3 Trios for Clarinets, Op.8 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                       | aliases | description | Wikidata QID                    |
+    | :-------: | :-------------------------: | :-----: | :---------: | :-----------------------------: |
+    | GcutmK87  | 3 Trios for Clarinets, Op.8 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/GcutmK87.html" height="800" width="1200" title="GcutmK87"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GcutmK87" height="800" width="1200" title="GcutmK87"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: musical_work
 
 -	__[Trois Trios : Pour Trois Clarinettes : Opéra 8](./3Jefp8WF.md)__
 
-	![Image](../assets/images/thumbs/KCG-000336430.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000336430.gif){align=left width="150" height="150"} 
 
 	
 

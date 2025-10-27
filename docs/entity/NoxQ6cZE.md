@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NoxQ6cZE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NoxQ6cZE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NoxQ6cZE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NoxQ6cZE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NoxQ6cZE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NoxQ6cZE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NoxQ6cZE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cover_tosi.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases               | description                                           | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-------------------: | :---------------------------------------------------: | :------------------------------------------------------------: |
-    | NoxQ6cZE  | Pier Francesco Tosi | Pietro Francesco Tosi | Italian castrato singer, composer and writer on music | [Pier Francesco Tosi](http://wwww.wikidata.org/entity/Q671057) |
+    | FAAM UUID | label               | aliases               | description                                           | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-------------------: | :---------------------------------------------------: | :-------------------------------------------------------: |
+    | NoxQ6cZE  | Pier Francesco Tosi | Pietro Francesco Tosi | Italian castrato singer, composer and writer on music | [Pier Francesco Tosi](http://wikidata.org/entity/Q671057) |
 
 <br><br><br>
 
@@ -57,13 +61,13 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./E57MkHSb.md)
+	- [stage actor](./E57MkHSb.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/NoxQ6cZE.html" height="800" width="1200" title="NoxQ6cZE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NoxQ6cZE" height="800" width="1200" title="NoxQ6cZE"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nCumdXnU
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nCumdXnU.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nCumdXnU.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nCumdXnU.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nCumdXnU.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nCumdXnU.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nCumdXnU.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/DecombesNadar.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :------------------------: | :--------------------------------------------------------: |
-    | nCumdXnU  | Émile Decombes | Emile Decombes | French pianist (1829-1912) | [Émile Decombes](http://wwww.wikidata.org/entity/Q3274943) |
+    | FAAM UUID | label          | aliases        | description                | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :------------------------: | :---------------------------------------------------: |
+    | nCumdXnU  | Émile Decombes | Emile Decombes | French pianist (1829-1912) | [Émile Decombes](http://wikidata.org/entity/Q3274943) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/nCumdXnU.html" height="800" width="1200" title="nCumdXnU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nCumdXnU" height="800" width="1200" title="nCumdXnU"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Alfred Cortot](./6e2B5YAh.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alfred_Cortot_01.jpg){align=left width="150" height="150"} 
+
+	Franco-Swiss pianist and conductor
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hUzCSsxA
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hUzCSsxA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hUzCSsxA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hUzCSsxA.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hUzCSsxA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hUzCSsxA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hUzCSsxA.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases                               | description                                                                         | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :-----------------------------------: | :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------: |
-    | hUzCSsxA  | Mikhail Ippolitov-Ivanov | Mikhail Mikhailovich Ippolitov-Ivanov | Russian and Soviet composer, conductor , musicologist and music teacher (1859–1935) | [Mikhail Ippolitov-Ivanov](http://wwww.wikidata.org/entity/Q346815) |
+    | FAAM UUID | label                    | aliases                               | description                                                                         | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :-----------------------------------: | :---------------------------------------------------------------------------------: | :------------------------------------------------------------: |
+    | hUzCSsxA  | Mikhail Ippolitov-Ivanov | Mikhail Mikhailovich Ippolitov-Ivanov | Russian and Soviet composer, conductor , musicologist and music teacher (1859–1935) | [Mikhail Ippolitov-Ivanov](http://wikidata.org/entity/Q346815) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/hUzCSsxA.html" height="800" width="1200" title="hUzCSsxA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hUzCSsxA" height="800" width="1200" title="hUzCSsxA"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Leonid Nikolayev](./HX8ujrS4.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Russian musician (1878–1942)
+
+</div>

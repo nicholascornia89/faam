@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DjwLrnKK
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                   | aliases | Wikidata QID                                           |
-    | :-------: | :---------: | :---------------------------: | :-----: | :----------------------------------------------------: |
-    | DjwLrnKK  | Montmorency | commune in Val-d'Oise, France | Émile   | [Montmorency](http://wwww.wikidata.org/entity/Q316891) |
+    | FAAM UUID | label       | description                   | aliases | Wikidata QID                                      |
+    | :-------: | :---------: | :---------------------------: | :-----: | :-----------------------------------------------: |
+    | DjwLrnKK  | Montmorency | commune in Val-d'Oise, France | Émile   | [Montmorency](http://wikidata.org/entity/Q316891) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/DjwLrnKK.html" height="800" width="1200" title="DjwLrnKK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DjwLrnKK" height="800" width="1200" title="DjwLrnKK"></iframe>
 
 ## Identifiers
 

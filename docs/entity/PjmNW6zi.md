@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PjmNW6zi
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PjmNW6zi.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PjmNW6zi.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PjmNW6zi.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PjmNW6zi.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PjmNW6zi.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PjmNW6zi.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolf_Rebner.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases               | description                   | Wikidata QID                                           |
-    | :-------: | :----------: | :-------------------: | :---------------------------: | :----------------------------------------------------: |
-    | PjmNW6zi  | Adolf Rebner | Adolf Franklin Rebner | Austrian musician (1876–1967) | [Adolf Rebner](http://wwww.wikidata.org/entity/Q87447) |
+    | FAAM UUID | label        | aliases               | description                   | Wikidata QID                                      |
+    | :-------: | :----------: | :-------------------: | :---------------------------: | :-----------------------------------------------: |
+    | PjmNW6zi  | Adolf Rebner | Adolf Franklin Rebner | Austrian musician (1876–1967) | [Adolf Rebner](http://wikidata.org/entity/Q87447) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/PjmNW6zi.html" height="800" width="1200" title="PjmNW6zi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PjmNW6zi" height="800" width="1200" title="PjmNW6zi"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Paul Hindemith](./48yUL6Ge.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Paul_Hindemith_1923.jpg){align=left width="150" height="150"} 
+
+	German composer (1895–1963)
+
+</div>

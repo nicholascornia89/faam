@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2iaqdKhu
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                       | aliases           | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :-----------------------------------------------: | :---------------: | :---------------------------------------------------------------: |
-    | 2iaqdKhu  | Second Polish Republic | country in Central and Eastern Europe (1918–1939) | II Rzeczpospolita | [Second Polish Republic](http://wwww.wikidata.org/entity/Q207272) |
+    | FAAM UUID | label                  | description                                       | aliases           | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :-----------------------------------------------: | :---------------: | :----------------------------------------------------------: |
+    | 2iaqdKhu  | Second Polish Republic | country in Central and Eastern Europe (1918–1939) | II Rzeczpospolita | [Second Polish Republic](http://wikidata.org/entity/Q207272) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/2iaqdKhu.html" height="800" width="1200" title="2iaqdKhu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2iaqdKhu" height="800" width="1200" title="2iaqdKhu"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Wanda Landowska](./ANygk75M.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
 
 	(1879-1959) Polish-French harpsichordist
 

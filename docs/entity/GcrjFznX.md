@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GcrjFznX
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSL-1677119489/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GcrjFznX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GcrjFznX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GcrjFznX.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSL-1677119489/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GcrjFznX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GcrjFznX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GcrjFznX.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSL-1677119489.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSL-1677119489.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                     | permalink                | provenance                            |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | GcrjFznX  | BSL-1677119489        | Suite (Menuett, Gavotte, Siciliano und Gigue) für Violine allein : op. 43 | [external URL](2mb4qe86) | [Berlin State Library](./2DsweKwv.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                     | permalink                                                                      | provenance                            |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :-----------------------------------: |
+    | GcrjFznX  | BSL-1677119489        | Suite (Menuett, Gavotte, Siciliano und Gigue) für Violine allein : op. 43 | [external URL](http://resolver.staatsbibliothek-berlin.de/SBB000299F700000000) | [Berlin State Library](./2DsweKwv.md) |
 
 ## Statements
 
@@ -84,10 +88,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/GcrjFznX.html" height="800" width="1200" title="GcrjFznX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GcrjFznX" height="800" width="1200" title="GcrjFznX"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/GcrjFznX.html" height="800" width="1200" title="GcrjFznX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/GcrjFznX" height="800" width="1200" title="GcrjFznX"></iframe>

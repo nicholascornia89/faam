@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BzgzuT8t
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                  | aliases                | Wikidata QID                                   |
-    | :-------: | :----: | :--------------------------: | :--------------------: | :--------------------------------------------: |
-    | BzgzuT8t  | Monaco | microstate in Western Europe | Principality of Monaco | [Monaco](http://wwww.wikidata.org/entity/Q235) |
+    | FAAM UUID | label  | description                  | aliases                | Wikidata QID                              |
+    | :-------: | :----: | :--------------------------: | :--------------------: | :---------------------------------------: |
+    | BzgzuT8t  | Monaco | microstate in Western Europe | Principality of Monaco | [Monaco](http://wikidata.org/entity/Q235) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BzgzuT8t.html" height="800" width="1200" title="BzgzuT8t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BzgzuT8t" height="800" width="1200" title="BzgzuT8t"></iframe>
 
 ## Identifiers
 

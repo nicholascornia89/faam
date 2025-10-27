@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XtpKUN2w
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143988p58/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XtpKUN2w.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XtpKUN2w.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XtpKUN2w.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143988p58/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XtpKUN2w.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XtpKUN2w.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XtpKUN2w.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143988p58.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p58.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title  | permalink                | provenance                         |
-    | :-------: | :-------------------: | :----: | :----------------------: | :--------------------------------: |
-    | XtpKUN2w  | ORP-20143988p58       | Pavane | [external URL](9JZUardt) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title  | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :----: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | XtpKUN2w  | ORP-20143988p58       | Pavane | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22440) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "note" 
 
@@ -63,10 +67,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/XtpKUN2w.html" height="800" width="1200" title="XtpKUN2w"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XtpKUN2w" height="800" width="1200" title="XtpKUN2w"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/XtpKUN2w.html" height="800" width="1200" title="XtpKUN2w"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/XtpKUN2w" height="800" width="1200" title="XtpKUN2w"></iframe>

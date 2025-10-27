@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ZpAqTJvQ", "label": "Tom\u00e1s Luis de Victoria", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZpAqTJvQ.md\u0027\u003eTom\u00e1s Luis de Victoria\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer (c. 1548 \u2013 1611)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c3/Tom%C3%A1s_Luis_de_Victoria.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "b9KdyoJK", "label": "Recessit pastor noster", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./b9KdyoJK.md\u0027\u003eRecessit pastor noster\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BRFWyvXx", "label": "responsory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BRFWyvXx.md\u0027\u003eresponsory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecategory of Western chant serving at Matins and monastic Vespers as musical postludes to the reading of lessons, as the gradual and alleluia do at the Mass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ik3NwdWW", "label": "motet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ik3NwdWW.md\u0027\u003emotet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the most important forms of polyphonic music from about 1220 to 1750\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "SGrwmsQj", "label": "ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Ann\u00e9e -1893", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SGrwmsQj.md\u0027\u003eANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Ann\u00e9e -1893\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-KV7617.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "mK2saWSr", "label": "Charles Bordes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mK2saWSr.md\u0027\u003eCharles Bordes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench music teacher and composer (1863-1909)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Bordes_Comoedia.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "ZpAqTJvQ", "to": "b9KdyoJK", "width": 10}, {"from": "BRFWyvXx", "to": "b9KdyoJK", "width": 10}, {"from": "ik3NwdWW", "to": "b9KdyoJK", "width": 10}, {"from": "ik3NwdWW", "to": "SGrwmsQj", "width": 1}, {"from": "mK2saWSr", "to": "b9KdyoJK", "width": 10}, {"from": "b9KdyoJK", "to": "SGrwmsQj", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ik3NwdWW", "label": "motet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ik3NwdWW\u0027\u003emotet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the most important forms of polyphonic music from about 1220 to 1750\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "b9KdyoJK", "label": "Recessit pastor noster", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/b9KdyoJK\u0027\u003eRecessit pastor noster\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "SGrwmsQj", "label": "ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Ann\u00e9e -1893", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SGrwmsQj\u0027\u003eANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Ann\u00e9e -1893\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-KV7617.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ZpAqTJvQ", "label": "Tom\u00e1s Luis de Victoria", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZpAqTJvQ\u0027\u003eTom\u00e1s Luis de Victoria\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer (c. 1548 \u2013 1611)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c3/Tom%C3%A1s_Luis_de_Victoria.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "mK2saWSr", "label": "Charles Bordes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mK2saWSr\u0027\u003eCharles Bordes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench music teacher and composer (1863-1909)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Bordes_Comoedia.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BRFWyvXx", "label": "responsory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BRFWyvXx\u0027\u003eresponsory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecategory of Western chant serving at Matins and monastic Vespers as musical postludes to the reading of lessons, as the gradual and alleluia do at the Mass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "ik3NwdWW", "to": "b9KdyoJK", "width": 10}, {"from": "ik3NwdWW", "to": "SGrwmsQj", "width": 1}, {"from": "ZpAqTJvQ", "to": "b9KdyoJK", "width": 10}, {"from": "mK2saWSr", "to": "b9KdyoJK", "width": 10}, {"from": "SGrwmsQj", "to": "b9KdyoJK", "width": 10}, {"from": "BRFWyvXx", "to": "b9KdyoJK", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

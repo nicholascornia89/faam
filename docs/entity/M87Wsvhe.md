@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M87Wsvhe
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                                             | aliases               | Wikidata QID                                               |
-    | :-------: | :-------------: | :---------------------------------------------------------------------: | :-------------------: | :--------------------------------------------------------: |
-    | M87Wsvhe  | instrumentation | particular combination of musical instruments employed in a composition | medium of performance | [instrumentation](http://wwww.wikidata.org/entity/Q617028) |
+    | FAAM UUID | label           | description                                                             | aliases               | Wikidata QID                                          |
+    | :-------: | :-------------: | :---------------------------------------------------------------------: | :-------------------: | :---------------------------------------------------: |
+    | M87Wsvhe  | instrumentation | particular combination of musical instruments employed in a composition | medium of performance | [instrumentation](http://wikidata.org/entity/Q617028) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: annotation_type
 
 !!! quote "subclass of" 
 
-	- [](./gaUmqs4E.md)
+	- [music composition](./gaUmqs4E.md)
 
 !!! quote "instance of" 
 
@@ -45,7 +49,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/M87Wsvhe.html" height="800" width="1200" title="M87Wsvhe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M87Wsvhe" height="800" width="1200" title="M87Wsvhe"></iframe>
 
 ## Cross-references
 

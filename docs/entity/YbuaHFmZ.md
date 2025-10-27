@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YbuaHFmZ
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                     | aliases          | Wikidata QID                                             |
-    | :-------: | :----------: | :-----------------------------: | :--------------: | :------------------------------------------------------: |
-    | YbuaHFmZ  | head teacher | most senior teacher at a school | school principal | [head teacher](http://wwww.wikidata.org/entity/Q1056391) |
+    | FAAM UUID | label        | description                     | aliases          | Wikidata QID                                        |
+    | :-------: | :----------: | :-----------------------------: | :--------------: | :-------------------------------------------------: |
+    | YbuaHFmZ  | head teacher | most senior teacher at a school | school principal | [head teacher](http://wikidata.org/entity/Q1056391) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/YbuaHFmZ.html" height="800" width="1200" title="YbuaHFmZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YbuaHFmZ" height="800" width="1200" title="YbuaHFmZ"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Joannes Brans](./WFtzHq9o.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch teacher and Belgian school director and inspector
 

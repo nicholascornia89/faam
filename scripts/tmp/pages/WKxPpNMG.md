@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WKxPpNMG
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                          | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :----------------------------------: | :-----: | :-----------------------------------------------------: |
-    | WKxPpNMG  | Eton College | school in Windsor and Maidenhead, UK | Eton    | [Eton College](http://wwww.wikidata.org/entity/Q192088) |
+    | FAAM UUID | label        | description                          | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :----------------------------------: | :-----: | :------------------------------------------------: |
+    | WKxPpNMG  | Eton College | school in Windsor and Maidenhead, UK | Eton    | [Eton College](http://wikidata.org/entity/Q192088) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./79ARPmJh.md)
+	[Eton](./79ARPmJh.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/WKxPpNMG.html" height="800" width="1200" title="WKxPpNMG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WKxPpNMG" height="800" width="1200" title="WKxPpNMG"></iframe>
 
 ## Cross-references
 

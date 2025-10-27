@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8zWyxZH2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                   | aliases  | Wikidata QID                                          |
-    | :-------: | :------------: | :-------------------------------------------: | :------: | :---------------------------------------------------: |
-    | 8zWyxZH2  | Atlantic Ocean | ocean between Europe, Africa and the Americas | Atlantic | [Atlantic Ocean](http://wwww.wikidata.org/entity/Q97) |
+    | FAAM UUID | label          | description                                   | aliases  | Wikidata QID                                     |
+    | :-------: | :------------: | :-------------------------------------------: | :------: | :----------------------------------------------: |
+    | 8zWyxZH2  | Atlantic Ocean | ocean between Europe, Africa and the Americas | Atlantic | [Atlantic Ocean](http://wikidata.org/entity/Q97) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8zWyxZH2.html" height="800" width="1200" title="8zWyxZH2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8zWyxZH2" height="800" width="1200" title="8zWyxZH2"></iframe>
 
 ## Identifiers
 

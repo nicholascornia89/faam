@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7hzGTYxW
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                              | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | 7hzGTYxW  | Koblenz | German city on the banks of the Rhine and of the Moselle | Coblenz | [Koblenz](http://wwww.wikidata.org/entity/Q3104) |
+    | FAAM UUID | label   | description                                              | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | 7hzGTYxW  | Koblenz | German city on the banks of the Rhine and of the Moselle | Coblenz | [Koblenz](http://wikidata.org/entity/Q3104) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7hzGTYxW.html" height="800" width="1200" title="7hzGTYxW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7hzGTYxW" height="800" width="1200" title="7hzGTYxW"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Daniel Hünten](./ZJUGoDLC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1760-1823)
 

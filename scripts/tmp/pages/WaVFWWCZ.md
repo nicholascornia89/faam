@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WaVFWWCZ
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                        | aliases                 | Wikidata QID                                              |
-    | :-------: | :-------------: | :--------------------------------: | :---------------------: | :-------------------------------------------------------: |
-    | WaVFWWCZ  | Austria-Hungary | 1867–1918 empire in Central Europe | Austro-Hungarian Empire | [Austria–Hungary](http://wwww.wikidata.org/entity/Q28513) |
+    | FAAM UUID | label           | description                        | aliases                 | Wikidata QID                                         |
+    | :-------: | :-------------: | :--------------------------------: | :---------------------: | :--------------------------------------------------: |
+    | WaVFWWCZ  | Austria-Hungary | 1867–1918 empire in Central Europe | Austro-Hungarian Empire | [Austria–Hungary](http://wikidata.org/entity/Q28513) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/WaVFWWCZ.html" height="800" width="1200" title="WaVFWWCZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WaVFWWCZ" height="800" width="1200" title="WaVFWWCZ"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: country
 
 -	__[Leopold Jansa](./aovZZUxK.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/9/9a/Leopold_Jansa.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Jansa.jpg){align=left width="150" height="150"} 
 
 	Czech violinist, music educator and composer (1795–1875)
 

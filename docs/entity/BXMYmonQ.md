@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BXMYmonQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BXMYmonQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BXMYmonQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BXMYmonQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BXMYmonQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BXMYmonQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BXMYmonQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Amilcare_Ponchielli_(before_1886)_-_Archivio_Storico_Ricordi_FOTO000794_-_Restoration.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases | description                  | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-----: | :--------------------------: | :------------------------------------------------------------: |
-    | BXMYmonQ  | Amilcare Ponchielli |         | Italian composer (1834-1886) | [Amilcare Ponchielli](http://wwww.wikidata.org/entity/Q207390) |
+    | FAAM UUID | label               | aliases | description                  | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-----: | :--------------------------: | :-------------------------------------------------------: |
+    | BXMYmonQ  | Amilcare Ponchielli |         | Italian composer (1834-1886) | [Amilcare Ponchielli](http://wikidata.org/entity/Q207390) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./gPszdmNe.md)
+	- [professor](./gPszdmNe.md)
 
 	- [organist](./ZhptKYF3.md)
 
@@ -67,13 +71,13 @@ tags: agent
 
 	- [Milan Conservatory](./Bt83smaN.md)
 
-	- [](./cMxtg4VT.md)
+	- [Bergamo Cathedral](./cMxtg4VT.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BXMYmonQ.html" height="800" width="1200" title="BXMYmonQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BXMYmonQ" height="800" width="1200" title="BXMYmonQ"></iframe>
 
 ## Identifiers
 
@@ -94,3 +98,31 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Pietro Mascagni](./45qa8gkh.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pietro_Mascagni_2.jpg){align=left width="150" height="150"} 
+
+	Italian composer known for operas (1863–1945)
+
+-	__[Giacomo Puccini](./MAnxgT8A.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/GiacomoPuccini.jpg){align=left width="150" height="150"} 
+
+	Italian opera composer (1858–1924)
+
+-	__[Giovanni Tebaldini](./fQFH2wUL.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tebaldini.jpg){align=left width="150" height="150"} 
+
+	Italian composer (1864–1952)
+
+-	__[Marco Enrico Bossi](./3FddhNGM.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Marco_Enrico_Bossi,_1905.jpg){align=left width="150" height="150"} 
+
+	Italian organist, composer, improviser and pedagogue. (1861–1925)
+
+</div>

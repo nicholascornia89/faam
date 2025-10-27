@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AxAVvEqV
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                                                                                                                       | aliases          | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | :--------------: | :------------------------------------------------------: |
-    | AxAVvEqV  | concertmaster | profession; leader of the first violin section in an orchestra (or clarinet in a concert band) and the instrument-playing leader of the orchestra | principal violin | [concertmaster](http://wwww.wikidata.org/entity/Q691031) |
+    | FAAM UUID | label         | description                                                                                                                                       | aliases          | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | :--------------: | :-------------------------------------------------: |
+    | AxAVvEqV  | concertmaster | profession; leader of the first violin section in an orchestra (or clarinet in a concert band) and the instrument-playing leader of the orchestra | principal violin | [concertmaster](http://wikidata.org/entity/Q691031) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/AxAVvEqV.html" height="800" width="1200" title="AxAVvEqV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AxAVvEqV" height="800" width="1200" title="AxAVvEqV"></iframe>
 
 ## Cross-references
 
@@ -61,13 +65,13 @@ tags: occupation
 
 -	__[Roberto Michelucci](./nZ858ad7.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/18/Tokio_1972._Roberto_Michelucci_riceve_il_Disco_D%27oro.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tokio_1972._Roberto_Michelucci_riceve_il_Disco_D%27oro.jpg){align=left width="150" height="150"} 
 
 	Italian violinist (1922–2010)
 
 -	__[Karl Joseph Toeschi](./8U229qGB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1731-1788)
 

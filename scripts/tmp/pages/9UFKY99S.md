@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9UFKY99S
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/9UFKY99S.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/9UFKY99S.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/9UFKY99S.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/9UFKY99S.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/9UFKY99S.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/9UFKY99S.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Berthold_Tours.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :------------------------: | :--------------------------------------------------------: |
-    | 9UFKY99S  | Berthold Tours | Berthold Tours | Dutch composer (1838-1897) | [Berthold Tours](http://wwww.wikidata.org/entity/Q2793621) |
+    | FAAM UUID | label          | aliases        | description                | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :------------------------: | :---------------------------------------------------: |
+    | 9UFKY99S  | Berthold Tours | Berthold Tours | Dutch composer (1838-1897) | [Berthold Tours](http://wikidata.org/entity/Q2793621) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/9UFKY99S.html" height="800" width="1200" title="9UFKY99S"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9UFKY99S" height="800" width="1200" title="9UFKY99S"></iframe>
 
 ## Identifiers
 
@@ -87,7 +91,15 @@ tags: agent
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[30 Melodies](./exyTTsgG.md)__
 
 	
 

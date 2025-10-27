@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HX8ujrS4
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HX8ujrS4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HX8ujrS4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HX8ujrS4.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HX8ujrS4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HX8ujrS4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HX8ujrS4.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                        | description                  | Wikidata QID                                                 |
-    | :-------: | :--------------: | :----------------------------: | :--------------------------: | :----------------------------------------------------------: |
-    | HX8ujrS4  | Leonid Nikolayev | Leonid Vladimirovich Nikolayev | Russian musician (1878–1942) | [Leonid Nikolayev](http://wwww.wikidata.org/entity/Q2023778) |
+    | FAAM UUID | label            | aliases                        | description                  | Wikidata QID                                            |
+    | :-------: | :--------------: | :----------------------------: | :--------------------------: | :-----------------------------------------------------: |
+    | HX8ujrS4  | Leonid Nikolayev | Leonid Vladimirovich Nikolayev | Russian musician (1878–1942) | [Leonid Nikolayev](http://wikidata.org/entity/Q2023778) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [pianist](./T6nAVeGM.md)
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/HX8ujrS4.html" height="800" width="1200" title="HX8ujrS4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HX8ujrS4" height="800" width="1200" title="HX8ujrS4"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Dmitri Shostakovich](./D6jgxFyi.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg){align=left width="150" height="150"} 
+
+	Soviet composer and pianist (1906-1975)
+
+-	__[Maria Yudina](./96zMohM3.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Maria_Yudina.jpg){align=left width="150" height="150"} 
+
+	Soviet pianist
+
+</div>

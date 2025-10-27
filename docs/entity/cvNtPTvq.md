@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cvNtPTvq
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description                            | Wikidata QID                                            |
-    | :-------: | :---------: | :---------: | :------------------------------------: | :-----------------------------------------------------: |
-    | cvNtPTvq  | La mascotte | La mascotte | three-act comic opera by Edmond Audran | [La mascotte](http://wwww.wikidata.org/entity/Q3210615) |
+    | FAAM UUID | label       | aliases     | description                            | Wikidata QID                                       |
+    | :-------: | :---------: | :---------: | :------------------------------------: | :------------------------------------------------: |
+    | cvNtPTvq  | La mascotte | La mascotte | three-act comic opera by Edmond Audran | [La mascotte](http://wikidata.org/entity/Q3210615) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/cvNtPTvq.html" height="800" width="1200" title="cvNtPTvq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cvNtPTvq" height="800" width="1200" title="cvNtPTvq"></iframe>
 
 ## Identifiers
 
@@ -63,19 +67,19 @@ tags: musical_work
 
 -	__[La Mascotte : opéra-comique en 3 actes](./9TFwhCHq.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902614491.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902614491.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La Mascotte : opéra-comique en 3 actes](./743qkqfG.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901706736.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901706736.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La Mascotte : opéra-comique en 3 actes](./HoH6TbZs.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903711494.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903711494.gif){align=left width="150" height="150"} 
 
 	
 

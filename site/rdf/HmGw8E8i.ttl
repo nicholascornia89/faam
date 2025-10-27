@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HmGw8E8i a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "company that licenses compositions, collects royalties and distributes them to the composers"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1917775>,
+        "15990586"^^xsd:string,
+        "HmGw8E8i"^^xsd:string ;
+    skos:altLabel "music publisher"^^xsd:string,
+        "music publishing company"^^xsd:string ;
+    skos:prefLabel "music publishing company"^^xsd:string .
+

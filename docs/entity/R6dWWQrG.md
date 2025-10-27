@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: R6dWWQrG
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description               | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------------------: | :-----: | :------------------------------------------------: |
-    | R6dWWQrG  | Moulins | commune in Allier, France |         | [Moulins](http://wwww.wikidata.org/entity/Q184883) |
+    | FAAM UUID | label   | description               | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------------------: | :-----: | :-------------------------------------------: |
+    | R6dWWQrG  | Moulins | commune in Allier, France |         | [Moulins](http://wikidata.org/entity/Q184883) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/R6dWWQrG.html" height="800" width="1200" title="R6dWWQrG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/R6dWWQrG" height="800" width="1200" title="R6dWWQrG"></iframe>
 
 ## Identifiers
 

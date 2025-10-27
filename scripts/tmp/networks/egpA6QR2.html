@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5GB5SfNe", "label": "Stanislao Mattei", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5GB5SfNe.md\u0027\u003eStanislao Mattei\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Conventual Franciscan, composer and music theorist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\u0421\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u043e_\u041c\u0430\u0442\u0442\u0435\u0438.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "egpA6QR2", "label": "religious", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./egpA6QR2.md\u0027\u003ereligious\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emember of a Catholic order\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hAkk3Hys", "label": "Giuseppe Baini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./hAkk3Hys.md\u0027\u003eGiuseppe Baini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian priest, music critic and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giuseppe_Baini_-_Musikhistoriker_und_Komponist.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "5GB5SfNe", "to": "egpA6QR2", "width": 10}, {"from": "hAkk3Hys", "to": "egpA6QR2", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "egpA6QR2", "label": "religious", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/egpA6QR2\u0027\u003ereligious\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emember of a Catholic order\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hAkk3Hys", "label": "Giuseppe Baini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hAkk3Hys\u0027\u003eGiuseppe Baini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian priest, music critic and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giuseppe_Baini_-_Musikhistoriker_und_Komponist.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5GB5SfNe", "label": "Stanislao Mattei", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5GB5SfNe\u0027\u003eStanislao Mattei\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Conventual Franciscan, composer and music theorist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\u0421\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u043e_\u041c\u0430\u0442\u0442\u0435\u0438.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "egpA6QR2", "to": "hAkk3Hys", "width": 10}, {"from": "egpA6QR2", "to": "5GB5SfNe", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

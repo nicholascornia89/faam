@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NfWJWnLc
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NfWJWnLc.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NfWJWnLc.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NfWJWnLc.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NfWJWnLc.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NfWJWnLc.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NfWJWnLc.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wranitzky_1796.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                             |
-    | :-------: | :------------: | :------------: | :--------------------------: | :------------------------------------------------------: |
-    | NfWJWnLc  | Paul Wranitzky | Pavel Vranický | Czech violinist and composer | [Paul Wranitzky](http://wwww.wikidata.org/entity/Q78797) |
+    | FAAM UUID | label          | aliases        | description                  | Wikidata QID                                        |
+    | :-------: | :------------: | :------------: | :--------------------------: | :-------------------------------------------------: |
+    | NfWJWnLc  | Paul Wranitzky | Pavel Vranický | Czech violinist and composer | [Paul Wranitzky](http://wikidata.org/entity/Q78797) |
 
 <br><br><br>
 
@@ -51,19 +55,19 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./5eUMkMxY.md)
+	- [bandleader](./5eUMkMxY.md)
 
 	- [violinist](./9CVVGZdo.md)
 
 ??? quote "educated at" 
 
-	- [](./Q4BJg9AK.md)
+	- [Palacký University Olomouc](./Q4BJg9AK.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/NfWJWnLc.html" height="800" width="1200" title="NfWJWnLc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NfWJWnLc" height="800" width="1200" title="NfWJWnLc"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Joseph Mayseder](./QqmZQi3u.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josef_Mayseder.jpg){align=left width="150" height="150"} 
+
+	Austrian violinist and composer.
+
+</div>

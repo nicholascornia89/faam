@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Aa53frJZ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                  | aliases       | Wikidata QID                                   |
-    | :-------: | :---: | :------------------------------------------: | :-----------: | :--------------------------------------------: |
-    | Aa53frJZ  | Kent  | ceremonial county of England, United Kingdom | Kent, England | [Kent](http://wwww.wikidata.org/entity/Q23298) |
+    | FAAM UUID | label | description                                  | aliases       | Wikidata QID                              |
+    | :-------: | :---: | :------------------------------------------: | :-----------: | :---------------------------------------: |
+    | Aa53frJZ  | Kent  | ceremonial county of England, United Kingdom | Kent, England | [Kent](http://wikidata.org/entity/Q23298) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Aa53frJZ.html" height="800" width="1200" title="Aa53frJZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Aa53frJZ" height="800" width="1200" title="Aa53frJZ"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZRPRu8Sj
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                        | aliases           | Wikidata QID                                                |
-    | :-------: | :-------------: | :------------------------------------------------: | :---------------: | :---------------------------------------------------------: |
-    | ZRPRu8Sj  | literary critic | cultural journalist who reviews new literary books | literary critique | [literary critic](http://wwww.wikidata.org/entity/Q4263842) |
+    | FAAM UUID | label           | description                                        | aliases           | Wikidata QID                                           |
+    | :-------: | :-------------: | :------------------------------------------------: | :---------------: | :----------------------------------------------------: |
+    | ZRPRu8Sj  | literary critic | cultural journalist who reviews new literary books | literary critique | [literary critic](http://wikidata.org/entity/Q4263842) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ZRPRu8Sj.html" height="800" width="1200" title="ZRPRu8Sj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZRPRu8Sj" height="800" width="1200" title="ZRPRu8Sj"></iframe>
 
 ## Cross-references
 

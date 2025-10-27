@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WVMohaCo
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143700p10/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WVMohaCo.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WVMohaCo.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WVMohaCo.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143700p10/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WVMohaCo.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WVMohaCo.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WVMohaCo.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143700p10.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p10.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title              | permalink                | provenance                         |
-    | :-------: | :-------------------: | :----------------: | :----------------------: | :--------------------------------: |
-    | WVMohaCo  | ORP-20143700p10       | Rigaudon provençal | [external URL](9JZUardt) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title              | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :----------------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | WVMohaCo  | ORP-20143700p10       | Rigaudon provençal | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22188) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "note" 
 
@@ -61,10 +65,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/WVMohaCo.html" height="800" width="1200" title="WVMohaCo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WVMohaCo" height="800" width="1200" title="WVMohaCo"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/WVMohaCo.html" height="800" width="1200" title="WVMohaCo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/WVMohaCo" height="800" width="1200" title="WVMohaCo"></iframe>

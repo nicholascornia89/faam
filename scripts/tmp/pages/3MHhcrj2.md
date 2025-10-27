@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3MHhcrj2
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3MHhcrj2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3MHhcrj2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3MHhcrj2.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3MHhcrj2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3MHhcrj2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3MHhcrj2.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pierre-Louis_Dietsch_-_engraving_after_a_photo_by_Franck_-_Gallica.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases                       | description                               | Wikidata QID                                                    |
-    | :-------: | :------------------: | :---------------------------: | :---------------------------------------: | :-------------------------------------------------------------: |
-    | 3MHhcrj2  | Pierre-Louis Dietsch | Pierre-Louis-Philippe Dietsch | French composer and conductor (1808–1865) | [Pierre-Louis Dietsch](http://wwww.wikidata.org/entity/Q361734) |
+    | FAAM UUID | label                | aliases                       | description                               | Wikidata QID                                               |
+    | :-------: | :------------------: | :---------------------------: | :---------------------------------------: | :--------------------------------------------------------: |
+    | 3MHhcrj2  | Pierre-Louis Dietsch | Pierre-Louis-Philippe Dietsch | French composer and conductor (1808–1865) | [Pierre-Louis Dietsch](http://wikidata.org/entity/Q361734) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/3MHhcrj2.html" height="800" width="1200" title="3MHhcrj2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3MHhcrj2" height="800" width="1200" title="3MHhcrj2"></iframe>
 
 ## Identifiers
 
@@ -85,14 +89,22 @@ tags: agent
 
 -	__[Messe "Or-sus a coup": für vier Singstimmen](./a9ifUqK5.md)__
 
-	![Image](../assets/images/thumbs/BSB-991077737379707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991077737379707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne : executés aux concerts de la Sociéte de musique vocale religieuse et classique fondée a Paris en 1843 [...] sous la direction de Mr. le Prince de la Moskowa. [Deuxième volume, Nr 8-20]](./Mdtc39Ji.md)__
 
-	![Image](../assets/images/thumbs/KMN-100549.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KMN-100549.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Ave Maria](./h2b47P3M.md)__
+
+	music forgery by Pierre-Louis Dietsch attributed to Jacques Arcadelt
 
 </div>

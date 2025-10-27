@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ARCBiyhQ
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                                                        | aliases    | Wikidata QID                                          |
-    | :-------: | :--------: | :----------------------------------------------------------------------------------------------------------------: | :--------: | :---------------------------------------------------: |
-    | ARCBiyhQ  | pipe organ | wind instrument that produces sound by driving pressurized air (called wind) through pipes selected via a keyboard | pipe organ | [pipe organ](http://wwww.wikidata.org/entity/Q281460) |
+    | FAAM UUID | label      | description                                                                                                        | aliases    | Wikidata QID                                     |
+    | :-------: | :--------: | :----------------------------------------------------------------------------------------------------------------: | :--------: | :----------------------------------------------: |
+    | ARCBiyhQ  | pipe organ | wind instrument that produces sound by driving pressurized air (called wind) through pipes selected via a keyboard | pipe organ | [pipe organ](http://wikidata.org/entity/Q281460) |
 
 <br><br><br>
 
@@ -33,19 +37,23 @@ tags: musical_instrument
 
 	- [organ](./8cygiHEB.md)
 
-	- [](./BvLEtZDk.md)
+	- [sets of open flutes with internal duct without fingerholes](./BvLEtZDk.md)
 
-	- [](./chovWqmM.md)
+	- [sets of oboes with conical bore](./chovWqmM.md)
 
-	- [](./Ydn7Zvxn.md)
+	- [wind instrument with keyboard](./Ydn7Zvxn.md)
 
-	- [](./evczsohu.md)
+	- [architectural structure](./evczsohu.md)
+
+!!! quote "instance of" 
+
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ARCBiyhQ.html" height="800" width="1200" title="ARCBiyhQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ARCBiyhQ" height="800" width="1200" title="ARCBiyhQ"></iframe>
 
 ## Cross-references
 
@@ -59,27 +67,33 @@ tags: musical_instrument
 
 	French musician (1794–1878)
 
+-	__[Amédée Gastoué](./5rZmZPuR.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French composer and musicologist (1873–1943)
+
 -	__[Oscar Depuydt](./JvEdXjs7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian organist (1858–1925)
 
 -	__[Paul de Maleingreau](./7qDtgfx5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French/Belgian organist (1887-1956)
 
 -	__[Jean-Marie Plum](./JwNgGW3X.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and organist
 
 -	__[Paul Pierné](./3kR3ygqu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1874-1952)
 
@@ -103,7 +117,7 @@ tags: musical_instrument
 
 -	__[Gregor Aichinger](./74hb67jd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
@@ -151,7 +165,7 @@ tags: musical_instrument
 
 -	__[Flor Peeters](./nPY6863Z.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://imslp.org/images/a/a8/Picture-Peeters%2C_Flor.png){align=left width="150" height="150"} 
+	![Image](https://imslp.org/images/a/a8/Picture-Peeters%2C_Flor.png){align=left width="150" height="150"} 
 
 	Flemish organist, composer and music pedagogue (1903–1986)
 
@@ -199,7 +213,7 @@ tags: musical_instrument
 
 -	__[Claudio Monteverdi](./J2JS4FwU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
 
 	Italian composer, string player, choirmaster, and priest (1567–1643)
 
@@ -223,7 +237,7 @@ tags: musical_instrument
 
 -	__[Giovanni Battista Pescetti](./o7WPMz42.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -253,13 +267,13 @@ tags: musical_instrument
 
 -	__[Antonio Cesti](./ecu6SJkK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, singer and organist (1623-1669)
 
 -	__[Pietro Filippo Scarlatti](./6F8MxGwj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -283,19 +297,19 @@ tags: musical_instrument
 
 -	__[Pietro Filippo Scarlatti](./73he45EK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Georges Scheyermann](./NAViPikx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
 -	__[Gaetano Greco](./mQyL4vmZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -367,7 +381,7 @@ tags: musical_instrument
 
 -	__[Daniel Hünten](./ZJUGoDLC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1760-1823)
 
@@ -385,19 +399,19 @@ tags: musical_instrument
 
 -	__[Joseph Doll](./H3JZbqth.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist and teacher
 
 -	__[Carlo Cotumacci](./UW7rTuGD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Luzzasco Luzzaschi](./XudjntwM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and organist
 
@@ -409,7 +423,7 @@ tags: musical_instrument
 
 -	__[Giovanni Furno](./3P9EP7VG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -445,91 +459,91 @@ tags: musical_instrument
 
 -	__[Giovanni Salvatore](./2CQaXKRd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Joseph-Arthur Bernier](./5Dh2cbYz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Canadian organist, pianist, composer, and music educator (1877–1944)
 
 -	__[Louis Vierne](./YbVtaBnQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1870–1937)
 
 -	__[Abel Decaux](./2VRsSiFS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer
 
 -	__[Marc de Ranse](./ihoN4CLP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French pianist, composer, organist, choir director and music educator (1881-1951)
 
 -	__[Leopold von Zenetti](./2Jym2pJc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer (1805-1892)
 
 -	__[Clément Loret](./b6mWacCa.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist, composer and music educator (1833–1909)
 
 -	__[Arthur Sullivan](./K2KgUtEp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English composer of the Gilbert & Sullivan duo (1842-1900)
 
 -	__[Charles-Alexis Chauvet](./JJFzgqbr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1837-1871)
 
 -	__[Polibio Fumagalli](./3hE2YX5J.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and music educator (1830-1900)
 
 -	__[Nicolas Séjan](./FJ6CEWrh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist
 
 -	__[Tommaso Giordani](./WJjNiQTj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Georg Christoph Wagenseil](./D2t3sjFc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 
 -	__[Lorenzo Fago](./UiHiauDj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and organist
 
 -	__[Michael Gotthard Fischer](./LihVFXxn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and music educator (1773-1829)
 

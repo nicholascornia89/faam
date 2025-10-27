@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6TY5Zuvd
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | description                  | aliases    | Wikidata QID                                                                      |
-    | :-------: | :-----------------------------------: | :--------------------------: | :--------: | :-------------------------------------------------------------------------------: |
-    | 6TY5Zuvd  | true board zithers with resonator box | class of musical instruments | box zither | [true board zithers with resonator box](http://wwww.wikidata.org/entity/Q4951628) |
+    | FAAM UUID | label                                 | description                  | aliases    | Wikidata QID                                                                 |
+    | :-------: | :-----------------------------------: | :--------------------------: | :--------: | :--------------------------------------------------------------------------: |
+    | 6TY5Zuvd  | true board zithers with resonator box | class of musical instruments | box zither | [true board zithers with resonator box](http://wikidata.org/entity/Q4951628) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/6TY5Zuvd.html" height="800" width="1200" title="6TY5Zuvd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6TY5Zuvd" height="800" width="1200" title="6TY5Zuvd"></iframe>
 
 ## Cross-references
 

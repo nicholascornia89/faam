@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BvwrSZ5s
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BvwrSZ5s.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BvwrSZ5s.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BvwrSZ5s.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BvwrSZ5s.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BvwrSZ5s.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BvwrSZ5s.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustave_Huberti.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description                   | Wikidata QID                                                |
-    | :-------: | :-------------: | :-----: | :---------------------------: | :---------------------------------------------------------: |
-    | BvwrSZ5s  | Gustave Huberti |         | Belgian composer and musician | [Gustave Huberti](http://wwww.wikidata.org/entity/Q3121215) |
+    | FAAM UUID | label           | aliases | description                   | Wikidata QID                                           |
+    | :-------: | :-------------: | :-----: | :---------------------------: | :----------------------------------------------------: |
+    | BvwrSZ5s  | Gustave Huberti |         | Belgian composer and musician | [Gustave Huberti](http://wikidata.org/entity/Q3121215) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/BvwrSZ5s.html" height="800" width="1200" title="BvwrSZ5s"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BvwrSZ5s" height="800" width="1200" title="BvwrSZ5s"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Raymond Moulaert](./brhsLAa9.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Belgian pianist and musicologist (1875–1962)
+
+</div>

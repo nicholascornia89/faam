@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MWg6eofA a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1809-11-16"^^xsd:string ;
+    schema1:birthPlace faamentity:KtF8y9iY ;
+    schema1:deathDate "1885-01-17"^^xsd:string ;
+    schema1:deathPlace faamentity:Cmnnao2v ;
+    schema1:description "composer (1809-1885)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q451836>,
+        "15996180"^^xsd:string,
+        "MWg6eofA"^^xsd:string ;
+    schema1:nationality faamentity:PYaeFADo ;
+    skos:altLabel "Leopoldine Blahetka"^^xsd:string,
+        "Marie Leopoldine Blahetka"^^xsd:string ;
+    skos:prefLabel "Leopoldine Blahetka"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 <https://viaf.org/viaf/1,99E+34> ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/20115> ;
+    wd:P737 faamentity:FGEPRAzo,
+        faamentity:SC9Tasad,
+        faamentity:WmRXBH5x,
+        faamentity:fyTYpvN6,
+        faamentity:jSGZNT5H,
+        faamentity:jm4QpjVW ;
+    wd:P839 <https://imslp.org/wiki/Category:Blahetka,_Leopoldine> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM .
+

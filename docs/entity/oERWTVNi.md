@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oERWTVNi
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                       | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :---------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | oERWTVNi  | Xàtiva | human settlement in Valencia Province, Valencian Community, Spain | Játiva  | [Xàtiva](http://wwww.wikidata.org/entity/Q738013) |
+    | FAAM UUID | label  | description                                                       | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :---------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | oERWTVNi  | Xàtiva | human settlement in Valencia Province, Valencian Community, Spain | Játiva  | [Xàtiva](http://wikidata.org/entity/Q738013) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/oERWTVNi.html" height="800" width="1200" title="oERWTVNi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oERWTVNi" height="800" width="1200" title="oERWTVNi"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Bernardino de Ribera](./koZRWEgi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

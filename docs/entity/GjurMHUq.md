@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GjurMHUq
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                                    | aliases                      | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :--------------------------------------------: | :--------------------------: | :------------------------------------------------------------: |
-    | GjurMHUq  | Moscow Conservatory | higher musical education institution in Moscow | Moscow Imperial Conservatory | [Moscow Conservatory](http://wwww.wikidata.org/entity/Q215539) |
+    | FAAM UUID | label               | description                                    | aliases                      | Wikidata QID                                              |
+    | :-------: | :-----------------: | :--------------------------------------------: | :--------------------------: | :-------------------------------------------------------: |
+    | GjurMHUq  | Moscow Conservatory | higher musical education institution in Moscow | Moscow Imperial Conservatory | [Moscow Conservatory](http://wikidata.org/entity/Q215539) |
 
 <br><br><br>
 
@@ -31,15 +35,15 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./MDaUN9xs.md)
+	[Presnensky District](./MDaUN9xs.md)
 
 !!! quote "country" 
 
 	[Russian Empire](./DEbEnXwM.md)
 
-	[](./gtpMWPv9.md)
+	[Russian Republic](./gtpMWPv9.md)
 
-	[](./eeLsSgs5.md)
+	[Russian Socialist Federative Soviet Republic](./eeLsSgs5.md)
 
 	[Soviet Union](./c4DdDGWx.md)
 
@@ -49,7 +53,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/GjurMHUq.html" height="800" width="1200" title="GjurMHUq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GjurMHUq" height="800" width="1200" title="GjurMHUq"></iframe>
 
 ## Cross-references
 
@@ -119,25 +123,25 @@ tags: music_organization
 
 -	__[Alexandre Dubuque](./Vovo9g7W.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian composer, piano teacher (1812–1898)
 
 -	__[Mikhail Ippolitov-Ivanov](./hUzCSsxA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian and Soviet composer, conductor , musicologist and music teacher (1859–1935)
 
 -	__[Felix Blumenfeld](./ZFu3SiZv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian composer, pianist, conductor (1863-1931)
 
 -	__[Anton Door](./6mJp25Af.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian pianist and music educator (1833–1919)
 
@@ -161,7 +165,7 @@ tags: music_organization
 
 -	__[Leonid Nikolayev](./HX8ujrS4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian musician (1878–1942)
 

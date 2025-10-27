@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gy5TBtgk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                           | aliases | Wikidata QID                                           |
-    | :-------: | :-----------: | :-----------------------------------: | :-----: | :----------------------------------------------------: |
-    | gy5TBtgk  | Bad Kreuznach | city in Rhineland-Palatinate, Germany |         | [Bad Kreuznach](http://wwww.wikidata.org/entity/Q7047) |
+    | FAAM UUID | label         | description                           | aliases | Wikidata QID                                      |
+    | :-------: | :-----------: | :-----------------------------------: | :-----: | :-----------------------------------------------: |
+    | gy5TBtgk  | Bad Kreuznach | city in Rhineland-Palatinate, Germany |         | [Bad Kreuznach](http://wikidata.org/entity/Q7047) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gy5TBtgk.html" height="800" width="1200" title="gy5TBtgk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gy5TBtgk" height="800" width="1200" title="gy5TBtgk"></iframe>
 
 ## Identifiers
 

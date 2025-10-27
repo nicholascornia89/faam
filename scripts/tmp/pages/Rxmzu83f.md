@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Rxmzu83f
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description     | aliases             | Wikidata QID                                                              |
-    | :-------: | :-------------------------: | :-------------: | :-----------------: | :-----------------------------------------------------------------------: |
-    | Rxmzu83f  | Théâtre de la Gaîté-Lyrique | theatre company | Theatre de la Gaite | [Théâtre de la Gaîté-Lyrique](http://wwww.wikidata.org/entity/Q118434073) |
+    | FAAM UUID | label                       | description     | aliases             | Wikidata QID                                                         |
+    | :-------: | :-------------------------: | :-------------: | :-----------------: | :------------------------------------------------------------------: |
+    | Rxmzu83f  | Théâtre de la Gaîté-Lyrique | theatre company | Theatre de la Gaite | [Théâtre de la Gaîté-Lyrique](http://wikidata.org/entity/Q118434073) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Rxmzu83f.html" height="800" width="1200" title="Rxmzu83f"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Rxmzu83f" height="800" width="1200" title="Rxmzu83f"></iframe>
 
 ## Cross-references
 

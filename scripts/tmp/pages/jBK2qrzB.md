@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jBK2qrzB
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description           | aliases | Wikidata QID                                                             |
-    | :-------: | :--------------------------: | :-------------------: | :-----: | :----------------------------------------------------------------------: |
-    | jBK2qrzB  | Friedrich-Wilhelms-Gymnasium | High school in Berlin |         | [Friedrich-Wilhelms-Gymnasium](http://wwww.wikidata.org/entity/Q1457922) |
+    | FAAM UUID | label                        | description           | aliases | Wikidata QID                                                        |
+    | :-------: | :--------------------------: | :-------------------: | :-----: | :-----------------------------------------------------------------: |
+    | jBK2qrzB  | Friedrich-Wilhelms-Gymnasium | High school in Berlin |         | [Friedrich-Wilhelms-Gymnasium](http://wikidata.org/entity/Q1457922) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/jBK2qrzB.html" height="800" width="1200" title="jBK2qrzB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jBK2qrzB" height="800" width="1200" title="jBK2qrzB"></iframe>
 
 ## Cross-references
 

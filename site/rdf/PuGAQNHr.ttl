@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PuGAQNHr a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1679-05-12"^^xsd:string ;
+    schema1:birthPlace faamentity:CgZzMq22 ;
+    schema1:deathDate "1746-05-15"^^xsd:string ;
+    schema1:deathPlace faamentity:MxnLw4ay ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11924259>,
+        "0"^^xsd:string,
+        "PuGAQNHr"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4 ;
+    skos:altLabel "Ricieri, Rizieri, Rizzieri"^^xsd:string ;
+    skos:prefLabel "Giovanni Antonio Riccieri"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:58696609 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30007685> ;
+    wd:P737 faamentity:7D9M4FGx ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:hDX6cHLo .
+

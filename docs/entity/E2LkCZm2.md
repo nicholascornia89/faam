@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: E2LkCZm2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description               | aliases  | Wikidata QID                                        |
-    | :-------: | :------: | :-----------------------: | :------: | :-------------------------------------------------: |
-    | E2LkCZm2  | Péruwelz | city in Wallonia, Belgium | Peruwelz | [Péruwelz](http://wwww.wikidata.org/entity/Q668630) |
+    | FAAM UUID | label    | description               | aliases  | Wikidata QID                                   |
+    | :-------: | :------: | :-----------------------: | :------: | :--------------------------------------------: |
+    | E2LkCZm2  | Péruwelz | city in Wallonia, Belgium | Peruwelz | [Péruwelz](http://wikidata.org/entity/Q668630) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/E2LkCZm2.html" height="800" width="1200" title="E2LkCZm2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/E2LkCZm2" height="800" width="1200" title="E2LkCZm2"></iframe>
 
 ## Identifiers
 

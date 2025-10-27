@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8cygiHEB
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                 | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :-------------------------: | :-----: | :--------------------------------------------: |
-    | 8cygiHEB  | organ | musical keyboard instrument | organ   | [organ](http://wwww.wikidata.org/entity/Q1444) |
+    | FAAM UUID | label | description                 | aliases | Wikidata QID                              |
+    | :-------: | :---: | :-------------------------: | :-----: | :---------------------------------------: |
+    | 8cygiHEB  | organ | musical keyboard instrument | organ   | [organ](http://wikidata.org/entity/Q1444) |
 
 <br><br><br>
 
@@ -33,13 +37,17 @@ tags: musical_instrument
 
 	- [keyboard instrument](./L9szjsBt.md)
 
-	- [](./a3eyUydT.md)
+	- [building component](./a3eyUydT.md)
+
+!!! quote "instance of" 
+
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/8cygiHEB.html" height="800" width="1200" title="8cygiHEB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8cygiHEB" height="800" width="1200" title="8cygiHEB"></iframe>
 
 ## Cross-references
 
@@ -49,469 +57,469 @@ tags: musical_instrument
 
 -	__[Alma redemptoris](./SxguNxFh.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901824620.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901824620.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Zes Latijnse lofgeVoiceen : 2 en 3 gelijke stemmen](./7rBoR88j.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903770292.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903770292.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Allegro con fuoco](./8LeEsWRQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902125514.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902125514.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Allegro con fuoco](./FruzaB3V.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902125688.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902125688.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Action de grâces : voor orgel](./Xnc7PVeR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902584132.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902584132.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Improvisata](./a73YZ4UH.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902584090.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902584090.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[In nomine Jesu: baryton](./RhwDsWwR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902519450.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902519450.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[In nomine Jesu: baryton](./YToRHGts.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902606158.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902606158.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Huit petits préludes et fugues, trois préludes, neuf fugues, cinq fantaisies](./C7MaY9BP.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902707634.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902707634.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Festpräludium : zu dem Choral "Ein' feste Burg ist unser Gott": für die Orgel, op. 38](./JrXChdhy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127666.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127666.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Adoration Opus 21](./RwhdvVuG.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902687190.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902687190.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphonic fantasy : (based on an Easter Plainsong), op. 13](./HukqvpyP.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903081898.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903081898.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[QUATRE MORCEAUX CLASSIQUES](./cSKaUDMG.md)__
 
-	![Image](../assets/images/thumbs/KCG-000369609.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000369609.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa in honorem s. Luciae](./8HRnipxL.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902645412.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902645412.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[[Convoluut]](./4bA7mJfo.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902645172.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902645172.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Livre des motets (3e année)](./3ywrWJLQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV105371.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV105371.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Souterliedekens uit de XVIe eeuw](./heze5DXq.md)__
 
-	![Image](../assets/images/thumbs/KCA-KM59827.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KM59827.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Zwölf Stücke : für die Orgel, op. 59](./eW5udcz6.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127682.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127682.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate : n° 7 f moll: für Orgel, op. 127](./FhCDQaaU.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127930.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127930.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate : n° IV a moll: für Orgel, op. 98](./BGXtCZJb.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127948.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127948.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Zwölf Stücke : für die Orgel, op. 59](./CqEFpNwi.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127690.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127690.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Première messe à quatre voix solos et choeurs avec orchestre ou orgue : op. 6 / par Alexandre Guilmant](./KXn7q8My.md)__
 
-	![Image](../assets/images/thumbs/BNF-169895807.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-169895807.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[L'Organiste, journal d'orgue expressif, mélodium ou harmonium](./fVjrFL83.md)__
 
-	![Image](../assets/images/thumbs/BNF-42878882w.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42878882w.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pièces d'orgue](./LonMmkxh.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901172525.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901172525.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Passionsmusik : nach dem Evangelisten Matthäus](./LGixSzgF.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076581989707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076581989707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sequentia : Stabat mater ; 4 vocibus inaequalibus concinenda comitante organo ; op. 7](./Pr2TY6Go.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078961739707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078961739707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Faust, Opéra en 5 Actes, de Ch. Gounod](./3BQ3EUi9.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143703p8.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143703p8.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Three Organ Pieces](./iEZsjcqy.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143701p1.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143701p1.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ave Maria. pour Soprano ou Tenor, avec accompagnement d'Orgue](./8PaYx7pB.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p19.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p19.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tota Pulchra Es. 3 voces aequalium, organo ad libitum](./o7NY8qkU.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502002.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502002.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa in honorem "Reginae Pacis". Ad duas voces aequales comitante organo](./oTupy6wk.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502003.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502003.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa in honorem Sanctae Lutgardis](./hCZTNvZs.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502004.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502004.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa in honorem Christi Regis](./ehEXTmgF.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502005.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502005.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa ad tres voces aequales comitante organo](./L9Jyfchk.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502006.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502006.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa in honorem Sancti Francisci. Ad duas voces aequales comitante organo](./HHdNbWHj.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502007.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502007.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa assumptionis B.V.M. Ad duas voces aequales comitante organo. Opus 107](./A4p6MVxt.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502008.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502008.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa Jesu Bone Pastor. Ad duas voces aequales organo comitante](./Deca9ANW.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502009.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502009.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa in honorem S. Elisabeth. Ad duas voces aequales comitante organo](./Jku8PEyf.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502010.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502010.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quatuor motetta ad laudes Vesperatinas. Duabis vocius comitante organo](./KMXPXePm.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502011.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502011.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa Gregoriana. Ad duas voces aequales comitante organo](./7bsTAZJw.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502012.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502012.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa in honorem Beatae Mariae Virginis. Ad duas voces aequales comitante organo](./H5o6hXus.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502014.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502014.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Duo motetta (Tota pulchra es - Regina coeli). Ad tres voces aequales comitante organo](./WDxpPhMm.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502015.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502015.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ave verum. Ad duas voces aequales comitante organo](./b3Rxq29c.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502016.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502016.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[In honorem Coredemptricis Generis Humani. 1. Magnificat (ad 2 voc. aeq. et org.). 2. Stabat Mater (ad 3 voc. aeq. et org.). Op. 113 & 114](./FEyVibzQ.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502017.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502017.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pie Pellicane. Tota pulcra. Laudate pueri. Ad duas voces aequales comitante organo. Op. 135-136](./4SDNDRGF.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502018.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502018.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tria motetta 1 vocis comitante organo](./X2Visdqe.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502019.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502019.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Duo motetta (Ave verum - Sub tuum). Ad tres voces aequales cum organo ad libitum](./39h8BH9C.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502020.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502020.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tria motetta ad Benedictionem Sanctissimi Sacramenti. Ave verum. Ave Maria. Tantum ergo](./cNsCgtEs.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502021.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502021.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ave Maria. Ad duas voces aequales comitante organo](./eYfpVzbV.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502022.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502022.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Luades ac gratiae. Motettum in hon. Smi Sacramenti, ad duas voces aequales comitante organo](./YoEYiiiA.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502023.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502023.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[6 Benedictus. 3 vocum aequalium](./Hq2aNjfM.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502024.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502024.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Hoe Gabriël Maria vond. Comment Gabriel trouva Marie](./PuXvvqie.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502025.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502025.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Antiphonae. In honorem Beatae Mariae Virginis. Op. 32](./3HpJci6a.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502026.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502026.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Organum liturgicum. Super themata gregoriana e nativitatis liturgia. Praeludia facilia (non requisito pedali)](./CgwoRL8B.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502027.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502027.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tria Cantica Sacra. Comitante organo](./oAwFJ9Nx.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502028.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502028.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Collectio facilium necnon ineditorum operum. Ad usum organi](./RtoFe5LM.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502029.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502029.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa Valentina. Ad tres voces inaequales comitante organo](./g3cSPPkZ.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502030.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502030.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Duo cantus mariani. Ad quatuor voces inaequales comitante organo](./HGZxDd67.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502031.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502031.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Immaculata conceptio est hodie](./FWVj4rwe.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502032.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502032.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Electa mea. Responsorium ex officio Imm. Conc. B.M.V.](./eXXjBXZ7.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502033.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502033.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sicut cedrus. Responsorium II Nocturni in officio B.M. Virginis.](./gVQShzKe.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502034.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502034.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Missa Paschalis](./9kVhKgQW.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502035.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502035.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Memorare. 3 vocum aequalium, organo ad libitum](./br2GPo6g.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502036.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502036.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Audi Filia. Motet à 4 voix mixtes pour la fête d'une vierge.](./YUmVZKqo.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502037.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502037.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alleluia. Op. 23](./MBuqiqwv.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502038.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502038.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Offerandezang der votieve huwelijksmis voor 3 gemengde stemmen en orgel. Offertoire de la messe votive de mariage pour 3 voix mixtes et orgue.](./R6rRbuRs.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502039.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502039.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Supplément à la Musica sacra, 1887-88 N.1](./SVrADgnM.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502040.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502040.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[O Beata Mater. pour Solo et 4 voix mixtes ou 4 voix égales.](./JaMgbGM3.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502041.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502041.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Quarte Antiennes de la Ste Vierge. pour deux voix égales et orgue.](./2RMXJBjC.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502043.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502043.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Supplément à la Musica sacra, 1886-87 N.8](./TqmirwYM.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502045.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502045.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Toni Communes Officii. Psaumes, Versets, Bededicamus, etc. d'après l'Edition Vaticane. Avec Accompagnement d'Orgue](./4WLdRpdT.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502046.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502046.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Homo quidam. puor trois voix mixtes et orgue.](./Jphw9LHb.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502047.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502047.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alleluia. de Commune plurimorum Martyrum. Tempore Paschali.](./fEPzCK8i.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502048.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502048.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Salve Regina.](./gv7BFzz2.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502049.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502049.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Acht responsoria van de Getijden ter eere van het Heilig Sacrament. Huit répons de l'office due T.S. Sacrement.](./jxLfmdS3.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502050.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502050.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tota Pulchra Es. Motet en l'honneur de la T.S. Vierge. à 3 voix égales et orgue.](./agEGZJpx.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502051.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502051.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Immaculata conceptio est. Motet en 'honneur de la T.S. Vierge. à 3 voix égales et orgue.](./UAJmUH8x.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502052.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502052.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Diffusa est gratia. Motet en 'honneur de la T.S. Vierge. à 3 voix égales et orgue.](./4A7CXbtq.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502053.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502053.gif){align=left width="150" height="150"} 
 
 	
 
@@ -545,25 +553,25 @@ tags: musical_instrument
 
 -	__[Ignacio Prieto](./eb7u4xWh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer and organist
 
 -	__[Paul de Maleingreau](./7qDtgfx5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French/Belgian organist (1887-1956)
 
 -	__[Remi Ghesquiere](./5FzPNxhE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	sacristan, teacher, organist, composer, poet and politician from Belgium (1866-1964)
 
 -	__[Ivo Mortelmans](./HZJXrXz7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian conductor and musicologist (1901–1984)
 
@@ -575,7 +583,7 @@ tags: musical_instrument
 
 -	__[Paul Pierné](./3kR3ygqu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1874-1952)
 
@@ -611,7 +619,7 @@ tags: musical_instrument
 
 -	__[Henri Letocart](./H7xGj4FE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and organist (1866–1945)
 
@@ -629,7 +637,7 @@ tags: musical_instrument
 
 -	__[Paul Wachs](./DZekGw3j.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1851–1915)
 
@@ -659,13 +667,13 @@ tags: musical_instrument
 
 -	__[Gregor Aichinger](./74hb67jd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
 -	__[Bartolomeo Cordans](./aZuwHuQs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1698-1757)
 
@@ -683,7 +691,7 @@ tags: musical_instrument
 
 -	__[Pietro Heredia](./iB5gXbgh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -695,7 +703,7 @@ tags: musical_instrument
 
 -	__[Giovanni Maria Casini](./cg3iHFvs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -737,7 +745,7 @@ tags: musical_instrument
 
 -	__[Joseph Callaerts](./j6DV8zaS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian organist and composer (1830–1901)
 
@@ -749,19 +757,19 @@ tags: musical_instrument
 
 -	__[Oreste Ravanello](./3d7HnPZv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician (1871–1938)
 
 -	__[Jan Hendrik Paling](./Z4Mej9De.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician and piano builder (1796-1879)
 
 -	__[Wilhelm Rust](./AUMMWhZm.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Wilhelm_Rust_1885.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wilhelm_Rust_1885.jpg){align=left width="150" height="150"} 
 
 	German composer and musicologist (1822–1892)
 
@@ -809,7 +817,7 @@ tags: musical_instrument
 
 -	__[Carl David Stegmann](./CQvP5Hos.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German opera singer, harpsichordist, conductor and composer
 
@@ -863,7 +871,7 @@ tags: musical_instrument
 
 -	__[Jacques-Nicolas Lemmens](./6gSjvNTk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1823–1881)
 
@@ -887,7 +895,7 @@ tags: musical_instrument
 
 -	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
 
 	Austrian composer of the Classical period (1756–1791)
 
@@ -911,13 +919,13 @@ tags: musical_instrument
 
 -	__[James Turle](./2DP7oN7d.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English organist and composer (1802-1882)
 
 -	__[Ton Koopman](./Jy8ns9kr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
 
 	Dutch conductor, organist and harpsichordist, born 2 October 1944
 
@@ -941,7 +949,7 @@ tags: musical_instrument
 
 -	__[Giacomo Carissimi](./AmY4DwdD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1605–1674)
 
@@ -971,19 +979,19 @@ tags: musical_instrument
 
 -	__[Andrea Gabrieli](./K79S8mEL.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Tomás Luis de Victoria](./ZpAqTJvQ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c3/Tom%C3%A1s_Luis_de_Victoria.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tom%C3%A1s_Luis_de_Victoria.jpg){align=left width="150" height="150"} 
 
 	Spanish composer (c. 1548 – 1611)
 
 -	__[Giovanni Gabrieli](./6L9tixhA.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -995,7 +1003,7 @@ tags: musical_instrument
 
 -	__[Edward Francis Rimbault](./6SnvdCsi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English musicologist, composer, organist and book collector (1816–1876)
 
@@ -1019,7 +1027,7 @@ tags: musical_instrument
 
 -	__[Antonio Tirabassi](./WVr2FMMj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian organist and musicologist (1882–1947)
 
@@ -1031,13 +1039,13 @@ tags: musical_instrument
 
 -	__[Giovanni Benedetto Platti](./dek3dK5z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Antonio Lotti](./kGtx9MnB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian Baroque composer
 
@@ -1061,25 +1069,25 @@ tags: musical_instrument
 
 -	__[Nicolas Lebègue](./EzfSNmgD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist, harpsichordist and composer
 
 -	__[Paul Brunold](./8tdvhwo3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Cyriel Van den Abeele](./Kwixsiao.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1875-1946)
 
 -	__[Giuseppe Ottavio Pitoni](./MfQYhhrr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/f/f1/Pitoni.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pitoni.jpg){align=left width="150" height="150"} 
 
 	Italian organist and composer
 
@@ -1091,19 +1099,19 @@ tags: musical_instrument
 
 -	__[Vincenzo Fiocchi](./avAreNkS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Pietro Filippo Scarlatti](./6F8MxGwj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Louis Couperin](./KqBibisZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French Baroque composer
 
@@ -1121,19 +1129,19 @@ tags: musical_instrument
 
 -	__[Lambrecht Baumert](./MdFCS4qM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
 -	__[Pietro Filippo Scarlatti](./73he45EK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Gaetano Greco](./mQyL4vmZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -1193,7 +1201,7 @@ tags: musical_instrument
 
 -	__[Sebastian Westcott](./UBQ27YAg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English organist and stager of dramas
 
@@ -1229,7 +1237,7 @@ tags: musical_instrument
 
 -	__[Johann Christoph Bach III](./NcsUmtLU.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Organist in Ohrdruf
 
@@ -1265,7 +1273,7 @@ tags: musical_instrument
 
 -	__[Wilhelm Würfel](./JHkVzjNY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech conductor, music educator, composer and pianist (1790–1832)
 
@@ -1301,7 +1309,7 @@ tags: musical_instrument
 
 -	__[Daniel Hünten](./ZJUGoDLC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1760-1823)
 
@@ -1319,13 +1327,13 @@ tags: musical_instrument
 
 -	__[Eduard Müller](./DpFDFGMR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss organist (1912-1983)
 
 -	__[Josef Mertin](./83TCj66i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian musician, organ builder and pioneer of early music
 
@@ -1337,19 +1345,19 @@ tags: musical_instrument
 
 -	__[Friedrich Wilhelm Zachow](./9SNg4hjN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
 -	__[Nicolas Gigault](./Lyor6fZo.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer
 
 -	__[François Roberday](./mPRFJRqS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1624-1680)
 
@@ -1361,7 +1369,7 @@ tags: musical_instrument
 
 -	__[Jacques Thomelin](./n62o7ZkK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and organist
 
@@ -1379,7 +1387,7 @@ tags: musical_instrument
 
 -	__[Giovanni Bernardino Nanino](./2xoiCVu9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -1397,19 +1405,19 @@ tags: musical_instrument
 
 -	__[Isaak Hassler](./nMoM5v3e.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist
 
 -	__[Marc'Antonio Ingegneri](./DMSLG6R2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giovanni Battista Bassani](./bTS8wpNY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, violinist and organist
 
@@ -1427,7 +1435,7 @@ tags: musical_instrument
 
 -	__[Gilles van der Eeden](./KrRRRsTZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist, musician and composer
 
@@ -1451,7 +1459,7 @@ tags: musical_instrument
 
 -	__[Vincenzo Amato](./aHRriDRP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -1469,217 +1477,217 @@ tags: musical_instrument
 
 -	__[Giovanni Salvatore](./2CQaXKRd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Joseph-Arthur Bernier](./5Dh2cbYz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Canadian organist, pianist, composer, and music educator (1877–1944)
 
 -	__[Félix Fourdrain](./CWqhNLeg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1880-1923)
 
 -	__[Abel Decaux](./2VRsSiFS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer
 
 -	__[Leopold von Zenetti](./2Jym2pJc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer (1805-1892)
 
 -	__[Lambert Pietkin](./XN7jXg8q.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian conductor and composer
 
 -	__[John Redford](./2xzpsXF4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English composer
 
 -	__[Robert Prescott Stewart](./gUaPLK8V.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Irish composer, organist and conductor (1825–1894)
 
 -	__[August Freyer](./LFzQn7oX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist and composer (1801–1883)
 
 -	__[Johann Pachelbel](./8EVce9JC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer, organist and teacher
 
 -	__[Johann Theile](./YGxnfi27.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and organist
 
 -	__[Jāzeps Vītols](./oJyuwdgt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Latvian composer (1863-1948)
 
 -	__[Carl August Haupt](./PHfmNMGx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist, organ teacher and composer (1810–1891)
 
 -	__[Eduard Grell](./Bh8tDCZL.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer, conductor, choir director and music educator
 
 -	__[Polibio Fumagalli](./3hE2YX5J.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and music educator (1830-1900)
 
 -	__[Wallace Arthur Sabin](./aSg49cdV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American organist and composer of English birth (1869–1937)
 
 -	__[Heinrich Reimann](./mn3ByMJ7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1850–1906)
 
 -	__[Karel Stecker](./J8QiZLMQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Christian Ehregott Weinlig](./VkTguo7J.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
 -	__[Karel František Pitsch](./aA54mNAC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech music educator, composer and organist
 
 -	__[Jan Křtitel Kuchař](./oBuqf8Ur.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech harpsichordist, composer and organist
 
 -	__[Friedrich Wilhelm Berner](./iqQKEw9R.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician, composer and musicologist
 
 -	__[Václav Emanuel Horák](./eQM3SXzG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech music educator, composer and organist (1800–1871)
 
 -	__[Armand-Louis Couperin](./LD3rXUrN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, organist, and harpsichordist
 
 -	__[Georg Reutter II](./E6SxNHju.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer (1708–1772)
 
 -	__[Günther Ramin](./RJXnqg6j.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist, conductor and composer (1898–1956)
 
 -	__[John Goss](./WvpGhfZT.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English organist and composer (1800-1880)
 
 -	__[George Job Elvey](./HfKkjY8p.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English organist and composer
 
 -	__[Johann Hildebrand](./J8N5PpUh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
 -	__[Juan Bermudo](./YCnf9Mra.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish Friar Minor and musician
 
 -	__[Joseph Preindl](./hzdpDjCd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 
 -	__[Gaetano Veneziano](./ZgsnvYzf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Daniele da Castrovillari](./CVtcqNAB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Gilles Binchois](./fnrBz5H4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Franco-Flemish Renaissance composer (c. 1400–1460)
 
 -	__[Erasmo Bartoli](./Td9634TV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Jan Antonín Koželuh](./eBizXjKN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech composer and organist
 

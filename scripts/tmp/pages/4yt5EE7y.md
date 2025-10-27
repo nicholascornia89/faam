@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4yt5EE7y
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                                                         | aliases         | Wikidata QID                                               |
-    | :-------: | :-------------: | :---------------------------------------------------------------------------------: | :-------------: | :--------------------------------------------------------: |
-    | 4yt5EE7y  | encyclopédistes | contributors to the development of the Encyclopédie from June 1751 to December 1765 | encyclopedistes | [encyclopédistes](http://wwww.wikidata.org/entity/Q744738) |
+    | FAAM UUID | label           | description                                                                         | aliases         | Wikidata QID                                          |
+    | :-------: | :-------------: | :---------------------------------------------------------------------------------: | :-------------: | :---------------------------------------------------: |
+    | 4yt5EE7y  | encyclopédistes | contributors to the development of the Encyclopédie from June 1751 to December 1765 | encyclopedistes | [encyclopédistes](http://wikidata.org/entity/Q744738) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4yt5EE7y.html" height="800" width="1200" title="4yt5EE7y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4yt5EE7y" height="800" width="1200" title="4yt5EE7y"></iframe>
 
 ## Cross-references
 

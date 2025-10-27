@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WSMESTsd
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                                   | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :-------------------------------------------: | :-------------------------------------------------------: |
-    | WSMESTsd  | Le domino noir | Le domino noir | opéra comique by Daniel-François-Esprit Auber | [Le domino noir](http://wwww.wikidata.org/entity/Q255938) |
+    | FAAM UUID | label          | aliases        | description                                   | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :-------------------------------------------: | :--------------------------------------------------: |
+    | WSMESTsd  | Le domino noir | Le domino noir | opéra comique by Daniel-François-Esprit Auber | [Le domino noir](http://wikidata.org/entity/Q255938) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/WSMESTsd.html" height="800" width="1200" title="WSMESTsd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WSMESTsd" height="800" width="1200" title="WSMESTsd"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Rondoletto brillant et facile : sur l'Aragonaise du Domino noir, musique de F. Auber, arrange pour la flute avec accompagnement de piano](./XS7wpMYC.md)__
 
-	![Image](../assets/images/thumbs/KCG-000353031.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000353031.gif){align=left width="150" height="150"} 
 
 	
 

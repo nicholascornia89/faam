@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 969NyBbd
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases | description | Wikidata QID                         |
-    | :-------: | :-------------------------: | :-----: | :---------: | :----------------------------------: |
-    | 969NyBbd  | Ego sum panis vivus, IGP 20 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                       | aliases | description | Wikidata QID                    |
+    | :-------: | :-------------------------: | :-----: | :---------: | :-----------------------------: |
+    | 969NyBbd  | Ego sum panis vivus, IGP 20 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/969NyBbd.html" height="800" width="1200" title="969NyBbd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/969NyBbd" height="800" width="1200" title="969NyBbd"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Livre des motets (3e année)](./3ywrWJLQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV105371.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV105371.gif){align=left width="150" height="150"} 
 
 	
 

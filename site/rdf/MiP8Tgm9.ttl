@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MiP8Tgm9 a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "© Baylor University"^^xsd:string ;
+    schema1:description "private Baptist university in Waco, Texas, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q812573>,
+        "16004170"^^xsd:string,
+        "MiP8Tgm9"^^xsd:string ;
+    schema1:location faamentity:PRypTrE3,
+        faamentity:fiWxEeqn ;
+    schema1:url "https://digitalcollections-baylor.quartexcollections.com/"^^schema1:url ;
+    skos:altLabel "Baylor"^^xsd:string,
+        "Baylor University"^^xsd:string ;
+    skos:prefLabel "Baylor University Libraries"^^xsd:string ;
+    wd:P1813 "BUL"^^xsd:string .
+

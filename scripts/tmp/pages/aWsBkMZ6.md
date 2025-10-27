@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aWsBkMZ6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/aWsBkMZ6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/aWsBkMZ6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/aWsBkMZ6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/aWsBkMZ6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/aWsBkMZ6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/aWsBkMZ6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolaus_Harnoncourt_(1980).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases                                                          | description                    | Wikidata QID                                                   |
-    | :-------: | :------------------: | :--------------------------------------------------------------: | :----------------------------: | :------------------------------------------------------------: |
-    | aWsBkMZ6  | Nikolaus Harnoncourt | Count Johann Nikolaus de la Fontaine und d'Harnoncourt-Unverzagt | Austrian conductor (1929–2016) | [Nikolaus Harnoncourt](http://wwww.wikidata.org/entity/Q78526) |
+    | FAAM UUID | label                | aliases                                                          | description                    | Wikidata QID                                              |
+    | :-------: | :------------------: | :--------------------------------------------------------------: | :----------------------------: | :-------------------------------------------------------: |
+    | aWsBkMZ6  | Nikolaus Harnoncourt | Count Johann Nikolaus de la Fontaine und d'Harnoncourt-Unverzagt | Austrian conductor (1929–2016) | [Nikolaus Harnoncourt](http://wikidata.org/entity/Q78526) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [choir director](./R7KKRvQ6.md)
 
-	- [](./DxGATHZF.md)
+	- [viol player](./DxGATHZF.md)
 
 	- [cellist](./JJEmNCK7.md)
 
@@ -61,7 +65,7 @@ tags: agent
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./F6jyWvcL.md)
+	- [actor](./F6jyWvcL.md)
 
 	- [music teacher](./L7DPWnnr.md)
 
@@ -77,7 +81,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/aWsBkMZ6.html" height="800" width="1200" title="aWsBkMZ6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aWsBkMZ6" height="800" width="1200" title="aWsBkMZ6"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: idDHKrCv
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description         | aliases                                  | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :-----------------: | :--------------------------------------: | :---------------------------------------------------------------: |
-    | idDHKrCv  | Aberystwyth University | university in Wales | University College of Wales, Aberystwyth | [Aberystwyth University](http://wwww.wikidata.org/entity/Q319761) |
+    | FAAM UUID | label                  | description         | aliases                                  | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :-----------------: | :--------------------------------------: | :----------------------------------------------------------: |
+    | idDHKrCv  | Aberystwyth University | university in Wales | University College of Wales, Aberystwyth | [Aberystwyth University](http://wikidata.org/entity/Q319761) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/idDHKrCv.html" height="800" width="1200" title="idDHKrCv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/idDHKrCv" height="800" width="1200" title="idDHKrCv"></iframe>
 
 ## Cross-references
 

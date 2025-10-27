@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HBHobTC5", "label": "Lucia di Lammermoor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HBHobTC5.md\u0027\u003eLucia di Lammermoor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Gaetano Donizetti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HU73MUnK", "label": "Der junge Opernfreund, Op.61", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HU73MUnK.md\u0027\u003eDer junge Opernfreund, Op.61\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aovZZUxK", "label": "Leopold Jansa", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aovZZUxK.md\u0027\u003eLeopold Jansa\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCzech violinist, music educator and composer (1795\u20131875)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/9/9a/Leopold_Jansa.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "YM8k9nyE", "label": "DER JUNGE OPERNFREUND", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YM8k9nyE.md\u0027\u003eDER JUNGE OPERNFREUND\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000350901.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WiBZjkbR", "label": "arrangement", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WiBZjkbR.md\u0027\u003earrangement\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition in altered form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NkfcVjHM", "label": "music education", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NkfcVjHM.md\u0027\u003emusic education\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efield of study associated with the teaching and learning of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "HBHobTC5", "to": "HU73MUnK", "width": 10}, {"from": "HBHobTC5", "to": "aovZZUxK", "width": 10}, {"from": "HBHobTC5", "to": "YM8k9nyE", "width": 10}, {"from": "YM8k9nyE", "to": "WiBZjkbR", "width": 10}, {"from": "YM8k9nyE", "to": "NkfcVjHM", "width": 10}, {"from": "YM8k9nyE", "to": "HU73MUnK", "width": 10}, {"from": "HU73MUnK", "to": "WiBZjkbR", "width": 10}, {"from": "HU73MUnK", "to": "NkfcVjHM", "width": 10}, {"from": "HU73MUnK", "to": "aovZZUxK", "width": 10}, {"from": "aovZZUxK", "to": "WiBZjkbR", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WiBZjkbR", "label": "arrangement", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WiBZjkbR\u0027\u003earrangement\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition in altered form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HU73MUnK", "label": "Der junge Opernfreund, Op.61", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HU73MUnK\u0027\u003eDer junge Opernfreund, Op.61\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aovZZUxK", "label": "Leopold Jansa", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aovZZUxK\u0027\u003eLeopold Jansa\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCzech violinist, music educator and composer (1795\u20131875)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/9/9a/Leopold_Jansa.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "YM8k9nyE", "label": "DER JUNGE OPERNFREUND", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YM8k9nyE\u0027\u003eDER JUNGE OPERNFREUND\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000350901.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HBHobTC5", "label": "Lucia di Lammermoor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HBHobTC5\u0027\u003eLucia di Lammermoor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Gaetano Donizetti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NkfcVjHM", "label": "music education", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NkfcVjHM\u0027\u003emusic education\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efield of study associated with the teaching and learning of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "WiBZjkbR", "to": "HU73MUnK", "width": 10}, {"from": "WiBZjkbR", "to": "aovZZUxK", "width": 10}, {"from": "WiBZjkbR", "to": "YM8k9nyE", "width": 10}, {"from": "aovZZUxK", "to": "HU73MUnK", "width": 10}, {"from": "aovZZUxK", "to": "HBHobTC5", "width": 10}, {"from": "HU73MUnK", "to": "NkfcVjHM", "width": 10}, {"from": "HU73MUnK", "to": "HBHobTC5", "width": 10}, {"from": "HU73MUnK", "to": "YM8k9nyE", "width": 10}, {"from": "NkfcVjHM", "to": "YM8k9nyE", "width": 10}, {"from": "HBHobTC5", "to": "YM8k9nyE", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

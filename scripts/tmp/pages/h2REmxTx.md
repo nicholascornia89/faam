@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: h2REmxTx
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                           | Wikidata QID                                             |
-    | :-------: | :-------------: | :-------------: | :-----------------------------------: | :------------------------------------------------------: |
-    | h2REmxTx  | The Magic Flute | Die Zauberflöte | 1791 opera by Wolfgang Amadeus Mozart | [The Magic Flute](http://wwww.wikidata.org/entity/Q5064) |
+    | FAAM UUID | label           | aliases         | description                           | Wikidata QID                                        |
+    | :-------: | :-------------: | :-------------: | :-----------------------------------: | :-------------------------------------------------: |
+    | h2REmxTx  | The Magic Flute | Die Zauberflöte | 1791 opera by Wolfgang Amadeus Mozart | [The Magic Flute](http://wikidata.org/entity/Q5064) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/h2REmxTx.html" height="800" width="1200" title="h2REmxTx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/h2REmxTx" height="800" width="1200" title="h2REmxTx"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Souvenirs Dramatiques : Arrangés en Quatuors pour Piano, 2 Violons et Violoncelle : 18e La Flûte enchantée](./eEC74fNj.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750767.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750767.gif){align=left width="150" height="150"} 
 
 	
 

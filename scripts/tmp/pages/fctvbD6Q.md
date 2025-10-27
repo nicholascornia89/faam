@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fctvbD6Q
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                         | description               | Wikidata QID                                              |
-    | :-------: | :------------: | :-----------------------------: | :-----------------------: | :-------------------------------------------------------: |
-    | fctvbD6Q  | Symphony No. 5 | Symphony No. 5 in C-sharp Minor | symphony by Gustav Mahler | [Symphony No. 5](http://wwww.wikidata.org/entity/Q240240) |
+    | FAAM UUID | label          | aliases                         | description               | Wikidata QID                                         |
+    | :-------: | :------------: | :-----------------------------: | :-----------------------: | :--------------------------------------------------: |
+    | fctvbD6Q  | Symphony No. 5 | Symphony No. 5 in C-sharp Minor | symphony by Gustav Mahler | [Symphony No. 5](http://wikidata.org/entity/Q240240) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/fctvbD6Q.html" height="800" width="1200" title="fctvbD6Q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fctvbD6Q" height="800" width="1200" title="fctvbD6Q"></iframe>
 
 ## Identifiers
 
@@ -63,31 +67,31 @@ tags: musical_work
 
 -	__[Symphony No. 5, I: Trauermarsch](./VBXW4tB8.md)__
 
-	![Image](../assets/images/thumbs/WML-768457.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768457.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphony No. 5, II: Stürmisch bewegt, mit größter Vehemenz](./bcxugQ5Y.md)__
 
-	![Image](../assets/images/thumbs/WML-768493.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768493.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphony No. 5, III: Scherzo](./9Zi4C8GC.md)__
 
-	![Image](../assets/images/thumbs/WML-768561.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768561.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphony No. 5, IV: Adagietto](./mfkD2Sjv.md)__
 
-	![Image](../assets/images/thumbs/WML-768565.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768565.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphony No. 5, V: Rondo-Finale](./APXM4KNn.md)__
 
-	![Image](../assets/images/thumbs/WML-768530.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768530.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: afK7awRY
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000332412/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/afK7awRY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/afK7awRY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/afK7awRY.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000332412/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/afK7awRY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/afK7awRY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/afK7awRY.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000332412.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000332412.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                 | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | afK7awRY  | KCG-000332412         | Vive Henri 4! : Air varié pour le Violon avec Accompagnement de Premier et Second Violons, Alto, Basse, Flûte, Hautbois, Clarinettes, Cors, Bassons, Trombone et Timballes : Oeuv. 27 | [external URL](hJoKsjEm) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                 | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | afK7awRY  | KCG-000332412         | Vive Henri 4! : Air varié pour le Violon avec Accompagnement de Premier et Second Violons, Alto, Basse, Flûte, Hautbois, Clarinettes, Cors, Bassons, Trombone et Timballes : Oeuv. 27 | [external URL](https://catalogus.hogent.be/catalog/hog01:000332412) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -71,10 +75,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/afK7awRY.html" height="800" width="1200" title="afK7awRY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/afK7awRY" height="800" width="1200" title="afK7awRY"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/afK7awRY.html" height="800" width="1200" title="afK7awRY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/afK7awRY" height="800" width="1200" title="afK7awRY"></iframe>

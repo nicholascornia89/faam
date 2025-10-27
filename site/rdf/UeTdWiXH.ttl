@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix imslp: <https://imslp.org/wiki/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UeTdWiXH a rdfs:Resource ;
+    faamprop:related_to faamentity:Rn2iLGJr ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1840-08-24"^^xsd:string ;
+    schema1:birthPlace faamentity:kY3cFr77 ;
+    schema1:deathDate "1902-08-14"^^xsd:string ;
+    schema1:deathPlace faamentity:4GU7NjmQ ;
+    schema1:description "German musician (1840-1902)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q19999318>,
+        "16005728"^^xsd:string,
+        "UeTdWiXH"^^xsd:string ;
+    skos:altLabel "E.W. Fritzsch"^^xsd:string,
+        "Ernst Wilhelm Fritsch"^^xsd:string,
+        "Ernst Wilhelm Fritzsch"^^xsd:string ;
+    skos:prefLabel "Ernst Wilhelm Fritsch"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:69071249 ;
+    wd:P31 faamentity:HmGw8E8i,
+        faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/83287> ;
+    wd:P737 faamentity:M5pEm9dz,
+        faamentity:NdggfNk9,
+        faamentity:gkQPai8o ;
+    wd:P839 imslp:E.W._Fritzsch ;
+    schema:hasOccupation faamentity:MwhmFC4w,
+        faamentity:bX2aWAhB,
+        faamentity:jQjsdegi,
+        faamentity:me4GX7oo,
+        faamentity:nuEgp7qK .
+

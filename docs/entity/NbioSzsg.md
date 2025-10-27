@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NbioSzsg
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases       | description                              | Wikidata QID                                                      |
-    | :-------: | :-------------------------: | :-----------: | :--------------------------------------: | :---------------------------------------------------------------: |
-    | NbioSzsg  | Missa pro defunctis, IGP 57 | Missa Requiem | mass by Giovanni Pierluigi da Palestrina | [Missa pro defunctis](http://wwww.wikidata.org/entity/Q124310282) |
+    | FAAM UUID | label                       | aliases       | description                              | Wikidata QID                                                 |
+    | :-------: | :-------------------------: | :-----------: | :--------------------------------------: | :----------------------------------------------------------: |
+    | NbioSzsg  | Missa pro defunctis, IGP 57 | Missa Requiem | mass by Giovanni Pierluigi da Palestrina | [Missa pro defunctis](http://wikidata.org/entity/Q124310282) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/NbioSzsg.html" height="800" width="1200" title="NbioSzsg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NbioSzsg" height="800" width="1200" title="NbioSzsg"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: musical_work
 
 -	__[Palestrina's Messe für die Verstorbenen (Missa requiem) : nebst d. Responsorium Libera me. In d. heutigen Schreibweise hrsg. u. mit e. erklärenden Einl. vers.](./Nutu4Wfn.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078131189707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078131189707356.gif){align=left width="150" height="150"} 
 
 	
 

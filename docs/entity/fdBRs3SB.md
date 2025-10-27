@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fdBRs3SB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                      | aliases | Wikidata QID                                  |
-    | :-------: | :---: | :--------------------------------------------------------------: | :-----: | :-------------------------------------------: |
-    | fdBRs3SB  | Padua | commune and capital city of the Province of Padua, Veneto, Italy | Padova  | [Padua](http://wwww.wikidata.org/entity/Q617) |
+    | FAAM UUID | label | description                                                      | aliases | Wikidata QID                             |
+    | :-------: | :---: | :--------------------------------------------------------------: | :-----: | :--------------------------------------: |
+    | fdBRs3SB  | Padua | commune and capital city of the Province of Padua, Veneto, Italy | Padova  | [Padua](http://wikidata.org/entity/Q617) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fdBRs3SB.html" height="800" width="1200" title="fdBRs3SB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fdBRs3SB" height="800" width="1200" title="fdBRs3SB"></iframe>
 
 ## Identifiers
 
@@ -55,25 +59,25 @@ tags: city
 
 -	__[Giovanni Benedetto Platti](./dek3dK5z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Domenico Dall'Oglio](./8wBwdzKn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and composer
 
 -	__[Giovanni Battista Bassani](./bTS8wpNY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, violinist and organist
 
 -	__[Oreste Ravanello](./3d7HnPZv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician (1871–1938)
 

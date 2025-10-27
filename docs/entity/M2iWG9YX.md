@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M2iWG9YX
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases | description | Wikidata QID                         |
-    | :-------: | :-------------------: | :-----: | :---------: | :----------------------------------: |
-    | M2iWG9YX  | Pagina d'Amore, Op.10 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                 | aliases | description | Wikidata QID                    |
+    | :-------: | :-------------------: | :-----: | :---------: | :-----------------------------: |
+    | M2iWG9YX  | Pagina d'Amore, Op.10 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/M2iWG9YX.html" height="800" width="1200" title="M2iWG9YX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M2iWG9YX" height="800" width="1200" title="M2iWG9YX"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: musical_work
 
 -	__[Pagina d'amore: eine Episode für Orchester, Op. 10 / Stucken, van der, Frank. - Berlin, [1891]](./ieRaKzSU.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901697265.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901697265.gif){align=left width="150" height="150"} 
 
 	
 

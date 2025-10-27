@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hmF2HMTe", "label": "King\u0027s College London", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./hmF2HMTe.md\u0027\u003eKing\u0027s College London\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic research university in London, United Kingdom\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "G37bWTxC", "label": "Southwark", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./G37bWTxC.md\u0027\u003eSouthwark\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edistrict of Central London, England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "VEv8z5pc", "label": "London Borough of Lambeth", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./VEv8z5pc.md\u0027\u003eLondon Borough of Lambeth\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eborough in the London Region in England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KmPGztnu", "label": "United Kingdom", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KmPGztnu.md\u0027\u003eUnited Kingdom\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in north-west Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7uucaRLU", "label": "Robert Thurston Dart", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7uucaRLU.md\u0027\u003eRobert Thurston Dart\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish musicologist (1921\u20131971)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/ThurstonDart1961.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "hmF2HMTe", "to": "G37bWTxC", "width": 1}, {"from": "hmF2HMTe", "to": "VEv8z5pc", "width": 1}, {"from": "hmF2HMTe", "to": "KmPGztnu", "width": 1}, {"from": "hmF2HMTe", "to": "7uucaRLU", "width": 10}, {"from": "7uucaRLU", "to": "KmPGztnu", "width": 1}, {"from": "KmPGztnu", "to": "G37bWTxC", "width": 1}, {"from": "KmPGztnu", "to": "VEv8z5pc", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "G37bWTxC", "label": "Southwark", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/G37bWTxC\u0027\u003eSouthwark\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edistrict of Central London, England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KmPGztnu", "label": "United Kingdom", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KmPGztnu\u0027\u003eUnited Kingdom\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in north-west Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hmF2HMTe", "label": "King\u0027s College London", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hmF2HMTe\u0027\u003eKing\u0027s College London\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic research university in London, United Kingdom\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "VEv8z5pc", "label": "London Borough of Lambeth", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/VEv8z5pc\u0027\u003eLondon Borough of Lambeth\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eborough in the London Region in England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7uucaRLU", "label": "Robert Thurston Dart", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7uucaRLU\u0027\u003eRobert Thurston Dart\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish musicologist (1921\u20131971)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/ThurstonDart1961.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "G37bWTxC", "to": "KmPGztnu", "width": 1}, {"from": "G37bWTxC", "to": "hmF2HMTe", "width": 1}, {"from": "KmPGztnu", "to": "VEv8z5pc", "width": 1}, {"from": "KmPGztnu", "to": "hmF2HMTe", "width": 1}, {"from": "KmPGztnu", "to": "7uucaRLU", "width": 1}, {"from": "hmF2HMTe", "to": "VEv8z5pc", "width": 1}, {"from": "hmF2HMTe", "to": "7uucaRLU", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

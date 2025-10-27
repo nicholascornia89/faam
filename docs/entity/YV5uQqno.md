@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YV5uQqno
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | aliases                                | description                  | Wikidata QID                                               |
-    | :-------: | :------------------------------------: | :------------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | YV5uQqno  | Keyboard Sonata in B-flat major, K.202 | Keyboard Sonata in B-flat major, L.498 | sonata by Domenico Scarlatti | [Sonata K. 202](http://wwww.wikidata.org/entity/Q74594890) |
+    | FAAM UUID | label                                  | aliases                                | description                  | Wikidata QID                                          |
+    | :-------: | :------------------------------------: | :------------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | YV5uQqno  | Keyboard Sonata in B-flat major, K.202 | Keyboard Sonata in B-flat major, L.498 | sonata by Domenico Scarlatti | [Sonata K. 202](http://wikidata.org/entity/Q74594890) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/YV5uQqno.html" height="800" width="1200" title="YV5uQqno"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YV5uQqno" height="800" width="1200" title="YV5uQqno"></iframe>
 
 ## Identifiers
 
@@ -71,13 +75,13 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Compositions pour piano / de Dom. Scarlatti ; revues et doigtées par Louis Köhler.](./EfhvbVmR.md)__
 
-	![Image](../assets/images/thumbs/SML-29805.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-29805.gif){align=left width="150" height="150"} 
 
 	
 

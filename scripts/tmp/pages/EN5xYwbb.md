@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EN5xYwbb
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902839338/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EN5xYwbb.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EN5xYwbb.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EN5xYwbb.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902839338/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EN5xYwbb.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EN5xYwbb.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EN5xYwbb.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902839338.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902839338.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                    | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | EN5xYwbb  | KCA-030902839338      | En Ardennes : scène pastorale pour hautbois avec accompagnement de piano | [external URL](93GDD9ND) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                    | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | EN5xYwbb  | KCA-030902839338      | En Ardennes : scène pastorale pour hautbois avec accompagnement de piano | [external URL](https://anet.be/record/opacdkvc/c:lvd:6738627/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -66,10 +70,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/EN5xYwbb.html" height="800" width="1200" title="EN5xYwbb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EN5xYwbb" height="800" width="1200" title="EN5xYwbb"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/EN5xYwbb.html" height="800" width="1200" title="EN5xYwbb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/EN5xYwbb" height="800" width="1200" title="EN5xYwbb"></iframe>

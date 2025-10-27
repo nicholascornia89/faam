@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cUF9twPC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description             | aliases | Wikidata QID                                           |
-    | :-------: | :--------: | :---------------------: | :-----: | :----------------------------------------------------: |
-    | cUF9twPC  | rue Richer | street in Paris, France |         | [rue Richer](http://wwww.wikidata.org/entity/Q3449728) |
+    | FAAM UUID | label      | description             | aliases | Wikidata QID                                      |
+    | :-------: | :--------: | :---------------------: | :-----: | :-----------------------------------------------: |
+    | cUF9twPC  | rue Richer | street in Paris, France |         | [rue Richer](http://wikidata.org/entity/Q3449728) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cUF9twPC.html" height="800" width="1200" title="cUF9twPC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cUF9twPC" height="800" width="1200" title="cUF9twPC"></iframe>
 
 ## Identifiers
 

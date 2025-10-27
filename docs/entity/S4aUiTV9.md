@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: S4aUiTV9
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases    | description                        | Wikidata QID                                          |
-    | :-------: | :--------: | :--------: | :--------------------------------: | :---------------------------------------------------: |
-    | S4aUiTV9  | Hippolytus | Hippolytos | ancient Greek tragedy by Euripides | [Hippolytus](http://wwww.wikidata.org/entity/Q375786) |
+    | FAAM UUID | label      | aliases    | description                        | Wikidata QID                                     |
+    | :-------: | :--------: | :--------: | :--------------------------------: | :----------------------------------------------: |
+    | S4aUiTV9  | Hippolytus | Hippolytos | ancient Greek tragedy by Euripides | [Hippolytus](http://wikidata.org/entity/Q375786) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/S4aUiTV9.html" height="800" width="1200" title="S4aUiTV9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/S4aUiTV9" height="800" width="1200" title="S4aUiTV9"></iframe>
 
 ## Identifiers
 

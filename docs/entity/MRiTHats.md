@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MRiTHats
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MRiTHats.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MRiTHats.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MRiTHats.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MRiTHats.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MRiTHats.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MRiTHats.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description     | Wikidata QID                                             |
-    | :-------: | :----------: | :-----: | :-------------: | :------------------------------------------------------: |
-    | MRiTHats  | Firmin Lebel |         | French composer | [Firmin Lebel](http://wwww.wikidata.org/entity/Q5452131) |
+    | FAAM UUID | label        | aliases | description     | Wikidata QID                                        |
+    | :-------: | :----------: | :-----: | :-------------: | :-------------------------------------------------: |
+    | MRiTHats  | Firmin Lebel |         | French composer | [Firmin Lebel](http://wikidata.org/entity/Q5452131) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/MRiTHats.html" height="800" width="1200" title="MRiTHats"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MRiTHats" height="800" width="1200" title="MRiTHats"></iframe>
 
 ## Identifiers
 
@@ -62,3 +66,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Pierluigi da Palestrina](./nHfR4BAi.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Pierluigi_da_Palestrina.jpg){align=left width="150" height="150"} 
+
+	Italian Renaissance composer (c. 1525–1594)
+
+</div>

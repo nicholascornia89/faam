@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EDypzUCA
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                      | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | EDypzUCA  | Variations concertantes et Faciles, Op. 18 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                      | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | EDypzUCA  | Variations concertantes et Faciles, Op. 18 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/EDypzUCA.html" height="800" width="1200" title="EDypzUCA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EDypzUCA" height="800" width="1200" title="EDypzUCA"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys](./V6P9ruNu.md)__
 
-	![Image](../assets/images/thumbs/KCG-000353033.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000353033.gif){align=left width="150" height="150"} 
 
 	
 

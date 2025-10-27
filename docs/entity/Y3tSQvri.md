@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Y3tSQvri
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description             | aliases      | Wikidata QID                                           |
-    | :-------: | :----------: | :---------------------: | :----------: | :----------------------------------------------------: |
-    | Y3tSQvri  | Sint-Truiden | municipality in Belgium | Sint-Truiden | [Sint-Truiden](http://wwww.wikidata.org/entity/Q37792) |
+    | FAAM UUID | label        | description             | aliases      | Wikidata QID                                      |
+    | :-------: | :----------: | :---------------------: | :----------: | :-----------------------------------------------: |
+    | Y3tSQvri  | Sint-Truiden | municipality in Belgium | Sint-Truiden | [Sint-Truiden](http://wikidata.org/entity/Q37792) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Y3tSQvri.html" height="800" width="1200" title="Y3tSQvri"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Y3tSQvri" height="800" width="1200" title="Y3tSQvri"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Felix Aerts](./Bbkf475N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian violinist
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BRFWyvXx
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                                                                                                 | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | BRFWyvXx  | responsory | category of Western chant serving at Matins and monastic Vespers as musical postludes to the reading of lessons, as the gradual and alleluia do at the Mass | respond | [responsory](http://wwww.wikidata.org/entity/Q604748) |
+    | FAAM UUID | label      | description                                                                                                                                                 | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | BRFWyvXx  | responsory | category of Western chant serving at Matins and monastic Vespers as musical postludes to the reading of lessons, as the gradual and alleluia do at the Mass | respond | [responsory](http://wikidata.org/entity/Q604748) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/BRFWyvXx.html" height="800" width="1200" title="BRFWyvXx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BRFWyvXx" height="800" width="1200" title="BRFWyvXx"></iframe>
 
 ## Cross-references
 
@@ -39,13 +43,13 @@ tags: keyword
 
 -	__[Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife](./8h6APj7b.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076911629707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076911629707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Acht responsoria van de Getijden ter eere van het Heilig Sacrament. Huit répons de l'office due T.S. Sacrement.](./jxLfmdS3.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502050.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502050.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kfBH8WGm
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000334463/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kfBH8WGm.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kfBH8WGm.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kfBH8WGm.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000334463/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kfBH8WGm.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kfBH8WGm.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kfBH8WGm.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000334463.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334463.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                           | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | kfBH8WGm  | KCG-000334463         | Second concerto : pour le violon avec Accompt. d'Orchestre ou de Piano : Op. 32 | [external URL](KW3RZcDp) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                           | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | kfBH8WGm  | KCG-000334463         | Second concerto : pour le violon avec Accompt. d'Orchestre ou de Piano : Op. 32 | [external URL](https://catalogus.hogent.be/catalog/hog01:000334463) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -93,10 +97,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/kfBH8WGm.html" height="800" width="1200" title="kfBH8WGm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kfBH8WGm" height="800" width="1200" title="kfBH8WGm"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/kfBH8WGm.html" height="800" width="1200" title="kfBH8WGm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/kfBH8WGm" height="800" width="1200" title="kfBH8WGm"></iframe>

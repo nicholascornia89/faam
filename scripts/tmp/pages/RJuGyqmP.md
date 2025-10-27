@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RJuGyqmP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                     | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :-----------------------------: | :-----: | :----------------------------------------------: |
-    | RJuGyqmP  | Woerden | municipality in the Netherlands |         | [Woerden](http://wwww.wikidata.org/entity/Q5128) |
+    | FAAM UUID | label   | description                     | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :-----------------------------: | :-----: | :-----------------------------------------: |
+    | RJuGyqmP  | Woerden | municipality in the Netherlands |         | [Woerden](http://wikidata.org/entity/Q5128) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/RJuGyqmP.html" height="800" width="1200" title="RJuGyqmP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RJuGyqmP" height="800" width="1200" title="RJuGyqmP"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Jan Hendrik Paling](./Z4Mej9De.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician and piano builder (1796-1879)
 

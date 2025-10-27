@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WqjAiCxw
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description                        | Wikidata QID                                                    |
-    | :-------: | :------------------: | :------------------: | :--------------------------------: | :-------------------------------------------------------------: |
-    | WqjAiCxw  | Iphigénie en Tauride | Iphigenie en Tauride | opera by Christoph Willibald Gluck | [Iphigénie en Tauride](http://wwww.wikidata.org/entity/Q687822) |
+    | FAAM UUID | label                | aliases              | description                        | Wikidata QID                                               |
+    | :-------: | :------------------: | :------------------: | :--------------------------------: | :--------------------------------------------------------: |
+    | WqjAiCxw  | Iphigénie en Tauride | Iphigenie en Tauride | opera by Christoph Willibald Gluck | [Iphigénie en Tauride](http://wikidata.org/entity/Q687822) |
 
 <br><br><br>
 
@@ -45,13 +49,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./RTZz2bx6.md)
+	- [Iphigenia in Tauris](./RTZz2bx6.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/WqjAiCxw.html" height="800" width="1200" title="WqjAiCxw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WqjAiCxw" height="800" width="1200" title="WqjAiCxw"></iframe>
 
 ## Identifiers
 
@@ -73,13 +77,13 @@ tags: musical_work
 
 -	__[Ouverture d'Iphigenie [en Aulide] : Arrangée pour clavecin ou forte-piano](./Hyve2CJo.md)__
 
-	![Image](../assets/images/thumbs/ORP-26137450b.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-26137450b.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tempête d'Iphigénie en Tauride : Avec les Airs de Ballet De M. le Chevalier Gluck En Quatuor : Arrangée pour le Clavecin, ou le Forte Piano, Avec Accompagnement, de Violon Alto, et Violoncelle, Ad Libitum](./Zjww66hb.md)__
 
-	![Image](../assets/images/thumbs/KCG-000345536.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345536.gif){align=left width="150" height="150"} 
 
 	
 

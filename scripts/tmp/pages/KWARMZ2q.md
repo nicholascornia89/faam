@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KWARMZ2q
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KWARMZ2q.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KWARMZ2q.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KWARMZ2q.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KWARMZ2q.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KWARMZ2q.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KWARMZ2q.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emanuel_Aloys_Foerster.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases | description       | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :-----: | :---------------: | :--------------------------------------------------------------: |
-    | KWARMZ2q  | Emanuel Aloys Förster |         | Austrian composer | [Emanuel Aloys Förster](http://wwww.wikidata.org/entity/Q324490) |
+    | FAAM UUID | label                 | aliases | description       | Wikidata QID                                                |
+    | :-------: | :-------------------: | :-----: | :---------------: | :---------------------------------------------------------: |
+    | KWARMZ2q  | Emanuel Aloys Förster |         | Austrian composer | [Emanuel Aloys Förster](http://wikidata.org/entity/Q324490) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KWARMZ2q.html" height="800" width="1200" title="KWARMZ2q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KWARMZ2q" height="800" width="1200" title="KWARMZ2q"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Leopold Jansa](./aovZZUxK.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Jansa.jpg){align=left width="150" height="150"} 
+
+	Czech violinist, music educator and composer (1795–1875)
+
+-	__[Joachim Hoffmann](./jSGZNT5H.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	German musician
+
+</div>

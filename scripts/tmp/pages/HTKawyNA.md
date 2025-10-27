@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HTKawyNA
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                            | aliases         | Wikidata QID                                                     |
-    | :-------: | :--------------------: | :------------------------------------: | :-------------: | :--------------------------------------------------------------: |
-    | HTKawyNA  | French Second Republic | government of France between 1848-1852 | Second Republic | [French Second Republic](http://wwww.wikidata.org/entity/Q58326) |
+    | FAAM UUID | label                  | description                            | aliases         | Wikidata QID                                                |
+    | :-------: | :--------------------: | :------------------------------------: | :-------------: | :---------------------------------------------------------: |
+    | HTKawyNA  | French Second Republic | government of France between 1848-1852 | Second Republic | [French Second Republic](http://wikidata.org/entity/Q58326) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/HTKawyNA.html" height="800" width="1200" title="HTKawyNA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HTKawyNA" height="800" width="1200" title="HTKawyNA"></iframe>
 
 ## Identifiers
 

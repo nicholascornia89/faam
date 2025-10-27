@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: X3NQ7YkX
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | aliases                     | description                      | Wikidata QID                                                            |
-    | :-------: | :---------------------------------: | :-------------------------: | :------------------------------: | :---------------------------------------------------------------------: |
-    | X3NQ7YkX  | Die Geschöpfe des Prometheus, Op.43 | The Creatures of Prometheus | musical composition by Beethoven | [The Creatures of Prometheus](http://wwww.wikidata.org/entity/Q1157012) |
+    | FAAM UUID | label                               | aliases                     | description                      | Wikidata QID                                                       |
+    | :-------: | :---------------------------------: | :-------------------------: | :------------------------------: | :----------------------------------------------------------------: |
+    | X3NQ7YkX  | Die Geschöpfe des Prometheus, Op.43 | The Creatures of Prometheus | musical composition by Beethoven | [The Creatures of Prometheus](http://wikidata.org/entity/Q1157012) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/X3NQ7YkX.html" height="800" width="1200" title="X3NQ7YkX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/X3NQ7YkX" height="800" width="1200" title="X3NQ7YkX"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Ouverture : pour deux Violons, Alto, Violoncelle, Basse, deux Flûtes, deux haubois, deux Clarinettes, deux Cors, deux Trompettes, deux Bassons et Timballe : OEuvre 43.](./Pxfujc36.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333241.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333241.gif){align=left width="150" height="150"} 
 
 	
 

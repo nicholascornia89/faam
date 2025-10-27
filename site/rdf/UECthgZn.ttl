@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UECthgZn a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Russian mathematician (1792–1856)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q129199>,
+        "0"^^xsd:string,
+        "UECthgZn"^^xsd:string ;
+    skos:altLabel "Nikolai Lobachevsky"^^xsd:string ;
+    skos:prefLabel "Nikolai Ivanovich Lobachevsky"^^xsd:string ;
+    wd:P108 faamentity:nt6iNeSy ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12311629 ;
+    wd:P31 faamentity:aJeJBesD .
+

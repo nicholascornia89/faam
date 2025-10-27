@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kuQs9DeD
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description    | aliases      | Wikidata QID                                                     |
-    | :-------: | :---------------------: | :------------: | :----------: | :--------------------------------------------------------------: |
-    | kuQs9DeD  | Castellammare di Stabia | Italian comune | Castellamare | [Castellammare di Stabia](http://wwww.wikidata.org/entity/Q6737) |
+    | FAAM UUID | label                   | description    | aliases      | Wikidata QID                                                |
+    | :-------: | :---------------------: | :------------: | :----------: | :---------------------------------------------------------: |
+    | kuQs9DeD  | Castellammare di Stabia | Italian comune | Castellamare | [Castellammare di Stabia](http://wikidata.org/entity/Q6737) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/kuQs9DeD.html" height="800" width="1200" title="kuQs9DeD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kuQs9DeD" height="800" width="1200" title="kuQs9DeD"></iframe>
 
 ## Identifiers
 

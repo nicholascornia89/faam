@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cM3skN56
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description    | aliases | Wikidata QID                                                 |
-    | :-------: | :----------------: | :------------: | :-----: | :----------------------------------------------------------: |
-    | cM3skN56  | Bassano del Grappa | Italian comune | Bassano | [Bassano del Grappa](http://wwww.wikidata.org/entity/Q47094) |
+    | FAAM UUID | label              | description    | aliases | Wikidata QID                                            |
+    | :-------: | :----------------: | :------------: | :-----: | :-----------------------------------------------------: |
+    | cM3skN56  | Bassano del Grappa | Italian comune | Bassano | [Bassano del Grappa](http://wikidata.org/entity/Q47094) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cM3skN56.html" height="800" width="1200" title="cM3skN56"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cM3skN56" height="800" width="1200" title="cM3skN56"></iframe>
 
 ## Identifiers
 

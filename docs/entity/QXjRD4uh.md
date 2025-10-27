@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QXjRD4uh
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                 | aliases            | Wikidata QID                                          |
-    | :-------: | :------: | :-----------------------------------------: | :----------------: | :---------------------------------------------------: |
-    | QXjRD4uh  | linguist | language scholar specialized in linguistics | linguistic scholar | [linguist](http://wwww.wikidata.org/entity/Q14467526) |
+    | FAAM UUID | label    | description                                 | aliases            | Wikidata QID                                     |
+    | :-------: | :------: | :-----------------------------------------: | :----------------: | :----------------------------------------------: |
+    | QXjRD4uh  | linguist | language scholar specialized in linguistics | linguistic scholar | [linguist](http://wikidata.org/entity/Q14467526) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/QXjRD4uh.html" height="800" width="1200" title="QXjRD4uh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QXjRD4uh" height="800" width="1200" title="QXjRD4uh"></iframe>
 
 ## Cross-references
 

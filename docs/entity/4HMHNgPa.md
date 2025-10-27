@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4HMHNgPa
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description    | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :------------: | :-----: | :---------------------------------------------: |
-    | 4HMHNgPa  | Salò  | Italian comune | Salo    | [Salò](http://wwww.wikidata.org/entity/Q111705) |
+    | FAAM UUID | label | description    | aliases | Wikidata QID                               |
+    | :-------: | :---: | :------------: | :-----: | :----------------------------------------: |
+    | 4HMHNgPa  | Salò  | Italian comune | Salo    | [Salò](http://wikidata.org/entity/Q111705) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4HMHNgPa.html" height="800" width="1200" title="4HMHNgPa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4HMHNgPa" height="800" width="1200" title="4HMHNgPa"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Carlo Pallavicino](./5ZTUJVn2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

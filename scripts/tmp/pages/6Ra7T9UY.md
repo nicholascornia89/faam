@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6Ra7T9UY
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                               | description   | aliases                             | Wikidata QID                                                                    |
-    | :-------: | :---------------------------------: | :-----------: | :---------------------------------: | :-----------------------------------------------------------------------------: |
-    | 6Ra7T9UY  | Conservatorio di S. Maria di Loreto | Naples, Italy | Conservatorio di S. Maria di Loreto | [Conservatorio di S. Maria di Loreto](http://wwww.wikidata.org/entity/Q3687246) |
+    | FAAM UUID | label                               | description   | aliases                             | Wikidata QID                                                               |
+    | :-------: | :---------------------------------: | :-----------: | :---------------------------------: | :------------------------------------------------------------------------: |
+    | 6Ra7T9UY  | Conservatorio di S. Maria di Loreto | Naples, Italy | Conservatorio di S. Maria di Loreto | [Conservatorio di S. Maria di Loreto](http://wikidata.org/entity/Q3687246) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/6Ra7T9UY.html" height="800" width="1200" title="6Ra7T9UY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6Ra7T9UY" height="800" width="1200" title="6Ra7T9UY"></iframe>
 
 ## Cross-references
 

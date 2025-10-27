@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: auvpwejQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                   | aliases | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-------------------------------------------: | :-----: | :----------------------------------------------------------: |
-    | auvpwejQ  | County of Hainaut | Medieval region in current Belgium and France |         | [County of Hainaut](http://wwww.wikidata.org/entity/Q309460) |
+    | FAAM UUID | label             | description                                   | aliases | Wikidata QID                                            |
+    | :-------: | :---------------: | :-------------------------------------------: | :-----: | :-----------------------------------------------------: |
+    | auvpwejQ  | County of Hainaut | Medieval region in current Belgium and France |         | [County of Hainaut](http://wikidata.org/entity/Q309460) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: city
 
 ---
 
-<iframe src="../network/auvpwejQ.html" height="800" width="1200" title="auvpwejQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/auvpwejQ" height="800" width="1200" title="auvpwejQ"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Jean Richafort](./2W6wHMmr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Franco-Flemish composer
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iXRdd5ks
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                               | aliases      | Wikidata QID                                            |
-    | :-------: | :----------: | :-------------------------------------------------------: | :----------: | :-----------------------------------------------------: |
-    | iXRdd5ks  | École Navale | French Naval Academy in Lanvéoc-Poulmic, Brittany, France | Ecole Navale | [École Navale](http://wwww.wikidata.org/entity/Q974394) |
+    | FAAM UUID | label        | description                                               | aliases      | Wikidata QID                                       |
+    | :-------: | :----------: | :-------------------------------------------------------: | :----------: | :------------------------------------------------: |
+    | iXRdd5ks  | École Navale | French Naval Academy in Lanvéoc-Poulmic, Brittany, France | Ecole Navale | [École Navale](http://wikidata.org/entity/Q974394) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/iXRdd5ks.html" height="800" width="1200" title="iXRdd5ks"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iXRdd5ks" height="800" width="1200" title="iXRdd5ks"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AaECfyZk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description    | aliases         | Wikidata QID                                       |
-    | :-------: | :-----: | :------------: | :-------------: | :------------------------------------------------: |
-    | AaECfyZk  | Vignola | Italian comune | Vignola (Italy) | [Vignola](http://wwww.wikidata.org/entity/Q100111) |
+    | FAAM UUID | label   | description    | aliases         | Wikidata QID                                  |
+    | :-------: | :-----: | :------------: | :-------------: | :-------------------------------------------: |
+    | AaECfyZk  | Vignola | Italian comune | Vignola (Italy) | [Vignola](http://wikidata.org/entity/Q100111) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/AaECfyZk.html" height="800" width="1200" title="AaECfyZk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AaECfyZk" height="800" width="1200" title="AaECfyZk"></iframe>
 
 ## Identifiers
 

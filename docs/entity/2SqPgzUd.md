@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2SqPgzUd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                                                          | aliases | Wikidata QID                                                                   |
-    | :-------: | :--------------------------------: | :------------------------------------------------------------------: | :-----: | :----------------------------------------------------------------------------: |
-    | 2SqPgzUd  | former 3rd arrondissement of Paris | one of the 12 administrative districts of Paris, France, before 1860 |         | [former 3rd arrondissement of Paris](http://wwww.wikidata.org/entity/Q2845754) |
+    | FAAM UUID | label                              | description                                                          | aliases | Wikidata QID                                                              |
+    | :-------: | :--------------------------------: | :------------------------------------------------------------------: | :-----: | :-----------------------------------------------------------------------: |
+    | 2SqPgzUd  | former 3rd arrondissement of Paris | one of the 12 administrative districts of Paris, France, before 1860 |         | [former 3rd arrondissement of Paris](http://wikidata.org/entity/Q2845754) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2SqPgzUd.html" height="800" width="1200" title="2SqPgzUd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2SqPgzUd" height="800" width="1200" title="2SqPgzUd"></iframe>
 
 ## Identifiers
 
@@ -51,7 +55,7 @@ tags: city
 
 -	__[Adolphe Adam](./Y7stG82h.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Adolphe_Adam.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolphe_Adam.jpg){align=left width="150" height="150"} 
 
 	French composer (1803–1856)
 

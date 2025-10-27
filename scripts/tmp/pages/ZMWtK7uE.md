@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZMWtK7uE
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                            | aliases | Wikidata QID                                         |
-    | :-------: | :--------: | :------------------------------------: | :-----: | :--------------------------------------------------: |
-    | ZMWtK7uE  | astronomer | scientist who studies celestial bodies |         | [astronomer](http://wwww.wikidata.org/entity/Q11063) |
+    | FAAM UUID | label      | description                            | aliases | Wikidata QID                                    |
+    | :-------: | :--------: | :------------------------------------: | :-----: | :---------------------------------------------: |
+    | ZMWtK7uE  | astronomer | scientist who studies celestial bodies |         | [astronomer](http://wikidata.org/entity/Q11063) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ZMWtK7uE.html" height="800" width="1200" title="ZMWtK7uE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZMWtK7uE" height="800" width="1200" title="ZMWtK7uE"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vm36Bt6H
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143702p1/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Vm36Bt6H.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Vm36Bt6H.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Vm36Bt6H.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143702p1/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Vm36Bt6H.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Vm36Bt6H.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Vm36Bt6H.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20143702p1.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p1.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                            | permalink                | provenance                         |
-    | :-------: | :-------------------: | :------------------------------: | :----------------------: | :--------------------------------: |
-    | Vm36Bt6H  | ORP-20143702p1        | Stradella. Potpourri, Piano Solo | [external URL](bP49uHni) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                            | permalink                                                                                      | provenance                         |
+    | :-------: | :-------------------: | :------------------------------: | :--------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | Vm36Bt6H  | ORP-20143702p1        | Stradella. Potpourri, Piano Solo | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22186) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "sections" 
 
@@ -57,10 +61,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Vm36Bt6H.html" height="800" width="1200" title="Vm36Bt6H"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vm36Bt6H" height="800" width="1200" title="Vm36Bt6H"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Vm36Bt6H.html" height="800" width="1200" title="Vm36Bt6H"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Vm36Bt6H" height="800" width="1200" title="Vm36Bt6H"></iframe>

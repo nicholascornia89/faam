@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kTo2uTWZ
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                       | aliases        | Wikidata QID                                              |
-    | :-------: | :-----------: | :-------------------------------: | :------------: | :-------------------------------------------------------: |
-    | kTo2uTWZ  | choreographer | person who creates choreographies | choreographist | [choreographer](http://wwww.wikidata.org/entity/Q2490358) |
+    | FAAM UUID | label         | description                       | aliases        | Wikidata QID                                         |
+    | :-------: | :-----------: | :-------------------------------: | :------------: | :--------------------------------------------------: |
+    | kTo2uTWZ  | choreographer | person who creates choreographies | choreographist | [choreographer](http://wikidata.org/entity/Q2490358) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/kTo2uTWZ.html" height="800" width="1200" title="kTo2uTWZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kTo2uTWZ" height="800" width="1200" title="kTo2uTWZ"></iframe>
 
 ## Cross-references
 
@@ -37,13 +41,13 @@ tags: occupation
 
 -	__[Antoine Banès](./Cx5HEx8r.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French choreographer and composer
 
 -	__[Paul Pierné](./3kR3ygqu.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1874-1952)
 
@@ -61,7 +65,7 @@ tags: occupation
 
 -	__[Henri Desmarets](./Co2QwDri.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1661-1741)
 
@@ -79,7 +83,7 @@ tags: occupation
 
 -	__[Walter Piston](./hgkK9LyH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American composer (1894–1976)
 
@@ -91,7 +95,7 @@ tags: occupation
 
 -	__[Vittorio Rieti](./6kUvgnUj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1898–1994)
 
@@ -133,7 +137,7 @@ tags: occupation
 
 -	__[Claudio Monteverdi](./J2JS4FwU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
 
 	Italian composer, string player, choirmaster, and priest (1567–1643)
 

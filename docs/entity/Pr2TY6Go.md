@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Pr2TY6Go
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991078961739707356/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Pr2TY6Go.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Pr2TY6Go.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Pr2TY6Go.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991078961739707356/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Pr2TY6Go.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Pr2TY6Go.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Pr2TY6Go.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991078961739707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078961739707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                                                                 | permalink                | provenance                              |
-    | :-------: | :--------------------: | :-----------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | Pr2TY6Go  | BSB-991078961739707356 | Sequentia : Stabat mater ; 4 vocibus inaequalibus concinenda comitante organo ; op. 7 | [external URL](8RjeFw2P) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                                                                 | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :-----------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | Pr2TY6Go  | BSB-991078961739707356 | Sequentia : Stabat mater ; 4 vocibus inaequalibus concinenda comitante organo ; op. 7 | [external URL](https://mdz-nbn-resolving.de/details:bsb11148730) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -65,10 +69,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Pr2TY6Go.html" height="800" width="1200" title="Pr2TY6Go"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Pr2TY6Go" height="800" width="1200" title="Pr2TY6Go"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Pr2TY6Go.html" height="800" width="1200" title="Pr2TY6Go"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Pr2TY6Go" height="800" width="1200" title="Pr2TY6Go"></iframe>

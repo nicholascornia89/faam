@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4idH2wFG
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-39.OP.OMdeMonte21/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/4idH2wFG.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/4idH2wFG.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/4idH2wFG.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-39.OP.OMdeMonte21/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/4idH2wFG.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/4idH2wFG.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/4idH2wFG.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-39.OP.OMdeMonte21.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-39.OP.OMdeMonte21.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                          | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :--------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | 4idH2wFG  | KCG-39.OP.OMdeMonte21 | Philippi de Monte. Missa "Sine nomine" 6 vocum | [external URL](kxAqh9HR) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                          | permalink                     | provenance                                         |
+    | :-------: | :-------------------: | :--------------------------------------------: | :---------------------------: | :------------------------------------------------: |
+    | 4idH2wFG  | KCG-39.OP.OMdeMonte21 | Philippi de Monte. Missa "Sine nomine" 6 vocum | [external URL](not available) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -87,10 +91,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/4idH2wFG.html" height="800" width="1200" title="4idH2wFG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4idH2wFG" height="800" width="1200" title="4idH2wFG"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/4idH2wFG.html" height="800" width="1200" title="4idH2wFG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/4idH2wFG" height="800" width="1200" title="4idH2wFG"></iframe>

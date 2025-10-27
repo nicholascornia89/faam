@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BWX2VNz4
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                      | aliases | Wikidata QID                                       |
-    | :-------: | :---------: | :--------------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | BWX2VNz4  | Netherlands | country in Northwestern Europe with territories in the Caribbean | Holland | [Netherlands](http://wwww.wikidata.org/entity/Q55) |
+    | FAAM UUID | label       | description                                                      | aliases | Wikidata QID                                  |
+    | :-------: | :---------: | :--------------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | BWX2VNz4  | Netherlands | country in Northwestern Europe with territories in the Caribbean | Holland | [Netherlands](http://wikidata.org/entity/Q55) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/BWX2VNz4.html" height="800" width="1200" title="BWX2VNz4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BWX2VNz4" height="800" width="1200" title="BWX2VNz4"></iframe>
 
 ## Identifiers
 

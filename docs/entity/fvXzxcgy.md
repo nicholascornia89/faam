@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fvXzxcgy
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                  | aliases                  | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :--------------------------: | :----------------------: | :------------------------------------------------------------------: |
-    | fvXzxcgy  | struck string instrument | class of musical instruments | έγχορδο κρουστικό όργανο | [struck string instrument](http://wwww.wikidata.org/entity/Q3152898) |
+    | FAAM UUID | label                    | description                  | aliases                  | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :--------------------------: | :----------------------: | :-------------------------------------------------------------: |
+    | fvXzxcgy  | struck string instrument | class of musical instruments | έγχορδο κρουστικό όργανο | [struck string instrument](http://wikidata.org/entity/Q3152898) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/fvXzxcgy.html" height="800" width="1200" title="fvXzxcgy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fvXzxcgy" height="800" width="1200" title="fvXzxcgy"></iframe>
 
 ## Cross-references
 

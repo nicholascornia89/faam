@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MruPddEX
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                    | aliases   | Wikidata QID                                                 |
-    | :-------: | :--------------: | :--------------------------------------------: | :-------: | :----------------------------------------------------------: |
-    | MruPddEX  | 's-Hertogenbosch | capital city of North Brabant, the Netherlands | Den Bosch | ['s-Hertogenbosch](http://wwww.wikidata.org/entity/Q2766547) |
+    | FAAM UUID | label            | description                                    | aliases   | Wikidata QID                                            |
+    | :-------: | :--------------: | :--------------------------------------------: | :-------: | :-----------------------------------------------------: |
+    | MruPddEX  | 's-Hertogenbosch | capital city of North Brabant, the Netherlands | Den Bosch | ['s-Hertogenbosch](http://wikidata.org/entity/Q2766547) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/MruPddEX.html" height="800" width="1200" title="MruPddEX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MruPddEX" height="800" width="1200" title="MruPddEX"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Frédéric Bonzon](./7GsKtem6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch composer and oboist
 

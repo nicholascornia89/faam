@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: F3FTYzLJ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/F3FTYzLJ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/F3FTYzLJ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/F3FTYzLJ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/F3FTYzLJ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/F3FTYzLJ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/F3FTYzLJ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Baptiste_Faure_as_Hamlet_by_Charles_Reutlinger.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases  | description                  | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :------: | :--------------------------: | :------------------------------------------------------------: |
-    | F3FTYzLJ  | Jean-Baptiste Faure | J. Faure | French baritone and composer | [Jean-Baptiste Faure](http://wwww.wikidata.org/entity/Q320464) |
+    | FAAM UUID | label               | aliases  | description                  | Wikidata QID                                              |
+    | :-------: | :-----------------: | :------: | :--------------------------: | :-------------------------------------------------------: |
+    | F3FTYzLJ  | Jean-Baptiste Faure | J. Faure | French baritone and composer | [Jean-Baptiste Faure](http://wikidata.org/entity/Q320464) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./6wQB3rwq.md)
+	- [art collector](./6wQB3rwq.md)
 
 	- [composer](./5aTYuVxp.md)
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/F3FTYzLJ.html" height="800" width="1200" title="F3FTYzLJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/F3FTYzLJ" height="800" width="1200" title="F3FTYzLJ"></iframe>
 
 ## Identifiers
 
@@ -93,7 +97,15 @@ tags: agent
 
 -	__[[Convoluut]](./b7q9UADS.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Ave Maria](./LpAUe2vb.md)__
 
 	
 

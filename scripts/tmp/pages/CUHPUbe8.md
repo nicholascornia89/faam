@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CUHPUbe8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description             | aliases                          | Wikidata QID                                             |
-    | :-------: | :----------: | :---------------------: | :------------------------------: | :------------------------------------------------------: |
-    | CUHPUbe8  | Casa Rossini | Museum in Pesaro, Italy | Birthplace of Gioacchino Rossini | [Casa Rossini](http://wwww.wikidata.org/entity/Q3661158) |
+    | FAAM UUID | label        | description             | aliases                          | Wikidata QID                                        |
+    | :-------: | :----------: | :---------------------: | :------------------------------: | :-------------------------------------------------: |
+    | CUHPUbe8  | Casa Rossini | Museum in Pesaro, Italy | Birthplace of Gioacchino Rossini | [Casa Rossini](http://wikidata.org/entity/Q3661158) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CUHPUbe8.html" height="800" width="1200" title="CUHPUbe8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CUHPUbe8" height="800" width="1200" title="CUHPUbe8"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Gioachino Rossini](./YWvFQ75E.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Composer_Rossini_G_1865_by_Carjat.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1792–1868)
 

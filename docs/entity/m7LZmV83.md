@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: m7LZmV83
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | aliases  | description              | Wikidata QID                                           |
-    | :-------: | :------: | :------: | :----------------------: | :----------------------------------------------------: |
-    | m7LZmV83  | Parisina | Parisina | opera by Edward Keurvels | [Parisina](http://wwww.wikidata.org/entity/Q125772041) |
+    | FAAM UUID | label    | aliases  | description              | Wikidata QID                                      |
+    | :-------: | :------: | :------: | :----------------------: | :-----------------------------------------------: |
+    | m7LZmV83  | Parisina | Parisina | opera by Edward Keurvels | [Parisina](http://wikidata.org/entity/Q125772041) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/m7LZmV83.html" height="800" width="1200" title="m7LZmV83"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/m7LZmV83" height="800" width="1200" title="m7LZmV83"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Parisina: inleiding van het drama](./DXFJNZTa.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901779030.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901779030.gif){align=left width="150" height="150"} 
 
 	
 

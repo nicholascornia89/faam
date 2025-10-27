@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TrVTMFdZ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                            | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :------------------------------------: | :-----: | :----------------------------------------------: |
-    | TrVTMFdZ  | Hamburg | city and state in the North of Germany | Hamburg | [Hamburg](http://wwww.wikidata.org/entity/Q1055) |
+    | FAAM UUID | label   | description                            | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :------------------------------------: | :-----: | :-----------------------------------------: |
+    | TrVTMFdZ  | Hamburg | city and state in the North of Germany | Hamburg | [Hamburg](http://wikidata.org/entity/Q1055) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TrVTMFdZ.html" height="800" width="1200" title="TrVTMFdZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TrVTMFdZ" height="800" width="1200" title="TrVTMFdZ"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,7 @@ tags: city
 
 -	__[Karl Schwencke](./EjvQ4EcD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c3/PPN663943914_Carl_Schwencke_%281853%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/PPN663943914_Carl_Schwencke_%281853%29.jpg){align=left width="150" height="150"} 
 
 	German pianist and composer
 
@@ -91,7 +95,7 @@ tags: city
 
 -	__[Rudolf Reinecke](./GwS5c3LF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -109,7 +113,7 @@ tags: city
 
 -	__[Frank Van der Stucken](./3EGSrwCz.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/af/FrankVanderStucken.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FrankVanderStucken.png){align=left width="150" height="150"} 
 
 	Flemish-American violinist, conductor, composer and festival director
 

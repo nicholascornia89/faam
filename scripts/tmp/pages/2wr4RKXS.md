@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2wr4RKXS
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                  | aliases | Wikidata QID                                        |
-    | :-------: | :-----: | :--------------------------: | :-----: | :-------------------------------------------------: |
-    | 2wr4RKXS  | portato | form of musical articulation | Portato | [Portato](http://wwww.wikidata.org/entity/Q1930998) |
+    | FAAM UUID | label   | description                  | aliases | Wikidata QID                                   |
+    | :-------: | :-----: | :--------------------------: | :-----: | :--------------------------------------------: |
+    | 2wr4RKXS  | portato | form of musical articulation | Portato | [Portato](http://wikidata.org/entity/Q1930998) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/2wr4RKXS.html" height="800" width="1200" title="2wr4RKXS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2wr4RKXS" height="800" width="1200" title="2wr4RKXS"></iframe>
 
 ## Cross-references
 

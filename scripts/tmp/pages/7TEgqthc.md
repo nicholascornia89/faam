@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7TEgqthc
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                                              | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :--------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | 7TEgqthc  | minuet | French folk dance, which over time became a court dance, in 3/4 meter and moderate tempo | menuet  | [minuet](http://wwww.wikidata.org/entity/Q205734) |
+    | FAAM UUID | label  | description                                                                              | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :--------------------------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | 7TEgqthc  | minuet | French folk dance, which over time became a court dance, in 3/4 meter and moderate tempo | menuet  | [minuet](http://wikidata.org/entity/Q205734) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/7TEgqthc.html" height="800" width="1200" title="7TEgqthc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7TEgqthc" height="800" width="1200" title="7TEgqthc"></iframe>
 
 ## Cross-references
 
@@ -39,13 +43,13 @@ tags: keyword
 
 -	__[Minuet varié](./LG6Ykj8w.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902928321.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902928321.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Minuet varié](./48HdoPx6.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904499602.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904499602.gif){align=left width="150" height="150"} 
 
 	
 

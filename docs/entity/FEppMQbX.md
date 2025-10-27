@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FEppMQbX
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-18937/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FEppMQbX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FEppMQbX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FEppMQbX.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-18937/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FEppMQbX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FEppMQbX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FEppMQbX.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-18937.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18937.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                                                                                                                                                              | permalink                | provenance                            |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | FEppMQbX  | SML-18937             | Old English composers for the virginals & harpsichord : a collection of preludes, galliards, pavanes, grounds, chaconnes, suites, overtures, sonatas, etc. selected from the works of / William Byrde, John Bull, Orlando Gibbons, John Blow, Henry Purcell and Thomas Augustine Arne ; revised & edited by E. Pauer ; with biographical notices by W. A. Barrett. | [external URL](b3QcSGeL) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                                                                                                                                                              | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | FEppMQbX  | SML-18937             | Old English composers for the virginals & harpsichord : a collection of preludes, galliards, pavanes, grounds, chaconnes, suites, overtures, sonatas, etc. selected from the works of / William Byrde, John Bull, Orlando Gibbons, John Blow, Henry Purcell and Thomas Augustine Arne ; revised & edited by E. Pauer ; with biographical notices by W. A. Barrett. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9912235713405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -82,10 +86,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/FEppMQbX.html" height="800" width="1200" title="FEppMQbX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FEppMQbX" height="800" width="1200" title="FEppMQbX"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/FEppMQbX.html" height="800" width="1200" title="FEppMQbX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/FEppMQbX" height="800" width="1200" title="FEppMQbX"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hHte7ogN
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                                              | aliases | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :----------------------------------------------------------------------: | :-----: | :----------------------------------------------------------------: |
-    | hHte7ogN  | Royal Academy of Music | company founded to support the performance of operas by Händel in London |         | [Royal Academy of Music](http://wwww.wikidata.org/entity/Q1473756) |
+    | FAAM UUID | label                  | description                                                              | aliases | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :----------------------------------------------------------------------: | :-----: | :-----------------------------------------------------------: |
+    | hHte7ogN  | Royal Academy of Music | company founded to support the performance of operas by Händel in London |         | [Royal Academy of Music](http://wikidata.org/entity/Q1473756) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/hHte7ogN.html" height="800" width="1200" title="hHte7ogN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hHte7ogN" height="800" width="1200" title="hHte7ogN"></iframe>
 
 ## Cross-references
 

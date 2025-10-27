@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BwkfLDr4
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-TP41032/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BwkfLDr4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BwkfLDr4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BwkfLDr4.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-TP41032/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BwkfLDr4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BwkfLDr4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BwkfLDr4.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-TP41032.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP41032.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                  | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | BwkfLDr4  | KCA-TP41032           | Pastorale et Capriccio | [external URL](D6RjeTWv) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                  | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | BwkfLDr4  | KCA-TP41032           | Pastorale et Capriccio | [external URL](https://anet.be/record/opacdkvc/c:lvd:6735295/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -89,10 +93,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/BwkfLDr4.html" height="800" width="1200" title="BwkfLDr4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BwkfLDr4" height="800" width="1200" title="BwkfLDr4"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/BwkfLDr4.html" height="800" width="1200" title="BwkfLDr4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/BwkfLDr4" height="800" width="1200" title="BwkfLDr4"></iframe>

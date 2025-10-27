@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kHuJoonW
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                              | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :--------------------------------------: | :-----: | :--------------------------------------------------: |
-    | kHuJoonW  | zoologist | someone who studies or practices zoology |         | [zoologist](http://wwww.wikidata.org/entity/Q350979) |
+    | FAAM UUID | label     | description                              | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :--------------------------------------: | :-----: | :---------------------------------------------: |
+    | kHuJoonW  | zoologist | someone who studies or practices zoology |         | [zoologist](http://wikidata.org/entity/Q350979) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/kHuJoonW.html" height="800" width="1200" title="kHuJoonW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kHuJoonW" height="800" width="1200" title="kHuJoonW"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Hans Bischoff](./QEgbnuJC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German entomologist (1889–1960)
 

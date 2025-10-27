@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WDVe9MGS
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                                                                                 | aliases    | Wikidata QID                                                    |
-    | :-------: | :----------------: | :---------------------------------------------------------------------------------------------------------: | :--------: | :-------------------------------------------------------------: |
-    | WDVe9MGS  | patron of the arts | person or corporate body who gives financial or other support to a person, organization, cause, or activity | art patron | [patron of the arts](http://wwww.wikidata.org/entity/Q15472169) |
+    | FAAM UUID | label              | description                                                                                                 | aliases    | Wikidata QID                                               |
+    | :-------: | :----------------: | :---------------------------------------------------------------------------------------------------------: | :--------: | :--------------------------------------------------------: |
+    | WDVe9MGS  | patron of the arts | person or corporate body who gives financial or other support to a person, organization, cause, or activity | art patron | [patron of the arts](http://wikidata.org/entity/Q15472169) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/WDVe9MGS.html" height="800" width="1200" title="WDVe9MGS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WDVe9MGS" height="800" width="1200" title="WDVe9MGS"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Elisabeth Alberdingk Thijm](./QDMziZ5r.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	writer, translator and patron (1863-1952)
 

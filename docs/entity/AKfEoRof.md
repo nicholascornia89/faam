@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AKfEoRof
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                  | aliases                     | Wikidata QID                                                   |
-    | :-------: | :---------------: | :----------------------------------------------------------: | :-------------------------: | :------------------------------------------------------------: |
-    | AKfEoRof  | classical pianist | pianist who is formally trained in and plays classical music | classically trained pianist | [classical pianist](http://wwww.wikidata.org/entity/Q61996187) |
+    | FAAM UUID | label             | description                                                  | aliases                     | Wikidata QID                                              |
+    | :-------: | :---------------: | :----------------------------------------------------------: | :-------------------------: | :-------------------------------------------------------: |
+    | AKfEoRof  | classical pianist | pianist who is formally trained in and plays classical music | classically trained pianist | [classical pianist](http://wikidata.org/entity/Q61996187) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/AKfEoRof.html" height="800" width="1200" title="AKfEoRof"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AKfEoRof" height="800" width="1200" title="AKfEoRof"></iframe>
 
 ## Cross-references
 

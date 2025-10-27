@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2FvLLrVs
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2FvLLrVs.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2FvLLrVs.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2FvLLrVs.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2FvLLrVs.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2FvLLrVs.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2FvLLrVs.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Frits_Celis_at_90.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description       | Wikidata QID                                            |
-    | :-------: | :---------: | :---------: | :---------------: | :-----------------------------------------------------: |
-    | 2FvLLrVs  | Frits Celis | Frits Celis | Belgian conductor | [Frits Celis](http://wwww.wikidata.org/entity/Q2300301) |
+    | FAAM UUID | label       | aliases     | description       | Wikidata QID                                       |
+    | :-------: | :---------: | :---------: | :---------------: | :------------------------------------------------: |
+    | 2FvLLrVs  | Frits Celis | Frits Celis | Belgian conductor | [Frits Celis](http://wikidata.org/entity/Q2300301) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/2FvLLrVs.html" height="800" width="1200" title="2FvLLrVs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2FvLLrVs" height="800" width="1200" title="2FvLLrVs"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,7 @@ tags: agent
 
 -	__[4e Suite](./TbqYtu6J.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902565446.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902565446.gif){align=left width="150" height="150"} 
 
 	
 

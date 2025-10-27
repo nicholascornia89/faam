@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vfbz9qQ8
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Vfbz9qQ8.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Vfbz9qQ8.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Vfbz9qQ8.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Vfbz9qQ8.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Vfbz9qQ8.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Vfbz9qQ8.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arensky_Anton_Postcard-1910.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                   | description                                      | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------------------: | :----------------------------------------------: | :------------------------------------------------------: |
-    | Vfbz9qQ8  | Anton Arensky | Anton Stepanovich Arensky | Russian composer, pianist and professor of music | [Anton Arensky](http://wwww.wikidata.org/entity/Q313970) |
+    | FAAM UUID | label         | aliases                   | description                                      | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------------------: | :----------------------------------------------: | :-------------------------------------------------: |
+    | Vfbz9qQ8  | Anton Arensky | Anton Stepanovich Arensky | Russian composer, pianist and professor of music | [Anton Arensky](http://wikidata.org/entity/Q313970) |
 
 <br><br><br>
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Vfbz9qQ8.html" height="800" width="1200" title="Vfbz9qQ8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vfbz9qQ8" height="800" width="1200" title="Vfbz9qQ8"></iframe>
 
 ## Identifiers
 
@@ -90,3 +94,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Alexander Scriabin](./2J9rMsu5.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Skrjabin_Alexander.jpg){align=left width="150" height="150"} 
+
+	Russian composer and pianist (1872–1915)
+
+</div>

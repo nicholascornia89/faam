@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SvJHdWX4
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description                                                                                  | aliases         | Wikidata QID                                              |
-    | :-------: | :-----------: | :------------------------------------------------------------------------------------------: | :-------------: | :-------------------------------------------------------: |
-    | SvJHdWX4  | drama teacher | educator who teaches one or more aspects of drama (e.g., theatre history, acting, directing) | drama professor | [drama teacher](http://wwww.wikidata.org/entity/Q2449921) |
+    | FAAM UUID | label         | description                                                                                  | aliases         | Wikidata QID                                         |
+    | :-------: | :-----------: | :------------------------------------------------------------------------------------------: | :-------------: | :--------------------------------------------------: |
+    | SvJHdWX4  | drama teacher | educator who teaches one or more aspects of drama (e.g., theatre history, acting, directing) | drama professor | [drama teacher](http://wikidata.org/entity/Q2449921) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/SvJHdWX4.html" height="800" width="1200" title="SvJHdWX4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SvJHdWX4" height="800" width="1200" title="SvJHdWX4"></iframe>
 
 ## Cross-references
 

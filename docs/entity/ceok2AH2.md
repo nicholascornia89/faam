@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ceok2AH2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description              | aliases          | Wikidata QID                                               |
-    | :-------: | :-----------: | :----------------------: | :--------------: | :--------------------------------------------------------: |
-    | ceok2AH2  | Aberdeen City | council area of Scotland | City of Aberdeen | [Aberdeen City](http://wwww.wikidata.org/entity/Q62274582) |
+    | FAAM UUID | label         | description              | aliases          | Wikidata QID                                          |
+    | :-------: | :-----------: | :----------------------: | :--------------: | :---------------------------------------------------: |
+    | ceok2AH2  | Aberdeen City | council area of Scotland | City of Aberdeen | [Aberdeen City](http://wikidata.org/entity/Q62274582) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ceok2AH2.html" height="800" width="1200" title="ceok2AH2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ceok2AH2" height="800" width="1200" title="ceok2AH2"></iframe>
 
 ## Identifiers
 

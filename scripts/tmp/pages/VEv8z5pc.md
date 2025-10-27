@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VEv8z5pc
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                             | aliases | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-------------------------------------: | :-----: | :------------------------------------------------------------------: |
-    | VEv8z5pc  | London Borough of Lambeth | borough in the London Region in England | Lambeth | [London Borough of Lambeth](http://wwww.wikidata.org/entity/Q202059) |
+    | FAAM UUID | label                     | description                             | aliases | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-------------------------------------: | :-----: | :-------------------------------------------------------------: |
+    | VEv8z5pc  | London Borough of Lambeth | borough in the London Region in England | Lambeth | [London Borough of Lambeth](http://wikidata.org/entity/Q202059) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/VEv8z5pc.html" height="800" width="1200" title="VEv8z5pc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VEv8z5pc" height="800" width="1200" title="VEv8z5pc"></iframe>
 
 ## Identifiers
 

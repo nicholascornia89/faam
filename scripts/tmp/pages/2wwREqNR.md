@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2wwREqNR
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                             | aliases             | Wikidata QID                                          |
-    | :-------: | :-------: | :-------------------------------------------------------------------------------------: | :-----------------: | :---------------------------------------------------: |
-    | 2wwREqNR  | signature | mark of the creator on a work to identify themselves as such (name, initials, monogram) | signature of artist | [signature](http://wwww.wikidata.org/entity/Q1373131) |
+    | FAAM UUID | label     | description                                                                             | aliases             | Wikidata QID                                     |
+    | :-------: | :-------: | :-------------------------------------------------------------------------------------: | :-----------------: | :----------------------------------------------: |
+    | 2wwREqNR  | signature | mark of the creator on a work to identify themselves as such (name, initials, monogram) | signature of artist | [signature](http://wikidata.org/entity/Q1373131) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/2wwREqNR.html" height="800" width="1200" title="2wwREqNR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2wwREqNR" height="800" width="1200" title="2wwREqNR"></iframe>
 
 ## Cross-references
 

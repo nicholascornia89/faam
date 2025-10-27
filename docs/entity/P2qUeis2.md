@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: P2qUeis2
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | aliases              | description                              | Wikidata QID                                                     |
-    | :-------: | :--------------------------: | :------------------: | :--------------------------------------: | :--------------------------------------------------------------: |
-    | P2qUeis2  | Missa Papae Marcelli, IGP 56 | Missa Papae Marcelli | mass by Giovanni Pierluigi da Palestrina | [Missa Papae Marcelli](http://wwww.wikidata.org/entity/Q2717291) |
+    | FAAM UUID | label                        | aliases              | description                              | Wikidata QID                                                |
+    | :-------: | :--------------------------: | :------------------: | :--------------------------------------: | :---------------------------------------------------------: |
+    | P2qUeis2  | Missa Papae Marcelli, IGP 56 | Missa Papae Marcelli | mass by Giovanni Pierluigi da Palestrina | [Missa Papae Marcelli](http://wikidata.org/entity/Q2717291) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/P2qUeis2.html" height="800" width="1200" title="P2qUeis2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/P2qUeis2" height="800" width="1200" title="P2qUeis2"></iframe>
 
 ## Identifiers
 
@@ -73,37 +77,37 @@ tags: musical_work
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)](./4MMhcBUy.md)__
 
-	![Image](../assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Messe Papae Marcelli: à 6 voix](./B5HciH7c.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901762242.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901762242.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)](./4MMhcBUy.md)__
 
-	![Image](../assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43090486d.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
 
 	
 

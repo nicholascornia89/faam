@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YNh2B5ms
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description    | aliases | Wikidata QID                                      |
-    | :-------: | :------: | :------------: | :-----: | :-----------------------------------------------: |
-    | YNh2B5ms  | Lanciano | Italian comune |         | [Lanciano](http://wwww.wikidata.org/entity/Q8645) |
+    | FAAM UUID | label    | description    | aliases | Wikidata QID                                 |
+    | :-------: | :------: | :------------: | :-----: | :------------------------------------------: |
+    | YNh2B5ms  | Lanciano | Italian comune |         | [Lanciano](http://wikidata.org/entity/Q8645) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YNh2B5ms.html" height="800" width="1200" title="YNh2B5ms"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YNh2B5ms" height="800" width="1200" title="YNh2B5ms"></iframe>
 
 ## Identifiers
 

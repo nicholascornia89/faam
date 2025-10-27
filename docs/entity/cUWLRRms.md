@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cUWLRRms
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                                     | aliases | Wikidata QID                                                    |
-    | :-------: | :------------------: | :---------------------------------------------: | :-----: | :-------------------------------------------------------------: |
-    | cUWLRRms  | Boulogne-Billancourt | French commune in Hauts-de-Seine, Île-de-France | Boulbi  | [Boulogne-Billancourt](http://wwww.wikidata.org/entity/Q172455) |
+    | FAAM UUID | label                | description                                     | aliases | Wikidata QID                                               |
+    | :-------: | :------------------: | :---------------------------------------------: | :-----: | :--------------------------------------------------------: |
+    | cUWLRRms  | Boulogne-Billancourt | French commune in Hauts-de-Seine, Île-de-France | Boulbi  | [Boulogne-Billancourt](http://wikidata.org/entity/Q172455) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cUWLRRms.html" height="800" width="1200" title="cUWLRRms"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cUWLRRms" height="800" width="1200" title="cUWLRRms"></iframe>
 
 ## Identifiers
 

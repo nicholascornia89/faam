@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ztx3sCEe
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-432579682/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Ztx3sCEe.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Ztx3sCEe.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Ztx3sCEe.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-432579682/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Ztx3sCEe.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Ztx3sCEe.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Ztx3sCEe.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-432579682.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-432579682.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                          | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | Ztx3sCEe  | BNF-432579682         | Sonate N° 29 Allemande. Révision par Vincent d' Indy. 1er Livre des sonates pour clavecin 1721 | [external URL](hJoKsjEm) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                          | permalink                                                       | provenance                                        |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------: |
+    | Ztx3sCEe  | BNF-432579682         | Sonate N° 29 Allemande. Révision par Vincent d' Indy. 1er Livre des sonates pour clavecin 1721 | [external URL](https://catalogue.bnf.fr/ark:/12148/cb432579682) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -91,10 +95,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Ztx3sCEe.html" height="800" width="1200" title="Ztx3sCEe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ztx3sCEe" height="800" width="1200" title="Ztx3sCEe"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Ztx3sCEe.html" height="800" width="1200" title="Ztx3sCEe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Ztx3sCEe" height="800" width="1200" title="Ztx3sCEe"></iframe>

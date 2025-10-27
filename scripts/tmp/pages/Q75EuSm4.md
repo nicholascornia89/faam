@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Q75EuSm4
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                  | aliases  | Wikidata QID                                        |
-    | :-------: | :------: | :----------------------------------------------------------: | :------: | :-------------------------------------------------: |
-    | Q75EuSm4  | ricercar | musical composition exploring a motif or developing an etude | recercar | [ricercar](http://wwww.wikidata.org/entity/Q746743) |
+    | FAAM UUID | label    | description                                                  | aliases  | Wikidata QID                                   |
+    | :-------: | :------: | :----------------------------------------------------------: | :------: | :--------------------------------------------: |
+    | Q75EuSm4  | ricercar | musical composition exploring a motif or developing an etude | recercar | [ricercar](http://wikidata.org/entity/Q746743) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Q75EuSm4.html" height="800" width="1200" title="Q75EuSm4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Q75EuSm4" height="800" width="1200" title="Q75EuSm4"></iframe>
 
 ## Cross-references
 

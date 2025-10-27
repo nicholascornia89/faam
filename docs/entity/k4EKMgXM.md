@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: k4EKMgXM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/k4EKMgXM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/k4EKMgXM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/k4EKMgXM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/k4EKMgXM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/k4EKMgXM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/k4EKMgXM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Kiel_by_F._Garibotti_-_Archivio_Storico_Ricordi_ICON010546_(cropped).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description                                   | Wikidata QID                                              |
-    | :-------: | :------------: | :-----: | :-------------------------------------------: | :-------------------------------------------------------: |
-    | k4EKMgXM  | Friedrich Kiel |         | German composer and music teacher (1821–1885) | [Friedrich Kiel](http://wwww.wikidata.org/entity/Q694191) |
+    | FAAM UUID | label          | aliases | description                                   | Wikidata QID                                         |
+    | :-------: | :------------: | :-----: | :-------------------------------------------: | :--------------------------------------------------: |
+    | k4EKMgXM  | Friedrich Kiel |         | German composer and music teacher (1821–1885) | [Friedrich Kiel](http://wikidata.org/entity/Q694191) |
 
 <br><br><br>
 
@@ -71,7 +75,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/k4EKMgXM.html" height="800" width="1200" title="k4EKMgXM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/k4EKMgXM" height="800" width="1200" title="k4EKMgXM"></iframe>
 
 ## Identifiers
 
@@ -92,3 +96,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Moritz Moszkowski](./nfsjuNCe.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Moritz_Moszkowski.jpg){align=left width="150" height="150"} 
+
+	German composer, pianist and teacher (1854–1925)
+
+-	__[Arnold Mendelssohn](./WqiSzZBk.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold.Mendelssohn.Dauerausstellung.Dreifaltigkeitskirchhof.jpg){align=left width="150" height="150"} 
+
+	German composer and music teacher (1855-1933)
+
+</div>

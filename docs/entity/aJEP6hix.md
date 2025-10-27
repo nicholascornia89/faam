@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aJEP6hix
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                                      | aliases | Wikidata QID                                        |
-    | :-------: | :-----: | :------------------------------------------------------------------------------: | :-----: | :-------------------------------------------------: |
-    | aJEP6hix  | service | economic product that directly satisfies wants without producing a lasting asset | service | [service](http://wwww.wikidata.org/entity/Q7406919) |
+    | FAAM UUID | label   | description                                                                      | aliases | Wikidata QID                                   |
+    | :-------: | :-----: | :------------------------------------------------------------------------------: | :-----: | :--------------------------------------------: |
+    | aJEP6hix  | service | economic product that directly satisfies wants without producing a lasting asset | service | [service](http://wikidata.org/entity/Q7406919) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/aJEP6hix.html" height="800" width="1200" title="aJEP6hix"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aJEP6hix" height="800" width="1200" title="aJEP6hix"></iframe>
 
 ## Cross-references
 

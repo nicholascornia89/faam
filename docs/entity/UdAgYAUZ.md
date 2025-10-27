@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UdAgYAUZ
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description   | aliases | Wikidata QID                                      |
-    | :-------: | :---: | :-----------: | :-----: | :-----------------------------------------------: |
-    | UdAgYAUZ  | piano | music dynamic | piano   | [piano](http://wwww.wikidata.org/entity/Q2707020) |
+    | FAAM UUID | label | description   | aliases | Wikidata QID                                 |
+    | :-------: | :---: | :-----------: | :-----: | :------------------------------------------: |
+    | UdAgYAUZ  | piano | music dynamic | piano   | [piano](http://wikidata.org/entity/Q2707020) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/UdAgYAUZ.html" height="800" width="1200" title="UdAgYAUZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UdAgYAUZ" height="800" width="1200" title="UdAgYAUZ"></iframe>
 
 ## Cross-references
 
@@ -55,7 +59,7 @@ tags: annotation_type
 
 -	__[Der Golem: Musikdrama in drei Akten](./7on5FraR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901706215.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901706215.gif){align=left width="150" height="150"} 
 
 	
 

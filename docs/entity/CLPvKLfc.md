@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CLPvKLfc
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                  | aliases        | Wikidata QID                                                   |
-    | :-------: | :----------------: | :------------------------------------------: | :------------: | :------------------------------------------------------------: |
-    | CLPvKLfc  | opinion journalist | journalist who makes no claim of objectivity | opinion writer | [opinion journalist](http://wwww.wikidata.org/entity/Q6051619) |
+    | FAAM UUID | label              | description                                  | aliases        | Wikidata QID                                              |
+    | :-------: | :----------------: | :------------------------------------------: | :------------: | :-------------------------------------------------------: |
+    | CLPvKLfc  | opinion journalist | journalist who makes no claim of objectivity | opinion writer | [opinion journalist](http://wikidata.org/entity/Q6051619) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/CLPvKLfc.html" height="800" width="1200" title="CLPvKLfc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CLPvKLfc" height="800" width="1200" title="CLPvKLfc"></iframe>
 
 ## Cross-references
 

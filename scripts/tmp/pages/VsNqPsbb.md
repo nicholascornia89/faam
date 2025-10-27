@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VsNqPsbb
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                 | aliases   | Wikidata QID                                        |
-    | :-------: | :-------: | :-------------------------: | :-------: | :-------------------------------------------------: |
-    | VsNqPsbb  | orchestra | large instrumental ensemble | orchestra | [orchestra](http://wwww.wikidata.org/entity/Q42998) |
+    | FAAM UUID | label     | description                 | aliases   | Wikidata QID                                   |
+    | :-------: | :-------: | :-------------------------: | :-------: | :--------------------------------------------: |
+    | VsNqPsbb  | orchestra | large instrumental ensemble | orchestra | [orchestra](http://wikidata.org/entity/Q42998) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/VsNqPsbb.html" height="800" width="1200" title="VsNqPsbb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VsNqPsbb" height="800" width="1200" title="VsNqPsbb"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Danses concertantes : for chamber orchestra = Danses concertantes : für Kammerorchester](./CY69q29C.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904721377.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904721377.gif){align=left width="150" height="150"} 
 
 	
 

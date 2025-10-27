@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Q2LfMHHL
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description             | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :---------------------: | :-----: | :--------------------------------------------------: |
-    | Q2LfMHHL  | educator | position classification |         | [educator](http://wwww.wikidata.org/entity/Q2141193) |
+    | FAAM UUID | label    | description             | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :---------------------: | :-----: | :---------------------------------------------: |
+    | Q2LfMHHL  | educator | position classification |         | [educator](http://wikidata.org/entity/Q2141193) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Q2LfMHHL.html" height="800" width="1200" title="Q2LfMHHL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Q2LfMHHL" height="800" width="1200" title="Q2LfMHHL"></iframe>
 
 ## Cross-references
 

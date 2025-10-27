@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: E57MkHSb
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                          | aliases       | Wikidata QID                                            |
-    | :-------: | :---------: | :--------------------------------------------------: | :-----------: | :-----------------------------------------------------: |
-    | E57MkHSb  | stage actor | actor who performs live before an in-person audience | theater actor | [stage actor](http://wwww.wikidata.org/entity/Q2259451) |
+    | FAAM UUID | label       | description                                          | aliases       | Wikidata QID                                       |
+    | :-------: | :---------: | :--------------------------------------------------: | :-----------: | :------------------------------------------------: |
+    | E57MkHSb  | stage actor | actor who performs live before an in-person audience | theater actor | [stage actor](http://wikidata.org/entity/Q2259451) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/E57MkHSb.html" height="800" width="1200" title="E57MkHSb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/E57MkHSb" height="800" width="1200" title="E57MkHSb"></iframe>
 
 ## Cross-references
 
@@ -55,7 +59,7 @@ tags: occupation
 
 -	__[Antonio Sacco](./GmK3PH7W.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian stage actor
 

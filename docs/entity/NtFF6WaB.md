@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NtFF6WaB
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NtFF6WaB.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NtFF6WaB.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NtFF6WaB.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NtFF6WaB.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NtFF6WaB.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NtFF6WaB.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description                  | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----: | :--------------------------: | :----------------------------------------------------------: |
-    | NtFF6WaB  | Andre Robberechts |         | Belgian composer (1797–1860) | [Andre Robberechts](http://wwww.wikidata.org/entity/Q522548) |
+    | FAAM UUID | label             | aliases | description                  | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----: | :--------------------------: | :-----------------------------------------------------: |
+    | NtFF6WaB  | Andre Robberechts |         | Belgian composer (1797–1860) | [Andre Robberechts](http://wikidata.org/entity/Q522548) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NtFF6WaB.html" height="800" width="1200" title="NtFF6WaB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NtFF6WaB" height="800" width="1200" title="NtFF6WaB"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Charles Auguste de Bériot](./SfdhwsSz.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles-Auguste_de_Bériot_by_Henri_Grevedon_1838.jpg){align=left width="150" height="150"} 
+
+	Belgian composer and violinist (1802–1870)
+
+</div>

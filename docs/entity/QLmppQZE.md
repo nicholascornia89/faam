@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QLmppQZE
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                          | aliases | Wikidata QID                                                        |
-    | :-------: | :---------------------: | :----------------------------------: | :-----: | :-----------------------------------------------------------------: |
-    | QLmppQZE  | Saint-Julien-de-l'Escap | commune in Charente-Maritime, France |         | [Saint-Julien-de-l'Escap](http://wwww.wikidata.org/entity/Q1144926) |
+    | FAAM UUID | label                   | description                          | aliases      | Wikidata QID                                                   |
+    | :-------: | :---------------------: | :----------------------------------: | :----------: | :------------------------------------------------------------: |
+    | QLmppQZE  | Saint-Julien-de-l'Escap | commune in Charente-Maritime, France | Saint-Julien | [Saint-Julien-de-l'Escap](http://wikidata.org/entity/Q1144926) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/QLmppQZE.html" height="800" width="1200" title="QLmppQZE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QLmppQZE" height="800" width="1200" title="QLmppQZE"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Julia Sureau-Bellet](./VAotUxhx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

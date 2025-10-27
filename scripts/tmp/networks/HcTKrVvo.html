@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "YKgWfkbb", "label": "Lisbon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YKgWfkbb.md\u0027\u003eLisbon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality and capital city of Portugal\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "9n8LTSuY", "label": "Portugal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9n8LTSuY.md\u0027\u003ePortugal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Southwestern Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HcTKrVvo", "label": "Lisbon Theatre and Film School", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HcTKrVvo.md\u0027\u003eLisbon Theatre and Film School\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efilm school\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "She6hnVt", "label": "Amadora", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./She6hnVt.md\u0027\u003eAmadora\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Portugal\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "eL6rC9yE", "label": "Emilio Pujol", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eL6rC9yE.md\u0027\u003eEmilio Pujol\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCatalan classical guitarist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emili_Pujol.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "YKgWfkbb", "to": "9n8LTSuY", "width": 1}, {"from": "YKgWfkbb", "to": "HcTKrVvo", "width": 1}, {"from": "9n8LTSuY", "to": "She6hnVt", "width": 1}, {"from": "9n8LTSuY", "to": "HcTKrVvo", "width": 1}, {"from": "eL6rC9yE", "to": "HcTKrVvo", "width": 10}, {"from": "She6hnVt", "to": "HcTKrVvo", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "She6hnVt", "label": "Amadora", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/She6hnVt\u0027\u003eAmadora\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Portugal\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "9n8LTSuY", "label": "Portugal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9n8LTSuY\u0027\u003ePortugal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Southwestern Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HcTKrVvo", "label": "Lisbon Theatre and Film School", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HcTKrVvo\u0027\u003eLisbon Theatre and Film School\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efilm school\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "YKgWfkbb", "label": "Lisbon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YKgWfkbb\u0027\u003eLisbon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality and capital city of Portugal\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "eL6rC9yE", "label": "Emilio Pujol", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eL6rC9yE\u0027\u003eEmilio Pujol\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCatalan classical guitarist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emili_Pujol.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "She6hnVt", "to": "9n8LTSuY", "width": 1}, {"from": "She6hnVt", "to": "HcTKrVvo", "width": 1}, {"from": "9n8LTSuY", "to": "YKgWfkbb", "width": 1}, {"from": "9n8LTSuY", "to": "HcTKrVvo", "width": 1}, {"from": "YKgWfkbb", "to": "HcTKrVvo", "width": 1}, {"from": "HcTKrVvo", "to": "eL6rC9yE", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

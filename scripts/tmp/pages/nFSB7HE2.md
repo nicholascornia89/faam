@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nFSB7HE2
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | aliases      | description                  | Wikidata QID                                              |
-    | :-------: | :------------------------------: | :----------: | :--------------------------: | :-------------------------------------------------------: |
-    | nFSB7HE2  | Keyboard Sonata in D minor, K.10 | Sonata K. 10 | sonata by Domenico Scarlatti | [Sonata K. 10](http://wwww.wikidata.org/entity/Q74594884) |
+    | FAAM UUID | label                            | aliases      | description                  | Wikidata QID                                         |
+    | :-------: | :------------------------------: | :----------: | :--------------------------: | :--------------------------------------------------: |
+    | nFSB7HE2  | Keyboard Sonata in D minor, K.10 | Sonata K. 10 | sonata by Domenico Scarlatti | [Sonata K. 10](http://wikidata.org/entity/Q74594884) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/nFSB7HE2.html" height="800" width="1200" title="nFSB7HE2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nFSB7HE2" height="800" width="1200" title="nFSB7HE2"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9Nm8pu9T
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description             | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :---------------------: | :-----: | :----------------------------------------------: |
-    | 9Nm8pu9T  | Algiers | capital city of Algeria |         | [Algiers](http://wwww.wikidata.org/entity/Q3561) |
+    | FAAM UUID | label   | description             | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :---------------------: | :-----: | :-----------------------------------------: |
+    | 9Nm8pu9T  | Algiers | capital city of Algeria |         | [Algiers](http://wikidata.org/entity/Q3561) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Algeria](http://www.wikidata.org/entity/Q262)
+	- [Algeria](Q262)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/9Nm8pu9T.html" height="800" width="1200" title="9Nm8pu9T"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9Nm8pu9T" height="800" width="1200" title="9Nm8pu9T"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Henri Vieuxtemps](./dQpy5hbT.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vieuxtemps.jpeg){align=left width="150" height="150"} 
 
 	Belgian violinist and composer (1820-1881)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ftmHEaq5
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description | aliases | Wikidata QID                                             |
-    | :-------: | :-----------: | :---------: | :-----: | :------------------------------------------------------: |
-    | ftmHEaq5  | staccatissimo |             |         | [staccatissimo](http://wwww.wikidata.org/entity/Q671521) |
+    | FAAM UUID | label         | description | aliases | Wikidata QID                                        |
+    | :-------: | :-----------: | :---------: | :-----: | :-------------------------------------------------: |
+    | ftmHEaq5  | staccatissimo |             |         | [staccatissimo](http://wikidata.org/entity/Q671521) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/ftmHEaq5.html" height="800" width="1200" title="ftmHEaq5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ftmHEaq5" height="800" width="1200" title="ftmHEaq5"></iframe>
 
 ## Cross-references
 

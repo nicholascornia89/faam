@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: L5HhDw7w
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000345313/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/L5HhDw7w.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/L5HhDw7w.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/L5HhDw7w.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000345313/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/L5HhDw7w.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/L5HhDw7w.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/L5HhDw7w.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000345313.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345313.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                     | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | L5HhDw7w  | KCG-000345313         | Septième Solo : Pour Le Cor avec Piano obligé : Oeuvre 23 | [external URL](2qoBxv5j) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                     | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | L5HhDw7w  | KCG-000345313         | Septième Solo : Pour Le Cor avec Piano obligé : Oeuvre 23 | [external URL](https://catalogus.hogent.be/catalog/hog01:000345313) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -91,10 +95,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/L5HhDw7w.html" height="800" width="1200" title="L5HhDw7w"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/L5HhDw7w" height="800" width="1200" title="L5HhDw7w"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/L5HhDw7w.html" height="800" width="1200" title="L5HhDw7w"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/L5HhDw7w" height="800" width="1200" title="L5HhDw7w"></iframe>

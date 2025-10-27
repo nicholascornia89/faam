@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TbGCra4a
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                                      | aliases       | Wikidata QID                                            |
-    | :-------: | :----------: | :------------------------------------------------------------------------------: | :-----------: | :-----------------------------------------------------: |
-    | TbGCra4a  | conservatory | educational institution specialized in the study, training and research of music | conservatoire | [conservatory](http://wwww.wikidata.org/entity/Q184644) |
+    | FAAM UUID | label        | description                                                                      | aliases       | Wikidata QID                                       |
+    | :-------: | :----------: | :------------------------------------------------------------------------------: | :-----------: | :------------------------------------------------: |
+    | TbGCra4a  | conservatory | educational institution specialized in the study, training and research of music | conservatoire | [conservatory](http://wikidata.org/entity/Q184644) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/TbGCra4a.html" height="800" width="1200" title="TbGCra4a"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TbGCra4a" height="800" width="1200" title="TbGCra4a"></iframe>
 
 ## Cross-references
 

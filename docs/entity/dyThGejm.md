@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dyThGejm
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases | description | Wikidata QID                         |
-    | :-------: | :-------------------------: | :-----: | :---------: | :----------------------------------: |
-    | dyThGejm  | Guitar Concerto No.1, Op.30 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                       | aliases | description | Wikidata QID                    |
+    | :-------: | :-------------------------: | :-----: | :---------: | :-----------------------------: |
+    | dyThGejm  | Guitar Concerto No.1, Op.30 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/dyThGejm.html" height="800" width="1200" title="dyThGejm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dyThGejm" height="800" width="1200" title="dyThGejm"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Concerto per chitarra, archi e timpani, op. 30](./a64gD2W5.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904183586.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904183586.gif){align=left width="150" height="150"} 
 
 	
 

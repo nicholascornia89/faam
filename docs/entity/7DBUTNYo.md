@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7DBUTNYo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description      | aliases  | Wikidata QID                                               |
-    | :-------: | :-------------: | :--------------: | :------: | :--------------------------------------------------------: |
-    | 7DBUTNYo  | Pretzsch (Elbe) | human settlement | Pretzsch | [Pretzsch (Elbe)](http://wwww.wikidata.org/entity/Q699124) |
+    | FAAM UUID | label           | description      | aliases  | Wikidata QID                                          |
+    | :-------: | :-------------: | :--------------: | :------: | :---------------------------------------------------: |
+    | 7DBUTNYo  | Pretzsch (Elbe) | human settlement | Pretzsch | [Pretzsch (Elbe)](http://wikidata.org/entity/Q699124) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7DBUTNYo.html" height="800" width="1200" title="7DBUTNYo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7DBUTNYo" height="800" width="1200" title="7DBUTNYo"></iframe>
 
 ## Identifiers
 

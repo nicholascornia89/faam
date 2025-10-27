@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 93rjADoC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                                              | aliases        | Wikidata QID                                             |
-    | :-------: | :------------: | :--------------------------------------------------------------------------------------: | :------------: | :------------------------------------------------------: |
-    | 93rjADoC  | Salt Lake City | city in and county seat of Salt Lake County, Utah, United States and the capital of Utah | Salt Lake City | [Salt Lake City](http://wwww.wikidata.org/entity/Q23337) |
+    | FAAM UUID | label          | description                                                                              | aliases        | Wikidata QID                                        |
+    | :-------: | :------------: | :--------------------------------------------------------------------------------------: | :------------: | :-------------------------------------------------: |
+    | 93rjADoC  | Salt Lake City | city in and county seat of Salt Lake County, Utah, United States and the capital of Utah | Salt Lake City | [Salt Lake City](http://wikidata.org/entity/Q23337) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/93rjADoC.html" height="800" width="1200" title="93rjADoC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/93rjADoC" height="800" width="1200" title="93rjADoC"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Maurice Abravanel](./MjskrVov.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Ottoman-American Jewish conductor
 

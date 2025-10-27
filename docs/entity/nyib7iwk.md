@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nyib7iwk
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description               | aliases | Wikidata QID                                           |
-    | :-------: | :--------: | :-----------------------: | :-----: | :----------------------------------------------------: |
-    | nyib7iwk  | fortissimo | musical dynamics notation | ff      | [fortissimo](http://wwww.wikidata.org/entity/Q3748790) |
+    | FAAM UUID | label      | description               | aliases | Wikidata QID                                      |
+    | :-------: | :--------: | :-----------------------: | :-----: | :-----------------------------------------------: |
+    | nyib7iwk  | fortissimo | musical dynamics notation | ff      | [fortissimo](http://wikidata.org/entity/Q3748790) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/nyib7iwk.html" height="800" width="1200" title="nyib7iwk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nyib7iwk" height="800" width="1200" title="nyib7iwk"></iframe>
 
 ## Cross-references
 

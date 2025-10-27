@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6ZLM2Znx
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                               | aliases           | Wikidata QID                                                  |
-    | :-------: | :---------------: | :-------------------------------------------------------: | :---------------: | :-----------------------------------------------------------: |
-    | 6ZLM2Znx  | Wilhelmsgymnasium | school of academic secondary education in Munich, Germany | Wilhelmsgymnasium | [Wilhelmsgymnasium](http://wwww.wikidata.org/entity/Q2576235) |
+    | FAAM UUID | label             | description                                               | aliases           | Wikidata QID                                             |
+    | :-------: | :---------------: | :-------------------------------------------------------: | :---------------: | :------------------------------------------------------: |
+    | 6ZLM2Znx  | Wilhelmsgymnasium | school of academic secondary education in Munich, Germany | Wilhelmsgymnasium | [Wilhelmsgymnasium](http://wikidata.org/entity/Q2576235) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./c8PM93td.md)
+	[Lehel](./c8PM93td.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/6ZLM2Znx.html" height="800" width="1200" title="6ZLM2Znx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6ZLM2Znx" height="800" width="1200" title="6ZLM2Znx"></iframe>
 
 ## Cross-references
 

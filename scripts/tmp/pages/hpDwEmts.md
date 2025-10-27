@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hpDwEmts
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                                       | aliases              | Wikidata QID                                          |
-    | :-------: | :---------: | :-------------------------------------------------------------------------------: | :------------------: | :---------------------------------------------------: |
-    | hpDwEmts  | Tallahassee | county seat of Leon County, Florida, USA and Florida federated state capital city | Tallahassee, Florida | [Tallahassee](http://wwww.wikidata.org/entity/Q37043) |
+    | FAAM UUID | label       | description                                                                       | aliases              | Wikidata QID                                     |
+    | :-------: | :---------: | :-------------------------------------------------------------------------------: | :------------------: | :----------------------------------------------: |
+    | hpDwEmts  | Tallahassee | county seat of Leon County, Florida, USA and Florida federated state capital city | Tallahassee, Florida | [Tallahassee](http://wikidata.org/entity/Q37043) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/hpDwEmts.html" height="800" width="1200" title="hpDwEmts"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hpDwEmts" height="800" width="1200" title="hpDwEmts"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Edward Kilenyi](./a7VLGgQh.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American musician, teacher of George Gershwin
 

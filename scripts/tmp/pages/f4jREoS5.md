@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: f4jREoS5
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                                                                          | aliases | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :----------------------------------------------------------------------------------: | :-----: | :-----------------------------------------------------------------: |
-    | f4jREoS5  | University of Pittsburgh | state-related research university located in Pittsburgh, Pennsylvania, United States | Pitt    | [University of Pittsburgh](http://wwww.wikidata.org/entity/Q235034) |
+    | FAAM UUID | label                    | description                                                                          | aliases | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :----------------------------------------------------------------------------------: | :-----: | :------------------------------------------------------------: |
+    | f4jREoS5  | University of Pittsburgh | state-related research university located in Pittsburgh, Pennsylvania, United States | Pitt    | [University of Pittsburgh](http://wikidata.org/entity/Q235034) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./burVwPcE.md)
+	[Pittsburgh](./burVwPcE.md)
 
-	[](./LTcus2sA.md)
+	[Oakland](./LTcus2sA.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/f4jREoS5.html" height="800" width="1200" title="f4jREoS5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/f4jREoS5" height="800" width="1200" title="f4jREoS5"></iframe>
 
 ## Cross-references
 

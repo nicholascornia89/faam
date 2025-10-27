@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fqtj7Nqz
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fqtj7Nqz.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fqtj7Nqz.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fqtj7Nqz.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fqtj7Nqz.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fqtj7Nqz.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fqtj7Nqz.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/1823_Hensel_Lea_Mendelssohn.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases     | description | Wikidata QID                                                          |
-    | :-------: | :-----------------------: | :---------: | :---------: | :-------------------------------------------------------------------: |
-    | fqtj7Nqz  | Lea Mendelssohn Bartholdy | Lea Salomon | (1777-1842) | [Lea Mendelssohn Bartholdy](http://wwww.wikidata.org/entity/Q1810407) |
+    | FAAM UUID | label                     | aliases     | description | Wikidata QID                                                     |
+    | :-------: | :-----------------------: | :---------: | :---------: | :--------------------------------------------------------------: |
+    | fqtj7Nqz  | Lea Mendelssohn Bartholdy | Lea Salomon | (1777-1842) | [Lea Mendelssohn Bartholdy](http://wikidata.org/entity/Q1810407) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/fqtj7Nqz.html" height="800" width="1200" title="fqtj7Nqz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fqtj7Nqz" height="800" width="1200" title="fqtj7Nqz"></iframe>
 
 ## Identifiers
 
@@ -62,3 +66,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Felix Mendelssohn](./h7iqGs87.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felix_Mendelssohn_Bartholdy.jpg){align=left width="150" height="150"} 
+
+	German composer, pianist, organist and conductor of Jewish descent (1809–1847)
+
+</div>

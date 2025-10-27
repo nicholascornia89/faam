@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 55N3ShUX
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/55N3ShUX.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/55N3ShUX.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/55N3ShUX.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/55N3ShUX.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/55N3ShUX.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/55N3ShUX.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eykens,_Jean_(1812-1891);_dirigent,_pianist-componist,_Ghémar,_Louis,_Felixarchief,_12_12718.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases   | description                  | Wikidata QID                                                   |
-    | :-------: | :---------------: | :-------: | :--------------------------: | :------------------------------------------------------------: |
-    | 55N3ShUX  | Jean Simon Eykens | I. Eykens | Belgian composer (1812-1891) | [Jean Simon Eykens](http://wwww.wikidata.org/entity/Q30306860) |
+    | FAAM UUID | label             | aliases   | description                  | Wikidata QID                                              |
+    | :-------: | :---------------: | :-------: | :--------------------------: | :-------------------------------------------------------: |
+    | 55N3ShUX  | Jean Simon Eykens | I. Eykens | Belgian composer (1812-1891) | [Jean Simon Eykens](http://wikidata.org/entity/Q30306860) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/55N3ShUX.html" height="800" width="1200" title="55N3ShUX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/55N3ShUX" height="800" width="1200" title="55N3ShUX"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,7 @@ tags: agent
 
 -	__[[Convoluut]](./b7q9UADS.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902683744.gif){align=left width="150" height="150"} 
 
 	
 

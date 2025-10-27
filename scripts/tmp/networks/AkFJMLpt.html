@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hBcFSi6N", "label": "Francine Lepage", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./hBcFSi6N.md\u0027\u003eFrancine Lepage\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian mezzo soprano\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "AkFJMLpt", "label": "Rotterdam", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AkFJMLpt.md\u0027\u003eRotterdam\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in South Holland, the Netherlands\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BWX2VNz4", "label": "Netherlands", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BWX2VNz4.md\u0027\u003eNetherlands\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Northwestern Europe with territories in the Caribbean\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Z4Mej9De", "label": "Jan Hendrik Paling", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Z4Mej9De.md\u0027\u003eJan Hendrik Paling\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch musician and piano builder (1796-1879)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9UFKY99S", "label": "Berthold Tours", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9UFKY99S.md\u0027\u003eBerthold Tours\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch composer (1838-1897)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Berthold_Tours.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9dCiGXXo", "label": "Karel Candael", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9dCiGXXo.md\u0027\u003eKarel Candael\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer, music teacher, and conductor (1883-1948)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ei655ntR", "label": "Karel Candael", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Ei655ntR.md\u0027\u003eKarel Candael\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer, music teacher, and conductor (1883-1948)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "hBcFSi6N", "to": "AkFJMLpt", "width": 10}, {"from": "AkFJMLpt", "to": "BWX2VNz4", "width": 10}, {"from": "AkFJMLpt", "to": "Z4Mej9De", "width": 10}, {"from": "AkFJMLpt", "to": "9UFKY99S", "width": 10}, {"from": "AkFJMLpt", "to": "9dCiGXXo", "width": 10}, {"from": "AkFJMLpt", "to": "Ei655ntR", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BWX2VNz4", "label": "Netherlands", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BWX2VNz4\u0027\u003eNetherlands\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Northwestern Europe with territories in the Caribbean\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "AkFJMLpt", "label": "Rotterdam", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AkFJMLpt\u0027\u003eRotterdam\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in South Holland, the Netherlands\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ei655ntR", "label": "Karel Candael", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Ei655ntR\u0027\u003eKarel Candael\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer, music teacher, and conductor (1883-1948)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9UFKY99S", "label": "Berthold Tours", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9UFKY99S\u0027\u003eBerthold Tours\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch composer (1838-1897)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Berthold_Tours.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9dCiGXXo", "label": "Karel Candael", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9dCiGXXo\u0027\u003eKarel Candael\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer, music teacher, and conductor (1883-1948)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hBcFSi6N", "label": "Francine Lepage", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hBcFSi6N\u0027\u003eFrancine Lepage\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian mezzo soprano\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Z4Mej9De", "label": "Jan Hendrik Paling", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Z4Mej9De\u0027\u003eJan Hendrik Paling\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch musician and piano builder (1796-1879)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "BWX2VNz4", "to": "AkFJMLpt", "width": 10}, {"from": "Ei655ntR", "to": "AkFJMLpt", "width": 10}, {"from": "9UFKY99S", "to": "AkFJMLpt", "width": 10}, {"from": "9dCiGXXo", "to": "AkFJMLpt", "width": 10}, {"from": "hBcFSi6N", "to": "AkFJMLpt", "width": 10}, {"from": "AkFJMLpt", "to": "Z4Mej9De", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

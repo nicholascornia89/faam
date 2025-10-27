@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: emZktnEj
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------------: | :-----: | :---------: | :----------------------------------: |
-    | emZktnEj  | Serenata andaluza, Op.28 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                    | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------------: | :-----: | :---------: | :-----------------------------: |
+    | emZktnEj  | Serenata andaluza, Op.28 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/emZktnEj.html" height="800" width="1200" title="emZktnEj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/emZktnEj" height="800" width="1200" title="emZktnEj"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: musical_work
 
 -	__[Sérénade andalouse: pour violon et piano, op. 28](./haTPbpUy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901351285.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901351285.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sérénade andalouse: pour violon et piano, op. 28](./E94koxmQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901292380.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901292380.gif){align=left width="150" height="150"} 
 
 	
 

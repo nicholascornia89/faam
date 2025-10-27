@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nnwGf9hS
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                       | aliases       | Wikidata QID                                   |
-    | :-------: | :---: | :-------------------------------: | :-----------: | :--------------------------------------------: |
-    | nnwGf9hS  | Lier  | city in Antwerp province, Belgium | Lier, Belgium | [Lier](http://wwww.wikidata.org/entity/Q12460) |
+    | FAAM UUID | label | description                       | aliases       | Wikidata QID                              |
+    | :-------: | :---: | :-------------------------------: | :-----------: | :---------------------------------------: |
+    | nnwGf9hS  | Lier  | city in Antwerp province, Belgium | Lier, Belgium | [Lier](http://wikidata.org/entity/Q12460) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nnwGf9hS.html" height="800" width="1200" title="nnwGf9hS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nnwGf9hS" height="800" width="1200" title="nnwGf9hS"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Franciscus Verhelst](./HDAdaUKe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	spiritual director
 

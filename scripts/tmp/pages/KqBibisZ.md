@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KqBibisZ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KqBibisZ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KqBibisZ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KqBibisZ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KqBibisZ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KqBibisZ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KqBibisZ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description             | Wikidata QID                                             |
-    | :-------: | :------------: | :------------: | :---------------------: | :------------------------------------------------------: |
-    | KqBibisZ  | Louis Couperin | Louis Couperin | French Baroque composer | [Louis Couperin](http://wwww.wikidata.org/entity/Q50185) |
+    | FAAM UUID | label          | aliases        | description             | Wikidata QID                                        |
+    | :-------: | :------------: | :------------: | :---------------------: | :-------------------------------------------------: |
+    | KqBibisZ  | Louis Couperin | Louis Couperin | French Baroque composer | [Louis Couperin](http://wikidata.org/entity/Q50185) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 	- [organist](./ZhptKYF3.md)
 
-	- [](./DxGATHZF.md)
+	- [viol player](./DxGATHZF.md)
 
 	- [harpsichordist](./hMYL5Z9b.md)
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KqBibisZ.html" height="800" width="1200" title="KqBibisZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KqBibisZ" height="800" width="1200" title="KqBibisZ"></iframe>
 
 ## Identifiers
 
@@ -85,13 +89,13 @@ tags: agent
 
 -	__[3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano](./cq9RrJ9Y.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La précieuse : für Violine und Klavier](./LsN6QAus.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920060.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920060.gif){align=left width="150" height="150"} 
 
 	
 

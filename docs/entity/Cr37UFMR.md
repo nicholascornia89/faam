@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Cr37UFMR
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Cr37UFMR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Cr37UFMR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Cr37UFMR.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Cr37UFMR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Cr37UFMR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Cr37UFMR.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eduard_de_Hartog_-_Onze_Musici_(1898).jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases           | description                | Wikidata QID                                                  |
-    | :-------: | :--------------: | :---------------: | :------------------------: | :-----------------------------------------------------------: |
-    | Cr37UFMR  | Eduard de Hartog | Edouard de Hartog | Dutch composer and pianist | [Eduard de Hartog](http://wwww.wikidata.org/entity/Q21001257) |
+    | FAAM UUID | label            | aliases           | description                | Wikidata QID                                             |
+    | :-------: | :--------------: | :---------------: | :------------------------: | :------------------------------------------------------: |
+    | Cr37UFMR  | Eduard de Hartog | Edouard de Hartog | Dutch composer and pianist | [Eduard de Hartog](http://wikidata.org/entity/Q21001257) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./Gmyihe9r.md)
+	- [opera composer](./Gmyihe9r.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Cr37UFMR.html" height="800" width="1200" title="Cr37UFMR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Cr37UFMR" height="800" width="1200" title="Cr37UFMR"></iframe>
 
 ## Identifiers
 

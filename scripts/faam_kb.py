@@ -62,7 +62,8 @@ Structure of JSON serialization
 def images_base_url(
 	faam_kb,
 	wikimedia_common_base_url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
-	faam_thumbs_base_url="../assets/images/thumbs/",
+	alternative_wikimedia_commons_url = "https://upload.wikimedia.org/wikipedia/commons/",
+	faam_thumbs_base_url="https://nicholascornia89.github.io/faam/assets/images/thumbs/",
 ):
 	# Add base urls to image and thumb.
 	for item in faam_kb["items"]:
@@ -83,6 +84,17 @@ def images_base_url(
 						image["value"] = image["value"].replace(wikimedia_common_base_url, "")
 					else:
 						image["value"] = image["value"].replace(" ", "_")
+					if alternative_wikimedia_commons_url in image["value"]:
+						image["value"] = image["value"].split("/")[-1]
+
+		# adjusting images in cross-references
+		for key in item["cross-references"]:
+			for cross_ref in item["cross-references"][key]:
+				if "image" in cross_ref.keys():
+					if alternative_wikimedia_commons_url in cross_ref["image"]["value"]:
+						cross_ref["image"]["value"] = cross_ref["image"]["value"].split("/")[-1]
+
+
 	return faam_kb
 
 
@@ -364,6 +376,22 @@ def add_label_to_statement(faam_kb):
 															#print(f"New qualifier: {qualifier}")
 															#input()
 
+							else:
+								if statement["label"] == "":
+									# retrieve label from FAAM item
+									try:
+										#convert uuid to integer
+										uuid_int = shortuuid.decode(statement["value"]).int
+										# perform bisect_left search
+										index = bisect_left(uuid_list,uuid_int)
+										if item_list[index]["id"] == statement["value"]:
+											statement["label"] = item_list[index]["label"]
+
+									except Exception:
+										print(f"Problematic item with unknown label: {statement["value"]} ")
+										pass
+												
+
 
 		for key in ["label","description","aliases"]: # retrieve Descriptions, Labels and Aliases if not present
 			try:
@@ -458,13 +486,20 @@ def remove_empty_statements(faam_kb):
 				for prop in item[category].keys():
 					if prop not in ["label","description","aliases","qid","image"]:
 						for statement in item[category][prop]:
-							if statement["value"] == "":
-								item[category][prop].remove(statement)
+							try:
+								if statement["value"] == "":
+									item[category][prop].remove(statement)
+							except KeyError: # skip cross references
+								pass
+
 					else:
 						for statement in item[category][prop]:
-							if statement["value"] == "":
-								if len(item[category][prop]) > 1: # keep at least one empty statement
-									item[category][prop].remove(statement)
+							try:
+								if statement["value"] == "":
+									if len(item[category][prop]) > 1: # keep at least one empty statement
+										item[category][prop].remove(statement)
+							except KeyError: # skip cross references
+								pass 
 
 
 	return faam_kb
@@ -583,12 +618,12 @@ def add_country_to_cities(faam_kb,pid="P17"):
 								countries_not_in_faam +=1
 								entity = wb.item.get(country_qid)
 								label = entity.labels.get("en").value
-								city["statements"]["country"] = [{"type": "externalid", "value": country_qid, "base_url": "http://wwww.wikidata.org/entity/", "label": label }]
+								city["statements"]["country"] = [{"type": "externalid", "value": country_qid, "base_url": "http://wikidata.org/entity/", "label": label }]
 						except IndexError:
 							countries_not_in_faam +=1
 							entity = wb.item.get(country_qid)
 							label = entity.labels.get("en").value
-							city["statements"]["country"] = [{"type": "externalid", "value": country_qid, "base_url": "http://wwww.wikidata.org/entity/", "label": label }]
+							city["statements"]["country"] = [{"type": "externalid", "value": country_qid, "base_url": "http://wikidata.org/entity/", "label": label }]
 		
 				except IndexError:
 					print(f"No country for {qid}")

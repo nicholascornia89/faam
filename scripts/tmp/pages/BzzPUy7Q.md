@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BzzPUy7Q
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description             | aliases | Wikidata QID                                                           |
-    | :-------: | :------------------------: | :---------------------: | :-----: | :--------------------------------------------------------------------: |
-    | BzzPUy7Q  | rue de la Chaussée-d'Antin | street in Paris, France |         | [rue de la Chaussée-d'Antin](http://wwww.wikidata.org/entity/Q1640681) |
+    | FAAM UUID | label                      | description             | aliases | Wikidata QID                                                      |
+    | :-------: | :------------------------: | :---------------------: | :-----: | :---------------------------------------------------------------: |
+    | BzzPUy7Q  | rue de la Chaussée-d'Antin | street in Paris, France |         | [rue de la Chaussée-d'Antin](http://wikidata.org/entity/Q1640681) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BzzPUy7Q.html" height="800" width="1200" title="BzzPUy7Q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BzzPUy7Q" height="800" width="1200" title="BzzPUy7Q"></iframe>
 
 ## Identifiers
 

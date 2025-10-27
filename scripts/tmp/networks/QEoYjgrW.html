@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "P5L5QHfS", "label": "Orlando Innamorato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./P5L5QHfS.md\u0027\u003eOrlando Innamorato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eepic poem by Matteo Maria Boiardo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QEoYjgrW", "label": "Orlando Furioso", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QEoYjgrW.md\u0027\u003eOrlando Furioso\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eepic Italian poem by Ludovico Ariosto\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "cgtepzqb", "label": "poem", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./cgtepzqb.md\u0027\u003epoem\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of literature, work of poetry, often composed of verses\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "o7nk6Uyh", "label": "The Song of Roland", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./o7nk6Uyh.md\u0027\u003eThe Song of Roland\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emedieval epic work\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gAnAG4pk", "label": "Alcina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gAnAG4pk.md\u0027\u003eAlcina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera seria by George Frideric Handel\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "P5L5QHfS", "to": "QEoYjgrW", "width": 10}, {"from": "cgtepzqb", "to": "QEoYjgrW", "width": 10}, {"from": "cgtepzqb", "to": "o7nk6Uyh", "width": 10}, {"from": "gAnAG4pk", "to": "QEoYjgrW", "width": 1}, {"from": "o7nk6Uyh", "to": "QEoYjgrW", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "P5L5QHfS", "label": "Orlando Innamorato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/P5L5QHfS\u0027\u003eOrlando Innamorato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eepic poem by Matteo Maria Boiardo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QEoYjgrW", "label": "Orlando Furioso", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QEoYjgrW\u0027\u003eOrlando Furioso\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eepic Italian poem by Ludovico Ariosto\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gAnAG4pk", "label": "Alcina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gAnAG4pk\u0027\u003eAlcina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera seria by George Frideric Handel\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "cgtepzqb", "label": "poem", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cgtepzqb\u0027\u003epoem\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of literature, work of poetry, often composed of verses\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "o7nk6Uyh", "label": "The Song of Roland", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/o7nk6Uyh\u0027\u003eThe Song of Roland\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emedieval epic work\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "P5L5QHfS", "to": "QEoYjgrW", "width": 10}, {"from": "gAnAG4pk", "to": "QEoYjgrW", "width": 1}, {"from": "QEoYjgrW", "to": "cgtepzqb", "width": 10}, {"from": "QEoYjgrW", "to": "o7nk6Uyh", "width": 10}, {"from": "o7nk6Uyh", "to": "cgtepzqb", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

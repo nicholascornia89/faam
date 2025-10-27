@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EAoQVbKH
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description    | aliases | Wikidata QID                                               |
-    | :-------: | :-------------: | :------------: | :-----: | :--------------------------------------------------------: |
-    | EAoQVbKH  | Massa e Cozzile | Italian comune |         | [Massa e Cozzile](http://wwww.wikidata.org/entity/Q102623) |
+    | FAAM UUID | label           | description    | aliases | Wikidata QID                                          |
+    | :-------: | :-------------: | :------------: | :-----: | :---------------------------------------------------: |
+    | EAoQVbKH  | Massa e Cozzile | Italian comune |         | [Massa e Cozzile](http://wikidata.org/entity/Q102623) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/EAoQVbKH.html" height="800" width="1200" title="EAoQVbKH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EAoQVbKH" height="800" width="1200" title="EAoQVbKH"></iframe>
 
 ## Identifiers
 

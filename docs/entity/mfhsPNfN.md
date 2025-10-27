@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mfhsPNfN
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                            | aliases | Wikidata QID                                                    |
-    | :-------: | :------------------: | :------------------------------------: | :-----: | :-------------------------------------------------------------: |
-    | mfhsPNfN  | Talavera de la Reina | city and municipality in Toledo, Spain |         | [Talavera de la Reina](http://wwww.wikidata.org/entity/Q181359) |
+    | FAAM UUID | label                | description                            | aliases | Wikidata QID                                               |
+    | :-------: | :------------------: | :------------------------------------: | :-----: | :--------------------------------------------------------: |
+    | mfhsPNfN  | Talavera de la Reina | city and municipality in Toledo, Spain |         | [Talavera de la Reina](http://wikidata.org/entity/Q181359) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/mfhsPNfN.html" height="800" width="1200" title="mfhsPNfN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mfhsPNfN" height="800" width="1200" title="mfhsPNfN"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Francisco de Peñalosa](./gKY5NR5M.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer (1470-1528)
 

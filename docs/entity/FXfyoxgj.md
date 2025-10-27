@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FXfyoxgj
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :--------------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | FXfyoxgj  | Nyon  | municipality and city in the canton of Vaud in Switzerland | Nione   | [Nyon](http://wwww.wikidata.org/entity/Q64027) |
+    | FAAM UUID | label | description                                                | aliases | Wikidata QID                              |
+    | :-------: | :---: | :--------------------------------------------------------: | :-----: | :---------------------------------------: |
+    | FXfyoxgj  | Nyon  | municipality and city in the canton of Vaud in Switzerland | Nione   | [Nyon](http://wikidata.org/entity/Q64027) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/FXfyoxgj.html" height="800" width="1200" title="FXfyoxgj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FXfyoxgj" height="800" width="1200" title="FXfyoxgj"></iframe>
 
 ## Identifiers
 

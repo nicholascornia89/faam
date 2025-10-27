@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CL6scX3X
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                          | aliases  | description                          | Wikidata QID                                                                                |
-    | :-------: | :--------------------------------------------: | :------: | :----------------------------------: | :-----------------------------------------------------------------------------------------: |
-    | CL6scX3X  | Harpsichord Concerto No.6 in F major, BWV 1057 | BWV 1057 | composition by Johann Sebastian Bach | [Harpsichord Concerto No.6 in F major, BWV 1057](http://wwww.wikidata.org/entity/Q11915167) |
+    | FAAM UUID | label                                          | aliases  | description                          | Wikidata QID                                                                           |
+    | :-------: | :--------------------------------------------: | :------: | :----------------------------------: | :------------------------------------------------------------------------------------: |
+    | CL6scX3X  | Harpsichord Concerto No.6 in F major, BWV 1057 | BWV 1057 | composition by Johann Sebastian Bach | [Harpsichord Concerto No.6 in F major, BWV 1057](http://wikidata.org/entity/Q11915167) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/CL6scX3X.html" height="800" width="1200" title="CL6scX3X"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CL6scX3X" height="800" width="1200" title="CL6scX3X"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Klavier-Konzert F dur : mit Begleitung eines zweiten Klaviers](./NRXRZ9kB.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902808283.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902808283.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QSaAmDt9
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                           | description  | aliases                          | Wikidata QID                                                               |
-    | :-------: | :-----------------------------: | :----------: | :------------------------------: | :------------------------------------------------------------------------: |
-    | QSaAmDt9  | Philharmonic Academy of Bologna | organization | Accademia Filarmonica di Bologna | [Philharmonic Academy of Bologna](http://wwww.wikidata.org/entity/Q338339) |
+    | FAAM UUID | label                           | description  | aliases                          | Wikidata QID                                                          |
+    | :-------: | :-----------------------------: | :----------: | :------------------------------: | :-------------------------------------------------------------------: |
+    | QSaAmDt9  | Philharmonic Academy of Bologna | organization | Accademia Filarmonica di Bologna | [Philharmonic Academy of Bologna](http://wikidata.org/entity/Q338339) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/QSaAmDt9.html" height="800" width="1200" title="QSaAmDt9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QSaAmDt9" height="800" width="1200" title="QSaAmDt9"></iframe>
 
 ## Cross-references
 

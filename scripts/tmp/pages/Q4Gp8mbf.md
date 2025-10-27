@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Q4Gp8mbf
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description | aliases    | Wikidata QID                                          |
-    | :-------: | :--------: | :---------: | :--------: | :---------------------------------------------------: |
-    | Q4Gp8mbf  | intermezzo | opera genre | intermezzo | [intermezzo](http://wwww.wikidata.org/entity/Q781470) |
+    | FAAM UUID | label      | description | aliases    | Wikidata QID                                     |
+    | :-------: | :--------: | :---------: | :--------: | :----------------------------------------------: |
+    | Q4Gp8mbf  | intermezzo | opera genre | intermezzo | [intermezzo](http://wikidata.org/entity/Q781470) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Q4Gp8mbf.html" height="800" width="1200" title="Q4Gp8mbf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Q4Gp8mbf" height="800" width="1200" title="Q4Gp8mbf"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Clavierstücke](./Xdoc9XJj.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904673826.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904673826.gif){align=left width="150" height="150"} 
 
 	
 

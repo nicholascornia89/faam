@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: burVwPcE
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                           | aliases                  | Wikidata QID                                        |
-    | :-------: | :--------: | :-------------------------------------------------------------------: | :----------------------: | :-------------------------------------------------: |
-    | burVwPcE  | Pittsburgh | city and county seat in Allegheny County, Pennsylvania, United States | Pittsburgh, Pennsylvania | [Pittsburgh](http://wwww.wikidata.org/entity/Q1342) |
+    | FAAM UUID | label      | description                                                           | aliases                  | Wikidata QID                                   |
+    | :-------: | :--------: | :-------------------------------------------------------------------: | :----------------------: | :--------------------------------------------: |
+    | burVwPcE  | Pittsburgh | city and county seat in Allegheny County, Pennsylvania, United States | Pittsburgh, Pennsylvania | [Pittsburgh](http://wikidata.org/entity/Q1342) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/burVwPcE.html" height="800" width="1200" title="burVwPcE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/burVwPcE" height="800" width="1200" title="burVwPcE"></iframe>
 
 ## Identifiers
 

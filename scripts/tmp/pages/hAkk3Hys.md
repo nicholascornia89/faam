@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hAkk3Hys
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hAkk3Hys.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hAkk3Hys.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hAkk3Hys.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hAkk3Hys.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hAkk3Hys.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hAkk3Hys.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giuseppe_Baini_-_Musikhistoriker_und_Komponist.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases               | description                               | Wikidata QID                                               |
-    | :-------: | :------------: | :-------------------: | :---------------------------------------: | :--------------------------------------------------------: |
-    | hAkk3Hys  | Giuseppe Baini | Abbate Giuseppe Baini | Italian priest, music critic and composer | [Giuseppe Baini](http://wwww.wikidata.org/entity/Q1225719) |
+    | FAAM UUID | label          | aliases               | description                               | Wikidata QID                                          |
+    | :-------: | :------------: | :-------------------: | :---------------------------------------: | :---------------------------------------------------: |
+    | hAkk3Hys  | Giuseppe Baini | Abbate Giuseppe Baini | Italian priest, music critic and composer | [Giuseppe Baini](http://wikidata.org/entity/Q1225719) |
 
 <br><br><br>
 
@@ -59,9 +63,9 @@ tags: agent
 
 	- [music historian](./kKY7zLoa.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
-	- [](./egpA6QR2.md)
+	- [religious](./egpA6QR2.md)
 
 	- [writer](./YrCfZ8vh.md)
 
@@ -71,7 +75,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/hAkk3Hys.html" height="800" width="1200" title="hAkk3Hys"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hAkk3Hys" height="800" width="1200" title="hAkk3Hys"></iframe>
 
 ## Identifiers
 

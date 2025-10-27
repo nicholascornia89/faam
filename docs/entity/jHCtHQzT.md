@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jHCtHQzT
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                                      | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :------------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | jHCtHQzT  | printer | person involved in manufacturing printed materials; operator of a printing press |         | [printer](http://wwww.wikidata.org/entity/Q175151) |
+    | FAAM UUID | label   | description                                                                      | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :------------------------------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | jHCtHQzT  | printer | person involved in manufacturing printed materials; operator of a printing press |         | [printer](http://wikidata.org/entity/Q175151) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/jHCtHQzT.html" height="800" width="1200" title="jHCtHQzT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jHCtHQzT" height="800" width="1200" title="jHCtHQzT"></iframe>
 
 ## Cross-references
 

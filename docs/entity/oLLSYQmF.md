@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oLLSYQmF
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                             | aliases              | Wikidata QID                                   |
-    | :-------: | :---: | :---------------------------------------------------------------------: | :------------------: | :--------------------------------------------: |
-    | oLLSYQmF  | Nice  | city and commune in Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France | Nice, French Riviera | [Nice](http://wwww.wikidata.org/entity/Q33959) |
+    | FAAM UUID | label | description                                                             | aliases              | Wikidata QID                              |
+    | :-------: | :---: | :---------------------------------------------------------------------: | :------------------: | :---------------------------------------: |
+    | oLLSYQmF  | Nice  | city and commune in Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France | Nice, French Riviera | [Nice](http://wikidata.org/entity/Q33959) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/oLLSYQmF.html" height="800" width="1200" title="oLLSYQmF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oLLSYQmF" height="800" width="1200" title="oLLSYQmF"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Fromental Halévy](./NPPV2XtG.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
 
 	French composer
 

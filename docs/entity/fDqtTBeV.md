@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fDqtTBeV
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                                                                                              | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----: | :--------------------------------------------------: |
-    | fDqtTBeV  | archivist | professional who assesses, collects, organizes, preserves, maintains control over, and provides access to information determined to have long-term value |         | [archivist](http://wwww.wikidata.org/entity/Q635734) |
+    | FAAM UUID | label     | description                                                                                                                                              | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----: | :---------------------------------------------: |
+    | fDqtTBeV  | archivist | professional who assesses, collects, organizes, preserves, maintains control over, and provides access to information determined to have long-term value |         | [archivist](http://wikidata.org/entity/Q635734) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/fDqtTBeV.html" height="800" width="1200" title="fDqtTBeV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fDqtTBeV" height="800" width="1200" title="fDqtTBeV"></iframe>
 
 ## Cross-references
 

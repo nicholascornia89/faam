@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: D8uLnusk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                               | aliases                | Wikidata QID                                                        |
-    | :-------: | :------------------------: | :---------------------------------------: | :--------------------: | :-----------------------------------------------------------------: |
-    | D8uLnusk  | Brussels metropolitan area | metropolitan area of Brussels, in Belgium | urban area of Brussels | [Brussels metropolitan area](http://wwww.wikidata.org/entity/Q9005) |
+    | FAAM UUID | label                      | description                               | aliases                | Wikidata QID                                                   |
+    | :-------: | :------------------------: | :---------------------------------------: | :--------------------: | :------------------------------------------------------------: |
+    | D8uLnusk  | Brussels metropolitan area | metropolitan area of Brussels, in Belgium | urban area of Brussels | [Brussels metropolitan area](http://wikidata.org/entity/Q9005) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/D8uLnusk.html" height="800" width="1200" title="D8uLnusk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/D8uLnusk" height="800" width="1200" title="D8uLnusk"></iframe>
 
 ## Identifiers
 
@@ -75,19 +79,19 @@ tags: city
 
 -	__[Andre Robberechts](./NtFF6WaB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer (1797–1860)
 
 -	__[Safford Cape](./R32ZWczF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American conductor (1906–1973)
 
 -	__[Jean-Marie Plum](./JwNgGW3X.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer and organist
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: G9auots2
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                                        | aliases  | Wikidata QID                                          |
-    | :-------: | :-------: | :------------------------------------------------------------------------------------------------: | :------: | :---------------------------------------------------: |
-    | G9auots2  | stylizing | adaptation of a shape or representation to a certain style or the abstract reduction of a template | stylized | [stylizing](http://wwww.wikidata.org/entity/Q1752818) |
+    | FAAM UUID | label     | description                                                                                        | aliases  | Wikidata QID                                     |
+    | :-------: | :-------: | :------------------------------------------------------------------------------------------------: | :------: | :----------------------------------------------: |
+    | G9auots2  | stylizing | adaptation of a shape or representation to a certain style or the abstract reduction of a template | stylized | [stylizing](http://wikidata.org/entity/Q1752818) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/G9auots2.html" height="800" width="1200" title="G9auots2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/G9auots2" height="800" width="1200" title="G9auots2"></iframe>
 
 ## Cross-references
 

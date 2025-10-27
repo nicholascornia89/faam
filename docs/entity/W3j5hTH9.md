@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: W3j5hTH9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                                           | aliases | Wikidata QID                                    |
-    | :-------: | :----: | :-----------------------------------------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | W3j5hTH9  | Gdańsk | city and capital of the Pomeranian Voivodeship on the Baltic coast of northern Poland | Gdansk  | [Gdańsk](http://wwww.wikidata.org/entity/Q1792) |
+    | FAAM UUID | label  | description                                                                           | aliases | Wikidata QID                               |
+    | :-------: | :----: | :-----------------------------------------------------------------------------------: | :-----: | :----------------------------------------: |
+    | W3j5hTH9  | Gdańsk | city and capital of the Pomeranian Voivodeship on the Baltic coast of northern Poland | Gdansk  | [Gdańsk](http://wikidata.org/entity/Q1792) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/W3j5hTH9.html" height="800" width="1200" title="W3j5hTH9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/W3j5hTH9" height="800" width="1200" title="W3j5hTH9"></iframe>
 
 ## Identifiers
 

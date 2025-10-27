@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: he8wWDKh
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases                           | description                      | Wikidata QID                                              |
-    | :-------: | :------------------: | :-------------------------------: | :------------------------------: | :-------------------------------------------------------: |
-    | he8wWDKh  | Symphony No.1, Op.21 | Symphony No. 1 in C Major, Op. 21 | symphony by Ludwig van Beethoven | [Symphony No. 1](http://wwww.wikidata.org/entity/Q163493) |
+    | FAAM UUID | label                | aliases                           | description                      | Wikidata QID                                         |
+    | :-------: | :------------------: | :-------------------------------: | :------------------------------: | :--------------------------------------------------: |
+    | he8wWDKh  | Symphony No.1, Op.21 | Symphony No. 1 in C Major, Op. 21 | symphony by Ludwig van Beethoven | [Symphony No. 1](http://wikidata.org/entity/Q163493) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/he8wWDKh.html" height="800" width="1200" title="he8wWDKh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/he8wWDKh" height="800" width="1200" title="he8wWDKh"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Première Symphonie en Ut majeur : à Grand Orchestre : Oeuv: 21](./CyzRiQ7o.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333574.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333574.gif){align=left width="150" height="150"} 
 
 	
 

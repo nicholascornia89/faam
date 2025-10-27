@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "#f8f7f4"}, "id": "", "label": "", "shape": "dot", "size": 10}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "g3BAmejW", "label": "John Field", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./g3BAmejW.md\u0027\u003eJohn Field\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eWikimedia disambiguation page\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aJeJBesD.md\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UzH6nEhF", "label": "Piano Concerto No.1, H 27", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UzH6nEhF.md\u0027\u003ePiano Concerto No.1, H 27\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "YvQmwaaW", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YvQmwaaW.md\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}]);
-                  edges = new vis.DataSet([{"from": "", "to": "g3BAmejW", "width": 5}, {"from": "aJeJBesD", "to": "g3BAmejW", "width": 10}, {"from": "g3BAmejW", "to": "UzH6nEhF", "width": 1}, {"from": "g3BAmejW", "to": "YvQmwaaW", "width": 5}]);
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "#f8f7f4"}, "id": "", "label": "", "shape": "dot", "size": 10}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "g3BAmejW", "label": "John Field", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/g3BAmejW\u0027\u003eJohn Field\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eWikimedia disambiguation page\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UzH6nEhF", "label": "Piano Concerto No.1, H 27", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UzH6nEhF\u0027\u003ePiano Concerto No.1, H 27\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aJeJBesD\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "YvQmwaaW", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YvQmwaaW\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}]);
+                  edges = new vis.DataSet([{"from": "", "to": "g3BAmejW", "width": 5}, {"from": "g3BAmejW", "to": "UzH6nEhF", "width": 1}, {"from": "g3BAmejW", "to": "aJeJBesD", "width": 10}, {"from": "g3BAmejW", "to": "YvQmwaaW", "width": 5}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

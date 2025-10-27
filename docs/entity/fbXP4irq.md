@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fbXP4irq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                  | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :--------------------------: | :-----: | :-----------------------------------------------------: |
-    | fbXP4irq  | Bezirk Mitte | borough of Berlin in Germany |         | [Bezirk Mitte](http://wwww.wikidata.org/entity/Q163966) |
+    | FAAM UUID | label        | description                  | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :--------------------------: | :-----: | :------------------------------------------------: |
+    | fbXP4irq  | Bezirk Mitte | borough of Berlin in Germany |         | [Bezirk Mitte](http://wikidata.org/entity/Q163966) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fbXP4irq.html" height="800" width="1200" title="fbXP4irq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fbXP4irq" height="800" width="1200" title="fbXP4irq"></iframe>
 
 ## Identifiers
 

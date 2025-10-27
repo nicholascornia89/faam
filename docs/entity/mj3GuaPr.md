@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mj3GuaPr
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                                 | aliases        | Wikidata QID                                                 |
-    | :-------: | :-------------: | :---------------------------------------------------------: | :------------: | :----------------------------------------------------------: |
-    | mj3GuaPr  | fermier général | tax collector for the ferme générale in early modern France | farmer general | [fermier général](http://wwww.wikidata.org/entity/Q50376727) |
+    | FAAM UUID | label           | description                                                 | aliases        | Wikidata QID                                            |
+    | :-------: | :-------------: | :---------------------------------------------------------: | :------------: | :-----------------------------------------------------: |
+    | mj3GuaPr  | fermier général | tax collector for the ferme générale in early modern France | farmer general | [fermier général](http://wikidata.org/entity/Q50376727) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/mj3GuaPr.html" height="800" width="1200" title="mj3GuaPr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mj3GuaPr" height="800" width="1200" title="mj3GuaPr"></iframe>
 
 ## Cross-references
 

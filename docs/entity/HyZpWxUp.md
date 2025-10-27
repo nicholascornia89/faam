@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HyZpWxUp
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                   | aliases                                       | Wikidata QID                                                   |
-    | :-------: | :----------------: | :-------------------------------------------: | :-------------------------------------------: | :------------------------------------------------------------: |
-    | HyZpWxUp  | Westminster School | public school in Westminster, London, England | The Royal College of St. Peter in Westminster | [Westminster School](http://wwww.wikidata.org/entity/Q1341516) |
+    | FAAM UUID | label              | description                                   | aliases                                       | Wikidata QID                                              |
+    | :-------: | :----------------: | :-------------------------------------------: | :-------------------------------------------: | :-------------------------------------------------------: |
+    | HyZpWxUp  | Westminster School | public school in Westminster, London, England | The Royal College of St. Peter in Westminster | [Westminster School](http://wikidata.org/entity/Q1341516) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./bTpHpqc3.md)
+	[City of Westminster](./bTpHpqc3.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/HyZpWxUp.html" height="800" width="1200" title="HyZpWxUp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HyZpWxUp" height="800" width="1200" title="HyZpWxUp"></iframe>
 
 ## Cross-references
 

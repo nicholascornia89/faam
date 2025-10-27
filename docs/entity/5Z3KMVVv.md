@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5Z3KMVVv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description             | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :---------------------: | :-----: | :-------------------------------------------------: |
-    | 5Z3KMVVv  | Buchfart | municipality of Germany |         | [Buchfart](http://wwww.wikidata.org/entity/Q651381) |
+    | FAAM UUID | label    | description             | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :---------------------: | :-----: | :--------------------------------------------: |
+    | 5Z3KMVVv  | Buchfart | municipality of Germany |         | [Buchfart](http://wikidata.org/entity/Q651381) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/5Z3KMVVv.html" height="800" width="1200" title="5Z3KMVVv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5Z3KMVVv" height="800" width="1200" title="5Z3KMVVv"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Volckmar Leisring](./MiFcRaV3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and theorist
 

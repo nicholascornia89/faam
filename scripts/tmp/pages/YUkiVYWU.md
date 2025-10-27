@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YUkiVYWU
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/YUkiVYWU.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/YUkiVYWU.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/YUkiVYWU.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/YUkiVYWU.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/YUkiVYWU.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/YUkiVYWU.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eugène_Sauzay_(1809-1901)_dessin.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases               | description                                         | Wikidata QID                                              |
-    | :-------: | :-----------: | :-------------------: | :-------------------------------------------------: | :-------------------------------------------------------: |
-    | YUkiVYWU  | Eugène Sauzay | Charles Eugène Sauzay | French classical violinist and composer (1809-1901) | [Eugène Sauzay](http://wwww.wikidata.org/entity/Q4426800) |
+    | FAAM UUID | label         | aliases               | description                                         | Wikidata QID                                         |
+    | :-------: | :-----------: | :-------------------: | :-------------------------------------------------: | :--------------------------------------------------: |
+    | YUkiVYWU  | Eugène Sauzay | Charles Eugène Sauzay | French classical violinist and composer (1809-1901) | [Eugène Sauzay](http://wikidata.org/entity/Q4426800) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/YUkiVYWU.html" height="800" width="1200" title="YUkiVYWU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YUkiVYWU" height="800" width="1200" title="YUkiVYWU"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Charles Bouvet](./Z6CjfM5F.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Salle_du_Cercle_Artistique_et_Littéraire_-_Une_séance_par_Charles_Bouvet,_violoniste,_Tg_lhdc_25_02_(cropped).tiff){align=left width="150" height="150"} 
+
+	French musicologist
+
+-	__[Théophile Laforge](./2ZPtzYvZ.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Théophile_Laforge.jpg){align=left width="150" height="150"} 
+
+	French musician (1863–1918)
+
+</div>

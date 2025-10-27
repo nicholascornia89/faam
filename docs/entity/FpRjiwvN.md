@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FpRjiwvN
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/WML-768406/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FpRjiwvN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FpRjiwvN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FpRjiwvN.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/WML-768406/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FpRjiwvN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FpRjiwvN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FpRjiwvN.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/WML-768406.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768406.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                      | permalink                | provenance                                           |
-    | :-------: | :-------------------: | :------------------------: | :----------------------: | :--------------------------------------------------: |
-    | FpRjiwvN  | WML-768406            | Symphony No. 3, Movement V | [external URL](D6RjeTWv) | [J. William Marriott Digital Library](./Wdj3hQU8.md) |
+    | FAAM UUID | FAAM manifestation ID | title                      | permalink                                                            | provenance                                           |
+    | :-------: | :-------------------: | :------------------------: | :------------------------------------------------------------------: | :--------------------------------------------------: |
+    | FpRjiwvN  | WML-768406            | Symphony No. 3, Movement V | [external URL](https://collections.lib.utah.edu/ark:/87278/s64t9fv1) | [J. William Marriott Digital Library](./Wdj3hQU8.md) |
 
 ## Statements
 
@@ -85,10 +89,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/FpRjiwvN.html" height="800" width="1200" title="FpRjiwvN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FpRjiwvN" height="800" width="1200" title="FpRjiwvN"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/FpRjiwvN.html" height="800" width="1200" title="FpRjiwvN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/FpRjiwvN" height="800" width="1200" title="FpRjiwvN"></iframe>

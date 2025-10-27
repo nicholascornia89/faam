@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6zGBQwwr
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                       | description                            | aliases        | Wikidata QID                                                                           |
-    | :-------: | :-----------------------------------------: | :------------------------------------: | :------------: | :------------------------------------------------------------------------------------: |
-    | 6zGBQwwr  | United Kingdom of Great Britain and Ireland | historical sovereign state (1801–1922) | United Kingdom | [United Kingdom of Great Britain and Ireland](http://wwww.wikidata.org/entity/Q174193) |
+    | FAAM UUID | label                                       | description                            | aliases        | Wikidata QID                                                                      |
+    | :-------: | :-----------------------------------------: | :------------------------------------: | :------------: | :-------------------------------------------------------------------------------: |
+    | 6zGBQwwr  | United Kingdom of Great Britain and Ireland | historical sovereign state (1801–1922) | United Kingdom | [United Kingdom of Great Britain and Ireland](http://wikidata.org/entity/Q174193) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/6zGBQwwr.html" height="800" width="1200" title="6zGBQwwr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6zGBQwwr" height="800" width="1200" title="6zGBQwwr"></iframe>
 
 ## Identifiers
 
@@ -79,19 +83,19 @@ tags: country
 
 -	__[Gustav Holst](./KpakAMdR.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/01/Gustav_Holst.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Holst.jpg){align=left width="150" height="150"} 
 
 	British composer
 
 -	__[Alfred Moffat](./gGDDnuWi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Scottish musician and composer
 
 -	__[Thomas Dunhill](./Vp4ucERe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British composer
 
@@ -109,7 +113,7 @@ tags: country
 
 -	__[Orlando Morgan](./Ne3VPM3y.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English music teacher, composer and musicologist
 
@@ -121,7 +125,7 @@ tags: country
 
 -	__[James Turle](./2DP7oN7d.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English organist and composer (1802-1882)
 
@@ -133,13 +137,13 @@ tags: country
 
 -	__[Albert Bernhard Bach](./4aFMAhXz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German singing teacher
 
 -	__[Maria Anfossi](./CEjchGw4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian singer and music teacher
 
@@ -151,13 +155,13 @@ tags: country
 
 -	__[Edward Francis Rimbault](./6SnvdCsi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English musicologist, composer, organist and book collector (1816–1876)
 
 -	__[William Barclay Squire](./KBQKrrwD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/49/William_Barclay_Squire.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/William_Barclay_Squire.jpg){align=left width="150" height="150"} 
 
 	British musicologist, librarian and librettist (1855-1927)
 
@@ -181,13 +185,13 @@ tags: country
 
 -	__[James Cervetto](./mKS3bq3i.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English cellist and composer
 
 -	__[Violet Gordon-Woodhouse](./b2nGBPKP.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/00/Violet_Gordon_Woodhouse_circa_1900.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Violet_Gordon_Woodhouse_circa_1900.jpg){align=left width="150" height="150"} 
 
 	British harpsichordist and clavichordist (1872–1948)
 
@@ -211,13 +215,13 @@ tags: country
 
 -	__[Pelham Humfrey](./X3xyZezw.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English composer
 
 -	__[Henry Cooke](./9JyELHrv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British composer
 

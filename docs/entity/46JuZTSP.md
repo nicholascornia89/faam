@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 46JuZTSP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                   | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :---------------------------: | :-----: | :-------------------------------------------------: |
-    | 46JuZTSP  | Northeim | city in Lower Saxony, Germany |         | [Northeim](http://wwww.wikidata.org/entity/Q498575) |
+    | FAAM UUID | label    | description                   | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :---------------------------: | :-----: | :--------------------------------------------: |
+    | 46JuZTSP  | Northeim | city in Lower Saxony, Germany |         | [Northeim](http://wikidata.org/entity/Q498575) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/46JuZTSP.html" height="800" width="1200" title="46JuZTSP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/46JuZTSP" height="800" width="1200" title="46JuZTSP"></iframe>
 
 ## Identifiers
 

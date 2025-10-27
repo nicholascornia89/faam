@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bTpHpqc3
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                             | aliases     | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-------------------------------------: | :---------: | :------------------------------------------------------------: |
-    | bTpHpqc3  | City of Westminster | city and borough in London, England, UK | Westminster | [City of Westminster](http://wwww.wikidata.org/entity/Q179351) |
+    | FAAM UUID | label               | description                             | aliases     | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-------------------------------------: | :---------: | :-------------------------------------------------------: |
+    | bTpHpqc3  | City of Westminster | city and borough in London, England, UK | Westminster | [City of Westminster](http://wikidata.org/entity/Q179351) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bTpHpqc3.html" height="800" width="1200" title="bTpHpqc3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bTpHpqc3" height="800" width="1200" title="bTpHpqc3"></iframe>
 
 ## Identifiers
 

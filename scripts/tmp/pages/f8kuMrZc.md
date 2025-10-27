@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: f8kuMrZc
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | description                                                  | aliases                          | Wikidata QID                                                               |
-    | :-------: | :------------------------------: | :----------------------------------------------------------: | :------------------------------: | :------------------------------------------------------------------------: |
-    | f8kuMrZc  | Leopold, Prince of Anhalt-Köthen | German prince and ruler of the principality of Anhalt-Köthen | Leopold, Prince of Anhalt-Köthen | [Leopold, Prince of Anhalt-Köthen](http://wwww.wikidata.org/entity/Q61689) |
+    | FAAM UUID | label                            | description                                                  | aliases                          | Wikidata QID                                                          |
+    | :-------: | :------------------------------: | :----------------------------------------------------------: | :------------------------------: | :-------------------------------------------------------------------: |
+    | f8kuMrZc  | Leopold, Prince of Anhalt-Köthen | German prince and ruler of the principality of Anhalt-Köthen | Leopold, Prince of Anhalt-Köthen | [Leopold, Prince of Anhalt-Köthen](http://wikidata.org/entity/Q61689) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/f8kuMrZc.html" height="800" width="1200" title="f8kuMrZc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/f8kuMrZc" height="800" width="1200" title="f8kuMrZc"></iframe>
 
 ## Cross-references
 

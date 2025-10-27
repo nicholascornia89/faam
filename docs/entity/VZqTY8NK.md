@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VZqTY8NK
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                           | aliases  | Wikidata QID                                         |
-    | :-------: | :---------------: | :-------------------------------------------------------------------: | :------: | :--------------------------------------------------: |
-    | VZqTY8NK  | compilation album | piece of music, usually fairly free in form and of a lively character | caprices | [capriccio](http://wwww.wikidata.org/entity/Q876812) |
+    | FAAM UUID | label             | description                                                           | aliases  | Wikidata QID                                    |
+    | :-------: | :---------------: | :-------------------------------------------------------------------: | :------: | :---------------------------------------------: |
+    | VZqTY8NK  | compilation album | piece of music, usually fairly free in form and of a lively character | caprices | [capriccio](http://wikidata.org/entity/Q876812) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/VZqTY8NK.html" height="800" width="1200" title="VZqTY8NK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VZqTY8NK" height="800" width="1200" title="VZqTY8NK"></iframe>
 
 ## Cross-references
 

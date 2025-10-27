@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3jCVUiiD
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description    | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :------------: | :-----: | :-----------------------------------------------: |
-    | 3jCVUiiD  | Viadana | Italian comune |         | [Viadana](http://wwww.wikidata.org/entity/Q42336) |
+    | FAAM UUID | label   | description    | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :------------: | :-----: | :------------------------------------------: |
+    | 3jCVUiiD  | Viadana | Italian comune |         | [Viadana](http://wikidata.org/entity/Q42336) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3jCVUiiD.html" height="800" width="1200" title="3jCVUiiD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3jCVUiiD" height="800" width="1200" title="3jCVUiiD"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Lodovico Grossi da Viadana](./6Gq2W4p4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, teacher and Franciscan friar
 

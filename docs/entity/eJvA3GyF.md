@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eJvA3GyF
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                                                                               | aliases     | Wikidata QID                                              |
-    | :-------: | :---------: | :-----------------------------------------------------------------------------------------------------------------------: | :---------: | :-------------------------------------------------------: |
-    | eJvA3GyF  | colla parte | Musical indication to play another, written-out part, or to an accompanist to look to the main part for guidance on tempo | colla parte | [colla parte](http://wwww.wikidata.org/entity/Q126950983) |
+    | FAAM UUID | label       | description                                                                                                               | aliases     | Wikidata QID                                         |
+    | :-------: | :---------: | :-----------------------------------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------------: |
+    | eJvA3GyF  | colla parte | Musical indication to play another, written-out part, or to an accompanist to look to the main part for guidance on tempo | colla parte | [colla parte](http://wikidata.org/entity/Q126950983) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/eJvA3GyF.html" height="800" width="1200" title="eJvA3GyF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eJvA3GyF" height="800" width="1200" title="eJvA3GyF"></iframe>
 
 ## Cross-references
 
@@ -57,13 +61,13 @@ tags: annotation_type
 
 -	__[Livre des motets (3e année)](./3ywrWJLQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV105371.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV105371.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:](./JHJZeU8t.md)__
 
-	![Image](../assets/images/thumbs/KCG-000344649.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000344649.gif){align=left width="150" height="150"} 
 
 	
 

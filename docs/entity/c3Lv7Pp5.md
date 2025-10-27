@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c3Lv7Pp5
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description           | Wikidata QID                                                       |
-    | :-------: | :------------------: | :------------------: | :-------------------: | :----------------------------------------------------------------: |
-    | c3Lv7Pp5  | Karel van Gelderland | Karel van Gelderland | Opera by Peter Benoit | [Karel van Gelderland](http://wwww.wikidata.org/entity/Q125760961) |
+    | FAAM UUID | label                | aliases              | description           | Wikidata QID                                                  |
+    | :-------: | :------------------: | :------------------: | :-------------------: | :-----------------------------------------------------------: |
+    | c3Lv7Pp5  | Karel van Gelderland | Karel van Gelderland | Opera by Peter Benoit | [Karel van Gelderland](http://wikidata.org/entity/Q125760961) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/c3Lv7Pp5.html" height="800" width="1200" title="c3Lv7Pp5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c3Lv7Pp5" height="800" width="1200" title="c3Lv7Pp5"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: musical_work
 
 -	__[Karel van Gelderland: rol van den hertog](./YpBxmuaF.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901779048.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901779048.gif){align=left width="150" height="150"} 
 
 	
 

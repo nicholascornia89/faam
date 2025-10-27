@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mfA9JDV2
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description       | aliases | Wikidata QID                                          |
-    | :-------: | :---------: | :---------------: | :-----: | :---------------------------------------------------: |
-    | mfA9JDV2  | Alta Gracia | city in Argentina |         | [Alta Gracia](http://wwww.wikidata.org/entity/Q48293) |
+    | FAAM UUID | label       | description       | aliases | Wikidata QID                                     |
+    | :-------: | :---------: | :---------------: | :-----: | :----------------------------------------------: |
+    | mfA9JDV2  | Alta Gracia | city in Argentina |         | [Alta Gracia](http://wikidata.org/entity/Q48293) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Argentina](http://www.wikidata.org/entity/Q414)
+	- [Argentina](Q414)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/mfA9JDV2.html" height="800" width="1200" title="mfA9JDV2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mfA9JDV2" height="800" width="1200" title="mfA9JDV2"></iframe>
 
 ## Identifiers
 

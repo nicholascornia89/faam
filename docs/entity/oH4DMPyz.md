@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oH4DMPyz
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description   | aliases     | Wikidata QID                                           |
-    | :-------: | :--------: | :-----------: | :---------: | :----------------------------------------------------: |
-    | oH4DMPyz  | mezzoforte | music dynamic | mezzo forte | [mezzoforte](http://wwww.wikidata.org/entity/Q7258512) |
+    | FAAM UUID | label      | description   | aliases     | Wikidata QID                                      |
+    | :-------: | :--------: | :-----------: | :---------: | :-----------------------------------------------: |
+    | oH4DMPyz  | mezzoforte | music dynamic | mezzo forte | [mezzoforte](http://wikidata.org/entity/Q7258512) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/oH4DMPyz.html" height="800" width="1200" title="oH4DMPyz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oH4DMPyz" height="800" width="1200" title="oH4DMPyz"></iframe>
 
 ## Cross-references
 

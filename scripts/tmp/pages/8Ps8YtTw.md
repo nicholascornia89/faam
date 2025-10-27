@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8Ps8YtTw
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                                                              | aliases | Wikidata QID                                                                   |
-    | :-------: | :--------------------------------: | :----------------------------------------------------------------------: | :-----: | :----------------------------------------------------------------------------: |
-    | 8Ps8YtTw  | former 5th arrondissement of Paris | one of the twelve administrative districts of Paris, France, before 1860 |         | [former 5th arrondissement of Paris](http://wwww.wikidata.org/entity/Q2845756) |
+    | FAAM UUID | label                              | description                                                              | aliases | Wikidata QID                                                              |
+    | :-------: | :--------------------------------: | :----------------------------------------------------------------------: | :-----: | :-----------------------------------------------------------------------: |
+    | 8Ps8YtTw  | former 5th arrondissement of Paris | one of the twelve administrative districts of Paris, France, before 1860 |         | [former 5th arrondissement of Paris](http://wikidata.org/entity/Q2845756) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8Ps8YtTw.html" height="800" width="1200" title="8Ps8YtTw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8Ps8YtTw" height="800" width="1200" title="8Ps8YtTw"></iframe>
 
 ## Identifiers
 

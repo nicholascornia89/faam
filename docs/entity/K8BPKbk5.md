@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: K8BPKbk5
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/K8BPKbk5.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/K8BPKbk5.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/K8BPKbk5.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/K8BPKbk5.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/K8BPKbk5.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/K8BPKbk5.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Koessler.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases       | description                 | Wikidata QID                                                 |
-    | :-------: | :---------------: | :-----------: | :-------------------------: | :----------------------------------------------------------: |
-    | K8BPKbk5  | Hans von Koessler | Hans Koessler | German composer (1853–1926) | [Hans von Koessler](http://wwww.wikidata.org/entity/Q371740) |
+    | FAAM UUID | label             | aliases       | description                 | Wikidata QID                                            |
+    | :-------: | :---------------: | :-----------: | :-------------------------: | :-----------------------------------------------------: |
+    | K8BPKbk5  | Hans von Koessler | Hans Koessler | German composer (1853–1926) | [Hans von Koessler](http://wikidata.org/entity/Q371740) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/K8BPKbk5.html" height="800" width="1200" title="K8BPKbk5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/K8BPKbk5" height="800" width="1200" title="K8BPKbk5"></iframe>
 
 ## Identifiers
 
@@ -86,3 +90,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Béla Bartók](./8ALmZPzx.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bartók_Béla_1927.jpg){align=left width="150" height="150"} 
+
+	Hungarian composer and pianist (1881–1945)
+
+</div>

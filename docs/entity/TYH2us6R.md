@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TYH2us6R
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902146916/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/TYH2us6R.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/TYH2us6R.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/TYH2us6R.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902146916/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/TYH2us6R.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/TYH2us6R.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/TYH2us6R.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902146916.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902146916.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title     | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------: | :----------------------: | :-----------------------------------------------------------: |
-    | TYH2us6R  | KCA-030902146916      | 1re Suite | [external URL](93GDD9ND) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title     | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | TYH2us6R  | KCA-030902146916      | 1re Suite | [external URL](https://anet.be/record/opacdkvc/c:lvd:12917288/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -93,10 +97,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/TYH2us6R.html" height="800" width="1200" title="TYH2us6R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TYH2us6R" height="800" width="1200" title="TYH2us6R"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/TYH2us6R.html" height="800" width="1200" title="TYH2us6R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/TYH2us6R" height="800" width="1200" title="TYH2us6R"></iframe>

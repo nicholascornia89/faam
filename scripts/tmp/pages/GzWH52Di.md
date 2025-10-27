@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GzWH52Di
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GzWH52Di.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GzWH52Di.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GzWH52Di.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GzWH52Di.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GzWH52Di.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GzWH52Di.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description                       | Wikidata QID                                                    |
-    | :-------: | :---------------: | :---------------: | :-------------------------------: | :-------------------------------------------------------------: |
-    | GzWH52Di  | Mario van Overeem | Mario van Overeem | Dutch composer and music educator | [Mario van Overeem](http://wwww.wikidata.org/entity/Q132860429) |
+    | FAAM UUID | label             | aliases           | description                       | Wikidata QID                                               |
+    | :-------: | :---------------: | :---------------: | :-------------------------------: | :--------------------------------------------------------: |
+    | GzWH52Di  | Mario van Overeem | Mario van Overeem | Dutch composer and music educator | [Mario van Overeem](http://wikidata.org/entity/Q132860429) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/GzWH52Di.html" height="800" width="1200" title="GzWH52Di"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GzWH52Di" height="800" width="1200" title="GzWH52Di"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Antiphonae. In honorem Beatae Mariae Virginis. Op. 32](./3HpJci6a.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502026.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502026.gif){align=left width="150" height="150"} 
 
 	
 

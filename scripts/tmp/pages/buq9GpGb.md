@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: buq9GpGb
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                        | aliases     | Wikidata QID                                         |
-    | :-------: | :---------: | :--------------------------------: | :---------: | :--------------------------------------------------: |
-    | buq9GpGb  | Baden-Baden | town in Baden-Württemberg, Germany | Baden Baden | [Baden-Baden](http://wwww.wikidata.org/entity/Q4100) |
+    | FAAM UUID | label       | description                        | aliases     | Wikidata QID                                    |
+    | :-------: | :---------: | :--------------------------------: | :---------: | :---------------------------------------------: |
+    | buq9GpGb  | Baden-Baden | town in Baden-Württemberg, Germany | Baden Baden | [Baden-Baden](http://wikidata.org/entity/Q4100) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/buq9GpGb.html" height="800" width="1200" title="buq9GpGb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/buq9GpGb" height="800" width="1200" title="buq9GpGb"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Maurice Schlesinger](./HyU2Z63V.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German music publisher (1798–1871)
 

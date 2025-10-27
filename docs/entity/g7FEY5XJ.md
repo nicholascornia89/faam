@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: g7FEY5XJ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                                   | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :---------------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | g7FEY5XJ  | Ithaca | city in Tompkins County, New York, USA, enclosed by the town of the same name | Ithaca  | [Ithaca](http://wwww.wikidata.org/entity/Q217346) |
+    | FAAM UUID | label  | description                                                                   | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :---------------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | g7FEY5XJ  | Ithaca | city in Tompkins County, New York, USA, enclosed by the town of the same name | Ithaca  | [Ithaca](http://wikidata.org/entity/Q217346) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/g7FEY5XJ.html" height="800" width="1200" title="g7FEY5XJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/g7FEY5XJ" height="800" width="1200" title="g7FEY5XJ"></iframe>
 
 ## Identifiers
 

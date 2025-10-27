@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YrXoha7y a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1807-09-11"^^xsd:string ;
+    schema1:birthPlace faamentity:HXBuTDzX ;
+    schema1:deathDate "1895-02-24"^^xsd:string ;
+    schema1:deathPlace faamentity:52tHQZy7 ;
+    schema1:description "German composer and conductor (1807-1895)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q113063>,
+        "0"^^xsd:string,
+        "YrXoha7y"^^xsd:string ;
+    schema1:nationality faamentity:RLM4EQQP ;
+    skos:prefLabel "Ignaz Lachner"^^xsd:string ;
+    wd:P108 faamentity:BzWe9XnY ;
+    wd:P1303 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:46948623 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/64574> ;
+    wd:P737 faamentity:FM4yWajx ;
+    wd:P839 <https://imslp.org/wiki/Category:Lachner,_Ignaz> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JbcbZert
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                             | aliases                          | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :-------------------------------------: | :------------------------------: | :-------------------------------------------------------------: |
-    | JbcbZert  | Pasdeloup Orchestra | the oldest symphony orchestra in France | Orchestre des Concerts Pasdeloup | [Pasdeloup Orchestra](http://wwww.wikidata.org/entity/Q1749259) |
+    | FAAM UUID | label               | description                             | aliases                          | Wikidata QID                                               |
+    | :-------: | :-----------------: | :-------------------------------------: | :------------------------------: | :--------------------------------------------------------: |
+    | JbcbZert  | Pasdeloup Orchestra | the oldest symphony orchestra in France | Orchestre des Concerts Pasdeloup | [Pasdeloup Orchestra](http://wikidata.org/entity/Q1749259) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/JbcbZert.html" height="800" width="1200" title="JbcbZert"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JbcbZert" height="800" width="1200" title="JbcbZert"></iframe>
 
 ## Cross-references
 

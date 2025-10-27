@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NFoQc6qk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                             | aliases | Wikidata QID                                        |
-    | :-------: | :-------: | :-----------------------------------------------------: | :-----: | :-------------------------------------------------: |
-    | NFoQc6qk  | Dordrecht | city and municipality in South Holland, the Netherlands | Dort    | [Dordrecht](http://wwww.wikidata.org/entity/Q26421) |
+    | FAAM UUID | label     | description                                             | aliases | Wikidata QID                                   |
+    | :-------: | :-------: | :-----------------------------------------------------: | :-----: | :--------------------------------------------: |
+    | NFoQc6qk  | Dordrecht | city and municipality in South Holland, the Netherlands | Dort    | [Dordrecht](http://wikidata.org/entity/Q26421) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/NFoQc6qk.html" height="800" width="1200" title="NFoQc6qk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NFoQc6qk" height="800" width="1200" title="NFoQc6qk"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: city
 
 -	__[Henri Geul](./ku6jtjDm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

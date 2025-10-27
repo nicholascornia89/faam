@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 64zvyvGT
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description              | aliases | Wikidata QID                                               |
-    | :-------: | :------------: | :----------------------: | :-----: | :--------------------------------------------------------: |
-    | 64zvyvGT  | Queens College | college in New York City | Queens  | [Queens College](http://wwww.wikidata.org/entity/Q1760438) |
+    | FAAM UUID | label          | description              | aliases | Wikidata QID                                          |
+    | :-------: | :------------: | :----------------------: | :-----: | :---------------------------------------------------: |
+    | 64zvyvGT  | Queens College | college in New York City | Queens  | [Queens College](http://wikidata.org/entity/Q1760438) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./nNvoMs8T.md)
+	[Queens](./nNvoMs8T.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/64zvyvGT.html" height="800" width="1200" title="64zvyvGT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/64zvyvGT" height="800" width="1200" title="64zvyvGT"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Vittorio Rieti](./6kUvgnUj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1898–1994)
 

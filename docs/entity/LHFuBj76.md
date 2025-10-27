@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LHFuBj76
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                     | aliases   | Wikidata QID                                          |
-    | :-------: | :-------: | :-----------------------------: | :-------: | :---------------------------------------------------: |
-    | LHFuBj76  | Rotterdam | municipality in the Netherlands | Rotterdam | [Rotterdam](http://wwww.wikidata.org/entity/Q2680952) |
+    | FAAM UUID | label     | description                     | aliases   | Wikidata QID                                     |
+    | :-------: | :-------: | :-----------------------------: | :-------: | :----------------------------------------------: |
+    | LHFuBj76  | Rotterdam | municipality in the Netherlands | Rotterdam | [Rotterdam](http://wikidata.org/entity/Q2680952) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LHFuBj76.html" height="800" width="1200" title="LHFuBj76"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LHFuBj76" height="800" width="1200" title="LHFuBj76"></iframe>
 
 ## Identifiers
 

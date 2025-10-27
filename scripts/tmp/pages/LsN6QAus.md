@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LsN6QAus
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030904920060/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LsN6QAus.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LsN6QAus.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LsN6QAus.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030904920060/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LsN6QAus.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LsN6QAus.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LsN6QAus.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904920060.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920060.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | LsN6QAus  | KCA-030904920060      | La précieuse : für Violine und Klavier | [external URL](nTx2RkTQ) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | LsN6QAus  | KCA-030904920060      | La précieuse : für Violine und Klavier | [external URL](https://anet.be/record/opacdkvc/c:lvd:6718993/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -91,10 +95,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/LsN6QAus.html" height="800" width="1200" title="LsN6QAus"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LsN6QAus" height="800" width="1200" title="LsN6QAus"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/LsN6QAus.html" height="800" width="1200" title="LsN6QAus"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/LsN6QAus" height="800" width="1200" title="LsN6QAus"></iframe>

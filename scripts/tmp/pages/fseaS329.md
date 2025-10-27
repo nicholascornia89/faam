@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fseaS329
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                    | aliases          | Wikidata QID                                           |
-    | :-------: | :---------: | :----------------------------: | :--------------: | :----------------------------------------------------: |
-    | fseaS329  | Saint-Cloud | town in Hauts-de-Seine, France | Pont-la-Montagne | [Saint-Cloud](http://wwww.wikidata.org/entity/Q189153) |
+    | FAAM UUID | label       | description                    | aliases          | Wikidata QID                                      |
+    | :-------: | :---------: | :----------------------------: | :--------------: | :-----------------------------------------------: |
+    | fseaS329  | Saint-Cloud | town in Hauts-de-Seine, France | Pont-la-Montagne | [Saint-Cloud](http://wikidata.org/entity/Q189153) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fseaS329.html" height="800" width="1200" title="fseaS329"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fseaS329" height="800" width="1200" title="fseaS329"></iframe>
 
 ## Identifiers
 

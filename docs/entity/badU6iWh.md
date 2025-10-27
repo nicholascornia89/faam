@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: badU6iWh
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/badU6iWh.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/badU6iWh.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/badU6iWh.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/badU6iWh.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/badU6iWh.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/badU6iWh.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Raoul_Laparra_1931.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                               | description                 | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----------------------------------: | :-------------------------: | :-------------------------------------------------------: |
-    | badU6iWh  | Raoul Laparra | Raoul Louis-Felix-Émile-Marie Laparra | French composer (1876–1943) | [Raoul Laparra](http://wwww.wikidata.org/entity/Q2131266) |
+    | FAAM UUID | label         | aliases                               | description                 | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----------------------------------: | :-------------------------: | :--------------------------------------------------: |
+    | badU6iWh  | Raoul Laparra | Raoul Louis-Felix-Émile-Marie Laparra | French composer (1876–1943) | [Raoul Laparra](http://wikidata.org/entity/Q2131266) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 	- [writer](./YrCfZ8vh.md)
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/badU6iWh.html" height="800" width="1200" title="badU6iWh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/badU6iWh" height="800" width="1200" title="badU6iWh"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[La Habanera. Prélude du Deuxième Acte](./iyinXRRP.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p87.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p87.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BhJe65Fk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                   | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :---------------------------: | :-----: | :------------------------------------------------: |
-    | BhJe65Fk  | Domont | commune in Val-d'Oise, France |         | [Domont](http://wwww.wikidata.org/entity/Q1166602) |
+    | FAAM UUID | label  | description                   | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :---------------------------: | :-----: | :-------------------------------------------: |
+    | BhJe65Fk  | Domont | commune in Val-d'Oise, France |         | [Domont](http://wikidata.org/entity/Q1166602) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BhJe65Fk.html" height="800" width="1200" title="BhJe65Fk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BhJe65Fk" height="800" width="1200" title="BhJe65Fk"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Michel Pignolet de Montéclair](./S4Cg5DA6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

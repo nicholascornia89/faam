@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Dh26tJDM
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description           | aliases   | Wikidata QID                                 |
-    | :-------: | :---: | :-------------------: | :-------: | :------------------------------------------: |
-    | Dh26tJDM  | Cairo | capital city of Egypt | al-Qāhira | [Cairo](http://wwww.wikidata.org/entity/Q85) |
+    | FAAM UUID | label | description           | aliases   | Wikidata QID                            |
+    | :-------: | :---: | :-------------------: | :-------: | :-------------------------------------: |
+    | Dh26tJDM  | Cairo | capital city of Egypt | al-Qāhira | [Cairo](http://wikidata.org/entity/Q85) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Egypt](http://www.wikidata.org/entity/Q79)
+	- [Egypt](Q79)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Dh26tJDM.html" height="800" width="1200" title="Dh26tJDM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Dh26tJDM" height="800" width="1200" title="Dh26tJDM"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Hans von Bülow](./AaF6WQEA.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Hans_von_buelow.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans_von_buelow.jpg){align=left width="150" height="150"} 
 
 	German conductor and pianist (1830–1894)
 

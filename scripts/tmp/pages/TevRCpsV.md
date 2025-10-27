@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TevRCpsV
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | description                        | aliases | Wikidata QID                                                                       |
-    | :-------: | :------------------------------------: | :--------------------------------: | :-----: | :--------------------------------------------------------------------------------: |
-    | TevRCpsV  | Église Saint-François-de-Sales de Lyon | church located in Rhône, in France |         | [Église Saint-François-de-Sales de Lyon](http://wwww.wikidata.org/entity/Q3581464) |
+    | FAAM UUID | label                                  | description                        | aliases | Wikidata QID                                                                  |
+    | :-------: | :------------------------------------: | :--------------------------------: | :-----: | :---------------------------------------------------------------------------: |
+    | TevRCpsV  | Église Saint-François-de-Sales de Lyon | church located in Rhône, in France |         | [Église Saint-François-de-Sales de Lyon](http://wikidata.org/entity/Q3581464) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./HepeVksP.md)
+	[2nd arrondissement of Lyon](./HepeVksP.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/TevRCpsV.html" height="800" width="1200" title="TevRCpsV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TevRCpsV" height="800" width="1200" title="TevRCpsV"></iframe>
 
 ## Cross-references
 

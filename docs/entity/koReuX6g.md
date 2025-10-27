@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: koReuX6g
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/koReuX6g.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/koReuX6g.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/koReuX6g.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/koReuX6g.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/koReuX6g.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/koReuX6g.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases        | description                  | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :------------: | :--------------------------: | :--------------------------------------------------------------: |
-    | koReuX6g  | François-Joseph Fétis | François Fétis | Belgian composer (1784-1871) | [François-Joseph Fétis](http://wwww.wikidata.org/entity/Q523581) |
+    | FAAM UUID | label                 | aliases        | description                  | Wikidata QID                                                |
+    | :-------: | :-------------------: | :------------: | :--------------------------: | :---------------------------------------------------------: |
+    | koReuX6g  | François-Joseph Fétis | François Fétis | Belgian composer (1784-1871) | [François-Joseph Fétis](http://wikidata.org/entity/Q523581) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [conductor](./TDF2knmi.md)
 
@@ -69,7 +73,7 @@ tags: agent
 
 	- [music theorist](./HkbL2euD.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 	- [music historian](./kKY7zLoa.md)
 
@@ -77,7 +81,7 @@ tags: agent
 
 	- [writer](./YrCfZ8vh.md)
 
-	- [](./ULTyZNnY.md)
+	- [court chapel master](./ULTyZNnY.md)
 
 ??? quote "educated at" 
 
@@ -93,7 +97,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/koReuX6g.html" height="800" width="1200" title="koReuX6g"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/koReuX6g" height="800" width="1200" title="koReuX6g"></iframe>
 
 ## Identifiers
 
@@ -114,3 +118,67 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Joseph Tilborghs](./gcN2vtGr.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Belgian composer (1830-1910)
+
+-	__[Charles-Marie Widor](./BiMpVQUM.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles-Marie_Widor_(2).jpg){align=left width="150" height="150"} 
+
+	French organist and composer (1844–1937)
+
+-	__[Berthold Tours](./9UFKY99S.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Berthold_Tours.jpg){align=left width="150" height="150"} 
+
+	Dutch composer (1838-1897)
+
+-	__[Peter Benoit](./Ta5ni5cL.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Peter_Benoit_2.jpg){align=left width="150" height="150"} 
+
+	Flemish composer (1834-1901)
+
+-	__[Jacques-Nicolas Lemmens](./6gSjvNTk.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Belgian musician (1823–1881)
+
+-	__[Ferdinand Hérold](./QwSKSFky.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferdinand_Herold_by_Maurin.jpg){align=left width="150" height="150"} 
+
+	French composer (1791–1833)
+
+-	__[Jean-Delphin Alard](./UKrz6azF.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Delphin_Alard.png){align=left width="150" height="150"} 
+
+	French musician (1815–1888)
+
+-	__[Gustave Huberti](./BvwrSZ5s.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustave_Huberti.jpg){align=left width="150" height="150"} 
+
+	Belgian composer and musician
+
+-	__[Antoine Elwart](./jHLdEc4N.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Elwart,_Antoine,_Nadar_Gallica.jpg){align=left width="150" height="150"} 
+
+	French composer (1808-1877)
+
+-	__[Félix Cazot](./EUMKhzpe.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French composer and pianist (1790–1857)
+
+</div>

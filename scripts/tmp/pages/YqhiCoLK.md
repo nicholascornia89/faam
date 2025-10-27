@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YqhiCoLK
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | description                                   | aliases                               | Wikidata QID                                                              |
-    | :-------: | :---------------------------: | :-------------------------------------------: | :-----------------------------------: | :-----------------------------------------------------------------------: |
-    | YqhiCoLK  | Humboldt University of Berlin | public research university in Berlin, Germany | Universitas Humboldtiana Berolinensis | [Humboldt-Universität zu Berlin](http://wwww.wikidata.org/entity/Q152087) |
+    | FAAM UUID | label                         | description                                   | aliases                               | Wikidata QID                                                         |
+    | :-------: | :---------------------------: | :-------------------------------------------: | :-----------------------------------: | :------------------------------------------------------------------: |
+    | YqhiCoLK  | Humboldt University of Berlin | public research university in Berlin, Germany | Universitas Humboldtiana Berolinensis | [Humboldt-Universität zu Berlin](http://wikidata.org/entity/Q152087) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/YqhiCoLK.html" height="800" width="1200" title="YqhiCoLK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YqhiCoLK" height="800" width="1200" title="YqhiCoLK"></iframe>
 
 ## Cross-references
 
@@ -63,7 +67,7 @@ tags: music_organization
 
 -	__[Bernhard Klein](./R3bzCURm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1793-1832)
 

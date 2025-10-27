@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SGUpZ6gd
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                     | aliases                       | Wikidata QID                                                |
-    | :-------: | :---------------: | :---------------------------------------------: | :---------------------------: | :---------------------------------------------------------: |
-    | SGUpZ6gd  | Kingdom of France | kingdom in Western Europe (987–1792; 1815–1848) | Kingdom of France and Navarre | [Kingdom of France](http://wwww.wikidata.org/entity/Q70972) |
+    | FAAM UUID | label             | description                                     | aliases                       | Wikidata QID                                           |
+    | :-------: | :---------------: | :---------------------------------------------: | :---------------------------: | :----------------------------------------------------: |
+    | SGUpZ6gd  | Kingdom of France | kingdom in Western Europe (987–1792; 1815–1848) | Kingdom of France and Navarre | [Kingdom of France](http://wikidata.org/entity/Q70972) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/SGUpZ6gd.html" height="800" width="1200" title="SGUpZ6gd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SGUpZ6gd" height="800" width="1200" title="SGUpZ6gd"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Henri Desmarets](./Co2QwDri.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1661-1741)
 
@@ -55,7 +59,7 @@ tags: country
 
 -	__[François Bernier](./KKvERxRE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French physician and traveller
 
@@ -91,7 +95,7 @@ tags: country
 
 -	__[Giuseppe Cambini](./5yDGjqgE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician (1746-1825)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5aNkY9Wj
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | aliases                       | description                                                         | Wikidata QID                                                              |
-    | :-------: | :---------------------------: | :---------------------------: | :-----------------------------------------------------------------: | :-----------------------------------------------------------------------: |
-    | 5aNkY9Wj  | Le martyre de saint Sébastien | Le Martyre de saint Sébastien | play by Gabriele D'Annunzio with incidental music by Claude Debussy | [Le martyre de Saint Sébastien](http://wwww.wikidata.org/entity/Q1514166) |
+    | FAAM UUID | label                         | aliases                       | description                                                         | Wikidata QID                                                         |
+    | :-------: | :---------------------------: | :---------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------------------------: |
+    | 5aNkY9Wj  | Le martyre de saint Sébastien | Le Martyre de saint Sébastien | play by Gabriele D'Annunzio with incidental music by Claude Debussy | [Le martyre de Saint Sébastien](http://wikidata.org/entity/Q1514166) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/5aNkY9Wj.html" height="800" width="1200" title="5aNkY9Wj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5aNkY9Wj" height="800" width="1200" title="5aNkY9Wj"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Le martyre de Saint Sébastien : mystère en cinq actes](./Q9My2FwW.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902681235.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902681235.gif){align=left width="150" height="150"} 
 
 	
 

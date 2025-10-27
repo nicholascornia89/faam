@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MUYzJ4yk
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MUYzJ4yk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MUYzJ4yk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MUYzJ4yk.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MUYzJ4yk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MUYzJ4yk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MUYzJ4yk.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henry_Purcell_by_John_Closterman.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                  | Wikidata QID                                           |
-    | :-------: | :-----------: | :-----------: | :--------------------------: | :----------------------------------------------------: |
-    | MUYzJ4yk  | Henry Purcell | Henry Purcell | English composer (1659–1695) | [Henry Purcell](http://wwww.wikidata.org/entity/Q9695) |
+    | FAAM UUID | label         | aliases       | description                  | Wikidata QID                                      |
+    | :-------: | :-----------: | :-----------: | :--------------------------: | :-----------------------------------------------: |
+    | MUYzJ4yk  | Henry Purcell | Henry Purcell | English composer (1659–1695) | [Henry Purcell](http://wikidata.org/entity/Q9695) |
 
 <br><br><br>
 
@@ -61,17 +65,17 @@ tags: agent
 
 	- [music theorist](./HkbL2euD.md)
 
-	- [](./bUujp3hi.md)
+	- [author](./bUujp3hi.md)
 
 ??? quote "educated at" 
 
-	- [](./HyZpWxUp.md)
+	- [Westminster School](./HyZpWxUp.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/MUYzJ4yk.html" height="800" width="1200" title="MUYzJ4yk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MUYzJ4yk" height="800" width="1200" title="MUYzJ4yk"></iframe>
 
 ## Identifiers
 
@@ -97,7 +101,7 @@ tags: agent
 
 -	__[Old English composers for the virginals & harpsichord : a collection of preludes, galliards, pavanes, grounds, chaconnes, suites, overtures, sonatas, etc. selected from the works of / William Byrde, John Bull, Orlando Gibbons, John Blow, Henry Purcell and Thomas Augustine Arne ; revised & edited by E. Pauer ; with biographical notices by W. A. Barrett.](./FEppMQbX.md)__
 
-	![Image](../assets/images/thumbs/SML-18937.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18937.gif){align=left width="150" height="150"} 
 
 	
 

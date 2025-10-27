@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CMH8XK6t
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                 | aliases | Wikidata QID                                                       |
-    | :-------: | :-------------------: | :-------------------------: | :-----: | :----------------------------------------------------------------: |
-    | CMH8XK6t  | Saint-Germain-en-Laye | commune in Yvelines, France |         | [Saint-Germain-en-Laye](http://wwww.wikidata.org/entity/Q60847808) |
+    | FAAM UUID | label                 | description                 | aliases | Wikidata QID                                                  |
+    | :-------: | :-------------------: | :-------------------------: | :-----: | :-----------------------------------------------------------: |
+    | CMH8XK6t  | Saint-Germain-en-Laye | commune in Yvelines, France |         | [Saint-Germain-en-Laye](http://wikidata.org/entity/Q60847808) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CMH8XK6t.html" height="800" width="1200" title="CMH8XK6t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CMH8XK6t" height="800" width="1200" title="CMH8XK6t"></iframe>
 
 ## Identifiers
 

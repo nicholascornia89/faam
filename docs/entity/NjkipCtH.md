@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NjkipCtH
 
 tags: holding_institution
@@ -19,9 +23,9 @@ tags: holding_institution
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                                                 | aliases | Wikidata QID                                                                         | abbreviation |
-    | :-------: | :--------------------: | :-------------------------------------------------------------------------: | :-----: | :----------------------------------------------------------------------------------: | :----------: |
-    | NjkipCtH  | Petrucci Music Library | project for the creation of a virtual library of public domain music scores | IMSLP   | [International Music Score Library Project](http://wwww.wikidata.org/entity/Q523660) | PML          |
+    | FAAM UUID | label                  | description                                                                 | aliases | Wikidata QID                                                                    | abbreviation |
+    | :-------: | :--------------------: | :-------------------------------------------------------------------------: | :-----: | :-----------------------------------------------------------------------------: | :----------: |
+    | NjkipCtH  | Petrucci Music Library | project for the creation of a virtual library of public domain music scores | IMSLP   | [International Music Score Library Project](http://wikidata.org/entity/Q523660) | PML          |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: holding_institution
 
 ---
 
-<iframe src="../network/NjkipCtH.html" height="800" width="1200" title="NjkipCtH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NjkipCtH" height="800" width="1200" title="NjkipCtH"></iframe>
 
 ## Cross-references
 

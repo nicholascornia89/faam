@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XgffK43M
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | XgffK43M  | Piano Concerto in F major, Op.Posth.1 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                 | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | XgffK43M  | Piano Concerto in F major, Op.Posth.1 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/XgffK43M.html" height="800" width="1200" title="XgffK43M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XgffK43M" height="800" width="1200" title="XgffK43M"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Dernier Concerto : pour Piano, avec Accompagnement d'Orchestre : N° 1. des Oeuvres Posthumes](./mUwfzkxw.md)__
 
-	![Image](../assets/images/thumbs/KCG-000350255.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350255.gif){align=left width="150" height="150"} 
 
 	
 

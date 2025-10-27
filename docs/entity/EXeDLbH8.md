@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EXeDLbH8
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000331832/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EXeDLbH8.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EXeDLbH8.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EXeDLbH8.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000331832/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EXeDLbH8.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EXeDLbH8.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EXeDLbH8.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000331832.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331832.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                 | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :---------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | EXeDLbH8  | KCG-000331832         | CANTATE N°45 : Es ist dir gesagt, Mensch, was gut ist | [external URL](EXzrp8XT) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                 | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :---------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | EXeDLbH8  | KCG-000331832         | CANTATE N°45 : Es ist dir gesagt, Mensch, was gut ist | [external URL](https://catalogus.hogent.be/catalog/hog01:000331832) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -87,10 +91,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/EXeDLbH8.html" height="800" width="1200" title="EXeDLbH8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EXeDLbH8" height="800" width="1200" title="EXeDLbH8"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/EXeDLbH8.html" height="800" width="1200" title="EXeDLbH8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/EXeDLbH8" height="800" width="1200" title="EXeDLbH8"></iframe>

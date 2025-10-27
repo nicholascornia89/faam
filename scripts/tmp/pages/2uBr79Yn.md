@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2uBr79Yn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                    | aliases | Wikidata QID                                                |
-    | :-------: | :---------------: | :----------------------------: | :-----: | :---------------------------------------------------------: |
-    | 2uBr79Yn  | Montecatini Terme | municipality in Tuscany, Italy |         | [Montecatini Terme](http://wwww.wikidata.org/entity/Q49605) |
+    | FAAM UUID | label             | description                    | aliases | Wikidata QID                                           |
+    | :-------: | :---------------: | :----------------------------: | :-----: | :----------------------------------------------------: |
+    | 2uBr79Yn  | Montecatini Terme | municipality in Tuscany, Italy |         | [Montecatini Terme](http://wikidata.org/entity/Q49605) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2uBr79Yn.html" height="800" width="1200" title="2uBr79Yn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2uBr79Yn" height="800" width="1200" title="2uBr79Yn"></iframe>
 
 ## Identifiers
 

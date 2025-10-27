@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 67qw8BDt
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description            | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :--------------------: | :-----: | :-----------------------------------------------: |
-    | 67qw8BDt  | Hyères | commune in Var, France | Ieras   | [Hyères](http://wwww.wikidata.org/entity/Q192574) |
+    | FAAM UUID | label  | description            | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :--------------------: | :-----: | :------------------------------------------: |
+    | 67qw8BDt  | Hyères | commune in Var, France | Ieras   | [Hyères](http://wikidata.org/entity/Q192574) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/67qw8BDt.html" height="800" width="1200" title="67qw8BDt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/67qw8BDt" height="800" width="1200" title="67qw8BDt"></iframe>
 
 ## Identifiers
 

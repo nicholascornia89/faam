@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9QaFAsRL
 
 tags: role
@@ -19,9 +23,9 @@ tags: role
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                     | aliases          | Wikidata QID                                         |
-    | :-------: | :-------------: | :-----------------------------: | :--------------: | :--------------------------------------------------: |
-    | 9QaFAsRL  | scholar (owner) | someone who has great knowledge | scholarly person | [scholar](http://wwww.wikidata.org/entity/Q20826540) |
+    | FAAM UUID | label           | description                     | aliases          | Wikidata QID                                    |
+    | :-------: | :-------------: | :-----------------------------: | :--------------: | :---------------------------------------------: |
+    | 9QaFAsRL  | scholar (owner) | someone who has great knowledge | scholarly person | [scholar](http://wikidata.org/entity/Q20826540) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: role
 
 ---
 
-<iframe src="../network/9QaFAsRL.html" height="800" width="1200" title="9QaFAsRL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9QaFAsRL" height="800" width="1200" title="9QaFAsRL"></iframe>
 
 ## Cross-references
 
@@ -127,7 +131,7 @@ tags: role
 
 -	__[Guido Persoons](./4nFtWCPy.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musicologist (1931-2014)
 
@@ -139,13 +143,13 @@ tags: role
 
 -	__[Francine Lepage](./hBcFSi6N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian mezzo soprano
 
 -	__[Alfons Devestele](./3mKop7xs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

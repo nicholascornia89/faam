@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hmE9p4Ba
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000745286/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hmE9p4Ba.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hmE9p4Ba.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hmE9p4Ba.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000745286/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hmE9p4Ba.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hmE9p4Ba.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hmE9p4Ba.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000745286.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000745286.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                         | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | hmE9p4Ba  | KCG-000745286         | Symphonisch Gedicht : voor Flute en Orchestra | [external URL](jP8px5zn) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                         | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | hmE9p4Ba  | KCG-000745286         | Symphonisch Gedicht : voor Flute en Orchestra | [external URL](https://catalogus.hogent.be/catalog/hog01:000745286) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -84,10 +88,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/hmE9p4Ba.html" height="800" width="1200" title="hmE9p4Ba"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hmE9p4Ba" height="800" width="1200" title="hmE9p4Ba"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/hmE9p4Ba.html" height="800" width="1200" title="hmE9p4Ba"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/hmE9p4Ba" height="800" width="1200" title="hmE9p4Ba"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MDaUN9xs
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                                                                    | aliases | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :----------------------------------------------------------------------------: | :-----: | :-------------------------------------------------------------: |
-    | MDaUN9xs  | Presnensky District | district of Central Administrative Okrug of the federal city of Moscow, Russia | Presnya | [Presnensky District](http://wwww.wikidata.org/entity/Q2320761) |
+    | FAAM UUID | label               | description                                                                    | aliases | Wikidata QID                                               |
+    | :-------: | :-----------------: | :----------------------------------------------------------------------------: | :-----: | :--------------------------------------------------------: |
+    | MDaUN9xs  | Presnensky District | district of Central Administrative Okrug of the federal city of Moscow, Russia | Presnya | [Presnensky District](http://wikidata.org/entity/Q2320761) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/MDaUN9xs.html" height="800" width="1200" title="MDaUN9xs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MDaUN9xs" height="800" width="1200" title="MDaUN9xs"></iframe>
 
 ## Identifiers
 

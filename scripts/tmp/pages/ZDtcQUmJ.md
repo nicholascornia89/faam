@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZDtcQUmJ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ZDtcQUmJ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ZDtcQUmJ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ZDtcQUmJ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ZDtcQUmJ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ZDtcQUmJ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ZDtcQUmJ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jensen_Adolf.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                                            | Wikidata QID                                            |
-    | :-------: | :----------: | :----------: | :----------------------------------------------------: | :-----------------------------------------------------: |
-    | ZDtcQUmJ  | Adolf Jensen | Adolf Jensen | German pianist, composer and music teacher (1837–1879) | [Adolf Jensen](http://wwww.wikidata.org/entity/Q362798) |
+    | FAAM UUID | label        | aliases      | description                                            | Wikidata QID                                       |
+    | :-------: | :----------: | :----------: | :----------------------------------------------------: | :------------------------------------------------: |
+    | ZDtcQUmJ  | Adolf Jensen | Adolf Jensen | German pianist, composer and music teacher (1837–1879) | [Adolf Jensen](http://wikidata.org/entity/Q362798) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ZDtcQUmJ.html" height="800" width="1200" title="ZDtcQUmJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZDtcQUmJ" height="800" width="1200" title="ZDtcQUmJ"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[Die Mühle - Op. 17 No. 3](./PrPoy6C5.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p3.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p3.gif){align=left width="150" height="150"} 
 
 	
 

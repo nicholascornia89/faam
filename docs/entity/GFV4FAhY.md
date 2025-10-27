@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GFV4FAhY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/GFV4FAhY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/GFV4FAhY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/GFV4FAhY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/GFV4FAhY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/GFV4FAhY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/GFV4FAhY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description | Wikidata QID                         |
-    | :-------: | :---------------: | :-----: | :---------: | :----------------------------------: |
-    | GFV4FAhY  | Colombier Editeur |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label             | aliases | description | Wikidata QID                    |
+    | :-------: | :---------------: | :-----: | :---------: | :-----------------------------: |
+    | GFV4FAhY  | Colombier Editeur |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/GFV4FAhY.html" height="800" width="1200" title="GFV4FAhY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GFV4FAhY" height="800" width="1200" title="GFV4FAhY"></iframe>
 
 ## Identifiers
 
@@ -63,19 +67,19 @@ tags: agent
 
 -	__[LE MAÎTRE DE CHAPELLE ou LE SOUPER IMPRÉVU. No. 2. Grande scène : Ah! quel plaisir de pressentir sa gloire!](./LwEejcZj.md)__
 
-	![Image](../assets/images/thumbs/KCG-000122135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000122135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Septième Solo : Pour Le Cor avec Piano obligé : Oeuvre 23](./L5HhDw7w.md)__
 
-	![Image](../assets/images/thumbs/KCG-000345313.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345313.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Marlborough - Op. 42](./5gGAtrRR.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p4.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p4.gif){align=left width="150" height="150"} 
 
 	
 

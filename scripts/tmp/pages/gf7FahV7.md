@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gf7FahV7
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | aliases          | description                | Wikidata QID                                      |
-    | :-------: | :----: | :--------------: | :------------------------: | :-----------------------------------------------: |
-    | gf7FahV7  | Otello | Otello (Rossini) | opera by Gioachino Rossini | [Otello](http://wwww.wikidata.org/entity/Q925332) |
+    | FAAM UUID | label  | aliases          | description                | Wikidata QID                                 |
+    | :-------: | :----: | :--------------: | :------------------------: | :------------------------------------------: |
+    | gf7FahV7  | Otello | Otello (Rossini) | opera by Gioachino Rossini | [Otello](http://wikidata.org/entity/Q925332) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./S4JKmR72.md)
+	- [Othello](./S4JKmR72.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/gf7FahV7.html" height="800" width="1200" title="gf7FahV7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gf7FahV7" height="800" width="1200" title="gf7FahV7"></iframe>
 
 ## Identifiers
 
@@ -71,13 +75,13 @@ tags: musical_work
 
 -	__[Fantaisie pour piano et cor ou violon : sur des Thêmes de l'Opéra d'Otello de Rossini](./LezFrRrE.md)__
 
-	![Image](../assets/images/thumbs/KCG-000749979.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000749979.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Convoluut : Valentine Degive-Ledelier](./diiKf2Tw.md)__
 
-	![Image](../assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
 
 	
 

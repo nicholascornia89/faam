@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2FkhZAqS
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description                 | Wikidata QID                                          |
-    | :-------: | :-------: | :-------: | :-------------------------: | :---------------------------------------------------: |
-    | 2FkhZAqS  | Andronico | Andronico | opera by Saverio Mercadante | [Andronico](http://wwww.wikidata.org/entity/Q3616373) |
+    | FAAM UUID | label     | aliases   | description                 | Wikidata QID                                     |
+    | :-------: | :-------: | :-------: | :-------------------------: | :----------------------------------------------: |
+    | 2FkhZAqS  | Andronico | Andronico | opera by Saverio Mercadante | [Andronico](http://wikidata.org/entity/Q3616373) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/2FkhZAqS.html" height="800" width="1200" title="2FkhZAqS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2FkhZAqS" height="800" width="1200" title="2FkhZAqS"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys](./V6P9ruNu.md)__
 
-	![Image](../assets/images/thumbs/KCG-000353033.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000353033.gif){align=left width="150" height="150"} 
 
 	
 

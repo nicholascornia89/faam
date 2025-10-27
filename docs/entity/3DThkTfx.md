@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3DThkTfx
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | 3DThkTfx  | Keyboard Sonata in G major, K.432 | Keyboard Sonata in G major, L.288 | sonata by Domenico Scarlatti | [Sonata K. 432](http://wwww.wikidata.org/entity/Q67200003) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | 3DThkTfx  | Keyboard Sonata in G major, K.432 | Keyboard Sonata in G major, L.288 | sonata by Domenico Scarlatti | [Sonata K. 432](http://wikidata.org/entity/Q67200003) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/3DThkTfx.html" height="800" width="1200" title="3DThkTfx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3DThkTfx" height="800" width="1200" title="3DThkTfx"></iframe>
 
 ## Identifiers
 
@@ -71,13 +75,13 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Compositions pour piano / de Dom. Scarlatti ; revues et doigtées par Louis Köhler.](./EfhvbVmR.md)__
 
-	![Image](../assets/images/thumbs/SML-29805.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-29805.gif){align=left width="150" height="150"} 
 
 	
 

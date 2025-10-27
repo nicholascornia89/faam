@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8fUmsRZu
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                     | aliases | Wikidata QID                                                     |
-    | :-------: | :--------------------: | :---------------------------------------------: | :-----: | :--------------------------------------------------------------: |
-    | 8fUmsRZu  | University of Fribourg | university in the city of Fribourg, Switzerland | UNIFR   | [University of Fribourg](http://wwww.wikidata.org/entity/Q36188) |
+    | FAAM UUID | label                  | description                                     | aliases | Wikidata QID                                                |
+    | :-------: | :--------------------: | :---------------------------------------------: | :-----: | :---------------------------------------------------------: |
+    | 8fUmsRZu  | University of Fribourg | university in the city of Fribourg, Switzerland | UNIFR   | [University of Fribourg](http://wikidata.org/entity/Q36188) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./fQixdxrh.md)
+	[Fribourg](./fQixdxrh.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/8fUmsRZu.html" height="800" width="1200" title="8fUmsRZu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8fUmsRZu" height="800" width="1200" title="8fUmsRZu"></iframe>
 
 ## Cross-references
 

@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bTpHpqc3 a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city and borough in London, England, UK"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q179351>,
+        "0"^^xsd:string,
+        "bTpHpqc3"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu ;
+    skos:altLabel "City of Westminster, London, England"^^xsd:string,
+        "Westminster"^^xsd:string ;
+    skos:prefLabel "City of Westminster"^^xsd:string ;
+    wd:P1566 gn:3333218 .
+

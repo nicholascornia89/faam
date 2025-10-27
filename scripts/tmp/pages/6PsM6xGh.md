@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6PsM6xGh
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6PsM6xGh.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6PsM6xGh.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6PsM6xGh.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6PsM6xGh.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6PsM6xGh.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6PsM6xGh.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases | description                         | Wikidata QID                                                  |
-    | :-------: | :--------------: | :-----: | :---------------------------------: | :-----------------------------------------------------------: |
-    | 6PsM6xGh  | Tommaso Predieri |         | Italian composer of the baroque era | [Tommaso Predieri](http://wwww.wikidata.org/entity/Q92902387) |
+    | FAAM UUID | label            | aliases | description                         | Wikidata QID                                             |
+    | :-------: | :--------------: | :-----: | :---------------------------------: | :------------------------------------------------------: |
+    | 6PsM6xGh  | Tommaso Predieri |         | Italian composer of the baroque era | [Tommaso Predieri](http://wikidata.org/entity/Q92902387) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/6PsM6xGh.html" height="800" width="1200" title="6PsM6xGh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6PsM6xGh" height="800" width="1200" title="6PsM6xGh"></iframe>
 
 ## Identifiers
 
@@ -58,3 +62,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Battista Martini](./3KJ4atqX.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Padre_Martini_1.jpg){align=left width="150" height="150"} 
+
+	Italian composer
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cvS6Mg8G
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description              | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :----------------------: | :-----: | :---------------------------------------------: |
-    | cvS6Mg8G  | Laon  | commune in Aisne, France |         | [Laon](http://wwww.wikidata.org/entity/Q167141) |
+    | FAAM UUID | label | description              | aliases | Wikidata QID                               |
+    | :-------: | :---: | :----------------------: | :-----: | :----------------------------------------: |
+    | cvS6Mg8G  | Laon  | commune in Aisne, France |         | [Laon](http://wikidata.org/entity/Q167141) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cvS6Mg8G.html" height="800" width="1200" title="cvS6Mg8G"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cvS6Mg8G" height="800" width="1200" title="cvS6Mg8G"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Nicolas Lebègue](./EzfSNmgD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist, harpsichordist and composer
 

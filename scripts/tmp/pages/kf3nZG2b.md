@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kf3nZG2b
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                                    | aliases                                        | Wikidata QID                                                            |
-    | :-------: | :------------------------: | :--------------------------------------------: | :--------------------------------------------: | :---------------------------------------------------------------------: |
-    | kf3nZG2b  | Malaya Morskaya Street, 13 | building on Malaya Morskaya Street, 13, Russia | Gorohovaya Street 8 /Malaya Morskaya Street 13 | [Malaya Morskaya Street, 13](http://wwww.wikidata.org/entity/Q30159190) |
+    | FAAM UUID | label                      | description                                    | aliases                                        | Wikidata QID                                                       |
+    | :-------: | :------------------------: | :--------------------------------------------: | :--------------------------------------------: | :----------------------------------------------------------------: |
+    | kf3nZG2b  | Malaya Morskaya Street, 13 | building on Malaya Morskaya Street, 13, Russia | Gorohovaya Street 8 /Malaya Morskaya Street 13 | [Malaya Morskaya Street, 13](http://wikidata.org/entity/Q30159190) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/kf3nZG2b.html" height="800" width="1200" title="kf3nZG2b"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kf3nZG2b" height="800" width="1200" title="kf3nZG2b"></iframe>
 
 ## Identifiers
 

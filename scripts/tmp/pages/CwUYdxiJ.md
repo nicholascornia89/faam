@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CwUYdxiJ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description               | aliases            | Wikidata QID                                                   |
-    | :-------: | :----------------: | :-----------------------: | :----------------: | :------------------------------------------------------------: |
-    | CwUYdxiJ  | Sceaux-du-Gâtinais | commune in Loiret, France | Sceaux-du-Gatinais | [Sceaux-du-Gâtinais](http://wwww.wikidata.org/entity/Q1381167) |
+    | FAAM UUID | label              | description               | aliases            | Wikidata QID                                              |
+    | :-------: | :----------------: | :-----------------------: | :----------------: | :-------------------------------------------------------: |
+    | CwUYdxiJ  | Sceaux-du-Gâtinais | commune in Loiret, France | Sceaux-du-Gatinais | [Sceaux-du-Gâtinais](http://wikidata.org/entity/Q1381167) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/CwUYdxiJ.html" height="800" width="1200" title="CwUYdxiJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CwUYdxiJ" height="800" width="1200" title="CwUYdxiJ"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Charles-Wilfrid de Bériot](./Mj6zznNc.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e2/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg){align=left width="150" height="150"} 
 
 	French pianist and composer (1833-1914)
 

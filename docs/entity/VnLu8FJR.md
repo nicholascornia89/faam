@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VnLu8FJR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description    | aliases | Wikidata QID                                             |
-    | :-------: | :------------: | :------------: | :-----: | :------------------------------------------------------: |
-    | VnLu8FJR  | Frattamaggiore | Italian comune |         | [Frattamaggiore](http://wwww.wikidata.org/entity/Q72118) |
+    | FAAM UUID | label          | description    | aliases | Wikidata QID                                        |
+    | :-------: | :------------: | :------------: | :-----: | :-------------------------------------------------: |
+    | VnLu8FJR  | Frattamaggiore | Italian comune |         | [Frattamaggiore](http://wikidata.org/entity/Q72118) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/VnLu8FJR.html" height="800" width="1200" title="VnLu8FJR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VnLu8FJR" height="800" width="1200" title="VnLu8FJR"></iframe>
 
 ## Identifiers
 

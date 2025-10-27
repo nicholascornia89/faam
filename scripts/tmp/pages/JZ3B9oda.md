@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JZ3B9oda
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCG-conpr_18361857/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JZ3B9oda.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JZ3B9oda.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JZ3B9oda.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCG-conpr_18361857/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JZ3B9oda.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JZ3B9oda.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JZ3B9oda.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-conpr_18361857.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-conpr_18361857.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                         | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | JZ3B9oda  | KCG-conpr_18361857    | Matinées Musicales des Elèves du Conservatoire de Musique de Gand (1836-1857) | [external URL](GK7UXWTC) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                         | permalink                     | provenance                                         |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------: | :---------------------------: | :------------------------------------------------: |
+    | JZ3B9oda  | KCG-conpr_18361857    | Matinées Musicales des Elèves du Conservatoire de Musique de Gand (1836-1857) | [external URL](not available) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ===  "note" 
 
@@ -55,10 +59,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/JZ3B9oda.html" height="800" width="1200" title="JZ3B9oda"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JZ3B9oda" height="800" width="1200" title="JZ3B9oda"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/JZ3B9oda.html" height="800" width="1200" title="JZ3B9oda"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/JZ3B9oda" height="800" width="1200" title="JZ3B9oda"></iframe>

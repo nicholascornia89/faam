@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Dy8pmS8i
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description              | aliases         | Wikidata QID                                                  |
-    | :-------: | :-------------: | :----------------------: | :-------------: | :-----------------------------------------------------------: |
-    | Dy8pmS8i  | musical concept | type of artistic concept | musical concept | [musical concept](http://wwww.wikidata.org/entity/Q115211517) |
+    | FAAM UUID | label           | description              | aliases         | Wikidata QID                                             |
+    | :-------: | :-------------: | :----------------------: | :-------------: | :------------------------------------------------------: |
+    | Dy8pmS8i  | musical concept | type of artistic concept | musical concept | [musical concept](http://wikidata.org/entity/Q115211517) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Dy8pmS8i.html" height="800" width="1200" title="Dy8pmS8i"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Dy8pmS8i" height="800" width="1200" title="Dy8pmS8i"></iframe>
 
 ## Cross-references
 

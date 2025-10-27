@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Gmyihe9r
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description        | aliases | Wikidata QID                                                |
-    | :-------: | :------------: | :----------------: | :-----: | :---------------------------------------------------------: |
-    | Gmyihe9r  | opera composer | composer of operas |         | [opera composer](http://wwww.wikidata.org/entity/Q21680731) |
+    | FAAM UUID | label          | description        | aliases | Wikidata QID                                           |
+    | :-------: | :------------: | :----------------: | :-----: | :----------------------------------------------------: |
+    | Gmyihe9r  | opera composer | composer of operas |         | [opera composer](http://wikidata.org/entity/Q21680731) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Gmyihe9r.html" height="800" width="1200" title="Gmyihe9r"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Gmyihe9r" height="800" width="1200" title="Gmyihe9r"></iframe>
 
 ## Cross-references
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Antonio Vivaldi](./GSqAPxLN.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vivaldi.jpg){align=left width="150" height="150"} 
 
 	Italian composer and violinist (1678-1741)
 
@@ -85,13 +89,13 @@ tags: occupation
 
 -	__[Claudio Monteverdi](./J2JS4FwU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
 
 	Italian composer, string player, choirmaster, and priest (1567–1643)
 
 -	__[Giovanni Battista Bassani](./bTS8wpNY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, violinist and organist
 

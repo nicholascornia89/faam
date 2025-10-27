@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: f9djjLJd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                           | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :-------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | f9djjLJd  | Loreto | hill town and comune of the Italian province of Ancona, in the Marche | Loretto | [Loreto](http://wwww.wikidata.org/entity/Q124110) |
+    | FAAM UUID | label  | description                                                           | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :-------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | f9djjLJd  | Loreto | hill town and comune of the Italian province of Ancona, in the Marche | Loretto | [Loreto](http://wikidata.org/entity/Q124110) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/f9djjLJd.html" height="800" width="1200" title="f9djjLJd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/f9djjLJd" height="800" width="1200" title="f9djjLJd"></iframe>
 
 ## Identifiers
 

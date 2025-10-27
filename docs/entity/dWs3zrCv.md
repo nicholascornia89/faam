@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dWs3zrCv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/dWs3zrCv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/dWs3zrCv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/dWs3zrCv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/dWs3zrCv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/dWs3zrCv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/dWs3zrCv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/1715_Renneville,_L’Inquisition_Françoise.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases       | description                        | Wikidata QID                                              |
-    | :-------: | :------------: | :-----------: | :--------------------------------: | :-------------------------------------------------------: |
-    | dWs3zrCv  | Estienne Roger | Étienne Roger | French-Dutch printer and publisher | [Estienne Roger](http://wwww.wikidata.org/entity/Q715081) |
+    | FAAM UUID | label          | aliases       | description                        | Wikidata QID                                         |
+    | :-------: | :------------: | :-----------: | :--------------------------------: | :--------------------------------------------------: |
+    | dWs3zrCv  | Estienne Roger | Étienne Roger | French-Dutch printer and publisher | [Estienne Roger](http://wikidata.org/entity/Q715081) |
 
 <br><br><br>
 
@@ -45,13 +49,13 @@ tags: agent
 
 	- [music publisher](./MwhmFC4w.md)
 
-	- [](./jHCtHQzT.md)
+	- [printer](./jHCtHQzT.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/dWs3zrCv.html" height="800" width="1200" title="dWs3zrCv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dWs3zrCv" height="800" width="1200" title="dWs3zrCv"></iframe>
 
 ## Identifiers
 

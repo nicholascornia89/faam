@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:E2dDDzdk a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "small flute sounding an octave higher than the C concert flute"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q83509>,
+        "15990841"^^xsd:string,
+        "E2dDDzdk"^^xsd:string ;
+    skos:altLabel "piccolo"^^xsd:string ;
+    skos:prefLabel "piccolo"^^xsd:string ;
+    wd:P279 faamentity:LMnKWZg2 ;
+    wd:P31 faamentity:BnwWc34X .
+

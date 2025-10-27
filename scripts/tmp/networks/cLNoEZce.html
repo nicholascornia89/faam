@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "cLNoEZce", "label": "natural horn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./cLNoEZce.md\u0027\u003enatural horn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eunvalved ancestor of modern-day horn\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "dSq7JTyF", "label": "family of musical instruments", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./dSq7JTyF.md\u0027\u003efamily of musical instruments\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egrouping of different but related types of instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eDJ8CeQC", "label": "end-blown labrosones", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eDJ8CeQC.md\u0027\u003eend-blown labrosones\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eclass of musical instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9sgtLnWS", "label": "Louis-Fran\u00e7ois Dauprat", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9sgtLnWS.md\u0027\u003eLouis-Fran\u00e7ois Dauprat\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer and horn-player\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AsPJ6dfX", "label": "Jacques Fran\u00e7ois Gallay", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AsPJ6dfX.md\u0027\u003eJacques Fran\u00e7ois Gallay\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, professor, hornist and music educator (1795-1864)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jacques_Fran\u00e7ois_Gallay_Hornist.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bHNYARLV", "label": "Fr\u00e9d\u00e9ric Nicolas Duvernoy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bHNYARLV.md\u0027\u003eFr\u00e9d\u00e9ric Nicolas Duvernoy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposer and French horn player (1765-1838)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait_du_corniste_Fr\u00e9d\u00e9ric_Nicolas_Duvernoy_(1765-1838).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "cLNoEZce", "to": "dSq7JTyF", "width": 10}, {"from": "cLNoEZce", "to": "eDJ8CeQC", "width": 10}, {"from": "cLNoEZce", "to": "9sgtLnWS", "width": 10}, {"from": "cLNoEZce", "to": "AsPJ6dfX", "width": 10}, {"from": "cLNoEZce", "to": "bHNYARLV", "width": 10}, {"from": "9sgtLnWS", "to": "AsPJ6dfX", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "dSq7JTyF", "label": "family of musical instruments", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dSq7JTyF\u0027\u003efamily of musical instruments\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egrouping of different but related types of instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "cLNoEZce", "label": "natural horn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cLNoEZce\u0027\u003enatural horn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eunvalved ancestor of modern-day horn\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AsPJ6dfX", "label": "Jacques Fran\u00e7ois Gallay", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AsPJ6dfX\u0027\u003eJacques Fran\u00e7ois Gallay\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, professor, hornist and music educator (1795-1864)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jacques_Fran\u00e7ois_Gallay_Hornist.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9sgtLnWS", "label": "Louis-Fran\u00e7ois Dauprat", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9sgtLnWS\u0027\u003eLouis-Fran\u00e7ois Dauprat\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer and horn-player\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eDJ8CeQC", "label": "end-blown labrosones", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eDJ8CeQC\u0027\u003eend-blown labrosones\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eclass of musical instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bHNYARLV", "label": "Fr\u00e9d\u00e9ric Nicolas Duvernoy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bHNYARLV\u0027\u003eFr\u00e9d\u00e9ric Nicolas Duvernoy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposer and French horn player (1765-1838)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait_du_corniste_Fr\u00e9d\u00e9ric_Nicolas_Duvernoy_(1765-1838).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "dSq7JTyF", "to": "cLNoEZce", "width": 10}, {"from": "AsPJ6dfX", "to": "cLNoEZce", "width": 10}, {"from": "AsPJ6dfX", "to": "9sgtLnWS", "width": 1}, {"from": "eDJ8CeQC", "to": "cLNoEZce", "width": 10}, {"from": "bHNYARLV", "to": "cLNoEZce", "width": 10}, {"from": "cLNoEZce", "to": "9sgtLnWS", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

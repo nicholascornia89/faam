@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BpM59WrA
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                                     | aliases         | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :---------------------------------------------: | :-------------: | :------------------------------------------------------------------: |
-    | BpM59WrA  | Schola Cantorum de Paris | musical academy set up in the late 19th century | Schola Cantorum | [Schola Cantorum de Paris](http://wwww.wikidata.org/entity/Q1407107) |
+    | FAAM UUID | label                    | description                                     | aliases         | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :---------------------------------------------: | :-------------: | :-------------------------------------------------------------: |
+    | BpM59WrA  | Schola Cantorum de Paris | musical academy set up in the late 19th century | Schola Cantorum | [Schola Cantorum de Paris](http://wikidata.org/entity/Q1407107) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/BpM59WrA.html" height="800" width="1200" title="BpM59WrA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BpM59WrA" height="800" width="1200" title="BpM59WrA"></iframe>
 
 ## Cross-references
 
@@ -51,13 +55,13 @@ tags: music_organization
 
 -	__[CANTATE N°45 : Es ist dir gesagt, Mensch, was gut ist](./EXeDLbH8.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331832.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331832.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alma redemptoris mater : antienne à 4 voix à la Très Sainte Vierge : pour le temps de l'avent à la purification](./6eZ98ERo.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901761509.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901761509.gif){align=left width="150" height="150"} 
 
 	
 
@@ -67,7 +71,7 @@ tags: music_organization
 
 -	__[Amédée Gastoué](./5rZmZPuR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist (1873–1943)
 
@@ -79,13 +83,13 @@ tags: music_organization
 
 -	__[Louis Vierne](./YbVtaBnQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1870–1937)
 
 -	__[Jeanne Dalliès](./DzK8Nnk8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French harpist and musicologist
 

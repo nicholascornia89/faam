@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: K2KgUtEp
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/K2KgUtEp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/K2KgUtEp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/K2KgUtEp.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/K2KgUtEp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/K2KgUtEp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/K2KgUtEp.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases            | description                                                | Wikidata QID                                               |
-    | :-------: | :-------------: | :----------------: | :--------------------------------------------------------: | :--------------------------------------------------------: |
-    | K2KgUtEp  | Arthur Sullivan | Arthur S. Sullivan | English composer of the Gilbert & Sullivan duo (1842-1900) | [Arthur Sullivan](http://wwww.wikidata.org/entity/Q212692) |
+    | FAAM UUID | label           | aliases            | description                                                | Wikidata QID                                          |
+    | :-------: | :-------------: | :----------------: | :--------------------------------------------------------: | :---------------------------------------------------: |
+    | K2KgUtEp  | Arthur Sullivan | Arthur S. Sullivan | English composer of the Gilbert & Sullivan duo (1842-1900) | [Arthur Sullivan](http://wikidata.org/entity/Q212692) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/K2KgUtEp.html" height="800" width="1200" title="K2KgUtEp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/K2KgUtEp" height="800" width="1200" title="K2KgUtEp"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Tobias Matthay](./mxQFtBVF.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tobias_Matthay_-_Project_Gutenberg_eText_15604.png){align=left width="150" height="150"} 
+
+	British pianist, teacher and composer (1858–1945)
+
+</div>

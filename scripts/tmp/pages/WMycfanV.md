@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WMycfanV
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                               | aliases          | Wikidata QID                                 |
-    | :-------: | :---: | :-------------------------------------------------------: | :--------------: | :------------------------------------------: |
-    | WMycfanV  | Spain | country in southwestern Europe with territories in Africa | Kingdom of Spain | [Spain](http://wwww.wikidata.org/entity/Q29) |
+    | FAAM UUID | label | description                                               | aliases          | Wikidata QID                            |
+    | :-------: | :---: | :-------------------------------------------------------: | :--------------: | :-------------------------------------: |
+    | WMycfanV  | Spain | country in southwestern Europe with territories in Africa | Kingdom of Spain | [Spain](http://wikidata.org/entity/Q29) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/WMycfanV.html" height="800" width="1200" title="WMycfanV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WMycfanV" height="800" width="1200" title="WMycfanV"></iframe>
 
 ## Identifiers
 
@@ -89,7 +93,7 @@ tags: country
 
 -	__[Tomás Luis de Victoria](./ZpAqTJvQ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/c3/Tom%C3%A1s_Luis_de_Victoria.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tom%C3%A1s_Luis_de_Victoria.jpg){align=left width="150" height="150"} 
 
 	Spanish composer (c. 1548 – 1611)
 

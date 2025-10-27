@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: joMynDmV
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030902480737/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/joMynDmV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/joMynDmV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/joMynDmV.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030902480737/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/joMynDmV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/joMynDmV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/joMynDmV.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902480737.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902480737.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                           | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | joMynDmV  | KCA-030902480737      | Sonate en ré majeur nr 4 : pour violon et piano | [external URL](7WfWytMV) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                           | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :---------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | joMynDmV  | KCA-030902480737      | Sonate en ré majeur nr 4 : pour violon et piano | [external URL](https://anet.be/record/opacdkvc/c:lvd:6807687/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -95,10 +99,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/joMynDmV.html" height="800" width="1200" title="joMynDmV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/joMynDmV" height="800" width="1200" title="joMynDmV"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/joMynDmV.html" height="800" width="1200" title="joMynDmV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/joMynDmV" height="800" width="1200" title="joMynDmV"></iframe>

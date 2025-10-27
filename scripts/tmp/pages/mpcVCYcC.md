@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mpcVCYcC
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mpcVCYcC.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mpcVCYcC.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mpcVCYcC.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mpcVCYcC.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mpcVCYcC.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mpcVCYcC.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Bonno.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                          | description                   | Wikidata QID                                              |
-    | :-------: | :------------: | :------------------------------: | :---------------------------: | :-------------------------------------------------------: |
-    | mpcVCYcC  | Giuseppe Bonno | Giuseppe Giovanni Battista Bonno | Austrian composer (1711–1788) | [Giuseppe Bonno](http://wwww.wikidata.org/entity/Q700798) |
+    | FAAM UUID | label          | aliases                          | description                   | Wikidata QID                                         |
+    | :-------: | :------------: | :------------------------------: | :---------------------------: | :--------------------------------------------------: |
+    | mpcVCYcC  | Giuseppe Bonno | Giuseppe Giovanni Battista Bonno | Austrian composer (1711–1788) | [Giuseppe Bonno](http://wikidata.org/entity/Q700798) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/mpcVCYcC.html" height="800" width="1200" title="mpcVCYcC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mpcVCYcC" height="800" width="1200" title="mpcVCYcC"></iframe>
 
 ## Identifiers
 

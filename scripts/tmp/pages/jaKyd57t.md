@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jaKyd57t
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-39.OP.OMdeMonte23/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/jaKyd57t.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/jaKyd57t.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/jaKyd57t.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-39.OP.OMdeMonte23/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/jaKyd57t.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/jaKyd57t.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/jaKyd57t.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-39.OP.OMdeMonte23.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-39.OP.OMdeMonte23.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                              | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :--------------------------------: | :----------------------: | :------------------------------------------------: |
-    | jaKyd57t  | KCG-39.OP.OMdeMonte23 | Philippi de Monte. VIII Magnificat | [external URL](mUgkXxXH) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                              | permalink                     | provenance                                         |
+    | :-------: | :-------------------: | :--------------------------------: | :---------------------------: | :------------------------------------------------: |
+    | jaKyd57t  | KCG-39.OP.OMdeMonte23 | Philippi de Monte. VIII Magnificat | [external URL](not available) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -95,10 +99,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/jaKyd57t.html" height="800" width="1200" title="jaKyd57t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jaKyd57t" height="800" width="1200" title="jaKyd57t"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/jaKyd57t.html" height="800" width="1200" title="jaKyd57t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/jaKyd57t" height="800" width="1200" title="jaKyd57t"></iframe>

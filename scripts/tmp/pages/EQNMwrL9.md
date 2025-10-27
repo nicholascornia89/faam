@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EQNMwrL9
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description                                                              | aliases           | Wikidata QID                                                               |
-    | :-------: | :----------------------------: | :----------------------------------------------------------------------: | :---------------: | :------------------------------------------------------------------------: |
-    | EQNMwrL9  | Duchy of Saxe-Coburg and Gotha | collective name for the duchies of Saxe-Coburg and Saxe-Gotha in Germany | Saxe-Coburg-Gotha | [Duchy of Saxe-Coburg and Gotha](http://wwww.wikidata.org/entity/Q3462133) |
+    | FAAM UUID | label                          | description                                                              | aliases           | Wikidata QID                                                          |
+    | :-------: | :----------------------------: | :----------------------------------------------------------------------: | :---------------: | :-------------------------------------------------------------------: |
+    | EQNMwrL9  | Duchy of Saxe-Coburg and Gotha | collective name for the duchies of Saxe-Coburg and Saxe-Gotha in Germany | Saxe-Coburg-Gotha | [Duchy of Saxe-Coburg and Gotha](http://wikidata.org/entity/Q3462133) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/EQNMwrL9.html" height="800" width="1200" title="EQNMwrL9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EQNMwrL9" height="800" width="1200" title="EQNMwrL9"></iframe>
 
 ## Identifiers
 

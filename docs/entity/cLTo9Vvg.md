@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cLTo9Vvg
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description              | aliases | Wikidata QID                                  |
-    | :-------: | :----: | :----------------------: | :-----: | :-------------------------------------------: |
-    | cLTo9Vvg  | Canada | country in North America | Canada  | [Canada](http://wwww.wikidata.org/entity/Q16) |
+    | FAAM UUID | label  | description              | aliases | Wikidata QID                             |
+    | :-------: | :----: | :----------------------: | :-----: | :--------------------------------------: |
+    | cLTo9Vvg  | Canada | country in North America | Canada  | [Canada](http://wikidata.org/entity/Q16) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/cLTo9Vvg.html" height="800" width="1200" title="cLTo9Vvg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cLTo9Vvg" height="800" width="1200" title="cLTo9Vvg"></iframe>
 
 ## Identifiers
 

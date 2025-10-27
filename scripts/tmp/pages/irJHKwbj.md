@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: irJHKwbj
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description | aliases                                | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :---------: | :------------------------------------: | :-------------------------------------------------------------: |
-    | irJHKwbj  | Alma Mater Viadrina |             | Brandenburgische Universität Frankfurt | [Alma Mater Viadrina](http://wwww.wikidata.org/entity/Q2649559) |
+    | FAAM UUID | label               | description | aliases                                | Wikidata QID                                               |
+    | :-------: | :-----------------: | :---------: | :------------------------------------: | :--------------------------------------------------------: |
+    | irJHKwbj  | Alma Mater Viadrina |             | Brandenburgische Universität Frankfurt | [Alma Mater Viadrina](http://wikidata.org/entity/Q2649559) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "country" 
 
-	[Margraviate of Brandenburg](http://www.wikidata.org/entity/Q148499)
+	[Margraviate of Brandenburg](Q148499)
 
 	[Prussia](./RocQ8eoo.md)
 
@@ -39,7 +43,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/irJHKwbj.html" height="800" width="1200" title="irJHKwbj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/irJHKwbj" height="800" width="1200" title="irJHKwbj"></iframe>
 
 ## Cross-references
 

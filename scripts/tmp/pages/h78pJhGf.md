@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: h78pJhGf
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                                                        | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :------------------------------------------------------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | h78pJhGf  | play  | theatrical dramatic work intended to be performed by actors (in theatre, radio or recorded for TV) | drama   | [play](http://wwww.wikidata.org/entity/Q25379) |
+    | FAAM UUID | label | description                                                                                        | aliases | Wikidata QID                              |
+    | :-------: | :---: | :------------------------------------------------------------------------------------------------: | :-----: | :---------------------------------------: |
+    | h78pJhGf  | play  | theatrical dramatic work intended to be performed by actors (in theatre, radio or recorded for TV) | drama   | [play](http://wikidata.org/entity/Q25379) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/h78pJhGf.html" height="800" width="1200" title="h78pJhGf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/h78pJhGf" height="800" width="1200" title="h78pJhGf"></iframe>
 
 ## Cross-references
 

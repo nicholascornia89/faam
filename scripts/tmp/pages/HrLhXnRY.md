@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HrLhXnRY
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------------: | :-----: | :---------: | :----------------------------------: |
-    | HrLhXnRY  | Zes Latijnse Lofgezangen |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                    | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------------: | :-----: | :---------: | :-----------------------------: |
+    | HrLhXnRY  | Zes Latijnse Lofgezangen |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/HrLhXnRY.html" height="800" width="1200" title="HrLhXnRY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HrLhXnRY" height="800" width="1200" title="HrLhXnRY"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Zes Latijnse lofgeVoiceen : 2 en 3 gelijke stemmen](./7rBoR88j.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903770292.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903770292.gif){align=left width="150" height="150"} 
 
 	
 

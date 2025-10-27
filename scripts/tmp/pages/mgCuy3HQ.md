@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mgCuy3HQ
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                    | aliases            | Wikidata QID                                             |
-    | :-------: | :---------: | :----------------------------: | :----------------: | :------------------------------------------------------: |
-    | mgCuy3HQ  | philologist | person who practices philology | language scientist | [philologist](http://wwww.wikidata.org/entity/Q13418253) |
+    | FAAM UUID | label       | description                    | aliases            | Wikidata QID                                        |
+    | :-------: | :---------: | :----------------------------: | :----------------: | :-------------------------------------------------: |
+    | mgCuy3HQ  | philologist | person who practices philology | language scientist | [philologist](http://wikidata.org/entity/Q13418253) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/mgCuy3HQ.html" height="800" width="1200" title="mgCuy3HQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mgCuy3HQ" height="800" width="1200" title="mgCuy3HQ"></iframe>
 
 ## Cross-references
 

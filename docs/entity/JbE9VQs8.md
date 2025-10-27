@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JbE9VQs8
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases | description | Wikidata QID                         |
-    | :-------: | :--------------------: | :-----: | :---------: | :----------------------------------: |
-    | JbE9VQs8  | Les Délices de l'Opéra |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                  | aliases | description | Wikidata QID                    |
+    | :-------: | :--------------------: | :-----: | :---------: | :-----------------------------: |
+    | JbE9VQs8  | Les Délices de l'Opéra |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -85,7 +89,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/JbE9VQs8.html" height="800" width="1200" title="JbE9VQs8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JbE9VQs8" height="800" width="1200" title="JbE9VQs8"></iframe>
 
 ## Identifiers
 
@@ -103,7 +107,7 @@ tags: musical_work
 
 -	__[Les délices de l'opéra : rondos, fantaisies, mosaïque et variations sur des thêmes favorits des opéras modernes: pour la flûte avec accompagnement de pianoforte](./LoUFQ6jY.md)__
 
-	![Image](../assets/images/thumbs/KCG-000345131.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345131.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LpahSk8R
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                                             | aliases | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-----: | :---------------------------------------------------------------------: |
-    | LpahSk8R  | 16th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [16th arrondissement of Paris](http://wwww.wikidata.org/entity/Q194420) |
+    | FAAM UUID | label                        | description                                             | aliases | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-----: | :----------------------------------------------------------------: |
+    | LpahSk8R  | 16th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [16th arrondissement of Paris](http://wikidata.org/entity/Q194420) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LpahSk8R.html" height="800" width="1200" title="LpahSk8R"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LpahSk8R" height="800" width="1200" title="LpahSk8R"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: city
 
 -	__[Ernest Gillet](./Sjw2pJu9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician and composer (1856-1940)
 

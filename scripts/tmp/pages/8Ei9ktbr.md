@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8Ei9ktbr
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8Ei9ktbr.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8Ei9ktbr.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8Ei9ktbr.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8Ei9ktbr.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8Ei9ktbr.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8Ei9ktbr.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases | description                   | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :-----: | :---------------------------: | :----------------------------------------------------------------: |
-    | 8Ei9ktbr  | Charles Lucien Lambert |         | American composer (1828–1896) | [Charles Lucien Lambert](http://wwww.wikidata.org/entity/Q1065373) |
+    | FAAM UUID | label                  | aliases | description                   | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :-----: | :---------------------------: | :-----------------------------------------------------------: |
+    | 8Ei9ktbr  | Charles Lucien Lambert |         | American composer (1828–1896) | [Charles Lucien Lambert](http://wikidata.org/entity/Q1065373) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8Ei9ktbr.html" height="800" width="1200" title="8Ei9ktbr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8Ei9ktbr" height="800" width="1200" title="8Ei9ktbr"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Fromental Halévy](./NPPV2XtG.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fromental_Halevy_by_Etienne_Carjat-crop.jpg){align=left width="150" height="150"} 
+
+	French composer
+
+</div>

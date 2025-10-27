@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FzdobhCq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :--------------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | FzdobhCq  | Buda  | western part of Budapest, Hungary, former independent city | Ofen    | [Buda](http://wwww.wikidata.org/entity/Q193478) |
+    | FAAM UUID | label | description                                                | aliases | Wikidata QID                               |
+    | :-------: | :---: | :--------------------------------------------------------: | :-----: | :----------------------------------------: |
+    | FzdobhCq  | Buda  | western part of Budapest, Hungary, former independent city | Ofen    | [Buda](http://wikidata.org/entity/Q193478) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/FzdobhCq.html" height="800" width="1200" title="FzdobhCq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FzdobhCq" height="800" width="1200" title="FzdobhCq"></iframe>
 
 ## Identifiers
 

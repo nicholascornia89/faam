@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: o8A78GYD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/o8A78GYD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/o8A78GYD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/o8A78GYD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/o8A78GYD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/o8A78GYD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/o8A78GYD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases      | description                      | Wikidata QID                                               |
-    | :-------: | :-------------: | :----------: | :------------------------------: | :--------------------------------------------------------: |
-    | o8A78GYD  | Boosey & Hawkes | Hawkes & Son | British music publishing company | [Boosey & Hawkes](http://wwww.wikidata.org/entity/Q834648) |
+    | FAAM UUID | label           | aliases      | description                      | Wikidata QID                                          |
+    | :-------: | :-------------: | :----------: | :------------------------------: | :---------------------------------------------------: |
+    | o8A78GYD  | Boosey & Hawkes | Hawkes & Son | British music publishing company | [Boosey & Hawkes](http://wikidata.org/entity/Q834648) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/o8A78GYD.html" height="800" width="1200" title="o8A78GYD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/o8A78GYD" height="800" width="1200" title="o8A78GYD"></iframe>
 
 ## Identifiers
 
@@ -63,19 +67,19 @@ tags: agent
 
 -	__[Faun und Schäferin: liedercyklus für Gesang und Klavier, op. 2 = Le faune et la bergère: suite pour chant et piano, opus 2](./XRgokHR3.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902642138.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902642138.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Violin concerto : G major, KV 216 = Concierto para violin: sol mayor, KV 216](./oQb73oWT.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902809604.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902809604.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[The well-tempered clavier: 48 preludes and fugues](./Y9bpQE3M.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901733573.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901733573.gif){align=left width="150" height="150"} 
 
 	
 

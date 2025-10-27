@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 99LzWhLY
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902594008/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/99LzWhLY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/99LzWhLY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/99LzWhLY.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902594008/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/99LzWhLY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/99LzWhLY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/99LzWhLY.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902594008.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902594008.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                     | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 99LzWhLY  | KCA-030902594008      | Concert aria : kerstnacht = Air de concert : nuit de Noël | [external URL](7qCCArxX) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                     | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 99LzWhLY  | KCA-030902594008      | Concert aria : kerstnacht = Air de concert : nuit de Noël | [external URL](https://anet.be/record/opacdkvc/c:lvd:13119473/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -88,10 +92,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/99LzWhLY.html" height="800" width="1200" title="99LzWhLY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/99LzWhLY" height="800" width="1200" title="99LzWhLY"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/99LzWhLY.html" height="800" width="1200" title="99LzWhLY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/99LzWhLY" height="800" width="1200" title="99LzWhLY"></iframe>

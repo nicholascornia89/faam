@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KpakAMdR
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KpakAMdR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KpakAMdR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KpakAMdR.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KpakAMdR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KpakAMdR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KpakAMdR.csv){.md-button}
 
-<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/01/Gustav_Holst.jpg" width="250" height="200">
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Holst.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases               | description      | Wikidata QID                                            |
-    | :-------: | :----------: | :-------------------: | :--------------: | :-----------------------------------------------------: |
-    | KpakAMdR  | Gustav Holst | Gustav Theodore Holst | British composer | [Gustav Holst](http://wwww.wikidata.org/entity/Q200867) |
+    | FAAM UUID | label        | aliases               | description      | Wikidata QID                                       |
+    | :-------: | :----------: | :-------------------: | :--------------: | :------------------------------------------------: |
+    | KpakAMdR  | Gustav Holst | Gustav Theodore Holst | British composer | [Gustav Holst](http://wikidata.org/entity/Q200867) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KpakAMdR.html" height="800" width="1200" title="KpakAMdR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KpakAMdR" height="800" width="1200" title="KpakAMdR"></iframe>
 
 ## Identifiers
 
@@ -87,7 +91,15 @@ tags: agent
 
 -	__[Short festival Te Deum : for chorus and orchestra](./MuyMJDyz.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904711568.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904711568.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Short Festival Te Deum](./PR5nAnkz.md)__
 
 	
 

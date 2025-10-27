@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Si4Qx3NK
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Si4Qx3NK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Si4Qx3NK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Si4Qx3NK.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Si4Qx3NK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Si4Qx3NK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Si4Qx3NK.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Giorgi_Caricature_1719.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                 | Wikidata QID                                                |
-    | :-------: | :-------------: | :-------------: | :-------------------------: | :---------------------------------------------------------: |
-    | Si4Qx3NK  | Giovanni Giorgi | Giovanni Giorgi | Italian/Portuguese composer | [Giovanni Giorgi](http://wwww.wikidata.org/entity/Q3230290) |
+    | FAAM UUID | label           | aliases         | description                 | Wikidata QID                                           |
+    | :-------: | :-------------: | :-------------: | :-------------------------: | :----------------------------------------------------: |
+    | Si4Qx3NK  | Giovanni Giorgi | Giovanni Giorgi | Italian/Portuguese composer | [Giovanni Giorgi](http://wikidata.org/entity/Q3230290) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Si4Qx3NK.html" height="800" width="1200" title="Si4Qx3NK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Si4Qx3NK" height="800" width="1200" title="Si4Qx3NK"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
 
 	
 

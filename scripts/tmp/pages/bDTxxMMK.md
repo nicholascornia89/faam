@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bDTxxMMK
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bDTxxMMK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bDTxxMMK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bDTxxMMK.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bDTxxMMK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bDTxxMMK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bDTxxMMK.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/François-Auguste_Gevaert_photo_c1896_-_IMSLP.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases                  | description                  | Wikidata QID                                                        |
-    | :-------: | :----------------------: | :----------------------: | :--------------------------: | :-----------------------------------------------------------------: |
-    | bDTxxMMK  | François-Auguste Gevaert | François Auguste Gevaert | Belgian composer (1828–1908) | [François-Auguste Gevaert](http://wwww.wikidata.org/entity/Q682376) |
+    | FAAM UUID | label                    | aliases                  | description                  | Wikidata QID                                                   |
+    | :-------: | :----------------------: | :----------------------: | :--------------------------: | :------------------------------------------------------------: |
+    | bDTxxMMK  | François-Auguste Gevaert | François Auguste Gevaert | Belgian composer (1828–1908) | [François-Auguste Gevaert](http://wikidata.org/entity/Q682376) |
 
 <br><br><br>
 
@@ -51,9 +55,9 @@ tags: agent
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./Efgfa4qi.md)
+	- [academic musician](./Efgfa4qi.md)
 
-	- [](./JNXXkGXS.md)
+	- [theorist](./JNXXkGXS.md)
 
 	- [writer](./YrCfZ8vh.md)
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/bDTxxMMK.html" height="800" width="1200" title="bDTxxMMK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bDTxxMMK" height="800" width="1200" title="bDTxxMMK"></iframe>
 
 ## Identifiers
 
@@ -95,37 +99,69 @@ tags: agent
 
 -	__[Le capitaine Henriot](./FVNwobgh.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901603982.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901603982.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le capitaine Henriot Duetto](./FBtGk4Pp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901603966.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901603966.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le billet de Marguerite](./FGTMQ9ZB.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901604147.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901604147.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Quentin Durward : opéra comique en 3 actes : trio chanté par MM. Jourdan, Faure et Barrielle](./DiiR33LB.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902587564.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902587564.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward](./TMrEQMjJ.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901456373.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901456373.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward](./G4Rzkiwq.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901456399.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901456399.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Edgard Tinel](./gu6PFUDE.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edgar_Tinel_1911.jpg){align=left width="150" height="150"} 
+
+	Belgian composer and pianist (1854-1912)
+
+-	__[Arthur De Greef](./MFYf8mDL.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arthur_De_Greef.jpg){align=left width="150" height="150"} 
+
+	Belgian musician (1862-1940)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Le Capitaine Henriot](./gZT3Zyza.md)__
+
+	opéra comique composed by François-Auguste Gevaert
+
+-	__[Quentin Durward](./o8oZL9Vx.md)__
+
+	comedy in 3 acts composed by François-Auguste Gevaert. First representation in 1858 at Opéra-Comique, Salle Favart, Paris
+
+-	__[Le billet de Marguerite](./KcmpZp6N.md)__
 
 	
 

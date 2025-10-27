@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cz3pMYck
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                      | aliases       | Wikidata QID                                     |
-    | :-------: | :---: | :--------------------------------------------------------------: | :-----------: | :----------------------------------------------: |
-    | cz3pMYck  | revue | theatrical entertainment that combines music, dance and sketches | musical revue | [revue](http://wwww.wikidata.org/entity/Q918727) |
+    | FAAM UUID | label | description                                                      | aliases       | Wikidata QID                                |
+    | :-------: | :---: | :--------------------------------------------------------------: | :-----------: | :-----------------------------------------: |
+    | cz3pMYck  | revue | theatrical entertainment that combines music, dance and sketches | musical revue | [revue](http://wikidata.org/entity/Q918727) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/cz3pMYck.html" height="800" width="1200" title="cz3pMYck"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cz3pMYck" height="800" width="1200" title="cz3pMYck"></iframe>
 
 ## Cross-references
 

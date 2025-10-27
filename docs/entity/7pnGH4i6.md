@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7pnGH4i6
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                     | aliases                   | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :---------------------------------------------: | :-----------------------: | :---------------------------------------------------------------: |
-    | 7pnGH4i6  | University of Tübingen | public research university in Tübingen, Germany | Eberhard Karls University | [University of Tübingen](http://wwww.wikidata.org/entity/Q153978) |
+    | FAAM UUID | label                  | description                                     | aliases                   | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :---------------------------------------------: | :-----------------------: | :----------------------------------------------------------: |
+    | 7pnGH4i6  | University of Tübingen | public research university in Tübingen, Germany | Eberhard Karls University | [University of Tübingen](http://wikidata.org/entity/Q153978) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./98FugADU.md)
+	[Tübingen](./98FugADU.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/7pnGH4i6.html" height="800" width="1200" title="7pnGH4i6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7pnGH4i6" height="800" width="1200" title="7pnGH4i6"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jrX3MpYb
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description | aliases | Wikidata QID                                             |
-    | :-------: | :-----------: | :---------: | :-----: | :------------------------------------------------------: |
-    | jrX3MpYb  | Żelazowa Wola | town        |         | [Żelazowa Wola](http://wwww.wikidata.org/entity/Q393087) |
+    | FAAM UUID | label         | description | aliases | Wikidata QID                                        |
+    | :-------: | :-----------: | :---------: | :-----: | :-------------------------------------------------: |
+    | jrX3MpYb  | Żelazowa Wola | town        |         | [Żelazowa Wola](http://wikidata.org/entity/Q393087) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jrX3MpYb.html" height="800" width="1200" title="jrX3MpYb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jrX3MpYb" height="800" width="1200" title="jrX3MpYb"></iframe>
 
 ## Identifiers
 

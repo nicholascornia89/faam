@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HXcrezvc
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description | aliases     | Wikidata QID                                           |
-    | :-------: | :---------: | :---------: | :---------: | :----------------------------------------------------: |
-    | HXcrezvc  | Missolonghi | Greek city  | Messolonghi | [Missolonghi](http://wwww.wikidata.org/entity/Q642810) |
+    | FAAM UUID | label       | description | aliases     | Wikidata QID                                      |
+    | :-------: | :---------: | :---------: | :---------: | :-----------------------------------------------: |
+    | HXcrezvc  | Missolonghi | Greek city  | Messolonghi | [Missolonghi](http://wikidata.org/entity/Q642810) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Greece](http://www.wikidata.org/entity/Q41)
+	- [Greece](Q41)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/HXcrezvc.html" height="800" width="1200" title="HXcrezvc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HXcrezvc" height="800" width="1200" title="HXcrezvc"></iframe>
 
 ## Identifiers
 

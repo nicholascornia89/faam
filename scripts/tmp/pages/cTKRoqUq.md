@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cTKRoqUq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description             | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :---------------------: | :-----: | :-----------------------------------------------------: |
-    | cTKRoqUq  | Treis-Karden | municipality of Germany |         | [Treis-Karden](http://wwww.wikidata.org/entity/Q656110) |
+    | FAAM UUID | label        | description             | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :---------------------: | :-----: | :------------------------------------------------: |
+    | cTKRoqUq  | Treis-Karden | municipality of Germany |         | [Treis-Karden](http://wikidata.org/entity/Q656110) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cTKRoqUq.html" height="800" width="1200" title="cTKRoqUq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cTKRoqUq" height="800" width="1200" title="cTKRoqUq"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Daniel Hünten](./ZJUGoDLC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1760-1823)
 

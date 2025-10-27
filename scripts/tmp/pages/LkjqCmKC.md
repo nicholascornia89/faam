@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LkjqCmKC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                   | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :---------------------------: | :-----: | :--------------------------------------------------: |
-    | LkjqCmKC  | Sarcelles | commune in Val-d'Oise, France |         | [Sarcelles](http://wwww.wikidata.org/entity/Q107501) |
+    | FAAM UUID | label     | description                   | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :---------------------------: | :-----: | :---------------------------------------------: |
+    | LkjqCmKC  | Sarcelles | commune in Val-d'Oise, France |         | [Sarcelles](http://wikidata.org/entity/Q107501) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LkjqCmKC.html" height="800" width="1200" title="LkjqCmKC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LkjqCmKC" height="800" width="1200" title="LkjqCmKC"></iframe>
 
 ## Identifiers
 

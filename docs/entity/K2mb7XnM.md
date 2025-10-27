@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: K2mb7XnM
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description              | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :----------------------: | :-----: | :-----------------------------------------------: |
-    | K2mb7XnM  | Meylan | commune in Isère, France |         | [Meylan](http://wwww.wikidata.org/entity/Q632175) |
+    | FAAM UUID | label  | description              | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :----------------------: | :-----: | :------------------------------------------: |
+    | K2mb7XnM  | Meylan | commune in Isère, France |         | [Meylan](http://wikidata.org/entity/Q632175) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/K2mb7XnM.html" height="800" width="1200" title="K2mb7XnM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/K2mb7XnM" height="800" width="1200" title="K2mb7XnM"></iframe>
 
 ## Identifiers
 

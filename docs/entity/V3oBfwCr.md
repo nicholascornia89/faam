@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: V3oBfwCr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                              | aliases  | Wikidata QID                                    |
-    | :-------: | :---: | :----------------------------------------------------------------------: | :------: | :---------------------------------------------: |
-    | V3oBfwCr  | Vevey | city and municipality on Lake Geneva, in the canton of Vaud, Switzerland | Vevey VD | [Vevey](http://wwww.wikidata.org/entity/Q68160) |
+    | FAAM UUID | label | description                                                              | aliases  | Wikidata QID                               |
+    | :-------: | :---: | :----------------------------------------------------------------------: | :------: | :----------------------------------------: |
+    | V3oBfwCr  | Vevey | city and municipality on Lake Geneva, in the canton of Vaud, Switzerland | Vevey VD | [Vevey](http://wikidata.org/entity/Q68160) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/V3oBfwCr.html" height="800" width="1200" title="V3oBfwCr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/V3oBfwCr" height="800" width="1200" title="V3oBfwCr"></iframe>
 
 ## Identifiers
 

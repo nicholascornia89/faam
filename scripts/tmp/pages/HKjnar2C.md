@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HKjnar2C
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                 | description      | aliases                                               | Wikidata QID                                                                                      |
-    | :-------: | :---------------------------------------------------: | :--------------: | :---------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
-    | HKjnar2C  | Orchestre de la Société des Concerts du Conservatoire | French orchestra | Orchestre de la Societe des Concerts du Conservatoire | [Orchestre de la Société des Concerts du Conservatoire](http://wwww.wikidata.org/entity/Q2537853) |
+    | FAAM UUID | label                                                 | description      | aliases                                               | Wikidata QID                                                                                 |
+    | :-------: | :---------------------------------------------------: | :--------------: | :---------------------------------------------------: | :------------------------------------------------------------------------------------------: |
+    | HKjnar2C  | Orchestre de la Société des Concerts du Conservatoire | French orchestra | Orchestre de la Societe des Concerts du Conservatoire | [Orchestre de la Société des Concerts du Conservatoire](http://wikidata.org/entity/Q2537853) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/HKjnar2C.html" height="800" width="1200" title="HKjnar2C"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HKjnar2C" height="800" width="1200" title="HKjnar2C"></iframe>
 
 ## Cross-references
 

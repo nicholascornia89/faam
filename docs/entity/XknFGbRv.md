@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XknFGbRv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                     | aliases | Wikidata QID                                    |
-    | :-------: | :----: | :---------------------------------------------: | :-----: | :---------------------------------------------: |
-    | XknFGbRv  | Weimar | city in the federal state of Thuringia, Germany |         | [Weimar](http://wwww.wikidata.org/entity/Q3955) |
+    | FAAM UUID | label  | description                                     | aliases | Wikidata QID                               |
+    | :-------: | :----: | :---------------------------------------------: | :-----: | :----------------------------------------: |
+    | XknFGbRv  | Weimar | city in the federal state of Thuringia, Germany |         | [Weimar](http://wikidata.org/entity/Q3955) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/XknFGbRv.html" height="800" width="1200" title="XknFGbRv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XknFGbRv" height="800" width="1200" title="XknFGbRv"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Georg Otto](./4rMryHtz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (ca. 1550-1618)
 
@@ -73,7 +77,7 @@ tags: city
 
 -	__[Melchior Vulpis](./JaEP5Aa7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German singer and composer (1570–1615)
 

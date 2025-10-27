@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "S63SGbw2", "label": "M. Gaultier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./S63SGbw2.md\u0027\u003eM. Gaultier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WqjAiCxw", "label": "Iphig\u00e9nie en Tauride", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WqjAiCxw.md\u0027\u003eIphig\u00e9nie en Tauride\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Christoph Willibald Gluck\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "YvQmwaaW", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YvQmwaaW.md\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WiBZjkbR", "label": "arrangement", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WiBZjkbR.md\u0027\u003earrangement\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition in altered form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mGvrzsgB", "label": "salon music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mGvrzsgB.md\u0027\u003esalon music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epopular music genre in Europe during the 19th century\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "GSNsghRd", "label": "music arranger", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GSNsghRd.md\u0027\u003emusic arranger\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who creates arrangements\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "dtkJhYLf", "label": "Paris", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./dtkJhYLf.md\u0027\u003eParis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city and largest city of France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "S63SGbw2", "to": "WqjAiCxw", "width": 1}, {"from": "S63SGbw2", "to": "YvQmwaaW", "width": 5}, {"from": "S63SGbw2", "to": "WiBZjkbR", "width": 10}, {"from": "S63SGbw2", "to": "mGvrzsgB", "width": 10}, {"from": "S63SGbw2", "to": "GSNsghRd", "width": 1}, {"from": "S63SGbw2", "to": "dtkJhYLf", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "YvQmwaaW", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YvQmwaaW\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "S63SGbw2", "label": "M. Gaultier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/S63SGbw2\u0027\u003eM. Gaultier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WiBZjkbR", "label": "arrangement", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WiBZjkbR\u0027\u003earrangement\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition in altered form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mGvrzsgB", "label": "salon music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mGvrzsgB\u0027\u003esalon music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epopular music genre in Europe during the 19th century\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WqjAiCxw", "label": "Iphig\u00e9nie en Tauride", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WqjAiCxw\u0027\u003eIphig\u00e9nie en Tauride\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Christoph Willibald Gluck\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "GSNsghRd", "label": "music arranger", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GSNsghRd\u0027\u003emusic arranger\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who creates arrangements\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "dtkJhYLf", "label": "Paris", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dtkJhYLf\u0027\u003eParis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city and largest city of France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "YvQmwaaW", "to": "S63SGbw2", "width": 5}, {"from": "WiBZjkbR", "to": "S63SGbw2", "width": 10}, {"from": "mGvrzsgB", "to": "S63SGbw2", "width": 10}, {"from": "S63SGbw2", "to": "WqjAiCxw", "width": 1}, {"from": "S63SGbw2", "to": "GSNsghRd", "width": 1}, {"from": "S63SGbw2", "to": "dtkJhYLf", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

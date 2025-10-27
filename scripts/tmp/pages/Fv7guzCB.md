@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Fv7guzCB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description              | aliases | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :----------------------: | :-----: | :------------------------------------------------------------: |
-    | Fv7guzCB  | Colligis-Crandelain | commune in Aisne, France |         | [Colligis-Crandelain](http://wwww.wikidata.org/entity/Q847932) |
+    | FAAM UUID | label               | description              | aliases | Wikidata QID                                              |
+    | :-------: | :-----------------: | :----------------------: | :-----: | :-------------------------------------------------------: |
+    | Fv7guzCB  | Colligis-Crandelain | commune in Aisne, France |         | [Colligis-Crandelain](http://wikidata.org/entity/Q847932) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Fv7guzCB.html" height="800" width="1200" title="Fv7guzCB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Fv7guzCB" height="800" width="1200" title="Fv7guzCB"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Giovanni Battista Zingoni](./o32Wi6CF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian tenor and composer
 

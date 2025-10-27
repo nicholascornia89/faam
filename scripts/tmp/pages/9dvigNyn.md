@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9dvigNyn
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                                         | aliases              | Wikidata QID                                                     |
-    | :-------: | :------------------: | :-------------------------------------------------: | :------------------: | :--------------------------------------------------------------: |
-    | 9dvigNyn  | harpsichord concerto | concerto for solo cembalo and instrumental ensemble | harpsichord concerto | [harpsichord concerto](http://wwww.wikidata.org/entity/Q3686129) |
+    | FAAM UUID | label                | description                                         | aliases              | Wikidata QID                                                |
+    | :-------: | :------------------: | :-------------------------------------------------: | :------------------: | :---------------------------------------------------------: |
+    | 9dvigNyn  | harpsichord concerto | concerto for solo cembalo and instrumental ensemble | harpsichord concerto | [harpsichord concerto](http://wikidata.org/entity/Q3686129) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/9dvigNyn.html" height="800" width="1200" title="9dvigNyn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9dvigNyn" height="800" width="1200" title="9dvigNyn"></iframe>
 
 ## Cross-references
 

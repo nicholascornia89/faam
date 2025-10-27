@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TbqYtu6J
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902565446/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/TbqYtu6J.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/TbqYtu6J.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/TbqYtu6J.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902565446/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/TbqYtu6J.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/TbqYtu6J.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/TbqYtu6J.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902565446.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902565446.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title    | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :------: | :----------------------: | :-----------------------------------------------------------: |
-    | TbqYtu6J  | KCA-030902565446      | 4e Suite | [external URL](D6RjeTWv) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title    | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | TbqYtu6J  | KCA-030902565446      | 4e Suite | [external URL](https://anet.be/record/opacdkvc/c:lvd:12916996/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "note" 
 
@@ -103,10 +107,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/TbqYtu6J.html" height="800" width="1200" title="TbqYtu6J"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TbqYtu6J" height="800" width="1200" title="TbqYtu6J"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/TbqYtu6J.html" height="800" width="1200" title="TbqYtu6J"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/TbqYtu6J" height="800" width="1200" title="TbqYtu6J"></iframe>

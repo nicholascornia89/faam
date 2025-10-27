@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WWCbaaWA
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-22722/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WWCbaaWA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WWCbaaWA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WWCbaaWA.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-22722/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WWCbaaWA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WWCbaaWA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WWCbaaWA.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-22722.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22722.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                       | permalink                | provenance                            |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | WWCbaaWA  | SML-22722             | 24 Stücke : für Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo. | [external URL](APcZWn33) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                       | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | WWCbaaWA  | SML-22722             | 24 Stücke : für Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910590713405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ===  "sections" 
 
@@ -209,10 +213,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/WWCbaaWA.html" height="800" width="1200" title="WWCbaaWA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WWCbaaWA" height="800" width="1200" title="WWCbaaWA"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/WWCbaaWA.html" height="800" width="1200" title="WWCbaaWA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/WWCbaaWA" height="800" width="1200" title="WWCbaaWA"></iframe>

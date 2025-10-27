@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FxEcZ7bq
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | aliases                    | description                 | Wikidata QID                                                             |
-    | :-------: | :---------------------------: | :------------------------: | :-------------------------: | :----------------------------------------------------------------------: |
-    | FxEcZ7bq  | Il ritorno d'Ulisse in patria | Ritorno d'Ulisse in patria | opera by Claudio Monteverdi | [Il ritorno d'Ulisse in patria](http://wwww.wikidata.org/entity/Q907047) |
+    | FAAM UUID | label                         | aliases                    | description                 | Wikidata QID                                                        |
+    | :-------: | :---------------------------: | :------------------------: | :-------------------------: | :-----------------------------------------------------------------: |
+    | FxEcZ7bq  | Il ritorno d'Ulisse in patria | Ritorno d'Ulisse in patria | opera by Claudio Monteverdi | [Il ritorno d'Ulisse in patria](http://wikidata.org/entity/Q907047) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/FxEcZ7bq.html" height="800" width="1200" title="FxEcZ7bq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FxEcZ7bq" height="800" width="1200" title="FxEcZ7bq"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Le retour d'Ulysse](./RVj9CnAy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901294238.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901294238.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Wp8uNnxw
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                         | aliases     | Wikidata QID                                    |
-    | :-------: | :----: | :---------------------------------: | :---------: | :---------------------------------------------: |
-    | Wp8uNnxw  | Dublin | capital and largest city of Ireland | Dublin city | [Dublin](http://wwww.wikidata.org/entity/Q1761) |
+    | FAAM UUID | label  | description                         | aliases     | Wikidata QID                               |
+    | :-------: | :----: | :---------------------------------: | :---------: | :----------------------------------------: |
+    | Wp8uNnxw  | Dublin | capital and largest city of Ireland | Dublin city | [Dublin](http://wikidata.org/entity/Q1761) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Wp8uNnxw.html" height="800" width="1200" title="Wp8uNnxw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Wp8uNnxw" height="800" width="1200" title="Wp8uNnxw"></iframe>
 
 ## Identifiers
 

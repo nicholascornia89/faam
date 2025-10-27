@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VuwGJdma
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                           | aliases   | Wikidata QID                                         |
-    | :-------: | :-----: | :-----------------------------------: | :-------: | :--------------------------------------------------: |
-    | VuwGJdma  | Antwerp | town in Antwerp municipality, Belgium | Antwerpen | [Antwerp](http://wwww.wikidata.org/entity/Q31467408) |
+    | FAAM UUID | label   | description                           | aliases   | Wikidata QID                                    |
+    | :-------: | :-----: | :-----------------------------------: | :-------: | :---------------------------------------------: |
+    | VuwGJdma  | Antwerp | town in Antwerp municipality, Belgium | Antwerpen | [Antwerp](http://wikidata.org/entity/Q31467408) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/VuwGJdma.html" height="800" width="1200" title="VuwGJdma"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VuwGJdma" height="800" width="1200" title="VuwGJdma"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: city
 
 -	__[Renier van der Velden](./9JxDrbSP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	(b Antwerp, Jan 14, 1910; d Antwerp, Jan 19, 1993). Belgian composer. He studied at the Antwerp Conservatory, but was mainly self-taught as a composer. In 1945 he was appointed music producer at the Antwerp radio studios, and was principal music prod
 

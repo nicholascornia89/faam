@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oAwFJ9Nx
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502028/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/oAwFJ9Nx.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/oAwFJ9Nx.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/oAwFJ9Nx.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502028/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/oAwFJ9Nx.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/oAwFJ9Nx.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/oAwFJ9Nx.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502028.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502028.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                | permalink                | provenance                              |
-    | :-------: | :-------------------: | :----------------------------------: | :----------------------: | :-------------------------------------: |
-    | oAwFJ9Nx  | DPF-202502028         | Tria Cantica Sacra. Comitante organo | [external URL](2qoBxv5j) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :----------------------------------: | :---------------------------: | :-------------------------------------: |
+    | oAwFJ9Nx  | DPF-202502028         | Tria Cantica Sacra. Comitante organo | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -104,10 +108,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/oAwFJ9Nx.html" height="800" width="1200" title="oAwFJ9Nx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oAwFJ9Nx" height="800" width="1200" title="oAwFJ9Nx"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/oAwFJ9Nx.html" height="800" width="1200" title="oAwFJ9Nx"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/oAwFJ9Nx" height="800" width="1200" title="oAwFJ9Nx"></iframe>

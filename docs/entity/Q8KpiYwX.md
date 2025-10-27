@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Q8KpiYwX
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                         | aliases   | Wikidata QID                                      |
-    | :-------: | :------: | :---------------------------------: | :-------: | :-----------------------------------------------: |
-    | Q8KpiYwX  | Budapest | capital and largest city of Hungary | Buda Pest | [Budapest](http://wwww.wikidata.org/entity/Q1781) |
+    | FAAM UUID | label    | description                         | aliases   | Wikidata QID                                 |
+    | :-------: | :------: | :---------------------------------: | :-------: | :------------------------------------------: |
+    | Q8KpiYwX  | Budapest | capital and largest city of Hungary | Buda Pest | [Budapest](http://wikidata.org/entity/Q1781) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Q8KpiYwX.html" height="800" width="1200" title="Q8KpiYwX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Q8KpiYwX" height="800" width="1200" title="Q8KpiYwX"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: city
 
 -	__[Ernst Ferand](./D5YqeXET.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Hungarian musicologist (1887-1972)
 

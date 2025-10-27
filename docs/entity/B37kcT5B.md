@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: B37kcT5B
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/B37kcT5B.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/B37kcT5B.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/B37kcT5B.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/B37kcT5B.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/B37kcT5B.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/B37kcT5B.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Paul_Grümmer.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description                 | Wikidata QID                                           |
-    | :-------: | :----------: | :-----: | :-------------------------: | :----------------------------------------------------: |
-    | B37kcT5B  | Paul Grümmer |         | German musician (1879-1965) | [Paul Grümmer](http://wwww.wikidata.org/entity/Q75300) |
+    | FAAM UUID | label        | aliases | description                 | Wikidata QID                                      |
+    | :-------: | :----------: | :-----: | :-------------------------: | :-----------------------------------------------: |
+    | B37kcT5B  | Paul Grümmer |         | German musician (1879-1965) | [Paul Grümmer](http://wikidata.org/entity/Q75300) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/B37kcT5B.html" height="800" width="1200" title="B37kcT5B"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/B37kcT5B" height="800" width="1200" title="B37kcT5B"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Nikolaus Harnoncourt](./aWsBkMZ6.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolaus_Harnoncourt_(1980).jpg){align=left width="150" height="150"} 
+
+	Austrian conductor (1929–2016)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XG63Jdar
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000322330/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XG63Jdar.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XG63Jdar.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XG63Jdar.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000322330/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XG63Jdar.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XG63Jdar.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XG63Jdar.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000322330.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000322330.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                   | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | XG63Jdar  | KCG-000322330         | Ivanhoe: N.7 Romance de Rebecca: Pour Mezzo Soprano: (Longtempts brisé) | [external URL](nTx2RkTQ) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                   | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | XG63Jdar  | KCG-000322330         | Ivanhoe: N.7 Romance de Rebecca: Pour Mezzo Soprano: (Longtempts brisé) | [external URL](https://catalogus.hogent.be/catalog/hog01:000322330) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -92,10 +96,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/XG63Jdar.html" height="800" width="1200" title="XG63Jdar"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XG63Jdar" height="800" width="1200" title="XG63Jdar"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/XG63Jdar.html" height="800" width="1200" title="XG63Jdar"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/XG63Jdar" height="800" width="1200" title="XG63Jdar"></iframe>

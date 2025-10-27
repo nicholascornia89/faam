@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GtLWQSLe
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                 | aliases             | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :-----------------------------------------: | :-----------------: | :---------------------------------------------------------------: |
-    | GtLWQSLe  | University of Freiburg | university in Freiburg im Breisgau, Germany | alberto-ludoviciana | [University of Freiburg](http://wwww.wikidata.org/entity/Q153987) |
+    | FAAM UUID | label                  | description                                 | aliases             | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :-----------------------------------------: | :-----------------: | :----------------------------------------------------------: |
+    | GtLWQSLe  | University of Freiburg | university in Freiburg im Breisgau, Germany | alberto-ludoviciana | [University of Freiburg](http://wikidata.org/entity/Q153987) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/GtLWQSLe.html" height="800" width="1200" title="GtLWQSLe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GtLWQSLe" height="800" width="1200" title="GtLWQSLe"></iframe>
 
 ## Cross-references
 

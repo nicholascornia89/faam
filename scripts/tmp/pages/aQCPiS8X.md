@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aQCPiS8X
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description | Wikidata QID                         |
-    | :-------: | :-------------: | :-----: | :---------: | :----------------------------------: |
-    | aQCPiS8X  | 3 Pieces, Op.11 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label           | aliases | description | Wikidata QID                    |
+    | :-------: | :-------------: | :-----: | :---------: | :-----------------------------: |
+    | aQCPiS8X  | 3 Pieces, Op.11 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/aQCPiS8X.html" height="800" width="1200" title="aQCPiS8X"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aQCPiS8X" height="800" width="1200" title="aQCPiS8X"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 

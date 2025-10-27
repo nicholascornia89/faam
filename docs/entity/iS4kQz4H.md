@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iS4kQz4H
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :-------------------------------------: | :-----: | :----------------------------------------------: |
-    | iS4kQz4H  | Münster | city in North Rhine-Westphalia, Germany | Munster | [Münster](http://wwww.wikidata.org/entity/Q2742) |
+    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :-------------------------------------: | :-----: | :-----------------------------------------: |
+    | iS4kQz4H  | Münster | city in North Rhine-Westphalia, Germany | Munster | [Münster](http://wikidata.org/entity/Q2742) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/iS4kQz4H.html" height="800" width="1200" title="iS4kQz4H"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iS4kQz4H" height="800" width="1200" title="iS4kQz4H"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Franz Espagne](./ivLCrpn3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist
 
 -	__[Kaspar Fürstenau](./W5tLaHDf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German flautist (1772-1819)
 

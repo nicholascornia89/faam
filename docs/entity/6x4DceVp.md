@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6x4DceVp
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6x4DceVp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6x4DceVp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6x4DceVp.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6x4DceVp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6x4DceVp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6x4DceVp.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johannludwigbach.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases | description                   | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----: | :---------------------------: | :-----------------------------------------------------------: |
-    | 6x4DceVp  | Johann Ludwig Bach |         | German composer and violinist | [Johann Ludwig Bach](http://wwww.wikidata.org/entity/Q528445) |
+    | FAAM UUID | label              | aliases | description                   | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----: | :---------------------------: | :------------------------------------------------------: |
+    | 6x4DceVp  | Johann Ludwig Bach |         | German composer and violinist | [Johann Ludwig Bach](http://wikidata.org/entity/Q528445) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/6x4DceVp.html" height="800" width="1200" title="6x4DceVp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6x4DceVp" height="800" width="1200" title="6x4DceVp"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Johann Sebastian Bach](./GecAsFfL.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Sebastian_Bach.jpg){align=left width="150" height="150"} 
+
+	German composer (1685–1750)
+
+</div>

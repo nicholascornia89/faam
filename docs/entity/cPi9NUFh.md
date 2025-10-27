@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cPi9NUFh
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                        | aliases            | Wikidata QID                                            |
-    | :-------: | :--------: | :------------------------------------------------: | :----------------: | :-----------------------------------------------------: |
-    | cPi9NUFh  | Birmingham | district in West Midlands, England, United Kingdom | City of Birmingham | [Birmingham](http://wwww.wikidata.org/entity/Q20986424) |
+    | FAAM UUID | label      | description                                        | aliases            | Wikidata QID                                       |
+    | :-------: | :--------: | :------------------------------------------------: | :----------------: | :------------------------------------------------: |
+    | cPi9NUFh  | Birmingham | district in West Midlands, England, United Kingdom | City of Birmingham | [Birmingham](http://wikidata.org/entity/Q20986424) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cPi9NUFh.html" height="800" width="1200" title="cPi9NUFh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cPi9NUFh" height="800" width="1200" title="cPi9NUFh"></iframe>
 
 ## Identifiers
 

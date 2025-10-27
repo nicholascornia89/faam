@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TczJ2TjY
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                     | aliases         | Wikidata QID                                               |
-    | :-------: | :-------------: | :---------------------------------------------: | :-------------: | :--------------------------------------------------------: |
-    | TczJ2TjY  | transliteration | conversion of a text from one script to another | transliteration | [transliteration](http://wwww.wikidata.org/entity/Q134550) |
+    | FAAM UUID | label           | description                                     | aliases         | Wikidata QID                                          |
+    | :-------: | :-------------: | :---------------------------------------------: | :-------------: | :---------------------------------------------------: |
+    | TczJ2TjY  | transliteration | conversion of a text from one script to another | transliteration | [transliteration](http://wikidata.org/entity/Q134550) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/TczJ2TjY.html" height="800" width="1200" title="TczJ2TjY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TczJ2TjY" height="800" width="1200" title="TczJ2TjY"></iframe>
 
 ## Cross-references
 

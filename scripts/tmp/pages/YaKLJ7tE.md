@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YaKLJ7tE
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                      | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :------------------------------: | :-----: | :----------------------------------------------: |
-    | YaKLJ7tE  | Seville | municipality of Andalusia, Spain | Sevilla | [Seville](http://wwww.wikidata.org/entity/Q8717) |
+    | FAAM UUID | label   | description                      | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :------------------------------: | :-----: | :-----------------------------------------: |
+    | YaKLJ7tE  | Seville | municipality of Andalusia, Spain | Sevilla | [Seville](http://wikidata.org/entity/Q8717) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YaKLJ7tE.html" height="800" width="1200" title="YaKLJ7tE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YaKLJ7tE" height="800" width="1200" title="YaKLJ7tE"></iframe>
 
 ## Identifiers
 
@@ -79,13 +83,13 @@ tags: city
 
 -	__[Pedro Fernández de Castilleja](./fApHxzGr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Francisco de Peñalosa](./gKY5NR5M.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer (1470-1528)
 

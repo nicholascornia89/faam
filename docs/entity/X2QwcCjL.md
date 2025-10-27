@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: X2QwcCjL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/X2QwcCjL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/X2QwcCjL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/X2QwcCjL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/X2QwcCjL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/X2QwcCjL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/X2QwcCjL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferdinando_Paer.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description      | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------: | :--------------: | :--------------------------------------------------------: |
-    | X2QwcCjL  | Ferdinando Paer | Ferdinando Paër | Italian composer | [Ferdinando Paer](http://wwww.wikidata.org/entity/Q533022) |
+    | FAAM UUID | label           | aliases         | description      | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------: | :--------------: | :---------------------------------------------------: |
+    | X2QwcCjL  | Ferdinando Paer | Ferdinando Paër | Italian composer | [Ferdinando Paer](http://wikidata.org/entity/Q533022) |
 
 <br><br><br>
 
@@ -49,13 +53,13 @@ tags: agent
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./5eUMkMxY.md)
+	- [bandleader](./5eUMkMxY.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/X2QwcCjL.html" height="800" width="1200" title="X2QwcCjL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/X2QwcCjL" height="800" width="1200" title="X2QwcCjL"></iframe>
 
 ## Identifiers
 

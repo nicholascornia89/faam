@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7jZHujn8
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                             | aliases                                           | description | Wikidata QID                                                                                  |
-    | :-------: | :-----------------------------------------------: | :-----------------------------------------------: | :---------: | :-------------------------------------------------------------------------------------------: |
-    | 7jZHujn8  | La somnambule, ou L'arrivée d'un nouveau seigneur | La somnambule, ou L'arrivée d'un nouveau seigneur | ballet      | [La somnambule, ou L'arrivée d'un nouveau seigneur](http://wwww.wikidata.org/entity/Q3212892) |
+    | FAAM UUID | label                                             | aliases                                           | description | Wikidata QID                                                                             |
+    | :-------: | :-----------------------------------------------: | :-----------------------------------------------: | :---------: | :--------------------------------------------------------------------------------------: |
+    | 7jZHujn8  | La somnambule, ou L'arrivée d'un nouveau seigneur | La somnambule, ou L'arrivée d'un nouveau seigneur | ballet      | [La somnambule, ou L'arrivée d'un nouveau seigneur](http://wikidata.org/entity/Q3212892) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./KCiYXaVt.md)
+	- [La somnambule](./KCiYXaVt.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/7jZHujn8.html" height="800" width="1200" title="7jZHujn8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7jZHujn8" height="800" width="1200" title="7jZHujn8"></iframe>
 
 ## Identifiers
 

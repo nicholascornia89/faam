@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LcJFXjwY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LcJFXjwY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LcJFXjwY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LcJFXjwY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LcJFXjwY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LcJFXjwY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LcJFXjwY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description | Wikidata QID                                                 |
-    | :-------: | :------------: | :------------: | :---------: | :----------------------------------------------------------: |
-    | LcJFXjwY  | Alexandre Beon | Alexandre Béon |             | [Alexandre Beon](http://wwww.wikidata.org/entity/Q110213185) |
+    | FAAM UUID | label          | aliases        | description | Wikidata QID                                            |
+    | :-------: | :------------: | :------------: | :---------: | :-----------------------------------------------------: |
+    | LcJFXjwY  | Alexandre Beon | Alexandre Béon |             | [Alexandre Beon](http://wikidata.org/entity/Q110213185) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/LcJFXjwY.html" height="800" width="1200" title="LcJFXjwY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LcJFXjwY" height="800" width="1200" title="LcJFXjwY"></iframe>
 
 ## Identifiers
 

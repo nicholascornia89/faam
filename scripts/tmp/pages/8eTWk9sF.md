@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8eTWk9sF
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                   | description               | Wikidata QID                                              |
-    | :-------: | :------------: | :-----------------------: | :-----------------------: | :-------------------------------------------------------: |
-    | 8eTWk9sF  | Symphony No. 1 | Symphony No. 1 in D Major | symphony by Gustav Mahler | [Symphony No. 1](http://wwww.wikidata.org/entity/Q163553) |
+    | FAAM UUID | label          | aliases                   | description               | Wikidata QID                                         |
+    | :-------: | :------------: | :-----------------------: | :-----------------------: | :--------------------------------------------------: |
+    | 8eTWk9sF  | Symphony No. 1 | Symphony No. 1 in D Major | symphony by Gustav Mahler | [Symphony No. 1](http://wikidata.org/entity/Q163553) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/8eTWk9sF.html" height="800" width="1200" title="8eTWk9sF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8eTWk9sF" height="800" width="1200" title="8eTWk9sF"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Symphony No. 1, Movement I](./dQdznAa8.md)__
 
-	![Image](../assets/images/thumbs/WML-768157.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768157.gif){align=left width="150" height="150"} 
 
 	
 

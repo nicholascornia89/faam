@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M8hA3LmY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                            | aliases | Wikidata QID                                            |
-    | :-------: | :--------: | :------------------------------------: | :-----: | :-----------------------------------------------------: |
-    | M8hA3LmY  | Teutendorf | village in Travemünde, Lübeck, Germany |         | [Teutendorf](http://wwww.wikidata.org/entity/Q98034450) |
+    | FAAM UUID | label      | description                            | aliases | Wikidata QID                                       |
+    | :-------: | :--------: | :------------------------------------: | :-----: | :------------------------------------------------: |
+    | M8hA3LmY  | Teutendorf | village in Travemünde, Lübeck, Germany |         | [Teutendorf](http://wikidata.org/entity/Q98034450) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/M8hA3LmY.html" height="800" width="1200" title="M8hA3LmY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M8hA3LmY" height="800" width="1200" title="M8hA3LmY"></iframe>
 
 ## Identifiers
 

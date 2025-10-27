@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KfLN7gjL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KfLN7gjL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KfLN7gjL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KfLN7gjL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KfLN7gjL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KfLN7gjL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KfLN7gjL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases | description                                | Wikidata QID                                                     |
-    | :-------: | :-----------------: | :-----: | :----------------------------------------: | :--------------------------------------------------------------: |
-    | KfLN7gjL  | Dominik Stefanowicz |         | Polish music educator, conductor, composer | [Dominik Stefanowicz](http://wwww.wikidata.org/entity/Q13030582) |
+    | FAAM UUID | label               | aliases | description                                | Wikidata QID                                                |
+    | :-------: | :-----------------: | :-----: | :----------------------------------------: | :---------------------------------------------------------: |
+    | KfLN7gjL  | Dominik Stefanowicz |         | Polish music educator, conductor, composer | [Dominik Stefanowicz](http://wikidata.org/entity/Q13030582) |
 
 <br><br><br>
 
@@ -41,6 +45,10 @@ tags: agent
 
 	- [human](./aJeJBesD.md)
 
+??? quote "instrument" 
+
+	- [piano](./PyGNLcfw.md)
+
 ??? quote "employer" 
 
 	- [Minsk men's gymnasium](./Y62HourG.md)
@@ -49,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/KfLN7gjL.html" height="800" width="1200" title="KfLN7gjL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KfLN7gjL" height="800" width="1200" title="KfLN7gjL"></iframe>
 
 ## Identifiers
 
@@ -58,3 +66,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Stanisław Moniuszko](./jeeeKFQ8.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Stanisłaŭ_Maniuška._Станіслаў_Манюшка_(T._Maleszewski,_1865).jpg){align=left width="150" height="150"} 
+
+	Polish composer (1819–1872)
+
+</div>

@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:i2w6M7XJ a rdfs:Resource ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:identifier "16002576"^^xsd:string,
+        "i2w6M7XJ"^^xsd:string ;
+    schema1:nationality faamentity:fj46nffV ;
+    skos:prefLabel "Gabriele D'Annunzio"^^xsd:string ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:BPsUV5WT,
+        faamentity:YrCfZ8vh,
+        faamentity:fKBqCJio .
+

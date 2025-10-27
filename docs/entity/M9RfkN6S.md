@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M9RfkN6S
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                  | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :------------------------------------------: | :-----: | :---------------------------------------------: |
-    | M9RfkN6S  | Massa | capital of the Province of Massa and Carrara |         | [Massa](http://wwww.wikidata.org/entity/Q13370) |
+    | FAAM UUID | label | description                                  | aliases | Wikidata QID                               |
+    | :-------: | :---: | :------------------------------------------: | :-----: | :----------------------------------------: |
+    | M9RfkN6S  | Massa | capital of the Province of Massa and Carrara |         | [Massa](http://wikidata.org/entity/Q13370) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/M9RfkN6S.html" height="800" width="1200" title="M9RfkN6S"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M9RfkN6S" height="800" width="1200" title="M9RfkN6S"></iframe>
 
 ## Identifiers
 

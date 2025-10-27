@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8UYJMhng
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8UYJMhng.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8UYJMhng.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8UYJMhng.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8UYJMhng.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8UYJMhng.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8UYJMhng.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description                | Wikidata QID                                                   |
-    | :-------: | :---------------: | :-----: | :------------------------: | :------------------------------------------------------------: |
-    | 8UYJMhng  | Francesco Salieri |         | brother of Antonio Salieri | [Francesco Salieri](http://wwww.wikidata.org/entity/Q94802201) |
+    | FAAM UUID | label             | aliases | description                | Wikidata QID                                              |
+    | :-------: | :---------------: | :-----: | :------------------------: | :-------------------------------------------------------: |
+    | 8UYJMhng  | Francesco Salieri |         | brother of Antonio Salieri | [Francesco Salieri](http://wikidata.org/entity/Q94802201) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8UYJMhng.html" height="800" width="1200" title="8UYJMhng"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8UYJMhng" height="800" width="1200" title="8UYJMhng"></iframe>
 
 ## Identifiers
 
@@ -68,3 +72,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Antonio Salieri](./VQ9LnFAH.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Antonio_Salieri_painted_by_Joseph_Willibrord_Mähler.jpg){align=left width="150" height="150"} 
+
+	Italian composer and teacher (1750–1825)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jdtaivHs
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                    | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :----------------------------: | :-----: | :---------------------------------------------------: |
-    | jdtaivHs  | biographer | person who creates biographies |         | [biographer](http://wwww.wikidata.org/entity/Q864380) |
+    | FAAM UUID | label      | description                    | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :----------------------------: | :-----: | :----------------------------------------------: |
+    | jdtaivHs  | biographer | person who creates biographies |         | [biographer](http://wikidata.org/entity/Q864380) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/jdtaivHs.html" height="800" width="1200" title="jdtaivHs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jdtaivHs" height="800" width="1200" title="jdtaivHs"></iframe>
 
 ## Cross-references
 

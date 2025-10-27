@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PBdH8TpS
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                   | description                           | aliases                  | Wikidata QID                                                                       |
-    | :-------: | :-------------------------------------: | :-----------------------------------: | :----------------------: | :--------------------------------------------------------------------------------: |
-    | PBdH8TpS  | University of Music and Theatre Leipzig | public university in Leipzig, Germany | Conservatorium der Musik | [University of Music and Theatre Leipzig](http://wwww.wikidata.org/entity/Q312578) |
+    | FAAM UUID | label                                   | description                           | aliases                  | Wikidata QID                                                                  |
+    | :-------: | :-------------------------------------: | :-----------------------------------: | :----------------------: | :---------------------------------------------------------------------------: |
+    | PBdH8TpS  | University of Music and Theatre Leipzig | public university in Leipzig, Germany | Conservatorium der Musik | [University of Music and Theatre Leipzig](http://wikidata.org/entity/Q312578) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/PBdH8TpS.html" height="800" width="1200" title="PBdH8TpS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PBdH8TpS" height="800" width="1200" title="PBdH8TpS"></iframe>
 
 ## Cross-references
 
@@ -63,13 +67,13 @@ tags: music_organization
 
 -	__[Wilhelm Rust](./AUMMWhZm.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/08/Wilhelm_Rust_1885.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wilhelm_Rust_1885.jpg){align=left width="150" height="150"} 
 
 	German composer and musicologist (1822–1892)
 
 -	__[Gustav Schreck](./hKmhCVh7.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8d/Gustav_Schreck.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Schreck.jpg){align=left width="150" height="150"} 
 
 	German composer, music educator, and choirmaster (1849–1918)
 
@@ -121,6 +125,12 @@ tags: music_organization
 
 	German composer, conductor and pianist (1824–1910)
 
+-	__[Ferdinand David](./2LiJbewP.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	German musician (1810-1873)
+
 -	__[Ferdinand David](./NdggfNk9.md)__
 
 	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferdinand_david.jpg){align=left width="150" height="150"} 
@@ -147,19 +157,19 @@ tags: music_organization
 
 -	__[Julius Rietz](./868RWQRG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1812–1877)
 
 -	__[Salomon Jadassohn](./4WnKmdH2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1831–1902)
 
 -	__[Günther Ramin](./RJXnqg6j.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist, conductor and composer (1898–1956)
 
@@ -171,7 +181,7 @@ tags: music_organization
 
 -	__[Friedrich Gernsheim](./brm7iEdB.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/83/Friedrich_Gernsheim_%28BerlLeben_1906-07%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Gernsheim_%28BerlLeben_1906-07%29.jpg){align=left width="150" height="150"} 
 
 	German composer, conductor, pianist and teacher (1839–1916)
 
@@ -201,7 +211,7 @@ tags: music_organization
 
 -	__[Wolfgang Fortner](./3vF4a5M7.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and conductor (1907–1987)
 

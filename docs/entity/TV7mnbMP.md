@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TV7mnbMP
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description | aliases | Wikidata QID                                                           |
-    | :-------: | :------------------------: | :---------: | :-----: | :--------------------------------------------------------------------: |
-    | TV7mnbMP  | Académie Royale de Musique |             |         | [Académie Royale de Musique](http://wwww.wikidata.org/entity/Q2920855) |
+    | FAAM UUID | label                      | description | aliases | Wikidata QID                                                      |
+    | :-------: | :------------------------: | :---------: | :-----: | :---------------------------------------------------------------: |
+    | TV7mnbMP  | Académie Royale de Musique |             |         | [Académie Royale de Musique](http://wikidata.org/entity/Q2920855) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/TV7mnbMP.html" height="800" width="1200" title="TV7mnbMP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TV7mnbMP" height="800" width="1200" title="TV7mnbMP"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: music_organization
 
 -	__[André Campra](./jyGKpuHY.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Andr%C3%A9_Campra.jpg/585px-Andr%C3%A9_Campra.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/585px-Andr%C3%A9_Campra.jpg){align=left width="150" height="150"} 
 
 	French composer and conductor (1660-1744)
 

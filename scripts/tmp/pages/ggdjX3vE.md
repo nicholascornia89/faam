@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ggdjX3vE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ggdjX3vE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ggdjX3vE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ggdjX3vE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ggdjX3vE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ggdjX3vE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ggdjX3vE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | aliases        | description                 | Wikidata QID                                                               |
-    | :-------: | :---------------------------: | :------------: | :-------------------------: | :------------------------------------------------------------------------: |
-    | ggdjX3vE  | Jean-Étienne-Guillaume Arnaud | Etienne Arnaud | French composer (1807-1863) | [Jean-Étienne-Guillaume Arnaud](http://wwww.wikidata.org/entity/Q30043652) |
+    | FAAM UUID | label                         | aliases        | description                 | Wikidata QID                                                          |
+    | :-------: | :---------------------------: | :------------: | :-------------------------: | :-------------------------------------------------------------------: |
+    | ggdjX3vE  | Jean-Étienne-Guillaume Arnaud | Etienne Arnaud | French composer (1807-1863) | [Jean-Étienne-Guillaume Arnaud](http://wikidata.org/entity/Q30043652) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ggdjX3vE.html" height="800" width="1200" title="ggdjX3vE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ggdjX3vE" height="800" width="1200" title="ggdjX3vE"></iframe>
 
 ## Identifiers
 

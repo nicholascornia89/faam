@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 68BBHmAL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description             | aliases | Wikidata QID                                            |
-    | :-------: | :----------: | :---------------------: | :-----: | :-----------------------------------------------------: |
-    | 68BBHmAL  | Bar-sur-Aube | commune in Aube, France |         | [Bar-sur-Aube](http://wwww.wikidata.org/entity/Q209093) |
+    | FAAM UUID | label        | description             | aliases | Wikidata QID                                       |
+    | :-------: | :----------: | :---------------------: | :-----: | :------------------------------------------------: |
+    | 68BBHmAL  | Bar-sur-Aube | commune in Aube, France |         | [Bar-sur-Aube](http://wikidata.org/entity/Q209093) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/68BBHmAL.html" height="800" width="1200" title="68BBHmAL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/68BBHmAL" height="800" width="1200" title="68BBHmAL"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Nicolas Métru](./Jy9mndDY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

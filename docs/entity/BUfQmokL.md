@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BUfQmokL
 
 tags: annotation_type
@@ -19,9 +23,9 @@ tags: annotation_type
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description             | aliases  | Wikidata QID                                         |
-    | :-------: | :------: | :---------------------: | :------: | :--------------------------------------------------: |
-    | BUfQmokL  | energico | musical expressive mark | energico | [energico](http://wwww.wikidata.org/entity/Q1939445) |
+    | FAAM UUID | label    | description             | aliases  | Wikidata QID                                    |
+    | :-------: | :------: | :---------------------: | :------: | :---------------------------------------------: |
+    | BUfQmokL  | energico | musical expressive mark | energico | [energico](http://wikidata.org/entity/Q1939445) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: annotation_type
 
 ---
 
-<iframe src="../network/BUfQmokL.html" height="800" width="1200" title="BUfQmokL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BUfQmokL" height="800" width="1200" title="BUfQmokL"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: annotation_type
 
 -	__[Sonate F dur : für Pianoforte und Horn, op.17](./mDndmG7f.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904770226.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904770226.gif){align=left width="150" height="150"} 
 
 	
 

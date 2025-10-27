@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JboPBZot
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JboPBZot.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JboPBZot.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JboPBZot.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JboPBZot.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JboPBZot.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JboPBZot.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description              | Wikidata QID                                                |
-    | :-------: | :-------------: | :-------------: | :----------------------: | :---------------------------------------------------------: |
-    | JboPBZot  | Edwin F. Kalmus | Edwin F. Kalmus | American music publisher | [Edwin F. Kalmus](http://wwww.wikidata.org/entity/Q5346407) |
+    | FAAM UUID | label           | aliases         | description              | Wikidata QID                                           |
+    | :-------: | :-------------: | :-------------: | :----------------------: | :----------------------------------------------------: |
+    | JboPBZot  | Edwin F. Kalmus | Edwin F. Kalmus | American music publisher | [Edwin F. Kalmus](http://wikidata.org/entity/Q5346407) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/JboPBZot.html" height="800" width="1200" title="JboPBZot"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JboPBZot" height="800" width="1200" title="JboPBZot"></iframe>
 
 ## Identifiers
 
@@ -65,25 +69,25 @@ tags: agent
 
 -	__[Symphony No. 1, Movement I](./dQdznAa8.md)__
 
-	![Image](../assets/images/thumbs/WML-768157.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768157.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphony No. 2, Movement I](./Uk6fZ4bd.md)__
 
-	![Image](../assets/images/thumbs/WML-768272.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768272.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphony No. 2, Movement II](./m36wgzSS.md)__
 
-	![Image](../assets/images/thumbs/WML-768211.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768211.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Symphony No. 2, Movement III](./ejbo6ESB.md)__
 
-	![Image](../assets/images/thumbs/WML-768240.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768240.gif){align=left width="150" height="150"} 
 
 	
 

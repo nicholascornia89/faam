@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7QdL4W3z
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description               | aliases | Wikidata QID                                          |
-    | :-------: | :-----------: | :-----------------------: | :-----: | :---------------------------------------------------: |
-    | 7QdL4W3z  | Liechtenstein | country in Central Europe | LI      | [Liechtenstein](http://wwww.wikidata.org/entity/Q347) |
+    | FAAM UUID | label         | description               | aliases | Wikidata QID                                     |
+    | :-------: | :-----------: | :-----------------------: | :-----: | :----------------------------------------------: |
+    | 7QdL4W3z  | Liechtenstein | country in Central Europe | LI      | [Liechtenstein](http://wikidata.org/entity/Q347) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/7QdL4W3z.html" height="800" width="1200" title="7QdL4W3z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7QdL4W3z" height="800" width="1200" title="7QdL4W3z"></iframe>
 
 ## Identifiers
 

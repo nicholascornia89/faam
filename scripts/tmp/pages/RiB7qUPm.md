@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RiB7qUPm
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description            | aliases   | Wikidata QID                                       |
-    | :-------: | :-------: | :--------------------: | :-------: | :------------------------------------------------: |
-    | RiB7qUPm  | Frankfurt | city in Hesse, Germany | Frankfurt | [Frankfurt](http://wwww.wikidata.org/entity/Q1794) |
+    | FAAM UUID | label     | description            | aliases   | Wikidata QID                                  |
+    | :-------: | :-------: | :--------------------: | :-------: | :-------------------------------------------: |
+    | RiB7qUPm  | Frankfurt | city in Hesse, Germany | Frankfurt | [Frankfurt](http://wikidata.org/entity/Q1794) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/RiB7qUPm.html" height="800" width="1200" title="RiB7qUPm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RiB7qUPm" height="800" width="1200" title="RiB7qUPm"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: city
 
 -	__[Musikverlag Wilhelm Zimmermann](./o5KLyHE3.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -97,7 +101,7 @@ tags: city
 
 -	__[Henri Cramer](./DNuhrnms.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German pianist and composer
 
@@ -121,13 +125,13 @@ tags: city
 
 -	__[Georg Goltermann](./aQfbT97p.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German cellist, conductor, and composer (1824–1898)
 
 -	__[Ludwig Stassny](./WmzqRyzE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	(1823-1883)
 

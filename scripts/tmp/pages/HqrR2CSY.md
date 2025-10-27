@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HqrR2CSY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HqrR2CSY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HqrR2CSY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HqrR2CSY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HqrR2CSY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HqrR2CSY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HqrR2CSY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | aliases              | description                                             | Wikidata QID                                                                 |
-    | :-------: | :------------------------------: | :------------------: | :-----------------------------------------------------: | :--------------------------------------------------------------------------: |
-    | HqrR2CSY  | Jean-Baptiste-Aimé Joseph Janson | Jean-Baptiste Janson | French composer, cellist and music educator (1742-1803) | [Jean-Baptiste-Aimé Joseph Janson](http://wwww.wikidata.org/entity/Q1684650) |
+    | FAAM UUID | label                            | aliases              | description                                             | Wikidata QID                                                            |
+    | :-------: | :------------------------------: | :------------------: | :-----------------------------------------------------: | :---------------------------------------------------------------------: |
+    | HqrR2CSY  | Jean-Baptiste-Aimé Joseph Janson | Jean-Baptiste Janson | French composer, cellist and music educator (1742-1803) | [Jean-Baptiste-Aimé Joseph Janson](http://wikidata.org/entity/Q1684650) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/HqrR2CSY.html" height="800" width="1200" title="HqrR2CSY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HqrR2CSY" height="800" width="1200" title="HqrR2CSY"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Charles Baudiot](./NnHKaK9g.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French cellist, composer and music educator
+
+</div>

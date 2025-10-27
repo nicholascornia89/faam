@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BWLbwuDF
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                | aliases                     | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :------------------------: | :-------------------------: | :---------------------------------------------------------------------: |
-    | BWLbwuDF  | Leipzig Gewandhaus Orchestra | German symphonic orchestra | Gewandhausorchester Leipzig | [Leipzig Gewandhaus Orchestra](http://wwww.wikidata.org/entity/Q156515) |
+    | FAAM UUID | label                        | description                | aliases                     | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :------------------------: | :-------------------------: | :----------------------------------------------------------------: |
+    | BWLbwuDF  | Leipzig Gewandhaus Orchestra | German symphonic orchestra | Gewandhausorchester Leipzig | [Leipzig Gewandhaus Orchestra](http://wikidata.org/entity/Q156515) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/BWLbwuDF.html" height="800" width="1200" title="BWLbwuDF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BWLbwuDF" height="800" width="1200" title="BWLbwuDF"></iframe>
 
 ## Cross-references
 

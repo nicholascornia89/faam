@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KCuuJYaL
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                         | description                          | aliases | Wikidata QID                                                            |
-    | :-------: | :---------------------------: | :----------------------------------: | :-----: | :---------------------------------------------------------------------: |
-    | KCuuJYaL  | Berlin University of the Arts | public art school in Berlin, Germany | UdK     | [Berlin University of the Arts](http://wwww.wikidata.org/entity/Q55038) |
+    | FAAM UUID | label                         | description                          | aliases | Wikidata QID                                                       |
+    | :-------: | :---------------------------: | :----------------------------------: | :-----: | :----------------------------------------------------------------: |
+    | KCuuJYaL  | Berlin University of the Arts | public art school in Berlin, Germany | UdK     | [Berlin University of the Arts](http://wikidata.org/entity/Q55038) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/KCuuJYaL.html" height="800" width="1200" title="KCuuJYaL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KCuuJYaL" height="800" width="1200" title="KCuuJYaL"></iframe>
 
 ## Cross-references
 
@@ -63,7 +67,7 @@ tags: music_organization
 
 -	__[Ernst Pepping](./ZJkKECSt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1901–1981)
 
@@ -81,7 +85,7 @@ tags: music_organization
 
 -	__[Max Seiffert](./KVupSpFz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist (1868–1948)
 
@@ -111,13 +115,13 @@ tags: music_organization
 
 -	__[Carl August Haupt](./PHfmNMGx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist, organ teacher and composer (1810–1891)
 
 -	__[Günther Ramin](./RJXnqg6j.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist, conductor and composer (1898–1956)
 
@@ -129,7 +133,7 @@ tags: music_organization
 
 -	__[Ernst Pepping](./ZJkKECSt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1901–1981)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PguNCpQU
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PguNCpQU.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PguNCpQU.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PguNCpQU.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PguNCpQU.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PguNCpQU.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PguNCpQU.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                                    | Wikidata QID                                                |
-    | :-------: | :------------: | :------------: | :--------------------------------------------: | :---------------------------------------------------------: |
-    | PguNCpQU  | Henri Quittard | Henri Quittard | French composer, musicologist and music critic | [Henri Quittard](http://wwww.wikidata.org/entity/Q15407244) |
+    | FAAM UUID | label          | aliases        | description                                    | Wikidata QID                                           |
+    | :-------: | :------------: | :------------: | :--------------------------------------------: | :----------------------------------------------------: |
+    | PguNCpQU  | Henri Quittard | Henri Quittard | French composer, musicologist and music critic | [Henri Quittard](http://wikidata.org/entity/Q15407244) |
 
 <br><br><br>
 
@@ -51,17 +55,17 @@ tags: agent
 
 	- [musicologist](./49CMncTw.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 ??? quote "educated at" 
 
-	- [](./UxbzQS7F.md)
+	- [Lycée Carnot](./UxbzQS7F.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/PguNCpQU.html" height="800" width="1200" title="PguNCpQU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PguNCpQU" height="800" width="1200" title="PguNCpQU"></iframe>
 
 ## Identifiers
 
@@ -87,7 +91,7 @@ tags: agent
 
 -	__[3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano](./cq9RrJ9Y.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920086.gif){align=left width="150" height="150"} 
 
 	
 

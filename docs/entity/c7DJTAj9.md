@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c7DJTAj9
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                                                                                           | aliases | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------------------------------------------------------------------------------------------------------------: | :-----: | :--------------------------------------------------------: |
-    | c7DJTAj9  | lady-in-waiting | female personal assistant at a court, royal or feudal, attending on a queen, a princess, or a high-ranking noblewoman |         | [lady-in-waiting](http://wwww.wikidata.org/entity/Q715222) |
+    | FAAM UUID | label           | description                                                                                                           | aliases | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------------------------------------------------------------------------------------------------------------: | :-----: | :---------------------------------------------------: |
+    | c7DJTAj9  | lady-in-waiting | female personal assistant at a court, royal or feudal, attending on a queen, a princess, or a high-ranking noblewoman |         | [lady-in-waiting](http://wikidata.org/entity/Q715222) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/c7DJTAj9.html" height="800" width="1200" title="c7DJTAj9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c7DJTAj9" height="800" width="1200" title="c7DJTAj9"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hV7KQEV6
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                    | aliases      | Wikidata QID                                             |
-    | :-------: | :----------: | :--------------------------------------------: | :----------: | :------------------------------------------------------: |
-    | hV7KQEV6  | De Standaard | Flemish daily newspaper published by Mediahuis | standaard.be | [De Standaard](http://wwww.wikidata.org/entity/Q1180325) |
+    | FAAM UUID | label        | description                                    | aliases      | Wikidata QID                                        |
+    | :-------: | :----------: | :--------------------------------------------: | :----------: | :-------------------------------------------------: |
+    | hV7KQEV6  | De Standaard | Flemish daily newspaper published by Mediahuis | standaard.be | [De Standaard](http://wikidata.org/entity/Q1180325) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./LLig8HvV.md)
+	[Dilbeek](./LLig8HvV.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/hV7KQEV6.html" height="800" width="1200" title="hV7KQEV6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hV7KQEV6" height="800" width="1200" title="hV7KQEV6"></iframe>
 
 ## Cross-references
 

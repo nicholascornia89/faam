@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Cv5BUeW7
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                                   | aliases | Wikidata QID                                               |
-    | :-------: | :----------: | :-----------------------------------------------------------: | :-----: | :--------------------------------------------------------: |
-    | Cv5BUeW7  | medium voice | voice type between low-register voice and high-register voice |         | [medium voice](http://wwww.wikidata.org/entity/Q117116608) |
+    | FAAM UUID | label        | description                                                   | aliases | Wikidata QID                                          |
+    | :-------: | :----------: | :-----------------------------------------------------------: | :-----: | :---------------------------------------------------: |
+    | Cv5BUeW7  | medium voice | voice type between low-register voice and high-register voice |         | [medium voice](http://wikidata.org/entity/Q117116608) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/Cv5BUeW7.html" height="800" width="1200" title="Cv5BUeW7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Cv5BUeW7" height="800" width="1200" title="Cv5BUeW7"></iframe>
 
 ## Cross-references
 

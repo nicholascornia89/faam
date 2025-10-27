@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TVRNYs7b
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                     | aliases | Wikidata QID                                          |
-    | :-------: | :---------: | :-----------------------------: | :-----: | :---------------------------------------------------: |
-    | TVRNYs7b  | Ballenstedt | town in Landkreis Harz, Germany |         | [Ballenstedt](http://wwww.wikidata.org/entity/Q50886) |
+    | FAAM UUID | label       | description                     | aliases | Wikidata QID                                     |
+    | :-------: | :---------: | :-----------------------------: | :-----: | :----------------------------------------------: |
+    | TVRNYs7b  | Ballenstedt | town in Landkreis Harz, Germany |         | [Ballenstedt](http://wikidata.org/entity/Q50886) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TVRNYs7b.html" height="800" width="1200" title="TVRNYs7b"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TVRNYs7b" height="800" width="1200" title="TVRNYs7b"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Albrecht Agthe](./kjYoQose.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German music teacher and composer (1790–1873)
 

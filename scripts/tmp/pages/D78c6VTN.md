@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: D78c6VTN
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                            | aliases        | Wikidata QID                                               |
-    | :-------: | :-------------: | :------------------------------------: | :------------: | :--------------------------------------------------------: |
-    | D78c6VTN  | Queens' College | college of the University of Cambridge | Queens College | [Queens' College](http://wwww.wikidata.org/entity/Q765642) |
+    | FAAM UUID | label           | description                            | aliases        | Wikidata QID                                          |
+    | :-------: | :-------------: | :------------------------------------: | :------------: | :---------------------------------------------------: |
+    | D78c6VTN  | Queens' College | college of the University of Cambridge | Queens College | [Queens' College](http://wikidata.org/entity/Q765642) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/D78c6VTN.html" height="800" width="1200" title="D78c6VTN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/D78c6VTN" height="800" width="1200" title="D78c6VTN"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: V6W5MAQr
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/V6W5MAQr.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/V6W5MAQr.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/V6W5MAQr.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/V6W5MAQr.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/V6W5MAQr.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/V6W5MAQr.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                 | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :-------------------------: | :--------------------------------------------------------: |
-    | V6W5MAQr  | Charles Levadé | Charles Levade | French composer (1869-1948) | [Charles Levadé](http://wwww.wikidata.org/entity/Q1065331) |
+    | FAAM UUID | label          | aliases        | description                 | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :-------------------------: | :---------------------------------------------------: |
+    | V6W5MAQr  | Charles Levadé | Charles Levade | French composer (1869-1948) | [Charles Levadé](http://wikidata.org/entity/Q1065331) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/V6W5MAQr.html" height="800" width="1200" title="V6W5MAQr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/V6W5MAQr" height="800" width="1200" title="V6W5MAQr"></iframe>
 
 ## Identifiers
 
@@ -77,7 +81,7 @@ tags: agent
 
 -	__[Les Héretiques](./NHGexEDd.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p52.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p52.gif){align=left width="150" height="150"} 
 
 	
 

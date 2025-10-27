@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NbmmLYHK
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                                       | aliases               | Wikidata QID                                                  |
-    | :-------: | :-----------------: | :-----------------------------------------------: | :-------------------: | :-----------------------------------------------------------: |
-    | NbmmLYHK  | First French Empire | empire of Napoleon I of France, from 1804 to 1815 | Greater French Empire | [First French Empire](http://wwww.wikidata.org/entity/Q71084) |
+    | FAAM UUID | label               | description                                       | aliases               | Wikidata QID                                             |
+    | :-------: | :-----------------: | :-----------------------------------------------: | :-------------------: | :------------------------------------------------------: |
+    | NbmmLYHK  | First French Empire | empire of Napoleon I of France, from 1804 to 1815 | Greater French Empire | [First French Empire](http://wikidata.org/entity/Q71084) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/NbmmLYHK.html" height="800" width="1200" title="NbmmLYHK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NbmmLYHK" height="800" width="1200" title="NbmmLYHK"></iframe>
 
 ## Identifiers
 
@@ -49,7 +53,7 @@ tags: country
 
 -	__[Giuseppe Cambini](./5yDGjqgE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian musician (1746-1825)
 

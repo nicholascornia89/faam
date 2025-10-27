@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GGpXNUsY
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description               | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------------------: | :-----: | :------------------------------------------------: |
-    | GGpXNUsY  | dynamic | volume of a sound or note | dynamic | [dynamic](http://wwww.wikidata.org/entity/Q113558) |
+    | FAAM UUID | label   | description               | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------------------: | :-----: | :-------------------------------------------: |
+    | GGpXNUsY  | dynamic | volume of a sound or note | dynamic | [dynamic](http://wikidata.org/entity/Q113558) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/GGpXNUsY.html" height="800" width="1200" title="GGpXNUsY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GGpXNUsY" height="800" width="1200" title="GGpXNUsY"></iframe>
 
 ## Cross-references
 

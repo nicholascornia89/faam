@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kk7RXapg
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kk7RXapg.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kk7RXapg.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kk7RXapg.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kk7RXapg.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kk7RXapg.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kk7RXapg.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases          | description                    | Wikidata QID                                              |
-    | :-------: | :-----------: | :--------------: | :----------------------------: | :-------------------------------------------------------: |
-    | kk7RXapg  | Luigi Madonis | Giovanni Madonis | Italian composer and violinist | [Luigi Madonis](http://wwww.wikidata.org/entity/Q4274331) |
+    | FAAM UUID | label         | aliases          | description                    | Wikidata QID                                         |
+    | :-------: | :-----------: | :--------------: | :----------------------------: | :--------------------------------------------------: |
+    | kk7RXapg  | Luigi Madonis | Giovanni Madonis | Italian composer and violinist | [Luigi Madonis](http://wikidata.org/entity/Q4274331) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/kk7RXapg.html" height="800" width="1200" title="kk7RXapg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kk7RXapg" height="800" width="1200" title="kk7RXapg"></iframe>
 
 ## Identifiers
 

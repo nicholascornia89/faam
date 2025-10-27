@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZrDXvY4V
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description | aliases   | Wikidata QID                                         |
-    | :-------: | :-------: | :---------: | :-------: | :--------------------------------------------------: |
-    | ZrDXvY4V  | melologue | music genre | melodrama | [melologue](http://wwww.wikidata.org/entity/Q741702) |
+    | FAAM UUID | label     | description | aliases   | Wikidata QID                                    |
+    | :-------: | :-------: | :---------: | :-------: | :---------------------------------------------: |
+    | ZrDXvY4V  | melologue | music genre | melodrama | [melologue](http://wikidata.org/entity/Q741702) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/ZrDXvY4V.html" height="800" width="1200" title="ZrDXvY4V"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZrDXvY4V" height="800" width="1200" title="ZrDXvY4V"></iframe>
 
 ## Cross-references
 

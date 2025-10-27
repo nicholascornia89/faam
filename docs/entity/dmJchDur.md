@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dmJchDur
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description    | aliases | Wikidata QID                                      |
-    | :-------: | :-----: | :------------: | :-----: | :-----------------------------------------------: |
-    | dmJchDur  | Legnago | Italian comune |         | [Legnago](http://wwww.wikidata.org/entity/Q48027) |
+    | FAAM UUID | label   | description    | aliases | Wikidata QID                                 |
+    | :-------: | :-----: | :------------: | :-----: | :------------------------------------------: |
+    | dmJchDur  | Legnago | Italian comune |         | [Legnago](http://wikidata.org/entity/Q48027) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/dmJchDur.html" height="800" width="1200" title="dmJchDur"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dmJchDur" height="800" width="1200" title="dmJchDur"></iframe>
 
 ## Identifiers
 

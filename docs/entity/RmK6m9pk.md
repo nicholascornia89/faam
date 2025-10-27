@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RmK6m9pk
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                    | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :----------------------------: | :-----: | :-----------------------------------------------: |
-    | RmK6m9pk  | Gistel | city in West Flanders, Belgium |         | [Gistel](http://wwww.wikidata.org/entity/Q815948) |
+    | FAAM UUID | label  | description                    | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :----------------------------: | :-----: | :------------------------------------------: |
+    | RmK6m9pk  | Gistel | city in West Flanders, Belgium |         | [Gistel](http://wikidata.org/entity/Q815948) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/RmK6m9pk.html" height="800" width="1200" title="RmK6m9pk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RmK6m9pk" height="800" width="1200" title="RmK6m9pk"></iframe>
 
 ## Identifiers
 

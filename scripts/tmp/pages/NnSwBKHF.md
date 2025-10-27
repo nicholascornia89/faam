@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NnSwBKHF
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                             | aliases      | Wikidata QID                                                 |
-    | :-------: | :-----------------: | :-------------------------------------: | :----------: | :----------------------------------------------------------: |
-    | NnSwBKHF  | Mülheim an der Ruhr | city in North Rhine-Westphalia, Germany | Mülheim/Ruhr | [Mülheim an der Ruhr](http://wwww.wikidata.org/entity/Q2899) |
+    | FAAM UUID | label               | description                             | aliases      | Wikidata QID                                            |
+    | :-------: | :-----------------: | :-------------------------------------: | :----------: | :-----------------------------------------------------: |
+    | NnSwBKHF  | Mülheim an der Ruhr | city in North Rhine-Westphalia, Germany | Mülheim/Ruhr | [Mülheim an der Ruhr](http://wikidata.org/entity/Q2899) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/NnSwBKHF.html" height="800" width="1200" title="NnSwBKHF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NnSwBKHF" height="800" width="1200" title="NnSwBKHF"></iframe>
 
 ## Identifiers
 

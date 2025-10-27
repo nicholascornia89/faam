@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kPnk2SZm
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kPnk2SZm.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kPnk2SZm.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kPnk2SZm.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kPnk2SZm.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kPnk2SZm.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kPnk2SZm.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description                        | Wikidata QID                                              |
-    | :-------: | :---------: | :---------: | :--------------------------------: | :-------------------------------------------------------: |
-    | kPnk2SZm  | Charles Ots | Charles Ots | Belgian composer and music teacher | [Charles Ots](http://wwww.wikidata.org/entity/Q110224417) |
+    | FAAM UUID | label       | aliases     | description                        | Wikidata QID                                         |
+    | :-------: | :---------: | :---------: | :--------------------------------: | :--------------------------------------------------: |
+    | kPnk2SZm  | Charles Ots | Charles Ots | Belgian composer and music teacher | [Charles Ots](http://wikidata.org/entity/Q110224417) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/kPnk2SZm.html" height="800" width="1200" title="kPnk2SZm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kPnk2SZm" height="800" width="1200" title="kPnk2SZm"></iframe>
 
 ## Identifiers
 
@@ -77,7 +81,7 @@ tags: agent
 
 -	__[Ouverture : pour deux Violons, Alto, Violoncelle, Basse, deux Flûtes, deux haubois, deux Clarinettes, deux Cors, deux Trompettes, deux Bassons et Timballe : OEuvre 43.](./Pxfujc36.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333241.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333241.gif){align=left width="150" height="150"} 
 
 	
 

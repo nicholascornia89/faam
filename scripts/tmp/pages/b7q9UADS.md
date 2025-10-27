@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: b7q9UADS
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902683744/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/b7q9UADS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/b7q9UADS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/b7q9UADS.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902683744/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/b7q9UADS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/b7q9UADS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/b7q9UADS.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902683744.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902683744.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title       | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------: | :----------------------: | :-----------------------------------------------------------: |
-    | b7q9UADS  | KCA-030902683744      | [Convoluut] | [external URL](9JZUardt) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title       | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :---------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | b7q9UADS  | KCA-030902683744      | [Convoluut] | [external URL](https://anet.be/record/opacdkvc/c:lvd:13130665/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "note" 
 
@@ -212,10 +216,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/b7q9UADS.html" height="800" width="1200" title="b7q9UADS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/b7q9UADS" height="800" width="1200" title="b7q9UADS"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/b7q9UADS.html" height="800" width="1200" title="b7q9UADS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/b7q9UADS" height="800" width="1200" title="b7q9UADS"></iframe>

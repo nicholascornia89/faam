@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9G4CjNNd
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description       | aliases                 | Wikidata QID                                                       |
-    | :-------: | :---------------------: | :---------------: | :---------------------: | :----------------------------------------------------------------: |
-    | 9G4CjNNd  | Thomasschule zu Leipzig | school in Germany | Thomasschule zu Leipzig | [Thomasschule zu Leipzig](http://wwww.wikidata.org/entity/Q699668) |
+    | FAAM UUID | label                   | description       | aliases                 | Wikidata QID                                                  |
+    | :-------: | :---------------------: | :---------------: | :---------------------: | :-----------------------------------------------------------: |
+    | 9G4CjNNd  | Thomasschule zu Leipzig | school in Germany | Thomasschule zu Leipzig | [Thomasschule zu Leipzig](http://wikidata.org/entity/Q699668) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/9G4CjNNd.html" height="800" width="1200" title="9G4CjNNd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9G4CjNNd" height="800" width="1200" title="9G4CjNNd"></iframe>
 
 ## Cross-references
 
@@ -81,7 +85,7 @@ tags: music_organization
 
 -	__[Friedrich Wilhelm Zachow](./9SNg4hjN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 

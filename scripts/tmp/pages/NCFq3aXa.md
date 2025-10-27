@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NCFq3aXa
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NCFq3aXa.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NCFq3aXa.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NCFq3aXa.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NCFq3aXa.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NCFq3aXa.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NCFq3aXa.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arthur_Honegger_1921.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------: | :------------------------: | :--------------------------------------------------------: |
-    | NCFq3aXa  | Arthur Honegger | Arthur Honneger | Swiss composer (1892-1955) | [Arthur Honegger](http://wwww.wikidata.org/entity/Q123164) |
+    | FAAM UUID | label           | aliases         | description                | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------: | :------------------------: | :---------------------------------------------------: |
+    | NCFq3aXa  | Arthur Honegger | Arthur Honneger | Swiss composer (1892-1955) | [Arthur Honegger](http://wikidata.org/entity/Q123164) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./LB2kuRZu.md)
+	- [film score composer](./LB2kuRZu.md)
 
 	- [composer](./5aTYuVxp.md)
 
@@ -71,7 +75,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NCFq3aXa.html" height="800" width="1200" title="NCFq3aXa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NCFq3aXa" height="800" width="1200" title="NCFq3aXa"></iframe>
 
 ## Identifiers
 
@@ -92,3 +96,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Conrad Beck](./K8fwsJjW.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Conrad_Beck_1961.jpeg){align=left width="150" height="150"} 
+
+	Swiss composer (1901-1989)
+
+-	__[Bohuslav Martinů](./fJ5g4Dib.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Martinu_1945.jpg){align=left width="150" height="150"} 
+
+	Czech composer (1890–1959)
+
+</div>

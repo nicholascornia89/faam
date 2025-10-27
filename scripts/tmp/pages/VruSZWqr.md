@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VruSZWqr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                              | aliases          | Wikidata QID                                      |
-    | :-------: | :----: | :--------------------------------------: | :--------------: | :-----------------------------------------------: |
-    | VruSZWqr  | Laeken | village in the City of Brussels, Belgium | Résidence Royale | [Laeken](http://wwww.wikidata.org/entity/Q730506) |
+    | FAAM UUID | label  | description                              | aliases          | Wikidata QID                                 |
+    | :-------: | :----: | :--------------------------------------: | :--------------: | :------------------------------------------: |
+    | VruSZWqr  | Laeken | village in the City of Brussels, Belgium | Résidence Royale | [Laeken](http://wikidata.org/entity/Q730506) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/VruSZWqr.html" height="800" width="1200" title="VruSZWqr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VruSZWqr" height="800" width="1200" title="VruSZWqr"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UQKABmPD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UQKABmPD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UQKABmPD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UQKABmPD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UQKABmPD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UQKABmPD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UQKABmPD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Carl_Gottlieb_Reissiger.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases                 | description     | Wikidata QID                                                       |
-    | :-------: | :---------------------: | :---------------------: | :-------------: | :----------------------------------------------------------------: |
-    | UQKABmPD  | Carl Gottlieb Reissiger | Carl Gottlieb Reissiger | German musician | [Carl Gottlieb Reissiger](http://wwww.wikidata.org/entity/Q213894) |
+    | FAAM UUID | label                   | aliases                 | description     | Wikidata QID                                                  |
+    | :-------: | :---------------------: | :---------------------: | :-------------: | :-----------------------------------------------------------: |
+    | UQKABmPD  | Carl Gottlieb Reissiger | Carl Gottlieb Reissiger | German musician | [Carl Gottlieb Reissiger](http://wikidata.org/entity/Q213894) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/UQKABmPD.html" height="800" width="1200" title="UQKABmPD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UQKABmPD" height="800" width="1200" title="UQKABmPD"></iframe>
 
 ## Identifiers
 

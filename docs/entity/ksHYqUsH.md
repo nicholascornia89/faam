@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ksHYqUsH
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ksHYqUsH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ksHYqUsH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ksHYqUsH.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ksHYqUsH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ksHYqUsH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ksHYqUsH.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                         | description                                  | Wikidata QID                                                |
-    | :-------: | :--------------: | :-----------------------------: | :------------------------------------------: | :---------------------------------------------------------: |
-    | ksHYqUsH  | Adolf Sandberger | Adolf Wilhelm August Sandberger | German musicologist and composer (1864-1943) | [Adolf Sandberger](http://wwww.wikidata.org/entity/Q364060) |
+    | FAAM UUID | label            | aliases                         | description                                  | Wikidata QID                                           |
+    | :-------: | :--------------: | :-----------------------------: | :------------------------------------------: | :----------------------------------------------------: |
+    | ksHYqUsH  | Adolf Sandberger | Adolf Wilhelm August Sandberger | German musicologist and composer (1864-1943) | [Adolf Sandberger](http://wikidata.org/entity/Q364060) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ksHYqUsH.html" height="800" width="1200" title="ksHYqUsH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ksHYqUsH" height="800" width="1200" title="ksHYqUsH"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Theodor Kroyer](./MTPhkSTp.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	German musicologist (1873-1945)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GJPs2Prs
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description             | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :---------------------: | :-----: | :-----------------------------------------------: |
-    | GJPs2Prs  | Sanitz | municipality of Germany |         | [Sanitz](http://wwww.wikidata.org/entity/Q645382) |
+    | FAAM UUID | label  | description             | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :---------------------: | :-----: | :------------------------------------------: |
+    | GJPs2Prs  | Sanitz | municipality of Germany |         | [Sanitz](http://wikidata.org/entity/Q645382) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/GJPs2Prs.html" height="800" width="1200" title="GJPs2Prs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GJPs2Prs" height="800" width="1200" title="GJPs2Prs"></iframe>
 
 ## Identifiers
 

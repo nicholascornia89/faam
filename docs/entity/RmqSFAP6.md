@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RmqSFAP6
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | aliases               | description              | Wikidata QID                                                |
-    | :-------: | :-----------------------------------: | :-------------------: | :----------------------: | :---------------------------------------------------------: |
-    | RmqSFAP6  | Symphony No.104 in D major, Hob.I:104 | Symphony No.51 Op. 98 | symphony by Joseph Haydn | [Symphony No. 104](http://wwww.wikidata.org/entity/Q166278) |
+    | FAAM UUID | label                                 | aliases               | description              | Wikidata QID                                           |
+    | :-------: | :-----------------------------------: | :-------------------: | :----------------------: | :----------------------------------------------------: |
+    | RmqSFAP6  | Symphony No.104 in D major, Hob.I:104 | Symphony No.51 Op. 98 | symphony by Joseph Haydn | [Symphony No. 104](http://wikidata.org/entity/Q166278) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/RmqSFAP6.html" height="800" width="1200" title="RmqSFAP6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RmqSFAP6" height="800" width="1200" title="RmqSFAP6"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[N°. 51. Sinfonia](./U6fSqrTH.md)__
 
-	![Image](../assets/images/thumbs/KCG-000348875.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000348875.gif){align=left width="150" height="150"} 
 
 	
 

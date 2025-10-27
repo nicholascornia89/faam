@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hm8KN4jF
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/hm8KN4jF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/hm8KN4jF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/hm8KN4jF.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/hm8KN4jF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/hm8KN4jF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/hm8KN4jF.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description | Wikidata QID                                                   |
-    | :-------: | :---------------: | :-----: | :---------: | :------------------------------------------------------------: |
-    | hm8KN4jF  | Charles Bannelier |         |             | [Charles Bannelier](http://wwww.wikidata.org/entity/Q47507756) |
+    | FAAM UUID | label             | aliases | description | Wikidata QID                                              |
+    | :-------: | :---------------: | :-----: | :---------: | :-------------------------------------------------------: |
+    | hm8KN4jF  | Charles Bannelier |         |             | [Charles Bannelier](http://wikidata.org/entity/Q47507756) |
 
 <br><br><br>
 
@@ -43,15 +47,15 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./dve6FwYg.md)
+	- [musicographer](./dve6FwYg.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/hm8KN4jF.html" height="800" width="1200" title="hm8KN4jF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hm8KN4jF" height="800" width="1200" title="hm8KN4jF"></iframe>
 
 ## Identifiers
 

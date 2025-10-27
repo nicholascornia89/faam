@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BtEgXN5y
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/BtEgXN5y.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/BtEgXN5y.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/BtEgXN5y.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/BtEgXN5y.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/BtEgXN5y.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/BtEgXN5y.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dieterich_Buxtehude.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases             | description                         | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----------------: | :---------------------------------: | :-----------------------------------------------------------: |
-    | BtEgXN5y  | Dietrich Buxtehude | Dieterich Buxtehude | Danish-German organist and composer | [Dietrich Buxtehude](http://wwww.wikidata.org/entity/Q153637) |
+    | FAAM UUID | label              | aliases             | description                         | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----------------: | :---------------------------------: | :------------------------------------------------------: |
+    | BtEgXN5y  | Dietrich Buxtehude | Dieterich Buxtehude | Danish-German organist and composer | [Dietrich Buxtehude](http://wikidata.org/entity/Q153637) |
 
 <br><br><br>
 
@@ -51,13 +55,13 @@ tags: agent
 
 	- [organist](./ZhptKYF3.md)
 
-	- [](./kdzVcbUL.md)
+	- [church musician](./kdzVcbUL.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BtEgXN5y.html" height="800" width="1200" title="BtEgXN5y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BtEgXN5y" height="800" width="1200" title="BtEgXN5y"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Johann Sebastian Bach](./GecAsFfL.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Sebastian_Bach.jpg){align=left width="150" height="150"} 
+
+	German composer (1685–1750)
+
+</div>

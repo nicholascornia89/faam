@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GCoALpyd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description    | aliases | Wikidata QID                                        |
-    | :-------: | :-------: | :------------: | :-----: | :-------------------------------------------------: |
-    | GCoALpyd  | Tolentino | Italian comune |         | [Tolentino](http://wwww.wikidata.org/entity/Q94978) |
+    | FAAM UUID | label     | description    | aliases | Wikidata QID                                   |
+    | :-------: | :-------: | :------------: | :-----: | :--------------------------------------------: |
+    | GCoALpyd  | Tolentino | Italian comune |         | [Tolentino](http://wikidata.org/entity/Q94978) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/GCoALpyd.html" height="800" width="1200" title="GCoALpyd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GCoALpyd" height="800" width="1200" title="GCoALpyd"></iframe>
 
 ## Identifiers
 

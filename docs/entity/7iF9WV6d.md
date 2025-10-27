@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7iF9WV6d
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                                             | aliases | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :-----------------------------------------------------: | :-----: | :--------------------------------------------------------------------: |
-    | 7iF9WV6d  | 4th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [4th arrondissement of Paris](http://wwww.wikidata.org/entity/Q230127) |
+    | FAAM UUID | label                       | description                                             | aliases | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :-----------------------------------------------------: | :-----: | :---------------------------------------------------------------: |
+    | 7iF9WV6d  | 4th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [4th arrondissement of Paris](http://wikidata.org/entity/Q230127) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7iF9WV6d.html" height="800" width="1200" title="7iF9WV6d"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7iF9WV6d" height="800" width="1200" title="7iF9WV6d"></iframe>
 
 ## Identifiers
 

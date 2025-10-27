@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KmPGztnu", "label": "United Kingdom", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KmPGztnu.md\u0027\u003eUnited Kingdom\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in north-west Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "G55Yyhx6", "label": "Oxford", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./G55Yyhx6.md\u0027\u003eOxford\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Oxfordshire, England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "M5vog5yS", "label": "University of Oxford", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./M5vog5yS.md\u0027\u003eUniversity of Oxford\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecollegiate research university in Oxford, England (Est. 1096)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bQY8ZNZS", "label": "John Bull", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bQY8ZNZS.md\u0027\u003eJohn Bull\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish composer, musician and organ builder\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/John_Bull_(composer).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DXzCoxZU", "label": "Giordano Bruno", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DXzCoxZU.md\u0027\u003eGiordano Bruno\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Dominican friar, philosopher and mathematician (1548\u20131600)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giordano_Bruno.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5RMqe6BR", "label": "Hubert Parry", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5RMqe6BR.md\u0027\u003eHubert Parry\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish composer, teacher and historian (1848\u20131918)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "KmPGztnu", "to": "G55Yyhx6", "width": 1}, {"from": "KmPGztnu", "to": "M5vog5yS", "width": 1}, {"from": "KmPGztnu", "to": "bQY8ZNZS", "width": 1}, {"from": "DXzCoxZU", "to": "M5vog5yS", "width": 10}, {"from": "bQY8ZNZS", "to": "M5vog5yS", "width": 10}, {"from": "G55Yyhx6", "to": "M5vog5yS", "width": 1}, {"from": "M5vog5yS", "to": "5RMqe6BR", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bQY8ZNZS", "label": "John Bull", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bQY8ZNZS\u0027\u003eJohn Bull\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish composer, musician and organ builder\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/John_Bull_(composer).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KmPGztnu", "label": "United Kingdom", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KmPGztnu\u0027\u003eUnited Kingdom\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in north-west Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "M5vog5yS", "label": "University of Oxford", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/M5vog5yS\u0027\u003eUniversity of Oxford\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecollegiate research university in Oxford, England (Est. 1096)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DXzCoxZU", "label": "Giordano Bruno", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DXzCoxZU\u0027\u003eGiordano Bruno\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Dominican friar, philosopher and mathematician (1548\u20131600)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giordano_Bruno.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "G55Yyhx6", "label": "Oxford", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/G55Yyhx6\u0027\u003eOxford\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Oxfordshire, England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5RMqe6BR", "label": "Hubert Parry", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5RMqe6BR\u0027\u003eHubert Parry\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish composer, teacher and historian (1848\u20131918)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "bQY8ZNZS", "to": "KmPGztnu", "width": 1}, {"from": "bQY8ZNZS", "to": "M5vog5yS", "width": 10}, {"from": "DXzCoxZU", "to": "M5vog5yS", "width": 10}, {"from": "KmPGztnu", "to": "G55Yyhx6", "width": 1}, {"from": "KmPGztnu", "to": "M5vog5yS", "width": 1}, {"from": "5RMqe6BR", "to": "M5vog5yS", "width": 10}, {"from": "G55Yyhx6", "to": "M5vog5yS", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

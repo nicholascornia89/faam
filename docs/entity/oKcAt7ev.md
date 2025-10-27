@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oKcAt7ev
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/oKcAt7ev.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/oKcAt7ev.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/oKcAt7ev.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/oKcAt7ev.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/oKcAt7ev.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/oKcAt7ev.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Theodor_Kullak.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                 | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :-------------------------: | :-------------------------------------------------------: |
-    | oKcAt7ev  | Theodor Kullak | Theodor Kullak | German musician (1818-1882) | [Theodor Kullak](http://wwww.wikidata.org/entity/Q706082) |
+    | FAAM UUID | label          | aliases        | description                 | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :-------------------------: | :--------------------------------------------------: |
+    | oKcAt7ev  | Theodor Kullak | Theodor Kullak | German musician (1818-1882) | [Theodor Kullak](http://wikidata.org/entity/Q706082) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/oKcAt7ev.html" height="800" width="1200" title="oKcAt7ev"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oKcAt7ev" height="800" width="1200" title="oKcAt7ev"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Nikolai Rubinstein](./G5rs66Rg.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai_Rubinstein_1872.jpg){align=left width="150" height="150"} 
+
+	Russian pianist, conductor and composer (1835-1881)
+
+</div>

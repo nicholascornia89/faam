@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cQjSTbFf
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/cQjSTbFf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/cQjSTbFf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/cQjSTbFf.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/cQjSTbFf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/cQjSTbFf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/cQjSTbFf.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases                    | description                 | Wikidata QID                                             |
-    | :-------: | :----------: | :------------------------: | :-------------------------: | :------------------------------------------------------: |
-    | cQjSTbFf  | Franz Commer | Franz Aloys Theodor Commer | German composer (1813-1887) | [Franz Commer](http://wwww.wikidata.org/entity/Q4229780) |
+    | FAAM UUID | label        | aliases                    | description                 | Wikidata QID                                        |
+    | :-------: | :----------: | :------------------------: | :-------------------------: | :-------------------------------------------------: |
+    | cQjSTbFf  | Franz Commer | Franz Aloys Theodor Commer | German composer (1813-1887) | [Franz Commer](http://wikidata.org/entity/Q4229780) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/cQjSTbFf.html" height="800" width="1200" title="cQjSTbFf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cQjSTbFf" height="800" width="1200" title="cQjSTbFf"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,11 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Lauda anima mea Dominum](./JguT2ALU.md)__
+
+	
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VVp4w8zT
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                           | aliases         | Wikidata QID                                                 |
-    | :-------: | :----------------: | :---------------------------------------------------: | :-------------: | :----------------------------------------------------------: |
-    | VVp4w8zT  | military personnel | people who serve in an organized armed military force | military forces | [military personnel](http://wwww.wikidata.org/entity/Q47064) |
+    | FAAM UUID | label              | description                                           | aliases         | Wikidata QID                                            |
+    | :-------: | :----------------: | :---------------------------------------------------: | :-------------: | :-----------------------------------------------------: |
+    | VVp4w8zT  | military personnel | people who serve in an organized armed military force | military forces | [military personnel](http://wikidata.org/entity/Q47064) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/VVp4w8zT.html" height="800" width="1200" title="VVp4w8zT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VVp4w8zT" height="800" width="1200" title="VVp4w8zT"></iframe>
 
 ## Cross-references
 

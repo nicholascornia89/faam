@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XudjntwM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/XudjntwM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/XudjntwM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/XudjntwM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/XudjntwM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/XudjntwM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/XudjntwM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases   | description                   | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-------: | :---------------------------: | :-----------------------------------------------------------: |
-    | XudjntwM  | Luzzasco Luzzaschi | Luzzaschi | Italian composer and organist | [Luzzasco Luzzaschi](http://wwww.wikidata.org/entity/Q445581) |
+    | FAAM UUID | label              | aliases   | description                   | Wikidata QID                                             |
+    | :-------: | :----------------: | :-------: | :---------------------------: | :------------------------------------------------------: |
+    | XudjntwM  | Luzzasco Luzzaschi | Luzzaschi | Italian composer and organist | [Luzzasco Luzzaschi](http://wikidata.org/entity/Q445581) |
 
 <br><br><br>
 
@@ -53,13 +57,13 @@ tags: agent
 
 	- [harpsichordist](./hMYL5Z9b.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/XudjntwM.html" height="800" width="1200" title="XudjntwM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XudjntwM" height="800" width="1200" title="XudjntwM"></iframe>
 
 ## Identifiers
 
@@ -76,3 +80,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Girolamo Frescobaldi](./47t87JpM.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Girolamo_Frescobaldi_(1583-1643),_engraving_by_Claude_Mellan_(1619).jpg){align=left width="150" height="150"} 
+
+	Italian composer (1583–1643)
+
+</div>

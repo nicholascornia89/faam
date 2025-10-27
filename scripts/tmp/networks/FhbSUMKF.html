@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "FhbSUMKF", "label": "passaggio", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FhbSUMKF.md\u0027\u003epassaggio\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "93GDD9ND", "label": "ornament", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./93GDD9ND.md\u0027\u003eornament\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical flourishes that are not necessary to carry the overall line of the melody (or harmony), but serve instead to decorate or \"ornament\" that line\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZcuAcbpG", "label": "musical improvisation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZcuAcbpG.md\u0027\u003emusical improvisation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003espontaneous musical composition technique\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "6m3ZbnrF", "label": "musical technique", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6m3ZbnrF.md\u0027\u003emusical technique\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egroup of techniques relating to the composing, production or performance of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "R9hADWGS", "label": "duration", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./R9hADWGS.md\u0027\u003eduration\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003easpect of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2kxvrpzm", "label": "pitch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2kxvrpzm.md\u0027\u003epitch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperceptual property in music ordering sounds from low to high\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "oMERLdSN", "label": "performer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oMERLdSN.md\u0027\u003eperformer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartist who participates in performing arts in front of an audience: actors, comedians, dancers, magicians, circus artists, musicians, singers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}]);
-                  edges = new vis.DataSet([{"from": "FhbSUMKF", "to": "93GDD9ND", "width": 10}, {"from": "FhbSUMKF", "to": "ZcuAcbpG", "width": 10}, {"from": "FhbSUMKF", "to": "6m3ZbnrF", "width": 10}, {"from": "FhbSUMKF", "to": "R9hADWGS", "width": 10}, {"from": "FhbSUMKF", "to": "2kxvrpzm", "width": 10}, {"from": "FhbSUMKF", "to": "oMERLdSN", "width": 10}, {"from": "oMERLdSN", "to": "93GDD9ND", "width": 1}, {"from": "93GDD9ND", "to": "6m3ZbnrF", "width": 1}, {"from": "93GDD9ND", "to": "2kxvrpzm", "width": 1}, {"from": "93GDD9ND", "to": "R9hADWGS", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "oMERLdSN", "label": "performer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/oMERLdSN\u0027\u003eperformer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartist who participates in performing arts in front of an audience: actors, comedians, dancers, magicians, circus artists, musicians, singers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "FhbSUMKF", "label": "passaggio", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FhbSUMKF\u0027\u003epassaggio\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "93GDD9ND", "label": "ornament", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/93GDD9ND\u0027\u003eornament\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical flourishes that are not necessary to carry the overall line of the melody (or harmony), but serve instead to decorate or \"ornament\" that line\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "6m3ZbnrF", "label": "musical technique", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6m3ZbnrF\u0027\u003emusical technique\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egroup of techniques relating to the composing, production or performance of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2kxvrpzm", "label": "pitch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2kxvrpzm\u0027\u003epitch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperceptual property in music ordering sounds from low to high\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "R9hADWGS", "label": "duration", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/R9hADWGS\u0027\u003eduration\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003easpect of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZcuAcbpG", "label": "musical improvisation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZcuAcbpG\u0027\u003emusical improvisation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003espontaneous musical composition technique\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "oMERLdSN", "to": "FhbSUMKF", "width": 10}, {"from": "oMERLdSN", "to": "93GDD9ND", "width": 1}, {"from": "93GDD9ND", "to": "FhbSUMKF", "width": 10}, {"from": "93GDD9ND", "to": "6m3ZbnrF", "width": 1}, {"from": "93GDD9ND", "to": "2kxvrpzm", "width": 1}, {"from": "93GDD9ND", "to": "R9hADWGS", "width": 1}, {"from": "2kxvrpzm", "to": "FhbSUMKF", "width": 10}, {"from": "ZcuAcbpG", "to": "FhbSUMKF", "width": 10}, {"from": "6m3ZbnrF", "to": "FhbSUMKF", "width": 10}, {"from": "R9hADWGS", "to": "FhbSUMKF", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

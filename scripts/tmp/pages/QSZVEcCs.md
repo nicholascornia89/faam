@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QSZVEcCs
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/QSZVEcCs.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/QSZVEcCs.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/QSZVEcCs.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/QSZVEcCs.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/QSZVEcCs.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/QSZVEcCs.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Borodin.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                        | description                                      | Wikidata QID                                                 |
-    | :-------: | :---------------: | :----------------------------: | :----------------------------------------------: | :----------------------------------------------------------: |
-    | QSZVEcCs  | Alexander Borodin | Alexander Porfiryevich Borodin | Russian composer, doctor and chemist (1833–1887) | [Alexander Borodin](http://wwww.wikidata.org/entity/Q164004) |
+    | FAAM UUID | label             | aliases                        | description                                      | Wikidata QID                                            |
+    | :-------: | :---------------: | :----------------------------: | :----------------------------------------------: | :-----------------------------------------------------: |
+    | QSZVEcCs  | Alexander Borodin | Alexander Porfiryevich Borodin | Russian composer, doctor and chemist (1833–1887) | [Alexander Borodin](http://wikidata.org/entity/Q164004) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [classical composer](./aB6ga3Wq.md)
 
-	- [](./QEpV8SNM.md)
+	- [chemist](./QEpV8SNM.md)
 
 	- [pianist](./T6nAVeGM.md)
 
@@ -61,9 +65,9 @@ tags: agent
 
 	- [cellist](./JJEmNCK7.md)
 
-	- [](./TBYigQyt.md)
+	- [physician](./TBYigQyt.md)
 
-	- [](./Gmyihe9r.md)
+	- [opera composer](./Gmyihe9r.md)
 
 	- [composer](./5aTYuVxp.md)
 
@@ -71,21 +75,21 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./7rEtykNP.md)
+	- [Saint Petersburg State University](./7rEtykNP.md)
 
-	- [](./DMkpWhfF.md)
+	- [Medical and Surgical Academies in Russian Empire](./DMkpWhfF.md)
 
-	- [](./Yr3wwkgS.md)
+	- [Heidelberg University](./Yr3wwkgS.md)
 
 ??? quote "employer" 
 
-	- [](./PGnoaY2D.md)
+	- [First Pavlov State Medical University](./PGnoaY2D.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/QSZVEcCs.html" height="800" width="1200" title="QSZVEcCs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QSZVEcCs" height="800" width="1200" title="QSZVEcCs"></iframe>
 
 ## Identifiers
 
@@ -111,7 +115,7 @@ tags: agent
 
 -	__[Mazurka](./YY2RKj84.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p61.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p61.gif){align=left width="150" height="150"} 
 
 	
 

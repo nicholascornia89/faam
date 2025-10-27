@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eGo8RM4m
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description    | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :------------: | :-----: | :-----------------------------------------------: |
-    | eGo8RM4m  | Pescia | Italian comune |         | [Pescia](http://wwww.wikidata.org/entity/Q102661) |
+    | FAAM UUID | label  | description    | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :------------: | :-----: | :------------------------------------------: |
+    | eGo8RM4m  | Pescia | Italian comune |         | [Pescia](http://wikidata.org/entity/Q102661) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/eGo8RM4m.html" height="800" width="1200" title="eGo8RM4m"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eGo8RM4m" height="800" width="1200" title="eGo8RM4m"></iframe>
 
 ## Identifiers
 

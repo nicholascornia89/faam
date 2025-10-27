@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CcFvxjnm
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | aliases                   | description               | Wikidata QID                                                            |
-    | :-------: | :--------------------------------: | :-----------------------: | :-----------------------: | :---------------------------------------------------------------------: |
-    | CcFvxjnm  | Missa super Or sus à coup, LV 1145 | Missa super Or sus à coup | mass by Orlande de Lassus | [Missa super Or sus à coup](http://wwww.wikidata.org/entity/Q124314863) |
+    | FAAM UUID | label                              | aliases                   | description               | Wikidata QID                                                       |
+    | :-------: | :--------------------------------: | :-----------------------: | :-----------------------: | :----------------------------------------------------------------: |
+    | CcFvxjnm  | Missa super Or sus à coup, LV 1145 | Missa super Or sus à coup | mass by Orlande de Lassus | [Missa super Or sus à coup](http://wikidata.org/entity/Q124314863) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/CcFvxjnm.html" height="800" width="1200" title="CcFvxjnm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CcFvxjnm" height="800" width="1200" title="CcFvxjnm"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Messe "Or-sus a coup": für vier Singstimmen](./a9ifUqK5.md)__
 
-	![Image](../assets/images/thumbs/BSB-991077737379707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991077737379707356.gif){align=left width="150" height="150"} 
 
 	
 

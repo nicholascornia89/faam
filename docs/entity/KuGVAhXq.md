@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KuGVAhXq
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/CBM-TORRMsA76/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/KuGVAhXq.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/KuGVAhXq.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/KuGVAhXq.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/CBM-TORRMsA76/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/KuGVAhXq.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/KuGVAhXq.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/KuGVAhXq.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/CBM-TORRMsA76.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA76.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                               | permalink                | provenance                                                       |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :--------------------------------------------------------------: |
-    | KuGVAhXq  | CBM-TORRMsA76         | A | Collection of Lessons | for the Harpsicord | or Piano et Forte | Composed by | Ferdinando Tenducci | Dedicated to the Right Hon.ble | Lady Hope | [external URL](Cbxx8HUs) | [Biblioteca del Conservatorio Benedetto Marcello](./FqJJaJb7.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                               | permalink                     | provenance                                                       |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------: | :--------------------------------------------------------------: |
+    | KuGVAhXq  | CBM-TORRMsA76         | A | Collection of Lessons | for the Harpsicord | or Piano et Forte | Composed by | Ferdinando Tenducci | Dedicated to the Right Hon.ble | Lady Hope | [external URL](not available) | [Biblioteca del Conservatorio Benedetto Marcello](./FqJJaJb7.md) |
 
 ## Statements
 
@@ -62,10 +66,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/KuGVAhXq.html" height="800" width="1200" title="KuGVAhXq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KuGVAhXq" height="800" width="1200" title="KuGVAhXq"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/KuGVAhXq.html" height="800" width="1200" title="KuGVAhXq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/KuGVAhXq" height="800" width="1200" title="KuGVAhXq"></iframe>

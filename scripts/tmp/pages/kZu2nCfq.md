@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kZu2nCfq
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kZu2nCfq.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kZu2nCfq.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kZu2nCfq.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/kZu2nCfq.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/kZu2nCfq.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/kZu2nCfq.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Luigi-Dallapiccola.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases | description                  | Wikidata QID                                                 |
-    | :-------: | :----------------: | :-----: | :--------------------------: | :----------------------------------------------------------: |
-    | kZu2nCfq  | Luigi Dallapiccola |         | Italian composer (1904–1975) | [Luigi Dallapiccola](http://wwww.wikidata.org/entity/Q17575) |
+    | FAAM UUID | label              | aliases | description                  | Wikidata QID                                            |
+    | :-------: | :----------------: | :-----: | :--------------------------: | :-----------------------------------------------------: |
+    | kZu2nCfq  | Luigi Dallapiccola |         | Italian composer (1904–1975) | [Luigi Dallapiccola](http://wikidata.org/entity/Q17575) |
 
 <br><br><br>
 
@@ -53,13 +57,13 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./F4JzR8jx.md)
+	- [Conservatorio Luigi Cherubini](./F4JzR8jx.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/kZu2nCfq.html" height="800" width="1200" title="kZu2nCfq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kZu2nCfq" height="800" width="1200" title="kZu2nCfq"></iframe>
 
 ## Identifiers
 
@@ -80,3 +84,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Luciano Berio](./g6oGtxBi.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Luciano_Berio.jpg){align=left width="150" height="150"} 
+
+	Italian composer (1925–2003)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WFTMnokN
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WFTMnokN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WFTMnokN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WFTMnokN.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WFTMnokN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WFTMnokN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WFTMnokN.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Michaelhaydn1.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases              | description                                             | Wikidata QID                                             |
-    | :-------: | :-----------: | :------------------: | :-----------------------------------------------------: | :------------------------------------------------------: |
-    | WFTMnokN  | Michael Haydn | Johann Michael Haydn | Austrian composer, brother of Joseph Haydn, (1737-1806) | [Michael Haydn](http://wwww.wikidata.org/entity/Q490381) |
+    | FAAM UUID | label         | aliases              | description                                             | Wikidata QID                                        |
+    | :-------: | :-----------: | :------------------: | :-----------------------------------------------------: | :-------------------------------------------------: |
+    | WFTMnokN  | Michael Haydn | Johann Michael Haydn | Austrian composer, brother of Joseph Haydn, (1737-1806) | [Michael Haydn](http://wikidata.org/entity/Q490381) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/WFTMnokN.html" height="800" width="1200" title="WFTMnokN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WFTMnokN" height="800" width="1200" title="WFTMnokN"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Carl Maria von Weber](./gWqSeD3z.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg){align=left width="150" height="150"} 
+
+	German Romantic composer (1786–1826)
+
+-	__[Sigismund von Neukomm](./GFvC25Up.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Neukomm.jpg){align=left width="150" height="150"} 
+
+	Austrian composer and pianist (1778–1858)
+
+</div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: chBzijje
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description     | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :-------------: | :-----: | :-------------------------------------------------: |
-    | chBzijje  | Jáchymov | town in Czechia |         | [Jáchymov](http://wwww.wikidata.org/entity/Q830418) |
+    | FAAM UUID | label    | description     | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :-------------: | :-----: | :--------------------------------------------: |
+    | chBzijje  | Jáchymov | town in Czechia |         | [Jáchymov](http://wikidata.org/entity/Q830418) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/chBzijje.html" height="800" width="1200" title="chBzijje"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/chBzijje" height="800" width="1200" title="chBzijje"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Isaak Hassler](./nMoM5v3e.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist
 

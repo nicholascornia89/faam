@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gL7dEA2N
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                         | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :---------------------------------------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | gL7dEA2N  | musicology | scientific discipline whose content is the practical and theoretical study of music |         | [musicology](http://wwww.wikidata.org/entity/Q164204) |
+    | FAAM UUID | label      | description                                                                         | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :---------------------------------------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | gL7dEA2N  | musicology | scientific discipline whose content is the practical and theoretical study of music |         | [musicology](http://wikidata.org/entity/Q164204) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/gL7dEA2N.html" height="800" width="1200" title="gL7dEA2N"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gL7dEA2N" height="800" width="1200" title="gL7dEA2N"></iframe>
 
 ## Cross-references
 

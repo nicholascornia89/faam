@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5ChJETkp
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                    | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :----------------------------: | :-----: | :----------------------------------------------: |
-    | 5ChJETkp  | Menen | city in West Flanders, Belgium | Menin   | [Menen](http://wwww.wikidata.org/entity/Q213224) |
+    | FAAM UUID | label | description                    | aliases | Wikidata QID                                |
+    | :-------: | :---: | :----------------------------: | :-----: | :-----------------------------------------: |
+    | 5ChJETkp  | Menen | city in West Flanders, Belgium | Menin   | [Menen](http://wikidata.org/entity/Q213224) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/5ChJETkp.html" height="800" width="1200" title="5ChJETkp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5ChJETkp" height="800" width="1200" title="5ChJETkp"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Raymond Herreman](./DYkLZpTt.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian poet and journalist (1896–1971)
 

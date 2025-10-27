@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c3pcMa2E
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-18890/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/c3pcMa2E.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/c3pcMa2E.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/c3pcMa2E.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-18890/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/c3pcMa2E.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/c3pcMa2E.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/c3pcMa2E.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-18890.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18890.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                           | permalink                | provenance                            |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | c3pcMa2E  | SML-18890             | Les Clavecinistes de 1637 à 1790 : en trois volumes musique / [édité par] Amédée Méreaux. | [external URL](EgkVbUEo) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                           | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | c3pcMa2E  | SML-18890             | Les Clavecinistes de 1637 à 1790 : en trois volumes musique / [édité par] Amédée Méreaux. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910333563405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -97,10 +101,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/c3pcMa2E.html" height="800" width="1200" title="c3pcMa2E"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c3pcMa2E" height="800" width="1200" title="c3pcMa2E"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/c3pcMa2E.html" height="800" width="1200" title="c3pcMa2E"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/c3pcMa2E" height="800" width="1200" title="c3pcMa2E"></iframe>

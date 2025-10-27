@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FGEPRAzo
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FGEPRAzo.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FGEPRAzo.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FGEPRAzo.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FGEPRAzo.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FGEPRAzo.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FGEPRAzo.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Kalkbrenner_1829.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases                               | description                                                                            | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :-----------------------------------: | :------------------------------------------------------------------------------------: | :--------------------------------------------------------------: |
-    | FGEPRAzo  | Friedrich Kalkbrenner | Friedrich Wilhelm Michael Kalkbrenner | German-born French pianist, composer, piano teacher and piano manufacturer (1784-1849) | [Friedrich Kalkbrenner](http://wwww.wikidata.org/entity/Q170270) |
+    | FAAM UUID | label                 | aliases                               | description                                                                            | Wikidata QID                                                |
+    | :-------: | :-------------------: | :-----------------------------------: | :------------------------------------------------------------------------------------: | :---------------------------------------------------------: |
+    | FGEPRAzo  | Friedrich Kalkbrenner | Friedrich Wilhelm Michael Kalkbrenner | German-born French pianist, composer, piano teacher and piano manufacturer (1784-1849) | [Friedrich Kalkbrenner](http://wikidata.org/entity/Q170270) |
 
 <br><br><br>
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/FGEPRAzo.html" height="800" width="1200" title="FGEPRAzo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FGEPRAzo" height="800" width="1200" title="FGEPRAzo"></iframe>
 
 ## Identifiers
 
@@ -93,7 +97,37 @@ tags: agent
 
 -	__[Sextetto : pour le Piano Forte avec accompagnement de 2 violons, alto & violoncelle et contrebasse : Op: 58](./JrED8wWa.md)__
 
-	![Image](../assets/images/thumbs/KCG-000351592.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000351592.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Ambroise Thomas](./2FcSBEuK.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ambroise_Thomas_2.jpg){align=left width="150" height="150"} 
+
+	French composer
+
+-	__[Michele Carafa](./LjTkQJnC.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Michele_Carafa_by_Antoine_Maurin.jpg){align=left width="150" height="150"} 
+
+	Italian opera composer
+
+-	__[Leopoldine Blahetka](./MWg6eofA.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopoldine_Blahetka.jpg){align=left width="150" height="150"} 
+
+	composer (1809-1885)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Piano Sextet, Op.58](./VVR9kvUc.md)__
 
 	
 

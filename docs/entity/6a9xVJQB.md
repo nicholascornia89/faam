@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6a9xVJQB
 
 tags: holding_institution
@@ -19,9 +23,9 @@ tags: holding_institution
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description              | aliases                 | Wikidata QID                                                         | abbreviation |
-    | :-------: | :-----------------------: | :----------------------: | :---------------------: | :------------------------------------------------------------------: | :----------: |
-    | 6a9xVJQB  | National Museum in Kraków | museum in Krakow, Poland | National Museum, Krakow | [National Museum in Kraków](http://wwww.wikidata.org/entity/Q195311) | KNM          |
+    | FAAM UUID | label                     | description              | aliases                 | Wikidata QID                                                    | abbreviation |
+    | :-------: | :-----------------------: | :----------------------: | :---------------------: | :-------------------------------------------------------------: | :----------: |
+    | 6a9xVJQB  | National Museum in Kraków | museum in Krakow, Poland | National Museum, Krakow | [National Museum in Kraków](http://wikidata.org/entity/Q195311) | KNM          |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: holding_institution
 
 ---
 
-<iframe src="../network/6a9xVJQB.html" height="800" width="1200" title="6a9xVJQB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6a9xVJQB" height="800" width="1200" title="6a9xVJQB"></iframe>
 
 ## Cross-references
 
@@ -61,7 +65,7 @@ tags: holding_institution
 
 -	__[Recueil des morceaux de musique ancienne : executés aux concerts de la Sociéte de musique vocale religieuse et classique fondée a Paris en 1843 [...] sous la direction de Mr. le Prince de la Moskowa. [Deuxième volume, Nr 8-20]](./Mdtc39Ji.md)__
 
-	![Image](../assets/images/thumbs/KMN-100549.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KMN-100549.gif){align=left width="150" height="150"} 
 
 	
 

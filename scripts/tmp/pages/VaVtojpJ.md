@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VaVtojpJ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/VaVtojpJ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/VaVtojpJ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/VaVtojpJ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/VaVtojpJ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/VaVtojpJ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/VaVtojpJ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henry_and_Alfred_Holmes.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description                                | Wikidata QID                                             |
-    | :-------: | :----------: | :-----: | :----------------------------------------: | :------------------------------------------------------: |
-    | VaVtojpJ  | Henry Holmes |         | English violinist and composer (1839–1905) | [Henry Holmes](http://wwww.wikidata.org/entity/Q1606875) |
+    | FAAM UUID | label        | aliases | description                                | Wikidata QID                                        |
+    | :-------: | :----------: | :-----: | :----------------------------------------: | :-------------------------------------------------: |
+    | VaVtojpJ  | Henry Holmes |         | English violinist and composer (1839–1905) | [Henry Holmes](http://wikidata.org/entity/Q1606875) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/VaVtojpJ.html" height="800" width="1200" title="VaVtojpJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VaVtojpJ" height="800" width="1200" title="VaVtojpJ"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Arnold Dolmetsch](./jq6qS77b.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold_Dolmetsch.jpg){align=left width="150" height="150"} 
+
+	French musician and instrument maker in England (1858-1940)
+
+</div>

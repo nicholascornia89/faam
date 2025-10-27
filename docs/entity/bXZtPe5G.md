@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bXZtPe5G
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                                      | aliases     | Wikidata QID                                                |
-    | :-------: | :---------------: | :------------------------------------------------------------------------------: | :---------: | :---------------------------------------------------------: |
-    | bXZtPe5G  | Holy Roman Empire | multi-ethnic complex of territories in Western and Central Europe (800/962–1806) | First Reich | [Holy Roman Empire](http://wwww.wikidata.org/entity/Q12548) |
+    | FAAM UUID | label             | description                                                                      | aliases     | Wikidata QID                                           |
+    | :-------: | :---------------: | :------------------------------------------------------------------------------: | :---------: | :----------------------------------------------------: |
+    | bXZtPe5G  | Holy Roman Empire | multi-ethnic complex of territories in Western and Central Europe (800/962–1806) | First Reich | [Holy Roman Empire](http://wikidata.org/entity/Q12548) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/bXZtPe5G.html" height="800" width="1200" title="bXZtPe5G"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bXZtPe5G" height="800" width="1200" title="bXZtPe5G"></iframe>
 
 ## Identifiers
 
@@ -43,13 +47,13 @@ tags: country
 
 -	__[Georg Prenner](./7xi9bv3w.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	16th-century Slovenian composer
 
 -	__[Gregor Aichinger](./74hb67jd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
@@ -73,7 +77,7 @@ tags: country
 
 -	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
 
 	Austrian composer of the Classical period (1756–1791)
 
@@ -103,7 +107,7 @@ tags: country
 
 -	__[Fortunato Chelleri](./MJqDk4yg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian-German Kapellmeister and composer
 
@@ -115,7 +119,7 @@ tags: country
 
 -	__[Johann Georg Reinhardt](./S6CMmTM2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 

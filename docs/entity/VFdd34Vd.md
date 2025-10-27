@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VFdd34Vd
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description              | aliases | Wikidata QID                                        |
-    | :-------: | :-------: | :----------------------: | :-----: | :-------------------------------------------------: |
-    | VFdd34Vd  | Schwabach | town in Bavaria, Germany |         | [Schwabach](http://wwww.wikidata.org/entity/Q14889) |
+    | FAAM UUID | label     | description              | aliases | Wikidata QID                                   |
+    | :-------: | :-------: | :----------------------: | :-----: | :--------------------------------------------: |
+    | VFdd34Vd  | Schwabach | town in Bavaria, Germany |         | [Schwabach](http://wikidata.org/entity/Q14889) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/VFdd34Vd.html" height="800" width="1200" title="VFdd34Vd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VFdd34Vd" height="800" width="1200" title="VFdd34Vd"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fVfY7Qza
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                 | aliases     | Wikidata QID                                       |
-    | :-------: | :-----: | :---------------------------------------------------------: | :---------: | :------------------------------------------------: |
-    | fVfY7Qza  | Liberec | statutory city in Liberec District, Liberec Region, Czechia | Reichenberg | [Liberec](http://wwww.wikidata.org/entity/Q146351) |
+    | FAAM UUID | label   | description                                                 | aliases     | Wikidata QID                                  |
+    | :-------: | :-----: | :---------------------------------------------------------: | :---------: | :-------------------------------------------: |
+    | fVfY7Qza  | Liberec | statutory city in Liberec District, Liberec Region, Czechia | Reichenberg | [Liberec](http://wikidata.org/entity/Q146351) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fVfY7Qza.html" height="800" width="1200" title="fVfY7Qza"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fVfY7Qza" height="800" width="1200" title="fVfY7Qza"></iframe>
 
 ## Identifiers
 

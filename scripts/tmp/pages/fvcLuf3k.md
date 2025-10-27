@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fvcLuf3k
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fvcLuf3k.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fvcLuf3k.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fvcLuf3k.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fvcLuf3k.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fvcLuf3k.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fvcLuf3k.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans_Richter_portrait_photo.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases                       | description                                                      | Wikidata QID                                            |
-    | :-------: | :----------: | :---------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------: |
-    | fvcLuf3k  | Hans Richter | Johann Baptist Isidor Richter | Austrian-Hungarian orchestral and operatic conductor (1843-1916) | [Hans Richter](http://wwww.wikidata.org/entity/Q366147) |
+    | FAAM UUID | label        | aliases                       | description                                                      | Wikidata QID                                       |
+    | :-------: | :----------: | :---------------------------: | :--------------------------------------------------------------: | :------------------------------------------------: |
+    | fvcLuf3k  | Hans Richter | Johann Baptist Isidor Richter | Austrian-Hungarian orchestral and operatic conductor (1843-1916) | [Hans Richter](http://wikidata.org/entity/Q366147) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/fvcLuf3k.html" height="800" width="1200" title="fvcLuf3k"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fvcLuf3k" height="800" width="1200" title="fvcLuf3k"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[August Wilhelmj](./ZBYUC5fa.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August_Wilhelmj.jpg){align=left width="150" height="150"} 
+
+	German violinist (1845–1908)
+
+</div>

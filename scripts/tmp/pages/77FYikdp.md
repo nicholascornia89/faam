@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 77FYikdp
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description              | aliases    | Wikidata QID                                        |
-    | :-------: | :--------: | :----------------------: | :--------: | :-------------------------------------------------: |
-    | 77FYikdp  | Regensburg | city in Bavaria, Germany | Regensburg | [Regensburg](http://wwww.wikidata.org/entity/Q2978) |
+    | FAAM UUID | label      | description              | aliases    | Wikidata QID                                   |
+    | :-------: | :--------: | :----------------------: | :--------: | :--------------------------------------------: |
+    | 77FYikdp  | Regensburg | city in Bavaria, Germany | Regensburg | [Regensburg](http://wikidata.org/entity/Q2978) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/77FYikdp.html" height="800" width="1200" title="77FYikdp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/77FYikdp" height="800" width="1200" title="77FYikdp"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Gregor Aichinger](./74hb67jd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Josef Dachs](./JUuCMm3W.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian musician (1825–1896)
 
@@ -85,7 +89,7 @@ tags: city
 
 -	__[Georg Josef Manz](./cSSAWxvC.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German publisher (1808–1894)
 

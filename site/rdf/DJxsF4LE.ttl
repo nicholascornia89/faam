@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DJxsF4LE a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital of the district of Visp in the canton of Valais, Switzerland"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q64147>,
+        "0"^^xsd:string,
+        "DJxsF4LE"^^xsd:string ;
+    schema1:location faamentity:oHTSDFRc ;
+    skos:altLabel "Visp VS"^^xsd:string,
+        "Visp, Switzerland"^^xsd:string ;
+    skos:prefLabel "Visp"^^xsd:string ;
+    wd:P1566 gn:7287487 .
+

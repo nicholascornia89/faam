@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BYi7Lpof
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                                                                  | aliases | Wikidata QID                                          |
-    | :-------: | :------: | :----------------------------------------------------------------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | BYi7Lpof  | Somerset | unitary authority area in Somerset, England (doesn't include Bath and North-East Somerset or North Somerset) |         | [Somerset](http://wwww.wikidata.org/entity/Q21694741) |
+    | FAAM UUID | label    | description                                                                                                  | aliases | Wikidata QID                                     |
+    | :-------: | :------: | :----------------------------------------------------------------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | BYi7Lpof  | Somerset | unitary authority area in Somerset, England (doesn't include Bath and North-East Somerset or North Somerset) |         | [Somerset](http://wikidata.org/entity/Q21694741) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/BYi7Lpof.html" height="800" width="1200" title="BYi7Lpof"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BYi7Lpof" height="800" width="1200" title="BYi7Lpof"></iframe>
 
 ## Identifiers
 

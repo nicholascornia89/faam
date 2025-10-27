@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: k4AcFQqP
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description                                         | aliases | Wikidata QID                                                              |
-    | :-------: | :----------------------------: | :-------------------------------------------------: | :-----: | :-----------------------------------------------------------------------: |
-    | k4AcFQqP  | Saint Petersburg Court Capella | Russian professional musical institution since 1479 |         | [Saint Petersburg Court Capella](http://wwww.wikidata.org/entity/Q586283) |
+    | FAAM UUID | label                          | description                                         | aliases | Wikidata QID                                                         |
+    | :-------: | :----------------------------: | :-------------------------------------------------: | :-----: | :------------------------------------------------------------------: |
+    | k4AcFQqP  | Saint Petersburg Court Capella | Russian professional musical institution since 1479 |         | [Saint Petersburg Court Capella](http://wikidata.org/entity/Q586283) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/k4AcFQqP.html" height="800" width="1200" title="k4AcFQqP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/k4AcFQqP" height="800" width="1200" title="k4AcFQqP"></iframe>
 
 ## Cross-references
 

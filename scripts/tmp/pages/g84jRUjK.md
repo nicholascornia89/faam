@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: g84jRUjK
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/g84jRUjK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/g84jRUjK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/g84jRUjK.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/g84jRUjK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/g84jRUjK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/g84jRUjK.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                  | Wikidata QID                                                |
-    | :-------: | :-------------: | :-------------: | :--------------------------: | :---------------------------------------------------------: |
-    | g84jRUjK  | Orazio Benevoli | Grazio Benevoli | Italian composer (1605-1672) | [Orazio Benevoli](http://wwww.wikidata.org/entity/Q1228351) |
+    | FAAM UUID | label           | aliases         | description                  | Wikidata QID                                           |
+    | :-------: | :-------------: | :-------------: | :--------------------------: | :----------------------------------------------------: |
+    | g84jRUjK  | Orazio Benevoli | Grazio Benevoli | Italian composer (1605-1672) | [Orazio Benevoli](http://wikidata.org/entity/Q1228351) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/g84jRUjK.html" height="800" width="1200" title="g84jRUjK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/g84jRUjK" height="800" width="1200" title="g84jRUjK"></iframe>
 
 ## Identifiers
 
@@ -81,13 +85,41 @@ tags: agent
 
 -	__[Recueil des morceaux de musique ancienne. [onzième volume] [Música notada] :exécutés aux concerts de la Société de Musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage des Mesdames la Mle. Duchesse d'Albufera ... et sous la direction de M. Le Prince de la Moskova](./ALRvk7kh.md)__
 
-	![Image](../assets/images/thumbs/BNE-bdh0000161254.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNE-bdh0000161254.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sammlung ausgezeichneter Kompositionen für die Kirche](./S5RFKHbT.md)__
 
-	![Image](../assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-13885.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Ercole Bernabei](./bqZrDJot.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ercole_Bernabei.jpg){align=left width="150" height="150"} 
+
+	Italian composer and organist
+
+-	__[Giovanni Paolo Colonna](./LgaHtMPL.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Paolo_Colonna.jpg){align=left width="150" height="150"} 
+
+	Italian composer
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Laudate coeli](./GzEqiSpE.md)__
+
+	
+
+-	__[Missa Si Deus pro nobis](./3HfvgAMi.md)__
 
 	
 

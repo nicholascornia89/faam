@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fbR7p85K
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                 | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :-------------------------: | :-----: | :----------------------------------------------: |
-    | fbR7p85K  | Avignon | commune in Vaucluse, France | Avinhon | [Avignon](http://wwww.wikidata.org/entity/Q6397) |
+    | FAAM UUID | label   | description                 | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :-------------------------: | :-----: | :-----------------------------------------: |
+    | fbR7p85K  | Avignon | commune in Vaucluse, France | Avinhon | [Avignon](http://wikidata.org/entity/Q6397) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fbR7p85K.html" height="800" width="1200" title="fbR7p85K"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fbR7p85K" height="800" width="1200" title="fbR7p85K"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Jean-Joseph Mouret](./7SJjsBpR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1682-1738)
 

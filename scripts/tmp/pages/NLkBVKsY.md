@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NLkBVKsY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NLkBVKsY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NLkBVKsY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NLkBVKsY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NLkBVKsY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NLkBVKsY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NLkBVKsY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases | description | Wikidata QID                         |
-    | :-------: | :---------: | :-----: | :---------: | :----------------------------------: |
-    | NLkBVKsY  | Jules Heinz |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label       | aliases | description | Wikidata QID                    |
+    | :-------: | :---------: | :-----: | :---------: | :-----------------------------: |
+    | NLkBVKsY  | Jules Heinz |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/NLkBVKsY.html" height="800" width="1200" title="NLkBVKsY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NLkBVKsY" height="800" width="1200" title="NLkBVKsY"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: agent
 
 -	__[Ecole chantante, 25 vocalises mélodiques élémentaires pour la medium de la voix d'après des fragments célèbres de Beethoven, Bellini, Dalayrac, Donizetti, Grétry, Haas, Haydn, Hummel, Méhul, Mozart, Reissiger, Rossini, Spohr, Weber, Zumsteg](./U7Xvn7RZ.md)__
 
-	![Image](../assets/images/thumbs/BNF-43123936p.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43123936p.gif){align=left width="150" height="150"} 
 
 	
 

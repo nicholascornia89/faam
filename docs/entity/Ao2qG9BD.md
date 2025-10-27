@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ao2qG9BD
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Ao2qG9BD.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Ao2qG9BD.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Ao2qG9BD.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Ao2qG9BD.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Ao2qG9BD.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Ao2qG9BD.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Niccolò_Jommelli.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                  | Wikidata QID                                                |
-    | :-------: | :--------------: | :--------------: | :--------------------------: | :---------------------------------------------------------: |
-    | Ao2qG9BD  | Niccolò Jommelli | Niccolo Jommelli | Italian composer (1714–1774) | [Niccolò Jommelli](http://wwww.wikidata.org/entity/Q312891) |
+    | FAAM UUID | label            | aliases          | description                  | Wikidata QID                                           |
+    | :-------: | :--------------: | :--------------: | :--------------------------: | :----------------------------------------------------: |
+    | Ao2qG9BD  | Niccolò Jommelli | Niccolo Jommelli | Italian composer (1714–1774) | [Niccolò Jommelli](http://wikidata.org/entity/Q312891) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Ao2qG9BD.html" height="800" width="1200" title="Ao2qG9BD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ao2qG9BD" height="800" width="1200" title="Ao2qG9BD"></iframe>
 
 ## Identifiers
 

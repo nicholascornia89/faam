@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: J5dK7b7k
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                                          | aliases | Wikidata QID                                          |
-    | :-------: | :----------: | :--------------------------------------------------: | :-----: | :---------------------------------------------------: |
-    | J5dK7b7k  | Bad Köstritz | town in the district of Greiz, in Thuringia, Germany |         | [Bad Köstritz](http://wwww.wikidata.org/entity/Q4431) |
+    | FAAM UUID | label        | description                                          | aliases | Wikidata QID                                     |
+    | :-------: | :----------: | :--------------------------------------------------: | :-----: | :----------------------------------------------: |
+    | J5dK7b7k  | Bad Köstritz | town in the district of Greiz, in Thuringia, Germany |         | [Bad Köstritz](http://wikidata.org/entity/Q4431) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/J5dK7b7k.html" height="800" width="1200" title="J5dK7b7k"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/J5dK7b7k" height="800" width="1200" title="J5dK7b7k"></iframe>
 
 ## Identifiers
 

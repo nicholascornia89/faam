@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dhJ9DysL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description | aliases | Wikidata QID                                      |
-    | :-------: | :---: | :---------: | :-----: | :-----------------------------------------------: |
-    | dhJ9DysL  | Ubieĺ |             |         | [Ubieĺ](http://wwww.wikidata.org/entity/Q9364297) |
+    | FAAM UUID | label | description        | aliases | Wikidata QID                                 |
+    | :-------: | :---: | :----------------: | :-----: | :------------------------------------------: |
+    | dhJ9DysL  | Ubieĺ | village in Belarus |         | [Ubieĺ](http://wikidata.org/entity/Q9364297) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Belarus](http://www.wikidata.org/entity/Q184)
+	- [Belarus](Q184)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/dhJ9DysL.html" height="800" width="1200" title="dhJ9DysL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dhJ9DysL" height="800" width="1200" title="dhJ9DysL"></iframe>
 
 ## Identifiers
 

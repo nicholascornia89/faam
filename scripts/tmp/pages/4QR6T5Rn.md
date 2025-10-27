@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4QR6T5Rn
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description                   | Wikidata QID                                                    |
-    | :-------: | :------------------: | :------------------: | :---------------------------: | :-------------------------------------------------------------: |
-    | 4QR6T5Rn  | Alessandro Stradella | Alessandro Stradella | opera by Friedrich von Flotow | [Alessandro Stradella](http://wwww.wikidata.org/entity/Q621393) |
+    | FAAM UUID | label                | aliases              | description                   | Wikidata QID                                               |
+    | :-------: | :------------------: | :------------------: | :---------------------------: | :--------------------------------------------------------: |
+    | 4QR6T5Rn  | Alessandro Stradella | Alessandro Stradella | opera by Friedrich von Flotow | [Alessandro Stradella](http://wikidata.org/entity/Q621393) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./kU9xWPLM.md)
+	- [Stradella](./kU9xWPLM.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4QR6T5Rn.html" height="800" width="1200" title="4QR6T5Rn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4QR6T5Rn" height="800" width="1200" title="4QR6T5Rn"></iframe>
 
 ## Identifiers
 

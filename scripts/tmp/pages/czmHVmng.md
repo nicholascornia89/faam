@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: czmHVmng
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description | aliases                         | Wikidata QID                                                                |
-    | :-------: | :----------------------------: | :---------: | :-----------------------------: | :-------------------------------------------------------------------------: |
-    | czmHVmng  | Sint-Vincentiuscollege (Ieper) | school      | Sint-Vincentiuscollege te Ieper | [Sint-Vincentiuscollege (Ieper)](http://wwww.wikidata.org/entity/Q15882061) |
+    | FAAM UUID | label                          | description | aliases                         | Wikidata QID                                                           |
+    | :-------: | :----------------------------: | :---------: | :-----------------------------: | :--------------------------------------------------------------------: |
+    | czmHVmng  | Sint-Vincentiuscollege (Ieper) | school      | Sint-Vincentiuscollege te Ieper | [Sint-Vincentiuscollege (Ieper)](http://wikidata.org/entity/Q15882061) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./jXVX5ptj.md)
+	[Ypres](./jXVX5ptj.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/czmHVmng.html" height="800" width="1200" title="czmHVmng"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/czmHVmng" height="800" width="1200" title="czmHVmng"></iframe>
 
 ## Cross-references
 

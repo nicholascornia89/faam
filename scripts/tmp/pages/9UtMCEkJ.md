@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9UtMCEkJ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                   | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :-----------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | 9UtMCEkJ  | Orléans | large city and commune in Loiret, Centre-Val de Loire, France | Orleans | [Orléans](http://wwww.wikidata.org/entity/Q6548) |
+    | FAAM UUID | label   | description                                                   | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :-----------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | 9UtMCEkJ  | Orléans | large city and commune in Loiret, Centre-Val de Loire, France | Orleans | [Orléans](http://wikidata.org/entity/Q6548) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9UtMCEkJ.html" height="800" width="1200" title="9UtMCEkJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9UtMCEkJ" height="800" width="1200" title="9UtMCEkJ"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Édouard Fournier](./W8EkVxFo.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg){align=left width="150" height="150"} 
 
 	French historian, writer, bibliographer and librarian (1819-1880)
 
 -	__[Félix Cazot](./EUMKhzpe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and pianist (1790–1857)
 

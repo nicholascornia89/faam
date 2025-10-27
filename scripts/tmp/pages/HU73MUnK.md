@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HU73MUnK
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | aliases | description | Wikidata QID                         |
-    | :-------: | :--------------------------: | :-----: | :---------: | :----------------------------------: |
-    | HU73MUnK  | Der junge Opernfreund, Op.61 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                        | aliases | description | Wikidata QID                    |
+    | :-------: | :--------------------------: | :-----: | :---------: | :-----------------------------: |
+    | HU73MUnK  | Der junge Opernfreund, Op.61 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/HU73MUnK.html" height="800" width="1200" title="HU73MUnK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HU73MUnK" height="800" width="1200" title="HU73MUnK"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[DER JUNGE OPERNFREUND](./YM8k9nyE.md)__
 
-	![Image](../assets/images/thumbs/KCG-000350901.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350901.gif){align=left width="150" height="150"} 
 
 	
 

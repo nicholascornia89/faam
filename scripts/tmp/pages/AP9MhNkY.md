@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AP9MhNkY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description               | aliases       | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------------------: | :-----------: | :------------------------------------------------------: |
-    | AP9MhNkY  | Châtellerault | commune in Vienne, France | Chastelairaud | [Châtellerault](http://wwww.wikidata.org/entity/Q205576) |
+    | FAAM UUID | label         | description               | aliases       | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------------------: | :-----------: | :-------------------------------------------------: |
+    | AP9MhNkY  | Châtellerault | commune in Vienne, France | Chastelairaud | [Châtellerault](http://wikidata.org/entity/Q205576) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/AP9MhNkY.html" height="800" width="1200" title="AP9MhNkY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AP9MhNkY" height="800" width="1200" title="AP9MhNkY"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Clément Janequin](./egm3S8BS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

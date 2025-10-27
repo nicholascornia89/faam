@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: E3fj5wmX
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description    | aliases | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :------------: | :-----: | :------------------------------------------------------------: |
-    | E3fj5wmX  | Desenzano del Garda | Italian comune |         | [Desenzano del Garda](http://wwww.wikidata.org/entity/Q104577) |
+    | FAAM UUID | label               | description    | aliases | Wikidata QID                                              |
+    | :-------: | :-----------------: | :------------: | :-----: | :-------------------------------------------------------: |
+    | E3fj5wmX  | Desenzano del Garda | Italian comune |         | [Desenzano del Garda](http://wikidata.org/entity/Q104577) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/E3fj5wmX.html" height="800" width="1200" title="E3fj5wmX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/E3fj5wmX" height="800" width="1200" title="E3fj5wmX"></iframe>
 
 ## Identifiers
 

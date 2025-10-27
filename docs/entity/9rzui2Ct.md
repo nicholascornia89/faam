@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9rzui2Ct
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | aliases | description                 | Wikidata QID                                      |
-    | :-------: | :----: | :-----: | :-------------------------: | :-----------------------------------------------: |
-    | 9rzui2Ct  | Armida | Armida  | opera by Gioacchino Rossini | [Armida](http://wwww.wikidata.org/entity/Q777578) |
+    | FAAM UUID | label  | aliases | description                 | Wikidata QID                                 |
+    | :-------: | :----: | :-----: | :-------------------------: | :------------------------------------------: |
+    | 9rzui2Ct  | Armida | Armida  | opera by Gioacchino Rossini | [Armida](http://wikidata.org/entity/Q777578) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/9rzui2Ct.html" height="800" width="1200" title="9rzui2Ct"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9rzui2Ct" height="800" width="1200" title="9rzui2Ct"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gdZjhzFU
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description        | aliases          | Wikidata QID                                              |
-    | :-------: | :----------: | :----------------: | :--------------: | :-------------------------------------------------------: |
-    | gdZjhzFU  | guitar music | musical genre/form | music for guitar | [guitar music](http://wwww.wikidata.org/entity/Q18074899) |
+    | FAAM UUID | label        | description        | aliases          | Wikidata QID                                         |
+    | :-------: | :----------: | :----------------: | :--------------: | :--------------------------------------------------: |
+    | gdZjhzFU  | guitar music | musical genre/form | music for guitar | [guitar music](http://wikidata.org/entity/Q18074899) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/gdZjhzFU.html" height="800" width="1200" title="gdZjhzFU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gdZjhzFU" height="800" width="1200" title="gdZjhzFU"></iframe>
 
 ## Cross-references
 
@@ -39,19 +43,19 @@ tags: keyword
 
 -	__[Concerto per chitarra, archi e timpani, op. 30](./a64gD2W5.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904183586.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904183586.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Große Sonate : für Flöte (Violine) und Gitarre, op. 85](./GTT3Hefh.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902194585.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902194585.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Variations sur les "Folies d'Espagne", op. 45](./PoJBawN7.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904176952.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904176952.gif){align=left width="150" height="150"} 
 
 	
 
@@ -67,7 +71,7 @@ tags: keyword
 
 -	__[Betho Davezac](./QYsgspze.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

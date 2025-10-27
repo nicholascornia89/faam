@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2RMXJBjC
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502043/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2RMXJBjC.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2RMXJBjC.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2RMXJBjC.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502043/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2RMXJBjC.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2RMXJBjC.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2RMXJBjC.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502043.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502043.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                  | permalink                | provenance                              |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | 2RMXJBjC  | DPF-202502043         | Les Quarte Antiennes de la Ste Vierge. pour deux voix égales et orgue. | [external URL](mMrUGL4h) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                  | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | 2RMXJBjC  | DPF-202502043         | Les Quarte Antiennes de la Ste Vierge. pour deux voix égales et orgue. | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -90,10 +94,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/2RMXJBjC.html" height="800" width="1200" title="2RMXJBjC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2RMXJBjC" height="800" width="1200" title="2RMXJBjC"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/2RMXJBjC.html" height="800" width="1200" title="2RMXJBjC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/2RMXJBjC" height="800" width="1200" title="2RMXJBjC"></iframe>

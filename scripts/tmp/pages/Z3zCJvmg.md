@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Z3zCJvmg
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                        | aliases | Wikidata QID                                                      |
-    | :-------: | :------------------: | :--------------------------------: | :-----: | :---------------------------------------------------------------: |
-    | Z3zCJvmg  | viola d'amore player | person who plays the viola d'amore |         | [viola d'amore player](http://wwww.wikidata.org/entity/Q20083902) |
+    | FAAM UUID | label                | description                        | aliases | Wikidata QID                                                 |
+    | :-------: | :------------------: | :--------------------------------: | :-----: | :----------------------------------------------------------: |
+    | Z3zCJvmg  | viola d'amore player | person who plays the viola d'amore |         | [viola d'amore player](http://wikidata.org/entity/Q20083902) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Z3zCJvmg.html" height="800" width="1200" title="Z3zCJvmg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Z3zCJvmg" height="800" width="1200" title="Z3zCJvmg"></iframe>
 
 ## Cross-references
 

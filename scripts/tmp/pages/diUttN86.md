@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: diUttN86
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                              | aliases | Wikidata QID                                   |
-    | :-------: | :----: | :--------------------------------------: | :-----: | :--------------------------------------------: |
-    | diUttN86  | Moscow | capital and most populous city of Russia | Moskva  | [Moscow](http://wwww.wikidata.org/entity/Q649) |
+    | FAAM UUID | label  | description                              | aliases | Wikidata QID                              |
+    | :-------: | :----: | :--------------------------------------: | :-----: | :---------------------------------------: |
+    | diUttN86  | Moscow | capital and most populous city of Russia | Moskva  | [Moscow](http://wikidata.org/entity/Q649) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/diUttN86.html" height="800" width="1200" title="diUttN86"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/diUttN86" height="800" width="1200" title="diUttN86"></iframe>
 
 ## Identifiers
 

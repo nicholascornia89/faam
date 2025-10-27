@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hmF2HMTe
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                                          | aliases              | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :--------------------------------------------------: | :------------------: | :--------------------------------------------------------------: |
-    | hmF2HMTe  | King's College London | public research university in London, United Kingdom | Kings College London | [King's College London](http://wwww.wikidata.org/entity/Q245247) |
+    | FAAM UUID | label                 | description                                          | aliases              | Wikidata QID                                                |
+    | :-------: | :-------------------: | :--------------------------------------------------: | :------------------: | :---------------------------------------------------------: |
+    | hmF2HMTe  | King's College London | public research university in London, United Kingdom | Kings College London | [King's College London](http://wikidata.org/entity/Q245247) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./G37bWTxC.md)
+	[Southwark](./G37bWTxC.md)
 
-	[](./VEv8z5pc.md)
+	[London Borough of Lambeth](./VEv8z5pc.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/hmF2HMTe.html" height="800" width="1200" title="hmF2HMTe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hmF2HMTe" height="800" width="1200" title="hmF2HMTe"></iframe>
 
 ## Cross-references
 

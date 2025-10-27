@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ALRvk7kh
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNE-bdh0000161254/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ALRvk7kh.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ALRvk7kh.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ALRvk7kh.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNE-bdh0000161254/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ALRvk7kh.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ALRvk7kh.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ALRvk7kh.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNE-bdh0000161254.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNE-bdh0000161254.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                                                                                               | permalink                | provenance                                     |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :--------------------------------------------: |
-    | ALRvk7kh  | BNE-bdh0000161254     | Recueil des morceaux de musique ancienne. [onzième volume] [Música notada] :exécutés aux concerts de la Société de Musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage des Mesdames la Mle. Duchesse d'Albufera ... et sous la direction de M. Le Prince de la Moskova | [external URL](j3tnVzW5) | [Biblioteca Nacional de España](./GnkzLFgd.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                                                                                               | permalink                                                         | provenance                                     |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------: | :--------------------------------------------: |
+    | ALRvk7kh  | BNE-bdh0000161254     | Recueil des morceaux de musique ancienne. [onzième volume] [Música notada] :exécutés aux concerts de la Société de Musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage des Mesdames la Mle. Duchesse d'Albufera ... et sous la direction de M. Le Prince de la Moskova | [external URL](http://bdh.bne.es/bnesearch/detalle/bdh0000161254) | [Biblioteca Nacional de España](./GnkzLFgd.md) |
 
 ## Statements
 
@@ -86,10 +90,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/ALRvk7kh.html" height="800" width="1200" title="ALRvk7kh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ALRvk7kh" height="800" width="1200" title="ALRvk7kh"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/ALRvk7kh.html" height="800" width="1200" title="ALRvk7kh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/ALRvk7kh" height="800" width="1200" title="ALRvk7kh"></iframe>

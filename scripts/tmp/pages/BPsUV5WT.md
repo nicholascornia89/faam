@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BPsUV5WT
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                          | aliases          | Wikidata QID                                           |
-    | :-------: | :--------: | :----------------------------------------------------------------------------------: | :--------------: | :----------------------------------------------------: |
-    | BPsUV5WT  | librettist | author of the libretto (words) of an opera or a similar extended musical composition | opera librettist | [librettist](http://wwww.wikidata.org/entity/Q8178443) |
+    | FAAM UUID | label      | description                                                                          | aliases          | Wikidata QID                                      |
+    | :-------: | :--------: | :----------------------------------------------------------------------------------: | :--------------: | :-----------------------------------------------: |
+    | BPsUV5WT  | librettist | author of the libretto (words) of an opera or a similar extended musical composition | opera librettist | [librettist](http://wikidata.org/entity/Q8178443) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BPsUV5WT.html" height="800" width="1200" title="BPsUV5WT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BPsUV5WT" height="800" width="1200" title="BPsUV5WT"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[Edouard Bélanger](./KkjWWRKk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French librettist (1804-1878)
 
@@ -97,7 +101,7 @@ tags: occupation
 
 -	__[Henry de Puymaly](./8ziidhix.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French poet
 
@@ -109,13 +113,13 @@ tags: occupation
 
 -	__[William Barclay Squire](./KBQKrrwD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/49/William_Barclay_Squire.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/William_Barclay_Squire.jpg){align=left width="150" height="150"} 
 
 	British musicologist, librarian and librettist (1855-1927)
 
 -	__[Antonio Denzio](./Muw3uQmx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian opera singer
 
@@ -127,7 +131,7 @@ tags: occupation
 
 -	__[Frans Gittens](./jcu4u5sd.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian writer (1842-1911)
 
@@ -139,7 +143,7 @@ tags: occupation
 
 -	__[Gabriele D'Annunzio](./i2w6M7XJ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/25/Gabriele_D%27Annunzio_1922.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gabriele_D%27Annunzio_1922.jpg){align=left width="150" height="150"} 
 
 	
 

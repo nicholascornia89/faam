@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kgc3ZdF7
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | description     | aliases                        | Wikidata QID                                   |
-    | :-------: | :------------------------------------: | :-------------: | :----------------------------: | :--------------------------------------------: |
-    | kgc3ZdF7  | Nikolaus Lenau Theoretical High School | Romanian school | Liceul Teoretic Nikolaus Lenau | [N](http://wwww.wikidata.org/entity/Q20437431) |
+    | FAAM UUID | label                                  | description     | aliases                        | Wikidata QID                              |
+    | :-------: | :------------------------------------: | :-------------: | :----------------------------: | :---------------------------------------: |
+    | kgc3ZdF7  | Nikolaus Lenau Theoretical High School | Romanian school | Liceul Teoretic Nikolaus Lenau | [N](http://wikidata.org/entity/Q20437431) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: music_organization
 
 !!! quote "country" 
 
-	[](./9NkQurbP.md)
+	[Romania](./9NkQurbP.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/kgc3ZdF7.html" height="800" width="1200" title="kgc3ZdF7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kgc3ZdF7" height="800" width="1200" title="kgc3ZdF7"></iframe>
 
 ## Cross-references
 

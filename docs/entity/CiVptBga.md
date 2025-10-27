@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CiVptBga
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/CiVptBga.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/CiVptBga.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/CiVptBga.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/CiVptBga.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/CiVptBga.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/CiVptBga.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description                | Wikidata QID                                                |
-    | :-------: | :------------: | :-----: | :------------------------: | :---------------------------------------------------------: |
-    | CiVptBga  | Arthur O'Leary |         | Irish composer and pianist | [Arthur O'Leary](http://wwww.wikidata.org/entity/Q17984779) |
+    | FAAM UUID | label          | aliases | description                | Wikidata QID                                           |
+    | :-------: | :------------: | :-----: | :------------------------: | :----------------------------------------------------: |
+    | CiVptBga  | Arthur O'Leary |         | Irish composer and pianist | [Arthur O'Leary](http://wikidata.org/entity/Q17984779) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/CiVptBga.html" height="800" width="1200" title="CiVptBga"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CiVptBga" height="800" width="1200" title="CiVptBga"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Charles Villiers Stanford](./2MedQ7S4.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Villiers_Stanford_c1894bw.jpg){align=left width="150" height="150"} 
+
+	Irish composer, music teacher, and conductor (1852–1924)
+
+</div>

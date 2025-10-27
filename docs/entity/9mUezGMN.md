@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9mUezGMN
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description               | aliases | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------------------: | :-----: | :------------------------------------------------------: |
-    | 9mUezGMN  | Contrexéville | commune in Vosges, France |         | [Contrexéville](http://wwww.wikidata.org/entity/Q633628) |
+    | FAAM UUID | label         | description               | aliases | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------------------: | :-----: | :-------------------------------------------------: |
+    | 9mUezGMN  | Contrexéville | commune in Vosges, France |         | [Contrexéville](http://wikidata.org/entity/Q633628) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9mUezGMN.html" height="800" width="1200" title="9mUezGMN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9mUezGMN" height="800" width="1200" title="9mUezGMN"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Emile Ettling](./JzQHcS6t.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 

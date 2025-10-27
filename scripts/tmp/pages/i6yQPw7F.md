@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: i6yQPw7F
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/i6yQPw7F.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/i6yQPw7F.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/i6yQPw7F.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/i6yQPw7F.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/i6yQPw7F.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/i6yQPw7F.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description                            | Wikidata QID                                                |
-    | :-------: | :-----------: | :-----: | :------------------------------------: | :---------------------------------------------------------: |
-    | i6yQPw7F  | Pieter Benoit |         | Belgian priest and teacher (1820-1892) | [Pieter Benoit](http://wwww.wikidata.org/entity/Q118136722) |
+    | FAAM UUID | label         | aliases | description                            | Wikidata QID                                           |
+    | :-------: | :-----------: | :-----: | :------------------------------------: | :----------------------------------------------------: |
+    | i6yQPw7F  | Pieter Benoit |         | Belgian priest and teacher (1820-1892) | [Pieter Benoit](http://wikidata.org/entity/Q118136722) |
 
 <br><br><br>
 
@@ -43,21 +47,21 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./RgNFJ8gc.md)
+	- [school teacher](./RgNFJ8gc.md)
 
 	- [Catholic priest](./eUa7qYMN.md)
 
-	- [](./bhHSJjYc.md)
+	- [curate](./bhHSJjYc.md)
 
-	- [](./TpKbLAmY.md)
+	- [parson](./TpKbLAmY.md)
 
-	- [](./XGtUx9Ce.md)
+	- [vicar general](./XGtUx9Ce.md)
 
-	- [](./Tiv96JGs.md)
+	- [director](./Tiv96JGs.md)
 
-	- [](./Db7aL4Bi.md)
+	- [canon](./Db7aL4Bi.md)
 
-	- [](./4J5zywfh.md)
+	- [secretary](./4J5zywfh.md)
 
 ??? quote "educated at" 
 
@@ -67,15 +71,15 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./aPSw7Qx2.md)
+	- [Episcopal College Our-Lady Ter Duinen](./aPSw7Qx2.md)
 
-	- [](./norpC5Ht.md)
+	- [William Turner](./norpC5Ht.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/i6yQPw7F.html" height="800" width="1200" title="i6yQPw7F"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/i6yQPw7F" height="800" width="1200" title="i6yQPw7F"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Guido Gezelle](./Rz4AdCV3.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Guido_Gezelle.jpg){align=left width="150" height="150"} 
+
+	Belgian poet, journalist, teacher, monastery director and priest (1830–1899)
+
+</div>

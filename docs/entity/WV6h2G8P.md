@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WV6h2G8P
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WV6h2G8P.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WV6h2G8P.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WV6h2G8P.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WV6h2G8P.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WV6h2G8P.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WV6h2G8P.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giuseppe_Concone_by_Marie-Alexandre_Alophe.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                           | description                                     | Wikidata QID                                                |
-    | :-------: | :--------------: | :-------------------------------: | :---------------------------------------------: | :---------------------------------------------------------: |
-    | WV6h2G8P  | Giuseppe Concone | Paolo Giuseppe Gioacchino Concone | Italian composer and music educator (1801-1861) | [Giuseppe Concone](http://wwww.wikidata.org/entity/Q709173) |
+    | FAAM UUID | label            | aliases                           | description                                     | Wikidata QID                                           |
+    | :-------: | :--------------: | :-------------------------------: | :---------------------------------------------: | :----------------------------------------------------: |
+    | WV6h2G8P  | Giuseppe Concone | Paolo Giuseppe Gioacchino Concone | Italian composer and music educator (1801-1861) | [Giuseppe Concone](http://wikidata.org/entity/Q709173) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/WV6h2G8P.html" height="800" width="1200" title="WV6h2G8P"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WV6h2G8P" height="800" width="1200" title="WV6h2G8P"></iframe>
 
 ## Identifiers
 

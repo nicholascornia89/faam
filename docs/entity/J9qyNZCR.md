@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: J9qyNZCR
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/J9qyNZCR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/J9qyNZCR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/J9qyNZCR.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/J9qyNZCR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/J9qyNZCR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/J9qyNZCR.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases | description | Wikidata QID                                                       |
-    | :-------: | :-------------------: | :-----: | :---------: | :----------------------------------------------------------------: |
-    | J9qyNZCR  | Yvonne Van den Berghe |         |             | [Yvonne Van den Berghe](http://wwww.wikidata.org/entity/Q41885446) |
+    | FAAM UUID | label                 | aliases | description                  | Wikidata QID                                                  |
+    | :-------: | :-------------------: | :-----: | :--------------------------: | :-----------------------------------------------------------: |
+    | J9qyNZCR  | Yvonne Van den Berghe |         | Belgian pianist and composer | [Yvonne Van den Berghe](http://wikidata.org/entity/Q41885446) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/J9qyNZCR.html" height="800" width="1200" title="J9qyNZCR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/J9qyNZCR" height="800" width="1200" title="J9qyNZCR"></iframe>
 
 ## Identifiers
 
@@ -69,13 +73,13 @@ tags: agent
 
 -	__[1re Suite](./iyuFoWAW.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903966619.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903966619.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[2e suite](./9xi59B5o.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903966585.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903966585.gif){align=left width="150" height="150"} 
 
 	
 

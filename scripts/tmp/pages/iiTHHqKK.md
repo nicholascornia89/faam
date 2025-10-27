@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: iiTHHqKK
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                                                                | aliases    | Wikidata QID                                          |
-    | :-------: | :--------: | :--------------------------------------------------------------------------------------------------------: | :--------: | :---------------------------------------------------: |
-    | iiTHHqKK  | accidental | note whose pitch is not a member of the scale or mode indicated by the most recently applied key signature | accidental | [accidental](http://wwww.wikidata.org/entity/Q816335) |
+    | FAAM UUID | label      | description                                                                                                | aliases    | Wikidata QID                                     |
+    | :-------: | :--------: | :--------------------------------------------------------------------------------------------------------: | :--------: | :----------------------------------------------: |
+    | iiTHHqKK  | accidental | note whose pitch is not a member of the scale or mode indicated by the most recently applied key signature | accidental | [accidental](http://wikidata.org/entity/Q816335) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/iiTHHqKK.html" height="800" width="1200" title="iiTHHqKK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/iiTHHqKK" height="800" width="1200" title="iiTHHqKK"></iframe>
 
 ## Cross-references
 

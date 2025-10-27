@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LPPjLsLK
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                                             | aliases       | Wikidata QID                                       |
-    | :-------: | :------: | :-------------------------------------------------------------------------------------: | :-----------: | :------------------------------------------------: |
-    | LPPjLsLK  | Somerset | ceremonial county of England (use Q21694741 for administrative non-metropolitan county) | Somersetshire | [Somerset](http://wwww.wikidata.org/entity/Q23157) |
+    | FAAM UUID | label    | description                                                                             | aliases       | Wikidata QID                                  |
+    | :-------: | :------: | :-------------------------------------------------------------------------------------: | :-----------: | :-------------------------------------------: |
+    | LPPjLsLK  | Somerset | ceremonial county of England (use Q21694741 for administrative non-metropolitan county) | Somersetshire | [Somerset](http://wikidata.org/entity/Q23157) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LPPjLsLK.html" height="800" width="1200" title="LPPjLsLK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LPPjLsLK" height="800" width="1200" title="LPPjLsLK"></iframe>
 
 ## Identifiers
 

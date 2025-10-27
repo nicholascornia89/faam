@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AV8ufSdP
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/AV8ufSdP.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/AV8ufSdP.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/AV8ufSdP.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/AV8ufSdP.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/AV8ufSdP.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/AV8ufSdP.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases          | description             | Wikidata QID                                             |
-    | :-------: | :----------: | :--------------: | :---------------------: | :------------------------------------------------------: |
-    | AV8ufSdP  | Casa Ricordi | G. Ricordi & Co. | Italian music publisher | [Casa Ricordi](http://wwww.wikidata.org/entity/Q1046463) |
+    | FAAM UUID | label        | aliases          | description             | Wikidata QID                                        |
+    | :-------: | :----------: | :--------------: | :---------------------: | :-------------------------------------------------: |
+    | AV8ufSdP  | Casa Ricordi | G. Ricordi & Co. | Italian music publisher | [Casa Ricordi](http://wikidata.org/entity/Q1046463) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/AV8ufSdP.html" height="800" width="1200" title="AV8ufSdP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AV8ufSdP" height="800" width="1200" title="AV8ufSdP"></iframe>
 
 ## Identifiers
 
@@ -63,31 +67,31 @@ tags: agent
 
 -	__[Sonatinen : für Pianoforte Solo](./gJXhyA3T.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902713814.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902713814.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tre Sonate per pianoforte e viola da gamba : Trascritte per pianoforte e viola](./Y4n8cg5A.md)__
 
-	![Image](../assets/images/thumbs/KCG-000119533.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000119533.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les chérubins : pour violon et piano](./4mcJukFM.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904920177.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904920177.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Bergamasca: per violoncello con accomp.to di pianoforte](./7StSgcq9.md)__
 
-	![Image](../assets/images/thumbs/BSB-991143788186707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991143788186707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonata n. 23 in Mi : per pianoforte](./Ctg6WJxF.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904673867.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904673867.gif){align=left width="150" height="150"} 
 
 	
 

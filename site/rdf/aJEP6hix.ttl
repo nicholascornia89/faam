@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aJEP6hix a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "economic product that directly satisfies wants without producing a lasting asset"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7406919>,
+        "16005800"^^xsd:string,
+        "aJEP6hix"^^xsd:string ;
+    skos:altLabel "service"^^xsd:string ;
+    skos:prefLabel "service"^^xsd:string .
+

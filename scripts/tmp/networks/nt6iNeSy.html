@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UECthgZn", "label": "Nikolai Ivanovich Lobachevsky", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UECthgZn.md\u0027\u003eNikolai Ivanovich Lobachevsky\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian mathematician (1792\u20131856)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HADkrZop", "label": "Nikolay Zinin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HADkrZop.md\u0027\u003eNikolay Zinin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian chemist (1812-1880)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai_Nikolajewitsch_Sinin.JPG\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nt6iNeSy", "label": "Kazan Imperial University", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nt6iNeSy.md\u0027\u003eKazan Imperial University\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the twelve Imperial Universities of the Russian Empire (1805-1917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "DEbEnXwM", "label": "Russian Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DEbEnXwM.md\u0027\u003eRussian Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer empire in Eurasia and North America (1721\u20131917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CuEsY7FX", "label": "Ivan Mikhailovich Simonov", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CuEsY7FX.md\u0027\u003eIvan Mikhailovich Simonov\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian astronomer (1794-1855)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "G4nFfHhY", "label": "Mily Balakirev", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./G4nFfHhY.md\u0027\u003eMily Balakirev\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer, pianist, and conductor (1837-1910)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\u041c\u0438\u043b\u0438\u0439_\u0411\u0430\u043b\u0430\u043a\u0438\u0440\u0435\u0432.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "UECthgZn", "to": "HADkrZop", "width": 10}, {"from": "UECthgZn", "to": "nt6iNeSy", "width": 10}, {"from": "HADkrZop", "to": "DEbEnXwM", "width": 1}, {"from": "HADkrZop", "to": "CuEsY7FX", "width": 10}, {"from": "HADkrZop", "to": "nt6iNeSy", "width": 10}, {"from": "G4nFfHhY", "to": "DEbEnXwM", "width": 10}, {"from": "G4nFfHhY", "to": "nt6iNeSy", "width": 10}, {"from": "CuEsY7FX", "to": "nt6iNeSy", "width": 10}, {"from": "nt6iNeSy", "to": "DEbEnXwM", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nt6iNeSy", "label": "Kazan Imperial University", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/nt6iNeSy\u0027\u003eKazan Imperial University\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the twelve Imperial Universities of the Russian Empire (1805-1917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "DEbEnXwM", "label": "Russian Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DEbEnXwM\u0027\u003eRussian Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer empire in Eurasia and North America (1721\u20131917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HADkrZop", "label": "Nikolay Zinin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HADkrZop\u0027\u003eNikolay Zinin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian chemist (1812-1880)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai_Nikolajewitsch_Sinin.JPG\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "G4nFfHhY", "label": "Mily Balakirev", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/G4nFfHhY\u0027\u003eMily Balakirev\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer, pianist, and conductor (1837-1910)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\u041c\u0438\u043b\u0438\u0439_\u0411\u0430\u043b\u0430\u043a\u0438\u0440\u0435\u0432.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UECthgZn", "label": "Nikolai Ivanovich Lobachevsky", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UECthgZn\u0027\u003eNikolai Ivanovich Lobachevsky\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian mathematician (1792\u20131856)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CuEsY7FX", "label": "Ivan Mikhailovich Simonov", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CuEsY7FX\u0027\u003eIvan Mikhailovich Simonov\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian astronomer (1794-1855)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "nt6iNeSy", "to": "DEbEnXwM", "width": 10}, {"from": "nt6iNeSy", "to": "HADkrZop", "width": 10}, {"from": "nt6iNeSy", "to": "G4nFfHhY", "width": 10}, {"from": "nt6iNeSy", "to": "UECthgZn", "width": 10}, {"from": "nt6iNeSy", "to": "CuEsY7FX", "width": 10}, {"from": "UECthgZn", "to": "HADkrZop", "width": 10}, {"from": "CuEsY7FX", "to": "HADkrZop", "width": 10}, {"from": "G4nFfHhY", "to": "DEbEnXwM", "width": 10}, {"from": "DEbEnXwM", "to": "HADkrZop", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

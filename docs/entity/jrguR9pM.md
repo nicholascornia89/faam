@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jrguR9pM
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                          | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | jrguR9pM  | Keyboard Sonata in D major, K.298 | Keyboard Sonata in D major, L.S6 | sonata by Domenico Scarlatti | [Sonata K. 298](http://wwww.wikidata.org/entity/Q77262990) |
+    | FAAM UUID | label                             | aliases                          | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | jrguR9pM  | Keyboard Sonata in D major, K.298 | Keyboard Sonata in D major, L.S6 | sonata by Domenico Scarlatti | [Sonata K. 298](http://wikidata.org/entity/Q77262990) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/jrguR9pM.html" height="800" width="1200" title="jrguR9pM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jrguR9pM" height="800" width="1200" title="jrguR9pM"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

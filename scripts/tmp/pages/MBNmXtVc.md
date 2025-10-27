@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MBNmXtVc
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MBNmXtVc.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MBNmXtVc.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MBNmXtVc.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MBNmXtVc.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MBNmXtVc.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MBNmXtVc.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pablo_de_Sarasate_1906.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases                 | description                                | Wikidata QID                                                 |
-    | :-------: | :---------------: | :---------------------: | :----------------------------------------: | :----------------------------------------------------------: |
-    | MBNmXtVc  | Pablo de Sarasate | Martin Meliton Sarasate | Spanish violinist and composer (1844–1908) | [Pablo de Sarasate](http://wwww.wikidata.org/entity/Q204503) |
+    | FAAM UUID | label             | aliases                 | description                                | Wikidata QID                                            |
+    | :-------: | :---------------: | :---------------------: | :----------------------------------------: | :-----------------------------------------------------: |
+    | MBNmXtVc  | Pablo de Sarasate | Martin Meliton Sarasate | Spanish violinist and composer (1844–1908) | [Pablo de Sarasate](http://wikidata.org/entity/Q204503) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/MBNmXtVc.html" height="800" width="1200" title="MBNmXtVc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MBNmXtVc" height="800" width="1200" title="MBNmXtVc"></iframe>
 
 ## Identifiers
 
@@ -85,13 +89,21 @@ tags: agent
 
 -	__[Sérénade andalouse: pour violon et piano, op. 28](./haTPbpUy.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901351285.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901351285.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sérénade andalouse: pour violon et piano, op. 28](./E94koxmQ.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901292380.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901292380.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Serenata andaluza, Op.28](./emZktnEj.md)__
 
 	
 

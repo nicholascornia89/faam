@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jR8uTqhp
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                                                          | aliases                        | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :----------------------------------------------------------------------------------: | :----------------------------: | :---------------------------------------------------------------: |
-    | jR8uTqhp  | transposing instrument | instrument for which music is conventionally written transposed to a different pitch | transposing musical instrument | [transposing instrument](http://wwww.wikidata.org/entity/Q217306) |
+    | FAAM UUID | label                  | description                                                                          | aliases                        | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :----------------------------------------------------------------------------------: | :----------------------------: | :----------------------------------------------------------: |
+    | jR8uTqhp  | transposing instrument | instrument for which music is conventionally written transposed to a different pitch | transposing musical instrument | [transposing instrument](http://wikidata.org/entity/Q217306) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/jR8uTqhp.html" height="800" width="1200" title="jR8uTqhp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jR8uTqhp" height="800" width="1200" title="jR8uTqhp"></iframe>
 
 ## Cross-references
 

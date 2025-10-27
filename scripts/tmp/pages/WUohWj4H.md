@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WUohWj4H
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                 | aliases | Wikidata QID                                                     |
-    | :-------: | :------------------: | :-------------------------: | :-----: | :--------------------------------------------------------------: |
-    | WUohWj4H  | St. Michael's School | school in Lüneburg, Germany |         | [St. Michael's School](http://wwww.wikidata.org/entity/Q1930161) |
+    | FAAM UUID | label                | description                 | aliases | Wikidata QID                                                |
+    | :-------: | :------------------: | :-------------------------: | :-----: | :---------------------------------------------------------: |
+    | WUohWj4H  | St. Michael's School | school in Lüneburg, Germany |         | [St. Michael's School](http://wikidata.org/entity/Q1930161) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/WUohWj4H.html" height="800" width="1200" title="WUohWj4H"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WUohWj4H" height="800" width="1200" title="WUohWj4H"></iframe>
 
 ## Cross-references
 

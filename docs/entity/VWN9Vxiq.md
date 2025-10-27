@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VWN9Vxiq
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                                           | aliases | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :-------------------------------------------------------------------: | :-----: | :---------------------------------------------------------------: |
-    | VWN9Vxiq  | Black Mountain College | college in the United States known for its liberal and arts education | BMC     | [Black Mountain College](http://wwww.wikidata.org/entity/Q880447) |
+    | FAAM UUID | label                  | description                                                           | aliases | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :-------------------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
+    | VWN9Vxiq  | Black Mountain College | college in the United States known for its liberal and arts education | BMC     | [Black Mountain College](http://wikidata.org/entity/Q880447) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./SnXvLPGu.md)
+	[Black Mountain](./SnXvLPGu.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/VWN9Vxiq.html" height="800" width="1200" title="VWN9Vxiq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VWN9Vxiq" height="800" width="1200" title="VWN9Vxiq"></iframe>
 
 ## Cross-references
 

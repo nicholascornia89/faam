@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TiHP2Aim
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                        | aliases                | Wikidata QID                                          |
-    | :-------: | :--------: | :--------------------------------: | :--------------------: | :---------------------------------------------------: |
-    | TiHP2Aim  | Shrewsbury | county town of Shropshire, England | Shrewsbury, Shropshire | [Shrewsbury](http://wwww.wikidata.org/entity/Q201970) |
+    | FAAM UUID | label      | description                        | aliases                | Wikidata QID                                     |
+    | :-------: | :--------: | :--------------------------------: | :--------------------: | :----------------------------------------------: |
+    | TiHP2Aim  | Shrewsbury | county town of Shropshire, England | Shrewsbury, Shropshire | [Shrewsbury](http://wikidata.org/entity/Q201970) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TiHP2Aim.html" height="800" width="1200" title="TiHP2Aim"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TiHP2Aim" height="800" width="1200" title="TiHP2Aim"></iframe>
 
 ## Identifiers
 

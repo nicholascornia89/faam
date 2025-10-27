@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FCFjyCRp
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                                                  | aliases  | Wikidata QID                                                 |
-    | :-------: | :--------------: | :--------------------------------------------------------------------------: | :------: | :----------------------------------------------------------: |
-    | FCFjyCRp  | costume designer | person who designs costumes for a film, stage production, or television show | costumer | [costume designer](http://wwww.wikidata.org/entity/Q1323191) |
+    | FAAM UUID | label            | description                                                                  | aliases  | Wikidata QID                                            |
+    | :-------: | :--------------: | :--------------------------------------------------------------------------: | :------: | :-----------------------------------------------------: |
+    | FCFjyCRp  | costume designer | person who designs costumes for a film, stage production, or television show | costumer | [costume designer](http://wikidata.org/entity/Q1323191) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/FCFjyCRp.html" height="800" width="1200" title="FCFjyCRp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FCFjyCRp" height="800" width="1200" title="FCFjyCRp"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CNca7fBj
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                            | description | aliases | Wikidata QID                                                                                                 |
-    | :-------: | :--------------------------------------------------------------: | :---------: | :-----: | :----------------------------------------------------------------------------------------------------------: |
-    | CNca7fBj  | Faculty of Physics and Mathematics of Moscow Imperial University |             |         | [Faculty of Physics and Mathematics of Moscow Imperial University](http://wwww.wikidata.org/entity/Q4483556) |
+    | FAAM UUID | label                                                            | description | aliases | Wikidata QID                                                                                            |
+    | :-------: | :--------------------------------------------------------------: | :---------: | :-----: | :-----------------------------------------------------------------------------------------------------: |
+    | CNca7fBj  | Faculty of Physics and Mathematics of Moscow Imperial University |             |         | [Faculty of Physics and Mathematics of Moscow Imperial University](http://wikidata.org/entity/Q4483556) |
 
 <br><br><br>
 
@@ -33,9 +37,9 @@ tags: music_organization
 
 	[Russian Empire](./DEbEnXwM.md)
 
-	[](./gtpMWPv9.md)
+	[Russian Republic](./gtpMWPv9.md)
 
-	[](./eeLsSgs5.md)
+	[Russian Socialist Federative Soviet Republic](./eeLsSgs5.md)
 
 	[Soviet Union](./c4DdDGWx.md)
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/CNca7fBj.html" height="800" width="1200" title="CNca7fBj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CNca7fBj" height="800" width="1200" title="CNca7fBj"></iframe>
 
 ## Cross-references
 

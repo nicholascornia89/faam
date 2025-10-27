@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MtwyZtSW
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description | Wikidata QID                         |
-    | :-------: | :-------------: | :-----: | :---------: | :----------------------------------: |
-    | MtwyZtSW  | 6 Sonatas, Op.2 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label           | aliases | description | Wikidata QID                    |
+    | :-------: | :-------------: | :-----: | :---------: | :-----------------------------: |
+    | MtwyZtSW  | 6 Sonatas, Op.2 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/MtwyZtSW.html" height="800" width="1200" title="MtwyZtSW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MtwyZtSW" height="800" width="1200" title="MtwyZtSW"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Six Sonatas : for the Harpsichord or Piano Forte with an Accompanyment for a German Flûte or Violin : Op. II](./nJai3Wij.md)__
 
-	![Image](../assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000339708.gif){align=left width="150" height="150"} 
 
 	
 

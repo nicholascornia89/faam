@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XED8Jehz
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                                   | description                 | aliases | Wikidata QID                                                                                        |
-    | :-------: | :-----------------------------------------------------: | :-------------------------: | :-----: | :-------------------------------------------------------------------------------------------------: |
-    | XED8Jehz  | Conservatoire National Supérieur de Musique et de Danse | French music conservatories | CNSMD   | [Conservatoire National Supérieur de Musique et de Danse](http://wwww.wikidata.org/entity/Q2994538) |
+    | FAAM UUID | label                                                   | description                 | aliases | Wikidata QID                                                                                   |
+    | :-------: | :-----------------------------------------------------: | :-------------------------: | :-----: | :--------------------------------------------------------------------------------------------: |
+    | XED8Jehz  | Conservatoire National Supérieur de Musique et de Danse | French music conservatories | CNSMD   | [Conservatoire National Supérieur de Musique et de Danse](http://wikidata.org/entity/Q2994538) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/XED8Jehz.html" height="800" width="1200" title="XED8Jehz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XED8Jehz" height="800" width="1200" title="XED8Jehz"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: music_organization
 
 -	__[Charles-Wilfrid de Bériot](./Mj6zznNc.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e2/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg){align=left width="150" height="150"} 
 
 	French pianist and composer (1833-1914)
 
@@ -71,7 +75,7 @@ tags: music_organization
 
 -	__[Ignaz Ladurner](./m6fgGvfv.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French pianist
 
@@ -83,13 +87,13 @@ tags: music_organization
 
 -	__[Benoit Mozin](./MMwKNSFQ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1769-1857)
 
 -	__[Paul Wachs](./DZekGw3j.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1851–1915)
 
@@ -107,19 +111,19 @@ tags: music_organization
 
 -	__[Jean Ancot junior](./BwiWTb7j.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian violinist and composer
 
 -	__[Charles Baudiot](./NnHKaK9g.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French cellist, composer and music educator
 
 -	__[Jean Rémusat](./fuX5W9ho.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French flautist, composer and conductor
 

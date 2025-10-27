@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5YrR8BxV
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5YrR8BxV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5YrR8BxV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5YrR8BxV.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5YrR8BxV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5YrR8BxV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5YrR8BxV.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dupre.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                              | Wikidata QID                                            |
-    | :-------: | :----------: | :----------: | :--------------------------------------: | :-----------------------------------------------------: |
-    | 5YrR8BxV  | Marcel Dupré | Marcel Dupre | French organist and composer (1886–1971) | [Marcel Dupré](http://wwww.wikidata.org/entity/Q315879) |
+    | FAAM UUID | label        | aliases      | description                              | Wikidata QID                                       |
+    | :-------: | :----------: | :----------: | :--------------------------------------: | :------------------------------------------------: |
+    | 5YrR8BxV  | Marcel Dupré | Marcel Dupre | French organist and composer (1886–1971) | [Marcel Dupré](http://wikidata.org/entity/Q315879) |
 
 <br><br><br>
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/5YrR8BxV.html" height="800" width="1200" title="5YrR8BxV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5YrR8BxV" height="800" width="1200" title="5YrR8BxV"></iframe>
 
 ## Identifiers
 
@@ -95,7 +99,15 @@ tags: agent
 
 -	__[Huit petits préludes et fugues, trois préludes, neuf fugues, cinq fantaisies](./C7MaY9BP.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902707634.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902707634.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[8 Kleine Präludien und Fugen, BWV 553-560](./HeEL7b5v.md)__
 
 	
 

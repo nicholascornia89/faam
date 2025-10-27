@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WmzqRyzE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WmzqRyzE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WmzqRyzE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WmzqRyzE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WmzqRyzE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WmzqRyzE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WmzqRyzE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description | Wikidata QID                                               |
-    | :-------: | :------------: | :-----: | :---------: | :--------------------------------------------------------: |
-    | WmzqRyzE  | Ludwig Stassny | Ludwig  | (1823-1883) | [Ludwig Stassny](http://wwww.wikidata.org/entity/Q2495067) |
+    | FAAM UUID | label          | aliases | description | Wikidata QID                                          |
+    | :-------: | :------------: | :-----: | :---------: | :---------------------------------------------------: |
+    | WmzqRyzE  | Ludwig Stassny | Ludwig  | (1823-1883) | [Ludwig Stassny](http://wikidata.org/entity/Q2495067) |
 
 <br><br><br>
 
@@ -49,17 +53,17 @@ tags: agent
 
 	- [conductor](./TDF2knmi.md)
 
-	- [](./FPRyBmX6.md)
+	- [oboist](./FPRyBmX6.md)
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./5eUMkMxY.md)
+	- [bandleader](./5eUMkMxY.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/WmzqRyzE.html" height="800" width="1200" title="WmzqRyzE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WmzqRyzE" height="800" width="1200" title="WmzqRyzE"></iframe>
 
 ## Identifiers
 

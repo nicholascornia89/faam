@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hvszrDaH
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :------------------------: | :-----: | :--------------------------------------------: |
-    | hvszrDaH  | Graz  | capital of Styria, Austria | Gratz   | [Graz](http://wwww.wikidata.org/entity/Q13298) |
+    | FAAM UUID | label | description                | aliases | Wikidata QID                              |
+    | :-------: | :---: | :------------------------: | :-----: | :---------------------------------------: |
+    | hvszrDaH  | Graz  | capital of Styria, Austria | Gratz   | [Graz](http://wikidata.org/entity/Q13298) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/hvszrDaH.html" height="800" width="1200" title="hvszrDaH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hvszrDaH" height="800" width="1200" title="hvszrDaH"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Wilhelm Mayer](./AQUfsFjr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer and music teacher (1831-1898)
 

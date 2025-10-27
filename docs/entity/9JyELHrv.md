@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9JyELHrv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/9JyELHrv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/9JyELHrv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/9JyELHrv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/9JyELHrv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/9JyELHrv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/9JyELHrv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases | description      | Wikidata QID                                            |
-    | :-------: | :---------: | :-----: | :--------------: | :-----------------------------------------------------: |
-    | 9JyELHrv  | Henry Cooke |         | British composer | [Henry Cooke](http://wwww.wikidata.org/entity/Q2281698) |
+    | FAAM UUID | label       | aliases | description      | Wikidata QID                                       |
+    | :-------: | :---------: | :-----: | :--------------: | :------------------------------------------------: |
+    | 9JyELHrv  | Henry Cooke |         | British composer | [Henry Cooke](http://wikidata.org/entity/Q2281698) |
 
 <br><br><br>
 
@@ -45,13 +49,13 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./F6jyWvcL.md)
+	- [actor](./F6jyWvcL.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/9JyELHrv.html" height="800" width="1200" title="9JyELHrv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9JyELHrv" height="800" width="1200" title="9JyELHrv"></iframe>
 
 ## Identifiers
 
@@ -68,3 +72,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Henry Purcell](./MUYzJ4yk.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henry_Purcell_by_John_Closterman.jpg){align=left width="150" height="150"} 
+
+	English composer (1659–1695)
+
+</div>

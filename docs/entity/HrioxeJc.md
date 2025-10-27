@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HrioxeJc
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-18839/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HrioxeJc.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HrioxeJc.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HrioxeJc.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-18839/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HrioxeJc.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HrioxeJc.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HrioxeJc.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-18839.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18839.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                    | permalink                | provenance                            |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | HrioxeJc  | SML-18839             | Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer. | [external URL](eSzqVmee) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                    | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | HrioxeJc  | SML-18839             | Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910342143405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -97,10 +101,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/HrioxeJc.html" height="800" width="1200" title="HrioxeJc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HrioxeJc" height="800" width="1200" title="HrioxeJc"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/HrioxeJc.html" height="800" width="1200" title="HrioxeJc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/HrioxeJc" height="800" width="1200" title="HrioxeJc"></iframe>

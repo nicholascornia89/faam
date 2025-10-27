@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7iMBWEYF
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7iMBWEYF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7iMBWEYF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7iMBWEYF.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7iMBWEYF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7iMBWEYF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7iMBWEYF.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Auguste_Mathieu_Panseron.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                  | description                 | Wikidata QID                                                |
-    | :-------: | :--------------: | :----------------------: | :-------------------------: | :---------------------------------------------------------: |
-    | 7iMBWEYF  | Auguste Panseron | Auguste Mathieu Panseron | French composer (1795–1859) | [Auguste Panseron](http://wwww.wikidata.org/entity/Q713985) |
+    | FAAM UUID | label            | aliases                  | description                 | Wikidata QID                                           |
+    | :-------: | :--------------: | :----------------------: | :-------------------------: | :----------------------------------------------------: |
+    | 7iMBWEYF  | Auguste Panseron | Auguste Mathieu Panseron | French composer (1795–1859) | [Auguste Panseron](http://wikidata.org/entity/Q713985) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/7iMBWEYF.html" height="800" width="1200" title="7iMBWEYF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7iMBWEYF" height="800" width="1200" title="7iMBWEYF"></iframe>
 
 ## Identifiers
 

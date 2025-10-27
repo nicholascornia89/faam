@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bNiuGkz8
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                       | aliases | Wikidata QID                                                      |
-    | :-------: | :-----------------: | :-------------------------------: | :-----: | :---------------------------------------------------------------: |
-    | bNiuGkz8  | Hanover State Opera | opera company in Hanover, Germany |         | [Hanover State Opera](http://wwww.wikidata.org/entity/Q114142443) |
+    | FAAM UUID | label               | description                       | aliases | Wikidata QID                                                 |
+    | :-------: | :-----------------: | :-------------------------------: | :-----: | :----------------------------------------------------------: |
+    | bNiuGkz8  | Hanover State Opera | opera company in Hanover, Germany |         | [Hanover State Opera](http://wikidata.org/entity/Q114142443) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/bNiuGkz8.html" height="800" width="1200" title="bNiuGkz8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bNiuGkz8" height="800" width="1200" title="bNiuGkz8"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: karjSL3s
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                      | aliases           | Wikidata QID                                           |
-    | :-------: | :--------: | :------------------------------: | :---------------: | :----------------------------------------------------: |
-    | karjSL3s  | Königsberg | historic capital of East Prussia | Königsberg i. Pr. | [Königsberg](http://wwww.wikidata.org/entity/Q4120832) |
+    | FAAM UUID | label      | description                      | aliases           | Wikidata QID                                      |
+    | :-------: | :--------: | :------------------------------: | :---------------: | :-----------------------------------------------: |
+    | karjSL3s  | Königsberg | historic capital of East Prussia | Königsberg i. Pr. | [Königsberg](http://wikidata.org/entity/Q4120832) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/karjSL3s.html" height="800" width="1200" title="karjSL3s"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/karjSL3s" height="800" width="1200" title="karjSL3s"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,7 @@ tags: city
 
 -	__[Gustav Jensen](./FjJkCWj5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer, violinist and music pedagogue (1843-1895)
 

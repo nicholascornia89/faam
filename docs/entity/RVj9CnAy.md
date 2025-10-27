@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RVj9CnAy
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030901294238/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RVj9CnAy.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RVj9CnAy.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RVj9CnAy.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030901294238/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RVj9CnAy.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RVj9CnAy.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RVj9CnAy.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901294238.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901294238.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title              | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :----------------: | :----------------------: | :-----------------------------------------------------------: |
-    | RVj9CnAy  | KCA-030901294238      | Le retour d'Ulysse | [external URL](hJoKsjEm) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title              | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :----------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | RVj9CnAy  | KCA-030901294238      | Le retour d'Ulysse | [external URL](https://anet.be/record/opacdkvc/c:lvd:6743311/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -96,10 +100,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/RVj9CnAy.html" height="800" width="1200" title="RVj9CnAy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RVj9CnAy" height="800" width="1200" title="RVj9CnAy"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/RVj9CnAy.html" height="800" width="1200" title="RVj9CnAy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/RVj9CnAy" height="800" width="1200" title="RVj9CnAy"></iframe>

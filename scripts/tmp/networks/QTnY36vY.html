@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "QTnY36vY", "label": "Tikhvin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QTnY36vY.md\u0027\u003eTikhvin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and administrative center of Tikhvinsky District of Leningrad Oblast in northwestern Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "3iEGZFo6", "label": "Russia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3iEGZFo6.md\u0027\u003eRussia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Eastern Europe and Northern Asia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DyTsrwPC", "label": "Nikolai Rimsky-Korsakov", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DyTsrwPC.md\u0027\u003eNikolai Rimsky-Korsakov\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer (1844\u20131908)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai_A._Rimsky-Korsakov.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "QTnY36vY", "to": "3iEGZFo6", "width": 10}, {"from": "QTnY36vY", "to": "DyTsrwPC", "width": 10}, {"from": "DyTsrwPC", "to": "3iEGZFo6", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "3iEGZFo6", "label": "Russia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3iEGZFo6\u0027\u003eRussia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Eastern Europe and Northern Asia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "QTnY36vY", "label": "Tikhvin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QTnY36vY\u0027\u003eTikhvin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and administrative center of Tikhvinsky District of Leningrad Oblast in northwestern Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DyTsrwPC", "label": "Nikolai Rimsky-Korsakov", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DyTsrwPC\u0027\u003eNikolai Rimsky-Korsakov\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer (1844\u20131908)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai_A._Rimsky-Korsakov.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "3iEGZFo6", "to": "QTnY36vY", "width": 10}, {"from": "3iEGZFo6", "to": "DyTsrwPC", "width": 10}, {"from": "DyTsrwPC", "to": "QTnY36vY", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

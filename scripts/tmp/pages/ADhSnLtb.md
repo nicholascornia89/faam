@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ADhSnLtb
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases | description | Wikidata QID                         |
-    | :-------: | :----------------------: | :-----: | :---------: | :----------------------------------: |
-    | ADhSnLtb  | Organ Sonata No.4, Op.98 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                    | aliases | description | Wikidata QID                    |
+    | :-------: | :----------------------: | :-----: | :---------: | :-----------------------------: |
+    | ADhSnLtb  | Organ Sonata No.4, Op.98 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/ADhSnLtb.html" height="800" width="1200" title="ADhSnLtb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ADhSnLtb" height="800" width="1200" title="ADhSnLtb"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Sonate : n° IV a moll: für Orgel, op. 98](./BGXtCZJb.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127948.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127948.gif){align=left width="150" height="150"} 
 
 	
 

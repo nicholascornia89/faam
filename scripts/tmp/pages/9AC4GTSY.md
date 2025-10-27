@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9AC4GTSY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                             | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :-----------------------------------------------------: | :-----: | :--------------------------------------------: |
-    | 9AC4GTSY  | Lohn  | municipality in the canton of Schaffhausen, Switzerland | Lohn SH | [Lohn](http://wwww.wikidata.org/entity/Q69629) |
+    | FAAM UUID | label | description                                             | aliases | Wikidata QID                              |
+    | :-------: | :---: | :-----------------------------------------------------: | :-----: | :---------------------------------------: |
+    | 9AC4GTSY  | Lohn  | municipality in the canton of Schaffhausen, Switzerland | Lohn SH | [Lohn](http://wikidata.org/entity/Q69629) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9AC4GTSY.html" height="800" width="1200" title="9AC4GTSY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9AC4GTSY" height="800" width="1200" title="9AC4GTSY"></iframe>
 
 ## Identifiers
 

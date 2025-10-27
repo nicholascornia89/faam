@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 89V9dPXF
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904470207/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/89V9dPXF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/89V9dPXF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/89V9dPXF.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904470207/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/89V9dPXF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/89V9dPXF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/89V9dPXF.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904470207.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904470207.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                              | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 89V9dPXF  | KCA-030904470207      | Charlotte Corday: drame: ouverture | [external URL](gb6MiJbD) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                              | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 89V9dPXF  | KCA-030904470207      | Charlotte Corday: drame: ouverture | [external URL](https://anet.be/record/opacdkvc/c:lvd:6785134/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -110,10 +114,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/89V9dPXF.html" height="800" width="1200" title="89V9dPXF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/89V9dPXF" height="800" width="1200" title="89V9dPXF"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/89V9dPXF.html" height="800" width="1200" title="89V9dPXF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/89V9dPXF" height="800" width="1200" title="89V9dPXF"></iframe>

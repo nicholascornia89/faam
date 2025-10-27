@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5zVbdo3L
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                        | aliases  | Wikidata QID                                                  |
-    | :-------: | :----------------: | :------------------------------------------------: | :------: | :-----------------------------------------------------------: |
-    | 5zVbdo3L  | County of Flanders | county and historic territory in the Low Countries | Flanders | [County of Flanders](http://wwww.wikidata.org/entity/Q157070) |
+    | FAAM UUID | label              | description                                        | aliases  | Wikidata QID                                             |
+    | :-------: | :----------------: | :------------------------------------------------: | :------: | :------------------------------------------------------: |
+    | 5zVbdo3L  | County of Flanders | county and historic territory in the Low Countries | Flanders | [County of Flanders](http://wikidata.org/entity/Q157070) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/5zVbdo3L.html" height="800" width="1200" title="5zVbdo3L"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5zVbdo3L" height="800" width="1200" title="5zVbdo3L"></iframe>
 
 ## Identifiers
 

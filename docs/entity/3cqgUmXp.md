@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3cqgUmXp
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                     | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-----------------------------: | :-----: | :------------------------------------------------: |
-    | 3cqgUmXp  | Holborn | area of central London, England |         | [Holborn](http://wwww.wikidata.org/entity/Q123624) |
+    | FAAM UUID | label   | description                     | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-----------------------------: | :-----: | :-------------------------------------------: |
+    | 3cqgUmXp  | Holborn | area of central London, England |         | [Holborn](http://wikidata.org/entity/Q123624) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3cqgUmXp.html" height="800" width="1200" title="3cqgUmXp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3cqgUmXp" height="800" width="1200" title="3cqgUmXp"></iframe>
 
 ## Identifiers
 

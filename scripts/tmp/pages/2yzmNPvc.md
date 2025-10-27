@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2yzmNPvc
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description    | aliases          | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :------------: | :--------------: | :----------------------------------------------------------------: |
-    | 2yzmNPvc  | Margraviate of Moravia | historic state | March of Moravia | [Margraviate of Moravia](http://wwww.wikidata.org/entity/Q2670751) |
+    | FAAM UUID | label                  | description    | aliases          | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :------------: | :--------------: | :-----------------------------------------------------------: |
+    | 2yzmNPvc  | Margraviate of Moravia | historic state | March of Moravia | [Margraviate of Moravia](http://wikidata.org/entity/Q2670751) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/2yzmNPvc.html" height="800" width="1200" title="2yzmNPvc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2yzmNPvc" height="800" width="1200" title="2yzmNPvc"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: country
 
 -	__[Wilhelm Würfel](./JHkVzjNY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech conductor, music educator, composer and pianist (1790–1832)
 

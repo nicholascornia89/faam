@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2MU3eQVp
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                                    | aliases           | Wikidata QID                                  |
-    | :-------: | :---: | :----------------------------------------------------------------------------: | :---------------: | :-------------------------------------------: |
-    | 2MU3eQVp  | Malta | country in Southern Europe situated on an archipelago in the Mediterranean Sea | Republic of Malta | [Malta](http://wwww.wikidata.org/entity/Q233) |
+    | FAAM UUID | label | description                                                                    | aliases           | Wikidata QID                             |
+    | :-------: | :---: | :----------------------------------------------------------------------------: | :---------------: | :--------------------------------------: |
+    | 2MU3eQVp  | Malta | country in Southern Europe situated on an archipelago in the Mediterranean Sea | Republic of Malta | [Malta](http://wikidata.org/entity/Q233) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/2MU3eQVp.html" height="800" width="1200" title="2MU3eQVp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2MU3eQVp" height="800" width="1200" title="2MU3eQVp"></iframe>
 
 ## Identifiers
 

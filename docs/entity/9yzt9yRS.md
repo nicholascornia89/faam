@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9yzt9yRS
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description                                                                                                                                 | aliases              | Wikidata QID                                                        |
-    | :-------: | :--------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :------------------: | :-----------------------------------------------------------------: |
-    | 9yzt9yRS  | dramatico-musical work | opera, musical play or show, revue or pantomime for which music has been specially written; for ballet use "choreographic work" (Q58483088) | musico-dramatic work | [dramatico-musical work](http://wwww.wikidata.org/entity/Q58483083) |
+    | FAAM UUID | label                  | description                                                                                                                                 | aliases              | Wikidata QID                                                   |
+    | :-------: | :--------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :------------------: | :------------------------------------------------------------: |
+    | 9yzt9yRS  | dramatico-musical work | opera, musical play or show, revue or pantomime for which music has been specially written; for ballet use "choreographic work" (Q58483088) | musico-dramatic work | [dramatico-musical work](http://wikidata.org/entity/Q58483083) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/9yzt9yRS.html" height="800" width="1200" title="9yzt9yRS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9yzt9yRS" height="800" width="1200" title="9yzt9yRS"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Karel van Gelderland: rol van den hertog](./YpBxmuaF.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901779048.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901779048.gif){align=left width="150" height="150"} 
 
 	
 

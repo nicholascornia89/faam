@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MFcqchRM
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------: | :-----: | :---------: | :----------------------------------: |
-    | MFcqchRM  | È vezzosa si la rosa |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------: | :-----: | :---------: | :-----------------------------: |
+    | MFcqchRM  | È vezzosa si la rosa |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/MFcqchRM.html" height="800" width="1200" title="MFcqchRM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MFcqchRM" height="800" width="1200" title="MFcqchRM"></iframe>
 
 ## Identifiers
 

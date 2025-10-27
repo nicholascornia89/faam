@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3TKaEaEL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                   | aliases      | Wikidata QID                                          |
-    | :-------: | :----------: | :---------------------------: | :----------: | :---------------------------------------------------: |
-    | 3TKaEaEL  | Wolfenbüttel | town in Lower Saxony, Germany | Wolfenbüttel | [Wolfenbüttel](http://wwww.wikidata.org/entity/Q4122) |
+    | FAAM UUID | label        | description                   | aliases      | Wikidata QID                                     |
+    | :-------: | :----------: | :---------------------------: | :----------: | :----------------------------------------------: |
+    | 3TKaEaEL  | Wolfenbüttel | town in Lower Saxony, Germany | Wolfenbüttel | [Wolfenbüttel](http://wikidata.org/entity/Q4122) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3TKaEaEL.html" height="800" width="1200" title="3TKaEaEL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3TKaEaEL" height="800" width="1200" title="3TKaEaEL"></iframe>
 
 ## Identifiers
 

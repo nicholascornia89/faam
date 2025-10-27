@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "ZRPRu8Sj", "label": "literary critic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZRPRu8Sj.md\u0027\u003eliterary critic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecultural journalist who reviews new literary books\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AeLkbfSd", "label": "Willibald Alexis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AeLkbfSd.md\u0027\u003eWillibald Alexis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman historical novelist (1798\u20131871)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Willibald_Alexis.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FtVbBQmi", "label": "Theodor W. Adorno", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FtVbBQmi.md\u0027\u003eTheodor W. Adorno\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman philosopher, sociologist and theorist (1903\u20131969)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Theodor_W._Adorno.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Q2RWCMd8", "label": "Umberto Eco", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Q2RWCMd8.md\u0027\u003eUmberto Eco\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian semiotician, essayist, philosopher, literary critic, and novelist (1932\u20132016)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Italiaanse_schrijver_Umberto_Eco_,_kop,_Bestanddeelnr_932-9758.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6yFavd58", "label": "Charles-Guillaume \u00c9tienne", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6yFavd58.md\u0027\u003eCharles-Guillaume \u00c9tienne\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench dramatist and politician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_D\u00e9sir\u00e9_Court_-_Portrait_de_Charles-Guillaume_\u00c9tienne_(1778-1845),_auteur_dramatique_et_journaliste_-_P2334_-_Mus\u00e9e_Carnavalet.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NJhqUmN2", "label": "Giosu\u00e8 Carducci", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NJhqUmN2.md\u0027\u003eGiosu\u00e8 Carducci\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian poet and teacher (1835-1907)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giosu\u00e8_Carducci3_(cropped).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "ZRPRu8Sj", "to": "AeLkbfSd", "width": 10}, {"from": "ZRPRu8Sj", "to": "FtVbBQmi", "width": 10}, {"from": "ZRPRu8Sj", "to": "Q2RWCMd8", "width": 10}, {"from": "ZRPRu8Sj", "to": "6yFavd58", "width": 10}, {"from": "ZRPRu8Sj", "to": "NJhqUmN2", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FtVbBQmi", "label": "Theodor W. Adorno", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FtVbBQmi\u0027\u003eTheodor W. Adorno\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman philosopher, sociologist and theorist (1903\u20131969)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Theodor_W._Adorno.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "ZRPRu8Sj", "label": "literary critic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZRPRu8Sj\u0027\u003eliterary critic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecultural journalist who reviews new literary books\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Q2RWCMd8", "label": "Umberto Eco", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Q2RWCMd8\u0027\u003eUmberto Eco\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian semiotician, essayist, philosopher, literary critic, and novelist (1932\u20132016)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Italiaanse_schrijver_Umberto_Eco_,_kop,_Bestanddeelnr_932-9758.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AeLkbfSd", "label": "Willibald Alexis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AeLkbfSd\u0027\u003eWillibald Alexis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman historical novelist (1798\u20131871)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Willibald_Alexis.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NJhqUmN2", "label": "Giosu\u00e8 Carducci", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NJhqUmN2\u0027\u003eGiosu\u00e8 Carducci\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian poet and teacher (1835-1907)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giosu\u00e8_Carducci3_(cropped).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6yFavd58", "label": "Charles-Guillaume \u00c9tienne", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6yFavd58\u0027\u003eCharles-Guillaume \u00c9tienne\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench dramatist and politician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_D\u00e9sir\u00e9_Court_-_Portrait_de_Charles-Guillaume_\u00c9tienne_(1778-1845),_auteur_dramatique_et_journaliste_-_P2334_-_Mus\u00e9e_Carnavalet.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "FtVbBQmi", "to": "ZRPRu8Sj", "width": 10}, {"from": "Q2RWCMd8", "to": "ZRPRu8Sj", "width": 10}, {"from": "AeLkbfSd", "to": "ZRPRu8Sj", "width": 10}, {"from": "NJhqUmN2", "to": "ZRPRu8Sj", "width": 10}, {"from": "ZRPRu8Sj", "to": "6yFavd58", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

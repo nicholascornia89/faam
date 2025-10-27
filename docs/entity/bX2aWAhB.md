@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bX2aWAhB
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                     | aliases        | Wikidata QID                                        |
-    | :-------: | :------: | :---------------------------------------------: | :------------: | :-------------------------------------------------: |
-    | bX2aWAhB  | musician | person who composes, conducts or performs music | musical artist | [musician](http://wwww.wikidata.org/entity/Q639669) |
+    | FAAM UUID | label    | description                                     | aliases        | Wikidata QID                                   |
+    | :-------: | :------: | :---------------------------------------------: | :------------: | :--------------------------------------------: |
+    | bX2aWAhB  | musician | person who composes, conducts or performs music | musical artist | [musician](http://wikidata.org/entity/Q639669) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/bX2aWAhB.html" height="800" width="1200" title="bX2aWAhB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bX2aWAhB" height="800" width="1200" title="bX2aWAhB"></iframe>
 
 ## Cross-references
 
@@ -37,19 +41,19 @@ tags: occupation
 
 -	__[Pierre François Riga](./gnZXWv4y.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1831-1892)
 
 -	__[Ernst Wilhelm Fritsch](./UeTdWiXH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician (1840-1902)
 
 -	__[Stephan Lück](./Y37RQzq9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	dom kapellmeister (1806–1883)
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Gaston Knosp](./jqZT8vAB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Knosp, Gaston, 1874-1942
 
@@ -79,13 +83,13 @@ tags: occupation
 
 -	__[Ivo de Vento](./BbgfX7DK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Franco-Flemish composer, organist and Kapellmeister of the High Renaissance
 
 -	__[Theodor de Witt](./muPeVVwX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musician and editor
 
@@ -103,7 +107,7 @@ tags: occupation
 
 -	__[Edmund Fellowes](./Sfrz2XcR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	British musician (1870–1951)
 
@@ -157,19 +161,19 @@ tags: occupation
 
 -	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
 
 	Austrian composer of the Classical period (1756–1791)
 
 -	__[Antonio Vivaldi](./GSqAPxLN.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vivaldi.jpg){align=left width="150" height="150"} 
 
 	Italian composer and violinist (1678-1741)
 
 -	__[Wilbert Hazelzet](./Y8sPETaX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Dutch musician
 
@@ -181,19 +185,19 @@ tags: occupation
 
 -	__[Friedrich Wilhelm Arnold](./PkZM93eA.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Friedrich_Wilhelm_Arnold.tif/lossless-page1-570px-Friedrich_Wilhelm_Arnold.tif.png){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/lossless-page1-570px-Friedrich_Wilhelm_Arnold.tif.png){align=left width="150" height="150"} 
 
 	German musician and publisher
 
 -	__[Giovanni Briccio](./BGgBiHmg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian painter, playwright and musician (1579-1645)
 
 -	__[Kaspar Fürstenau](./W5tLaHDf.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German flautist (1772-1819)
 
@@ -205,25 +209,25 @@ tags: occupation
 
 -	__[Ferdinando Pellegrini](./EqQHPqZp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Franz Xaver Gleichauf](./9A7T4C3U.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Hans Dagobert Bruger](./SSAdqv8W.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Pietro Grassi Florio](./HAZe8aaT.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Pietro Grassi Florio; b. before 1740; d. June 20, 1795 in London; Italian
 
@@ -241,13 +245,13 @@ tags: occupation
 
 -	__[C. Sauveur](./YC8uM4xD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Johann Gottfried Ferrenberg](./PiHf7TsH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist and editor
 
@@ -265,13 +269,13 @@ tags: occupation
 
 -	__[Anton Halm](./Jk8XEGH5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer
 
 -	__[Walter Gerwig](./daYt6piq.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German lutenist and composer (1899–1966)
 
@@ -289,7 +293,7 @@ tags: occupation
 
 -	__[Johann Christoph Bach III](./NcsUmtLU.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Organist in Ohrdruf
 
@@ -301,7 +305,7 @@ tags: occupation
 
 -	__[Johann Christoph Bach II](./8mBATjSW.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 
@@ -337,13 +341,13 @@ tags: occupation
 
 -	__[Pedro Fernández de Castilleja](./fApHxzGr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Robin Mallapert](./SGtJYpLe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician
 
@@ -373,7 +377,7 @@ tags: occupation
 
 -	__[Henri Geul](./ku6jtjDm.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

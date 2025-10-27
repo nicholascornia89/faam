@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hsjALgYF
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                   | aliases           | Wikidata QID                                                  |
-    | :-------: | :---------------: | :---------------------------: | :---------------: | :-----------------------------------------------------------: |
-    | hsjALgYF  | Teatro San Angelo | opera house in Venice (Italy) | Teatro San Angelo | [Teatro San Angelo](http://wwww.wikidata.org/entity/Q1110282) |
+    | FAAM UUID | label             | description                   | aliases           | Wikidata QID                                             |
+    | :-------: | :---------------: | :---------------------------: | :---------------: | :------------------------------------------------------: |
+    | hsjALgYF  | Teatro San Angelo | opera house in Venice (Italy) | Teatro San Angelo | [Teatro San Angelo](http://wikidata.org/entity/Q1110282) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/hsjALgYF.html" height="800" width="1200" title="hsjALgYF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hsjALgYF" height="800" width="1200" title="hsjALgYF"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Antonio Vivaldi](./GSqAPxLN.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vivaldi.jpg){align=left width="150" height="150"} 
 
 	Italian composer and violinist (1678-1741)
 

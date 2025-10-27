@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SbKGQiGw
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases  | description                                | Wikidata QID                                        |
-    | :-------: | :------------: | :------: | :----------------------------------------: | :-------------------------------------------------: |
-    | SbKGQiGw  | La valse, M.72 | La valse | composition for orchestra by Maurice Ravel | [La valse](http://wwww.wikidata.org/entity/Q776559) |
+    | FAAM UUID | label          | aliases  | description                                | Wikidata QID                                   |
+    | :-------: | :------------: | :------: | :----------------------------------------: | :--------------------------------------------: |
+    | SbKGQiGw  | La valse, M.72 | La valse | composition for orchestra by Maurice Ravel | [La valse](http://wikidata.org/entity/Q776559) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/SbKGQiGw.html" height="800" width="1200" title="SbKGQiGw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SbKGQiGw" height="800" width="1200" title="SbKGQiGw"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[La valse: poème choréographique](./QKa8jdiX.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901302353.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901302353.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cR66R5HF
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                                 | aliases | Wikidata QID                                                  |
-    | :-------: | :----------------: | :---------------------------------------------------------: | :-----: | :-----------------------------------------------------------: |
-    | cR66R5HF  | Kingdom of England | historic kingdom on the British Isles (927–1649; 1660–1707) | England | [Kingdom of England](http://wwww.wikidata.org/entity/Q179876) |
+    | FAAM UUID | label              | description                                                 | aliases | Wikidata QID                                             |
+    | :-------: | :----------------: | :---------------------------------------------------------: | :-----: | :------------------------------------------------------: |
+    | cR66R5HF  | Kingdom of England | historic kingdom on the British Isles (927–1649; 1660–1707) | England | [Kingdom of England](http://wikidata.org/entity/Q179876) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/cR66R5HF.html" height="800" width="1200" title="cR66R5HF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cR66R5HF" height="800" width="1200" title="cR66R5HF"></iframe>
 
 ## Identifiers
 
@@ -91,7 +95,7 @@ tags: country
 
 -	__[Sebastian Westcott](./UBQ27YAg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English organist and stager of dramas
 

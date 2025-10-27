@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FUswgx5U
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                        | aliases       | Wikidata QID                                               |
-    | :-------: | :-------------: | :------------------------------------------------: | :-----------: | :--------------------------------------------------------: |
-    | FUswgx5U  | Crown of Aragon | composite monarchy which existed between 1162–1716 | Casal d'Aragó | [Crown of Aragon](http://wwww.wikidata.org/entity/Q204920) |
+    | FAAM UUID | label           | description                                        | aliases       | Wikidata QID                                          |
+    | :-------: | :-------------: | :------------------------------------------------: | :-----------: | :---------------------------------------------------: |
+    | FUswgx5U  | Crown of Aragon | composite monarchy which existed between 1162–1716 | Casal d'Aragó | [Crown of Aragon](http://wikidata.org/entity/Q204920) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/FUswgx5U.html" height="800" width="1200" title="FUswgx5U"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FUswgx5U" height="800" width="1200" title="FUswgx5U"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Bernardino de Ribera](./koZRWEgi.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 

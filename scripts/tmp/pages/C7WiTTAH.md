@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: C7WiTTAH
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                  | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :--------------------------: | :-----: | :--------------------------------------------: |
-    | C7WiTTAH  | harp  | class of musical instruments | harfa   | [harp](http://wwww.wikidata.org/entity/Q47369) |
+    | FAAM UUID | label | description                  | aliases | Wikidata QID                              |
+    | :-------: | :---: | :--------------------------: | :-----: | :---------------------------------------: |
+    | C7WiTTAH  | harp  | class of musical instruments | harfa   | [harp](http://wikidata.org/entity/Q47369) |
 
 <br><br><br>
 
@@ -31,25 +35,25 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./V3aYUudh.md)
+	- [plucked string instrument](./V3aYUudh.md)
 
-	- [](./QkonFCPW.md)
+	- [composite chordophone](./QkonFCPW.md)
 
-	- [](./RZqYrbgY.md)
+	- [archaeological artefact](./RZqYrbgY.md)
 
-	- [](./GNLhTzTf.md)
+	- [artificial physical object](./GNLhTzTf.md)
 
-	- [](./E2Sb746q.md)
+	- [musical instrument](./E2Sb746q.md)
 
 !!! quote "instance of" 
 
-	- [](./dSq7JTyF.md)
+	- [family of musical instruments](./dSq7JTyF.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/C7WiTTAH.html" height="800" width="1200" title="C7WiTTAH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/C7WiTTAH" height="800" width="1200" title="C7WiTTAH"></iframe>
 
 ## Cross-references
 
@@ -59,31 +63,31 @@ tags: musical_instrument
 
 -	__[Impromptu : pour la harpe, op. 86](./ejyZGRuk.md)__
 
-	![Image](../assets/images/thumbs/KCA-03090274817.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090274817.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Air Varié : Pour Flûte Avec accompagnement de deux violons Alto et Basse : Cet air varié est arrangé Pour Flûte et Harpe](./jmuqKQhp.md)__
 
-	![Image](../assets/images/thumbs/KCG-000370112.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000370112.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ancienne musique de luth (XVIe et XVIIe siècles) : adaptée pour l'exécution sur la harpe chromatique](./Y7Uwiric.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901267440.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901267440.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[1er trio : pour Harpe Flute et COr: op. 14](./dwnCQdXb.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750013.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750013.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[1er trio : pour Harpe Flute et COr: op. 14](./dwnCQdXb.md)__
 
-	![Image](../assets/images/thumbs/KCG-000750013.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000750013.gif){align=left width="150" height="150"} 
 
 	
 
@@ -93,13 +97,13 @@ tags: musical_instrument
 
 -	__[Jeanne Dalliès](./DzK8Nnk8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French harpist and musicologist
 
 -	__[Benoît Pollet](./fNsjhW8Z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

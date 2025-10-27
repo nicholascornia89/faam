@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: R7KKRvQ6
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                | aliases         | Wikidata QID                                               |
-    | :-------: | :------------: | :------------------------: | :-------------: | :--------------------------------------------------------: |
-    | R7KKRvQ6  | choir director | person who directs a choir | chorus director | [choir director](http://wwww.wikidata.org/entity/Q1076502) |
+    | FAAM UUID | label          | description                | aliases         | Wikidata QID                                          |
+    | :-------: | :------------: | :------------------------: | :-------------: | :---------------------------------------------------: |
+    | R7KKRvQ6  | choir director | person who directs a choir | chorus director | [choir director](http://wikidata.org/entity/Q1076502) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/R7KKRvQ6.html" height="800" width="1200" title="R7KKRvQ6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/R7KKRvQ6" height="800" width="1200" title="R7KKRvQ6"></iframe>
 
 ## Cross-references
 
@@ -61,7 +65,7 @@ tags: occupation
 
 -	__[Gustav Schreck](./hKmhCVh7.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8d/Gustav_Schreck.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Schreck.jpg){align=left width="150" height="150"} 
 
 	German composer, music educator, and choirmaster (1849–1918)
 
@@ -91,7 +95,7 @@ tags: occupation
 
 -	__[Ton Koopman](./Jy8ns9kr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tonkoopman.jpeg){align=left width="150" height="150"} 
 
 	Dutch conductor, organist and harpsichordist, born 2 October 1944
 
@@ -115,7 +119,7 @@ tags: occupation
 
 -	__[Vincenzo Ugolini](./HMAGiiSN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1570–1638)
 
@@ -127,7 +131,7 @@ tags: occupation
 
 -	__[Christian Theodor Weinlig](./U4mMJgcK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer and conductor
 
@@ -145,7 +149,7 @@ tags: occupation
 
 -	__[Marc'Antonio Ingegneri](./DMSLG6R2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -157,7 +161,7 @@ tags: occupation
 
 -	__[Virgilio Mazzocchi](./epncX6P9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian Baroque composer
 

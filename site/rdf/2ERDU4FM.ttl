@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2ERDU4FM a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1705-01-24"^^xsd:string ;
+    schema1:birthPlace faamentity:5ePgm7TT ;
+    schema1:deathDate "1782-07-15"^^xsd:string ;
+    schema1:deathPlace faamentity:MxnLw4ay ;
+    schema1:description "Italian singer (1705-1782)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q223744>,
+        "15995863"^^xsd:string,
+        "2ERDU4FM"^^xsd:string ;
+    schema1:nationality faamentity:Bk3pdD3B,
+        faamentity:ZxQvWKbx ;
+    skos:altLabel "Carlo Broschi"^^xsd:string,
+        "Carlo Broschi Farinelli"^^xsd:string,
+        "Farinelli"^^xsd:string,
+        "Farinello Broschi"^^xsd:string ;
+    skos:prefLabel "Farinelli"^^xsd:string ;
+    wd:P1303 faamentity:NFAxdnVA,
+        faamentity:SLzwbqqw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:17319337 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30010058> ;
+    wd:P737 faamentity:Kx8ciPx7 ;
+    wd:P839 <https://imslp.org/wiki/Category:Broschi,_Carlo> ;
+    schema:hasOccupation faamentity:9giCtFiy,
+        faamentity:E57MkHSb,
+        faamentity:F6jyWvcL,
+        faamentity:Z3zCJvmg,
+        faamentity:fJEZmAGU .
+

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KcmpZp6N
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases | description | Wikidata QID                         |
-    | :-------: | :---------------------: | :-----: | :---------: | :----------------------------------: |
-    | KcmpZp6N  | Le billet de Marguerite |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                   | aliases | description | Wikidata QID                    |
+    | :-------: | :---------------------: | :-----: | :---------: | :-----------------------------: |
+    | KcmpZp6N  | Le billet de Marguerite |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/KcmpZp6N.html" height="800" width="1200" title="KcmpZp6N"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KcmpZp6N" height="800" width="1200" title="KcmpZp6N"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Le billet de Marguerite](./FGTMQ9ZB.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901604147.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901604147.gif){align=left width="150" height="150"} 
 
 	
 

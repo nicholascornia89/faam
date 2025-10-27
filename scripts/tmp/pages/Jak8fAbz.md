@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Jak8fAbz
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                         | aliases | Wikidata QID                                    |
-    | :-------: | :----: | :-------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | Jak8fAbz  | Erfurt | capital city of German federated state of Thuringia |         | [Erfurt](http://wwww.wikidata.org/entity/Q1729) |
+    | FAAM UUID | label  | description                                         | aliases | Wikidata QID                               |
+    | :-------: | :----: | :-------------------------------------------------: | :-----: | :----------------------------------------: |
+    | Jak8fAbz  | Erfurt | capital city of German federated state of Thuringia |         | [Erfurt](http://wikidata.org/entity/Q1729) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Jak8fAbz.html" height="800" width="1200" title="Jak8fAbz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Jak8fAbz" height="800" width="1200" title="Jak8fAbz"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: city
 
 -	__[Johann Christoph Bach III](./NcsUmtLU.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Organist in Ohrdruf
 
 -	__[Johann Christoph Bach II](./8mBATjSW.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer
 

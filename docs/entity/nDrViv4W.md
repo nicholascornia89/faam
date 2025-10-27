@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nDrViv4W
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                       | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :-------------------------------: | :-----: | :-----------------------------------------------: |
-    | nDrViv4W  | Juilly | commune in Seine-et-Marne, France |         | [Juilly](http://wwww.wikidata.org/entity/Q243470) |
+    | FAAM UUID | label  | description                       | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :-------------------------------: | :-----: | :------------------------------------------: |
+    | nDrViv4W  | Juilly | commune in Seine-et-Marne, France |         | [Juilly](http://wikidata.org/entity/Q243470) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nDrViv4W.html" height="800" width="1200" title="nDrViv4W"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nDrViv4W" height="800" width="1200" title="nDrViv4W"></iframe>
 
 ## Identifiers
 

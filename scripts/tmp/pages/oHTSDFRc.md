@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oHTSDFRc
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description               | aliases             | Wikidata QID                                       |
-    | :-------: | :---------: | :-----------------------: | :-----------------: | :------------------------------------------------: |
-    | oHTSDFRc  | Switzerland | country in Central Europe | Swiss Confederation | [Switzerland](http://wwww.wikidata.org/entity/Q39) |
+    | FAAM UUID | label       | description               | aliases             | Wikidata QID                                  |
+    | :-------: | :---------: | :-----------------------: | :-----------------: | :-------------------------------------------: |
+    | oHTSDFRc  | Switzerland | country in Central Europe | Swiss Confederation | [Switzerland](http://wikidata.org/entity/Q39) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/oHTSDFRc.html" height="800" width="1200" title="oHTSDFRc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oHTSDFRc" height="800" width="1200" title="oHTSDFRc"></iframe>
 
 ## Identifiers
 
@@ -47,13 +51,13 @@ tags: country
 
 -	__[Mathis Lussy](./j4DJfCC2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss musicologist and organist (1828–1910)
 
 -	__[Johann Baptist Singenberger](./ThkYFbhy.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss composer, music teacher, editor and publisher (1848-1924)
 
@@ -71,7 +75,7 @@ tags: country
 
 -	__[Antoine Dechevrens](./TMx9XERs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss musicologist
 
@@ -125,7 +129,7 @@ tags: country
 
 -	__[Willy Burkhard](./3ruAHmoN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss composer (1900–1955)
 
@@ -137,13 +141,13 @@ tags: country
 
 -	__[Antoinette Vischer](./7vm6nMLX.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss harpsichordist
 
 -	__[Georges Schonenberger](./ncU66Vrg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	music publisher (1807-1856)
 
@@ -155,13 +159,13 @@ tags: country
 
 -	__[Albert Fuchs](./4U9xMGUe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	composer (1858-1910)
 
 -	__[Eduard Müller](./DpFDFGMR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Swiss organist (1912-1983)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hieLsgz7
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases                   | description           | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-----------------------: | :-------------------: | :------------------------------------------------------------------: |
-    | hieLsgz7  | Le postillon de Lonjumeau | Le postillon de Lonjumeau | opera by Adolphe Adam | [Le postillon de Lonjumeau](http://wwww.wikidata.org/entity/Q468633) |
+    | FAAM UUID | label                     | aliases                   | description           | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-----------------------: | :-------------------: | :-------------------------------------------------------------: |
+    | hieLsgz7  | Le postillon de Lonjumeau | Le postillon de Lonjumeau | opera by Adolphe Adam | [Le postillon de Lonjumeau](http://wikidata.org/entity/Q468633) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/hieLsgz7.html" height="800" width="1200" title="hieLsgz7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hieLsgz7" height="800" width="1200" title="hieLsgz7"></iframe>
 
 ## Identifiers
 

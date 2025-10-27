@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: j5hTzft8
 
 tags: holding_institution
@@ -19,9 +23,9 @@ tags: holding_institution
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description                                | aliases                        | Wikidata QID                                                               | abbreviation |
-    | :-------: | :----------------------------: | :----------------------------------------: | :----------------------------: | :------------------------------------------------------------------------: | :----------: |
-    | j5hTzft8  | University of Michigan Library | main library of the University of Michigan | University of Michigan Library | [University of Michigan Library](http://wwww.wikidata.org/entity/Q7895764) | UML          |
+    | FAAM UUID | label                          | description                                | aliases                        | Wikidata QID                                                          | abbreviation |
+    | :-------: | :----------------------------: | :----------------------------------------: | :----------------------------: | :-------------------------------------------------------------------: | :----------: |
+    | j5hTzft8  | University of Michigan Library | main library of the University of Michigan | University of Michigan Library | [University of Michigan Library](http://wikidata.org/entity/Q7895764) | UML          |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: holding_institution
 
 ---
 
-<iframe src="../network/j5hTzft8.html" height="800" width="1200" title="j5hTzft8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/j5hTzft8" height="800" width="1200" title="j5hTzft8"></iframe>
 
 ## Cross-references
 
@@ -61,13 +65,13 @@ tags: holding_institution
 
 -	__[A theoretical and practical treatise on the art of singing = Trattato teorico-pratico sull'arte del canto / composed ... by Maria Anfossi.](./7FG3xHXk.md)__
 
-	![Image](../assets/images/thumbs/UML-68584532.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/UML-68584532.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[The science of the art of singing / by Anna Lankow. English translation by E. Buek. Combined with practical exercising material, by Anna Lankow and Manuel Garcia ... Die wissenschaft des kunst-gesanges, von Anna Lankow. Mit praktischem uebungs-material, von Anna Lankow und Manuel Garcia.](./KrVfsHyD.md)__
 
-	![Image](../assets/images/thumbs/UML-62718187.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/UML-62718187.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cXSqKR3A
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | aliases | description | Wikidata QID                         |
-    | :-------: | :-------------------------: | :-----: | :---------: | :----------------------------------: |
-    | cXSqKR3A  | Violin Concerto No.2, Op.32 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                       | aliases | description | Wikidata QID                    |
+    | :-------: | :-------------------------: | :-----: | :---------: | :-----------------------------: |
+    | cXSqKR3A  | Violin Concerto No.2, Op.32 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/cXSqKR3A.html" height="800" width="1200" title="cXSqKR3A"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cXSqKR3A" height="800" width="1200" title="cXSqKR3A"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Second concerto : pour le violon avec Accompt. d'Orchestre ou de Piano : Op. 32](./kfBH8WGm.md)__
 
-	![Image](../assets/images/thumbs/KCG-000334463.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000334463.gif){align=left width="150" height="150"} 
 
 	
 

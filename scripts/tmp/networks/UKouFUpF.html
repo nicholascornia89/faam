@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HKyA3Qzz", "label": "dynamic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HKyA3Qzz.md\u0027\u003edynamic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evolume of a sound or note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "UKouFUpF", "label": "Le clavecin bien temp\u00e9r\u00e9 : pour piano, Livre I", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UKouFUpF.md\u0027\u003eLe clavecin bien temp\u00e9r\u00e9 : pour piano, Livre I\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000549373.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "dwdaRArz", "label": "The Well-Tempered Clavier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./dwdaRArz.md\u0027\u003eThe Well-Tempered Clavier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecollection of solo keyboard music by J.S. Bach\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UJ57Ew5y", "label": "musical phrasing", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UJ57Ew5y.md\u0027\u003emusical phrasing\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eunit of musical meter that has a complete musical sense of its own\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "7jH33jwQ", "label": "Library Royal Conservatoire Ghent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7jH33jwQ.md\u0027\u003eLibrary Royal Conservatoire Ghent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian school of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mkCY9LDD", "label": "tempo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mkCY9LDD.md\u0027\u003etempo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical concept indicating to the speed of interpretation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "atGzytDR", "label": "affect", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./atGzytDR.md\u0027\u003eaffect\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eexperience of feeling or emotion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "HKyA3Qzz", "to": "UKouFUpF", "width": 1}, {"from": "dwdaRArz", "to": "UKouFUpF", "width": 1}, {"from": "UJ57Ew5y", "to": "UKouFUpF", "width": 1}, {"from": "7jH33jwQ", "to": "UKouFUpF", "width": 1}, {"from": "UKouFUpF", "to": "mkCY9LDD", "width": 1}, {"from": "UKouFUpF", "to": "atGzytDR", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UJ57Ew5y", "label": "musical phrasing", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UJ57Ew5y\u0027\u003emusical phrasing\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eunit of musical meter that has a complete musical sense of its own\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "UKouFUpF", "label": "Le clavecin bien temp\u00e9r\u00e9 : pour piano, Livre I", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UKouFUpF\u0027\u003eLe clavecin bien temp\u00e9r\u00e9 : pour piano, Livre I\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000549373.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HKyA3Qzz", "label": "dynamic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HKyA3Qzz\u0027\u003edynamic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evolume of a sound or note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "atGzytDR", "label": "affect", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/atGzytDR\u0027\u003eaffect\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eexperience of feeling or emotion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "dwdaRArz", "label": "The Well-Tempered Clavier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dwdaRArz\u0027\u003eThe Well-Tempered Clavier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecollection of solo keyboard music by J.S. Bach\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mkCY9LDD", "label": "tempo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mkCY9LDD\u0027\u003etempo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical concept indicating to the speed of interpretation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "7jH33jwQ", "label": "Library Royal Conservatoire Ghent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7jH33jwQ\u0027\u003eLibrary Royal Conservatoire Ghent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian school of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "UJ57Ew5y", "to": "UKouFUpF", "width": 1}, {"from": "HKyA3Qzz", "to": "UKouFUpF", "width": 1}, {"from": "atGzytDR", "to": "UKouFUpF", "width": 1}, {"from": "dwdaRArz", "to": "UKouFUpF", "width": 1}, {"from": "UKouFUpF", "to": "mkCY9LDD", "width": 1}, {"from": "UKouFUpF", "to": "7jH33jwQ", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

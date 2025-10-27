@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6UEXnNtj
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | aliases                       | description                           | Wikidata QID                                           |
-    | :-------: | :--------------------------: | :---------------------------: | :-----------------------------------: | :----------------------------------------------------: |
-    | 6UEXnNtj  | Gustave III ou Le bal masqué | Gustave III. ou Le bal masqué | opera by Daniel-François-Esprit Auber | [Gustave III](http://wwww.wikidata.org/entity/Q920668) |
+    | FAAM UUID | label                        | aliases                       | description                           | Wikidata QID                                      |
+    | :-------: | :--------------------------: | :---------------------------: | :-----------------------------------: | :-----------------------------------------------: |
+    | 6UEXnNtj  | Gustave III ou Le bal masqué | Gustave III. ou Le bal masqué | opera by Daniel-François-Esprit Auber | [Gustave III](http://wikidata.org/entity/Q920668) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/6UEXnNtj.html" height="800" width="1200" title="6UEXnNtj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6UEXnNtj" height="800" width="1200" title="6UEXnNtj"></iframe>
 
 ## Identifiers
 
@@ -69,13 +73,13 @@ tags: musical_work
 
 -	__[Fantaisie : pour la Flûte avec Acc. de Piano ou Quatuor sur des motifs de l'Opéra de Gustave ou le Bal masqué : Opéra: 53](./4gphtDSS.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331412.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331412.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[32me Potpourri : pour Piano et Flûte ou Violon : sur des motifs de l'Opéra Gustave ou le bal masqué : Oeuv: 259.](./a5FmXQHw.md)__
 
-	![Image](../assets/images/thumbs/KCG-000352632.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000352632.gif){align=left width="150" height="150"} 
 
 	
 

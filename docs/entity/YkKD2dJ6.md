@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YkKD2dJ6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/YkKD2dJ6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/YkKD2dJ6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/YkKD2dJ6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/YkKD2dJ6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/YkKD2dJ6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/YkKD2dJ6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description     | Wikidata QID                                              |
-    | :-------: | :---------: | :---------: | :-------------: | :-------------------------------------------------------: |
-    | YkKD2dJ6  | Elisa Bosch | Elisa Bosch | French composer | [Elisa Bosch](http://wwww.wikidata.org/entity/Q110996848) |
+    | FAAM UUID | label       | aliases     | description     | Wikidata QID                                         |
+    | :-------: | :---------: | :---------: | :-------------: | :--------------------------------------------------: |
+    | YkKD2dJ6  | Elisa Bosch | Elisa Bosch | French composer | [Elisa Bosch](http://wikidata.org/entity/Q110996848) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/YkKD2dJ6.html" height="800" width="1200" title="YkKD2dJ6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YkKD2dJ6" height="800" width="1200" title="YkKD2dJ6"></iframe>
 
 ## Identifiers
 
@@ -77,7 +81,7 @@ tags: agent
 
 -	__[L'Aubépine](./huLQuGYC.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p30.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p30.gif){align=left width="150" height="150"} 
 
 	
 

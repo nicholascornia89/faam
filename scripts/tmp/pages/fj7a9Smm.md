@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fj7a9Smm
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                                                  | aliases | Wikidata QID                                         |
-    | :-------: | :------: | :------------------------------------------------------------------------------------------: | :-----: | :--------------------------------------------------: |
-    | fj7a9Smm  | Surbiton | suburban area of south-west London within the Royal Borough of Kingston upon Thames, England |         | [Surbiton](http://wwww.wikidata.org/entity/Q2453259) |
+    | FAAM UUID | label    | description                                                                                  | aliases | Wikidata QID                                    |
+    | :-------: | :------: | :------------------------------------------------------------------------------------------: | :-----: | :---------------------------------------------: |
+    | fj7a9Smm  | Surbiton | suburban area of south-west London within the Royal Borough of Kingston upon Thames, England |         | [Surbiton](http://wikidata.org/entity/Q2453259) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/fj7a9Smm.html" height="800" width="1200" title="fj7a9Smm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fj7a9Smm" height="800" width="1200" title="fj7a9Smm"></iframe>
 
 ## Identifiers
 

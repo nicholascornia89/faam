@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M8BuSWQa
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description                               | Wikidata QID                                       |
-    | :-------: | :------------: | :-----: | :---------------------------------------: | :------------------------------------------------: |
-    | M8BuSWQa  | Images, Book 2 | Images  | suite of 6 piano pieces by Claude Debussy | [Images](http://wwww.wikidata.org/entity/Q1132712) |
+    | FAAM UUID | label          | aliases | description                               | Wikidata QID                                  |
+    | :-------: | :------------: | :-----: | :---------------------------------------: | :-------------------------------------------: |
+    | M8BuSWQa  | Images, Book 2 | Images  | suite of 6 piano pieces by Claude Debussy | [Images](http://wikidata.org/entity/Q1132712) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/M8BuSWQa.html" height="800" width="1200" title="M8BuSWQa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M8BuSWQa" height="800" width="1200" title="M8BuSWQa"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Poissons d'or](./U6hfCHhw.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904680359.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904680359.gif){align=left width="150" height="150"} 
 
 	
 

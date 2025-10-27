@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: N6C7uncS
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/N6C7uncS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/N6C7uncS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/N6C7uncS.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/N6C7uncS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/N6C7uncS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/N6C7uncS.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases           | description              | Wikidata QID                                                   |
-    | :-------: | :---------------: | :---------------: | :----------------------: | :------------------------------------------------------------: |
-    | N6C7uncS  | Alfred Coppenrath | Alfred Coppenrath | 19th C German art dealer | [Alfred Coppenrath](http://wwww.wikidata.org/entity/Q55902287) |
+    | FAAM UUID | label             | aliases           | description              | Wikidata QID                                              |
+    | :-------: | :---------------: | :---------------: | :----------------------: | :-------------------------------------------------------: |
+    | N6C7uncS  | Alfred Coppenrath | Alfred Coppenrath | 19th C German art dealer | [Alfred Coppenrath](http://wikidata.org/entity/Q55902287) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/N6C7uncS.html" height="800" width="1200" title="N6C7uncS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/N6C7uncS" height="800" width="1200" title="N6C7uncS"></iframe>
 
 ## Identifiers
 
@@ -75,7 +79,7 @@ tags: agent
 
 -	__[Missa in honorem s. Luciae](./8HRnipxL.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902645412.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902645412.gif){align=left width="150" height="150"} 
 
 	
 

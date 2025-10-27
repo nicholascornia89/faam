@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RQcw73HY
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000340395/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/RQcw73HY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/RQcw73HY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/RQcw73HY.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000340395/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/RQcw73HY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/RQcw73HY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/RQcw73HY.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000340395.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000340395.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                           | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | RQcw73HY  | KCG-000340395         | Variations Brillantes : sur un thême du Pirate de Bellini : composées pour la Flûte avec accomp.t de Quatuor ou Piano : Op: 10. | [external URL](m9rNaSAR) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                           | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | RQcw73HY  | KCG-000340395         | Variations Brillantes : sur un thême du Pirate de Bellini : composées pour la Flûte avec accomp.t de Quatuor ou Piano : Op: 10. | [external URL](https://catalogus.hogent.be/catalog/hog01:000340395) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -71,10 +75,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/RQcw73HY.html" height="800" width="1200" title="RQcw73HY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RQcw73HY" height="800" width="1200" title="RQcw73HY"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/RQcw73HY.html" height="800" width="1200" title="RQcw73HY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/RQcw73HY" height="800" width="1200" title="RQcw73HY"></iframe>

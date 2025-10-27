@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5nxExYpQ
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904517924/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5nxExYpQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5nxExYpQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5nxExYpQ.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904517924/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5nxExYpQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5nxExYpQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5nxExYpQ.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904517924.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904517924.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                     | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 5nxExYpQ  | KCA-030904517924      | Miniaturen : voor klavier | [external URL](iyfjpyT2) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                     | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 5nxExYpQ  | KCA-030904517924      | Miniaturen : voor klavier | [external URL](https://anet.be/record/opacdkvc/c:lvd:13203572/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "sections" 
 
@@ -121,10 +125,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/5nxExYpQ.html" height="800" width="1200" title="5nxExYpQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5nxExYpQ" height="800" width="1200" title="5nxExYpQ"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/5nxExYpQ.html" height="800" width="1200" title="5nxExYpQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/5nxExYpQ" height="800" width="1200" title="5nxExYpQ"></iframe>

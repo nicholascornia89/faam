@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Hd5mxSyD", "label": "Aus der Tiefe, SWV 25", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Hd5mxSyD.md\u0027\u003eAus der Tiefe, SWV 25\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ik3NwdWW", "label": "motet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ik3NwdWW.md\u0027\u003emotet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the most important forms of polyphonic music from about 1220 to 1750\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "RV2os4Ug", "label": "psalm", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RV2os4Ug.md\u0027\u003epsalm\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ereligious poem/lyrics\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "J9FXU5XV", "label": "Venetian polychoral style", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./J9FXU5XV.md\u0027\u003eVenetian polychoral style\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of music of the late Renaissance and early Baroque eras which involved spatially separate choirs singing in alternation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ztsjgg35", "label": "Heinrich Sch\u00fctz", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Ztsjgg35.md\u0027\u003eHeinrich Sch\u00fctz\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and organist (1585\u20131672)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Schutz.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "BhzTmsge", "label": "Franz W\u00fcllner", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BhzTmsge.md\u0027\u003eFranz W\u00fcllner\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and conductor (1832\u20131902)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Franz_W\u00fcllner.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "FK7nUCLe", "label": "3 Psalmen : f\u00fcr Doppelchor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FK7nUCLe.md\u0027\u003e3 Psalmen : f\u00fcr Doppelchor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BSB-991078508549707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "Hd5mxSyD", "to": "ik3NwdWW", "width": 10}, {"from": "Hd5mxSyD", "to": "RV2os4Ug", "width": 10}, {"from": "Hd5mxSyD", "to": "J9FXU5XV", "width": 10}, {"from": "Hd5mxSyD", "to": "Ztsjgg35", "width": 10}, {"from": "Hd5mxSyD", "to": "BhzTmsge", "width": 10}, {"from": "Hd5mxSyD", "to": "FK7nUCLe", "width": 10}, {"from": "FK7nUCLe", "to": "RV2os4Ug", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ik3NwdWW", "label": "motet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ik3NwdWW\u0027\u003emotet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the most important forms of polyphonic music from about 1220 to 1750\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Hd5mxSyD", "label": "Aus der Tiefe, SWV 25", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Hd5mxSyD\u0027\u003eAus der Tiefe, SWV 25\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "FK7nUCLe", "label": "3 Psalmen : f\u00fcr Doppelchor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FK7nUCLe\u0027\u003e3 Psalmen : f\u00fcr Doppelchor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991078508549707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "RV2os4Ug", "label": "psalm", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/RV2os4Ug\u0027\u003epsalm\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ereligious poem/lyrics\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "J9FXU5XV", "label": "Venetian polychoral style", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/J9FXU5XV\u0027\u003eVenetian polychoral style\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of music of the late Renaissance and early Baroque eras which involved spatially separate choirs singing in alternation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "BhzTmsge", "label": "Franz W\u00fcllner", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BhzTmsge\u0027\u003eFranz W\u00fcllner\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and conductor (1832\u20131902)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Franz_W\u00fcllner.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ztsjgg35", "label": "Heinrich Sch\u00fctz", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Ztsjgg35\u0027\u003eHeinrich Sch\u00fctz\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and organist (1585\u20131672)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Schutz.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "ik3NwdWW", "to": "Hd5mxSyD", "width": 10}, {"from": "FK7nUCLe", "to": "RV2os4Ug", "width": 1}, {"from": "FK7nUCLe", "to": "Hd5mxSyD", "width": 10}, {"from": "J9FXU5XV", "to": "Hd5mxSyD", "width": 10}, {"from": "BhzTmsge", "to": "Hd5mxSyD", "width": 10}, {"from": "RV2os4Ug", "to": "Hd5mxSyD", "width": 10}, {"from": "Ztsjgg35", "to": "Hd5mxSyD", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

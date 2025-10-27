@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KGTpvHk8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                  | aliases  | Wikidata QID                                       |
-    | :-------: | :-----: | :----------------------------------------------------------: | :------: | :------------------------------------------------: |
-    | KGTpvHk8  | Raiding | municipality in Oberpullendorf District, Burgenland, Austria | Doborján | [Raiding](http://wwww.wikidata.org/entity/Q660821) |
+    | FAAM UUID | label   | description                                                  | aliases  | Wikidata QID                                  |
+    | :-------: | :-----: | :----------------------------------------------------------: | :------: | :-------------------------------------------: |
+    | KGTpvHk8  | Raiding | municipality in Oberpullendorf District, Burgenland, Austria | Doborján | [Raiding](http://wikidata.org/entity/Q660821) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/KGTpvHk8.html" height="800" width="1200" title="KGTpvHk8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KGTpvHk8" height="800" width="1200" title="KGTpvHk8"></iframe>
 
 ## Identifiers
 

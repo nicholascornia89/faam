@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NbnM2CvN
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902700811/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/NbnM2CvN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/NbnM2CvN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/NbnM2CvN.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902700811/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/NbnM2CvN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/NbnM2CvN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/NbnM2CvN.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902700811.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902700811.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title      | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------: | :----------------------: | :-----------------------------------------------------------: |
-    | NbnM2CvN  | KCA-030902700811      | Drie Songs | [external URL](AB4X4hGP) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title      | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :--------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | NbnM2CvN  | KCA-030902700811      | Drie Songs | [external URL](https://anet.be/record/opacdkvc/c:lvd:12863039/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -74,10 +78,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/NbnM2CvN.html" height="800" width="1200" title="NbnM2CvN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NbnM2CvN" height="800" width="1200" title="NbnM2CvN"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/NbnM2CvN.html" height="800" width="1200" title="NbnM2CvN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/NbnM2CvN" height="800" width="1200" title="NbnM2CvN"></iframe>

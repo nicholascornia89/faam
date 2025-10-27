@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: P7Ctb5h9
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/P7Ctb5h9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/P7Ctb5h9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/P7Ctb5h9.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/P7Ctb5h9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/P7Ctb5h9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/P7Ctb5h9.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Attribué_à_Joseph_Aved,_Portrait_de_Jean-Philippe_Rameau_(vers_1728)_-_001.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description                                    | Wikidata QID                                                  |
-    | :-------: | :------------------: | :------------------: | :--------------------------------------------: | :-----------------------------------------------------------: |
-    | P7Ctb5h9  | Jean-Philippe Rameau | Jean Philippe Rameau | French composer and music theorist (1683–1764) | [Jean-Philippe Rameau](http://wwww.wikidata.org/entity/Q1145) |
+    | FAAM UUID | label                | aliases              | description                                    | Wikidata QID                                             |
+    | :-------: | :------------------: | :------------------: | :--------------------------------------------: | :------------------------------------------------------: |
+    | P7Ctb5h9  | Jean-Philippe Rameau | Jean Philippe Rameau | French composer and music theorist (1683–1764) | [Jean-Philippe Rameau](http://wikidata.org/entity/Q1145) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 	- [harpsichordist](./hMYL5Z9b.md)
 
-	- [](./JNXXkGXS.md)
+	- [theorist](./JNXXkGXS.md)
 
 ??? quote "educated at" 
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/P7Ctb5h9.html" height="800" width="1200" title="P7Ctb5h9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/P7Ctb5h9" height="800" width="1200" title="P7Ctb5h9"></iframe>
 
 ## Identifiers
 
@@ -95,8 +99,26 @@ tags: agent
 
 -	__[Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.](./HrioxeJc.md)__
 
-	![Image](../assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18839.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[François Joseph Gossec](./G4co3etX.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/François-Joseph_Gossec_by_Antoine_Vestier.png){align=left width="150" height="150"} 
+
+	French composer and conductor
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Hippolyte et Aricie](./gZhauet7.md)__
+
+	opera by Jean-Philippe Rameau
 
 </div>

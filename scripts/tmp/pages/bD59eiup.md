@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bD59eiup
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                            | aliases | Wikidata QID                                    |
-    | :-------: | :-----: | :------------------------------------: | :-----: | :---------------------------------------------: |
-    | bD59eiup  | Trieste | city and seaport in northeastern Italy | Trst    | [Trieste](http://wwww.wikidata.org/entity/Q546) |
+    | FAAM UUID | label   | description                            | aliases | Wikidata QID                               |
+    | :-------: | :-----: | :------------------------------------: | :-----: | :----------------------------------------: |
+    | bD59eiup  | Trieste | city and seaport in northeastern Italy | Trst    | [Trieste](http://wikidata.org/entity/Q546) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bD59eiup.html" height="800" width="1200" title="bD59eiup"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bD59eiup" height="800" width="1200" title="bD59eiup"></iframe>
 
 ## Identifiers
 

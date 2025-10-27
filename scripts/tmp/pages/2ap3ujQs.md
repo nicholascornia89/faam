@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2ap3ujQs
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                       | aliases             | Wikidata QID                                                   |
-    | :-------: | :----------------: | :-----------------------------------------------: | :-----------------: | :------------------------------------------------------------: |
-    | 2ap3ujQs  | Baroque instrument | Musical instruments that developed c. 1600 – 1750 | Baroque instruments | [Baroque instrument](http://wwww.wikidata.org/entity/Q4306652) |
+    | FAAM UUID | label              | description                                       | aliases             | Wikidata QID                                              |
+    | :-------: | :----------------: | :-----------------------------------------------: | :-----------------: | :-------------------------------------------------------: |
+    | 2ap3ujQs  | Baroque instrument | Musical instruments that developed c. 1600 – 1750 | Baroque instruments | [Baroque instrument](http://wikidata.org/entity/Q4306652) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/2ap3ujQs.html" height="800" width="1200" title="2ap3ujQs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2ap3ujQs" height="800" width="1200" title="2ap3ujQs"></iframe>
 
 ## Cross-references
 

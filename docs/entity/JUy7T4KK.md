@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JUy7T4KK
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description              | aliases | Wikidata QID                                        |
-    | :-------: | :--------: | :----------------------: | :-----: | :-------------------------------------------------: |
-    | JUy7T4KK  | Ingolstadt | city in Bavaria, Germany |         | [Ingolstadt](http://wwww.wikidata.org/entity/Q3004) |
+    | FAAM UUID | label      | description              | aliases | Wikidata QID                                   |
+    | :-------: | :--------: | :----------------------: | :-----: | :--------------------------------------------: |
+    | JUy7T4KK  | Ingolstadt | city in Bavaria, Germany |         | [Ingolstadt](http://wikidata.org/entity/Q3004) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/JUy7T4KK.html" height="800" width="1200" title="JUy7T4KK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JUy7T4KK" height="800" width="1200" title="JUy7T4KK"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gaUmqs4E
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description            | aliases     | Wikidata QID                                                    |
-    | :-------: | :---------------: | :--------------------: | :---------: | :-------------------------------------------------------------: |
-    | gaUmqs4E  | music composition | field of musical study | composition | [music composition](http://wwww.wikidata.org/entity/Q105107008) |
+    | FAAM UUID | label             | description            | aliases     | Wikidata QID                                               |
+    | :-------: | :---------------: | :--------------------: | :---------: | :--------------------------------------------------------: |
+    | gaUmqs4E  | music composition | field of musical study | composition | [music composition](http://wikidata.org/entity/Q105107008) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/gaUmqs4E.html" height="800" width="1200" title="gaUmqs4E"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gaUmqs4E" height="800" width="1200" title="gaUmqs4E"></iframe>
 
 ## Cross-references
 

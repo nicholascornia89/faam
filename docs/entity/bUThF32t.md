@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bUThF32t
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------: | :-----: | :---------: | :----------------------------------: |
-    | bUThF32t  | String Octet, Op.20 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label               | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------: | :-----: | :---------: | :-----------------------------: |
+    | bUThF32t  | String Octet, Op.20 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/bUThF32t.html" height="800" width="1200" title="bUThF32t"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bUThF32t" height="800" width="1200" title="bUThF32t"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Ottetto : Pour quatre Violons, deux Altos, deux Violoncelles : Oeuv. 20](./RV7gSF6E.md)__
 
-	![Image](../assets/images/thumbs/KCG-000356945.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000356945.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M7uHYazb
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/CBM-TORRMsA100/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/M7uHYazb.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/M7uHYazb.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/M7uHYazb.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/CBM-TORRMsA100/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/M7uHYazb.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/M7uHYazb.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/M7uHYazb.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/CBM-TORRMsA100.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/CBM-TORRMsA100.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                      | permalink                | provenance                                                       |
-    | :-------: | :-------------------: | :--------------------------------------------------------: | :----------------------: | :--------------------------------------------------------------: |
-    | M7uHYazb  | CBM-TORRMsA100        | Galuppi-Tempo di Minuetto | N.o 26 (N.o19 del ms Catalogo) | [external URL](gb6MiJbD) | [Biblioteca del Conservatorio Benedetto Marcello](./FqJJaJb7.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                      | permalink                                                                                                                                | provenance                                                       |
+    | :-------: | :-------------------: | :--------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: |
+    | M7uHYazb  | CBM-TORRMsA100        | Galuppi-Tempo di Minuetto | N.o 26 (N.o19 del ms Catalogo) | [external URL](https://polovea.sebina.it/SebinaOpac/resource/galuppitempo-di-minuetto-no-26-no19-del-ms-catalogo/VEA01143337?locale=eng) | [Biblioteca del Conservatorio Benedetto Marcello](./FqJJaJb7.md) |
 
 ## Statements
 
@@ -75,10 +79,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/M7uHYazb.html" height="800" width="1200" title="M7uHYazb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M7uHYazb" height="800" width="1200" title="M7uHYazb"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/M7uHYazb.html" height="800" width="1200" title="M7uHYazb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/M7uHYazb" height="800" width="1200" title="M7uHYazb"></iframe>

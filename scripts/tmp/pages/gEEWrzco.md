@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gEEWrzco
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/gEEWrzco.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/gEEWrzco.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/gEEWrzco.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/gEEWrzco.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/gEEWrzco.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/gEEWrzco.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henry_IV_of_france_by_pourbous_younger.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases  | description                                                                          | Wikidata QID                                                  |
-    | :-------: | :----------------: | :------: | :----------------------------------------------------------------------------------: | :-----------------------------------------------------------: |
-    | gEEWrzco  | Henry IV of France | Henry IV | King of France and Navarre; first French monarch of the House of Bourbon (1553-1610) | [Henry IV of France](http://wwww.wikidata.org/entity/Q936976) |
+    | FAAM UUID | label              | aliases  | description                                                                          | Wikidata QID                                             |
+    | :-------: | :----------------: | :------: | :----------------------------------------------------------------------------------: | :------------------------------------------------------: |
+    | gEEWrzco  | Henry IV of France | Henry IV | King of France and Navarre; first French monarch of the House of Bourbon (1553-1610) | [Henry IV of France](http://wikidata.org/entity/Q936976) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/gEEWrzco.html" height="800" width="1200" title="gEEWrzco"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gEEWrzco" height="800" width="1200" title="gEEWrzco"></iframe>
 
 ## Identifiers
 

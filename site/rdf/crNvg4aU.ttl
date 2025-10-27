@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:crNvg4aU a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:EPRWE7g3 ;
+    schema1:identifier "16005118"^^xsd:string,
+        "crNvg4aU"^^xsd:string ;
+    skos:prefLabel "Inter vestibulum et altare, IGP 5"^^xsd:string ;
+    wd:P5202 faamentity:Y37RQzq9 ;
+    wd:P7937 faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Inter_vestibulum_et_altare_(Perti,_Giacomo_Antonio)> .
+

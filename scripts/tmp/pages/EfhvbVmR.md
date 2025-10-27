@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EfhvbVmR
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-29805/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EfhvbVmR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EfhvbVmR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EfhvbVmR.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-29805/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EfhvbVmR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EfhvbVmR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EfhvbVmR.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-29805.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-29805.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                | permalink                | provenance                            |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | EfhvbVmR  | SML-29805             | Compositions pour piano / de Dom. Scarlatti ; revues et doigtées par Louis Köhler. | [external URL](7XBG3iZJ) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | EfhvbVmR  | SML-29805             | Compositions pour piano / de Dom. Scarlatti ; revues et doigtées par Louis Köhler. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9954944863405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -93,10 +97,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/EfhvbVmR.html" height="800" width="1200" title="EfhvbVmR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EfhvbVmR" height="800" width="1200" title="EfhvbVmR"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/EfhvbVmR.html" height="800" width="1200" title="EfhvbVmR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/EfhvbVmR" height="800" width="1200" title="EfhvbVmR"></iframe>

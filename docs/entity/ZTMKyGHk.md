@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZTMKyGHk
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                                                    | aliases          | Wikidata QID                                                |
-    | :-------: | :--------------: | :----------------------------------------------------------------------------: | :--------------: | :---------------------------------------------------------: |
-    | ZTMKyGHk  | piano four hands | type of piano duet involving two players playing the same piano simultaneously | piano four hands | [piano four hands](http://wwww.wikidata.org/entity/Q227484) |
+    | FAAM UUID | label            | description                                                                    | aliases          | Wikidata QID                                           |
+    | :-------: | :--------------: | :----------------------------------------------------------------------------: | :--------------: | :----------------------------------------------------: |
+    | ZTMKyGHk  | piano four hands | type of piano duet involving two players playing the same piano simultaneously | piano four hands | [piano four hands](http://wikidata.org/entity/Q227484) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/ZTMKyGHk.html" height="800" width="1200" title="ZTMKyGHk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZTMKyGHk" height="800" width="1200" title="ZTMKyGHk"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Ouverture des Fêtes d'Hébé : ballet de Rameau / arrangée pour piano à 4 mains par Charles Poisot](./hQsxzP6u.md)__
 
-	![Image](../assets/images/thumbs/BNF-43222474s.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43222474s.gif){align=left width="150" height="150"} 
 
 	
 

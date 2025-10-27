@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: a6Jz8RDd
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------: | :-----: | :---------: | :----------------------------------: |
-    | a6Jz8RDd  | Walter Scott lyrique |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------: | :-----: | :---------: | :-----------------------------: |
+    | a6Jz8RDd  | Walter Scott lyrique |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/a6Jz8RDd.html" height="800" width="1200" title="a6Jz8RDd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/a6Jz8RDd" height="800" width="1200" title="a6Jz8RDd"></iframe>
 
 ## Identifiers
 
@@ -63,13 +67,13 @@ tags: musical_work
 
 -	__[Ivanhoe: N.7 Romance de Rebecca: Pour Mezzo Soprano: (Longtempts brisé)](./XG63Jdar.md)__
 
-	![Image](../assets/images/thumbs/KCG-000322330.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000322330.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Il cavaliere e l'eremita : (No. 5 d'Ivanhoe, paroles françaises de Belanger) : duetto per baritono e basso = (Le chevalier et l'heremit)](./Ko8hPPyn.md)__
 
-	![Image](../assets/images/thumbs/BSB-991144119456307356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991144119456307356.gif){align=left width="150" height="150"} 
 
 	
 

@@ -1,0 +1,20 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PNTKkXdd a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:XG9qWxwB ;
+    schema1:identifier "16005203"^^xsd:string,
+        "PNTKkXdd"^^xsd:string ;
+    skos:prefLabel "Regina coeli"^^xsd:string ;
+    wd:P2000 cpdl:Regina_coeli_\(Giuseppe_Antonio_Bernabei\) ;
+    wd:P5202 faamentity:Y37RQzq9 ;
+    wd:P7937 faamentity:7UGJWsQF,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Regina_Coeli_(Bernabei,_Giuseppe_Antonio)> .
+

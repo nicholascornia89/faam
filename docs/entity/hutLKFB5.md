@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hutLKFB5
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | description          | aliases                                      | Wikidata QID                                                                |
-    | :-------: | :------------------------------: | :------------------: | :------------------------------------------: | :-------------------------------------------------------------------------: |
-    | hutLKFB5  | University of Naples Federico II | university in Naples | Università degli Studi di Napoli Federico II | [University of Naples Federico II](http://wwww.wikidata.org/entity/Q691851) |
+    | FAAM UUID | label                            | description          | aliases                                      | Wikidata QID                                                           |
+    | :-------: | :------------------------------: | :------------------: | :------------------------------------------: | :--------------------------------------------------------------------: |
+    | hutLKFB5  | University of Naples Federico II | university in Naples | Università degli Studi di Napoli Federico II | [University of Naples Federico II](http://wikidata.org/entity/Q691851) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/hutLKFB5.html" height="800" width="1200" title="hutLKFB5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hutLKFB5" height="800" width="1200" title="hutLKFB5"></iframe>
 
 ## Cross-references
 

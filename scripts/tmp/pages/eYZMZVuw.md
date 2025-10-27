@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eYZMZVuw
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                    | aliases | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :----------------------------: | :-----: | :-------------------------------------------------------------: |
-    | eYZMZVuw  | Nantes Conservatory | music school in Nantes, France |         | [Nantes Conservatory](http://wwww.wikidata.org/entity/Q2994572) |
+    | FAAM UUID | label               | description                    | aliases | Wikidata QID                                               |
+    | :-------: | :-----------------: | :----------------------------: | :-----: | :--------------------------------------------------------: |
+    | eYZMZVuw  | Nantes Conservatory | music school in Nantes, France |         | [Nantes Conservatory](http://wikidata.org/entity/Q2994572) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./m8HbBvBb.md)
+	[Nantes](./m8HbBvBb.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/eYZMZVuw.html" height="800" width="1200" title="eYZMZVuw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eYZMZVuw" height="800" width="1200" title="eYZMZVuw"></iframe>
 
 ## Cross-references
 

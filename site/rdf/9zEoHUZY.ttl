@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9zEoHUZY a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1583-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:YMCERezP ;
+    schema1:deathDate "1629-10-03"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian composer and organist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q123465>,
+        "0"^^xsd:string,
+        "9zEoHUZY"^^xsd:string ;
+    skos:prefLabel "Paolo Agostino"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:ARCBiyhQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:56874792 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/20000263> ;
+    wd:P737 faamentity:2xoiCVu9 ;
+    wd:P839 <https://imslp.org/wiki/Category:Agostini,_Paolo> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:R7KKRvQ6,
+        faamentity:ZhptKYF3 .
+

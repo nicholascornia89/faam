@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eZWvvz4a
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | description                        | aliases | Wikidata QID                                                          |
-    | :-------: | :-----------------------: | :--------------------------------: | :-----: | :-------------------------------------------------------------------: |
-    | eZWvvz4a  | Mecklenburg State Theatre | opera company in Schwerin, Germany |         | [Mecklenburg State Theatre](http://wwww.wikidata.org/entity/Q1915756) |
+    | FAAM UUID | label                     | description                        | aliases | Wikidata QID                                                     |
+    | :-------: | :-----------------------: | :--------------------------------: | :-----: | :--------------------------------------------------------------: |
+    | eZWvvz4a  | Mecklenburg State Theatre | opera company in Schwerin, Germany |         | [Mecklenburg State Theatre](http://wikidata.org/entity/Q1915756) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/eZWvvz4a.html" height="800" width="1200" title="eZWvvz4a"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eZWvvz4a" height="800" width="1200" title="eZWvvz4a"></iframe>
 
 ## Cross-references
 

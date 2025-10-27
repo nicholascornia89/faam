@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nX6FcnrF a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:TbGCra4a ;
+    schema1:birthDate "1774-11-14"^^xsd:string ;
+    schema1:birthPlace faamentity:bqGtGe4z ;
+    schema1:deathDate "1851-01-24"^^xsd:string ;
+    schema1:deathPlace faamentity:bqGtGe4z ;
+    schema1:description "Italian composer and conductor"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q168485>,
+        "15995928"^^xsd:string,
+        "nX6FcnrF"^^xsd:string ;
+    schema1:nationality faamentity:Bk3pdD3B,
+        faamentity:NbmmLYHK,
+        faamentity:WN5PAeAx ;
+    skos:altLabel "Gaspare Luigi Pacifico"^^xsd:string,
+        "Gaspare Luigi Pacifico Spontini"^^xsd:string,
+        "Gaspare Spontini"^^xsd:string,
+        "Gasparo Spontini"^^xsd:string ;
+    skos:prefLabel "Gaspare Spontini"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:27253271 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/149551> ;
+    wd:P737 faamentity:MBofjcoj ;
+    wd:P839 <https://imslp.org/wiki/Category:Spontini,_Gaspare> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:FicTBGBH,
+        faamentity:TDF2knmi .
+

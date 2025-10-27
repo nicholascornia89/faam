@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6Xda8WHT
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6Xda8WHT.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6Xda8WHT.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6Xda8WHT.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6Xda8WHT.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6Xda8WHT.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6Xda8WHT.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description                         | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------: | :---------------------------------: | :------------------------------------------------------: |
-    | 6Xda8WHT  | Manuel García | Manuel Garcia | Spanish singing teacher (1805-1906) | [Manuel García](http://wwww.wikidata.org/entity/Q333183) |
+    | FAAM UUID | label         | aliases       | description                         | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------: | :---------------------------------: | :-------------------------------------------------: |
+    | 6Xda8WHT  | Manuel García | Manuel Garcia | Spanish singing teacher (1805-1906) | [Manuel García](http://wikidata.org/entity/Q333183) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/6Xda8WHT.html" height="800" width="1200" title="6Xda8WHT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6Xda8WHT" height="800" width="1200" title="6Xda8WHT"></iframe>
 
 ## Identifiers
 
@@ -72,3 +76,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Mathilde Marchesi](./eykexxTZ.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Matilde_Marchesi.jpg){align=left width="150" height="150"} 
+
+	German mezzo-soprano and singing teacher (1821-1913)
+
+</div>

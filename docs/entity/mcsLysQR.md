@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mcsLysQR
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description    | aliases       | Wikidata QID                                    |
-    | :-------: | :---: | :------------: | :-----------: | :---------------------------------------------: |
-    | mcsLysQR  | Rieti | Italian comune | Rieti (Italy) | [Rieti](http://wwww.wikidata.org/entity/Q13396) |
+    | FAAM UUID | label | description    | aliases       | Wikidata QID                               |
+    | :-------: | :---: | :------------: | :-----------: | :----------------------------------------: |
+    | mcsLysQR  | Rieti | Italian comune | Rieti (Italy) | [Rieti](http://wikidata.org/entity/Q13396) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/mcsLysQR.html" height="800" width="1200" title="mcsLysQR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mcsLysQR" height="800" width="1200" title="mcsLysQR"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Giuseppe Ottavio Pitoni](./MfQYhhrr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/f/f1/Pitoni.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pitoni.jpg){align=left width="150" height="150"} 
 
 	Italian organist and composer
 

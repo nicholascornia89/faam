@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: auDjfzT4
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCA-030901108875_1904/images){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/auDjfzT4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/auDjfzT4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/auDjfzT4.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCA-030901108875_1904/images){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/auDjfzT4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/auDjfzT4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/auDjfzT4.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901108875_1904.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901108875_1904.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                              | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | auDjfzT4  | KCA-030901108875_1904 | Koninklijke Maatschappij van Dierkunde van Antwerpen. Symphonisch Concerten (1904) | [external URL](SGA8i9nK) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                              | permalink                                                     | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------: | :-----------------------------------------------------------: | :-----------------------------------------------------------: |
+    | auDjfzT4  | KCA-030901108875_1904 | Koninklijke Maatschappij van Dierkunde van Antwerpen. Symphonisch Concerten (1904) | [external URL](https://anet.be/record/opacdkvc/c:lvd:6835400) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -52,10 +56,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/auDjfzT4.html" height="800" width="1200" title="auDjfzT4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/auDjfzT4" height="800" width="1200" title="auDjfzT4"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/auDjfzT4.html" height="800" width="1200" title="auDjfzT4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/auDjfzT4" height="800" width="1200" title="auDjfzT4"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SLUNLZXB
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description     | aliases | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------: | :-----: | :--------------------------------------------------------: |
-    | SLUNLZXB  | Ústí nad Orlicí | town in Czechia |         | [Ústí nad Orlicí](http://wwww.wikidata.org/entity/Q330409) |
+    | FAAM UUID | label           | description     | aliases | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------: | :-----: | :---------------------------------------------------: |
+    | SLUNLZXB  | Ústí nad Orlicí | town in Czechia |         | [Ústí nad Orlicí](http://wikidata.org/entity/Q330409) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/SLUNLZXB.html" height="800" width="1200" title="SLUNLZXB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SLUNLZXB" height="800" width="1200" title="SLUNLZXB"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Leopold Jansa](./aovZZUxK.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/9/9a/Leopold_Jansa.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Jansa.jpg){align=left width="150" height="150"} 
 
 	Czech violinist, music educator and composer (1795–1875)
 

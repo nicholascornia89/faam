@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: W5tLaHDf
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/W5tLaHDf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/W5tLaHDf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/W5tLaHDf.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/W5tLaHDf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/W5tLaHDf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/W5tLaHDf.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases          | description                 | Wikidata QID                                                   |
-    | :-------: | :--------------: | :--------------: | :-------------------------: | :------------------------------------------------------------: |
-    | W5tLaHDf  | Kaspar Fürstenau | Caspar Fürstenau | German flautist (1772-1819) | [Kaspar Fürstenau](http://wwww.wikidata.org/entity/Q124340161) |
+    | FAAM UUID | label            | aliases          | description                 | Wikidata QID                                              |
+    | :-------: | :--------------: | :--------------: | :-------------------------: | :-------------------------------------------------------: |
+    | W5tLaHDf  | Kaspar Fürstenau | Caspar Fürstenau | German flautist (1772-1819) | [Kaspar Fürstenau](http://wikidata.org/entity/Q124340161) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/W5tLaHDf.html" height="800" width="1200" title="W5tLaHDf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/W5tLaHDf" height="800" width="1200" title="W5tLaHDf"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QBx3kSJW
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                         | aliases      | Wikidata QID                                      |
-    | :-------: | :-----: | :-----------------------------------------------------------------: | :----------: | :-----------------------------------------------: |
-    | QBx3kSJW  | teacher | person who helps others to acquire knowledge, competences or values | schoolmaster | [teacher](http://wwww.wikidata.org/entity/Q37226) |
+    | FAAM UUID | label   | description                                                         | aliases      | Wikidata QID                                 |
+    | :-------: | :-----: | :-----------------------------------------------------------------: | :----------: | :------------------------------------------: |
+    | QBx3kSJW  | teacher | person who helps others to acquire knowledge, competences or values | schoolmaster | [teacher](http://wikidata.org/entity/Q37226) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/QBx3kSJW.html" height="800" width="1200" title="QBx3kSJW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QBx3kSJW" height="800" width="1200" title="QBx3kSJW"></iframe>
 
 ## Cross-references
 
@@ -55,13 +59,13 @@ tags: occupation
 
 -	__[Eugène Talbot](./VaLifJKc.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French classicist and translator (1814–1894)
 
 -	__[Louis Bordèse](./Avg44bUG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer who resided in France
 
@@ -97,7 +101,7 @@ tags: occupation
 
 -	__[Giovanni Tadolini](./c4bta3mz.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -109,7 +113,7 @@ tags: occupation
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
@@ -157,7 +161,7 @@ tags: occupation
 
 -	__[Carlo Pedron](./fGNpaX2r.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian music teacher and editor
 
@@ -223,13 +227,13 @@ tags: occupation
 
 -	__[Pietro Ray](./XDUjMRo5.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and music teacher
 
 -	__[Félix Cazot](./EUMKhzpe.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and pianist (1790–1857)
 
@@ -253,19 +257,19 @@ tags: occupation
 
 -	__[Joseph Doll](./H3JZbqth.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist and teacher
 
 -	__[Giacomo Coppola](./mi48Sqzj.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	teacher of Palestrina
 
 -	__[Pompeo Natali](./EE6RjZNR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian priest and composer
 

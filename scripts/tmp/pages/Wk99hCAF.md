@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Wk99hCAF
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                  | aliases | Wikidata QID                                      |
-    | :-------: | :------: | :------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | Wk99hCAF  | Florence | Italian city and commune, located in Tuscany | Firenze | [Florence](http://wwww.wikidata.org/entity/Q2044) |
+    | FAAM UUID | label    | description                                  | aliases | Wikidata QID                                 |
+    | :-------: | :------: | :------------------------------------------: | :-----: | :------------------------------------------: |
+    | Wk99hCAF  | Florence | Italian city and commune, located in Tuscany | Firenze | [Florence](http://wikidata.org/entity/Q2044) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Wk99hCAF.html" height="800" width="1200" title="Wk99hCAF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Wk99hCAF" height="800" width="1200" title="Wk99hCAF"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Giovanni Maria Casini](./cg3iHFvs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -79,7 +83,7 @@ tags: city
 
 -	__[Alessandro Felici](./5KdUXuXV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1742-1772)
 
@@ -97,13 +101,13 @@ tags: city
 
 -	__[Giovanni Piantanida](./MAEUzKFY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Giovanni Battista Zingoni](./o32Wi6CF.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian tenor and composer
 
@@ -133,19 +137,19 @@ tags: city
 
 -	__[Giovanni Maria Casini](./cg3iHFvs.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Giulio Briccialdi](./KuMf3k3f.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giulio_Baldassarre_Briccialdi_by_Joseph_Kriehuber_%281842%29_-_Archivio_Storico_Ricordi_ICON010461.jpg){align=left width="150" height="150"} 
 
 	Italian musician (1818–1881)
 
 -	__[Alessandro Felici](./5KdUXuXV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1742-1772)
 
@@ -169,7 +173,7 @@ tags: city
 
 -	__[Antonio Cesti](./ecu6SJkK.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer, singer and organist (1623-1669)
 
@@ -193,7 +197,7 @@ tags: city
 
 -	__[Giovanni Ansani](./CVXzcYTp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian opera singer (1744-1826)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fMq3pPFf
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                       | aliases         | Wikidata QID                                                |
-    | :-------: | :-------------: | :-------------------------------: | :-------------: | :---------------------------------------------------------: |
-    | fMq3pPFf  | Lycée Montaigne | secondary school in Paris, France | Lycee Montaigne | [Lycée Montaigne](http://wwww.wikidata.org/entity/Q3268857) |
+    | FAAM UUID | label           | description                       | aliases         | Wikidata QID                                           |
+    | :-------: | :-------------: | :-------------------------------: | :-------------: | :----------------------------------------------------: |
+    | fMq3pPFf  | Lycée Montaigne | secondary school in Paris, France | Lycee Montaigne | [Lycée Montaigne](http://wikidata.org/entity/Q3268857) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./U8VE48Nt.md)
+	[6th arrondissement of Paris](./U8VE48Nt.md)
 
 	[Paris](./dtkJhYLf.md)
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/fMq3pPFf.html" height="800" width="1200" title="fMq3pPFf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fMq3pPFf" height="800" width="1200" title="fMq3pPFf"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: music_organization
 
 -	__[Amédée Gastoué](./5rZmZPuR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist (1873–1943)
 

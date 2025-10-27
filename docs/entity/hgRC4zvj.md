@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hgRC4zvj
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description               | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :-----------------------: | :-------------------------------------------------------: |
-    | hgRC4zvj  | Symphony No. 4 | Symphony No. 4 | symphony by Gustav Mahler | [Symphony No. 4](http://wwww.wikidata.org/entity/Q231216) |
+    | FAAM UUID | label          | aliases        | description               | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :-----------------------: | :--------------------------------------------------: |
+    | hgRC4zvj  | Symphony No. 4 | Symphony No. 4 | symphony by Gustav Mahler | [Symphony No. 4](http://wikidata.org/entity/Q231216) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/hgRC4zvj.html" height="800" width="1200" title="hgRC4zvj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hgRC4zvj" height="800" width="1200" title="hgRC4zvj"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Symphony No. 4, Movement I](./TmzmgLJw.md)__
 
-	![Image](../assets/images/thumbs/WML-768431.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/WML-768431.gif){align=left width="150" height="150"} 
 
 	
 

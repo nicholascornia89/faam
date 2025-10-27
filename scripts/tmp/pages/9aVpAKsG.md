@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9aVpAKsG
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :--------------------------------------------------------: | :-----: | :--------------------------------------------------: |
-    | 9aVpAKsG  | Ansfelden | municipality in Linz-Land District, Upper Austria, Austria |         | [Ansfelden](http://wwww.wikidata.org/entity/Q257130) |
+    | FAAM UUID | label     | description                                                | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :--------------------------------------------------------: | :-----: | :---------------------------------------------: |
+    | 9aVpAKsG  | Ansfelden | municipality in Linz-Land District, Upper Austria, Austria |         | [Ansfelden](http://wikidata.org/entity/Q257130) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9aVpAKsG.html" height="800" width="1200" title="9aVpAKsG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9aVpAKsG" height="800" width="1200" title="9aVpAKsG"></iframe>
 
 ## Identifiers
 

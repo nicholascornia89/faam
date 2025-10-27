@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Z82mUmvc
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description      | aliases      | Wikidata QID                                         |
-    | :-------: | :------: | :--------------: | :----------: | :--------------------------------------------------: |
-    | Z82mUmvc  | novelist | writer of novels | novel author | [novelist](http://wwww.wikidata.org/entity/Q6625963) |
+    | FAAM UUID | label    | description      | aliases      | Wikidata QID                                    |
+    | :-------: | :------: | :--------------: | :----------: | :---------------------------------------------: |
+    | Z82mUmvc  | novelist | writer of novels | novel author | [novelist](http://wikidata.org/entity/Q6625963) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Z82mUmvc.html" height="800" width="1200" title="Z82mUmvc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Z82mUmvc" height="800" width="1200" title="Z82mUmvc"></iframe>
 
 ## Cross-references
 

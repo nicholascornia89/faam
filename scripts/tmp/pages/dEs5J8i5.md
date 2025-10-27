@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dEs5J8i5
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/dEs5J8i5.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/dEs5J8i5.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/dEs5J8i5.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/dEs5J8i5.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/dEs5J8i5.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/dEs5J8i5.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases                | description | Wikidata QID                                                        |
-    | :-------: | :--------------------: | :--------------------: | :---------: | :-----------------------------------------------------------------: |
-    | dEs5J8i5  | Charles Louis Maucourt | Charles-Louis Maucourt |             | [Charles Louis Maucourt](http://wwww.wikidata.org/entity/Q27995018) |
+    | FAAM UUID | label                  | aliases                | description | Wikidata QID                                                   |
+    | :-------: | :--------------------: | :--------------------: | :---------: | :------------------------------------------------------------: |
+    | dEs5J8i5  | Charles Louis Maucourt | Charles-Louis Maucourt |             | [Charles Louis Maucourt](http://wikidata.org/entity/Q27995018) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/dEs5J8i5.html" height="800" width="1200" title="dEs5J8i5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dEs5J8i5" height="800" width="1200" title="dEs5J8i5"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Louis Spohr](./9kMfPxdg.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludwig_Spohr_portrait.jpg){align=left width="150" height="150"} 
+
+	German composer, violinist and conductor
+
+</div>

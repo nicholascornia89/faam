@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dZrCKNXM
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases       | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-----------: | :--------------------------: | :--------------------------------------------------------: |
-    | dZrCKNXM  | Keyboard Sonata in A major, K.429 | Sonata K. 429 | sonata by Domenico Scarlatti | [Sonata K. 429](http://wwww.wikidata.org/entity/Q67200000) |
+    | FAAM UUID | label                             | aliases       | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-----------: | :--------------------------: | :---------------------------------------------------: |
+    | dZrCKNXM  | Keyboard Sonata in A major, K.429 | Sonata K. 429 | sonata by Domenico Scarlatti | [Sonata K. 429](http://wikidata.org/entity/Q67200000) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/dZrCKNXM.html" height="800" width="1200" title="dZrCKNXM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dZrCKNXM" height="800" width="1200" title="dZrCKNXM"></iframe>
 
 ## Identifiers
 
@@ -71,19 +75,19 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Early Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito.](./icedGMzA.md)__
 
-	![Image](../assets/images/thumbs/SML-22563.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22563.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Les Clavecinistes de 1637 à 1790 : en trois volumes musique / [édité par] Amédée Méreaux.](./c3pcMa2E.md)__
 
-	![Image](../assets/images/thumbs/SML-18890.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-18890.gif){align=left width="150" height="150"} 
 
 	
 

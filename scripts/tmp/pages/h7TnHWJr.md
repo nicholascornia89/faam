@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: h7TnHWJr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                 | aliases | Wikidata QID                                           |
-    | :-------: | :--------: | :-------------------------: | :-----: | :----------------------------------------------------: |
-    | h7TnHWJr  | Häselrieth | human settlement in Germany |         | [Häselrieth](http://wwww.wikidata.org/entity/Q1375128) |
+    | FAAM UUID | label      | description                 | aliases | Wikidata QID                                      |
+    | :-------: | :--------: | :-------------------------: | :-----: | :-----------------------------------------------: |
+    | h7TnHWJr  | Häselrieth | human settlement in Germany |         | [Häselrieth](http://wikidata.org/entity/Q1375128) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/h7TnHWJr.html" height="800" width="1200" title="h7TnHWJr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/h7TnHWJr" height="800" width="1200" title="h7TnHWJr"></iframe>
 
 ## Identifiers
 

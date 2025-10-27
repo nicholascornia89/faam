@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: X9WM3du9
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                                                         | aliases         | Wikidata QID                                             |
-    | :-------: | :------------: | :-----------------------------------------------------------------: | :-------------: | :------------------------------------------------------: |
-    | X9WM3du9  | businessperson | person involved in activities for the purpose of generating revenue | business person | [businessperson](http://wwww.wikidata.org/entity/Q43845) |
+    | FAAM UUID | label          | description                                                         | aliases         | Wikidata QID                                        |
+    | :-------: | :------------: | :-----------------------------------------------------------------: | :-------------: | :-------------------------------------------------: |
+    | X9WM3du9  | businessperson | person involved in activities for the purpose of generating revenue | business person | [businessperson](http://wikidata.org/entity/Q43845) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/X9WM3du9.html" height="800" width="1200" title="X9WM3du9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/X9WM3du9" height="800" width="1200" title="X9WM3du9"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nN8Xvyro
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description              | aliases | Wikidata QID                                      |
-    | :-------: | :------: | :----------------------: | :-----: | :-----------------------------------------------: |
-    | nN8Xvyro  | Landshut | town in Bavaria, Germany |         | [Landshut](http://wwww.wikidata.org/entity/Q3974) |
+    | FAAM UUID | label    | description              | aliases | Wikidata QID                                 |
+    | :-------: | :------: | :----------------------: | :-----: | :------------------------------------------: |
+    | nN8Xvyro  | Landshut | town in Bavaria, Germany |         | [Landshut](http://wikidata.org/entity/Q3974) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nN8Xvyro.html" height="800" width="1200" title="nN8Xvyro"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nN8Xvyro" height="800" width="1200" title="nN8Xvyro"></iframe>
 
 ## Identifiers
 

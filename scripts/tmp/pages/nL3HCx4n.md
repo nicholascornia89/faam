@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nL3HCx4n
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description    | aliases | Wikidata QID                                         |
-    | :-------: | :--------: | :------------: | :-----: | :--------------------------------------------------: |
-    | nL3HCx4n  | Crevalcore | Italian comune |         | [Crevalcore](http://wwww.wikidata.org/entity/Q94801) |
+    | FAAM UUID | label      | description    | aliases | Wikidata QID                                    |
+    | :-------: | :--------: | :------------: | :-----: | :---------------------------------------------: |
+    | nL3HCx4n  | Crevalcore | Italian comune |         | [Crevalcore](http://wikidata.org/entity/Q94801) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/nL3HCx4n.html" height="800" width="1200" title="nL3HCx4n"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nL3HCx4n" height="800" width="1200" title="nL3HCx4n"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Tommaso Bai](./UWqEBAcB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and singer (ca. 1650-1714)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: W7WDRWAC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                       | aliases            | Wikidata QID                                         |
-    | :-------: | :------: | :-----------------------------------------------: | :----------------: | :--------------------------------------------------: |
-    | W7WDRWAC  | Wrington | village and civil parish in Somerset, England, UK | Wrington, Somerset | [Wrington](http://wwww.wikidata.org/entity/Q1825419) |
+    | FAAM UUID | label    | description                                       | aliases            | Wikidata QID                                    |
+    | :-------: | :------: | :-----------------------------------------------: | :----------------: | :---------------------------------------------: |
+    | W7WDRWAC  | Wrington | village and civil parish in Somerset, England, UK | Wrington, Somerset | [Wrington](http://wikidata.org/entity/Q1825419) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/W7WDRWAC.html" height="800" width="1200" title="W7WDRWAC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/W7WDRWAC" height="800" width="1200" title="W7WDRWAC"></iframe>
 
 ## Identifiers
 

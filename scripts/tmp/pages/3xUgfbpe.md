@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3xUgfbpe
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                      | aliases        | Wikidata QID                                                     |
-    | :-------: | :-----------------: | :------------------------------: | :------------: | :--------------------------------------------------------------: |
-    | 3xUgfbpe  | Bergen Municipality | municipality in Vestland, Norway | Bergen kommune | [Bergen Municipality](http://wwww.wikidata.org/entity/Q10428388) |
+    | FAAM UUID | label               | description                      | aliases        | Wikidata QID                                                |
+    | :-------: | :-----------------: | :------------------------------: | :------------: | :---------------------------------------------------------: |
+    | 3xUgfbpe  | Bergen Municipality | municipality in Vestland, Norway | Bergen kommune | [Bergen Municipality](http://wikidata.org/entity/Q10428388) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/3xUgfbpe.html" height="800" width="1200" title="3xUgfbpe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3xUgfbpe" height="800" width="1200" title="3xUgfbpe"></iframe>
 
 ## Identifiers
 

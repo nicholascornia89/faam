@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ez5MUfiE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/ez5MUfiE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/ez5MUfiE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/ez5MUfiE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/ez5MUfiE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/ez5MUfiE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/ez5MUfiE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cui_CuiIP_Frontispiece_600.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases   | description                       | Wikidata QID                                         |
-    | :-------: | :-------: | :-------: | :-------------------------------: | :--------------------------------------------------: |
-    | ez5MUfiE  | César Cui | Cesar Cui | Russian composer and army officer | [César Cui](http://wwww.wikidata.org/entity/Q208546) |
+    | FAAM UUID | label     | aliases   | description                       | Wikidata QID                                    |
+    | :-------: | :-------: | :-------: | :-------------------------------: | :---------------------------------------------: |
+    | ez5MUfiE  | César Cui | Cesar Cui | Russian composer and army officer | [César Cui](http://wikidata.org/entity/Q208546) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/ez5MUfiE.html" height="800" width="1200" title="ez5MUfiE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ez5MUfiE" height="800" width="1200" title="ez5MUfiE"></iframe>
 
 ## Identifiers
 
@@ -87,25 +91,25 @@ tags: agent
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein](./heTepEsp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Tarantelle. Op. 12](./SLysTqh3.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p2.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p2.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Scherzo rustique](./h4Gg8EGj.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p34.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p34.gif){align=left width="150" height="150"} 
 
 	
 

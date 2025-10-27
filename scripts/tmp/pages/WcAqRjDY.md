@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WcAqRjDY
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WcAqRjDY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WcAqRjDY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WcAqRjDY.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WcAqRjDY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WcAqRjDY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WcAqRjDY.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                                    | Wikidata QID                                               |
-    | :-------: | :------------: | :------------: | :--------------------------------------------: | :--------------------------------------------------------: |
-    | WcAqRjDY  | Chappell & Co. | Chappell & Co. | English music publisher and piano manufacturer | [Chappell & Co.](http://wwww.wikidata.org/entity/Q5073368) |
+    | FAAM UUID | label          | aliases        | description                                    | Wikidata QID                                          |
+    | :-------: | :------------: | :------------: | :--------------------------------------------: | :---------------------------------------------------: |
+    | WcAqRjDY  | Chappell & Co. | Chappell & Co. | English music publisher and piano manufacturer | [Chappell & Co.](http://wikidata.org/entity/Q5073368) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/WcAqRjDY.html" height="800" width="1200" title="WcAqRjDY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WcAqRjDY" height="800" width="1200" title="WcAqRjDY"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: agent
 
 -	__[Melba method / by Dame Nellie Melba](./V9WRQNdU.md)__
 
-	![Image](../assets/images/thumbs/NLA-1340307.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/NLA-1340307.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: T3wMSaR4
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                           | description           | aliases                                | Wikidata QID                                                                                |
-    | :-------: | :---------------------------------------------: | :-------------------: | :------------------------------------: | :-----------------------------------------------------------------------------------------: |
-    | T3wMSaR4  | Budapest University of Technology and Economics | university in Hungary | Royal Technical University of Budapest | [Budapest University of Technology and Economics](http://wwww.wikidata.org/entity/Q1186843) |
+    | FAAM UUID | label                                           | description           | aliases                                | Wikidata QID                                                                           |
+    | :-------: | :---------------------------------------------: | :-------------------: | :------------------------------------: | :------------------------------------------------------------------------------------: |
+    | T3wMSaR4  | Budapest University of Technology and Economics | university in Hungary | Royal Technical University of Budapest | [Budapest University of Technology and Economics](http://wikidata.org/entity/Q1186843) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./Q8KpiYwX.md)
+	[Budapest](./Q8KpiYwX.md)
 
-	[](./PPfroXta.md)
+	[Budapest District XI](./PPfroXta.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/T3wMSaR4.html" height="800" width="1200" title="T3wMSaR4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/T3wMSaR4" height="800" width="1200" title="T3wMSaR4"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: music_organization
 
 -	__[Ernst Ferand](./D5YqeXET.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Hungarian musicologist (1887-1972)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NMLLngDA
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                | aliases       | Wikidata QID                                       |
-    | :-------: | :-----: | :--------------------------------------------------------: | :-----------: | :------------------------------------------------: |
-    | NMLLngDA  | Nymburk | city in Nymburk District, Central Bohemian Region, Czechia | Mesto Nymburk | [Nymburk](http://wwww.wikidata.org/entity/Q430864) |
+    | FAAM UUID | label   | description                                                | aliases       | Wikidata QID                                  |
+    | :-------: | :-----: | :--------------------------------------------------------: | :-----------: | :-------------------------------------------: |
+    | NMLLngDA  | Nymburk | city in Nymburk District, Central Bohemian Region, Czechia | Mesto Nymburk | [Nymburk](http://wikidata.org/entity/Q430864) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/NMLLngDA.html" height="800" width="1200" title="NMLLngDA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NMLLngDA" height="800" width="1200" title="NMLLngDA"></iframe>
 
 ## Identifiers
 

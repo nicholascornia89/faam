@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: XAcqsHQg
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description                                                             | Wikidata QID                                                    |
-    | :-------: | :----------------: | :----------------: | :---------------------------------------------------------------------: | :-------------------------------------------------------------: |
-    | XAcqsHQg  | Jesu, meine Freude | Jesu, meine Freude | 1653 sacred Song composed by Johann Crüger with lyrics by Johann Franck | [Jesu, meine Freude](http://wwww.wikidata.org/entity/Q17050641) |
+    | FAAM UUID | label              | aliases            | description                                                             | Wikidata QID                                               |
+    | :-------: | :----------------: | :----------------: | :---------------------------------------------------------------------: | :--------------------------------------------------------: |
+    | XAcqsHQg  | Jesu, meine Freude | Jesu, meine Freude | 1653 sacred Song composed by Johann Crüger with lyrics by Johann Franck | [Jesu, meine Freude](http://wikidata.org/entity/Q17050641) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/XAcqsHQg.html" height="800" width="1200" title="XAcqsHQg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/XAcqsHQg" height="800" width="1200" title="XAcqsHQg"></iframe>
 
 ## Identifiers
 

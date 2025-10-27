@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QEoYjgrW a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "epic Italian poem by Ludovico Ariosto"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q48922>,
+        "0"^^xsd:string,
+        "QEoYjgrW"^^xsd:string ;
+    schema1:isBasedOn faamentity:P5L5QHfS,
+        faamentity:o7nk6Uyh ;
+    skos:altLabel "Orlando Furioso"^^xsd:string,
+        "Orlando furioso"^^xsd:string ;
+    skos:prefLabel "Orlando Furioso"^^xsd:string ;
+    wd:P214 viaf:179842618 ;
+    wd:P7937 faamentity:cgtepzqb .
+

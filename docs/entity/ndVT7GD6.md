@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ndVT7GD6
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                    | aliases | Wikidata QID                                            |
-    | :-------: | :---------: | :----------------------------: | :-----: | :-----------------------------------------------------: |
-    | ndVT7GD6  | sociologist | scientist working in sociology |         | [sociologist](http://wwww.wikidata.org/entity/Q2306091) |
+    | FAAM UUID | label       | description                    | aliases | Wikidata QID                                       |
+    | :-------: | :---------: | :----------------------------: | :-----: | :------------------------------------------------: |
+    | ndVT7GD6  | sociologist | scientist working in sociology |         | [sociologist](http://wikidata.org/entity/Q2306091) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ndVT7GD6.html" height="800" width="1200" title="ndVT7GD6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ndVT7GD6" height="800" width="1200" title="ndVT7GD6"></iframe>
 
 ## Cross-references
 

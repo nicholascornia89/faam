@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YhzTZqWq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description       | aliases | Wikidata QID                                                |
-    | :-------: | :--------------: | :---------------: | :-----: | :---------------------------------------------------------: |
-    | YhzTZqWq  | Himmelpfortgrund | quarter of Vienna |         | [Himmelpfortgrund](http://wwww.wikidata.org/entity/Q687026) |
+    | FAAM UUID | label            | description       | aliases | Wikidata QID                                           |
+    | :-------: | :--------------: | :---------------: | :-----: | :----------------------------------------------------: |
+    | YhzTZqWq  | Himmelpfortgrund | quarter of Vienna |         | [Himmelpfortgrund](http://wikidata.org/entity/Q687026) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YhzTZqWq.html" height="800" width="1200" title="YhzTZqWq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YhzTZqWq" height="800" width="1200" title="YhzTZqWq"></iframe>
 
 ## Identifiers
 

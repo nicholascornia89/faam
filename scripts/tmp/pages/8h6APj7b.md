@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8h6APj7b
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076911629707356/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8h6APj7b.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8h6APj7b.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8h6APj7b.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076911629707356/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8h6APj7b.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8h6APj7b.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8h6APj7b.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991076911629707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076911629707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                                                                                                                             | permalink                | provenance                              |
-    | :-------: | :--------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | 8h6APj7b  | BSB-991076911629707356 | Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife | [external URL](8N6k5W5i) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                                                                                                                             | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | 8h6APj7b  | BSB-991076911629707356 | Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife | [external URL](https://mdz-nbn-resolving.de/details:bsb00006344) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -105,10 +109,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/8h6APj7b.html" height="800" width="1200" title="8h6APj7b"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8h6APj7b" height="800" width="1200" title="8h6APj7b"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/8h6APj7b.html" height="800" width="1200" title="8h6APj7b"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/8h6APj7b" height="800" width="1200" title="8h6APj7b"></iframe>

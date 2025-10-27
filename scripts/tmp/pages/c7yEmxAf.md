@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c7yEmxAf
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                                                            | aliases          | Wikidata QID                                                |
-    | :-------: | :--------------: | :------------------------------------------------------------------------------------: | :--------------: | :---------------------------------------------------------: |
-    | c7yEmxAf  | viola da braccio | a term variously applied during the baroque period to instruments of the violin family | viola da braccio | [viola da braccio](http://wwww.wikidata.org/entity/Q570544) |
+    | FAAM UUID | label            | description                                                                            | aliases          | Wikidata QID                                           |
+    | :-------: | :--------------: | :------------------------------------------------------------------------------------: | :--------------: | :----------------------------------------------------: |
+    | c7yEmxAf  | viola da braccio | a term variously applied during the baroque period to instruments of the violin family | viola da braccio | [viola da braccio](http://wikidata.org/entity/Q570544) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./nY5G3yfD.md)
+	- [viol family](./nY5G3yfD.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/c7yEmxAf.html" height="800" width="1200" title="c7yEmxAf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c7yEmxAf" height="800" width="1200" title="c7yEmxAf"></iframe>
 
 ## Cross-references
 
@@ -47,7 +51,7 @@ tags: musical_instrument
 
 -	__[Claudio Monteverdi](./J2JS4FwU.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg){align=left width="150" height="150"} 
 
 	Italian composer, string player, choirmaster, and priest (1567–1643)
 

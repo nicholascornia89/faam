@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: M6Abn5oQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/M6Abn5oQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/M6Abn5oQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/M6Abn5oQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/M6Abn5oQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/M6Abn5oQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/M6Abn5oQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-----: | :---------: | :----------------------------------------------------------: |
-    | M6Abn5oQ  | Alfons Moortgat |         |             | [Alfons Moortgat](http://wwww.wikidata.org/entity/Q42197672) |
+    | FAAM UUID | label           | aliases | description | Wikidata QID                                            |
+    | :-------: | :-------------: | :-----: | :---------: | :-----------------------------------------------------: |
+    | M6Abn5oQ  | Alfons Moortgat |         |             | [Alfons Moortgat](http://wikidata.org/entity/Q42197672) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/M6Abn5oQ.html" height="800" width="1200" title="M6Abn5oQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/M6Abn5oQ" height="800" width="1200" title="M6Abn5oQ"></iframe>
 
 ## Identifiers
 

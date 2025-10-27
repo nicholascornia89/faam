@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EPCgSTYA
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                       | aliases | Wikidata QID                                          |
-    | :-------: | :--------: | :-------------------------------: | :-----: | :---------------------------------------------------: |
-    | EPCgSTYA  | Courbevoie | commune in Hauts-de-Seine, France |         | [Courbevoie](http://wwww.wikidata.org/entity/Q189715) |
+    | FAAM UUID | label      | description                       | aliases | Wikidata QID                                     |
+    | :-------: | :--------: | :-------------------------------: | :-----: | :----------------------------------------------: |
+    | EPCgSTYA  | Courbevoie | commune in Hauts-de-Seine, France |         | [Courbevoie](http://wikidata.org/entity/Q189715) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/EPCgSTYA.html" height="800" width="1200" title="EPCgSTYA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EPCgSTYA" height="800" width="1200" title="EPCgSTYA"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Henri Letocart](./H7xGj4FE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and organist (1866–1945)
 
 -	__[Désiré-Moyse-Joseph Ikelmer](./QSHdM58g.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

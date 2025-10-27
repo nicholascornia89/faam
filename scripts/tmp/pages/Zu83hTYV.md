@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Zu83hTYV
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                      | aliases           | Wikidata QID                                     |
-    | :-------: | :-----: | :------------------------------: | :---------------: | :----------------------------------------------: |
-    | Zu83hTYV  | Glasgow | city in Scotland, United Kingdom | Glasgow, Scotland | [Glasgow](http://wwww.wikidata.org/entity/Q4093) |
+    | FAAM UUID | label   | description                      | aliases           | Wikidata QID                                |
+    | :-------: | :-----: | :------------------------------: | :---------------: | :-----------------------------------------: |
+    | Zu83hTYV  | Glasgow | city in Scotland, United Kingdom | Glasgow, Scotland | [Glasgow](http://wikidata.org/entity/Q4093) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Zu83hTYV.html" height="800" width="1200" title="Zu83hTYV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Zu83hTYV" height="800" width="1200" title="Zu83hTYV"></iframe>
 
 ## Identifiers
 

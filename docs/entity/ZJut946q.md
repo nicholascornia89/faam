@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZJut946q
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                               | aliases | description | Wikidata QID                         |
-    | :-------: | :-------------------------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | ZJut946q  | 12 Klavierstücke für kleine und große Kinder, Op.85 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                               | aliases | description | Wikidata QID                    |
+    | :-------: | :-------------------------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | ZJut946q  | 12 Klavierstücke für kleine und große Kinder, Op.85 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/ZJut946q.html" height="800" width="1200" title="ZJut946q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZJut946q" height="800" width="1200" title="ZJut946q"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: musical_work
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 

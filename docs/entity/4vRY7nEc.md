@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4vRY7nEc
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                                             | aliases | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-----: | :---------------------------------------------------------------------: |
-    | 4vRY7nEc  | 17th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [17th arrondissement of Paris](http://wwww.wikidata.org/entity/Q197297) |
+    | FAAM UUID | label                        | description                                             | aliases | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-----: | :----------------------------------------------------------------: |
+    | 4vRY7nEc  | 17th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [17th arrondissement of Paris](http://wikidata.org/entity/Q197297) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4vRY7nEc.html" height="800" width="1200" title="4vRY7nEc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4vRY7nEc" height="800" width="1200" title="4vRY7nEc"></iframe>
 
 ## Identifiers
 
@@ -61,13 +65,13 @@ tags: city
 
 -	__[Jean d'Udine](./2wfwYXvr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and musicologist (1870-1938)
 
 -	__[Henri Hirschmann](./48fXZNpH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 
@@ -91,7 +95,7 @@ tags: city
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 

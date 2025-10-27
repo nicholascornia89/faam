@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: d9YQvB32
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                        | aliases               | Wikidata QID                                         |
-    | :-------: | :-------: | :----------------------------------------------------------------: | :-------------------: | :--------------------------------------------------: |
-    | d9YQvB32  | Hawthorne | city in southwestern Los Angeles County, California, United States | Hawthorne, California | [Hawthorne](http://wwww.wikidata.org/entity/Q688596) |
+    | FAAM UUID | label     | description                                                        | aliases               | Wikidata QID                                    |
+    | :-------: | :-------: | :----------------------------------------------------------------: | :-------------------: | :---------------------------------------------: |
+    | d9YQvB32  | Hawthorne | city in southwestern Los Angeles County, California, United States | Hawthorne, California | [Hawthorne](http://wikidata.org/entity/Q688596) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/d9YQvB32.html" height="800" width="1200" title="d9YQvB32"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/d9YQvB32" height="800" width="1200" title="d9YQvB32"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Kerry Mills](./8a6hfSXp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	American ragtime composer and music publishing executive (1869–1948)
 

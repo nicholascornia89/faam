@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SGtJYpLe
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/SGtJYpLe.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/SGtJYpLe.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/SGtJYpLe.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/SGtJYpLe.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/SGtJYpLe.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/SGtJYpLe.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description     | Wikidata QID                                               |
-    | :-------: | :-------------: | :-----: | :-------------: | :--------------------------------------------------------: |
-    | SGtJYpLe  | Robin Mallapert |         | French musician | [Robin Mallapert](http://wwww.wikidata.org/entity/Q194007) |
+    | FAAM UUID | label           | aliases | description     | Wikidata QID                                          |
+    | :-------: | :-------------: | :-----: | :-------------: | :---------------------------------------------------: |
+    | SGtJYpLe  | Robin Mallapert |         | French musician | [Robin Mallapert](http://wikidata.org/entity/Q194007) |
 
 <br><br><br>
 
@@ -55,13 +59,13 @@ tags: agent
 
 	- [singer](./oJ9qmRVq.md)
 
-	- [](./Db7aL4Bi.md)
+	- [canon](./Db7aL4Bi.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/SGtJYpLe.html" height="800" width="1200" title="SGtJYpLe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SGtJYpLe" height="800" width="1200" title="SGtJYpLe"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giovanni Pierluigi da Palestrina](./nHfR4BAi.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giovanni_Pierluigi_da_Palestrina.jpg){align=left width="150" height="150"} 
+
+	Italian Renaissance composer (c. 1525–1594)
+
+</div>

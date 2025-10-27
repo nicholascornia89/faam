@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gvkiEQxM
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                | aliases | Wikidata QID                                                  |
-    | :-------: | :---------------: | :------------------------: | :-----: | :-----------------------------------------------------------: |
-    | gvkiEQxM  | Saintry-sur-Seine | commune in Essonne, France | Saintry | [Saintry-sur-Seine](http://wwww.wikidata.org/entity/Q1165862) |
+    | FAAM UUID | label             | description                | aliases | Wikidata QID                                             |
+    | :-------: | :---------------: | :------------------------: | :-----: | :------------------------------------------------------: |
+    | gvkiEQxM  | Saintry-sur-Seine | commune in Essonne, France | Saintry | [Saintry-sur-Seine](http://wikidata.org/entity/Q1165862) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/gvkiEQxM.html" height="800" width="1200" title="gvkiEQxM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gvkiEQxM" height="800" width="1200" title="gvkiEQxM"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Elisa Bosch](./YkKD2dJ6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

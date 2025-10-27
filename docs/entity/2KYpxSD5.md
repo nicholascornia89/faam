@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2KYpxSD5
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                                          | aliases | Wikidata QID                                                      |
-    | :-------: | :---------------------: | :--------------------------------------------------: | :-----: | :---------------------------------------------------------------: |
-    | 2KYpxSD5  | Schaerbeek - Schaarbeek | municipality in the Brussels-Capital Region, Belgium | Skerbek | [Schaerbeek - Schaarbeek](http://wwww.wikidata.org/entity/Q12887) |
+    | FAAM UUID | label                   | description                                          | aliases | Wikidata QID                                                 |
+    | :-------: | :---------------------: | :--------------------------------------------------: | :-----: | :----------------------------------------------------------: |
+    | 2KYpxSD5  | Schaerbeek - Schaarbeek | municipality in the Brussels-Capital Region, Belgium | Skerbek | [Schaerbeek - Schaarbeek](http://wikidata.org/entity/Q12887) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/2KYpxSD5.html" height="800" width="1200" title="2KYpxSD5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2KYpxSD5" height="800" width="1200" title="2KYpxSD5"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Pierre François Riga](./gnZXWv4y.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian musician (1831-1892)
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Henry Weyts](./PbUfaERk.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian composer
 

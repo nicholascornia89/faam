@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "F9d5oekT", "label": "Johann Christian Bach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./F9d5oekT.md\u0027\u003eJohann Christian Bach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1735\u20131782)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Christian_Bach_by_Thomas_Gainsborough.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "U3AL7cRs", "label": "Electorate of Saxony", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./U3AL7cRs.md\u0027\u003eElectorate of Saxony\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estate of the Holy Roman Empire, established when Emperor Charles IV raised the Ascanian duchy of Saxe-Wittenberg to the status of an Electorate 1356\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ztsjgg35", "label": "Heinrich Sch\u00fctz", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Ztsjgg35.md\u0027\u003eHeinrich Sch\u00fctz\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and organist (1585\u20131672)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Schutz.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HTapdwzK", "label": "Friedrich Wieck", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HTapdwzK.md\u0027\u003eFriedrich Wieck\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman piano teacher, music critic and music educator (1785-1873)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Wieck_age_45.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "992QX3HW", "label": "Christian Gottlob Neefe", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./992QX3HW.md\u0027\u003eChristian Gottlob Neefe\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and conductor (1748\u20131789)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Christian_Gottlob_Neefe\u0027s_Portrait.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "F9d5oekT", "to": "U3AL7cRs", "width": 10}, {"from": "Ztsjgg35", "to": "U3AL7cRs", "width": 10}, {"from": "U3AL7cRs", "to": "HTapdwzK", "width": 10}, {"from": "U3AL7cRs", "to": "992QX3HW", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "F9d5oekT", "label": "Johann Christian Bach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/F9d5oekT\u0027\u003eJohann Christian Bach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1735\u20131782)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Christian_Bach_by_Thomas_Gainsborough.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "U3AL7cRs", "label": "Electorate of Saxony", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/U3AL7cRs\u0027\u003eElectorate of Saxony\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estate of the Holy Roman Empire, established when Emperor Charles IV raised the Ascanian duchy of Saxe-Wittenberg to the status of an Electorate 1356\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HTapdwzK", "label": "Friedrich Wieck", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HTapdwzK\u0027\u003eFriedrich Wieck\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman piano teacher, music critic and music educator (1785-1873)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Wieck_age_45.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ztsjgg35", "label": "Heinrich Sch\u00fctz", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Ztsjgg35\u0027\u003eHeinrich Sch\u00fctz\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and organist (1585\u20131672)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Schutz.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "992QX3HW", "label": "Christian Gottlob Neefe", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/992QX3HW\u0027\u003eChristian Gottlob Neefe\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer and conductor (1748\u20131789)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Christian_Gottlob_Neefe\u0027s_Portrait.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "F9d5oekT", "to": "U3AL7cRs", "width": 10}, {"from": "HTapdwzK", "to": "U3AL7cRs", "width": 10}, {"from": "U3AL7cRs", "to": "Ztsjgg35", "width": 10}, {"from": "U3AL7cRs", "to": "992QX3HW", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3iEGZFo6
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                 | aliases            | Wikidata QID                                   |
-    | :-------: | :----: | :-----------------------------------------: | :----------------: | :--------------------------------------------: |
-    | 3iEGZFo6  | Russia | country in Eastern Europe and Northern Asia | Russian Federation | [Russia](http://wwww.wikidata.org/entity/Q159) |
+    | FAAM UUID | label  | description                                 | aliases            | Wikidata QID                              |
+    | :-------: | :----: | :-----------------------------------------: | :----------------: | :---------------------------------------: |
+    | 3iEGZFo6  | Russia | country in Eastern Europe and Northern Asia | Russian Federation | [Russia](http://wikidata.org/entity/Q159) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/3iEGZFo6.html" height="800" width="1200" title="3iEGZFo6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3iEGZFo6" height="800" width="1200" title="3iEGZFo6"></iframe>
 
 ## Identifiers
 
@@ -59,13 +63,13 @@ tags: country
 
 -	__[Vasily Bessel](./KLcqFTj4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian publisher (1843–1907)
 
 -	__[Modest Petrovich Mussorgsky](./eqc4UJfy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3d/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Modest_Musorgskiy_1876_%28cropped%29.jpg){align=left width="150" height="150"} 
 
 	Russian composer (1839–1881)
 
@@ -77,19 +81,19 @@ tags: country
 
 -	__[Boris de Schlözer](./fStBz5Sq.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/47/Boris_de_Schl%C3%B6zer_2.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Boris_de_Schl%C3%B6zer_2.jpg){align=left width="150" height="150"} 
 
 	Russian Translator (1881–1969)
 
 -	__[Mikhail Glinka](./jZ54gutD.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e8/Glinka_1856.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Glinka_1856.jpg){align=left width="150" height="150"} 
 
 	Russian composer
 
 -	__[Issay Barmas](./8E5UBj64.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/50/Issay_Barmas.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Issay_Barmas.jpg){align=left width="150" height="150"} 
 
 	Russian-German violinist
 

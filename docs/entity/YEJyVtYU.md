@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YEJyVtYU
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                      | aliases  | Wikidata QID                                        |
-    | :-------: | :------: | :------------------------------: | :------: | :-------------------------------------------------: |
-    | YEJyVtYU  | Ofatinți | village in Transnistria, Moldova | Ofatinţi | [Ofatinți](http://wwww.wikidata.org/entity/Q370804) |
+    | FAAM UUID | label    | description                      | aliases  | Wikidata QID                                   |
+    | :-------: | :------: | :------------------------------: | :------: | :--------------------------------------------: |
+    | YEJyVtYU  | Ofatinți | village in Transnistria, Moldova | Ofatinţi | [Ofatinți](http://wikidata.org/entity/Q370804) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Moldova](http://www.wikidata.org/entity/Q217)
+	- [Moldova](Q217)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/YEJyVtYU.html" height="800" width="1200" title="YEJyVtYU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YEJyVtYU" height="800" width="1200" title="YEJyVtYU"></iframe>
 
 ## Identifiers
 

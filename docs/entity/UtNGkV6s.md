@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UtNGkV6s
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description           | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :-------------------: | :-----: | :-------------------------------------------------: |
-    | UtNGkV6s  | Marchena | municipality of Spain |         | [Marchena](http://wwww.wikidata.org/entity/Q929481) |
+    | FAAM UUID | label    | description           | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :-------------------: | :-----: | :--------------------------------------------: |
+    | UtNGkV6s  | Marchena | municipality of Spain |         | [Marchena](http://wikidata.org/entity/Q929481) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/UtNGkV6s.html" height="800" width="1200" title="UtNGkV6s"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UtNGkV6s" height="800" width="1200" title="UtNGkV6s"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Juan Navarro Hispalensis](./H2w2eF7A.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Spanish composer
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: acsGNc8c
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                                                 | aliases | Wikidata QID                                                        |
-    | :-------: | :---------------------: | :---------------------------------------------------------: | :-----: | :-----------------------------------------------------------------: |
-    | acsGNc8c  | Phillips Exeter Academy | private college preparatory school in Exeter, New Hampshire | PEA     | [Phillips Exeter Academy](http://wwww.wikidata.org/entity/Q1426464) |
+    | FAAM UUID | label                   | description                                                 | aliases | Wikidata QID                                                   |
+    | :-------: | :---------------------: | :---------------------------------------------------------: | :-----: | :------------------------------------------------------------: |
+    | acsGNc8c  | Phillips Exeter Academy | private college preparatory school in Exeter, New Hampshire | PEA     | [Phillips Exeter Academy](http://wikidata.org/entity/Q1426464) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./dvfz3tmy.md)
+	[Exeter](./dvfz3tmy.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/acsGNc8c.html" height="800" width="1200" title="acsGNc8c"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/acsGNc8c" height="800" width="1200" title="acsGNc8c"></iframe>
 
 ## Cross-references
 

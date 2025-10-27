@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WXLXgEpt
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WXLXgEpt.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WXLXgEpt.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WXLXgEpt.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WXLXgEpt.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WXLXgEpt.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WXLXgEpt.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Reger.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases | description                                        | Wikidata QID                                        |
-    | :-------: | :-------: | :-----: | :------------------------------------------------: | :-------------------------------------------------: |
-    | WXLXgEpt  | Max Reger | Reger   | German composer, pianist and conductor (1873-1916) | [Max Reger](http://wwww.wikidata.org/entity/Q57139) |
+    | FAAM UUID | label     | aliases | description                                        | Wikidata QID                                   |
+    | :-------: | :-------: | :-----: | :------------------------------------------------: | :--------------------------------------------: |
+    | WXLXgEpt  | Max Reger | Reger   | German composer, pianist and conductor (1873-1916) | [Max Reger](http://wikidata.org/entity/Q57139) |
 
 <br><br><br>
 
@@ -75,7 +79,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/WXLXgEpt.html" height="800" width="1200" title="WXLXgEpt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WXLXgEpt" height="800" width="1200" title="WXLXgEpt"></iframe>
 
 ## Identifiers
 
@@ -101,26 +105,38 @@ tags: agent
 
 -	__[Capriccio: B dur (abreise)](./LAjTaxC3.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP140299.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP140299.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ouverture : in H moll](./JrarmXTr.md)__
 
-	![Image](../assets/images/thumbs/KCG-000749031.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000749031.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Zwölf Stücke : für die Orgel, op. 59](./eW5udcz6.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127682.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127682.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Zwölf Stücke : für die Orgel, op. 59](./CqEFpNwi.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904127690.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127690.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[12 Stücke, Op.59](./UGdEDHYb.md)__
+
+	
+
+-	__[Orchestral Suite No.2 in B minor, BWV 1067](./6Uqsuno5.md)__
+
+	orchestral suite by Johann Sebastian Bach
 
 </div>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HmGw8E8i
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                                                                                  | aliases         | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :------------------------------------------------------------------------------------------: | :-------------: | :------------------------------------------------------------------: |
-    | HmGw8E8i  | music publishing company | company that licenses compositions, collects royalties and distributes them to the composers | music publisher | [music publishing company](http://wwww.wikidata.org/entity/Q1917775) |
+    | FAAM UUID | label                    | description                                                                                  | aliases         | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :------------------------------------------------------------------------------------------: | :-------------: | :-------------------------------------------------------------: |
+    | HmGw8E8i  | music publishing company | company that licenses compositions, collects royalties and distributes them to the composers | music publisher | [music publishing company](http://wikidata.org/entity/Q1917775) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/HmGw8E8i.html" height="800" width="1200" title="HmGw8E8i"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HmGw8E8i" height="800" width="1200" title="HmGw8E8i"></iframe>
 
 ## Cross-references
 

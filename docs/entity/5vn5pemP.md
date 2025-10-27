@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5vn5pemP
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                             | aliases          | Wikidata QID                                       |
-    | :-------: | :------: | :---------------------------------------------------------------------: | :--------------: | :------------------------------------------------: |
-    | 5vn5pemP  | oratorio | large musical composition including an orchestra, a choir, and soloists | passion oratorio | [oratorio](http://wwww.wikidata.org/entity/Q85477) |
+    | FAAM UUID | label    | description                                                             | aliases          | Wikidata QID                                  |
+    | :-------: | :------: | :---------------------------------------------------------------------: | :--------------: | :-------------------------------------------: |
+    | 5vn5pemP  | oratorio | large musical composition including an orchestra, a choir, and soloists | passion oratorio | [oratorio](http://wikidata.org/entity/Q85477) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/5vn5pemP.html" height="800" width="1200" title="5vn5pemP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5vn5pemP" height="800" width="1200" title="5vn5pemP"></iframe>
 
 ## Cross-references
 
@@ -39,19 +43,19 @@ tags: keyword
 
 -	__[Air de La Création](./V6dv6W8x.md)__
 
-	![Image](../assets/images/thumbs/KCG-000348660.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000348660.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Air d'église : du célèbre chanteur Stradella : avec accompt. de piano](./fAttk68M.md)__
 
-	![Image](../assets/images/thumbs/KCG-000345408.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345408.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Passionsmusik : nach dem Evangelisten Matthäus](./LGixSzgF.md)__
 
-	![Image](../assets/images/thumbs/BSB-991076581989707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076581989707356.gif){align=left width="150" height="150"} 
 
 	
 

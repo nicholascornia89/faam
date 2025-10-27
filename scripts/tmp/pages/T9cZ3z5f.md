@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: T9cZ3z5f
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------------: | :-----: | :---------: | :----------------------------------: |
-    | T9cZ3z5f  | Morceau de concert, Op.14 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                     | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------------: | :-----: | :---------: | :-----------------------------: |
+    | T9cZ3z5f  | Morceau de concert, Op.14 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/T9cZ3z5f.html" height="800" width="1200" title="T9cZ3z5f"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/T9cZ3z5f" height="800" width="1200" title="T9cZ3z5f"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Morceau de Concert : Op. 14](./dN53uMzn.md)__
 
-	![Image](../assets/images/thumbs/KCG-000741173.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000741173.gif){align=left width="150" height="150"} 
 
 	
 

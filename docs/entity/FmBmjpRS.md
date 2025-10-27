@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FmBmjpRS
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                                                | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :----------------------------------------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | FmBmjpRS  | Nevel | town and administrative center of Nevelsky District of Pskov Oblast in northwestern Russia | Newel   | [Nevel](http://wwww.wikidata.org/entity/Q165773) |
+    | FAAM UUID | label | description                                                                                | aliases | Wikidata QID                                |
+    | :-------: | :---: | :----------------------------------------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | FmBmjpRS  | Nevel | town and administrative center of Nevelsky District of Pskov Oblast in northwestern Russia | Newel   | [Nevel](http://wikidata.org/entity/Q165773) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/FmBmjpRS.html" height="800" width="1200" title="FmBmjpRS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FmBmjpRS" height="800" width="1200" title="FmBmjpRS"></iframe>
 
 ## Identifiers
 

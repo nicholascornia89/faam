@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HoqygEsg
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                 | aliases | Wikidata QID                                            |
-    | :-------: | :--------: | :-------------------------: | :-----: | :-----------------------------------------------------: |
-    | HoqygEsg  | Harlaching | human settlement in Germany |         | [Harlaching](http://wwww.wikidata.org/entity/Q52265016) |
+    | FAAM UUID | label      | description                 | aliases | Wikidata QID                                       |
+    | :-------: | :--------: | :-------------------------: | :-----: | :------------------------------------------------: |
+    | HoqygEsg  | Harlaching | human settlement in Germany |         | [Harlaching](http://wikidata.org/entity/Q52265016) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/HoqygEsg.html" height="800" width="1200" title="HoqygEsg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HoqygEsg" height="800" width="1200" title="HoqygEsg"></iframe>
 
 ## Identifiers
 

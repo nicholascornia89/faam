@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4oBhHZid
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                                       | aliases                    | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :-----------------------------------------------: | :------------------------: | :--------------------------------------------------------------------: |
-    | 4oBhHZid  | 7th arrondissement of Paris | municipal arrondissement in Île-de-France, France | 7e arrondissement de Paris | [7th arrondissement of Paris](http://wwww.wikidata.org/entity/Q259463) |
+    | FAAM UUID | label                       | description                                       | aliases                    | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :-----------------------------------------------: | :------------------------: | :---------------------------------------------------------------: |
+    | 4oBhHZid  | 7th arrondissement of Paris | municipal arrondissement in Île-de-France, France | 7e arrondissement de Paris | [7th arrondissement of Paris](http://wikidata.org/entity/Q259463) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/4oBhHZid.html" height="800" width="1200" title="4oBhHZid"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4oBhHZid" height="800" width="1200" title="4oBhHZid"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 

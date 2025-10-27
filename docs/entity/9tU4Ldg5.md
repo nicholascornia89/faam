@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9tU4Ldg5
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description              | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :----------------------: | :-----: | :----------------------------------------------: |
-    | 9tU4Ldg5  | Ternand | commune in Rhône, France |         | [Ternand](http://wwww.wikidata.org/entity/Q1969) |
+    | FAAM UUID | label   | description              | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :----------------------: | :-----: | :-----------------------------------------: |
+    | 9tU4Ldg5  | Ternand | commune in Rhône, France |         | [Ternand](http://wikidata.org/entity/Q1969) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9tU4Ldg5.html" height="800" width="1200" title="9tU4Ldg5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9tU4Ldg5" height="800" width="1200" title="9tU4Ldg5"></iframe>
 
 ## Identifiers
 

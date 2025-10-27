@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kVTGUsJ5
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                      | aliases | Wikidata QID                                        |
-    | :-------: | :------: | :------------------------------: | :-----: | :-------------------------------------------------: |
-    | kVTGUsJ5  | Wijnegem | municipality in Antwerp, Belgium |         | [Wijnegem](http://wwww.wikidata.org/entity/Q527808) |
+    | FAAM UUID | label    | description                      | aliases | Wikidata QID                                   |
+    | :-------: | :------: | :------------------------------: | :-----: | :--------------------------------------------: |
+    | kVTGUsJ5  | Wijnegem | municipality in Antwerp, Belgium |         | [Wijnegem](http://wikidata.org/entity/Q527808) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/kVTGUsJ5.html" height="800" width="1200" title="kVTGUsJ5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kVTGUsJ5" height="800" width="1200" title="kVTGUsJ5"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Francine Lepage](./hBcFSi6N.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian mezzo soprano
 

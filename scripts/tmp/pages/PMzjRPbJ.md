@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PMzjRPbJ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description               | aliases  | Wikidata QID                                      |
-    | :-------: | :------: | :-----------------------: | :------: | :-----------------------------------------------: |
-    | PMzjRPbJ  | Canberra | capital city of Australia | Canberra | [Canberra](http://wwww.wikidata.org/entity/Q3114) |
+    | FAAM UUID | label    | description               | aliases  | Wikidata QID                                 |
+    | :-------: | :------: | :-----------------------: | :------: | :------------------------------------------: |
+    | PMzjRPbJ  | Canberra | capital city of Australia | Canberra | [Canberra](http://wikidata.org/entity/Q3114) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/PMzjRPbJ.html" height="800" width="1200" title="PMzjRPbJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PMzjRPbJ" height="800" width="1200" title="PMzjRPbJ"></iframe>
 
 ## Identifiers
 

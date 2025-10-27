@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7rzJP42T
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------------------------------: | :-----: | :------------------------------------------------: |
-    | 7rzJP42T  | Ciboure | commune in Pyrénées-Atlantiques, France |         | [Ciboure](http://wwww.wikidata.org/entity/Q235208) |
+    | FAAM UUID | label   | description                             | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------------------------------: | :-----: | :-------------------------------------------: |
+    | 7rzJP42T  | Ciboure | commune in Pyrénées-Atlantiques, France |         | [Ciboure](http://wikidata.org/entity/Q235208) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7rzJP42T.html" height="800" width="1200" title="7rzJP42T"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7rzJP42T" height="800" width="1200" title="7rzJP42T"></iframe>
 
 ## Identifiers
 

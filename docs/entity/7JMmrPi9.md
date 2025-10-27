@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7JMmrPi9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                | aliases    | Wikidata QID                                      |
-    | :-------: | :-----: | :--------------------------------------------------------: | :--------: | :-----------------------------------------------: |
-    | 7JMmrPi9  | Liestal | town in, and capital of, the Swiss canton of Basel-Country | Liestal BL | [Liestal](http://wwww.wikidata.org/entity/Q68972) |
+    | FAAM UUID | label   | description                                                | aliases    | Wikidata QID                                 |
+    | :-------: | :-----: | :--------------------------------------------------------: | :--------: | :------------------------------------------: |
+    | 7JMmrPi9  | Liestal | town in, and capital of, the Swiss canton of Basel-Country | Liestal BL | [Liestal](http://wikidata.org/entity/Q68972) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/7JMmrPi9.html" height="800" width="1200" title="7JMmrPi9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7JMmrPi9" height="800" width="1200" title="7JMmrPi9"></iframe>
 
 ## Identifiers
 

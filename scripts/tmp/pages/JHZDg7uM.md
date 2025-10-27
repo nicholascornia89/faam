@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JHZDg7uM
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-11727/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JHZDg7uM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JHZDg7uM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JHZDg7uM.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-11727/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JHZDg7uM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JHZDg7uM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JHZDg7uM.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-11727.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-11727.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                                           | permalink                | provenance                            |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | JHZDg7uM  | SML-11727             | Klassische Klavierwerke aus Hans von Bülow's Concertprogrammen = Classical pianoforte pieces from the concertprogrammes of Hans von Bülow / revidirt und mit genauen Fingersatz- und Vortragsbezeichnungen herausgegeben von Hans von Bülow. | [external URL](LQND7DE7) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                                           | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | JHZDg7uM  | SML-11727             | Klassische Klavierwerke aus Hans von Bülow's Concertprogrammen = Classical pianoforte pieces from the concertprogrammes of Hans von Bülow / revidirt und mit genauen Fingersatz- und Vortragsbezeichnungen herausgegeben von Hans von Bülow. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910336433405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -67,10 +71,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/JHZDg7uM.html" height="800" width="1200" title="JHZDg7uM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JHZDg7uM" height="800" width="1200" title="JHZDg7uM"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/JHZDg7uM.html" height="800" width="1200" title="JHZDg7uM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/JHZDg7uM" height="800" width="1200" title="JHZDg7uM"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: D8BY5mjV
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/D8BY5mjV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/D8BY5mjV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/D8BY5mjV.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/D8BY5mjV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/D8BY5mjV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/D8BY5mjV.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Stephen_Heller_by_Charles_Vogt.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                                | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :----------------------------------------: | :-------------------------------------------------------: |
-    | D8BY5mjV  | Stephen Heller | Stephen Heller | Classical pianist and composer (1813–1888) | [Stephen Heller](http://wwww.wikidata.org/entity/Q710199) |
+    | FAAM UUID | label          | aliases        | description                                | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :----------------------------------------: | :--------------------------------------------------: |
+    | D8BY5mjV  | Stephen Heller | Stephen Heller | Classical pianist and composer (1813–1888) | [Stephen Heller](http://wikidata.org/entity/Q710199) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/D8BY5mjV.html" height="800" width="1200" title="D8BY5mjV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/D8BY5mjV" height="800" width="1200" title="D8BY5mjV"></iframe>
 
 ## Identifiers
 
@@ -83,7 +87,7 @@ tags: agent
 
 -	__[Album dédié à la Jeunesse](./FgsvRPov.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143701p12.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143701p12.gif){align=left width="150" height="150"} 
 
 	
 

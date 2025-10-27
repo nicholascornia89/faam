@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YkUivBK8
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                 | aliases | Wikidata QID                                           |
-    | :-------: | :---------: | :-------------------------: | :-----: | :----------------------------------------------------: |
-    | YkUivBK8  | Rambouillet | commune in Yvelines, France |         | [Rambouillet](http://wwww.wikidata.org/entity/Q191119) |
+    | FAAM UUID | label       | description                 | aliases | Wikidata QID                                      |
+    | :-------: | :---------: | :-------------------------: | :-----: | :-----------------------------------------------: |
+    | YkUivBK8  | Rambouillet | commune in Yvelines, France |         | [Rambouillet](http://wikidata.org/entity/Q191119) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YkUivBK8.html" height="800" width="1200" title="YkUivBK8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YkUivBK8" height="800" width="1200" title="YkUivBK8"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[François Roberday](./mPRFJRqS.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French organist and composer (1624-1680)
 

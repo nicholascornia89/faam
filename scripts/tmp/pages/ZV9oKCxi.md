@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZV9oKCxi
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                       | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :-------------------------------: | :-----: | :------------------------------------------------: |
-    | ZV9oKCxi  | Vouvray | commune in Indre-et-Loire, France |         | [Vouvray](http://wwww.wikidata.org/entity/Q504953) |
+    | FAAM UUID | label   | description                       | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :-------------------------------: | :-----: | :-------------------------------------------: |
+    | ZV9oKCxi  | Vouvray | commune in Indre-et-Loire, France |         | [Vouvray](http://wikidata.org/entity/Q504953) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ZV9oKCxi.html" height="800" width="1200" title="ZV9oKCxi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZV9oKCxi" height="800" width="1200" title="ZV9oKCxi"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Louis-Antoine Dubost](./KyXhycd6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

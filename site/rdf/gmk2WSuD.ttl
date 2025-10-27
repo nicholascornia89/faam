@@ -1,0 +1,22 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gmk2WSuD a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:nHfR4BAi ;
+    schema1:identifier "16002707"^^xsd:string,
+        "gmk2WSuD"^^xsd:string ;
+    skos:prefLabel "Alma redemptoris mater, IGP 6"^^xsd:string ;
+    wd:P2000 cpdl:Alma_Redemptoris_Mater_\(voci_pari\)_\(Giovanni_Pierluigi_da_Palestrina\) ;
+    wd:P5202 faamentity:Y37RQzq9,
+        faamentity:g4BVigYv,
+        faamentity:mK2saWSr ;
+    wd:P7937 faamentity:7UGJWsQF,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Alma_redemptoris_Mater,_IGP_6_(Palestrina,_Giovanni_Pierluigi_da)> .
+

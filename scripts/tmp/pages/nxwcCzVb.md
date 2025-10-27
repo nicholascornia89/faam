@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nxwcCzVb
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description          | aliases | Wikidata QID                                                |
-    | :-------: | :--------------: | :------------------: | :-----: | :---------------------------------------------------------: |
-    | nxwcCzVb  | Indian harmonium | portative reed organ |         | [Indian harmonium](http://wwww.wikidata.org/entity/Q213461) |
+    | FAAM UUID | label            | description          | aliases | Wikidata QID                                           |
+    | :-------: | :--------------: | :------------------: | :-----: | :----------------------------------------------------: |
+    | nxwcCzVb  | Indian harmonium | portative reed organ |         | [Indian harmonium](http://wikidata.org/entity/Q213461) |
 
 <br><br><br>
 
@@ -33,17 +37,17 @@ tags: musical_instrument
 
 	- [pump organ](./LFFKbemY.md)
 
-	- [](./E2Sb746q.md)
+	- [musical instrument](./E2Sb746q.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/nxwcCzVb.html" height="800" width="1200" title="nxwcCzVb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nxwcCzVb" height="800" width="1200" title="nxwcCzVb"></iframe>
 
 ## Cross-references
 

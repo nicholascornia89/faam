@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6fVTPTja
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6fVTPTja.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6fVTPTja.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6fVTPTja.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6fVTPTja.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6fVTPTja.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6fVTPTja.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Roussel_Albert_1913.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                           | description                 | Wikidata QID                                              |
-    | :-------: | :------------: | :-------------------------------: | :-------------------------: | :-------------------------------------------------------: |
-    | 6fVTPTja  | Albert Roussel | Albert Charles Paul Marie Roussel | French composer (1869–1937) | [Albert Roussel](http://wwww.wikidata.org/entity/Q313376) |
+    | FAAM UUID | label          | aliases                           | description                 | Wikidata QID                                         |
+    | :-------: | :------------: | :-------------------------------: | :-------------------------: | :--------------------------------------------------: |
+    | 6fVTPTja  | Albert Roussel | Albert Charles Paul Marie Roussel | French composer (1869–1937) | [Albert Roussel](http://wikidata.org/entity/Q313376) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./iXRdd5ks.md)
+	- [École Navale](./iXRdd5ks.md)
 
 	- [Collège Stanislas de Paris](./aGzkcUgh.md)
 
@@ -73,7 +77,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/6fVTPTja.html" height="800" width="1200" title="6fVTPTja"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6fVTPTja" height="800" width="1200" title="6fVTPTja"></iframe>
 
 ## Identifiers
 
@@ -94,3 +98,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Edgard Varèse](./Pcbbgxfw.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edgar_Varèse_-_John_French_Sloan.jpg){align=left width="150" height="150"} 
+
+	French composer (1883-1965)
+
+-	__[Bohuslav Martinů](./fJ5g4Dib.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Martinu_1945.jpg){align=left width="150" height="150"} 
+
+	Czech composer (1890–1959)
+
+</div>

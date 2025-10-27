@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AEoz6eRL
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description             | aliases | Wikidata QID                                                     |
-    | :-------: | :-----------------: | :---------------------: | :-----: | :--------------------------------------------------------------: |
-    | AEoz6eRL  | Rue aux Ours, Rouen | street in Rouen, France |         | [Rue aux Ours, Rouen](http://wwww.wikidata.org/entity/Q22249019) |
+    | FAAM UUID | label               | description             | aliases | Wikidata QID                                                |
+    | :-------: | :-----------------: | :---------------------: | :-----: | :---------------------------------------------------------: |
+    | AEoz6eRL  | Rue aux Ours, Rouen | street in Rouen, France |         | [Rue aux Ours, Rouen](http://wikidata.org/entity/Q22249019) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/AEoz6eRL.html" height="800" width="1200" title="AEoz6eRL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AEoz6eRL" height="800" width="1200" title="AEoz6eRL"></iframe>
 
 ## Identifiers
 

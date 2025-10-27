@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HtNGgwXZ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HtNGgwXZ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HtNGgwXZ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HtNGgwXZ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HtNGgwXZ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HtNGgwXZ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HtNGgwXZ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Luigi_Denza_(before_1922)_-_Archivio_storico_Ricordi_FOTO001319.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description                  | Wikidata QID                                           |
-    | :-------: | :---------: | :---------: | :--------------------------: | :----------------------------------------------------: |
-    | HtNGgwXZ  | Luigi Denza | Luigi Denza | Italian composer (1846-1922) | [Luigi Denza](http://wwww.wikidata.org/entity/Q261781) |
+    | FAAM UUID | label       | aliases     | description                  | Wikidata QID                                      |
+    | :-------: | :---------: | :---------: | :--------------------------: | :-----------------------------------------------: |
+    | HtNGgwXZ  | Luigi Denza | Luigi Denza | Italian composer (1846-1922) | [Luigi Denza](http://wikidata.org/entity/Q261781) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: agent
 
 ??? quote "instrument" 
 
-	- [](./9tdYnPBe.md)
+	- [mandolin](./9tdYnPBe.md)
 
 	- [voice](./NFAxdnVA.md)
 
@@ -51,7 +55,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./VwRGjeiG.md)
+	- [mandolinist](./VwRGjeiG.md)
 
 	- [music teacher](./L7DPWnnr.md)
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/HtNGgwXZ.html" height="800" width="1200" title="HtNGgwXZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HtNGgwXZ" height="800" width="1200" title="HtNGgwXZ"></iframe>
 
 ## Identifiers
 
@@ -93,7 +97,7 @@ tags: agent
 
 -	__[Aux Étoiles](./DAxTa3DZ.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p11.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p11.gif){align=left width="150" height="150"} 
 
 	
 

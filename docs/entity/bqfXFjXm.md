@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bqfXFjXm
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                         | aliases   | Wikidata QID                                     |
-    | :-------: | :----: | :-------------------------------------------------: | :-------: | :----------------------------------------------: |
-    | bqfXFjXm  | Lachen | municipality in the canton of Schwyz in Switzerland | Lachen SZ | [Lachen](http://wwww.wikidata.org/entity/Q67100) |
+    | FAAM UUID | label  | description                                         | aliases   | Wikidata QID                                |
+    | :-------: | :----: | :-------------------------------------------------: | :-------: | :-----------------------------------------: |
+    | bqfXFjXm  | Lachen | municipality in the canton of Schwyz in Switzerland | Lachen SZ | [Lachen](http://wikidata.org/entity/Q67100) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/bqfXFjXm.html" height="800" width="1200" title="bqfXFjXm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bqfXFjXm" height="800" width="1200" title="bqfXFjXm"></iframe>
 
 ## Identifiers
 

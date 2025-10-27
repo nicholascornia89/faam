@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 66Xpb5tT
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                       | aliases              | Wikidata QID                                                       |
-    | :-------: | :---------------------: | :-------------------------------: | :------------------: | :----------------------------------------------------------------: |
-    | 66Xpb5tT  | Church of Saint-Sulpice | building in Paris, France (1646-) | Saint-Sulpice church | [Church of Saint-Sulpice](http://wwww.wikidata.org/entity/Q295844) |
+    | FAAM UUID | label                   | description                       | aliases              | Wikidata QID                                                  |
+    | :-------: | :---------------------: | :-------------------------------: | :------------------: | :-----------------------------------------------------------: |
+    | 66Xpb5tT  | Church of Saint-Sulpice | building in Paris, France (1646-) | Saint-Sulpice church | [Church of Saint-Sulpice](http://wikidata.org/entity/Q295844) |
 
 <br><br><br>
 
@@ -31,9 +35,9 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./7chXDzuR.md)
+	[Quartier de l'Odéon](./7chXDzuR.md)
 
-	[](./U8VE48Nt.md)
+	[6th arrondissement of Paris](./U8VE48Nt.md)
 
 !!! quote "country" 
 
@@ -43,7 +47,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/66Xpb5tT.html" height="800" width="1200" title="66Xpb5tT"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/66Xpb5tT" height="800" width="1200" title="66Xpb5tT"></iframe>
 
 ## Cross-references
 

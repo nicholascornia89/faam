@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HEvY8fvF
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | description                            | aliases | Wikidata QID                                                                  |
-    | :-------: | :------------------------------: | :------------------------------------: | :-----: | :---------------------------------------------------------------------------: |
-    | HEvY8fvF  | Hanover State Symphony Orchestra | symphony orchestra in Hanover, Germany |         | [Hanover State Symphony Orchestra](http://wwww.wikidata.org/entity/Q22693300) |
+    | FAAM UUID | label                            | description                            | aliases | Wikidata QID                                                             |
+    | :-------: | :------------------------------: | :------------------------------------: | :-----: | :----------------------------------------------------------------------: |
+    | HEvY8fvF  | Hanover State Symphony Orchestra | symphony orchestra in Hanover, Germany |         | [Hanover State Symphony Orchestra](http://wikidata.org/entity/Q22693300) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/HEvY8fvF.html" height="800" width="1200" title="HEvY8fvF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HEvY8fvF" height="800" width="1200" title="HEvY8fvF"></iframe>
 
 ## Cross-references
 

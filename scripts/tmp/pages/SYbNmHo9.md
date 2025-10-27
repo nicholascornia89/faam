@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SYbNmHo9
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                  | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :--------------------------: | :-----: | :-----------------------------------------------: |
-    | SYbNmHo9  | Colmar | commune in Haut-Rhin, France | Kolmar  | [Colmar](http://wwww.wikidata.org/entity/Q130994) |
+    | FAAM UUID | label  | description                  | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :--------------------------: | :-----: | :------------------------------------------: |
+    | SYbNmHo9  | Colmar | commune in Haut-Rhin, France | Kolmar  | [Colmar](http://wikidata.org/entity/Q130994) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/SYbNmHo9.html" height="800" width="1200" title="SYbNmHo9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SYbNmHo9" height="800" width="1200" title="SYbNmHo9"></iframe>
 
 ## Identifiers
 

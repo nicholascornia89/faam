@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZJut946q a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:identifier "16002365"^^xsd:string,
+        "ZJut946q"^^xsd:string ;
+    skos:prefLabel "12 Klavierstücke für kleine und große Kinder, Op.85"^^xsd:string ;
+    wd:P7937 faamentity:KdGKqPWR ;
+    wd:P839 <https://imslp.org/wiki/12_Klavierstücke_für_kleine_und_große_Kinder,_Op.85_(Schumann,_Robert)> .
+

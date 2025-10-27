@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GKDHbTRJ
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description  | aliases                | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :----------: | :--------------------: | :---------------------------------------------------------------: |
-    | GKDHbTRJ  | Schwarzburg-Rudolstadt | principality | Schwarzburg-Rudolstadt | [Schwarzburg-Rudolstadt](http://wwww.wikidata.org/entity/Q695316) |
+    | FAAM UUID | label                  | description  | aliases                | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :----------: | :--------------------: | :----------------------------------------------------------: |
+    | GKDHbTRJ  | Schwarzburg-Rudolstadt | principality | Schwarzburg-Rudolstadt | [Schwarzburg-Rudolstadt](http://wikidata.org/entity/Q695316) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/GKDHbTRJ.html" height="800" width="1200" title="GKDHbTRJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GKDHbTRJ" height="800" width="1200" title="GKDHbTRJ"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Heinrich Christoph Koch](./ctR5YVSR.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist and composer
 

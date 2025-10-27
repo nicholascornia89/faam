@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: U3AL7cRs
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | description                                                                                                                                          | aliases      | Wikidata QID                                                    |
-    | :-------: | :------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :-------------------------------------------------------------: |
-    | U3AL7cRs  | Electorate of Saxony | state of the Holy Roman Empire, established when Emperor Charles IV raised the Ascanian duchy of Saxe-Wittenberg to the status of an Electorate 1356 | Upper Saxony | [Electorate of Saxony](http://wwww.wikidata.org/entity/Q156199) |
+    | FAAM UUID | label                | description                                                                                                                                          | aliases      | Wikidata QID                                               |
+    | :-------: | :------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :--------------------------------------------------------: |
+    | U3AL7cRs  | Electorate of Saxony | state of the Holy Roman Empire, established when Emperor Charles IV raised the Ascanian duchy of Saxe-Wittenberg to the status of an Electorate 1356 | Upper Saxony | [Electorate of Saxony](http://wikidata.org/entity/Q156199) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/U3AL7cRs.html" height="800" width="1200" title="U3AL7cRs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/U3AL7cRs" height="800" width="1200" title="U3AL7cRs"></iframe>
 
 ## Identifiers
 

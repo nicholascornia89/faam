@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MKJR7NT3
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                | aliases | Wikidata QID                                  |
-    | :-------: | :---: | :----------------------------------------: | :-----: | :-------------------------------------------: |
-    | MKJR7NT3  | Bari  | Italian city, capital of the Apulia region | Bare    | [Bari](http://wwww.wikidata.org/entity/Q3519) |
+    | FAAM UUID | label | description                                | aliases | Wikidata QID                             |
+    | :-------: | :---: | :----------------------------------------: | :-----: | :--------------------------------------: |
+    | MKJR7NT3  | Bari  | Italian city, capital of the Apulia region | Bare    | [Bari](http://wikidata.org/entity/Q3519) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/MKJR7NT3.html" height="800" width="1200" title="MKJR7NT3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MKJR7NT3" height="800" width="1200" title="MKJR7NT3"></iframe>
 
 ## Identifiers
 
@@ -55,19 +59,19 @@ tags: city
 
 -	__[Stefano Felis](./MzU3fdit.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Pomponio Nenna](./FpfYVAFn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Stefano Felis](./MzU3fdit.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

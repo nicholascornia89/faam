@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Scs9S2ap
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                      | aliases   | Wikidata QID                                                |
-    | :-------: | :---------------: | :----------------------------------------------: | :-------: | :---------------------------------------------------------: |
-    | Scs9S2ap  | Dartmouth College | private university in Hanover, New Hampshire, US | Dartmouth | [Dartmouth College](http://wwww.wikidata.org/entity/Q49116) |
+    | FAAM UUID | label             | description                                      | aliases   | Wikidata QID                                           |
+    | :-------: | :---------------: | :----------------------------------------------: | :-------: | :----------------------------------------------------: |
+    | Scs9S2ap  | Dartmouth College | private university in Hanover, New Hampshire, US | Dartmouth | [Dartmouth College](http://wikidata.org/entity/Q49116) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./2kHHw622.md)
+	[Hanover](./2kHHw622.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Scs9S2ap.html" height="800" width="1200" title="Scs9S2ap"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Scs9S2ap" height="800" width="1200" title="Scs9S2ap"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FzyWhUYQ
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                       | aliases | Wikidata QID                                                |
-    | :-------: | :---------------: | :-------------------------------: | :-----: | :---------------------------------------------------------: |
-    | FzyWhUYQ  | Neuilly-sur-Seine | commune in Hauts-de-Seine, France | Neuilly | [Neuilly-sur-Seine](http://wwww.wikidata.org/entity/Q48958) |
+    | FAAM UUID | label             | description                       | aliases | Wikidata QID                                           |
+    | :-------: | :---------------: | :-------------------------------: | :-----: | :----------------------------------------------------: |
+    | FzyWhUYQ  | Neuilly-sur-Seine | commune in Hauts-de-Seine, France | Neuilly | [Neuilly-sur-Seine](http://wikidata.org/entity/Q48958) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/FzyWhUYQ.html" height="800" width="1200" title="FzyWhUYQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FzyWhUYQ" height="800" width="1200" title="FzyWhUYQ"></iframe>
 
 ## Identifiers
 
@@ -55,19 +59,19 @@ tags: city
 
 -	__[Antoine Banès](./Cx5HEx8r.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French choreographer and composer
 
 -	__[Henri Letocart](./H7xGj4FE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer and organist (1866–1945)
 
 -	__[Ferdinand-Fleurus Amyot](./5q9U4tL9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French publisher and bookseller (1818-1875)
 
@@ -79,7 +83,7 @@ tags: city
 
 -	__[Xavier Boisselot](./GziVRsjy.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/56/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Xavier_Boisselot_1861.jpg){align=left width="150" height="150"} 
 
 	Composer and piano maker (1811-1893)
 

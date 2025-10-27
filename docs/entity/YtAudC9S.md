@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YtAudC9S
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/YtAudC9S.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/YtAudC9S.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/YtAudC9S.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/YtAudC9S.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/YtAudC9S.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/YtAudC9S.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases                  | description                   | Wikidata QID                                                      |
-    | :-------: | :--------------------: | :----------------------: | :---------------------------: | :---------------------------------------------------------------: |
-    | YtAudC9S  | Jacob Clemens non Papa | Jacobus Clemens non Papa | 16th-century Flemish composer | [Jacob Clemens non Papa](http://wwww.wikidata.org/entity/Q438090) |
+    | FAAM UUID | label                  | aliases                  | description                   | Wikidata QID                                                 |
+    | :-------: | :--------------------: | :----------------------: | :---------------------------: | :----------------------------------------------------------: |
+    | YtAudC9S  | Jacob Clemens non Papa | Jacobus Clemens non Papa | 16th-century Flemish composer | [Jacob Clemens non Papa](http://wikidata.org/entity/Q438090) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/YtAudC9S.html" height="800" width="1200" title="YtAudC9S"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YtAudC9S" height="800" width="1200" title="YtAudC9S"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,31 @@ tags: agent
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Tristitia obsedit](./o8Kxs9aK.md)__
+
+	
+
+-	__[Ave Maria](./ZHhYsKPJ.md)__
+
+	
+
+-	__[Beata es virgo Maria](./aeRnXbFz.md)__
+
+	
+
+-	__[Erravi sicut ovis](./NQcdgKHT.md)__
+
+	
+
+-	__[Tu es Petrus](./5ZN7sd8U.md)__
 
 	
 

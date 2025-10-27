@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UCpo9Sgj
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                        | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :--------------------------------: | :-----: | :------------------------------------------------: |
-    | UCpo9Sgj  | Zlonice | municipality in the Czech Republic |         | [Zlonice](http://wwww.wikidata.org/entity/Q207261) |
+    | FAAM UUID | label   | description                        | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :--------------------------------: | :-----: | :-------------------------------------------: |
+    | UCpo9Sgj  | Zlonice | municipality in the Czech Republic |         | [Zlonice](http://wikidata.org/entity/Q207261) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/UCpo9Sgj.html" height="800" width="1200" title="UCpo9Sgj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UCpo9Sgj" height="800" width="1200" title="UCpo9Sgj"></iframe>
 
 ## Identifiers
 

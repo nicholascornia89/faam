@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 43UCrS3D
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                               | aliases | Wikidata QID                                         |
-    | :-------: | :--------: | :---------------------------------------: | :-----: | :--------------------------------------------------: |
-    | 43UCrS3D  | profession | occupation requiring specialized training | craft   | [profession](http://wwww.wikidata.org/entity/Q28640) |
+    | FAAM UUID | label      | description                               | aliases | Wikidata QID                                    |
+    | :-------: | :--------: | :---------------------------------------: | :-----: | :---------------------------------------------: |
+    | 43UCrS3D  | profession | occupation requiring specialized training | craft   | [profession](http://wikidata.org/entity/Q28640) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/43UCrS3D.html" height="800" width="1200" title="43UCrS3D"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/43UCrS3D" height="800" width="1200" title="43UCrS3D"></iframe>
 
 ## Cross-references
 

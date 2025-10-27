@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LQPfukMQ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LQPfukMQ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LQPfukMQ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LQPfukMQ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LQPfukMQ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LQPfukMQ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LQPfukMQ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Julian_Bream_1964.JPG" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description                                          | Wikidata QID                                            |
-    | :-------: | :----------: | :-----: | :--------------------------------------------------: | :-----------------------------------------------------: |
-    | LQPfukMQ  | Julian Bream |         | English classical guitarist and lutenist (1933–2020) | [Julian Bream](http://wwww.wikidata.org/entity/Q453583) |
+    | FAAM UUID | label        | aliases | description                                          | Wikidata QID                                       |
+    | :-------: | :----------: | :-----: | :--------------------------------------------------: | :------------------------------------------------: |
+    | LQPfukMQ  | Julian Bream |         | English classical guitarist and lutenist (1933–2020) | [Julian Bream](http://wikidata.org/entity/Q453583) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./LdnPvsKv.md)
+	- [guitarist](./LdnPvsKv.md)
 
 	- [musician](./bX2aWAhB.md)
 
@@ -73,7 +77,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/LQPfukMQ.html" height="800" width="1200" title="LQPfukMQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LQPfukMQ" height="800" width="1200" title="LQPfukMQ"></iframe>
 
 ## Identifiers
 
@@ -86,3 +90,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Robert Allen Spencer](./nTmL95bR.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	UK lutenist (1932-1997)
+
+</div>

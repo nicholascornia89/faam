@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SmFy9S2n
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                                               | aliases        | Wikidata QID                                                |
-    | :-------: | :--------------: | :-------------------------------------------------------: | :------------: | :---------------------------------------------------------: |
-    | SmFy9S2n  | Kingdom of Italy | (962 – 1801) constituent kingdom of the Holy Roman Empire | Regnum Italiae | [Kingdom of Italy](http://wwww.wikidata.org/entity/Q838931) |
+    | FAAM UUID | label            | description                                               | aliases        | Wikidata QID                                           |
+    | :-------: | :--------------: | :-------------------------------------------------------: | :------------: | :----------------------------------------------------: |
+    | SmFy9S2n  | Kingdom of Italy | (962 – 1801) constituent kingdom of the Holy Roman Empire | Regnum Italiae | [Kingdom of Italy](http://wikidata.org/entity/Q838931) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/SmFy9S2n.html" height="800" width="1200" title="SmFy9S2n"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SmFy9S2n" height="800" width="1200" title="SmFy9S2n"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2YpGuwc9
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/BNF-43135625w/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2YpGuwc9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2YpGuwc9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2YpGuwc9.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/BNF-43135625w/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2YpGuwc9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2YpGuwc9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2YpGuwc9.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-43135625w.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-43135625w.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                            | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | 2YpGuwc9  | BNF-43135625w         | Art moderne du piano, 50 Etudes de salon moyenne force et progressives... par Marmontel, op. 108 | [external URL](5zYxp5vL) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                            | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | 2YpGuwc9  | BNF-43135625w         | Art moderne du piano, 50 Etudes de salon moyenne force et progressives... par Marmontel, op. 108 | [external URL](http://catalogue.bnf.fr/ark:/12148/cb43135625w) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -60,10 +64,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/2YpGuwc9.html" height="800" width="1200" title="2YpGuwc9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2YpGuwc9" height="800" width="1200" title="2YpGuwc9"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/2YpGuwc9.html" height="800" width="1200" title="2YpGuwc9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/2YpGuwc9" height="800" width="1200" title="2YpGuwc9"></iframe>

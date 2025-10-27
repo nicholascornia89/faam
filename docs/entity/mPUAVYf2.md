@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mPUAVYf2
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mPUAVYf2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mPUAVYf2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mPUAVYf2.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mPUAVYf2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mPUAVYf2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mPUAVYf2.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Barthélémy_Pradher_par_Godefroy_Engelmann.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | aliases                  | description                                 | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :----------------------: | :-----------------------------------------: | :------------------------------------------------------------------: |
-    | mPUAVYf2  | Louis-Barthélémy Pradher | Louis Bartholome Pradher | French composer, pianist and music educator | [Louis-Barthélémy Pradher](http://wwww.wikidata.org/entity/Q1871385) |
+    | FAAM UUID | label                    | aliases                  | description                                 | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :----------------------: | :-----------------------------------------: | :-------------------------------------------------------------: |
+    | mPUAVYf2  | Louis-Barthélémy Pradher | Louis Bartholome Pradher | French composer, pianist and music educator | [Louis-Barthélémy Pradher](http://wikidata.org/entity/Q1871385) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/mPUAVYf2.html" height="800" width="1200" title="mPUAVYf2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mPUAVYf2" height="800" width="1200" title="mPUAVYf2"></iframe>
 
 ## Identifiers
 
@@ -86,3 +90,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Henri Herz](./QcnHx5uP.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Herz,_Henri,_par_Mayer_et_Pierson,_BNF_Gallica.jpg){align=left width="150" height="150"} 
+
+	Austrian musician (1803–1888)
+
+-	__[Félix Cazot](./EUMKhzpe.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	French composer and pianist (1790–1857)
+
+</div>

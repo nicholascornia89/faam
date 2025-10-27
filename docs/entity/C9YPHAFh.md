@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: C9YPHAFh
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                | aliases           | Wikidata QID                                               |
-    | :-------: | :-------------: | :----------------------------------------: | :---------------: | :--------------------------------------------------------: |
-    | C9YPHAFh  | Congress Poland | former state in Eastern Europe (1815–1915) | Kingdom of Poland | [Congress Poland](http://wwww.wikidata.org/entity/Q221457) |
+    | FAAM UUID | label           | description                                | aliases           | Wikidata QID                                          |
+    | :-------: | :-------------: | :----------------------------------------: | :---------------: | :---------------------------------------------------: |
+    | C9YPHAFh  | Congress Poland | former state in Eastern Europe (1815–1915) | Kingdom of Poland | [Congress Poland](http://wikidata.org/entity/Q221457) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/C9YPHAFh.html" height="800" width="1200" title="C9YPHAFh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/C9YPHAFh" height="800" width="1200" title="C9YPHAFh"></iframe>
 
 ## Identifiers
 
@@ -43,7 +47,7 @@ tags: country
 
 -	__[Wanda Landowska](./ANygk75M.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
 
 	(1879-1959) Polish-French harpsichordist
 

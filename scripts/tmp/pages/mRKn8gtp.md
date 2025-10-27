@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mRKn8gtp
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                            | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :--------------------------------------------------------------------: | :-----: | :----------------------------------------------: |
-    | mRKn8gtp  | Cannes | French commune and city in Alpes-Maritimes, Provence-Alpes-Côte d'Azur | Canas   | [Cannes](http://wwww.wikidata.org/entity/Q39984) |
+    | FAAM UUID | label  | description                                                            | aliases | Wikidata QID                                |
+    | :-------: | :----: | :--------------------------------------------------------------------: | :-----: | :-----------------------------------------: |
+    | mRKn8gtp  | Cannes | French commune and city in Alpes-Maritimes, Provence-Alpes-Côte d'Azur | Canas   | [Cannes](http://wikidata.org/entity/Q39984) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/mRKn8gtp.html" height="800" width="1200" title="mRKn8gtp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mRKn8gtp" height="800" width="1200" title="mRKn8gtp"></iframe>
 
 ## Identifiers
 

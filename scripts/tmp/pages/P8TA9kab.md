@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: P8TA9kab
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/P8TA9kab.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/P8TA9kab.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/P8TA9kab.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/P8TA9kab.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/P8TA9kab.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/P8TA9kab.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rabat_Maltese_2017_02.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases             | description                  | Wikidata QID                                                  |
-    | :-------: | :----------------: | :-----------------: | :--------------------------: | :-----------------------------------------------------------: |
-    | P8TA9kab  | Francesco Azopardi | Francesco Azzopardi | Maltese composer (1748-1809) | [Francesco Azopardi](http://wwww.wikidata.org/entity/Q594872) |
+    | FAAM UUID | label              | aliases             | description                  | Wikidata QID                                             |
+    | :-------: | :----------------: | :-----------------: | :--------------------------: | :------------------------------------------------------: |
+    | P8TA9kab  | Francesco Azopardi | Francesco Azzopardi | Maltese composer (1748-1809) | [Francesco Azopardi](http://wikidata.org/entity/Q594872) |
 
 <br><br><br>
 
@@ -55,19 +59,19 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./E5Gsrug8.md)
+	- [Conservatorio di Sant'Onofrio in Capuana](./E5Gsrug8.md)
 
 ??? quote "employer" 
 
-	- [](./dLe55yyF.md)
+	- [St. Paul's Cathedral](./dLe55yyF.md)
 
-	- [](./b9M6ygiA.md)
+	- [St. John's Co-Cathedral](./b9M6ygiA.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/P8TA9kab.html" height="800" width="1200" title="P8TA9kab"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/P8TA9kab" height="800" width="1200" title="P8TA9kab"></iframe>
 
 ## Identifiers
 
@@ -88,3 +92,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Nicolas Isouard](./5agBK3vj.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nicolas_Isouard_par_Ducarme.jpg){align=left width="150" height="150"} 
+
+	Maltese composer (1773–1818)
+
+</div>

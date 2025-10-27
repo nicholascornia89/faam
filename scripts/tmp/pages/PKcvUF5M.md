@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PKcvUF5M
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000740758/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PKcvUF5M.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PKcvUF5M.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PKcvUF5M.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000740758/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PKcvUF5M.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PKcvUF5M.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PKcvUF5M.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000740758.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000740758.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                 | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-------------------: | :----------------------: | :------------------------------------------------: |
-    | PKcvUF5M  | KCG-000740758         | Psaume 18 : Partition | [external URL](HKyA3Qzz) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                 | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | PKcvUF5M  | KCG-000740758         | Psaume 18 : Partition | [external URL](https://catalogus.hogent.be/catalog/hog01:000740758) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -77,10 +81,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/PKcvUF5M.html" height="800" width="1200" title="PKcvUF5M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PKcvUF5M" height="800" width="1200" title="PKcvUF5M"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/PKcvUF5M.html" height="800" width="1200" title="PKcvUF5M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/PKcvUF5M" height="800" width="1200" title="PKcvUF5M"></iframe>

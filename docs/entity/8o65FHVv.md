@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8o65FHVv
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                             | description       | aliases | Wikidata QID                                                                                 |
-    | :-------: | :-----------------------------------------------: | :---------------: | :-----: | :------------------------------------------------------------------------------------------: |
-    | 8o65FHVv  | Frankfurt University of Music and Performing Arts | German university |         | [Frankfurt University of Music and Performing Arts](http://wwww.wikidata.org/entity/Q317796) |
+    | FAAM UUID | label                                             | description       | aliases | Wikidata QID                                                                            |
+    | :-------: | :-----------------------------------------------: | :---------------: | :-----: | :-------------------------------------------------------------------------------------: |
+    | 8o65FHVv  | Frankfurt University of Music and Performing Arts | German university |         | [Frankfurt University of Music and Performing Arts](http://wikidata.org/entity/Q317796) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/8o65FHVv.html" height="800" width="1200" title="8o65FHVv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8o65FHVv" height="800" width="1200" title="8o65FHVv"></iframe>
 
 ## Cross-references
 
@@ -57,7 +61,7 @@ tags: music_organization
 
 -	__[Iwan Knorr](./8CK7pBQT.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German teacher of music (1853–1916)
 

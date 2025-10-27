@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YEUtoF36
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                     | aliases | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :-----------------------------: | :-----: | :-------------------------------------------------------------: |
-    | YEUtoF36  | Batignolles-Monceau | former commune in Seine, France |         | [Batignolles-Monceau](http://wwww.wikidata.org/entity/Q2891347) |
+    | FAAM UUID | label               | description                     | aliases | Wikidata QID                                               |
+    | :-------: | :-----------------: | :-----------------------------: | :-----: | :--------------------------------------------------------: |
+    | YEUtoF36  | Batignolles-Monceau | former commune in Seine, France |         | [Batignolles-Monceau](http://wikidata.org/entity/Q2891347) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/YEUtoF36.html" height="800" width="1200" title="YEUtoF36"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YEUtoF36" height="800" width="1200" title="YEUtoF36"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: city
 
 -	__[Ernest Gillet](./Sjw2pJu9.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French musician and composer (1856-1940)
 

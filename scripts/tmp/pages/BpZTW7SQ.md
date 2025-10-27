@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BpZTW7SQ
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                              | aliases | Wikidata QID                                                 |
-    | :-------: | :------------: | :--------------------------------------: | :-----: | :----------------------------------------------------------: |
-    | BpZTW7SQ  | court musician | musicians in the service of royal courts |         | [court musician](http://wwww.wikidata.org/entity/Q115785313) |
+    | FAAM UUID | label          | description                              | aliases | Wikidata QID                                            |
+    | :-------: | :------------: | :--------------------------------------: | :-----: | :-----------------------------------------------------: |
+    | BpZTW7SQ  | court musician | musicians in the service of royal courts |         | [court musician](http://wikidata.org/entity/Q115785313) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BpZTW7SQ.html" height="800" width="1200" title="BpZTW7SQ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BpZTW7SQ" height="800" width="1200" title="BpZTW7SQ"></iframe>
 
 ## Cross-references
 

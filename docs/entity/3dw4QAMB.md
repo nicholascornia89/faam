@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3dw4QAMB
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/3dw4QAMB.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/3dw4QAMB.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/3dw4QAMB.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/3dw4QAMB.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/3dw4QAMB.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/3dw4QAMB.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Samuel_Rousseau.JPEG" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases                   | description                 | Wikidata QID                                               |
-    | :-------: | :-------------: | :-----------------------: | :-------------------------: | :--------------------------------------------------------: |
-    | 3dw4QAMB  | Samuel Rousseau | Samuel-Alexandre Rousseau | French composer (1853-1904) | [Samuel Rousseau](http://wwww.wikidata.org/entity/Q382431) |
+    | FAAM UUID | label           | aliases                   | description                 | Wikidata QID                                          |
+    | :-------: | :-------------: | :-----------------------: | :-------------------------: | :---------------------------------------------------: |
+    | 3dw4QAMB  | Samuel Rousseau | Samuel-Alexandre Rousseau | French composer (1853-1904) | [Samuel Rousseau](http://wikidata.org/entity/Q382431) |
 
 <br><br><br>
 
@@ -45,9 +49,9 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
-	- [](./Gmyihe9r.md)
+	- [opera composer](./Gmyihe9r.md)
 
 	- [conductor](./TDF2knmi.md)
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/3dw4QAMB.html" height="800" width="1200" title="3dw4QAMB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3dw4QAMB" height="800" width="1200" title="3dw4QAMB"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Morceau de lecture à vue](./jenJxtkb.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143988p29.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143988p29.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YCGymSDw
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                      | aliases | Wikidata QID                                                    |
-    | :-------: | :----------------: | :----------------------------------------------: | :-----: | :-------------------------------------------------------------: |
-    | YCGymSDw  | literary historian | humanist who is engaged in history of literature |         | [literary historian](http://wwww.wikidata.org/entity/Q13570226) |
+    | FAAM UUID | label              | description                                      | aliases | Wikidata QID                                               |
+    | :-------: | :----------------: | :----------------------------------------------: | :-----: | :--------------------------------------------------------: |
+    | YCGymSDw  | literary historian | humanist who is engaged in history of literature |         | [literary historian](http://wikidata.org/entity/Q13570226) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/YCGymSDw.html" height="800" width="1200" title="YCGymSDw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YCGymSDw" height="800" width="1200" title="YCGymSDw"></iframe>
 
 ## Cross-references
 

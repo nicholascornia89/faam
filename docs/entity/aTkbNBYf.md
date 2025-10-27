@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aTkbNBYf
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description               | aliases | Wikidata QID                                     |
-    | :-------: | :---: | :-----------------------: | :-----: | :----------------------------------------------: |
-    | aTkbNBYf  | Arlon | city in Wallonia, Belgium |         | [Arlon](http://wwww.wikidata.org/entity/Q675960) |
+    | FAAM UUID | label | description               | aliases | Wikidata QID                                |
+    | :-------: | :---: | :-----------------------: | :-----: | :-----------------------------------------: |
+    | aTkbNBYf  | Arlon | city in Wallonia, Belgium |         | [Arlon](http://wikidata.org/entity/Q675960) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/aTkbNBYf.html" height="800" width="1200" title="aTkbNBYf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aTkbNBYf" height="800" width="1200" title="aTkbNBYf"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Émile Wambach](./AedSA8fV.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Emile_Wambach_1913.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Wambach_1913.jpg){align=left width="150" height="150"} 
 
 	Belgian conductor, composer, musicologist and music educator (1854-1924)
 

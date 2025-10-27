@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LTcus2sA
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                              | aliases             | Wikidata QID                                        |
-    | :-------: | :-----: | :--------------------------------------: | :-----------------: | :-------------------------------------------------: |
-    | LTcus2sA  | Oakland | neighborhood of Pittsburgh, Pennsylvania | Oakland, Pittsburgh | [Oakland](http://wwww.wikidata.org/entity/Q2263146) |
+    | FAAM UUID | label   | description                              | aliases             | Wikidata QID                                   |
+    | :-------: | :-----: | :--------------------------------------: | :-----------------: | :--------------------------------------------: |
+    | LTcus2sA  | Oakland | neighborhood of Pittsburgh, Pennsylvania | Oakland, Pittsburgh | [Oakland](http://wikidata.org/entity/Q2263146) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/LTcus2sA.html" height="800" width="1200" title="LTcus2sA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LTcus2sA" height="800" width="1200" title="LTcus2sA"></iframe>
 
 ## Identifiers
 

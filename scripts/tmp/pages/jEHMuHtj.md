@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jEHMuHtj
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                                                                                                                    | aliases | Wikidata QID                                       |
-    | :-------: | :-----: | :----------------------------------------------------------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | jEHMuHtj  | vihuela | guitar-shaped string instrument from 15th and 16th century Spain, Portugal and Italy, usually with five or six doubled strings |         | [vihuela](http://wwww.wikidata.org/entity/Q751884) |
+    | FAAM UUID | label   | description                                                                                                                    | aliases | Wikidata QID                                  |
+    | :-------: | :-----: | :----------------------------------------------------------------------------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | jEHMuHtj  | vihuela | guitar-shaped string instrument from 15th and 16th century Spain, Portugal and Italy, usually with five or six doubled strings |         | [vihuela](http://wikidata.org/entity/Q751884) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./DNdvjXZe.md)
+	- [necked, flat-backed, plucked lutes](./DNdvjXZe.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/jEHMuHtj.html" height="800" width="1200" title="jEHMuHtj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jEHMuHtj" height="800" width="1200" title="jEHMuHtj"></iframe>
 
 ## Cross-references
 

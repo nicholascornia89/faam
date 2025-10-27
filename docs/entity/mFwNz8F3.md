@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mFwNz8F3
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                                | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------: | :----------------------------------------: | :--------------------------------------------------------: |
-    | mFwNz8F3  | La dame blanche | La dame blanche | opéra comique by François-Adrien Boieldieu | [La dame blanche](http://wwww.wikidata.org/entity/Q973780) |
+    | FAAM UUID | label           | aliases         | description                                | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------: | :----------------------------------------: | :---------------------------------------------------: |
+    | mFwNz8F3  | La dame blanche | La dame blanche | opéra comique by François-Adrien Boieldieu | [La dame blanche](http://wikidata.org/entity/Q973780) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/mFwNz8F3.html" height="800" width="1200" title="mFwNz8F3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mFwNz8F3" height="800" width="1200" title="mFwNz8F3"></iframe>
 
 ## Identifiers
 
@@ -69,13 +73,13 @@ tags: musical_work
 
 -	__[Neuvième Soirée : Composée d'un Choix d'Airs de la Dame Blanche : Arrangés pour Violoncelle et Piano](./Uhw5KnqZ.md)__
 
-	![Image](../assets/images/thumbs/KCG-000350340.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350340.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Fantaisie Pour Piano et Cor : Sur l'Air Ecossair ; Intercalé dans la dame blanche ; Dédiée à Mademoiselle Cæli Lainé](./GrG9ovrp.md)__
 
-	![Image](../assets/images/thumbs/KCG-000749978.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000749978.gif){align=left width="150" height="150"} 
 
 	
 

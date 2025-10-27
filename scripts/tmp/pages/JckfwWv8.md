@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JckfwWv8
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                          | aliases  | description                          | Wikidata QID                                                                                |
-    | :-------: | :--------------------------------------------: | :------: | :----------------------------------: | :-----------------------------------------------------------------------------------------: |
-    | JckfwWv8  | Harpsichord Concerto No.1 in D minor, BWV 1052 | BWV 1052 | composition by Johann Sebastian Bach | [Harpsichord Concerto No.1 in D minor, BWV 1052](http://wwww.wikidata.org/entity/Q11915166) |
+    | FAAM UUID | label                                          | aliases  | description                          | Wikidata QID                                                                           |
+    | :-------: | :--------------------------------------------: | :------: | :----------------------------------: | :------------------------------------------------------------------------------------: |
+    | JckfwWv8  | Harpsichord Concerto No.1 in D minor, BWV 1052 | BWV 1052 | composition by Johann Sebastian Bach | [Harpsichord Concerto No.1 in D minor, BWV 1052](http://wikidata.org/entity/Q11915166) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/JckfwWv8.html" height="800" width="1200" title="JckfwWv8"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JckfwWv8" height="800" width="1200" title="JckfwWv8"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Klavier-Konzert d moll : mit Begleitung eines zweiten Klaviers](./dujg8ZxX.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902586079.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902586079.gif){align=left width="150" height="150"} 
 
 	
 

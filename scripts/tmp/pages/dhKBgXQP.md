@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dhKBgXQP
 
 tags: country
@@ -19,9 +23,9 @@ tags: country
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description                                                                                                                  | aliases             | Wikidata QID                                                  |
-    | :-------: | :----------------: | :--------------------------------------------------------------------------------------------------------------------------: | :-----------------: | :-----------------------------------------------------------: |
-    | dhKBgXQP  | Kingdom of Navarre | Basque medieval kingdom that occupied lands on either side of the western Pyrenees, alongside the Atlantic Ocean (1162–1512) | Kingdom of Pamplona | [Kingdom of Navarre](http://wwww.wikidata.org/entity/Q200262) |
+    | FAAM UUID | label              | description                                                                                                                  | aliases             | Wikidata QID                                             |
+    | :-------: | :----------------: | :--------------------------------------------------------------------------------------------------------------------------: | :-----------------: | :------------------------------------------------------: |
+    | dhKBgXQP  | Kingdom of Navarre | Basque medieval kingdom that occupied lands on either side of the western Pyrenees, alongside the Atlantic Ocean (1162–1512) | Kingdom of Pamplona | [Kingdom of Navarre](http://wikidata.org/entity/Q200262) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: country
 
 ---
 
-<iframe src="../network/dhKBgXQP.html" height="800" width="1200" title="dhKBgXQP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dhKBgXQP" height="800" width="1200" title="dhKBgXQP"></iframe>
 
 ## Identifiers
 

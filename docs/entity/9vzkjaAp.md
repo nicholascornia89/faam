@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9vzkjaAp
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-2379/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/9vzkjaAp.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/9vzkjaAp.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/9vzkjaAp.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-2379/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/9vzkjaAp.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/9vzkjaAp.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/9vzkjaAp.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/SML-2379.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-2379.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                    | permalink                | provenance                            |
-    | :-------: | :-------------------: | :------------------------------------------------------: | :----------------------: | :-----------------------------------: |
-    | 9vzkjaAp  | SML-2379              | Repertoire, 14 ausgewählte Stücke ... für Pianoforte. | [external URL](WvqsGBqo) | [Sibley Music Library](./SzVumnmW.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                    | permalink                                                                                                   | provenance                            |
+    | :-------: | :-------------------: | :------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
+    | 9vzkjaAp  | SML-2379              | Repertoire, 14 ausgewählte Stücke ... für Pianoforte. | [external URL](https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910349303405216) | [Sibley Music Library](./SzVumnmW.md) |
 
 ## Statements
 
@@ -65,10 +69,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/9vzkjaAp.html" height="800" width="1200" title="9vzkjaAp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9vzkjaAp" height="800" width="1200" title="9vzkjaAp"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/9vzkjaAp.html" height="800" width="1200" title="9vzkjaAp"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/9vzkjaAp" height="800" width="1200" title="9vzkjaAp"></iframe>

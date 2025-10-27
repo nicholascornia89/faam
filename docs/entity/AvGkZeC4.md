@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AvGkZeC4
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/AvGkZeC4.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/AvGkZeC4.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/AvGkZeC4.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/AvGkZeC4.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/AvGkZeC4.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/AvGkZeC4.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases          | description                  | Wikidata QID                                                |
-    | :-------: | :-------------: | :--------------: | :--------------------------: | :---------------------------------------------------------: |
-    | AvGkZeC4  | Pasquale Cafaro | Pasquale Caffaro | Italian composer (1716-1787) | [Pasquale Cafaro](http://wwww.wikidata.org/entity/Q2294640) |
+    | FAAM UUID | label           | aliases          | description                  | Wikidata QID                                           |
+    | :-------: | :-------------: | :--------------: | :--------------------------: | :----------------------------------------------------: |
+    | AvGkZeC4  | Pasquale Cafaro | Pasquale Caffaro | Italian composer (1716-1787) | [Pasquale Cafaro](http://wikidata.org/entity/Q2294640) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/AvGkZeC4.html" height="800" width="1200" title="AvGkZeC4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AvGkZeC4" height="800" width="1200" title="AvGkZeC4"></iframe>
 
 ## Identifiers
 
@@ -68,3 +72,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giacomo Tritto](./bZcGr8iX.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giacomo_Tritto-opera_composer.jpg){align=left width="150" height="150"} 
+
+	Italian composer (1733-1824)
+
+</div>

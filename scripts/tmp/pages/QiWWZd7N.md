@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QiWWZd7N
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | aliases                         | description                            | Wikidata QID                                                                  |
-    | :-------: | :--------------------------------: | :-----------------------------: | :------------------------------------: | :---------------------------------------------------------------------------: |
-    | QiWWZd7N  | Violin Concerto in D major, Op. 61 | D-dúr hegedűverseny (Beethoven) | concerto composed by Beethoven in 1806 | [Violin Concerto in D major, Op. 61](http://wwww.wikidata.org/entity/Q787378) |
+    | FAAM UUID | label                              | aliases                         | description                            | Wikidata QID                                                             |
+    | :-------: | :--------------------------------: | :-----------------------------: | :------------------------------------: | :----------------------------------------------------------------------: |
+    | QiWWZd7N  | Violin Concerto in D major, Op. 61 | D-dúr hegedűverseny (Beethoven) | concerto composed by Beethoven in 1806 | [Violin Concerto in D major, Op. 61](http://wikidata.org/entity/Q787378) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/QiWWZd7N.html" height="800" width="1200" title="QiWWZd7N"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QiWWZd7N" height="800" width="1200" title="QiWWZd7N"></iframe>
 
 ## Identifiers
 
@@ -63,7 +67,7 @@ tags: musical_work
 
 -	__[Concerto : pour le violon Avec Accompagnement de 2 Violons, Alto, Flûte, 2 Hautbois, 2 Clarinettes, 2 cors, 2 Bassons, 2 trompettes, Timballe, Violoncelle et Basse : Op. 61](./Rb5yhFaJ.md)__
 
-	![Image](../assets/images/thumbs/KCG-000333156.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000333156.gif){align=left width="150" height="150"} 
 
 	
 

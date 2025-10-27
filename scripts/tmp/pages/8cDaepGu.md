@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8cDaepGu
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description               | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :-----------------------: | :-----: | :--------------------------------------------: |
-    | 8cDaepGu  | Mons  | city in Wallonia, Belgium | Bergen  | [Mons](http://wwww.wikidata.org/entity/Q83407) |
+    | FAAM UUID | label | description               | aliases | Wikidata QID                              |
+    | :-------: | :---: | :-----------------------: | :-----: | :---------------------------------------: |
+    | 8cDaepGu  | Mons  | city in Wallonia, Belgium | Bergen  | [Mons](http://wikidata.org/entity/Q83407) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/8cDaepGu.html" height="800" width="1200" title="8cDaepGu"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8cDaepGu" height="800" width="1200" title="8cDaepGu"></iframe>
 
 ## Identifiers
 
@@ -55,19 +59,19 @@ tags: city
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
 -	__[Orlande de Lassus](./kkHrN3TP.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/37/Orlande_de_Lassus.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Orlande_de_Lassus.jpg){align=left width="150" height="150"} 
 
 	Franco-Flemish composer (1532–1594)
 
 -	__[Hélène Dinsart](./GgyGnGfG.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian pianist and music educator
 

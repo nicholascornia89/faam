@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "P4Dx2A8T", "label": "Convoluut : werken voor piano.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./P4Dx2A8T.md\u0027\u003eConvoluut : werken voor piano.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902146890.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "fCPKhUxw", "label": "piano music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fCPKhUxw.md\u0027\u003epiano music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical form/genre\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "SdgSSR3n", "label": "2 Fantaisies, Op.9", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SdgSSR3n.md\u0027\u003e2 Fantaisies, Op.9\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "iLGBQKhK", "label": "Deux Fantasias Op. 9", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iLGBQKhK.md\u0027\u003eDeux Fantasias Op. 9\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902415006.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "KdGKqPWR", "label": "piano cycle", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KdGKqPWR.md\u0027\u003epiano cycle\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eseries of compositions for piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ta5ni5cL", "label": "Peter Benoit", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Ta5ni5cL.md\u0027\u003ePeter Benoit\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish composer (1834-1901)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Peter_Benoit_2.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DQwB3wUJ", "label": "fantasia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DQwB3wUJ.md\u0027\u003efantasia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efree form musical interpretation; musical composition with a free form and often an improvisatory style\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "P4Dx2A8T", "to": "fCPKhUxw", "width": 1}, {"from": "P4Dx2A8T", "to": "SdgSSR3n", "width": 10}, {"from": "iLGBQKhK", "to": "fCPKhUxw", "width": 10}, {"from": "iLGBQKhK", "to": "SdgSSR3n", "width": 10}, {"from": "KdGKqPWR", "to": "SdgSSR3n", "width": 10}, {"from": "fCPKhUxw", "to": "SdgSSR3n", "width": 10}, {"from": "Ta5ni5cL", "to": "SdgSSR3n", "width": 10}, {"from": "DQwB3wUJ", "to": "SdgSSR3n", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "fCPKhUxw", "label": "piano music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fCPKhUxw\u0027\u003epiano music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical form/genre\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "SdgSSR3n", "label": "2 Fantaisies, Op.9", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SdgSSR3n\u0027\u003e2 Fantaisies, Op.9\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "P4Dx2A8T", "label": "Convoluut : werken voor piano.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/P4Dx2A8T\u0027\u003eConvoluut : werken voor piano.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902146890.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "iLGBQKhK", "label": "Deux Fantasias Op. 9", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iLGBQKhK\u0027\u003eDeux Fantasias Op. 9\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902415006.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ta5ni5cL", "label": "Peter Benoit", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Ta5ni5cL\u0027\u003ePeter Benoit\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish composer (1834-1901)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Peter_Benoit_2.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "KdGKqPWR", "label": "piano cycle", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KdGKqPWR\u0027\u003epiano cycle\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eseries of compositions for piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DQwB3wUJ", "label": "fantasia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DQwB3wUJ\u0027\u003efantasia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efree form musical interpretation; musical composition with a free form and often an improvisatory style\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "fCPKhUxw", "to": "SdgSSR3n", "width": 10}, {"from": "fCPKhUxw", "to": "P4Dx2A8T", "width": 1}, {"from": "fCPKhUxw", "to": "iLGBQKhK", "width": 10}, {"from": "P4Dx2A8T", "to": "SdgSSR3n", "width": 10}, {"from": "Ta5ni5cL", "to": "SdgSSR3n", "width": 10}, {"from": "iLGBQKhK", "to": "SdgSSR3n", "width": 10}, {"from": "SdgSSR3n", "to": "KdGKqPWR", "width": 10}, {"from": "SdgSSR3n", "to": "DQwB3wUJ", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

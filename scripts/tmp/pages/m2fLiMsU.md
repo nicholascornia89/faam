@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: m2fLiMsU
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                                                    | aliases | Wikidata QID                                              |
-    | :-------: | :-------------: | :------------------------------------------------------------: | :-----: | :-------------------------------------------------------: |
-    | m2fLiMsU  | Aix-en-Provence | French commune in Bouches-du-Rhône, Provence-Alpes-Côte d'Azur | Aix     | [Aix-en-Provence](http://wwww.wikidata.org/entity/Q47465) |
+    | FAAM UUID | label           | description                                                    | aliases | Wikidata QID                                         |
+    | :-------: | :-------------: | :------------------------------------------------------------: | :-----: | :--------------------------------------------------: |
+    | m2fLiMsU  | Aix-en-Provence | French commune in Bouches-du-Rhône, Provence-Alpes-Côte d'Azur | Aix     | [Aix-en-Provence](http://wikidata.org/entity/Q47465) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/m2fLiMsU.html" height="800" width="1200" title="m2fLiMsU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/m2fLiMsU" height="800" width="1200" title="m2fLiMsU"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[André Campra](./jyGKpuHY.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Andr%C3%A9_Campra.jpg/585px-Andr%C3%A9_Campra.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/585px-Andr%C3%A9_Campra.jpg){align=left width="150" height="150"} 
 
 	French composer and conductor (1660-1744)
 
@@ -67,7 +71,7 @@ tags: city
 
 -	__[Émile Tavan](./Zt3RZjvH.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer
 

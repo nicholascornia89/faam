@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vbm8a4j7
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-428267676/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Vbm8a4j7.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Vbm8a4j7.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Vbm8a4j7.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-428267676/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Vbm8a4j7.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Vbm8a4j7.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Vbm8a4j7.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-428267676.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-428267676.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                          | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | Vbm8a4j7  | BNF-428267676         | Clavecin bien tempéré, [1re partie] pour piano. J.-S. Bach. Avec analyses et conseils sur l'interprétation par Georges Sporck.... Premier [-deuxième] recueil... [BWV 846-869] | [external URL](nTx2RkTQ) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                          | permalink                                                       | provenance                                        |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------: |
+    | Vbm8a4j7  | BNF-428267676         | Clavecin bien tempéré, [1re partie] pour piano. J.-S. Bach. Avec analyses et conseils sur l'interprétation par Georges Sporck.... Premier [-deuxième] recueil... [BWV 846-869] | [external URL](https://catalogue.bnf.fr/ark:/12148/cb428267676) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ===  "note" 
 
@@ -93,10 +97,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Vbm8a4j7.html" height="800" width="1200" title="Vbm8a4j7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vbm8a4j7" height="800" width="1200" title="Vbm8a4j7"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Vbm8a4j7.html" height="800" width="1200" title="Vbm8a4j7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Vbm8a4j7" height="800" width="1200" title="Vbm8a4j7"></iframe>

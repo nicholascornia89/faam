@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4xbkrVPN
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904702864/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/4xbkrVPN.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/4xbkrVPN.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/4xbkrVPN.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904702864/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/4xbkrVPN.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/4xbkrVPN.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/4xbkrVPN.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904702864.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702864.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                        | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 4xbkrVPN  | KCA-030904702864      | Ungarische Rhapsodien Band 1 | [external URL](D6RjeTWv) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                        | permalink                                          | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------: | :------------------------------------------------: | :-----------------------------------------------------------: |
+    | 4xbkrVPN  | KCA-030904702864      | Ungarische Rhapsodien Band 1 | [external URL](https://anet.be/record/opacdkvc//N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "note" 
 
@@ -98,10 +102,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/4xbkrVPN.html" height="800" width="1200" title="4xbkrVPN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4xbkrVPN" height="800" width="1200" title="4xbkrVPN"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/4xbkrVPN.html" height="800" width="1200" title="4xbkrVPN"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/4xbkrVPN" height="800" width="1200" title="4xbkrVPN"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: BQe6uNXU
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | description             | aliases | Wikidata QID                                               |
-    | :-------: | :-----------: | :---------------------: | :-----: | :--------------------------------------------------------: |
-    | BQe6uNXU  | jazz musician | musician who plays jazz |         | [jazz musician](http://wwww.wikidata.org/entity/Q15981151) |
+    | FAAM UUID | label         | description             | aliases | Wikidata QID                                          |
+    | :-------: | :-----------: | :---------------------: | :-----: | :---------------------------------------------------: |
+    | BQe6uNXU  | jazz musician | musician who plays jazz |         | [jazz musician](http://wikidata.org/entity/Q15981151) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/BQe6uNXU.html" height="800" width="1200" title="BQe6uNXU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/BQe6uNXU" height="800" width="1200" title="BQe6uNXU"></iframe>
 
 ## Cross-references
 

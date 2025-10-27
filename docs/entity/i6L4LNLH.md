@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: i6L4LNLH
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/i6L4LNLH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/i6L4LNLH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/i6L4LNLH.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/i6L4LNLH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/i6L4LNLH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/i6L4LNLH.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Prova_di_un'opera.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases               | description                               | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :-------------------: | :---------------------------------------: | :---------------------------------------------------------------: |
-    | i6L4LNLH  | Nicola Francesco Haym | Nicolas François Haym | Italian composer and musician (1678-1729) | [Nicola Francesco Haym](http://wwww.wikidata.org/entity/Q1986170) |
+    | FAAM UUID | label                 | aliases               | description                               | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :-------------------: | :---------------------------------------: | :----------------------------------------------------------: |
+    | i6L4LNLH  | Nicola Francesco Haym | Nicolas François Haym | Italian composer and musician (1678-1729) | [Nicola Francesco Haym](http://wikidata.org/entity/Q1986170) |
 
 <br><br><br>
 
@@ -51,25 +55,25 @@ tags: agent
 
 	- [librettist](./BPsUV5WT.md)
 
-	- [](./mxFoYAeg.md)
+	- [numismatist](./mxFoYAeg.md)
 
-	- [](./AZ2LgTJN.md)
+	- [bibliographer](./AZ2LgTJN.md)
 
-	- [](./mT6Jf8WQ.md)
+	- [screenwriter](./mT6Jf8WQ.md)
 
-	- [](./jebdGEJX.md)
+	- [shoe designer](./jebdGEJX.md)
 
 	- [cellist](./JJEmNCK7.md)
 
 ??? quote "employer" 
 
-	- [](./hHte7ogN.md)
+	- [Royal Academy of Music](./hHte7ogN.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/i6L4LNLH.html" height="800" width="1200" title="i6L4LNLH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/i6L4LNLH" height="800" width="1200" title="i6L4LNLH"></iframe>
 
 ## Identifiers
 

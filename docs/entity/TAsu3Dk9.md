@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TAsu3Dk9
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/TAsu3Dk9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/TAsu3Dk9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/TAsu3Dk9.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/TAsu3Dk9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/TAsu3Dk9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/TAsu3Dk9.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases                      | description                 | Wikidata QID                                                |
-    | :-------: | :-----------: | :--------------------------: | :-------------------------: | :---------------------------------------------------------: |
-    | TAsu3Dk9  | Gaston Paulin | Gaston Antonin Eugène Paulin | French composer (1861-1921) | [Gaston Paulin](http://wwww.wikidata.org/entity/Q112730309) |
+    | FAAM UUID | label         | aliases                      | description                 | Wikidata QID                                           |
+    | :-------: | :-----------: | :--------------------------: | :-------------------------: | :----------------------------------------------------: |
+    | TAsu3Dk9  | Gaston Paulin | Gaston Antonin Eugène Paulin | French composer (1861-1921) | [Gaston Paulin](http://wikidata.org/entity/Q112730309) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/TAsu3Dk9.html" height="800" width="1200" title="TAsu3Dk9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TAsu3Dk9" height="800" width="1200" title="TAsu3Dk9"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: agent
 
 -	__[Pensée d'automne](./6PNADipm.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p43.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p43.gif){align=left width="150" height="150"} 
 
 	
 

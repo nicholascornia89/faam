@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FhJJBFJ2
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FhJJBFJ2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FhJJBFJ2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FhJJBFJ2.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FhJJBFJ2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FhJJBFJ2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FhJJBFJ2.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Margherita_Durastanti.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases               | description | Wikidata QID                                                      |
-    | :-------: | :-------------------: | :-------------------: | :---------: | :---------------------------------------------------------------: |
-    | FhJJBFJ2  | Margherita Durastanti | Margherita Durastanti | singer      | [Margherita Durastanti](http://wwww.wikidata.org/entity/Q2275201) |
+    | FAAM UUID | label                 | aliases               | description | Wikidata QID                                                 |
+    | :-------: | :-------------------: | :-------------------: | :---------: | :----------------------------------------------------------: |
+    | FhJJBFJ2  | Margherita Durastanti | Margherita Durastanti | singer      | [Margherita Durastanti](http://wikidata.org/entity/Q2275201) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/FhJJBFJ2.html" height="800" width="1200" title="FhJJBFJ2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FhJJBFJ2" height="800" width="1200" title="FhJJBFJ2"></iframe>
 
 ## Identifiers
 

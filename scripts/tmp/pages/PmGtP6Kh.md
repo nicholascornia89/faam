@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PmGtP6Kh
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/PmGtP6Kh.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/PmGtP6Kh.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/PmGtP6Kh.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/PmGtP6Kh.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/PmGtP6Kh.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/PmGtP6Kh.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | aliases               | description                   | Wikidata QID                                                       |
-    | :-------: | :-------------------: | :-------------------: | :---------------------------: | :----------------------------------------------------------------: |
-    | PmGtP6Kh  | Jean-Baptiste Thibaut | Jean-Baptiste Thibaut | French theologian (1872-1937) | [Jean-Baptiste Thibaut](http://wwww.wikidata.org/entity/Q19946349) |
+    | FAAM UUID | label                 | aliases               | description                   | Wikidata QID                                                  |
+    | :-------: | :-------------------: | :-------------------: | :---------------------------: | :-----------------------------------------------------------: |
+    | PmGtP6Kh  | Jean-Baptiste Thibaut | Jean-Baptiste Thibaut | French theologian (1872-1937) | [Jean-Baptiste Thibaut](http://wikidata.org/entity/Q19946349) |
 
 <br><br><br>
 
@@ -43,13 +47,13 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./44m57Ax2.md)
+	- [theologian](./44m57Ax2.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/PmGtP6Kh.html" height="800" width="1200" title="PmGtP6Kh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PmGtP6Kh" height="800" width="1200" title="PmGtP6Kh"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JqH5WZiK
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-KM165637/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JqH5WZiK.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JqH5WZiK.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JqH5WZiK.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-KM165637/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JqH5WZiK.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JqH5WZiK.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JqH5WZiK.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-KM165637.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KM165637.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                       | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | JqH5WZiK  | KCA-KM165637          | Missa La dolce Vista. Quam octo vocibus conscriptam / Monte, de, Philippus. - Brugge , 1930 | [external URL](amkJ6EBs) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                       | permalink                     | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------------: | :---------------------------: | :-----------------------------------------------------------: |
+    | JqH5WZiK  | KCA-KM165637          | Missa La dolce Vista. Quam octo vocibus conscriptam / Monte, de, Philippus. - Brugge , 1930 | [external URL](not available) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -87,10 +91,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/JqH5WZiK.html" height="800" width="1200" title="JqH5WZiK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JqH5WZiK" height="800" width="1200" title="JqH5WZiK"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/JqH5WZiK.html" height="800" width="1200" title="JqH5WZiK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/JqH5WZiK" height="800" width="1200" title="JqH5WZiK"></iframe>

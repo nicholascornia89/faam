@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eL6rC9yE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/eL6rC9yE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/eL6rC9yE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/eL6rC9yE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/eL6rC9yE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/eL6rC9yE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/eL6rC9yE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emili_Pujol.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                 | Wikidata QID                                            |
-    | :-------: | :----------: | :----------: | :-------------------------: | :-----------------------------------------------------: |
-    | eL6rC9yE  | Emilio Pujol | Emilio Pujol | Catalan classical guitarist | [Emilio Pujol](http://wwww.wikidata.org/entity/Q957563) |
+    | FAAM UUID | label        | aliases      | description                 | Wikidata QID                                       |
+    | :-------: | :----------: | :----------: | :-------------------------: | :------------------------------------------------: |
+    | eL6rC9yE  | Emilio Pujol | Emilio Pujol | Catalan classical guitarist | [Emilio Pujol](http://wikidata.org/entity/Q957563) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 	- [classical guitar](./7RKddazD.md)
 
-	- [](./jEHMuHtj.md)
+	- [vihuela](./jEHMuHtj.md)
 
 ??? quote "occupation" 
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/eL6rC9yE.html" height="800" width="1200" title="eL6rC9yE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eL6rC9yE" height="800" width="1200" title="eL6rC9yE"></iframe>
 
 ## Identifiers
 

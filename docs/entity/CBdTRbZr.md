@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CBdTRbZr
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                     | aliases                           | description                                                  | Wikidata QID                                                                    |
-    | :-------: | :---------------------------------------: | :-------------------------------: | :----------------------------------------------------------: | :-----------------------------------------------------------------------------: |
-    | CBdTRbZr  | 25 Études faciles et progressives, Op.100 | 25 Études faciles et progressives | collection of piano studies composed by Friedrich Burgmüller | [25 Études faciles et progressives](http://wwww.wikidata.org/entity/Q124309929) |
+    | FAAM UUID | label                                     | aliases                           | description                                                  | Wikidata QID                                                               |
+    | :-------: | :---------------------------------------: | :-------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------------------------: |
+    | CBdTRbZr  | 25 Études faciles et progressives, Op.100 | 25 Études faciles et progressives | collection of piano studies composed by Friedrich Burgmüller | [25 Études faciles et progressives](http://wikidata.org/entity/Q124309929) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/CBdTRbZr.html" height="800" width="1200" title="CBdTRbZr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CBdTRbZr" height="800" width="1200" title="CBdTRbZr"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[25 études, op. 100](./2aj2jXNG.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901832342.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901832342.gif){align=left width="150" height="150"} 
 
 	
 

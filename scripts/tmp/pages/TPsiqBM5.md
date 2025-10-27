@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TPsiqBM5
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | aliases                        | description                              | Wikidata QID                                                                 |
-    | :-------: | :----------------------------: | :----------------------------: | :--------------------------------------: | :--------------------------------------------------------------------------: |
-    | TPsiqBM5  | Missa Hodie Christus natus est | Missa Hodie Christus natus est | mass by Giovanni Pierluigi da Palestrina | [Missa Hodie Christus natus est](http://wwww.wikidata.org/entity/Q124316823) |
+    | FAAM UUID | label                          | aliases                        | description                              | Wikidata QID                                                            |
+    | :-------: | :----------------------------: | :----------------------------: | :--------------------------------------: | :---------------------------------------------------------------------: |
+    | TPsiqBM5  | Missa Hodie Christus natus est | Missa Hodie Christus natus est | mass by Giovanni Pierluigi da Palestrina | [Missa Hodie Christus natus est](http://wikidata.org/entity/Q124316823) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/TPsiqBM5.html" height="800" width="1200" title="TPsiqBM5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TPsiqBM5" height="800" width="1200" title="TPsiqBM5"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Missa Hodie Christus natus est : octo vocibus concinenda](./6mZbsYMZ.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078130809707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078130809707356.gif){align=left width="150" height="150"} 
 
 	
 

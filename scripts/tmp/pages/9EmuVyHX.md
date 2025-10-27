@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9EmuVyHX
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description           | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :-------------------: | :-----: | :---------------------------------------------: |
-    | 9EmuVyHX  | Reims | city in Marne, France | Rheims  | [Reims](http://wwww.wikidata.org/entity/Q41876) |
+    | FAAM UUID | label | description           | aliases | Wikidata QID                               |
+    | :-------: | :---: | :-------------------: | :-----: | :----------------------------------------: |
+    | 9EmuVyHX  | Reims | city in Marne, France | Rheims  | [Reims](http://wikidata.org/entity/Q41876) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/9EmuVyHX.html" height="800" width="1200" title="9EmuVyHX"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9EmuVyHX" height="800" width="1200" title="9EmuVyHX"></iframe>
 
 ## Identifiers
 

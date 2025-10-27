@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kd7Eo5ct a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "former Italian state (1545–1802; 1814–1859)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q165040>,
+        "15998234"^^xsd:string,
+        "kd7Eo5ct"^^xsd:string ;
+    skos:altLabel "Ducato di Parma"^^xsd:string,
+        "Duchy of Parma"^^xsd:string,
+        "Duchy of Parma and Piacenza"^^xsd:string ;
+    skos:prefLabel "Duchy of Parma and Piacenza"^^xsd:string .
+

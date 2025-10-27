@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6xMojKko
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903079199/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6xMojKko.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6xMojKko.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6xMojKko.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903079199/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6xMojKko.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6xMojKko.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6xMojKko.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030903079199.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903079199.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                     | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 6xMojKko  | KCA-030903079199      | Miniaturen : voor klavier | [external URL](k6GNqQ5D) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                     | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 6xMojKko  | KCA-030903079199      | Miniaturen : voor klavier | [external URL](https://anet.be/record/opacdkvc/c:lvd:13203572/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "sections" 
 
@@ -115,10 +119,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/6xMojKko.html" height="800" width="1200" title="6xMojKko"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6xMojKko" height="800" width="1200" title="6xMojKko"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/6xMojKko.html" height="800" width="1200" title="6xMojKko"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/6xMojKko" height="800" width="1200" title="6xMojKko"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UAsHfa4y
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                     | aliases          | Wikidata QID                                     |
-    | :-------: | :----: | :---------------------------------------------: | :--------------: | :----------------------------------------------: |
-    | UAsHfa4y  | Toulon | capital city of Var department, Southern France | Port-la-Montagne | [Toulon](http://wwww.wikidata.org/entity/Q44160) |
+    | FAAM UUID | label  | description                                     | aliases          | Wikidata QID                                |
+    | :-------: | :----: | :---------------------------------------------: | :--------------: | :-----------------------------------------: |
+    | UAsHfa4y  | Toulon | capital city of Var department, Southern France | Port-la-Montagne | [Toulon](http://wikidata.org/entity/Q44160) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/UAsHfa4y.html" height="800" width="1200" title="UAsHfa4y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UAsHfa4y" height="800" width="1200" title="UAsHfa4y"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5W5fYAtn
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases            | description                | Wikidata QID                                                |
-    | :-------: | :--------------: | :----------------: | :------------------------: | :---------------------------------------------------------: |
-    | 5W5fYAtn  | L'elisir d'amore | The Elixir of Love | opera by Gaetano Donizetti | [L'elisir d'amore](http://wwww.wikidata.org/entity/Q332536) |
+    | FAAM UUID | label            | aliases            | description                | Wikidata QID                                           |
+    | :-------: | :--------------: | :----------------: | :------------------------: | :----------------------------------------------------: |
+    | 5W5fYAtn  | L'elisir d'amore | The Elixir of Love | opera by Gaetano Donizetti | [L'elisir d'amore](http://wikidata.org/entity/Q332536) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./NeLYGWBM.md)
+	- [Le philtre](./NeLYGWBM.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/5W5fYAtn.html" height="800" width="1200" title="5W5fYAtn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5W5fYAtn" height="800" width="1200" title="5W5fYAtn"></iframe>
 
 ## Identifiers
 

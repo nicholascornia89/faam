@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: irBjecZE
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                     | description      | aliases                                   | Wikidata QID                                                                          |
-    | :-------: | :---------------------------------------: | :--------------: | :---------------------------------------: | :-----------------------------------------------------------------------------------: |
-    | irBjecZE  | Mikhailovskaya Military Artillery Academy | military academy | Mikhailovskaya Military Artillery Academy | [Mikhailovskaya Military Artillery Academy](http://wwww.wikidata.org/entity/Q4297700) |
+    | FAAM UUID | label                                     | description      | aliases                                   | Wikidata QID                                                                     |
+    | :-------: | :---------------------------------------: | :--------------: | :---------------------------------------: | :------------------------------------------------------------------------------: |
+    | irBjecZE  | Mikhailovskaya Military Artillery Academy | military academy | Mikhailovskaya Military Artillery Academy | [Mikhailovskaya Military Artillery Academy](http://wikidata.org/entity/Q4297700) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./ZpwbPoZj.md)
+	[Saint Petersburg](./ZpwbPoZj.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/irBjecZE.html" height="800" width="1200" title="irBjecZE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/irBjecZE" height="800" width="1200" title="irBjecZE"></iframe>
 
 ## Cross-references
 

@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ipAp8YUV a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "vassal state of the Kingdom of Sicily from 1530 to 1798"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q97464297>,
+        "0"^^xsd:string,
+        "ipAp8YUV"^^xsd:string ;
+    skos:altLabel "Hospitaller Malta"^^xsd:string,
+        "Monastic State of the Order of Malta"^^xsd:string ;
+    skos:prefLabel "Hospitaller-controlled Malta"^^xsd:string .
+

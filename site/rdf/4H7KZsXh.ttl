@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4H7KZsXh a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Royal Military Academy in Breda, the Netherlands"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q934782>,
+        "16004757"^^xsd:string,
+        "4H7KZsXh"^^xsd:string ;
+    schema1:location faamentity:BWX2VNz4,
+        faamentity:gkJaA3Fp ;
+    skos:altLabel "K.M.A."^^xsd:string,
+        "Koninklijke Militaire Academie"^^xsd:string ;
+    skos:prefLabel "Koninklijke Militaire Academie"^^xsd:string .
+

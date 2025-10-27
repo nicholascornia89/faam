@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 38QQN4CR
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases       | description                                                       | Wikidata QID                                       |
-    | :-------: | :-------------: | :-----------: | :---------------------------------------------------------------: | :------------------------------------------------: |
-    | 38QQN4CR  | L'Orfeo, SV 318 | Orfeo, SV 318 | opera by Claudio Monteverdi, with libretto by Alessandro Striggio | [L'Orfeo](http://wwww.wikidata.org/entity/Q724008) |
+    | FAAM UUID | label           | aliases       | description                                                       | Wikidata QID                                  |
+    | :-------: | :-------------: | :-----------: | :---------------------------------------------------------------: | :-------------------------------------------: |
+    | 38QQN4CR  | L'Orfeo, SV 318 | Orfeo, SV 318 | opera by Claudio Monteverdi, with libretto by Alessandro Striggio | [L'Orfeo](http://wikidata.org/entity/Q724008) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/38QQN4CR.html" height="800" width="1200" title="38QQN4CR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/38QQN4CR" height="800" width="1200" title="38QQN4CR"></iframe>
 
 ## Identifiers
 
@@ -67,7 +71,7 @@ tags: musical_work
 
 -	__[Orfeo](./X88EQe9Q.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901700127.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901700127.gif){align=left width="150" height="150"} 
 
 	
 

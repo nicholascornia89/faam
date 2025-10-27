@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nrkdoJ5j
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030902628988/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nrkdoJ5j.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nrkdoJ5j.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nrkdoJ5j.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030902628988/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nrkdoJ5j.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nrkdoJ5j.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nrkdoJ5j.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902628988.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902628988.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                         | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :---------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | nrkdoJ5j  | KCA-030902628988      | Il quarto libro dei madrigali | [external URL](8N6k5W5i) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                         | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :---------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | nrkdoJ5j  | KCA-030902628988      | Il quarto libro dei madrigali | [external URL](https://anet.be/record/opacdkvc/c:lvd:12952037/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -81,10 +85,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/nrkdoJ5j.html" height="800" width="1200" title="nrkdoJ5j"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nrkdoJ5j" height="800" width="1200" title="nrkdoJ5j"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/nrkdoJ5j.html" height="800" width="1200" title="nrkdoJ5j"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/nrkdoJ5j" height="800" width="1200" title="nrkdoJ5j"></iframe>

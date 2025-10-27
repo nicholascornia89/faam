@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: enxN2zip
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                     | aliases | Wikidata QID                                      |
-    | :-------: | :----: | :-----------------------------: | :-----: | :-----------------------------------------------: |
-    | enxN2zip  | cymbal | unpitched percussion instrument | cymbals | [cymbal](http://wwww.wikidata.org/entity/Q190172) |
+    | FAAM UUID | label  | description                     | aliases | Wikidata QID                                 |
+    | :-------: | :----: | :-----------------------------: | :-----: | :------------------------------------------: |
+    | enxN2zip  | cymbal | unpitched percussion instrument | cymbals | [cymbal](http://wikidata.org/entity/Q190172) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./E2Sb746q.md)
+	- [musical instrument](./E2Sb746q.md)
 
 !!! quote "instance of" 
 
-	- [](./dSq7JTyF.md)
+	- [family of musical instruments](./dSq7JTyF.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/enxN2zip.html" height="800" width="1200" title="enxN2zip"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/enxN2zip" height="800" width="1200" title="enxN2zip"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: musical_instrument
 
 -	__[Giaour : mélodie Persane](./WyPjHYq7.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904381131.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904381131.gif){align=left width="150" height="150"} 
 
 	
 

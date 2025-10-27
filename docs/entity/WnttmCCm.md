@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WnttmCCm
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/WnttmCCm.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/WnttmCCm.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/WnttmCCm.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/WnttmCCm.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/WnttmCCm.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/WnttmCCm.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Mozart.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases                     | description                 | Wikidata QID                                              |
-    | :-------: | :------------: | :-------------------------: | :-------------------------: | :-------------------------------------------------------: |
-    | WnttmCCm  | Leopold Mozart | Johann Georg Leopold Mozart | German composer (1719–1787) | [Leopold Mozart](http://wwww.wikidata.org/entity/Q156280) |
+    | FAAM UUID | label          | aliases                     | description                 | Wikidata QID                                         |
+    | :-------: | :------------: | :-------------------------: | :-------------------------: | :--------------------------------------------------: |
+    | WnttmCCm  | Leopold Mozart | Johann Georg Leopold Mozart | German composer (1719–1787) | [Leopold Mozart](http://wikidata.org/entity/Q156280) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 	- [violinist](./9CVVGZdo.md)
 
-	- [](./bSHypyYG.md)
+	- [pedagogue](./bSHypyYG.md)
 
 	- [music teacher](./L7DPWnnr.md)
 
@@ -63,13 +67,13 @@ tags: agent
 
 ??? quote "educated at" 
 
-	- [](./H44dVBEk.md)
+	- [University of Salzburg](./H44dVBEk.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/WnttmCCm.html" height="800" width="1200" title="WnttmCCm"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WnttmCCm" height="800" width="1200" title="WnttmCCm"></iframe>
 
 ## Identifiers
 
@@ -90,3 +94,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Wolfgang Amadeus Mozart](./LLpPqfa8.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wolfgang-amadeus-mozart_1.jpg){align=left width="150" height="150"} 
+
+	Austrian composer of the Classical period (1756–1791)
+
+</div>

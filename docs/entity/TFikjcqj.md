@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TFikjcqj
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description              | aliases   | Wikidata QID                                                  |
-    | :-------: | :---------------: | :----------------------: | :-------: | :-----------------------------------------------------------: |
-    | TFikjcqj  | City of Edinburgh | council area in Scotland | Edinburgh | [City of Edinburgh](http://wwww.wikidata.org/entity/Q2379199) |
+    | FAAM UUID | label             | description              | aliases   | Wikidata QID                                             |
+    | :-------: | :---------------: | :----------------------: | :-------: | :------------------------------------------------------: |
+    | TFikjcqj  | City of Edinburgh | council area in Scotland | Edinburgh | [City of Edinburgh](http://wikidata.org/entity/Q2379199) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TFikjcqj.html" height="800" width="1200" title="TFikjcqj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TFikjcqj" height="800" width="1200" title="TFikjcqj"></iframe>
 
 ## Identifiers
 

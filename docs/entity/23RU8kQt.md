@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 23RU8kQt
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                | aliases                | Wikidata QID                                                           |
-    | :-------: | :------------------------: | :------------------------: | :--------------------: | :--------------------------------------------------------------------: |
-    | 23RU8kQt  | Chopin University of Music | Polish university of music | Chopin School of Music | [Chopin University of Music](http://wwww.wikidata.org/entity/Q1340262) |
+    | FAAM UUID | label                      | description                | aliases                | Wikidata QID                                                      |
+    | :-------: | :------------------------: | :------------------------: | :--------------------: | :---------------------------------------------------------------: |
+    | 23RU8kQt  | Chopin University of Music | Polish university of music | Chopin School of Music | [Chopin University of Music](http://wikidata.org/entity/Q1340262) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./44272D3z.md)
+	[Warsaw](./44272D3z.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/23RU8kQt.html" height="800" width="1200" title="23RU8kQt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/23RU8kQt" height="800" width="1200" title="23RU8kQt"></iframe>
 
 ## Cross-references
 
@@ -63,7 +67,7 @@ tags: music_organization
 
 -	__[Wilhelm Würfel](./JHkVzjNY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Czech conductor, music educator, composer and pianist (1790–1832)
 
@@ -75,7 +79,7 @@ tags: music_organization
 
 -	__[Wanda Landowska](./ANygk75M.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wanda_Landowska_%281879-1959%29_portrait.jpg){align=left width="150" height="150"} 
 
 	(1879-1959) Polish-French harpsichordist
 

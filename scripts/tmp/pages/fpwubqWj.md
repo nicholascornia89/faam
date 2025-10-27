@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fpwubqWj
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description              | aliases            | Wikidata QID                                          |
-    | :-------: | :--------: | :----------------------: | :----------------: | :---------------------------------------------------: |
-    | fpwubqWj  | flugelhorn | brass musical instrument | B♭ soprano saxhorn | [flugelhorn](http://wwww.wikidata.org/entity/Q382616) |
+    | FAAM UUID | label      | description              | aliases            | Wikidata QID                                     |
+    | :-------: | :--------: | :----------------------: | :----------------: | :----------------------------------------------: |
+    | fpwubqWj  | flugelhorn | brass musical instrument | B♭ soprano saxhorn | [flugelhorn](http://wikidata.org/entity/Q382616) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: musical_instrument
 
 !!! quote "subclass of" 
 
-	- [](./Ecx7xgeY.md)
+	- [saxhorn](./Ecx7xgeY.md)
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/fpwubqWj.html" height="800" width="1200" title="fpwubqWj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fpwubqWj" height="800" width="1200" title="fpwubqWj"></iframe>
 
 ## Cross-references
 
@@ -51,13 +55,13 @@ tags: musical_instrument
 
 -	__[Légende du Doudou](./hMSkTu7t.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902639415.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902639415.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concertstuk: harmonie-fanfare](./E9MUDjwc.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901410586.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901410586.gif){align=left width="150" height="150"} 
 
 	
 

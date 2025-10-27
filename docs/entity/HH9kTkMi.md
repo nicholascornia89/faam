@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HH9kTkMi
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description                                                                                         | aliases                       | Wikidata QID                                                            |
-    | :-------: | :------------------------: | :-------------------------------------------------------------------------------------------------: | :---------------------------: | :---------------------------------------------------------------------: |
-    | HH9kTkMi  | Imperial Moscow University | the first of the twelve Imperial universities of the Russian Empire, located in Moscow (1755—1917). | Imperial University of Moscow | [Imperial Moscow University](http://wwww.wikidata.org/entity/Q27923720) |
+    | FAAM UUID | label                      | description                                                                                         | aliases                       | Wikidata QID                                                       |
+    | :-------: | :------------------------: | :-------------------------------------------------------------------------------------------------: | :---------------------------: | :----------------------------------------------------------------: |
+    | HH9kTkMi  | Imperial Moscow University | the first of the twelve Imperial universities of the Russian Empire, located in Moscow (1755—1917). | Imperial University of Moscow | [Imperial Moscow University](http://wikidata.org/entity/Q27923720) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/HH9kTkMi.html" height="800" width="1200" title="HH9kTkMi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HH9kTkMi" height="800" width="1200" title="HH9kTkMi"></iframe>
 
 ## Cross-references
 

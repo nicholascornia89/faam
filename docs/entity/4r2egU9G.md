@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4r2egU9G
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases                 | description           | Wikidata QID                                                        |
-    | :-------: | :---------------------: | :---------------------: | :-------------------: | :-----------------------------------------------------------------: |
-    | 4r2egU9G  | The Bride of Lammermoor | The Bride of Lammermoor | novel by Walter Scott | [The Bride of Lammermoor](http://wwww.wikidata.org/entity/Q2659725) |
+    | FAAM UUID | label                   | aliases                 | description           | Wikidata QID                                                   |
+    | :-------: | :---------------------: | :---------------------: | :-------------------: | :------------------------------------------------------------: |
+    | 4r2egU9G  | The Bride of Lammermoor | The Bride of Lammermoor | novel by Walter Scott | [The Bride of Lammermoor](http://wikidata.org/entity/Q2659725) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: musical_work
 
 !!! quote "form of creative work" 
 
-	- [novel](http://www.wikidata.org/entity/Q8261)
+	- [novel](Q8261)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4r2egU9G.html" height="800" width="1200" title="4r2egU9G"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4r2egU9G" height="800" width="1200" title="4r2egU9G"></iframe>
 
 ## Identifiers
 

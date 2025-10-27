@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: i3TAbiBE
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description        | aliases | Wikidata QID                                       |
-    | :-------: | :------: | :----------------: | :-----: | :------------------------------------------------: |
-    | i3TAbiBE  | Victoria | state of Australia | VIC     | [Victoria](http://wwww.wikidata.org/entity/Q36687) |
+    | FAAM UUID | label    | description        | aliases | Wikidata QID                                  |
+    | :-------: | :------: | :----------------: | :-----: | :-------------------------------------------: |
+    | i3TAbiBE  | Victoria | state of Australia | VIC     | [Victoria](http://wikidata.org/entity/Q36687) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/i3TAbiBE.html" height="800" width="1200" title="i3TAbiBE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/i3TAbiBE" height="800" width="1200" title="i3TAbiBE"></iframe>
 
 ## Identifiers
 

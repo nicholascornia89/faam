@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2KTQb4mi
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902562328/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/2KTQb4mi.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/2KTQb4mi.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/2KTQb4mi.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902562328/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/2KTQb4mi.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/2KTQb4mi.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/2KTQb4mi.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902562328.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902562328.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                         | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 2KTQb4mi  | KCA-030902562328      | Troisième fantaisie : pour piano seul, op. 18 | [external URL](TUdHPWU8) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                         | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :-------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 2KTQb4mi  | KCA-030902562328      | Troisième fantaisie : pour piano seul, op. 18 | [external URL](https://anet.be/record/opacdkvc/c:lvd:6709589/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -79,10 +83,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/2KTQb4mi.html" height="800" width="1200" title="2KTQb4mi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2KTQb4mi" height="800" width="1200" title="2KTQb4mi"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/2KTQb4mi.html" height="800" width="1200" title="2KTQb4mi"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/2KTQb4mi" height="800" width="1200" title="2KTQb4mi"></iframe>

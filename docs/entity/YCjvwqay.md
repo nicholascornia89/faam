@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YCjvwqay
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                 | description                        | aliases         | Wikidata QID                                                                    |
-    | :-------: | :-----------------------------------: | :--------------------------------: | :-------------: | :-----------------------------------------------------------------------------: |
-    | YCjvwqay  | Johann Ernst III, Duke of Saxe-Weimar | Duke of Saxe-Weimar from 1683–1707 | John Ernest III | [Johann Ernst III, Duke of Saxe-Weimar](http://wwww.wikidata.org/entity/Q61972) |
+    | FAAM UUID | label                                 | description                        | aliases         | Wikidata QID                                                               |
+    | :-------: | :-----------------------------------: | :--------------------------------: | :-------------: | :------------------------------------------------------------------------: |
+    | YCjvwqay  | Johann Ernst III, Duke of Saxe-Weimar | Duke of Saxe-Weimar from 1683–1707 | John Ernest III | [Johann Ernst III, Duke of Saxe-Weimar](http://wikidata.org/entity/Q61972) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/YCjvwqay.html" height="800" width="1200" title="YCjvwqay"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YCjvwqay" height="800" width="1200" title="YCjvwqay"></iframe>
 
 ## Cross-references
 

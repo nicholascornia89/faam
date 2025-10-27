@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dhfYLHUk
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                             | description                                  | aliases | Wikidata QID                                                                                  |
-    | :-------: | :-----------------------------------------------: | :------------------------------------------: | :-----: | :-------------------------------------------------------------------------------------------: |
-    | dhfYLHUk  | Conservatoire à rayonnement régional de Marseille | Music and art academie in Marseille , France |         | [Conservatoire à rayonnement régional de Marseille](http://wwww.wikidata.org/entity/Q2994567) |
+    | FAAM UUID | label                                             | description                                  | aliases | Wikidata QID                                                                             |
+    | :-------: | :-----------------------------------------------: | :------------------------------------------: | :-----: | :--------------------------------------------------------------------------------------: |
+    | dhfYLHUk  | Conservatoire à rayonnement régional de Marseille | Music and art academie in Marseille , France |         | [Conservatoire à rayonnement régional de Marseille](http://wikidata.org/entity/Q2994567) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./Qbg9wtnb.md)
+	[Marseille](./Qbg9wtnb.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/dhfYLHUk.html" height="800" width="1200" title="dhfYLHUk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dhfYLHUk" height="800" width="1200" title="dhfYLHUk"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FpfYVAFn
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/FpfYVAFn.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/FpfYVAFn.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/FpfYVAFn.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/FpfYVAFn.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/FpfYVAFn.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/FpfYVAFn.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description      | Wikidata QID                                               |
-    | :-------: | :------------: | :-----: | :--------------: | :--------------------------------------------------------: |
-    | FpfYVAFn  | Pomponio Nenna |         | Italian composer | [Pomponio Nenna](http://wwww.wikidata.org/entity/Q3907903) |
+    | FAAM UUID | label          | aliases | description      | Wikidata QID                                          |
+    | :-------: | :------------: | :-----: | :--------------: | :---------------------------------------------------: |
+    | FpfYVAFn  | Pomponio Nenna |         | Italian composer | [Pomponio Nenna](http://wikidata.org/entity/Q3907903) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/FpfYVAFn.html" height="800" width="1200" title="FpfYVAFn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FpfYVAFn" height="800" width="1200" title="FpfYVAFn"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Carlo Gesualdo](./5WLcbQoY.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gesualdo3.jpg){align=left width="150" height="150"} 
+
+	Italian prince, composer and murderer (1566–1613)
+
+</div>

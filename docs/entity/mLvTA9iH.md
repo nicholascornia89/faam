@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mLvTA9iH
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mLvTA9iH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mLvTA9iH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mLvTA9iH.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mLvTA9iH.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mLvTA9iH.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mLvTA9iH.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FranzHünten.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                 | Wikidata QID                                             |
-    | :-------: | :----------: | :----------: | :-------------------------: | :------------------------------------------------------: |
-    | mLvTA9iH  | Franz Hünten | Franz Hünten | German pianist and composer | [Franz Hünten](http://wwww.wikidata.org/entity/Q3083115) |
+    | FAAM UUID | label        | aliases      | description                 | Wikidata QID                                        |
+    | :-------: | :----------: | :----------: | :-------------------------: | :-------------------------------------------------: |
+    | mLvTA9iH  | Franz Hünten | Franz Hünten | German pianist and composer | [Franz Hünten](http://wikidata.org/entity/Q3083115) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/mLvTA9iH.html" height="800" width="1200" title="mLvTA9iH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mLvTA9iH" height="800" width="1200" title="mLvTA9iH"></iframe>
 
 ## Identifiers
 

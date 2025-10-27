@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TESe5NPc
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/TESe5NPc.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/TESe5NPc.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/TESe5NPc.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/TESe5NPc.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/TESe5NPc.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/TESe5NPc.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josina_van_Boetzelaer_door_Izaäk_Schmidt.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases                            | description    | Wikidata QID                                                   |
-    | :-------: | :----------------: | :--------------------------------: | :------------: | :------------------------------------------------------------: |
-    | TESe5NPc  | Josina van Aerssen | Josina Anna Petronella van Aerssen | Dutch composer | [Josina van Aerssen](http://wwww.wikidata.org/entity/Q4001568) |
+    | FAAM UUID | label              | aliases                            | description    | Wikidata QID                                              |
+    | :-------: | :----------------: | :--------------------------------: | :------------: | :-------------------------------------------------------: |
+    | TESe5NPc  | Josina van Aerssen | Josina Anna Petronella van Aerssen | Dutch composer | [Josina van Aerssen](http://wikidata.org/entity/Q4001568) |
 
 <br><br><br>
 
@@ -45,13 +49,13 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./c7DJTAj9.md)
+	- [lady-in-waiting](./c7DJTAj9.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/TESe5NPc.html" height="800" width="1200" title="TESe5NPc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TESe5NPc" height="800" width="1200" title="TESe5NPc"></iframe>
 
 ## Identifiers
 

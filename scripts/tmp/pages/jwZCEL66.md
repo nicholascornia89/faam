@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jwZCEL66
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                    | aliases   | Wikidata QID                                        |
-    | :-------: | :------: | :--------------------------------------------: | :-------: | :-------------------------------------------------: |
-    | jwZCEL66  | Bergerac | French commune in Dordogne, Nouvelle-Aquitaine | Brageirac | [Bergerac](http://wwww.wikidata.org/entity/Q187911) |
+    | FAAM UUID | label    | description                                    | aliases   | Wikidata QID                                   |
+    | :-------: | :------: | :--------------------------------------------: | :-------: | :--------------------------------------------: |
+    | jwZCEL66  | Bergerac | French commune in Dordogne, Nouvelle-Aquitaine | Brageirac | [Bergerac](http://wikidata.org/entity/Q187911) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/jwZCEL66.html" height="800" width="1200" title="jwZCEL66"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jwZCEL66" height="800" width="1200" title="jwZCEL66"></iframe>
 
 ## Identifiers
 
@@ -57,7 +61,7 @@ tags: city
 
 -	__[Edmond Laurens](./aNSXX54T.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer (1852-1925)
 

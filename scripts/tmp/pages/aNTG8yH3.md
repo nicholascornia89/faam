@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aNTG8yH3
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/aNTG8yH3.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/aNTG8yH3.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/aNTG8yH3.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/aNTG8yH3.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/aNTG8yH3.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/aNTG8yH3.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolphe_Deslandres.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | aliases            | description                              | Wikidata QID                                                  |
-    | :-------: | :----------------: | :----------------: | :--------------------------------------: | :-----------------------------------------------------------: |
-    | aNTG8yH3  | Adolphe Deslandres | Adolphe Deslandres | French composer and organist (1840-1911) | [Adolphe Deslandres](http://wwww.wikidata.org/entity/Q365723) |
+    | FAAM UUID | label              | aliases            | description                              | Wikidata QID                                             |
+    | :-------: | :----------------: | :----------------: | :--------------------------------------: | :------------------------------------------------------: |
+    | aNTG8yH3  | Adolphe Deslandres | Adolphe Deslandres | French composer and organist (1840-1911) | [Adolphe Deslandres](http://wikidata.org/entity/Q365723) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/aNTG8yH3.html" height="800" width="1200" title="aNTG8yH3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aNTG8yH3" height="800" width="1200" title="aNTG8yH3"></iframe>
 
 ## Identifiers
 
@@ -89,7 +93,7 @@ tags: agent
 
 -	__[Ave Maria. pour Soprano ou Tenor, avec accompagnement d'Orgue](./8PaYx7pB.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143700p19.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143700p19.gif){align=left width="150" height="150"} 
 
 	
 

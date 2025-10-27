@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: a6BvHQHa
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                         | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :---------------------------------: | :-----: | :---------------------------------------------: |
-    | a6BvHQHa  | Narni | town in the region Umbria, in Italy |         | [Narni](http://wwww.wikidata.org/entity/Q10866) |
+    | FAAM UUID | label | description                         | aliases | Wikidata QID                               |
+    | :-------: | :---: | :---------------------------------: | :-----: | :----------------------------------------: |
+    | a6BvHQHa  | Narni | town in the region Umbria, in Italy |         | [Narni](http://wikidata.org/entity/Q10866) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/a6BvHQHa.html" height="800" width="1200" title="a6BvHQHa"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/a6BvHQHa" height="800" width="1200" title="a6BvHQHa"></iframe>
 
 ## Identifiers
 

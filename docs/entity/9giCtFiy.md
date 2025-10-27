@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9giCtFiy
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                | aliases         | Wikidata QID                                             |
-    | :-------: | :----------: | :------------------------: | :-------------: | :------------------------------------------------------: |
-    | 9giCtFiy  | opera singer | singer who sings in operas | operatic singer | [opera singer](http://wwww.wikidata.org/entity/Q2865819) |
+    | FAAM UUID | label        | description                | aliases         | Wikidata QID                                        |
+    | :-------: | :----------: | :------------------------: | :-------------: | :-------------------------------------------------: |
+    | 9giCtFiy  | opera singer | singer who sings in operas | operatic singer | [opera singer](http://wikidata.org/entity/Q2865819) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/9giCtFiy.html" height="800" width="1200" title="9giCtFiy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9giCtFiy" height="800" width="1200" title="9giCtFiy"></iframe>
 
 ## Cross-references
 
@@ -49,7 +53,7 @@ tags: occupation
 
 -	__[Julie Dorus-Gras](./cFRPbHXZ.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/f/fa/JulieDorus-Gras.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/JulieDorus-Gras.jpg){align=left width="150" height="150"} 
 
 	singer (1805–1896)
 
@@ -73,7 +77,7 @@ tags: occupation
 
 -	__[Carl David Stegmann](./CQvP5Hos.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German opera singer, harpsichordist, conductor and composer
 
@@ -103,7 +107,7 @@ tags: occupation
 
 -	__[Michael Vetter](./GU5zzTXD.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German composer (1943-2013)
 
@@ -115,7 +119,7 @@ tags: occupation
 
 -	__[Antonio Denzio](./Muw3uQmx.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian opera singer
 
@@ -139,25 +143,25 @@ tags: occupation
 
 -	__[Francesco Piermarini](./n9XVoQC2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
 -	__[Margherita Salicola](./SR94UjDN.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian singer and opera singer
 
 -	__[Rosalie Huyghe-Bosman](./3fWwPrfr.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian operatic singer
 
 -	__[Henri Warnots](./GcetycJn.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Belgian operatic tenor and academic
 
@@ -169,13 +173,13 @@ tags: occupation
 
 -	__[Venanzio Rauzzini](./nWLWhZxg.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/c/ca/Venanzio_Rauzzini_by_Robert_Hancock.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Venanzio_Rauzzini_by_Robert_Hancock.jpg){align=left width="150" height="150"} 
 
 	Italian opera singer and teacher (1746-1810)
 
 -	__[Tommaso Bai](./UWqEBAcB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and singer (ca. 1650-1714)
 
@@ -241,7 +245,7 @@ tags: occupation
 
 -	__[Gennevouise, L.A.J.](./YMXCcMXZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -277,13 +281,13 @@ tags: occupation
 
 -	__[Jeanne Marie Williaume](./fBAyTHso.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French opera singer, pianist and music educator
 
 -	__[Giovanni Ansani](./CVXzcYTp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian opera singer (1744-1826)
 
@@ -295,7 +299,7 @@ tags: occupation
 
 -	__[Michelangelo Gasparini](./Kpwwy43U.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and singer
 

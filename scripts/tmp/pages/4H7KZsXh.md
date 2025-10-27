@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4H7KZsXh
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description                                      | aliases | Wikidata QID                                                              |
-    | :-------: | :----------------------------: | :----------------------------------------------: | :-----: | :-----------------------------------------------------------------------: |
-    | 4H7KZsXh  | Koninklijke Militaire Academie | Royal Military Academy in Breda, the Netherlands | K.M.A.  | [Koninklijke Militaire Academie](http://wwww.wikidata.org/entity/Q934782) |
+    | FAAM UUID | label                          | description                                      | aliases | Wikidata QID                                                         |
+    | :-------: | :----------------------------: | :----------------------------------------------: | :-----: | :------------------------------------------------------------------: |
+    | 4H7KZsXh  | Koninklijke Militaire Academie | Royal Military Academy in Breda, the Netherlands | K.M.A.  | [Koninklijke Militaire Academie](http://wikidata.org/entity/Q934782) |
 
 <br><br><br>
 
@@ -31,17 +35,17 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./gkJaA3Fp.md)
+	[Breda](./gkJaA3Fp.md)
 
 !!! quote "country" 
 
-	[](./BWX2VNz4.md)
+	[Netherlands](./BWX2VNz4.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/4H7KZsXh.html" height="800" width="1200" title="4H7KZsXh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4H7KZsXh" height="800" width="1200" title="4H7KZsXh"></iframe>
 
 ## Cross-references
 

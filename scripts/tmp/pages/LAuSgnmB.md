@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LAuSgnmB
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902500674/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LAuSgnmB.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LAuSgnmB.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LAuSgnmB.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902500674/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LAuSgnmB.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LAuSgnmB.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LAuSgnmB.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902500674.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902500674.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                 | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | LAuSgnmB  | KCA-030902500674      | Rondo fantasque: pour violon et piano | [external URL](mkCY9LDD) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                 | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | LAuSgnmB  | KCA-030902500674      | Rondo fantasque: pour violon et piano | [external URL](https://anet.be/record/opacdkvc/c:lvd:12943599/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -87,10 +91,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/LAuSgnmB.html" height="800" width="1200" title="LAuSgnmB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LAuSgnmB" height="800" width="1200" title="LAuSgnmB"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/LAuSgnmB.html" height="800" width="1200" title="LAuSgnmB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/LAuSgnmB" height="800" width="1200" title="LAuSgnmB"></iframe>

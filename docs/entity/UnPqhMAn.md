@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UnPqhMAn
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/UnPqhMAn.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/UnPqhMAn.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/UnPqhMAn.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/UnPqhMAn.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/UnPqhMAn.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/UnPqhMAn.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludovico_Antonio_Muratori.png" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases                   | description                                               | Wikidata QID                                                         |
-    | :-------: | :-----------------------: | :-----------------------: | :-------------------------------------------------------: | :------------------------------------------------------------------: |
-    | UnPqhMAn  | Ludovico Antonio Muratori | Lodovico Antonio Muratori | Italian priest, writer, librarian, historian and diplomat | [Ludovico Antonio Muratori](http://wwww.wikidata.org/entity/Q471529) |
+    | FAAM UUID | label                     | aliases                   | description                                               | Wikidata QID                                                    |
+    | :-------: | :-----------------------: | :-----------------------: | :-------------------------------------------------------: | :-------------------------------------------------------------: |
+    | UnPqhMAn  | Ludovico Antonio Muratori | Lodovico Antonio Muratori | Italian priest, writer, librarian, historian and diplomat | [Ludovico Antonio Muratori](http://wikidata.org/entity/Q471529) |
 
 <br><br><br>
 
@@ -51,11 +55,11 @@ tags: agent
 
 	- [librarian](./avB62pGy.md)
 
-	- [](./fDqtTBeV.md)
+	- [archivist](./fDqtTBeV.md)
 
-	- [](./6pfzESag.md)
+	- [philosopher](./6pfzESag.md)
 
-	- [](./mxFoYAeg.md)
+	- [numismatist](./mxFoYAeg.md)
 
 ??? quote "educated at" 
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/UnPqhMAn.html" height="800" width="1200" title="UnPqhMAn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UnPqhMAn" height="800" width="1200" title="UnPqhMAn"></iframe>
 
 ## Identifiers
 

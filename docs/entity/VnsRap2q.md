@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VnsRap2q
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                          | aliases | Wikidata QID                                       |
-    | :-------: | :-------: | :----------------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | VnsRap2q  | Stuttgart | city on the Neckar river and capital of the federal state Baden-Württemberg, Germany |         | [Stuttgart](http://wwww.wikidata.org/entity/Q1022) |
+    | FAAM UUID | label     | description                                                                          | aliases | Wikidata QID                                  |
+    | :-------: | :-------: | :----------------------------------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | VnsRap2q  | Stuttgart | city on the Neckar river and capital of the federal state Baden-Württemberg, Germany |         | [Stuttgart](http://wikidata.org/entity/Q1022) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/VnsRap2q.html" height="800" width="1200" title="VnsRap2q"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VnsRap2q" height="800" width="1200" title="VnsRap2q"></iframe>
 
 ## Identifiers
 
@@ -67,13 +71,13 @@ tags: city
 
 -	__[Wenzel Neukirchner](./RNYjxmKE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	(1805-1889)
 
 -	__[Leonhard Lechner](./WcNMd2Mg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	composer
 

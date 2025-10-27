@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6KMog4yD
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                                                                                                    | aliases | Wikidata QID                                       |
-    | :-------: | :----: | :------------------------------------------------------------------------------------------------------------: | :-----: | :------------------------------------------------: |
-    | 6KMog4yD  | critic | professional who makes a living communicating their opinions and assessments of various forms of creative work |         | [critic](http://wwww.wikidata.org/entity/Q6430706) |
+    | FAAM UUID | label  | description                                                                                                    | aliases | Wikidata QID                                  |
+    | :-------: | :----: | :------------------------------------------------------------------------------------------------------------: | :-----: | :-------------------------------------------: |
+    | 6KMog4yD  | critic | professional who makes a living communicating their opinions and assessments of various forms of creative work |         | [critic](http://wikidata.org/entity/Q6430706) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/6KMog4yD.html" height="800" width="1200" title="6KMog4yD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6KMog4yD" height="800" width="1200" title="6KMog4yD"></iframe>
 
 ## Cross-references
 
@@ -43,13 +47,13 @@ tags: occupation
 
 -	__[Vincent d'Indy](./agWvDDr6.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent_d%27Indy_1914.jpg){align=left width="150" height="150"} 
 
 	French composer and teacher
 
 -	__[Adolphe Adam](./Y7stG82h.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Adolphe_Adam.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolphe_Adam.jpg){align=left width="150" height="150"} 
 
 	French composer (1803–1856)
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ibi4Gjwz
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description                      | aliases             | Wikidata QID                                             |
-    | :-------: | :------------: | :------------------------------: | :-----------------: | :------------------------------------------------------: |
-    | ibi4Gjwz  | Cambridgeshire | ceremonial county of England, UK | County of Cambridge | [Cambridgeshire](http://wwww.wikidata.org/entity/Q23112) |
+    | FAAM UUID | label          | description                      | aliases             | Wikidata QID                                        |
+    | :-------: | :------------: | :------------------------------: | :-----------------: | :-------------------------------------------------: |
+    | ibi4Gjwz  | Cambridgeshire | ceremonial county of England, UK | County of Cambridge | [Cambridgeshire](http://wikidata.org/entity/Q23112) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ibi4Gjwz.html" height="800" width="1200" title="ibi4Gjwz"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ibi4Gjwz" height="800" width="1200" title="ibi4Gjwz"></iframe>
 
 ## Identifiers
 

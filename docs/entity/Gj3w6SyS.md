@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Gj3w6SyS
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Gj3w6SyS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Gj3w6SyS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Gj3w6SyS.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Gj3w6SyS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Gj3w6SyS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Gj3w6SyS.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Maurice_Ravel_1925.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases              | description                 | Wikidata QID                                           |
-    | :-------: | :-----------: | :------------------: | :-------------------------: | :----------------------------------------------------: |
-    | Gj3w6SyS  | Maurice Ravel | Maurice Joseph Ravel | French composer (1875-1937) | [Maurice Ravel](http://wwww.wikidata.org/entity/Q1178) |
+    | FAAM UUID | label         | aliases              | description                 | Wikidata QID                                      |
+    | :-------: | :-----------: | :------------------: | :-------------------------: | :-----------------------------------------------: |
+    | Gj3w6SyS  | Maurice Ravel | Maurice Joseph Ravel | French composer (1875-1937) | [Maurice Ravel](http://wikidata.org/entity/Q1178) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Gj3w6SyS.html" height="800" width="1200" title="Gj3w6SyS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Gj3w6SyS" height="800" width="1200" title="Gj3w6SyS"></iframe>
 
 ## Identifiers
 
@@ -83,32 +87,52 @@ tags: agent
 
 -	__[La valse: poème choréographique](./QKa8jdiX.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901302353.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901302353.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alborada del gracioso](./ipCwmsxc.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903088141.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903088141.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Alborada del gracioso](./87ghipnH.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902377727.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902377727.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Pavane : pour une infante défunte : pour piano](./PjTHiJNq.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902737524.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902737524.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonatine : pour le piano](./3K9Z8zbC.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902737540.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902737540.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Miroirs, M.43](./FUaZbhYk.md)__
+
+	musical composition for piano by Maurice Ravel
+
+-	__[La valse, M.72](./SbKGQiGw.md)__
+
+	composition for orchestra by Maurice Ravel
+
+-	__[Sonatine, M.40](./gfgoqvNa.md)__
+
+	
+
+-	__[Pavane pour une infante défunte, M.19](./MbdUoe2j.md)__
+
+	composition for piano by Maurice Ravel
 
 </div>

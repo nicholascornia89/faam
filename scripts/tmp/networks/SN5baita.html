@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SN5baita", "label": "Enrique Broca", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SN5baita.md\u0027\u003eEnrique Broca\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish author\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SRWiu6xt", "label": "Manuel de Falla", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SRWiu6xt.md\u0027\u003eManuel de Falla\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Manuel_de_Falla_en_Alta_Gracia.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aJeJBesD.md\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "bUujp3hi", "label": "author", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bUujp3hi.md\u0027\u003eauthor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ewriter of an original work\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "FLkzgv4J", "label": "Spain", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FLkzgv4J.md\u0027\u003eSpain\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in southwestern Europe with territories in Africa\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "SN5baita", "to": "SRWiu6xt", "width": 1}, {"from": "SN5baita", "to": "aJeJBesD", "width": 1}, {"from": "SN5baita", "to": "bUujp3hi", "width": 1}, {"from": "SN5baita", "to": "FLkzgv4J", "width": 1}, {"from": "aJeJBesD", "to": "SRWiu6xt", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "FLkzgv4J", "label": "Spain", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FLkzgv4J\u0027\u003eSpain\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in southwestern Europe with territories in Africa\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SN5baita", "label": "Enrique Broca", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SN5baita\u0027\u003eEnrique Broca\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish author\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SRWiu6xt", "label": "Manuel de Falla", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SRWiu6xt\u0027\u003eManuel de Falla\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Manuel_de_Falla_en_Alta_Gracia.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aJeJBesD\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "bUujp3hi", "label": "author", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bUujp3hi\u0027\u003eauthor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ewriter of an original work\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}]);
+                  edges = new vis.DataSet([{"from": "FLkzgv4J", "to": "SN5baita", "width": 1}, {"from": "SRWiu6xt", "to": "aJeJBesD", "width": 1}, {"from": "SRWiu6xt", "to": "SN5baita", "width": 1}, {"from": "aJeJBesD", "to": "SN5baita", "width": 1}, {"from": "SN5baita", "to": "bUujp3hi", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

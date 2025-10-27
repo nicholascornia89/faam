@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NZ6iszyj
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                       | description                   | aliases | Wikidata QID                                                           |
-    | :-------: | :-------------------------: | :---------------------------: | :-----: | :--------------------------------------------------------------------: |
-    | NZ6iszyj  | 2nd arrondissement of Paris | municipality of Paris, France | 75002   | [2nd arrondissement of Paris](http://wwww.wikidata.org/entity/Q209549) |
+    | FAAM UUID | label                       | description                   | aliases | Wikidata QID                                                      |
+    | :-------: | :-------------------------: | :---------------------------: | :-----: | :---------------------------------------------------------------: |
+    | NZ6iszyj  | 2nd arrondissement of Paris | municipality of Paris, France | 75002   | [2nd arrondissement of Paris](http://wikidata.org/entity/Q209549) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/NZ6iszyj.html" height="800" width="1200" title="NZ6iszyj"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NZ6iszyj" height="800" width="1200" title="NZ6iszyj"></iframe>
 
 ## Identifiers
 

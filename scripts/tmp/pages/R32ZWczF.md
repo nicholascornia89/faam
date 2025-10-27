@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: R32ZWczF
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/R32ZWczF.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/R32ZWczF.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/R32ZWczF.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/R32ZWczF.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/R32ZWczF.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/R32ZWczF.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases      | description                    | Wikidata QID                                             |
-    | :-------: | :----------: | :----------: | :----------------------------: | :------------------------------------------------------: |
-    | R32ZWczF  | Safford Cape | Safford Cape | American conductor (1906–1973) | [Safford Cape](http://wwww.wikidata.org/entity/Q3461275) |
+    | FAAM UUID | label        | aliases      | description                    | Wikidata QID                                        |
+    | :-------: | :----------: | :----------: | :----------------------------: | :-------------------------------------------------: |
+    | R32ZWczF  | Safford Cape | Safford Cape | American conductor (1906–1973) | [Safford Cape](http://wikidata.org/entity/Q3461275) |
 
 <br><br><br>
 
@@ -61,13 +65,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./YEfG9mKy.md)
+	- [Pro Musica Antiqua](./YEfG9mKy.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/R32ZWczF.html" height="800" width="1200" title="R32ZWczF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/R32ZWczF" height="800" width="1200" title="R32ZWczF"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Tria motetta ad Benedictionem Sanctissimi Sacramenti. Ave verum. Ave Maria. Tantum ergo](./cNsCgtEs.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502021.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502021.gif){align=left width="150" height="150"} 
 
 	
 

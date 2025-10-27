@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ZC3PyamC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                        | aliases             | Wikidata QID                                                     |
-    | :-------: | :-------------------: | :--------------------------------: | :-----------------: | :--------------------------------------------------------------: |
-    | ZC3PyamC  | Saint-Germain-en-Laye | former commune in Yvelines, France | St. Germain-en-Laye | [Saint-Germain-en-Laye](http://wwww.wikidata.org/entity/Q185075) |
+    | FAAM UUID | label                 | description                        | aliases             | Wikidata QID                                                |
+    | :-------: | :-------------------: | :--------------------------------: | :-----------------: | :---------------------------------------------------------: |
+    | ZC3PyamC  | Saint-Germain-en-Laye | former commune in Yvelines, France | St. Germain-en-Laye | [Saint-Germain-en-Laye](http://wikidata.org/entity/Q185075) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ZC3PyamC.html" height="800" width="1200" title="ZC3PyamC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ZC3PyamC" height="800" width="1200" title="ZC3PyamC"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MKHWrnBg
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502013/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/MKHWrnBg.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/MKHWrnBg.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/MKHWrnBg.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502013/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/MKHWrnBg.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/MKHWrnBg.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/MKHWrnBg.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/DPF-202502013.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502013.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                    | permalink                | provenance                              |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | MKHWrnBg  | DPF-202502013         | Missa in honorem S. Johannis Berchmans. A cappella ad 3 voces pueriles aut etiam viriles | [external URL](LQE77nqs) | [Donation Private Fonds](./HkU9txzL.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                    | permalink                     | provenance                              |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------: | :---------------------------: | :-------------------------------------: |
+    | MKHWrnBg  | DPF-202502013         | Missa in honorem S. Johannis Berchmans. A cappella ad 3 voces pueriles aut etiam viriles | [external URL](not available) | [Donation Private Fonds](./HkU9txzL.md) |
 
 ===  "note" 
 
@@ -96,10 +100,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/MKHWrnBg.html" height="800" width="1200" title="MKHWrnBg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MKHWrnBg" height="800" width="1200" title="MKHWrnBg"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/MKHWrnBg.html" height="800" width="1200" title="MKHWrnBg"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/MKHWrnBg" height="800" width="1200" title="MKHWrnBg"></iframe>

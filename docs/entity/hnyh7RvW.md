@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hnyh7RvW
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | description                       | aliases            | Wikidata QID                                                 |
-    | :-------: | :-------------: | :-------------------------------: | :----------------: | :----------------------------------------------------------: |
-    | hnyh7RvW  | music professor | university teacher teaching music | professor of music | [music professor](http://wwww.wikidata.org/entity/Q81759238) |
+    | FAAM UUID | label           | description                       | aliases            | Wikidata QID                                            |
+    | :-------: | :-------------: | :-------------------------------: | :----------------: | :-----------------------------------------------------: |
+    | hnyh7RvW  | music professor | university teacher teaching music | professor of music | [music professor](http://wikidata.org/entity/Q81759238) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/hnyh7RvW.html" height="800" width="1200" title="hnyh7RvW"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hnyh7RvW" height="800" width="1200" title="hnyh7RvW"></iframe>
 
 ## Cross-references
 

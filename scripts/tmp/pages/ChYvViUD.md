@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ChYvViUD
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                        | aliases | Wikidata QID                                    |
-    | :-------: | :---: | :----------------------------------------------------------------: | :-----: | :---------------------------------------------: |
-    | ChYvViUD  | Pest  | eastern part of Budapest, Hungary, former independent city (–1873) | Pesth   | [Pest](http://wwww.wikidata.org/entity/Q210205) |
+    | FAAM UUID | label | description                                                        | aliases | Wikidata QID                               |
+    | :-------: | :---: | :----------------------------------------------------------------: | :-----: | :----------------------------------------: |
+    | ChYvViUD  | Pest  | eastern part of Budapest, Hungary, former independent city (–1873) | Pesth   | [Pest](http://wikidata.org/entity/Q210205) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ChYvViUD.html" height="800" width="1200" title="ChYvViUD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ChYvViUD" height="800" width="1200" title="ChYvViUD"></iframe>
 
 ## Identifiers
 

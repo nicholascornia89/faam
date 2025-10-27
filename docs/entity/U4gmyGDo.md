@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: U4gmyGDo
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000340932/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/U4gmyGDo.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/U4gmyGDo.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/U4gmyGDo.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000340932/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/U4gmyGDo.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/U4gmyGDo.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/U4gmyGDo.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000340932.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000340932.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                     | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | U4gmyGDo  | KCG-000340932         | D'Azémia : Ouverture : Arrangée Pour le Clavecin ou Forte-Piano, Avec Accompagnement de Violon ad libitum | [external URL](LBfWd2va) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                     | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :-------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | U4gmyGDo  | KCG-000340932         | D'Azémia : Ouverture : Arrangée Pour le Clavecin ou Forte-Piano, Avec Accompagnement de Violon ad libitum | [external URL](https://catalogus.hogent.be/catalog/hog01:000340932) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -73,10 +77,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/U4gmyGDo.html" height="800" width="1200" title="U4gmyGDo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/U4gmyGDo" height="800" width="1200" title="U4gmyGDo"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/U4gmyGDo.html" height="800" width="1200" title="U4gmyGDo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/U4gmyGDo" height="800" width="1200" title="U4gmyGDo"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cGrMP3QY
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                      | aliases | Wikidata QID                                       |
-    | :-------: | :---: | :----------------------------------------------: | :-----: | :------------------------------------------------: |
-    | cGrMP3QY  | Tubož | village in Česká Lípa District of Liberec region |         | [Tubož](http://wwww.wikidata.org/entity/Q12059839) |
+    | FAAM UUID | label | description                                      | aliases | Wikidata QID                                  |
+    | :-------: | :---: | :----------------------------------------------: | :-----: | :-------------------------------------------: |
+    | cGrMP3QY  | Tubož | village in Česká Lípa District of Liberec region |         | [Tubož](http://wikidata.org/entity/Q12059839) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cGrMP3QY.html" height="800" width="1200" title="cGrMP3QY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cGrMP3QY" height="800" width="1200" title="cGrMP3QY"></iframe>
 
 ## Identifiers
 

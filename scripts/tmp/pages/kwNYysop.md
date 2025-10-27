@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kwNYysop
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description                                                            | aliases | Wikidata QID                                      |
-    | :-------: | :---: | :--------------------------------------------------------------------: | :-----: | :-----------------------------------------------: |
-    | kwNYysop  | part  | separate element of a larger entity. For integral parts, see Q1310239. | portion | [part](http://wwww.wikidata.org/entity/Q13196193) |
+    | FAAM UUID | label | description                                                            | aliases | Wikidata QID                                 |
+    | :-------: | :---: | :--------------------------------------------------------------------: | :-----: | :------------------------------------------: |
+    | kwNYysop  | part  | separate element of a larger entity. For integral parts, see Q1310239. | portion | [part](http://wikidata.org/entity/Q13196193) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/kwNYysop.html" height="800" width="1200" title="kwNYysop"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kwNYysop" height="800" width="1200" title="kwNYysop"></iframe>
 
 ## Cross-references
 

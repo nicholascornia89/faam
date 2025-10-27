@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8o65FHVv", "label": "Frankfurt University of Music and Performing Arts", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8o65FHVv.md\u0027\u003eFrankfurt University of Music and Performing Arts\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman university\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "RiB7qUPm", "label": "Frankfurt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RiB7qUPm.md\u0027\u003eFrankfurt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Hesse, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CTNhzr7a", "label": "Germany", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CTNhzr7a.md\u0027\u003eGermany\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5vPvVrHJ", "label": "Sigismond Thalberg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5vPvVrHJ.md\u0027\u003eSigismond Thalberg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer and pianist (1812\u20131871)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Thalberg,_Sigismund,_Gallica,_Nadar.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YaMUxDWu", "label": "Joachim Raff", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YaMUxDWu.md\u0027\u003eJoachim Raff\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer (1822-1882)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jjraffportrait.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8CK7pBQT", "label": "Iwan Knorr", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8CK7pBQT.md\u0027\u003eIwan Knorr\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman teacher of music (1853\u20131916)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "8o65FHVv", "to": "RiB7qUPm", "width": 1}, {"from": "8o65FHVv", "to": "CTNhzr7a", "width": 1}, {"from": "8o65FHVv", "to": "5vPvVrHJ", "width": 10}, {"from": "8o65FHVv", "to": "YaMUxDWu", "width": 1}, {"from": "8o65FHVv", "to": "8CK7pBQT", "width": 10}, {"from": "YaMUxDWu", "to": "RiB7qUPm", "width": 1}, {"from": "CTNhzr7a", "to": "RiB7qUPm", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8CK7pBQT", "label": "Iwan Knorr", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8CK7pBQT\u0027\u003eIwan Knorr\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman teacher of music (1853\u20131916)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8o65FHVv", "label": "Frankfurt University of Music and Performing Arts", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8o65FHVv\u0027\u003eFrankfurt University of Music and Performing Arts\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman university\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5vPvVrHJ", "label": "Sigismond Thalberg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5vPvVrHJ\u0027\u003eSigismond Thalberg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer and pianist (1812\u20131871)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Thalberg,_Sigismund,_Gallica,_Nadar.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YaMUxDWu", "label": "Joachim Raff", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YaMUxDWu\u0027\u003eJoachim Raff\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer (1822-1882)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jjraffportrait.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "RiB7qUPm", "label": "Frankfurt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/RiB7qUPm\u0027\u003eFrankfurt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Hesse, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CTNhzr7a", "label": "Germany", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CTNhzr7a\u0027\u003eGermany\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "8CK7pBQT", "to": "8o65FHVv", "width": 10}, {"from": "5vPvVrHJ", "to": "8o65FHVv", "width": 10}, {"from": "YaMUxDWu", "to": "RiB7qUPm", "width": 1}, {"from": "YaMUxDWu", "to": "8o65FHVv", "width": 1}, {"from": "RiB7qUPm", "to": "CTNhzr7a", "width": 1}, {"from": "RiB7qUPm", "to": "8o65FHVv", "width": 1}, {"from": "CTNhzr7a", "to": "8o65FHVv", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

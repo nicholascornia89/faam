@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: d8RUsgtP
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | description                    | aliases  | Wikidata QID                                               |
-    | :-------: | :--------------: | :----------------------------: | :------: | :--------------------------------------------------------: |
-    | d8RUsgtP  | Clermont-Ferrand | commune in Puy-de-Dôme, France | Clermont | [Clermont-Ferrand](http://wwww.wikidata.org/entity/Q42168) |
+    | FAAM UUID | label            | description                    | aliases  | Wikidata QID                                          |
+    | :-------: | :--------------: | :----------------------------: | :------: | :---------------------------------------------------: |
+    | d8RUsgtP  | Clermont-Ferrand | commune in Puy-de-Dôme, France | Clermont | [Clermont-Ferrand](http://wikidata.org/entity/Q42168) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/d8RUsgtP.html" height="800" width="1200" title="d8RUsgtP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/d8RUsgtP" height="800" width="1200" title="d8RUsgtP"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Henri Quittard](./PguNCpQU.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French composer, musicologist and music critic
 

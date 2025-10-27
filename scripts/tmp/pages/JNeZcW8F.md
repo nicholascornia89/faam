@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JNeZcW8F
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                               | aliases     | Wikidata QID                                          |
-    | :-------: | :--------: | :---------------------------------------: | :---------: | :---------------------------------------------------: |
-    | JNeZcW8F  | duct flute | flute with a duct or fipple, a mouthpiece | duct flutes | [duct flute](http://wwww.wikidata.org/entity/Q478634) |
+    | FAAM UUID | label      | description                               | aliases     | Wikidata QID                                     |
+    | :-------: | :--------: | :---------------------------------------: | :---------: | :----------------------------------------------: |
+    | JNeZcW8F  | duct flute | flute with a duct or fipple, a mouthpiece | duct flutes | [duct flute](http://wikidata.org/entity/Q478634) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/JNeZcW8F.html" height="800" width="1200" title="JNeZcW8F"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JNeZcW8F" height="800" width="1200" title="JNeZcW8F"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5XQY3KU6
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5XQY3KU6.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5XQY3KU6.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5XQY3KU6.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5XQY3KU6.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5XQY3KU6.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5XQY3KU6.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alessandro_Marcello.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases                     | description      | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :-------------------------: | :--------------: | :------------------------------------------------------------: |
-    | 5XQY3KU6  | Alessandro Marcello | Alessandro Ignazio Marcello | Italian composer | [Alessandro Marcello](http://wwww.wikidata.org/entity/Q336137) |
+    | FAAM UUID | label               | aliases                     | description      | Wikidata QID                                              |
+    | :-------: | :-----------------: | :-------------------------: | :--------------: | :-------------------------------------------------------: |
+    | 5XQY3KU6  | Alessandro Marcello | Alessandro Ignazio Marcello | Italian composer | [Alessandro Marcello](http://wikidata.org/entity/Q336137) |
 
 <br><br><br>
 
@@ -45,13 +49,13 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./8dXsYNvZ.md)
+	- [mathematician](./8dXsYNvZ.md)
 
-	- [](./MSqmiCXh.md)
+	- [jurist](./MSqmiCXh.md)
 
 	- [poet](./fKBqCJio.md)
 
-	- [](./6pfzESag.md)
+	- [philosopher](./6pfzESag.md)
 
 ??? quote "educated at" 
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/5XQY3KU6.html" height="800" width="1200" title="5XQY3KU6"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5XQY3KU6" height="800" width="1200" title="5XQY3KU6"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Faustina Bordoni](./iVwngdrW.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ca'_Rezzonico_Sala_dei_pastelli_-_Ritratto_di_Faustina_Bordoni_Hasse_-_Rosalba_Carriera_-_47x35.jpg){align=left width="150" height="150"} 
+
+	opera singer (1697-1781)
+
+</div>

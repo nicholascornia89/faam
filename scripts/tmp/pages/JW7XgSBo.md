@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JW7XgSBo
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description    | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :------------: | :-----: | :--------------------------------------------: |
-    | JW7XgSBo  | Jesi  | Italian comune | Iesi    | [Jesi](http://wwww.wikidata.org/entity/Q13144) |
+    | FAAM UUID | label | description    | aliases | Wikidata QID                              |
+    | :-------: | :---: | :------------: | :-----: | :---------------------------------------: |
+    | JW7XgSBo  | Jesi  | Italian comune | Iesi    | [Jesi](http://wikidata.org/entity/Q13144) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/JW7XgSBo.html" height="800" width="1200" title="JW7XgSBo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JW7XgSBo" height="800" width="1200" title="JW7XgSBo"></iframe>
 
 ## Identifiers
 

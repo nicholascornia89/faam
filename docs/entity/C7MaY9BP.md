@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: C7MaY9BP
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902707634/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/C7MaY9BP.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/C7MaY9BP.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/C7MaY9BP.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902707634/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/C7MaY9BP.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/C7MaY9BP.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/C7MaY9BP.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902707634.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902707634.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                        | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | C7MaY9BP  | KCA-030902707634      | Huit petits préludes et fugues, trois préludes, neuf fugues, cinq fantaisies | [external URL](TUdHPWU8) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                        | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | C7MaY9BP  | KCA-030902707634      | Huit petits préludes et fugues, trois préludes, neuf fugues, cinq fantaisies | [external URL](https://anet.be/record/opacdkvc/c:lvd:13125745/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -101,10 +105,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/C7MaY9BP.html" height="800" width="1200" title="C7MaY9BP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/C7MaY9BP" height="800" width="1200" title="C7MaY9BP"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/C7MaY9BP.html" height="800" width="1200" title="C7MaY9BP"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/C7MaY9BP" height="800" width="1200" title="C7MaY9BP"></iframe>

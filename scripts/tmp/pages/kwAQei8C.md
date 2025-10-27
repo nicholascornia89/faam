@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kwAQei8C
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                       | aliases | description | Wikidata QID                         |
-    | :-------: | :-----------------------------------------: | :-----: | :---------: | :----------------------------------: |
-    | kwAQei8C  | 3 Trios d'une difficulté progressive, Op.38 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                                       | aliases | description | Wikidata QID                    |
+    | :-------: | :-----------------------------------------: | :-----: | :---------: | :-----------------------------: |
+    | kwAQei8C  | 3 Trios d'une difficulté progressive, Op.38 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/kwAQei8C.html" height="800" width="1200" title="kwAQei8C"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kwAQei8C" height="800" width="1200" title="kwAQei8C"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Trois Trios : d'une Difficulté Progressive pour le Violoncelle, Viola et Violoncelle : Oeuv. 38](./h3ypGMr9.md)__
 
-	![Image](../assets/images/thumbs/KCG-000735370.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735370.gif){align=left width="150" height="150"} 
 
 	
 

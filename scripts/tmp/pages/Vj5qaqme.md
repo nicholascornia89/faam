@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Vj5qaqme
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Vj5qaqme.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Vj5qaqme.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Vj5qaqme.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Vj5qaqme.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Vj5qaqme.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Vj5qaqme.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gaston_Feremans.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                  | Wikidata QID                                                |
-    | :-------: | :-------------: | :-------------: | :--------------------------: | :---------------------------------------------------------: |
-    | Vj5qaqme  | Gaston Feremans | Gaston Feremans | Belgian composer (1907-1964) | [Gaston Feremans](http://wwww.wikidata.org/entity/Q2423402) |
+    | FAAM UUID | label           | aliases         | description                  | Wikidata QID                                           |
+    | :-------: | :-------------: | :-------------: | :--------------------------: | :----------------------------------------------------: |
+    | Vj5qaqme  | Gaston Feremans | Gaston Feremans | Belgian composer (1907-1964) | [Gaston Feremans](http://wikidata.org/entity/Q2423402) |
 
 <br><br><br>
 
@@ -67,7 +71,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Vj5qaqme.html" height="800" width="1200" title="Vj5qaqme"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Vj5qaqme" height="800" width="1200" title="Vj5qaqme"></iframe>
 
 ## Identifiers
 
@@ -85,7 +89,7 @@ tags: agent
 
 -	__[Missa Valentina. Ad tres voces inaequales comitante organo](./g3cSPPkZ.md)__
 
-	![Image](../assets/images/thumbs/DPF-202502030.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/DPF-202502030.gif){align=left width="150" height="150"} 
 
 	
 

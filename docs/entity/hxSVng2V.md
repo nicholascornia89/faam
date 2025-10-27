@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: hxSVng2V
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                          | description                                                                                                                   | aliases                  | Wikidata QID                                                              |
-    | :-------: | :----------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------------------: |
-    | hxSVng2V  | Polish–Lithuanian Commonwealth | historical multinational monarchist state in Eastern Europe (Crown of the Kingdom of Poland and the Grand Duchy of Lithuania) | Republic of Both Nations | [Polish–Lithuanian Commonwealth](http://wwww.wikidata.org/entity/Q172107) |
+    | FAAM UUID | label                          | description                                                                                                                   | aliases                  | Wikidata QID                                                         |
+    | :-------: | :----------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------------------------: |
+    | hxSVng2V  | Polish–Lithuanian Commonwealth | historical multinational monarchist state in Eastern Europe (Crown of the Kingdom of Poland and the Grand Duchy of Lithuania) | Republic of Both Nations | [Polish–Lithuanian Commonwealth](http://wikidata.org/entity/Q172107) |
 
 <br><br><br>
 
@@ -33,7 +37,7 @@ tags: city
 
 ---
 
-<iframe src="../network/hxSVng2V.html" height="800" width="1200" title="hxSVng2V"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/hxSVng2V" height="800" width="1200" title="hxSVng2V"></iframe>
 
 ## Identifiers
 

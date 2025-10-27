@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LQkGBRer", "label": "L\u0027Angelus, Op.46", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LQkGBRer.md\u0027\u003eL\u0027Angelus, Op.46\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposition by Jean-Louis Tulou\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DQwB3wUJ", "label": "fantasia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DQwB3wUJ.md\u0027\u003efantasia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efree form musical interpretation; musical composition with a free form and often an improvisatory style\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Xt8m8K6L", "label": "Jean-Louis Tulou", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Xt8m8K6L.md\u0027\u003eJean-Louis Tulou\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, flute teacher, player and instrument maker\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Louis_Tulou.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "WJoMSgs5", "label": "L\u0027Angelus : Fantaisie : pour La Fl\u00fbte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors oblig\u00e9s et deux Bassons, (ou du Piano Forte) : Op. 46.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WJoMSgs5.md\u0027\u003eL\u0027Angelus : Fantaisie : pour La Fl\u00fbte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors oblig\u00e9s et deux Bassons, (ou du Piano Forte) : Op. 46.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000370115.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "LQkGBRer", "to": "DQwB3wUJ", "width": 10}, {"from": "LQkGBRer", "to": "Xt8m8K6L", "width": 10}, {"from": "LQkGBRer", "to": "WJoMSgs5", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Xt8m8K6L", "label": "Jean-Louis Tulou", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Xt8m8K6L\u0027\u003eJean-Louis Tulou\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, flute teacher, player and instrument maker\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Louis_Tulou.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LQkGBRer", "label": "L\u0027Angelus, Op.46", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LQkGBRer\u0027\u003eL\u0027Angelus, Op.46\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposition by Jean-Louis Tulou\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "WJoMSgs5", "label": "L\u0027Angelus : Fantaisie : pour La Fl\u00fbte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors oblig\u00e9s et deux Bassons, (ou du Piano Forte) : Op. 46.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WJoMSgs5\u0027\u003eL\u0027Angelus : Fantaisie : pour La Fl\u00fbte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors oblig\u00e9s et deux Bassons, (ou du Piano Forte) : Op. 46.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000370115.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DQwB3wUJ", "label": "fantasia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DQwB3wUJ\u0027\u003efantasia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efree form musical interpretation; musical composition with a free form and often an improvisatory style\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "Xt8m8K6L", "to": "LQkGBRer", "width": 10}, {"from": "WJoMSgs5", "to": "LQkGBRer", "width": 10}, {"from": "LQkGBRer", "to": "DQwB3wUJ", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

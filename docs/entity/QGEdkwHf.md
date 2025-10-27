@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QGEdkwHf
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/QGEdkwHf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/QGEdkwHf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/QGEdkwHf.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/QGEdkwHf.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/QGEdkwHf.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/QGEdkwHf.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases | description                                                                                               | Wikidata QID                                                |
-    | :-------: | :-------------: | :-----: | :-------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------: |
-    | QGEdkwHf  | Berthold Damcke |         | German composer, pianist, conductor, music educator, music critic and newspaper correspondent (1812-1875) | [Berthold Damcke](http://wwww.wikidata.org/entity/Q4154420) |
+    | FAAM UUID | label           | aliases | description                                                                                               | Wikidata QID                                           |
+    | :-------: | :-------------: | :-----: | :-------------------------------------------------------------------------------------------------------: | :----------------------------------------------------: |
+    | QGEdkwHf  | Berthold Damcke |         | German composer, pianist, conductor, music educator, music critic and newspaper correspondent (1812-1875) | [Berthold Damcke](http://wikidata.org/entity/Q4154420) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/QGEdkwHf.html" height="800" width="1200" title="QGEdkwHf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QGEdkwHf" height="800" width="1200" title="QGEdkwHf"></iframe>
 
 ## Identifiers
 
@@ -74,3 +78,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Richard Hammer](./KrcYNuBc.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Richard_Hammer_by_Pierre_Émile_Desmaisons.png){align=left width="150" height="150"} 
+
+	French violinist
+
+</div>

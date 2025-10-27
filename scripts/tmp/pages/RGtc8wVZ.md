@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RGtc8wVZ
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | aliases              | description                             | Wikidata QID                                                    |
-    | :-------: | :------------------------: | :------------------: | :-------------------------------------: | :-------------------------------------------------------------: |
-    | RGtc8wVZ  | Piano Concerto No.2, Op.85 | Piano Concerto No. 2 | piano concerto by Johann Nepomuk Hummel | [Piano Concerto No. 2](http://wwww.wikidata.org/entity/Q166293) |
+    | FAAM UUID | label                      | aliases              | description                             | Wikidata QID                                               |
+    | :-------: | :------------------------: | :------------------: | :-------------------------------------: | :--------------------------------------------------------: |
+    | RGtc8wVZ  | Piano Concerto No.2, Op.85 | Piano Concerto No. 2 | piano concerto by Johann Nepomuk Hummel | [Piano Concerto No. 2](http://wikidata.org/entity/Q166293) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/RGtc8wVZ.html" height="800" width="1200" title="RGtc8wVZ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RGtc8wVZ" height="800" width="1200" title="RGtc8wVZ"></iframe>
 
 ## Identifiers
 
@@ -63,13 +67,13 @@ tags: musical_work
 
 -	__[Concerto in a : voor piano enOrchestra : Opus 85](./SVY24WfX.md)__
 
-	![Image](../assets/images/thumbs/KCG-000350242.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350242.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Concerto in a : voor piano enOrchestra : Opus 85](./irKkNfSS.md)__
 
-	![Image](../assets/images/thumbs/KCG-000350241.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350241.gif){align=left width="150" height="150"} 
 
 	
 

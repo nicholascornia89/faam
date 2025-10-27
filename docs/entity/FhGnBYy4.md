@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: FhGnBYy4
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                                 | aliases                    | Wikidata QID                                                   |
-    | :-------: | :---------------: | :-------------------------------------------------------------------------: | :------------------------: | :------------------------------------------------------------: |
-    | FhGnBYy4  | elements of music | characteristic, dimension, or element taken as a part or component of music | elements of a musical work | [elements of music](http://wwww.wikidata.org/entity/Q11696608) |
+    | FAAM UUID | label             | description                                                                 | aliases                    | Wikidata QID                                              |
+    | :-------: | :---------------: | :-------------------------------------------------------------------------: | :------------------------: | :-------------------------------------------------------: |
+    | FhGnBYy4  | elements of music | characteristic, dimension, or element taken as a part or component of music | elements of a musical work | [elements of music](http://wikidata.org/entity/Q11696608) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/FhGnBYy4.html" height="800" width="1200" title="FhGnBYy4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/FhGnBYy4" height="800" width="1200" title="FhGnBYy4"></iframe>
 
 ## Cross-references
 

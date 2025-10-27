@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gozeQkKH
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description                                                                        | aliases                | Wikidata QID                                           |
-    | :-------: | :---------: | :--------------------------------------------------------------------------------: | :--------------------: | :----------------------------------------------------: |
-    | gozeQkKH  | illuminator | artist who illustrates manuscripts and books with pictures, ornaments and initials | manuscript illuminator | [illuminator](http://wwww.wikidata.org/entity/Q998628) |
+    | FAAM UUID | label       | description                                                                        | aliases                | Wikidata QID                                      |
+    | :-------: | :---------: | :--------------------------------------------------------------------------------: | :--------------------: | :-----------------------------------------------: |
+    | gozeQkKH  | illuminator | artist who illustrates manuscripts and books with pictures, ornaments and initials | manuscript illuminator | [illuminator](http://wikidata.org/entity/Q998628) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/gozeQkKH.html" height="800" width="1200" title="gozeQkKH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gozeQkKH" height="800" width="1200" title="gozeQkKH"></iframe>
 
 ## Cross-references
 

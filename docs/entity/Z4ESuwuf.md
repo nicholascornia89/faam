@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Z4ESuwuf
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description | aliases             | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :---------: | :-----------------: | :-------------------------------------------------------------: |
-    | Z4ESuwuf  | Viotti Stradivarius | violin      | Viotti Stradivarius | [Viotti Stradivarius](http://wwww.wikidata.org/entity/Q3560514) |
+    | FAAM UUID | label               | description | aliases             | Wikidata QID                                               |
+    | :-------: | :-----------------: | :---------: | :-----------------: | :--------------------------------------------------------: |
+    | Z4ESuwuf  | Viotti Stradivarius | violin      | Viotti Stradivarius | [Viotti Stradivarius](http://wikidata.org/entity/Q3560514) |
 
 <br><br><br>
 
@@ -33,13 +37,13 @@ tags: musical_instrument
 
 	- [violin](./G8tgNnWV.md)
 
-	- [](./Vg4pmmLb.md)
+	- [Stradivarius](./Vg4pmmLb.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/Z4ESuwuf.html" height="800" width="1200" title="Z4ESuwuf"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Z4ESuwuf" height="800" width="1200" title="Z4ESuwuf"></iframe>
 
 ## Cross-references
 

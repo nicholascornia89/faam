@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: b8biiMvB
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000331376/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/b8biiMvB.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/b8biiMvB.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/b8biiMvB.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000331376/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/b8biiMvB.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/b8biiMvB.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/b8biiMvB.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000331376.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331376.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                    | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | b8biiMvB  | KCG-000331376         | Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur l'Opéra de D.F.E Auber Le Dieu et la Bayadère : Op. 42 | [external URL](amkJ6EBs) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                    | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :----------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | b8biiMvB  | KCG-000331376         | Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur l'Opéra de D.F.E Auber Le Dieu et la Bayadère : Op. 42 | [external URL](https://catalogus.hogent.be/catalog/hog01:000331376) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -86,10 +90,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/b8biiMvB.html" height="800" width="1200" title="b8biiMvB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/b8biiMvB" height="800" width="1200" title="b8biiMvB"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/b8biiMvB.html" height="800" width="1200" title="b8biiMvB"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/b8biiMvB" height="800" width="1200" title="b8biiMvB"></iframe>

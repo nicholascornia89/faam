@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "34JEF9cG", "label": "Constant Pierre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./34JEF9cG.md\u0027\u003eConstant Pierre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musicologist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Constant_Pierre.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BJqUa5Kf.md\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "dovA3X2G", "label": "Passy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./dovA3X2G.md\u0027\u003ePassy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eneighborhood in Paris, France; originally a village on the outskirts of Paris, then a commune of Seine department\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YWvFQ75E", "label": "Gioachino Rossini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YWvFQ75E.md\u0027\u003eGioachino Rossini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian opera composer (1792\u20131868)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "G4co3etX", "label": "Fran\u00e7ois Joseph Gossec", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./G4co3etX.md\u0027\u003eFran\u00e7ois Joseph Gossec\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer and conductor\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fran\u00e7ois-Joseph_Gossec_by_Antoine_Vestier.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iV4jFpzQ", "label": "Pierre Baillot", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iV4jFpzQ.md\u0027\u003ePierre Baillot\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pierre_Baillot.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "34JEF9cG", "to": "BJqUa5Kf", "width": 1}, {"from": "34JEF9cG", "to": "dovA3X2G", "width": 10}, {"from": "YWvFQ75E", "to": "dovA3X2G", "width": 10}, {"from": "BJqUa5Kf", "to": "dovA3X2G", "width": 10}, {"from": "BJqUa5Kf", "to": "G4co3etX", "width": 10}, {"from": "BJqUa5Kf", "to": "iV4jFpzQ", "width": 1}, {"from": "G4co3etX", "to": "dovA3X2G", "width": 10}, {"from": "dovA3X2G", "to": "iV4jFpzQ", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "G4co3etX", "label": "Fran\u00e7ois Joseph Gossec", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/G4co3etX\u0027\u003eFran\u00e7ois Joseph Gossec\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer and conductor\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fran\u00e7ois-Joseph_Gossec_by_Antoine_Vestier.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BJqUa5Kf\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "dovA3X2G", "label": "Passy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dovA3X2G\u0027\u003ePassy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eneighborhood in Paris, France; originally a village on the outskirts of Paris, then a commune of Seine department\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "34JEF9cG", "label": "Constant Pierre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/34JEF9cG\u0027\u003eConstant Pierre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musicologist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Constant_Pierre.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iV4jFpzQ", "label": "Pierre Baillot", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iV4jFpzQ\u0027\u003ePierre Baillot\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pierre_Baillot.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YWvFQ75E", "label": "Gioachino Rossini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YWvFQ75E\u0027\u003eGioachino Rossini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian opera composer (1792\u20131868)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "G4co3etX", "to": "BJqUa5Kf", "width": 10}, {"from": "G4co3etX", "to": "dovA3X2G", "width": 10}, {"from": "dovA3X2G", "to": "BJqUa5Kf", "width": 10}, {"from": "dovA3X2G", "to": "34JEF9cG", "width": 10}, {"from": "dovA3X2G", "to": "iV4jFpzQ", "width": 10}, {"from": "dovA3X2G", "to": "YWvFQ75E", "width": 10}, {"from": "iV4jFpzQ", "to": "BJqUa5Kf", "width": 1}, {"from": "BJqUa5Kf", "to": "34JEF9cG", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

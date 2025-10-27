@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cDShRWzG
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-430904883/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/cDShRWzG.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/cDShRWzG.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/cDShRWzG.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-430904883/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/cDShRWzG.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/cDShRWzG.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/cDShRWzG.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-430904883.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-430904883.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                   | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | cDShRWzG  | BNF-430904883         | Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32) | [external URL](JXYgRRuc) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                   | permalink                                                       | provenance                                        |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------: |
+    | cDShRWzG  | BNF-430904883         | Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32) | [external URL](https://catalogue.bnf.fr/ark:/12148/cb430904883) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -118,10 +122,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/cDShRWzG.html" height="800" width="1200" title="cDShRWzG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cDShRWzG" height="800" width="1200" title="cDShRWzG"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/cDShRWzG.html" height="800" width="1200" title="cDShRWzG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/cDShRWzG" height="800" width="1200" title="cDShRWzG"></iframe>

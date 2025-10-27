@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JzcVX3yY
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | description                        | aliases | Wikidata QID                                             |
-    | :-------: | :----------: | :--------------------------------: | :-----: | :------------------------------------------------------: |
-    | JzcVX3yY  | cartographer | person preparing geographical maps |         | [cartographer](http://wwww.wikidata.org/entity/Q1734662) |
+    | FAAM UUID | label        | description                        | aliases | Wikidata QID                                        |
+    | :-------: | :----------: | :--------------------------------: | :-----: | :-------------------------------------------------: |
+    | JzcVX3yY  | cartographer | person preparing geographical maps |         | [cartographer](http://wikidata.org/entity/Q1734662) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/JzcVX3yY.html" height="800" width="1200" title="JzcVX3yY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JzcVX3yY" height="800" width="1200" title="JzcVX3yY"></iframe>
 
 ## Cross-references
 

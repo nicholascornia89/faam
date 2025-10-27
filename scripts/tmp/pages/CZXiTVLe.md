@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CZXiTVLe
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/CZXiTVLe.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/CZXiTVLe.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/CZXiTVLe.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/CZXiTVLe.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/CZXiTVLe.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/CZXiTVLe.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean_maillard.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases       | description     | Wikidata QID                                              |
-    | :-------: | :-----------: | :-----------: | :-------------: | :-------------------------------------------------------: |
-    | CZXiTVLe  | Jean Maillard | Jean Maillard | French composer | [Jean Maillard](http://wwww.wikidata.org/entity/Q3807690) |
+    | FAAM UUID | label         | aliases       | description     | Wikidata QID                                         |
+    | :-------: | :-----------: | :-----------: | :-------------: | :--------------------------------------------------: |
+    | CZXiTVLe  | Jean Maillard | Jean Maillard | French composer | [Jean Maillard](http://wikidata.org/entity/Q3807690) |
 
 <br><br><br>
 
@@ -53,7 +57,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/CZXiTVLe.html" height="800" width="1200" title="CZXiTVLe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CZXiTVLe" height="800" width="1200" title="CZXiTVLe"></iframe>
 
 ## Identifiers
 
@@ -79,7 +83,7 @@ tags: agent
 
 -	__[Recueil des morceaux de musique ancienne. [onzième volume] [Música notada] :exécutés aux concerts de la Société de Musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage des Mesdames la Mle. Duchesse d'Albufera ... et sous la direction de M. Le Prince de la Moskova](./ALRvk7kh.md)__
 
-	![Image](../assets/images/thumbs/BNE-bdh0000161254.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNE-bdh0000161254.gif){align=left width="150" height="150"} 
 
 	
 

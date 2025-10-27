@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: kzhBXzz4
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases                 | description                      | Wikidata QID                                                          |
-    | :-------: | :---------------------: | :---------------------: | :------------------------------: | :-------------------------------------------------------------------: |
-    | kzhBXzz4  | Dum transisset sabbatum | Dum transisset sabbatum | motet attributed to Jacob Reiner | [Dum transisset sabbatum](http://wwww.wikidata.org/entity/Q124358672) |
+    | FAAM UUID | label                   | aliases                 | description                      | Wikidata QID                                                     |
+    | :-------: | :---------------------: | :---------------------: | :------------------------------: | :--------------------------------------------------------------: |
+    | kzhBXzz4  | Dum transisset sabbatum | Dum transisset sabbatum | motet attributed to Jacob Reiner | [Dum transisset sabbatum](http://wikidata.org/entity/Q124358672) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/kzhBXzz4.html" height="800" width="1200" title="kzhBXzz4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/kzhBXzz4" height="800" width="1200" title="kzhBXzz4"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Liber motettorum. 3: Nr. XVII - XXIV](./dvhNVzZ2.md)__
 
-	![Image](../assets/images/thumbs/BSB-991099188989707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991099188989707356.gif){align=left width="150" height="150"} 
 
 	
 

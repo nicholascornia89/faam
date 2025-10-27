@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 7NUpzMVV
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/7NUpzMVV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/7NUpzMVV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/7NUpzMVV.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/7NUpzMVV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/7NUpzMVV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/7NUpzMVV.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description | Wikidata QID                                                |
-    | :-------: | :-----------: | :-----: | :---------: | :---------------------------------------------------------: |
-    | 7NUpzMVV  | Carlo Bassini |         |             | [Carlo Bassini](http://wwww.wikidata.org/entity/Q109855056) |
+    | FAAM UUID | label         | aliases | description | Wikidata QID                                           |
+    | :-------: | :-----------: | :-----: | :---------: | :----------------------------------------------------: |
+    | 7NUpzMVV  | Carlo Bassini |         |             | [Carlo Bassini](http://wikidata.org/entity/Q109855056) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/7NUpzMVV.html" height="800" width="1200" title="7NUpzMVV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/7NUpzMVV" height="800" width="1200" title="7NUpzMVV"></iframe>
 
 ## Identifiers
 
@@ -77,7 +81,7 @@ tags: agent
 
 -	__[Bassini's art of singing : an analytical, physiological and practical system for the cultivation of the voice](./P3aLfgtb.md)__
 
-	![Image](../assets/images/thumbs/BUL-ml-rare-sco_mt845-b36-a79-1857.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BUL-ml-rare-sco_mt845-b36-a79-1857.gif){align=left width="150" height="150"} 
 
 	
 

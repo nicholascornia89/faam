@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Pi4MYEds
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076926199707356/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Pi4MYEds.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Pi4MYEds.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Pi4MYEds.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076926199707356/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Pi4MYEds.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Pi4MYEds.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Pi4MYEds.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991076926199707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991076926199707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                          | permalink                | provenance                              |
-    | :-------: | :--------------------: | :--------------------------------------------: | :----------------------: | :-------------------------------------: |
-    | Pi4MYEds  | BSB-991076926199707356 | Couperin's Werke. 1,1: Clavierstücke : livre I | [external URL](HHYqWvTC) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                          | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :--------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | Pi4MYEds  | BSB-991076926199707356 | Couperin's Werke. 1,1: Clavierstücke : livre I | [external URL](https://mdz-nbn-resolving.de/details:bsb11146362) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -77,10 +81,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/Pi4MYEds.html" height="800" width="1200" title="Pi4MYEds"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Pi4MYEds" height="800" width="1200" title="Pi4MYEds"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/Pi4MYEds.html" height="800" width="1200" title="Pi4MYEds"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/Pi4MYEds" height="800" width="1200" title="Pi4MYEds"></iframe>

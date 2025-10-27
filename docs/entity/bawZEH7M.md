@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bawZEH7M
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-42807018w/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bawZEH7M.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bawZEH7M.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bawZEH7M.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-42807018w/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bawZEH7M.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bawZEH7M.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bawZEH7M.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-42807018w.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42807018w.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                                    | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | bawZEH7M  | BNF-42807018w         | Nouvelle méthode de violoncelle, théorique et pratique, en trois parties, contenant de nombreuses photographies explicatives, des extraits et des cadences des concertos les plus connus, et suivie d'une étude symphonique par l'auteur | [external URL](amkJ6EBs) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                                                                                                                                    | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | bawZEH7M  | BNF-42807018w         | Nouvelle méthode de violoncelle, théorique et pratique, en trois parties, contenant de nombreuses photographies explicatives, des extraits et des cadences des concertos les plus connus, et suivie d'une étude symphonique par l'auteur | [external URL](http://catalogue.bnf.fr/ark:/12148/cb42807018w) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -70,10 +74,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/bawZEH7M.html" height="800" width="1200" title="bawZEH7M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bawZEH7M" height="800" width="1200" title="bawZEH7M"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/bawZEH7M.html" height="800" width="1200" title="bawZEH7M"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/bawZEH7M" height="800" width="1200" title="bawZEH7M"></iframe>

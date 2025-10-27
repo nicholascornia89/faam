@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: YrXoha7y
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/YrXoha7y.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/YrXoha7y.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/YrXoha7y.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/YrXoha7y.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/YrXoha7y.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/YrXoha7y.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ignaz_Lachner_1882.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases | description                               | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----: | :---------------------------------------: | :------------------------------------------------------: |
-    | YrXoha7y  | Ignaz Lachner |         | German composer and conductor (1807-1895) | [Ignaz Lachner](http://wwww.wikidata.org/entity/Q113063) |
+    | FAAM UUID | label         | aliases | description                               | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----: | :---------------------------------------: | :-------------------------------------------------: |
+    | YrXoha7y  | Ignaz Lachner |         | German composer and conductor (1807-1895) | [Ignaz Lachner](http://wikidata.org/entity/Q113063) |
 
 <br><br><br>
 
@@ -55,13 +59,13 @@ tags: agent
 
 ??? quote "employer" 
 
-	- [](./BzWe9XnY.md)
+	- [Kungliga Hovkapellet](./BzWe9XnY.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/YrXoha7y.html" height="800" width="1200" title="YrXoha7y"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/YrXoha7y" height="800" width="1200" title="YrXoha7y"></iframe>
 
 ## Identifiers
 
@@ -82,3 +86,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Anton Urspruch](./bP49uHni.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_Urspruch.jpg){align=left width="150" height="150"} 
+
+	German composer (1850-1907)
+
+-	__[Georg Goltermann](./aQfbT97p.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	German cellist, conductor, and composer (1824–1898)
+
+</div>

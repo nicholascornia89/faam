@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kKwqeSnh a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:DE4nnG5T,
+        faamentity:QwSKSFky ;
+    schema1:description "opera by François-Adrien Boieldieu"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q126366946>,
+        "16002608"^^xsd:string,
+        "kKwqeSnh"^^xsd:string ;
+    skos:altLabel "Charles de France ou Amour et gloire"^^xsd:string,
+        "Les Chevaliers de la Fidélité"^^xsd:string ;
+    skos:prefLabel "Charles de France ou Amour et gloire"^^xsd:string ;
+    wd:P5202 faamentity:kCr22AfX ;
+    wd:P7937 faamentity:7AXGCpck,
+        faamentity:96Uobb4a ;
+    wd:P839 <https://imslp.org/wiki/Charles_de_France_(Hérold,_Ferdinand)> .
+

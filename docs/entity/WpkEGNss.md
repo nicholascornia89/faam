@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: WpkEGNss
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                  | aliases                                | description                  | Wikidata QID                                               |
-    | :-------: | :------------------------------------: | :------------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | WpkEGNss  | Keyboard Sonata in B-flat major, K.529 | Keyboard Sonata in B-flat major, L.327 | sonata by Domenico Scarlatti | [Sonata K. 529](http://wwww.wikidata.org/entity/Q78246036) |
+    | FAAM UUID | label                                  | aliases                                | description                  | Wikidata QID                                          |
+    | :-------: | :------------------------------------: | :------------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | WpkEGNss  | Keyboard Sonata in B-flat major, K.529 | Keyboard Sonata in B-flat major, L.327 | sonata by Domenico Scarlatti | [Sonata K. 529](http://wikidata.org/entity/Q78246036) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/WpkEGNss.html" height="800" width="1200" title="WpkEGNss"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/WpkEGNss" height="800" width="1200" title="WpkEGNss"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

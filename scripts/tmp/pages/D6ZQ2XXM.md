@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: D6ZQ2XXM
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/D6ZQ2XXM.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/D6ZQ2XXM.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/D6ZQ2XXM.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/D6ZQ2XXM.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/D6ZQ2XXM.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/D6ZQ2XXM.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description                    | Wikidata QID                                                  |
-    | :-------: | :---------------: | :-----: | :----------------------------: | :-----------------------------------------------------------: |
-    | D6ZQ2XXM  | Dionisio Bellante |         | Italian violinist and composer | [Dionisio Bellante](http://wwww.wikidata.org/entity/Q3708528) |
+    | FAAM UUID | label             | aliases | description                    | Wikidata QID                                             |
+    | :-------: | :---------------: | :-----: | :----------------------------: | :------------------------------------------------------: |
+    | D6ZQ2XXM  | Dionisio Bellante |         | Italian violinist and composer | [Dionisio Bellante](http://wikidata.org/entity/Q3708528) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/D6ZQ2XXM.html" height="800" width="1200" title="D6ZQ2XXM"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/D6ZQ2XXM" height="800" width="1200" title="D6ZQ2XXM"></iframe>
 
 ## Identifiers
 
@@ -68,3 +72,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giuseppe Torelli](./27z6kUqd.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Giuseppe_Torelli.png){align=left width="150" height="150"} 
+
+	Italian violist, violinist, teacher and composer (1658–1709)
+
+</div>

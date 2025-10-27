@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: AG58EGSv
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | AG58EGSv  | Keyboard Sonata in C major, K.327 | Keyboard Sonata in C major, L.152 | sonata by Domenico Scarlatti | [Sonata K. 327](http://wwww.wikidata.org/entity/Q78243595) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | AG58EGSv  | Keyboard Sonata in C major, K.327 | Keyboard Sonata in C major, L.152 | sonata by Domenico Scarlatti | [Sonata K. 327](http://wikidata.org/entity/Q78243595) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/AG58EGSv.html" height="800" width="1200" title="AG58EGSv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/AG58EGSv" height="800" width="1200" title="AG58EGSv"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

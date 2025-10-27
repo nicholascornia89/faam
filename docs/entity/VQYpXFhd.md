@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: VQYpXFhd
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                    | description                         | aliases          | Wikidata QID                                                         |
-    | :-------: | :----------------------: | :---------------------------------: | :--------------: | :------------------------------------------------------------------: |
-    | VQYpXFhd  | musical instrument maker | manufacturer of musical instruments | instrument maker | [musical instrument maker](http://wwww.wikidata.org/entity/Q1955150) |
+    | FAAM UUID | label                    | description                         | aliases          | Wikidata QID                                                    |
+    | :-------: | :----------------------: | :---------------------------------: | :--------------: | :-------------------------------------------------------------: |
+    | VQYpXFhd  | musical instrument maker | manufacturer of musical instruments | instrument maker | [musical instrument maker](http://wikidata.org/entity/Q1955150) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/VQYpXFhd.html" height="800" width="1200" title="VQYpXFhd"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/VQYpXFhd" height="800" width="1200" title="VQYpXFhd"></iframe>
 
 ## Cross-references
 

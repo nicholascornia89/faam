@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TX7izgaV
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | TX7izgaV  | Keyboard Sonata in G minor, K.347 | Keyboard Sonata in G minor, L.126 | sonata by Domenico Scarlatti | [Sonata K. 347](http://wwww.wikidata.org/entity/Q78243639) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | TX7izgaV  | Keyboard Sonata in G minor, K.347 | Keyboard Sonata in G minor, L.126 | sonata by Domenico Scarlatti | [Sonata K. 347](http://wikidata.org/entity/Q78243639) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/TX7izgaV.html" height="800" width="1200" title="TX7izgaV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TX7izgaV" height="800" width="1200" title="TX7izgaV"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

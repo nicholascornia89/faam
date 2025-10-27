@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LycxUSRH
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                                                                                                       | aliases     | Wikidata QID                                         |
-    | :-------: | :-------: | :-------------------------------------------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------------: |
-    | LycxUSRH  | reference | relationship between objects in which one object designates, or acts as a means by which to connect to or link to, another object | base object | [reference](http://wwww.wikidata.org/entity/Q121769) |
+    | FAAM UUID | label     | description                                                                                                                       | aliases     | Wikidata QID                                    |
+    | :-------: | :-------: | :-------------------------------------------------------------------------------------------------------------------------------: | :---------: | :---------------------------------------------: |
+    | LycxUSRH  | reference | relationship between objects in which one object designates, or acts as a means by which to connect to or link to, another object | base object | [reference](http://wikidata.org/entity/Q121769) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/LycxUSRH.html" height="800" width="1200" title="LycxUSRH"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LycxUSRH" height="800" width="1200" title="LycxUSRH"></iframe>
 
 ## Cross-references
 

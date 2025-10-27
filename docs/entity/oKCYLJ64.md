@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: oKCYLJ64
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description    | aliases | Wikidata QID                                     |
-    | :-------: | :----: | :------------: | :-----: | :----------------------------------------------: |
-    | oKCYLJ64  | Rimini | Italian comune |         | [Rimini](http://wwww.wikidata.org/entity/Q13369) |
+    | FAAM UUID | label  | description    | aliases | Wikidata QID                                |
+    | :-------: | :----: | :------------: | :-----: | :-----------------------------------------: |
+    | oKCYLJ64  | Rimini | Italian comune |         | [Rimini](http://wikidata.org/entity/Q13369) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/oKCYLJ64.html" height="800" width="1200" title="oKCYLJ64"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/oKCYLJ64" height="800" width="1200" title="oKCYLJ64"></iframe>
 
 ## Identifiers
 

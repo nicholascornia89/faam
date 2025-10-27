@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: i2Y2ZK7H
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/i2Y2ZK7H.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/i2Y2ZK7H.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/i2Y2ZK7H.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/i2Y2ZK7H.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/i2Y2ZK7H.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/i2Y2ZK7H.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Max_Kalbeck.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | aliases     | description                           | Wikidata QID                                          |
-    | :-------: | :---------: | :---------: | :-----------------------------------: | :---------------------------------------------------: |
-    | i2Y2ZK7H  | Max Kalbeck | Max Kalbeck | German music critic, poet (1850-1921) | [Max Kalbeck](http://wwww.wikidata.org/entity/Q71192) |
+    | FAAM UUID | label       | aliases     | description                           | Wikidata QID                                     |
+    | :-------: | :---------: | :---------: | :-----------------------------------: | :----------------------------------------------: |
+    | i2Y2ZK7H  | Max Kalbeck | Max Kalbeck | German music critic, poet (1850-1921) | [Max Kalbeck](http://wikidata.org/entity/Q71192) |
 
 <br><br><br>
 
@@ -49,13 +53,13 @@ tags: agent
 
 	- [translator](./4oKtB5xy.md)
 
-	- [](./ELKwPhtK.md)
+	- [music critic](./ELKwPhtK.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/i2Y2ZK7H.html" height="800" width="1200" title="i2Y2ZK7H"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/i2Y2ZK7H" height="800" width="1200" title="i2Y2ZK7H"></iframe>
 
 ## Identifiers
 
@@ -81,7 +85,7 @@ tags: agent
 
 -	__[Die verkaufte Braut : komische Oper in drei Akten](./JHKHS92V.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901708260.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901708260.gif){align=left width="150" height="150"} 
 
 	
 

@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:akc4PiMR a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:ZpAqTJvQ ;
+    schema1:description "musical forgery attributed to Tomás Luis de Victoria"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124316601>,
+        "16002024"^^xsd:string,
+        "akc4PiMR"^^xsd:string ;
+    skos:altLabel "Jesu dulcis memoria"^^xsd:string ;
+    skos:prefLabel "Jesu dulcis memoria"^^xsd:string ;
+    wd:P2000 <https://www.cpdl.org/wiki/index.php/Jesu,_dulcis_memoria_(Tomás_Luis_de_Victoria)> ;
+    wd:P5202 faamentity:CzyC8FNQ,
+        faamentity:S5MqiAs8,
+        faamentity:Y37RQzq9,
+        faamentity:jZ5Za9W2,
+        faamentity:mK2saWSr ;
+    wd:P7937 faamentity:YJViDXyp,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Jesu,_dulcis_memoria_(Victoria,_Tomás_Luis_de)> .
+

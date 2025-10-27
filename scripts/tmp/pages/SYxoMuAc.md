@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: SYxoMuAc
 
 tags: musical_instrument
@@ -19,9 +23,9 @@ tags: musical_instrument
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                   | aliases           | Wikidata QID                                        |
-    | :-------: | :------: | :-----------------------------------------------------------: | :---------------: | :-------------------------------------------------: |
-    | SYxoMuAc  | triangle | idiophone type of musical instrument in the percussion family | Musical Triangles | [triangle](http://wwww.wikidata.org/entity/Q201735) |
+    | FAAM UUID | label    | description                                                   | aliases           | Wikidata QID                                   |
+    | :-------: | :------: | :-----------------------------------------------------------: | :---------------: | :--------------------------------------------: |
+    | SYxoMuAc  | triangle | idiophone type of musical instrument in the percussion family | Musical Triangles | [triangle](http://wikidata.org/entity/Q201735) |
 
 <br><br><br>
 
@@ -35,13 +39,13 @@ tags: musical_instrument
 
 !!! quote "instance of" 
 
-	- [](./BnwWc34X.md)
+	- [type of musical instrument](./BnwWc34X.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/SYxoMuAc.html" height="800" width="1200" title="SYxoMuAc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/SYxoMuAc" height="800" width="1200" title="SYxoMuAc"></iframe>
 
 ## Cross-references
 

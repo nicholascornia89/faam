@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: NdA6Fzv9
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                                                                         | aliases   | Wikidata QID                                        |
-    | :-------: | :------: | :---------------------------------------------------------------------------------: | :-------: | :-------------------------------------------------: |
-    | NdA6Fzv9  | virtuoso | individual who possesses outstanding technical ability in a particular art or field | virtuosos | [virtuoso](http://wwww.wikidata.org/entity/Q214970) |
+    | FAAM UUID | label    | description                                                                         | aliases   | Wikidata QID                                   |
+    | :-------: | :------: | :---------------------------------------------------------------------------------: | :-------: | :--------------------------------------------: |
+    | NdA6Fzv9  | virtuoso | individual who possesses outstanding technical ability in a particular art or field | virtuosos | [virtuoso](http://wikidata.org/entity/Q214970) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/NdA6Fzv9.html" height="800" width="1200" title="NdA6Fzv9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/NdA6Fzv9" height="800" width="1200" title="NdA6Fzv9"></iframe>
 
 ## Cross-references
 
@@ -39,25 +43,25 @@ tags: keyword
 
 -	__[Ungarische Rhapsodie no. 2 : cadenza](./GWuKPdtn.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904702856.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702856.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[5me. Grand Solo : Pour le Flute avec Acct. de deux violons alto et basse ou Piano : Composé pour Les Concerts du Conservatoire : Op: 79.](./3jCeVXeu.md)__
 
-	![Image](../assets/images/thumbs/KCG-000370132.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000370132.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[L'Angelus : Fantaisie : pour La Flûte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors obligés et deux Bassons, (ou du Piano Forte) : Op. 46.](./WJoMSgs5.md)__
 
-	![Image](../assets/images/thumbs/KCG-000370115.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000370115.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le Lac des Fées : Fantaisie : pour La Flute Avec Accompagnement de piano ou de deux Violons, Alto, Basse, Hautbois, Clarinettes, Cors, Bassons, Trompettes, Trombones et Timbales : Opera : 80.](./MJR7wXx7.md)__
 
-	![Image](../assets/images/thumbs/KCG-000331423.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000331423.gif){align=left width="150" height="150"} 
 
 	
 

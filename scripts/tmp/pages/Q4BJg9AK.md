@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Q4BJg9AK
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | description      | aliases                       | Wikidata QID                                                           |
-    | :-------: | :------------------------: | :--------------: | :---------------------------: | :--------------------------------------------------------------------: |
-    | Q4BJg9AK  | Palacký University Olomouc | Czech university | Palacký University of Olomouc | [Palacký University Olomouc](http://wwww.wikidata.org/entity/Q1637611) |
+    | FAAM UUID | label                      | description      | aliases                       | Wikidata QID                                                      |
+    | :-------: | :------------------------: | :--------------: | :---------------------------: | :---------------------------------------------------------------: |
+    | Q4BJg9AK  | Palacký University Olomouc | Czech university | Palacký University of Olomouc | [Palacký University Olomouc](http://wikidata.org/entity/Q1637611) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/Q4BJg9AK.html" height="800" width="1200" title="Q4BJg9AK"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Q4BJg9AK" height="800" width="1200" title="Q4BJg9AK"></iframe>
 
 ## Cross-references
 

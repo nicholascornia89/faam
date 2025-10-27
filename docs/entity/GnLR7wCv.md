@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GnLR7wCv
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                    | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :----------------------------: | :-----: | :--------------------------------------------------: |
-    | GnLR7wCv  | Roeselare | city in West Flanders, Belgium | Roulers | [Roeselare](http://wwww.wikidata.org/entity/Q211037) |
+    | FAAM UUID | label     | description                    | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :----------------------------: | :-----: | :---------------------------------------------: |
+    | GnLR7wCv  | Roeselare | city in West Flanders, Belgium | Roulers | [Roeselare](http://wikidata.org/entity/Q211037) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/GnLR7wCv.html" height="800" width="1200" title="GnLR7wCv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GnLR7wCv" height="800" width="1200" title="GnLR7wCv"></iframe>
 
 ## Identifiers
 

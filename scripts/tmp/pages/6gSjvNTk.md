@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6gSjvNTk
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6gSjvNTk.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6gSjvNTk.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6gSjvNTk.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6gSjvNTk.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6gSjvNTk.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6gSjvNTk.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases              | description                  | Wikidata QID                                                       |
-    | :-------: | :---------------------: | :------------------: | :--------------------------: | :----------------------------------------------------------------: |
-    | 6gSjvNTk  | Jacques-Nicolas Lemmens | Jaak Nikolas Lemmens | Belgian musician (1823–1881) | [Jacques-Nicolas Lemmens](http://wwww.wikidata.org/entity/Q712718) |
+    | FAAM UUID | label                   | aliases              | description                  | Wikidata QID                                                  |
+    | :-------: | :---------------------: | :------------------: | :--------------------------: | :-----------------------------------------------------------: |
+    | 6gSjvNTk  | Jacques-Nicolas Lemmens | Jaak Nikolas Lemmens | Belgian musician (1823–1881) | [Jacques-Nicolas Lemmens](http://wikidata.org/entity/Q712718) |
 
 <br><br><br>
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/6gSjvNTk.html" height="800" width="1200" title="6gSjvNTk"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6gSjvNTk" height="800" width="1200" title="6gSjvNTk"></iframe>
 
 ## Identifiers
 
@@ -90,3 +94,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Charles-Marie Widor](./BiMpVQUM.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles-Marie_Widor_(2).jpg){align=left width="150" height="150"} 
+
+	French organist and composer (1844–1937)
+
+-	__[Alexandre Guilmant](./N5Hoh28Y.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexandre-Guilmant.jpg){align=left width="150" height="150"} 
+
+	French composer (1837–1911)
+
+</div>

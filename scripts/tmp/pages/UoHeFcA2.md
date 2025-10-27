@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UoHeFcA2
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description                                                           | aliases     | Wikidata QID                                            |
-    | :-------: | :--------: | :-------------------------------------------------------------------: | :---------: | :-----------------------------------------------------: |
-    | UoHeFcA2  | hymnwriter | person who writes words, or both words and music, for religious songs | hymn writer | [hymnwriter](http://wwww.wikidata.org/entity/Q13424456) |
+    | FAAM UUID | label      | description                                                           | aliases     | Wikidata QID                                       |
+    | :-------: | :--------: | :-------------------------------------------------------------------: | :---------: | :------------------------------------------------: |
+    | UoHeFcA2  | hymnwriter | person who writes words, or both words and music, for religious songs | hymn writer | [hymnwriter](http://wikidata.org/entity/Q13424456) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/UoHeFcA2.html" height="800" width="1200" title="UoHeFcA2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UoHeFcA2" height="800" width="1200" title="UoHeFcA2"></iframe>
 
 ## Cross-references
 

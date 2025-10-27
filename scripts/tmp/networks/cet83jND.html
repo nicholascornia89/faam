@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "cet83jND", "label": "Piano Sonata No. 8 in C Minor, Op. 13", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./cet83jND.md\u0027\u003ePiano Sonata No. 8 in C Minor, Op. 13\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epiano sonata written by Beethoven\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "FDSkv45i", "label": "piano sonata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FDSkv45i.md\u0027\u003epiano sonata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata written for solo piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "TZfafBBe", "label": "Ludwig van Beethoven", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TZfafBBe.md\u0027\u003eLudwig van Beethoven\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1770\u20131827)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "j4DJfCC2", "label": "Mathis Lussy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./j4DJfCC2.md\u0027\u003eMathis Lussy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss musicologist and organist (1828\u20131910)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "fgSBHH5P", "label": "La Sonate path\u00e9tique de L. van Beethoven, op. 13. Edition rythm\u00e9e et annot\u00e9e par Mathis Lussy, (oeuvre posthume)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fgSBHH5P.md\u0027\u003eLa Sonate path\u00e9tique de L. van Beethoven, op. 13. Edition rythm\u00e9e et annot\u00e9e par Mathis Lussy, (oeuvre posthume)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-13908155m.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
-                  edges = new vis.DataSet([{"from": "cet83jND", "to": "FDSkv45i", "width": 10}, {"from": "cet83jND", "to": "TZfafBBe", "width": 10}, {"from": "cet83jND", "to": "j4DJfCC2", "width": 10}, {"from": "cet83jND", "to": "fgSBHH5P", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "TZfafBBe", "label": "Ludwig van Beethoven", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/TZfafBBe\u0027\u003eLudwig van Beethoven\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1770\u20131827)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "cet83jND", "label": "Piano Sonata No. 8 in C Minor, Op. 13", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cet83jND\u0027\u003ePiano Sonata No. 8 in C Minor, Op. 13\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epiano sonata written by Beethoven\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "FDSkv45i", "label": "piano sonata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FDSkv45i\u0027\u003epiano sonata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata written for solo piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "j4DJfCC2", "label": "Mathis Lussy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/j4DJfCC2\u0027\u003eMathis Lussy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss musicologist and organist (1828\u20131910)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "fgSBHH5P", "label": "La Sonate path\u00e9tique de L. van Beethoven, op. 13. Edition rythm\u00e9e et annot\u00e9e par Mathis Lussy, (oeuvre posthume)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fgSBHH5P\u0027\u003eLa Sonate path\u00e9tique de L. van Beethoven, op. 13. Edition rythm\u00e9e et annot\u00e9e par Mathis Lussy, (oeuvre posthume)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BNF-13908155m.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "TZfafBBe", "to": "cet83jND", "width": 10}, {"from": "cet83jND", "to": "FDSkv45i", "width": 10}, {"from": "cet83jND", "to": "j4DJfCC2", "width": 10}, {"from": "cet83jND", "to": "fgSBHH5P", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

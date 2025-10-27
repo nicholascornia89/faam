@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3E7PqLiY
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | aliases                           | description                  | Wikidata QID                                              |
-    | :-------: | :------------------------------: | :-------------------------------: | :--------------------------: | :-------------------------------------------------------: |
-    | 3E7PqLiY  | Keyboard Sonata in F major, K.17 | Keyboard Sonata in F major, L.384 | sonata by Domenico Scarlatti | [Sonata K. 17](http://wwww.wikidata.org/entity/Q68677743) |
+    | FAAM UUID | label                            | aliases                           | description                  | Wikidata QID                                         |
+    | :-------: | :------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------: |
+    | 3E7PqLiY  | Keyboard Sonata in F major, K.17 | Keyboard Sonata in F major, L.384 | sonata by Domenico Scarlatti | [Sonata K. 17](http://wikidata.org/entity/Q68677743) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/3E7PqLiY.html" height="800" width="1200" title="3E7PqLiY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3E7PqLiY" height="800" width="1200" title="3E7PqLiY"></iframe>
 
 ## Identifiers
 
@@ -73,25 +77,25 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[24 Stücke : für Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo.](./WWCbaaWA.md)__
 
-	![Image](../assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22722.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Early keyboard music; a collection of pieces written for the virginal, spinet, harpsichord, and clavichord. / Edited by Louis Oesterle.](./7j5F7bbp.md)__
 
-	![Image](../assets/images/thumbs/SML-22768.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/SML-22768.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[29 sonatas](./B7PgUtbR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JrXChdhy
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904127666/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JrXChdhy.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JrXChdhy.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JrXChdhy.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904127666/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JrXChdhy.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JrXChdhy.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JrXChdhy.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030904127666.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904127666.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                 | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | JrXChdhy  | KCA-030904127666      | Festpräludium : zu dem Choral "Ein' feste Burg ist unser Gott": für die Orgel, op. 38 | [external URL](iZiYk6VC) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                 | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-----------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | JrXChdhy  | KCA-030904127666      | Festpräludium : zu dem Choral "Ein' feste Burg ist unser Gott": für die Orgel, op. 38 | [external URL](https://anet.be/record/opacdkvc/c:lvd:14807728/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -81,10 +85,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/JrXChdhy.html" height="800" width="1200" title="JrXChdhy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JrXChdhy" height="800" width="1200" title="JrXChdhy"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/JrXChdhy.html" height="800" width="1200" title="JrXChdhy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/JrXChdhy" height="800" width="1200" title="JrXChdhy"></iframe>

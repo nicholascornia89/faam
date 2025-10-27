@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gKnQ6ydt
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/gKnQ6ydt.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/gKnQ6ydt.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/gKnQ6ydt.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/gKnQ6ydt.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/gKnQ6ydt.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/gKnQ6ydt.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Driesch1.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases          | description                                    | Wikidata QID                                                        |
-    | :-------: | :-----------------------: | :--------------: | :--------------------------------------------: | :-----------------------------------------------------------------: |
-    | gKnQ6ydt  | Hans Adolf Eduard Driesch | H. A. E. Driesch | German philosopher and biologist (1867 - 1941) | [Hans Adolf Eduard Driesch](http://wwww.wikidata.org/entity/Q41476) |
+    | FAAM UUID | label                     | aliases          | description                                    | Wikidata QID                                                   |
+    | :-------: | :-----------------------: | :--------------: | :--------------------------------------------: | :------------------------------------------------------------: |
+    | gKnQ6ydt  | Hans Adolf Eduard Driesch | H. A. E. Driesch | German philosopher and biologist (1867 - 1941) | [Hans Adolf Eduard Driesch](http://wikidata.org/entity/Q41476) |
 
 <br><br><br>
 
@@ -43,35 +47,35 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./VD8FAbzy.md)
+	- [biologist](./VD8FAbzy.md)
 
-	- [](./kHuJoonW.md)
+	- [zoologist](./kHuJoonW.md)
 
-	- [](./6pfzESag.md)
+	- [philosopher](./6pfzESag.md)
 
 	- [university teacher](./XWcaJQty.md)
 
 ??? quote "educated at" 
 
-	- [](./BKmKvWTD.md)
+	- [Friedrich Schiller University Jena](./BKmKvWTD.md)
 
-	- [](./GtLWQSLe.md)
+	- [University of Freiburg](./GtLWQSLe.md)
 
-	- [](./AbG5U9DD.md)
+	- [Gelehrtenschule des Johanneums](./AbG5U9DD.md)
 
 ??? quote "employer" 
 
 	- [Leipzig University](./8hu8F7Zd.md)
 
-	- [](./Yr3wwkgS.md)
+	- [Heidelberg University](./Yr3wwkgS.md)
 
-	- [](./fAbjif4V.md)
+	- [University of Cologne](./fAbjif4V.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/gKnQ6ydt.html" height="800" width="1200" title="gKnQ6ydt"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gKnQ6ydt" height="800" width="1200" title="gKnQ6ydt"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Wolfgang Fortner](./3vF4a5M7.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	German composer and conductor (1907–1987)
+
+</div>

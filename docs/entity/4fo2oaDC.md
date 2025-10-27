@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 4fo2oaDC
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases | description | Wikidata QID                         |
-    | :-------: | :------------------: | :-----: | :---------: | :----------------------------------: |
-    | 4fo2oaDC  | Horn Solo No.2, Op.7 |         |             | [](http://wwww.wikidata.org/entity/) |
+    | FAAM UUID | label                | aliases | description | Wikidata QID                    |
+    | :-------: | :------------------: | :-----: | :---------: | :-----------------------------: |
+    | 4fo2oaDC  | Horn Solo No.2, Op.7 |         |             | [](http://wikidata.org/entity/) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/4fo2oaDC.html" height="800" width="1200" title="4fo2oaDC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/4fo2oaDC" height="800" width="1200" title="4fo2oaDC"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: musical_work
 
 -	__[Deuxième Solo : Pour Le Cor avec Accompagnement de deux Violons, Alto, et Basse, flûte, Clarinettes, Cors et Bassons : Opéra 7.](./AxMBR9qk.md)__
 
-	![Image](../assets/images/thumbs/KCG-000345308.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000345308.gif){align=left width="150" height="150"} 
 
 	
 

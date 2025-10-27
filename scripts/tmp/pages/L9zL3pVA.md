@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: L9zL3pVA
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/L9zL3pVA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/L9zL3pVA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/L9zL3pVA.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/L9zL3pVA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/L9zL3pVA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/L9zL3pVA.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description      | Wikidata QID                                               |
-    | :-------: | :------------: | :-----: | :--------------: | :--------------------------------------------------------: |
-    | L9zL3pVA  | Gennaro Ursino |         | Italian composer | [Gennaro Ursino](http://wwww.wikidata.org/entity/Q3759858) |
+    | FAAM UUID | label          | aliases | description      | Wikidata QID                                          |
+    | :-------: | :------------: | :-----: | :--------------: | :---------------------------------------------------: |
+    | L9zL3pVA  | Gennaro Ursino |         | Italian composer | [Gennaro Ursino](http://wikidata.org/entity/Q3759858) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/L9zL3pVA.html" height="800" width="1200" title="L9zL3pVA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/L9zL3pVA" height="800" width="1200" title="L9zL3pVA"></iframe>
 
 ## Identifiers
 
@@ -62,3 +66,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Gaetano Greco](./mQyL4vmZ.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer
+
+</div>

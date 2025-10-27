@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3QPJAckD
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                      | aliases                        | description                   | Wikidata QID                                                    |
-    | :-------: | :------------------------: | :----------------------------: | :---------------------------: | :-------------------------------------------------------------: |
-    | 3QPJAckD  | Piano Concerto No.1, S.124 | Piano Concerto in E-flat major | piano concerto by Franz Liszt | [Piano Concerto No. 1](http://wwww.wikidata.org/entity/Q162893) |
+    | FAAM UUID | label                      | aliases                        | description                   | Wikidata QID                                               |
+    | :-------: | :------------------------: | :----------------------------: | :---------------------------: | :--------------------------------------------------------: |
+    | 3QPJAckD  | Piano Concerto No.1, S.124 | Piano Concerto in E-flat major | piano concerto by Franz Liszt | [Piano Concerto No. 1](http://wikidata.org/entity/Q162893) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/3QPJAckD.html" height="800" width="1200" title="3QPJAckD"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3QPJAckD" height="800" width="1200" title="3QPJAckD"></iframe>
 
 ## Identifiers
 
@@ -59,7 +63,7 @@ tags: musical_work
 
 -	__[Erstes Concert für Pianoforte und Orchester (S. 124)](./ACbdo5Jg.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904562375.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904562375.gif){align=left width="150" height="150"} 
 
 	
 

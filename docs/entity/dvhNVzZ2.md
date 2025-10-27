@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dvhNVzZ2
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991099188989707356/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/dvhNVzZ2.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/dvhNVzZ2.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/dvhNVzZ2.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991099188989707356/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/dvhNVzZ2.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/dvhNVzZ2.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/dvhNVzZ2.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BSB-991099188989707356.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991099188989707356.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID  | title                                | permalink                | provenance                              |
-    | :-------: | :--------------------: | :----------------------------------: | :----------------------: | :-------------------------------------: |
-    | dvhNVzZ2  | BSB-991099188989707356 | Liber motettorum. 3: Nr. XVII - XXIV | [external URL](7WfWytMV) | [Bavarian State Library](./KkB2M6Gx.md) |
+    | FAAM UUID | FAAM manifestation ID  | title                                | permalink                                                        | provenance                              |
+    | :-------: | :--------------------: | :----------------------------------: | :--------------------------------------------------------------: | :-------------------------------------: |
+    | dvhNVzZ2  | BSB-991099188989707356 | Liber motettorum. 3: Nr. XVII - XXIV | [external URL](https://mdz-nbn-resolving.de/details:bsb11060087) | [Bavarian State Library](./KkB2M6Gx.md) |
 
 ## Statements
 
@@ -104,10 +108,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/dvhNVzZ2.html" height="800" width="1200" title="dvhNVzZ2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dvhNVzZ2" height="800" width="1200" title="dvhNVzZ2"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/dvhNVzZ2.html" height="800" width="1200" title="dvhNVzZ2"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/dvhNVzZ2" height="800" width="1200" title="dvhNVzZ2"></iframe>

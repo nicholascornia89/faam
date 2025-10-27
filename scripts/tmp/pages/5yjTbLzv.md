@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5yjTbLzv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5yjTbLzv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5yjTbLzv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5yjTbLzv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5yjTbLzv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5yjTbLzv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5yjTbLzv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases | description                                   | Wikidata QID                                                |
-    | :-------: | :---------------: | :-----: | :-------------------------------------------: | :---------------------------------------------------------: |
-    | 5yjTbLzv  | Alberto Mazzucato |         | Italian composer and music critic (1813–1877) | [Alberto Mazzucato](http://wwww.wikidata.org/entity/Q74849) |
+    | FAAM UUID | label             | aliases | description                                   | Wikidata QID                                           |
+    | :-------: | :---------------: | :-----: | :-------------------------------------------: | :----------------------------------------------------: |
+    | 5yjTbLzv  | Alberto Mazzucato |         | Italian composer and music critic (1813–1877) | [Alberto Mazzucato](http://wikidata.org/entity/Q74849) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/5yjTbLzv.html" height="800" width="1200" title="5yjTbLzv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5yjTbLzv" height="800" width="1200" title="5yjTbLzv"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Amilcare Ponchielli](./BXMYmonQ.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Amilcare_Ponchielli_(before_1886)_-_Archivio_Storico_Ricordi_FOTO000794_-_Restoration.jpg){align=left width="150" height="150"} 
+
+	Italian composer (1834-1886)
+
+-	__[Alfredo Soffredini](./QChw63qm.md)__
+
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+
+	Italian composer
+
+</div>

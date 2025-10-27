@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 743qkqfG
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901706736/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/743qkqfG.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/743qkqfG.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/743qkqfG.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901706736/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/743qkqfG.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/743qkqfG.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/743qkqfG.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901706736.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901706736.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :------------------------------------: | :----------------------: | :-----------------------------------------------------------: |
-    | 743qkqfG  | KCA-030901706736      | La Mascotte : opéra-comique en 3 actes | [external URL](gaLrAUbu) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                  | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | 743qkqfG  | KCA-030901706736      | La Mascotte : opéra-comique en 3 actes | [external URL](https://anet.be/record/opacdkvc/c:lvd:13206947/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "note" 
 
@@ -83,10 +87,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/743qkqfG.html" height="800" width="1200" title="743qkqfG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/743qkqfG" height="800" width="1200" title="743qkqfG"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/743qkqfG.html" height="800" width="1200" title="743qkqfG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/743qkqfG" height="800" width="1200" title="743qkqfG"></iframe>

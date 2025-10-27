@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fnrBz5H4 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Franco-Flemish Renaissance composer (c. 1400–1460)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q214964>,
+        "0"^^xsd:string,
+        "fnrBz5H4"^^xsd:string ;
+    skos:altLabel "Binchois"^^xsd:string,
+        "Gilles de Bins"^^xsd:string ;
+    skos:prefLabel "Gilles Binchois"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:2655463 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Binchois,_Gilles> .
+

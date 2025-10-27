@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: HgJnPxQ7
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/HgJnPxQ7.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/HgJnPxQ7.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/HgJnPxQ7.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/HgJnPxQ7.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/HgJnPxQ7.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/HgJnPxQ7.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/CharlesBroche.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases | description                 | Wikidata QID                                               |
-    | :-------: | :------------: | :-----: | :-------------------------: | :--------------------------------------------------------: |
-    | HgJnPxQ7  | Charles Broche |         | French composer (1752-1803) | [Charles Broche](http://wwww.wikidata.org/entity/Q2958620) |
+    | FAAM UUID | label          | aliases | description                 | Wikidata QID                                          |
+    | :-------: | :------------: | :-----: | :-------------------------: | :---------------------------------------------------: |
+    | HgJnPxQ7  | Charles Broche |         | French composer (1752-1803) | [Charles Broche](http://wikidata.org/entity/Q2958620) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/HgJnPxQ7.html" height="800" width="1200" title="HgJnPxQ7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/HgJnPxQ7" height="800" width="1200" title="HgJnPxQ7"></iframe>
 
 ## Identifiers
 
@@ -68,3 +72,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[François Adrien Boieldieu](./DE4nnG5T.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Léon_Riesener_-_Portrait_de_François-Adrien_Boieldieu.jpg){align=left width="150" height="150"} 
+
+	French composer
+
+</div>

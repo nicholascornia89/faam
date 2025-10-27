@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RnSwHH7p
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                             | aliases               | Wikidata QID                                    |
-    | :-------: | :-----: | :-------------------------------------: | :-------------------: | :---------------------------------------------: |
-    | RnSwHH7p  | Bavaria | federated state in the south of Germany | Free State of Bavaria | [Bavaria](http://wwww.wikidata.org/entity/Q980) |
+    | FAAM UUID | label   | description                             | aliases               | Wikidata QID                               |
+    | :-------: | :-----: | :-------------------------------------: | :-------------------: | :----------------------------------------: |
+    | RnSwHH7p  | Bavaria | federated state in the south of Germany | Free State of Bavaria | [Bavaria](http://wikidata.org/entity/Q980) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/RnSwHH7p.html" height="800" width="1200" title="RnSwHH7p"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RnSwHH7p" height="800" width="1200" title="RnSwHH7p"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Joseph Doll](./H3JZbqth.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German organist and teacher
 

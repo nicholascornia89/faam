@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 25bLvjC3
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/25bLvjC3.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/25bLvjC3.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/25bLvjC3.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/25bLvjC3.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/25bLvjC3.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/25bLvjC3.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases               | description                                                     | Wikidata QID                                              |
-    | :-------: | :-----------: | :-------------------: | :-------------------------------------------------------------: | :-------------------------------------------------------: |
-    | 25bLvjC3  | Henry Lemoine | Antoine Henry Lemoine | French piano teacher, music publisher, and composer (1786-1854) | [Henry Lemoine](http://wwww.wikidata.org/entity/Q1606982) |
+    | FAAM UUID | label         | aliases               | description                                                     | Wikidata QID                                         |
+    | :-------: | :-----------: | :-------------------: | :-------------------------------------------------------------: | :--------------------------------------------------: |
+    | 25bLvjC3  | Henry Lemoine | Antoine Henry Lemoine | French piano teacher, music publisher, and composer (1786-1854) | [Henry Lemoine](http://wikidata.org/entity/Q1606982) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/25bLvjC3.html" height="800" width="1200" title="25bLvjC3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/25bLvjC3" height="800" width="1200" title="25bLvjC3"></iframe>
 
 ## Identifiers
 
@@ -77,37 +81,37 @@ tags: agent
 
 -	__[La juive : opéra en cinq actes](./SRq2Zuhn.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903467311.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903467311.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La juive : opéra en cinq actes](./SRq2Zuhn.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903467311.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903467311.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Charles VI : opera in 5 bedrijven](./o84GQDuG.md)__
 
-	![Image](../assets/images/thumbs/KCG-000348150.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000348150.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le Chalet : Opéra-comique en un acte](./JWM648AD.md)__
 
-	![Image](../assets/images/thumbs/KCG-000742404.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000742404.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Le réveil du jour : valse chantée](./NxMhCkEA.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904385611.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904385611.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Grand trio pour violon, alto et violoncelle](./nTAx3eUj.md)__
 
-	![Image](../assets/images/thumbs/KCA-KMT175228.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KMT175228.gif){align=left width="150" height="150"} 
 
 	
 

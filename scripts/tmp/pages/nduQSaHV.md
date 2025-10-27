@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: nduQSaHV
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902707238/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/nduQSaHV.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/nduQSaHV.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/nduQSaHV.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902707238/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/nduQSaHV.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/nduQSaHV.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/nduQSaHV.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030902707238.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902707238.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title         | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :-----------: | :----------------------: | :-----------------------------------------------------------: |
-    | nduQSaHV  | KCA-030902707238      | Chacone grave | [external URL](gb6MiJbD) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title         | permalink                                                        | provenance                                                    |
+    | :-------: | :-------------------: | :-----------: | :--------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | nduQSaHV  | KCA-030902707238      | Chacone grave | [external URL](https://anet.be/record/opacdkvc/c:lvd:13122713/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ## Statements
 
@@ -76,10 +80,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/nduQSaHV.html" height="800" width="1200" title="nduQSaHV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/nduQSaHV" height="800" width="1200" title="nduQSaHV"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/nduQSaHV.html" height="800" width="1200" title="nduQSaHV"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/nduQSaHV" height="800" width="1200" title="nduQSaHV"></iframe>

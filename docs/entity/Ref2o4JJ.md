@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ref2o4JJ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Ref2o4JJ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Ref2o4JJ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Ref2o4JJ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Ref2o4JJ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Ref2o4JJ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Ref2o4JJ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Hofmeister.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description      | Wikidata QID                                                     |
-    | :-------: | :------------------: | :------------------: | :--------------: | :--------------------------------------------------------------: |
-    | Ref2o4JJ  | Friedrich Hofmeister | Friedrich Hofmeister | German publisher | [Friedrich Hofmeister](http://wwww.wikidata.org/entity/Q1459777) |
+    | FAAM UUID | label                | aliases              | description      | Wikidata QID                                                |
+    | :-------: | :------------------: | :------------------: | :--------------: | :---------------------------------------------------------: |
+    | Ref2o4JJ  | Friedrich Hofmeister | Friedrich Hofmeister | German publisher | [Friedrich Hofmeister](http://wikidata.org/entity/Q1459777) |
 
 <br><br><br>
 
@@ -61,7 +65,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Ref2o4JJ.html" height="800" width="1200" title="Ref2o4JJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ref2o4JJ" height="800" width="1200" title="Ref2o4JJ"></iframe>
 
 ## Identifiers
 
@@ -87,7 +91,7 @@ tags: agent
 
 -	__[Fantaisie : pour le Violon avec Accompagnement de grand Orchestre ou Quatuor ou Pianforte sur des motifs favoris de l'Opéra La Muette de Portici : Oeuvre 62](./kQgPCW2m.md)__
 
-	![Image](../assets/images/thumbs/KCG-000735234.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000735234.gif){align=left width="150" height="150"} 
 
 	
 

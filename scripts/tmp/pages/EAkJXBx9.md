@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EAkJXBx9
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/EAkJXBx9.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/EAkJXBx9.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/EAkJXBx9.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/EAkJXBx9.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/EAkJXBx9.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/EAkJXBx9.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Onze_Musici_(1911)_-_Emile_von_Brucken_Fock.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | aliases             | description    | Wikidata QID                                                        |
-    | :-------: | :--------------------: | :-----------------: | :------------: | :-----------------------------------------------------------------: |
-    | EAkJXBx9  | Emile von Brucken Fock | E. von Brucken Fock | Dutch composer | [Emile von Brucken Fock](http://wwww.wikidata.org/entity/Q40854046) |
+    | FAAM UUID | label                  | aliases             | description    | Wikidata QID                                                   |
+    | :-------: | :--------------------: | :-----------------: | :------------: | :------------------------------------------------------------: |
+    | EAkJXBx9  | Emile von Brucken Fock | E. von Brucken Fock | Dutch composer | [Emile von Brucken Fock](http://wikidata.org/entity/Q40854046) |
 
 <br><br><br>
 
@@ -45,7 +49,7 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./Pzf95he6.md)
+	- [military officer](./Pzf95he6.md)
 
 ??? quote "educated at" 
 
@@ -55,7 +59,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/EAkJXBx9.html" height="800" width="1200" title="EAkJXBx9"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EAkJXBx9" height="800" width="1200" title="EAkJXBx9"></iframe>
 
 ## Identifiers
 

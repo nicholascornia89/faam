@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QZgTTyck
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/ORP-20137318/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/QZgTTyck.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/QZgTTyck.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/QZgTTyck.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/ORP-20137318/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/QZgTTyck.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/QZgTTyck.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/QZgTTyck.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/ORP-20137318.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20137318.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                                                            | permalink                | provenance                         |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :--------------------------------: |
-    | QZgTTyck  | ORP-20137318          | Vollständige theoretisch-practische Pianoforte-Schule op. 500. Von dem ersten Anfange bis zur höchsten Ausbildung fortschreitend | [external URL](7WfWytMV) | [Orpheus Institute](./U7DY6oXy.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                                                            | permalink                                                                                     | provenance                         |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :--------------------------------: |
+    | QZgTTyck  | ORP-20137318          | Vollständige theoretisch-practische Pianoforte-Schule op. 500. Von dem ersten Anfange bis zur höchsten Ausbildung fortschreitend | [external URL](https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=1414) | [Orpheus Institute](./U7DY6oXy.md) |
 
 ===  "note" 
 
@@ -69,10 +73,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/QZgTTyck.html" height="800" width="1200" title="QZgTTyck"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QZgTTyck" height="800" width="1200" title="QZgTTyck"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/QZgTTyck.html" height="800" width="1200" title="QZgTTyck"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/QZgTTyck" height="800" width="1200" title="QZgTTyck"></iframe>

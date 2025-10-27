@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CpLMi4in
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                | aliases                          | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :------------------------: | :------------------------------: | :------------------------------------------------------------: |
-    | CpLMi4in  | University of Turin | university in Turin, Italy | Universita degli Studi di Torino | [University of Turin](http://wwww.wikidata.org/entity/Q499911) |
+    | FAAM UUID | label               | description                | aliases                          | Wikidata QID                                              |
+    | :-------: | :-----------------: | :------------------------: | :------------------------------: | :-------------------------------------------------------: |
+    | CpLMi4in  | University of Turin | university in Turin, Italy | Universita degli Studi di Torino | [University of Turin](http://wikidata.org/entity/Q499911) |
 
 <br><br><br>
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/CpLMi4in.html" height="800" width="1200" title="CpLMi4in"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CpLMi4in" height="800" width="1200" title="CpLMi4in"></iframe>
 
 ## Cross-references
 

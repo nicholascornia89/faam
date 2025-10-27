@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: aHD69vBe
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                        | description                                             | aliases | Wikidata QID                                                            |
-    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-----: | :---------------------------------------------------------------------: |
-    | aHD69vBe  | 13th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [13th arrondissement of Paris](http://wwww.wikidata.org/entity/Q175129) |
+    | FAAM UUID | label                        | description                                             | aliases | Wikidata QID                                                       |
+    | :-------: | :--------------------------: | :-----------------------------------------------------: | :-----: | :----------------------------------------------------------------: |
+    | aHD69vBe  | 13th arrondissement of Paris | one of the 20 administrative districts of Paris, France |         | [13th arrondissement of Paris](http://wikidata.org/entity/Q175129) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/aHD69vBe.html" height="800" width="1200" title="aHD69vBe"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/aHD69vBe" height="800" width="1200" title="aHD69vBe"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RZqYrbgY
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | description                                                         | aliases  | Wikidata QID                                                       |
-    | :-------: | :---------------------: | :-----------------------------------------------------------------: | :------: | :----------------------------------------------------------------: |
-    | RZqYrbgY  | archaeological artefact | something made or modified by humans and of archaeological interest | artifact | [archaeological artefact](http://wwww.wikidata.org/entity/Q220659) |
+    | FAAM UUID | label                   | description                                                         | aliases  | Wikidata QID                                                  |
+    | :-------: | :---------------------: | :-----------------------------------------------------------------: | :------: | :-----------------------------------------------------------: |
+    | RZqYrbgY  | archaeological artefact | something made or modified by humans and of archaeological interest | artifact | [archaeological artefact](http://wikidata.org/entity/Q220659) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/RZqYrbgY.html" height="800" width="1200" title="RZqYrbgY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RZqYrbgY" height="800" width="1200" title="RZqYrbgY"></iframe>
 
 ## Cross-references
 

@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "cgtepzqb", "label": "poem", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./cgtepzqb.md\u0027\u003epoem\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of literature, work of poetry, often composed of verses\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gS75yii6", "label": "Parisina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gS75yii6.md\u0027\u003eParisina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epoem of Lord Byron\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QEoYjgrW", "label": "Orlando Furioso", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QEoYjgrW.md\u0027\u003eOrlando Furioso\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eepic Italian poem by Ludovico Ariosto\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "FAnQpxHD", "label": "Georgics", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FAnQpxHD.md\u0027\u003eGeorgics\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSeries of poems by Virgil\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WjbqsK8A", "label": "Ph\u00e8dre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WjbqsK8A.md\u0027\u003ePh\u00e8dre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etragedy by Jean Racine\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZnBrqQn5", "label": "Psalms", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZnBrqQn5.md\u0027\u003ePsalms\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebook of the Bible, has five books\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "RULihLxC", "label": "Paradise Lost", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RULihLxC.md\u0027\u003eParadise Lost\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eepic poem by John Milton\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "o7nk6Uyh", "label": "The Song of Roland", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./o7nk6Uyh.md\u0027\u003eThe Song of Roland\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emedieval epic work\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "cgtepzqb", "to": "gS75yii6", "width": 1}, {"from": "cgtepzqb", "to": "QEoYjgrW", "width": 1}, {"from": "cgtepzqb", "to": "FAnQpxHD", "width": 1}, {"from": "cgtepzqb", "to": "WjbqsK8A", "width": 1}, {"from": "cgtepzqb", "to": "ZnBrqQn5", "width": 1}, {"from": "cgtepzqb", "to": "RULihLxC", "width": 1}, {"from": "cgtepzqb", "to": "o7nk6Uyh", "width": 1}, {"from": "o7nk6Uyh", "to": "QEoYjgrW", "width": 1}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WjbqsK8A", "label": "Ph\u00e8dre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WjbqsK8A\u0027\u003ePh\u00e8dre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etragedy by Jean Racine\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "cgtepzqb", "label": "poem", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cgtepzqb\u0027\u003epoem\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of literature, work of poetry, often composed of verses\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QEoYjgrW", "label": "Orlando Furioso", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QEoYjgrW\u0027\u003eOrlando Furioso\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eepic Italian poem by Ludovico Ariosto\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "o7nk6Uyh", "label": "The Song of Roland", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/o7nk6Uyh\u0027\u003eThe Song of Roland\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emedieval epic work\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "RULihLxC", "label": "Paradise Lost", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/RULihLxC\u0027\u003eParadise Lost\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eepic poem by John Milton\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gS75yii6", "label": "Parisina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gS75yii6\u0027\u003eParisina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epoem of Lord Byron\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZnBrqQn5", "label": "Psalms", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZnBrqQn5\u0027\u003ePsalms\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebook of the Bible, has five books\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "FAnQpxHD", "label": "Georgics", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FAnQpxHD\u0027\u003eGeorgics\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSeries of poems by Virgil\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "WjbqsK8A", "to": "cgtepzqb", "width": 1}, {"from": "QEoYjgrW", "to": "cgtepzqb", "width": 1}, {"from": "QEoYjgrW", "to": "o7nk6Uyh", "width": 1}, {"from": "RULihLxC", "to": "cgtepzqb", "width": 1}, {"from": "gS75yii6", "to": "cgtepzqb", "width": 1}, {"from": "ZnBrqQn5", "to": "cgtepzqb", "width": 1}, {"from": "o7nk6Uyh", "to": "cgtepzqb", "width": 1}, {"from": "cgtepzqb", "to": "FAnQpxHD", "width": 1}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

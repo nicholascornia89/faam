@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: GeCcJQ2K
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                         |
-    | :-------: | :-------: | :-----------------------------: | :-----: | :--------------------------------------------------: |
-    | GeCcJQ2K  | Wakefield | city in West Yorkshire, England |         | [Wakefield](http://wwww.wikidata.org/entity/Q216638) |
+    | FAAM UUID | label     | description                     | aliases | Wikidata QID                                    |
+    | :-------: | :-------: | :-----------------------------: | :-----: | :---------------------------------------------: |
+    | GeCcJQ2K  | Wakefield | city in West Yorkshire, England |         | [Wakefield](http://wikidata.org/entity/Q216638) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/GeCcJQ2K.html" height="800" width="1200" title="GeCcJQ2K"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/GeCcJQ2K" height="800" width="1200" title="GeCcJQ2K"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Thomas Haigh](./4UFJuwWB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	English musician and composer
 

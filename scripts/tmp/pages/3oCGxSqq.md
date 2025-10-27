@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3oCGxSqq
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label    | description                 | aliases   | Wikidata QID                                         |
-    | :-------: | :------: | :-------------------------: | :-------: | :--------------------------------------------------: |
-    | 3oCGxSqq  | director | director of a creative work | regisseur | [director](http://wwww.wikidata.org/entity/Q3455803) |
+    | FAAM UUID | label    | description                 | aliases   | Wikidata QID                                    |
+    | :-------: | :------: | :-------------------------: | :-------: | :---------------------------------------------: |
+    | 3oCGxSqq  | director | director of a creative work | regisseur | [director](http://wikidata.org/entity/Q3455803) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/3oCGxSqq.html" height="800" width="1200" title="3oCGxSqq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3oCGxSqq" height="800" width="1200" title="3oCGxSqq"></iframe>
 
 ## Cross-references
 

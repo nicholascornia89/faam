@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: CaE8K7ZF
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | description             | aliases   | Wikidata QID                                          |
-    | :-------: | :--------: | :---------------------: | :-------: | :---------------------------------------------------: |
-    | CaE8K7ZF  | playwright | person who writes plays | dramatist | [playwright](http://wwww.wikidata.org/entity/Q214917) |
+    | FAAM UUID | label      | description             | aliases   | Wikidata QID                                     |
+    | :-------: | :--------: | :---------------------: | :-------: | :----------------------------------------------: |
+    | CaE8K7ZF  | playwright | person who writes plays | dramatist | [playwright](http://wikidata.org/entity/Q214917) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/CaE8K7ZF.html" height="800" width="1200" title="CaE8K7ZF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/CaE8K7ZF" height="800" width="1200" title="CaE8K7ZF"></iframe>
 
 ## Cross-references
 
@@ -49,13 +53,13 @@ tags: occupation
 
 -	__[Giovanni Briccio](./BGgBiHmg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian painter, playwright and musician (1579-1645)
 
 -	__[Xavier de Courville](./JuC9KczB.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	French writer and historian (1894-1984)
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Anton van de Velde](./3VXUQ7ER.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/aa/Anton_van_de_Velde.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_van_de_Velde.jpg){align=left width="150" height="150"} 
 
 	Belgian playwright, writer and theatre director (1895–1983)
 

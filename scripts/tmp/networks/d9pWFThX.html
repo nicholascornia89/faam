@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "PJUnFxn4", "label": "theme and variations", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PJUnFxn4.md\u0027\u003etheme and variations\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "d9pWFThX", "label": "Air vari\u00e9 \u0027Vive Henri 4!\u0027, Op.27", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./d9pWFThX.md\u0027\u003eAir vari\u00e9 \u0027Vive Henri 4!\u0027, Op.27\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "afK7awRY", "label": "Vive Henri 4! : Air vari\u00e9 pour le Violon avec Accompagnement de Premier et Second Violons, Alto, Basse, Fl\u00fbte, Hautbois, Clarinettes, Cors, Bassons, Trombone et Timballes : Oeuv. 27", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./afK7awRY.md\u0027\u003eVive Henri 4! : Air vari\u00e9 pour le Violon avec Accompagnement de Premier et Second Violons, Alto, Basse, Fl\u00fbte, Hautbois, Clarinettes, Cors, Bassons, Trombone et Timballes : Oeuv. 27\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000332412.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iV4jFpzQ", "label": "Pierre Baillot", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iV4jFpzQ.md\u0027\u003ePierre Baillot\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pierre_Baillot.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "PJUnFxn4", "to": "d9pWFThX", "width": 10}, {"from": "PJUnFxn4", "to": "afK7awRY", "width": 10}, {"from": "d9pWFThX", "to": "iV4jFpzQ", "width": 10}, {"from": "d9pWFThX", "to": "afK7awRY", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "afK7awRY", "label": "Vive Henri 4! : Air vari\u00e9 pour le Violon avec Accompagnement de Premier et Second Violons, Alto, Basse, Fl\u00fbte, Hautbois, Clarinettes, Cors, Bassons, Trombone et Timballes : Oeuv. 27", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/afK7awRY\u0027\u003eVive Henri 4! : Air vari\u00e9 pour le Violon avec Accompagnement de Premier et Second Violons, Alto, Basse, Fl\u00fbte, Hautbois, Clarinettes, Cors, Bassons, Trombone et Timballes : Oeuv. 27\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000332412.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "PJUnFxn4", "label": "theme and variations", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PJUnFxn4\u0027\u003etheme and variations\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "d9pWFThX", "label": "Air vari\u00e9 \u0027Vive Henri 4!\u0027, Op.27", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/d9pWFThX\u0027\u003eAir vari\u00e9 \u0027Vive Henri 4!\u0027, Op.27\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iV4jFpzQ", "label": "Pierre Baillot", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iV4jFpzQ\u0027\u003ePierre Baillot\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pierre_Baillot.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "afK7awRY", "to": "PJUnFxn4", "width": 10}, {"from": "afK7awRY", "to": "d9pWFThX", "width": 10}, {"from": "iV4jFpzQ", "to": "d9pWFThX", "width": 10}, {"from": "PJUnFxn4", "to": "d9pWFThX", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

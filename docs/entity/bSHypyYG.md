@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bSHypyYG
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                                      | aliases        | Wikidata QID                                          |
-    | :-------: | :-------: | :----------------------------------------------: | :------------: | :---------------------------------------------------: |
-    | bSHypyYG  | pedagogue | person working in the academic field of pedagogy | educationalist | [pedagogue](http://wwww.wikidata.org/entity/Q1231865) |
+    | FAAM UUID | label     | description                                      | aliases        | Wikidata QID                                     |
+    | :-------: | :-------: | :----------------------------------------------: | :------------: | :----------------------------------------------: |
+    | bSHypyYG  | pedagogue | person working in the academic field of pedagogy | educationalist | [pedagogue](http://wikidata.org/entity/Q1231865) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/bSHypyYG.html" height="800" width="1200" title="bSHypyYG"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bSHypyYG" height="800" width="1200" title="bSHypyYG"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 
@@ -61,7 +65,7 @@ tags: occupation
 
 -	__[Anna Lankow](./X9dMHKAY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	
 
@@ -169,7 +173,7 @@ tags: occupation
 
 -	__[Leonid Nikolayev](./HX8ujrS4.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Russian musician (1878–1942)
 
@@ -199,7 +203,7 @@ tags: occupation
 
 -	__[Joseph Czerny](./fyTYpvN6.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Austrian composer (1785–1831)
 
@@ -211,13 +215,13 @@ tags: occupation
 
 -	__[Luzzasco Luzzaschi](./XudjntwM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer and organist
 
 -	__[August Mittag](./eMp37r9z.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	* 25.12.1795 Kreischa bei Dresden/D, † 21.11.1867 Wien. Fagottist, Pianist, Pädagoge.
 

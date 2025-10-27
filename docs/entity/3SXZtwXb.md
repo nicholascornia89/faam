@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 3SXZtwXb
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description | aliases     | Wikidata QID                                             |
-    | :-------: | :---------: | :---------: | :---------: | :------------------------------------------------------: |
-    | 3SXZtwXb  | comic opera | opera genre | comic opera | [comic opera](http://wwww.wikidata.org/entity/Q13220650) |
+    | FAAM UUID | label       | description | aliases     | Wikidata QID                                        |
+    | :-------: | :---------: | :---------: | :---------: | :-------------------------------------------------: |
+    | 3SXZtwXb  | comic opera | opera genre | comic opera | [comic opera](http://wikidata.org/entity/Q13220650) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/3SXZtwXb.html" height="800" width="1200" title="3SXZtwXb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/3SXZtwXb" height="800" width="1200" title="3SXZtwXb"></iframe>
 
 ## Cross-references
 
@@ -39,13 +43,13 @@ tags: keyword
 
 -	__[Le châlet : opéra-comique en un acte](./7ScD2E2g.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901706033.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901706033.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[La Mascotte : opéra-comique en 3 actes](./HoH6TbZs.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903711494.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903711494.gif){align=left width="150" height="150"} 
 
 	
 

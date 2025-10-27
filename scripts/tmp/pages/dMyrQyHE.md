@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: dMyrQyHE
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/dMyrQyHE.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/dMyrQyHE.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/dMyrQyHE.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/dMyrQyHE.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/dMyrQyHE.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/dMyrQyHE.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold_schönberg_man_ray.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | aliases          | description                                   | Wikidata QID                                                 |
-    | :-------: | :---------------: | :--------------: | :-------------------------------------------: | :----------------------------------------------------------: |
-    | dMyrQyHE  | Arnold Schoenberg | Arnold Schönberg | Austrian-Jewish American composer (1874-1951) | [Arnold Schoenberg](http://wwww.wikidata.org/entity/Q154770) |
+    | FAAM UUID | label             | aliases          | description                                   | Wikidata QID                                            |
+    | :-------: | :---------------: | :--------------: | :-------------------------------------------: | :-----------------------------------------------------: |
+    | dMyrQyHE  | Arnold Schoenberg | Arnold Schönberg | Austrian-Jewish American composer (1874-1951) | [Arnold Schoenberg](http://wikidata.org/entity/Q154770) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 	- [classical composer](./aB6ga3Wq.md)
 
-	- [](./mGWMWMfo.md)
+	- [painter](./mGWMWMfo.md)
 
 	- [musicologist](./49CMncTw.md)
 
@@ -61,19 +65,19 @@ tags: agent
 
 	- [composer](./5aTYuVxp.md)
 
-	- [](./c5ZKjhf7.md)
+	- [music teacher](./c5ZKjhf7.md)
 
-	- [](./n8P7bt6J.md)
+	- [artist](./n8P7bt6J.md)
 
 ??? quote "employer" 
 
-	- [](./BcJmccvj.md)
+	- [Prussian Academy of Arts](./BcJmccvj.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/dMyrQyHE.html" height="800" width="1200" title="dMyrQyHE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/dMyrQyHE" height="800" width="1200" title="dMyrQyHE"></iframe>
 
 ## Identifiers
 
@@ -94,3 +98,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Lou Harrison](./Rg9gr2Zq.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lou_Harrison_1940s.jpg){align=left width="150" height="150"} 
+
+	American composer (1917-2003)
+
+</div>

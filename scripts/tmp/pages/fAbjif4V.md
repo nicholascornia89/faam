@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fAbjif4V
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description           | aliases             | Wikidata QID                                                    |
-    | :-------: | :-------------------: | :-------------------: | :-----------------: | :-------------------------------------------------------------: |
-    | fAbjif4V  | University of Cologne | university in Germany | Universität zu Köln | [University of Cologne](http://wwww.wikidata.org/entity/Q54096) |
+    | FAAM UUID | label                 | description           | aliases             | Wikidata QID                                               |
+    | :-------: | :-------------------: | :-------------------: | :-----------------: | :--------------------------------------------------------: |
+    | fAbjif4V  | University of Cologne | university in Germany | Universität zu Köln | [University of Cologne](http://wikidata.org/entity/Q54096) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/fAbjif4V.html" height="800" width="1200" title="fAbjif4V"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fAbjif4V" height="800" width="1200" title="fAbjif4V"></iframe>
 
 ## Cross-references
 
@@ -53,7 +57,7 @@ tags: music_organization
 
 -	__[Theodor Kroyer](./MTPhkSTp.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	German musicologist (1873-1945)
 

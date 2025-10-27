@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jWNr6t5z
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                  | description | aliases                     | Wikidata QID                                                       |
-    | :-------: | :--------------------: | :---------: | :-------------------------: | :----------------------------------------------------------------: |
-    | jWNr6t5z  | Gymnasium St. Augustin | school      | Landesschule Sankt Augustin | [Gymnasium St. Augustin](http://wwww.wikidata.org/entity/Q1558232) |
+    | FAAM UUID | label                  | description | aliases                     | Wikidata QID                                                  |
+    | :-------: | :--------------------: | :---------: | :-------------------------: | :-----------------------------------------------------------: |
+    | jWNr6t5z  | Gymnasium St. Augustin | school      | Landesschule Sankt Augustin | [Gymnasium St. Augustin](http://wikidata.org/entity/Q1558232) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./V9kwH2cP.md)
+	[Grimma](./V9kwH2cP.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/jWNr6t5z.html" height="800" width="1200" title="jWNr6t5z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jWNr6t5z" height="800" width="1200" title="jWNr6t5z"></iframe>
 
 ## Cross-references
 

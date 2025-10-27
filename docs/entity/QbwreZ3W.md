@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: QbwreZ3W
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | description       | aliases | Wikidata QID                                              |
-    | :-------: | :------------: | :---------------: | :-----: | :-------------------------------------------------------: |
-    | QbwreZ3W  | Ścinawka Dolna | village of Poland |         | [Ścinawka Dolna](http://wwww.wikidata.org/entity/Q387061) |
+    | FAAM UUID | label          | description       | aliases | Wikidata QID                                         |
+    | :-------: | :------------: | :---------------: | :-----: | :--------------------------------------------------: |
+    | QbwreZ3W  | Ścinawka Dolna | village of Poland |         | [Ścinawka Dolna](http://wikidata.org/entity/Q387061) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/QbwreZ3W.html" height="800" width="1200" title="QbwreZ3W"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/QbwreZ3W" height="800" width="1200" title="QbwreZ3W"></iframe>
 
 ## Identifiers
 

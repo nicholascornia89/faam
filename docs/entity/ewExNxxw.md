@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ewExNxxw
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                 | description                                          | aliases    | Wikidata QID                                                        |
-    | :-------: | :-------------------: | :--------------------------------------------------: | :--------: | :-----------------------------------------------------------------: |
-    | ewExNxxw  | Normaalschool Torhout | school in Torhout for the training of teaching staff | VIVES-RENO | [Normaalschool Torhout](http://wwww.wikidata.org/entity/Q119853947) |
+    | FAAM UUID | label                 | description                                          | aliases    | Wikidata QID                                                   |
+    | :-------: | :-------------------: | :--------------------------------------------------: | :--------: | :------------------------------------------------------------: |
+    | ewExNxxw  | Normaalschool Torhout | school in Torhout for the training of teaching staff | VIVES-RENO | [Normaalschool Torhout](http://wikidata.org/entity/Q119853947) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./NQxGwfmZ.md)
+	[Torhout](./NQxGwfmZ.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/ewExNxxw.html" height="800" width="1200" title="ewExNxxw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ewExNxxw" height="800" width="1200" title="ewExNxxw"></iframe>
 
 ## Cross-references
 
@@ -51,7 +55,7 @@ tags: music_organization
 
 -	__[Remi Ghesquiere](./5FzPNxhE.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	sacristan, teacher, organist, composer, poet and politician from Belgium (1866-1964)
 

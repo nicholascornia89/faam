@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: KmgJHDdU
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases       | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-----------: | :--------------------------: | :--------------------------------------------------------: |
-    | KmgJHDdU  | Keyboard Sonata in B minor, K.377 | Sonata K. 377 | sonata by Domenico Scarlatti | [Sonata K. 377](http://wwww.wikidata.org/entity/Q67199986) |
+    | FAAM UUID | label                             | aliases       | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-----------: | :--------------------------: | :---------------------------------------------------: |
+    | KmgJHDdU  | Keyboard Sonata in B minor, K.377 | Sonata K. 377 | sonata by Domenico Scarlatti | [Sonata K. 377](http://wikidata.org/entity/Q67199986) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/KmgJHDdU.html" height="800" width="1200" title="KmgJHDdU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/KmgJHDdU" height="800" width="1200" title="KmgJHDdU"></iframe>
 
 ## Identifiers
 
@@ -77,43 +81,43 @@ tags: musical_work
 
 -	__[18 ausgewählte Klavierstücke](./J4gd8QWV.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate N. 60 (Bourrée dite d'Aranjuez.)](./HCRgHam4.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP69445.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP69445.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sonate n° 60 [i.e. 377] : bourrée (dite d'Aranjuez) / Domenico Scarlatti...](./62ZrHPyu.md)__
 
-	![Image](../assets/images/thumbs/BNF-432579086.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-432579086.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[29 sonatas](./B7PgUtbR.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903597976.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[18 ausgewählte Klavierstücke](./J4gd8QWV.md)__
 
-	![Image](../assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-TP74135.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

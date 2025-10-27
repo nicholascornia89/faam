@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bSxwuKKy
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-428466451/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bSxwuKKy.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bSxwuKKy.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bSxwuKKy.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-428466451/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bSxwuKKy.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bSxwuKKy.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bSxwuKKy.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-428466451.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-428466451.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                              | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :----------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | bSxwuKKy  | BNF-428466451         | 3 études caractéristiques pour violon avec accpt. de piano, op. 37 | [external URL](eNyFmkHC) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                              | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :----------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | bSxwuKKy  | BNF-428466451         | 3 études caractéristiques pour violon avec accpt. de piano, op. 37 | [external URL](http://catalogue.bnf.fr/ark:/12148/cb428466451) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -74,10 +78,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/bSxwuKKy.html" height="800" width="1200" title="bSxwuKKy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bSxwuKKy" height="800" width="1200" title="bSxwuKKy"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/bSxwuKKy.html" height="800" width="1200" title="bSxwuKKy"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/bSxwuKKy" height="800" width="1200" title="bSxwuKKy"></iframe>

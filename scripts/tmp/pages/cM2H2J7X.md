@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cM2H2J7X
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label       | description             | aliases | Wikidata QID                                            |
-    | :-------: | :---------: | :---------------------: | :-----: | :-----------------------------------------------------: |
-    | cM2H2J7X  | rue Blanche | street in Paris, France |         | [rue Blanche](http://wwww.wikidata.org/entity/Q3447168) |
+    | FAAM UUID | label       | description             | aliases | Wikidata QID                                       |
+    | :-------: | :---------: | :---------------------: | :-----: | :------------------------------------------------: |
+    | cM2H2J7X  | rue Blanche | street in Paris, France |         | [rue Blanche](http://wikidata.org/entity/Q3447168) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/cM2H2J7X.html" height="800" width="1200" title="cM2H2J7X"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cM2H2J7X" height="800" width="1200" title="cM2H2J7X"></iframe>
 
 ## Identifiers
 

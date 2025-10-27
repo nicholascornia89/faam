@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: cXifiKo5
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-42944618t/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/cXifiKo5.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/cXifiKo5.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/cXifiKo5.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BNF-42944618t/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/cXifiKo5.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/cXifiKo5.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/cXifiKo5.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/BNF-42944618t.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/BNF-42944618t.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                            | permalink                | provenance                                        |
-    | :-------: | :-------------------: | :--------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
-    | cXifiKo5  | BNF-42944618t         | L'Art lyrique, traité complet de chant et de déclamation lyrique | [external URL](m9rNaSAR) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                            | permalink                                                      | provenance                                        |
+    | :-------: | :-------------------: | :--------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------: |
+    | cXifiKo5  | BNF-42944618t         | L'Art lyrique, traité complet de chant et de déclamation lyrique | [external URL](http://catalogue.bnf.fr/ark:/12148/cb42944618t) | [Bibliothèque Nationale de France](./PRjsXYR5.md) |
 
 ## Statements
 
@@ -86,10 +90,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/cXifiKo5.html" height="800" width="1200" title="cXifiKo5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/cXifiKo5" height="800" width="1200" title="cXifiKo5"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/cXifiKo5.html" height="800" width="1200" title="cXifiKo5"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/cXifiKo5" height="800" width="1200" title="cXifiKo5"></iframe>

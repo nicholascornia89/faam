@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: UYUzWnMs
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label              | description | aliases | Wikidata QID                                                    |
-    | :-------: | :----------------: | :---------: | :-----: | :-------------------------------------------------------------: |
-    | UYUzWnMs  | Harmonious Society |             |         | [Harmonious Society](http://wwww.wikidata.org/entity/Q10518150) |
+    | FAAM UUID | label              | description | aliases | Wikidata QID                                               |
+    | :-------: | :----------------: | :---------: | :-----: | :--------------------------------------------------------: |
+    | UYUzWnMs  | Harmonious Society |             |         | [Harmonious Society](http://wikidata.org/entity/Q10518150) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: music_organization
 
 !!! quote "country" 
 
-	[](./3Ho9ctKq.md)
+	[Sweden](./3Ho9ctKq.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/UYUzWnMs.html" height="800" width="1200" title="UYUzWnMs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/UYUzWnMs" height="800" width="1200" title="UYUzWnMs"></iframe>
 
 ## Cross-references
 

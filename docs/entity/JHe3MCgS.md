@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: JHe3MCgS
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/JHe3MCgS.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/JHe3MCgS.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/JHe3MCgS.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/JHe3MCgS.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/JHe3MCgS.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/JHe3MCgS.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label        | aliases | description                     | Wikidata QID                                               |
-    | :-------: | :----------: | :-----: | :-----------------------------: | :--------------------------------------------------------: |
-    | JHe3MCgS  | Johann André | André   | German music publishing company | [Johann André](http://wwww.wikidata.org/entity/Q130348450) |
+    | FAAM UUID | label        | aliases | description                     | Wikidata QID                                          |
+    | :-------: | :----------: | :-----: | :-----------------------------: | :---------------------------------------------------: |
+    | JHe3MCgS  | Johann André | André   | German music publishing company | [Johann André](http://wikidata.org/entity/Q130348450) |
 
 <br><br><br>
 
@@ -49,7 +53,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/JHe3MCgS.html" height="800" width="1200" title="JHe3MCgS"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/JHe3MCgS" height="800" width="1200" title="JHe3MCgS"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: agent
 
 -	__[Concert in D-dur : für d. Violine ; KV 218 ; op. 121](./9o9xj5Gw.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078005629707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078005629707356.gif){align=left width="150" height="150"} 
 
 	
 

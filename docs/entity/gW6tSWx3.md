@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gW6tSWx3
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000122150/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/gW6tSWx3.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/gW6tSWx3.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/gW6tSWx3.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000122150/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/gW6tSWx3.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/gW6tSWx3.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/gW6tSWx3.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000122150.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000122150.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                         | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :---------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | gW6tSWx3  | KCG-000122150         | ROBERT LE DIABLE : Opéra en cinq actes : N° 3. Romance "Va! va! va, dit-elle" | [external URL](2mb4qe86) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                         | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | gW6tSWx3  | KCG-000122150         | ROBERT LE DIABLE : Opéra en cinq actes : N° 3. Romance "Va! va! va, dit-elle" | [external URL](https://catalogus.hogent.be/catalog/hog01:000122150) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -108,10 +112,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/gW6tSWx3.html" height="800" width="1200" title="gW6tSWx3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gW6tSWx3" height="800" width="1200" title="gW6tSWx3"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/gW6tSWx3.html" height="800" width="1200" title="gW6tSWx3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/gW6tSWx3" height="800" width="1200" title="gW6tSWx3"></iframe>

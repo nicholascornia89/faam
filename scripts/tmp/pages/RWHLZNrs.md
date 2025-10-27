@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: RWHLZNrs
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                                | description | aliases                                           | Wikidata QID                                               |
-    | :-------: | :----------------------------------: | :---------: | :-----------------------------------------------: | :--------------------------------------------------------: |
-    | RWHLZNrs  | Technical University of Braunschweig | university  | University of Brunswick – Institute of Technology | [TU Braunschweig](http://wwww.wikidata.org/entity/Q734324) |
+    | FAAM UUID | label                                | description | aliases                                           | Wikidata QID                                          |
+    | :-------: | :----------------------------------: | :---------: | :-----------------------------------------------: | :---------------------------------------------------: |
+    | RWHLZNrs  | Technical University of Braunschweig | university  | University of Brunswick – Institute of Technology | [TU Braunschweig](http://wikidata.org/entity/Q734324) |
 
 <br><br><br>
 
@@ -31,7 +35,7 @@ tags: music_organization
 
 !!! quote "place" 
 
-	[](./KBtiJzBc.md)
+	[Brunswick](./KBtiJzBc.md)
 
 !!! quote "country" 
 
@@ -41,7 +45,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/RWHLZNrs.html" height="800" width="1200" title="RWHLZNrs"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/RWHLZNrs" height="800" width="1200" title="RWHLZNrs"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Tx4nCjy7
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                            | aliases               | description                  | Wikidata QID                                                      |
-    | :-------: | :------------------------------: | :-------------------: | :--------------------------: | :---------------------------------------------------------------: |
-    | Tx4nCjy7  | Hungarian Rhapsody No.2, S.244/2 | Hungarian Roidy No. 2 | Musical piece by Franz Liszt | [Hungarian Roidy No. 2](http://wwww.wikidata.org/entity/Q3040118) |
+    | FAAM UUID | label                            | aliases               | description                  | Wikidata QID                                                 |
+    | :-------: | :------------------------------: | :-------------------: | :--------------------------: | :----------------------------------------------------------: |
+    | Tx4nCjy7  | Hungarian Rhapsody No.2, S.244/2 | Hungarian Roidy No. 2 | Musical piece by Franz Liszt | [Hungarian Roidy No. 2](http://wikidata.org/entity/Q3040118) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/Tx4nCjy7.html" height="800" width="1200" title="Tx4nCjy7"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Tx4nCjy7" height="800" width="1200" title="Tx4nCjy7"></iframe>
 
 ## Identifiers
 
@@ -65,7 +69,7 @@ tags: musical_work
 
 -	__[Ungarische Rhapsodie no. 2 : cadenza](./GWuKPdtn.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904702856.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702856.gif){align=left width="150" height="150"} 
 
 	
 

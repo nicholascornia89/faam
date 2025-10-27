@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gPUyhT9D
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | gPUyhT9D  | Keyboard Sonata in F minor, K.183 | Keyboard Sonata in F minor, L.473 | sonata by Domenico Scarlatti | [Sonata K. 183](http://wwww.wikidata.org/entity/Q67199949) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | gPUyhT9D  | Keyboard Sonata in F minor, K.183 | Keyboard Sonata in F minor, L.473 | sonata by Domenico Scarlatti | [Sonata K. 183](http://wikidata.org/entity/Q67199949) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/gPUyhT9D.html" height="800" width="1200" title="gPUyhT9D"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gPUyhT9D" height="800" width="1200" title="gPUyhT9D"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

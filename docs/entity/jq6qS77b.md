@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: jq6qS77b
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/jq6qS77b.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/jq6qS77b.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/jq6qS77b.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/jq6qS77b.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/jq6qS77b.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/jq6qS77b.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold_Dolmetsch.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label            | aliases                 | description                                                 | Wikidata QID                                                |
-    | :-------: | :--------------: | :---------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: |
-    | jq6qS77b  | Arnold Dolmetsch | Eugène Arnold Dolmetsch | French musician and instrument maker in England (1858-1940) | [Arnold Dolmetsch](http://wwww.wikidata.org/entity/Q194638) |
+    | FAAM UUID | label            | aliases                 | description                                                 | Wikidata QID                                           |
+    | :-------: | :--------------: | :---------------------: | :---------------------------------------------------------: | :----------------------------------------------------: |
+    | jq6qS77b  | Arnold Dolmetsch | Eugène Arnold Dolmetsch | French musician and instrument maker in England (1858-1940) | [Arnold Dolmetsch](http://wikidata.org/entity/Q194638) |
 
 <br><br><br>
 
@@ -55,7 +59,7 @@ tags: agent
 
 ??? quote "occupation" 
 
-	- [](./V7qxTCqC.md)
+	- [luthier](./V7qxTCqC.md)
 
 	- [musicologist](./49CMncTw.md)
 
@@ -79,7 +83,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/jq6qS77b.html" height="800" width="1200" title="jq6qS77b"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/jq6qS77b" height="800" width="1200" title="jq6qS77b"></iframe>
 
 ## Identifiers
 
@@ -96,3 +100,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Charles Van den Borren](./NY8AZCns.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Van_den_Borren.jpg){align=left width="150" height="150"} 
+
+	Belgian university professor, librarian, musicologist and music historian (1874–1966)
+
+</div>

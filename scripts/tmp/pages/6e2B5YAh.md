@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6e2B5YAh
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6e2B5YAh.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6e2B5YAh.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6e2B5YAh.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6e2B5YAh.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6e2B5YAh.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6e2B5YAh.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alfred_Cortot_01.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label         | aliases             | description                        | Wikidata QID                                             |
-    | :-------: | :-----------: | :-----------------: | :--------------------------------: | :------------------------------------------------------: |
-    | 6e2B5YAh  | Alfred Cortot | Alfred Denis Cortot | Franco-Swiss pianist and conductor | [Alfred Cortot](http://wwww.wikidata.org/entity/Q116057) |
+    | FAAM UUID | label         | aliases             | description                        | Wikidata QID                                        |
+    | :-------: | :-----------: | :-----------------: | :--------------------------------: | :-------------------------------------------------: |
+    | 6e2B5YAh  | Alfred Cortot | Alfred Denis Cortot | Franco-Swiss pianist and conductor | [Alfred Cortot](http://wikidata.org/entity/Q116057) |
 
 <br><br><br>
 
@@ -69,7 +73,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/6e2B5YAh.html" height="800" width="1200" title="6e2B5YAh"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6e2B5YAh" height="800" width="1200" title="6e2B5YAh"></iframe>
 
 ## Identifiers
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: LMcShHfY
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901815347/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/LMcShHfY.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/LMcShHfY.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/LMcShHfY.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901815347/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/LMcShHfY.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/LMcShHfY.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/LMcShHfY.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCA-030901815347.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901815347.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title          | permalink                | provenance                                                    |
-    | :-------: | :-------------------: | :------------: | :----------------------: | :-----------------------------------------------------------: |
-    | LMcShHfY  | KCA-030901815347      | Dix enfantines | [external URL](D6RjeTWv) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+    | FAAM UUID | FAAM manifestation ID | title          | permalink                                                       | provenance                                                    |
+    | :-------: | :-------------------: | :------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------: |
+    | LMcShHfY  | KCA-030901815347      | Dix enfantines | [external URL](https://anet.be/record/opacdkvc/c:lvd:6718473/N) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
 
 ===  "sections" 
 
@@ -119,10 +123,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/LMcShHfY.html" height="800" width="1200" title="LMcShHfY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/LMcShHfY" height="800" width="1200" title="LMcShHfY"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/LMcShHfY.html" height="800" width="1200" title="LMcShHfY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/LMcShHfY" height="800" width="1200" title="LMcShHfY"></iframe>

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 9bug7VfA
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/9bug7VfA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/9bug7VfA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/9bug7VfA.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/9bug7VfA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/9bug7VfA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/9bug7VfA.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                     | aliases                   | description                      | Wikidata QID                                                           |
-    | :-------: | :-----------------------: | :-----------------------: | :------------------------------: | :--------------------------------------------------------------------: |
-    | 9bug7VfA  | Valentine Degive-Ledelier | Valentine Degive-Ledelier | Belgian singer and music teacher | [Valentine Degive-Ledelier](http://wwww.wikidata.org/entity/Q41884100) |
+    | FAAM UUID | label                     | aliases                   | description                      | Wikidata QID                                                      |
+    | :-------: | :-----------------------: | :-----------------------: | :------------------------------: | :---------------------------------------------------------------: |
+    | 9bug7VfA  | Valentine Degive-Ledelier | Valentine Degive-Ledelier | Belgian singer and music teacher | [Valentine Degive-Ledelier](http://wikidata.org/entity/Q41884100) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/9bug7VfA.html" height="800" width="1200" title="9bug7VfA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/9bug7VfA" height="800" width="1200" title="9bug7VfA"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: agent
 
 -	__[Convoluut : Valentine Degive-Ledelier](./diiKf2Tw.md)__
 
-	![Image](../assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-03090443184.gif){align=left width="150" height="150"} 
 
 	
 

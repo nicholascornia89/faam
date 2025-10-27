@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6m3ZbnrF
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label             | description                                                                       | aliases         | Wikidata QID                                                    |
-    | :-------: | :---------------: | :-------------------------------------------------------------------------------: | :-------------: | :-------------------------------------------------------------: |
-    | 6m3ZbnrF  | musical technique | group of techniques relating to the composing, production or performance of music | music technique | [musical technique](http://wwww.wikidata.org/entity/Q109659725) |
+    | FAAM UUID | label             | description                                                                       | aliases         | Wikidata QID                                               |
+    | :-------: | :---------------: | :-------------------------------------------------------------------------------: | :-------------: | :--------------------------------------------------------: |
+    | 6m3ZbnrF  | musical technique | group of techniques relating to the composing, production or performance of music | music technique | [musical technique](http://wikidata.org/entity/Q109659725) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/6m3ZbnrF.html" height="800" width="1200" title="6m3ZbnrF"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6m3ZbnrF" height="800" width="1200" title="6m3ZbnrF"></iframe>
 
 ## Cross-references
 
@@ -39,7 +43,7 @@ tags: keyword
 
 -	__[Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein](./heTepEsp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902800223.gif){align=left width="150" height="150"} 
 
 	
 

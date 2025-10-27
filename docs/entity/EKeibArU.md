@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: EKeibArU
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases        | description                                  | Wikidata QID                                              |
-    | :-------: | :--------: | :------------: | :------------------------------------------: | :-------------------------------------------------------: |
-    | EKeibArU  | 3 Preludes | Three Preludes | set of piano compositions by George Gershwin | [Three Preludes](http://wwww.wikidata.org/entity/Q392498) |
+    | FAAM UUID | label      | aliases        | description                                  | Wikidata QID                                         |
+    | :-------: | :--------: | :------------: | :------------------------------------------: | :--------------------------------------------------: |
+    | EKeibArU  | 3 Preludes | Three Preludes | set of piano compositions by George Gershwin | [Three Preludes](http://wikidata.org/entity/Q392498) |
 
 <br><br><br>
 
@@ -43,7 +47,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/EKeibArU.html" height="800" width="1200" title="EKeibArU"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/EKeibArU" height="800" width="1200" title="EKeibArU"></iframe>
 
 ## Identifiers
 
@@ -61,19 +65,19 @@ tags: musical_work
 
 -	__[Préludes : pour piano](./mGQ2MEug.md)__
 
-	![Image](../assets/images/thumbs/KCA-030901836749.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030901836749.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Préludes : pour piano](./N49yd7LF.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902163374.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902163374.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Préludes : pour piano](./jHJnTqYF.md)__
 
-	![Image](../assets/images/thumbs/KCA-030903755269.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030903755269.gif){align=left width="150" height="150"} 
 
 	
 

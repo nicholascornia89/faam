@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: TjMPcoBr
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description    | aliases | Wikidata QID                                        |
-    | :-------: | :-------: | :------------: | :-----: | :-------------------------------------------------: |
-    | TjMPcoBr  | Ornavasso | Italian comune |         | [Ornavasso](http://wwww.wikidata.org/entity/Q23665) |
+    | FAAM UUID | label     | description    | aliases | Wikidata QID                                   |
+    | :-------: | :-------: | :------------: | :-----: | :--------------------------------------------: |
+    | TjMPcoBr  | Ornavasso | Italian comune |         | [Ornavasso](http://wikidata.org/entity/Q23665) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/TjMPcoBr.html" height="800" width="1200" title="TjMPcoBr"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/TjMPcoBr" height="800" width="1200" title="TjMPcoBr"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Michele Saladino](./7PfNF8jZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1835-1912)
 

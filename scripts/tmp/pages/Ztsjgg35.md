@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Ztsjgg35
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Ztsjgg35.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Ztsjgg35.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Ztsjgg35.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/Ztsjgg35.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/Ztsjgg35.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/Ztsjgg35.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Schutz.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label           | aliases         | description                              | Wikidata QID                                               |
-    | :-------: | :-------------: | :-------------: | :--------------------------------------: | :--------------------------------------------------------: |
-    | Ztsjgg35  | Heinrich Schütz | Heinrich Schutz | German composer and organist (1585–1672) | [Heinrich Schütz](http://wwww.wikidata.org/entity/Q153643) |
+    | FAAM UUID | label           | aliases         | description                              | Wikidata QID                                          |
+    | :-------: | :-------------: | :-------------: | :--------------------------------------: | :---------------------------------------------------: |
+    | Ztsjgg35  | Heinrich Schütz | Heinrich Schutz | German composer and organist (1585–1672) | [Heinrich Schütz](http://wikidata.org/entity/Q153643) |
 
 <br><br><br>
 
@@ -59,7 +63,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/Ztsjgg35.html" height="800" width="1200" title="Ztsjgg35"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Ztsjgg35" height="800" width="1200" title="Ztsjgg35"></iframe>
 
 ## Identifiers
 
@@ -85,13 +89,33 @@ tags: agent
 
 -	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
 
-	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[3 Psalmen : für Doppelchor](./FK7nUCLe.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078508549707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078508549707356.gif){align=left width="150" height="150"} 
+
+	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Ach, Herr, straf mich nicht, SWV 24](./hBgFgCGz.md)__
+
+	
+
+-	__[Aus der Tiefe, SWV 25](./Hd5mxSyD.md)__
+
+	
+
+-	__[Singet dem Herrn ein neues Lied, SWV 35](./LPqkQpTY.md)__
+
+	
+
+-	__[Verba mea auribus percipe, SWV 61-62](./axx48hUo.md)__
 
 	
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 5rZmZPuR
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/5rZmZPuR.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/5rZmZPuR.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/5rZmZPuR.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/5rZmZPuR.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/5rZmZPuR.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/5rZmZPuR.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label          | aliases        | description                                  | Wikidata QID                                              |
-    | :-------: | :------------: | :------------: | :------------------------------------------: | :-------------------------------------------------------: |
-    | 5rZmZPuR  | Amédée Gastoué | Amedee Gastoue | French composer and musicologist (1873–1943) | [Amédée Gastoué](http://wwww.wikidata.org/entity/Q482177) |
+    | FAAM UUID | label          | aliases        | description                                  | Wikidata QID                                         |
+    | :-------: | :------------: | :------------: | :------------------------------------------: | :--------------------------------------------------: |
+    | 5rZmZPuR  | Amédée Gastoué | Amedee Gastoue | French composer and musicologist (1873–1943) | [Amédée Gastoué](http://wikidata.org/entity/Q482177) |
 
 <br><br><br>
 
@@ -41,6 +45,10 @@ tags: agent
 
 	- [human](./aJeJBesD.md)
 
+??? quote "instrument" 
+
+	- [pipe organ](./ARCBiyhQ.md)
+
 ??? quote "occupation" 
 
 	- [composer](./5aTYuVxp.md)
@@ -49,7 +57,7 @@ tags: agent
 
 	- [music teacher](./L7DPWnnr.md)
 
-	- [](./G3vxttWs.md)
+	- [opera vocal coach](./G3vxttWs.md)
 
 	- [organist](./ZhptKYF3.md)
 
@@ -71,7 +79,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/5rZmZPuR.html" height="800" width="1200" title="5rZmZPuR"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/5rZmZPuR" height="800" width="1200" title="5rZmZPuR"></iframe>
 
 ## Identifiers
 
@@ -97,8 +105,18 @@ tags: agent
 
 -	__[Traité d'Harmonisation du Chant Gregorien](./iMzLtaAv.md)__
 
-	![Image](../assets/images/thumbs/KCA-KGR9426.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-KGR9426.gif){align=left width="150" height="150"} 
 
 	
+
+</div>
+
+<div class="grid cards" markdown>
+
+-	__[Omer Létourneau](./VZbaoske.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Omer_Létourneau.jpg){align=left width="150" height="150"} 
+
+	Canadian musician (1891-1983)
 
 </div>

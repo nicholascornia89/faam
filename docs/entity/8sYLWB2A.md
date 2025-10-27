@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 8sYLWB2A
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/8sYLWB2A.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/8sYLWB2A.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/8sYLWB2A.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/8sYLWB2A.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/8sYLWB2A.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/8sYLWB2A.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Georg_Joseph_Vogler.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | aliases     | description                                                       | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :---------: | :---------------------------------------------------------------: | :------------------------------------------------------------: |
-    | 8sYLWB2A  | Georg Joseph Vogler | Abbé Vogler | German composer, organist, teacher and music theorist (1747–1814) | [Georg Joseph Vogler](http://wwww.wikidata.org/entity/Q708557) |
+    | FAAM UUID | label               | aliases     | description                                                       | Wikidata QID                                              |
+    | :-------: | :-----------------: | :---------: | :---------------------------------------------------------------: | :-------------------------------------------------------: |
+    | 8sYLWB2A  | Georg Joseph Vogler | Abbé Vogler | German composer, organist, teacher and music theorist (1747–1814) | [Georg Joseph Vogler](http://wikidata.org/entity/Q708557) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/8sYLWB2A.html" height="800" width="1200" title="8sYLWB2A"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/8sYLWB2A" height="800" width="1200" title="8sYLWB2A"></iframe>
 
 ## Identifiers
 
@@ -78,3 +82,19 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Giacomo Meyerbeer](./9pjEsA6m.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Meyerbeer_d'après_P._Petit_b_1865.jpg){align=left width="150" height="150"} 
+
+	German-French composer
+
+-	__[Bedřich Diviš Weber](./RU2NmzHK.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/D_weber.jpg){align=left width="150" height="150"} 
+
+	Czech music educator and composer (1766-1842)
+
+</div>

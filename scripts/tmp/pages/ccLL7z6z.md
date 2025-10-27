@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ccLL7z6z
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                     | aliases        | Wikidata QID                                     |
-    | :-------: | :-----: | :-----------------------------: | :------------: | :----------------------------------------------: |
-    | ccLL7z6z  | Palermo | Italian city, capital of Sicily | Palermo, Italy | [Palermo](http://wwww.wikidata.org/entity/Q2656) |
+    | FAAM UUID | label   | description                     | aliases        | Wikidata QID                                |
+    | :-------: | :-----: | :-----------------------------: | :------------: | :-----------------------------------------: |
+    | ccLL7z6z  | Palermo | Italian city, capital of Sicily | Palermo, Italy | [Palermo](http://wikidata.org/entity/Q2656) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/ccLL7z6z.html" height="800" width="1200" title="ccLL7z6z"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ccLL7z6z" height="800" width="1200" title="ccLL7z6z"></iframe>
 
 ## Identifiers
 
@@ -55,7 +59,7 @@ tags: city
 
 -	__[Matteo Palotta](./5Wmd7ExY.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -79,13 +83,13 @@ tags: city
 
 -	__[Michele Saladino](./7PfNF8jZ.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1835-1912)
 
 -	__[Giuseppe Amendola](./egcX2NfV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -97,13 +101,13 @@ tags: city
 
 -	__[Giuseppe Amendola](./egcX2NfV.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Vincenzo Amato](./aHRriDRP.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

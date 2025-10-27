@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: fc4uvVCJ
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/fc4uvVCJ.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/fc4uvVCJ.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/fc4uvVCJ.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/fc4uvVCJ.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/fc4uvVCJ.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/fc4uvVCJ.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis_Pierre_Martin_Norblin_by_Julien_Léopold_Boilly.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases                                     | description                      | Wikidata QID                                                     |
-    | :-------: | :------------------: | :-----------------------------------------: | :------------------------------: | :--------------------------------------------------------------: |
-    | fc4uvVCJ  | Louis-Pierre Norblin | Louis Pierre Martin Norblin de la Gourdaine | French cellist and music teacher | [Louis-Pierre Norblin](http://wwww.wikidata.org/entity/Q2477161) |
+    | FAAM UUID | label                | aliases                                     | description                      | Wikidata QID                                                |
+    | :-------: | :------------------: | :-----------------------------------------: | :------------------------------: | :---------------------------------------------------------: |
+    | fc4uvVCJ  | Louis-Pierre Norblin | Louis Pierre Martin Norblin de la Gourdaine | French cellist and music teacher | [Louis-Pierre Norblin](http://wikidata.org/entity/Q2477161) |
 
 <br><br><br>
 
@@ -63,7 +67,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/fc4uvVCJ.html" height="800" width="1200" title="fc4uvVCJ"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/fc4uvVCJ" height="800" width="1200" title="fc4uvVCJ"></iframe>
 
 ## Identifiers
 
@@ -84,3 +88,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Auguste Franchomme](./iX5H3tTM.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Auguste_Franchomme.png){align=left width="150" height="150"} 
+
+	French musician (1808-1884)
+
+</div>

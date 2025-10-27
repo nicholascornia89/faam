@@ -43,12 +43,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -83,8 +77,6 @@
 
         
         
-            <div id="config"></div>
-        
 
         <script type="text/javascript">
 
@@ -115,8 +107,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "c8HCuQ68", "label": "Partimenti ossia Basso numerato opera completa di Fedele Fenaroli, per uso degli alunni del Regal Conservatorio di Napoli a Niccola Zingarelli, maestro di S. Pietro in Roma, direttore del medesimo conservatorio dall\u0027editore dedicata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./c8HCuQ68.md\u0027\u003ePartimenti ossia Basso numerato opera completa di Fedele Fenaroli, per uso degli alunni del Regal Conservatorio di Napoli a Niccola Zingarelli, maestro di S. Pietro in Roma, direttore del medesimo conservatorio dall\u0027editore dedicata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-42984522m.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "PLoJjp9P", "label": "partimento", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PLoJjp9P.md\u0027\u003epartimento\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical exercise in contrapuntal improvisation of the 17th and 18th cents., generally played or written on a figured bass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
-                  edges = new vis.DataSet([{"from": "c8HCuQ68", "to": "PLoJjp9P", "width": 10}]);
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "PLoJjp9P", "label": "partimento", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PLoJjp9P\u0027\u003epartimento\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical exercise in contrapuntal improvisation of the 17th and 18th cents., generally played or written on a figured bass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "c8HCuQ68", "label": "Partimenti ossia Basso numerato opera completa di Fedele Fenaroli, per uso degli alunni del Regal Conservatorio di Napoli a Niccola Zingarelli, maestro di S. Pietro in Roma, direttore del medesimo conservatorio dall\u0027editore dedicata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/c8HCuQ68\u0027\u003ePartimenti ossia Basso numerato opera completa di Fedele Fenaroli, per uso degli alunni del Regal Conservatorio di Napoli a Niccola Zingarelli, maestro di S. Pietro in Roma, direttore del medesimo conservatorio dall\u0027editore dedicata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BNF-42984522m.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "PLoJjp9P", "to": "c8HCuQ68", "width": 10}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -127,15 +119,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);

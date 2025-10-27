@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mRF6cnDc
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | aliases                   | description                | Wikidata QID                                                          |
-    | :-------: | :--------------------------------: | :-----------------------: | :------------------------: | :-------------------------------------------------------------------: |
-    | mRF6cnDc  | Hungarian Rhapsody No.12, S.244/12 | Hungarian Rhapsody No. 12 | composition by Franz Liszt | [Hungarian Rhapsody No. 12](http://wwww.wikidata.org/entity/Q5942802) |
+    | FAAM UUID | label                              | aliases                   | description                | Wikidata QID                                                     |
+    | :-------: | :--------------------------------: | :-----------------------: | :------------------------: | :--------------------------------------------------------------: |
+    | mRF6cnDc  | Hungarian Rhapsody No.12, S.244/12 | Hungarian Rhapsody No. 12 | composition by Franz Liszt | [Hungarian Rhapsody No. 12](http://wikidata.org/entity/Q5942802) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/mRF6cnDc.html" height="800" width="1200" title="mRF6cnDc"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mRF6cnDc" height="800" width="1200" title="mRF6cnDc"></iframe>
 
 ## Identifiers
 
@@ -65,13 +69,13 @@ tags: musical_work
 
 -	__[Ungarische Rhapsodien Band 2](./kUKZ2wfP.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904702872.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904702872.gif){align=left width="150" height="150"} 
 
 	
 
 -	__[Ungarische Rhapsodie no. 12 : Klavier](./d3mbUQHo.md)__
 
-	![Image](../assets/images/thumbs/KCA-030904692388.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030904692388.gif){align=left width="150" height="150"} 
 
 	
 

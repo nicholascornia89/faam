@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 6vuSuwrv
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/6vuSuwrv.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/6vuSuwrv.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/6vuSuwrv.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/6vuSuwrv.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/6vuSuwrv.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/6vuSuwrv.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Daussoigne-Mehul,_PA00732.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                   | aliases                 | description                 | Wikidata QID                                                        |
-    | :-------: | :---------------------: | :---------------------: | :-------------------------: | :-----------------------------------------------------------------: |
-    | 6vuSuwrv  | Joseph Daussoigne-Méhul | Joseph Daussoigne-Mehul | French composer (1790-1875) | [Joseph Daussoigne-Méhul](http://wwww.wikidata.org/entity/Q1706833) |
+    | FAAM UUID | label                   | aliases                 | description                 | Wikidata QID                                                   |
+    | :-------: | :---------------------: | :---------------------: | :-------------------------: | :------------------------------------------------------------: |
+    | 6vuSuwrv  | Joseph Daussoigne-Méhul | Joseph Daussoigne-Mehul | French composer (1790-1875) | [Joseph Daussoigne-Méhul](http://wikidata.org/entity/Q1706833) |
 
 <br><br><br>
 
@@ -65,7 +69,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/6vuSuwrv.html" height="800" width="1200" title="6vuSuwrv"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/6vuSuwrv" height="800" width="1200" title="6vuSuwrv"></iframe>
 
 ## Identifiers
 
@@ -86,3 +90,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[César Franck](./iY78UHRF.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/César_Franck_by_Pierre_Petit.jpg){align=left width="150" height="150"} 
+
+	Belgian-French composer and organist (1822–1890)
+
+</div>

@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bRsuqnrj a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:EYwyMZ7c,
+        faamentity:nUZcuEdf ;
+    schema1:birthDate "1881-03-23"^^xsd:string ;
+    schema1:birthPlace faamentity:52tHQZy7 ;
+    schema1:deathDate "1962-05-27"^^xsd:string ;
+    schema1:deathPlace faamentity:HYYo8J7J ;
+    schema1:description "Dutch musician (1881-1962)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q728822>,
+        "15996008"^^xsd:string,
+        "bRsuqnrj"^^xsd:string ;
+    schema1:nationality faamentity:CGf6bUWt,
+        faamentity:RLM4EQQP,
+        faamentity:hvMhmZAp,
+        faamentity:mV38LJ7u ;
+    skos:altLabel "Egon Petri"^^xsd:string ;
+    skos:prefLabel "Egon Petri"^^xsd:string ;
+    wd:P108 faamentity:e8u6MvuW ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12492447 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/13544> ;
+    wd:P737 faamentity:2vdPrW4J ;
+    wd:P839 <https://imslp.org/wiki/Category:Petri,_Egon> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:9CVVGZdo,
+        faamentity:T6nAVeGM,
+        faamentity:ZhptKYF3 .
+

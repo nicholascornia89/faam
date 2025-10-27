@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: Y84cmbXC
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label  | description                    | aliases | Wikidata QID                                    |
-    | :-------: | :----: | :----------------------------: | :-----: | :---------------------------------------------: |
-    | Y84cmbXC  | Verona | city in Veneto, northern Italy |         | [Verona](http://wwww.wikidata.org/entity/Q2028) |
+    | FAAM UUID | label  | description                    | aliases | Wikidata QID                               |
+    | :-------: | :----: | :----------------------------: | :-----: | :----------------------------------------: |
+    | Y84cmbXC  | Verona | city in Veneto, northern Italy |         | [Verona](http://wikidata.org/entity/Q2028) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/Y84cmbXC.html" height="800" width="1200" title="Y84cmbXC"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/Y84cmbXC" height="800" width="1200" title="Y84cmbXC"></iframe>
 
 ## Identifiers
 
@@ -55,13 +59,13 @@ tags: city
 
 -	__[Vincenzo Ruffo](./eFsFUzo8.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer (1510-1587)
 
 -	__[Giammateo Asola](./Mvde8e4F.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
@@ -73,25 +77,25 @@ tags: city
 
 -	__[Biagio Rossetti](./996JYb4C.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian organist of the Renaissance
 
 -	__[Marc'Antonio Ingegneri](./DMSLG6R2.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 
 -	__[Dionisio Bellante](./D6ZQ2XXM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian violinist and composer
 
 -	__[Biagio Rossetti](./996JYb4C.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian organist of the Renaissance
 

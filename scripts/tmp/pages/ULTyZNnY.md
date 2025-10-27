@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ULTyZNnY
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description                                           | aliases           | Wikidata QID                                                    |
-    | :-------: | :-----------------: | :---------------------------------------------------: | :---------------: | :-------------------------------------------------------------: |
-    | ULTyZNnY  | court chapel master | court appointment; director of music at a royal court | director of music | [court chapel master](http://wwww.wikidata.org/entity/Q1002228) |
+    | FAAM UUID | label               | description                                           | aliases           | Wikidata QID                                               |
+    | :-------: | :-----------------: | :---------------------------------------------------: | :---------------: | :--------------------------------------------------------: |
+    | ULTyZNnY  | court chapel master | court appointment; director of music at a royal court | director of music | [court chapel master](http://wikidata.org/entity/Q1002228) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/ULTyZNnY.html" height="800" width="1200" title="ULTyZNnY"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ULTyZNnY" height="800" width="1200" title="ULTyZNnY"></iframe>
 
 ## Cross-references
 
@@ -37,7 +41,7 @@ tags: occupation
 
 -	__[François-Joseph Fétis](./koReuX6g.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francois_joseph_fetis.jpg){align=left width="150" height="150"} 
 
 	Belgian composer (1784-1871)
 

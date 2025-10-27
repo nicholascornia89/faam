@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: PztogCkE
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases                                | description                          | Wikidata QID                                           |
-    | :-------: | :--------: | :------------------------------------: | :----------------------------------: | :----------------------------------------------------: |
-    | PztogCkE  | Cinderella | Cinderella or the little glass slipper | 1697 short story by Charles Perrault | [Cinderella](http://wwww.wikidata.org/entity/Q2944224) |
+    | FAAM UUID | label      | aliases                                | description                          | Wikidata QID                                      |
+    | :-------: | :--------: | :------------------------------------: | :----------------------------------: | :-----------------------------------------------: |
+    | PztogCkE  | Cinderella | Cinderella or the little glass slipper | 1697 short story by Charles Perrault | [Cinderella](http://wikidata.org/entity/Q2944224) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: musical_work
 
 !!! quote "form of creative work" 
 
-	- [short story](http://www.wikidata.org/entity/Q49084)
+	- [short story](Q49084)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/PztogCkE.html" height="800" width="1200" title="PztogCkE"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/PztogCkE" height="800" width="1200" title="PztogCkE"></iframe>
 
 ## Identifiers
 

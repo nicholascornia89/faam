@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5RMqe6BR a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "British composer, teacher and historian (1848–1918)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q354250>,
+        "0"^^xsd:string,
+        "5RMqe6BR"^^xsd:string ;
+    skos:altLabel "C. Hubert H. Parry"^^xsd:string,
+        "Charles Hubert Parry"^^xsd:string,
+        "Sir Charles Hubert Hastings Parry"^^xsd:string,
+        "Sir Charles Hubert Hastings Parry, 1st Bt."^^xsd:string ;
+    skos:prefLabel "Hubert Parry"^^xsd:string ;
+    wd:P108 faamentity:M5vog5yS ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:88076046 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Parry,_Charles_Hubert_Hastings> .
+

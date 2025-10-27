@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: n3DCDSd4
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | description                         | aliases  | Wikidata QID                                       |
-    | :-------: | :-------: | :---------------------------------: | :------: | :------------------------------------------------: |
-    | n3DCDSd4  | Nuremberg | city in the German state of Bavaria | Nürnberg | [Nuremberg](http://wwww.wikidata.org/entity/Q2090) |
+    | FAAM UUID | label     | description                         | aliases  | Wikidata QID                                  |
+    | :-------: | :-------: | :---------------------------------: | :------: | :-------------------------------------------: |
+    | n3DCDSd4  | Nuremberg | city in the German state of Bavaria | Nürnberg | [Nuremberg](http://wikidata.org/entity/Q2090) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/n3DCDSd4.html" height="800" width="1200" title="n3DCDSd4"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/n3DCDSd4" height="800" width="1200" title="n3DCDSd4"></iframe>
 
 ## Identifiers
 

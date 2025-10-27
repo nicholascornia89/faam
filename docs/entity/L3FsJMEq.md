@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: L3FsJMEq
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label     | aliases                                               | description                    | Wikidata QID                                         |
-    | :-------: | :-------: | :---------------------------------------------------: | :----------------------------: | :--------------------------------------------------: |
-    | L3FsJMEq  | Ave Maria | Méditation sur le Premier Prélude de Piano de S. Bach | composition by Bach and Gounod | [Ave Maria](http://wwww.wikidata.org/entity/Q790310) |
+    | FAAM UUID | label     | aliases                                               | description                    | Wikidata QID                                    |
+    | :-------: | :-------: | :---------------------------------------------------: | :----------------------------: | :---------------------------------------------: |
+    | L3FsJMEq  | Ave Maria | Méditation sur le Premier Prélude de Piano de S. Bach | composition by Bach and Gounod | [Ave Maria](http://wikidata.org/entity/Q790310) |
 
 <br><br><br>
 
@@ -41,15 +45,15 @@ tags: musical_work
 
 ??? quote "based on" 
 
-	- [](./CC7G8fJQ.md)
+	- [Prelude and Fugue in C major, BWV 846](./CC7G8fJQ.md)
 
-	- [](./BiuPhV5S.md)
+	- [Hail Mary](./BiuPhV5S.md)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/L3FsJMEq.html" height="800" width="1200" title="L3FsJMEq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/L3FsJMEq" height="800" width="1200" title="L3FsJMEq"></iframe>
 
 ## Identifiers
 
@@ -71,7 +75,7 @@ tags: musical_work
 
 -	__[Convoluut Dubar B319](./VYJpRxFp.md)__
 
-	![Image](../assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/KCA-030902518940.gif){align=left width="150" height="150"} 
 
 	
 

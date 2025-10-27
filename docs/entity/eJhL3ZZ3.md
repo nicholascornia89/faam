@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: eJhL3ZZ3
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000344414/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/eJhL3ZZ3.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/eJhL3ZZ3.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/eJhL3ZZ3.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000344414/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/eJhL3ZZ3.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/eJhL3ZZ3.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/eJhL3ZZ3.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000344414.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000344414.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                            | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :--------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | eJhL3ZZ3  | KCG-000344414         | Premier Concerto : Pour le Piano avec Accompagnement d'Orchestre | [external URL](2qoBxv5j) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                            | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | eJhL3ZZ3  | KCG-000344414         | Premier Concerto : Pour le Piano avec Accompagnement d'Orchestre | [external URL](https://catalogus.hogent.be/catalog/hog01:000344414) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -92,10 +96,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/eJhL3ZZ3.html" height="800" width="1200" title="eJhL3ZZ3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/eJhL3ZZ3" height="800" width="1200" title="eJhL3ZZ3"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/eJhL3ZZ3.html" height="800" width="1200" title="eJhL3ZZ3"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/eJhL3ZZ3" height="800" width="1200" title="eJhL3ZZ3"></iframe>

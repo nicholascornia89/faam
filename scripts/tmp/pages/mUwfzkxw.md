@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mUwfzkxw
 
 tags: manifestation
@@ -17,15 +21,15 @@ tags: manifestation
 
 ---
 
-[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000350255/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/mUwfzkxw.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/mUwfzkxw.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/mUwfzkxw.csv){.md-button}
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000350255/images/){.md-button} [JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/mUwfzkxw.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/mUwfzkxw.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/mUwfzkxw.csv){.md-button}
 
-<img style="float: left;" src="../assets/images/thumbs/KCG-000350255.gif" width="250" height="200">
+<img style="float: left;" src="https://nicholascornia89.github.io/faam/assets/images/thumbs/KCG-000350255.gif" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | FAAM manifestation ID | title                                                                                        | permalink                | provenance                                         |
-    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------: | :----------------------: | :------------------------------------------------: |
-    | mUwfzkxw  | KCG-000350255         | Dernier Concerto : pour Piano, avec Accompagnement d'Orchestre : N° 1. des Oeuvres Posthumes | [external URL](D6RjeTWv) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
+    | FAAM UUID | FAAM manifestation ID | title                                                                                        | permalink                                                           | provenance                                         |
+    | :-------: | :-------------------: | :------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------: |
+    | mUwfzkxw  | KCG-000350255         | Dernier Concerto : pour Piano, avec Accompagnement d'Orchestre : N° 1. des Oeuvres Posthumes | [external URL](https://catalogus.hogent.be/catalog/hog01:000350255) | [Library Royal Conservatoire Ghent](./7jH33jwQ.md) |
 
 ## Statements
 
@@ -72,10 +76,10 @@ tags: manifestation
 
 ---
 
-<iframe src="../network/mUwfzkxw.html" height="800" width="1200" title="mUwfzkxw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mUwfzkxw" height="800" width="1200" title="mUwfzkxw"></iframe>
 
 ## Digital Score
 
 ---
 
-<iframe src="../carousel/mUwfzkxw.html" height="800" width="1200" title="mUwfzkxw"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/carousel/mUwfzkxw" height="800" width="1200" title="mUwfzkxw"></iframe>

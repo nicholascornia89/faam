@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: MBCTh4Kb
 
 tags: music_organization
@@ -19,9 +23,9 @@ tags: music_organization
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label               | description | aliases             | Wikidata QID                                                   |
-    | :-------: | :-----------------: | :---------: | :-----------------: | :------------------------------------------------------------: |
-    | MBCTh4Kb  | Wiener Singakademie | choir       | Wiener Singakademie | [Wiener Singakademie](http://wwww.wikidata.org/entity/Q876777) |
+    | FAAM UUID | label               | description | aliases             | Wikidata QID                                              |
+    | :-------: | :-----------------: | :---------: | :-----------------: | :-------------------------------------------------------: |
+    | MBCTh4Kb  | Wiener Singakademie | choir       | Wiener Singakademie | [Wiener Singakademie](http://wikidata.org/entity/Q876777) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: music_organization
 
 ---
 
-<iframe src="../network/MBCTh4Kb.html" height="800" width="1200" title="MBCTh4Kb"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/MBCTh4Kb" height="800" width="1200" title="MBCTh4Kb"></iframe>
 
 ## Cross-references
 

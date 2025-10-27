@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: 2K5yLv7j
 
 tags: musical_work
@@ -19,9 +23,9 @@ tags: musical_work
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
-    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
-    | 2K5yLv7j  | Keyboard Sonata in A major, K.369 | Keyboard Sonata in A major, L.240 | sonata by Domenico Scarlatti | [Sonata K. 369](http://wwww.wikidata.org/entity/Q78243690) |
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                          |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :---------------------------------------------------: |
+    | 2K5yLv7j  | Keyboard Sonata in A major, K.369 | Keyboard Sonata in A major, L.240 | sonata by Domenico Scarlatti | [Sonata K. 369](http://wikidata.org/entity/Q78243690) |
 
 <br><br><br>
 
@@ -47,7 +51,7 @@ tags: musical_work
 
 ---
 
-<iframe src="../network/2K5yLv7j.html" height="800" width="1200" title="2K5yLv7j"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/2K5yLv7j" height="800" width="1200" title="2K5yLv7j"></iframe>
 
 ## Identifiers
 
@@ -69,7 +73,7 @@ tags: musical_work
 
 -	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
 
-	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
 
 	
 

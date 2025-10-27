@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: c45EE2BL
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/c45EE2BL.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/c45EE2BL.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/c45EE2BL.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/c45EE2BL.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/c45EE2BL.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/c45EE2BL.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adam_Liszt.jpg" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label      | aliases     | description           | Wikidata QID                                          |
-    | :-------: | :--------: | :---------: | :-------------------: | :---------------------------------------------------: |
-    | c45EE2BL  | Adam Liszt | Adamus List | father of Franz Liszt | [Adam Liszt](http://wwww.wikidata.org/entity/Q350325) |
+    | FAAM UUID | label      | aliases     | description           | Wikidata QID                                     |
+    | :-------: | :--------: | :---------: | :-------------------: | :----------------------------------------------: |
+    | c45EE2BL  | Adam Liszt | Adamus List | father of Franz Liszt | [Adam Liszt](http://wikidata.org/entity/Q350325) |
 
 <br><br><br>
 
@@ -57,7 +61,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/c45EE2BL.html" height="800" width="1200" title="c45EE2BL"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/c45EE2BL" height="800" width="1200" title="c45EE2BL"></iframe>
 
 ## Identifiers
 
@@ -70,3 +74,13 @@ tags: agent
 ## Cross-references
 
 ---
+
+<div class="grid cards" markdown>
+
+-	__[Franz Liszt](./6iVvX3mY.md)__
+
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Liszt_1858.jpg){align=left width="150" height="150"} 
+
+	Hungarian romantic composer and virtuoso pianist (1811–1886)
+
+</div>

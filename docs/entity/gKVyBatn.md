@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: gKVyBatn
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label | description              | aliases | Wikidata QID                                   |
-    | :-------: | :---: | :----------------------: | :-----: | :--------------------------------------------: |
-    | gKVyBatn  | Piran | coastal town of Slovenia | Pirano  | [Piran](http://wwww.wikidata.org/entity/Q1382) |
+    | FAAM UUID | label | description              | aliases | Wikidata QID                              |
+    | :-------: | :---: | :----------------------: | :-----: | :---------------------------------------: |
+    | gKVyBatn  | Piran | coastal town of Slovenia | Pirano  | [Piran](http://wikidata.org/entity/Q1382) |
 
 <br><br><br>
 
@@ -31,13 +35,13 @@ tags: city
 
 !!! quote "country" 
 
-	- [Slovenia](http://www.wikidata.org/entity/Q215)
+	- [Slovenia](Q215)
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/gKVyBatn.html" height="800" width="1200" title="gKVyBatn"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/gKVyBatn" height="800" width="1200" title="gKVyBatn"></iframe>
 
 ## Identifiers
 

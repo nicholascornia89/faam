@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:45qa8gkh a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Bt83smaN ;
+    schema1:birthDate "1863-12-07"^^xsd:string ;
+    schema1:birthPlace faamentity:kW5V4cox ;
+    schema1:deathDate "1945-08-02"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian composer known for operas (1863–1945)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q181894>,
+        "16005333"^^xsd:string,
+        "45qa8gkh"^^xsd:string ;
+    schema1:nationality faamentity:Fkfrx6rD ;
+    skos:altLabel "Mascagni"^^xsd:string,
+        "Pietro Mascagni"^^xsd:string ;
+    skos:prefLabel "Pietro Mascagni"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12492045 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/84056> ;
+    wd:P737 faamentity:7PfNF8jZ,
+        faamentity:BXMYmonQ,
+        faamentity:QChw63qm ;
+    wd:P839 <https://imslp.org/wiki/Category:Mascagni,_Pietro> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi .
+

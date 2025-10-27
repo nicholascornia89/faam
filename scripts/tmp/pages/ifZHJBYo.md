@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: ifZHJBYo
 
 tags: keyword
@@ -19,9 +23,9 @@ tags: keyword
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                              | description                  | aliases | Wikidata QID                                                                    |
-    | :-------: | :--------------------------------: | :--------------------------: | :-----: | :-----------------------------------------------------------------------------: |
-    | ifZHJBYo  | single clarinets with conical bore | class of musical instruments |         | [single clarinets with conical bore](http://wwww.wikidata.org/entity/Q55738874) |
+    | FAAM UUID | label                              | description                  | aliases | Wikidata QID                                                               |
+    | :-------: | :--------------------------------: | :--------------------------: | :-----: | :------------------------------------------------------------------------: |
+    | ifZHJBYo  | single clarinets with conical bore | class of musical instruments |         | [single clarinets with conical bore](http://wikidata.org/entity/Q55738874) |
 
 <br><br><br>
 
@@ -29,7 +33,7 @@ tags: keyword
 
 ---
 
-<iframe src="../network/ifZHJBYo.html" height="800" width="1200" title="ifZHJBYo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/ifZHJBYo" height="800" width="1200" title="ifZHJBYo"></iframe>
 
 ## Cross-references
 

@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: mGWMWMfo
 
 tags: occupation
@@ -19,15 +23,15 @@ tags: occupation
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description                   | aliases | Wikidata QID                                        |
-    | :-------: | :-----: | :---------------------------: | :-----: | :-------------------------------------------------: |
-    | mGWMWMfo  | painter | artist who practices painting |         | [painter](http://wwww.wikidata.org/entity/Q1028181) |
+    | FAAM UUID | label   | description                   | aliases | Wikidata QID                                   |
+    | :-------: | :-----: | :---------------------------: | :-----: | :--------------------------------------------: |
+    | mGWMWMfo  | painter | artist who practices painting |         | [painter](http://wikidata.org/entity/Q1028181) |
 
 ## Knowledge graph
 
 ---
 
-<iframe src="../network/mGWMWMfo.html" height="800" width="1200" title="mGWMWMfo"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/mGWMWMfo" height="800" width="1200" title="mGWMWMfo"></iframe>
 
 ## Cross-references
 
@@ -43,7 +47,7 @@ tags: occupation
 
 -	__[Giovanni Briccio](./BGgBiHmg.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian painter, playwright and musician (1579-1645)
 
@@ -67,7 +71,7 @@ tags: occupation
 
 -	__[Hoste da Reggio](./ccZ9WqmM.md)__
 
-	![Image](../assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/faam-logo-gold.png){align=left width="150" height="150"} 
 
 	Italian composer
 

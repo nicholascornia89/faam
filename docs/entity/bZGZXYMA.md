@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: bZGZXYMA
 
 tags: agent
@@ -21,15 +25,15 @@ tags: agent
 
 ---
 
-[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/bZGZXYMA.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/bZGZXYMA.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/bZGZXYMA.csv){.md-button}
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/bZGZXYMA.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/bZGZXYMA.ttl){.md-button} [CSV :material-table:](https://nicholascornia89.github.io/faam/csv/bZGZXYMA.csv){.md-button}
 
 <img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label                | aliases              | description                   | Wikidata QID                                                      |
-    | :-------: | :------------------: | :------------------: | :---------------------------: | :---------------------------------------------------------------: |
-    | bZGZXYMA  | Louis-César Desormes | Louis-César Desormes | French composer and conductor | [Louis-César Desormes](http://wwww.wikidata.org/entity/Q21029908) |
+    | FAAM UUID | label                | aliases              | description                   | Wikidata QID                                                 |
+    | :-------: | :------------------: | :------------------: | :---------------------------: | :----------------------------------------------------------: |
+    | bZGZXYMA  | Louis-César Desormes | Louis-César Desormes | French composer and conductor | [Louis-César Desormes](http://wikidata.org/entity/Q21029908) |
 
 <br><br><br>
 
@@ -51,7 +55,7 @@ tags: agent
 
 ---
 
-<iframe src="../network/bZGZXYMA.html" height="800" width="1200" title="bZGZXYMA"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/bZGZXYMA" height="800" width="1200" title="bZGZXYMA"></iframe>
 
 ## Identifiers
 
@@ -73,7 +77,7 @@ tags: agent
 
 -	__[En revenant de la revue. Marche, Polka](./MsqFvDrJ.md)__
 
-	![Image](../assets/images/thumbs/ORP-20143702p10.gif){align=left width="150" height="150"} 
+	![Image](https://nicholascornia89.github.io/faam/assets/images/thumbs/ORP-20143702p10.gif){align=left width="150" height="150"} 
 
 	
 

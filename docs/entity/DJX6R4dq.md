@@ -6,6 +6,10 @@ hide:
 
 - toc
 
+search:
+
+ boost: 2
+
 title: DJX6R4dq
 
 tags: city
@@ -19,9 +23,9 @@ tags: city
 
 !!! abstract "metadata" 
 
-    | FAAM UUID | label   | description           | aliases | Wikidata QID                                     |
-    | :-------: | :-----: | :-------------------: | :-----: | :----------------------------------------------: |
-    | DJX6R4dq  | Catania | city in Sicily, Italy |         | [Catania](http://wwww.wikidata.org/entity/Q1903) |
+    | FAAM UUID | label   | description           | aliases | Wikidata QID                                |
+    | :-------: | :-----: | :-------------------: | :-----: | :-----------------------------------------: |
+    | DJX6R4dq  | Catania | city in Sicily, Italy |         | [Catania](http://wikidata.org/entity/Q1903) |
 
 <br><br><br>
 
@@ -37,7 +41,7 @@ tags: city
 
 ---
 
-<iframe src="../network/DJX6R4dq.html" height="800" width="1200" title="DJX6R4dq"></iframe>
+<iframe src="https://nicholascornia89.github.io/faam/network/DJX6R4dq" height="800" width="1200" title="DJX6R4dq"></iframe>
 
 ## Identifiers
 
@@ -61,7 +65,7 @@ tags: city
 
 -	__[Vincenzo Bellini](./FzuLDZCr.md)__
 
-	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/6/6f/Lucchini-Bellini.jpg){align=left width="150" height="150"} 
+	![Image](https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lucchini-Bellini.jpg){align=left width="150" height="150"} 
 
 	Italian opera composer (1801–1835)
 
