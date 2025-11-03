@@ -6,6 +6,12 @@ hide:
 
 # Publications
 
+## Knowledge base
+
+The whole FAAM database is available in JSON and Turtle RDF format.
+
+[JSON :material-code-json:](https://nicholascornia89.github.io/faam/json/faam_kb-2025.json){.md-button} [RDF Turtle :material-cable-data:](https://nicholascornia89.github.io/faam/rdf/faam_kb-2025.ttl){.md-button}
+
 ## Datasets
 
 Cornia, Nicholas. 2025. “Echos Du Temps Passé.” Version 1.0. With Viktor Lazarov. Zenodo, September 12. [https://doi.org/10.5281/zenodo.17105463](https://doi.org/10.5281/zenodo.17105463).
